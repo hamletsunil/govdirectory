@@ -1,1 +1,1036 @@
-{"schema_version":"5.0","normalized_at":"2026-02-10T14:21:49.317423","identity":{"name":"Naperville","state":"IL","fips_state":"17","fips_place":"51622","population":149089},"city_website":"https://www.naperville.il.us","economy":{"median_household_income":143754,"median_home_value":482600,"unemployment_rate":4.3,"unemployment_data_level":"county","labor_force":518536,"employed":496164,"unemployed":22372,"gini_index":null,"poverty_rate":4.33,"homeownership_rate":74.39,"rent_to_income_ratio":14.92,"home_value_to_income_ratio":3.36,"price_to_rent_ratio":22.51,"effective_tax_rate":24.8678,"population_growth_cagr":0.4756,"median_real_estate_taxes":10001},"safety":{"violent_crime_rate":null,"property_crime_rate":null,"murder_rate":null,"robbery_rate":null,"burglary_rate":null,"vehicle_theft_rate":null,"total_crime_rate":null,"crime_trend":null,"crime_data_level":null},"education":{"total_schools":4432,"total_enrollment":1852242,"pupil_teacher_ratio":13.8,"title1_pct":0.0,"charter_pct":3.1,"regular_schools":3881,"avg_school_rating":6.9,"rated_schools":10,"school_quality_tier":"good"},"environment":{"pm25_mean":10.0745,"ozone_mean":0.0475,"total_disasters":16,"avg_disasters_per_decade":2.3,"most_recent_disaster":"2020-03-26","most_recent_disaster_type":"Biological","disasters_by_type":{"Flood":4,"Snowstorm":4,"Severe Storm":4,"Biological":2,"Hurricane":1,"Tornado":1}},"housing":{"median_rent":1787,"housing_units":56310,"fmr_0br":1480,"fmr_1br":1581,"fmr_2br":1781,"fmr_3br":2294,"fmr_4br":2653,"rent_burden_ratio":14.9,"cost_burdened_pct":35.5,"severely_burdened_pct":18.65},"governance":{"legislative_volume":10937,"legislative_velocity":471.4,"committee_count":23,"years_of_legislative_data":23.2,"has_public_meetings":true,"api_accessible":true,"matter_types":{"Report":526,"Procurement Award":118,"Ordinance":112,"Minutes":47,"Procurement Change Order":43,"Public Hearing":41,"Presentation":23,"Resolution":20,"Meeting Schedule":18,"Proclamation":12,"Appointment":11,"Cash Disbursements":8,"Extension of Agreement":7,"Public Improvements":6,"Petitioner Request":5,"Funding Amounts":2,"Permit":1},"top_matter_type":"Report","matter_statuses":{"Agenda Ready":601,"Passed":354,"Filed":18,"Approved":9,"Tabled":6,"Held":6,"Referred":5,"Failed":1},"pass_rate":33.3,"passed_count":3645,"active_council_members":9,"avg_tenure_years":2.1,"vote_coverage_pct":3.7,"video_availability_pct":0.0,"agenda_availability_pct":93.6,"minutes_availability_pct":81.6,"avg_meetings_per_month":14.5,"meetings_by_year":{"2026":21,"2025":182,"2024":165,"2023":132},"avg_sponsors_per_matter":0.0,"avg_attachments_per_matter":0.2,"pct_with_text_versions":100.0,"index_categories":[],"has_accela":false,"accela_agency_id":null},"development":{"permits_12mo":null,"yoy_trend_pct":null,"avg_permit_value":null,"permit_types":{},"datasets_count":0},"meetings":{"official_channels":1,"meetings_indexed":6,"avg_meetings_per_month":2.0,"has_video_archive":true,"meeting_types":{"city_council":5,"other":1},"transcripts_available":0},"civic_issues":{"total_issues":25,"issues_last_30d":0,"issues_last_365d":0,"resolution_rate":36.0,"top_issue_type":"Unknown","type_distribution":{"Unknown":16},"has_civic_issue_tracking":true},"demographics":{"population":149089,"poverty_universe":146563,"employment_universe":117084},"time_series":{"economy_history":[{"year":2024,"unemployment_rate":4.3,"labor_force":518536,"employed":496164,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2023,"unemployment_rate":3.53,"labor_force":505426,"employed":487570,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2022,"unemployment_rate":3.74,"labor_force":500451,"employed":481761,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2021,"unemployment_rate":4.77,"labor_force":479023,"employed":456220,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2020,"unemployment_rate":8.2,"labor_force":472751,"employed":434212,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2019,"unemployment_rate":3.17,"labor_force":495023,"employed":479363,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2018,"unemployment_rate":3.34,"labor_force":494745,"employed":478178,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2017,"unemployment_rate":4.2,"labor_force":496730,"employed":475876,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2016,"unemployment_rate":5.06,"labor_force":499265,"employed":473937,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2015,"unemployment_rate":4.83,"labor_force":518023,"employed":493004,"data_level":"county","source":"bls_laus","is_partial_year":false}],"safety_history":[],"environment_history":[{"year":2023,"pm25_mean":10.0745,"ozone_mean":0.0475,"data_level":"county","source":"epa_aqs"},{"year":2022,"pm25_mean":8.6899,"ozone_mean":0.0425,"data_level":"county","source":"epa_aqs"},{"year":2021,"pm25_mean":9.7779,"ozone_mean":0.0449,"data_level":"county","source":"epa_aqs"},{"year":2020,"pm25_mean":9.1761,"ozone_mean":0.0426,"data_level":"county","source":"epa_aqs"},{"year":2019,"pm25_mean":10.2406,"ozone_mean":0.0422,"data_level":"county","source":"epa_aqs"},{"year":2018,"pm25_mean":10.5548,"ozone_mean":0.0447,"data_level":"county","source":"epa_aqs"}]},"data_sources":{"legistar":"available","socrata":"available","census_acs":"available","arcgis":"available","fbi_ucr":"available","socrata_crime":"available","bls_laus":"available","ca_edd":"skipped","epa_aqs":"available","nces_ccd":"available","hud_fmr":"available","fema_openfema":"available","greatschools":"available","permits":"skipped","youtube_meetings":"available","seeclickfix":"available","accela":"available"},"provenance":{"last_full_probe":"2026-02-10T07:50:07.003553","sources":{"legistar":{"authority":"Legistar by Granicus","authority_tier":1,"api_url":"https://webapi.legistar.com/v1/naperville/Bodies","probed_at":"2026-02-10T07:50:07.004825","data_vintage":"2017\u20132026","geographic_level":"place","status":"available"},"socrata":{"authority":"City Open Data Portals (Socrata/Tyler Data & Insights)","authority_tier":1,"api_url":null,"probed_at":"2026-02-10T07:51:32.360777","data_vintage":null,"geographic_level":"place","status":"available"},"census_acs":{"authority":"US Census Bureau","authority_tier":1,"api_url":"https://api.census.gov/data/2022/acs/acs5?get=NAME,B01001_001E,B19013_001E,B25077_001E,B25064_001E,B25001_001E&for=place:51622&in=state:17","probed_at":"2026-02-10T07:52:24.157636","data_vintage":"ACS 5-Year 2022","geographic_level":"place","status":"available"},"arcgis":{"authority":"City ArcGIS/GIS Portals","authority_tier":1,"api_url":null,"probed_at":"2026-02-10T07:52:27.587560","data_vintage":null,"geographic_level":"place","status":"available"},"fbi_ucr":{"authority":"FBI Uniform Crime Reporting Program","authority_tier":1,"api_url":"https://api.usa.gov/crime/fbi/sapi/api/estimates/states/IL/2015/2022","probed_at":"2026-02-10T07:52:28.575456","data_vintage":null,"geographic_level":"state","status":"available"},"bls_laus":{"authority":"Bureau of Labor Statistics","authority_tier":1,"api_url":"https://api.bls.gov/publicAPI/v2/timeseries/data/LAUST170000000000003","probed_at":"2026-02-10T07:52:28.741877","data_vintage":"LAUS 2024","geographic_level":"state","status":"available"},"epa_aqs":{"authority":"US Environmental Protection Agency","authority_tier":1,"api_url":"https://aqs.epa.gov/data/api/annualData/byState?state=17&param=88101","probed_at":"2026-02-10T07:52:29.819973","data_vintage":"AQS 2023","geographic_level":"state","status":"available"},"nces_ccd":{"authority":"National Center for Education Statistics","authority_tier":1,"api_url":"https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=17","probed_at":"2026-02-10T07:52:41.034634","data_vintage":"2022-2023 academic year","geographic_level":"state","status":"available"},"hud_fmr":{"authority":"US Department of Housing and Urban Development","authority_tier":1,"api_url":"https://www.huduser.gov/hudapi/public/fmr/statedata/IL","probed_at":"2026-02-10T07:52:50.918239","data_vintage":"FY2026","geographic_level":"state","status":"available"},"fema_openfema":{"authority":"Federal Emergency Management Agency","authority_tier":1,"api_url":"https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries?$filter=state eq 'IL'","probed_at":"2026-02-10T07:52:51.572625","data_vintage":"1953-present","geographic_level":"state","status":"available"},"greatschools":{"authority":"GreatSchools.org (nonprofit)","authority_tier":3,"api_url":null,"probed_at":"2026-02-10T07:52:51.822946","data_vintage":null,"geographic_level":"place","status":"available"},"permits":{"authority":"City Open Data Portals (Socrata)","authority_tier":1,"api_url":null,"probed_at":"2026-02-10T07:52:52.290512","data_vintage":null,"geographic_level":"place","status":"skipped"},"youtube_meetings":{"authority":"YouTube (via SerpAPI search + youtube-transcript-api)","authority_tier":3,"api_url":null,"probed_at":"2026-02-10T07:52:52.290858","data_vintage":null,"geographic_level":"place","status":"available"},"seeclickfix":{"authority":"SeeClickFix (civic issue tracking platform)","authority_tier":3,"api_url":"https://seeclickfix.com/api/v2/issues?place_url=naperville","probed_at":"2026-02-10T07:53:27.809043","data_vintage":null,"geographic_level":"place","status":"available"},"accela":{"authority":"Accela (permit management platform)","authority_tier":3,"api_url":"https://apis.accela.com/v4/agencies","probed_at":"2026-02-10T07:53:53.842894","data_vintage":null,"geographic_level":"place","status":"available"},"socrata_crime":{"authority":"City Open Data Portals (Socrata)","authority_tier":1,"api_url":null,"probed_at":"2026-02-10T07:52:28.741325","data_vintage":null,"geographic_level":"place","status":"available"}},"derived_fields":{"safety.total_crime_rate":{"formula":"violent_crime_rate + property_crime_rate","inputs":["safety.violent_crime_rate","safety.property_crime_rate"],"formula_location":"score/normalizer.py:_derive_total_crime","authority_tier":2},"safety.crime_trend":{"formula":"(last_year_rate - first_year_rate) / years_span","inputs":["fbi.time_series[].violent_crime_rate"],"formula_location":"score/normalizer.py:_build_safety","authority_tier":2},"education.school_quality_tier":{"formula":"excellent if avg>=8, good if avg>=6, fair if avg>=4, else poor","inputs":["education.avg_school_rating"],"formula_location":"score/normalizer.py:_build_education","authority_tier":3},"environment.avg_disasters_per_decade":{"formula":"total_disasters / (years_span / 10)","inputs":["environment.total_disasters"],"formula_location":"probe/fema_probe.py","authority_tier":2},"housing.rent_burden_ratio":{"formula":"(fmr_2br * 12) / median_household_income * 100","inputs":["housing.fmr_2br","economy.median_household_income"],"formula_location":"score/normalizer.py:_build_housing","authority_tier":2},"governance.legislative_velocity":{"formula":"legislative_volume / years_of_legislative_data","inputs":["governance.legislative_volume","governance.years_of_legislative_data"],"formula_location":"score/normalizer.py:_build_governance","authority_tier":2},"development.yoy_trend_pct":{"formula":"(current_year - prior_year) / prior_year * 100","inputs":["permit data from Socrata"],"formula_location":"probe/permits_probe.py","authority_tier":2}},"geographic_mismatches":[{"field":"identity.fips_state","source_level":"state","profile_level":"place","note":"state-level data applied to city profile"},{"field":"economy.unemployment_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Reflects statewide unemployment, not city-specific rate"},{"field":"economy.labor_force","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: This is the full state labor force, not city-level"},{"field":"economy.employed","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"economy.unemployed","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.violent_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: City-level requires ORI codes not currently used"},{"field":"safety.property_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.murder_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.robbery_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.burglary_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.vehicle_theft_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.total_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA; derived sum"},{"field":"safety.crime_trend","source_level":"state","profile_level":"place","note":"state-level data applied to city profile"},{"field":"education.total_schools","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Count includes all schools in the state, not city"},{"field":"education.total_enrollment","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.pupil_teacher_ratio","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Average across all state schools"},{"field":"education.title1_pct","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.charter_pct","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.regular_schools","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.pm25_mean","source_level":"state","profile_level":"place","note":"STATE/COUNTY-LEVEL: Averaged across all monitors in the state"},{"field":"environment.ozone_mean","source_level":"state","profile_level":"place","note":"STATE/COUNTY-LEVEL"},{"field":"environment.total_disasters","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: All declarations for the state, not city-specific"},{"field":"environment.avg_disasters_per_decade","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.most_recent_disaster","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.most_recent_disaster_type","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"housing.fmr_0br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR: Fair Market Rents at state level, not city-specific metro area"},{"field":"housing.fmr_1br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_2br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_3br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_4br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.rent_burden_ratio","source_level":"mixed","profile_level":"place","note":"GEOGRAPHIC MISMATCH: FMR is state-level (HUD), income is city-level (Census). Ratio may be biased."}]},"data_quality":{"quality_score":100.0,"grade":"A","completeness_pct":100.0,"issue_count":7,"granularity_flags":3},"officials":{"body_name":"City Council","members":[{"name":"Ashfaq Syed","email":null,"title":"Councilman","start_date":"2025-05-04"},{"name":"Benjamin White","email":"whiteb@naperville.il.us","title":"Councilman","start_date":"2025-05-04"},{"name":"Ian Holzhauer","email":"HolzhauerI@naperville.il.us","title":"Councilman","start_date":"2025-05-04","committees":["Riverwalk Commission"]},{"name":"Josh McBroom","email":"mcbroomj@naperville.il.us","title":"Councilman","start_date":"2023-05-01","committees":["Financial Advisory Board","Transportation Advisory Board"]},{"name":"Mary Gibson","email":"gibsonm@naperville.il.us","title":"Councilwoman","start_date":"2025-05-04","committees":["Naper Settlement Museum Board"]},{"name":"Nathan Wilson","email":"wilsonn@naperville.il.us","title":"Councilman","start_date":"2023-05-01"},{"name":"Patrick Kelly","email":"kellyp@naperville.il.us","title":"Councilman","start_date":"2019-05-01","committees":["Historic Preservation Commission"]},{"name":"Scott Wehrli","email":"wehrlis@naperville.il.us","title":"Mayor","start_date":"2023-05-01","committees":["Liquor Commission","Naper Settlement Museum Board"]},{"name":"Supna Jain","email":"jains@naperville.il.us","title":"Councilwoman","start_date":"2025-09-16","committees":["Advisory Commission on Disabilities"]}]},"recent_meetings":[{"date":"2026-02-11","body":"Riverwalk Commission","location":"Meeting Room C","has_agenda":true,"agenda_url":"https://naperville.legistar1.com/naperville/meetings/2026/2/3552_A_Riverwalk_Commission_26-02-11_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-10","body":"Board of Fire and Police","location":"Meeting Room C","has_agenda":true,"agenda_url":"https://naperville.legistar1.com/naperville/meetings/2026/2/3618_A_Board_of_Fire_and_Police_26-02-10_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-05","body":"Liquor Commission","location":"Council Chambers","has_agenda":true,"agenda_url":"https://naperville.legistar1.com/naperville/meetings/2026/2/3731_A_Liquor_Commission_26-02-05_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-05","body":"Advisory Commission on Disabilities","location":"Meeting Room C","has_agenda":true,"agenda_url":"https://naperville.legistar1.com/naperville/meetings/2026/2/3612_A_Advisory_Commission_on_Disabilities_26-02-05_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-05","body":"Transportation Advisory Board","location":"Council Chambers","has_agenda":true,"agenda_url":"https://naperville.legistar1.com/naperville/meetings/2026/2/3691_A_Transportation_Advisory_Board_26-02-05_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-04","body":"Planning and Zoning Commission","location":"Council Chambers","has_agenda":true,"agenda_url":"https://naperville.legistar1.com/naperville/meetings/2026/2/3708_A_Planning_and_Zoning_Commission_26-02-04_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-03","body":"City Council","location":"Council Chambers","has_agenda":true,"agenda_url":"https://naperville.legistar1.com/naperville/meetings/2026/2/3576_A_City_Council_26-02-03_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-01-28","body":"Fire Pension Board","location":"Meeting Room C","has_agenda":false,"agenda_url":null,"has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-01-28","body":"SECA Commission","location":"Meeting Room C","has_agenda":true,"agenda_url":"https://naperville.legistar1.com/naperville/meetings/2026/1/3596_A_SECA_Commission_26-01-28_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-01-27","body":"Board of Fire and Police","location":"Meeting Room C","has_agenda":true,"agenda_url":"https://naperville.legistar1.com/naperville/meetings/2026/1/3617_A_Board_of_Fire_and_Police_26-01-27_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false}],"recent_legislation":[{"title":"Waive the first reading and pass the ordinance to remove the No Left Turn prohibition at the intersection of Chicago Ave. and Ellsworth St. (requires six positive votes)","type":"Ordinance","status":"Agenda Ready","intro_date":"2026-02-09","file_number":"26-0059B","passed_date":null},{"title":"Receive the monthly Park District report","type":"Report","status":"Agenda Ready","intro_date":"2026-02-06","file_number":"26-0168","passed_date":null},{"title":"Review and approve the Commissioners Award Nomination Form and Instructions for the 2026 Police CAPS Event","type":"Report","status":"Agenda Ready","intro_date":"2026-02-06","file_number":"26-0161","passed_date":null},{"title":"A motion to approve continuing in the process firefighter/paramedic candidate #13 Miller","type":"Report","status":"Agenda Ready","intro_date":"2026-02-06","file_number":"26-0180","passed_date":null},{"title":"A motion to destroy the recording of the May 7, 2024, May 14, 2024 and May 30, 2024 closed session minutes and to keep the minutes sealed","type":"Report","status":"Agenda Ready","intro_date":"2026-02-06","file_number":"26-0184","passed_date":null},{"title":"A motion to approve the open session minutes, and approve and keep sealed the closed session minutes from the January 27, 2025 Naperville board of fire and police meeting","type":"Report","status":"Agenda Ready","intro_date":"2026-02-06","file_number":"26-0162","passed_date":null},{"title":"Waive the first reading and pass the ordinance to establish two-way stop control at the intersection of Josiah Rd. and Weatherbee Ln. (requires six positive votes)","type":"Ordinance","status":"Agenda Ready","intro_date":"2026-02-06","file_number":"26-0174B","passed_date":null},{"title":"A motion to continue in the process firefighter/paramedic candidate #1 Grabarek","type":"Report","status":"Agenda Ready","intro_date":"2026-02-06","file_number":"26-0172","passed_date":null},{"title":"A motion to Approve/Deny the appeal request of FFPM #64 Stephenson","type":"Report","status":"Agenda Ready","intro_date":"2026-02-06","file_number":"26-0164","passed_date":null},{"title":"A motion to Approve/Deny the appeal request of FFPM #11 Daubenspeck","type":"Report","status":"Agenda Ready","intro_date":"2026-02-06","file_number":"26-0163","passed_date":null}],"legistar_url":"https://naperville.legistar.com","enriched_at":"2026-02-13T20:06:41.076090","government_news":[],"video_meetings":[],"data_platforms":["legistar"]}
+{
+  "schema_version": "5.0",
+  "normalized_at": "2026-02-10T14:21:49.317423",
+  "identity": {
+    "name": "Naperville",
+    "state": "IL",
+    "fips_state": "17",
+    "fips_place": "51622",
+    "population": 149089
+  },
+  "city_website": "https://www.naperville.il.us",
+  "economy": {
+    "median_household_income": 143754,
+    "median_home_value": 482600,
+    "unemployment_rate": 4.3,
+    "unemployment_data_level": "county",
+    "labor_force": 518536,
+    "employed": 496164,
+    "unemployed": 22372,
+    "gini_index": null,
+    "poverty_rate": 4.33,
+    "homeownership_rate": 74.39,
+    "rent_to_income_ratio": 14.92,
+    "home_value_to_income_ratio": 3.36,
+    "price_to_rent_ratio": 22.51,
+    "effective_tax_rate": 24.8678,
+    "population_growth_cagr": 0.4756,
+    "median_real_estate_taxes": 10001
+  },
+  "safety": {
+    "violent_crime_rate": null,
+    "property_crime_rate": null,
+    "murder_rate": null,
+    "robbery_rate": null,
+    "burglary_rate": null,
+    "vehicle_theft_rate": null,
+    "total_crime_rate": null,
+    "crime_trend": null,
+    "crime_data_level": null
+  },
+  "education": {
+    "total_schools": 4432,
+    "total_enrollment": 1852242,
+    "pupil_teacher_ratio": 13.8,
+    "title1_pct": 0.0,
+    "charter_pct": 3.1,
+    "regular_schools": 3881,
+    "avg_school_rating": 6.9,
+    "rated_schools": 10,
+    "school_quality_tier": "good"
+  },
+  "environment": {
+    "pm25_mean": 10.0745,
+    "ozone_mean": 0.0475,
+    "total_disasters": 16,
+    "avg_disasters_per_decade": 2.3,
+    "most_recent_disaster": "2020-03-26",
+    "most_recent_disaster_type": "Biological",
+    "disasters_by_type": {
+      "Flood": 4,
+      "Snowstorm": 4,
+      "Severe Storm": 4,
+      "Biological": 2,
+      "Hurricane": 1,
+      "Tornado": 1
+    }
+  },
+  "housing": {
+    "median_rent": 1787,
+    "housing_units": 56310,
+    "fmr_0br": 1480,
+    "fmr_1br": 1581,
+    "fmr_2br": 1781,
+    "fmr_3br": 2294,
+    "fmr_4br": 2653,
+    "rent_burden_ratio": 14.9,
+    "cost_burdened_pct": 35.5,
+    "severely_burdened_pct": 18.65
+  },
+  "health": {
+    "uninsured_pct": 4.9,
+    "obesity_pct": 27.3,
+    "diabetes_pct": 7.6,
+    "depression_pct": 17.2,
+    "asthma_pct": 8.6,
+    "smoking_pct": 7.3,
+    "physical_inactivity_pct": 15.7,
+    "mental_health_bad_days": 12.9,
+    "physical_health_bad_days": 8.2,
+    "sleep_deficit_pct": 34.2,
+    "high_blood_pressure_pct": 25.5,
+    "high_cholesterol_pct": 30.9,
+    "heart_disease_pct": 3.8,
+    "stroke_pct": 2.0,
+    "cancer_pct": 6.8,
+    "kidney_disease_pct": null,
+    "checkup_pct": 77.4,
+    "data_year": "2023"
+  },
+  "governance": {
+    "legislative_volume": 10937,
+    "legislative_velocity": 471.4,
+    "committee_count": 23,
+    "years_of_legislative_data": 23.2,
+    "has_public_meetings": true,
+    "api_accessible": true,
+    "matter_types": {
+      "Report": 526,
+      "Procurement Award": 118,
+      "Ordinance": 112,
+      "Minutes": 47,
+      "Procurement Change Order": 43,
+      "Public Hearing": 41,
+      "Presentation": 23,
+      "Resolution": 20,
+      "Meeting Schedule": 18,
+      "Proclamation": 12,
+      "Appointment": 11,
+      "Cash Disbursements": 8,
+      "Extension of Agreement": 7,
+      "Public Improvements": 6,
+      "Petitioner Request": 5,
+      "Funding Amounts": 2,
+      "Permit": 1
+    },
+    "top_matter_type": "Report",
+    "matter_statuses": {
+      "Agenda Ready": 601,
+      "Passed": 354,
+      "Filed": 18,
+      "Approved": 9,
+      "Tabled": 6,
+      "Held": 6,
+      "Referred": 5,
+      "Failed": 1
+    },
+    "pass_rate": 33.3,
+    "passed_count": 3645,
+    "active_council_members": 9,
+    "avg_tenure_years": 2.1,
+    "vote_coverage_pct": 3.7,
+    "video_availability_pct": 0.0,
+    "agenda_availability_pct": 93.6,
+    "minutes_availability_pct": 81.6,
+    "avg_meetings_per_month": 14.5,
+    "meetings_by_year": {
+      "2026": 21,
+      "2025": 182,
+      "2024": 165,
+      "2023": 132
+    },
+    "avg_sponsors_per_matter": 0.0,
+    "avg_attachments_per_matter": 0.2,
+    "pct_with_text_versions": 100.0,
+    "index_categories": [],
+    "has_accela": false,
+    "accela_agency_id": null
+  },
+  "development": {
+    "permits_12mo": null,
+    "yoy_trend_pct": null,
+    "avg_permit_value": null,
+    "permit_types": {},
+    "datasets_count": 0
+  },
+  "meetings": {
+    "official_channels": 1,
+    "meetings_indexed": 6,
+    "avg_meetings_per_month": 2.0,
+    "has_video_archive": true,
+    "meeting_types": {
+      "city_council": 5,
+      "other": 1
+    },
+    "transcripts_available": 0
+  },
+  "civic_issues": {
+    "total_issues": 25,
+    "issues_last_30d": 0,
+    "issues_last_365d": 0,
+    "resolution_rate": 36.0,
+    "top_issue_type": "Unknown",
+    "type_distribution": {
+      "Unknown": 16
+    },
+    "has_civic_issue_tracking": true
+  },
+  "demographics": {
+    "population": 149089,
+    "poverty_universe": 146563,
+    "employment_universe": 117084
+  },
+  "time_series": {
+    "economy_history": [
+      {
+        "year": 2024,
+        "unemployment_rate": 4.3,
+        "labor_force": 518536,
+        "employed": 496164,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2023,
+        "unemployment_rate": 3.53,
+        "labor_force": 505426,
+        "employed": 487570,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2022,
+        "unemployment_rate": 3.74,
+        "labor_force": 500451,
+        "employed": 481761,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2021,
+        "unemployment_rate": 4.77,
+        "labor_force": 479023,
+        "employed": 456220,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2020,
+        "unemployment_rate": 8.2,
+        "labor_force": 472751,
+        "employed": 434212,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2019,
+        "unemployment_rate": 3.17,
+        "labor_force": 495023,
+        "employed": 479363,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2018,
+        "unemployment_rate": 3.34,
+        "labor_force": 494745,
+        "employed": 478178,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2017,
+        "unemployment_rate": 4.2,
+        "labor_force": 496730,
+        "employed": 475876,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2016,
+        "unemployment_rate": 5.06,
+        "labor_force": 499265,
+        "employed": 473937,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2015,
+        "unemployment_rate": 4.83,
+        "labor_force": 518023,
+        "employed": 493004,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      }
+    ],
+    "safety_history": [],
+    "environment_history": [
+      {
+        "year": 2023,
+        "pm25_mean": 10.0745,
+        "ozone_mean": 0.0475,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2022,
+        "pm25_mean": 8.6899,
+        "ozone_mean": 0.0425,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2021,
+        "pm25_mean": 9.7779,
+        "ozone_mean": 0.0449,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2020,
+        "pm25_mean": 9.1761,
+        "ozone_mean": 0.0426,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2019,
+        "pm25_mean": 10.2406,
+        "ozone_mean": 0.0422,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2018,
+        "pm25_mean": 10.5548,
+        "ozone_mean": 0.0447,
+        "data_level": "county",
+        "source": "epa_aqs"
+      }
+    ]
+  },
+  "data_sources": {
+    "legistar": "available",
+    "socrata": "available",
+    "census_acs": "available",
+    "arcgis": "available",
+    "fbi_ucr": "available",
+    "socrata_crime": "available",
+    "bls_laus": "available",
+    "ca_edd": "skipped",
+    "epa_aqs": "available",
+    "nces_ccd": "available",
+    "hud_fmr": "available",
+    "fema_openfema": "available",
+    "greatschools": "available",
+    "permits": "skipped",
+    "youtube_meetings": "available",
+    "seeclickfix": "available",
+    "accela": "available",
+    "cdc_places": "available"
+  },
+  "provenance": {
+    "last_full_probe": "2026-02-10T07:50:07.003553",
+    "sources": {
+      "legistar": {
+        "authority": "Legistar by Granicus",
+        "authority_tier": 1,
+        "api_url": "https://webapi.legistar.com/v1/naperville/Bodies",
+        "probed_at": "2026-02-10T07:50:07.004825",
+        "data_vintage": "2017–2026",
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "socrata": {
+        "authority": "City Open Data Portals (Socrata/Tyler Data & Insights)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-10T07:51:32.360777",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "census_acs": {
+        "authority": "US Census Bureau",
+        "authority_tier": 1,
+        "api_url": "https://api.census.gov/data/2022/acs/acs5?get=NAME,B01001_001E,B19013_001E,B25077_001E,B25064_001E,B25001_001E&for=place:51622&in=state:17",
+        "probed_at": "2026-02-10T07:52:24.157636",
+        "data_vintage": "ACS 5-Year 2022",
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "arcgis": {
+        "authority": "City ArcGIS/GIS Portals",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-10T07:52:27.587560",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "fbi_ucr": {
+        "authority": "FBI Uniform Crime Reporting Program",
+        "authority_tier": 1,
+        "api_url": "https://api.usa.gov/crime/fbi/sapi/api/estimates/states/IL/2015/2022",
+        "probed_at": "2026-02-10T07:52:28.575456",
+        "data_vintage": null,
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "bls_laus": {
+        "authority": "Bureau of Labor Statistics",
+        "authority_tier": 1,
+        "api_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/LAUST170000000000003",
+        "probed_at": "2026-02-10T07:52:28.741877",
+        "data_vintage": "LAUS 2024",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "epa_aqs": {
+        "authority": "US Environmental Protection Agency",
+        "authority_tier": 1,
+        "api_url": "https://aqs.epa.gov/data/api/annualData/byState?state=17&param=88101",
+        "probed_at": "2026-02-10T07:52:29.819973",
+        "data_vintage": "AQS 2023",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "nces_ccd": {
+        "authority": "National Center for Education Statistics",
+        "authority_tier": 1,
+        "api_url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=17",
+        "probed_at": "2026-02-10T07:52:41.034634",
+        "data_vintage": "2022-2023 academic year",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "hud_fmr": {
+        "authority": "US Department of Housing and Urban Development",
+        "authority_tier": 1,
+        "api_url": "https://www.huduser.gov/hudapi/public/fmr/statedata/IL",
+        "probed_at": "2026-02-10T07:52:50.918239",
+        "data_vintage": "FY2026",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "fema_openfema": {
+        "authority": "Federal Emergency Management Agency",
+        "authority_tier": 1,
+        "api_url": "https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries?$filter=state eq 'IL'",
+        "probed_at": "2026-02-10T07:52:51.572625",
+        "data_vintage": "1953-present",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "greatschools": {
+        "authority": "GreatSchools.org (nonprofit)",
+        "authority_tier": 3,
+        "api_url": null,
+        "probed_at": "2026-02-10T07:52:51.822946",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "permits": {
+        "authority": "City Open Data Portals (Socrata)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-10T07:52:52.290512",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "youtube_meetings": {
+        "authority": "YouTube (via SerpAPI search + youtube-transcript-api)",
+        "authority_tier": 3,
+        "api_url": null,
+        "probed_at": "2026-02-10T07:52:52.290858",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "seeclickfix": {
+        "authority": "SeeClickFix (civic issue tracking platform)",
+        "authority_tier": 3,
+        "api_url": "https://seeclickfix.com/api/v2/issues?place_url=naperville",
+        "probed_at": "2026-02-10T07:53:27.809043",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "accela": {
+        "authority": "Accela (permit management platform)",
+        "authority_tier": 3,
+        "api_url": "https://apis.accela.com/v4/agencies",
+        "probed_at": "2026-02-10T07:53:53.842894",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "socrata_crime": {
+        "authority": "City Open Data Portals (Socrata)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-10T07:52:28.741325",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "cdc_places": {
+        "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
+        "authority_tier": 1,
+        "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Naperville",
+        "probed_at": "2026-02-13T21:02:04.007305",
+        "data_vintage": "BRFSS 2023",
+        "geographic_level": "place",
+        "status": "available"
+      }
+    },
+    "derived_fields": {
+      "safety.total_crime_rate": {
+        "formula": "violent_crime_rate + property_crime_rate",
+        "inputs": [
+          "safety.violent_crime_rate",
+          "safety.property_crime_rate"
+        ],
+        "formula_location": "score/normalizer.py:_derive_total_crime",
+        "authority_tier": 2
+      },
+      "safety.crime_trend": {
+        "formula": "(last_year_rate - first_year_rate) / years_span",
+        "inputs": [
+          "fbi.time_series[].violent_crime_rate"
+        ],
+        "formula_location": "score/normalizer.py:_build_safety",
+        "authority_tier": 2
+      },
+      "education.school_quality_tier": {
+        "formula": "excellent if avg>=8, good if avg>=6, fair if avg>=4, else poor",
+        "inputs": [
+          "education.avg_school_rating"
+        ],
+        "formula_location": "score/normalizer.py:_build_education",
+        "authority_tier": 3
+      },
+      "environment.avg_disasters_per_decade": {
+        "formula": "total_disasters / (years_span / 10)",
+        "inputs": [
+          "environment.total_disasters"
+        ],
+        "formula_location": "probe/fema_probe.py",
+        "authority_tier": 2
+      },
+      "housing.rent_burden_ratio": {
+        "formula": "(fmr_2br * 12) / median_household_income * 100",
+        "inputs": [
+          "housing.fmr_2br",
+          "economy.median_household_income"
+        ],
+        "formula_location": "score/normalizer.py:_build_housing",
+        "authority_tier": 2
+      },
+      "governance.legislative_velocity": {
+        "formula": "legislative_volume / years_of_legislative_data",
+        "inputs": [
+          "governance.legislative_volume",
+          "governance.years_of_legislative_data"
+        ],
+        "formula_location": "score/normalizer.py:_build_governance",
+        "authority_tier": 2
+      },
+      "development.yoy_trend_pct": {
+        "formula": "(current_year - prior_year) / prior_year * 100",
+        "inputs": [
+          "permit data from Socrata"
+        ],
+        "formula_location": "probe/permits_probe.py",
+        "authority_tier": 2
+      }
+    },
+    "geographic_mismatches": [
+      {
+        "field": "identity.fips_state",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "state-level data applied to city profile"
+      },
+      {
+        "field": "economy.unemployment_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Reflects statewide unemployment, not city-specific rate"
+      },
+      {
+        "field": "economy.labor_force",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: This is the full state labor force, not city-level"
+      },
+      {
+        "field": "economy.employed",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "economy.unemployed",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.violent_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: City-level requires ORI codes not currently used"
+      },
+      {
+        "field": "safety.property_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.murder_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.robbery_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.burglary_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.vehicle_theft_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.total_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA; derived sum"
+      },
+      {
+        "field": "safety.crime_trend",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "state-level data applied to city profile"
+      },
+      {
+        "field": "education.total_schools",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Count includes all schools in the state, not city"
+      },
+      {
+        "field": "education.total_enrollment",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.pupil_teacher_ratio",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Average across all state schools"
+      },
+      {
+        "field": "education.title1_pct",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.charter_pct",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.regular_schools",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.pm25_mean",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE/COUNTY-LEVEL: Averaged across all monitors in the state"
+      },
+      {
+        "field": "environment.ozone_mean",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE/COUNTY-LEVEL"
+      },
+      {
+        "field": "environment.total_disasters",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: All declarations for the state, not city-specific"
+      },
+      {
+        "field": "environment.avg_disasters_per_decade",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.most_recent_disaster",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.most_recent_disaster_type",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "housing.fmr_0br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR: Fair Market Rents at state level, not city-specific metro area"
+      },
+      {
+        "field": "housing.fmr_1br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_2br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_3br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_4br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.rent_burden_ratio",
+        "source_level": "mixed",
+        "profile_level": "place",
+        "note": "GEOGRAPHIC MISMATCH: FMR is state-level (HUD), income is city-level (Census). Ratio may be biased."
+      }
+    ]
+  },
+  "data_quality": {
+    "quality_score": 100.0,
+    "grade": "A",
+    "completeness_pct": 100.0,
+    "issue_count": 7,
+    "granularity_flags": 3
+  },
+  "officials": {
+    "body_name": "City Council",
+    "members": [
+      {
+        "name": "Ashfaq Syed",
+        "email": null,
+        "title": "Councilman",
+        "start_date": "2025-05-04"
+      },
+      {
+        "name": "Benjamin White",
+        "email": "whiteb@naperville.il.us",
+        "title": "Councilman",
+        "start_date": "2025-05-04"
+      },
+      {
+        "name": "Ian Holzhauer",
+        "email": "HolzhauerI@naperville.il.us",
+        "title": "Councilman",
+        "start_date": "2025-05-04",
+        "committees": [
+          "Riverwalk Commission"
+        ]
+      },
+      {
+        "name": "Josh McBroom",
+        "email": "mcbroomj@naperville.il.us",
+        "title": "Councilman",
+        "start_date": "2023-05-01",
+        "committees": [
+          "Financial Advisory Board",
+          "Transportation Advisory Board"
+        ]
+      },
+      {
+        "name": "Mary Gibson",
+        "email": "gibsonm@naperville.il.us",
+        "title": "Councilwoman",
+        "start_date": "2025-05-04",
+        "committees": [
+          "Naper Settlement Museum Board"
+        ]
+      },
+      {
+        "name": "Nathan Wilson",
+        "email": "wilsonn@naperville.il.us",
+        "title": "Councilman",
+        "start_date": "2023-05-01"
+      },
+      {
+        "name": "Patrick Kelly",
+        "email": "kellyp@naperville.il.us",
+        "title": "Councilman",
+        "start_date": "2019-05-01",
+        "committees": [
+          "Historic Preservation Commission"
+        ]
+      },
+      {
+        "name": "Scott Wehrli",
+        "email": "wehrlis@naperville.il.us",
+        "title": "Mayor",
+        "start_date": "2023-05-01",
+        "committees": [
+          "Liquor Commission",
+          "Naper Settlement Museum Board"
+        ]
+      },
+      {
+        "name": "Supna Jain",
+        "email": "jains@naperville.il.us",
+        "title": "Councilwoman",
+        "start_date": "2025-09-16",
+        "committees": [
+          "Advisory Commission on Disabilities"
+        ]
+      }
+    ]
+  },
+  "recent_meetings": [
+    {
+      "date": "2026-02-11",
+      "body": "Riverwalk Commission",
+      "location": "Meeting Room C",
+      "has_agenda": true,
+      "agenda_url": "https://naperville.legistar1.com/naperville/meetings/2026/2/3552_A_Riverwalk_Commission_26-02-11_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "Board of Fire and Police",
+      "location": "Meeting Room C",
+      "has_agenda": true,
+      "agenda_url": "https://naperville.legistar1.com/naperville/meetings/2026/2/3618_A_Board_of_Fire_and_Police_26-02-10_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-05",
+      "body": "Liquor Commission",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://naperville.legistar1.com/naperville/meetings/2026/2/3731_A_Liquor_Commission_26-02-05_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-05",
+      "body": "Advisory Commission on Disabilities",
+      "location": "Meeting Room C",
+      "has_agenda": true,
+      "agenda_url": "https://naperville.legistar1.com/naperville/meetings/2026/2/3612_A_Advisory_Commission_on_Disabilities_26-02-05_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-05",
+      "body": "Transportation Advisory Board",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://naperville.legistar1.com/naperville/meetings/2026/2/3691_A_Transportation_Advisory_Board_26-02-05_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-04",
+      "body": "Planning and Zoning Commission",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://naperville.legistar1.com/naperville/meetings/2026/2/3708_A_Planning_and_Zoning_Commission_26-02-04_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://naperville.legistar1.com/naperville/meetings/2026/2/3576_A_City_Council_26-02-03_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-28",
+      "body": "Fire Pension Board",
+      "location": "Meeting Room C",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-28",
+      "body": "SECA Commission",
+      "location": "Meeting Room C",
+      "has_agenda": true,
+      "agenda_url": "https://naperville.legistar1.com/naperville/meetings/2026/1/3596_A_SECA_Commission_26-01-28_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-27",
+      "body": "Board of Fire and Police",
+      "location": "Meeting Room C",
+      "has_agenda": true,
+      "agenda_url": "https://naperville.legistar1.com/naperville/meetings/2026/1/3617_A_Board_of_Fire_and_Police_26-01-27_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Waive the first reading and pass the ordinance to remove the No Left Turn prohibition at the intersection of Chicago Ave. and Ellsworth St. (requires six positive votes)",
+      "type": "Ordinance",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-09",
+      "file_number": "26-0059B",
+      "passed_date": null
+    },
+    {
+      "title": "Receive the monthly Park District report",
+      "type": "Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-06",
+      "file_number": "26-0168",
+      "passed_date": null
+    },
+    {
+      "title": "Review and approve the Commissioners Award Nomination Form and Instructions for the 2026 Police CAPS Event",
+      "type": "Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-06",
+      "file_number": "26-0161",
+      "passed_date": null
+    },
+    {
+      "title": "A motion to approve continuing in the process firefighter/paramedic candidate #13 Miller",
+      "type": "Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-06",
+      "file_number": "26-0180",
+      "passed_date": null
+    },
+    {
+      "title": "A motion to destroy the recording of the May 7, 2024, May 14, 2024 and May 30, 2024 closed session minutes and to keep the minutes sealed",
+      "type": "Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-06",
+      "file_number": "26-0184",
+      "passed_date": null
+    },
+    {
+      "title": "A motion to approve the open session minutes, and approve and keep sealed the closed session minutes from the January 27, 2025 Naperville board of fire and police meeting",
+      "type": "Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-06",
+      "file_number": "26-0162",
+      "passed_date": null
+    },
+    {
+      "title": "Waive the first reading and pass the ordinance to establish two-way stop control at the intersection of Josiah Rd. and Weatherbee Ln. (requires six positive votes)",
+      "type": "Ordinance",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-06",
+      "file_number": "26-0174B",
+      "passed_date": null
+    },
+    {
+      "title": "A motion to continue in the process firefighter/paramedic candidate #1 Grabarek",
+      "type": "Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-06",
+      "file_number": "26-0172",
+      "passed_date": null
+    },
+    {
+      "title": "A motion to Approve/Deny the appeal request of FFPM #64 Stephenson",
+      "type": "Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-06",
+      "file_number": "26-0164",
+      "passed_date": null
+    },
+    {
+      "title": "A motion to Approve/Deny the appeal request of FFPM #11 Daubenspeck",
+      "type": "Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-06",
+      "file_number": "26-0163",
+      "passed_date": null
+    }
+  ],
+  "legistar_url": "https://naperville.legistar.com",
+  "enriched_at": "2026-02-13T20:06:41.076090",
+  "government_news": [],
+  "video_meetings": [],
+  "data_platforms": [
+    "legistar"
+  ]
+}

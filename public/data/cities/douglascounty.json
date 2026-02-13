@@ -1,1 +1,903 @@
-{"schema_version":"5.0","normalized_at":"2026-02-10T14:21:49.131131","identity":{"name":"Douglas County","state":"","fips_state":null,"fips_place":null,"population":null},"city_website":"https://www.bfwlaw.com","economy":{"median_household_income":null,"median_home_value":null,"unemployment_rate":null,"unemployment_data_level":"state","labor_force":null,"employed":null,"unemployed":null,"gini_index":null,"poverty_rate":null,"homeownership_rate":null,"rent_to_income_ratio":null,"home_value_to_income_ratio":null,"price_to_rent_ratio":null,"effective_tax_rate":null,"population_growth_cagr":null,"median_real_estate_taxes":null},"safety":{"violent_crime_rate":null,"property_crime_rate":null,"murder_rate":null,"robbery_rate":null,"burglary_rate":null,"vehicle_theft_rate":null,"total_crime_rate":null,"crime_trend":null,"crime_data_level":null},"education":{"total_schools":null,"total_enrollment":null,"pupil_teacher_ratio":null,"title1_pct":null,"charter_pct":null,"regular_schools":null,"avg_school_rating":null,"rated_schools":null,"school_quality_tier":null},"environment":{"pm25_mean":null,"ozone_mean":null,"total_disasters":null,"avg_disasters_per_decade":null,"most_recent_disaster":null,"most_recent_disaster_type":null,"disasters_by_type":{}},"housing":{"median_rent":null,"housing_units":null,"fmr_0br":null,"fmr_1br":null,"fmr_2br":null,"fmr_3br":null,"fmr_4br":null,"rent_burden_ratio":null,"cost_burdened_pct":null,"severely_burdened_pct":null},"governance":{"legislative_volume":2375,"legislative_velocity":158.3,"committee_count":34,"years_of_legislative_data":15.0,"has_public_meetings":true,"api_accessible":true,"matter_types":{"Resolution":132,"Contract":118,"Report":93,"Minutes":81,"Grant":58,"Approval of Vouchers":48,"Purchase Order":44,"Contract Amendment":40,"Agreement":37,"Easement":31,"Presentation":29,"Intergovernmental Agreement":26,"Location and Extent":26,"Purchase":26,"Subdivision":24,"Fee Waiver":21,"County Manager Report":20,"Special District Service Plan":16,"Planned Development":15,"Zone District Map Change":14,"Change Order":14,"Use by Special Review":13,"Ordinance":10,"Quit Claim Deed":9,"Rezoning":9,"Proclamation":8,"Comprehensive Master Plan":5,"Waiver":5,"Liquor License":4,"Regulation Amendment":4},"top_matter_type":"Resolution","matter_statuses":{"Adopted":471,"Agenda Ready":370,"Accepted":138,"Approved":11,"Tabled":6,"Defeated":2,"Completed":1,"Rejected":1},"pass_rate":33.3,"passed_count":791,"active_council_members":3,"avg_tenure_years":4.8,"vote_coverage_pct":null,"video_availability_pct":0.0,"agenda_availability_pct":58.8,"minutes_availability_pct":26.0,"avg_meetings_per_month":18.9,"meetings_by_year":{"2027":1,"2026":46,"2025":269,"2024":184},"avg_sponsors_per_matter":0.7,"avg_attachments_per_matter":1.3,"pct_with_text_versions":100.0,"index_categories":[],"has_accela":false,"accela_agency_id":null},"development":{"permits_12mo":null,"yoy_trend_pct":null,"avg_permit_value":null,"permit_types":{},"datasets_count":0},"meetings":{"official_channels":0,"meetings_indexed":null,"avg_meetings_per_month":null,"has_video_archive":false,"meeting_types":{},"transcripts_available":null},"civic_issues":{"total_issues":null,"issues_last_30d":null,"issues_last_365d":null,"resolution_rate":null,"top_issue_type":null,"type_distribution":{},"has_civic_issue_tracking":false},"demographics":{"population":null,"poverty_universe":null,"employment_universe":null},"time_series":{"economy_history":[],"safety_history":[],"environment_history":[]},"data_sources":{"legistar":"available","socrata":"skipped","census_acs":"skipped","arcgis":"available","fbi_ucr":"skipped","socrata_crime":"skipped","bls_laus":"skipped","ca_edd":"skipped","epa_aqs":"skipped","nces_ccd":"skipped","hud_fmr":"skipped","fema_openfema":"skipped","greatschools":"skipped","permits":"skipped","youtube_meetings":"skipped","seeclickfix":"skipped","accela":"skipped"},"provenance":{"last_full_probe":"2026-02-10T02:09:30.215323","sources":{"legistar":{"authority":"Legistar by Granicus","authority_tier":1,"api_url":"https://webapi.legistar.com/v1/douglascounty/Bodies","probed_at":"2026-02-10T02:09:30.216469","data_vintage":"2023\u20132026","geographic_level":"place","status":"available"},"socrata":{"authority":"City Open Data Portals (Socrata/Tyler Data & Insights)","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"place","status":"skipped"},"census_acs":{"authority":"US Census Bureau","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":"ACS 5-Year 2022","geographic_level":"place","status":"skipped"},"arcgis":{"authority":"City ArcGIS/GIS Portals","authority_tier":1,"api_url":null,"probed_at":"2026-02-10T02:10:28.627248","data_vintage":null,"geographic_level":"place","status":"available"},"fbi_ucr":{"authority":"FBI Uniform Crime Reporting Program","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"state","status":"skipped"},"bls_laus":{"authority":"Bureau of Labor Statistics","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"state","status":"skipped"},"epa_aqs":{"authority":"US Environmental Protection Agency","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"state","status":"skipped"},"nces_ccd":{"authority":"National Center for Education Statistics","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":"2022-2023 academic year","geographic_level":"state","status":"skipped"},"hud_fmr":{"authority":"US Department of Housing and Urban Development","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":"FY2026","geographic_level":"state","status":"skipped"},"fema_openfema":{"authority":"Federal Emergency Management Agency","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":"1953-present","geographic_level":"state","status":"skipped"},"greatschools":{"authority":"GreatSchools.org (nonprofit)","authority_tier":3,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"place","status":"skipped"},"permits":{"authority":"City Open Data Portals (Socrata)","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"place","status":"skipped"},"youtube_meetings":{"authority":"YouTube (via SerpAPI search + youtube-transcript-api)","authority_tier":3,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"place","status":"skipped"},"seeclickfix":{"authority":"SeeClickFix (civic issue tracking platform)","authority_tier":3,"api_url":"https://seeclickfix.com/api/v2/issues?place_url=douglascounty","probed_at":null,"data_vintage":null,"geographic_level":"place","status":"skipped"},"accela":{"authority":"Accela (permit management platform)","authority_tier":3,"api_url":"https://apis.accela.com/v4/agencies","probed_at":null,"data_vintage":null,"geographic_level":"place","status":"skipped"},"socrata_crime":{"authority":"City Open Data Portals (Socrata)","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"place","status":"skipped"}},"derived_fields":{"safety.total_crime_rate":{"formula":"violent_crime_rate + property_crime_rate","inputs":["safety.violent_crime_rate","safety.property_crime_rate"],"formula_location":"score/normalizer.py:_derive_total_crime","authority_tier":2},"safety.crime_trend":{"formula":"(last_year_rate - first_year_rate) / years_span","inputs":["fbi.time_series[].violent_crime_rate"],"formula_location":"score/normalizer.py:_build_safety","authority_tier":2},"education.school_quality_tier":{"formula":"excellent if avg>=8, good if avg>=6, fair if avg>=4, else poor","inputs":["education.avg_school_rating"],"formula_location":"score/normalizer.py:_build_education","authority_tier":3},"environment.avg_disasters_per_decade":{"formula":"total_disasters / (years_span / 10)","inputs":["environment.total_disasters"],"formula_location":"probe/fema_probe.py","authority_tier":2},"housing.rent_burden_ratio":{"formula":"(fmr_2br * 12) / median_household_income * 100","inputs":["housing.fmr_2br","economy.median_household_income"],"formula_location":"score/normalizer.py:_build_housing","authority_tier":2},"governance.legislative_velocity":{"formula":"legislative_volume / years_of_legislative_data","inputs":["governance.legislative_volume","governance.years_of_legislative_data"],"formula_location":"score/normalizer.py:_build_governance","authority_tier":2},"development.yoy_trend_pct":{"formula":"(current_year - prior_year) / prior_year * 100","inputs":["permit data from Socrata"],"formula_location":"probe/permits_probe.py","authority_tier":2}},"geographic_mismatches":[{"field":"identity.fips_state","source_level":"state","profile_level":"place","note":"state-level data applied to city profile"},{"field":"economy.unemployment_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Reflects statewide unemployment, not city-specific rate"},{"field":"economy.labor_force","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: This is the full state labor force, not city-level"},{"field":"economy.employed","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"economy.unemployed","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.violent_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: City-level requires ORI codes not currently used"},{"field":"safety.property_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.murder_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.robbery_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.burglary_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.vehicle_theft_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.total_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA; derived sum"},{"field":"safety.crime_trend","source_level":"state","profile_level":"place","note":"state-level data applied to city profile"},{"field":"education.total_schools","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Count includes all schools in the state, not city"},{"field":"education.total_enrollment","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.pupil_teacher_ratio","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Average across all state schools"},{"field":"education.title1_pct","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.charter_pct","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.regular_schools","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.pm25_mean","source_level":"state","profile_level":"place","note":"STATE/COUNTY-LEVEL: Averaged across all monitors in the state"},{"field":"environment.ozone_mean","source_level":"state","profile_level":"place","note":"STATE/COUNTY-LEVEL"},{"field":"environment.total_disasters","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: All declarations for the state, not city-specific"},{"field":"environment.avg_disasters_per_decade","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.most_recent_disaster","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.most_recent_disaster_type","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"housing.fmr_0br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR: Fair Market Rents at state level, not city-specific metro area"},{"field":"housing.fmr_1br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_2br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_3br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_4br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.rent_burden_ratio","source_level":"mixed","profile_level":"place","note":"GEOGRAPHIC MISMATCH: FMR is state-level (HUD), income is city-level (Census). Ratio may be biased."}]},"data_quality":{"quality_score":21.4,"grade":"F","completeness_pct":21.4,"issue_count":1,"granularity_flags":0},"officials":{"body_name":"Board of County Commissioners Business Meeting","members":[{"name":"Abe Laydon","email":"alaydon@bfwlaw.com","title":"Chairperson","start_date":"2023-12-27","committees":["Board of Adjustment","Board of County Commissioners Land Use Meeting/Public Hearing","Board of Equalizatrion","Douglas County Massage Facility Authority","Lincoln Station Local Improvement District No. 07-01"]},{"name":"Clark Hammelman (Dist. II)","email":"chammelman@comcast.net","title":"Regular Member","start_date":"2023-11-14","committees":["Water Commission"]},{"name":"Evan Ela (Dist. III)","email":"eela@cegrlaw.com","title":"Regular Member","start_date":"2023-11-14","committees":["Water Commission"]},{"name":"George Teal","email":"GTeal@douglas.co.us","title":"Vice Chair","start_date":"2023-12-27","committees":["Board of Adjustment","Board of County Commissioners Land Use Meeting/Public Hearing","Board of Equalization","Board of Equalizatrion","Douglas County Board of Health"]},{"name":"James Eklund (Dist. I)","email":"jeklund@shermanhoward.com","title":"Regular Member","start_date":"2023-11-14","committees":["Water Commission"]},{"name":"Kevin Van Winkle","email":null,"title":"Commissioner","start_date":"2024-12-16","committees":["Board of County Commissioners Land Use Meeting/Public Hearing","Board of Equalization","Board of Equalizatrion","Douglas County Board of Health","Douglas County Massage Facility Authority"]},{"name":"Max Brooks (Dist. II)","email":"maxbrooks1@hotmail.com","title":"Alternate","start_date":"2023-11-14","committees":["Water Commission"]},{"name":"Merlin Klotz (Dist. I)","email":"merlin@mklotz.com","title":"Alternate","start_date":"2023-11-14","committees":["Water Commission"]}]},"recent_meetings":[{"date":"2026-02-23","body":"Water Commission","location":"Hearing Room","has_agenda":false,"agenda_url":null,"has_minutes":false,"has_video":false,"upcoming":true},{"date":"2026-03-11","body":"Douglas County Parks Advisory Board","location":"Highland Heritage Regional Park Office","has_agenda":false,"agenda_url":null,"has_minutes":false,"has_video":false,"upcoming":true},{"date":"2026-02-11","body":"Douglas County Parks Advisory Board","location":"Highland Heritage Regional Park Office","has_agenda":false,"agenda_url":null,"has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-10","body":"Board of County Commissioners Land Use Meeting/Public Hearing","location":"Hearing Room","has_agenda":true,"agenda_url":"https://douglascounty.legistar1.com/douglascounty/meetings/2026/2/4016_A_Board_of_County_Commissioners_Land_Use_Meeting_Public_Hearing_26-02-10_AGENDA.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-10","body":"Board of County Commissioners Business Meeting","location":"Hearing Room","has_agenda":true,"agenda_url":"https://douglascounty.legistar1.com/douglascounty/meetings/2026/2/4015_A_Board_of_County_Commissioners_Business_Meeting_26-02-10_AGENDA.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-05","body":"Region 12 Opioid Council","location":"Virtual Meeting","has_agenda":false,"agenda_url":null,"has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-04","body":"Douglas County Open Space Advisory Committee (COSAC)","location":"Conference Room A&B and Virtual\r\n100 Third Street","has_agenda":false,"agenda_url":null,"has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-02","body":"Planning Commission Pre-Meeting & Administration Training Session","location":"Conference Room A & B","has_agenda":true,"agenda_url":"https://douglascounty.legistar1.com/douglascounty/meetings/2026/2/4073_A_Planning_Commission_Pre-Meeting___Administration_Training_Session_26-02-02_AGENDA.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-02","body":"Planning Commission Regular Meeting","location":"Hearing Room","has_agenda":true,"agenda_url":"https://douglascounty.legistar1.com/douglascounty/meetings/2026/2/4072_A_Planning_Commission_Regular_Meeting_26-02-02_AGENDA.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-01-29","body":"Douglas County Fair Board","location":"James R. Sullivan Event Center","has_agenda":false,"agenda_url":null,"has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-01-28","body":"Douglas County Parks Advisory Board","location":"Highland Heritage Regional Park Office","has_agenda":false,"agenda_url":null,"has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-01-28","body":"Historic Preservation Board","location":"100 Third Street, Castle Rock, CO\r\nConference Room \u2013 A and B","has_agenda":true,"agenda_url":"https://douglascounty.legistar1.com/douglascounty/meetings/2026/1/3987_A_Historic_Preservation_Board_26-01-28_AGENDA.pdf","has_minutes":false,"has_video":false,"upcoming":false}],"recent_legislation":[{"title":"Resolution Committing County Support to Douglas County Sheriff\u2019s Deputies in Matters of Civil Litigation.","type":"Resolution","status":"Agenda Ready","intro_date":"2026-02-06","file_number":"4391","passed_date":null},{"title":"County Manager Report.","type":"County Manager Report","status":"Agenda Ready","intro_date":"2026-02-04","file_number":"4386","passed_date":null},{"title":"Approval of Business Meeting Minutes from January 27, 2026.","type":"Minutes","status":"Agenda Ready","intro_date":"2026-02-04","file_number":"4384","passed_date":null},{"title":"Approval of Land Use/Public Hearing Minutes from January 27, 2026.","type":"Minutes","status":"Agenda Ready","intro_date":"2026-02-04","file_number":"4385","passed_date":null},{"title":"Approval of Vouchers February 10, 2026","type":"Approval of Vouchers","status":"Agenda Ready","intro_date":"2026-02-03","file_number":"4379","passed_date":null},{"title":"Recognition of Eagle Scout Liam O\u2019Brien.","type":"Presentation","status":"Agenda Ready","intro_date":"2026-02-03","file_number":"4380","passed_date":null},{"title":"Roundup Riders of the Rockies Check Presentation.","type":"Presentation","status":"Agenda Ready","intro_date":"2026-02-03","file_number":"4378","passed_date":null},{"title":"Second Amendment to the Amended and Restated Intergovernmental Agreement Between the Town of Castle Rock and Douglas County for the Highway 85 Wastewater Collection and Treatment System.","type":"Contract Amendment","status":"Agenda Ready","intro_date":"2026-02-02","file_number":"4369","passed_date":null},{"title":"2026 Public Contract for Services Amendment with The Hartford Life and Accident Insurance Company in Amount of $1,233,000.00.","type":"Contract","status":"Agenda Ready","intro_date":"2026-01-30","file_number":"4358","passed_date":null},{"title":"2026 Public Contract for Services Amendment with Fiduciary Consulting Group at Morgan Stanley (formerly Cook Street Consulting, Inc.) in the Annual Amount of $60,000.00 with a Maximum Contract Liabili","type":"Contract","status":"Agenda Ready","intro_date":"2026-01-30","file_number":"4361","passed_date":null}],"legistar_url":"https://douglascounty.legistar.com","enriched_at":"2026-02-13T20:03:53.650462","government_news":[],"video_meetings":[],"data_platforms":["legistar"]}
+{
+  "schema_version": "5.0",
+  "normalized_at": "2026-02-10T14:21:49.131131",
+  "identity": {
+    "name": "Douglas County",
+    "state": "",
+    "fips_state": null,
+    "fips_place": null,
+    "population": null
+  },
+  "city_website": "https://www.bfwlaw.com",
+  "economy": {
+    "median_household_income": null,
+    "median_home_value": null,
+    "unemployment_rate": null,
+    "unemployment_data_level": "state",
+    "labor_force": null,
+    "employed": null,
+    "unemployed": null,
+    "gini_index": null,
+    "poverty_rate": null,
+    "homeownership_rate": null,
+    "rent_to_income_ratio": null,
+    "home_value_to_income_ratio": null,
+    "price_to_rent_ratio": null,
+    "effective_tax_rate": null,
+    "population_growth_cagr": null,
+    "median_real_estate_taxes": null
+  },
+  "safety": {
+    "violent_crime_rate": null,
+    "property_crime_rate": null,
+    "murder_rate": null,
+    "robbery_rate": null,
+    "burglary_rate": null,
+    "vehicle_theft_rate": null,
+    "total_crime_rate": null,
+    "crime_trend": null,
+    "crime_data_level": null
+  },
+  "education": {
+    "total_schools": null,
+    "total_enrollment": null,
+    "pupil_teacher_ratio": null,
+    "title1_pct": null,
+    "charter_pct": null,
+    "regular_schools": null,
+    "avg_school_rating": null,
+    "rated_schools": null,
+    "school_quality_tier": null
+  },
+  "environment": {
+    "pm25_mean": null,
+    "ozone_mean": null,
+    "total_disasters": null,
+    "avg_disasters_per_decade": null,
+    "most_recent_disaster": null,
+    "most_recent_disaster_type": null,
+    "disasters_by_type": {}
+  },
+  "housing": {
+    "median_rent": null,
+    "housing_units": null,
+    "fmr_0br": null,
+    "fmr_1br": null,
+    "fmr_2br": null,
+    "fmr_3br": null,
+    "fmr_4br": null,
+    "rent_burden_ratio": null,
+    "cost_burdened_pct": null,
+    "severely_burdened_pct": null
+  },
+  "governance": {
+    "legislative_volume": 2375,
+    "legislative_velocity": 158.3,
+    "committee_count": 34,
+    "years_of_legislative_data": 15.0,
+    "has_public_meetings": true,
+    "api_accessible": true,
+    "matter_types": {
+      "Resolution": 132,
+      "Contract": 118,
+      "Report": 93,
+      "Minutes": 81,
+      "Grant": 58,
+      "Approval of Vouchers": 48,
+      "Purchase Order": 44,
+      "Contract Amendment": 40,
+      "Agreement": 37,
+      "Easement": 31,
+      "Presentation": 29,
+      "Intergovernmental Agreement": 26,
+      "Location and Extent": 26,
+      "Purchase": 26,
+      "Subdivision": 24,
+      "Fee Waiver": 21,
+      "County Manager Report": 20,
+      "Special District Service Plan": 16,
+      "Planned Development": 15,
+      "Zone District Map Change": 14,
+      "Change Order": 14,
+      "Use by Special Review": 13,
+      "Ordinance": 10,
+      "Quit Claim Deed": 9,
+      "Rezoning": 9,
+      "Proclamation": 8,
+      "Comprehensive Master Plan": 5,
+      "Waiver": 5,
+      "Liquor License": 4,
+      "Regulation Amendment": 4
+    },
+    "top_matter_type": "Resolution",
+    "matter_statuses": {
+      "Adopted": 471,
+      "Agenda Ready": 370,
+      "Accepted": 138,
+      "Approved": 11,
+      "Tabled": 6,
+      "Defeated": 2,
+      "Completed": 1,
+      "Rejected": 1
+    },
+    "pass_rate": 33.3,
+    "passed_count": 791,
+    "active_council_members": 3,
+    "avg_tenure_years": 4.8,
+    "vote_coverage_pct": null,
+    "video_availability_pct": 0.0,
+    "agenda_availability_pct": 58.8,
+    "minutes_availability_pct": 26.0,
+    "avg_meetings_per_month": 18.9,
+    "meetings_by_year": {
+      "2027": 1,
+      "2026": 46,
+      "2025": 269,
+      "2024": 184
+    },
+    "avg_sponsors_per_matter": 0.7,
+    "avg_attachments_per_matter": 1.3,
+    "pct_with_text_versions": 100.0,
+    "index_categories": [],
+    "has_accela": true,
+    "accela_agency_id": "DOUGLAS"
+  },
+  "development": {
+    "permits_12mo": null,
+    "yoy_trend_pct": null,
+    "avg_permit_value": null,
+    "permit_types": {},
+    "datasets_count": 0
+  },
+  "meetings": {
+    "official_channels": 0,
+    "meetings_indexed": null,
+    "avg_meetings_per_month": null,
+    "has_video_archive": false,
+    "meeting_types": {},
+    "transcripts_available": null
+  },
+  "civic_issues": {
+    "total_issues": null,
+    "issues_last_30d": null,
+    "issues_last_365d": null,
+    "resolution_rate": null,
+    "top_issue_type": null,
+    "type_distribution": {},
+    "has_civic_issue_tracking": false
+  },
+  "demographics": {
+    "population": null,
+    "poverty_universe": null,
+    "employment_universe": null
+  },
+  "time_series": {
+    "economy_history": [],
+    "safety_history": [],
+    "environment_history": []
+  },
+  "data_sources": {
+    "legistar": "available",
+    "socrata": "skipped",
+    "census_acs": "skipped",
+    "arcgis": "available",
+    "fbi_ucr": "skipped",
+    "socrata_crime": "skipped",
+    "bls_laus": "skipped",
+    "ca_edd": "skipped",
+    "epa_aqs": "skipped",
+    "nces_ccd": "skipped",
+    "hud_fmr": "skipped",
+    "fema_openfema": "skipped",
+    "greatschools": "skipped",
+    "permits": "skipped",
+    "youtube_meetings": "skipped",
+    "seeclickfix": "skipped",
+    "accela": "available"
+  },
+  "provenance": {
+    "last_full_probe": "2026-02-10T02:09:30.215323",
+    "sources": {
+      "legistar": {
+        "authority": "Legistar by Granicus",
+        "authority_tier": 1,
+        "api_url": "https://webapi.legistar.com/v1/douglascounty/Bodies",
+        "probed_at": "2026-02-10T02:09:30.216469",
+        "data_vintage": "2023–2026",
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "socrata": {
+        "authority": "City Open Data Portals (Socrata/Tyler Data & Insights)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "census_acs": {
+        "authority": "US Census Bureau",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": "ACS 5-Year 2022",
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "arcgis": {
+        "authority": "City ArcGIS/GIS Portals",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-10T02:10:28.627248",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "fbi_ucr": {
+        "authority": "FBI Uniform Crime Reporting Program",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "state",
+        "status": "skipped"
+      },
+      "bls_laus": {
+        "authority": "Bureau of Labor Statistics",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "state",
+        "status": "skipped"
+      },
+      "epa_aqs": {
+        "authority": "US Environmental Protection Agency",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "state",
+        "status": "skipped"
+      },
+      "nces_ccd": {
+        "authority": "National Center for Education Statistics",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": "2022-2023 academic year",
+        "geographic_level": "state",
+        "status": "skipped"
+      },
+      "hud_fmr": {
+        "authority": "US Department of Housing and Urban Development",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": "FY2026",
+        "geographic_level": "state",
+        "status": "skipped"
+      },
+      "fema_openfema": {
+        "authority": "Federal Emergency Management Agency",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": "1953-present",
+        "geographic_level": "state",
+        "status": "skipped"
+      },
+      "greatschools": {
+        "authority": "GreatSchools.org (nonprofit)",
+        "authority_tier": 3,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "permits": {
+        "authority": "City Open Data Portals (Socrata)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "youtube_meetings": {
+        "authority": "YouTube (via SerpAPI search + youtube-transcript-api)",
+        "authority_tier": 3,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "seeclickfix": {
+        "authority": "SeeClickFix (civic issue tracking platform)",
+        "authority_tier": 3,
+        "api_url": "https://seeclickfix.com/api/v2/issues?place_url=douglascounty",
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "accela": {
+        "authority": "Accela (permit management platform)",
+        "authority_tier": 3,
+        "api_url": "https://apis.accela.com/v4/agencies",
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "socrata_crime": {
+        "authority": "City Open Data Portals (Socrata)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      }
+    },
+    "derived_fields": {
+      "safety.total_crime_rate": {
+        "formula": "violent_crime_rate + property_crime_rate",
+        "inputs": [
+          "safety.violent_crime_rate",
+          "safety.property_crime_rate"
+        ],
+        "formula_location": "score/normalizer.py:_derive_total_crime",
+        "authority_tier": 2
+      },
+      "safety.crime_trend": {
+        "formula": "(last_year_rate - first_year_rate) / years_span",
+        "inputs": [
+          "fbi.time_series[].violent_crime_rate"
+        ],
+        "formula_location": "score/normalizer.py:_build_safety",
+        "authority_tier": 2
+      },
+      "education.school_quality_tier": {
+        "formula": "excellent if avg>=8, good if avg>=6, fair if avg>=4, else poor",
+        "inputs": [
+          "education.avg_school_rating"
+        ],
+        "formula_location": "score/normalizer.py:_build_education",
+        "authority_tier": 3
+      },
+      "environment.avg_disasters_per_decade": {
+        "formula": "total_disasters / (years_span / 10)",
+        "inputs": [
+          "environment.total_disasters"
+        ],
+        "formula_location": "probe/fema_probe.py",
+        "authority_tier": 2
+      },
+      "housing.rent_burden_ratio": {
+        "formula": "(fmr_2br * 12) / median_household_income * 100",
+        "inputs": [
+          "housing.fmr_2br",
+          "economy.median_household_income"
+        ],
+        "formula_location": "score/normalizer.py:_build_housing",
+        "authority_tier": 2
+      },
+      "governance.legislative_velocity": {
+        "formula": "legislative_volume / years_of_legislative_data",
+        "inputs": [
+          "governance.legislative_volume",
+          "governance.years_of_legislative_data"
+        ],
+        "formula_location": "score/normalizer.py:_build_governance",
+        "authority_tier": 2
+      },
+      "development.yoy_trend_pct": {
+        "formula": "(current_year - prior_year) / prior_year * 100",
+        "inputs": [
+          "permit data from Socrata"
+        ],
+        "formula_location": "probe/permits_probe.py",
+        "authority_tier": 2
+      }
+    },
+    "geographic_mismatches": [
+      {
+        "field": "identity.fips_state",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "state-level data applied to city profile"
+      },
+      {
+        "field": "economy.unemployment_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Reflects statewide unemployment, not city-specific rate"
+      },
+      {
+        "field": "economy.labor_force",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: This is the full state labor force, not city-level"
+      },
+      {
+        "field": "economy.employed",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "economy.unemployed",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.violent_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: City-level requires ORI codes not currently used"
+      },
+      {
+        "field": "safety.property_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.murder_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.robbery_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.burglary_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.vehicle_theft_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.total_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA; derived sum"
+      },
+      {
+        "field": "safety.crime_trend",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "state-level data applied to city profile"
+      },
+      {
+        "field": "education.total_schools",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Count includes all schools in the state, not city"
+      },
+      {
+        "field": "education.total_enrollment",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.pupil_teacher_ratio",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Average across all state schools"
+      },
+      {
+        "field": "education.title1_pct",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.charter_pct",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.regular_schools",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.pm25_mean",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE/COUNTY-LEVEL: Averaged across all monitors in the state"
+      },
+      {
+        "field": "environment.ozone_mean",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE/COUNTY-LEVEL"
+      },
+      {
+        "field": "environment.total_disasters",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: All declarations for the state, not city-specific"
+      },
+      {
+        "field": "environment.avg_disasters_per_decade",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.most_recent_disaster",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.most_recent_disaster_type",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "housing.fmr_0br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR: Fair Market Rents at state level, not city-specific metro area"
+      },
+      {
+        "field": "housing.fmr_1br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_2br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_3br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_4br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.rent_burden_ratio",
+        "source_level": "mixed",
+        "profile_level": "place",
+        "note": "GEOGRAPHIC MISMATCH: FMR is state-level (HUD), income is city-level (Census). Ratio may be biased."
+      }
+    ]
+  },
+  "data_quality": {
+    "quality_score": 21.4,
+    "grade": "F",
+    "completeness_pct": 21.4,
+    "issue_count": 1,
+    "granularity_flags": 0
+  },
+  "officials": {
+    "body_name": "Board of County Commissioners Business Meeting",
+    "members": [
+      {
+        "name": "Abe Laydon",
+        "email": "alaydon@bfwlaw.com",
+        "title": "Chairperson",
+        "start_date": "2023-12-27",
+        "committees": [
+          "Board of Adjustment",
+          "Board of County Commissioners Land Use Meeting/Public Hearing",
+          "Board of Equalizatrion",
+          "Douglas County Massage Facility Authority",
+          "Lincoln Station Local Improvement District No. 07-01"
+        ]
+      },
+      {
+        "name": "Clark Hammelman (Dist. II)",
+        "email": "chammelman@comcast.net",
+        "title": "Regular Member",
+        "start_date": "2023-11-14",
+        "committees": [
+          "Water Commission"
+        ]
+      },
+      {
+        "name": "Evan Ela (Dist. III)",
+        "email": "eela@cegrlaw.com",
+        "title": "Regular Member",
+        "start_date": "2023-11-14",
+        "committees": [
+          "Water Commission"
+        ]
+      },
+      {
+        "name": "George Teal",
+        "email": "GTeal@douglas.co.us",
+        "title": "Vice Chair",
+        "start_date": "2023-12-27",
+        "committees": [
+          "Board of Adjustment",
+          "Board of County Commissioners Land Use Meeting/Public Hearing",
+          "Board of Equalization",
+          "Board of Equalizatrion",
+          "Douglas County Board of Health"
+        ]
+      },
+      {
+        "name": "James Eklund (Dist. I)",
+        "email": "jeklund@shermanhoward.com",
+        "title": "Regular Member",
+        "start_date": "2023-11-14",
+        "committees": [
+          "Water Commission"
+        ]
+      },
+      {
+        "name": "Kevin Van Winkle",
+        "email": null,
+        "title": "Commissioner",
+        "start_date": "2024-12-16",
+        "committees": [
+          "Board of County Commissioners Land Use Meeting/Public Hearing",
+          "Board of Equalization",
+          "Board of Equalizatrion",
+          "Douglas County Board of Health",
+          "Douglas County Massage Facility Authority"
+        ]
+      },
+      {
+        "name": "Max Brooks (Dist. II)",
+        "email": "maxbrooks1@hotmail.com",
+        "title": "Alternate",
+        "start_date": "2023-11-14",
+        "committees": [
+          "Water Commission"
+        ]
+      },
+      {
+        "name": "Merlin Klotz (Dist. I)",
+        "email": "merlin@mklotz.com",
+        "title": "Alternate",
+        "start_date": "2023-11-14",
+        "committees": [
+          "Water Commission"
+        ]
+      }
+    ]
+  },
+  "recent_meetings": [
+    {
+      "date": "2026-02-23",
+      "body": "Water Commission",
+      "location": "Hearing Room",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-11",
+      "body": "Douglas County Parks Advisory Board",
+      "location": "Highland Heritage Regional Park Office",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-11",
+      "body": "Douglas County Parks Advisory Board",
+      "location": "Highland Heritage Regional Park Office",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "Board of County Commissioners Land Use Meeting/Public Hearing",
+      "location": "Hearing Room",
+      "has_agenda": true,
+      "agenda_url": "https://douglascounty.legistar1.com/douglascounty/meetings/2026/2/4016_A_Board_of_County_Commissioners_Land_Use_Meeting_Public_Hearing_26-02-10_AGENDA.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "Board of County Commissioners Business Meeting",
+      "location": "Hearing Room",
+      "has_agenda": true,
+      "agenda_url": "https://douglascounty.legistar1.com/douglascounty/meetings/2026/2/4015_A_Board_of_County_Commissioners_Business_Meeting_26-02-10_AGENDA.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-05",
+      "body": "Region 12 Opioid Council",
+      "location": "Virtual Meeting",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-04",
+      "body": "Douglas County Open Space Advisory Committee (COSAC)",
+      "location": "Conference Room A&B and Virtual\r\n100 Third Street",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-02",
+      "body": "Planning Commission Pre-Meeting & Administration Training Session",
+      "location": "Conference Room A & B",
+      "has_agenda": true,
+      "agenda_url": "https://douglascounty.legistar1.com/douglascounty/meetings/2026/2/4073_A_Planning_Commission_Pre-Meeting___Administration_Training_Session_26-02-02_AGENDA.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-02",
+      "body": "Planning Commission Regular Meeting",
+      "location": "Hearing Room",
+      "has_agenda": true,
+      "agenda_url": "https://douglascounty.legistar1.com/douglascounty/meetings/2026/2/4072_A_Planning_Commission_Regular_Meeting_26-02-02_AGENDA.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-29",
+      "body": "Douglas County Fair Board",
+      "location": "James R. Sullivan Event Center",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-28",
+      "body": "Douglas County Parks Advisory Board",
+      "location": "Highland Heritage Regional Park Office",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-28",
+      "body": "Historic Preservation Board",
+      "location": "100 Third Street, Castle Rock, CO\r\nConference Room – A and B",
+      "has_agenda": true,
+      "agenda_url": "https://douglascounty.legistar1.com/douglascounty/meetings/2026/1/3987_A_Historic_Preservation_Board_26-01-28_AGENDA.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Resolution Committing County Support to Douglas County Sheriff’s Deputies in Matters of Civil Litigation.",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-06",
+      "file_number": "4391",
+      "passed_date": null
+    },
+    {
+      "title": "County Manager Report.",
+      "type": "County Manager Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-04",
+      "file_number": "4386",
+      "passed_date": null
+    },
+    {
+      "title": "Approval of Business Meeting Minutes from January 27, 2026.",
+      "type": "Minutes",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-04",
+      "file_number": "4384",
+      "passed_date": null
+    },
+    {
+      "title": "Approval of Land Use/Public Hearing Minutes from January 27, 2026.",
+      "type": "Minutes",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-04",
+      "file_number": "4385",
+      "passed_date": null
+    },
+    {
+      "title": "Approval of Vouchers February 10, 2026",
+      "type": "Approval of Vouchers",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-03",
+      "file_number": "4379",
+      "passed_date": null
+    },
+    {
+      "title": "Recognition of Eagle Scout Liam O’Brien.",
+      "type": "Presentation",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-03",
+      "file_number": "4380",
+      "passed_date": null
+    },
+    {
+      "title": "Roundup Riders of the Rockies Check Presentation.",
+      "type": "Presentation",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-03",
+      "file_number": "4378",
+      "passed_date": null
+    },
+    {
+      "title": "Second Amendment to the Amended and Restated Intergovernmental Agreement Between the Town of Castle Rock and Douglas County for the Highway 85 Wastewater Collection and Treatment System.",
+      "type": "Contract Amendment",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-02",
+      "file_number": "4369",
+      "passed_date": null
+    },
+    {
+      "title": "2026 Public Contract for Services Amendment with The Hartford Life and Accident Insurance Company in Amount of $1,233,000.00.",
+      "type": "Contract",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-30",
+      "file_number": "4358",
+      "passed_date": null
+    },
+    {
+      "title": "2026 Public Contract for Services Amendment with Fiduciary Consulting Group at Morgan Stanley (formerly Cook Street Consulting, Inc.) in the Annual Amount of $60,000.00 with a Maximum Contract Liabili",
+      "type": "Contract",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-30",
+      "file_number": "4361",
+      "passed_date": null
+    }
+  ],
+  "legistar_url": "https://douglascounty.legistar.com",
+  "enriched_at": "2026-02-13T20:03:53.650462",
+  "government_news": [],
+  "video_meetings": [],
+  "data_platforms": [
+    "legistar"
+  ]
+}

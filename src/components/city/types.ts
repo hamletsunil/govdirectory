@@ -71,6 +71,26 @@ export interface CityProfile {
     cost_burdened_pct: number | null;
     severely_burdened_pct: number | null;
   };
+  health: {
+    uninsured_pct: number | null;
+    obesity_pct: number | null;
+    diabetes_pct: number | null;
+    depression_pct: number | null;
+    asthma_pct: number | null;
+    smoking_pct: number | null;
+    physical_inactivity_pct: number | null;
+    mental_health_bad_days: number | null;
+    physical_health_bad_days: number | null;
+    sleep_deficit_pct: number | null;
+    high_blood_pressure_pct: number | null;
+    high_cholesterol_pct: number | null;
+    heart_disease_pct: number | null;
+    stroke_pct: number | null;
+    cancer_pct: number | null;
+    kidney_disease_pct: number | null;
+    checkup_pct: number | null;
+    data_year: string | null;
+  };
   governance: {
     legislative_volume: number | null;
     legislative_velocity: number | null;

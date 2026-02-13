@@ -1,1 +1,1098 @@
-{"schema_version":"5.0","normalized_at":"2026-02-10T14:21:49.076639","identity":{"name":"Tacoma","state":"WA","fips_state":"53","fips_place":"70000","population":219234},"city_website":"https://www.cityoftacoma.org","economy":{"median_household_income":79085,"median_home_value":415300,"unemployment_rate":4.58,"unemployment_data_level":"county","labor_force":490724,"employed":468255,"unemployed":22468,"gini_index":null,"poverty_rate":12.12,"homeownership_rate":56.79,"rent_to_income_ratio":22.59,"home_value_to_income_ratio":5.25,"price_to_rent_ratio":23.24,"effective_tax_rate":11.529,"population_growth_cagr":0.8179,"median_real_estate_taxes":3990},"safety":{"violent_crime_rate":null,"property_crime_rate":null,"murder_rate":null,"robbery_rate":null,"burglary_rate":null,"vehicle_theft_rate":null,"total_crime_rate":null,"crime_trend":null,"crime_data_level":null},"education":{"total_schools":2566,"total_enrollment":1090227,"pupil_teacher_ratio":17.8,"title1_pct":0.0,"charter_pct":0.6,"regular_schools":2114,"avg_school_rating":null,"rated_schools":null,"school_quality_tier":null},"environment":{"pm25_mean":6.7608,"ozone_mean":0.0412,"total_disasters":25,"avg_disasters_per_decade":3.6,"most_recent_disaster":"2025-12-12","most_recent_disaster_type":"Flood","disasters_by_type":{"Flood":10,"Severe Storm":8,"Biological":2,"Earthquake":2,"Fire":1,"Coastal Storm":1,"Volcanic Eruption":1}},"housing":{"median_rent":1489,"housing_units":93857,"fmr_0br":1428,"fmr_1br":1605,"fmr_2br":1971,"fmr_3br":2733,"fmr_4br":3102,"rent_burden_ratio":29.9,"cost_burdened_pct":51.32,"severely_burdened_pct":23.92},"governance":{"legislative_volume":25000,"legislative_velocity":822.4,"committee_count":13,"years_of_legislative_data":30.4,"has_public_meetings":true,"api_accessible":true,"matter_types":{"Report":329,"Resolution":177,"Item Filed":138,"Topics for Upcoming Meetings":68,"Ordinance":64,"Action Item":59,"Proclamation":51,"Appointment":30,"City Manager's Report":25,"Minutes":18,"Recognition":15,"Presentation":12,"Public Hearing":11,"TBD Resolution":2,"Communication":1},"top_matter_type":"Report","matter_statuses":{"Presented":463,"Adopted":296,"Filed":132,"Passed":49,"Agenda Ready":37,"Second Reading":6,"Adopted as amended":3,"Passed as amended Substitute":3,"Removed from agenda":3,"Passed as amended":3,"Passed as Substitute":2,"Meeting Cancelled":2,"Adopted as Substitute":1},"pass_rate":33.3,"passed_count":8333,"active_council_members":9,"avg_tenure_years":2.6,"vote_coverage_pct":null,"video_availability_pct":0.0,"agenda_availability_pct":78.4,"minutes_availability_pct":0.0,"avg_meetings_per_month":18.8,"meetings_by_year":{"2026":48,"2025":240,"2024":212},"avg_sponsors_per_matter":0.0,"avg_attachments_per_matter":0.7,"pct_with_text_versions":100.0,"index_categories":[],"has_accela":false,"accela_agency_id":null},"development":{"permits_12mo":null,"yoy_trend_pct":null,"avg_permit_value":null,"permit_types":{},"datasets_count":0},"meetings":{"official_channels":0,"meetings_indexed":null,"avg_meetings_per_month":null,"has_video_archive":false,"meeting_types":{},"transcripts_available":null},"civic_issues":{"total_issues":null,"issues_last_30d":null,"issues_last_365d":null,"resolution_rate":null,"top_issue_type":null,"type_distribution":{},"has_civic_issue_tracking":false},"demographics":{"population":219234,"poverty_universe":214883,"employment_universe":180040},"time_series":{"economy_history":[{"year":2024,"unemployment_rate":4.58,"labor_force":490724,"employed":468255,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2023,"unemployment_rate":4.42,"labor_force":484868,"employed":463394,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2022,"unemployment_rate":4.3,"labor_force":471242,"employed":450968,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2021,"unemployment_rate":5.43,"labor_force":453787,"employed":429114,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2020,"unemployment_rate":9.43,"labor_force":450587,"employed":408292,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2019,"unemployment_rate":3.57,"labor_force":454083,"employed":437946,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2018,"unemployment_rate":4.14,"labor_force":446194,"employed":427754,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2017,"unemployment_rate":4.51,"labor_force":433926,"employed":414324,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2016,"unemployment_rate":4.83,"labor_force":419627,"employed":399379,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2015,"unemployment_rate":6.0,"labor_force":390284,"employed":366905,"data_level":"county","source":"bls_laus","is_partial_year":false}],"safety_history":[],"environment_history":[{"year":2023,"pm25_mean":6.7608,"ozone_mean":0.0412,"data_level":"county","source":"epa_aqs"},{"year":2022,"pm25_mean":8.6076,"ozone_mean":0.043,"data_level":"county","source":"epa_aqs"},{"year":2021,"pm25_mean":6.7635,"ozone_mean":0.0428,"data_level":"county","source":"epa_aqs"},{"year":2020,"pm25_mean":8.5872,"ozone_mean":0.0402,"data_level":"county","source":"epa_aqs"},{"year":2019,"pm25_mean":7.6887,"ozone_mean":0.0386,"data_level":"county","source":"epa_aqs"},{"year":2018,"pm25_mean":8.6292,"ozone_mean":0.0435,"data_level":"county","source":"epa_aqs"}]},"data_sources":{"legistar":"available","socrata":"available","census_acs":"available","arcgis":"available","fbi_ucr":"available","socrata_crime":"available","bls_laus":"available","ca_edd":"skipped","epa_aqs":"available","nces_ccd":"available","hud_fmr":"available","fema_openfema":"available","greatschools":"available","permits":"skipped","youtube_meetings":"skipped","seeclickfix":"skipped","accela":"available"},"provenance":{"last_full_probe":"2026-02-10T00:23:49.010812","sources":{"legistar":{"authority":"Legistar by Granicus","authority_tier":1,"api_url":"https://webapi.legistar.com/v1/cityoftacoma/Bodies","probed_at":"2026-02-10T00:23:49.012224","data_vintage":"1880\u20132026","geographic_level":"place","status":"available"},"socrata":{"authority":"City Open Data Portals (Socrata/Tyler Data & Insights)","authority_tier":1,"api_url":null,"probed_at":"2026-02-10T00:25:41.269265","data_vintage":null,"geographic_level":"place","status":"available"},"census_acs":{"authority":"US Census Bureau","authority_tier":1,"api_url":"https://api.census.gov/data/2022/acs/acs5?get=NAME,B01001_001E,B19013_001E,B25077_001E,B25064_001E,B25001_001E&for=place:70000&in=state:53","probed_at":"2026-02-10T00:25:41.271984","data_vintage":"ACS 5-Year 2022","geographic_level":"place","status":"available"},"arcgis":{"authority":"City ArcGIS/GIS Portals","authority_tier":1,"api_url":null,"probed_at":"2026-02-10T00:25:44.606311","data_vintage":null,"geographic_level":"place","status":"available"},"fbi_ucr":{"authority":"FBI Uniform Crime Reporting Program","authority_tier":1,"api_url":"https://api.usa.gov/crime/fbi/sapi/api/estimates/states/WA/2015/2022","probed_at":"2026-02-10T00:25:45.941632","data_vintage":null,"geographic_level":"state","status":"available"},"bls_laus":{"authority":"Bureau of Labor Statistics","authority_tier":1,"api_url":"https://api.bls.gov/publicAPI/v2/timeseries/data/LAUST530000000000003","probed_at":"2026-02-10T00:25:46.109933","data_vintage":"LAUS 2024","geographic_level":"state","status":"available"},"epa_aqs":{"authority":"US Environmental Protection Agency","authority_tier":1,"api_url":"https://aqs.epa.gov/data/api/annualData/byState?state=53&param=88101","probed_at":"2026-02-10T00:25:47.490342","data_vintage":"AQS 2023","geographic_level":"state","status":"available"},"nces_ccd":{"authority":"National Center for Education Statistics","authority_tier":1,"api_url":"https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=53","probed_at":"2026-02-10T00:26:37.140116","data_vintage":"2022-2023 academic year","geographic_level":"state","status":"available"},"hud_fmr":{"authority":"US Department of Housing and Urban Development","authority_tier":1,"api_url":"https://www.huduser.gov/hudapi/public/fmr/statedata/WA","probed_at":"2026-02-10T00:26:44.798538","data_vintage":"FY2026","geographic_level":"state","status":"available"},"fema_openfema":{"authority":"Federal Emergency Management Agency","authority_tier":1,"api_url":"https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries?$filter=state eq 'WA'","probed_at":"2026-02-10T00:26:45.548508","data_vintage":"1953-present","geographic_level":"state","status":"available"},"greatschools":{"authority":"GreatSchools.org (nonprofit)","authority_tier":3,"api_url":null,"probed_at":"2026-02-10T00:26:45.768645","data_vintage":null,"geographic_level":"place","status":"available"},"permits":{"authority":"City Open Data Portals (Socrata)","authority_tier":1,"api_url":null,"probed_at":"2026-02-10T00:26:46.141771","data_vintage":null,"geographic_level":"place","status":"skipped"},"youtube_meetings":{"authority":"YouTube (via SerpAPI search + youtube-transcript-api)","authority_tier":3,"api_url":null,"probed_at":"2026-02-10T00:26:46.142923","data_vintage":null,"geographic_level":"place","status":"skipped"},"seeclickfix":{"authority":"SeeClickFix (civic issue tracking platform)","authority_tier":3,"api_url":"https://seeclickfix.com/api/v2/issues?place_url=cityoftacoma","probed_at":"2026-02-10T00:26:55.075141","data_vintage":null,"geographic_level":"place","status":"skipped"},"accela":{"authority":"Accela (permit management platform)","authority_tier":3,"api_url":"https://apis.accela.com/v4/agencies","probed_at":"2026-02-10T00:26:55.263799","data_vintage":null,"geographic_level":"place","status":"available"},"socrata_crime":{"authority":"City Open Data Portals (Socrata)","authority_tier":1,"api_url":null,"probed_at":"2026-02-10T00:25:46.109456","data_vintage":null,"geographic_level":"place","status":"available"}},"derived_fields":{"safety.total_crime_rate":{"formula":"violent_crime_rate + property_crime_rate","inputs":["safety.violent_crime_rate","safety.property_crime_rate"],"formula_location":"score/normalizer.py:_derive_total_crime","authority_tier":2},"safety.crime_trend":{"formula":"(last_year_rate - first_year_rate) / years_span","inputs":["fbi.time_series[].violent_crime_rate"],"formula_location":"score/normalizer.py:_build_safety","authority_tier":2},"education.school_quality_tier":{"formula":"excellent if avg>=8, good if avg>=6, fair if avg>=4, else poor","inputs":["education.avg_school_rating"],"formula_location":"score/normalizer.py:_build_education","authority_tier":3},"environment.avg_disasters_per_decade":{"formula":"total_disasters / (years_span / 10)","inputs":["environment.total_disasters"],"formula_location":"probe/fema_probe.py","authority_tier":2},"housing.rent_burden_ratio":{"formula":"(fmr_2br * 12) / median_household_income * 100","inputs":["housing.fmr_2br","economy.median_household_income"],"formula_location":"score/normalizer.py:_build_housing","authority_tier":2},"governance.legislative_velocity":{"formula":"legislative_volume / years_of_legislative_data","inputs":["governance.legislative_volume","governance.years_of_legislative_data"],"formula_location":"score/normalizer.py:_build_governance","authority_tier":2},"development.yoy_trend_pct":{"formula":"(current_year - prior_year) / prior_year * 100","inputs":["permit data from Socrata"],"formula_location":"probe/permits_probe.py","authority_tier":2}},"geographic_mismatches":[{"field":"identity.fips_state","source_level":"state","profile_level":"place","note":"state-level data applied to city profile"},{"field":"economy.unemployment_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Reflects statewide unemployment, not city-specific rate"},{"field":"economy.labor_force","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: This is the full state labor force, not city-level"},{"field":"economy.employed","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"economy.unemployed","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.violent_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: City-level requires ORI codes not currently used"},{"field":"safety.property_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.murder_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.robbery_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.burglary_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.vehicle_theft_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.total_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA; derived sum"},{"field":"safety.crime_trend","source_level":"state","profile_level":"place","note":"state-level data applied to city profile"},{"field":"education.total_schools","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Count includes all schools in the state, not city"},{"field":"education.total_enrollment","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.pupil_teacher_ratio","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Average across all state schools"},{"field":"education.title1_pct","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.charter_pct","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.regular_schools","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.pm25_mean","source_level":"state","profile_level":"place","note":"STATE/COUNTY-LEVEL: Averaged across all monitors in the state"},{"field":"environment.ozone_mean","source_level":"state","profile_level":"place","note":"STATE/COUNTY-LEVEL"},{"field":"environment.total_disasters","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: All declarations for the state, not city-specific"},{"field":"environment.avg_disasters_per_decade","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.most_recent_disaster","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.most_recent_disaster_type","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"housing.fmr_0br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR: Fair Market Rents at state level, not city-specific metro area"},{"field":"housing.fmr_1br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_2br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_3br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_4br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.rent_burden_ratio","source_level":"mixed","profile_level":"place","note":"GEOGRAPHIC MISMATCH: FMR is state-level (HUD), income is city-level (Census). Ratio may be biased."}]},"data_quality":{"quality_score":78.6,"grade":"C","completeness_pct":78.6,"issue_count":5,"granularity_flags":1},"officials":{"body_name":"City Council","members":[{"name":"Anders Ibsen","email":"aibsen@tacoma.gov","title":"Mayor","start_date":"2026-01-01","committees":["City Council Study Session","Operational Strategy and Administrative Committee","Transportation Benefit District Governing Board"]},{"name":"Jamika Scott","email":"jscott8@cityoftacoma.org","title":"Council Member","start_date":"2024-01-01","committees":["City Council Study Session","Committee of the Whole","Economic Development Committee","Operational Strategy and Administrative Committee","Transportation Benefit District Governing Board"]},{"name":"Joe Bushnell","email":"jbushnell2@cityoftacoma.org","title":"Deputy Mayor","start_date":"2022-01-01","committees":["City Council Study Session","Government Performance and Finance Committee","Operational Strategy and Administrative Committee","Transportation Benefit District Governing Board"]},{"name":"John Hines","email":"John.Hines@cityoftacoma.org","title":"Council Member","start_date":"2024-01-01","committees":["City Council Study Session","Committee of the Whole","Government Performance and Finance Committee","Infrastructure, Planning, and Sustainability Committee","Operational Strategy and Administrative Committee"]},{"name":"Kristina Walker","email":"Kristina.Walker@cityoftacoma.org","title":"Council Member","start_date":"2020-01-07","committees":["City Council Study Session","Committee of the Whole","Infrastructure, Planning, and Sustainability Committee","Operational Strategy and Administrative Committee","Transportation Benefit District Governing Board"]},{"name":"Latasha Palmer","email":"LPalmer@tacoma.gov","title":"Council Member","start_date":"2026-01-01","committees":["City Council Study Session","Transportation Benefit District Governing Board"]},{"name":"Olgy Diaz","email":"odiaz@cityoftacoma.org","title":"Council Member","start_date":"2022-08-16","committees":["City Council Study Session","Committee of the Whole","Economic Development Committee","Infrastructure, Planning, and Sustainability Committee","Transportation Benefit District Governing Board"]},{"name":"Sandesh Sadalge","email":"ssadalge@cityoftacoma.org","title":"Council Member","start_date":"2024-07-23","committees":["City Council Study Session","Government Performance and Finance Committee","Infrastructure, Planning, and Sustainability Committee","Transportation Benefit District Governing Board"]},{"name":"Sarah Rumbaugh","email":"srumbaugh@cityoftacoma.org","title":"Council Member","start_date":"2022-01-04","committees":["City Council Study Session","Government Performance and Finance Committee","Transportation Benefit District Governing Board"]}]},"recent_meetings":[{"date":"2026-02-17","body":"Government Performance and Finance Committee","location":null,"has_agenda":false,"agenda_url":null,"has_minutes":false,"has_video":false,"upcoming":true},{"date":"2026-02-17","body":"City Council","location":null,"has_agenda":false,"agenda_url":null,"has_minutes":false,"has_video":false,"upcoming":true},{"date":"2026-02-17","body":"City Council Study Session","location":null,"has_agenda":false,"agenda_url":null,"has_minutes":false,"has_video":false,"upcoming":true},{"date":"2026-02-12","body":"Community Vitality and Safety Committee","location":"Webinar Link: www.zoom.us/j/85961604917  Passcode: 614650","has_agenda":true,"agenda_url":"https://legistar.granicus.com/cityoftacoma/meetings/2026/2/10792_A_Community_Vitality_and_Safety_Committee_26-02-12_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-11","body":"Infrastructure, Planning, and Sustainability Committee","location":"Webinar Link: www.zoom.us/j/87829056704 Passcode: 614650","has_agenda":true,"agenda_url":"https://legistar.granicus.com/cityoftacoma/meetings/2026/2/10796_A_Infrastructure%2C_Planning%2C_and_Sustainability_Committee_26-02-11_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-10","body":"City Council Study Session","location":"Council Chambers     \r\nWebinar Link: www.zoom.us/j/89496171192     Passcode: 896569     \r\nDial: 253-215-8782     Meeting ID: 894 9617 1192","has_agenda":true,"agenda_url":"https://legistar.granicus.com/cityoftacoma/meetings/2026/2/10896_A_City_Council_Study_Session_26-02-10_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-10","body":"City Council","location":"Council Chambers     \r\nWebinar Link: www.zoom.us/j/84834233126     Passcode: 349099\r\nDial: 253-215-8782     Meeting ID: 848 3423 3126","has_agenda":true,"agenda_url":"https://legistar.granicus.com/cityoftacoma/meetings/2026/2/10844_A_City_Council_26-02-10_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-10","body":"Economic Development Committee","location":"Webinar Link: www.zoom.us/j/88227539908 Passcode: 614650","has_agenda":true,"agenda_url":"https://legistar.granicus.com/cityoftacoma/meetings/2026/2/10742_A_Economic_Development_Committee__26-02-10_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-09","body":"City Council","location":"Council Chambers","has_agenda":true,"agenda_url":"https://legistar.granicus.com/cityoftacoma/meetings/2026/2/10973_A_City_Council_26-02-09_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-04","body":"City Council","location":null,"has_agenda":true,"agenda_url":"https://legistar.granicus.com/cityoftacoma/meetings/2026/2/10974_A_City_Council_26-02-04_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-03","body":"Government Performance and Finance Committee","location":"Webinar Link: www.zoom.us/j/84416690206  Passcode: 614650","has_agenda":true,"agenda_url":"https://legistar.granicus.com/cityoftacoma/meetings/2026/2/10819_A_Government_Performance_and_Finance_Committee_26-02-03_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-03","body":"City Council","location":"Council Chambers     \r\nWebinar Link: www.zoom.us/j/84834233126     Passcode: 349099\r\nDial: 253-215-8782     Meeting ID: 848 3423 3126","has_agenda":true,"agenda_url":"https://legistar.granicus.com/cityoftacoma/meetings/2026/2/10843_A_City_Council_26-02-03_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-03","body":"City Council Study Session","location":"Council Chambers     \r\nWebinar Link: www.zoom.us/j/89496171192     Passcode: 896569     \r\nDial: 253-215-8782     Meeting ID: 894 9617 1192","has_agenda":true,"agenda_url":"https://legistar.granicus.com/cityoftacoma/meetings/2026/2/10895_A_City_Council_Study_Session_26-02-03_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false}],"recent_legislation":[{"title":"Motions may be considered to forward candidates to interview for the position of\nCity Manager.","type":"Action Item","status":"Agenda Ready","intro_date":"2026-02-05","file_number":"26-0109","passed_date":null},{"title":"Information Technology Department Overview\n[Daniel Key, Director, Information Technology]","type":"Report","status":"Agenda Ready","intro_date":"2026-02-04","file_number":"26-0105","passed_date":null},{"title":"System Development Charges \n[Ramiro Chavez, Director; Environmental Services; Keri Burchard-Juarez, \nWater Superintendent; Andrew Zaremba, Utility Financial Analyst, \nTacoma Public Utilities]","type":"Report","status":"Agenda Ready","intro_date":"2026-02-04","file_number":"26-0107","passed_date":null},{"title":"City Council Consideration Request - Oasis Youth Center HIV and STI Self-Testing for LGBTQ+ Youth \n[Council Member Rumbaugh]","type":"Report","status":"Agenda Ready","intro_date":"2026-02-04","file_number":"26-0106","passed_date":null},{"title":"Weekly Report to the Mayor and City Council, February 5, 2026\n[Allyson Griffith, Deputy City Manager]","type":"City Manager's Report","status":"Agenda Ready","intro_date":"2026-02-04","file_number":"26-0108","passed_date":null},{"title":"Human Rights Commission Interviews\n[Nicole Emery, City Clerk]","type":"Report","status":"Agenda Ready","intro_date":"2026-02-03","file_number":"26-0098","passed_date":null},{"title":"Baker Tilly\u2019s 2025 Audit Entrance Conference Update","type":"Report","status":"Presented","intro_date":"2026-02-03","file_number":"26-0101","passed_date":"2026-02-03"},{"title":"February 26, 2026 - Opioid Settlement Funds; Systems and Strategy Issue\n                                 Statement for 2027-28 Neighborhood and Community\n                                 Services Comp","type":"Report","status":"Agenda Ready","intro_date":"2026-02-03","file_number":"26-0100","passed_date":null},{"title":"Date Range - 01/12/2026 to 01/25/2026\r\nPayroll in the amount of $24,508,454.72; Payments in the amount of $27,037,173.08; for a total of $51,545,627.80.","type":"Action Item","status":"Agenda Ready","intro_date":"2026-02-03","file_number":"26-0102","passed_date":null},{"title":"Review of City of Tacoma 5-year Homelessness Strategy\n[Caleb Carbone, Principal Community Resources Analyst, \nNeighborhood and Community Services]","type":"Report","status":"Agenda Ready","intro_date":"2026-02-03","file_number":"26-0097","passed_date":null}],"legistar_url":"https://cityoftacoma.legistar.com","enriched_at":"2026-02-13T20:02:56.149122","government_news":[],"video_meetings":[],"data_platforms":["legistar"]}
+{
+  "schema_version": "5.0",
+  "normalized_at": "2026-02-10T14:21:49.076639",
+  "identity": {
+    "name": "Tacoma",
+    "state": "WA",
+    "fips_state": "53",
+    "fips_place": "70000",
+    "population": 219234
+  },
+  "city_website": "https://www.cityoftacoma.org",
+  "economy": {
+    "median_household_income": 79085,
+    "median_home_value": 415300,
+    "unemployment_rate": 4.58,
+    "unemployment_data_level": "county",
+    "labor_force": 490724,
+    "employed": 468255,
+    "unemployed": 22468,
+    "gini_index": null,
+    "poverty_rate": 12.12,
+    "homeownership_rate": 56.79,
+    "rent_to_income_ratio": 22.59,
+    "home_value_to_income_ratio": 5.25,
+    "price_to_rent_ratio": 23.24,
+    "effective_tax_rate": 11.529,
+    "population_growth_cagr": 0.8179,
+    "median_real_estate_taxes": 3990
+  },
+  "safety": {
+    "violent_crime_rate": null,
+    "property_crime_rate": null,
+    "murder_rate": null,
+    "robbery_rate": null,
+    "burglary_rate": null,
+    "vehicle_theft_rate": null,
+    "total_crime_rate": null,
+    "crime_trend": null,
+    "crime_data_level": null
+  },
+  "education": {
+    "total_schools": 2566,
+    "total_enrollment": 1090227,
+    "pupil_teacher_ratio": 17.8,
+    "title1_pct": 0.0,
+    "charter_pct": 0.6,
+    "regular_schools": 2114,
+    "avg_school_rating": null,
+    "rated_schools": null,
+    "school_quality_tier": null
+  },
+  "environment": {
+    "pm25_mean": 6.7608,
+    "ozone_mean": 0.0412,
+    "total_disasters": 25,
+    "avg_disasters_per_decade": 3.6,
+    "most_recent_disaster": "2025-12-12",
+    "most_recent_disaster_type": "Flood",
+    "disasters_by_type": {
+      "Flood": 10,
+      "Severe Storm": 8,
+      "Biological": 2,
+      "Earthquake": 2,
+      "Fire": 1,
+      "Coastal Storm": 1,
+      "Volcanic Eruption": 1
+    }
+  },
+  "housing": {
+    "median_rent": 1489,
+    "housing_units": 93857,
+    "fmr_0br": 1428,
+    "fmr_1br": 1605,
+    "fmr_2br": 1971,
+    "fmr_3br": 2733,
+    "fmr_4br": 3102,
+    "rent_burden_ratio": 29.9,
+    "cost_burdened_pct": 51.32,
+    "severely_burdened_pct": 23.92
+  },
+  "health": {
+    "uninsured_pct": 9.3,
+    "obesity_pct": 37.3,
+    "diabetes_pct": 10.5,
+    "depression_pct": 26.6,
+    "asthma_pct": 11.1,
+    "smoking_pct": 12.1,
+    "physical_inactivity_pct": 19.8,
+    "mental_health_bad_days": 18.8,
+    "physical_health_bad_days": 13.7,
+    "sleep_deficit_pct": 38.4,
+    "high_blood_pressure_pct": 31.6,
+    "high_cholesterol_pct": 32.4,
+    "heart_disease_pct": 5.0,
+    "stroke_pct": 2.9,
+    "cancer_pct": 6.7,
+    "kidney_disease_pct": null,
+    "checkup_pct": 69.9,
+    "data_year": "2023"
+  },
+  "governance": {
+    "legislative_volume": 25000,
+    "legislative_velocity": 822.4,
+    "committee_count": 13,
+    "years_of_legislative_data": 30.4,
+    "has_public_meetings": true,
+    "api_accessible": true,
+    "matter_types": {
+      "Report": 329,
+      "Resolution": 177,
+      "Item Filed": 138,
+      "Topics for Upcoming Meetings": 68,
+      "Ordinance": 64,
+      "Action Item": 59,
+      "Proclamation": 51,
+      "Appointment": 30,
+      "City Manager's Report": 25,
+      "Minutes": 18,
+      "Recognition": 15,
+      "Presentation": 12,
+      "Public Hearing": 11,
+      "TBD Resolution": 2,
+      "Communication": 1
+    },
+    "top_matter_type": "Report",
+    "matter_statuses": {
+      "Presented": 463,
+      "Adopted": 296,
+      "Filed": 132,
+      "Passed": 49,
+      "Agenda Ready": 37,
+      "Second Reading": 6,
+      "Adopted as amended": 3,
+      "Passed as amended Substitute": 3,
+      "Removed from agenda": 3,
+      "Passed as amended": 3,
+      "Passed as Substitute": 2,
+      "Meeting Cancelled": 2,
+      "Adopted as Substitute": 1
+    },
+    "pass_rate": 33.3,
+    "passed_count": 8333,
+    "active_council_members": 9,
+    "avg_tenure_years": 2.6,
+    "vote_coverage_pct": null,
+    "video_availability_pct": 0.0,
+    "agenda_availability_pct": 78.4,
+    "minutes_availability_pct": 0.0,
+    "avg_meetings_per_month": 18.8,
+    "meetings_by_year": {
+      "2026": 48,
+      "2025": 240,
+      "2024": 212
+    },
+    "avg_sponsors_per_matter": 0.0,
+    "avg_attachments_per_matter": 0.7,
+    "pct_with_text_versions": 100.0,
+    "index_categories": [],
+    "has_accela": true,
+    "accela_agency_id": "TACOMA"
+  },
+  "development": {
+    "permits_12mo": null,
+    "yoy_trend_pct": null,
+    "avg_permit_value": null,
+    "permit_types": {},
+    "datasets_count": 0
+  },
+  "meetings": {
+    "official_channels": 0,
+    "meetings_indexed": null,
+    "avg_meetings_per_month": null,
+    "has_video_archive": false,
+    "meeting_types": {},
+    "transcripts_available": null
+  },
+  "civic_issues": {
+    "total_issues": null,
+    "issues_last_30d": null,
+    "issues_last_365d": null,
+    "resolution_rate": null,
+    "top_issue_type": null,
+    "type_distribution": {},
+    "has_civic_issue_tracking": false
+  },
+  "demographics": {
+    "population": 219234,
+    "poverty_universe": 214883,
+    "employment_universe": 180040
+  },
+  "time_series": {
+    "economy_history": [
+      {
+        "year": 2024,
+        "unemployment_rate": 4.58,
+        "labor_force": 490724,
+        "employed": 468255,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2023,
+        "unemployment_rate": 4.42,
+        "labor_force": 484868,
+        "employed": 463394,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2022,
+        "unemployment_rate": 4.3,
+        "labor_force": 471242,
+        "employed": 450968,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2021,
+        "unemployment_rate": 5.43,
+        "labor_force": 453787,
+        "employed": 429114,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2020,
+        "unemployment_rate": 9.43,
+        "labor_force": 450587,
+        "employed": 408292,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2019,
+        "unemployment_rate": 3.57,
+        "labor_force": 454083,
+        "employed": 437946,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2018,
+        "unemployment_rate": 4.14,
+        "labor_force": 446194,
+        "employed": 427754,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2017,
+        "unemployment_rate": 4.51,
+        "labor_force": 433926,
+        "employed": 414324,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2016,
+        "unemployment_rate": 4.83,
+        "labor_force": 419627,
+        "employed": 399379,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2015,
+        "unemployment_rate": 6.0,
+        "labor_force": 390284,
+        "employed": 366905,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      }
+    ],
+    "safety_history": [],
+    "environment_history": [
+      {
+        "year": 2023,
+        "pm25_mean": 6.7608,
+        "ozone_mean": 0.0412,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2022,
+        "pm25_mean": 8.6076,
+        "ozone_mean": 0.043,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2021,
+        "pm25_mean": 6.7635,
+        "ozone_mean": 0.0428,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2020,
+        "pm25_mean": 8.5872,
+        "ozone_mean": 0.0402,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2019,
+        "pm25_mean": 7.6887,
+        "ozone_mean": 0.0386,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2018,
+        "pm25_mean": 8.6292,
+        "ozone_mean": 0.0435,
+        "data_level": "county",
+        "source": "epa_aqs"
+      }
+    ]
+  },
+  "data_sources": {
+    "legistar": "available",
+    "socrata": "available",
+    "census_acs": "available",
+    "arcgis": "available",
+    "fbi_ucr": "available",
+    "socrata_crime": "available",
+    "bls_laus": "available",
+    "ca_edd": "skipped",
+    "epa_aqs": "available",
+    "nces_ccd": "available",
+    "hud_fmr": "available",
+    "fema_openfema": "available",
+    "greatschools": "available",
+    "permits": "skipped",
+    "youtube_meetings": "skipped",
+    "seeclickfix": "skipped",
+    "accela": "available",
+    "cdc_places": "available"
+  },
+  "provenance": {
+    "last_full_probe": "2026-02-10T00:23:49.010812",
+    "sources": {
+      "legistar": {
+        "authority": "Legistar by Granicus",
+        "authority_tier": 1,
+        "api_url": "https://webapi.legistar.com/v1/cityoftacoma/Bodies",
+        "probed_at": "2026-02-10T00:23:49.012224",
+        "data_vintage": "1880–2026",
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "socrata": {
+        "authority": "City Open Data Portals (Socrata/Tyler Data & Insights)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-10T00:25:41.269265",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "census_acs": {
+        "authority": "US Census Bureau",
+        "authority_tier": 1,
+        "api_url": "https://api.census.gov/data/2022/acs/acs5?get=NAME,B01001_001E,B19013_001E,B25077_001E,B25064_001E,B25001_001E&for=place:70000&in=state:53",
+        "probed_at": "2026-02-10T00:25:41.271984",
+        "data_vintage": "ACS 5-Year 2022",
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "arcgis": {
+        "authority": "City ArcGIS/GIS Portals",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-10T00:25:44.606311",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "fbi_ucr": {
+        "authority": "FBI Uniform Crime Reporting Program",
+        "authority_tier": 1,
+        "api_url": "https://api.usa.gov/crime/fbi/sapi/api/estimates/states/WA/2015/2022",
+        "probed_at": "2026-02-10T00:25:45.941632",
+        "data_vintage": null,
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "bls_laus": {
+        "authority": "Bureau of Labor Statistics",
+        "authority_tier": 1,
+        "api_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/LAUST530000000000003",
+        "probed_at": "2026-02-10T00:25:46.109933",
+        "data_vintage": "LAUS 2024",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "epa_aqs": {
+        "authority": "US Environmental Protection Agency",
+        "authority_tier": 1,
+        "api_url": "https://aqs.epa.gov/data/api/annualData/byState?state=53&param=88101",
+        "probed_at": "2026-02-10T00:25:47.490342",
+        "data_vintage": "AQS 2023",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "nces_ccd": {
+        "authority": "National Center for Education Statistics",
+        "authority_tier": 1,
+        "api_url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=53",
+        "probed_at": "2026-02-10T00:26:37.140116",
+        "data_vintage": "2022-2023 academic year",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "hud_fmr": {
+        "authority": "US Department of Housing and Urban Development",
+        "authority_tier": 1,
+        "api_url": "https://www.huduser.gov/hudapi/public/fmr/statedata/WA",
+        "probed_at": "2026-02-10T00:26:44.798538",
+        "data_vintage": "FY2026",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "fema_openfema": {
+        "authority": "Federal Emergency Management Agency",
+        "authority_tier": 1,
+        "api_url": "https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries?$filter=state eq 'WA'",
+        "probed_at": "2026-02-10T00:26:45.548508",
+        "data_vintage": "1953-present",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "greatschools": {
+        "authority": "GreatSchools.org (nonprofit)",
+        "authority_tier": 3,
+        "api_url": null,
+        "probed_at": "2026-02-10T00:26:45.768645",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "permits": {
+        "authority": "City Open Data Portals (Socrata)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-10T00:26:46.141771",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "youtube_meetings": {
+        "authority": "YouTube (via SerpAPI search + youtube-transcript-api)",
+        "authority_tier": 3,
+        "api_url": null,
+        "probed_at": "2026-02-10T00:26:46.142923",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "seeclickfix": {
+        "authority": "SeeClickFix (civic issue tracking platform)",
+        "authority_tier": 3,
+        "api_url": "https://seeclickfix.com/api/v2/issues?place_url=cityoftacoma",
+        "probed_at": "2026-02-10T00:26:55.075141",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "accela": {
+        "authority": "Accela (permit management platform)",
+        "authority_tier": 3,
+        "api_url": "https://apis.accela.com/v4/agencies",
+        "probed_at": "2026-02-10T00:26:55.263799",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "socrata_crime": {
+        "authority": "City Open Data Portals (Socrata)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-10T00:25:46.109456",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "cdc_places": {
+        "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
+        "authority_tier": 1,
+        "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Tacoma",
+        "probed_at": "2026-02-13T21:01:37.015277",
+        "data_vintage": "BRFSS 2023",
+        "geographic_level": "place",
+        "status": "available"
+      }
+    },
+    "derived_fields": {
+      "safety.total_crime_rate": {
+        "formula": "violent_crime_rate + property_crime_rate",
+        "inputs": [
+          "safety.violent_crime_rate",
+          "safety.property_crime_rate"
+        ],
+        "formula_location": "score/normalizer.py:_derive_total_crime",
+        "authority_tier": 2
+      },
+      "safety.crime_trend": {
+        "formula": "(last_year_rate - first_year_rate) / years_span",
+        "inputs": [
+          "fbi.time_series[].violent_crime_rate"
+        ],
+        "formula_location": "score/normalizer.py:_build_safety",
+        "authority_tier": 2
+      },
+      "education.school_quality_tier": {
+        "formula": "excellent if avg>=8, good if avg>=6, fair if avg>=4, else poor",
+        "inputs": [
+          "education.avg_school_rating"
+        ],
+        "formula_location": "score/normalizer.py:_build_education",
+        "authority_tier": 3
+      },
+      "environment.avg_disasters_per_decade": {
+        "formula": "total_disasters / (years_span / 10)",
+        "inputs": [
+          "environment.total_disasters"
+        ],
+        "formula_location": "probe/fema_probe.py",
+        "authority_tier": 2
+      },
+      "housing.rent_burden_ratio": {
+        "formula": "(fmr_2br * 12) / median_household_income * 100",
+        "inputs": [
+          "housing.fmr_2br",
+          "economy.median_household_income"
+        ],
+        "formula_location": "score/normalizer.py:_build_housing",
+        "authority_tier": 2
+      },
+      "governance.legislative_velocity": {
+        "formula": "legislative_volume / years_of_legislative_data",
+        "inputs": [
+          "governance.legislative_volume",
+          "governance.years_of_legislative_data"
+        ],
+        "formula_location": "score/normalizer.py:_build_governance",
+        "authority_tier": 2
+      },
+      "development.yoy_trend_pct": {
+        "formula": "(current_year - prior_year) / prior_year * 100",
+        "inputs": [
+          "permit data from Socrata"
+        ],
+        "formula_location": "probe/permits_probe.py",
+        "authority_tier": 2
+      }
+    },
+    "geographic_mismatches": [
+      {
+        "field": "identity.fips_state",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "state-level data applied to city profile"
+      },
+      {
+        "field": "economy.unemployment_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Reflects statewide unemployment, not city-specific rate"
+      },
+      {
+        "field": "economy.labor_force",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: This is the full state labor force, not city-level"
+      },
+      {
+        "field": "economy.employed",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "economy.unemployed",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.violent_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: City-level requires ORI codes not currently used"
+      },
+      {
+        "field": "safety.property_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.murder_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.robbery_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.burglary_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.vehicle_theft_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.total_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA; derived sum"
+      },
+      {
+        "field": "safety.crime_trend",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "state-level data applied to city profile"
+      },
+      {
+        "field": "education.total_schools",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Count includes all schools in the state, not city"
+      },
+      {
+        "field": "education.total_enrollment",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.pupil_teacher_ratio",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Average across all state schools"
+      },
+      {
+        "field": "education.title1_pct",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.charter_pct",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.regular_schools",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.pm25_mean",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE/COUNTY-LEVEL: Averaged across all monitors in the state"
+      },
+      {
+        "field": "environment.ozone_mean",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE/COUNTY-LEVEL"
+      },
+      {
+        "field": "environment.total_disasters",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: All declarations for the state, not city-specific"
+      },
+      {
+        "field": "environment.avg_disasters_per_decade",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.most_recent_disaster",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.most_recent_disaster_type",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "housing.fmr_0br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR: Fair Market Rents at state level, not city-specific metro area"
+      },
+      {
+        "field": "housing.fmr_1br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_2br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_3br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_4br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.rent_burden_ratio",
+        "source_level": "mixed",
+        "profile_level": "place",
+        "note": "GEOGRAPHIC MISMATCH: FMR is state-level (HUD), income is city-level (Census). Ratio may be biased."
+      }
+    ]
+  },
+  "data_quality": {
+    "quality_score": 78.6,
+    "grade": "C",
+    "completeness_pct": 78.6,
+    "issue_count": 5,
+    "granularity_flags": 1
+  },
+  "officials": {
+    "body_name": "City Council",
+    "members": [
+      {
+        "name": "Anders Ibsen",
+        "email": "aibsen@tacoma.gov",
+        "title": "Mayor",
+        "start_date": "2026-01-01",
+        "committees": [
+          "City Council Study Session",
+          "Operational Strategy and Administrative Committee",
+          "Transportation Benefit District Governing Board"
+        ]
+      },
+      {
+        "name": "Jamika Scott",
+        "email": "jscott8@cityoftacoma.org",
+        "title": "Council Member",
+        "start_date": "2024-01-01",
+        "committees": [
+          "City Council Study Session",
+          "Committee of the Whole",
+          "Economic Development Committee",
+          "Operational Strategy and Administrative Committee",
+          "Transportation Benefit District Governing Board"
+        ]
+      },
+      {
+        "name": "Joe Bushnell",
+        "email": "jbushnell2@cityoftacoma.org",
+        "title": "Deputy Mayor",
+        "start_date": "2022-01-01",
+        "committees": [
+          "City Council Study Session",
+          "Government Performance and Finance Committee",
+          "Operational Strategy and Administrative Committee",
+          "Transportation Benefit District Governing Board"
+        ]
+      },
+      {
+        "name": "John Hines",
+        "email": "John.Hines@cityoftacoma.org",
+        "title": "Council Member",
+        "start_date": "2024-01-01",
+        "committees": [
+          "City Council Study Session",
+          "Committee of the Whole",
+          "Government Performance and Finance Committee",
+          "Infrastructure, Planning, and Sustainability Committee",
+          "Operational Strategy and Administrative Committee"
+        ]
+      },
+      {
+        "name": "Kristina Walker",
+        "email": "Kristina.Walker@cityoftacoma.org",
+        "title": "Council Member",
+        "start_date": "2020-01-07",
+        "committees": [
+          "City Council Study Session",
+          "Committee of the Whole",
+          "Infrastructure, Planning, and Sustainability Committee",
+          "Operational Strategy and Administrative Committee",
+          "Transportation Benefit District Governing Board"
+        ]
+      },
+      {
+        "name": "Latasha Palmer",
+        "email": "LPalmer@tacoma.gov",
+        "title": "Council Member",
+        "start_date": "2026-01-01",
+        "committees": [
+          "City Council Study Session",
+          "Transportation Benefit District Governing Board"
+        ]
+      },
+      {
+        "name": "Olgy Diaz",
+        "email": "odiaz@cityoftacoma.org",
+        "title": "Council Member",
+        "start_date": "2022-08-16",
+        "committees": [
+          "City Council Study Session",
+          "Committee of the Whole",
+          "Economic Development Committee",
+          "Infrastructure, Planning, and Sustainability Committee",
+          "Transportation Benefit District Governing Board"
+        ]
+      },
+      {
+        "name": "Sandesh Sadalge",
+        "email": "ssadalge@cityoftacoma.org",
+        "title": "Council Member",
+        "start_date": "2024-07-23",
+        "committees": [
+          "City Council Study Session",
+          "Government Performance and Finance Committee",
+          "Infrastructure, Planning, and Sustainability Committee",
+          "Transportation Benefit District Governing Board"
+        ]
+      },
+      {
+        "name": "Sarah Rumbaugh",
+        "email": "srumbaugh@cityoftacoma.org",
+        "title": "Council Member",
+        "start_date": "2022-01-04",
+        "committees": [
+          "City Council Study Session",
+          "Government Performance and Finance Committee",
+          "Transportation Benefit District Governing Board"
+        ]
+      }
+    ]
+  },
+  "recent_meetings": [
+    {
+      "date": "2026-02-17",
+      "body": "Government Performance and Finance Committee",
+      "location": null,
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-17",
+      "body": "City Council",
+      "location": null,
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-17",
+      "body": "City Council Study Session",
+      "location": null,
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-12",
+      "body": "Community Vitality and Safety Committee",
+      "location": "Webinar Link: www.zoom.us/j/85961604917  Passcode: 614650",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/cityoftacoma/meetings/2026/2/10792_A_Community_Vitality_and_Safety_Committee_26-02-12_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-11",
+      "body": "Infrastructure, Planning, and Sustainability Committee",
+      "location": "Webinar Link: www.zoom.us/j/87829056704 Passcode: 614650",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/cityoftacoma/meetings/2026/2/10796_A_Infrastructure%2C_Planning%2C_and_Sustainability_Committee_26-02-11_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "City Council Study Session",
+      "location": "Council Chambers     \r\nWebinar Link: www.zoom.us/j/89496171192     Passcode: 896569     \r\nDial: 253-215-8782     Meeting ID: 894 9617 1192",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/cityoftacoma/meetings/2026/2/10896_A_City_Council_Study_Session_26-02-10_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "City Council",
+      "location": "Council Chambers     \r\nWebinar Link: www.zoom.us/j/84834233126     Passcode: 349099\r\nDial: 253-215-8782     Meeting ID: 848 3423 3126",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/cityoftacoma/meetings/2026/2/10844_A_City_Council_26-02-10_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "Economic Development Committee",
+      "location": "Webinar Link: www.zoom.us/j/88227539908 Passcode: 614650",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/cityoftacoma/meetings/2026/2/10742_A_Economic_Development_Committee__26-02-10_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-09",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/cityoftacoma/meetings/2026/2/10973_A_City_Council_26-02-09_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-04",
+      "body": "City Council",
+      "location": null,
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/cityoftacoma/meetings/2026/2/10974_A_City_Council_26-02-04_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "Government Performance and Finance Committee",
+      "location": "Webinar Link: www.zoom.us/j/84416690206  Passcode: 614650",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/cityoftacoma/meetings/2026/2/10819_A_Government_Performance_and_Finance_Committee_26-02-03_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "City Council",
+      "location": "Council Chambers     \r\nWebinar Link: www.zoom.us/j/84834233126     Passcode: 349099\r\nDial: 253-215-8782     Meeting ID: 848 3423 3126",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/cityoftacoma/meetings/2026/2/10843_A_City_Council_26-02-03_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "City Council Study Session",
+      "location": "Council Chambers     \r\nWebinar Link: www.zoom.us/j/89496171192     Passcode: 896569     \r\nDial: 253-215-8782     Meeting ID: 894 9617 1192",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/cityoftacoma/meetings/2026/2/10895_A_City_Council_Study_Session_26-02-03_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Motions may be considered to forward candidates to interview for the position of\nCity Manager.",
+      "type": "Action Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-05",
+      "file_number": "26-0109",
+      "passed_date": null
+    },
+    {
+      "title": "Information Technology Department Overview\n[Daniel Key, Director, Information Technology]",
+      "type": "Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-04",
+      "file_number": "26-0105",
+      "passed_date": null
+    },
+    {
+      "title": "System Development Charges \n[Ramiro Chavez, Director; Environmental Services; Keri Burchard-Juarez, \nWater Superintendent; Andrew Zaremba, Utility Financial Analyst, \nTacoma Public Utilities]",
+      "type": "Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-04",
+      "file_number": "26-0107",
+      "passed_date": null
+    },
+    {
+      "title": "City Council Consideration Request - Oasis Youth Center HIV and STI Self-Testing for LGBTQ+ Youth \n[Council Member Rumbaugh]",
+      "type": "Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-04",
+      "file_number": "26-0106",
+      "passed_date": null
+    },
+    {
+      "title": "Weekly Report to the Mayor and City Council, February 5, 2026\n[Allyson Griffith, Deputy City Manager]",
+      "type": "City Manager's Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-04",
+      "file_number": "26-0108",
+      "passed_date": null
+    },
+    {
+      "title": "Human Rights Commission Interviews\n[Nicole Emery, City Clerk]",
+      "type": "Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-03",
+      "file_number": "26-0098",
+      "passed_date": null
+    },
+    {
+      "title": "Baker Tilly’s 2025 Audit Entrance Conference Update",
+      "type": "Report",
+      "status": "Presented",
+      "intro_date": "2026-02-03",
+      "file_number": "26-0101",
+      "passed_date": "2026-02-03"
+    },
+    {
+      "title": "February 26, 2026 - Opioid Settlement Funds; Systems and Strategy Issue\n                                 Statement for 2027-28 Neighborhood and Community\n                                 Services Comp",
+      "type": "Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-03",
+      "file_number": "26-0100",
+      "passed_date": null
+    },
+    {
+      "title": "Date Range - 01/12/2026 to 01/25/2026\r\nPayroll in the amount of $24,508,454.72; Payments in the amount of $27,037,173.08; for a total of $51,545,627.80.",
+      "type": "Action Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-03",
+      "file_number": "26-0102",
+      "passed_date": null
+    },
+    {
+      "title": "Review of City of Tacoma 5-year Homelessness Strategy\n[Caleb Carbone, Principal Community Resources Analyst, \nNeighborhood and Community Services]",
+      "type": "Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-03",
+      "file_number": "26-0097",
+      "passed_date": null
+    }
+  ],
+  "legistar_url": "https://cityoftacoma.legistar.com",
+  "enriched_at": "2026-02-13T20:02:56.149122",
+  "government_news": [],
+  "video_meetings": [],
+  "data_platforms": [
+    "legistar"
+  ]
+}

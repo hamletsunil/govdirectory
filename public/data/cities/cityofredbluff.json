@@ -1,1 +1,804 @@
-{"schema_version":"5.0","normalized_at":"2026-02-10T14:21:49.061025","identity":{"name":"Red Bluff","state":"CA","fips_state":"06","fips_place":"59892","population":14576},"city_website":"https://www.cityofredbluff.org","economy":{"median_household_income":47367,"median_home_value":257900,"unemployment_rate":6.22,"unemployment_data_level":"county","labor_force":27082,"employed":25395,"unemployed":1687,"gini_index":null,"poverty_rate":20.9,"homeownership_rate":42.74,"rent_to_income_ratio":27.06,"home_value_to_income_ratio":5.44,"price_to_rent_ratio":20.12,"effective_tax_rate":6.9003,"population_growth_cagr":0.3503,"median_real_estate_taxes":1483},"safety":{"violent_crime_rate":null,"property_crime_rate":null,"murder_rate":null,"robbery_rate":null,"burglary_rate":null,"vehicle_theft_rate":null,"total_crime_rate":null,"crime_trend":null,"crime_data_level":null},"education":{"total_schools":10416,"total_enrollment":5837868,"pupil_teacher_ratio":22.1,"title1_pct":0.0,"charter_pct":12.5,"regular_schools":9083,"avg_school_rating":null,"rated_schools":null,"school_quality_tier":null},"environment":{"pm25_mean":6.1141,"ozone_mean":0.0476,"total_disasters":25,"avg_disasters_per_decade":3.6,"most_recent_disaster":"2024-07-25","most_recent_disaster_type":"Fire","disasters_by_type":{"Flood":9,"Fire":5,"Severe Storm":5,"Biological":2,"Hurricane":1,"Freezing":1,"Coastal Storm":1,"Drought":1}},"housing":{"median_rent":1068,"housing_units":6169,"fmr_0br":952,"fmr_1br":1038,"fmr_2br":1362,"fmr_3br":1865,"fmr_4br":2285,"rent_burden_ratio":34.5,"cost_burdened_pct":49.99,"severely_burdened_pct":24.2},"governance":{"legislative_volume":34,"legislative_velocity":42.5,"committee_count":4,"years_of_legislative_data":0.8,"has_public_meetings":true,"api_accessible":true,"matter_types":{"Resolution":20,"Report":8,"Presentation":4,"Minutes":2},"top_matter_type":"Resolution","matter_statuses":{"Passed":14,"Agenda Ready":13,"Consent Agenda":3,"Filed":3,"Referred":1},"pass_rate":50.0,"passed_count":17,"active_council_members":5,"avg_tenure_years":4.0,"vote_coverage_pct":0.0,"video_availability_pct":0.0,"agenda_availability_pct":83.3,"minutes_availability_pct":25.0,"avg_meetings_per_month":0.9,"meetings_by_year":{"2026":1,"2025":11},"avg_sponsors_per_matter":0.0,"avg_attachments_per_matter":0.7,"pct_with_text_versions":100.0,"index_categories":["Green Energy"],"has_accela":false,"accela_agency_id":null},"development":{"permits_12mo":null,"yoy_trend_pct":null,"avg_permit_value":null,"permit_types":{},"datasets_count":0},"meetings":{"official_channels":0,"meetings_indexed":null,"avg_meetings_per_month":null,"has_video_archive":false,"meeting_types":{},"transcripts_available":null},"civic_issues":{"total_issues":1,"issues_last_30d":0,"issues_last_365d":0,"resolution_rate":0.0,"top_issue_type":"Unknown","type_distribution":{"Unknown":1},"has_civic_issue_tracking":true},"demographics":{"population":14576,"poverty_universe":14313,"employment_universe":10855},"time_series":{"economy_history":[{"year":2024,"unemployment_rate":6.22,"labor_force":27082,"employed":25395,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2023,"unemployment_rate":5.56,"labor_force":27213,"employed":25700,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2022,"unemployment_rate":4.79,"labor_force":26586,"employed":25314,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2021,"unemployment_rate":6.98,"labor_force":26539,"employed":24685,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2020,"unemployment_rate":8.8,"labor_force":26618,"employed":24286,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2019,"unemployment_rate":5.5,"labor_force":26588,"employed":25130,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2018,"unemployment_rate":5.57,"labor_force":26421,"employed":24950,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2017,"unemployment_rate":6.23,"labor_force":26479,"employed":24832,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2016,"unemployment_rate":6.93,"labor_force":26017,"employed":24211,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2015,"unemployment_rate":7.93,"labor_force":25028,"employed":23042,"data_level":"county","source":"bls_laus","is_partial_year":false}],"safety_history":[],"environment_history":[{"year":2023,"pm25_mean":6.1141,"ozone_mean":0.0476,"data_level":"county","source":"epa_aqs"},{"year":2022,"pm25_mean":5.8738,"ozone_mean":0.048,"data_level":"county","source":"epa_aqs"},{"year":2021,"pm25_mean":10.9753,"ozone_mean":0.0508,"data_level":"county","source":"epa_aqs"},{"year":2020,"pm25_mean":13.3267,"ozone_mean":0.0462,"data_level":"county","source":"epa_aqs"},{"year":2019,"pm25_mean":5.4332,"ozone_mean":0.0464,"data_level":"county","source":"epa_aqs"},{"year":2018,"pm25_mean":10.5825,"ozone_mean":0.0534,"data_level":"county","source":"epa_aqs"}]},"data_sources":{"legistar":"available","socrata":"available","census_acs":"available","arcgis":"available","fbi_ucr":"available","socrata_crime":"available","bls_laus":"available","ca_edd":"error","epa_aqs":"available","nces_ccd":"available","hud_fmr":"available","fema_openfema":"available","greatschools":"available","permits":"skipped","youtube_meetings":"skipped","seeclickfix":"available","accela":"available"},"provenance":{"last_full_probe":"2026-02-10T00:12:05.416632","sources":{"legistar":{"authority":"Legistar by Granicus","authority_tier":1,"api_url":"https://webapi.legistar.com/v1/cityofredbluff/Bodies","probed_at":"2026-02-10T00:12:05.418865","data_vintage":"2025\u20132026","geographic_level":"place","status":"available"},"socrata":{"authority":"City Open Data Portals (Socrata/Tyler Data & Insights)","authority_tier":1,"api_url":null,"probed_at":"2026-02-10T00:12:59.681421","data_vintage":null,"geographic_level":"place","status":"available"},"census_acs":{"authority":"US Census Bureau","authority_tier":1,"api_url":"https://api.census.gov/data/2022/acs/acs5?get=NAME,B01001_001E,B19013_001E,B25077_001E,B25064_001E,B25001_001E&for=place:59892&in=state:06","probed_at":"2026-02-10T00:12:59.682958","data_vintage":"ACS 5-Year 2022","geographic_level":"place","status":"available"},"arcgis":{"authority":"City ArcGIS/GIS Portals","authority_tier":1,"api_url":null,"probed_at":"2026-02-10T00:13:03.401378","data_vintage":null,"geographic_level":"place","status":"available"},"fbi_ucr":{"authority":"FBI Uniform Crime Reporting Program","authority_tier":1,"api_url":"https://api.usa.gov/crime/fbi/sapi/api/estimates/states/CA/2015/2022","probed_at":"2026-02-10T00:13:04.631119","data_vintage":null,"geographic_level":"state","status":"available"},"bls_laus":{"authority":"Bureau of Labor Statistics","authority_tier":1,"api_url":"https://api.bls.gov/publicAPI/v2/timeseries/data/LAUST060000000000003","probed_at":"2026-02-10T00:13:56.468495","data_vintage":"LAUS 2024","geographic_level":"state","status":"available"},"epa_aqs":{"authority":"US Environmental Protection Agency","authority_tier":1,"api_url":"https://aqs.epa.gov/data/api/annualData/byState?state=06&param=88101","probed_at":"2026-02-10T00:13:58.230051","data_vintage":"AQS 2023","geographic_level":"state","status":"available"},"nces_ccd":{"authority":"National Center for Education Statistics","authority_tier":1,"api_url":"https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=06","probed_at":"2026-02-10T00:14:43.567617","data_vintage":"2022-2023 academic year","geographic_level":"state","status":"available"},"hud_fmr":{"authority":"US Department of Housing and Urban Development","authority_tier":1,"api_url":"https://www.huduser.gov/hudapi/public/fmr/statedata/CA","probed_at":"2026-02-10T00:15:12.281152","data_vintage":"FY2026","geographic_level":"state","status":"available"},"fema_openfema":{"authority":"Federal Emergency Management Agency","authority_tier":1,"api_url":"https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries?$filter=state eq 'CA'","probed_at":"2026-02-10T00:15:12.893281","data_vintage":"1953-present","geographic_level":"state","status":"available"},"greatschools":{"authority":"GreatSchools.org (nonprofit)","authority_tier":3,"api_url":null,"probed_at":"2026-02-10T00:15:15.291056","data_vintage":null,"geographic_level":"place","status":"available"},"permits":{"authority":"City Open Data Portals (Socrata)","authority_tier":1,"api_url":null,"probed_at":"2026-02-10T00:15:15.665175","data_vintage":null,"geographic_level":"place","status":"skipped"},"youtube_meetings":{"authority":"YouTube (via SerpAPI search + youtube-transcript-api)","authority_tier":3,"api_url":null,"probed_at":"2026-02-10T00:15:15.666092","data_vintage":null,"geographic_level":"place","status":"skipped"},"seeclickfix":{"authority":"SeeClickFix (civic issue tracking platform)","authority_tier":3,"api_url":"https://seeclickfix.com/api/v2/issues?place_url=cityofredbluff","probed_at":"2026-02-10T00:15:22.855679","data_vintage":null,"geographic_level":"place","status":"available"},"accela":{"authority":"Accela (permit management platform)","authority_tier":3,"api_url":"https://apis.accela.com/v4/agencies","probed_at":"2026-02-10T00:15:55.044029","data_vintage":null,"geographic_level":"place","status":"available"},"socrata_crime":{"authority":"City Open Data Portals (Socrata)","authority_tier":1,"api_url":null,"probed_at":"2026-02-10T00:13:56.463363","data_vintage":null,"geographic_level":"place","status":"available"}},"derived_fields":{"safety.total_crime_rate":{"formula":"violent_crime_rate + property_crime_rate","inputs":["safety.violent_crime_rate","safety.property_crime_rate"],"formula_location":"score/normalizer.py:_derive_total_crime","authority_tier":2},"safety.crime_trend":{"formula":"(last_year_rate - first_year_rate) / years_span","inputs":["fbi.time_series[].violent_crime_rate"],"formula_location":"score/normalizer.py:_build_safety","authority_tier":2},"education.school_quality_tier":{"formula":"excellent if avg>=8, good if avg>=6, fair if avg>=4, else poor","inputs":["education.avg_school_rating"],"formula_location":"score/normalizer.py:_build_education","authority_tier":3},"environment.avg_disasters_per_decade":{"formula":"total_disasters / (years_span / 10)","inputs":["environment.total_disasters"],"formula_location":"probe/fema_probe.py","authority_tier":2},"housing.rent_burden_ratio":{"formula":"(fmr_2br * 12) / median_household_income * 100","inputs":["housing.fmr_2br","economy.median_household_income"],"formula_location":"score/normalizer.py:_build_housing","authority_tier":2},"governance.legislative_velocity":{"formula":"legislative_volume / years_of_legislative_data","inputs":["governance.legislative_volume","governance.years_of_legislative_data"],"formula_location":"score/normalizer.py:_build_governance","authority_tier":2},"development.yoy_trend_pct":{"formula":"(current_year - prior_year) / prior_year * 100","inputs":["permit data from Socrata"],"formula_location":"probe/permits_probe.py","authority_tier":2}},"geographic_mismatches":[{"field":"identity.fips_state","source_level":"state","profile_level":"place","note":"state-level data applied to city profile"},{"field":"economy.unemployment_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Reflects statewide unemployment, not city-specific rate"},{"field":"economy.labor_force","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: This is the full state labor force, not city-level"},{"field":"economy.employed","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"economy.unemployed","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.violent_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: City-level requires ORI codes not currently used"},{"field":"safety.property_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.murder_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.robbery_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.burglary_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.vehicle_theft_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.total_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA; derived sum"},{"field":"safety.crime_trend","source_level":"state","profile_level":"place","note":"state-level data applied to city profile"},{"field":"education.total_schools","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Count includes all schools in the state, not city"},{"field":"education.total_enrollment","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.pupil_teacher_ratio","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Average across all state schools"},{"field":"education.title1_pct","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.charter_pct","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.regular_schools","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.pm25_mean","source_level":"state","profile_level":"place","note":"STATE/COUNTY-LEVEL: Averaged across all monitors in the state"},{"field":"environment.ozone_mean","source_level":"state","profile_level":"place","note":"STATE/COUNTY-LEVEL"},{"field":"environment.total_disasters","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: All declarations for the state, not city-specific"},{"field":"environment.avg_disasters_per_decade","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.most_recent_disaster","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.most_recent_disaster_type","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"housing.fmr_0br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR: Fair Market Rents at state level, not city-specific metro area"},{"field":"housing.fmr_1br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_2br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_3br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_4br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.rent_burden_ratio","source_level":"mixed","profile_level":"place","note":"GEOGRAPHIC MISMATCH: FMR is state-level (HUD), income is city-level (Census). Ratio may be biased."}]},"data_quality":{"quality_score":100.0,"grade":"A","completeness_pct":100.0,"issue_count":6,"granularity_flags":2},"officials":{"body_name":"City Council","members":[{"name":"Cody Strock","email":"cstrock@cityofredbluff.org","title":"Council Member","start_date":"2022-12-02"},{"name":"JR Gonzales","email":"jgonzales@cityofredbluff.org","title":"Mayor Pro Tem","start_date":"2020-12-02"},{"name":"Kris Deiters","email":"kdeiters@cityofredbluff.org","title":"Mayor","start_date":"2018-12-02"},{"name":"Mark Clement","email":"mclement@cityofredbluff.org","title":"Council Member","start_date":"2024-12-02"},{"name":"Patrick Hurton","email":"phurton@cityofredbluff.org","title":"Council Member","start_date":"2022-12-02"}]},"recent_meetings":[{"date":"2026-02-04","body":"City Council","location":"Council Chambers","has_agenda":true,"agenda_url":"https://cityofredbluff.legistar1.com/cityofredbluff/meetings/2026/2/963_A_City_Council_26-02-04_Regular_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false}],"recent_legislation":[],"legistar_url":"https://cityofredbluff.legistar.com","enriched_at":"2026-02-13T20:02:51.791892","government_news":[],"video_meetings":[],"data_platforms":["legistar"]}
+{
+  "schema_version": "5.0",
+  "normalized_at": "2026-02-10T14:21:49.061025",
+  "identity": {
+    "name": "Red Bluff",
+    "state": "CA",
+    "fips_state": "06",
+    "fips_place": "59892",
+    "population": 14576
+  },
+  "city_website": "https://www.cityofredbluff.org",
+  "economy": {
+    "median_household_income": 47367,
+    "median_home_value": 257900,
+    "unemployment_rate": 6.22,
+    "unemployment_data_level": "county",
+    "labor_force": 27082,
+    "employed": 25395,
+    "unemployed": 1687,
+    "gini_index": null,
+    "poverty_rate": 20.9,
+    "homeownership_rate": 42.74,
+    "rent_to_income_ratio": 27.06,
+    "home_value_to_income_ratio": 5.44,
+    "price_to_rent_ratio": 20.12,
+    "effective_tax_rate": 6.9003,
+    "population_growth_cagr": 0.3503,
+    "median_real_estate_taxes": 1483
+  },
+  "safety": {
+    "violent_crime_rate": null,
+    "property_crime_rate": null,
+    "murder_rate": null,
+    "robbery_rate": null,
+    "burglary_rate": null,
+    "vehicle_theft_rate": null,
+    "total_crime_rate": null,
+    "crime_trend": null,
+    "crime_data_level": null
+  },
+  "education": {
+    "total_schools": 10416,
+    "total_enrollment": 5837868,
+    "pupil_teacher_ratio": 22.1,
+    "title1_pct": 0.0,
+    "charter_pct": 12.5,
+    "regular_schools": 9083,
+    "avg_school_rating": null,
+    "rated_schools": null,
+    "school_quality_tier": null
+  },
+  "environment": {
+    "pm25_mean": 6.1141,
+    "ozone_mean": 0.0476,
+    "total_disasters": 25,
+    "avg_disasters_per_decade": 3.6,
+    "most_recent_disaster": "2024-07-25",
+    "most_recent_disaster_type": "Fire",
+    "disasters_by_type": {
+      "Flood": 9,
+      "Fire": 5,
+      "Severe Storm": 5,
+      "Biological": 2,
+      "Hurricane": 1,
+      "Freezing": 1,
+      "Coastal Storm": 1,
+      "Drought": 1
+    }
+  },
+  "housing": {
+    "median_rent": 1068,
+    "housing_units": 6169,
+    "fmr_0br": 952,
+    "fmr_1br": 1038,
+    "fmr_2br": 1362,
+    "fmr_3br": 1865,
+    "fmr_4br": 2285,
+    "rent_burden_ratio": 34.5,
+    "cost_burdened_pct": 49.99,
+    "severely_burdened_pct": 24.2
+  },
+  "health": {
+    "uninsured_pct": 11.1,
+    "obesity_pct": 33.1,
+    "diabetes_pct": 11.3,
+    "depression_pct": 26.8,
+    "asthma_pct": 11.5,
+    "smoking_pct": 17.7,
+    "physical_inactivity_pct": 27.7,
+    "mental_health_bad_days": 22.0,
+    "physical_health_bad_days": 16.7,
+    "sleep_deficit_pct": 37.9,
+    "high_blood_pressure_pct": 31.7,
+    "high_cholesterol_pct": 30.5,
+    "heart_disease_pct": 6.5,
+    "stroke_pct": 3.8,
+    "cancer_pct": 6.9,
+    "kidney_disease_pct": null,
+    "checkup_pct": 69.0,
+    "data_year": "2023"
+  },
+  "governance": {
+    "legislative_volume": 34,
+    "legislative_velocity": 42.5,
+    "committee_count": 4,
+    "years_of_legislative_data": 0.8,
+    "has_public_meetings": true,
+    "api_accessible": true,
+    "matter_types": {
+      "Resolution": 20,
+      "Report": 8,
+      "Presentation": 4,
+      "Minutes": 2
+    },
+    "top_matter_type": "Resolution",
+    "matter_statuses": {
+      "Passed": 14,
+      "Agenda Ready": 13,
+      "Consent Agenda": 3,
+      "Filed": 3,
+      "Referred": 1
+    },
+    "pass_rate": 50.0,
+    "passed_count": 17,
+    "active_council_members": 5,
+    "avg_tenure_years": 4.0,
+    "vote_coverage_pct": 0.0,
+    "video_availability_pct": 0.0,
+    "agenda_availability_pct": 83.3,
+    "minutes_availability_pct": 25.0,
+    "avg_meetings_per_month": 0.9,
+    "meetings_by_year": {
+      "2026": 1,
+      "2025": 11
+    },
+    "avg_sponsors_per_matter": 0.0,
+    "avg_attachments_per_matter": 0.7,
+    "pct_with_text_versions": 100.0,
+    "index_categories": [
+      "Green Energy"
+    ],
+    "has_accela": false,
+    "accela_agency_id": null
+  },
+  "development": {
+    "permits_12mo": null,
+    "yoy_trend_pct": null,
+    "avg_permit_value": null,
+    "permit_types": {},
+    "datasets_count": 0
+  },
+  "meetings": {
+    "official_channels": 0,
+    "meetings_indexed": null,
+    "avg_meetings_per_month": null,
+    "has_video_archive": false,
+    "meeting_types": {},
+    "transcripts_available": null
+  },
+  "civic_issues": {
+    "total_issues": 1,
+    "issues_last_30d": 0,
+    "issues_last_365d": 0,
+    "resolution_rate": 0.0,
+    "top_issue_type": "Unknown",
+    "type_distribution": {
+      "Unknown": 1
+    },
+    "has_civic_issue_tracking": true
+  },
+  "demographics": {
+    "population": 14576,
+    "poverty_universe": 14313,
+    "employment_universe": 10855
+  },
+  "time_series": {
+    "economy_history": [
+      {
+        "year": 2024,
+        "unemployment_rate": 6.22,
+        "labor_force": 27082,
+        "employed": 25395,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2023,
+        "unemployment_rate": 5.56,
+        "labor_force": 27213,
+        "employed": 25700,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2022,
+        "unemployment_rate": 4.79,
+        "labor_force": 26586,
+        "employed": 25314,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2021,
+        "unemployment_rate": 6.98,
+        "labor_force": 26539,
+        "employed": 24685,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2020,
+        "unemployment_rate": 8.8,
+        "labor_force": 26618,
+        "employed": 24286,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2019,
+        "unemployment_rate": 5.5,
+        "labor_force": 26588,
+        "employed": 25130,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2018,
+        "unemployment_rate": 5.57,
+        "labor_force": 26421,
+        "employed": 24950,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2017,
+        "unemployment_rate": 6.23,
+        "labor_force": 26479,
+        "employed": 24832,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2016,
+        "unemployment_rate": 6.93,
+        "labor_force": 26017,
+        "employed": 24211,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2015,
+        "unemployment_rate": 7.93,
+        "labor_force": 25028,
+        "employed": 23042,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      }
+    ],
+    "safety_history": [],
+    "environment_history": [
+      {
+        "year": 2023,
+        "pm25_mean": 6.1141,
+        "ozone_mean": 0.0476,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2022,
+        "pm25_mean": 5.8738,
+        "ozone_mean": 0.048,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2021,
+        "pm25_mean": 10.9753,
+        "ozone_mean": 0.0508,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2020,
+        "pm25_mean": 13.3267,
+        "ozone_mean": 0.0462,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2019,
+        "pm25_mean": 5.4332,
+        "ozone_mean": 0.0464,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2018,
+        "pm25_mean": 10.5825,
+        "ozone_mean": 0.0534,
+        "data_level": "county",
+        "source": "epa_aqs"
+      }
+    ]
+  },
+  "data_sources": {
+    "legistar": "available",
+    "socrata": "available",
+    "census_acs": "available",
+    "arcgis": "available",
+    "fbi_ucr": "available",
+    "socrata_crime": "available",
+    "bls_laus": "available",
+    "ca_edd": "error",
+    "epa_aqs": "available",
+    "nces_ccd": "available",
+    "hud_fmr": "available",
+    "fema_openfema": "available",
+    "greatschools": "available",
+    "permits": "skipped",
+    "youtube_meetings": "skipped",
+    "seeclickfix": "available",
+    "accela": "available",
+    "cdc_places": "available"
+  },
+  "provenance": {
+    "last_full_probe": "2026-02-10T00:12:05.416632",
+    "sources": {
+      "legistar": {
+        "authority": "Legistar by Granicus",
+        "authority_tier": 1,
+        "api_url": "https://webapi.legistar.com/v1/cityofredbluff/Bodies",
+        "probed_at": "2026-02-10T00:12:05.418865",
+        "data_vintage": "2025–2026",
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "socrata": {
+        "authority": "City Open Data Portals (Socrata/Tyler Data & Insights)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-10T00:12:59.681421",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "census_acs": {
+        "authority": "US Census Bureau",
+        "authority_tier": 1,
+        "api_url": "https://api.census.gov/data/2022/acs/acs5?get=NAME,B01001_001E,B19013_001E,B25077_001E,B25064_001E,B25001_001E&for=place:59892&in=state:06",
+        "probed_at": "2026-02-10T00:12:59.682958",
+        "data_vintage": "ACS 5-Year 2022",
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "arcgis": {
+        "authority": "City ArcGIS/GIS Portals",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-10T00:13:03.401378",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "fbi_ucr": {
+        "authority": "FBI Uniform Crime Reporting Program",
+        "authority_tier": 1,
+        "api_url": "https://api.usa.gov/crime/fbi/sapi/api/estimates/states/CA/2015/2022",
+        "probed_at": "2026-02-10T00:13:04.631119",
+        "data_vintage": null,
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "bls_laus": {
+        "authority": "Bureau of Labor Statistics",
+        "authority_tier": 1,
+        "api_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/LAUST060000000000003",
+        "probed_at": "2026-02-10T00:13:56.468495",
+        "data_vintage": "LAUS 2024",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "epa_aqs": {
+        "authority": "US Environmental Protection Agency",
+        "authority_tier": 1,
+        "api_url": "https://aqs.epa.gov/data/api/annualData/byState?state=06&param=88101",
+        "probed_at": "2026-02-10T00:13:58.230051",
+        "data_vintage": "AQS 2023",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "nces_ccd": {
+        "authority": "National Center for Education Statistics",
+        "authority_tier": 1,
+        "api_url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=06",
+        "probed_at": "2026-02-10T00:14:43.567617",
+        "data_vintage": "2022-2023 academic year",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "hud_fmr": {
+        "authority": "US Department of Housing and Urban Development",
+        "authority_tier": 1,
+        "api_url": "https://www.huduser.gov/hudapi/public/fmr/statedata/CA",
+        "probed_at": "2026-02-10T00:15:12.281152",
+        "data_vintage": "FY2026",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "fema_openfema": {
+        "authority": "Federal Emergency Management Agency",
+        "authority_tier": 1,
+        "api_url": "https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries?$filter=state eq 'CA'",
+        "probed_at": "2026-02-10T00:15:12.893281",
+        "data_vintage": "1953-present",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "greatschools": {
+        "authority": "GreatSchools.org (nonprofit)",
+        "authority_tier": 3,
+        "api_url": null,
+        "probed_at": "2026-02-10T00:15:15.291056",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "permits": {
+        "authority": "City Open Data Portals (Socrata)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-10T00:15:15.665175",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "youtube_meetings": {
+        "authority": "YouTube (via SerpAPI search + youtube-transcript-api)",
+        "authority_tier": 3,
+        "api_url": null,
+        "probed_at": "2026-02-10T00:15:15.666092",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "seeclickfix": {
+        "authority": "SeeClickFix (civic issue tracking platform)",
+        "authority_tier": 3,
+        "api_url": "https://seeclickfix.com/api/v2/issues?place_url=cityofredbluff",
+        "probed_at": "2026-02-10T00:15:22.855679",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "accela": {
+        "authority": "Accela (permit management platform)",
+        "authority_tier": 3,
+        "api_url": "https://apis.accela.com/v4/agencies",
+        "probed_at": "2026-02-10T00:15:55.044029",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "socrata_crime": {
+        "authority": "City Open Data Portals (Socrata)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-10T00:13:56.463363",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "cdc_places": {
+        "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
+        "authority_tier": 1,
+        "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Red%20Bluff",
+        "probed_at": "2026-02-13T21:03:55.860076",
+        "data_vintage": "BRFSS 2023",
+        "geographic_level": "place",
+        "status": "available"
+      }
+    },
+    "derived_fields": {
+      "safety.total_crime_rate": {
+        "formula": "violent_crime_rate + property_crime_rate",
+        "inputs": [
+          "safety.violent_crime_rate",
+          "safety.property_crime_rate"
+        ],
+        "formula_location": "score/normalizer.py:_derive_total_crime",
+        "authority_tier": 2
+      },
+      "safety.crime_trend": {
+        "formula": "(last_year_rate - first_year_rate) / years_span",
+        "inputs": [
+          "fbi.time_series[].violent_crime_rate"
+        ],
+        "formula_location": "score/normalizer.py:_build_safety",
+        "authority_tier": 2
+      },
+      "education.school_quality_tier": {
+        "formula": "excellent if avg>=8, good if avg>=6, fair if avg>=4, else poor",
+        "inputs": [
+          "education.avg_school_rating"
+        ],
+        "formula_location": "score/normalizer.py:_build_education",
+        "authority_tier": 3
+      },
+      "environment.avg_disasters_per_decade": {
+        "formula": "total_disasters / (years_span / 10)",
+        "inputs": [
+          "environment.total_disasters"
+        ],
+        "formula_location": "probe/fema_probe.py",
+        "authority_tier": 2
+      },
+      "housing.rent_burden_ratio": {
+        "formula": "(fmr_2br * 12) / median_household_income * 100",
+        "inputs": [
+          "housing.fmr_2br",
+          "economy.median_household_income"
+        ],
+        "formula_location": "score/normalizer.py:_build_housing",
+        "authority_tier": 2
+      },
+      "governance.legislative_velocity": {
+        "formula": "legislative_volume / years_of_legislative_data",
+        "inputs": [
+          "governance.legislative_volume",
+          "governance.years_of_legislative_data"
+        ],
+        "formula_location": "score/normalizer.py:_build_governance",
+        "authority_tier": 2
+      },
+      "development.yoy_trend_pct": {
+        "formula": "(current_year - prior_year) / prior_year * 100",
+        "inputs": [
+          "permit data from Socrata"
+        ],
+        "formula_location": "probe/permits_probe.py",
+        "authority_tier": 2
+      }
+    },
+    "geographic_mismatches": [
+      {
+        "field": "identity.fips_state",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "state-level data applied to city profile"
+      },
+      {
+        "field": "economy.unemployment_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Reflects statewide unemployment, not city-specific rate"
+      },
+      {
+        "field": "economy.labor_force",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: This is the full state labor force, not city-level"
+      },
+      {
+        "field": "economy.employed",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "economy.unemployed",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.violent_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: City-level requires ORI codes not currently used"
+      },
+      {
+        "field": "safety.property_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.murder_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.robbery_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.burglary_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.vehicle_theft_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.total_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA; derived sum"
+      },
+      {
+        "field": "safety.crime_trend",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "state-level data applied to city profile"
+      },
+      {
+        "field": "education.total_schools",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Count includes all schools in the state, not city"
+      },
+      {
+        "field": "education.total_enrollment",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.pupil_teacher_ratio",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Average across all state schools"
+      },
+      {
+        "field": "education.title1_pct",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.charter_pct",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.regular_schools",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.pm25_mean",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE/COUNTY-LEVEL: Averaged across all monitors in the state"
+      },
+      {
+        "field": "environment.ozone_mean",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE/COUNTY-LEVEL"
+      },
+      {
+        "field": "environment.total_disasters",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: All declarations for the state, not city-specific"
+      },
+      {
+        "field": "environment.avg_disasters_per_decade",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.most_recent_disaster",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.most_recent_disaster_type",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "housing.fmr_0br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR: Fair Market Rents at state level, not city-specific metro area"
+      },
+      {
+        "field": "housing.fmr_1br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_2br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_3br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_4br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.rent_burden_ratio",
+        "source_level": "mixed",
+        "profile_level": "place",
+        "note": "GEOGRAPHIC MISMATCH: FMR is state-level (HUD), income is city-level (Census). Ratio may be biased."
+      }
+    ]
+  },
+  "data_quality": {
+    "quality_score": 100.0,
+    "grade": "A",
+    "completeness_pct": 100.0,
+    "issue_count": 6,
+    "granularity_flags": 2
+  },
+  "officials": {
+    "body_name": "City Council",
+    "members": [
+      {
+        "name": "Cody Strock",
+        "email": "cstrock@cityofredbluff.org",
+        "title": "Council Member",
+        "start_date": "2022-12-02"
+      },
+      {
+        "name": "JR Gonzales",
+        "email": "jgonzales@cityofredbluff.org",
+        "title": "Mayor Pro Tem",
+        "start_date": "2020-12-02"
+      },
+      {
+        "name": "Kris Deiters",
+        "email": "kdeiters@cityofredbluff.org",
+        "title": "Mayor",
+        "start_date": "2018-12-02"
+      },
+      {
+        "name": "Mark Clement",
+        "email": "mclement@cityofredbluff.org",
+        "title": "Council Member",
+        "start_date": "2024-12-02"
+      },
+      {
+        "name": "Patrick Hurton",
+        "email": "phurton@cityofredbluff.org",
+        "title": "Council Member",
+        "start_date": "2022-12-02"
+      }
+    ]
+  },
+  "recent_meetings": [
+    {
+      "date": "2026-02-04",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://cityofredbluff.legistar1.com/cityofredbluff/meetings/2026/2/963_A_City_Council_26-02-04_Regular_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [],
+  "legistar_url": "https://cityofredbluff.legistar.com",
+  "enriched_at": "2026-02-13T20:02:51.791892",
+  "government_news": [],
+  "video_meetings": [],
+  "data_platforms": [
+    "legistar"
+  ]
+}

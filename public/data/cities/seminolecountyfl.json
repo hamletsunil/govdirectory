@@ -1,1 +1,824 @@
-{"schema_version":"5.0","normalized_at":"2026-02-10T14:21:49.394025","identity":{"name":"Seminole County","state":"FL","fips_state":null,"fips_place":null,"population":null},"city_website":"https://www.seminolecountyfl.gov","economy":{"median_household_income":null,"median_home_value":null,"unemployment_rate":null,"unemployment_data_level":"state","labor_force":null,"employed":null,"unemployed":null,"gini_index":null,"poverty_rate":null,"homeownership_rate":null,"rent_to_income_ratio":null,"home_value_to_income_ratio":null,"price_to_rent_ratio":null,"effective_tax_rate":null,"population_growth_cagr":null,"median_real_estate_taxes":null},"safety":{"violent_crime_rate":null,"property_crime_rate":null,"murder_rate":null,"robbery_rate":null,"burglary_rate":null,"vehicle_theft_rate":null,"total_crime_rate":null,"crime_trend":null,"crime_data_level":null},"education":{"total_schools":null,"total_enrollment":null,"pupil_teacher_ratio":null,"title1_pct":null,"charter_pct":null,"regular_schools":null,"avg_school_rating":null,"rated_schools":null,"school_quality_tier":null},"environment":{"pm25_mean":null,"ozone_mean":null,"total_disasters":null,"avg_disasters_per_decade":null,"most_recent_disaster":null,"most_recent_disaster_type":null,"disasters_by_type":{}},"housing":{"median_rent":null,"housing_units":null,"fmr_0br":null,"fmr_1br":null,"fmr_2br":null,"fmr_3br":null,"fmr_4br":null,"rent_burden_ratio":null,"cost_burdened_pct":null,"severely_burdened_pct":null},"governance":{"legislative_volume":3125,"legislative_velocity":111.2,"committee_count":15,"years_of_legislative_data":28.1,"has_public_meetings":true,"api_accessible":true,"matter_types":{"Consent Item":469,"Variances":132,"Pre-Applications":92,"Comments Only (no meeting scheduled)":89,"Award/Presentation":51,"County Manager and Staff Briefings":27,"Public Hearings - Quasi-Judicial":27,"Constitutional Officers":25,"Regular Agenda":24,"DRC":23,"Public Hearings - Legislative":19,"Public Hearing Items":14,"Technical Review Items":5,"Other Business":2,"Resolution":1},"top_matter_type":"Consent Item","matter_statuses":{"Passed":611,"Agenda Ready":368,"Failed":9,"Filed":8,"Held":3,"Withdrawn":1},"pass_rate":33.3,"passed_count":1041,"active_council_members":5,"avg_tenure_years":0.6,"vote_coverage_pct":6.7,"video_availability_pct":0.0,"agenda_availability_pct":71.0,"minutes_availability_pct":24.4,"avg_meetings_per_month":9.4,"meetings_by_year":{"2026":11,"2025":107,"2024":119,"2023":131,"2022":118,"2021":14},"avg_sponsors_per_matter":0.0,"avg_attachments_per_matter":2.9,"pct_with_text_versions":100.0,"index_categories":["Airport Aviation Easement","FLU Policy 5.15"],"has_accela":false,"accela_agency_id":null},"development":{"permits_12mo":null,"yoy_trend_pct":null,"avg_permit_value":null,"permit_types":{},"datasets_count":0},"meetings":{"official_channels":0,"meetings_indexed":null,"avg_meetings_per_month":null,"has_video_archive":false,"meeting_types":{},"transcripts_available":null},"civic_issues":{"total_issues":null,"issues_last_30d":null,"issues_last_365d":null,"resolution_rate":null,"top_issue_type":null,"type_distribution":{},"has_civic_issue_tracking":false},"demographics":{"population":null,"poverty_universe":null,"employment_universe":null},"time_series":{"economy_history":[],"safety_history":[],"environment_history":[]},"data_sources":{"legistar":"available","socrata":"skipped","census_acs":"skipped","arcgis":"available","fbi_ucr":"available","socrata_crime":"skipped","bls_laus":"skipped","ca_edd":"skipped","epa_aqs":"skipped","nces_ccd":"skipped","hud_fmr":"skipped","fema_openfema":"skipped","greatschools":"available","permits":"skipped","youtube_meetings":"skipped","seeclickfix":"skipped","accela":"available"},"provenance":{"last_full_probe":"2026-02-10T12:32:37.398633","sources":{"legistar":{"authority":"Legistar by Granicus","authority_tier":1,"api_url":"https://webapi.legistar.com/v1/seminolecountyfl/Bodies","probed_at":"2026-02-10T12:32:37.403964","data_vintage":"2022\u20132026","geographic_level":"place","status":"available"},"socrata":{"authority":"City Open Data Portals (Socrata/Tyler Data & Insights)","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"place","status":"skipped"},"census_acs":{"authority":"US Census Bureau","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":"ACS 5-Year 2022","geographic_level":"place","status":"skipped"},"arcgis":{"authority":"City ArcGIS/GIS Portals","authority_tier":1,"api_url":null,"probed_at":"2026-02-10T12:34:08.512283","data_vintage":null,"geographic_level":"place","status":"available"},"fbi_ucr":{"authority":"FBI Uniform Crime Reporting Program","authority_tier":1,"api_url":"https://api.usa.gov/crime/fbi/sapi/api/estimates/states/FL/2015/2022","probed_at":"2026-02-10T12:34:17.814082","data_vintage":null,"geographic_level":"state","status":"available"},"bls_laus":{"authority":"Bureau of Labor Statistics","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"state","status":"skipped"},"epa_aqs":{"authority":"US Environmental Protection Agency","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"state","status":"skipped"},"nces_ccd":{"authority":"National Center for Education Statistics","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":"2022-2023 academic year","geographic_level":"state","status":"skipped"},"hud_fmr":{"authority":"US Department of Housing and Urban Development","authority_tier":1,"api_url":"https://www.huduser.gov/hudapi/public/fmr/statedata/FL","probed_at":null,"data_vintage":"FY2026","geographic_level":"state","status":"skipped"},"fema_openfema":{"authority":"Federal Emergency Management Agency","authority_tier":1,"api_url":"https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries?$filter=state eq 'FL'","probed_at":null,"data_vintage":"1953-present","geographic_level":"state","status":"skipped"},"greatschools":{"authority":"GreatSchools.org (nonprofit)","authority_tier":3,"api_url":null,"probed_at":"2026-02-10T12:34:32.753331","data_vintage":null,"geographic_level":"place","status":"available"},"permits":{"authority":"City Open Data Portals (Socrata)","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"place","status":"skipped"},"youtube_meetings":{"authority":"YouTube (via SerpAPI search + youtube-transcript-api)","authority_tier":3,"api_url":null,"probed_at":"2026-02-10T12:34:33.094787","data_vintage":null,"geographic_level":"place","status":"skipped"},"seeclickfix":{"authority":"SeeClickFix (civic issue tracking platform)","authority_tier":3,"api_url":"https://seeclickfix.com/api/v2/issues?place_url=seminolecountyfl","probed_at":"2026-02-10T12:34:42.675690","data_vintage":null,"geographic_level":"place","status":"skipped"},"accela":{"authority":"Accela (permit management platform)","authority_tier":3,"api_url":"https://apis.accela.com/v4/agencies","probed_at":"2026-02-10T12:34:42.972339","data_vintage":null,"geographic_level":"place","status":"available"},"socrata_crime":{"authority":"City Open Data Portals (Socrata)","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"place","status":"skipped"}},"derived_fields":{"safety.total_crime_rate":{"formula":"violent_crime_rate + property_crime_rate","inputs":["safety.violent_crime_rate","safety.property_crime_rate"],"formula_location":"score/normalizer.py:_derive_total_crime","authority_tier":2},"safety.crime_trend":{"formula":"(last_year_rate - first_year_rate) / years_span","inputs":["fbi.time_series[].violent_crime_rate"],"formula_location":"score/normalizer.py:_build_safety","authority_tier":2},"education.school_quality_tier":{"formula":"excellent if avg>=8, good if avg>=6, fair if avg>=4, else poor","inputs":["education.avg_school_rating"],"formula_location":"score/normalizer.py:_build_education","authority_tier":3},"environment.avg_disasters_per_decade":{"formula":"total_disasters / (years_span / 10)","inputs":["environment.total_disasters"],"formula_location":"probe/fema_probe.py","authority_tier":2},"housing.rent_burden_ratio":{"formula":"(fmr_2br * 12) / median_household_income * 100","inputs":["housing.fmr_2br","economy.median_household_income"],"formula_location":"score/normalizer.py:_build_housing","authority_tier":2},"governance.legislative_velocity":{"formula":"legislative_volume / years_of_legislative_data","inputs":["governance.legislative_volume","governance.years_of_legislative_data"],"formula_location":"score/normalizer.py:_build_governance","authority_tier":2},"development.yoy_trend_pct":{"formula":"(current_year - prior_year) / prior_year * 100","inputs":["permit data from Socrata"],"formula_location":"probe/permits_probe.py","authority_tier":2}},"geographic_mismatches":[{"field":"identity.fips_state","source_level":"state","profile_level":"place","note":"state-level data applied to city profile"},{"field":"economy.unemployment_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Reflects statewide unemployment, not city-specific rate"},{"field":"economy.labor_force","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: This is the full state labor force, not city-level"},{"field":"economy.employed","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"economy.unemployed","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.violent_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: City-level requires ORI codes not currently used"},{"field":"safety.property_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.murder_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.robbery_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.burglary_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.vehicle_theft_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.total_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA; derived sum"},{"field":"safety.crime_trend","source_level":"state","profile_level":"place","note":"state-level data applied to city profile"},{"field":"education.total_schools","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Count includes all schools in the state, not city"},{"field":"education.total_enrollment","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.pupil_teacher_ratio","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Average across all state schools"},{"field":"education.title1_pct","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.charter_pct","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.regular_schools","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.pm25_mean","source_level":"state","profile_level":"place","note":"STATE/COUNTY-LEVEL: Averaged across all monitors in the state"},{"field":"environment.ozone_mean","source_level":"state","profile_level":"place","note":"STATE/COUNTY-LEVEL"},{"field":"environment.total_disasters","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: All declarations for the state, not city-specific"},{"field":"environment.avg_disasters_per_decade","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.most_recent_disaster","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.most_recent_disaster_type","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"housing.fmr_0br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR: Fair Market Rents at state level, not city-specific metro area"},{"field":"housing.fmr_1br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_2br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_3br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_4br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.rent_burden_ratio","source_level":"mixed","profile_level":"place","note":"GEOGRAPHIC MISMATCH: FMR is state-level (HUD), income is city-level (Census). Ratio may be biased."}]},"data_quality":{"quality_score":28.6,"grade":"F","completeness_pct":28.6,"issue_count":2,"granularity_flags":0},"officials":{"body_name":"Board of County Commissioners","members":[{"name":"Chairman Andria Herr","email":null,"title":null,"start_date":"2025-11-19"},{"name":"Commissioner Bob Dallari","email":null,"title":null,"start_date":"2024-11-19","committees":["Board of County Commissioners Worksessions","Seminole County Industrial Development Authority"]},{"name":"Commissioner Jay Zembower","email":null,"title":null,"start_date":"2025-11-19"},{"name":"Commissioner Lee Constantine","email":null,"title":null,"start_date":"2024-11-19","committees":["Board of County Commissioners Worksessions"]},{"name":"Vice Chairman Amy Lockhart","email":null,"title":null,"start_date":"2025-11-19"}]},"recent_meetings":[{"date":"2026-02-12","body":"Code Enforcement Special Magistrate","location":"BCC Chambers, Room 1028","has_agenda":true,"agenda_url":"https://seminolecountyfl.legistar1.com/seminolecountyfl/meetings/2026/2/3549_A_Code_Enforcement_Special_Magistrate_26-02-12_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-10","body":"Board of County Commissioners","location":"BCC Chambers","has_agenda":true,"agenda_url":"https://seminolecountyfl.legistar1.com/seminolecountyfl/meetings/2026/2/3575_A_Board_of_County_Commissioners_26-02-10_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-04","body":"Planning and Zoning Commission","location":"BCC Chambers","has_agenda":true,"agenda_url":"https://seminolecountyfl.legistar1.com/seminolecountyfl/meetings/2026/2/3564_A_Planning_and_Zoning_Commission_26-02-04_Meeting_Agenda.pdf","has_minutes":true,"has_video":false,"upcoming":false},{"date":"2026-02-04","body":"Development Review Committee","location":"Room 3024","has_agenda":true,"agenda_url":"https://seminolecountyfl.legistar1.com/seminolecountyfl/meetings/2026/2/3600_A_Development_Review_Committee_26-02-04_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-01-27","body":"Board of County Commissioners","location":"BCC Chambers","has_agenda":true,"agenda_url":"https://seminolecountyfl.legistar1.com/seminolecountyfl/meetings/2026/1/3562_A_Board_of_County_Commissioners_26-01-27_Meeting_Agenda.pdf","has_minutes":true,"has_video":false,"upcoming":false},{"date":"2026-01-26","body":"Board of Adjustment","location":"BCC Chambers, Room 1028","has_agenda":true,"agenda_url":"https://seminolecountyfl.legistar1.com/seminolecountyfl/meetings/2026/1/3602_A_Board_of_Adjustment_26-01-26_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-01-21","body":"Development Review Committee","location":"Room 3024","has_agenda":true,"agenda_url":"https://seminolecountyfl.legistar1.com/seminolecountyfl/meetings/2026/1/3599_A_Development_Review_Committee_26-01-21_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false}],"recent_legislation":[{"title":"3439 Holliday Avenue - Request for a rear yard setback variance from thirty (30) feet to five (5) feet for a shed in the R-1AA (Single Family Dwelling) district; BV2026-004 (Eric Schimmer, Applicant) ","type":"Resolution","status":"Agenda Ready","intro_date":"2026-02-03","file_number":"2026-0156","passed_date":null},{"title":"Approve an additional paid day off in observance of President\u2019s Day (February 16, 2026), consistent with the State of Florida\u2019s holiday schedule and in recognition of the America 250 commemoration. Co","type":"Consent Item","status":"Agenda Ready","intro_date":"2026-02-02","file_number":"2026-0153","passed_date":null},{"title":"500 Sweetwater Club Boulevard - Request for a height variance from five (5) feet to seven (7) feet for fence columns in the A-1 (Agriculture) district; BV2025-143 (Chad & Cindy Barr, Applicant) Distri","type":"Variances","status":"Agenda Ready","intro_date":"2026-02-02","file_number":"2026-0147","passed_date":null},{"title":"528 Pinesong Drive - Request for a rear yard setback variance from five (5) feet to two (2) feet for a pool screen enclosure in the PD (Planned Development) district; BV2025-144 (Kacey Foust, Applican","type":"Variances","status":"Agenda Ready","intro_date":"2026-02-02","file_number":"2026-0149","passed_date":null},{"title":"Tourism Update (Gui Cunha, Economic Development & Tourism Director)","type":"Consent Item","status":"Agenda Ready","intro_date":"2026-01-29","file_number":"2026-0144","passed_date":null},{"title":"Approve and authorize the Chairman to execute an Interlocal Agreement between Central Florida Expressway Authority and Seminole County related to joint funding for the SR 417 Sanford Airport Connector","type":"Consent Item","status":"Agenda Ready","intro_date":"2026-01-28","file_number":"2026-0141","passed_date":null},{"title":"Approve and authorize the Chairman to execute a Proclamation proclaiming February 2026 as \u201cBlack History Month\u201d in Seminole County, Fl.","type":"Consent Item","status":"Agenda Ready","intro_date":"2026-01-28","file_number":"2026-0136","passed_date":null},{"title":"Approval by the Board of County Commissioners to appropriate $130,000 from Local Law Enforcement Trust Fund to provide funding to various support organizations within the community; and to provide fun","type":"Consent Item","status":"Agenda Ready","intro_date":"2026-01-28","file_number":"2026-0142","passed_date":null},{"title":"Presentation - Seminole State College Seminole Commits (Gui Cunha, Economic Development & Tourism Director and Amy Kirkland, Seminole State College)","type":"Award/Presentation","status":"Agenda Ready","intro_date":"2026-01-28","file_number":"2026-0138","passed_date":null},{"title":"Work Session - Business Tax Receipts (Tricia Johnson, Deputy County Manager)","type":"County Manager and Staff Briefings","status":"Agenda Ready","intro_date":"2026-01-28","file_number":"2026-0139","passed_date":null}],"legistar_url":"https://seminolecountyfl.legistar.com","enriched_at":"2026-02-13T20:09:00.684133","government_news":[],"video_meetings":[],"data_platforms":["legistar"]}
+{
+  "schema_version": "5.0",
+  "normalized_at": "2026-02-10T14:21:49.394025",
+  "identity": {
+    "name": "Seminole County",
+    "state": "FL",
+    "fips_state": null,
+    "fips_place": null,
+    "population": null
+  },
+  "city_website": "https://www.seminolecountyfl.gov",
+  "economy": {
+    "median_household_income": null,
+    "median_home_value": null,
+    "unemployment_rate": null,
+    "unemployment_data_level": "state",
+    "labor_force": null,
+    "employed": null,
+    "unemployed": null,
+    "gini_index": null,
+    "poverty_rate": null,
+    "homeownership_rate": null,
+    "rent_to_income_ratio": null,
+    "home_value_to_income_ratio": null,
+    "price_to_rent_ratio": null,
+    "effective_tax_rate": null,
+    "population_growth_cagr": null,
+    "median_real_estate_taxes": null
+  },
+  "safety": {
+    "violent_crime_rate": null,
+    "property_crime_rate": null,
+    "murder_rate": null,
+    "robbery_rate": null,
+    "burglary_rate": null,
+    "vehicle_theft_rate": null,
+    "total_crime_rate": null,
+    "crime_trend": null,
+    "crime_data_level": null
+  },
+  "education": {
+    "total_schools": null,
+    "total_enrollment": null,
+    "pupil_teacher_ratio": null,
+    "title1_pct": null,
+    "charter_pct": null,
+    "regular_schools": null,
+    "avg_school_rating": null,
+    "rated_schools": null,
+    "school_quality_tier": null
+  },
+  "environment": {
+    "pm25_mean": null,
+    "ozone_mean": null,
+    "total_disasters": null,
+    "avg_disasters_per_decade": null,
+    "most_recent_disaster": null,
+    "most_recent_disaster_type": null,
+    "disasters_by_type": {}
+  },
+  "housing": {
+    "median_rent": null,
+    "housing_units": null,
+    "fmr_0br": null,
+    "fmr_1br": null,
+    "fmr_2br": null,
+    "fmr_3br": null,
+    "fmr_4br": null,
+    "rent_burden_ratio": null,
+    "cost_burdened_pct": null,
+    "severely_burdened_pct": null
+  },
+  "health": {
+    "uninsured_pct": null,
+    "obesity_pct": null,
+    "diabetes_pct": null,
+    "depression_pct": null,
+    "asthma_pct": null,
+    "smoking_pct": null,
+    "physical_inactivity_pct": null,
+    "mental_health_bad_days": null,
+    "physical_health_bad_days": null,
+    "sleep_deficit_pct": null,
+    "high_blood_pressure_pct": null,
+    "high_cholesterol_pct": null,
+    "heart_disease_pct": null,
+    "stroke_pct": null,
+    "cancer_pct": null,
+    "kidney_disease_pct": null,
+    "checkup_pct": null,
+    "data_year": null
+  },
+  "governance": {
+    "legislative_volume": 3125,
+    "legislative_velocity": 111.2,
+    "committee_count": 15,
+    "years_of_legislative_data": 28.1,
+    "has_public_meetings": true,
+    "api_accessible": true,
+    "matter_types": {
+      "Consent Item": 469,
+      "Variances": 132,
+      "Pre-Applications": 92,
+      "Comments Only (no meeting scheduled)": 89,
+      "Award/Presentation": 51,
+      "County Manager and Staff Briefings": 27,
+      "Public Hearings - Quasi-Judicial": 27,
+      "Constitutional Officers": 25,
+      "Regular Agenda": 24,
+      "DRC": 23,
+      "Public Hearings - Legislative": 19,
+      "Public Hearing Items": 14,
+      "Technical Review Items": 5,
+      "Other Business": 2,
+      "Resolution": 1
+    },
+    "top_matter_type": "Consent Item",
+    "matter_statuses": {
+      "Passed": 611,
+      "Agenda Ready": 368,
+      "Failed": 9,
+      "Filed": 8,
+      "Held": 3,
+      "Withdrawn": 1
+    },
+    "pass_rate": 33.3,
+    "passed_count": 1041,
+    "active_council_members": 5,
+    "avg_tenure_years": 0.6,
+    "vote_coverage_pct": 6.7,
+    "video_availability_pct": 0.0,
+    "agenda_availability_pct": 71.0,
+    "minutes_availability_pct": 24.4,
+    "avg_meetings_per_month": 9.4,
+    "meetings_by_year": {
+      "2026": 11,
+      "2025": 107,
+      "2024": 119,
+      "2023": 131,
+      "2022": 118,
+      "2021": 14
+    },
+    "avg_sponsors_per_matter": 0.0,
+    "avg_attachments_per_matter": 2.9,
+    "pct_with_text_versions": 100.0,
+    "index_categories": [
+      "Airport Aviation Easement",
+      "FLU Policy 5.15"
+    ],
+    "has_accela": false,
+    "accela_agency_id": null
+  },
+  "development": {
+    "permits_12mo": null,
+    "yoy_trend_pct": null,
+    "avg_permit_value": null,
+    "permit_types": {},
+    "datasets_count": 0
+  },
+  "meetings": {
+    "official_channels": 0,
+    "meetings_indexed": null,
+    "avg_meetings_per_month": null,
+    "has_video_archive": false,
+    "meeting_types": {},
+    "transcripts_available": null
+  },
+  "civic_issues": {
+    "total_issues": null,
+    "issues_last_30d": null,
+    "issues_last_365d": null,
+    "resolution_rate": null,
+    "top_issue_type": null,
+    "type_distribution": {},
+    "has_civic_issue_tracking": false
+  },
+  "demographics": {
+    "population": null,
+    "poverty_universe": null,
+    "employment_universe": null
+  },
+  "time_series": {
+    "economy_history": [],
+    "safety_history": [],
+    "environment_history": []
+  },
+  "data_sources": {
+    "legistar": "available",
+    "socrata": "skipped",
+    "census_acs": "skipped",
+    "arcgis": "available",
+    "fbi_ucr": "available",
+    "socrata_crime": "skipped",
+    "bls_laus": "skipped",
+    "ca_edd": "skipped",
+    "epa_aqs": "skipped",
+    "nces_ccd": "skipped",
+    "hud_fmr": "skipped",
+    "fema_openfema": "skipped",
+    "greatschools": "available",
+    "permits": "skipped",
+    "youtube_meetings": "skipped",
+    "seeclickfix": "skipped",
+    "accela": "available",
+    "cdc_places": "unavailable"
+  },
+  "provenance": {
+    "last_full_probe": "2026-02-10T12:32:37.398633",
+    "sources": {
+      "legistar": {
+        "authority": "Legistar by Granicus",
+        "authority_tier": 1,
+        "api_url": "https://webapi.legistar.com/v1/seminolecountyfl/Bodies",
+        "probed_at": "2026-02-10T12:32:37.403964",
+        "data_vintage": "2022–2026",
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "socrata": {
+        "authority": "City Open Data Portals (Socrata/Tyler Data & Insights)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "census_acs": {
+        "authority": "US Census Bureau",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": "ACS 5-Year 2022",
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "arcgis": {
+        "authority": "City ArcGIS/GIS Portals",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-10T12:34:08.512283",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "fbi_ucr": {
+        "authority": "FBI Uniform Crime Reporting Program",
+        "authority_tier": 1,
+        "api_url": "https://api.usa.gov/crime/fbi/sapi/api/estimates/states/FL/2015/2022",
+        "probed_at": "2026-02-10T12:34:17.814082",
+        "data_vintage": null,
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "bls_laus": {
+        "authority": "Bureau of Labor Statistics",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "state",
+        "status": "skipped"
+      },
+      "epa_aqs": {
+        "authority": "US Environmental Protection Agency",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "state",
+        "status": "skipped"
+      },
+      "nces_ccd": {
+        "authority": "National Center for Education Statistics",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": "2022-2023 academic year",
+        "geographic_level": "state",
+        "status": "skipped"
+      },
+      "hud_fmr": {
+        "authority": "US Department of Housing and Urban Development",
+        "authority_tier": 1,
+        "api_url": "https://www.huduser.gov/hudapi/public/fmr/statedata/FL",
+        "probed_at": null,
+        "data_vintage": "FY2026",
+        "geographic_level": "state",
+        "status": "skipped"
+      },
+      "fema_openfema": {
+        "authority": "Federal Emergency Management Agency",
+        "authority_tier": 1,
+        "api_url": "https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries?$filter=state eq 'FL'",
+        "probed_at": null,
+        "data_vintage": "1953-present",
+        "geographic_level": "state",
+        "status": "skipped"
+      },
+      "greatschools": {
+        "authority": "GreatSchools.org (nonprofit)",
+        "authority_tier": 3,
+        "api_url": null,
+        "probed_at": "2026-02-10T12:34:32.753331",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "permits": {
+        "authority": "City Open Data Portals (Socrata)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "youtube_meetings": {
+        "authority": "YouTube (via SerpAPI search + youtube-transcript-api)",
+        "authority_tier": 3,
+        "api_url": null,
+        "probed_at": "2026-02-10T12:34:33.094787",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "seeclickfix": {
+        "authority": "SeeClickFix (civic issue tracking platform)",
+        "authority_tier": 3,
+        "api_url": "https://seeclickfix.com/api/v2/issues?place_url=seminolecountyfl",
+        "probed_at": "2026-02-10T12:34:42.675690",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "accela": {
+        "authority": "Accela (permit management platform)",
+        "authority_tier": 3,
+        "api_url": "https://apis.accela.com/v4/agencies",
+        "probed_at": "2026-02-10T12:34:42.972339",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "socrata_crime": {
+        "authority": "City Open Data Portals (Socrata)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "cdc_places": {
+        "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
+        "authority_tier": 1,
+        "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Seminole%20County",
+        "probed_at": "2026-02-13T21:06:19.263499",
+        "data_vintage": "BRFSS None",
+        "geographic_level": "place",
+        "status": "unavailable"
+      }
+    },
+    "derived_fields": {
+      "safety.total_crime_rate": {
+        "formula": "violent_crime_rate + property_crime_rate",
+        "inputs": [
+          "safety.violent_crime_rate",
+          "safety.property_crime_rate"
+        ],
+        "formula_location": "score/normalizer.py:_derive_total_crime",
+        "authority_tier": 2
+      },
+      "safety.crime_trend": {
+        "formula": "(last_year_rate - first_year_rate) / years_span",
+        "inputs": [
+          "fbi.time_series[].violent_crime_rate"
+        ],
+        "formula_location": "score/normalizer.py:_build_safety",
+        "authority_tier": 2
+      },
+      "education.school_quality_tier": {
+        "formula": "excellent if avg>=8, good if avg>=6, fair if avg>=4, else poor",
+        "inputs": [
+          "education.avg_school_rating"
+        ],
+        "formula_location": "score/normalizer.py:_build_education",
+        "authority_tier": 3
+      },
+      "environment.avg_disasters_per_decade": {
+        "formula": "total_disasters / (years_span / 10)",
+        "inputs": [
+          "environment.total_disasters"
+        ],
+        "formula_location": "probe/fema_probe.py",
+        "authority_tier": 2
+      },
+      "housing.rent_burden_ratio": {
+        "formula": "(fmr_2br * 12) / median_household_income * 100",
+        "inputs": [
+          "housing.fmr_2br",
+          "economy.median_household_income"
+        ],
+        "formula_location": "score/normalizer.py:_build_housing",
+        "authority_tier": 2
+      },
+      "governance.legislative_velocity": {
+        "formula": "legislative_volume / years_of_legislative_data",
+        "inputs": [
+          "governance.legislative_volume",
+          "governance.years_of_legislative_data"
+        ],
+        "formula_location": "score/normalizer.py:_build_governance",
+        "authority_tier": 2
+      },
+      "development.yoy_trend_pct": {
+        "formula": "(current_year - prior_year) / prior_year * 100",
+        "inputs": [
+          "permit data from Socrata"
+        ],
+        "formula_location": "probe/permits_probe.py",
+        "authority_tier": 2
+      }
+    },
+    "geographic_mismatches": [
+      {
+        "field": "identity.fips_state",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "state-level data applied to city profile"
+      },
+      {
+        "field": "economy.unemployment_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Reflects statewide unemployment, not city-specific rate"
+      },
+      {
+        "field": "economy.labor_force",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: This is the full state labor force, not city-level"
+      },
+      {
+        "field": "economy.employed",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "economy.unemployed",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.violent_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: City-level requires ORI codes not currently used"
+      },
+      {
+        "field": "safety.property_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.murder_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.robbery_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.burglary_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.vehicle_theft_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.total_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA; derived sum"
+      },
+      {
+        "field": "safety.crime_trend",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "state-level data applied to city profile"
+      },
+      {
+        "field": "education.total_schools",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Count includes all schools in the state, not city"
+      },
+      {
+        "field": "education.total_enrollment",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.pupil_teacher_ratio",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Average across all state schools"
+      },
+      {
+        "field": "education.title1_pct",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.charter_pct",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.regular_schools",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.pm25_mean",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE/COUNTY-LEVEL: Averaged across all monitors in the state"
+      },
+      {
+        "field": "environment.ozone_mean",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE/COUNTY-LEVEL"
+      },
+      {
+        "field": "environment.total_disasters",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: All declarations for the state, not city-specific"
+      },
+      {
+        "field": "environment.avg_disasters_per_decade",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.most_recent_disaster",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.most_recent_disaster_type",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "housing.fmr_0br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR: Fair Market Rents at state level, not city-specific metro area"
+      },
+      {
+        "field": "housing.fmr_1br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_2br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_3br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_4br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.rent_burden_ratio",
+        "source_level": "mixed",
+        "profile_level": "place",
+        "note": "GEOGRAPHIC MISMATCH: FMR is state-level (HUD), income is city-level (Census). Ratio may be biased."
+      }
+    ]
+  },
+  "data_quality": {
+    "quality_score": 28.6,
+    "grade": "F",
+    "completeness_pct": 28.6,
+    "issue_count": 2,
+    "granularity_flags": 0
+  },
+  "officials": {
+    "body_name": "Board of County Commissioners",
+    "members": [
+      {
+        "name": "Chairman Andria Herr",
+        "email": null,
+        "title": null,
+        "start_date": "2025-11-19"
+      },
+      {
+        "name": "Commissioner Bob Dallari",
+        "email": null,
+        "title": null,
+        "start_date": "2024-11-19",
+        "committees": [
+          "Board of County Commissioners Worksessions",
+          "Seminole County Industrial Development Authority"
+        ]
+      },
+      {
+        "name": "Commissioner Jay Zembower",
+        "email": null,
+        "title": null,
+        "start_date": "2025-11-19"
+      },
+      {
+        "name": "Commissioner Lee Constantine",
+        "email": null,
+        "title": null,
+        "start_date": "2024-11-19",
+        "committees": [
+          "Board of County Commissioners Worksessions"
+        ]
+      },
+      {
+        "name": "Vice Chairman Amy Lockhart",
+        "email": null,
+        "title": null,
+        "start_date": "2025-11-19"
+      }
+    ]
+  },
+  "recent_meetings": [
+    {
+      "date": "2026-02-12",
+      "body": "Code Enforcement Special Magistrate",
+      "location": "BCC Chambers, Room 1028",
+      "has_agenda": true,
+      "agenda_url": "https://seminolecountyfl.legistar1.com/seminolecountyfl/meetings/2026/2/3549_A_Code_Enforcement_Special_Magistrate_26-02-12_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "Board of County Commissioners",
+      "location": "BCC Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://seminolecountyfl.legistar1.com/seminolecountyfl/meetings/2026/2/3575_A_Board_of_County_Commissioners_26-02-10_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-04",
+      "body": "Planning and Zoning Commission",
+      "location": "BCC Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://seminolecountyfl.legistar1.com/seminolecountyfl/meetings/2026/2/3564_A_Planning_and_Zoning_Commission_26-02-04_Meeting_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-04",
+      "body": "Development Review Committee",
+      "location": "Room 3024",
+      "has_agenda": true,
+      "agenda_url": "https://seminolecountyfl.legistar1.com/seminolecountyfl/meetings/2026/2/3600_A_Development_Review_Committee_26-02-04_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-27",
+      "body": "Board of County Commissioners",
+      "location": "BCC Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://seminolecountyfl.legistar1.com/seminolecountyfl/meetings/2026/1/3562_A_Board_of_County_Commissioners_26-01-27_Meeting_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-26",
+      "body": "Board of Adjustment",
+      "location": "BCC Chambers, Room 1028",
+      "has_agenda": true,
+      "agenda_url": "https://seminolecountyfl.legistar1.com/seminolecountyfl/meetings/2026/1/3602_A_Board_of_Adjustment_26-01-26_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-21",
+      "body": "Development Review Committee",
+      "location": "Room 3024",
+      "has_agenda": true,
+      "agenda_url": "https://seminolecountyfl.legistar1.com/seminolecountyfl/meetings/2026/1/3599_A_Development_Review_Committee_26-01-21_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "3439 Holliday Avenue - Request for a rear yard setback variance from thirty (30) feet to five (5) feet for a shed in the R-1AA (Single Family Dwelling) district; BV2026-004 (Eric Schimmer, Applicant) ",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-03",
+      "file_number": "2026-0156",
+      "passed_date": null
+    },
+    {
+      "title": "Approve an additional paid day off in observance of President’s Day (February 16, 2026), consistent with the State of Florida’s holiday schedule and in recognition of the America 250 commemoration. Co",
+      "type": "Consent Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-02",
+      "file_number": "2026-0153",
+      "passed_date": null
+    },
+    {
+      "title": "500 Sweetwater Club Boulevard - Request for a height variance from five (5) feet to seven (7) feet for fence columns in the A-1 (Agriculture) district; BV2025-143 (Chad & Cindy Barr, Applicant) Distri",
+      "type": "Variances",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-02",
+      "file_number": "2026-0147",
+      "passed_date": null
+    },
+    {
+      "title": "528 Pinesong Drive - Request for a rear yard setback variance from five (5) feet to two (2) feet for a pool screen enclosure in the PD (Planned Development) district; BV2025-144 (Kacey Foust, Applican",
+      "type": "Variances",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-02",
+      "file_number": "2026-0149",
+      "passed_date": null
+    },
+    {
+      "title": "Tourism Update (Gui Cunha, Economic Development & Tourism Director)",
+      "type": "Consent Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-29",
+      "file_number": "2026-0144",
+      "passed_date": null
+    },
+    {
+      "title": "Approve and authorize the Chairman to execute an Interlocal Agreement between Central Florida Expressway Authority and Seminole County related to joint funding for the SR 417 Sanford Airport Connector",
+      "type": "Consent Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-28",
+      "file_number": "2026-0141",
+      "passed_date": null
+    },
+    {
+      "title": "Approve and authorize the Chairman to execute a Proclamation proclaiming February 2026 as “Black History Month” in Seminole County, Fl.",
+      "type": "Consent Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-28",
+      "file_number": "2026-0136",
+      "passed_date": null
+    },
+    {
+      "title": "Approval by the Board of County Commissioners to appropriate $130,000 from Local Law Enforcement Trust Fund to provide funding to various support organizations within the community; and to provide fun",
+      "type": "Consent Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-28",
+      "file_number": "2026-0142",
+      "passed_date": null
+    },
+    {
+      "title": "Presentation - Seminole State College Seminole Commits (Gui Cunha, Economic Development & Tourism Director and Amy Kirkland, Seminole State College)",
+      "type": "Award/Presentation",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-28",
+      "file_number": "2026-0138",
+      "passed_date": null
+    },
+    {
+      "title": "Work Session - Business Tax Receipts (Tricia Johnson, Deputy County Manager)",
+      "type": "County Manager and Staff Briefings",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-28",
+      "file_number": "2026-0139",
+      "passed_date": null
+    }
+  ],
+  "legistar_url": "https://seminolecountyfl.legistar.com",
+  "enriched_at": "2026-02-13T20:09:00.684133",
+  "government_news": [],
+  "video_meetings": [],
+  "data_platforms": [
+    "legistar"
+  ]
+}

@@ -1,1 +1,1247 @@
-{"schema_version":"5.0","normalized_at":"2026-02-10T14:21:49.324717","identity":{"name":"Oakland","state":"CA","fips_state":"06","fips_place":"53000","population":437825},"city_website":"https://www.oaklandca.gov","economy":{"median_household_income":94389,"median_home_value":883800,"unemployment_rate":13.04,"unemployment_data_level":"county","labor_force":11291,"employed":9819,"unemployed":1471,"gini_index":null,"poverty_rate":13.21,"homeownership_rate":42.07,"rent_to_income_ratio":23.51,"home_value_to_income_ratio":9.36,"price_to_rent_ratio":39.83,"effective_tax_rate":9.9837,"population_growth_cagr":1.0356,"median_real_estate_taxes":7353},"safety":{"violent_crime_rate":3272.77,"property_crime_rate":6284.02,"murder_rate":null,"robbery_rate":510.48,"burglary_rate":2077.77,"vehicle_theft_rate":1406.5,"total_crime_rate":9556.79,"crime_trend":-69.32,"crime_data_level":"city"},"education":{"total_schools":10416,"total_enrollment":5837868,"pupil_teacher_ratio":22.1,"title1_pct":0.0,"charter_pct":12.5,"regular_schools":9083,"avg_school_rating":4.6,"rated_schools":95,"school_quality_tier":"fair"},"environment":{"pm25_mean":10.5199,"ozone_mean":0.0433,"total_disasters":19,"avg_disasters_per_decade":2.7,"most_recent_disaster":"2023-01-14","most_recent_disaster_type":"Flood","disasters_by_type":{"Severe Storm":7,"Flood":6,"Biological":2,"Hurricane":1,"Freezing":1,"Coastal Storm":1,"Drought":1}},"housing":{"median_rent":1849,"housing_units":184530,"fmr_0br":989,"fmr_1br":995,"fmr_2br":1306,"fmr_3br":1723,"fmr_4br":1729,"rent_burden_ratio":16.6,"cost_burdened_pct":47.65,"severely_burdened_pct":25.24},"governance":{"legislative_volume":32031,"legislative_velocity":1261.1,"committee_count":150,"years_of_legislative_data":25.4,"has_public_meetings":true,"api_accessible":true,"matter_types":{"City Resolution":543,"Report and Recommendation":294,"Informational Report":113,"Ordinance":49,"ORSA Resolution":1},"top_matter_type":"City Resolution","matter_statuses":{"Passed":747,"In Committee":97,"Filed":81,"In Rules Committee ":23,"To be Scheduled":22,"Withdrawn":11,"Failed":11,"In Council":7,"Introduced In Council":1},"pass_rate":33.3,"passed_count":10677,"active_council_members":0,"avg_tenure_years":null,"vote_coverage_pct":0.0,"video_availability_pct":0.0,"agenda_availability_pct":96.0,"minutes_availability_pct":72.4,"avg_meetings_per_month":16.1,"meetings_by_year":{"2026":29,"2025":186,"2024":201,"2023":84},"avg_sponsors_per_matter":0.0,"avg_attachments_per_matter":0.0,"pct_with_text_versions":100.0,"index_categories":["Auditor Report","Billboards","Budget 2003-2005","Ceremonial Acknowledgement","Council Recess","Councilmember introduced","Grant Requirements","Master Fee Schedule","Measure DD","Measure K","Measure Y","Oakland Army Base Reuse Authority","Oakland Muncipal Code amendment","Oakland Planning Code","Oracle","Port of Oakland","Professioanl Service Contract","Public Hearing - Planning Commission appeal","Real Property Transaction","Salary Ordinance","Settlement Agreement","State Legislation"],"has_accela":true,"accela_agency_id":"OAKLAND"},"development":{"permits_12mo":null,"yoy_trend_pct":null,"avg_permit_value":null,"permit_types":{},"datasets_count":0},"meetings":{"official_channels":2,"meetings_indexed":15,"avg_meetings_per_month":2.1,"has_video_archive":true,"meeting_types":{"other":8,"city_council":3,"public_hearing":2,"planning_commission":2},"transcripts_available":0},"civic_issues":{"total_issues":759229,"issues_last_30d":100,"issues_last_365d":100,"resolution_rate":71.1,"top_issue_type":"Illegal Dumping - debris, appliances, etc.","type_distribution":{"Illegal Dumping - debris, appliances, etc.":35,"Homeless Encampment":10,"Parking - Enforcement":7,"Illegal Dumping \u2013 mattress/boxspring":7,"Streets - Potholes/Depression":7,"Volunteer - Community Bag Pick Up":4,"Other City Services":4,"Litter - Street Litter Container - Broken":3,"Blight-PRIVATE PROPERTY ONLY- Trash, debris, graffiti, weeds. Residential or Commercial Properties":3,"Streets/Sidewalks - Curb & Gutter Repair":3,"Housing/Facility Maintenance- PRIVATE PROPERTY ONLY- Structural, electrical, heating, plumbing issues, mold. Private property construction work without permits.":3,"Graffiti - OTHER":2,"Graffiti - Traffic Sign(s)":2,"Sidewalk - Damage":2,"Traffic Safety (non-emergency)":2,"Parking - Meter Maintenance":1,"Graffiti - Street, Street Light, Traffic Signal":1,"Weed Abatement - Public Right of Way":1,"Street Light (Not Traffic Signal) - Outage/Damaged":1,"Construction Issue - Sidewalk Blocked":1},"has_civic_issue_tracking":true},"demographics":{"population":437825,"poverty_universe":433432,"employment_universe":362881},"time_series":{"economy_history":[{"year":2024,"unemployment_rate":13.04,"labor_force":11291,"employed":9819,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2023,"unemployment_rate":12.42,"labor_force":11075,"employed":9705,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2022,"unemployment_rate":11.33,"labor_force":10632,"employed":9427,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2021,"unemployment_rate":12.18,"labor_force":11022,"employed":9680,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2020,"unemployment_rate":15.69,"labor_force":10998,"employed":9254,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2019,"unemployment_rate":12.51,"labor_force":11388,"employed":9967,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2018,"unemployment_rate":12.73,"labor_force":11239,"employed":9804,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2017,"unemployment_rate":13.89,"labor_force":11205,"employed":9656,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2016,"unemployment_rate":15.17,"labor_force":11272,"employed":9563,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2015,"unemployment_rate":15.54,"labor_force":11051,"employed":9346,"data_level":"county","source":"bls_laus","is_partial_year":false}],"safety_history":[{"year":2025,"violent_crime_rate":3272.77,"property_crime_rate":6284.02,"murder_rate":null,"data_level":"city","source":"socrata_crime","is_partial_year":false},{"year":2024,"violent_crime_rate":3783.25,"property_crime_rate":7998.63,"murder_rate":null,"data_level":"city","source":"socrata_crime","is_partial_year":false},{"year":2023,"violent_crime_rate":4229.09,"property_crime_rate":11295.38,"murder_rate":null,"data_level":"city","source":"socrata_crime","is_partial_year":false},{"year":2022,"violent_crime_rate":4075.6,"property_crime_rate":10231.26,"murder_rate":null,"data_level":"city","source":"socrata_crime","is_partial_year":false},{"year":2021,"violent_crime_rate":4177.01,"property_crime_rate":8204.19,"murder_rate":null,"data_level":"city","source":"socrata_crime","is_partial_year":false},{"year":2020,"violent_crime_rate":4078.11,"property_crime_rate":7023.35,"murder_rate":null,"data_level":"city","source":"socrata_crime","is_partial_year":false},{"year":2019,"violent_crime_rate":3786.22,"property_crime_rate":8632.44,"murder_rate":null,"data_level":"city","source":"socrata_crime","is_partial_year":false},{"year":2018,"violent_crime_rate":3802.89,"property_crime_rate":6836.52,"murder_rate":null,"data_level":"city","source":"socrata_crime","is_partial_year":false},{"year":2017,"violent_crime_rate":3916.18,"property_crime_rate":7622.91,"murder_rate":143.44,"data_level":"city","source":"socrata_crime","is_partial_year":false},{"year":2016,"violent_crime_rate":3981.73,"property_crime_rate":7057.16,"murder_rate":143.44,"data_level":"city","source":"socrata_crime","is_partial_year":false},{"year":2015,"violent_crime_rate":3965.97,"property_crime_rate":7164.05,"murder_rate":130.87,"data_level":"city","source":"socrata_crime","is_partial_year":false}],"environment_history":[{"year":2023,"pm25_mean":10.5199,"ozone_mean":0.0433,"data_level":"county","source":"epa_aqs"},{"year":2022,"pm25_mean":9.0929,"ozone_mean":0.0392,"data_level":"county","source":"epa_aqs"},{"year":2021,"pm25_mean":11.2382,"ozone_mean":0.0354,"data_level":"county","source":"epa_aqs"},{"year":2020,"pm25_mean":17.6003,"ozone_mean":0.0354,"data_level":"county","source":"epa_aqs"},{"year":2019,"pm25_mean":6.5499,"ozone_mean":0.0381,"data_level":"county","source":"epa_aqs"},{"year":2018,"pm25_mean":11.0654,"ozone_mean":0.0397,"data_level":"county","source":"epa_aqs"}]},"data_sources":{"legistar":"available","socrata":"available","census_acs":"available","arcgis":"available","fbi_ucr":"available","socrata_crime":"available","bls_laus":"available","ca_edd":"error","epa_aqs":"available","nces_ccd":"available","hud_fmr":"available","fema_openfema":"available","greatschools":"available","permits":"skipped","youtube_meetings":"available","seeclickfix":"available","accela":"available"},"provenance":{"last_full_probe":"2026-02-10T08:17:25.668904","sources":{"legistar":{"authority":"Legistar by Granicus","authority_tier":1,"api_url":"https://webapi.legistar.com/v1/oakland/Bodies","probed_at":"2026-02-10T08:17:25.669547","data_vintage":"2000\u20132026","geographic_level":"place","status":"available"},"socrata":{"authority":"City Open Data Portals (Socrata/Tyler Data & Insights)","authority_tier":1,"api_url":null,"probed_at":"2026-02-10T08:19:53.611516","data_vintage":null,"geographic_level":"place","status":"available"},"census_acs":{"authority":"US Census Bureau","authority_tier":1,"api_url":"https://api.census.gov/data/2022/acs/acs5?get=NAME,B01001_001E,B19013_001E,B25077_001E,B25064_001E,B25001_001E&for=place:53000&in=state:06","probed_at":"2026-02-10T08:19:59.534173","data_vintage":"ACS 5-Year 2022","geographic_level":"place","status":"available"},"arcgis":{"authority":"City ArcGIS/GIS Portals","authority_tier":1,"api_url":null,"probed_at":"2026-02-10T08:20:03.220684","data_vintage":null,"geographic_level":"place","status":"available"},"fbi_ucr":{"authority":"FBI Uniform Crime Reporting Program","authority_tier":1,"api_url":"https://api.usa.gov/crime/fbi/sapi/api/estimates/states/CA/2015/2022","probed_at":"2026-02-10T08:20:04.514541","data_vintage":null,"geographic_level":"state","status":"available"},"bls_laus":{"authority":"Bureau of Labor Statistics","authority_tier":1,"api_url":"https://api.bls.gov/publicAPI/v2/timeseries/data/LAUST060000000000003","probed_at":"2026-02-10T08:20:35.733104","data_vintage":"LAUS 2024","geographic_level":"state","status":"available"},"epa_aqs":{"authority":"US Environmental Protection Agency","authority_tier":1,"api_url":"https://aqs.epa.gov/data/api/annualData/byState?state=06&param=88101","probed_at":"2026-02-10T08:20:37.723748","data_vintage":"AQS 2023","geographic_level":"state","status":"available"},"nces_ccd":{"authority":"National Center for Education Statistics","authority_tier":1,"api_url":"https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=06","probed_at":"2026-02-10T08:21:18.539706","data_vintage":"2022-2023 academic year","geographic_level":"state","status":"available"},"hud_fmr":{"authority":"US Department of Housing and Urban Development","authority_tier":1,"api_url":"https://www.huduser.gov/hudapi/public/fmr/statedata/CA","probed_at":"2026-02-10T08:21:20.784448","data_vintage":"FY2026","geographic_level":"state","status":"available"},"fema_openfema":{"authority":"Federal Emergency Management Agency","authority_tier":1,"api_url":"https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries?$filter=state eq 'CA'","probed_at":"2026-02-10T08:21:21.310819","data_vintage":"1953-present","geographic_level":"state","status":"available"},"greatschools":{"authority":"GreatSchools.org (nonprofit)","authority_tier":3,"api_url":null,"probed_at":"2026-02-10T08:21:21.665555","data_vintage":null,"geographic_level":"place","status":"available"},"permits":{"authority":"City Open Data Portals (Socrata)","authority_tier":1,"api_url":null,"probed_at":"2026-02-10T08:21:23.487450","data_vintage":null,"geographic_level":"place","status":"skipped"},"youtube_meetings":{"authority":"YouTube (via SerpAPI search + youtube-transcript-api)","authority_tier":3,"api_url":null,"probed_at":"2026-02-10T08:21:23.487857","data_vintage":null,"geographic_level":"place","status":"available"},"seeclickfix":{"authority":"SeeClickFix (civic issue tracking platform)","authority_tier":3,"api_url":"https://seeclickfix.com/api/v2/issues?place_url=oakland","probed_at":"2026-02-10T08:22:42.616973","data_vintage":null,"geographic_level":"place","status":"available"},"accela":{"authority":"Accela (permit management platform)","authority_tier":3,"api_url":"https://apis.accela.com/v4/agencies","probed_at":"2026-02-10T08:23:06.922410","data_vintage":null,"geographic_level":"place","status":"available"},"socrata_crime":{"authority":"City Open Data Portals (Socrata)","authority_tier":1,"api_url":null,"probed_at":"2026-02-10T08:20:27.310488","data_vintage":null,"geographic_level":"place","status":"available"}},"derived_fields":{"safety.total_crime_rate":{"formula":"violent_crime_rate + property_crime_rate","inputs":["safety.violent_crime_rate","safety.property_crime_rate"],"formula_location":"score/normalizer.py:_derive_total_crime","authority_tier":2},"safety.crime_trend":{"formula":"(last_year_rate - first_year_rate) / years_span","inputs":["fbi.time_series[].violent_crime_rate"],"formula_location":"score/normalizer.py:_build_safety","authority_tier":2},"education.school_quality_tier":{"formula":"excellent if avg>=8, good if avg>=6, fair if avg>=4, else poor","inputs":["education.avg_school_rating"],"formula_location":"score/normalizer.py:_build_education","authority_tier":3},"environment.avg_disasters_per_decade":{"formula":"total_disasters / (years_span / 10)","inputs":["environment.total_disasters"],"formula_location":"probe/fema_probe.py","authority_tier":2},"housing.rent_burden_ratio":{"formula":"(fmr_2br * 12) / median_household_income * 100","inputs":["housing.fmr_2br","economy.median_household_income"],"formula_location":"score/normalizer.py:_build_housing","authority_tier":2},"governance.legislative_velocity":{"formula":"legislative_volume / years_of_legislative_data","inputs":["governance.legislative_volume","governance.years_of_legislative_data"],"formula_location":"score/normalizer.py:_build_governance","authority_tier":2},"development.yoy_trend_pct":{"formula":"(current_year - prior_year) / prior_year * 100","inputs":["permit data from Socrata"],"formula_location":"probe/permits_probe.py","authority_tier":2}},"geographic_mismatches":[{"field":"identity.fips_state","source_level":"state","profile_level":"place","note":"state-level data applied to city profile"},{"field":"economy.unemployment_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Reflects statewide unemployment, not city-specific rate"},{"field":"economy.labor_force","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: This is the full state labor force, not city-level"},{"field":"economy.employed","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"economy.unemployed","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.violent_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: City-level requires ORI codes not currently used"},{"field":"safety.property_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.murder_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.robbery_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.burglary_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.vehicle_theft_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.total_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA; derived sum"},{"field":"safety.crime_trend","source_level":"state","profile_level":"place","note":"state-level data applied to city profile"},{"field":"education.total_schools","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Count includes all schools in the state, not city"},{"field":"education.total_enrollment","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.pupil_teacher_ratio","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Average across all state schools"},{"field":"education.title1_pct","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.charter_pct","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.regular_schools","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.pm25_mean","source_level":"state","profile_level":"place","note":"STATE/COUNTY-LEVEL: Averaged across all monitors in the state"},{"field":"environment.ozone_mean","source_level":"state","profile_level":"place","note":"STATE/COUNTY-LEVEL"},{"field":"environment.total_disasters","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: All declarations for the state, not city-specific"},{"field":"environment.avg_disasters_per_decade","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.most_recent_disaster","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.most_recent_disaster_type","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"housing.fmr_0br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR: Fair Market Rents at state level, not city-specific metro area"},{"field":"housing.fmr_1br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_2br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_3br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_4br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.rent_burden_ratio","source_level":"mixed","profile_level":"place","note":"GEOGRAPHIC MISMATCH: FMR is state-level (HUD), income is city-level (Census). Ratio may be biased."}]},"data_quality":{"quality_score":100.0,"grade":"A","completeness_pct":100.0,"issue_count":6,"granularity_flags":2},"officials":{"body_name":"Meeting of the Oakland City Council","members":[{"name":"Carroll Fife","email":null,"title":null,"start_date":"2025-05-22","committees":["City/Port Liaison Committee","Community & Economic Development Committee","Life Enrichment Committee","Public Safety Committee","Rules & Legislation Committee"]},{"name":"Charlene Wang","email":null,"title":null,"start_date":"2025-05-22","committees":["Finance & Management Committee","Life Enrichment Committee","Public Safety Committee","Public Works And Transportation Committee"]},{"name":"Dan Kalb","email":"dkalb@oaklandca.gov","title":null,"start_date":"2022-04-20","committees":["Public Works Committee"]},{"name":"Janani Ramachandran","email":null,"title":null,"start_date":"2025-05-22","committees":["Community & Economic Development Committee","Finance & Management Committee","Rules & Legislation Committee"]},{"name":"Ken Houston","email":null,"title":null,"start_date":"2025-05-22"},{"name":"Kevin Jenkins","email":null,"title":null,"start_date":"2025-05-22","committees":["Community & Economic Development Committee","Finance & Management Committee","Rules & Legislation Committee"]},{"name":"Lynette McElhaney","email":null,"title":null,"start_date":"2018-04-17"},{"name":"Nikki Fortunato Bas","email":null,"title":null,"start_date":"2022-12-30","phone":"5102387002","committees":["Public Works Committee"]},{"name":"Noel Gallo","email":null,"title":null,"start_date":"2025-05-22","committees":["Education Partnership Committee","Life Enrichment Committee","Public Works And Transportation Committee","Public Works Committee"]},{"name":"Rebecca Kaplan","email":null,"title":null,"start_date":"2018-04-17"},{"name":"Rowena Brown","email":null,"title":null,"start_date":"2025-05-22","committees":["Community & Economic Development Committee","Education Partnership Committee","Finance & Management Committee","Public Safety Committee","Rules & Legislation Committee"]},{"name":"Treva Reid","email":null,"title":null,"start_date":"2021-01-04","committees":["City/Port Liaison Committee","Public Works Committee"]},{"name":"Zac Unger","email":null,"title":null,"start_date":"2025-05-22","committees":["Community & Economic Development Committee","Education Partnership Committee","Finance & Management Committee","Public Works And Transportation Committee"]}]},"recent_meetings":[{"date":"2026-02-17","body":"Concurrent Meeting of the Oakland Redevelopment Successor Agency and the City Council","location":"City Council Chamber, 3rd Floor","has_agenda":true,"agenda_url":"https://oakland.legistar1.com/oakland/meetings/2026/2/9479_A___Concurrent_Meeting_of_the_Oakland_Redevelopment_Successor_Agency_and_the_City_Council_26-02-17__Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":true},{"date":"2026-02-19","body":"Rules & Legislation Committee","location":"City Council Chamber, 3rd Floor","has_agenda":true,"agenda_url":"https://oakland.legistar1.com/oakland/meetings/2026/2/9480_A__Rules___Legislation_Committee_26-02-19__Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":true},{"date":"2026-02-12","body":"Rules & Legislation Committee","location":"City Council Chamber, 3rd Floor","has_agenda":true,"agenda_url":"https://oakland.legistar1.com/oakland/meetings/2026/2/9477_A__Rules___Legislation_Committee_26-02-12__Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-10","body":"Life Enrichment Committee","location":"City Council Chamber, 3rd Floor","has_agenda":true,"agenda_url":"https://oakland.legistar1.com/oakland/meetings/2026/2/9475_A__Life_Enrichment_Committee_26-02-10__Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-10","body":"Public Safety Committee","location":"City Council Chamber, 3rd Floor","has_agenda":true,"agenda_url":"https://oakland.legistar1.com/oakland/meetings/2026/2/9476_A__Public_Safety_Committee_26-02-10__Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-10","body":"Finance & Management Committee","location":"City Council Chamber, 3rd Floor","has_agenda":true,"agenda_url":"https://oakland.legistar1.com/oakland/meetings/2026/2/9472_A__Finance___Management_Committee_26-02-10__Agenda.pdf","has_minutes":true,"has_video":false,"upcoming":false},{"date":"2026-02-10","body":"Public Works And Transportation Committee","location":"City Council Chamber, 3rd Floor","has_agenda":true,"agenda_url":"https://oakland.legistar1.com/oakland/meetings/2026/2/9473_A___Public_Works_And_Transportation_Committee_26-02-10__Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-10","body":"Community & Economic Development Committee","location":"City Council Chamber, 3rd Floor","has_agenda":true,"agenda_url":"https://oakland.legistar1.com/oakland/meetings/2026/2/9474_A__Community___Economic_Development_Committee_26-02-10__Agenda.pdf","has_minutes":true,"has_video":false,"upcoming":false},{"date":"2026-02-05","body":"Rules & Legislation Committee","location":"City Council Chamber, 3rd Floor","has_agenda":true,"agenda_url":"https://oakland.legistar1.com/oakland/meetings/2026/2/9471_A__Rules___Legislation_Committee_26-02-05__Agenda.pdf","has_minutes":true,"has_video":false,"upcoming":false},{"date":"2026-02-03","body":"Concurrent Meeting of the Oakland Redevelopment Successor Agency and the City Council","location":"City Council Chamber, 3rd Floor","has_agenda":true,"agenda_url":"https://oakland.legistar1.com/oakland/meetings/2026/2/9470_A___Concurrent_Meeting_of_the_Oakland_Redevelopment_Successor_Agency_and_the_City_Council_26-02-03__Agenda.pdf","has_minutes":true,"has_video":false,"upcoming":false},{"date":"2026-01-29","body":"Rules & Legislation Committee","location":"City Council Chamber, 3rd Floor","has_agenda":true,"agenda_url":"https://oakland.legistar1.com/oakland/meetings/2026/1/9468_A__Rules___Legislation_Committee_26-01-29__Agenda.pdf","has_minutes":true,"has_video":false,"upcoming":false},{"date":"2026-01-27","body":"Special Public Safety Committee","location":"City Council Chamber, 3rd Floor","has_agenda":true,"agenda_url":"https://oakland.legistar1.com/oakland/meetings/2026/1/9467_A__Special_Public_Safety_Committee_26-01-27__Agenda.pdf","has_minutes":true,"has_video":false,"upcoming":false}],"recent_legislation":[{"title":"City Of Oakland V. Oakland Unified School District \r\nFrom:\t\t Office Of The City Attorney \r\nRecommendation: Adopt A Resolution Authorizing And Directing The City Attorney To Compromise The Case Of City","type":"City Resolution","status":"To be Scheduled","intro_date":"2026-02-10","file_number":"26-0436","passed_date":null},{"title":"OPD Overtime Report\nFrom: \t\tOakland Police Department\nRecommendation: Receive An Informational Report Regarding OPD Overtime","type":"Informational Report","status":"In Committee","intro_date":"2026-02-05","file_number":"26-0423","passed_date":null},{"title":"Adeline Street Bridge Seismic Retrofit Project Construction Phase\nFrom: \t\tDepartment Of Transportation\nRecommendation: Adopt The Following Pieces Of Legislation: \n\n1) A Resolution Authorizing The City","type":"City Resolution","status":"In Committee","intro_date":"2026-02-04","file_number":"26-0419","passed_date":null},{"title":"Citywide Cooperative Agreements FY 2026-27\nFrom: \t\tFinance Department \nRecommendation: Adopt A Resolution Approving Ongoing Cooperative Purchase Agreements Exceeding $250,000 For Citywide Commodity Go","type":"City Resolution","status":"In Committee","intro_date":"2026-02-04","file_number":"26-0416","passed_date":null},{"title":"Reappointments To The Housing, Residential Rent, And Relocation Board\nFrom: \t\tOffice Of The Mayor\nRecommendation: Adopt A Resolution Confirming The Mayor\u2019s Reappointment Of Kara Brodfuehrer As A Landl","type":"City Resolution","status":"In Committee","intro_date":"2026-02-04","file_number":"26-0418","passed_date":null},{"title":"Port Liaison Committee Vice Chairman Appointment\r\nFrom: \t\tCouncilmember Houston\r\nRecommendation: A Motion To Designate Councilmember Houston As Vice Chair Of The City/Port Liaison Committee ; On The M","type":"Report and Recommendation","status":"In Committee","intro_date":"2026-02-04","file_number":"26-0417","passed_date":null},{"title":"Appeal Of The 1205 Franklin Street Major Variance Self-Storage Conversion Project\nFrom: \t\tPlanning And Building Department\nRecommendation: Adopt A Resolution Denying The Appeal By John Kevlin, Represe","type":"City Resolution","status":"In Committee","intro_date":"2026-02-04","file_number":"26-0422","passed_date":null},{"title":"2) A Resolution Authorizing The City Administrator To Amend The Professional Services Agreement With Biggs Cardosa Associates, Inc. (BCA) For Design For Adeline Street Bridge Seismic Retrofit Project ","type":"City Resolution","status":"In Committee","intro_date":"2026-02-04","file_number":"26-0420","passed_date":null},{"title":"3) A Resolution Authorizing The City Administrator To Enter Into A Professional Services Agreement With Biggs Cardosa Associates, Inc. (BCA) To Provide Special Inspection And Material Testing Services","type":"City Resolution","status":"In Committee","intro_date":"2026-02-04","file_number":"26-0421","passed_date":null},{"title":"Reappointment To Public Safety Planning And Oversight Commission (Measure NN)\nFrom: \t\tOffice Of The Mayor\nRecommendation: Adopt A Resolution Confirming The Mayor\u2019s Reappointment Of Rownee Winn As A Me","type":"City Resolution","status":"In Committee","intro_date":"2026-02-03","file_number":"26-0414","passed_date":null}],"legistar_url":"https://oakland.legistar.com","enriched_at":"2026-02-13T20:07:02.100773","government_news":[],"video_meetings":[],"data_platforms":["legistar"]}
+{
+  "schema_version": "5.0",
+  "normalized_at": "2026-02-10T14:21:49.324717",
+  "identity": {
+    "name": "Oakland",
+    "state": "CA",
+    "fips_state": "06",
+    "fips_place": "53000",
+    "population": 437825
+  },
+  "city_website": "https://www.oaklandca.gov",
+  "economy": {
+    "median_household_income": 94389,
+    "median_home_value": 883800,
+    "unemployment_rate": 13.04,
+    "unemployment_data_level": "county",
+    "labor_force": 11291,
+    "employed": 9819,
+    "unemployed": 1471,
+    "gini_index": null,
+    "poverty_rate": 13.21,
+    "homeownership_rate": 42.07,
+    "rent_to_income_ratio": 23.51,
+    "home_value_to_income_ratio": 9.36,
+    "price_to_rent_ratio": 39.83,
+    "effective_tax_rate": 9.9837,
+    "population_growth_cagr": 1.0356,
+    "median_real_estate_taxes": 7353
+  },
+  "safety": {
+    "violent_crime_rate": 3272.77,
+    "property_crime_rate": 6284.02,
+    "murder_rate": null,
+    "robbery_rate": 510.48,
+    "burglary_rate": 2077.77,
+    "vehicle_theft_rate": 1406.5,
+    "total_crime_rate": 9556.79,
+    "crime_trend": -69.32,
+    "crime_data_level": "city"
+  },
+  "education": {
+    "total_schools": 10416,
+    "total_enrollment": 5837868,
+    "pupil_teacher_ratio": 22.1,
+    "title1_pct": 0.0,
+    "charter_pct": 12.5,
+    "regular_schools": 9083,
+    "avg_school_rating": 4.6,
+    "rated_schools": 95,
+    "school_quality_tier": "fair"
+  },
+  "environment": {
+    "pm25_mean": 10.5199,
+    "ozone_mean": 0.0433,
+    "total_disasters": 19,
+    "avg_disasters_per_decade": 2.7,
+    "most_recent_disaster": "2023-01-14",
+    "most_recent_disaster_type": "Flood",
+    "disasters_by_type": {
+      "Severe Storm": 7,
+      "Flood": 6,
+      "Biological": 2,
+      "Hurricane": 1,
+      "Freezing": 1,
+      "Coastal Storm": 1,
+      "Drought": 1
+    }
+  },
+  "housing": {
+    "median_rent": 1849,
+    "housing_units": 184530,
+    "fmr_0br": 989,
+    "fmr_1br": 995,
+    "fmr_2br": 1306,
+    "fmr_3br": 1723,
+    "fmr_4br": 1729,
+    "rent_burden_ratio": 16.6,
+    "cost_burdened_pct": 47.65,
+    "severely_burdened_pct": 25.24
+  },
+  "health": {
+    "uninsured_pct": 10.2,
+    "obesity_pct": 27.3,
+    "diabetes_pct": 11.4,
+    "depression_pct": 20.9,
+    "asthma_pct": 10.1,
+    "smoking_pct": 11.3,
+    "physical_inactivity_pct": 23.0,
+    "mental_health_bad_days": 17.6,
+    "physical_health_bad_days": 12.9,
+    "sleep_deficit_pct": 36.3,
+    "high_blood_pressure_pct": 29.4,
+    "high_cholesterol_pct": 29.8,
+    "heart_disease_pct": 4.9,
+    "stroke_pct": 3.1,
+    "cancer_pct": 5.4,
+    "kidney_disease_pct": null,
+    "checkup_pct": 71.6,
+    "data_year": "2023"
+  },
+  "governance": {
+    "legislative_volume": 32031,
+    "legislative_velocity": 1261.1,
+    "committee_count": 150,
+    "years_of_legislative_data": 25.4,
+    "has_public_meetings": true,
+    "api_accessible": true,
+    "matter_types": {
+      "City Resolution": 543,
+      "Report and Recommendation": 294,
+      "Informational Report": 113,
+      "Ordinance": 49,
+      "ORSA Resolution": 1
+    },
+    "top_matter_type": "City Resolution",
+    "matter_statuses": {
+      "Passed": 747,
+      "In Committee": 97,
+      "Filed": 81,
+      "In Rules Committee ": 23,
+      "To be Scheduled": 22,
+      "Withdrawn": 11,
+      "Failed": 11,
+      "In Council": 7,
+      "Introduced In Council": 1
+    },
+    "pass_rate": 33.3,
+    "passed_count": 10677,
+    "active_council_members": 0,
+    "avg_tenure_years": null,
+    "vote_coverage_pct": 0.0,
+    "video_availability_pct": 0.0,
+    "agenda_availability_pct": 96.0,
+    "minutes_availability_pct": 72.4,
+    "avg_meetings_per_month": 16.1,
+    "meetings_by_year": {
+      "2026": 29,
+      "2025": 186,
+      "2024": 201,
+      "2023": 84
+    },
+    "avg_sponsors_per_matter": 0.0,
+    "avg_attachments_per_matter": 0.0,
+    "pct_with_text_versions": 100.0,
+    "index_categories": [
+      "Auditor Report",
+      "Billboards",
+      "Budget 2003-2005",
+      "Ceremonial Acknowledgement",
+      "Council Recess",
+      "Councilmember introduced",
+      "Grant Requirements",
+      "Master Fee Schedule",
+      "Measure DD",
+      "Measure K",
+      "Measure Y",
+      "Oakland Army Base Reuse Authority",
+      "Oakland Muncipal Code amendment",
+      "Oakland Planning Code",
+      "Oracle",
+      "Port of Oakland",
+      "Professioanl Service Contract",
+      "Public Hearing - Planning Commission appeal",
+      "Real Property Transaction",
+      "Salary Ordinance",
+      "Settlement Agreement",
+      "State Legislation"
+    ],
+    "has_accela": true,
+    "accela_agency_id": "OAKLAND"
+  },
+  "development": {
+    "permits_12mo": null,
+    "yoy_trend_pct": null,
+    "avg_permit_value": null,
+    "permit_types": {},
+    "datasets_count": 0
+  },
+  "meetings": {
+    "official_channels": 2,
+    "meetings_indexed": 15,
+    "avg_meetings_per_month": 2.1,
+    "has_video_archive": true,
+    "meeting_types": {
+      "other": 8,
+      "city_council": 3,
+      "public_hearing": 2,
+      "planning_commission": 2
+    },
+    "transcripts_available": 0
+  },
+  "civic_issues": {
+    "total_issues": 759229,
+    "issues_last_30d": 100,
+    "issues_last_365d": 100,
+    "resolution_rate": 71.1,
+    "top_issue_type": "Illegal Dumping - debris, appliances, etc.",
+    "type_distribution": {
+      "Illegal Dumping - debris, appliances, etc.": 35,
+      "Homeless Encampment": 10,
+      "Parking - Enforcement": 7,
+      "Illegal Dumping – mattress/boxspring": 7,
+      "Streets - Potholes/Depression": 7,
+      "Volunteer - Community Bag Pick Up": 4,
+      "Other City Services": 4,
+      "Litter - Street Litter Container - Broken": 3,
+      "Blight-PRIVATE PROPERTY ONLY- Trash, debris, graffiti, weeds. Residential or Commercial Properties": 3,
+      "Streets/Sidewalks - Curb & Gutter Repair": 3,
+      "Housing/Facility Maintenance- PRIVATE PROPERTY ONLY- Structural, electrical, heating, plumbing issues, mold. Private property construction work without permits.": 3,
+      "Graffiti - OTHER": 2,
+      "Graffiti - Traffic Sign(s)": 2,
+      "Sidewalk - Damage": 2,
+      "Traffic Safety (non-emergency)": 2,
+      "Parking - Meter Maintenance": 1,
+      "Graffiti - Street, Street Light, Traffic Signal": 1,
+      "Weed Abatement - Public Right of Way": 1,
+      "Street Light (Not Traffic Signal) - Outage/Damaged": 1,
+      "Construction Issue - Sidewalk Blocked": 1
+    },
+    "has_civic_issue_tracking": true
+  },
+  "demographics": {
+    "population": 437825,
+    "poverty_universe": 433432,
+    "employment_universe": 362881
+  },
+  "time_series": {
+    "economy_history": [
+      {
+        "year": 2024,
+        "unemployment_rate": 13.04,
+        "labor_force": 11291,
+        "employed": 9819,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2023,
+        "unemployment_rate": 12.42,
+        "labor_force": 11075,
+        "employed": 9705,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2022,
+        "unemployment_rate": 11.33,
+        "labor_force": 10632,
+        "employed": 9427,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2021,
+        "unemployment_rate": 12.18,
+        "labor_force": 11022,
+        "employed": 9680,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2020,
+        "unemployment_rate": 15.69,
+        "labor_force": 10998,
+        "employed": 9254,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2019,
+        "unemployment_rate": 12.51,
+        "labor_force": 11388,
+        "employed": 9967,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2018,
+        "unemployment_rate": 12.73,
+        "labor_force": 11239,
+        "employed": 9804,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2017,
+        "unemployment_rate": 13.89,
+        "labor_force": 11205,
+        "employed": 9656,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2016,
+        "unemployment_rate": 15.17,
+        "labor_force": 11272,
+        "employed": 9563,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2015,
+        "unemployment_rate": 15.54,
+        "labor_force": 11051,
+        "employed": 9346,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      }
+    ],
+    "safety_history": [
+      {
+        "year": 2025,
+        "violent_crime_rate": 3272.77,
+        "property_crime_rate": 6284.02,
+        "murder_rate": null,
+        "data_level": "city",
+        "source": "socrata_crime",
+        "is_partial_year": false
+      },
+      {
+        "year": 2024,
+        "violent_crime_rate": 3783.25,
+        "property_crime_rate": 7998.63,
+        "murder_rate": null,
+        "data_level": "city",
+        "source": "socrata_crime",
+        "is_partial_year": false
+      },
+      {
+        "year": 2023,
+        "violent_crime_rate": 4229.09,
+        "property_crime_rate": 11295.38,
+        "murder_rate": null,
+        "data_level": "city",
+        "source": "socrata_crime",
+        "is_partial_year": false
+      },
+      {
+        "year": 2022,
+        "violent_crime_rate": 4075.6,
+        "property_crime_rate": 10231.26,
+        "murder_rate": null,
+        "data_level": "city",
+        "source": "socrata_crime",
+        "is_partial_year": false
+      },
+      {
+        "year": 2021,
+        "violent_crime_rate": 4177.01,
+        "property_crime_rate": 8204.19,
+        "murder_rate": null,
+        "data_level": "city",
+        "source": "socrata_crime",
+        "is_partial_year": false
+      },
+      {
+        "year": 2020,
+        "violent_crime_rate": 4078.11,
+        "property_crime_rate": 7023.35,
+        "murder_rate": null,
+        "data_level": "city",
+        "source": "socrata_crime",
+        "is_partial_year": false
+      },
+      {
+        "year": 2019,
+        "violent_crime_rate": 3786.22,
+        "property_crime_rate": 8632.44,
+        "murder_rate": null,
+        "data_level": "city",
+        "source": "socrata_crime",
+        "is_partial_year": false
+      },
+      {
+        "year": 2018,
+        "violent_crime_rate": 3802.89,
+        "property_crime_rate": 6836.52,
+        "murder_rate": null,
+        "data_level": "city",
+        "source": "socrata_crime",
+        "is_partial_year": false
+      },
+      {
+        "year": 2017,
+        "violent_crime_rate": 3916.18,
+        "property_crime_rate": 7622.91,
+        "murder_rate": 143.44,
+        "data_level": "city",
+        "source": "socrata_crime",
+        "is_partial_year": false
+      },
+      {
+        "year": 2016,
+        "violent_crime_rate": 3981.73,
+        "property_crime_rate": 7057.16,
+        "murder_rate": 143.44,
+        "data_level": "city",
+        "source": "socrata_crime",
+        "is_partial_year": false
+      },
+      {
+        "year": 2015,
+        "violent_crime_rate": 3965.97,
+        "property_crime_rate": 7164.05,
+        "murder_rate": 130.87,
+        "data_level": "city",
+        "source": "socrata_crime",
+        "is_partial_year": false
+      }
+    ],
+    "environment_history": [
+      {
+        "year": 2023,
+        "pm25_mean": 10.5199,
+        "ozone_mean": 0.0433,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2022,
+        "pm25_mean": 9.0929,
+        "ozone_mean": 0.0392,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2021,
+        "pm25_mean": 11.2382,
+        "ozone_mean": 0.0354,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2020,
+        "pm25_mean": 17.6003,
+        "ozone_mean": 0.0354,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2019,
+        "pm25_mean": 6.5499,
+        "ozone_mean": 0.0381,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2018,
+        "pm25_mean": 11.0654,
+        "ozone_mean": 0.0397,
+        "data_level": "county",
+        "source": "epa_aqs"
+      }
+    ]
+  },
+  "data_sources": {
+    "legistar": "available",
+    "socrata": "available",
+    "census_acs": "available",
+    "arcgis": "available",
+    "fbi_ucr": "available",
+    "socrata_crime": "available",
+    "bls_laus": "available",
+    "ca_edd": "error",
+    "epa_aqs": "available",
+    "nces_ccd": "available",
+    "hud_fmr": "available",
+    "fema_openfema": "available",
+    "greatschools": "available",
+    "permits": "skipped",
+    "youtube_meetings": "available",
+    "seeclickfix": "available",
+    "accela": "available",
+    "cdc_places": "available"
+  },
+  "provenance": {
+    "last_full_probe": "2026-02-10T08:17:25.668904",
+    "sources": {
+      "legistar": {
+        "authority": "Legistar by Granicus",
+        "authority_tier": 1,
+        "api_url": "https://webapi.legistar.com/v1/oakland/Bodies",
+        "probed_at": "2026-02-10T08:17:25.669547",
+        "data_vintage": "2000–2026",
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "socrata": {
+        "authority": "City Open Data Portals (Socrata/Tyler Data & Insights)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-10T08:19:53.611516",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "census_acs": {
+        "authority": "US Census Bureau",
+        "authority_tier": 1,
+        "api_url": "https://api.census.gov/data/2022/acs/acs5?get=NAME,B01001_001E,B19013_001E,B25077_001E,B25064_001E,B25001_001E&for=place:53000&in=state:06",
+        "probed_at": "2026-02-10T08:19:59.534173",
+        "data_vintage": "ACS 5-Year 2022",
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "arcgis": {
+        "authority": "City ArcGIS/GIS Portals",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-10T08:20:03.220684",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "fbi_ucr": {
+        "authority": "FBI Uniform Crime Reporting Program",
+        "authority_tier": 1,
+        "api_url": "https://api.usa.gov/crime/fbi/sapi/api/estimates/states/CA/2015/2022",
+        "probed_at": "2026-02-10T08:20:04.514541",
+        "data_vintage": null,
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "bls_laus": {
+        "authority": "Bureau of Labor Statistics",
+        "authority_tier": 1,
+        "api_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/LAUST060000000000003",
+        "probed_at": "2026-02-10T08:20:35.733104",
+        "data_vintage": "LAUS 2024",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "epa_aqs": {
+        "authority": "US Environmental Protection Agency",
+        "authority_tier": 1,
+        "api_url": "https://aqs.epa.gov/data/api/annualData/byState?state=06&param=88101",
+        "probed_at": "2026-02-10T08:20:37.723748",
+        "data_vintage": "AQS 2023",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "nces_ccd": {
+        "authority": "National Center for Education Statistics",
+        "authority_tier": 1,
+        "api_url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=06",
+        "probed_at": "2026-02-10T08:21:18.539706",
+        "data_vintage": "2022-2023 academic year",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "hud_fmr": {
+        "authority": "US Department of Housing and Urban Development",
+        "authority_tier": 1,
+        "api_url": "https://www.huduser.gov/hudapi/public/fmr/statedata/CA",
+        "probed_at": "2026-02-10T08:21:20.784448",
+        "data_vintage": "FY2026",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "fema_openfema": {
+        "authority": "Federal Emergency Management Agency",
+        "authority_tier": 1,
+        "api_url": "https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries?$filter=state eq 'CA'",
+        "probed_at": "2026-02-10T08:21:21.310819",
+        "data_vintage": "1953-present",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "greatschools": {
+        "authority": "GreatSchools.org (nonprofit)",
+        "authority_tier": 3,
+        "api_url": null,
+        "probed_at": "2026-02-10T08:21:21.665555",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "permits": {
+        "authority": "City Open Data Portals (Socrata)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-10T08:21:23.487450",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "youtube_meetings": {
+        "authority": "YouTube (via SerpAPI search + youtube-transcript-api)",
+        "authority_tier": 3,
+        "api_url": null,
+        "probed_at": "2026-02-10T08:21:23.487857",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "seeclickfix": {
+        "authority": "SeeClickFix (civic issue tracking platform)",
+        "authority_tier": 3,
+        "api_url": "https://seeclickfix.com/api/v2/issues?place_url=oakland",
+        "probed_at": "2026-02-10T08:22:42.616973",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "accela": {
+        "authority": "Accela (permit management platform)",
+        "authority_tier": 3,
+        "api_url": "https://apis.accela.com/v4/agencies",
+        "probed_at": "2026-02-10T08:23:06.922410",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "socrata_crime": {
+        "authority": "City Open Data Portals (Socrata)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-10T08:20:27.310488",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "cdc_places": {
+        "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
+        "authority_tier": 1,
+        "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Oakland",
+        "probed_at": "2026-02-13T21:01:20.921654",
+        "data_vintage": "BRFSS 2023",
+        "geographic_level": "place",
+        "status": "available"
+      }
+    },
+    "derived_fields": {
+      "safety.total_crime_rate": {
+        "formula": "violent_crime_rate + property_crime_rate",
+        "inputs": [
+          "safety.violent_crime_rate",
+          "safety.property_crime_rate"
+        ],
+        "formula_location": "score/normalizer.py:_derive_total_crime",
+        "authority_tier": 2
+      },
+      "safety.crime_trend": {
+        "formula": "(last_year_rate - first_year_rate) / years_span",
+        "inputs": [
+          "fbi.time_series[].violent_crime_rate"
+        ],
+        "formula_location": "score/normalizer.py:_build_safety",
+        "authority_tier": 2
+      },
+      "education.school_quality_tier": {
+        "formula": "excellent if avg>=8, good if avg>=6, fair if avg>=4, else poor",
+        "inputs": [
+          "education.avg_school_rating"
+        ],
+        "formula_location": "score/normalizer.py:_build_education",
+        "authority_tier": 3
+      },
+      "environment.avg_disasters_per_decade": {
+        "formula": "total_disasters / (years_span / 10)",
+        "inputs": [
+          "environment.total_disasters"
+        ],
+        "formula_location": "probe/fema_probe.py",
+        "authority_tier": 2
+      },
+      "housing.rent_burden_ratio": {
+        "formula": "(fmr_2br * 12) / median_household_income * 100",
+        "inputs": [
+          "housing.fmr_2br",
+          "economy.median_household_income"
+        ],
+        "formula_location": "score/normalizer.py:_build_housing",
+        "authority_tier": 2
+      },
+      "governance.legislative_velocity": {
+        "formula": "legislative_volume / years_of_legislative_data",
+        "inputs": [
+          "governance.legislative_volume",
+          "governance.years_of_legislative_data"
+        ],
+        "formula_location": "score/normalizer.py:_build_governance",
+        "authority_tier": 2
+      },
+      "development.yoy_trend_pct": {
+        "formula": "(current_year - prior_year) / prior_year * 100",
+        "inputs": [
+          "permit data from Socrata"
+        ],
+        "formula_location": "probe/permits_probe.py",
+        "authority_tier": 2
+      }
+    },
+    "geographic_mismatches": [
+      {
+        "field": "identity.fips_state",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "state-level data applied to city profile"
+      },
+      {
+        "field": "economy.unemployment_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Reflects statewide unemployment, not city-specific rate"
+      },
+      {
+        "field": "economy.labor_force",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: This is the full state labor force, not city-level"
+      },
+      {
+        "field": "economy.employed",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "economy.unemployed",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.violent_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: City-level requires ORI codes not currently used"
+      },
+      {
+        "field": "safety.property_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.murder_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.robbery_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.burglary_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.vehicle_theft_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.total_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA; derived sum"
+      },
+      {
+        "field": "safety.crime_trend",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "state-level data applied to city profile"
+      },
+      {
+        "field": "education.total_schools",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Count includes all schools in the state, not city"
+      },
+      {
+        "field": "education.total_enrollment",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.pupil_teacher_ratio",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Average across all state schools"
+      },
+      {
+        "field": "education.title1_pct",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.charter_pct",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.regular_schools",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.pm25_mean",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE/COUNTY-LEVEL: Averaged across all monitors in the state"
+      },
+      {
+        "field": "environment.ozone_mean",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE/COUNTY-LEVEL"
+      },
+      {
+        "field": "environment.total_disasters",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: All declarations for the state, not city-specific"
+      },
+      {
+        "field": "environment.avg_disasters_per_decade",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.most_recent_disaster",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.most_recent_disaster_type",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "housing.fmr_0br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR: Fair Market Rents at state level, not city-specific metro area"
+      },
+      {
+        "field": "housing.fmr_1br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_2br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_3br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_4br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.rent_burden_ratio",
+        "source_level": "mixed",
+        "profile_level": "place",
+        "note": "GEOGRAPHIC MISMATCH: FMR is state-level (HUD), income is city-level (Census). Ratio may be biased."
+      }
+    ]
+  },
+  "data_quality": {
+    "quality_score": 100.0,
+    "grade": "A",
+    "completeness_pct": 100.0,
+    "issue_count": 6,
+    "granularity_flags": 2
+  },
+  "officials": {
+    "body_name": "Meeting of the Oakland City Council",
+    "members": [
+      {
+        "name": "Carroll Fife",
+        "email": null,
+        "title": null,
+        "start_date": "2025-05-22",
+        "committees": [
+          "City/Port Liaison Committee",
+          "Community & Economic Development Committee",
+          "Life Enrichment Committee",
+          "Public Safety Committee",
+          "Rules & Legislation Committee"
+        ]
+      },
+      {
+        "name": "Charlene Wang",
+        "email": null,
+        "title": null,
+        "start_date": "2025-05-22",
+        "committees": [
+          "Finance & Management Committee",
+          "Life Enrichment Committee",
+          "Public Safety Committee",
+          "Public Works And Transportation Committee"
+        ]
+      },
+      {
+        "name": "Dan Kalb",
+        "email": "dkalb@oaklandca.gov",
+        "title": null,
+        "start_date": "2022-04-20",
+        "committees": [
+          "Public Works Committee"
+        ]
+      },
+      {
+        "name": "Janani Ramachandran",
+        "email": null,
+        "title": null,
+        "start_date": "2025-05-22",
+        "committees": [
+          "Community & Economic Development Committee",
+          "Finance & Management Committee",
+          "Rules & Legislation Committee"
+        ]
+      },
+      {
+        "name": "Ken Houston",
+        "email": null,
+        "title": null,
+        "start_date": "2025-05-22"
+      },
+      {
+        "name": "Kevin Jenkins",
+        "email": null,
+        "title": null,
+        "start_date": "2025-05-22",
+        "committees": [
+          "Community & Economic Development Committee",
+          "Finance & Management Committee",
+          "Rules & Legislation Committee"
+        ]
+      },
+      {
+        "name": "Lynette McElhaney",
+        "email": null,
+        "title": null,
+        "start_date": "2018-04-17"
+      },
+      {
+        "name": "Nikki Fortunato Bas",
+        "email": null,
+        "title": null,
+        "start_date": "2022-12-30",
+        "phone": "5102387002",
+        "committees": [
+          "Public Works Committee"
+        ]
+      },
+      {
+        "name": "Noel Gallo",
+        "email": null,
+        "title": null,
+        "start_date": "2025-05-22",
+        "committees": [
+          "Education Partnership Committee",
+          "Life Enrichment Committee",
+          "Public Works And Transportation Committee",
+          "Public Works Committee"
+        ]
+      },
+      {
+        "name": "Rebecca Kaplan",
+        "email": null,
+        "title": null,
+        "start_date": "2018-04-17"
+      },
+      {
+        "name": "Rowena Brown",
+        "email": null,
+        "title": null,
+        "start_date": "2025-05-22",
+        "committees": [
+          "Community & Economic Development Committee",
+          "Education Partnership Committee",
+          "Finance & Management Committee",
+          "Public Safety Committee",
+          "Rules & Legislation Committee"
+        ]
+      },
+      {
+        "name": "Treva Reid",
+        "email": null,
+        "title": null,
+        "start_date": "2021-01-04",
+        "committees": [
+          "City/Port Liaison Committee",
+          "Public Works Committee"
+        ]
+      },
+      {
+        "name": "Zac Unger",
+        "email": null,
+        "title": null,
+        "start_date": "2025-05-22",
+        "committees": [
+          "Community & Economic Development Committee",
+          "Education Partnership Committee",
+          "Finance & Management Committee",
+          "Public Works And Transportation Committee"
+        ]
+      }
+    ]
+  },
+  "recent_meetings": [
+    {
+      "date": "2026-02-17",
+      "body": "Concurrent Meeting of the Oakland Redevelopment Successor Agency and the City Council",
+      "location": "City Council Chamber, 3rd Floor",
+      "has_agenda": true,
+      "agenda_url": "https://oakland.legistar1.com/oakland/meetings/2026/2/9479_A___Concurrent_Meeting_of_the_Oakland_Redevelopment_Successor_Agency_and_the_City_Council_26-02-17__Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-19",
+      "body": "Rules & Legislation Committee",
+      "location": "City Council Chamber, 3rd Floor",
+      "has_agenda": true,
+      "agenda_url": "https://oakland.legistar1.com/oakland/meetings/2026/2/9480_A__Rules___Legislation_Committee_26-02-19__Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-12",
+      "body": "Rules & Legislation Committee",
+      "location": "City Council Chamber, 3rd Floor",
+      "has_agenda": true,
+      "agenda_url": "https://oakland.legistar1.com/oakland/meetings/2026/2/9477_A__Rules___Legislation_Committee_26-02-12__Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "Life Enrichment Committee",
+      "location": "City Council Chamber, 3rd Floor",
+      "has_agenda": true,
+      "agenda_url": "https://oakland.legistar1.com/oakland/meetings/2026/2/9475_A__Life_Enrichment_Committee_26-02-10__Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "Public Safety Committee",
+      "location": "City Council Chamber, 3rd Floor",
+      "has_agenda": true,
+      "agenda_url": "https://oakland.legistar1.com/oakland/meetings/2026/2/9476_A__Public_Safety_Committee_26-02-10__Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "Finance & Management Committee",
+      "location": "City Council Chamber, 3rd Floor",
+      "has_agenda": true,
+      "agenda_url": "https://oakland.legistar1.com/oakland/meetings/2026/2/9472_A__Finance___Management_Committee_26-02-10__Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "Public Works And Transportation Committee",
+      "location": "City Council Chamber, 3rd Floor",
+      "has_agenda": true,
+      "agenda_url": "https://oakland.legistar1.com/oakland/meetings/2026/2/9473_A___Public_Works_And_Transportation_Committee_26-02-10__Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "Community & Economic Development Committee",
+      "location": "City Council Chamber, 3rd Floor",
+      "has_agenda": true,
+      "agenda_url": "https://oakland.legistar1.com/oakland/meetings/2026/2/9474_A__Community___Economic_Development_Committee_26-02-10__Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-05",
+      "body": "Rules & Legislation Committee",
+      "location": "City Council Chamber, 3rd Floor",
+      "has_agenda": true,
+      "agenda_url": "https://oakland.legistar1.com/oakland/meetings/2026/2/9471_A__Rules___Legislation_Committee_26-02-05__Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "Concurrent Meeting of the Oakland Redevelopment Successor Agency and the City Council",
+      "location": "City Council Chamber, 3rd Floor",
+      "has_agenda": true,
+      "agenda_url": "https://oakland.legistar1.com/oakland/meetings/2026/2/9470_A___Concurrent_Meeting_of_the_Oakland_Redevelopment_Successor_Agency_and_the_City_Council_26-02-03__Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-29",
+      "body": "Rules & Legislation Committee",
+      "location": "City Council Chamber, 3rd Floor",
+      "has_agenda": true,
+      "agenda_url": "https://oakland.legistar1.com/oakland/meetings/2026/1/9468_A__Rules___Legislation_Committee_26-01-29__Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-27",
+      "body": "Special Public Safety Committee",
+      "location": "City Council Chamber, 3rd Floor",
+      "has_agenda": true,
+      "agenda_url": "https://oakland.legistar1.com/oakland/meetings/2026/1/9467_A__Special_Public_Safety_Committee_26-01-27__Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "City Of Oakland V. Oakland Unified School District \r\nFrom:\t\t Office Of The City Attorney \r\nRecommendation: Adopt A Resolution Authorizing And Directing The City Attorney To Compromise The Case Of City",
+      "type": "City Resolution",
+      "status": "To be Scheduled",
+      "intro_date": "2026-02-10",
+      "file_number": "26-0436",
+      "passed_date": null
+    },
+    {
+      "title": "OPD Overtime Report\nFrom: \t\tOakland Police Department\nRecommendation: Receive An Informational Report Regarding OPD Overtime",
+      "type": "Informational Report",
+      "status": "In Committee",
+      "intro_date": "2026-02-05",
+      "file_number": "26-0423",
+      "passed_date": null
+    },
+    {
+      "title": "Adeline Street Bridge Seismic Retrofit Project Construction Phase\nFrom: \t\tDepartment Of Transportation\nRecommendation: Adopt The Following Pieces Of Legislation: \n\n1) A Resolution Authorizing The City",
+      "type": "City Resolution",
+      "status": "In Committee",
+      "intro_date": "2026-02-04",
+      "file_number": "26-0419",
+      "passed_date": null
+    },
+    {
+      "title": "Citywide Cooperative Agreements FY 2026-27\nFrom: \t\tFinance Department \nRecommendation: Adopt A Resolution Approving Ongoing Cooperative Purchase Agreements Exceeding $250,000 For Citywide Commodity Go",
+      "type": "City Resolution",
+      "status": "In Committee",
+      "intro_date": "2026-02-04",
+      "file_number": "26-0416",
+      "passed_date": null
+    },
+    {
+      "title": "Reappointments To The Housing, Residential Rent, And Relocation Board\nFrom: \t\tOffice Of The Mayor\nRecommendation: Adopt A Resolution Confirming The Mayor’s Reappointment Of Kara Brodfuehrer As A Landl",
+      "type": "City Resolution",
+      "status": "In Committee",
+      "intro_date": "2026-02-04",
+      "file_number": "26-0418",
+      "passed_date": null
+    },
+    {
+      "title": "Port Liaison Committee Vice Chairman Appointment\r\nFrom: \t\tCouncilmember Houston\r\nRecommendation: A Motion To Designate Councilmember Houston As Vice Chair Of The City/Port Liaison Committee ; On The M",
+      "type": "Report and Recommendation",
+      "status": "In Committee",
+      "intro_date": "2026-02-04",
+      "file_number": "26-0417",
+      "passed_date": null
+    },
+    {
+      "title": "Appeal Of The 1205 Franklin Street Major Variance Self-Storage Conversion Project\nFrom: \t\tPlanning And Building Department\nRecommendation: Adopt A Resolution Denying The Appeal By John Kevlin, Represe",
+      "type": "City Resolution",
+      "status": "In Committee",
+      "intro_date": "2026-02-04",
+      "file_number": "26-0422",
+      "passed_date": null
+    },
+    {
+      "title": "2) A Resolution Authorizing The City Administrator To Amend The Professional Services Agreement With Biggs Cardosa Associates, Inc. (BCA) For Design For Adeline Street Bridge Seismic Retrofit Project ",
+      "type": "City Resolution",
+      "status": "In Committee",
+      "intro_date": "2026-02-04",
+      "file_number": "26-0420",
+      "passed_date": null
+    },
+    {
+      "title": "3) A Resolution Authorizing The City Administrator To Enter Into A Professional Services Agreement With Biggs Cardosa Associates, Inc. (BCA) To Provide Special Inspection And Material Testing Services",
+      "type": "City Resolution",
+      "status": "In Committee",
+      "intro_date": "2026-02-04",
+      "file_number": "26-0421",
+      "passed_date": null
+    },
+    {
+      "title": "Reappointment To Public Safety Planning And Oversight Commission (Measure NN)\nFrom: \t\tOffice Of The Mayor\nRecommendation: Adopt A Resolution Confirming The Mayor’s Reappointment Of Rownee Winn As A Me",
+      "type": "City Resolution",
+      "status": "In Committee",
+      "intro_date": "2026-02-03",
+      "file_number": "26-0414",
+      "passed_date": null
+    }
+  ],
+  "legistar_url": "https://oakland.legistar.com",
+  "enriched_at": "2026-02-13T20:07:02.100773",
+  "government_news": [],
+  "video_meetings": [],
+  "data_platforms": [
+    "legistar"
+  ]
+}

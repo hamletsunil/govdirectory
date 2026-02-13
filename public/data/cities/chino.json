@@ -1,1 +1,1062 @@
-{"schema_version":"5.0","normalized_at":"2026-02-10T14:21:49.012037","identity":{"name":"Chino","state":"CA","fips_state":"06","fips_place":"13210","population":91008},"city_website":"https://www.cityofchino.org","economy":{"median_household_income":99385,"median_home_value":599200,"unemployment_rate":5.92,"unemployment_data_level":"county","labor_force":91476,"employed":86068,"unemployed":5408,"gini_index":null,"poverty_rate":8.24,"homeownership_rate":63.73,"rent_to_income_ratio":24.16,"home_value_to_income_ratio":6.03,"price_to_rent_ratio":24.95,"effective_tax_rate":9.4186,"population_growth_cagr":1.323,"median_real_estate_taxes":4703},"safety":{"violent_crime_rate":null,"property_crime_rate":null,"murder_rate":null,"robbery_rate":null,"burglary_rate":null,"vehicle_theft_rate":null,"total_crime_rate":null,"crime_trend":null,"crime_data_level":null},"education":{"total_schools":10416,"total_enrollment":5837868,"pupil_teacher_ratio":22.1,"title1_pct":0.0,"charter_pct":12.5,"regular_schools":9083,"avg_school_rating":null,"rated_schools":null,"school_quality_tier":null},"environment":{"pm25_mean":7.8776,"ozone_mean":0.0444,"total_disasters":39,"avg_disasters_per_decade":5.6,"most_recent_disaster":"2024-07-25","most_recent_disaster_type":"Fire","disasters_by_type":{"Fire":17,"Severe Storm":9,"Flood":6,"Biological":2,"Dam/Levee Break":1,"Hurricane":1,"Freezing":1,"Coastal Storm":1,"Drought":1}},"housing":{"median_rent":2001,"housing_units":27863,"fmr_0br":1155,"fmr_1br":1270,"fmr_2br":1625,"fmr_3br":2260,"fmr_4br":2726,"rent_burden_ratio":19.6,"cost_burdened_pct":55.87,"severely_burdened_pct":30.32},"governance":{"legislative_volume":1000,"legislative_velocity":43.9,"committee_count":8,"years_of_legislative_data":22.8,"has_public_meetings":true,"api_accessible":true,"matter_types":{"Consent Calendar":460,"Ceremonials":135,"New Business":115,"Public Hearings":73,"Activity Reports":60,"Mayor and City Council Reports":49,"Miscellaneous":42,"Information":27,"Action Item":14,"Proclamations":9,"Presentations":8,"Discussion":6,"Minutes":1,"Public Communications":1},"top_matter_type":"Consent Calendar","matter_statuses":{"Passed":566,"Agenda Ready":423,"Read into the Record":4,"Failed":2,"Continued":2,"Filed":1,"Consent Agenda":1,"Withdrawn":1},"pass_rate":50.0,"passed_count":500,"active_council_members":5,"avg_tenure_years":2.6,"vote_coverage_pct":0.0,"video_availability_pct":0.0,"agenda_availability_pct":26.8,"minutes_availability_pct":0.0,"avg_meetings_per_month":7.1,"meetings_by_year":{"2026":15,"2025":88,"2024":83,"2023":88,"2022":85,"2021":72,"2020":51,"2019":18},"avg_sponsors_per_matter":0.0,"avg_attachments_per_matter":0.3,"pct_with_text_versions":100.0,"index_categories":[],"has_accela":true,"accela_agency_id":"CHINO"},"development":{"permits_12mo":null,"yoy_trend_pct":null,"avg_permit_value":null,"permit_types":{},"datasets_count":0},"meetings":{"official_channels":0,"meetings_indexed":null,"avg_meetings_per_month":null,"has_video_archive":false,"meeting_types":{},"transcripts_available":null},"civic_issues":{"total_issues":3746,"issues_last_30d":52,"issues_last_365d":100,"resolution_rate":92.5,"top_issue_type":"Traffic Concerns","type_distribution":{"Traffic Concerns":20,"Street Lights":19,"Litter or dumping":9,"Other (Traffic)":9,"Sidewalk":6,"Code Violation":3,"Curb Damage":3,"Other (Police)":3,"Traffic Signal Lights Out":2,"Tall Grass / Weeds":2,"Graffiti Concern":2,"Pothole":2,"Overgrown City Tree":2,"Other (Streets)":2,"Water Meter Box Issue":2,"Parking Violation":2,"Engineering":1,"Broken City Tree Limb":1,"Shopping Carts":1,"Street Sweeping":1},"has_civic_issue_tracking":true},"demographics":{"population":91008,"poverty_universe":86409,"employment_universe":72187},"time_series":{"economy_history":[{"year":2024,"unemployment_rate":5.92,"labor_force":91476,"employed":86068,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2023,"unemployment_rate":5.19,"labor_force":90767,"employed":86047,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2022,"unemployment_rate":4.57,"labor_force":89902,"employed":85788,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2021,"unemployment_rate":6.94,"labor_force":90132,"employed":83884,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2020,"unemployment_rate":9.52,"labor_force":91514,"employed":82838,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2019,"unemployment_rate":5.21,"labor_force":96221,"employed":91203,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2018,"unemployment_rate":5.13,"labor_force":99931,"employed":94797,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2017,"unemployment_rate":5.92,"labor_force":100334,"employed":94405,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2016,"unemployment_rate":6.74,"labor_force":99952,"employed":93217,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2015,"unemployment_rate":7.22,"labor_force":101102,"employed":93820,"data_level":"county","source":"bls_laus","is_partial_year":false}],"safety_history":[],"environment_history":[{"year":2023,"pm25_mean":7.8776,"ozone_mean":0.0444,"data_level":"county","source":"epa_aqs"},{"year":2022,"pm25_mean":7.7337,"ozone_mean":0.0453,"data_level":"county","source":"epa_aqs"},{"year":2021,"pm25_mean":11.1296,"ozone_mean":0.0436,"data_level":"county","source":"epa_aqs"},{"year":2020,"pm25_mean":16.0727,"ozone_mean":0.0444,"data_level":"county","source":"epa_aqs"},{"year":2019,"pm25_mean":7.1537,"ozone_mean":0.0436,"data_level":"county","source":"epa_aqs"},{"year":2018,"pm25_mean":13.7734,"ozone_mean":0.0495,"data_level":"county","source":"epa_aqs"}]},"data_sources":{"legistar":"available","socrata":"available","census_acs":"available","arcgis":"available","fbi_ucr":"available","socrata_crime":"available","bls_laus":"available","ca_edd":"error","epa_aqs":"available","nces_ccd":"available","hud_fmr":"available","fema_openfema":"available","greatschools":"available","permits":"skipped","youtube_meetings":"skipped","seeclickfix":"available","accela":"available"},"provenance":{"last_full_probe":"2026-02-09T22:35:46.091505","sources":{"legistar":{"authority":"Legistar by Granicus","authority_tier":1,"api_url":"https://webapi.legistar.com/v1/chino/Bodies","probed_at":"2026-02-09T22:35:46.096118","data_vintage":"2023\u20132026","geographic_level":"place","status":"available"},"socrata":{"authority":"City Open Data Portals (Socrata/Tyler Data & Insights)","authority_tier":1,"api_url":null,"probed_at":"2026-02-09T22:37:05.364745","data_vintage":null,"geographic_level":"place","status":"available"},"census_acs":{"authority":"US Census Bureau","authority_tier":1,"api_url":"https://api.census.gov/data/2022/acs/acs5?get=NAME,B01001_001E,B19013_001E,B25077_001E,B25064_001E,B25001_001E&for=place:13210&in=state:06","probed_at":"2026-02-09T22:37:57.387806","data_vintage":"ACS 5-Year 2022","geographic_level":"place","status":"available"},"arcgis":{"authority":"City ArcGIS/GIS Portals","authority_tier":1,"api_url":null,"probed_at":"2026-02-09T22:38:01.658732","data_vintage":null,"geographic_level":"place","status":"available"},"fbi_ucr":{"authority":"FBI Uniform Crime Reporting Program","authority_tier":1,"api_url":"https://api.usa.gov/crime/fbi/sapi/api/estimates/states/CA/2015/2022","probed_at":"2026-02-09T22:38:03.981705","data_vintage":null,"geographic_level":"state","status":"available"},"bls_laus":{"authority":"Bureau of Labor Statistics","authority_tier":1,"api_url":"https://api.bls.gov/publicAPI/v2/timeseries/data/LAUST060000000000003","probed_at":"2026-02-09T22:38:55.880516","data_vintage":"LAUS 2024","geographic_level":"state","status":"available"},"epa_aqs":{"authority":"US Environmental Protection Agency","authority_tier":1,"api_url":"https://aqs.epa.gov/data/api/annualData/byState?state=06&param=88101","probed_at":"2026-02-09T22:38:57.713558","data_vintage":"AQS 2023","geographic_level":"state","status":"available"},"nces_ccd":{"authority":"National Center for Education Statistics","authority_tier":1,"api_url":"https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=06","probed_at":"2026-02-09T22:39:42.219327","data_vintage":"2022-2023 academic year","geographic_level":"state","status":"available"},"hud_fmr":{"authority":"US Department of Housing and Urban Development","authority_tier":1,"api_url":"https://www.huduser.gov/hudapi/public/fmr/statedata/CA","probed_at":"2026-02-09T22:40:23.174042","data_vintage":"FY2026","geographic_level":"state","status":"available"},"fema_openfema":{"authority":"Federal Emergency Management Agency","authority_tier":1,"api_url":"https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries?$filter=state eq 'CA'","probed_at":"2026-02-09T22:40:23.655448","data_vintage":"1953-present","geographic_level":"state","status":"available"},"greatschools":{"authority":"GreatSchools.org (nonprofit)","authority_tier":3,"api_url":null,"probed_at":"2026-02-09T22:40:23.900092","data_vintage":null,"geographic_level":"place","status":"available"},"permits":{"authority":"City Open Data Portals (Socrata)","authority_tier":1,"api_url":null,"probed_at":"2026-02-09T22:40:24.239634","data_vintage":null,"geographic_level":"place","status":"skipped"},"youtube_meetings":{"authority":"YouTube (via SerpAPI search + youtube-transcript-api)","authority_tier":3,"api_url":null,"probed_at":"2026-02-09T22:40:24.251963","data_vintage":null,"geographic_level":"place","status":"skipped"},"seeclickfix":{"authority":"SeeClickFix (civic issue tracking platform)","authority_tier":3,"api_url":"https://seeclickfix.com/api/v2/issues?place_url=chino","probed_at":"2026-02-09T22:40:38.837324","data_vintage":null,"geographic_level":"place","status":"available"},"accela":{"authority":"Accela (permit management platform)","authority_tier":3,"api_url":"https://apis.accela.com/v4/agencies","probed_at":"2026-02-09T22:40:45.761555","data_vintage":null,"geographic_level":"place","status":"available"},"socrata_crime":{"authority":"City Open Data Portals (Socrata)","authority_tier":1,"api_url":null,"probed_at":"2026-02-09T22:38:55.873533","data_vintage":null,"geographic_level":"place","status":"available"}},"derived_fields":{"safety.total_crime_rate":{"formula":"violent_crime_rate + property_crime_rate","inputs":["safety.violent_crime_rate","safety.property_crime_rate"],"formula_location":"score/normalizer.py:_derive_total_crime","authority_tier":2},"safety.crime_trend":{"formula":"(last_year_rate - first_year_rate) / years_span","inputs":["fbi.time_series[].violent_crime_rate"],"formula_location":"score/normalizer.py:_build_safety","authority_tier":2},"education.school_quality_tier":{"formula":"excellent if avg>=8, good if avg>=6, fair if avg>=4, else poor","inputs":["education.avg_school_rating"],"formula_location":"score/normalizer.py:_build_education","authority_tier":3},"environment.avg_disasters_per_decade":{"formula":"total_disasters / (years_span / 10)","inputs":["environment.total_disasters"],"formula_location":"probe/fema_probe.py","authority_tier":2},"housing.rent_burden_ratio":{"formula":"(fmr_2br * 12) / median_household_income * 100","inputs":["housing.fmr_2br","economy.median_household_income"],"formula_location":"score/normalizer.py:_build_housing","authority_tier":2},"governance.legislative_velocity":{"formula":"legislative_volume / years_of_legislative_data","inputs":["governance.legislative_volume","governance.years_of_legislative_data"],"formula_location":"score/normalizer.py:_build_governance","authority_tier":2},"development.yoy_trend_pct":{"formula":"(current_year - prior_year) / prior_year * 100","inputs":["permit data from Socrata"],"formula_location":"probe/permits_probe.py","authority_tier":2}},"geographic_mismatches":[{"field":"identity.fips_state","source_level":"state","profile_level":"place","note":"state-level data applied to city profile"},{"field":"economy.unemployment_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Reflects statewide unemployment, not city-specific rate"},{"field":"economy.labor_force","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: This is the full state labor force, not city-level"},{"field":"economy.employed","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"economy.unemployed","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.violent_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: City-level requires ORI codes not currently used"},{"field":"safety.property_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.murder_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.robbery_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.burglary_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.vehicle_theft_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.total_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA; derived sum"},{"field":"safety.crime_trend","source_level":"state","profile_level":"place","note":"state-level data applied to city profile"},{"field":"education.total_schools","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Count includes all schools in the state, not city"},{"field":"education.total_enrollment","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.pupil_teacher_ratio","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Average across all state schools"},{"field":"education.title1_pct","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.charter_pct","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.regular_schools","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.pm25_mean","source_level":"state","profile_level":"place","note":"STATE/COUNTY-LEVEL: Averaged across all monitors in the state"},{"field":"environment.ozone_mean","source_level":"state","profile_level":"place","note":"STATE/COUNTY-LEVEL"},{"field":"environment.total_disasters","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: All declarations for the state, not city-specific"},{"field":"environment.avg_disasters_per_decade","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.most_recent_disaster","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.most_recent_disaster_type","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"housing.fmr_0br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR: Fair Market Rents at state level, not city-specific metro area"},{"field":"housing.fmr_1br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_2br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_3br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_4br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.rent_burden_ratio","source_level":"mixed","profile_level":"place","note":"GEOGRAPHIC MISMATCH: FMR is state-level (HUD), income is city-level (Census). Ratio may be biased."}]},"data_quality":{"quality_score":100.0,"grade":"A","completeness_pct":100.0,"issue_count":6,"granularity_flags":2},"officials":{"body_name":"City Council","members":[{"name":"Christopher Flores","email":"cflores@cityofchino.org","title":"Council Member","start_date":"2022-07-01","committees":["Housing Committee","Investment Advisory Committee"]},{"name":"Curtis Burton","email":"cburton@cityofchino.org","title":"Mayor Pro Tem","start_date":"2024-12-17","committees":["Economic Development Committee","Housing Committee"]},{"name":"Eunice M. Ulloa","email":"eulloa@cityofchino.org","title":"Mayor","start_date":"2022-07-01","committees":["Investment Advisory Committee","Legislative Policy Committee"]},{"name":"Karen C. Comstock","email":"kcomstock@cityofchino.org","title":"Council Member","start_date":"2024-12-17","committees":["Infrastructure/Streets Committee","Legislative Policy Committee"]},{"name":"Marc Lucio","email":"mlucio@cityofchino.org","title":"Council Member","start_date":"2022-07-01","committees":["Economic Development Committee","Infrastructure/Streets Committee"]}]},"recent_meetings":[{"date":"2026-02-17","body":"City Council","location":"CITY HALL COUNCIL CHAMBERS\r\n13220 CENTRAL AVENUE\r\nCHINO, CA 91710","has_agenda":false,"agenda_url":null,"has_minutes":false,"has_video":false,"upcoming":true},{"date":"2026-02-19","body":"Investment Advisory Committee","location":"CITY HALL COUNCIL CHAMBERS\r\n13220 CENTRAL AVENUE\r\nCHINO, CA 91710","has_agenda":false,"agenda_url":null,"has_minutes":false,"has_video":false,"upcoming":true},{"date":"2026-02-24","body":"Infrastructure/Streets Committee","location":"CITY HALL COUNCIL CHAMBERS\r\n13220 CENTRAL AVENUE\r\nCHINO, CA 91710","has_agenda":false,"agenda_url":null,"has_minutes":false,"has_video":false,"upcoming":true},{"date":"2026-03-01","body":"Economic Development Committee","location":"CITY HALL COUNCIL CHAMBERS\r\n13220 CENTRAL AVENUE\r\nCHINO, CA 91710","has_agenda":false,"agenda_url":null,"has_minutes":false,"has_video":false,"upcoming":true},{"date":"2026-03-10","body":"City Council","location":"CITY HALL COUNCIL CHAMBERS\r\n13220 CENTRAL AVENUE\r\nCHINO, CA 91710","has_agenda":false,"agenda_url":null,"has_minutes":false,"has_video":false,"upcoming":true},{"date":"2026-02-10","body":"City Council","location":"CITY HALL COUNCIL CHAMBERS\r\n13220 CENTRAL AVENUE\r\nCHINO, CA 91710","has_agenda":true,"agenda_url":"https://chino.legistar1.com/chino/meetings/2026/2/1984_A_City_Council_26-02-10_Workshop_-_Study_Session.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-09","body":"Housing Committee","location":"CITY HALL COUNCIL CHAMBERS\r\n13220 CENTRAL AVENUE\r\nCHINO, CA 91710","has_agenda":true,"agenda_url":"https://chino.legistar1.com/chino/meetings/2026/2/2006_A_Housing_Committee_26-02-09_REGULAR_MEETING.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-03","body":"City Council","location":"CITY HALL COUNCIL CHAMBERS\r\n13220 CENTRAL AVENUE\r\nCHINO, CA 91710","has_agenda":true,"agenda_url":"https://chino.legistar1.com/chino/meetings/2026/2/1952_A_City_Council_26-02-03_REGULAR_MEETING.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-01-27","body":"Infrastructure/Streets Committee","location":"CITY HALL COUNCIL CHAMBERS\r\n13220 CENTRAL AVENUE\r\nCHINO, CA 91710","has_agenda":true,"agenda_url":"https://chino.legistar1.com/chino/meetings/2026/1/1980_A_Infrastructure_Streets_Committee_26-01-27_REGULAR_MEETING.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-01-26","body":"Community Services, Parks & Recreation Commission","location":"CITY HALL COUNCIL CHAMBERS\r\n13220 CENTRAL AVENUE\r\nCHINO, CA 91710","has_agenda":true,"agenda_url":"https://chino.legistar1.com/chino/meetings/2026/1/1935_A_Community_Services%2C_Parks___Recreation_Commission_26-01-26_REGULAR_MEETING.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-01-21","body":"Planning Commission","location":"CITY HALL COUNCIL CHAMBERS\r\n13220 CENTRAL AVENUE\r\nCHINO, CA 91710","has_agenda":false,"agenda_url":null,"has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-01-20","body":"City Council","location":"CITY HALL COUNCIL CHAMBERS\r\n13220 CENTRAL AVENUE\r\nCHINO, CA 91710","has_agenda":true,"agenda_url":"https://chino.legistar1.com/chino/meetings/2026/1/1939_A_City_Council_26-01-20_REGULAR_MEETING.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-01-15","body":"City Council","location":"test\r\n13220 CENTRAL AVENUE\r\nCHINO, CA 91710","has_agenda":false,"agenda_url":null,"has_minutes":false,"has_video":false,"upcoming":false}],"recent_legislation":[{"title":"San Bernardino Regional Housing Trust.","type":"Discussion","status":"Agenda Ready","intro_date":"2026-02-04","file_number":"26-091","passed_date":null},{"title":"Planning Commission Appointments.","type":"Mayor and City Council Reports","status":"Passed","intro_date":"2026-02-03","file_number":"26-035","passed_date":"2026-02-03"},{"title":"Home Improvement Program Loan Default (4400 Philadelphia Street, Space 10).","type":"Discussion","status":"Agenda Ready","intro_date":"2026-01-30","file_number":"26-084","passed_date":null},{"title":"13286 Third Street Rehabilitation Project.","type":"Discussion","status":"Agenda Ready","intro_date":"2026-01-28","file_number":"26-079","passed_date":null},{"title":"Infill Housing Development Program.","type":"Discussion","status":"Agenda Ready","intro_date":"2026-01-28","file_number":"26-080","passed_date":null},{"title":"Development Impact Fees for Affordable Housing.","type":"Discussion","status":"Agenda Ready","intro_date":"2026-01-28","file_number":"26-081","passed_date":null},{"title":"Joint Powers Authorities Evaluation for Future Insurance Consideration.","type":"New Business","status":"Agenda Ready","intro_date":"2026-01-27","file_number":"26-074","passed_date":null},{"title":"1.  Community Development Block Grant.","type":"Public Hearings","status":"Agenda Ready","intro_date":"2026-01-21","file_number":"26-062","passed_date":null},{"title":"2.  Commission Assignments/Parks","type":"Miscellaneous","status":"Agenda Ready","intro_date":"2026-01-21","file_number":"26-067","passed_date":null},{"title":"Amendment No. 6 - Cooperative Agreement between the City of Chino and San Bernardino County Transportation Authority (SBCTA) for the Central Avenue at State Route 60 Interchange Improvements Project (","type":"New Business","status":"Passed","intro_date":"2026-01-20","file_number":"26-056","passed_date":"2026-02-03"}],"legistar_url":"https://chino.legistar.com","enriched_at":"2026-02-13T20:02:07.908466","government_news":[],"video_meetings":[],"data_platforms":["legistar"]}
+{
+  "schema_version": "5.0",
+  "normalized_at": "2026-02-10T14:21:49.012037",
+  "identity": {
+    "name": "Chino",
+    "state": "CA",
+    "fips_state": "06",
+    "fips_place": "13210",
+    "population": 91008
+  },
+  "city_website": "https://www.cityofchino.org",
+  "economy": {
+    "median_household_income": 99385,
+    "median_home_value": 599200,
+    "unemployment_rate": 5.92,
+    "unemployment_data_level": "county",
+    "labor_force": 91476,
+    "employed": 86068,
+    "unemployed": 5408,
+    "gini_index": null,
+    "poverty_rate": 8.24,
+    "homeownership_rate": 63.73,
+    "rent_to_income_ratio": 24.16,
+    "home_value_to_income_ratio": 6.03,
+    "price_to_rent_ratio": 24.95,
+    "effective_tax_rate": 9.4186,
+    "population_growth_cagr": 1.323,
+    "median_real_estate_taxes": 4703
+  },
+  "safety": {
+    "violent_crime_rate": null,
+    "property_crime_rate": null,
+    "murder_rate": null,
+    "robbery_rate": null,
+    "burglary_rate": null,
+    "vehicle_theft_rate": null,
+    "total_crime_rate": null,
+    "crime_trend": null,
+    "crime_data_level": null
+  },
+  "education": {
+    "total_schools": 10416,
+    "total_enrollment": 5837868,
+    "pupil_teacher_ratio": 22.1,
+    "title1_pct": 0.0,
+    "charter_pct": 12.5,
+    "regular_schools": 9083,
+    "avg_school_rating": null,
+    "rated_schools": null,
+    "school_quality_tier": null
+  },
+  "environment": {
+    "pm25_mean": 7.8776,
+    "ozone_mean": 0.0444,
+    "total_disasters": 39,
+    "avg_disasters_per_decade": 5.6,
+    "most_recent_disaster": "2024-07-25",
+    "most_recent_disaster_type": "Fire",
+    "disasters_by_type": {
+      "Fire": 17,
+      "Severe Storm": 9,
+      "Flood": 6,
+      "Biological": 2,
+      "Dam/Levee Break": 1,
+      "Hurricane": 1,
+      "Freezing": 1,
+      "Coastal Storm": 1,
+      "Drought": 1
+    }
+  },
+  "housing": {
+    "median_rent": 2001,
+    "housing_units": 27863,
+    "fmr_0br": 1155,
+    "fmr_1br": 1270,
+    "fmr_2br": 1625,
+    "fmr_3br": 2260,
+    "fmr_4br": 2726,
+    "rent_burden_ratio": 19.6,
+    "cost_burdened_pct": 55.87,
+    "severely_burdened_pct": 30.32
+  },
+  "health": {
+    "uninsured_pct": 12.7,
+    "obesity_pct": 30.1,
+    "diabetes_pct": 11.4,
+    "depression_pct": 18.2,
+    "asthma_pct": 9.2,
+    "smoking_pct": 11.3,
+    "physical_inactivity_pct": 24.6,
+    "mental_health_bad_days": 16.4,
+    "physical_health_bad_days": 13.1,
+    "sleep_deficit_pct": 37.3,
+    "high_blood_pressure_pct": 30.0,
+    "high_cholesterol_pct": 31.9,
+    "heart_disease_pct": 5.4,
+    "stroke_pct": 3.0,
+    "cancer_pct": 5.2,
+    "kidney_disease_pct": null,
+    "checkup_pct": 69.8,
+    "data_year": "2023"
+  },
+  "governance": {
+    "legislative_volume": 1000,
+    "legislative_velocity": 43.9,
+    "committee_count": 8,
+    "years_of_legislative_data": 22.8,
+    "has_public_meetings": true,
+    "api_accessible": true,
+    "matter_types": {
+      "Consent Calendar": 460,
+      "Ceremonials": 135,
+      "New Business": 115,
+      "Public Hearings": 73,
+      "Activity Reports": 60,
+      "Mayor and City Council Reports": 49,
+      "Miscellaneous": 42,
+      "Information": 27,
+      "Action Item": 14,
+      "Proclamations": 9,
+      "Presentations": 8,
+      "Discussion": 6,
+      "Minutes": 1,
+      "Public Communications": 1
+    },
+    "top_matter_type": "Consent Calendar",
+    "matter_statuses": {
+      "Passed": 566,
+      "Agenda Ready": 423,
+      "Read into the Record": 4,
+      "Failed": 2,
+      "Continued": 2,
+      "Filed": 1,
+      "Consent Agenda": 1,
+      "Withdrawn": 1
+    },
+    "pass_rate": 50.0,
+    "passed_count": 500,
+    "active_council_members": 5,
+    "avg_tenure_years": 2.6,
+    "vote_coverage_pct": 0.0,
+    "video_availability_pct": 0.0,
+    "agenda_availability_pct": 26.8,
+    "minutes_availability_pct": 0.0,
+    "avg_meetings_per_month": 7.1,
+    "meetings_by_year": {
+      "2026": 15,
+      "2025": 88,
+      "2024": 83,
+      "2023": 88,
+      "2022": 85,
+      "2021": 72,
+      "2020": 51,
+      "2019": 18
+    },
+    "avg_sponsors_per_matter": 0.0,
+    "avg_attachments_per_matter": 0.3,
+    "pct_with_text_versions": 100.0,
+    "index_categories": [],
+    "has_accela": true,
+    "accela_agency_id": "CHINO"
+  },
+  "development": {
+    "permits_12mo": null,
+    "yoy_trend_pct": null,
+    "avg_permit_value": null,
+    "permit_types": {},
+    "datasets_count": 0
+  },
+  "meetings": {
+    "official_channels": 0,
+    "meetings_indexed": null,
+    "avg_meetings_per_month": null,
+    "has_video_archive": false,
+    "meeting_types": {},
+    "transcripts_available": null
+  },
+  "civic_issues": {
+    "total_issues": 3746,
+    "issues_last_30d": 52,
+    "issues_last_365d": 100,
+    "resolution_rate": 92.5,
+    "top_issue_type": "Traffic Concerns",
+    "type_distribution": {
+      "Traffic Concerns": 20,
+      "Street Lights": 19,
+      "Litter or dumping": 9,
+      "Other (Traffic)": 9,
+      "Sidewalk": 6,
+      "Code Violation": 3,
+      "Curb Damage": 3,
+      "Other (Police)": 3,
+      "Traffic Signal Lights Out": 2,
+      "Tall Grass / Weeds": 2,
+      "Graffiti Concern": 2,
+      "Pothole": 2,
+      "Overgrown City Tree": 2,
+      "Other (Streets)": 2,
+      "Water Meter Box Issue": 2,
+      "Parking Violation": 2,
+      "Engineering": 1,
+      "Broken City Tree Limb": 1,
+      "Shopping Carts": 1,
+      "Street Sweeping": 1
+    },
+    "has_civic_issue_tracking": true
+  },
+  "demographics": {
+    "population": 91008,
+    "poverty_universe": 86409,
+    "employment_universe": 72187
+  },
+  "time_series": {
+    "economy_history": [
+      {
+        "year": 2024,
+        "unemployment_rate": 5.92,
+        "labor_force": 91476,
+        "employed": 86068,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2023,
+        "unemployment_rate": 5.19,
+        "labor_force": 90767,
+        "employed": 86047,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2022,
+        "unemployment_rate": 4.57,
+        "labor_force": 89902,
+        "employed": 85788,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2021,
+        "unemployment_rate": 6.94,
+        "labor_force": 90132,
+        "employed": 83884,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2020,
+        "unemployment_rate": 9.52,
+        "labor_force": 91514,
+        "employed": 82838,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2019,
+        "unemployment_rate": 5.21,
+        "labor_force": 96221,
+        "employed": 91203,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2018,
+        "unemployment_rate": 5.13,
+        "labor_force": 99931,
+        "employed": 94797,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2017,
+        "unemployment_rate": 5.92,
+        "labor_force": 100334,
+        "employed": 94405,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2016,
+        "unemployment_rate": 6.74,
+        "labor_force": 99952,
+        "employed": 93217,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2015,
+        "unemployment_rate": 7.22,
+        "labor_force": 101102,
+        "employed": 93820,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      }
+    ],
+    "safety_history": [],
+    "environment_history": [
+      {
+        "year": 2023,
+        "pm25_mean": 7.8776,
+        "ozone_mean": 0.0444,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2022,
+        "pm25_mean": 7.7337,
+        "ozone_mean": 0.0453,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2021,
+        "pm25_mean": 11.1296,
+        "ozone_mean": 0.0436,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2020,
+        "pm25_mean": 16.0727,
+        "ozone_mean": 0.0444,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2019,
+        "pm25_mean": 7.1537,
+        "ozone_mean": 0.0436,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2018,
+        "pm25_mean": 13.7734,
+        "ozone_mean": 0.0495,
+        "data_level": "county",
+        "source": "epa_aqs"
+      }
+    ]
+  },
+  "data_sources": {
+    "legistar": "available",
+    "socrata": "available",
+    "census_acs": "available",
+    "arcgis": "available",
+    "fbi_ucr": "available",
+    "socrata_crime": "available",
+    "bls_laus": "available",
+    "ca_edd": "error",
+    "epa_aqs": "available",
+    "nces_ccd": "available",
+    "hud_fmr": "available",
+    "fema_openfema": "available",
+    "greatschools": "available",
+    "permits": "skipped",
+    "youtube_meetings": "skipped",
+    "seeclickfix": "available",
+    "accela": "available",
+    "cdc_places": "available"
+  },
+  "provenance": {
+    "last_full_probe": "2026-02-09T22:35:46.091505",
+    "sources": {
+      "legistar": {
+        "authority": "Legistar by Granicus",
+        "authority_tier": 1,
+        "api_url": "https://webapi.legistar.com/v1/chino/Bodies",
+        "probed_at": "2026-02-09T22:35:46.096118",
+        "data_vintage": "2023–2026",
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "socrata": {
+        "authority": "City Open Data Portals (Socrata/Tyler Data & Insights)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-09T22:37:05.364745",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "census_acs": {
+        "authority": "US Census Bureau",
+        "authority_tier": 1,
+        "api_url": "https://api.census.gov/data/2022/acs/acs5?get=NAME,B01001_001E,B19013_001E,B25077_001E,B25064_001E,B25001_001E&for=place:13210&in=state:06",
+        "probed_at": "2026-02-09T22:37:57.387806",
+        "data_vintage": "ACS 5-Year 2022",
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "arcgis": {
+        "authority": "City ArcGIS/GIS Portals",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-09T22:38:01.658732",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "fbi_ucr": {
+        "authority": "FBI Uniform Crime Reporting Program",
+        "authority_tier": 1,
+        "api_url": "https://api.usa.gov/crime/fbi/sapi/api/estimates/states/CA/2015/2022",
+        "probed_at": "2026-02-09T22:38:03.981705",
+        "data_vintage": null,
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "bls_laus": {
+        "authority": "Bureau of Labor Statistics",
+        "authority_tier": 1,
+        "api_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/LAUST060000000000003",
+        "probed_at": "2026-02-09T22:38:55.880516",
+        "data_vintage": "LAUS 2024",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "epa_aqs": {
+        "authority": "US Environmental Protection Agency",
+        "authority_tier": 1,
+        "api_url": "https://aqs.epa.gov/data/api/annualData/byState?state=06&param=88101",
+        "probed_at": "2026-02-09T22:38:57.713558",
+        "data_vintage": "AQS 2023",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "nces_ccd": {
+        "authority": "National Center for Education Statistics",
+        "authority_tier": 1,
+        "api_url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=06",
+        "probed_at": "2026-02-09T22:39:42.219327",
+        "data_vintage": "2022-2023 academic year",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "hud_fmr": {
+        "authority": "US Department of Housing and Urban Development",
+        "authority_tier": 1,
+        "api_url": "https://www.huduser.gov/hudapi/public/fmr/statedata/CA",
+        "probed_at": "2026-02-09T22:40:23.174042",
+        "data_vintage": "FY2026",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "fema_openfema": {
+        "authority": "Federal Emergency Management Agency",
+        "authority_tier": 1,
+        "api_url": "https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries?$filter=state eq 'CA'",
+        "probed_at": "2026-02-09T22:40:23.655448",
+        "data_vintage": "1953-present",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "greatschools": {
+        "authority": "GreatSchools.org (nonprofit)",
+        "authority_tier": 3,
+        "api_url": null,
+        "probed_at": "2026-02-09T22:40:23.900092",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "permits": {
+        "authority": "City Open Data Portals (Socrata)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-09T22:40:24.239634",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "youtube_meetings": {
+        "authority": "YouTube (via SerpAPI search + youtube-transcript-api)",
+        "authority_tier": 3,
+        "api_url": null,
+        "probed_at": "2026-02-09T22:40:24.251963",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "seeclickfix": {
+        "authority": "SeeClickFix (civic issue tracking platform)",
+        "authority_tier": 3,
+        "api_url": "https://seeclickfix.com/api/v2/issues?place_url=chino",
+        "probed_at": "2026-02-09T22:40:38.837324",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "accela": {
+        "authority": "Accela (permit management platform)",
+        "authority_tier": 3,
+        "api_url": "https://apis.accela.com/v4/agencies",
+        "probed_at": "2026-02-09T22:40:45.761555",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "socrata_crime": {
+        "authority": "City Open Data Portals (Socrata)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-09T22:38:55.873533",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "cdc_places": {
+        "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
+        "authority_tier": 1,
+        "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Chino",
+        "probed_at": "2026-02-13T21:02:36.009155",
+        "data_vintage": "BRFSS 2023",
+        "geographic_level": "place",
+        "status": "available"
+      }
+    },
+    "derived_fields": {
+      "safety.total_crime_rate": {
+        "formula": "violent_crime_rate + property_crime_rate",
+        "inputs": [
+          "safety.violent_crime_rate",
+          "safety.property_crime_rate"
+        ],
+        "formula_location": "score/normalizer.py:_derive_total_crime",
+        "authority_tier": 2
+      },
+      "safety.crime_trend": {
+        "formula": "(last_year_rate - first_year_rate) / years_span",
+        "inputs": [
+          "fbi.time_series[].violent_crime_rate"
+        ],
+        "formula_location": "score/normalizer.py:_build_safety",
+        "authority_tier": 2
+      },
+      "education.school_quality_tier": {
+        "formula": "excellent if avg>=8, good if avg>=6, fair if avg>=4, else poor",
+        "inputs": [
+          "education.avg_school_rating"
+        ],
+        "formula_location": "score/normalizer.py:_build_education",
+        "authority_tier": 3
+      },
+      "environment.avg_disasters_per_decade": {
+        "formula": "total_disasters / (years_span / 10)",
+        "inputs": [
+          "environment.total_disasters"
+        ],
+        "formula_location": "probe/fema_probe.py",
+        "authority_tier": 2
+      },
+      "housing.rent_burden_ratio": {
+        "formula": "(fmr_2br * 12) / median_household_income * 100",
+        "inputs": [
+          "housing.fmr_2br",
+          "economy.median_household_income"
+        ],
+        "formula_location": "score/normalizer.py:_build_housing",
+        "authority_tier": 2
+      },
+      "governance.legislative_velocity": {
+        "formula": "legislative_volume / years_of_legislative_data",
+        "inputs": [
+          "governance.legislative_volume",
+          "governance.years_of_legislative_data"
+        ],
+        "formula_location": "score/normalizer.py:_build_governance",
+        "authority_tier": 2
+      },
+      "development.yoy_trend_pct": {
+        "formula": "(current_year - prior_year) / prior_year * 100",
+        "inputs": [
+          "permit data from Socrata"
+        ],
+        "formula_location": "probe/permits_probe.py",
+        "authority_tier": 2
+      }
+    },
+    "geographic_mismatches": [
+      {
+        "field": "identity.fips_state",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "state-level data applied to city profile"
+      },
+      {
+        "field": "economy.unemployment_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Reflects statewide unemployment, not city-specific rate"
+      },
+      {
+        "field": "economy.labor_force",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: This is the full state labor force, not city-level"
+      },
+      {
+        "field": "economy.employed",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "economy.unemployed",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.violent_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: City-level requires ORI codes not currently used"
+      },
+      {
+        "field": "safety.property_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.murder_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.robbery_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.burglary_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.vehicle_theft_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.total_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA; derived sum"
+      },
+      {
+        "field": "safety.crime_trend",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "state-level data applied to city profile"
+      },
+      {
+        "field": "education.total_schools",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Count includes all schools in the state, not city"
+      },
+      {
+        "field": "education.total_enrollment",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.pupil_teacher_ratio",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Average across all state schools"
+      },
+      {
+        "field": "education.title1_pct",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.charter_pct",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.regular_schools",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.pm25_mean",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE/COUNTY-LEVEL: Averaged across all monitors in the state"
+      },
+      {
+        "field": "environment.ozone_mean",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE/COUNTY-LEVEL"
+      },
+      {
+        "field": "environment.total_disasters",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: All declarations for the state, not city-specific"
+      },
+      {
+        "field": "environment.avg_disasters_per_decade",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.most_recent_disaster",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.most_recent_disaster_type",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "housing.fmr_0br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR: Fair Market Rents at state level, not city-specific metro area"
+      },
+      {
+        "field": "housing.fmr_1br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_2br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_3br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_4br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.rent_burden_ratio",
+        "source_level": "mixed",
+        "profile_level": "place",
+        "note": "GEOGRAPHIC MISMATCH: FMR is state-level (HUD), income is city-level (Census). Ratio may be biased."
+      }
+    ]
+  },
+  "data_quality": {
+    "quality_score": 100.0,
+    "grade": "A",
+    "completeness_pct": 100.0,
+    "issue_count": 6,
+    "granularity_flags": 2
+  },
+  "officials": {
+    "body_name": "City Council",
+    "members": [
+      {
+        "name": "Christopher Flores",
+        "email": "cflores@cityofchino.org",
+        "title": "Council Member",
+        "start_date": "2022-07-01",
+        "committees": [
+          "Housing Committee",
+          "Investment Advisory Committee"
+        ]
+      },
+      {
+        "name": "Curtis Burton",
+        "email": "cburton@cityofchino.org",
+        "title": "Mayor Pro Tem",
+        "start_date": "2024-12-17",
+        "committees": [
+          "Economic Development Committee",
+          "Housing Committee"
+        ]
+      },
+      {
+        "name": "Eunice M. Ulloa",
+        "email": "eulloa@cityofchino.org",
+        "title": "Mayor",
+        "start_date": "2022-07-01",
+        "committees": [
+          "Investment Advisory Committee",
+          "Legislative Policy Committee"
+        ]
+      },
+      {
+        "name": "Karen C. Comstock",
+        "email": "kcomstock@cityofchino.org",
+        "title": "Council Member",
+        "start_date": "2024-12-17",
+        "committees": [
+          "Infrastructure/Streets Committee",
+          "Legislative Policy Committee"
+        ]
+      },
+      {
+        "name": "Marc Lucio",
+        "email": "mlucio@cityofchino.org",
+        "title": "Council Member",
+        "start_date": "2022-07-01",
+        "committees": [
+          "Economic Development Committee",
+          "Infrastructure/Streets Committee"
+        ]
+      }
+    ]
+  },
+  "recent_meetings": [
+    {
+      "date": "2026-02-17",
+      "body": "City Council",
+      "location": "CITY HALL COUNCIL CHAMBERS\r\n13220 CENTRAL AVENUE\r\nCHINO, CA 91710",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-19",
+      "body": "Investment Advisory Committee",
+      "location": "CITY HALL COUNCIL CHAMBERS\r\n13220 CENTRAL AVENUE\r\nCHINO, CA 91710",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-24",
+      "body": "Infrastructure/Streets Committee",
+      "location": "CITY HALL COUNCIL CHAMBERS\r\n13220 CENTRAL AVENUE\r\nCHINO, CA 91710",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-01",
+      "body": "Economic Development Committee",
+      "location": "CITY HALL COUNCIL CHAMBERS\r\n13220 CENTRAL AVENUE\r\nCHINO, CA 91710",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-10",
+      "body": "City Council",
+      "location": "CITY HALL COUNCIL CHAMBERS\r\n13220 CENTRAL AVENUE\r\nCHINO, CA 91710",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-10",
+      "body": "City Council",
+      "location": "CITY HALL COUNCIL CHAMBERS\r\n13220 CENTRAL AVENUE\r\nCHINO, CA 91710",
+      "has_agenda": true,
+      "agenda_url": "https://chino.legistar1.com/chino/meetings/2026/2/1984_A_City_Council_26-02-10_Workshop_-_Study_Session.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-09",
+      "body": "Housing Committee",
+      "location": "CITY HALL COUNCIL CHAMBERS\r\n13220 CENTRAL AVENUE\r\nCHINO, CA 91710",
+      "has_agenda": true,
+      "agenda_url": "https://chino.legistar1.com/chino/meetings/2026/2/2006_A_Housing_Committee_26-02-09_REGULAR_MEETING.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "City Council",
+      "location": "CITY HALL COUNCIL CHAMBERS\r\n13220 CENTRAL AVENUE\r\nCHINO, CA 91710",
+      "has_agenda": true,
+      "agenda_url": "https://chino.legistar1.com/chino/meetings/2026/2/1952_A_City_Council_26-02-03_REGULAR_MEETING.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-27",
+      "body": "Infrastructure/Streets Committee",
+      "location": "CITY HALL COUNCIL CHAMBERS\r\n13220 CENTRAL AVENUE\r\nCHINO, CA 91710",
+      "has_agenda": true,
+      "agenda_url": "https://chino.legistar1.com/chino/meetings/2026/1/1980_A_Infrastructure_Streets_Committee_26-01-27_REGULAR_MEETING.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-26",
+      "body": "Community Services, Parks & Recreation Commission",
+      "location": "CITY HALL COUNCIL CHAMBERS\r\n13220 CENTRAL AVENUE\r\nCHINO, CA 91710",
+      "has_agenda": true,
+      "agenda_url": "https://chino.legistar1.com/chino/meetings/2026/1/1935_A_Community_Services%2C_Parks___Recreation_Commission_26-01-26_REGULAR_MEETING.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-21",
+      "body": "Planning Commission",
+      "location": "CITY HALL COUNCIL CHAMBERS\r\n13220 CENTRAL AVENUE\r\nCHINO, CA 91710",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-20",
+      "body": "City Council",
+      "location": "CITY HALL COUNCIL CHAMBERS\r\n13220 CENTRAL AVENUE\r\nCHINO, CA 91710",
+      "has_agenda": true,
+      "agenda_url": "https://chino.legistar1.com/chino/meetings/2026/1/1939_A_City_Council_26-01-20_REGULAR_MEETING.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-15",
+      "body": "City Council",
+      "location": "test\r\n13220 CENTRAL AVENUE\r\nCHINO, CA 91710",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "San Bernardino Regional Housing Trust.",
+      "type": "Discussion",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-04",
+      "file_number": "26-091",
+      "passed_date": null
+    },
+    {
+      "title": "Planning Commission Appointments.",
+      "type": "Mayor and City Council Reports",
+      "status": "Passed",
+      "intro_date": "2026-02-03",
+      "file_number": "26-035",
+      "passed_date": "2026-02-03"
+    },
+    {
+      "title": "Home Improvement Program Loan Default (4400 Philadelphia Street, Space 10).",
+      "type": "Discussion",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-30",
+      "file_number": "26-084",
+      "passed_date": null
+    },
+    {
+      "title": "13286 Third Street Rehabilitation Project.",
+      "type": "Discussion",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-28",
+      "file_number": "26-079",
+      "passed_date": null
+    },
+    {
+      "title": "Infill Housing Development Program.",
+      "type": "Discussion",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-28",
+      "file_number": "26-080",
+      "passed_date": null
+    },
+    {
+      "title": "Development Impact Fees for Affordable Housing.",
+      "type": "Discussion",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-28",
+      "file_number": "26-081",
+      "passed_date": null
+    },
+    {
+      "title": "Joint Powers Authorities Evaluation for Future Insurance Consideration.",
+      "type": "New Business",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-27",
+      "file_number": "26-074",
+      "passed_date": null
+    },
+    {
+      "title": "1.  Community Development Block Grant.",
+      "type": "Public Hearings",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-21",
+      "file_number": "26-062",
+      "passed_date": null
+    },
+    {
+      "title": "2.  Commission Assignments/Parks",
+      "type": "Miscellaneous",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-21",
+      "file_number": "26-067",
+      "passed_date": null
+    },
+    {
+      "title": "Amendment No. 6 - Cooperative Agreement between the City of Chino and San Bernardino County Transportation Authority (SBCTA) for the Central Avenue at State Route 60 Interchange Improvements Project (",
+      "type": "New Business",
+      "status": "Passed",
+      "intro_date": "2026-01-20",
+      "file_number": "26-056",
+      "passed_date": "2026-02-03"
+    }
+  ],
+  "legistar_url": "https://chino.legistar.com",
+  "enriched_at": "2026-02-13T20:02:07.908466",
+  "government_news": [],
+  "video_meetings": [],
+  "data_platforms": [
+    "legistar"
+  ]
+}

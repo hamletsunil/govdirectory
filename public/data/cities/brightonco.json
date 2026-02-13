@@ -1,1 +1,1038 @@
-{"schema_version":"5.0","normalized_at":"2026-02-10T14:21:48.970195","identity":{"name":"Brighton","state":"CO","fips_state":"08","fips_place":"08675","population":40569},"city_website":"https://www.brightonco.gov","economy":{"median_household_income":86975,"median_home_value":429600,"unemployment_rate":4.5,"unemployment_data_level":"county","labor_force":177807,"employed":169806,"unemployed":8001,"gini_index":null,"poverty_rate":9.14,"homeownership_rate":69.03,"rent_to_income_ratio":22.48,"home_value_to_income_ratio":4.94,"price_to_rent_ratio":21.98,"effective_tax_rate":7.7263,"population_growth_cagr":2.2175,"median_real_estate_taxes":2766},"safety":{"violent_crime_rate":null,"property_crime_rate":null,"murder_rate":null,"robbery_rate":null,"burglary_rate":null,"vehicle_theft_rate":null,"total_crime_rate":null,"crime_trend":null,"crime_data_level":null},"education":{"total_schools":1965,"total_enrollment":870819,"pupil_teacher_ratio":16.8,"title1_pct":0.0,"charter_pct":13.8,"regular_schools":1836,"avg_school_rating":null,"rated_schools":null,"school_quality_tier":null},"environment":{"pm25_mean":7.7442,"ozone_mean":0.0491,"total_disasters":16,"avg_disasters_per_decade":2.7,"most_recent_disaster":"2020-03-28","most_recent_disaster_type":"Biological","disasters_by_type":{"Flood":6,"Severe Storm":3,"Biological":2,"Coastal Storm":1,"Snowstorm":1,"Fire":1,"Dam/Levee Break":1,"Tornado":1}},"housing":{"median_rent":1629,"housing_units":13546,"fmr_0br":1171,"fmr_1br":1238,"fmr_2br":1563,"fmr_3br":2174,"fmr_4br":2590,"rent_burden_ratio":21.6,"cost_burdened_pct":56.58,"severely_burdened_pct":19.58},"governance":{"legislative_volume":3875,"legislative_velocity":337.0,"committee_count":2,"years_of_legislative_data":11.5,"has_public_meetings":true,"api_accessible":true,"matter_types":{"Informational Report":376,"Resolution":369,"Ordinance":101,"Minutes":80,"Proclamation":74},"top_matter_type":"Informational Report","matter_statuses":{"Agenda Ready":996,"Passed":4},"pass_rate":0.9,"passed_count":34,"active_council_members":9,"avg_tenure_years":2.8,"vote_coverage_pct":3.3,"video_availability_pct":0.0,"agenda_availability_pct":99.4,"minutes_availability_pct":0.0,"avg_meetings_per_month":3.6,"meetings_by_year":{"2026":7,"2025":40,"2024":47,"2023":52,"2022":58,"2021":58,"2020":68,"2019":52,"2018":50,"2017":57},"avg_sponsors_per_matter":0.0,"avg_attachments_per_matter":1.1,"pct_with_text_versions":100.0,"index_categories":["Agricultural Tourism","Arts/Culture Activities","Branding/Marketing","Business Development","City Work Force Trend","Contest","Education","Finances","Freight Rail","Health Community","Historic Preservation","Inclusivity","Maintenance","Open Space","Public Infrastructure & Utilities","Public Safety","Public Transit","Redevelop Downtown","Residential Development & Growth Policy","Resilience","Riverfront","Road/Trail Connectivity","Smart Growth Policy","Sport & Recreation","Water"],"has_accela":false,"accela_agency_id":null},"development":{"permits_12mo":null,"yoy_trend_pct":null,"avg_permit_value":null,"permit_types":{},"datasets_count":0},"meetings":{"official_channels":0,"meetings_indexed":null,"avg_meetings_per_month":null,"has_video_archive":false,"meeting_types":{},"transcripts_available":null},"civic_issues":{"total_issues":0,"issues_last_30d":0,"issues_last_365d":0,"resolution_rate":null,"top_issue_type":null,"type_distribution":{},"has_civic_issue_tracking":true},"demographics":{"population":40569,"poverty_universe":39299,"employment_universe":30667},"time_series":{"economy_history":[{"year":2024,"unemployment_rate":4.5,"labor_force":177807,"employed":169806,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2023,"unemployment_rate":3.48,"labor_force":174155,"employed":168094,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2022,"unemployment_rate":3.33,"labor_force":170031,"employed":164353,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2021,"unemployment_rate":5.8,"labor_force":167535,"employed":157796,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2020,"unemployment_rate":6.52,"labor_force":165137,"employed":154418,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2019,"unemployment_rate":2.5,"labor_force":168697,"employed":164512,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2018,"unemployment_rate":2.8,"labor_force":164379,"employed":159790,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2017,"unemployment_rate":2.48,"labor_force":157460,"employed":153562,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2016,"unemployment_rate":3.24,"labor_force":150513,"employed":145647,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2015,"unemployment_rate":3.68,"labor_force":147428,"employed":142005,"data_level":"county","source":"bls_laus","is_partial_year":false}],"safety_history":[],"environment_history":[{"year":2023,"pm25_mean":7.7442,"ozone_mean":0.0491,"data_level":"county","source":"epa_aqs"},{"year":2022,"pm25_mean":6.7495,"ozone_mean":0.0495,"data_level":"county","source":"epa_aqs"},{"year":2021,"pm25_mean":8.9817,"ozone_mean":0.0493,"data_level":"county","source":"epa_aqs"},{"year":2020,"pm25_mean":8.8414,"ozone_mean":0.0467,"data_level":"county","source":"epa_aqs"},{"year":2019,"pm25_mean":8.2273,"ozone_mean":0.0462,"data_level":"county","source":"epa_aqs"},{"year":2018,"pm25_mean":8.7972,"ozone_mean":0.0482,"data_level":"county","source":"epa_aqs"}]},"data_sources":{"legistar":"available","socrata":"available","census_acs":"available","arcgis":"available","fbi_ucr":"available","socrata_crime":"available","bls_laus":"available","ca_edd":"skipped","epa_aqs":"available","nces_ccd":"available","hud_fmr":"available","fema_openfema":"available","greatschools":"available","permits":"skipped","youtube_meetings":"skipped","seeclickfix":"available","accela":"available"},"provenance":{"last_full_probe":"2026-02-09T21:31:46.230206","sources":{"legistar":{"authority":"Legistar by Granicus","authority_tier":1,"api_url":"https://webapi.legistar.com/v1/brightonco/Bodies","probed_at":"2026-02-09T21:31:46.230483","data_vintage":"2014\u20132026","geographic_level":"place","status":"available"},"socrata":{"authority":"City Open Data Portals (Socrata/Tyler Data & Insights)","authority_tier":1,"api_url":null,"probed_at":"2026-02-09T21:33:07.500353","data_vintage":null,"geographic_level":"place","status":"available"},"census_acs":{"authority":"US Census Bureau","authority_tier":1,"api_url":"https://api.census.gov/data/2022/acs/acs5?get=NAME,B01001_001E,B19013_001E,B25077_001E,B25064_001E,B25001_001E&for=place:08675&in=state:08","probed_at":"2026-02-09T21:33:16.830593","data_vintage":"ACS 5-Year 2022","geographic_level":"place","status":"available"},"arcgis":{"authority":"City ArcGIS/GIS Portals","authority_tier":1,"api_url":null,"probed_at":"2026-02-09T21:33:21.067395","data_vintage":null,"geographic_level":"place","status":"available"},"fbi_ucr":{"authority":"FBI Uniform Crime Reporting Program","authority_tier":1,"api_url":"https://api.usa.gov/crime/fbi/sapi/api/estimates/states/CO/2015/2022","probed_at":"2026-02-09T21:33:23.099268","data_vintage":null,"geographic_level":"state","status":"available"},"bls_laus":{"authority":"Bureau of Labor Statistics","authority_tier":1,"api_url":"https://api.bls.gov/publicAPI/v2/timeseries/data/LAUST080000000000003","probed_at":"2026-02-09T21:33:23.286314","data_vintage":"LAUS 2024","geographic_level":"state","status":"available"},"epa_aqs":{"authority":"US Environmental Protection Agency","authority_tier":1,"api_url":"https://aqs.epa.gov/data/api/annualData/byState?state=08&param=88101","probed_at":"2026-02-09T21:33:24.596197","data_vintage":"AQS 2023","geographic_level":"state","status":"available"},"nces_ccd":{"authority":"National Center for Education Statistics","authority_tier":1,"api_url":"https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=08","probed_at":"2026-02-09T21:35:07.226262","data_vintage":"2022-2023 academic year","geographic_level":"state","status":"available"},"hud_fmr":{"authority":"US Department of Housing and Urban Development","authority_tier":1,"api_url":"https://www.huduser.gov/hudapi/public/fmr/statedata/CO","probed_at":"2026-02-09T21:35:14.619800","data_vintage":"FY2026","geographic_level":"state","status":"available"},"fema_openfema":{"authority":"Federal Emergency Management Agency","authority_tier":1,"api_url":"https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries?$filter=state eq 'CO'","probed_at":"2026-02-09T21:35:15.751936","data_vintage":"1953-present","geographic_level":"state","status":"available"},"greatschools":{"authority":"GreatSchools.org (nonprofit)","authority_tier":3,"api_url":null,"probed_at":"2026-02-09T21:35:16.153954","data_vintage":null,"geographic_level":"place","status":"available"},"permits":{"authority":"City Open Data Portals (Socrata)","authority_tier":1,"api_url":null,"probed_at":"2026-02-09T21:35:16.511695","data_vintage":null,"geographic_level":"place","status":"skipped"},"youtube_meetings":{"authority":"YouTube (via SerpAPI search + youtube-transcript-api)","authority_tier":3,"api_url":null,"probed_at":"2026-02-09T21:35:16.512432","data_vintage":null,"geographic_level":"place","status":"skipped"},"seeclickfix":{"authority":"SeeClickFix (civic issue tracking platform)","authority_tier":3,"api_url":"https://seeclickfix.com/api/v2/issues?place_url=brightonco","probed_at":"2026-02-09T21:35:24.771926","data_vintage":null,"geographic_level":"place","status":"available"},"accela":{"authority":"Accela (permit management platform)","authority_tier":3,"api_url":"https://apis.accela.com/v4/agencies","probed_at":"2026-02-09T21:35:27.934095","data_vintage":null,"geographic_level":"place","status":"available"},"socrata_crime":{"authority":"City Open Data Portals (Socrata)","authority_tier":1,"api_url":null,"probed_at":"2026-02-09T21:33:23.285036","data_vintage":null,"geographic_level":"place","status":"available"}},"derived_fields":{"safety.total_crime_rate":{"formula":"violent_crime_rate + property_crime_rate","inputs":["safety.violent_crime_rate","safety.property_crime_rate"],"formula_location":"score/normalizer.py:_derive_total_crime","authority_tier":2},"safety.crime_trend":{"formula":"(last_year_rate - first_year_rate) / years_span","inputs":["fbi.time_series[].violent_crime_rate"],"formula_location":"score/normalizer.py:_build_safety","authority_tier":2},"education.school_quality_tier":{"formula":"excellent if avg>=8, good if avg>=6, fair if avg>=4, else poor","inputs":["education.avg_school_rating"],"formula_location":"score/normalizer.py:_build_education","authority_tier":3},"environment.avg_disasters_per_decade":{"formula":"total_disasters / (years_span / 10)","inputs":["environment.total_disasters"],"formula_location":"probe/fema_probe.py","authority_tier":2},"housing.rent_burden_ratio":{"formula":"(fmr_2br * 12) / median_household_income * 100","inputs":["housing.fmr_2br","economy.median_household_income"],"formula_location":"score/normalizer.py:_build_housing","authority_tier":2},"governance.legislative_velocity":{"formula":"legislative_volume / years_of_legislative_data","inputs":["governance.legislative_volume","governance.years_of_legislative_data"],"formula_location":"score/normalizer.py:_build_governance","authority_tier":2},"development.yoy_trend_pct":{"formula":"(current_year - prior_year) / prior_year * 100","inputs":["permit data from Socrata"],"formula_location":"probe/permits_probe.py","authority_tier":2}},"geographic_mismatches":[{"field":"identity.fips_state","source_level":"state","profile_level":"place","note":"state-level data applied to city profile"},{"field":"economy.unemployment_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Reflects statewide unemployment, not city-specific rate"},{"field":"economy.labor_force","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: This is the full state labor force, not city-level"},{"field":"economy.employed","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"economy.unemployed","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.violent_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: City-level requires ORI codes not currently used"},{"field":"safety.property_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.murder_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.robbery_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.burglary_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.vehicle_theft_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.total_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA; derived sum"},{"field":"safety.crime_trend","source_level":"state","profile_level":"place","note":"state-level data applied to city profile"},{"field":"education.total_schools","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Count includes all schools in the state, not city"},{"field":"education.total_enrollment","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.pupil_teacher_ratio","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Average across all state schools"},{"field":"education.title1_pct","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.charter_pct","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.regular_schools","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.pm25_mean","source_level":"state","profile_level":"place","note":"STATE/COUNTY-LEVEL: Averaged across all monitors in the state"},{"field":"environment.ozone_mean","source_level":"state","profile_level":"place","note":"STATE/COUNTY-LEVEL"},{"field":"environment.total_disasters","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: All declarations for the state, not city-specific"},{"field":"environment.avg_disasters_per_decade","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.most_recent_disaster","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.most_recent_disaster_type","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"housing.fmr_0br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR: Fair Market Rents at state level, not city-specific metro area"},{"field":"housing.fmr_1br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_2br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_3br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_4br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.rent_burden_ratio","source_level":"mixed","profile_level":"place","note":"GEOGRAPHIC MISMATCH: FMR is state-level (HUD), income is city-level (Census). Ratio may be biased."}]},"data_quality":{"quality_score":92.9,"grade":"A","completeness_pct":92.9,"issue_count":7,"granularity_flags":3},"officials":{"body_name":"City Council","members":[{"name":"Chairman Mills","email":"gmills@brightonco.gov","title":"Chairperson","start_date":"2019-12-17","committees":["South Brighton General Improvement District"]},{"name":"Councilmember Carbajal","email":"mcarbajal@brightonco.gov","title":"Councilmember","start_date":"2025-12-30"},{"name":"Councilmember Collins","email":"rcollins@brightonco.gov","title":"Councilmember","start_date":"2025-12-30"},{"name":"Councilmember Fiedler","email":"cfiedler@brightonco.gov","title":"Councilmember","start_date":"2024-01-02"},{"name":"Councilmember Green","email":"tgreen@brightonco.gov","title":"Councilmember","start_date":"2022-11-30"},{"name":"Councilmember Snyder","email":"jsnyder@brightonco.gov","title":"Councilmember","start_date":"2024-01-02"},{"name":"Councilmember Taddeo","email":"ataddeo@brightonco.gov","title":"Councilmember","start_date":"2020-06-16"},{"name":"Councilmember Worth","email":"lworth@brightonco.gov","title":"Councilmember","start_date":"2024-01-02"},{"name":"Mayor Mills","email":"gmills@brightonco.gov","title":"Mayor","start_date":"2019-12-17"},{"name":"Mayor Pro Tem Padilla","email":"ppadilla@brightonco.gov","title":"Mayor Pro Tem","start_date":"2022-01-01"},{"name":"Member Carbajal","email":"mcarbajal@brightonco.gov","title":"Member","start_date":"2026-01-06","committees":["South Brighton General Improvement District"]},{"name":"Member Collins","email":"rcollins@brightonco.gov","title":"Member","start_date":"2026-01-06","committees":["South Brighton General Improvement District"]},{"name":"Member Fiedler","email":"cfiedler@brightonco.gov","title":"Member","start_date":"2024-01-02","committees":["South Brighton General Improvement District"]},{"name":"Member Green","email":"tgreen@brightonco.gov","title":"Member","start_date":"2024-01-02","committees":["South Brighton General Improvement District"]},{"name":"Member Padilla","email":"ppadilla@brightonco.gov","title":"Member","start_date":"2022-01-04","committees":["South Brighton General Improvement District"]},{"name":"Member Snyder","email":"jsnyder@brightonco.gov","title":"Member","start_date":"2024-01-02","committees":["South Brighton General Improvement District"]},{"name":"Member Taddeo","email":"ataddeo@brightonco.gov","title":"Member","start_date":"2020-06-16","committees":["South Brighton General Improvement District"]},{"name":"Member Worth","email":"lworth@brightonco.gov","title":"Member","start_date":"2024-01-02","committees":["South Brighton General Improvement District"]}]},"recent_meetings":[{"date":"2026-02-10","body":"City Council","location":"Study Session Room","has_agenda":true,"agenda_url":"https://brightonco.legistar1.com/brightonco/meetings/2026/2/1623_A_City_Council_26-02-10_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-03","body":"City Council","location":"Council Chambers","has_agenda":true,"agenda_url":"https://brightonco.legistar1.com/brightonco/meetings/2026/2/1621_A_City_Council_26-02-03_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-01-20","body":"City Council","location":"Council Chambers","has_agenda":true,"agenda_url":"https://brightonco.legistar1.com/brightonco/meetings/2026/1/1620_A_City_Council_26-01-20_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false}],"recent_legislation":[{"title":"Discussion of Terms Limits for Boards and Commissions","type":"Informational Report","status":"Agenda Ready","intro_date":"2026-01-29","file_number":"ID-43-26","passed_date":null},{"title":"Utility Repair and Construction: Master Price Agreement Awards","type":"Informational Report","status":"Agenda Ready","intro_date":"2026-01-29","file_number":"ID-41-26","passed_date":null},{"title":"Graywater Treatment Works and Use Prohibition","type":"Informational Report","status":"Agenda Ready","intro_date":"2026-01-29","file_number":"ID-42-26","passed_date":null},{"title":"Executed Contract Listing - December 2025","type":"Informational Report","status":"Agenda Ready","intro_date":"2026-01-28","file_number":"ID-40-26","passed_date":null},{"title":"Downtown Development Authority Update","type":"Informational Report","status":"Agenda Ready","intro_date":"2026-01-27","file_number":"ID-39-26","passed_date":null},{"title":"A RESOLUTION OF THE CITY COUNCIL OF THE CITY OF BRIGHTON, COLORADO, ACTING BY AND THROUGH ITS WATER ACTIVITY ENTERPRISE, APPROVING THE PURCHASE OF SIXTY-FIVE SHARES OF CAPITAL STOCK IN THE FULTON IRRI","type":"Resolution","status":"Agenda Ready","intro_date":"2026-01-27","file_number":"ID-38-26","passed_date":null},{"title":"DISCUSSION OF UPCOMING CHANGES TO THE BRIGHTON MUNICIPAL CRIMINAL CODE AND PENALTY SECTION TO UPDATE, CLARIFY, AND ALIGN WITH A RECENT COLORADO SUPREME COURT DECISION","type":"Informational Report","status":"Agenda Ready","intro_date":"2026-01-23","file_number":"ID-37-26","passed_date":null},{"title":"Upcoming Adoption of the State Mandated Colorado Wildfire Resiliency Code","type":"Informational Report","status":"Agenda Ready","intro_date":"2026-01-23","file_number":"ID-36-26","passed_date":null},{"title":"AN ORDINANCE OF THE CITY COUNCIL OF THE CITY OF BRIGHTON, COLORADO, ADDING ARTICLE 10-3 OF THE BRIGHTON MUNCIPAL CODE; REPEALING AND REPLACING ARTICLE 10-4 OF THE BRIGHTON MUNICIPAL CODE; ADOPTING THE","type":"Informational Report","status":"Agenda Ready","intro_date":"2026-01-23","file_number":"ID-35-26","passed_date":null},{"title":"Approval of the January 6, 2026 Outgoing City Council Minutes","type":"Minutes","status":"Agenda Ready","intro_date":"2026-01-22","file_number":"ID-31-26","passed_date":null}],"legistar_url":"https://brightonco.legistar.com","enriched_at":"2026-02-13T20:01:21.376769","government_news":[],"video_meetings":[],"data_platforms":["legistar"]}
+{
+  "schema_version": "5.0",
+  "normalized_at": "2026-02-10T14:21:48.970195",
+  "identity": {
+    "name": "Brighton",
+    "state": "CO",
+    "fips_state": "08",
+    "fips_place": "08675",
+    "population": 40569
+  },
+  "city_website": "https://www.brightonco.gov",
+  "economy": {
+    "median_household_income": 86975,
+    "median_home_value": 429600,
+    "unemployment_rate": 4.5,
+    "unemployment_data_level": "county",
+    "labor_force": 177807,
+    "employed": 169806,
+    "unemployed": 8001,
+    "gini_index": null,
+    "poverty_rate": 9.14,
+    "homeownership_rate": 69.03,
+    "rent_to_income_ratio": 22.48,
+    "home_value_to_income_ratio": 4.94,
+    "price_to_rent_ratio": 21.98,
+    "effective_tax_rate": 7.7263,
+    "population_growth_cagr": 2.2175,
+    "median_real_estate_taxes": 2766
+  },
+  "safety": {
+    "violent_crime_rate": null,
+    "property_crime_rate": null,
+    "murder_rate": null,
+    "robbery_rate": null,
+    "burglary_rate": null,
+    "vehicle_theft_rate": null,
+    "total_crime_rate": null,
+    "crime_trend": null,
+    "crime_data_level": null
+  },
+  "education": {
+    "total_schools": 1965,
+    "total_enrollment": 870819,
+    "pupil_teacher_ratio": 16.8,
+    "title1_pct": 0.0,
+    "charter_pct": 13.8,
+    "regular_schools": 1836,
+    "avg_school_rating": null,
+    "rated_schools": null,
+    "school_quality_tier": null
+  },
+  "environment": {
+    "pm25_mean": 7.7442,
+    "ozone_mean": 0.0491,
+    "total_disasters": 16,
+    "avg_disasters_per_decade": 2.7,
+    "most_recent_disaster": "2020-03-28",
+    "most_recent_disaster_type": "Biological",
+    "disasters_by_type": {
+      "Flood": 6,
+      "Severe Storm": 3,
+      "Biological": 2,
+      "Coastal Storm": 1,
+      "Snowstorm": 1,
+      "Fire": 1,
+      "Dam/Levee Break": 1,
+      "Tornado": 1
+    }
+  },
+  "housing": {
+    "median_rent": 1629,
+    "housing_units": 13546,
+    "fmr_0br": 1171,
+    "fmr_1br": 1238,
+    "fmr_2br": 1563,
+    "fmr_3br": 2174,
+    "fmr_4br": 2590,
+    "rent_burden_ratio": 21.6,
+    "cost_burdened_pct": 56.58,
+    "severely_burdened_pct": 19.58
+  },
+  "health": {
+    "uninsured_pct": 16.9,
+    "obesity_pct": 33.3,
+    "diabetes_pct": 9.7,
+    "depression_pct": 21.0,
+    "asthma_pct": 11.1,
+    "smoking_pct": 13.4,
+    "physical_inactivity_pct": 22.9,
+    "mental_health_bad_days": 17.3,
+    "physical_health_bad_days": 12.8,
+    "sleep_deficit_pct": 33.3,
+    "high_blood_pressure_pct": 27.8,
+    "high_cholesterol_pct": 29.7,
+    "heart_disease_pct": 5.0,
+    "stroke_pct": 2.8,
+    "cancer_pct": 6.7,
+    "kidney_disease_pct": null,
+    "checkup_pct": 70.6,
+    "data_year": "2023"
+  },
+  "governance": {
+    "legislative_volume": 3875,
+    "legislative_velocity": 337.0,
+    "committee_count": 2,
+    "years_of_legislative_data": 11.5,
+    "has_public_meetings": true,
+    "api_accessible": true,
+    "matter_types": {
+      "Informational Report": 376,
+      "Resolution": 369,
+      "Ordinance": 101,
+      "Minutes": 80,
+      "Proclamation": 74
+    },
+    "top_matter_type": "Informational Report",
+    "matter_statuses": {
+      "Agenda Ready": 996,
+      "Passed": 4
+    },
+    "pass_rate": 0.9,
+    "passed_count": 34,
+    "active_council_members": 9,
+    "avg_tenure_years": 2.8,
+    "vote_coverage_pct": 3.3,
+    "video_availability_pct": 0.0,
+    "agenda_availability_pct": 99.4,
+    "minutes_availability_pct": 0.0,
+    "avg_meetings_per_month": 3.6,
+    "meetings_by_year": {
+      "2026": 7,
+      "2025": 40,
+      "2024": 47,
+      "2023": 52,
+      "2022": 58,
+      "2021": 58,
+      "2020": 68,
+      "2019": 52,
+      "2018": 50,
+      "2017": 57
+    },
+    "avg_sponsors_per_matter": 0.0,
+    "avg_attachments_per_matter": 1.1,
+    "pct_with_text_versions": 100.0,
+    "index_categories": [
+      "Agricultural Tourism",
+      "Arts/Culture Activities",
+      "Branding/Marketing",
+      "Business Development",
+      "City Work Force Trend",
+      "Contest",
+      "Education",
+      "Finances",
+      "Freight Rail",
+      "Health Community",
+      "Historic Preservation",
+      "Inclusivity",
+      "Maintenance",
+      "Open Space",
+      "Public Infrastructure & Utilities",
+      "Public Safety",
+      "Public Transit",
+      "Redevelop Downtown",
+      "Residential Development & Growth Policy",
+      "Resilience",
+      "Riverfront",
+      "Road/Trail Connectivity",
+      "Smart Growth Policy",
+      "Sport & Recreation",
+      "Water"
+    ],
+    "has_accela": false,
+    "accela_agency_id": null
+  },
+  "development": {
+    "permits_12mo": null,
+    "yoy_trend_pct": null,
+    "avg_permit_value": null,
+    "permit_types": {},
+    "datasets_count": 0
+  },
+  "meetings": {
+    "official_channels": 0,
+    "meetings_indexed": null,
+    "avg_meetings_per_month": null,
+    "has_video_archive": false,
+    "meeting_types": {},
+    "transcripts_available": null
+  },
+  "civic_issues": {
+    "total_issues": 0,
+    "issues_last_30d": 0,
+    "issues_last_365d": 0,
+    "resolution_rate": null,
+    "top_issue_type": null,
+    "type_distribution": {},
+    "has_civic_issue_tracking": true
+  },
+  "demographics": {
+    "population": 40569,
+    "poverty_universe": 39299,
+    "employment_universe": 30667
+  },
+  "time_series": {
+    "economy_history": [
+      {
+        "year": 2024,
+        "unemployment_rate": 4.5,
+        "labor_force": 177807,
+        "employed": 169806,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2023,
+        "unemployment_rate": 3.48,
+        "labor_force": 174155,
+        "employed": 168094,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2022,
+        "unemployment_rate": 3.33,
+        "labor_force": 170031,
+        "employed": 164353,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2021,
+        "unemployment_rate": 5.8,
+        "labor_force": 167535,
+        "employed": 157796,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2020,
+        "unemployment_rate": 6.52,
+        "labor_force": 165137,
+        "employed": 154418,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2019,
+        "unemployment_rate": 2.5,
+        "labor_force": 168697,
+        "employed": 164512,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2018,
+        "unemployment_rate": 2.8,
+        "labor_force": 164379,
+        "employed": 159790,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2017,
+        "unemployment_rate": 2.48,
+        "labor_force": 157460,
+        "employed": 153562,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2016,
+        "unemployment_rate": 3.24,
+        "labor_force": 150513,
+        "employed": 145647,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2015,
+        "unemployment_rate": 3.68,
+        "labor_force": 147428,
+        "employed": 142005,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      }
+    ],
+    "safety_history": [],
+    "environment_history": [
+      {
+        "year": 2023,
+        "pm25_mean": 7.7442,
+        "ozone_mean": 0.0491,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2022,
+        "pm25_mean": 6.7495,
+        "ozone_mean": 0.0495,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2021,
+        "pm25_mean": 8.9817,
+        "ozone_mean": 0.0493,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2020,
+        "pm25_mean": 8.8414,
+        "ozone_mean": 0.0467,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2019,
+        "pm25_mean": 8.2273,
+        "ozone_mean": 0.0462,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2018,
+        "pm25_mean": 8.7972,
+        "ozone_mean": 0.0482,
+        "data_level": "county",
+        "source": "epa_aqs"
+      }
+    ]
+  },
+  "data_sources": {
+    "legistar": "available",
+    "socrata": "available",
+    "census_acs": "available",
+    "arcgis": "available",
+    "fbi_ucr": "available",
+    "socrata_crime": "available",
+    "bls_laus": "available",
+    "ca_edd": "skipped",
+    "epa_aqs": "available",
+    "nces_ccd": "available",
+    "hud_fmr": "available",
+    "fema_openfema": "available",
+    "greatschools": "available",
+    "permits": "skipped",
+    "youtube_meetings": "skipped",
+    "seeclickfix": "available",
+    "accela": "available",
+    "cdc_places": "available"
+  },
+  "provenance": {
+    "last_full_probe": "2026-02-09T21:31:46.230206",
+    "sources": {
+      "legistar": {
+        "authority": "Legistar by Granicus",
+        "authority_tier": 1,
+        "api_url": "https://webapi.legistar.com/v1/brightonco/Bodies",
+        "probed_at": "2026-02-09T21:31:46.230483",
+        "data_vintage": "2014–2026",
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "socrata": {
+        "authority": "City Open Data Portals (Socrata/Tyler Data & Insights)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-09T21:33:07.500353",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "census_acs": {
+        "authority": "US Census Bureau",
+        "authority_tier": 1,
+        "api_url": "https://api.census.gov/data/2022/acs/acs5?get=NAME,B01001_001E,B19013_001E,B25077_001E,B25064_001E,B25001_001E&for=place:08675&in=state:08",
+        "probed_at": "2026-02-09T21:33:16.830593",
+        "data_vintage": "ACS 5-Year 2022",
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "arcgis": {
+        "authority": "City ArcGIS/GIS Portals",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-09T21:33:21.067395",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "fbi_ucr": {
+        "authority": "FBI Uniform Crime Reporting Program",
+        "authority_tier": 1,
+        "api_url": "https://api.usa.gov/crime/fbi/sapi/api/estimates/states/CO/2015/2022",
+        "probed_at": "2026-02-09T21:33:23.099268",
+        "data_vintage": null,
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "bls_laus": {
+        "authority": "Bureau of Labor Statistics",
+        "authority_tier": 1,
+        "api_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/LAUST080000000000003",
+        "probed_at": "2026-02-09T21:33:23.286314",
+        "data_vintage": "LAUS 2024",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "epa_aqs": {
+        "authority": "US Environmental Protection Agency",
+        "authority_tier": 1,
+        "api_url": "https://aqs.epa.gov/data/api/annualData/byState?state=08&param=88101",
+        "probed_at": "2026-02-09T21:33:24.596197",
+        "data_vintage": "AQS 2023",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "nces_ccd": {
+        "authority": "National Center for Education Statistics",
+        "authority_tier": 1,
+        "api_url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=08",
+        "probed_at": "2026-02-09T21:35:07.226262",
+        "data_vintage": "2022-2023 academic year",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "hud_fmr": {
+        "authority": "US Department of Housing and Urban Development",
+        "authority_tier": 1,
+        "api_url": "https://www.huduser.gov/hudapi/public/fmr/statedata/CO",
+        "probed_at": "2026-02-09T21:35:14.619800",
+        "data_vintage": "FY2026",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "fema_openfema": {
+        "authority": "Federal Emergency Management Agency",
+        "authority_tier": 1,
+        "api_url": "https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries?$filter=state eq 'CO'",
+        "probed_at": "2026-02-09T21:35:15.751936",
+        "data_vintage": "1953-present",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "greatschools": {
+        "authority": "GreatSchools.org (nonprofit)",
+        "authority_tier": 3,
+        "api_url": null,
+        "probed_at": "2026-02-09T21:35:16.153954",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "permits": {
+        "authority": "City Open Data Portals (Socrata)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-09T21:35:16.511695",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "youtube_meetings": {
+        "authority": "YouTube (via SerpAPI search + youtube-transcript-api)",
+        "authority_tier": 3,
+        "api_url": null,
+        "probed_at": "2026-02-09T21:35:16.512432",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "seeclickfix": {
+        "authority": "SeeClickFix (civic issue tracking platform)",
+        "authority_tier": 3,
+        "api_url": "https://seeclickfix.com/api/v2/issues?place_url=brightonco",
+        "probed_at": "2026-02-09T21:35:24.771926",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "accela": {
+        "authority": "Accela (permit management platform)",
+        "authority_tier": 3,
+        "api_url": "https://apis.accela.com/v4/agencies",
+        "probed_at": "2026-02-09T21:35:27.934095",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "socrata_crime": {
+        "authority": "City Open Data Portals (Socrata)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-09T21:33:23.285036",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "cdc_places": {
+        "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
+        "authority_tier": 1,
+        "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Brighton",
+        "probed_at": "2026-02-13T21:03:24.445507",
+        "data_vintage": "BRFSS 2023",
+        "geographic_level": "place",
+        "status": "available"
+      }
+    },
+    "derived_fields": {
+      "safety.total_crime_rate": {
+        "formula": "violent_crime_rate + property_crime_rate",
+        "inputs": [
+          "safety.violent_crime_rate",
+          "safety.property_crime_rate"
+        ],
+        "formula_location": "score/normalizer.py:_derive_total_crime",
+        "authority_tier": 2
+      },
+      "safety.crime_trend": {
+        "formula": "(last_year_rate - first_year_rate) / years_span",
+        "inputs": [
+          "fbi.time_series[].violent_crime_rate"
+        ],
+        "formula_location": "score/normalizer.py:_build_safety",
+        "authority_tier": 2
+      },
+      "education.school_quality_tier": {
+        "formula": "excellent if avg>=8, good if avg>=6, fair if avg>=4, else poor",
+        "inputs": [
+          "education.avg_school_rating"
+        ],
+        "formula_location": "score/normalizer.py:_build_education",
+        "authority_tier": 3
+      },
+      "environment.avg_disasters_per_decade": {
+        "formula": "total_disasters / (years_span / 10)",
+        "inputs": [
+          "environment.total_disasters"
+        ],
+        "formula_location": "probe/fema_probe.py",
+        "authority_tier": 2
+      },
+      "housing.rent_burden_ratio": {
+        "formula": "(fmr_2br * 12) / median_household_income * 100",
+        "inputs": [
+          "housing.fmr_2br",
+          "economy.median_household_income"
+        ],
+        "formula_location": "score/normalizer.py:_build_housing",
+        "authority_tier": 2
+      },
+      "governance.legislative_velocity": {
+        "formula": "legislative_volume / years_of_legislative_data",
+        "inputs": [
+          "governance.legislative_volume",
+          "governance.years_of_legislative_data"
+        ],
+        "formula_location": "score/normalizer.py:_build_governance",
+        "authority_tier": 2
+      },
+      "development.yoy_trend_pct": {
+        "formula": "(current_year - prior_year) / prior_year * 100",
+        "inputs": [
+          "permit data from Socrata"
+        ],
+        "formula_location": "probe/permits_probe.py",
+        "authority_tier": 2
+      }
+    },
+    "geographic_mismatches": [
+      {
+        "field": "identity.fips_state",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "state-level data applied to city profile"
+      },
+      {
+        "field": "economy.unemployment_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Reflects statewide unemployment, not city-specific rate"
+      },
+      {
+        "field": "economy.labor_force",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: This is the full state labor force, not city-level"
+      },
+      {
+        "field": "economy.employed",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "economy.unemployed",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.violent_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: City-level requires ORI codes not currently used"
+      },
+      {
+        "field": "safety.property_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.murder_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.robbery_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.burglary_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.vehicle_theft_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.total_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA; derived sum"
+      },
+      {
+        "field": "safety.crime_trend",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "state-level data applied to city profile"
+      },
+      {
+        "field": "education.total_schools",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Count includes all schools in the state, not city"
+      },
+      {
+        "field": "education.total_enrollment",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.pupil_teacher_ratio",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Average across all state schools"
+      },
+      {
+        "field": "education.title1_pct",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.charter_pct",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.regular_schools",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.pm25_mean",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE/COUNTY-LEVEL: Averaged across all monitors in the state"
+      },
+      {
+        "field": "environment.ozone_mean",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE/COUNTY-LEVEL"
+      },
+      {
+        "field": "environment.total_disasters",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: All declarations for the state, not city-specific"
+      },
+      {
+        "field": "environment.avg_disasters_per_decade",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.most_recent_disaster",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.most_recent_disaster_type",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "housing.fmr_0br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR: Fair Market Rents at state level, not city-specific metro area"
+      },
+      {
+        "field": "housing.fmr_1br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_2br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_3br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_4br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.rent_burden_ratio",
+        "source_level": "mixed",
+        "profile_level": "place",
+        "note": "GEOGRAPHIC MISMATCH: FMR is state-level (HUD), income is city-level (Census). Ratio may be biased."
+      }
+    ]
+  },
+  "data_quality": {
+    "quality_score": 92.9,
+    "grade": "A",
+    "completeness_pct": 92.9,
+    "issue_count": 7,
+    "granularity_flags": 3
+  },
+  "officials": {
+    "body_name": "City Council",
+    "members": [
+      {
+        "name": "Chairman Mills",
+        "email": "gmills@brightonco.gov",
+        "title": "Chairperson",
+        "start_date": "2019-12-17",
+        "committees": [
+          "South Brighton General Improvement District"
+        ]
+      },
+      {
+        "name": "Councilmember Carbajal",
+        "email": "mcarbajal@brightonco.gov",
+        "title": "Councilmember",
+        "start_date": "2025-12-30"
+      },
+      {
+        "name": "Councilmember Collins",
+        "email": "rcollins@brightonco.gov",
+        "title": "Councilmember",
+        "start_date": "2025-12-30"
+      },
+      {
+        "name": "Councilmember Fiedler",
+        "email": "cfiedler@brightonco.gov",
+        "title": "Councilmember",
+        "start_date": "2024-01-02"
+      },
+      {
+        "name": "Councilmember Green",
+        "email": "tgreen@brightonco.gov",
+        "title": "Councilmember",
+        "start_date": "2022-11-30"
+      },
+      {
+        "name": "Councilmember Snyder",
+        "email": "jsnyder@brightonco.gov",
+        "title": "Councilmember",
+        "start_date": "2024-01-02"
+      },
+      {
+        "name": "Councilmember Taddeo",
+        "email": "ataddeo@brightonco.gov",
+        "title": "Councilmember",
+        "start_date": "2020-06-16"
+      },
+      {
+        "name": "Councilmember Worth",
+        "email": "lworth@brightonco.gov",
+        "title": "Councilmember",
+        "start_date": "2024-01-02"
+      },
+      {
+        "name": "Mayor Mills",
+        "email": "gmills@brightonco.gov",
+        "title": "Mayor",
+        "start_date": "2019-12-17"
+      },
+      {
+        "name": "Mayor Pro Tem Padilla",
+        "email": "ppadilla@brightonco.gov",
+        "title": "Mayor Pro Tem",
+        "start_date": "2022-01-01"
+      },
+      {
+        "name": "Member Carbajal",
+        "email": "mcarbajal@brightonco.gov",
+        "title": "Member",
+        "start_date": "2026-01-06",
+        "committees": [
+          "South Brighton General Improvement District"
+        ]
+      },
+      {
+        "name": "Member Collins",
+        "email": "rcollins@brightonco.gov",
+        "title": "Member",
+        "start_date": "2026-01-06",
+        "committees": [
+          "South Brighton General Improvement District"
+        ]
+      },
+      {
+        "name": "Member Fiedler",
+        "email": "cfiedler@brightonco.gov",
+        "title": "Member",
+        "start_date": "2024-01-02",
+        "committees": [
+          "South Brighton General Improvement District"
+        ]
+      },
+      {
+        "name": "Member Green",
+        "email": "tgreen@brightonco.gov",
+        "title": "Member",
+        "start_date": "2024-01-02",
+        "committees": [
+          "South Brighton General Improvement District"
+        ]
+      },
+      {
+        "name": "Member Padilla",
+        "email": "ppadilla@brightonco.gov",
+        "title": "Member",
+        "start_date": "2022-01-04",
+        "committees": [
+          "South Brighton General Improvement District"
+        ]
+      },
+      {
+        "name": "Member Snyder",
+        "email": "jsnyder@brightonco.gov",
+        "title": "Member",
+        "start_date": "2024-01-02",
+        "committees": [
+          "South Brighton General Improvement District"
+        ]
+      },
+      {
+        "name": "Member Taddeo",
+        "email": "ataddeo@brightonco.gov",
+        "title": "Member",
+        "start_date": "2020-06-16",
+        "committees": [
+          "South Brighton General Improvement District"
+        ]
+      },
+      {
+        "name": "Member Worth",
+        "email": "lworth@brightonco.gov",
+        "title": "Member",
+        "start_date": "2024-01-02",
+        "committees": [
+          "South Brighton General Improvement District"
+        ]
+      }
+    ]
+  },
+  "recent_meetings": [
+    {
+      "date": "2026-02-10",
+      "body": "City Council",
+      "location": "Study Session Room",
+      "has_agenda": true,
+      "agenda_url": "https://brightonco.legistar1.com/brightonco/meetings/2026/2/1623_A_City_Council_26-02-10_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://brightonco.legistar1.com/brightonco/meetings/2026/2/1621_A_City_Council_26-02-03_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-20",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://brightonco.legistar1.com/brightonco/meetings/2026/1/1620_A_City_Council_26-01-20_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Discussion of Terms Limits for Boards and Commissions",
+      "type": "Informational Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-29",
+      "file_number": "ID-43-26",
+      "passed_date": null
+    },
+    {
+      "title": "Utility Repair and Construction: Master Price Agreement Awards",
+      "type": "Informational Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-29",
+      "file_number": "ID-41-26",
+      "passed_date": null
+    },
+    {
+      "title": "Graywater Treatment Works and Use Prohibition",
+      "type": "Informational Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-29",
+      "file_number": "ID-42-26",
+      "passed_date": null
+    },
+    {
+      "title": "Executed Contract Listing - December 2025",
+      "type": "Informational Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-28",
+      "file_number": "ID-40-26",
+      "passed_date": null
+    },
+    {
+      "title": "Downtown Development Authority Update",
+      "type": "Informational Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-27",
+      "file_number": "ID-39-26",
+      "passed_date": null
+    },
+    {
+      "title": "A RESOLUTION OF THE CITY COUNCIL OF THE CITY OF BRIGHTON, COLORADO, ACTING BY AND THROUGH ITS WATER ACTIVITY ENTERPRISE, APPROVING THE PURCHASE OF SIXTY-FIVE SHARES OF CAPITAL STOCK IN THE FULTON IRRI",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-27",
+      "file_number": "ID-38-26",
+      "passed_date": null
+    },
+    {
+      "title": "DISCUSSION OF UPCOMING CHANGES TO THE BRIGHTON MUNICIPAL CRIMINAL CODE AND PENALTY SECTION TO UPDATE, CLARIFY, AND ALIGN WITH A RECENT COLORADO SUPREME COURT DECISION",
+      "type": "Informational Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-23",
+      "file_number": "ID-37-26",
+      "passed_date": null
+    },
+    {
+      "title": "Upcoming Adoption of the State Mandated Colorado Wildfire Resiliency Code",
+      "type": "Informational Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-23",
+      "file_number": "ID-36-26",
+      "passed_date": null
+    },
+    {
+      "title": "AN ORDINANCE OF THE CITY COUNCIL OF THE CITY OF BRIGHTON, COLORADO, ADDING ARTICLE 10-3 OF THE BRIGHTON MUNCIPAL CODE; REPEALING AND REPLACING ARTICLE 10-4 OF THE BRIGHTON MUNICIPAL CODE; ADOPTING THE",
+      "type": "Informational Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-23",
+      "file_number": "ID-35-26",
+      "passed_date": null
+    },
+    {
+      "title": "Approval of the January 6, 2026 Outgoing City Council Minutes",
+      "type": "Minutes",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-22",
+      "file_number": "ID-31-26",
+      "passed_date": null
+    }
+  ],
+  "legistar_url": "https://brightonco.legistar.com",
+  "enriched_at": "2026-02-13T20:01:21.376769",
+  "government_news": [],
+  "video_meetings": [],
+  "data_platforms": [
+    "legistar"
+  ]
+}

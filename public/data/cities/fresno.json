@@ -1,1 +1,1029 @@
-{"schema_version":"5.0","normalized_at":"2026-02-10T14:21:49.193123","identity":{"name":"Fresno","state":"CA","fips_state":"06","fips_place":"27000","population":541528},"city_website":"https://www.fresno.gov","economy":{"median_household_income":63001,"median_home_value":321800,"unemployment_rate":7.94,"unemployment_data_level":"county","labor_force":469062,"employed":431815,"unemployed":37247,"gini_index":null,"poverty_rate":22.09,"homeownership_rate":48.09,"rent_to_income_ratio":23.37,"home_value_to_income_ratio":5.11,"price_to_rent_ratio":21.86,"effective_tax_rate":9.2778,"population_growth_cagr":0.9402,"median_real_estate_taxes":2488},"safety":{"violent_crime_rate":null,"property_crime_rate":null,"murder_rate":null,"robbery_rate":null,"burglary_rate":null,"vehicle_theft_rate":null,"total_crime_rate":null,"crime_trend":null,"crime_data_level":null},"education":{"total_schools":10416,"total_enrollment":5837868,"pupil_teacher_ratio":22.1,"title1_pct":0.0,"charter_pct":12.5,"regular_schools":9083,"avg_school_rating":5.0,"rated_schools":138,"school_quality_tier":"fair"},"environment":{"pm25_mean":9.5243,"ozone_mean":0.0471,"total_disasters":20,"avg_disasters_per_decade":2.9,"most_recent_disaster":"2023-04-03","most_recent_disaster_type":"Severe Storm","disasters_by_type":{"Flood":6,"Severe Storm":4,"Fire":3,"Freezing":3,"Biological":2,"Hurricane":1,"Drought":1}},"housing":{"median_rent":1227,"housing_units":186461,"fmr_0br":1347,"fmr_1br":1355,"fmr_2br":1664,"fmr_3br":2314,"fmr_4br":2660,"rent_burden_ratio":31.7,"cost_burdened_pct":54.26,"severely_burdened_pct":28.4},"governance":{"legislative_volume":15625,"legislative_velocity":1347.0,"committee_count":33,"years_of_legislative_data":11.6,"has_public_meetings":true,"api_accessible":true,"matter_types":{"Action Item":798,"Closed Session Item":92,"Discussion Item":80,"Ceremonial Item":19,"Minutes":11},"top_matter_type":"Action Item","matter_statuses":{"Agenda Ready":474,"Passed":474,"Tabled":40,"Filed":4,"Adopted as Amended":4,"Continued":3,"Presented":1},"pass_rate":33.3,"passed_count":5208,"active_council_members":7,"avg_tenure_years":3.6,"vote_coverage_pct":0.0,"video_availability_pct":0.0,"agenda_availability_pct":70.0,"minutes_availability_pct":42.8,"avg_meetings_per_month":19.6,"meetings_by_year":{"2026":29,"2025":239,"2024":232},"avg_sponsors_per_matter":0.7,"avg_attachments_per_matter":0.1,"pct_with_text_versions":100.0,"index_categories":["Darling Delaware","El Paseo","Fig Garden Financial Center Phase IV","Fresno Recycled Water Master Plan","Hi Speed Rail","LLMD","Landscape and Lighting Maintenance District No. 1","Roeding Regional Park and Fresno Chaffee Zoo Facility Master Plans (Including Rotary Playland and Storyland","Veterans Boulevard","West Lake"],"has_accela":true,"accela_agency_id":"Fresno"},"development":{"permits_12mo":null,"yoy_trend_pct":null,"avg_permit_value":null,"permit_types":{},"datasets_count":0},"meetings":{"official_channels":1,"meetings_indexed":40,"avg_meetings_per_month":5.0,"has_video_archive":true,"meeting_types":{"city_council":20,"planning_commission":18,"other":2},"transcripts_available":0},"civic_issues":{"total_issues":345,"issues_last_30d":0,"issues_last_365d":1,"resolution_rate":24.1,"top_issue_type":"Unknown","type_distribution":{"Unknown":100},"has_civic_issue_tracking":true},"demographics":{"population":541528,"poverty_universe":532251,"employment_universe":406958},"time_series":{"economy_history":[{"year":2024,"unemployment_rate":7.94,"labor_force":469062,"employed":431815,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2023,"unemployment_rate":7.48,"labor_force":459008,"employed":424715,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2022,"unemployment_rate":6.61,"labor_force":445694,"employed":416258,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2021,"unemployment_rate":9.3,"labor_force":438844,"employed":398076,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2020,"unemployment_rate":11.78,"labor_force":440808,"employed":389007,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2019,"unemployment_rate":7.42,"labor_force":445513,"employed":412461,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2018,"unemployment_rate":7.67,"labor_force":441026,"employed":407200,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2017,"unemployment_rate":8.68,"labor_force":440434,"employed":402178,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2016,"unemployment_rate":9.67,"labor_force":439920,"employed":397402,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2015,"unemployment_rate":10.22,"labor_force":440419,"employed":395400,"data_level":"county","source":"bls_laus","is_partial_year":false}],"safety_history":[],"environment_history":[{"year":2023,"pm25_mean":9.5243,"ozone_mean":0.0471,"data_level":"county","source":"epa_aqs"},{"year":2022,"pm25_mean":11.1336,"ozone_mean":0.0464,"data_level":"county","source":"epa_aqs"},{"year":2021,"pm25_mean":14.475,"ozone_mean":0.0467,"data_level":"county","source":"epa_aqs"},{"year":2020,"pm25_mean":18.1414,"ozone_mean":0.0471,"data_level":"county","source":"epa_aqs"},{"year":2019,"pm25_mean":9.6018,"ozone_mean":0.0482,"data_level":"county","source":"epa_aqs"},{"year":2018,"pm25_mean":14.5475,"ozone_mean":0.0504,"data_level":"county","source":"epa_aqs"}]},"data_sources":{"legistar":"available","socrata":"available","census_acs":"available","arcgis":"available","fbi_ucr":"available","socrata_crime":"available","bls_laus":"available","ca_edd":"error","epa_aqs":"available","nces_ccd":"available","hud_fmr":"available","fema_openfema":"available","greatschools":"available","permits":"skipped","youtube_meetings":"available","seeclickfix":"available","accela":"available"},"provenance":{"last_full_probe":"2026-02-10T02:42:22.405312","sources":{"legistar":{"authority":"Legistar by Granicus","authority_tier":1,"api_url":"https://webapi.legistar.com/v1/fresno/Bodies","probed_at":"2026-02-10T02:42:22.406662","data_vintage":"2014\u20132026","geographic_level":"place","status":"available"},"socrata":{"authority":"City Open Data Portals (Socrata/Tyler Data & Insights)","authority_tier":1,"api_url":null,"probed_at":"2026-02-10T02:43:53.972567","data_vintage":null,"geographic_level":"place","status":"available"},"census_acs":{"authority":"US Census Bureau","authority_tier":1,"api_url":"https://api.census.gov/data/2022/acs/acs5?get=NAME,B01001_001E,B19013_001E,B25077_001E,B25064_001E,B25001_001E&for=place:27000&in=state:06","probed_at":"2026-02-10T02:44:46.209680","data_vintage":"ACS 5-Year 2022","geographic_level":"place","status":"available"},"arcgis":{"authority":"City ArcGIS/GIS Portals","authority_tier":1,"api_url":null,"probed_at":"2026-02-10T02:44:50.776637","data_vintage":null,"geographic_level":"place","status":"available"},"fbi_ucr":{"authority":"FBI Uniform Crime Reporting Program","authority_tier":1,"api_url":"https://api.usa.gov/crime/fbi/sapi/api/estimates/states/CA/2015/2022","probed_at":"2026-02-10T02:45:08.585452","data_vintage":null,"geographic_level":"state","status":"available"},"bls_laus":{"authority":"Bureau of Labor Statistics","authority_tier":1,"api_url":"https://api.bls.gov/publicAPI/v2/timeseries/data/LAUST060000000000003","probed_at":"2026-02-10T02:45:08.763780","data_vintage":"LAUS 2024","geographic_level":"state","status":"available"},"epa_aqs":{"authority":"US Environmental Protection Agency","authority_tier":1,"api_url":"https://aqs.epa.gov/data/api/annualData/byState?state=06&param=88101","probed_at":"2026-02-10T02:45:10.412411","data_vintage":"AQS 2023","geographic_level":"state","status":"available"},"nces_ccd":{"authority":"National Center for Education Statistics","authority_tier":1,"api_url":"https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=06","probed_at":"2026-02-10T02:45:58.261348","data_vintage":"2022-2023 academic year","geographic_level":"state","status":"available"},"hud_fmr":{"authority":"US Department of Housing and Urban Development","authority_tier":1,"api_url":"https://www.huduser.gov/hudapi/public/fmr/statedata/CA","probed_at":"2026-02-10T02:46:25.711572","data_vintage":"FY2026","geographic_level":"state","status":"available"},"fema_openfema":{"authority":"Federal Emergency Management Agency","authority_tier":1,"api_url":"https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries?$filter=state eq 'CA'","probed_at":"2026-02-10T02:46:26.257981","data_vintage":"1953-present","geographic_level":"state","status":"available"},"greatschools":{"authority":"GreatSchools.org (nonprofit)","authority_tier":3,"api_url":null,"probed_at":"2026-02-10T02:46:26.443217","data_vintage":null,"geographic_level":"place","status":"available"},"permits":{"authority":"City Open Data Portals (Socrata)","authority_tier":1,"api_url":null,"probed_at":"2026-02-10T02:46:28.543771","data_vintage":null,"geographic_level":"place","status":"skipped"},"youtube_meetings":{"authority":"YouTube (via SerpAPI search + youtube-transcript-api)","authority_tier":3,"api_url":null,"probed_at":"2026-02-10T02:46:28.546119","data_vintage":null,"geographic_level":"place","status":"available"},"seeclickfix":{"authority":"SeeClickFix (civic issue tracking platform)","authority_tier":3,"api_url":"https://seeclickfix.com/api/v2/issues?place_url=fresno","probed_at":"2026-02-10T02:49:24.367531","data_vintage":null,"geographic_level":"place","status":"available"},"accela":{"authority":"Accela (permit management platform)","authority_tier":3,"api_url":"https://apis.accela.com/v4/agencies","probed_at":"2026-02-10T02:49:57.501451","data_vintage":null,"geographic_level":"place","status":"available"},"socrata_crime":{"authority":"City Open Data Portals (Socrata)","authority_tier":1,"api_url":null,"probed_at":"2026-02-10T02:45:08.763019","data_vintage":null,"geographic_level":"place","status":"available"}},"derived_fields":{"safety.total_crime_rate":{"formula":"violent_crime_rate + property_crime_rate","inputs":["safety.violent_crime_rate","safety.property_crime_rate"],"formula_location":"score/normalizer.py:_derive_total_crime","authority_tier":2},"safety.crime_trend":{"formula":"(last_year_rate - first_year_rate) / years_span","inputs":["fbi.time_series[].violent_crime_rate"],"formula_location":"score/normalizer.py:_build_safety","authority_tier":2},"education.school_quality_tier":{"formula":"excellent if avg>=8, good if avg>=6, fair if avg>=4, else poor","inputs":["education.avg_school_rating"],"formula_location":"score/normalizer.py:_build_education","authority_tier":3},"environment.avg_disasters_per_decade":{"formula":"total_disasters / (years_span / 10)","inputs":["environment.total_disasters"],"formula_location":"probe/fema_probe.py","authority_tier":2},"housing.rent_burden_ratio":{"formula":"(fmr_2br * 12) / median_household_income * 100","inputs":["housing.fmr_2br","economy.median_household_income"],"formula_location":"score/normalizer.py:_build_housing","authority_tier":2},"governance.legislative_velocity":{"formula":"legislative_volume / years_of_legislative_data","inputs":["governance.legislative_volume","governance.years_of_legislative_data"],"formula_location":"score/normalizer.py:_build_governance","authority_tier":2},"development.yoy_trend_pct":{"formula":"(current_year - prior_year) / prior_year * 100","inputs":["permit data from Socrata"],"formula_location":"probe/permits_probe.py","authority_tier":2}},"geographic_mismatches":[{"field":"identity.fips_state","source_level":"state","profile_level":"place","note":"state-level data applied to city profile"},{"field":"economy.unemployment_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Reflects statewide unemployment, not city-specific rate"},{"field":"economy.labor_force","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: This is the full state labor force, not city-level"},{"field":"economy.employed","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"economy.unemployed","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.violent_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: City-level requires ORI codes not currently used"},{"field":"safety.property_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.murder_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.robbery_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.burglary_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.vehicle_theft_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.total_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA; derived sum"},{"field":"safety.crime_trend","source_level":"state","profile_level":"place","note":"state-level data applied to city profile"},{"field":"education.total_schools","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Count includes all schools in the state, not city"},{"field":"education.total_enrollment","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.pupil_teacher_ratio","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Average across all state schools"},{"field":"education.title1_pct","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.charter_pct","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.regular_schools","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.pm25_mean","source_level":"state","profile_level":"place","note":"STATE/COUNTY-LEVEL: Averaged across all monitors in the state"},{"field":"environment.ozone_mean","source_level":"state","profile_level":"place","note":"STATE/COUNTY-LEVEL"},{"field":"environment.total_disasters","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: All declarations for the state, not city-specific"},{"field":"environment.avg_disasters_per_decade","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.most_recent_disaster","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.most_recent_disaster_type","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"housing.fmr_0br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR: Fair Market Rents at state level, not city-specific metro area"},{"field":"housing.fmr_1br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_2br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_3br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_4br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.rent_burden_ratio","source_level":"mixed","profile_level":"place","note":"GEOGRAPHIC MISMATCH: FMR is state-level (HUD), income is city-level (Census). Ratio may be biased."}]},"data_quality":{"quality_score":100.0,"grade":"A","completeness_pct":100.0,"issue_count":5,"granularity_flags":1},"officials":{"body_name":"City Council","members":[{"name":"Annalisa Perea","email":"Annalisa.Perea@fresno.gov","title":"Councilmember","start_date":"2022-12-15","website":"https://www.fresno.gov/citycouncil/district-1/"},{"name":"Brandon Vang","email":"brandon.vang@fresno.gov","title":"Councilmember","start_date":"2025-04-10","committees":["School Liaison Subcommittee"]},{"name":"Miguel Angel Arias","email":"miguel.arias@fresno.gov","title":"Councilmember","start_date":"2023-01-01","website":"https://www.fresno.gov/citycouncil/district-3/","committees":["Fresno City Council Finance and Audit Committee","Fresno EIFD Public Financing Authority"]},{"name":"Mike Karbassi","email":"mike.karbassi@fresno.gov","title":"Vice Chair","start_date":"2025-03-12","website":"https://www.fresno.gov/citycouncil/district-2/","committees":["Fresno City Council Finance and Audit Committee"]},{"name":"Nelson Esparza","email":"nelson.esparza@fresno.gov","title":"Chair","start_date":"2023-01-01","website":"https://www.fresno.gov/citycouncil/district-7/","committees":["Fresno City Council Finance and Audit Committee","Fresno EIFD Public Financing Authority","School Liaison Subcommittee"]},{"name":"Nick Richardson","email":"nick.richardson@fresno.gov","title":"Councilmember","start_date":"2025-01-07","committees":["School Liaison Subcommittee"]},{"name":"Tyler Maxwell","email":"tyler.maxwell@fresno.gov","title":"Councilmember","start_date":"2023-01-01","website":"https://www.fresno.gov/citycouncil/district-4/","committees":["Fresno EIFD Public Financing Authority"]}]},"recent_meetings":[{"date":"2026-02-12","body":"Council District 1 Project Review Committee","location":"Fresno City Hall, Second Floor Room 2165A","has_agenda":false,"agenda_url":null,"has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-11","body":"Council District 6 Project Review Committee","location":"Fresno City Hall, Second Floor Room 2165A","has_agenda":false,"agenda_url":null,"has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-10","body":"City Council","location":"Council Chambers","has_agenda":true,"agenda_url":"https://legistar2.granicus.com/fresno/meetings/2026/2/4475_A_City_Council_26-02-10_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-10","body":"Disability Advisory Commission","location":"In Person and/or Electronic\r\nFresno City Hall, Room 4017N","has_agenda":true,"agenda_url":"https://legistar2.granicus.com/fresno/meetings/2026/2/4367_A_Disability_Advisory_Commission_26-02-10_Commission_Agenda_%28no_veto_language%29.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-10","body":"Mobilehome Park Rent Review and Stabilization Commission","location":"Council Chambers","has_agenda":true,"agenda_url":"https://legistar2.granicus.com/fresno/meetings/2026/2/4459_A_Mobilehome_Park_Rent_Review_and_Stabilization_Commission_26-02-10_Commission_Agenda_%28no_veto_language%29.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-04","body":"Planning Commission","location":"City Hall Council Chambers\r\n2600 Fresno Street","has_agenda":true,"agenda_url":"https://legistar2.granicus.com/fresno/meetings/2026/2/4283_A_Planning_Commission_26-02-04_Commission_Agenda_%28no_veto_language%29.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-03","body":"Tower District Design Review Committee","location":"Fresno City Hall, Second Floor Room 2165A","has_agenda":false,"agenda_url":null,"has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-03","body":"Building Standards Appeals Board","location":"City Hall Council Chambers\r\n2600 Fresno Street","has_agenda":true,"agenda_url":"https://legistar2.granicus.com/fresno/meetings/2026/2/4308_A_Building_Standards_Appeals_Board_26-02-03_Commission_Agenda_%28no_veto_language%29.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-01-29","body":"City Council","location":"Council Chambers","has_agenda":true,"agenda_url":"https://legistar2.granicus.com/fresno/meetings/2026/1/4330_A_City_Council_26-01-29_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-01-29","body":"City Council","location":"Council Chambers","has_agenda":true,"agenda_url":"https://legistar2.granicus.com/fresno/meetings/2026/1/4463_A_City_Council_26-01-29_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false}],"recent_legislation":[{"title":"CONFERENCE WITH LEGAL COUNSEL - ANTICIPATED LITIGATION \nGovernment Code Section 54956.9, subdivision (d)(4)\nCase Name: City of Fresno v. Centers Veterans Group, LLC; \n                     (Code Enforc","type":"Closed Session Item","status":"Agenda Ready","intro_date":"2026-02-10","file_number":"ID 26-189","passed_date":null},{"title":"CONFERENCE WITH LEGAL COUNSEL-POTENTIAL LITIGATION\r\nGovernment Code Section 54956.9, subdivision (d)(2)\r\nSignificant Exposure to Litigation\r\n1 potential case","type":"Closed Session Item","status":"Agenda Ready","intro_date":"2026-02-09","file_number":"ID 26-177","passed_date":"2026-02-10"},{"title":"Notice of Special Meeting - Signed","type":"Action Item","status":"Agenda Ready","intro_date":"2026-02-09","file_number":"ID 26-180","passed_date":null},{"title":"CONFERENCE WITH LEGAL COUNSEL-EXISTING LITIGATION \r\nGovernment Code Section 54956.9, subdivision (d)(1)\r\nAngela Baskerville. v. City of Fresno, et al.; Fresno Superior Court Case No. 24CECG00188","type":"Closed Session Item","status":"Agenda Ready","intro_date":"2026-02-06","file_number":"ID 26-174","passed_date":null},{"title":"CONFERENCE WITH LABOR NEGOTIATORS - Government Code Section 54957.6\r\nCity Negotiators: Jennifer Misner; Sumeet Malhi\r\nEmployee Organization(s): 1. International Union of Operating Engineers, Stationar","type":"Closed Session Item","status":"Agenda Ready","intro_date":"2026-02-06","file_number":"ID 26-172","passed_date":null},{"title":"On Demand Transit Advisory Taskforce Presentation by Shannon Mulhall","type":"Action Item","status":"Agenda Ready","intro_date":"2026-02-04","file_number":"ID 26-155","passed_date":null},{"title":"Approval of the Disability Advisory Commission Minutes from November 18, 2025","type":"Minutes","status":"Agenda Ready","intro_date":"2026-02-04","file_number":"ID 26-153","passed_date":null},{"title":"Workshop:  Substantial Evidence","type":"Discussion Item","status":"Agenda Ready","intro_date":"2026-01-29","file_number":"ID 26-140","passed_date":null},{"title":"***RESOLUTION - Adopting the 590th Amendment to the Master Fee Schedule Resolution No. 80-420 to Add, Adjust, Move, Revise or Delete Various Fees (Subject to Mayor\u2019s Veto)","type":"Action Item","status":"Agenda Ready","intro_date":"2026-01-29","file_number":"ID 26-142","passed_date":null},{"title":"Approval of the Amendment to the City of Fresno Building Standards Appeals Board Rules and Regulations","type":"Action Item","status":"Agenda Ready","intro_date":"2026-01-29","file_number":"ID 26-141","passed_date":null}],"legistar_url":"https://fresno.legistar.com","enriched_at":"2026-02-13T20:04:12.639419","government_news":[],"video_meetings":[],"data_platforms":["legistar"]}
+{
+  "schema_version": "5.0",
+  "normalized_at": "2026-02-10T14:21:49.193123",
+  "identity": {
+    "name": "Fresno",
+    "state": "CA",
+    "fips_state": "06",
+    "fips_place": "27000",
+    "population": 541528
+  },
+  "city_website": "https://www.fresno.gov",
+  "economy": {
+    "median_household_income": 63001,
+    "median_home_value": 321800,
+    "unemployment_rate": 7.94,
+    "unemployment_data_level": "county",
+    "labor_force": 469062,
+    "employed": 431815,
+    "unemployed": 37247,
+    "gini_index": null,
+    "poverty_rate": 22.09,
+    "homeownership_rate": 48.09,
+    "rent_to_income_ratio": 23.37,
+    "home_value_to_income_ratio": 5.11,
+    "price_to_rent_ratio": 21.86,
+    "effective_tax_rate": 9.2778,
+    "population_growth_cagr": 0.9402,
+    "median_real_estate_taxes": 2488
+  },
+  "safety": {
+    "violent_crime_rate": null,
+    "property_crime_rate": null,
+    "murder_rate": null,
+    "robbery_rate": null,
+    "burglary_rate": null,
+    "vehicle_theft_rate": null,
+    "total_crime_rate": null,
+    "crime_trend": null,
+    "crime_data_level": null
+  },
+  "education": {
+    "total_schools": 10416,
+    "total_enrollment": 5837868,
+    "pupil_teacher_ratio": 22.1,
+    "title1_pct": 0.0,
+    "charter_pct": 12.5,
+    "regular_schools": 9083,
+    "avg_school_rating": 5.0,
+    "rated_schools": 138,
+    "school_quality_tier": "fair"
+  },
+  "environment": {
+    "pm25_mean": 9.5243,
+    "ozone_mean": 0.0471,
+    "total_disasters": 20,
+    "avg_disasters_per_decade": 2.9,
+    "most_recent_disaster": "2023-04-03",
+    "most_recent_disaster_type": "Severe Storm",
+    "disasters_by_type": {
+      "Flood": 6,
+      "Severe Storm": 4,
+      "Fire": 3,
+      "Freezing": 3,
+      "Biological": 2,
+      "Hurricane": 1,
+      "Drought": 1
+    }
+  },
+  "housing": {
+    "median_rent": 1227,
+    "housing_units": 186461,
+    "fmr_0br": 1347,
+    "fmr_1br": 1355,
+    "fmr_2br": 1664,
+    "fmr_3br": 2314,
+    "fmr_4br": 2660,
+    "rent_burden_ratio": 31.7,
+    "cost_burdened_pct": 54.26,
+    "severely_burdened_pct": 28.4
+  },
+  "health": {
+    "uninsured_pct": 15.2,
+    "obesity_pct": 38.0,
+    "diabetes_pct": 12.9,
+    "depression_pct": 21.4,
+    "asthma_pct": 10.1,
+    "smoking_pct": 14.1,
+    "physical_inactivity_pct": 31.8,
+    "mental_health_bad_days": 18.8,
+    "physical_health_bad_days": 15.3,
+    "sleep_deficit_pct": 36.6,
+    "high_blood_pressure_pct": 31.9,
+    "high_cholesterol_pct": 30.6,
+    "heart_disease_pct": 6.1,
+    "stroke_pct": 3.5,
+    "cancer_pct": 5.6,
+    "kidney_disease_pct": null,
+    "checkup_pct": 71.1,
+    "data_year": "2023"
+  },
+  "governance": {
+    "legislative_volume": 15625,
+    "legislative_velocity": 1347.0,
+    "committee_count": 33,
+    "years_of_legislative_data": 11.6,
+    "has_public_meetings": true,
+    "api_accessible": true,
+    "matter_types": {
+      "Action Item": 798,
+      "Closed Session Item": 92,
+      "Discussion Item": 80,
+      "Ceremonial Item": 19,
+      "Minutes": 11
+    },
+    "top_matter_type": "Action Item",
+    "matter_statuses": {
+      "Agenda Ready": 474,
+      "Passed": 474,
+      "Tabled": 40,
+      "Filed": 4,
+      "Adopted as Amended": 4,
+      "Continued": 3,
+      "Presented": 1
+    },
+    "pass_rate": 33.3,
+    "passed_count": 5208,
+    "active_council_members": 7,
+    "avg_tenure_years": 3.6,
+    "vote_coverage_pct": 0.0,
+    "video_availability_pct": 0.0,
+    "agenda_availability_pct": 70.0,
+    "minutes_availability_pct": 42.8,
+    "avg_meetings_per_month": 19.6,
+    "meetings_by_year": {
+      "2026": 29,
+      "2025": 239,
+      "2024": 232
+    },
+    "avg_sponsors_per_matter": 0.7,
+    "avg_attachments_per_matter": 0.1,
+    "pct_with_text_versions": 100.0,
+    "index_categories": [
+      "Darling Delaware",
+      "El Paseo",
+      "Fig Garden Financial Center Phase IV",
+      "Fresno Recycled Water Master Plan",
+      "Hi Speed Rail",
+      "LLMD",
+      "Landscape and Lighting Maintenance District No. 1",
+      "Roeding Regional Park and Fresno Chaffee Zoo Facility Master Plans (Including Rotary Playland and Storyland",
+      "Veterans Boulevard",
+      "West Lake"
+    ],
+    "has_accela": true,
+    "accela_agency_id": "FRESNO"
+  },
+  "development": {
+    "permits_12mo": null,
+    "yoy_trend_pct": null,
+    "avg_permit_value": null,
+    "permit_types": {},
+    "datasets_count": 0
+  },
+  "meetings": {
+    "official_channels": 1,
+    "meetings_indexed": 40,
+    "avg_meetings_per_month": 5.0,
+    "has_video_archive": true,
+    "meeting_types": {
+      "city_council": 20,
+      "planning_commission": 18,
+      "other": 2
+    },
+    "transcripts_available": 0
+  },
+  "civic_issues": {
+    "total_issues": 345,
+    "issues_last_30d": 0,
+    "issues_last_365d": 1,
+    "resolution_rate": 24.1,
+    "top_issue_type": "Unknown",
+    "type_distribution": {
+      "Unknown": 100
+    },
+    "has_civic_issue_tracking": true
+  },
+  "demographics": {
+    "population": 541528,
+    "poverty_universe": 532251,
+    "employment_universe": 406958
+  },
+  "time_series": {
+    "economy_history": [
+      {
+        "year": 2024,
+        "unemployment_rate": 7.94,
+        "labor_force": 469062,
+        "employed": 431815,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2023,
+        "unemployment_rate": 7.48,
+        "labor_force": 459008,
+        "employed": 424715,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2022,
+        "unemployment_rate": 6.61,
+        "labor_force": 445694,
+        "employed": 416258,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2021,
+        "unemployment_rate": 9.3,
+        "labor_force": 438844,
+        "employed": 398076,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2020,
+        "unemployment_rate": 11.78,
+        "labor_force": 440808,
+        "employed": 389007,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2019,
+        "unemployment_rate": 7.42,
+        "labor_force": 445513,
+        "employed": 412461,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2018,
+        "unemployment_rate": 7.67,
+        "labor_force": 441026,
+        "employed": 407200,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2017,
+        "unemployment_rate": 8.68,
+        "labor_force": 440434,
+        "employed": 402178,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2016,
+        "unemployment_rate": 9.67,
+        "labor_force": 439920,
+        "employed": 397402,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2015,
+        "unemployment_rate": 10.22,
+        "labor_force": 440419,
+        "employed": 395400,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      }
+    ],
+    "safety_history": [],
+    "environment_history": [
+      {
+        "year": 2023,
+        "pm25_mean": 9.5243,
+        "ozone_mean": 0.0471,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2022,
+        "pm25_mean": 11.1336,
+        "ozone_mean": 0.0464,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2021,
+        "pm25_mean": 14.475,
+        "ozone_mean": 0.0467,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2020,
+        "pm25_mean": 18.1414,
+        "ozone_mean": 0.0471,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2019,
+        "pm25_mean": 9.6018,
+        "ozone_mean": 0.0482,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2018,
+        "pm25_mean": 14.5475,
+        "ozone_mean": 0.0504,
+        "data_level": "county",
+        "source": "epa_aqs"
+      }
+    ]
+  },
+  "data_sources": {
+    "legistar": "available",
+    "socrata": "available",
+    "census_acs": "available",
+    "arcgis": "available",
+    "fbi_ucr": "available",
+    "socrata_crime": "available",
+    "bls_laus": "available",
+    "ca_edd": "error",
+    "epa_aqs": "available",
+    "nces_ccd": "available",
+    "hud_fmr": "available",
+    "fema_openfema": "available",
+    "greatschools": "available",
+    "permits": "skipped",
+    "youtube_meetings": "available",
+    "seeclickfix": "available",
+    "accela": "available",
+    "cdc_places": "available"
+  },
+  "provenance": {
+    "last_full_probe": "2026-02-10T02:42:22.405312",
+    "sources": {
+      "legistar": {
+        "authority": "Legistar by Granicus",
+        "authority_tier": 1,
+        "api_url": "https://webapi.legistar.com/v1/fresno/Bodies",
+        "probed_at": "2026-02-10T02:42:22.406662",
+        "data_vintage": "2014–2026",
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "socrata": {
+        "authority": "City Open Data Portals (Socrata/Tyler Data & Insights)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-10T02:43:53.972567",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "census_acs": {
+        "authority": "US Census Bureau",
+        "authority_tier": 1,
+        "api_url": "https://api.census.gov/data/2022/acs/acs5?get=NAME,B01001_001E,B19013_001E,B25077_001E,B25064_001E,B25001_001E&for=place:27000&in=state:06",
+        "probed_at": "2026-02-10T02:44:46.209680",
+        "data_vintage": "ACS 5-Year 2022",
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "arcgis": {
+        "authority": "City ArcGIS/GIS Portals",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-10T02:44:50.776637",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "fbi_ucr": {
+        "authority": "FBI Uniform Crime Reporting Program",
+        "authority_tier": 1,
+        "api_url": "https://api.usa.gov/crime/fbi/sapi/api/estimates/states/CA/2015/2022",
+        "probed_at": "2026-02-10T02:45:08.585452",
+        "data_vintage": null,
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "bls_laus": {
+        "authority": "Bureau of Labor Statistics",
+        "authority_tier": 1,
+        "api_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/LAUST060000000000003",
+        "probed_at": "2026-02-10T02:45:08.763780",
+        "data_vintage": "LAUS 2024",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "epa_aqs": {
+        "authority": "US Environmental Protection Agency",
+        "authority_tier": 1,
+        "api_url": "https://aqs.epa.gov/data/api/annualData/byState?state=06&param=88101",
+        "probed_at": "2026-02-10T02:45:10.412411",
+        "data_vintage": "AQS 2023",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "nces_ccd": {
+        "authority": "National Center for Education Statistics",
+        "authority_tier": 1,
+        "api_url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=06",
+        "probed_at": "2026-02-10T02:45:58.261348",
+        "data_vintage": "2022-2023 academic year",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "hud_fmr": {
+        "authority": "US Department of Housing and Urban Development",
+        "authority_tier": 1,
+        "api_url": "https://www.huduser.gov/hudapi/public/fmr/statedata/CA",
+        "probed_at": "2026-02-10T02:46:25.711572",
+        "data_vintage": "FY2026",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "fema_openfema": {
+        "authority": "Federal Emergency Management Agency",
+        "authority_tier": 1,
+        "api_url": "https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries?$filter=state eq 'CA'",
+        "probed_at": "2026-02-10T02:46:26.257981",
+        "data_vintage": "1953-present",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "greatschools": {
+        "authority": "GreatSchools.org (nonprofit)",
+        "authority_tier": 3,
+        "api_url": null,
+        "probed_at": "2026-02-10T02:46:26.443217",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "permits": {
+        "authority": "City Open Data Portals (Socrata)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-10T02:46:28.543771",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "youtube_meetings": {
+        "authority": "YouTube (via SerpAPI search + youtube-transcript-api)",
+        "authority_tier": 3,
+        "api_url": null,
+        "probed_at": "2026-02-10T02:46:28.546119",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "seeclickfix": {
+        "authority": "SeeClickFix (civic issue tracking platform)",
+        "authority_tier": 3,
+        "api_url": "https://seeclickfix.com/api/v2/issues?place_url=fresno",
+        "probed_at": "2026-02-10T02:49:24.367531",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "accela": {
+        "authority": "Accela (permit management platform)",
+        "authority_tier": 3,
+        "api_url": "https://apis.accela.com/v4/agencies",
+        "probed_at": "2026-02-10T02:49:57.501451",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "socrata_crime": {
+        "authority": "City Open Data Portals (Socrata)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-10T02:45:08.763019",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "cdc_places": {
+        "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
+        "authority_tier": 1,
+        "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Fresno",
+        "probed_at": "2026-02-13T21:01:11.967820",
+        "data_vintage": "BRFSS 2023",
+        "geographic_level": "place",
+        "status": "available"
+      }
+    },
+    "derived_fields": {
+      "safety.total_crime_rate": {
+        "formula": "violent_crime_rate + property_crime_rate",
+        "inputs": [
+          "safety.violent_crime_rate",
+          "safety.property_crime_rate"
+        ],
+        "formula_location": "score/normalizer.py:_derive_total_crime",
+        "authority_tier": 2
+      },
+      "safety.crime_trend": {
+        "formula": "(last_year_rate - first_year_rate) / years_span",
+        "inputs": [
+          "fbi.time_series[].violent_crime_rate"
+        ],
+        "formula_location": "score/normalizer.py:_build_safety",
+        "authority_tier": 2
+      },
+      "education.school_quality_tier": {
+        "formula": "excellent if avg>=8, good if avg>=6, fair if avg>=4, else poor",
+        "inputs": [
+          "education.avg_school_rating"
+        ],
+        "formula_location": "score/normalizer.py:_build_education",
+        "authority_tier": 3
+      },
+      "environment.avg_disasters_per_decade": {
+        "formula": "total_disasters / (years_span / 10)",
+        "inputs": [
+          "environment.total_disasters"
+        ],
+        "formula_location": "probe/fema_probe.py",
+        "authority_tier": 2
+      },
+      "housing.rent_burden_ratio": {
+        "formula": "(fmr_2br * 12) / median_household_income * 100",
+        "inputs": [
+          "housing.fmr_2br",
+          "economy.median_household_income"
+        ],
+        "formula_location": "score/normalizer.py:_build_housing",
+        "authority_tier": 2
+      },
+      "governance.legislative_velocity": {
+        "formula": "legislative_volume / years_of_legislative_data",
+        "inputs": [
+          "governance.legislative_volume",
+          "governance.years_of_legislative_data"
+        ],
+        "formula_location": "score/normalizer.py:_build_governance",
+        "authority_tier": 2
+      },
+      "development.yoy_trend_pct": {
+        "formula": "(current_year - prior_year) / prior_year * 100",
+        "inputs": [
+          "permit data from Socrata"
+        ],
+        "formula_location": "probe/permits_probe.py",
+        "authority_tier": 2
+      }
+    },
+    "geographic_mismatches": [
+      {
+        "field": "identity.fips_state",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "state-level data applied to city profile"
+      },
+      {
+        "field": "economy.unemployment_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Reflects statewide unemployment, not city-specific rate"
+      },
+      {
+        "field": "economy.labor_force",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: This is the full state labor force, not city-level"
+      },
+      {
+        "field": "economy.employed",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "economy.unemployed",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.violent_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: City-level requires ORI codes not currently used"
+      },
+      {
+        "field": "safety.property_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.murder_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.robbery_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.burglary_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.vehicle_theft_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.total_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA; derived sum"
+      },
+      {
+        "field": "safety.crime_trend",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "state-level data applied to city profile"
+      },
+      {
+        "field": "education.total_schools",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Count includes all schools in the state, not city"
+      },
+      {
+        "field": "education.total_enrollment",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.pupil_teacher_ratio",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Average across all state schools"
+      },
+      {
+        "field": "education.title1_pct",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.charter_pct",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.regular_schools",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.pm25_mean",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE/COUNTY-LEVEL: Averaged across all monitors in the state"
+      },
+      {
+        "field": "environment.ozone_mean",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE/COUNTY-LEVEL"
+      },
+      {
+        "field": "environment.total_disasters",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: All declarations for the state, not city-specific"
+      },
+      {
+        "field": "environment.avg_disasters_per_decade",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.most_recent_disaster",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.most_recent_disaster_type",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "housing.fmr_0br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR: Fair Market Rents at state level, not city-specific metro area"
+      },
+      {
+        "field": "housing.fmr_1br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_2br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_3br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_4br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.rent_burden_ratio",
+        "source_level": "mixed",
+        "profile_level": "place",
+        "note": "GEOGRAPHIC MISMATCH: FMR is state-level (HUD), income is city-level (Census). Ratio may be biased."
+      }
+    ]
+  },
+  "data_quality": {
+    "quality_score": 100.0,
+    "grade": "A",
+    "completeness_pct": 100.0,
+    "issue_count": 5,
+    "granularity_flags": 1
+  },
+  "officials": {
+    "body_name": "City Council",
+    "members": [
+      {
+        "name": "Annalisa Perea",
+        "email": "Annalisa.Perea@fresno.gov",
+        "title": "Councilmember",
+        "start_date": "2022-12-15",
+        "website": "https://www.fresno.gov/citycouncil/district-1/"
+      },
+      {
+        "name": "Brandon Vang",
+        "email": "brandon.vang@fresno.gov",
+        "title": "Councilmember",
+        "start_date": "2025-04-10",
+        "committees": [
+          "School Liaison Subcommittee"
+        ]
+      },
+      {
+        "name": "Miguel Angel Arias",
+        "email": "miguel.arias@fresno.gov",
+        "title": "Councilmember",
+        "start_date": "2023-01-01",
+        "website": "https://www.fresno.gov/citycouncil/district-3/",
+        "committees": [
+          "Fresno City Council Finance and Audit Committee",
+          "Fresno EIFD Public Financing Authority"
+        ]
+      },
+      {
+        "name": "Mike Karbassi",
+        "email": "mike.karbassi@fresno.gov",
+        "title": "Vice Chair",
+        "start_date": "2025-03-12",
+        "website": "https://www.fresno.gov/citycouncil/district-2/",
+        "committees": [
+          "Fresno City Council Finance and Audit Committee"
+        ]
+      },
+      {
+        "name": "Nelson Esparza",
+        "email": "nelson.esparza@fresno.gov",
+        "title": "Chair",
+        "start_date": "2023-01-01",
+        "website": "https://www.fresno.gov/citycouncil/district-7/",
+        "committees": [
+          "Fresno City Council Finance and Audit Committee",
+          "Fresno EIFD Public Financing Authority",
+          "School Liaison Subcommittee"
+        ]
+      },
+      {
+        "name": "Nick Richardson",
+        "email": "nick.richardson@fresno.gov",
+        "title": "Councilmember",
+        "start_date": "2025-01-07",
+        "committees": [
+          "School Liaison Subcommittee"
+        ]
+      },
+      {
+        "name": "Tyler Maxwell",
+        "email": "tyler.maxwell@fresno.gov",
+        "title": "Councilmember",
+        "start_date": "2023-01-01",
+        "website": "https://www.fresno.gov/citycouncil/district-4/",
+        "committees": [
+          "Fresno EIFD Public Financing Authority"
+        ]
+      }
+    ]
+  },
+  "recent_meetings": [
+    {
+      "date": "2026-02-12",
+      "body": "Council District 1 Project Review Committee",
+      "location": "Fresno City Hall, Second Floor Room 2165A",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-11",
+      "body": "Council District 6 Project Review Committee",
+      "location": "Fresno City Hall, Second Floor Room 2165A",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/fresno/meetings/2026/2/4475_A_City_Council_26-02-10_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "Disability Advisory Commission",
+      "location": "In Person and/or Electronic\r\nFresno City Hall, Room 4017N",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/fresno/meetings/2026/2/4367_A_Disability_Advisory_Commission_26-02-10_Commission_Agenda_%28no_veto_language%29.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "Mobilehome Park Rent Review and Stabilization Commission",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/fresno/meetings/2026/2/4459_A_Mobilehome_Park_Rent_Review_and_Stabilization_Commission_26-02-10_Commission_Agenda_%28no_veto_language%29.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-04",
+      "body": "Planning Commission",
+      "location": "City Hall Council Chambers\r\n2600 Fresno Street",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/fresno/meetings/2026/2/4283_A_Planning_Commission_26-02-04_Commission_Agenda_%28no_veto_language%29.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "Tower District Design Review Committee",
+      "location": "Fresno City Hall, Second Floor Room 2165A",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "Building Standards Appeals Board",
+      "location": "City Hall Council Chambers\r\n2600 Fresno Street",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/fresno/meetings/2026/2/4308_A_Building_Standards_Appeals_Board_26-02-03_Commission_Agenda_%28no_veto_language%29.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-29",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/fresno/meetings/2026/1/4330_A_City_Council_26-01-29_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-29",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/fresno/meetings/2026/1/4463_A_City_Council_26-01-29_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "CONFERENCE WITH LEGAL COUNSEL - ANTICIPATED LITIGATION \nGovernment Code Section 54956.9, subdivision (d)(4)\nCase Name: City of Fresno v. Centers Veterans Group, LLC; \n                     (Code Enforc",
+      "type": "Closed Session Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-10",
+      "file_number": "ID 26-189",
+      "passed_date": null
+    },
+    {
+      "title": "CONFERENCE WITH LEGAL COUNSEL-POTENTIAL LITIGATION\r\nGovernment Code Section 54956.9, subdivision (d)(2)\r\nSignificant Exposure to Litigation\r\n1 potential case",
+      "type": "Closed Session Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-09",
+      "file_number": "ID 26-177",
+      "passed_date": "2026-02-10"
+    },
+    {
+      "title": "Notice of Special Meeting - Signed",
+      "type": "Action Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-09",
+      "file_number": "ID 26-180",
+      "passed_date": null
+    },
+    {
+      "title": "CONFERENCE WITH LEGAL COUNSEL-EXISTING LITIGATION \r\nGovernment Code Section 54956.9, subdivision (d)(1)\r\nAngela Baskerville. v. City of Fresno, et al.; Fresno Superior Court Case No. 24CECG00188",
+      "type": "Closed Session Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-06",
+      "file_number": "ID 26-174",
+      "passed_date": null
+    },
+    {
+      "title": "CONFERENCE WITH LABOR NEGOTIATORS - Government Code Section 54957.6\r\nCity Negotiators: Jennifer Misner; Sumeet Malhi\r\nEmployee Organization(s): 1. International Union of Operating Engineers, Stationar",
+      "type": "Closed Session Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-06",
+      "file_number": "ID 26-172",
+      "passed_date": null
+    },
+    {
+      "title": "On Demand Transit Advisory Taskforce Presentation by Shannon Mulhall",
+      "type": "Action Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-04",
+      "file_number": "ID 26-155",
+      "passed_date": null
+    },
+    {
+      "title": "Approval of the Disability Advisory Commission Minutes from November 18, 2025",
+      "type": "Minutes",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-04",
+      "file_number": "ID 26-153",
+      "passed_date": null
+    },
+    {
+      "title": "Workshop:  Substantial Evidence",
+      "type": "Discussion Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-29",
+      "file_number": "ID 26-140",
+      "passed_date": null
+    },
+    {
+      "title": "***RESOLUTION - Adopting the 590th Amendment to the Master Fee Schedule Resolution No. 80-420 to Add, Adjust, Move, Revise or Delete Various Fees (Subject to Mayor’s Veto)",
+      "type": "Action Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-29",
+      "file_number": "ID 26-142",
+      "passed_date": null
+    },
+    {
+      "title": "Approval of the Amendment to the City of Fresno Building Standards Appeals Board Rules and Regulations",
+      "type": "Action Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-29",
+      "file_number": "ID 26-141",
+      "passed_date": null
+    }
+  ],
+  "legistar_url": "https://fresno.legistar.com",
+  "enriched_at": "2026-02-13T20:04:12.639419",
+  "government_news": [],
+  "video_meetings": [],
+  "data_platforms": [
+    "legistar"
+  ]
+}

@@ -1,1 +1,1005 @@
-{"schema_version":"5.0","normalized_at":"2026-02-10T14:21:49.316483","identity":{"name":"Napa","state":"CA","fips_state":"06","fips_place":"50258","population":79233},"city_website":"https://www.cityofnapa.org","economy":{"median_household_income":100273,"median_home_value":771700,"unemployment_rate":3.92,"unemployment_data_level":"county","labor_force":74443,"employed":71530,"unemployed":2912,"gini_index":null,"poverty_rate":8.13,"homeownership_rate":59.07,"rent_to_income_ratio":24.54,"home_value_to_income_ratio":7.7,"price_to_rent_ratio":31.35,"effective_tax_rate":8.4328,"population_growth_cagr":0.3471,"median_real_estate_taxes":5423},"safety":{"violent_crime_rate":null,"property_crime_rate":null,"murder_rate":null,"robbery_rate":null,"burglary_rate":null,"vehicle_theft_rate":null,"total_crime_rate":null,"crime_trend":null,"crime_data_level":null},"education":{"total_schools":10416,"total_enrollment":5837868,"pupil_teacher_ratio":22.1,"title1_pct":0.0,"charter_pct":12.5,"regular_schools":9083,"avg_school_rating":null,"rated_schools":null,"school_quality_tier":null},"environment":{"pm25_mean":7.9209,"ozone_mean":0.0441,"total_disasters":39,"avg_disasters_per_decade":5.6,"most_recent_disaster":"2023-04-03","most_recent_disaster_type":"Severe Storm","disasters_by_type":{"Fire":13,"Severe Storm":10,"Flood":8,"Biological":2,"Earthquake":2,"Hurricane":1,"Freezing":1,"Coastal Storm":1,"Drought":1}},"housing":{"median_rent":2051,"housing_units":31666,"fmr_0br":1912,"fmr_1br":2113,"fmr_2br":2773,"fmr_3br":3532,"fmr_4br":4134,"rent_burden_ratio":33.2,"cost_burdened_pct":52.12,"severely_burdened_pct":23.84},"governance":{"legislative_volume":5625,"legislative_velocity":358.3,"committee_count":6,"years_of_legislative_data":15.7,"has_public_meetings":true,"api_accessible":true,"matter_types":{"Consent Calendar":588,"Afternoon Administrative Report":134,"Closed Session":79,"Afternoon Presentation":63,"Afternoon Consent Hearing":54,"Evening Administrative Report":31,"Afternoon Public Hearings":25,"Evening Public Hearings":14,"Commission Interviews and Appointments":7,"Evening Presentation":3,"Evening Consent Hearing":2},"top_matter_type":"Consent Calendar","matter_statuses":{"Passed":675,"Agenda Ready":252,"Received and Filed":67,"Continued":3,"Withdrawn":1,"Failed":1,"Tabled":1},"pass_rate":33.3,"passed_count":1875,"active_council_members":5,"avg_tenure_years":1.8,"vote_coverage_pct":0.0,"video_availability_pct":0.0,"agenda_availability_pct":73.6,"minutes_availability_pct":25.8,"avg_meetings_per_month":3.6,"meetings_by_year":{"2026":7,"2025":46,"2024":40,"2023":39,"2022":51,"2021":52,"2020":52,"2019":39,"2018":40,"2017":38},"avg_sponsors_per_matter":0.0,"avg_attachments_per_matter":1.0,"pct_with_text_versions":100.0,"index_categories":["Affordable Housing Impact Fees","Appointments","Art Walk","Ballot Measure","Boards Committees Commissions","Borreo","BottleRock","Budget","Bulk Water Sales","CAFR","CAPER","CDBG Program","CalHome","City Council Vacancy","City Hall Consolidation","Citywide User Fees","Clean Energy","Design-Build","Development Impact Fees","Dredging","Dwyer Road","Earthquake","Election","Fair Housing","Fire Station 5","Flood","Gann Appropriation Limits","General Plan","Grand Jury","Grape","HOME","Hennessey","Homeless Services","Housing Element","Investment Policy","Joint Powers Agreement","Landscape Maintenance Assessment District","Logo","Long Term Financial Plan","Marijuana","Napa Pipe","Napa Valley Coporate Park Landscape and Lighting Assessment District","Opera House","Oxbow","PBID","Pipeline Rehabilitation Project","Property and Business Improvement District","Records Management","Recycling","Redflex"],"has_accela":false,"accela_agency_id":null},"development":{"permits_12mo":null,"yoy_trend_pct":null,"avg_permit_value":null,"permit_types":{},"datasets_count":0},"meetings":{"official_channels":0,"meetings_indexed":null,"avg_meetings_per_month":null,"has_video_archive":false,"meeting_types":{},"transcripts_available":null},"civic_issues":{"total_issues":null,"issues_last_30d":null,"issues_last_365d":null,"resolution_rate":null,"top_issue_type":null,"type_distribution":{},"has_civic_issue_tracking":false},"demographics":{"population":79233,"poverty_universe":78483,"employment_universe":64720},"time_series":{"economy_history":[{"year":2024,"unemployment_rate":3.92,"labor_force":74443,"employed":71530,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2023,"unemployment_rate":3.41,"labor_force":73036,"employed":70540,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2022,"unemployment_rate":3.27,"labor_force":70993,"employed":68689,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2021,"unemployment_rate":6.08,"labor_force":68768,"employed":64598,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2020,"unemployment_rate":8.93,"labor_force":69251,"employed":63104,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2019,"unemployment_rate":2.9,"labor_force":73811,"employed":71681,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2018,"unemployment_rate":2.97,"labor_force":74180,"employed":71988,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2017,"unemployment_rate":3.68,"labor_force":73551,"employed":70850,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2016,"unemployment_rate":4.32,"labor_force":73142,"employed":69985,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2015,"unemployment_rate":4.65,"labor_force":73750,"employed":70330,"data_level":"county","source":"bls_laus","is_partial_year":false}],"safety_history":[],"environment_history":[{"year":2023,"pm25_mean":7.9209,"ozone_mean":0.0441,"data_level":"county","source":"epa_aqs"},{"year":2022,"pm25_mean":8.8058,"ozone_mean":0.0448,"data_level":"county","source":"epa_aqs"},{"year":2021,"pm25_mean":7.2281,"ozone_mean":0.0388,"data_level":"county","source":"epa_aqs"},{"year":2020,"pm25_mean":10.3343,"ozone_mean":0.0376,"data_level":"county","source":"epa_aqs"},{"year":2019,"pm25_mean":5.9277,"ozone_mean":0.0376,"data_level":"county","source":"epa_aqs"},{"year":2018,"pm25_mean":11.6027,"ozone_mean":0.0342,"data_level":"county","source":"epa_aqs"}]},"data_sources":{"legistar":"available","socrata":"available","census_acs":"available","arcgis":"available","fbi_ucr":"available","socrata_crime":"available","bls_laus":"available","ca_edd":"error","epa_aqs":"available","nces_ccd":"available","hud_fmr":"available","fema_openfema":"available","greatschools":"available","permits":"skipped","youtube_meetings":"skipped","seeclickfix":"skipped","accela":"available"},"provenance":{"last_full_probe":"2026-02-10T07:46:51.849568","sources":{"legistar":{"authority":"Legistar by Granicus","authority_tier":1,"api_url":"https://webapi.legistar.com/v1/napacity/Bodies","probed_at":"2026-02-10T07:46:51.850021","data_vintage":"2010\u20132026","geographic_level":"place","status":"available"},"socrata":{"authority":"City Open Data Portals (Socrata/Tyler Data & Insights)","authority_tier":1,"api_url":null,"probed_at":"2026-02-10T07:48:07.791108","data_vintage":null,"geographic_level":"place","status":"available"},"census_acs":{"authority":"US Census Bureau","authority_tier":1,"api_url":"https://api.census.gov/data/2022/acs/acs5?get=NAME,B01001_001E,B19013_001E,B25077_001E,B25064_001E,B25001_001E&for=place:50258&in=state:06","probed_at":"2026-02-10T07:48:07.792772","data_vintage":"ACS 5-Year 2022","geographic_level":"place","status":"available"},"arcgis":{"authority":"City ArcGIS/GIS Portals","authority_tier":1,"api_url":null,"probed_at":"2026-02-10T07:48:11.294989","data_vintage":null,"geographic_level":"place","status":"available"},"fbi_ucr":{"authority":"FBI Uniform Crime Reporting Program","authority_tier":1,"api_url":"https://api.usa.gov/crime/fbi/sapi/api/estimates/states/CA/2015/2022","probed_at":"2026-02-10T07:48:12.520350","data_vintage":null,"geographic_level":"state","status":"available"},"bls_laus":{"authority":"Bureau of Labor Statistics","authority_tier":1,"api_url":"https://api.bls.gov/publicAPI/v2/timeseries/data/LAUST060000000000003","probed_at":"2026-02-10T07:48:41.426648","data_vintage":"LAUS 2024","geographic_level":"state","status":"available"},"epa_aqs":{"authority":"US Environmental Protection Agency","authority_tier":1,"api_url":"https://aqs.epa.gov/data/api/annualData/byState?state=06&param=88101","probed_at":"2026-02-10T07:48:43.357813","data_vintage":"AQS 2023","geographic_level":"state","status":"available"},"nces_ccd":{"authority":"National Center for Education Statistics","authority_tier":1,"api_url":"https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=06","probed_at":"2026-02-10T07:49:31.216843","data_vintage":"2022-2023 academic year","geographic_level":"state","status":"available"},"hud_fmr":{"authority":"US Department of Housing and Urban Development","authority_tier":1,"api_url":"https://www.huduser.gov/hudapi/public/fmr/statedata/CA","probed_at":"2026-02-10T07:49:54.062709","data_vintage":"FY2026","geographic_level":"state","status":"available"},"fema_openfema":{"authority":"Federal Emergency Management Agency","authority_tier":1,"api_url":"https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries?$filter=state eq 'CA'","probed_at":"2026-02-10T07:49:54.761175","data_vintage":"1953-present","geographic_level":"state","status":"available"},"greatschools":{"authority":"GreatSchools.org (nonprofit)","authority_tier":3,"api_url":null,"probed_at":"2026-02-10T07:49:54.976102","data_vintage":null,"geographic_level":"place","status":"available"},"permits":{"authority":"City Open Data Portals (Socrata)","authority_tier":1,"api_url":null,"probed_at":"2026-02-10T07:49:55.340398","data_vintage":null,"geographic_level":"place","status":"skipped"},"youtube_meetings":{"authority":"YouTube (via SerpAPI search + youtube-transcript-api)","authority_tier":3,"api_url":null,"probed_at":"2026-02-10T07:49:55.340877","data_vintage":null,"geographic_level":"place","status":"skipped"},"seeclickfix":{"authority":"SeeClickFix (civic issue tracking platform)","authority_tier":3,"api_url":"https://seeclickfix.com/api/v2/issues?place_url=napacity","probed_at":"2026-02-10T07:50:04.921667","data_vintage":null,"geographic_level":"place","status":"skipped"},"accela":{"authority":"Accela (permit management platform)","authority_tier":3,"api_url":"https://apis.accela.com/v4/agencies","probed_at":"2026-02-10T07:50:05.092009","data_vintage":null,"geographic_level":"place","status":"available"},"socrata_crime":{"authority":"City Open Data Portals (Socrata)","authority_tier":1,"api_url":null,"probed_at":"2026-02-10T07:48:41.424353","data_vintage":null,"geographic_level":"place","status":"available"}},"derived_fields":{"safety.total_crime_rate":{"formula":"violent_crime_rate + property_crime_rate","inputs":["safety.violent_crime_rate","safety.property_crime_rate"],"formula_location":"score/normalizer.py:_derive_total_crime","authority_tier":2},"safety.crime_trend":{"formula":"(last_year_rate - first_year_rate) / years_span","inputs":["fbi.time_series[].violent_crime_rate"],"formula_location":"score/normalizer.py:_build_safety","authority_tier":2},"education.school_quality_tier":{"formula":"excellent if avg>=8, good if avg>=6, fair if avg>=4, else poor","inputs":["education.avg_school_rating"],"formula_location":"score/normalizer.py:_build_education","authority_tier":3},"environment.avg_disasters_per_decade":{"formula":"total_disasters / (years_span / 10)","inputs":["environment.total_disasters"],"formula_location":"probe/fema_probe.py","authority_tier":2},"housing.rent_burden_ratio":{"formula":"(fmr_2br * 12) / median_household_income * 100","inputs":["housing.fmr_2br","economy.median_household_income"],"formula_location":"score/normalizer.py:_build_housing","authority_tier":2},"governance.legislative_velocity":{"formula":"legislative_volume / years_of_legislative_data","inputs":["governance.legislative_volume","governance.years_of_legislative_data"],"formula_location":"score/normalizer.py:_build_governance","authority_tier":2},"development.yoy_trend_pct":{"formula":"(current_year - prior_year) / prior_year * 100","inputs":["permit data from Socrata"],"formula_location":"probe/permits_probe.py","authority_tier":2}},"geographic_mismatches":[{"field":"identity.fips_state","source_level":"state","profile_level":"place","note":"state-level data applied to city profile"},{"field":"economy.unemployment_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Reflects statewide unemployment, not city-specific rate"},{"field":"economy.labor_force","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: This is the full state labor force, not city-level"},{"field":"economy.employed","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"economy.unemployed","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.violent_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: City-level requires ORI codes not currently used"},{"field":"safety.property_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.murder_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.robbery_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.burglary_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.vehicle_theft_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.total_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA; derived sum"},{"field":"safety.crime_trend","source_level":"state","profile_level":"place","note":"state-level data applied to city profile"},{"field":"education.total_schools","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Count includes all schools in the state, not city"},{"field":"education.total_enrollment","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.pupil_teacher_ratio","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Average across all state schools"},{"field":"education.title1_pct","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.charter_pct","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.regular_schools","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.pm25_mean","source_level":"state","profile_level":"place","note":"STATE/COUNTY-LEVEL: Averaged across all monitors in the state"},{"field":"environment.ozone_mean","source_level":"state","profile_level":"place","note":"STATE/COUNTY-LEVEL"},{"field":"environment.total_disasters","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: All declarations for the state, not city-specific"},{"field":"environment.avg_disasters_per_decade","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.most_recent_disaster","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.most_recent_disaster_type","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"housing.fmr_0br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR: Fair Market Rents at state level, not city-specific metro area"},{"field":"housing.fmr_1br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_2br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_3br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_4br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.rent_burden_ratio","source_level":"mixed","profile_level":"place","note":"GEOGRAPHIC MISMATCH: FMR is state-level (HUD), income is city-level (Census). Ratio may be biased."}]},"data_quality":{"quality_score":85.7,"grade":"B","completeness_pct":85.7,"issue_count":6,"granularity_flags":2},"officials":{"body_name":"CITY COUNCIL OF THE CITY OF NAPA","members":[{"name":"Bernie Narvaez","email":"bnarvaez@cityofnapa.org","title":"Councilmember","start_date":"2024-12-19","committees":["HOUSING AUTHORITY"]},{"name":"Beth Painter","email":null,"title":"Councilmember","start_date":"2023-12-21","committees":["HOUSING AUTHORITY"]},{"name":"Chris DeNatale","email":"cdenatale@cityofnapa.org","title":"Vice Mayor","start_date":"2025-12-17","committees":["HOUSING AUTHORITY"]},{"name":"Mary Luros","email":null,"title":"Councilmember","start_date":"2025-12-18","committees":["HOUSING AUTHORITY"]},{"name":"Scott Sedgley","email":"ssedgley@cityofnapa.org","title":"Mayor","start_date":"2020-12-10","committees":["HOUSING AUTHORITY"]}]},"recent_meetings":[{"date":"2026-02-17","body":"CITY COUNCIL OF THE CITY OF NAPA","location":"City Hall Council Chambers","has_agenda":false,"agenda_url":null,"has_minutes":false,"has_video":false,"upcoming":true},{"date":"2026-02-03","body":"CITY COUNCIL OF THE CITY OF NAPA","location":"City Hall Council Chambers","has_agenda":true,"agenda_url":"https://napacity.legistar1.com/napacity/meetings/2026/2/2017_A_CITY_COUNCIL_OF_THE_CITY_OF_NAPA_26-02-03_Regular_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-03","body":"HOUSING AUTHORITY","location":"City Hall Council Chambers","has_agenda":true,"agenda_url":"https://napacity.legistar1.com/napacity/meetings/2026/2/2018_A_HOUSING_AUTHORITY_26-02-03_Housing_Authority_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-01-28","body":"CITY COUNCIL OF THE CITY OF NAPA","location":"The Pelusi Building","has_agenda":true,"agenda_url":"https://napacity.legistar1.com/napacity/meetings/2026/1/2026_A_CITY_COUNCIL_OF_THE_CITY_OF_NAPA_26-01-28_Special_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-01-20","body":"CITY COUNCIL OF THE CITY OF NAPA","location":"City Hall Council Chambers","has_agenda":true,"agenda_url":"https://napacity.legistar1.com/napacity/meetings/2026/1/2011_A_CITY_COUNCIL_OF_THE_CITY_OF_NAPA_26-01-20_Regular_Meeting_Agenda.pdf","has_minutes":true,"has_video":false,"upcoming":false}],"recent_legislation":[{"title":"City Council Meeting Minutes","type":"Consent Calendar","status":"Agenda Ready","intro_date":"2026-02-02","file_number":"057-2026","passed_date":null},{"title":"Authorization and Approval to Issue a No Cost Permit","type":"Consent Calendar","status":"Agenda Ready","intro_date":"2026-01-28","file_number":"045-2026","passed_date":null},{"title":"Emergency Declaration for 36-inch Asbestos Cement Water Transmission Main Replacement","type":"Consent Calendar","status":"Passed","intro_date":"2026-01-21","file_number":"037-2026","passed_date":"2026-02-03"},{"title":"Agreement with Walker Consultants for Consultant Services related to the Downtown Parking Structure Feasibility Study","type":"Consent Calendar","status":"Passed","intro_date":"2026-01-16","file_number":"031-2026","passed_date":"2026-02-03"},{"title":"NVUSD False Alarm Write-off Request","type":"Consent Calendar","status":"Passed","intro_date":"2026-01-16","file_number":"033-2026","passed_date":"2026-02-03"},{"title":"Update of Citywide User Fees","type":"Afternoon Public Hearings","status":"Agenda Ready","intro_date":"2026-01-15","file_number":"028-2026","passed_date":null},{"title":"Napa Countywide Road Maintenance Act (Measure T) - Equivalent Fund Expenditures","type":"Consent Calendar","status":"Passed","intro_date":"2026-01-15","file_number":"030-2026","passed_date":"2026-02-03"},{"title":"Amendment of Napa Municipal Code Section 5.04.210 Business License Application Procedures","type":"Afternoon Consent Hearing","status":"Passed","intro_date":"2026-01-15","file_number":"027-2026","passed_date":"2026-02-03"},{"title":"CONFERENCE WITH LEGAL COUNSEL \u2013 EXISTING LITIGATION\r\nPursuant to Government Code Section 54956.9(d)(1)\r\nHagstrom Properties, LLC v. Napa Sanitation District, City of Napa, et al.\r\nUnited States Distri","type":"Closed Session","status":"Agenda Ready","intro_date":"2026-01-14","file_number":"024-2026","passed_date":"2026-01-20"},{"title":"City Manager Employment Agreement","type":"Afternoon Administrative Report","status":"Passed","intro_date":"2026-01-14","file_number":"025-2026","passed_date":"2026-01-20"}],"legistar_url":"https://napacity.legistar.com","enriched_at":"2026-02-13T20:06:39.333840","government_news":[],"video_meetings":[],"data_platforms":["legistar"]}
+{
+  "schema_version": "5.0",
+  "normalized_at": "2026-02-10T14:21:49.316483",
+  "identity": {
+    "name": "Napa",
+    "state": "CA",
+    "fips_state": "06",
+    "fips_place": "50258",
+    "population": 79233
+  },
+  "city_website": "https://www.cityofnapa.org",
+  "economy": {
+    "median_household_income": 100273,
+    "median_home_value": 771700,
+    "unemployment_rate": 3.92,
+    "unemployment_data_level": "county",
+    "labor_force": 74443,
+    "employed": 71530,
+    "unemployed": 2912,
+    "gini_index": null,
+    "poverty_rate": 8.13,
+    "homeownership_rate": 59.07,
+    "rent_to_income_ratio": 24.54,
+    "home_value_to_income_ratio": 7.7,
+    "price_to_rent_ratio": 31.35,
+    "effective_tax_rate": 8.4328,
+    "population_growth_cagr": 0.3471,
+    "median_real_estate_taxes": 5423
+  },
+  "safety": {
+    "violent_crime_rate": null,
+    "property_crime_rate": null,
+    "murder_rate": null,
+    "robbery_rate": null,
+    "burglary_rate": null,
+    "vehicle_theft_rate": null,
+    "total_crime_rate": null,
+    "crime_trend": null,
+    "crime_data_level": null
+  },
+  "education": {
+    "total_schools": 10416,
+    "total_enrollment": 5837868,
+    "pupil_teacher_ratio": 22.1,
+    "title1_pct": 0.0,
+    "charter_pct": 12.5,
+    "regular_schools": 9083,
+    "avg_school_rating": null,
+    "rated_schools": null,
+    "school_quality_tier": null
+  },
+  "environment": {
+    "pm25_mean": 7.9209,
+    "ozone_mean": 0.0441,
+    "total_disasters": 39,
+    "avg_disasters_per_decade": 5.6,
+    "most_recent_disaster": "2023-04-03",
+    "most_recent_disaster_type": "Severe Storm",
+    "disasters_by_type": {
+      "Fire": 13,
+      "Severe Storm": 10,
+      "Flood": 8,
+      "Biological": 2,
+      "Earthquake": 2,
+      "Hurricane": 1,
+      "Freezing": 1,
+      "Coastal Storm": 1,
+      "Drought": 1
+    }
+  },
+  "housing": {
+    "median_rent": 2051,
+    "housing_units": 31666,
+    "fmr_0br": 1912,
+    "fmr_1br": 2113,
+    "fmr_2br": 2773,
+    "fmr_3br": 3532,
+    "fmr_4br": 4134,
+    "rent_burden_ratio": 33.2,
+    "cost_burdened_pct": 52.12,
+    "severely_burdened_pct": 23.84
+  },
+  "health": {
+    "uninsured_pct": 11.1,
+    "obesity_pct": 29.4,
+    "diabetes_pct": 9.2,
+    "depression_pct": 23.0,
+    "asthma_pct": 9.9,
+    "smoking_pct": 11.2,
+    "physical_inactivity_pct": 22.7,
+    "mental_health_bad_days": 17.6,
+    "physical_health_bad_days": 12.9,
+    "sleep_deficit_pct": 32.4,
+    "high_blood_pressure_pct": 27.9,
+    "high_cholesterol_pct": 30.4,
+    "heart_disease_pct": 4.9,
+    "stroke_pct": 2.7,
+    "cancer_pct": 6.7,
+    "kidney_disease_pct": null,
+    "checkup_pct": 70.2,
+    "data_year": "2023"
+  },
+  "governance": {
+    "legislative_volume": 5625,
+    "legislative_velocity": 358.3,
+    "committee_count": 6,
+    "years_of_legislative_data": 15.7,
+    "has_public_meetings": true,
+    "api_accessible": true,
+    "matter_types": {
+      "Consent Calendar": 588,
+      "Afternoon Administrative Report": 134,
+      "Closed Session": 79,
+      "Afternoon Presentation": 63,
+      "Afternoon Consent Hearing": 54,
+      "Evening Administrative Report": 31,
+      "Afternoon Public Hearings": 25,
+      "Evening Public Hearings": 14,
+      "Commission Interviews and Appointments": 7,
+      "Evening Presentation": 3,
+      "Evening Consent Hearing": 2
+    },
+    "top_matter_type": "Consent Calendar",
+    "matter_statuses": {
+      "Passed": 675,
+      "Agenda Ready": 252,
+      "Received and Filed": 67,
+      "Continued": 3,
+      "Withdrawn": 1,
+      "Failed": 1,
+      "Tabled": 1
+    },
+    "pass_rate": 33.3,
+    "passed_count": 1875,
+    "active_council_members": 5,
+    "avg_tenure_years": 1.8,
+    "vote_coverage_pct": 0.0,
+    "video_availability_pct": 0.0,
+    "agenda_availability_pct": 73.6,
+    "minutes_availability_pct": 25.8,
+    "avg_meetings_per_month": 3.6,
+    "meetings_by_year": {
+      "2026": 7,
+      "2025": 46,
+      "2024": 40,
+      "2023": 39,
+      "2022": 51,
+      "2021": 52,
+      "2020": 52,
+      "2019": 39,
+      "2018": 40,
+      "2017": 38
+    },
+    "avg_sponsors_per_matter": 0.0,
+    "avg_attachments_per_matter": 1.0,
+    "pct_with_text_versions": 100.0,
+    "index_categories": [
+      "Affordable Housing Impact Fees",
+      "Appointments",
+      "Art Walk",
+      "Ballot Measure",
+      "Boards Committees Commissions",
+      "Borreo",
+      "BottleRock",
+      "Budget",
+      "Bulk Water Sales",
+      "CAFR",
+      "CAPER",
+      "CDBG Program",
+      "CalHome",
+      "City Council Vacancy",
+      "City Hall Consolidation",
+      "Citywide User Fees",
+      "Clean Energy",
+      "Design-Build",
+      "Development Impact Fees",
+      "Dredging",
+      "Dwyer Road",
+      "Earthquake",
+      "Election",
+      "Fair Housing",
+      "Fire Station 5",
+      "Flood",
+      "Gann Appropriation Limits",
+      "General Plan",
+      "Grand Jury",
+      "Grape",
+      "HOME",
+      "Hennessey",
+      "Homeless Services",
+      "Housing Element",
+      "Investment Policy",
+      "Joint Powers Agreement",
+      "Landscape Maintenance Assessment District",
+      "Logo",
+      "Long Term Financial Plan",
+      "Marijuana",
+      "Napa Pipe",
+      "Napa Valley Coporate Park Landscape and Lighting Assessment District",
+      "Opera House",
+      "Oxbow",
+      "PBID",
+      "Pipeline Rehabilitation Project",
+      "Property and Business Improvement District",
+      "Records Management",
+      "Recycling",
+      "Redflex"
+    ],
+    "has_accela": false,
+    "accela_agency_id": null
+  },
+  "development": {
+    "permits_12mo": null,
+    "yoy_trend_pct": null,
+    "avg_permit_value": null,
+    "permit_types": {},
+    "datasets_count": 0
+  },
+  "meetings": {
+    "official_channels": 0,
+    "meetings_indexed": null,
+    "avg_meetings_per_month": null,
+    "has_video_archive": false,
+    "meeting_types": {},
+    "transcripts_available": null
+  },
+  "civic_issues": {
+    "total_issues": null,
+    "issues_last_30d": null,
+    "issues_last_365d": null,
+    "resolution_rate": null,
+    "top_issue_type": null,
+    "type_distribution": {},
+    "has_civic_issue_tracking": false
+  },
+  "demographics": {
+    "population": 79233,
+    "poverty_universe": 78483,
+    "employment_universe": 64720
+  },
+  "time_series": {
+    "economy_history": [
+      {
+        "year": 2024,
+        "unemployment_rate": 3.92,
+        "labor_force": 74443,
+        "employed": 71530,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2023,
+        "unemployment_rate": 3.41,
+        "labor_force": 73036,
+        "employed": 70540,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2022,
+        "unemployment_rate": 3.27,
+        "labor_force": 70993,
+        "employed": 68689,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2021,
+        "unemployment_rate": 6.08,
+        "labor_force": 68768,
+        "employed": 64598,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2020,
+        "unemployment_rate": 8.93,
+        "labor_force": 69251,
+        "employed": 63104,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2019,
+        "unemployment_rate": 2.9,
+        "labor_force": 73811,
+        "employed": 71681,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2018,
+        "unemployment_rate": 2.97,
+        "labor_force": 74180,
+        "employed": 71988,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2017,
+        "unemployment_rate": 3.68,
+        "labor_force": 73551,
+        "employed": 70850,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2016,
+        "unemployment_rate": 4.32,
+        "labor_force": 73142,
+        "employed": 69985,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2015,
+        "unemployment_rate": 4.65,
+        "labor_force": 73750,
+        "employed": 70330,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      }
+    ],
+    "safety_history": [],
+    "environment_history": [
+      {
+        "year": 2023,
+        "pm25_mean": 7.9209,
+        "ozone_mean": 0.0441,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2022,
+        "pm25_mean": 8.8058,
+        "ozone_mean": 0.0448,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2021,
+        "pm25_mean": 7.2281,
+        "ozone_mean": 0.0388,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2020,
+        "pm25_mean": 10.3343,
+        "ozone_mean": 0.0376,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2019,
+        "pm25_mean": 5.9277,
+        "ozone_mean": 0.0376,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2018,
+        "pm25_mean": 11.6027,
+        "ozone_mean": 0.0342,
+        "data_level": "county",
+        "source": "epa_aqs"
+      }
+    ]
+  },
+  "data_sources": {
+    "legistar": "available",
+    "socrata": "available",
+    "census_acs": "available",
+    "arcgis": "available",
+    "fbi_ucr": "available",
+    "socrata_crime": "available",
+    "bls_laus": "available",
+    "ca_edd": "error",
+    "epa_aqs": "available",
+    "nces_ccd": "available",
+    "hud_fmr": "available",
+    "fema_openfema": "available",
+    "greatschools": "available",
+    "permits": "skipped",
+    "youtube_meetings": "skipped",
+    "seeclickfix": "skipped",
+    "accela": "available",
+    "cdc_places": "available"
+  },
+  "provenance": {
+    "last_full_probe": "2026-02-10T07:46:51.849568",
+    "sources": {
+      "legistar": {
+        "authority": "Legistar by Granicus",
+        "authority_tier": 1,
+        "api_url": "https://webapi.legistar.com/v1/napacity/Bodies",
+        "probed_at": "2026-02-10T07:46:51.850021",
+        "data_vintage": "2010–2026",
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "socrata": {
+        "authority": "City Open Data Portals (Socrata/Tyler Data & Insights)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-10T07:48:07.791108",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "census_acs": {
+        "authority": "US Census Bureau",
+        "authority_tier": 1,
+        "api_url": "https://api.census.gov/data/2022/acs/acs5?get=NAME,B01001_001E,B19013_001E,B25077_001E,B25064_001E,B25001_001E&for=place:50258&in=state:06",
+        "probed_at": "2026-02-10T07:48:07.792772",
+        "data_vintage": "ACS 5-Year 2022",
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "arcgis": {
+        "authority": "City ArcGIS/GIS Portals",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-10T07:48:11.294989",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "fbi_ucr": {
+        "authority": "FBI Uniform Crime Reporting Program",
+        "authority_tier": 1,
+        "api_url": "https://api.usa.gov/crime/fbi/sapi/api/estimates/states/CA/2015/2022",
+        "probed_at": "2026-02-10T07:48:12.520350",
+        "data_vintage": null,
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "bls_laus": {
+        "authority": "Bureau of Labor Statistics",
+        "authority_tier": 1,
+        "api_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/LAUST060000000000003",
+        "probed_at": "2026-02-10T07:48:41.426648",
+        "data_vintage": "LAUS 2024",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "epa_aqs": {
+        "authority": "US Environmental Protection Agency",
+        "authority_tier": 1,
+        "api_url": "https://aqs.epa.gov/data/api/annualData/byState?state=06&param=88101",
+        "probed_at": "2026-02-10T07:48:43.357813",
+        "data_vintage": "AQS 2023",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "nces_ccd": {
+        "authority": "National Center for Education Statistics",
+        "authority_tier": 1,
+        "api_url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=06",
+        "probed_at": "2026-02-10T07:49:31.216843",
+        "data_vintage": "2022-2023 academic year",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "hud_fmr": {
+        "authority": "US Department of Housing and Urban Development",
+        "authority_tier": 1,
+        "api_url": "https://www.huduser.gov/hudapi/public/fmr/statedata/CA",
+        "probed_at": "2026-02-10T07:49:54.062709",
+        "data_vintage": "FY2026",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "fema_openfema": {
+        "authority": "Federal Emergency Management Agency",
+        "authority_tier": 1,
+        "api_url": "https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries?$filter=state eq 'CA'",
+        "probed_at": "2026-02-10T07:49:54.761175",
+        "data_vintage": "1953-present",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "greatschools": {
+        "authority": "GreatSchools.org (nonprofit)",
+        "authority_tier": 3,
+        "api_url": null,
+        "probed_at": "2026-02-10T07:49:54.976102",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "permits": {
+        "authority": "City Open Data Portals (Socrata)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-10T07:49:55.340398",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "youtube_meetings": {
+        "authority": "YouTube (via SerpAPI search + youtube-transcript-api)",
+        "authority_tier": 3,
+        "api_url": null,
+        "probed_at": "2026-02-10T07:49:55.340877",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "seeclickfix": {
+        "authority": "SeeClickFix (civic issue tracking platform)",
+        "authority_tier": 3,
+        "api_url": "https://seeclickfix.com/api/v2/issues?place_url=napacity",
+        "probed_at": "2026-02-10T07:50:04.921667",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "accela": {
+        "authority": "Accela (permit management platform)",
+        "authority_tier": 3,
+        "api_url": "https://apis.accela.com/v4/agencies",
+        "probed_at": "2026-02-10T07:50:05.092009",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "socrata_crime": {
+        "authority": "City Open Data Portals (Socrata)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-10T07:48:41.424353",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "cdc_places": {
+        "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
+        "authority_tier": 1,
+        "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Napa",
+        "probed_at": "2026-02-13T21:02:46.996931",
+        "data_vintage": "BRFSS 2023",
+        "geographic_level": "place",
+        "status": "available"
+      }
+    },
+    "derived_fields": {
+      "safety.total_crime_rate": {
+        "formula": "violent_crime_rate + property_crime_rate",
+        "inputs": [
+          "safety.violent_crime_rate",
+          "safety.property_crime_rate"
+        ],
+        "formula_location": "score/normalizer.py:_derive_total_crime",
+        "authority_tier": 2
+      },
+      "safety.crime_trend": {
+        "formula": "(last_year_rate - first_year_rate) / years_span",
+        "inputs": [
+          "fbi.time_series[].violent_crime_rate"
+        ],
+        "formula_location": "score/normalizer.py:_build_safety",
+        "authority_tier": 2
+      },
+      "education.school_quality_tier": {
+        "formula": "excellent if avg>=8, good if avg>=6, fair if avg>=4, else poor",
+        "inputs": [
+          "education.avg_school_rating"
+        ],
+        "formula_location": "score/normalizer.py:_build_education",
+        "authority_tier": 3
+      },
+      "environment.avg_disasters_per_decade": {
+        "formula": "total_disasters / (years_span / 10)",
+        "inputs": [
+          "environment.total_disasters"
+        ],
+        "formula_location": "probe/fema_probe.py",
+        "authority_tier": 2
+      },
+      "housing.rent_burden_ratio": {
+        "formula": "(fmr_2br * 12) / median_household_income * 100",
+        "inputs": [
+          "housing.fmr_2br",
+          "economy.median_household_income"
+        ],
+        "formula_location": "score/normalizer.py:_build_housing",
+        "authority_tier": 2
+      },
+      "governance.legislative_velocity": {
+        "formula": "legislative_volume / years_of_legislative_data",
+        "inputs": [
+          "governance.legislative_volume",
+          "governance.years_of_legislative_data"
+        ],
+        "formula_location": "score/normalizer.py:_build_governance",
+        "authority_tier": 2
+      },
+      "development.yoy_trend_pct": {
+        "formula": "(current_year - prior_year) / prior_year * 100",
+        "inputs": [
+          "permit data from Socrata"
+        ],
+        "formula_location": "probe/permits_probe.py",
+        "authority_tier": 2
+      }
+    },
+    "geographic_mismatches": [
+      {
+        "field": "identity.fips_state",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "state-level data applied to city profile"
+      },
+      {
+        "field": "economy.unemployment_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Reflects statewide unemployment, not city-specific rate"
+      },
+      {
+        "field": "economy.labor_force",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: This is the full state labor force, not city-level"
+      },
+      {
+        "field": "economy.employed",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "economy.unemployed",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.violent_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: City-level requires ORI codes not currently used"
+      },
+      {
+        "field": "safety.property_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.murder_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.robbery_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.burglary_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.vehicle_theft_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.total_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA; derived sum"
+      },
+      {
+        "field": "safety.crime_trend",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "state-level data applied to city profile"
+      },
+      {
+        "field": "education.total_schools",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Count includes all schools in the state, not city"
+      },
+      {
+        "field": "education.total_enrollment",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.pupil_teacher_ratio",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Average across all state schools"
+      },
+      {
+        "field": "education.title1_pct",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.charter_pct",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.regular_schools",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.pm25_mean",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE/COUNTY-LEVEL: Averaged across all monitors in the state"
+      },
+      {
+        "field": "environment.ozone_mean",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE/COUNTY-LEVEL"
+      },
+      {
+        "field": "environment.total_disasters",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: All declarations for the state, not city-specific"
+      },
+      {
+        "field": "environment.avg_disasters_per_decade",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.most_recent_disaster",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.most_recent_disaster_type",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "housing.fmr_0br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR: Fair Market Rents at state level, not city-specific metro area"
+      },
+      {
+        "field": "housing.fmr_1br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_2br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_3br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_4br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.rent_burden_ratio",
+        "source_level": "mixed",
+        "profile_level": "place",
+        "note": "GEOGRAPHIC MISMATCH: FMR is state-level (HUD), income is city-level (Census). Ratio may be biased."
+      }
+    ]
+  },
+  "data_quality": {
+    "quality_score": 85.7,
+    "grade": "B",
+    "completeness_pct": 85.7,
+    "issue_count": 6,
+    "granularity_flags": 2
+  },
+  "officials": {
+    "body_name": "CITY COUNCIL OF THE CITY OF NAPA",
+    "members": [
+      {
+        "name": "Bernie Narvaez",
+        "email": "bnarvaez@cityofnapa.org",
+        "title": "Councilmember",
+        "start_date": "2024-12-19",
+        "committees": [
+          "HOUSING AUTHORITY"
+        ]
+      },
+      {
+        "name": "Beth Painter",
+        "email": null,
+        "title": "Councilmember",
+        "start_date": "2023-12-21",
+        "committees": [
+          "HOUSING AUTHORITY"
+        ]
+      },
+      {
+        "name": "Chris DeNatale",
+        "email": "cdenatale@cityofnapa.org",
+        "title": "Vice Mayor",
+        "start_date": "2025-12-17",
+        "committees": [
+          "HOUSING AUTHORITY"
+        ]
+      },
+      {
+        "name": "Mary Luros",
+        "email": null,
+        "title": "Councilmember",
+        "start_date": "2025-12-18",
+        "committees": [
+          "HOUSING AUTHORITY"
+        ]
+      },
+      {
+        "name": "Scott Sedgley",
+        "email": "ssedgley@cityofnapa.org",
+        "title": "Mayor",
+        "start_date": "2020-12-10",
+        "committees": [
+          "HOUSING AUTHORITY"
+        ]
+      }
+    ]
+  },
+  "recent_meetings": [
+    {
+      "date": "2026-02-17",
+      "body": "CITY COUNCIL OF THE CITY OF NAPA",
+      "location": "City Hall Council Chambers",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-03",
+      "body": "CITY COUNCIL OF THE CITY OF NAPA",
+      "location": "City Hall Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://napacity.legistar1.com/napacity/meetings/2026/2/2017_A_CITY_COUNCIL_OF_THE_CITY_OF_NAPA_26-02-03_Regular_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "HOUSING AUTHORITY",
+      "location": "City Hall Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://napacity.legistar1.com/napacity/meetings/2026/2/2018_A_HOUSING_AUTHORITY_26-02-03_Housing_Authority_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-28",
+      "body": "CITY COUNCIL OF THE CITY OF NAPA",
+      "location": "The Pelusi Building",
+      "has_agenda": true,
+      "agenda_url": "https://napacity.legistar1.com/napacity/meetings/2026/1/2026_A_CITY_COUNCIL_OF_THE_CITY_OF_NAPA_26-01-28_Special_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-20",
+      "body": "CITY COUNCIL OF THE CITY OF NAPA",
+      "location": "City Hall Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://napacity.legistar1.com/napacity/meetings/2026/1/2011_A_CITY_COUNCIL_OF_THE_CITY_OF_NAPA_26-01-20_Regular_Meeting_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "City Council Meeting Minutes",
+      "type": "Consent Calendar",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-02",
+      "file_number": "057-2026",
+      "passed_date": null
+    },
+    {
+      "title": "Authorization and Approval to Issue a No Cost Permit",
+      "type": "Consent Calendar",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-28",
+      "file_number": "045-2026",
+      "passed_date": null
+    },
+    {
+      "title": "Emergency Declaration for 36-inch Asbestos Cement Water Transmission Main Replacement",
+      "type": "Consent Calendar",
+      "status": "Passed",
+      "intro_date": "2026-01-21",
+      "file_number": "037-2026",
+      "passed_date": "2026-02-03"
+    },
+    {
+      "title": "Agreement with Walker Consultants for Consultant Services related to the Downtown Parking Structure Feasibility Study",
+      "type": "Consent Calendar",
+      "status": "Passed",
+      "intro_date": "2026-01-16",
+      "file_number": "031-2026",
+      "passed_date": "2026-02-03"
+    },
+    {
+      "title": "NVUSD False Alarm Write-off Request",
+      "type": "Consent Calendar",
+      "status": "Passed",
+      "intro_date": "2026-01-16",
+      "file_number": "033-2026",
+      "passed_date": "2026-02-03"
+    },
+    {
+      "title": "Update of Citywide User Fees",
+      "type": "Afternoon Public Hearings",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-15",
+      "file_number": "028-2026",
+      "passed_date": null
+    },
+    {
+      "title": "Napa Countywide Road Maintenance Act (Measure T) - Equivalent Fund Expenditures",
+      "type": "Consent Calendar",
+      "status": "Passed",
+      "intro_date": "2026-01-15",
+      "file_number": "030-2026",
+      "passed_date": "2026-02-03"
+    },
+    {
+      "title": "Amendment of Napa Municipal Code Section 5.04.210 Business License Application Procedures",
+      "type": "Afternoon Consent Hearing",
+      "status": "Passed",
+      "intro_date": "2026-01-15",
+      "file_number": "027-2026",
+      "passed_date": "2026-02-03"
+    },
+    {
+      "title": "CONFERENCE WITH LEGAL COUNSEL – EXISTING LITIGATION\r\nPursuant to Government Code Section 54956.9(d)(1)\r\nHagstrom Properties, LLC v. Napa Sanitation District, City of Napa, et al.\r\nUnited States Distri",
+      "type": "Closed Session",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-14",
+      "file_number": "024-2026",
+      "passed_date": "2026-01-20"
+    },
+    {
+      "title": "City Manager Employment Agreement",
+      "type": "Afternoon Administrative Report",
+      "status": "Passed",
+      "intro_date": "2026-01-14",
+      "file_number": "025-2026",
+      "passed_date": "2026-01-20"
+    }
+  ],
+  "legistar_url": "https://napacity.legistar.com",
+  "enriched_at": "2026-02-13T20:06:39.333840",
+  "government_news": [],
+  "video_meetings": [],
+  "data_platforms": [
+    "legistar"
+  ]
+}

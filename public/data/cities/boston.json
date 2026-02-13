@@ -1,1 +1,1119 @@
-{"schema_version":"5.0","normalized_at":"2026-02-10T14:21:48.968037","identity":{"name":"Boston","state":"MA","fips_state":"25","fips_place":"07000","population":665945},"city_website":"https://www.boston.gov","economy":{"median_household_income":89212,"median_home_value":684900,"unemployment_rate":3.92,"unemployment_data_level":"county","labor_force":463363,"employed":445173,"unemployed":18190,"gini_index":null,"poverty_rate":17.47,"homeownership_rate":34.84,"rent_to_income_ratio":26.65,"home_value_to_income_ratio":7.68,"price_to_rent_ratio":28.81,"effective_tax_rate":7.1853,"population_growth_cagr":0.8363,"median_real_estate_taxes":4101},"safety":{"violent_crime_rate":null,"property_crime_rate":null,"murder_rate":null,"robbery_rate":null,"burglary_rate":null,"vehicle_theft_rate":null,"total_crime_rate":null,"crime_trend":null,"crime_data_level":null},"education":{"total_schools":1862,"total_enrollment":913735,"pupil_teacher_ratio":12.0,"title1_pct":0.0,"charter_pct":4.2,"regular_schools":1789,"avg_school_rating":4.1,"rated_schools":108,"school_quality_tier":"fair"},"environment":{"pm25_mean":7.2932,"ozone_mean":0.0356,"total_disasters":38,"avg_disasters_per_decade":6.3,"most_recent_disaster":"2023-09-15","most_recent_disaster_type":"Hurricane","disasters_by_type":{"Snowstorm":9,"Hurricane":8,"Severe Storm":7,"Flood":6,"Biological":2,"Coastal Storm":2,"Terrorist":1,"Other":1,"Fire":1,"Fishing Losses":1}},"housing":{"median_rent":1981,"housing_units":304079,"fmr_0br":1433,"fmr_1br":1584,"fmr_2br":2056,"fmr_3br":2548,"fmr_4br":2825,"rent_burden_ratio":27.7,"cost_burdened_pct":47.47,"severely_burdened_pct":24.45},"governance":{"legislative_volume":35937,"legislative_velocity":461.3,"committee_count":9,"years_of_legislative_data":77.9,"has_public_meetings":true,"api_accessible":true,"matter_types":{"Consent Agenda Resolution":373,"Report of Public Officer":175,"Council Hearing Order":150,"Council Legislative Resolution":77,"Mayor Order":73,"Personnel Orders":41,"Matters Recently Heard-For Possible Action":33,"Committee Reports":23,"Green Sheet":16,"Council Home Rule Petition":15,"Council Ordinance":14,"Council 17F Order":7,"Council Order":3},"top_matter_type":"Consent Agenda Resolution","matter_statuses":{"Agenda Ready":437,"Passed":250,"Filed":198,"Referred":106,"Withdrawn":7,"Confirmed":2},"pass_rate":33.3,"passed_count":11979,"active_council_members":13,"avg_tenure_years":2.0,"vote_coverage_pct":0.0,"video_availability_pct":0.0,"agenda_availability_pct":99.4,"minutes_availability_pct":9.2,"avg_meetings_per_month":17.1,"meetings_by_year":{"2026":90,"2025":313,"2024":97},"avg_sponsors_per_matter":1.2,"avg_attachments_per_matter":0.9,"pct_with_text_versions":100.0,"index_categories":[],"has_accela":false,"accela_agency_id":null},"development":{"permits_12mo":null,"yoy_trend_pct":null,"avg_permit_value":null,"permit_types":{},"datasets_count":0},"meetings":{"official_channels":1,"meetings_indexed":23,"avg_meetings_per_month":1.4,"has_video_archive":true,"meeting_types":{"city_council":21,"other":2},"transcripts_available":23},"civic_issues":{"total_issues":15233,"issues_last_30d":0,"issues_last_365d":1,"resolution_rate":86.6,"top_issue_type":"Other","type_distribution":{"Other":63,"Litter":11,"Pothole":6,"Damaged Sign":5,"Broken Sidewalk":3,"Illegal Parking":3,"Traffic Signal":2,"Overflowing Trash Can":2,"BigBelly Repair Request (Internal)":1,"Street Lights":1,"Broken Park Equipment":1,"Illegal Graffiti":1,"Rodent Sighting":1},"has_civic_issue_tracking":true},"demographics":{"population":665945,"poverty_universe":627842,"employment_universe":572185},"time_series":{"economy_history":[{"year":2024,"unemployment_rate":3.92,"labor_force":463363,"employed":445173,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2023,"unemployment_rate":3.38,"labor_force":451394,"employed":436041,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2022,"unemployment_rate":3.56,"labor_force":445046,"employed":429234,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2021,"unemployment_rate":5.52,"labor_force":442775,"employed":418310,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2020,"unemployment_rate":10.16,"labor_force":457047,"employed":410829,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2019,"unemployment_rate":2.71,"labor_force":468177,"employed":455470,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2018,"unemployment_rate":3.07,"labor_force":464059,"employed":449770,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2017,"unemployment_rate":3.44,"labor_force":453041,"employed":437510,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2016,"unemployment_rate":3.58,"labor_force":442866,"employed":426967,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2015,"unemployment_rate":4.41,"labor_force":424669,"employed":405965,"data_level":"county","source":"bls_laus","is_partial_year":false}],"safety_history":[],"environment_history":[{"year":2023,"pm25_mean":7.2932,"ozone_mean":0.0356,"data_level":"county","source":"epa_aqs"},{"year":2022,"pm25_mean":6.394,"ozone_mean":0.037,"data_level":"county","source":"epa_aqs"},{"year":2021,"pm25_mean":7.0357,"ozone_mean":0.0346,"data_level":"county","source":"epa_aqs"},{"year":2020,"pm25_mean":6.752,"ozone_mean":0.0342,"data_level":"county","source":"epa_aqs"},{"year":2019,"pm25_mean":6.3369,"ozone_mean":0.035,"data_level":"county","source":"epa_aqs"},{"year":2018,"pm25_mean":7.0769,"ozone_mean":0.0348,"data_level":"county","source":"epa_aqs"}]},"data_sources":{"legistar":"available","socrata":"available","census_acs":"available","arcgis":"available","fbi_ucr":"available","socrata_crime":"available","bls_laus":"available","ca_edd":"skipped","epa_aqs":"available","nces_ccd":"available","hud_fmr":"available","fema_openfema":"available","greatschools":"available","permits":"skipped","youtube_meetings":"available","seeclickfix":"available","accela":"available"},"provenance":{"last_full_probe":"2026-02-09T21:24:33.454761","sources":{"legistar":{"authority":"Legistar by Granicus","authority_tier":1,"api_url":"https://webapi.legistar.com/v1/boston/Bodies","probed_at":"2026-02-09T21:24:33.455135","data_vintage":"2005\u20132026","geographic_level":"place","status":"available"},"socrata":{"authority":"City Open Data Portals (Socrata/Tyler Data & Insights)","authority_tier":1,"api_url":null,"probed_at":"2026-02-09T21:25:58.828139","data_vintage":null,"geographic_level":"place","status":"available"},"census_acs":{"authority":"US Census Bureau","authority_tier":1,"api_url":"https://api.census.gov/data/2022/acs/acs5?get=NAME,B01001_001E,B19013_001E,B25077_001E,B25064_001E,B25001_001E&for=place:07000&in=state:25","probed_at":"2026-02-09T21:26:09.451190","data_vintage":"ACS 5-Year 2022","geographic_level":"place","status":"available"},"arcgis":{"authority":"City ArcGIS/GIS Portals","authority_tier":1,"api_url":null,"probed_at":"2026-02-09T21:26:13.461251","data_vintage":null,"geographic_level":"place","status":"available"},"fbi_ucr":{"authority":"FBI Uniform Crime Reporting Program","authority_tier":1,"api_url":"https://api.usa.gov/crime/fbi/sapi/api/estimates/states/MA/2015/2022","probed_at":"2026-02-09T21:26:15.437787","data_vintage":null,"geographic_level":"state","status":"available"},"bls_laus":{"authority":"Bureau of Labor Statistics","authority_tier":1,"api_url":"https://api.bls.gov/publicAPI/v2/timeseries/data/LAUST250000000000003","probed_at":"2026-02-09T21:26:59.562055","data_vintage":"LAUS 2024","geographic_level":"state","status":"available"},"epa_aqs":{"authority":"US Environmental Protection Agency","authority_tier":1,"api_url":"https://aqs.epa.gov/data/api/annualData/byState?state=25&param=88101","probed_at":"2026-02-09T21:27:00.678874","data_vintage":"AQS 2023","geographic_level":"state","status":"available"},"nces_ccd":{"authority":"National Center for Education Statistics","authority_tier":1,"api_url":"https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=25","probed_at":"2026-02-09T21:27:42.236004","data_vintage":"2022-2023 academic year","geographic_level":"state","status":"available"},"hud_fmr":{"authority":"US Department of Housing and Urban Development","authority_tier":1,"api_url":"https://www.huduser.gov/hudapi/public/fmr/statedata/MA","probed_at":"2026-02-09T21:27:46.998532","data_vintage":"FY2026","geographic_level":"state","status":"available"},"fema_openfema":{"authority":"Federal Emergency Management Agency","authority_tier":1,"api_url":"https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries?$filter=state eq 'MA'","probed_at":"2026-02-09T21:27:52.631549","data_vintage":"1953-present","geographic_level":"state","status":"available"},"greatschools":{"authority":"GreatSchools.org (nonprofit)","authority_tier":3,"api_url":null,"probed_at":"2026-02-09T21:27:52.959300","data_vintage":null,"geographic_level":"place","status":"available"},"permits":{"authority":"City Open Data Portals (Socrata)","authority_tier":1,"api_url":null,"probed_at":"2026-02-09T21:27:54.649018","data_vintage":null,"geographic_level":"place","status":"skipped"},"youtube_meetings":{"authority":"YouTube (via SerpAPI search + youtube-transcript-api)","authority_tier":3,"api_url":null,"probed_at":"2026-02-09T21:27:54.649402","data_vintage":null,"geographic_level":"place","status":"available"},"seeclickfix":{"authority":"SeeClickFix (civic issue tracking platform)","authority_tier":3,"api_url":"https://seeclickfix.com/api/v2/issues?place_url=boston","probed_at":"2026-02-09T21:29:39.584092","data_vintage":null,"geographic_level":"place","status":"available"},"accela":{"authority":"Accela (permit management platform)","authority_tier":3,"api_url":"https://apis.accela.com/v4/agencies","probed_at":"2026-02-09T21:29:53.499004","data_vintage":null,"geographic_level":"place","status":"available"},"socrata_crime":{"authority":"City Open Data Portals (Socrata)","authority_tier":1,"api_url":null,"probed_at":"2026-02-09T21:26:59.135098","data_vintage":null,"geographic_level":"place","status":"available"}},"derived_fields":{"safety.total_crime_rate":{"formula":"violent_crime_rate + property_crime_rate","inputs":["safety.violent_crime_rate","safety.property_crime_rate"],"formula_location":"score/normalizer.py:_derive_total_crime","authority_tier":2},"safety.crime_trend":{"formula":"(last_year_rate - first_year_rate) / years_span","inputs":["fbi.time_series[].violent_crime_rate"],"formula_location":"score/normalizer.py:_build_safety","authority_tier":2},"education.school_quality_tier":{"formula":"excellent if avg>=8, good if avg>=6, fair if avg>=4, else poor","inputs":["education.avg_school_rating"],"formula_location":"score/normalizer.py:_build_education","authority_tier":3},"environment.avg_disasters_per_decade":{"formula":"total_disasters / (years_span / 10)","inputs":["environment.total_disasters"],"formula_location":"probe/fema_probe.py","authority_tier":2},"housing.rent_burden_ratio":{"formula":"(fmr_2br * 12) / median_household_income * 100","inputs":["housing.fmr_2br","economy.median_household_income"],"formula_location":"score/normalizer.py:_build_housing","authority_tier":2},"governance.legislative_velocity":{"formula":"legislative_volume / years_of_legislative_data","inputs":["governance.legislative_volume","governance.years_of_legislative_data"],"formula_location":"score/normalizer.py:_build_governance","authority_tier":2},"development.yoy_trend_pct":{"formula":"(current_year - prior_year) / prior_year * 100","inputs":["permit data from Socrata"],"formula_location":"probe/permits_probe.py","authority_tier":2}},"geographic_mismatches":[{"field":"identity.fips_state","source_level":"state","profile_level":"place","note":"state-level data applied to city profile"},{"field":"economy.unemployment_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Reflects statewide unemployment, not city-specific rate"},{"field":"economy.labor_force","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: This is the full state labor force, not city-level"},{"field":"economy.employed","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"economy.unemployed","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.violent_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: City-level requires ORI codes not currently used"},{"field":"safety.property_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.murder_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.robbery_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.burglary_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.vehicle_theft_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.total_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA; derived sum"},{"field":"safety.crime_trend","source_level":"state","profile_level":"place","note":"state-level data applied to city profile"},{"field":"education.total_schools","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Count includes all schools in the state, not city"},{"field":"education.total_enrollment","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.pupil_teacher_ratio","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Average across all state schools"},{"field":"education.title1_pct","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.charter_pct","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.regular_schools","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.pm25_mean","source_level":"state","profile_level":"place","note":"STATE/COUNTY-LEVEL: Averaged across all monitors in the state"},{"field":"environment.ozone_mean","source_level":"state","profile_level":"place","note":"STATE/COUNTY-LEVEL"},{"field":"environment.total_disasters","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: All declarations for the state, not city-specific"},{"field":"environment.avg_disasters_per_decade","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.most_recent_disaster","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.most_recent_disaster_type","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"housing.fmr_0br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR: Fair Market Rents at state level, not city-specific metro area"},{"field":"housing.fmr_1br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_2br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_3br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_4br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.rent_burden_ratio","source_level":"mixed","profile_level":"place","note":"GEOGRAPHIC MISMATCH: FMR is state-level (HUD), income is city-level (Census). Ratio may be biased."}]},"data_quality":{"quality_score":100.0,"grade":"A","completeness_pct":100.0,"issue_count":4,"granularity_flags":0},"officials":{"body_name":"City Council","members":[{"name":"Benjamin Jacob Weber","email":"benjamin.weber@boston.gov","title":"City Councilor","start_date":"2024-01-01"},{"name":"Brian Worrell","email":"Brian.Worrell@boston.gov","title":"City Councilor","start_date":"2024-01-01"},{"name":"Ed Flynn","email":"ed.flynn@boston.gov","title":"City Councilor","start_date":"2024-01-01"},{"name":"Enrique Pep\u00e9n","email":"enrique.pepen@boston.gov","title":"City Councilor","start_date":"2024-01-01"},{"name":"Erin Murphy","email":"erin.murphy@boston.gov","title":"City Councilor","start_date":"2024-01-01"},{"name":"Gabriela Coletta Zapata","email":"gabriela.coletta@boston.gov","title":"City Councilor","start_date":"2024-01-01"},{"name":"Henry Santana","email":"henry.santana@boston.gov","title":"City Councilor","start_date":"2024-01-01"},{"name":"John FitzGerald","email":"John.FitzGerald@boston.gov","title":"City Councilor","start_date":"2024-01-01"},{"name":"Julia Mejia","email":"julia.mejia@boston.gov","title":"City Councilor","start_date":"2024-01-01"},{"name":"Liz Breadon","email":"liz.breadon@boston.gov","title":"City Council President","start_date":"2024-01-01"},{"name":"Miniard Culpepper","email":"miniard.culpepper@boston.gov","title":"City Councilor","start_date":"2026-01-05"},{"name":"Ruthzee Louijeune","email":"Ruthzee.Louijeune@boston.gov","title":"City Councilor","start_date":"2024-01-01"},{"name":"Sharon Durkan","email":"sharon.durkan@boston.gov","title":"City Councilor","start_date":"2024-01-01"}]},"recent_meetings":[{"date":"2026-02-18","body":"Disability Commission Advisory Board","location":"Room 801, City Hall","has_agenda":true,"agenda_url":"https://boston.legistar1.com/boston/meetings/2026/2/14064_A_Disability_Commission_Advisory_Board_26-02-18_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":true},{"date":"2026-02-24","body":"Zoning Board of Appeal","location":"Room 801, City Hall","has_agenda":true,"agenda_url":"https://boston.legistar1.com/boston/meetings/2026/2/14015_A_Zoning_Board_of_Appeal_26-02-24_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":true},{"date":"2026-02-25","body":"Public Facilities","location":"Room 801, City Hall","has_agenda":true,"agenda_url":"https://boston.legistar1.com/boston/meetings/2026/2/14075_A_Public_Facilities_26-02-25_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":true},{"date":"2026-02-26","body":"Public Improvement Commission","location":null,"has_agenda":true,"agenda_url":"https://boston.legistar1.com/boston/meetings/2026/2/14039_A_Public_Improvement_Commission_26-02-26_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":true},{"date":"2026-03-04","body":"Boston School Committee","location":"Virtual","has_agenda":true,"agenda_url":"https://boston.legistar1.com/boston/meetings/2026/3/14048_A_Boston_School_Committee_26-03-04_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":true},{"date":"2026-03-10","body":"Zoning Board of Appeal","location":"Room 801, City Hall","has_agenda":true,"agenda_url":"https://boston.legistar1.com/boston/meetings/2026/3/14016_A_Zoning_Board_of_Appeal_26-03-10_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":true},{"date":"2026-03-12","body":"Public Improvement Commission","location":null,"has_agenda":true,"agenda_url":"https://boston.legistar1.com/boston/meetings/2026/3/14040_A_Public_Improvement_Commission_26-03-12_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":true},{"date":"2026-02-12","body":"Public Improvement Commission","location":null,"has_agenda":true,"agenda_url":"https://boston.legistar1.com/boston/meetings/2026/2/14038_A_Public_Improvement_Commission_26-02-12_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-12","body":"BPDA Board of Directors","location":"Room 900, City Hall","has_agenda":true,"agenda_url":"https://boston.legistar1.com/boston/meetings/2026/2/13927_A_BPDA_Board_of_Directors_26-02-12_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-12","body":"Boston School Committee","location":"Virtual","has_agenda":true,"agenda_url":"https://boston.legistar1.com/boston/meetings/2026/2/14047_A_Boston_School_Committee_26-02-12_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-11","body":"City Council","location":"Council Chambers","has_agenda":true,"agenda_url":"https://boston.legistar1.com/boston/meetings/2026/2/14090_A_City_Council_26-02-11_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-09","body":"City Council","location":"Ways & Means Committee Hearing on Dockets #0128 and #0129","has_agenda":true,"agenda_url":"https://boston.legistar1.com/boston/meetings/2026/2/14091_A_City_Council_26-02-09_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-04","body":"Boston School Committee","location":"Virtual","has_agenda":true,"agenda_url":"https://boston.legistar1.com/boston/meetings/2026/2/14046_A_Boston_School_Committee_26-02-04_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-04","body":"City Council","location":"Council Chambers","has_agenda":true,"agenda_url":"https://boston.legistar1.com/boston/meetings/2026/2/14087_A_City_Council_26-02-04_Meeting_Agenda.pdf","has_minutes":true,"has_video":false,"upcoming":false},{"date":"2026-02-03","body":"Zoning Board of Appeal","location":"Room 801, City Hall","has_agenda":true,"agenda_url":"https://boston.legistar1.com/boston/meetings/2026/2/14014_A_Zoning_Board_of_Appeal_26-02-03_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-02","body":"City Council","location":"Committee of the Whole Hearing on Dockets #0124, #0125, #0126, and #0127","has_agenda":true,"agenda_url":"https://boston.legistar1.com/boston/meetings/2026/2/14089_A_City_Council_26-02-02_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-01-29","body":"Public Improvement Commission","location":null,"has_agenda":true,"agenda_url":"https://boston.legistar1.com/boston/meetings/2026/1/14036_A_Public_Improvement_Commission_26-01-29_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false}],"recent_legislation":[{"title":"Order for a hearing to discuss the educational and workforce development past successes and future opportunities of youth jobs offered by the City of Boston.","type":"Council Hearing Order","status":"Agenda Ready","intro_date":"2026-02-09","file_number":"2026-0344","passed_date":null},{"title":"Ordinance regulating all e-bikes in the City of Boston.","type":"Council Ordinance","status":"Agenda Ready","intro_date":"2026-02-09","file_number":"2026-0326","passed_date":null},{"title":"Resolution in memory of Edward T. Donovan.","type":"Consent Agenda Resolution","status":"Agenda Ready","intro_date":"2026-02-09","file_number":"2026-0367","passed_date":null},{"title":"Resolution to embrace and extend heartfelt wishes to the beloved Muslim community in Boston, Massachusetts, throughout the United States, and across the globe, invoking blessings upon them as they emb","type":"Council Legislative Resolution","status":"Agenda Ready","intro_date":"2026-02-09","file_number":"2026-0359","passed_date":null},{"title":"Order for a hearing to explore the inclusion of pollinator corridors as part of sustainable development.","type":"Council Hearing Order","status":"Agenda Ready","intro_date":"2026-02-09","file_number":"2026-0346","passed_date":null},{"title":"Resolution in support of \"An Executive Order to Protect Bostonians from Unconstitutional and Violent Federal Operations.\"","type":"Council Legislative Resolution","status":"Agenda Ready","intro_date":"2026-02-09","file_number":"2026-0356","passed_date":null},{"title":"Communication from Councilor Murphy re: Public access to City Council working sessions and hearings.","type":"Report of Public Officer","status":"Agenda Ready","intro_date":"2026-02-09","file_number":"2026-0323","passed_date":null},{"title":"Order for a hearing to examine graduation requirement implementation, waivers, and equity in Boston Public Schools.","type":"Council Hearing Order","status":"Agenda Ready","intro_date":"2026-02-09","file_number":"2026-0342","passed_date":null},{"title":"Resolution recognizing Irish-American Heritage Month.","type":"Council Legislative Resolution","status":"Agenda Ready","intro_date":"2026-02-09","file_number":"2026-0358","passed_date":null},{"title":"Order for a hearing to continue exploring strategies for developing mixed-income social housing to increase housing access and affordability for all Bostonians.","type":"Council Hearing Order","status":"Agenda Ready","intro_date":"2026-02-09","file_number":"2026-0343","passed_date":null}],"legistar_url":"https://boston.legistar.com","enriched_at":"2026-02-13T20:01:16.605423","government_news":[],"video_meetings":[],"data_platforms":["legistar"]}
+{
+  "schema_version": "5.0",
+  "normalized_at": "2026-02-10T14:21:48.968037",
+  "identity": {
+    "name": "Boston",
+    "state": "MA",
+    "fips_state": "25",
+    "fips_place": "07000",
+    "population": 665945
+  },
+  "city_website": "https://www.boston.gov",
+  "economy": {
+    "median_household_income": 89212,
+    "median_home_value": 684900,
+    "unemployment_rate": 3.92,
+    "unemployment_data_level": "county",
+    "labor_force": 463363,
+    "employed": 445173,
+    "unemployed": 18190,
+    "gini_index": null,
+    "poverty_rate": 17.47,
+    "homeownership_rate": 34.84,
+    "rent_to_income_ratio": 26.65,
+    "home_value_to_income_ratio": 7.68,
+    "price_to_rent_ratio": 28.81,
+    "effective_tax_rate": 7.1853,
+    "population_growth_cagr": 0.8363,
+    "median_real_estate_taxes": 4101
+  },
+  "safety": {
+    "violent_crime_rate": null,
+    "property_crime_rate": null,
+    "murder_rate": null,
+    "robbery_rate": null,
+    "burglary_rate": null,
+    "vehicle_theft_rate": null,
+    "total_crime_rate": null,
+    "crime_trend": null,
+    "crime_data_level": null
+  },
+  "education": {
+    "total_schools": 1862,
+    "total_enrollment": 913735,
+    "pupil_teacher_ratio": 12.0,
+    "title1_pct": 0.0,
+    "charter_pct": 4.2,
+    "regular_schools": 1789,
+    "avg_school_rating": 4.1,
+    "rated_schools": 108,
+    "school_quality_tier": "fair"
+  },
+  "environment": {
+    "pm25_mean": 7.2932,
+    "ozone_mean": 0.0356,
+    "total_disasters": 38,
+    "avg_disasters_per_decade": 6.3,
+    "most_recent_disaster": "2023-09-15",
+    "most_recent_disaster_type": "Hurricane",
+    "disasters_by_type": {
+      "Snowstorm": 9,
+      "Hurricane": 8,
+      "Severe Storm": 7,
+      "Flood": 6,
+      "Biological": 2,
+      "Coastal Storm": 2,
+      "Terrorist": 1,
+      "Other": 1,
+      "Fire": 1,
+      "Fishing Losses": 1
+    }
+  },
+  "housing": {
+    "median_rent": 1981,
+    "housing_units": 304079,
+    "fmr_0br": 1433,
+    "fmr_1br": 1584,
+    "fmr_2br": 2056,
+    "fmr_3br": 2548,
+    "fmr_4br": 2825,
+    "rent_burden_ratio": 27.7,
+    "cost_burdened_pct": 47.47,
+    "severely_burdened_pct": 24.45
+  },
+  "health": {
+    "uninsured_pct": 6.3,
+    "obesity_pct": 25.1,
+    "diabetes_pct": 10.3,
+    "depression_pct": 22.8,
+    "asthma_pct": 11.7,
+    "smoking_pct": 11.8,
+    "physical_inactivity_pct": 24.8,
+    "mental_health_bad_days": 16.9,
+    "physical_health_bad_days": 12.1,
+    "sleep_deficit_pct": 34.1,
+    "high_blood_pressure_pct": 29.5,
+    "high_cholesterol_pct": 32.6,
+    "heart_disease_pct": 5.2,
+    "stroke_pct": 3.1,
+    "cancer_pct": 6.2,
+    "kidney_disease_pct": null,
+    "checkup_pct": 79.9,
+    "data_year": "2023"
+  },
+  "governance": {
+    "legislative_volume": 35937,
+    "legislative_velocity": 461.3,
+    "committee_count": 9,
+    "years_of_legislative_data": 77.9,
+    "has_public_meetings": true,
+    "api_accessible": true,
+    "matter_types": {
+      "Consent Agenda Resolution": 373,
+      "Report of Public Officer": 175,
+      "Council Hearing Order": 150,
+      "Council Legislative Resolution": 77,
+      "Mayor Order": 73,
+      "Personnel Orders": 41,
+      "Matters Recently Heard-For Possible Action": 33,
+      "Committee Reports": 23,
+      "Green Sheet": 16,
+      "Council Home Rule Petition": 15,
+      "Council Ordinance": 14,
+      "Council 17F Order": 7,
+      "Council Order": 3
+    },
+    "top_matter_type": "Consent Agenda Resolution",
+    "matter_statuses": {
+      "Agenda Ready": 437,
+      "Passed": 250,
+      "Filed": 198,
+      "Referred": 106,
+      "Withdrawn": 7,
+      "Confirmed": 2
+    },
+    "pass_rate": 33.3,
+    "passed_count": 11979,
+    "active_council_members": 13,
+    "avg_tenure_years": 2.0,
+    "vote_coverage_pct": 0.0,
+    "video_availability_pct": 0.0,
+    "agenda_availability_pct": 99.4,
+    "minutes_availability_pct": 9.2,
+    "avg_meetings_per_month": 17.1,
+    "meetings_by_year": {
+      "2026": 90,
+      "2025": 313,
+      "2024": 97
+    },
+    "avg_sponsors_per_matter": 1.2,
+    "avg_attachments_per_matter": 0.9,
+    "pct_with_text_versions": 100.0,
+    "index_categories": [],
+    "has_accela": false,
+    "accela_agency_id": null
+  },
+  "development": {
+    "permits_12mo": null,
+    "yoy_trend_pct": null,
+    "avg_permit_value": null,
+    "permit_types": {},
+    "datasets_count": 0
+  },
+  "meetings": {
+    "official_channels": 1,
+    "meetings_indexed": 23,
+    "avg_meetings_per_month": 1.4,
+    "has_video_archive": true,
+    "meeting_types": {
+      "city_council": 21,
+      "other": 2
+    },
+    "transcripts_available": 23
+  },
+  "civic_issues": {
+    "total_issues": 15233,
+    "issues_last_30d": 0,
+    "issues_last_365d": 1,
+    "resolution_rate": 86.6,
+    "top_issue_type": "Other",
+    "type_distribution": {
+      "Other": 63,
+      "Litter": 11,
+      "Pothole": 6,
+      "Damaged Sign": 5,
+      "Broken Sidewalk": 3,
+      "Illegal Parking": 3,
+      "Traffic Signal": 2,
+      "Overflowing Trash Can": 2,
+      "BigBelly Repair Request (Internal)": 1,
+      "Street Lights": 1,
+      "Broken Park Equipment": 1,
+      "Illegal Graffiti": 1,
+      "Rodent Sighting": 1
+    },
+    "has_civic_issue_tracking": true
+  },
+  "demographics": {
+    "population": 665945,
+    "poverty_universe": 627842,
+    "employment_universe": 572185
+  },
+  "time_series": {
+    "economy_history": [
+      {
+        "year": 2024,
+        "unemployment_rate": 3.92,
+        "labor_force": 463363,
+        "employed": 445173,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2023,
+        "unemployment_rate": 3.38,
+        "labor_force": 451394,
+        "employed": 436041,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2022,
+        "unemployment_rate": 3.56,
+        "labor_force": 445046,
+        "employed": 429234,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2021,
+        "unemployment_rate": 5.52,
+        "labor_force": 442775,
+        "employed": 418310,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2020,
+        "unemployment_rate": 10.16,
+        "labor_force": 457047,
+        "employed": 410829,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2019,
+        "unemployment_rate": 2.71,
+        "labor_force": 468177,
+        "employed": 455470,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2018,
+        "unemployment_rate": 3.07,
+        "labor_force": 464059,
+        "employed": 449770,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2017,
+        "unemployment_rate": 3.44,
+        "labor_force": 453041,
+        "employed": 437510,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2016,
+        "unemployment_rate": 3.58,
+        "labor_force": 442866,
+        "employed": 426967,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2015,
+        "unemployment_rate": 4.41,
+        "labor_force": 424669,
+        "employed": 405965,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      }
+    ],
+    "safety_history": [],
+    "environment_history": [
+      {
+        "year": 2023,
+        "pm25_mean": 7.2932,
+        "ozone_mean": 0.0356,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2022,
+        "pm25_mean": 6.394,
+        "ozone_mean": 0.037,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2021,
+        "pm25_mean": 7.0357,
+        "ozone_mean": 0.0346,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2020,
+        "pm25_mean": 6.752,
+        "ozone_mean": 0.0342,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2019,
+        "pm25_mean": 6.3369,
+        "ozone_mean": 0.035,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2018,
+        "pm25_mean": 7.0769,
+        "ozone_mean": 0.0348,
+        "data_level": "county",
+        "source": "epa_aqs"
+      }
+    ]
+  },
+  "data_sources": {
+    "legistar": "available",
+    "socrata": "available",
+    "census_acs": "available",
+    "arcgis": "available",
+    "fbi_ucr": "available",
+    "socrata_crime": "available",
+    "bls_laus": "available",
+    "ca_edd": "skipped",
+    "epa_aqs": "available",
+    "nces_ccd": "available",
+    "hud_fmr": "available",
+    "fema_openfema": "available",
+    "greatschools": "available",
+    "permits": "skipped",
+    "youtube_meetings": "available",
+    "seeclickfix": "available",
+    "accela": "available",
+    "cdc_places": "available"
+  },
+  "provenance": {
+    "last_full_probe": "2026-02-09T21:24:33.454761",
+    "sources": {
+      "legistar": {
+        "authority": "Legistar by Granicus",
+        "authority_tier": 1,
+        "api_url": "https://webapi.legistar.com/v1/boston/Bodies",
+        "probed_at": "2026-02-09T21:24:33.455135",
+        "data_vintage": "2005–2026",
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "socrata": {
+        "authority": "City Open Data Portals (Socrata/Tyler Data & Insights)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-09T21:25:58.828139",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "census_acs": {
+        "authority": "US Census Bureau",
+        "authority_tier": 1,
+        "api_url": "https://api.census.gov/data/2022/acs/acs5?get=NAME,B01001_001E,B19013_001E,B25077_001E,B25064_001E,B25001_001E&for=place:07000&in=state:25",
+        "probed_at": "2026-02-09T21:26:09.451190",
+        "data_vintage": "ACS 5-Year 2022",
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "arcgis": {
+        "authority": "City ArcGIS/GIS Portals",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-09T21:26:13.461251",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "fbi_ucr": {
+        "authority": "FBI Uniform Crime Reporting Program",
+        "authority_tier": 1,
+        "api_url": "https://api.usa.gov/crime/fbi/sapi/api/estimates/states/MA/2015/2022",
+        "probed_at": "2026-02-09T21:26:15.437787",
+        "data_vintage": null,
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "bls_laus": {
+        "authority": "Bureau of Labor Statistics",
+        "authority_tier": 1,
+        "api_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/LAUST250000000000003",
+        "probed_at": "2026-02-09T21:26:59.562055",
+        "data_vintage": "LAUS 2024",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "epa_aqs": {
+        "authority": "US Environmental Protection Agency",
+        "authority_tier": 1,
+        "api_url": "https://aqs.epa.gov/data/api/annualData/byState?state=25&param=88101",
+        "probed_at": "2026-02-09T21:27:00.678874",
+        "data_vintage": "AQS 2023",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "nces_ccd": {
+        "authority": "National Center for Education Statistics",
+        "authority_tier": 1,
+        "api_url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=25",
+        "probed_at": "2026-02-09T21:27:42.236004",
+        "data_vintage": "2022-2023 academic year",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "hud_fmr": {
+        "authority": "US Department of Housing and Urban Development",
+        "authority_tier": 1,
+        "api_url": "https://www.huduser.gov/hudapi/public/fmr/statedata/MA",
+        "probed_at": "2026-02-09T21:27:46.998532",
+        "data_vintage": "FY2026",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "fema_openfema": {
+        "authority": "Federal Emergency Management Agency",
+        "authority_tier": 1,
+        "api_url": "https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries?$filter=state eq 'MA'",
+        "probed_at": "2026-02-09T21:27:52.631549",
+        "data_vintage": "1953-present",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "greatschools": {
+        "authority": "GreatSchools.org (nonprofit)",
+        "authority_tier": 3,
+        "api_url": null,
+        "probed_at": "2026-02-09T21:27:52.959300",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "permits": {
+        "authority": "City Open Data Portals (Socrata)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-09T21:27:54.649018",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "youtube_meetings": {
+        "authority": "YouTube (via SerpAPI search + youtube-transcript-api)",
+        "authority_tier": 3,
+        "api_url": null,
+        "probed_at": "2026-02-09T21:27:54.649402",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "seeclickfix": {
+        "authority": "SeeClickFix (civic issue tracking platform)",
+        "authority_tier": 3,
+        "api_url": "https://seeclickfix.com/api/v2/issues?place_url=boston",
+        "probed_at": "2026-02-09T21:29:39.584092",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "accela": {
+        "authority": "Accela (permit management platform)",
+        "authority_tier": 3,
+        "api_url": "https://apis.accela.com/v4/agencies",
+        "probed_at": "2026-02-09T21:29:53.499004",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "socrata_crime": {
+        "authority": "City Open Data Portals (Socrata)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-09T21:26:59.135098",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "cdc_places": {
+        "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
+        "authority_tier": 1,
+        "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Boston",
+        "probed_at": "2026-02-13T21:01:08.513943",
+        "data_vintage": "BRFSS 2023",
+        "geographic_level": "place",
+        "status": "available"
+      }
+    },
+    "derived_fields": {
+      "safety.total_crime_rate": {
+        "formula": "violent_crime_rate + property_crime_rate",
+        "inputs": [
+          "safety.violent_crime_rate",
+          "safety.property_crime_rate"
+        ],
+        "formula_location": "score/normalizer.py:_derive_total_crime",
+        "authority_tier": 2
+      },
+      "safety.crime_trend": {
+        "formula": "(last_year_rate - first_year_rate) / years_span",
+        "inputs": [
+          "fbi.time_series[].violent_crime_rate"
+        ],
+        "formula_location": "score/normalizer.py:_build_safety",
+        "authority_tier": 2
+      },
+      "education.school_quality_tier": {
+        "formula": "excellent if avg>=8, good if avg>=6, fair if avg>=4, else poor",
+        "inputs": [
+          "education.avg_school_rating"
+        ],
+        "formula_location": "score/normalizer.py:_build_education",
+        "authority_tier": 3
+      },
+      "environment.avg_disasters_per_decade": {
+        "formula": "total_disasters / (years_span / 10)",
+        "inputs": [
+          "environment.total_disasters"
+        ],
+        "formula_location": "probe/fema_probe.py",
+        "authority_tier": 2
+      },
+      "housing.rent_burden_ratio": {
+        "formula": "(fmr_2br * 12) / median_household_income * 100",
+        "inputs": [
+          "housing.fmr_2br",
+          "economy.median_household_income"
+        ],
+        "formula_location": "score/normalizer.py:_build_housing",
+        "authority_tier": 2
+      },
+      "governance.legislative_velocity": {
+        "formula": "legislative_volume / years_of_legislative_data",
+        "inputs": [
+          "governance.legislative_volume",
+          "governance.years_of_legislative_data"
+        ],
+        "formula_location": "score/normalizer.py:_build_governance",
+        "authority_tier": 2
+      },
+      "development.yoy_trend_pct": {
+        "formula": "(current_year - prior_year) / prior_year * 100",
+        "inputs": [
+          "permit data from Socrata"
+        ],
+        "formula_location": "probe/permits_probe.py",
+        "authority_tier": 2
+      }
+    },
+    "geographic_mismatches": [
+      {
+        "field": "identity.fips_state",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "state-level data applied to city profile"
+      },
+      {
+        "field": "economy.unemployment_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Reflects statewide unemployment, not city-specific rate"
+      },
+      {
+        "field": "economy.labor_force",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: This is the full state labor force, not city-level"
+      },
+      {
+        "field": "economy.employed",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "economy.unemployed",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.violent_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: City-level requires ORI codes not currently used"
+      },
+      {
+        "field": "safety.property_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.murder_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.robbery_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.burglary_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.vehicle_theft_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.total_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA; derived sum"
+      },
+      {
+        "field": "safety.crime_trend",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "state-level data applied to city profile"
+      },
+      {
+        "field": "education.total_schools",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Count includes all schools in the state, not city"
+      },
+      {
+        "field": "education.total_enrollment",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.pupil_teacher_ratio",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Average across all state schools"
+      },
+      {
+        "field": "education.title1_pct",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.charter_pct",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.regular_schools",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.pm25_mean",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE/COUNTY-LEVEL: Averaged across all monitors in the state"
+      },
+      {
+        "field": "environment.ozone_mean",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE/COUNTY-LEVEL"
+      },
+      {
+        "field": "environment.total_disasters",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: All declarations for the state, not city-specific"
+      },
+      {
+        "field": "environment.avg_disasters_per_decade",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.most_recent_disaster",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.most_recent_disaster_type",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "housing.fmr_0br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR: Fair Market Rents at state level, not city-specific metro area"
+      },
+      {
+        "field": "housing.fmr_1br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_2br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_3br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_4br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.rent_burden_ratio",
+        "source_level": "mixed",
+        "profile_level": "place",
+        "note": "GEOGRAPHIC MISMATCH: FMR is state-level (HUD), income is city-level (Census). Ratio may be biased."
+      }
+    ]
+  },
+  "data_quality": {
+    "quality_score": 100.0,
+    "grade": "A",
+    "completeness_pct": 100.0,
+    "issue_count": 4,
+    "granularity_flags": 0
+  },
+  "officials": {
+    "body_name": "City Council",
+    "members": [
+      {
+        "name": "Benjamin Jacob Weber",
+        "email": "benjamin.weber@boston.gov",
+        "title": "City Councilor",
+        "start_date": "2024-01-01"
+      },
+      {
+        "name": "Brian Worrell",
+        "email": "Brian.Worrell@boston.gov",
+        "title": "City Councilor",
+        "start_date": "2024-01-01"
+      },
+      {
+        "name": "Ed Flynn",
+        "email": "ed.flynn@boston.gov",
+        "title": "City Councilor",
+        "start_date": "2024-01-01"
+      },
+      {
+        "name": "Enrique Pepén",
+        "email": "enrique.pepen@boston.gov",
+        "title": "City Councilor",
+        "start_date": "2024-01-01"
+      },
+      {
+        "name": "Erin Murphy",
+        "email": "erin.murphy@boston.gov",
+        "title": "City Councilor",
+        "start_date": "2024-01-01"
+      },
+      {
+        "name": "Gabriela Coletta Zapata",
+        "email": "gabriela.coletta@boston.gov",
+        "title": "City Councilor",
+        "start_date": "2024-01-01"
+      },
+      {
+        "name": "Henry Santana",
+        "email": "henry.santana@boston.gov",
+        "title": "City Councilor",
+        "start_date": "2024-01-01"
+      },
+      {
+        "name": "John FitzGerald",
+        "email": "John.FitzGerald@boston.gov",
+        "title": "City Councilor",
+        "start_date": "2024-01-01"
+      },
+      {
+        "name": "Julia Mejia",
+        "email": "julia.mejia@boston.gov",
+        "title": "City Councilor",
+        "start_date": "2024-01-01"
+      },
+      {
+        "name": "Liz Breadon",
+        "email": "liz.breadon@boston.gov",
+        "title": "City Council President",
+        "start_date": "2024-01-01"
+      },
+      {
+        "name": "Miniard Culpepper",
+        "email": "miniard.culpepper@boston.gov",
+        "title": "City Councilor",
+        "start_date": "2026-01-05"
+      },
+      {
+        "name": "Ruthzee Louijeune",
+        "email": "Ruthzee.Louijeune@boston.gov",
+        "title": "City Councilor",
+        "start_date": "2024-01-01"
+      },
+      {
+        "name": "Sharon Durkan",
+        "email": "sharon.durkan@boston.gov",
+        "title": "City Councilor",
+        "start_date": "2024-01-01"
+      }
+    ]
+  },
+  "recent_meetings": [
+    {
+      "date": "2026-02-18",
+      "body": "Disability Commission Advisory Board",
+      "location": "Room 801, City Hall",
+      "has_agenda": true,
+      "agenda_url": "https://boston.legistar1.com/boston/meetings/2026/2/14064_A_Disability_Commission_Advisory_Board_26-02-18_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-24",
+      "body": "Zoning Board of Appeal",
+      "location": "Room 801, City Hall",
+      "has_agenda": true,
+      "agenda_url": "https://boston.legistar1.com/boston/meetings/2026/2/14015_A_Zoning_Board_of_Appeal_26-02-24_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-25",
+      "body": "Public Facilities",
+      "location": "Room 801, City Hall",
+      "has_agenda": true,
+      "agenda_url": "https://boston.legistar1.com/boston/meetings/2026/2/14075_A_Public_Facilities_26-02-25_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-26",
+      "body": "Public Improvement Commission",
+      "location": null,
+      "has_agenda": true,
+      "agenda_url": "https://boston.legistar1.com/boston/meetings/2026/2/14039_A_Public_Improvement_Commission_26-02-26_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-04",
+      "body": "Boston School Committee",
+      "location": "Virtual",
+      "has_agenda": true,
+      "agenda_url": "https://boston.legistar1.com/boston/meetings/2026/3/14048_A_Boston_School_Committee_26-03-04_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-10",
+      "body": "Zoning Board of Appeal",
+      "location": "Room 801, City Hall",
+      "has_agenda": true,
+      "agenda_url": "https://boston.legistar1.com/boston/meetings/2026/3/14016_A_Zoning_Board_of_Appeal_26-03-10_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-12",
+      "body": "Public Improvement Commission",
+      "location": null,
+      "has_agenda": true,
+      "agenda_url": "https://boston.legistar1.com/boston/meetings/2026/3/14040_A_Public_Improvement_Commission_26-03-12_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-12",
+      "body": "Public Improvement Commission",
+      "location": null,
+      "has_agenda": true,
+      "agenda_url": "https://boston.legistar1.com/boston/meetings/2026/2/14038_A_Public_Improvement_Commission_26-02-12_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-12",
+      "body": "BPDA Board of Directors",
+      "location": "Room 900, City Hall",
+      "has_agenda": true,
+      "agenda_url": "https://boston.legistar1.com/boston/meetings/2026/2/13927_A_BPDA_Board_of_Directors_26-02-12_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-12",
+      "body": "Boston School Committee",
+      "location": "Virtual",
+      "has_agenda": true,
+      "agenda_url": "https://boston.legistar1.com/boston/meetings/2026/2/14047_A_Boston_School_Committee_26-02-12_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-11",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://boston.legistar1.com/boston/meetings/2026/2/14090_A_City_Council_26-02-11_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-09",
+      "body": "City Council",
+      "location": "Ways & Means Committee Hearing on Dockets #0128 and #0129",
+      "has_agenda": true,
+      "agenda_url": "https://boston.legistar1.com/boston/meetings/2026/2/14091_A_City_Council_26-02-09_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-04",
+      "body": "Boston School Committee",
+      "location": "Virtual",
+      "has_agenda": true,
+      "agenda_url": "https://boston.legistar1.com/boston/meetings/2026/2/14046_A_Boston_School_Committee_26-02-04_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-04",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://boston.legistar1.com/boston/meetings/2026/2/14087_A_City_Council_26-02-04_Meeting_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "Zoning Board of Appeal",
+      "location": "Room 801, City Hall",
+      "has_agenda": true,
+      "agenda_url": "https://boston.legistar1.com/boston/meetings/2026/2/14014_A_Zoning_Board_of_Appeal_26-02-03_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-02",
+      "body": "City Council",
+      "location": "Committee of the Whole Hearing on Dockets #0124, #0125, #0126, and #0127",
+      "has_agenda": true,
+      "agenda_url": "https://boston.legistar1.com/boston/meetings/2026/2/14089_A_City_Council_26-02-02_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-29",
+      "body": "Public Improvement Commission",
+      "location": null,
+      "has_agenda": true,
+      "agenda_url": "https://boston.legistar1.com/boston/meetings/2026/1/14036_A_Public_Improvement_Commission_26-01-29_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Order for a hearing to discuss the educational and workforce development past successes and future opportunities of youth jobs offered by the City of Boston.",
+      "type": "Council Hearing Order",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-09",
+      "file_number": "2026-0344",
+      "passed_date": null
+    },
+    {
+      "title": "Ordinance regulating all e-bikes in the City of Boston.",
+      "type": "Council Ordinance",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-09",
+      "file_number": "2026-0326",
+      "passed_date": null
+    },
+    {
+      "title": "Resolution in memory of Edward T. Donovan.",
+      "type": "Consent Agenda Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-09",
+      "file_number": "2026-0367",
+      "passed_date": null
+    },
+    {
+      "title": "Resolution to embrace and extend heartfelt wishes to the beloved Muslim community in Boston, Massachusetts, throughout the United States, and across the globe, invoking blessings upon them as they emb",
+      "type": "Council Legislative Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-09",
+      "file_number": "2026-0359",
+      "passed_date": null
+    },
+    {
+      "title": "Order for a hearing to explore the inclusion of pollinator corridors as part of sustainable development.",
+      "type": "Council Hearing Order",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-09",
+      "file_number": "2026-0346",
+      "passed_date": null
+    },
+    {
+      "title": "Resolution in support of \"An Executive Order to Protect Bostonians from Unconstitutional and Violent Federal Operations.\"",
+      "type": "Council Legislative Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-09",
+      "file_number": "2026-0356",
+      "passed_date": null
+    },
+    {
+      "title": "Communication from Councilor Murphy re: Public access to City Council working sessions and hearings.",
+      "type": "Report of Public Officer",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-09",
+      "file_number": "2026-0323",
+      "passed_date": null
+    },
+    {
+      "title": "Order for a hearing to examine graduation requirement implementation, waivers, and equity in Boston Public Schools.",
+      "type": "Council Hearing Order",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-09",
+      "file_number": "2026-0342",
+      "passed_date": null
+    },
+    {
+      "title": "Resolution recognizing Irish-American Heritage Month.",
+      "type": "Council Legislative Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-09",
+      "file_number": "2026-0358",
+      "passed_date": null
+    },
+    {
+      "title": "Order for a hearing to continue exploring strategies for developing mixed-income social housing to increase housing access and affordability for all Bostonians.",
+      "type": "Council Hearing Order",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-09",
+      "file_number": "2026-0343",
+      "passed_date": null
+    }
+  ],
+  "legistar_url": "https://boston.legistar.com",
+  "enriched_at": "2026-02-13T20:01:16.605423",
+  "government_news": [],
+  "video_meetings": [],
+  "data_platforms": [
+    "legistar"
+  ]
+}

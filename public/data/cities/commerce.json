@@ -1,1 +1,1106 @@
-{"schema_version":"5.0","normalized_at":"2026-02-10T14:21:49.106793","identity":{"name":"Commerce","state":"GA","fips_state":"13","fips_place":"19112","population":7391},"city_website":"https://www.c3gov.com","economy":{"median_household_income":58763,"median_home_value":219600,"unemployment_rate":3.52,"unemployment_data_level":"county","labor_force":47865,"employed":46179,"unemployed":1686,"gini_index":null,"poverty_rate":11.72,"homeownership_rate":66.05,"rent_to_income_ratio":22.61,"home_value_to_income_ratio":3.74,"price_to_rent_ratio":16.53,"effective_tax_rate":10.6776,"population_growth_cagr":1.075,"median_real_estate_taxes":1954},"safety":{"violent_crime_rate":null,"property_crime_rate":null,"murder_rate":null,"robbery_rate":null,"burglary_rate":null,"vehicle_theft_rate":null,"total_crime_rate":null,"crime_trend":null,"crime_data_level":null},"education":{"total_schools":2332,"total_enrollment":1750972,"pupil_teacher_ratio":14.9,"title1_pct":0.0,"charter_pct":4.2,"regular_schools":2293,"avg_school_rating":null,"rated_schools":null,"school_quality_tier":null},"environment":{"pm25_mean":9.8531,"ozone_mean":0.0442,"total_disasters":19,"avg_disasters_per_decade":3.2,"most_recent_disaster":"2026-01-24","most_recent_disaster_type":"Winter Storm","disasters_by_type":{"Severe Storm":5,"Hurricane":4,"Biological":2,"Flood":2,"Winter Storm":1,"Tropical Storm":1,"Severe Ice Storm":1,"Tornado":1,"Snowstorm":1,"Drought":1}},"housing":{"median_rent":1107,"housing_units":2610,"fmr_0br":822,"fmr_1br":923,"fmr_2br":1192,"fmr_3br":1541,"fmr_4br":1626,"rent_burden_ratio":24.3,"cost_burdened_pct":43.63,"severely_burdened_pct":15.75},"governance":{"legislative_volume":8125,"legislative_velocity":549.0,"committee_count":31,"years_of_legislative_data":14.8,"has_public_meetings":true,"api_accessible":true,"matter_types":{"Administrative Business":308,"Minutes":179,"Presentation":164,"Resolution":156,"Ordinance":81,"Proclamation":37,"Executive Session":23,"URA Minutes":11,"URA Resolution":9,"Noticed Council Business":6,"Zoning Ordinances":6,"NIGID Minutes":5,"ERAGID Minutes":5,"ECAGID Minutes":4,"Variance":2,"NIGID Resolution":1,"ERAGID Resolution":1,"ECAGID Resolution":1,"Conditional Use Permit":1},"top_matter_type":"Administrative Business","matter_statuses":{"Agenda Ready":371,"Passed":318,"Filed":238,"Recommended by Board or Commission":32,"Referred":23,"Consent Agenda":8,"Failed":4,"Consent 2nd Reading":3,"Public Hearing":3},"pass_rate":33.3,"passed_count":2708,"active_council_members":9,"avg_tenure_years":1.3,"vote_coverage_pct":0.0,"video_availability_pct":0.0,"agenda_availability_pct":97.6,"minutes_availability_pct":51.6,"avg_meetings_per_month":18.7,"meetings_by_year":{"2026":51,"2025":290,"2024":159},"avg_sponsors_per_matter":0.2,"avg_attachments_per_matter":1.2,"pct_with_text_versions":100.0,"index_categories":[],"has_accela":false,"accela_agency_id":null},"development":{"permits_12mo":null,"yoy_trend_pct":null,"avg_permit_value":null,"permit_types":{},"datasets_count":0},"meetings":{"official_channels":2,"meetings_indexed":22,"avg_meetings_per_month":2.2,"has_video_archive":true,"meeting_types":{"other":8,"city_council":12,"planning_commission":2},"transcripts_available":0},"civic_issues":{"total_issues":2,"issues_last_30d":0,"issues_last_365d":0,"resolution_rate":0.0,"top_issue_type":"Unknown","type_distribution":{"Unknown":2},"has_civic_issue_tracking":true},"demographics":{"population":7391,"poverty_universe":7150,"employment_universe":5622},"time_series":{"economy_history":[{"year":2024,"unemployment_rate":3.52,"labor_force":47865,"employed":46179,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2023,"unemployment_rate":3.25,"labor_force":46847,"employed":45332,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2022,"unemployment_rate":3.17,"labor_force":44904,"employed":43474,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2021,"unemployment_rate":3.75,"labor_force":43636,"employed":42006,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2020,"unemployment_rate":6.35,"labor_force":43048,"employed":40325,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2019,"unemployment_rate":4.07,"labor_force":44067,"employed":42270,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2018,"unemployment_rate":4.37,"labor_force":44403,"employed":42462,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2017,"unemployment_rate":5.31,"labor_force":44524,"employed":42168,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2016,"unemployment_rate":6.13,"labor_force":43429,"employed":40770,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2015,"unemployment_rate":6.76,"labor_force":42515,"employed":39637,"data_level":"county","source":"bls_laus","is_partial_year":false}],"safety_history":[],"environment_history":[{"year":2023,"pm25_mean":9.8531,"ozone_mean":0.0442,"data_level":"county","source":"epa_aqs"},{"year":2022,"pm25_mean":8.6572,"ozone_mean":0.041,"data_level":"county","source":"epa_aqs"},{"year":2021,"pm25_mean":9.4267,"ozone_mean":0.0397,"data_level":"county","source":"epa_aqs"},{"year":2020,"pm25_mean":8.1484,"ozone_mean":0.0366,"data_level":"county","source":"epa_aqs"},{"year":2019,"pm25_mean":8.8358,"ozone_mean":0.0439,"data_level":"county","source":"epa_aqs"},{"year":2018,"pm25_mean":8.0236,"ozone_mean":0.041,"data_level":"county","source":"epa_aqs"}]},"data_sources":{"legistar":"available","socrata":"available","census_acs":"available","arcgis":"available","fbi_ucr":"available","socrata_crime":"available","bls_laus":"available","ca_edd":"skipped","epa_aqs":"available","nces_ccd":"available","hud_fmr":"available","fema_openfema":"available","greatschools":"available","permits":"skipped","youtube_meetings":"available","seeclickfix":"available","accela":"available"},"provenance":{"last_full_probe":"2026-02-10T00:50:37.838911","sources":{"legistar":{"authority":"Legistar by Granicus","authority_tier":1,"api_url":"https://webapi.legistar.com/v1/commerce/Bodies","probed_at":"2026-02-10T00:50:37.840505","data_vintage":"2012\u20132026","geographic_level":"place","status":"available"},"socrata":{"authority":"City Open Data Portals (Socrata/Tyler Data & Insights)","authority_tier":1,"api_url":null,"probed_at":"2026-02-10T00:52:24.425489","data_vintage":null,"geographic_level":"place","status":"available"},"census_acs":{"authority":"US Census Bureau","authority_tier":1,"api_url":"https://api.census.gov/data/2022/acs/acs5?get=NAME,B01001_001E,B19013_001E,B25077_001E,B25064_001E,B25001_001E&for=place:19112&in=state:13","probed_at":"2026-02-10T00:52:24.426730","data_vintage":"ACS 5-Year 2022","geographic_level":"place","status":"available"},"arcgis":{"authority":"City ArcGIS/GIS Portals","authority_tier":1,"api_url":null,"probed_at":"2026-02-10T00:52:27.873175","data_vintage":null,"geographic_level":"place","status":"available"},"fbi_ucr":{"authority":"FBI Uniform Crime Reporting Program","authority_tier":1,"api_url":"https://api.usa.gov/crime/fbi/sapi/api/estimates/states/GA/2015/2022","probed_at":"2026-02-10T00:52:28.919600","data_vintage":null,"geographic_level":"state","status":"available"},"bls_laus":{"authority":"Bureau of Labor Statistics","authority_tier":1,"api_url":"https://api.bls.gov/publicAPI/v2/timeseries/data/LAUST130000000000003","probed_at":"2026-02-10T00:52:29.258363","data_vintage":"LAUS 2024","geographic_level":"state","status":"available"},"epa_aqs":{"authority":"US Environmental Protection Agency","authority_tier":1,"api_url":"https://aqs.epa.gov/data/api/annualData/byState?state=13&param=88101","probed_at":"2026-02-10T00:52:30.633479","data_vintage":"AQS 2023","geographic_level":"state","status":"available"},"nces_ccd":{"authority":"National Center for Education Statistics","authority_tier":1,"api_url":"https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=13","probed_at":"2026-02-10T00:54:27.504979","data_vintage":"2022-2023 academic year","geographic_level":"state","status":"available"},"hud_fmr":{"authority":"US Department of Housing and Urban Development","authority_tier":1,"api_url":"https://www.huduser.gov/hudapi/public/fmr/statedata/GA","probed_at":"2026-02-10T00:54:33.145292","data_vintage":"FY2026","geographic_level":"state","status":"available"},"fema_openfema":{"authority":"Federal Emergency Management Agency","authority_tier":1,"api_url":"https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries?$filter=state eq 'GA'","probed_at":"2026-02-10T00:54:33.663261","data_vintage":"1953-present","geographic_level":"state","status":"available"},"greatschools":{"authority":"GreatSchools.org (nonprofit)","authority_tier":3,"api_url":null,"probed_at":"2026-02-10T00:54:33.863758","data_vintage":null,"geographic_level":"place","status":"available"},"permits":{"authority":"City Open Data Portals (Socrata)","authority_tier":1,"api_url":null,"probed_at":"2026-02-10T00:54:34.225750","data_vintage":null,"geographic_level":"place","status":"skipped"},"youtube_meetings":{"authority":"YouTube (via SerpAPI search + youtube-transcript-api)","authority_tier":3,"api_url":null,"probed_at":"2026-02-10T00:54:34.226914","data_vintage":null,"geographic_level":"place","status":"available"},"seeclickfix":{"authority":"SeeClickFix (civic issue tracking platform)","authority_tier":3,"api_url":"https://seeclickfix.com/api/v2/issues?place_url=commerce","probed_at":"2026-02-10T00:56:12.535542","data_vintage":null,"geographic_level":"place","status":"available"},"accela":{"authority":"Accela (permit management platform)","authority_tier":3,"api_url":"https://apis.accela.com/v4/agencies","probed_at":"2026-02-10T00:57:54.911238","data_vintage":null,"geographic_level":"place","status":"available"},"socrata_crime":{"authority":"City Open Data Portals (Socrata)","authority_tier":1,"api_url":null,"probed_at":"2026-02-10T00:52:29.253564","data_vintage":null,"geographic_level":"place","status":"available"}},"derived_fields":{"safety.total_crime_rate":{"formula":"violent_crime_rate + property_crime_rate","inputs":["safety.violent_crime_rate","safety.property_crime_rate"],"formula_location":"score/normalizer.py:_derive_total_crime","authority_tier":2},"safety.crime_trend":{"formula":"(last_year_rate - first_year_rate) / years_span","inputs":["fbi.time_series[].violent_crime_rate"],"formula_location":"score/normalizer.py:_build_safety","authority_tier":2},"education.school_quality_tier":{"formula":"excellent if avg>=8, good if avg>=6, fair if avg>=4, else poor","inputs":["education.avg_school_rating"],"formula_location":"score/normalizer.py:_build_education","authority_tier":3},"environment.avg_disasters_per_decade":{"formula":"total_disasters / (years_span / 10)","inputs":["environment.total_disasters"],"formula_location":"probe/fema_probe.py","authority_tier":2},"housing.rent_burden_ratio":{"formula":"(fmr_2br * 12) / median_household_income * 100","inputs":["housing.fmr_2br","economy.median_household_income"],"formula_location":"score/normalizer.py:_build_housing","authority_tier":2},"governance.legislative_velocity":{"formula":"legislative_volume / years_of_legislative_data","inputs":["governance.legislative_volume","governance.years_of_legislative_data"],"formula_location":"score/normalizer.py:_build_governance","authority_tier":2},"development.yoy_trend_pct":{"formula":"(current_year - prior_year) / prior_year * 100","inputs":["permit data from Socrata"],"formula_location":"probe/permits_probe.py","authority_tier":2}},"geographic_mismatches":[{"field":"identity.fips_state","source_level":"state","profile_level":"place","note":"state-level data applied to city profile"},{"field":"economy.unemployment_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Reflects statewide unemployment, not city-specific rate"},{"field":"economy.labor_force","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: This is the full state labor force, not city-level"},{"field":"economy.employed","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"economy.unemployed","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.violent_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: City-level requires ORI codes not currently used"},{"field":"safety.property_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.murder_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.robbery_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.burglary_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.vehicle_theft_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.total_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA; derived sum"},{"field":"safety.crime_trend","source_level":"state","profile_level":"place","note":"state-level data applied to city profile"},{"field":"education.total_schools","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Count includes all schools in the state, not city"},{"field":"education.total_enrollment","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.pupil_teacher_ratio","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Average across all state schools"},{"field":"education.title1_pct","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.charter_pct","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.regular_schools","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.pm25_mean","source_level":"state","profile_level":"place","note":"STATE/COUNTY-LEVEL: Averaged across all monitors in the state"},{"field":"environment.ozone_mean","source_level":"state","profile_level":"place","note":"STATE/COUNTY-LEVEL"},{"field":"environment.total_disasters","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: All declarations for the state, not city-specific"},{"field":"environment.avg_disasters_per_decade","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.most_recent_disaster","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.most_recent_disaster_type","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"housing.fmr_0br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR: Fair Market Rents at state level, not city-specific metro area"},{"field":"housing.fmr_1br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_2br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_3br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_4br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.rent_burden_ratio","source_level":"mixed","profile_level":"place","note":"GEOGRAPHIC MISMATCH: FMR is state-level (HUD), income is city-level (Census). Ratio may be biased."}]},"data_quality":{"quality_score":100.0,"grade":"A","completeness_pct":100.0,"issue_count":7,"granularity_flags":3},"officials":{"body_name":"City Council","members":[{"name":"Charles Dukes","email":null,"title":"Council Member","start_date":"2023-12-11","committees":["Comprehensive Plan Citizen's Advisory Committee","E-470 Commercial Area General Improvement District","E-470 Residential Area General Improvement District","Northern Infrastructure General Improvement District","Parks, Recreation, and Golf Commission"]},{"name":"Craig Kim","email":null,"title":"Council Member","start_date":"2023-12-11","committees":["Diversity, Equity, and Inclusion Commission","E-470 Commercial Area General Improvement District","E-470 Residential Area General Improvement District","Housing Authority","Northern Infrastructure General Improvement District"]},{"name":"Joanna Sandoval","email":null,"title":"Council Member","start_date":"2025-12-08","committees":["E-470 Commercial Area General Improvement District","E-470 Residential Area General Improvement District","Northern Infrastructure General Improvement District","Urban Renewal Authority","Youth Commission"]},{"name":"Jose Guardiola","email":"JGuardiola@c3gov.com","title":"Council Member","start_date":"2025-12-08","committees":["City Council Evaluation Committee","Cultural Council","Derby Review Board","E-470 Commercial Area General Improvement District","E-470 Residential Area General Improvement District"]},{"name":"Lori Young","email":null,"title":"Council Member","start_date":"2025-12-08","committees":["Cultural Council","E-470 Commercial Area General Improvement District","E-470 Residential Area General Improvement District","Northern Infrastructure General Improvement District","Senior Commission"]},{"name":"Rocky Teter","email":null,"title":"Council Member","start_date":"2023-12-11","committees":["E-470 Commercial Area General Improvement District","E-470 Residential Area General Improvement District","Northern Infrastructure General Improvement District","Parks, Recreation, and Golf Commission","Urban Renewal Authority"]},{"name":"Stefanie Trujillo","email":null,"title":"Council Member","start_date":"2025-12-08","committees":["Diversity, Equity, and Inclusion Commission","E-470 Commercial Area General Improvement District","E-470 Residential Area General Improvement District","Northern Infrastructure General Improvement District","Urban Renewal Authority"]},{"name":"Steven J. Douglas","email":"sdouglas@c3gov.com","title":"Mayor","start_date":"2023-12-11","committees":["E-470 Commercial Area General Improvement District","E-470 Residential Area General Improvement District","Environmental Policy and Innovation Commission","Northern Infrastructure General Improvement District","Urban Renewal Authority"]},{"name":"Susan Noble","email":null,"title":"Mayor Pro Tem","start_date":"2023-12-11","committees":["E-470 Commercial Area General Improvement District","E-470 Residential Area General Improvement District","Environmental Policy and Innovation Commission","Northern Infrastructure General Improvement District","Senior Commission"]}]},"recent_meetings":[{"date":"2026-02-17","body":"Parks, Recreation, and Golf Commission","location":"Bison Ridge Recreation Center Active Adult Ctr.\r\n13905 E. 112th Ave. Commerce City, CO 80022. Hybrid Meeting - Registration Link: https://c3gov.zoom.us/webinar/register/WN_CPFV1AhaSu2UKGg7Liou3w","has_agenda":true,"agenda_url":"https://legistar.granicus.com/Commerce/meetings/2026/2/4765_A_Parks%2C_Recreation%2C_and_Golf_Commission_26-02-17_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":true},{"date":"2026-02-17","body":"Cultural Council","location":"Eagle Pointe Recreation Center (Animas Conference Room) - 6060 Parkway Dr","has_agenda":true,"agenda_url":"https://legistar.granicus.com/Commerce/meetings/2026/2/4782_A_Cultural_Council_26-02-17_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":true},{"date":"2026-02-12","body":"Senior Commission","location":"HYBRID: Eagle Pointe Recreation Center (6060 Parkway Dr) and Zoom (register in advance: https://c3gov.zoom.us/webinar/register/WN_RpfqKqKxQ8idKss3ESe_6w)","has_agenda":true,"agenda_url":"https://legistar.granicus.com/Commerce/meetings/2026/2/4778_A_Senior_Commission_26-02-12_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-12","body":"Senior Commission","location":"Eagle Pointe Recreation Center - Animas Conference Room, 6060 Parkway Dr","has_agenda":true,"agenda_url":"https://legistar.granicus.com/Commerce/meetings/2026/2/4777_A_Senior_Commission_26-02-12_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-11","body":"Cultural Council","location":"Zoom: https://c3gov.zoom.us/j/95330582631?pwd=E8kiyak7fnJ35X6da10AlxRmOa1oBX.1","has_agenda":true,"agenda_url":"https://legistar.granicus.com/Commerce/meetings/2026/2/4780_A_Cultural_Council_26-02-11_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-10","body":"Zoning Board of Adjustment","location":"Estimated Times Only\r\nCouncil Chambers, \r\n7887 E. 60th Ave Commerce City, CO 80022.\r\nThe public can participate virtually by registering in advance with the Zoom Registration:\r\nhttps://c3gov.zoom.us/webinar/register/WN_sdEdlsN1Sui4OydhLKl_qA","has_agenda":true,"agenda_url":"https://legistar.granicus.com/Commerce/meetings/2026/2/4731_A_Zoning_Board_of_Adjustment_26-02-10_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-10","body":"Zoning Board of Adjustment","location":"Council Chambers, \r\n7887 E. 60th Ave Commerce City, CO 80022.\r\nThe public can participate virtually by registering in advance with the Zoom Registration:\r\nhttps://c3gov.zoom.us/webinar/register/WN_sdEdlsN1Sui4OydhLKl_qA","has_agenda":true,"agenda_url":"https://legistar.granicus.com/Commerce/meetings/2026/2/4716_A_Zoning_Board_of_Adjustment_26-02-10_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-10","body":"Liquor License Authority","location":"Council Chambers, 7887 E 60th Ave, Commerce City, CO 80022.","has_agenda":true,"agenda_url":"https://legistar.granicus.com/Commerce/meetings/2026/2/4624_A_Liquor_License_Authority_26-02-10_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-09","body":"City Council Retreat Planning Committee","location":"Zoom Registration link: https://c3gov.zoom.us/webinar/register/WN_vhoJc_riT22bMYkcMujQ3Q","has_agenda":true,"agenda_url":"https://legistar.granicus.com/Commerce/meetings/2026/2/4776_A_City_Council_Retreat_Planning_Committee_26-02-09_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-09","body":"City Council","location":"Council Chambers, 7887 E 60th Ave, Commerce City, CO 80022. The meeting will also be conducted in a hybrid format via Zoom. Registration link:\r\nhttps://c3gov.zoom.us/webinar/register/WN_ePNwFlCBSdm2VQrvPjEbYA","has_agenda":true,"agenda_url":"https://legistar.granicus.com/Commerce/meetings/2026/2/4559_A_City_Council_26-02-09_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-09","body":"City Council Legislative Committee","location":"Council Chambers, 7887 E 60th Ave, Commerce City, CO 80022. The meeting will also be conducted in a hybrid format via Zoom. Registration link:\r\nhttps://c3gov.zoom.us/webinar/register/WN_ePNwFlCBSdm2VQrvPjEbYA","has_agenda":true,"agenda_url":"https://legistar.granicus.com/Commerce/meetings/2026/2/4779_A_City_Council_Legislative_Committee_26-02-09_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-07","body":"City Council Boards & Commissions Committee","location":"Virtually Via Zoom. Meeting Registration: https://c3gov.zoom.us/webinar/register/WN_BPz5EQlISRm5bVND6opNXg","has_agenda":true,"agenda_url":"https://legistar.granicus.com/Commerce/meetings/2026/2/4781_A_City_Council_Boards___Commissions_Committee_26-02-07_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false}],"recent_legislation":[{"title":"Bylaws Update_Feb 2026","type":"Administrative Business","status":"Agenda Ready","intro_date":"2026-02-09","file_number":"26-035","passed_date":null},{"title":"Cultural Council and Commerce City Presentation","type":"Presentation","status":"Agenda Ready","intro_date":"2026-02-09","file_number":"Pres 26-214","passed_date":null},{"title":"Derby Review Board Meeting Minutes August 20, 2024","type":"Minutes","status":"Agenda Ready","intro_date":"2026-02-09","file_number":"Min 26-036","passed_date":null},{"title":"LEGISLATIVE REZONING FOLLOWING THE LDC ADOPTION","type":"Presentation","status":"Agenda Ready","intro_date":"2026-02-09","file_number":"Pres 26-010","passed_date":null},{"title":"Events Subcommittee Notes","type":"Administrative Business","status":"Agenda Ready","intro_date":"2026-02-09","file_number":"26-036","passed_date":null},{"title":"Public Art Subcommittee Notes","type":"Administrative Business","status":"Agenda Ready","intro_date":"2026-02-09","file_number":"26-037","passed_date":null},{"title":"Advancing Community Health and Well-Being Updates","type":"Noticed Council Business","status":"Agenda Ready","intro_date":"2026-02-06","file_number":"NCB 26-006","passed_date":null},{"title":"Nonprofit Engagement Advisory Committee","type":"Noticed Council Business","status":"Agenda Ready","intro_date":"2026-02-06","file_number":"NCB 26-005","passed_date":null},{"title":"Buffalo Run Golf Clubhouse Renovation Project Update - Chad Redin","type":"Presentation","status":"Agenda Ready","intro_date":"2026-02-05","file_number":"Pres 26-204","passed_date":null},{"title":"Application for a new Fermented Malt Beverage and Wine off-premise Liquor License for El Mercadito de Tixca, located at 6501 E 64th Ave, Commerce City, Colorado 80022.","type":"Administrative Business","status":"Agenda Ready","intro_date":"2026-02-04","file_number":"26-030","passed_date":null}],"legistar_url":"https://commerce.legistar.com","enriched_at":"2026-02-13T20:03:13.041311","government_news":[],"video_meetings":[],"data_platforms":["legistar"]}
+{
+  "schema_version": "5.0",
+  "normalized_at": "2026-02-10T14:21:49.106793",
+  "identity": {
+    "name": "Commerce",
+    "state": "GA",
+    "fips_state": "13",
+    "fips_place": "19112",
+    "population": 7391
+  },
+  "city_website": "https://www.c3gov.com",
+  "economy": {
+    "median_household_income": 58763,
+    "median_home_value": 219600,
+    "unemployment_rate": 3.52,
+    "unemployment_data_level": "county",
+    "labor_force": 47865,
+    "employed": 46179,
+    "unemployed": 1686,
+    "gini_index": null,
+    "poverty_rate": 11.72,
+    "homeownership_rate": 66.05,
+    "rent_to_income_ratio": 22.61,
+    "home_value_to_income_ratio": 3.74,
+    "price_to_rent_ratio": 16.53,
+    "effective_tax_rate": 10.6776,
+    "population_growth_cagr": 1.075,
+    "median_real_estate_taxes": 1954
+  },
+  "safety": {
+    "violent_crime_rate": null,
+    "property_crime_rate": null,
+    "murder_rate": null,
+    "robbery_rate": null,
+    "burglary_rate": null,
+    "vehicle_theft_rate": null,
+    "total_crime_rate": null,
+    "crime_trend": null,
+    "crime_data_level": null
+  },
+  "education": {
+    "total_schools": 2332,
+    "total_enrollment": 1750972,
+    "pupil_teacher_ratio": 14.9,
+    "title1_pct": 0.0,
+    "charter_pct": 4.2,
+    "regular_schools": 2293,
+    "avg_school_rating": null,
+    "rated_schools": null,
+    "school_quality_tier": null
+  },
+  "environment": {
+    "pm25_mean": 9.8531,
+    "ozone_mean": 0.0442,
+    "total_disasters": 19,
+    "avg_disasters_per_decade": 3.2,
+    "most_recent_disaster": "2026-01-24",
+    "most_recent_disaster_type": "Winter Storm",
+    "disasters_by_type": {
+      "Severe Storm": 5,
+      "Hurricane": 4,
+      "Biological": 2,
+      "Flood": 2,
+      "Winter Storm": 1,
+      "Tropical Storm": 1,
+      "Severe Ice Storm": 1,
+      "Tornado": 1,
+      "Snowstorm": 1,
+      "Drought": 1
+    }
+  },
+  "housing": {
+    "median_rent": 1107,
+    "housing_units": 2610,
+    "fmr_0br": 822,
+    "fmr_1br": 923,
+    "fmr_2br": 1192,
+    "fmr_3br": 1541,
+    "fmr_4br": 1626,
+    "rent_burden_ratio": 24.3,
+    "cost_burdened_pct": 43.63,
+    "severely_burdened_pct": 15.75
+  },
+  "health": {
+    "uninsured_pct": 15.4,
+    "obesity_pct": 35.1,
+    "diabetes_pct": 11.9,
+    "depression_pct": 22.0,
+    "asthma_pct": 10.4,
+    "smoking_pct": 17.5,
+    "physical_inactivity_pct": 29.0,
+    "mental_health_bad_days": 19.2,
+    "physical_health_bad_days": 15.1,
+    "sleep_deficit_pct": 39.1,
+    "high_blood_pressure_pct": 34.8,
+    "high_cholesterol_pct": 33.4,
+    "heart_disease_pct": 6.0,
+    "stroke_pct": 3.5,
+    "cancer_pct": 6.9,
+    "kidney_disease_pct": null,
+    "checkup_pct": 75.7,
+    "data_year": "2023"
+  },
+  "governance": {
+    "legislative_volume": 8125,
+    "legislative_velocity": 549.0,
+    "committee_count": 31,
+    "years_of_legislative_data": 14.8,
+    "has_public_meetings": true,
+    "api_accessible": true,
+    "matter_types": {
+      "Administrative Business": 308,
+      "Minutes": 179,
+      "Presentation": 164,
+      "Resolution": 156,
+      "Ordinance": 81,
+      "Proclamation": 37,
+      "Executive Session": 23,
+      "URA Minutes": 11,
+      "URA Resolution": 9,
+      "Noticed Council Business": 6,
+      "Zoning Ordinances": 6,
+      "NIGID Minutes": 5,
+      "ERAGID Minutes": 5,
+      "ECAGID Minutes": 4,
+      "Variance": 2,
+      "NIGID Resolution": 1,
+      "ERAGID Resolution": 1,
+      "ECAGID Resolution": 1,
+      "Conditional Use Permit": 1
+    },
+    "top_matter_type": "Administrative Business",
+    "matter_statuses": {
+      "Agenda Ready": 371,
+      "Passed": 318,
+      "Filed": 238,
+      "Recommended by Board or Commission": 32,
+      "Referred": 23,
+      "Consent Agenda": 8,
+      "Failed": 4,
+      "Consent 2nd Reading": 3,
+      "Public Hearing": 3
+    },
+    "pass_rate": 33.3,
+    "passed_count": 2708,
+    "active_council_members": 9,
+    "avg_tenure_years": 1.3,
+    "vote_coverage_pct": 0.0,
+    "video_availability_pct": 0.0,
+    "agenda_availability_pct": 97.6,
+    "minutes_availability_pct": 51.6,
+    "avg_meetings_per_month": 18.7,
+    "meetings_by_year": {
+      "2026": 51,
+      "2025": 290,
+      "2024": 159
+    },
+    "avg_sponsors_per_matter": 0.2,
+    "avg_attachments_per_matter": 1.2,
+    "pct_with_text_versions": 100.0,
+    "index_categories": [],
+    "has_accela": false,
+    "accela_agency_id": null
+  },
+  "development": {
+    "permits_12mo": null,
+    "yoy_trend_pct": null,
+    "avg_permit_value": null,
+    "permit_types": {},
+    "datasets_count": 0
+  },
+  "meetings": {
+    "official_channels": 2,
+    "meetings_indexed": 22,
+    "avg_meetings_per_month": 2.2,
+    "has_video_archive": true,
+    "meeting_types": {
+      "other": 8,
+      "city_council": 12,
+      "planning_commission": 2
+    },
+    "transcripts_available": 0
+  },
+  "civic_issues": {
+    "total_issues": 2,
+    "issues_last_30d": 0,
+    "issues_last_365d": 0,
+    "resolution_rate": 0.0,
+    "top_issue_type": "Unknown",
+    "type_distribution": {
+      "Unknown": 2
+    },
+    "has_civic_issue_tracking": true
+  },
+  "demographics": {
+    "population": 7391,
+    "poverty_universe": 7150,
+    "employment_universe": 5622
+  },
+  "time_series": {
+    "economy_history": [
+      {
+        "year": 2024,
+        "unemployment_rate": 3.52,
+        "labor_force": 47865,
+        "employed": 46179,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2023,
+        "unemployment_rate": 3.25,
+        "labor_force": 46847,
+        "employed": 45332,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2022,
+        "unemployment_rate": 3.17,
+        "labor_force": 44904,
+        "employed": 43474,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2021,
+        "unemployment_rate": 3.75,
+        "labor_force": 43636,
+        "employed": 42006,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2020,
+        "unemployment_rate": 6.35,
+        "labor_force": 43048,
+        "employed": 40325,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2019,
+        "unemployment_rate": 4.07,
+        "labor_force": 44067,
+        "employed": 42270,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2018,
+        "unemployment_rate": 4.37,
+        "labor_force": 44403,
+        "employed": 42462,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2017,
+        "unemployment_rate": 5.31,
+        "labor_force": 44524,
+        "employed": 42168,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2016,
+        "unemployment_rate": 6.13,
+        "labor_force": 43429,
+        "employed": 40770,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2015,
+        "unemployment_rate": 6.76,
+        "labor_force": 42515,
+        "employed": 39637,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      }
+    ],
+    "safety_history": [],
+    "environment_history": [
+      {
+        "year": 2023,
+        "pm25_mean": 9.8531,
+        "ozone_mean": 0.0442,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2022,
+        "pm25_mean": 8.6572,
+        "ozone_mean": 0.041,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2021,
+        "pm25_mean": 9.4267,
+        "ozone_mean": 0.0397,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2020,
+        "pm25_mean": 8.1484,
+        "ozone_mean": 0.0366,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2019,
+        "pm25_mean": 8.8358,
+        "ozone_mean": 0.0439,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2018,
+        "pm25_mean": 8.0236,
+        "ozone_mean": 0.041,
+        "data_level": "county",
+        "source": "epa_aqs"
+      }
+    ]
+  },
+  "data_sources": {
+    "legistar": "available",
+    "socrata": "available",
+    "census_acs": "available",
+    "arcgis": "available",
+    "fbi_ucr": "available",
+    "socrata_crime": "available",
+    "bls_laus": "available",
+    "ca_edd": "skipped",
+    "epa_aqs": "available",
+    "nces_ccd": "available",
+    "hud_fmr": "available",
+    "fema_openfema": "available",
+    "greatschools": "available",
+    "permits": "skipped",
+    "youtube_meetings": "available",
+    "seeclickfix": "available",
+    "accela": "available",
+    "cdc_places": "available"
+  },
+  "provenance": {
+    "last_full_probe": "2026-02-10T00:50:37.838911",
+    "sources": {
+      "legistar": {
+        "authority": "Legistar by Granicus",
+        "authority_tier": 1,
+        "api_url": "https://webapi.legistar.com/v1/commerce/Bodies",
+        "probed_at": "2026-02-10T00:50:37.840505",
+        "data_vintage": "2012–2026",
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "socrata": {
+        "authority": "City Open Data Portals (Socrata/Tyler Data & Insights)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-10T00:52:24.425489",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "census_acs": {
+        "authority": "US Census Bureau",
+        "authority_tier": 1,
+        "api_url": "https://api.census.gov/data/2022/acs/acs5?get=NAME,B01001_001E,B19013_001E,B25077_001E,B25064_001E,B25001_001E&for=place:19112&in=state:13",
+        "probed_at": "2026-02-10T00:52:24.426730",
+        "data_vintage": "ACS 5-Year 2022",
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "arcgis": {
+        "authority": "City ArcGIS/GIS Portals",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-10T00:52:27.873175",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "fbi_ucr": {
+        "authority": "FBI Uniform Crime Reporting Program",
+        "authority_tier": 1,
+        "api_url": "https://api.usa.gov/crime/fbi/sapi/api/estimates/states/GA/2015/2022",
+        "probed_at": "2026-02-10T00:52:28.919600",
+        "data_vintage": null,
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "bls_laus": {
+        "authority": "Bureau of Labor Statistics",
+        "authority_tier": 1,
+        "api_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/LAUST130000000000003",
+        "probed_at": "2026-02-10T00:52:29.258363",
+        "data_vintage": "LAUS 2024",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "epa_aqs": {
+        "authority": "US Environmental Protection Agency",
+        "authority_tier": 1,
+        "api_url": "https://aqs.epa.gov/data/api/annualData/byState?state=13&param=88101",
+        "probed_at": "2026-02-10T00:52:30.633479",
+        "data_vintage": "AQS 2023",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "nces_ccd": {
+        "authority": "National Center for Education Statistics",
+        "authority_tier": 1,
+        "api_url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=13",
+        "probed_at": "2026-02-10T00:54:27.504979",
+        "data_vintage": "2022-2023 academic year",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "hud_fmr": {
+        "authority": "US Department of Housing and Urban Development",
+        "authority_tier": 1,
+        "api_url": "https://www.huduser.gov/hudapi/public/fmr/statedata/GA",
+        "probed_at": "2026-02-10T00:54:33.145292",
+        "data_vintage": "FY2026",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "fema_openfema": {
+        "authority": "Federal Emergency Management Agency",
+        "authority_tier": 1,
+        "api_url": "https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries?$filter=state eq 'GA'",
+        "probed_at": "2026-02-10T00:54:33.663261",
+        "data_vintage": "1953-present",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "greatschools": {
+        "authority": "GreatSchools.org (nonprofit)",
+        "authority_tier": 3,
+        "api_url": null,
+        "probed_at": "2026-02-10T00:54:33.863758",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "permits": {
+        "authority": "City Open Data Portals (Socrata)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-10T00:54:34.225750",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "youtube_meetings": {
+        "authority": "YouTube (via SerpAPI search + youtube-transcript-api)",
+        "authority_tier": 3,
+        "api_url": null,
+        "probed_at": "2026-02-10T00:54:34.226914",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "seeclickfix": {
+        "authority": "SeeClickFix (civic issue tracking platform)",
+        "authority_tier": 3,
+        "api_url": "https://seeclickfix.com/api/v2/issues?place_url=commerce",
+        "probed_at": "2026-02-10T00:56:12.535542",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "accela": {
+        "authority": "Accela (permit management platform)",
+        "authority_tier": 3,
+        "api_url": "https://apis.accela.com/v4/agencies",
+        "probed_at": "2026-02-10T00:57:54.911238",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "socrata_crime": {
+        "authority": "City Open Data Portals (Socrata)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-10T00:52:29.253564",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "cdc_places": {
+        "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
+        "authority_tier": 1,
+        "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Commerce",
+        "probed_at": "2026-02-13T21:04:05.382156",
+        "data_vintage": "BRFSS 2023",
+        "geographic_level": "place",
+        "status": "available"
+      }
+    },
+    "derived_fields": {
+      "safety.total_crime_rate": {
+        "formula": "violent_crime_rate + property_crime_rate",
+        "inputs": [
+          "safety.violent_crime_rate",
+          "safety.property_crime_rate"
+        ],
+        "formula_location": "score/normalizer.py:_derive_total_crime",
+        "authority_tier": 2
+      },
+      "safety.crime_trend": {
+        "formula": "(last_year_rate - first_year_rate) / years_span",
+        "inputs": [
+          "fbi.time_series[].violent_crime_rate"
+        ],
+        "formula_location": "score/normalizer.py:_build_safety",
+        "authority_tier": 2
+      },
+      "education.school_quality_tier": {
+        "formula": "excellent if avg>=8, good if avg>=6, fair if avg>=4, else poor",
+        "inputs": [
+          "education.avg_school_rating"
+        ],
+        "formula_location": "score/normalizer.py:_build_education",
+        "authority_tier": 3
+      },
+      "environment.avg_disasters_per_decade": {
+        "formula": "total_disasters / (years_span / 10)",
+        "inputs": [
+          "environment.total_disasters"
+        ],
+        "formula_location": "probe/fema_probe.py",
+        "authority_tier": 2
+      },
+      "housing.rent_burden_ratio": {
+        "formula": "(fmr_2br * 12) / median_household_income * 100",
+        "inputs": [
+          "housing.fmr_2br",
+          "economy.median_household_income"
+        ],
+        "formula_location": "score/normalizer.py:_build_housing",
+        "authority_tier": 2
+      },
+      "governance.legislative_velocity": {
+        "formula": "legislative_volume / years_of_legislative_data",
+        "inputs": [
+          "governance.legislative_volume",
+          "governance.years_of_legislative_data"
+        ],
+        "formula_location": "score/normalizer.py:_build_governance",
+        "authority_tier": 2
+      },
+      "development.yoy_trend_pct": {
+        "formula": "(current_year - prior_year) / prior_year * 100",
+        "inputs": [
+          "permit data from Socrata"
+        ],
+        "formula_location": "probe/permits_probe.py",
+        "authority_tier": 2
+      }
+    },
+    "geographic_mismatches": [
+      {
+        "field": "identity.fips_state",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "state-level data applied to city profile"
+      },
+      {
+        "field": "economy.unemployment_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Reflects statewide unemployment, not city-specific rate"
+      },
+      {
+        "field": "economy.labor_force",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: This is the full state labor force, not city-level"
+      },
+      {
+        "field": "economy.employed",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "economy.unemployed",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.violent_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: City-level requires ORI codes not currently used"
+      },
+      {
+        "field": "safety.property_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.murder_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.robbery_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.burglary_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.vehicle_theft_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.total_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA; derived sum"
+      },
+      {
+        "field": "safety.crime_trend",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "state-level data applied to city profile"
+      },
+      {
+        "field": "education.total_schools",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Count includes all schools in the state, not city"
+      },
+      {
+        "field": "education.total_enrollment",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.pupil_teacher_ratio",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Average across all state schools"
+      },
+      {
+        "field": "education.title1_pct",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.charter_pct",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.regular_schools",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.pm25_mean",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE/COUNTY-LEVEL: Averaged across all monitors in the state"
+      },
+      {
+        "field": "environment.ozone_mean",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE/COUNTY-LEVEL"
+      },
+      {
+        "field": "environment.total_disasters",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: All declarations for the state, not city-specific"
+      },
+      {
+        "field": "environment.avg_disasters_per_decade",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.most_recent_disaster",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.most_recent_disaster_type",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "housing.fmr_0br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR: Fair Market Rents at state level, not city-specific metro area"
+      },
+      {
+        "field": "housing.fmr_1br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_2br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_3br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_4br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.rent_burden_ratio",
+        "source_level": "mixed",
+        "profile_level": "place",
+        "note": "GEOGRAPHIC MISMATCH: FMR is state-level (HUD), income is city-level (Census). Ratio may be biased."
+      }
+    ]
+  },
+  "data_quality": {
+    "quality_score": 100.0,
+    "grade": "A",
+    "completeness_pct": 100.0,
+    "issue_count": 7,
+    "granularity_flags": 3
+  },
+  "officials": {
+    "body_name": "City Council",
+    "members": [
+      {
+        "name": "Charles Dukes",
+        "email": null,
+        "title": "Council Member",
+        "start_date": "2023-12-11",
+        "committees": [
+          "Comprehensive Plan Citizen's Advisory Committee",
+          "E-470 Commercial Area General Improvement District",
+          "E-470 Residential Area General Improvement District",
+          "Northern Infrastructure General Improvement District",
+          "Parks, Recreation, and Golf Commission"
+        ]
+      },
+      {
+        "name": "Craig Kim",
+        "email": null,
+        "title": "Council Member",
+        "start_date": "2023-12-11",
+        "committees": [
+          "Diversity, Equity, and Inclusion Commission",
+          "E-470 Commercial Area General Improvement District",
+          "E-470 Residential Area General Improvement District",
+          "Housing Authority",
+          "Northern Infrastructure General Improvement District"
+        ]
+      },
+      {
+        "name": "Joanna Sandoval",
+        "email": null,
+        "title": "Council Member",
+        "start_date": "2025-12-08",
+        "committees": [
+          "E-470 Commercial Area General Improvement District",
+          "E-470 Residential Area General Improvement District",
+          "Northern Infrastructure General Improvement District",
+          "Urban Renewal Authority",
+          "Youth Commission"
+        ]
+      },
+      {
+        "name": "Jose Guardiola",
+        "email": "JGuardiola@c3gov.com",
+        "title": "Council Member",
+        "start_date": "2025-12-08",
+        "committees": [
+          "City Council Evaluation Committee",
+          "Cultural Council",
+          "Derby Review Board",
+          "E-470 Commercial Area General Improvement District",
+          "E-470 Residential Area General Improvement District"
+        ]
+      },
+      {
+        "name": "Lori Young",
+        "email": null,
+        "title": "Council Member",
+        "start_date": "2025-12-08",
+        "committees": [
+          "Cultural Council",
+          "E-470 Commercial Area General Improvement District",
+          "E-470 Residential Area General Improvement District",
+          "Northern Infrastructure General Improvement District",
+          "Senior Commission"
+        ]
+      },
+      {
+        "name": "Rocky Teter",
+        "email": null,
+        "title": "Council Member",
+        "start_date": "2023-12-11",
+        "committees": [
+          "E-470 Commercial Area General Improvement District",
+          "E-470 Residential Area General Improvement District",
+          "Northern Infrastructure General Improvement District",
+          "Parks, Recreation, and Golf Commission",
+          "Urban Renewal Authority"
+        ]
+      },
+      {
+        "name": "Stefanie Trujillo",
+        "email": null,
+        "title": "Council Member",
+        "start_date": "2025-12-08",
+        "committees": [
+          "Diversity, Equity, and Inclusion Commission",
+          "E-470 Commercial Area General Improvement District",
+          "E-470 Residential Area General Improvement District",
+          "Northern Infrastructure General Improvement District",
+          "Urban Renewal Authority"
+        ]
+      },
+      {
+        "name": "Steven J. Douglas",
+        "email": "sdouglas@c3gov.com",
+        "title": "Mayor",
+        "start_date": "2023-12-11",
+        "committees": [
+          "E-470 Commercial Area General Improvement District",
+          "E-470 Residential Area General Improvement District",
+          "Environmental Policy and Innovation Commission",
+          "Northern Infrastructure General Improvement District",
+          "Urban Renewal Authority"
+        ]
+      },
+      {
+        "name": "Susan Noble",
+        "email": null,
+        "title": "Mayor Pro Tem",
+        "start_date": "2023-12-11",
+        "committees": [
+          "E-470 Commercial Area General Improvement District",
+          "E-470 Residential Area General Improvement District",
+          "Environmental Policy and Innovation Commission",
+          "Northern Infrastructure General Improvement District",
+          "Senior Commission"
+        ]
+      }
+    ]
+  },
+  "recent_meetings": [
+    {
+      "date": "2026-02-17",
+      "body": "Parks, Recreation, and Golf Commission",
+      "location": "Bison Ridge Recreation Center Active Adult Ctr.\r\n13905 E. 112th Ave. Commerce City, CO 80022. Hybrid Meeting - Registration Link: https://c3gov.zoom.us/webinar/register/WN_CPFV1AhaSu2UKGg7Liou3w",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/Commerce/meetings/2026/2/4765_A_Parks%2C_Recreation%2C_and_Golf_Commission_26-02-17_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-17",
+      "body": "Cultural Council",
+      "location": "Eagle Pointe Recreation Center (Animas Conference Room) - 6060 Parkway Dr",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/Commerce/meetings/2026/2/4782_A_Cultural_Council_26-02-17_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-12",
+      "body": "Senior Commission",
+      "location": "HYBRID: Eagle Pointe Recreation Center (6060 Parkway Dr) and Zoom (register in advance: https://c3gov.zoom.us/webinar/register/WN_RpfqKqKxQ8idKss3ESe_6w)",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/Commerce/meetings/2026/2/4778_A_Senior_Commission_26-02-12_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-12",
+      "body": "Senior Commission",
+      "location": "Eagle Pointe Recreation Center - Animas Conference Room, 6060 Parkway Dr",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/Commerce/meetings/2026/2/4777_A_Senior_Commission_26-02-12_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-11",
+      "body": "Cultural Council",
+      "location": "Zoom: https://c3gov.zoom.us/j/95330582631?pwd=E8kiyak7fnJ35X6da10AlxRmOa1oBX.1",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/Commerce/meetings/2026/2/4780_A_Cultural_Council_26-02-11_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "Zoning Board of Adjustment",
+      "location": "Estimated Times Only\r\nCouncil Chambers, \r\n7887 E. 60th Ave Commerce City, CO 80022.\r\nThe public can participate virtually by registering in advance with the Zoom Registration:\r\nhttps://c3gov.zoom.us/webinar/register/WN_sdEdlsN1Sui4OydhLKl_qA",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/Commerce/meetings/2026/2/4731_A_Zoning_Board_of_Adjustment_26-02-10_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "Zoning Board of Adjustment",
+      "location": "Council Chambers, \r\n7887 E. 60th Ave Commerce City, CO 80022.\r\nThe public can participate virtually by registering in advance with the Zoom Registration:\r\nhttps://c3gov.zoom.us/webinar/register/WN_sdEdlsN1Sui4OydhLKl_qA",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/Commerce/meetings/2026/2/4716_A_Zoning_Board_of_Adjustment_26-02-10_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "Liquor License Authority",
+      "location": "Council Chambers, 7887 E 60th Ave, Commerce City, CO 80022.",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/Commerce/meetings/2026/2/4624_A_Liquor_License_Authority_26-02-10_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-09",
+      "body": "City Council Retreat Planning Committee",
+      "location": "Zoom Registration link: https://c3gov.zoom.us/webinar/register/WN_vhoJc_riT22bMYkcMujQ3Q",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/Commerce/meetings/2026/2/4776_A_City_Council_Retreat_Planning_Committee_26-02-09_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-09",
+      "body": "City Council",
+      "location": "Council Chambers, 7887 E 60th Ave, Commerce City, CO 80022. The meeting will also be conducted in a hybrid format via Zoom. Registration link:\r\nhttps://c3gov.zoom.us/webinar/register/WN_ePNwFlCBSdm2VQrvPjEbYA",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/Commerce/meetings/2026/2/4559_A_City_Council_26-02-09_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-09",
+      "body": "City Council Legislative Committee",
+      "location": "Council Chambers, 7887 E 60th Ave, Commerce City, CO 80022. The meeting will also be conducted in a hybrid format via Zoom. Registration link:\r\nhttps://c3gov.zoom.us/webinar/register/WN_ePNwFlCBSdm2VQrvPjEbYA",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/Commerce/meetings/2026/2/4779_A_City_Council_Legislative_Committee_26-02-09_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-07",
+      "body": "City Council Boards & Commissions Committee",
+      "location": "Virtually Via Zoom. Meeting Registration: https://c3gov.zoom.us/webinar/register/WN_BPz5EQlISRm5bVND6opNXg",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/Commerce/meetings/2026/2/4781_A_City_Council_Boards___Commissions_Committee_26-02-07_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Bylaws Update_Feb 2026",
+      "type": "Administrative Business",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-09",
+      "file_number": "26-035",
+      "passed_date": null
+    },
+    {
+      "title": "Cultural Council and Commerce City Presentation",
+      "type": "Presentation",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-09",
+      "file_number": "Pres 26-214",
+      "passed_date": null
+    },
+    {
+      "title": "Derby Review Board Meeting Minutes August 20, 2024",
+      "type": "Minutes",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-09",
+      "file_number": "Min 26-036",
+      "passed_date": null
+    },
+    {
+      "title": "LEGISLATIVE REZONING FOLLOWING THE LDC ADOPTION",
+      "type": "Presentation",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-09",
+      "file_number": "Pres 26-010",
+      "passed_date": null
+    },
+    {
+      "title": "Events Subcommittee Notes",
+      "type": "Administrative Business",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-09",
+      "file_number": "26-036",
+      "passed_date": null
+    },
+    {
+      "title": "Public Art Subcommittee Notes",
+      "type": "Administrative Business",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-09",
+      "file_number": "26-037",
+      "passed_date": null
+    },
+    {
+      "title": "Advancing Community Health and Well-Being Updates",
+      "type": "Noticed Council Business",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-06",
+      "file_number": "NCB 26-006",
+      "passed_date": null
+    },
+    {
+      "title": "Nonprofit Engagement Advisory Committee",
+      "type": "Noticed Council Business",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-06",
+      "file_number": "NCB 26-005",
+      "passed_date": null
+    },
+    {
+      "title": "Buffalo Run Golf Clubhouse Renovation Project Update - Chad Redin",
+      "type": "Presentation",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-05",
+      "file_number": "Pres 26-204",
+      "passed_date": null
+    },
+    {
+      "title": "Application for a new Fermented Malt Beverage and Wine off-premise Liquor License for El Mercadito de Tixca, located at 6501 E 64th Ave, Commerce City, Colorado 80022.",
+      "type": "Administrative Business",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-04",
+      "file_number": "26-030",
+      "passed_date": null
+    }
+  ],
+  "legistar_url": "https://commerce.legistar.com",
+  "enriched_at": "2026-02-13T20:03:13.041311",
+  "government_news": [],
+  "video_meetings": [],
+  "data_platforms": [
+    "legistar"
+  ]
+}

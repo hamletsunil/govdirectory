@@ -1,1 +1,925 @@
-{"schema_version":"5.0","normalized_at":"2026-02-10T14:21:48.997618","identity":{"name":"Carrollton","state":"TX","fips_state":"48","fips_place":"13024","population":132284},"city_website":"https://www.cityofcarrollton.com","economy":{"median_household_income":95380,"median_home_value":327300,"unemployment_rate":3.27,"unemployment_data_level":"county","labor_force":687,"employed":665,"unemployed":22,"gini_index":null,"poverty_rate":6.79,"homeownership_rate":58.28,"rent_to_income_ratio":19.56,"home_value_to_income_ratio":3.43,"price_to_rent_ratio":17.54,"effective_tax_rate":19.3877,"population_growth_cagr":0.9773,"median_real_estate_taxes":5288},"safety":{"violent_crime_rate":null,"property_crime_rate":null,"murder_rate":null,"robbery_rate":null,"burglary_rate":null,"vehicle_theft_rate":null,"total_crime_rate":null,"crime_trend":null,"crime_data_level":null},"education":{"total_schools":9692,"total_enrollment":5519599,"pupil_teacher_ratio":15.0,"title1_pct":0.0,"charter_pct":11.1,"regular_schools":8540,"avg_school_rating":7.5,"rated_schools":6,"school_quality_tier":"good"},"environment":{"pm25_mean":9.2244,"ozone_mean":0.043,"total_disasters":16,"avg_disasters_per_decade":3.2,"most_recent_disaster":"2021-02-19","most_recent_disaster_type":"Severe Ice Storm","disasters_by_type":{"Fire":5,"Severe Ice Storm":3,"Hurricane":3,"Biological":2,"Severe Storm":2,"Tornado":1}},"housing":{"median_rent":1555,"housing_units":52646,"fmr_0br":789,"fmr_1br":811,"fmr_2br":1015,"fmr_3br":1321,"fmr_4br":1493,"rent_burden_ratio":12.8,"cost_burdened_pct":44.42,"severely_burdened_pct":22.48},"governance":{"legislative_volume":5625,"legislative_velocity":407.6,"committee_count":14,"years_of_legislative_data":13.8,"has_public_meetings":true,"api_accessible":true,"matter_types":{"Resolution":255,"Contracts/Agreements":186,"Work Session Item":160,"Bid/Purchases":110,"Public Hearing":105,"Ordinances":64,"Minutes":63,"Presentations":57},"top_matter_type":"Resolution","matter_statuses":{"Passed":730,"Work Session":160,"Presentations":57,"Consent Agenda":27,"Public Hearing/Individual Consideration":14,"Failed":12},"pass_rate":33.3,"passed_count":1875,"active_council_members":8,"avg_tenure_years":3.3,"vote_coverage_pct":0.0,"video_availability_pct":85.1,"agenda_availability_pct":85.7,"minutes_availability_pct":2.5,"avg_meetings_per_month":2.0,"meetings_by_year":{"2026":3,"2025":26,"2024":23,"2023":24,"2022":29,"2021":26,"2020":26,"2019":25,"2018":28,"2017":28},"avg_sponsors_per_matter":0.0,"avg_attachments_per_matter":0.3,"pct_with_text_versions":100.0,"index_categories":[],"has_accela":false,"accela_agency_id":null},"development":{"permits_12mo":null,"yoy_trend_pct":null,"avg_permit_value":null,"permit_types":{},"datasets_count":0},"meetings":{"official_channels":1,"meetings_indexed":19,"avg_meetings_per_month":19.0,"has_video_archive":true,"meeting_types":{"city_council":16,"other":3},"transcripts_available":17},"civic_issues":{"total_issues":98,"issues_last_30d":0,"issues_last_365d":0,"resolution_rate":52.0,"top_issue_type":"Unknown","type_distribution":{"Unknown":47},"has_civic_issue_tracking":true},"demographics":{"population":132284,"poverty_universe":131750,"employment_universe":109524},"time_series":{"economy_history":[{"year":2024,"unemployment_rate":3.27,"labor_force":687,"employed":665,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2023,"unemployment_rate":3.17,"labor_force":704,"employed":681,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2022,"unemployment_rate":2.99,"labor_force":689,"employed":668,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2021,"unemployment_rate":3.98,"labor_force":656,"employed":630,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2020,"unemployment_rate":4.18,"labor_force":621,"employed":595,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2019,"unemployment_rate":3.06,"labor_force":642,"employed":622,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2018,"unemployment_rate":3.4,"labor_force":617,"employed":596,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2017,"unemployment_rate":3.87,"labor_force":608,"employed":584,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2016,"unemployment_rate":3.96,"labor_force":601,"employed":577,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2015,"unemployment_rate":3.82,"labor_force":591,"employed":568,"data_level":"county","source":"bls_laus","is_partial_year":false}],"safety_history":[],"environment_history":[{"year":2023,"pm25_mean":9.2244,"ozone_mean":0.043,"data_level":"county","source":"epa_aqs"},{"year":2022,"pm25_mean":8.7767,"ozone_mean":0.042,"data_level":"county","source":"epa_aqs"},{"year":2021,"pm25_mean":8.8697,"ozone_mean":0.0405,"data_level":"county","source":"epa_aqs"},{"year":2020,"pm25_mean":8.8044,"ozone_mean":0.0396,"data_level":"county","source":"epa_aqs"},{"year":2019,"pm25_mean":8.5819,"ozone_mean":0.0407,"data_level":"county","source":"epa_aqs"},{"year":2018,"pm25_mean":8.7152,"ozone_mean":0.0392,"data_level":"county","source":"epa_aqs"}]},"data_sources":{"legistar":"available","socrata":"available","census_acs":"available","arcgis":"available","fbi_ucr":"available","socrata_crime":"available","bls_laus":"available","ca_edd":"skipped","epa_aqs":"available","nces_ccd":"available","hud_fmr":"available","fema_openfema":"available","greatschools":"available","permits":"skipped","youtube_meetings":"available","seeclickfix":"available","accela":"available"},"provenance":{"last_full_probe":"2026-02-09T22:00:18.608560","sources":{"legistar":{"authority":"Legistar by Granicus","authority_tier":1,"api_url":"https://webapi.legistar.com/v1/carrolltontx/Bodies","probed_at":"2026-02-09T22:00:18.609649","data_vintage":"2012\u20132026","geographic_level":"place","status":"available"},"socrata":{"authority":"City Open Data Portals (Socrata/Tyler Data & Insights)","authority_tier":1,"api_url":null,"probed_at":"2026-02-09T22:01:41.603399","data_vintage":null,"geographic_level":"place","status":"available"},"census_acs":{"authority":"US Census Bureau","authority_tier":1,"api_url":"https://api.census.gov/data/2022/acs/acs5?get=NAME,B01001_001E,B19013_001E,B25077_001E,B25064_001E,B25001_001E&for=place:13024&in=state:48","probed_at":"2026-02-09T22:01:41.605922","data_vintage":"ACS 5-Year 2022","geographic_level":"place","status":"available"},"arcgis":{"authority":"City ArcGIS/GIS Portals","authority_tier":1,"api_url":null,"probed_at":"2026-02-09T22:01:51.305214","data_vintage":null,"geographic_level":"place","status":"available"},"fbi_ucr":{"authority":"FBI Uniform Crime Reporting Program","authority_tier":1,"api_url":"https://api.usa.gov/crime/fbi/sapi/api/estimates/states/TX/2015/2022","probed_at":"2026-02-09T22:01:53.045307","data_vintage":null,"geographic_level":"state","status":"available"},"bls_laus":{"authority":"Bureau of Labor Statistics","authority_tier":1,"api_url":"https://api.bls.gov/publicAPI/v2/timeseries/data/LAUST480000000000003","probed_at":"2026-02-09T22:02:08.448937","data_vintage":"LAUS 2024","geographic_level":"state","status":"available"},"epa_aqs":{"authority":"US Environmental Protection Agency","authority_tier":1,"api_url":"https://aqs.epa.gov/data/api/annualData/byState?state=48&param=88101","probed_at":"2026-02-09T22:02:09.919301","data_vintage":"AQS 2023","geographic_level":"state","status":"available"},"nces_ccd":{"authority":"National Center for Education Statistics","authority_tier":1,"api_url":"https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=48","probed_at":"2026-02-09T22:03:07.361078","data_vintage":"2022-2023 academic year","geographic_level":"state","status":"available"},"hud_fmr":{"authority":"US Department of Housing and Urban Development","authority_tier":1,"api_url":"https://www.huduser.gov/hudapi/public/fmr/statedata/TX","probed_at":"2026-02-09T22:03:27.483159","data_vintage":"FY2026","geographic_level":"state","status":"available"},"fema_openfema":{"authority":"Federal Emergency Management Agency","authority_tier":1,"api_url":"https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries?$filter=state eq 'TX'","probed_at":"2026-02-09T22:03:28.203646","data_vintage":"1953-present","geographic_level":"state","status":"available"},"greatschools":{"authority":"GreatSchools.org (nonprofit)","authority_tier":3,"api_url":null,"probed_at":"2026-02-09T22:03:28.584381","data_vintage":null,"geographic_level":"place","status":"available"},"permits":{"authority":"City Open Data Portals (Socrata)","authority_tier":1,"api_url":null,"probed_at":"2026-02-09T22:03:28.992317","data_vintage":null,"geographic_level":"place","status":"skipped"},"youtube_meetings":{"authority":"YouTube (via SerpAPI search + youtube-transcript-api)","authority_tier":3,"api_url":null,"probed_at":"2026-02-09T22:03:28.995009","data_vintage":null,"geographic_level":"place","status":"available"},"seeclickfix":{"authority":"SeeClickFix (civic issue tracking platform)","authority_tier":3,"api_url":"https://seeclickfix.com/api/v2/issues?place_url=carrolltontx","probed_at":"2026-02-09T22:05:11.055031","data_vintage":null,"geographic_level":"place","status":"available"},"accela":{"authority":"Accela (permit management platform)","authority_tier":3,"api_url":"https://apis.accela.com/v4/agencies","probed_at":"2026-02-09T22:06:18.732540","data_vintage":null,"geographic_level":"place","status":"available"},"socrata_crime":{"authority":"City Open Data Portals (Socrata)","authority_tier":1,"api_url":null,"probed_at":"2026-02-09T22:02:08.447470","data_vintage":null,"geographic_level":"place","status":"available"}},"derived_fields":{"safety.total_crime_rate":{"formula":"violent_crime_rate + property_crime_rate","inputs":["safety.violent_crime_rate","safety.property_crime_rate"],"formula_location":"score/normalizer.py:_derive_total_crime","authority_tier":2},"safety.crime_trend":{"formula":"(last_year_rate - first_year_rate) / years_span","inputs":["fbi.time_series[].violent_crime_rate"],"formula_location":"score/normalizer.py:_build_safety","authority_tier":2},"education.school_quality_tier":{"formula":"excellent if avg>=8, good if avg>=6, fair if avg>=4, else poor","inputs":["education.avg_school_rating"],"formula_location":"score/normalizer.py:_build_education","authority_tier":3},"environment.avg_disasters_per_decade":{"formula":"total_disasters / (years_span / 10)","inputs":["environment.total_disasters"],"formula_location":"probe/fema_probe.py","authority_tier":2},"housing.rent_burden_ratio":{"formula":"(fmr_2br * 12) / median_household_income * 100","inputs":["housing.fmr_2br","economy.median_household_income"],"formula_location":"score/normalizer.py:_build_housing","authority_tier":2},"governance.legislative_velocity":{"formula":"legislative_volume / years_of_legislative_data","inputs":["governance.legislative_volume","governance.years_of_legislative_data"],"formula_location":"score/normalizer.py:_build_governance","authority_tier":2},"development.yoy_trend_pct":{"formula":"(current_year - prior_year) / prior_year * 100","inputs":["permit data from Socrata"],"formula_location":"probe/permits_probe.py","authority_tier":2}},"geographic_mismatches":[{"field":"identity.fips_state","source_level":"state","profile_level":"place","note":"state-level data applied to city profile"},{"field":"economy.unemployment_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Reflects statewide unemployment, not city-specific rate"},{"field":"economy.labor_force","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: This is the full state labor force, not city-level"},{"field":"economy.employed","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"economy.unemployed","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.violent_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: City-level requires ORI codes not currently used"},{"field":"safety.property_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.murder_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.robbery_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.burglary_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.vehicle_theft_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.total_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA; derived sum"},{"field":"safety.crime_trend","source_level":"state","profile_level":"place","note":"state-level data applied to city profile"},{"field":"education.total_schools","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Count includes all schools in the state, not city"},{"field":"education.total_enrollment","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.pupil_teacher_ratio","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Average across all state schools"},{"field":"education.title1_pct","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.charter_pct","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.regular_schools","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.pm25_mean","source_level":"state","profile_level":"place","note":"STATE/COUNTY-LEVEL: Averaged across all monitors in the state"},{"field":"environment.ozone_mean","source_level":"state","profile_level":"place","note":"STATE/COUNTY-LEVEL"},{"field":"environment.total_disasters","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: All declarations for the state, not city-specific"},{"field":"environment.avg_disasters_per_decade","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.most_recent_disaster","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.most_recent_disaster_type","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"housing.fmr_0br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR: Fair Market Rents at state level, not city-specific metro area"},{"field":"housing.fmr_1br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_2br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_3br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_4br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.rent_burden_ratio","source_level":"mixed","profile_level":"place","note":"GEOGRAPHIC MISMATCH: FMR is state-level (HUD), income is city-level (Census). Ratio may be biased."}]},"data_quality":{"quality_score":100.0,"grade":"A","completeness_pct":100.0,"issue_count":6,"granularity_flags":2},"officials":{"body_name":"City Council","members":[{"name":"Andrew Palacios","email":"andrew.palacios@cityofcarrollton.com","title":"Councilmember","start_date":"2023-06-01"},{"name":"Christopher Axberg","email":"christopher.axberg@cityofcarrollton.com","title":"Mayor Pro Tem","start_date":"2025-05-07"},{"name":"Daisy Palomo","email":null,"title":"Deputy Mayor Pro Tem","start_date":"2023-06-01"},{"name":"Jason Carpenter","email":null,"title":"Councilmember","start_date":"2023-06-01"},{"name":"Nancy Cline","email":"nancy.cline@cityofcarrollton.com","title":"Councilmember","start_date":"2021-05-01"},{"name":"Richard  Fleming","email":"richard.fleming@cityofcarrollton.com","title":"Councilmember","start_date":"2022-07-08"},{"name":"Rowena Watters","email":"rowena.watters@cityofcarrollton.com","title":"Councilmember","start_date":"2024-05-14"},{"name":"Steve Babick","email":"Steve.Babick@cityofcarrollton.com","title":"Mayor","start_date":"2018-05-16"}]},"recent_meetings":[{"date":"2026-02-03","body":"City Council","location":"CITY HALL, 2nd Floor","has_agenda":true,"agenda_url":"https://legistar.granicus.com/Carrolltontx/meetings/2026/2/1906_A_City_Council_26-02-03_REGULAR_WORKSESSION___MEETING.pdf","has_minutes":false,"has_video":true,"upcoming":false},{"date":"2026-01-20","body":"City Council","location":"CITY HALL, 2nd Floor","has_agenda":true,"agenda_url":"https://legistar.granicus.com/Carrolltontx/meetings/2026/1/1904_A_City_Council_26-01-20_REGULAR_WORKSESSION___MEETING.pdf","has_minutes":false,"has_video":true,"upcoming":false}],"recent_legislation":[{"title":"Consider Approval Of A Resolution Appointing A Member To The Museum And Historic Advisory Committee.","type":"Resolution","status":"Consent Agenda","intro_date":"2026-02-09","file_number":"7545","passed_date":null},{"title":"Consider Approval Of The January 20, 2026 Regular Meeting Minutes.","type":"Minutes","status":"Consent Agenda","intro_date":"2026-02-09","file_number":"7546","passed_date":null},{"title":"Consider Approval Of The February 3, 2026 Regular Meeting Minutes.","type":"Minutes","status":"Consent Agenda","intro_date":"2026-02-09","file_number":"7547","passed_date":null},{"title":"Consider Authorizing The City Manager To Enter Into An Agreement With Catapult Staffing, LLC, Through GSA Purchasing Cooperative, For Staffing Services In A Total Amount Not To Exceed $1,200,000.00.","type":"Contracts/Agreements","status":"Consent Agenda","intro_date":"2026-02-04","file_number":"7544","passed_date":null},{"title":"Consider Approval Of Repair And Resurfacing Of Pickleball Courts With Master Systems Courts Through An Inter-Local Agreement With Texas Interlocal Purchasing System (TIPS) In An Amount Not To Exceed $","type":"Contracts/Agreements","status":"Consent Agenda","intro_date":"2026-02-03","file_number":"7543","passed_date":null},{"title":"Consider A Resolution Acknowledging Receipt Of The Annual Comprehensive Financial Report For The Fiscal Year Ending September 30, 2025.","type":"Resolution","status":"Consent Agenda","intro_date":"2026-02-02","file_number":"7541","passed_date":null},{"title":"Receive An Overview Of The City\u2019s Annual Financial Report For The Fiscal Year Ending September 30, 2025.","type":"Work Session Item","status":"Work Session","intro_date":"2026-02-02","file_number":"7540","passed_date":null},{"title":"Consider A Resolution Accepting The Investment Officer\u2019s Quarterly Report For First Quarter Ended December 31, 2025.","type":"Resolution","status":"Consent Agenda","intro_date":"2026-01-28","file_number":"7538","passed_date":null},{"title":"Discuss Nomination Of Rising Star Honoree For Metrocrest Chamber.","type":"Work Session Item","status":"Work Session","intro_date":"2026-01-27","file_number":"7535","passed_date":null},{"title":"Receive Funding From Denton County Commissioner Falconer For Hebron And Frankford.","type":"Presentations","status":"Presentations","intro_date":"2026-01-27","file_number":"7536","passed_date":null}],"legistar_url":"https://carrolltontx.legistar.com","enriched_at":"2026-02-13T20:01:47.917158","government_news":[],"video_meetings":[],"data_platforms":["legistar"]}
+{
+  "schema_version": "5.0",
+  "normalized_at": "2026-02-10T14:21:48.997618",
+  "identity": {
+    "name": "Carrollton",
+    "state": "TX",
+    "fips_state": "48",
+    "fips_place": "13024",
+    "population": 132284
+  },
+  "city_website": "https://www.cityofcarrollton.com",
+  "economy": {
+    "median_household_income": 95380,
+    "median_home_value": 327300,
+    "unemployment_rate": 3.27,
+    "unemployment_data_level": "county",
+    "labor_force": 687,
+    "employed": 665,
+    "unemployed": 22,
+    "gini_index": null,
+    "poverty_rate": 6.79,
+    "homeownership_rate": 58.28,
+    "rent_to_income_ratio": 19.56,
+    "home_value_to_income_ratio": 3.43,
+    "price_to_rent_ratio": 17.54,
+    "effective_tax_rate": 19.3877,
+    "population_growth_cagr": 0.9773,
+    "median_real_estate_taxes": 5288
+  },
+  "safety": {
+    "violent_crime_rate": null,
+    "property_crime_rate": null,
+    "murder_rate": null,
+    "robbery_rate": null,
+    "burglary_rate": null,
+    "vehicle_theft_rate": null,
+    "total_crime_rate": null,
+    "crime_trend": null,
+    "crime_data_level": null
+  },
+  "education": {
+    "total_schools": 9692,
+    "total_enrollment": 5519599,
+    "pupil_teacher_ratio": 15.0,
+    "title1_pct": 0.0,
+    "charter_pct": 11.1,
+    "regular_schools": 8540,
+    "avg_school_rating": 7.5,
+    "rated_schools": 6,
+    "school_quality_tier": "good"
+  },
+  "environment": {
+    "pm25_mean": 9.2244,
+    "ozone_mean": 0.043,
+    "total_disasters": 16,
+    "avg_disasters_per_decade": 3.2,
+    "most_recent_disaster": "2021-02-19",
+    "most_recent_disaster_type": "Severe Ice Storm",
+    "disasters_by_type": {
+      "Fire": 5,
+      "Severe Ice Storm": 3,
+      "Hurricane": 3,
+      "Biological": 2,
+      "Severe Storm": 2,
+      "Tornado": 1
+    }
+  },
+  "housing": {
+    "median_rent": 1555,
+    "housing_units": 52646,
+    "fmr_0br": 789,
+    "fmr_1br": 811,
+    "fmr_2br": 1015,
+    "fmr_3br": 1321,
+    "fmr_4br": 1493,
+    "rent_burden_ratio": 12.8,
+    "cost_burdened_pct": 44.42,
+    "severely_burdened_pct": 22.48
+  },
+  "health": {
+    "uninsured_pct": 15.2,
+    "obesity_pct": 31.8,
+    "diabetes_pct": 10.2,
+    "depression_pct": 19.1,
+    "asthma_pct": 9.0,
+    "smoking_pct": 9.6,
+    "physical_inactivity_pct": 24.1,
+    "mental_health_bad_days": 15.4,
+    "physical_health_bad_days": 10.7,
+    "sleep_deficit_pct": 35.0,
+    "high_blood_pressure_pct": 29.1,
+    "high_cholesterol_pct": 34.4,
+    "heart_disease_pct": 4.4,
+    "stroke_pct": 2.5,
+    "cancer_pct": 5.9,
+    "kidney_disease_pct": null,
+    "checkup_pct": 74.4,
+    "data_year": "2023"
+  },
+  "governance": {
+    "legislative_volume": 5625,
+    "legislative_velocity": 407.6,
+    "committee_count": 14,
+    "years_of_legislative_data": 13.8,
+    "has_public_meetings": true,
+    "api_accessible": true,
+    "matter_types": {
+      "Resolution": 255,
+      "Contracts/Agreements": 186,
+      "Work Session Item": 160,
+      "Bid/Purchases": 110,
+      "Public Hearing": 105,
+      "Ordinances": 64,
+      "Minutes": 63,
+      "Presentations": 57
+    },
+    "top_matter_type": "Resolution",
+    "matter_statuses": {
+      "Passed": 730,
+      "Work Session": 160,
+      "Presentations": 57,
+      "Consent Agenda": 27,
+      "Public Hearing/Individual Consideration": 14,
+      "Failed": 12
+    },
+    "pass_rate": 33.3,
+    "passed_count": 1875,
+    "active_council_members": 8,
+    "avg_tenure_years": 3.3,
+    "vote_coverage_pct": 0.0,
+    "video_availability_pct": 85.1,
+    "agenda_availability_pct": 85.7,
+    "minutes_availability_pct": 2.5,
+    "avg_meetings_per_month": 2.0,
+    "meetings_by_year": {
+      "2026": 3,
+      "2025": 26,
+      "2024": 23,
+      "2023": 24,
+      "2022": 29,
+      "2021": 26,
+      "2020": 26,
+      "2019": 25,
+      "2018": 28,
+      "2017": 28
+    },
+    "avg_sponsors_per_matter": 0.0,
+    "avg_attachments_per_matter": 0.3,
+    "pct_with_text_versions": 100.0,
+    "index_categories": [],
+    "has_accela": false,
+    "accela_agency_id": null
+  },
+  "development": {
+    "permits_12mo": null,
+    "yoy_trend_pct": null,
+    "avg_permit_value": null,
+    "permit_types": {},
+    "datasets_count": 0
+  },
+  "meetings": {
+    "official_channels": 1,
+    "meetings_indexed": 19,
+    "avg_meetings_per_month": 19.0,
+    "has_video_archive": true,
+    "meeting_types": {
+      "city_council": 16,
+      "other": 3
+    },
+    "transcripts_available": 17
+  },
+  "civic_issues": {
+    "total_issues": 98,
+    "issues_last_30d": 0,
+    "issues_last_365d": 0,
+    "resolution_rate": 52.0,
+    "top_issue_type": "Unknown",
+    "type_distribution": {
+      "Unknown": 47
+    },
+    "has_civic_issue_tracking": true
+  },
+  "demographics": {
+    "population": 132284,
+    "poverty_universe": 131750,
+    "employment_universe": 109524
+  },
+  "time_series": {
+    "economy_history": [
+      {
+        "year": 2024,
+        "unemployment_rate": 3.27,
+        "labor_force": 687,
+        "employed": 665,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2023,
+        "unemployment_rate": 3.17,
+        "labor_force": 704,
+        "employed": 681,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2022,
+        "unemployment_rate": 2.99,
+        "labor_force": 689,
+        "employed": 668,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2021,
+        "unemployment_rate": 3.98,
+        "labor_force": 656,
+        "employed": 630,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2020,
+        "unemployment_rate": 4.18,
+        "labor_force": 621,
+        "employed": 595,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2019,
+        "unemployment_rate": 3.06,
+        "labor_force": 642,
+        "employed": 622,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2018,
+        "unemployment_rate": 3.4,
+        "labor_force": 617,
+        "employed": 596,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2017,
+        "unemployment_rate": 3.87,
+        "labor_force": 608,
+        "employed": 584,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2016,
+        "unemployment_rate": 3.96,
+        "labor_force": 601,
+        "employed": 577,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2015,
+        "unemployment_rate": 3.82,
+        "labor_force": 591,
+        "employed": 568,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      }
+    ],
+    "safety_history": [],
+    "environment_history": [
+      {
+        "year": 2023,
+        "pm25_mean": 9.2244,
+        "ozone_mean": 0.043,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2022,
+        "pm25_mean": 8.7767,
+        "ozone_mean": 0.042,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2021,
+        "pm25_mean": 8.8697,
+        "ozone_mean": 0.0405,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2020,
+        "pm25_mean": 8.8044,
+        "ozone_mean": 0.0396,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2019,
+        "pm25_mean": 8.5819,
+        "ozone_mean": 0.0407,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2018,
+        "pm25_mean": 8.7152,
+        "ozone_mean": 0.0392,
+        "data_level": "county",
+        "source": "epa_aqs"
+      }
+    ]
+  },
+  "data_sources": {
+    "legistar": "available",
+    "socrata": "available",
+    "census_acs": "available",
+    "arcgis": "available",
+    "fbi_ucr": "available",
+    "socrata_crime": "available",
+    "bls_laus": "available",
+    "ca_edd": "skipped",
+    "epa_aqs": "available",
+    "nces_ccd": "available",
+    "hud_fmr": "available",
+    "fema_openfema": "available",
+    "greatschools": "available",
+    "permits": "skipped",
+    "youtube_meetings": "available",
+    "seeclickfix": "available",
+    "accela": "available",
+    "cdc_places": "available"
+  },
+  "provenance": {
+    "last_full_probe": "2026-02-09T22:00:18.608560",
+    "sources": {
+      "legistar": {
+        "authority": "Legistar by Granicus",
+        "authority_tier": 1,
+        "api_url": "https://webapi.legistar.com/v1/carrolltontx/Bodies",
+        "probed_at": "2026-02-09T22:00:18.609649",
+        "data_vintage": "2012–2026",
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "socrata": {
+        "authority": "City Open Data Portals (Socrata/Tyler Data & Insights)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-09T22:01:41.603399",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "census_acs": {
+        "authority": "US Census Bureau",
+        "authority_tier": 1,
+        "api_url": "https://api.census.gov/data/2022/acs/acs5?get=NAME,B01001_001E,B19013_001E,B25077_001E,B25064_001E,B25001_001E&for=place:13024&in=state:48",
+        "probed_at": "2026-02-09T22:01:41.605922",
+        "data_vintage": "ACS 5-Year 2022",
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "arcgis": {
+        "authority": "City ArcGIS/GIS Portals",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-09T22:01:51.305214",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "fbi_ucr": {
+        "authority": "FBI Uniform Crime Reporting Program",
+        "authority_tier": 1,
+        "api_url": "https://api.usa.gov/crime/fbi/sapi/api/estimates/states/TX/2015/2022",
+        "probed_at": "2026-02-09T22:01:53.045307",
+        "data_vintage": null,
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "bls_laus": {
+        "authority": "Bureau of Labor Statistics",
+        "authority_tier": 1,
+        "api_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/LAUST480000000000003",
+        "probed_at": "2026-02-09T22:02:08.448937",
+        "data_vintage": "LAUS 2024",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "epa_aqs": {
+        "authority": "US Environmental Protection Agency",
+        "authority_tier": 1,
+        "api_url": "https://aqs.epa.gov/data/api/annualData/byState?state=48&param=88101",
+        "probed_at": "2026-02-09T22:02:09.919301",
+        "data_vintage": "AQS 2023",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "nces_ccd": {
+        "authority": "National Center for Education Statistics",
+        "authority_tier": 1,
+        "api_url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=48",
+        "probed_at": "2026-02-09T22:03:07.361078",
+        "data_vintage": "2022-2023 academic year",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "hud_fmr": {
+        "authority": "US Department of Housing and Urban Development",
+        "authority_tier": 1,
+        "api_url": "https://www.huduser.gov/hudapi/public/fmr/statedata/TX",
+        "probed_at": "2026-02-09T22:03:27.483159",
+        "data_vintage": "FY2026",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "fema_openfema": {
+        "authority": "Federal Emergency Management Agency",
+        "authority_tier": 1,
+        "api_url": "https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries?$filter=state eq 'TX'",
+        "probed_at": "2026-02-09T22:03:28.203646",
+        "data_vintage": "1953-present",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "greatschools": {
+        "authority": "GreatSchools.org (nonprofit)",
+        "authority_tier": 3,
+        "api_url": null,
+        "probed_at": "2026-02-09T22:03:28.584381",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "permits": {
+        "authority": "City Open Data Portals (Socrata)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-09T22:03:28.992317",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "youtube_meetings": {
+        "authority": "YouTube (via SerpAPI search + youtube-transcript-api)",
+        "authority_tier": 3,
+        "api_url": null,
+        "probed_at": "2026-02-09T22:03:28.995009",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "seeclickfix": {
+        "authority": "SeeClickFix (civic issue tracking platform)",
+        "authority_tier": 3,
+        "api_url": "https://seeclickfix.com/api/v2/issues?place_url=carrolltontx",
+        "probed_at": "2026-02-09T22:05:11.055031",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "accela": {
+        "authority": "Accela (permit management platform)",
+        "authority_tier": 3,
+        "api_url": "https://apis.accela.com/v4/agencies",
+        "probed_at": "2026-02-09T22:06:18.732540",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "socrata_crime": {
+        "authority": "City Open Data Portals (Socrata)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-09T22:02:08.447470",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "cdc_places": {
+        "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
+        "authority_tier": 1,
+        "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Carrollton",
+        "probed_at": "2026-02-13T21:02:13.176273",
+        "data_vintage": "BRFSS 2023",
+        "geographic_level": "place",
+        "status": "available"
+      }
+    },
+    "derived_fields": {
+      "safety.total_crime_rate": {
+        "formula": "violent_crime_rate + property_crime_rate",
+        "inputs": [
+          "safety.violent_crime_rate",
+          "safety.property_crime_rate"
+        ],
+        "formula_location": "score/normalizer.py:_derive_total_crime",
+        "authority_tier": 2
+      },
+      "safety.crime_trend": {
+        "formula": "(last_year_rate - first_year_rate) / years_span",
+        "inputs": [
+          "fbi.time_series[].violent_crime_rate"
+        ],
+        "formula_location": "score/normalizer.py:_build_safety",
+        "authority_tier": 2
+      },
+      "education.school_quality_tier": {
+        "formula": "excellent if avg>=8, good if avg>=6, fair if avg>=4, else poor",
+        "inputs": [
+          "education.avg_school_rating"
+        ],
+        "formula_location": "score/normalizer.py:_build_education",
+        "authority_tier": 3
+      },
+      "environment.avg_disasters_per_decade": {
+        "formula": "total_disasters / (years_span / 10)",
+        "inputs": [
+          "environment.total_disasters"
+        ],
+        "formula_location": "probe/fema_probe.py",
+        "authority_tier": 2
+      },
+      "housing.rent_burden_ratio": {
+        "formula": "(fmr_2br * 12) / median_household_income * 100",
+        "inputs": [
+          "housing.fmr_2br",
+          "economy.median_household_income"
+        ],
+        "formula_location": "score/normalizer.py:_build_housing",
+        "authority_tier": 2
+      },
+      "governance.legislative_velocity": {
+        "formula": "legislative_volume / years_of_legislative_data",
+        "inputs": [
+          "governance.legislative_volume",
+          "governance.years_of_legislative_data"
+        ],
+        "formula_location": "score/normalizer.py:_build_governance",
+        "authority_tier": 2
+      },
+      "development.yoy_trend_pct": {
+        "formula": "(current_year - prior_year) / prior_year * 100",
+        "inputs": [
+          "permit data from Socrata"
+        ],
+        "formula_location": "probe/permits_probe.py",
+        "authority_tier": 2
+      }
+    },
+    "geographic_mismatches": [
+      {
+        "field": "identity.fips_state",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "state-level data applied to city profile"
+      },
+      {
+        "field": "economy.unemployment_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Reflects statewide unemployment, not city-specific rate"
+      },
+      {
+        "field": "economy.labor_force",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: This is the full state labor force, not city-level"
+      },
+      {
+        "field": "economy.employed",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "economy.unemployed",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.violent_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: City-level requires ORI codes not currently used"
+      },
+      {
+        "field": "safety.property_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.murder_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.robbery_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.burglary_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.vehicle_theft_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.total_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA; derived sum"
+      },
+      {
+        "field": "safety.crime_trend",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "state-level data applied to city profile"
+      },
+      {
+        "field": "education.total_schools",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Count includes all schools in the state, not city"
+      },
+      {
+        "field": "education.total_enrollment",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.pupil_teacher_ratio",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Average across all state schools"
+      },
+      {
+        "field": "education.title1_pct",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.charter_pct",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.regular_schools",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.pm25_mean",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE/COUNTY-LEVEL: Averaged across all monitors in the state"
+      },
+      {
+        "field": "environment.ozone_mean",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE/COUNTY-LEVEL"
+      },
+      {
+        "field": "environment.total_disasters",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: All declarations for the state, not city-specific"
+      },
+      {
+        "field": "environment.avg_disasters_per_decade",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.most_recent_disaster",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.most_recent_disaster_type",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "housing.fmr_0br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR: Fair Market Rents at state level, not city-specific metro area"
+      },
+      {
+        "field": "housing.fmr_1br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_2br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_3br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_4br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.rent_burden_ratio",
+        "source_level": "mixed",
+        "profile_level": "place",
+        "note": "GEOGRAPHIC MISMATCH: FMR is state-level (HUD), income is city-level (Census). Ratio may be biased."
+      }
+    ]
+  },
+  "data_quality": {
+    "quality_score": 100.0,
+    "grade": "A",
+    "completeness_pct": 100.0,
+    "issue_count": 6,
+    "granularity_flags": 2
+  },
+  "officials": {
+    "body_name": "City Council",
+    "members": [
+      {
+        "name": "Andrew Palacios",
+        "email": "andrew.palacios@cityofcarrollton.com",
+        "title": "Councilmember",
+        "start_date": "2023-06-01"
+      },
+      {
+        "name": "Christopher Axberg",
+        "email": "christopher.axberg@cityofcarrollton.com",
+        "title": "Mayor Pro Tem",
+        "start_date": "2025-05-07"
+      },
+      {
+        "name": "Daisy Palomo",
+        "email": null,
+        "title": "Deputy Mayor Pro Tem",
+        "start_date": "2023-06-01"
+      },
+      {
+        "name": "Jason Carpenter",
+        "email": null,
+        "title": "Councilmember",
+        "start_date": "2023-06-01"
+      },
+      {
+        "name": "Nancy Cline",
+        "email": "nancy.cline@cityofcarrollton.com",
+        "title": "Councilmember",
+        "start_date": "2021-05-01"
+      },
+      {
+        "name": "Richard  Fleming",
+        "email": "richard.fleming@cityofcarrollton.com",
+        "title": "Councilmember",
+        "start_date": "2022-07-08"
+      },
+      {
+        "name": "Rowena Watters",
+        "email": "rowena.watters@cityofcarrollton.com",
+        "title": "Councilmember",
+        "start_date": "2024-05-14"
+      },
+      {
+        "name": "Steve Babick",
+        "email": "Steve.Babick@cityofcarrollton.com",
+        "title": "Mayor",
+        "start_date": "2018-05-16"
+      }
+    ]
+  },
+  "recent_meetings": [
+    {
+      "date": "2026-02-03",
+      "body": "City Council",
+      "location": "CITY HALL, 2nd Floor",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/Carrolltontx/meetings/2026/2/1906_A_City_Council_26-02-03_REGULAR_WORKSESSION___MEETING.pdf",
+      "has_minutes": false,
+      "has_video": true,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-20",
+      "body": "City Council",
+      "location": "CITY HALL, 2nd Floor",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/Carrolltontx/meetings/2026/1/1904_A_City_Council_26-01-20_REGULAR_WORKSESSION___MEETING.pdf",
+      "has_minutes": false,
+      "has_video": true,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Consider Approval Of A Resolution Appointing A Member To The Museum And Historic Advisory Committee.",
+      "type": "Resolution",
+      "status": "Consent Agenda",
+      "intro_date": "2026-02-09",
+      "file_number": "7545",
+      "passed_date": null
+    },
+    {
+      "title": "Consider Approval Of The January 20, 2026 Regular Meeting Minutes.",
+      "type": "Minutes",
+      "status": "Consent Agenda",
+      "intro_date": "2026-02-09",
+      "file_number": "7546",
+      "passed_date": null
+    },
+    {
+      "title": "Consider Approval Of The February 3, 2026 Regular Meeting Minutes.",
+      "type": "Minutes",
+      "status": "Consent Agenda",
+      "intro_date": "2026-02-09",
+      "file_number": "7547",
+      "passed_date": null
+    },
+    {
+      "title": "Consider Authorizing The City Manager To Enter Into An Agreement With Catapult Staffing, LLC, Through GSA Purchasing Cooperative, For Staffing Services In A Total Amount Not To Exceed $1,200,000.00.",
+      "type": "Contracts/Agreements",
+      "status": "Consent Agenda",
+      "intro_date": "2026-02-04",
+      "file_number": "7544",
+      "passed_date": null
+    },
+    {
+      "title": "Consider Approval Of Repair And Resurfacing Of Pickleball Courts With Master Systems Courts Through An Inter-Local Agreement With Texas Interlocal Purchasing System (TIPS) In An Amount Not To Exceed $",
+      "type": "Contracts/Agreements",
+      "status": "Consent Agenda",
+      "intro_date": "2026-02-03",
+      "file_number": "7543",
+      "passed_date": null
+    },
+    {
+      "title": "Consider A Resolution Acknowledging Receipt Of The Annual Comprehensive Financial Report For The Fiscal Year Ending September 30, 2025.",
+      "type": "Resolution",
+      "status": "Consent Agenda",
+      "intro_date": "2026-02-02",
+      "file_number": "7541",
+      "passed_date": null
+    },
+    {
+      "title": "Receive An Overview Of The City’s Annual Financial Report For The Fiscal Year Ending September 30, 2025.",
+      "type": "Work Session Item",
+      "status": "Work Session",
+      "intro_date": "2026-02-02",
+      "file_number": "7540",
+      "passed_date": null
+    },
+    {
+      "title": "Consider A Resolution Accepting The Investment Officer’s Quarterly Report For First Quarter Ended December 31, 2025.",
+      "type": "Resolution",
+      "status": "Consent Agenda",
+      "intro_date": "2026-01-28",
+      "file_number": "7538",
+      "passed_date": null
+    },
+    {
+      "title": "Discuss Nomination Of Rising Star Honoree For Metrocrest Chamber.",
+      "type": "Work Session Item",
+      "status": "Work Session",
+      "intro_date": "2026-01-27",
+      "file_number": "7535",
+      "passed_date": null
+    },
+    {
+      "title": "Receive Funding From Denton County Commissioner Falconer For Hebron And Frankford.",
+      "type": "Presentations",
+      "status": "Presentations",
+      "intro_date": "2026-01-27",
+      "file_number": "7536",
+      "passed_date": null
+    }
+  ],
+  "legistar_url": "https://carrolltontx.legistar.com",
+  "enriched_at": "2026-02-13T20:01:47.917158",
+  "government_news": [],
+  "video_meetings": [],
+  "data_platforms": [
+    "legistar"
+  ]
+}

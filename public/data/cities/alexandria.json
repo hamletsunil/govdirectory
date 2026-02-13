@@ -1,1 +1,982 @@
-{"schema_version":"5.0","normalized_at":"2026-02-10T14:21:48.938566","identity":{"name":"Alexandria","state":"VA","fips_state":"51","fips_place":"01000","population":157594},"city_website":"https://www.alexandria.gov","economy":{"median_household_income":113179,"median_home_value":655700,"unemployment_rate":3.02,"unemployment_data_level":"county","labor_force":15330,"employed":14867,"unemployed":463,"gini_index":null,"poverty_rate":8.82,"homeownership_rate":42.68,"rent_to_income_ratio":21.03,"home_value_to_income_ratio":5.79,"price_to_rent_ratio":27.56,"effective_tax_rate":11.9963,"population_growth_cagr":1.383,"median_real_estate_taxes":6555},"safety":{"violent_crime_rate":null,"property_crime_rate":null,"murder_rate":null,"robbery_rate":null,"burglary_rate":null,"vehicle_theft_rate":null,"total_crime_rate":null,"crime_trend":null,"crime_data_level":null},"education":{"total_schools":2163,"total_enrollment":1260351,"pupil_teacher_ratio":14.4,"title1_pct":0.0,"charter_pct":0.3,"regular_schools":1895,"avg_school_rating":4.2,"rated_schools":26,"school_quality_tier":"fair"},"environment":{"pm25_mean":8.2307,"ozone_mean":0.0439,"total_disasters":23,"avg_disasters_per_decade":3.3,"most_recent_disaster":"2026-01-23","most_recent_disaster_type":"Winter Storm","disasters_by_type":{"Hurricane":6,"Severe Storm":4,"Snowstorm":4,"Flood":4,"Biological":2,"Drought":2,"Winter Storm":1}},"housing":{"median_rent":1983,"housing_units":80253,"fmr_0br":1027,"fmr_1br":1033,"fmr_2br":1187,"fmr_3br":1635,"fmr_4br":1750,"rent_burden_ratio":12.6,"cost_burdened_pct":43.53,"severely_burdened_pct":20.0},"governance":{"legislative_volume":13281,"legislative_velocity":983.8,"committee_count":10,"years_of_legislative_data":13.5,"has_public_meetings":true,"api_accessible":true,"matter_types":{"Land Use and Development (Planning Commission Items)":228,"BAR Case":221,"Written Report":110,"Appointment":107,"Resolution":95,"Ordinance":91,"Oral Report":45,"Proclamation":35,"BZA Case":22,"Grant Application":19,"Other":11,"Minutes":9,"Resignations":6,"Executive Session":1},"top_matter_type":"Land Use and Development (Planning Commission Items)","matter_statuses":{"Agenda Ready":1000},"pass_rate":33.3,"passed_count":4427,"active_council_members":0,"avg_tenure_years":null,"vote_coverage_pct":0.0,"video_availability_pct":0.0,"agenda_availability_pct":100.0,"minutes_availability_pct":89.2,"avg_meetings_per_month":5.8,"meetings_by_year":{"2026":14,"2025":71,"2024":69,"2023":78,"2022":90,"2021":86,"2020":77,"2019":15},"avg_sponsors_per_matter":0.0,"avg_attachments_per_matter":2.6,"pct_with_text_versions":100.0,"index_categories":["Addition - Historic District","Alteration - Historic District","CDD","Capsulation - Historic District","Certificate of Appropriateness - Historic District","City Charter Section 9.06","Concept Review - Historic District","Demolition - Historic District","Development SUP","Development Site Plan","Encroachment","HVAC Rooftop Screening Waiver - Historic District","Master Plan Amendment","New Construction - Historic District","Rezoning","Sign - Historic District","Special Exception","Special Use Permit","Street Name Case","Subdivision","Text Amendment","Transportation Management Plan","Vacation","Variance"],"has_accela":false,"accela_agency_id":null},"development":{"permits_12mo":null,"yoy_trend_pct":null,"avg_permit_value":null,"permit_types":{},"datasets_count":0},"meetings":{"official_channels":2,"meetings_indexed":4,"avg_meetings_per_month":4.0,"has_video_archive":false,"meeting_types":{"city_council":1,"public_hearing":2,"other":1},"transcripts_available":4},"civic_issues":{"total_issues":255,"issues_last_30d":0,"issues_last_365d":0,"resolution_rate":61.2,"top_issue_type":"Unknown","type_distribution":{"Unknown":99},"has_civic_issue_tracking":true},"demographics":{"population":157594,"poverty_universe":155927,"employment_universe":131404},"time_series":{"economy_history":[{"year":2024,"unemployment_rate":3.02,"labor_force":15330,"employed":14867,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2023,"unemployment_rate":2.89,"labor_force":15459,"employed":15011,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2022,"unemployment_rate":2.82,"labor_force":15352,"employed":14920,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2021,"unemployment_rate":3.5,"labor_force":15088,"employed":14559,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2020,"unemployment_rate":5.58,"labor_force":15205,"employed":14358,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2019,"unemployment_rate":3.03,"labor_force":15663,"employed":15188,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2018,"unemployment_rate":3.18,"labor_force":15617,"employed":15123,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2017,"unemployment_rate":3.89,"labor_force":15734,"employed":15122,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2016,"unemployment_rate":4.19,"labor_force":15659,"employed":15003,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2015,"unemployment_rate":4.69,"labor_force":15321,"employed":14603,"data_level":"county","source":"bls_laus","is_partial_year":false}],"safety_history":[],"environment_history":[{"year":2023,"pm25_mean":8.2307,"ozone_mean":0.0439,"data_level":"county","source":"epa_aqs"},{"year":2022,"pm25_mean":6.8876,"ozone_mean":0.0412,"data_level":"county","source":"epa_aqs"},{"year":2021,"pm25_mean":7.5022,"ozone_mean":0.0415,"data_level":"county","source":"epa_aqs"},{"year":2020,"pm25_mean":6.3831,"ozone_mean":0.0382,"data_level":"county","source":"epa_aqs"},{"year":2019,"pm25_mean":7.0778,"ozone_mean":0.0438,"data_level":"county","source":"epa_aqs"},{"year":2018,"pm25_mean":6.8903,"ozone_mean":0.0411,"data_level":"county","source":"epa_aqs"}]},"data_sources":{"legistar":"available","socrata":"available","census_acs":"available","arcgis":"available","fbi_ucr":"available","socrata_crime":"available","bls_laus":"available","ca_edd":"skipped","epa_aqs":"available","nces_ccd":"available","hud_fmr":"available","fema_openfema":"available","greatschools":"available","permits":"skipped","youtube_meetings":"available","seeclickfix":"available","accela":"available"},"provenance":{"last_full_probe":"2026-02-09T20:25:28.756896","sources":{"legistar":{"authority":"Legistar by Granicus","authority_tier":1,"api_url":"https://webapi.legistar.com/v1/alexandria/Bodies","probed_at":"2026-02-09T20:25:28.756991","data_vintage":"2012\u20132026","geographic_level":"place","status":"available"},"socrata":{"authority":"City Open Data Portals (Socrata/Tyler Data & Insights)","authority_tier":1,"api_url":null,"probed_at":"2026-02-09T20:27:29.323794","data_vintage":null,"geographic_level":"place","status":"available"},"census_acs":{"authority":"US Census Bureau","authority_tier":1,"api_url":"https://api.census.gov/data/2022/acs/acs5?get=NAME,B01001_001E,B19013_001E,B25077_001E,B25064_001E,B25001_001E&for=place:01000&in=state:51","probed_at":"2026-02-09T20:27:39.871669","data_vintage":"ACS 5-Year 2022","geographic_level":"place","status":"available"},"arcgis":{"authority":"City ArcGIS/GIS Portals","authority_tier":1,"api_url":null,"probed_at":"2026-02-09T20:27:44.036711","data_vintage":null,"geographic_level":"place","status":"available"},"fbi_ucr":{"authority":"FBI Uniform Crime Reporting Program","authority_tier":1,"api_url":"https://api.usa.gov/crime/fbi/sapi/api/estimates/states/VA/2015/2022","probed_at":"2026-02-09T20:27:45.247331","data_vintage":null,"geographic_level":"state","status":"available"},"bls_laus":{"authority":"Bureau of Labor Statistics","authority_tier":1,"api_url":"https://api.bls.gov/publicAPI/v2/timeseries/data/LAUST510000000000003","probed_at":"2026-02-09T20:27:45.403733","data_vintage":"LAUS 2024","geographic_level":"state","status":"available"},"epa_aqs":{"authority":"US Environmental Protection Agency","authority_tier":1,"api_url":"https://aqs.epa.gov/data/api/annualData/byState?state=51&param=88101","probed_at":"2026-02-09T20:27:46.686246","data_vintage":"AQS 2023","geographic_level":"state","status":"available"},"nces_ccd":{"authority":"National Center for Education Statistics","authority_tier":1,"api_url":"https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=51","probed_at":"2026-02-09T20:29:51.230249","data_vintage":"2022-2023 academic year","geographic_level":"state","status":"available"},"hud_fmr":{"authority":"US Department of Housing and Urban Development","authority_tier":1,"api_url":"https://www.huduser.gov/hudapi/public/fmr/statedata/VA","probed_at":"2026-02-09T20:29:56.876876","data_vintage":"FY2026","geographic_level":"state","status":"available"},"fema_openfema":{"authority":"Federal Emergency Management Agency","authority_tier":1,"api_url":"https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries?$filter=state eq 'VA'","probed_at":"2026-02-09T20:29:59.930681","data_vintage":"1953-present","geographic_level":"state","status":"available"},"greatschools":{"authority":"GreatSchools.org (nonprofit)","authority_tier":3,"api_url":null,"probed_at":"2026-02-09T20:30:00.330372","data_vintage":null,"geographic_level":"place","status":"available"},"permits":{"authority":"City Open Data Portals (Socrata)","authority_tier":1,"api_url":null,"probed_at":"2026-02-09T20:30:01.255561","data_vintage":null,"geographic_level":"place","status":"skipped"},"youtube_meetings":{"authority":"YouTube (via SerpAPI search + youtube-transcript-api)","authority_tier":3,"api_url":null,"probed_at":"2026-02-09T20:30:01.256323","data_vintage":null,"geographic_level":"place","status":"available"},"seeclickfix":{"authority":"SeeClickFix (civic issue tracking platform)","authority_tier":3,"api_url":"https://seeclickfix.com/api/v2/issues?place_url=alexandria","probed_at":"2026-02-09T20:30:25.196089","data_vintage":null,"geographic_level":"place","status":"available"},"accela":{"authority":"Accela (permit management platform)","authority_tier":3,"api_url":"https://apis.accela.com/v4/agencies","probed_at":"2026-02-09T20:32:03.682673","data_vintage":null,"geographic_level":"place","status":"available"},"socrata_crime":{"authority":"City Open Data Portals (Socrata)","authority_tier":1,"api_url":null,"probed_at":"2026-02-09T20:27:45.401964","data_vintage":null,"geographic_level":"place","status":"available"}},"derived_fields":{"safety.total_crime_rate":{"formula":"violent_crime_rate + property_crime_rate","inputs":["safety.violent_crime_rate","safety.property_crime_rate"],"formula_location":"score/normalizer.py:_derive_total_crime","authority_tier":2},"safety.crime_trend":{"formula":"(last_year_rate - first_year_rate) / years_span","inputs":["fbi.time_series[].violent_crime_rate"],"formula_location":"score/normalizer.py:_build_safety","authority_tier":2},"education.school_quality_tier":{"formula":"excellent if avg>=8, good if avg>=6, fair if avg>=4, else poor","inputs":["education.avg_school_rating"],"formula_location":"score/normalizer.py:_build_education","authority_tier":3},"environment.avg_disasters_per_decade":{"formula":"total_disasters / (years_span / 10)","inputs":["environment.total_disasters"],"formula_location":"probe/fema_probe.py","authority_tier":2},"housing.rent_burden_ratio":{"formula":"(fmr_2br * 12) / median_household_income * 100","inputs":["housing.fmr_2br","economy.median_household_income"],"formula_location":"score/normalizer.py:_build_housing","authority_tier":2},"governance.legislative_velocity":{"formula":"legislative_volume / years_of_legislative_data","inputs":["governance.legislative_volume","governance.years_of_legislative_data"],"formula_location":"score/normalizer.py:_build_governance","authority_tier":2},"development.yoy_trend_pct":{"formula":"(current_year - prior_year) / prior_year * 100","inputs":["permit data from Socrata"],"formula_location":"probe/permits_probe.py","authority_tier":2}},"geographic_mismatches":[{"field":"identity.fips_state","source_level":"state","profile_level":"place","note":"state-level data applied to city profile"},{"field":"economy.unemployment_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Reflects statewide unemployment, not city-specific rate"},{"field":"economy.labor_force","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: This is the full state labor force, not city-level"},{"field":"economy.employed","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"economy.unemployed","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.violent_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: City-level requires ORI codes not currently used"},{"field":"safety.property_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.murder_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.robbery_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.burglary_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.vehicle_theft_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.total_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA; derived sum"},{"field":"safety.crime_trend","source_level":"state","profile_level":"place","note":"state-level data applied to city profile"},{"field":"education.total_schools","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Count includes all schools in the state, not city"},{"field":"education.total_enrollment","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.pupil_teacher_ratio","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Average across all state schools"},{"field":"education.title1_pct","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.charter_pct","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.regular_schools","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.pm25_mean","source_level":"state","profile_level":"place","note":"STATE/COUNTY-LEVEL: Averaged across all monitors in the state"},{"field":"environment.ozone_mean","source_level":"state","profile_level":"place","note":"STATE/COUNTY-LEVEL"},{"field":"environment.total_disasters","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: All declarations for the state, not city-specific"},{"field":"environment.avg_disasters_per_decade","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.most_recent_disaster","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.most_recent_disaster_type","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"housing.fmr_0br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR: Fair Market Rents at state level, not city-specific metro area"},{"field":"housing.fmr_1br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_2br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_3br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_4br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.rent_burden_ratio","source_level":"mixed","profile_level":"place","note":"GEOGRAPHIC MISMATCH: FMR is state-level (HUD), income is city-level (Census). Ratio may be biased."}]},"data_quality":{"quality_score":100.0,"grade":"A","completeness_pct":100.0,"issue_count":5,"granularity_flags":1},"officials":{"body_name":"City Council Legislative Meeting","members":[{"name":"Paul Smedberg","email":null,"title":"Councilwoman","start_date":"2012-08-10","committees":["City Council Work Session"]}]},"recent_meetings":[{"date":"2026-02-18","body":"Board of Architectural Review Public Hearing","location":"4850 Mark Center Drive, Room 1305","has_agenda":true,"agenda_url":"https://legistar.granicus.com/alexandria/meetings/2026/2/2702_A_Board_of_Architectural_Review_Public_Hearing_26-02-18_Docket.pdf","has_minutes":false,"has_video":false,"upcoming":true},{"date":"2026-03-03","body":"Planning Commission Public Hearing","location":"4850 Mark Center Drive, Room 1305","has_agenda":true,"agenda_url":"https://legistar.granicus.com/alexandria/meetings/2026/3/2708_A_Planning_Commission_Public_Hearing_26-03-03_Docket.pdf","has_minutes":false,"has_video":false,"upcoming":true},{"date":"2026-02-10","body":"City Council Legislative Meeting","location":"Council Chamber","has_agenda":true,"agenda_url":"https://legistar.granicus.com/alexandria/meetings/2026/2/2679_A_City_Council_Legislative_Meeting_26-02-10_Docket.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-09","body":"Board of Zoning Appeals Public Hearing","location":"4850 Mark Center Drive, Room 1305","has_agenda":true,"agenda_url":"https://legistar.granicus.com/alexandria/meetings/2026/2/2710_A_Board_of_Zoning_Appeals_Public_Hearing_26-02-09_Docket.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-04","body":"Board of Architectural Review Public Hearing","location":"4850 Mark Center Drive, Room 1305","has_agenda":true,"agenda_url":"https://legistar.granicus.com/alexandria/meetings/2026/2/2701_A_Board_of_Architectural_Review_Public_Hearing_26-02-04_Docket.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-03","body":"Planning Commission Public Hearing","location":"4850 Mark Center Drive, Room 1305","has_agenda":true,"agenda_url":"https://legistar.granicus.com/alexandria/meetings/2026/2/2703_A_Planning_Commission_Public_Hearing_26-02-03_Docket.pdf","has_minutes":true,"has_video":false,"upcoming":false},{"date":"2026-01-27","body":"City Council Legislative Meeting","location":"ZOOM Webinar","has_agenda":true,"agenda_url":"https://legistar.granicus.com/alexandria/meetings/2026/1/2666_A_City_Council_Legislative_Meeting_26-01-27_Docket.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-01-24","body":"City Council Public Hearing","location":"City Council Chamber at Del Pepper Community Resource Center \r\n4850 Mark Center Drive, Alexandria, Virginia 22311","has_agenda":true,"agenda_url":"https://legistar.granicus.com/alexandria/meetings/2026/1/2672_A_City_Council_Public_Hearing_26-01-24_Docket.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-01-21","body":"Board of Architectural Review Public Hearing","location":"4850 Mark Center Drive, Room 1305","has_agenda":true,"agenda_url":"https://legistar.granicus.com/alexandria/meetings/2026/1/2700_A_Board_of_Architectural_Review_Public_Hearing_26-01-21_Docket.pdf","has_minutes":true,"has_video":false,"upcoming":false}],"recent_legislation":[{"title":"Development Site Plans and Zoning Ordinance Subdivision cases are heard by the Planning Commission but placed on the City Council docket for information. Zoning Ordinance Subdivision cases are heard b","type":"Land Use and Development (Planning Commission Items)","status":"Agenda Ready","intro_date":"2026-02-09","file_number":"26-0697","passed_date":null},{"title":"Consideration of a Housing Trust Fund Grant of $450,000 to Wesley Housing to Provide Rental Subsidies for Nine Units at the Landbay G-G Project.","type":"Written Report","status":"Agenda Ready","intro_date":"2026-02-04","file_number":"26-0691","passed_date":null},{"title":"Consideration of a Resolution to Support a Grant Application for the Transportation Land-Use Connections Program to the Metropolitan Washington Council of Governments.","type":"Resolution","status":"Agenda Ready","intro_date":"2026-02-04","file_number":"26-0688","passed_date":null},{"title":"Oral Reports from Members of City Council on Boards, Commissions, and Committees:\r\n\r\n*Legislative Subcommittee  (Mayor Gaskins)\r\n\r\n*Council of Governments (COG) - Climate Energy and Environmental Poli","type":"Oral Report","status":"Agenda Ready","intro_date":"2026-02-03","file_number":"26-0675","passed_date":null},{"title":"Commission on Aging - 3-year term\r\n1 citizen member","type":"Appointment","status":"Agenda Ready","intro_date":"2026-02-03","file_number":"26-0681","passed_date":null},{"title":"Approval of Electronic Participation Resolution by Council. [ROLL-CALL VOTE]","type":"Resolution","status":"Agenda Ready","intro_date":"2026-02-03","file_number":"26-0674","passed_date":null},{"title":"Historic Restoration & Preservation Commission - 4-year term\r\n1 citizen member","type":"Appointment","status":"Agenda Ready","intro_date":"2026-02-03","file_number":"26-0682","passed_date":null},{"title":"Board of Zoning Appeals - 4-year term\r\n1 citizen member","type":"Appointment","status":"Agenda Ready","intro_date":"2026-02-03","file_number":"26-0679","passed_date":null},{"title":"Public Records Advisory Commission - 2-year term\r\n1 citizen member","type":"Appointment","status":"Agenda Ready","intro_date":"2026-02-03","file_number":"26-0684","passed_date":null},{"title":"Resolution Certifying the Existence of a Vacancy on the City Council and Authorizing the City Attorney to Petition the Circuit Court of the City of Alexandria for a Writ of Election","type":"Resolution","status":"Agenda Ready","intro_date":"2026-02-03","file_number":"26-0687","passed_date":null}],"legistar_url":"https://alexandria.legistar.com","enriched_at":"2026-02-13T20:00:48.850208","government_news":[],"video_meetings":[],"data_platforms":["legistar"]}
+{
+  "schema_version": "5.0",
+  "normalized_at": "2026-02-10T14:21:48.938566",
+  "identity": {
+    "name": "Alexandria",
+    "state": "VA",
+    "fips_state": "51",
+    "fips_place": "01000",
+    "population": 157594
+  },
+  "city_website": "https://www.alexandria.gov",
+  "economy": {
+    "median_household_income": 113179,
+    "median_home_value": 655700,
+    "unemployment_rate": 3.02,
+    "unemployment_data_level": "county",
+    "labor_force": 15330,
+    "employed": 14867,
+    "unemployed": 463,
+    "gini_index": null,
+    "poverty_rate": 8.82,
+    "homeownership_rate": 42.68,
+    "rent_to_income_ratio": 21.03,
+    "home_value_to_income_ratio": 5.79,
+    "price_to_rent_ratio": 27.56,
+    "effective_tax_rate": 11.9963,
+    "population_growth_cagr": 1.383,
+    "median_real_estate_taxes": 6555
+  },
+  "safety": {
+    "violent_crime_rate": null,
+    "property_crime_rate": null,
+    "murder_rate": null,
+    "robbery_rate": null,
+    "burglary_rate": null,
+    "vehicle_theft_rate": null,
+    "total_crime_rate": null,
+    "crime_trend": null,
+    "crime_data_level": null
+  },
+  "education": {
+    "total_schools": 2163,
+    "total_enrollment": 1260351,
+    "pupil_teacher_ratio": 14.4,
+    "title1_pct": 0.0,
+    "charter_pct": 0.3,
+    "regular_schools": 1895,
+    "avg_school_rating": 4.2,
+    "rated_schools": 26,
+    "school_quality_tier": "fair"
+  },
+  "environment": {
+    "pm25_mean": 8.2307,
+    "ozone_mean": 0.0439,
+    "total_disasters": 23,
+    "avg_disasters_per_decade": 3.3,
+    "most_recent_disaster": "2026-01-23",
+    "most_recent_disaster_type": "Winter Storm",
+    "disasters_by_type": {
+      "Hurricane": 6,
+      "Severe Storm": 4,
+      "Snowstorm": 4,
+      "Flood": 4,
+      "Biological": 2,
+      "Drought": 2,
+      "Winter Storm": 1
+    }
+  },
+  "housing": {
+    "median_rent": 1983,
+    "housing_units": 80253,
+    "fmr_0br": 1027,
+    "fmr_1br": 1033,
+    "fmr_2br": 1187,
+    "fmr_3br": 1635,
+    "fmr_4br": 1750,
+    "rent_burden_ratio": 12.6,
+    "cost_burdened_pct": 43.53,
+    "severely_burdened_pct": 20.0
+  },
+  "health": {
+    "uninsured_pct": 8.4,
+    "obesity_pct": 31.0,
+    "diabetes_pct": 9.7,
+    "depression_pct": 20.9,
+    "asthma_pct": 10.0,
+    "smoking_pct": 8.7,
+    "physical_inactivity_pct": 19.7,
+    "mental_health_bad_days": 14.7,
+    "physical_health_bad_days": 10.5,
+    "sleep_deficit_pct": 34.1,
+    "high_blood_pressure_pct": 29.8,
+    "high_cholesterol_pct": 34.0,
+    "heart_disease_pct": 4.4,
+    "stroke_pct": 2.4,
+    "cancer_pct": 6.7,
+    "kidney_disease_pct": null,
+    "checkup_pct": 78.1,
+    "data_year": "2023"
+  },
+  "governance": {
+    "legislative_volume": 13281,
+    "legislative_velocity": 983.8,
+    "committee_count": 10,
+    "years_of_legislative_data": 13.5,
+    "has_public_meetings": true,
+    "api_accessible": true,
+    "matter_types": {
+      "Land Use and Development (Planning Commission Items)": 228,
+      "BAR Case": 221,
+      "Written Report": 110,
+      "Appointment": 107,
+      "Resolution": 95,
+      "Ordinance": 91,
+      "Oral Report": 45,
+      "Proclamation": 35,
+      "BZA Case": 22,
+      "Grant Application": 19,
+      "Other": 11,
+      "Minutes": 9,
+      "Resignations": 6,
+      "Executive Session": 1
+    },
+    "top_matter_type": "Land Use and Development (Planning Commission Items)",
+    "matter_statuses": {
+      "Agenda Ready": 1000
+    },
+    "pass_rate": 33.3,
+    "passed_count": 4427,
+    "active_council_members": 0,
+    "avg_tenure_years": null,
+    "vote_coverage_pct": 0.0,
+    "video_availability_pct": 0.0,
+    "agenda_availability_pct": 100.0,
+    "minutes_availability_pct": 89.2,
+    "avg_meetings_per_month": 5.8,
+    "meetings_by_year": {
+      "2026": 14,
+      "2025": 71,
+      "2024": 69,
+      "2023": 78,
+      "2022": 90,
+      "2021": 86,
+      "2020": 77,
+      "2019": 15
+    },
+    "avg_sponsors_per_matter": 0.0,
+    "avg_attachments_per_matter": 2.6,
+    "pct_with_text_versions": 100.0,
+    "index_categories": [
+      "Addition - Historic District",
+      "Alteration - Historic District",
+      "CDD",
+      "Capsulation - Historic District",
+      "Certificate of Appropriateness - Historic District",
+      "City Charter Section 9.06",
+      "Concept Review - Historic District",
+      "Demolition - Historic District",
+      "Development SUP",
+      "Development Site Plan",
+      "Encroachment",
+      "HVAC Rooftop Screening Waiver - Historic District",
+      "Master Plan Amendment",
+      "New Construction - Historic District",
+      "Rezoning",
+      "Sign - Historic District",
+      "Special Exception",
+      "Special Use Permit",
+      "Street Name Case",
+      "Subdivision",
+      "Text Amendment",
+      "Transportation Management Plan",
+      "Vacation",
+      "Variance"
+    ],
+    "has_accela": false,
+    "accela_agency_id": null
+  },
+  "development": {
+    "permits_12mo": null,
+    "yoy_trend_pct": null,
+    "avg_permit_value": null,
+    "permit_types": {},
+    "datasets_count": 0
+  },
+  "meetings": {
+    "official_channels": 2,
+    "meetings_indexed": 4,
+    "avg_meetings_per_month": 4.0,
+    "has_video_archive": false,
+    "meeting_types": {
+      "city_council": 1,
+      "public_hearing": 2,
+      "other": 1
+    },
+    "transcripts_available": 4
+  },
+  "civic_issues": {
+    "total_issues": 255,
+    "issues_last_30d": 0,
+    "issues_last_365d": 0,
+    "resolution_rate": 61.2,
+    "top_issue_type": "Unknown",
+    "type_distribution": {
+      "Unknown": 99
+    },
+    "has_civic_issue_tracking": true
+  },
+  "demographics": {
+    "population": 157594,
+    "poverty_universe": 155927,
+    "employment_universe": 131404
+  },
+  "time_series": {
+    "economy_history": [
+      {
+        "year": 2024,
+        "unemployment_rate": 3.02,
+        "labor_force": 15330,
+        "employed": 14867,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2023,
+        "unemployment_rate": 2.89,
+        "labor_force": 15459,
+        "employed": 15011,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2022,
+        "unemployment_rate": 2.82,
+        "labor_force": 15352,
+        "employed": 14920,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2021,
+        "unemployment_rate": 3.5,
+        "labor_force": 15088,
+        "employed": 14559,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2020,
+        "unemployment_rate": 5.58,
+        "labor_force": 15205,
+        "employed": 14358,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2019,
+        "unemployment_rate": 3.03,
+        "labor_force": 15663,
+        "employed": 15188,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2018,
+        "unemployment_rate": 3.18,
+        "labor_force": 15617,
+        "employed": 15123,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2017,
+        "unemployment_rate": 3.89,
+        "labor_force": 15734,
+        "employed": 15122,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2016,
+        "unemployment_rate": 4.19,
+        "labor_force": 15659,
+        "employed": 15003,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2015,
+        "unemployment_rate": 4.69,
+        "labor_force": 15321,
+        "employed": 14603,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      }
+    ],
+    "safety_history": [],
+    "environment_history": [
+      {
+        "year": 2023,
+        "pm25_mean": 8.2307,
+        "ozone_mean": 0.0439,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2022,
+        "pm25_mean": 6.8876,
+        "ozone_mean": 0.0412,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2021,
+        "pm25_mean": 7.5022,
+        "ozone_mean": 0.0415,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2020,
+        "pm25_mean": 6.3831,
+        "ozone_mean": 0.0382,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2019,
+        "pm25_mean": 7.0778,
+        "ozone_mean": 0.0438,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2018,
+        "pm25_mean": 6.8903,
+        "ozone_mean": 0.0411,
+        "data_level": "county",
+        "source": "epa_aqs"
+      }
+    ]
+  },
+  "data_sources": {
+    "legistar": "available",
+    "socrata": "available",
+    "census_acs": "available",
+    "arcgis": "available",
+    "fbi_ucr": "available",
+    "socrata_crime": "available",
+    "bls_laus": "available",
+    "ca_edd": "skipped",
+    "epa_aqs": "available",
+    "nces_ccd": "available",
+    "hud_fmr": "available",
+    "fema_openfema": "available",
+    "greatschools": "available",
+    "permits": "skipped",
+    "youtube_meetings": "available",
+    "seeclickfix": "available",
+    "accela": "available",
+    "cdc_places": "available"
+  },
+  "provenance": {
+    "last_full_probe": "2026-02-09T20:25:28.756896",
+    "sources": {
+      "legistar": {
+        "authority": "Legistar by Granicus",
+        "authority_tier": 1,
+        "api_url": "https://webapi.legistar.com/v1/alexandria/Bodies",
+        "probed_at": "2026-02-09T20:25:28.756991",
+        "data_vintage": "2012–2026",
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "socrata": {
+        "authority": "City Open Data Portals (Socrata/Tyler Data & Insights)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-09T20:27:29.323794",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "census_acs": {
+        "authority": "US Census Bureau",
+        "authority_tier": 1,
+        "api_url": "https://api.census.gov/data/2022/acs/acs5?get=NAME,B01001_001E,B19013_001E,B25077_001E,B25064_001E,B25001_001E&for=place:01000&in=state:51",
+        "probed_at": "2026-02-09T20:27:39.871669",
+        "data_vintage": "ACS 5-Year 2022",
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "arcgis": {
+        "authority": "City ArcGIS/GIS Portals",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-09T20:27:44.036711",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "fbi_ucr": {
+        "authority": "FBI Uniform Crime Reporting Program",
+        "authority_tier": 1,
+        "api_url": "https://api.usa.gov/crime/fbi/sapi/api/estimates/states/VA/2015/2022",
+        "probed_at": "2026-02-09T20:27:45.247331",
+        "data_vintage": null,
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "bls_laus": {
+        "authority": "Bureau of Labor Statistics",
+        "authority_tier": 1,
+        "api_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/LAUST510000000000003",
+        "probed_at": "2026-02-09T20:27:45.403733",
+        "data_vintage": "LAUS 2024",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "epa_aqs": {
+        "authority": "US Environmental Protection Agency",
+        "authority_tier": 1,
+        "api_url": "https://aqs.epa.gov/data/api/annualData/byState?state=51&param=88101",
+        "probed_at": "2026-02-09T20:27:46.686246",
+        "data_vintage": "AQS 2023",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "nces_ccd": {
+        "authority": "National Center for Education Statistics",
+        "authority_tier": 1,
+        "api_url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=51",
+        "probed_at": "2026-02-09T20:29:51.230249",
+        "data_vintage": "2022-2023 academic year",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "hud_fmr": {
+        "authority": "US Department of Housing and Urban Development",
+        "authority_tier": 1,
+        "api_url": "https://www.huduser.gov/hudapi/public/fmr/statedata/VA",
+        "probed_at": "2026-02-09T20:29:56.876876",
+        "data_vintage": "FY2026",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "fema_openfema": {
+        "authority": "Federal Emergency Management Agency",
+        "authority_tier": 1,
+        "api_url": "https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries?$filter=state eq 'VA'",
+        "probed_at": "2026-02-09T20:29:59.930681",
+        "data_vintage": "1953-present",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "greatschools": {
+        "authority": "GreatSchools.org (nonprofit)",
+        "authority_tier": 3,
+        "api_url": null,
+        "probed_at": "2026-02-09T20:30:00.330372",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "permits": {
+        "authority": "City Open Data Portals (Socrata)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-09T20:30:01.255561",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "youtube_meetings": {
+        "authority": "YouTube (via SerpAPI search + youtube-transcript-api)",
+        "authority_tier": 3,
+        "api_url": null,
+        "probed_at": "2026-02-09T20:30:01.256323",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "seeclickfix": {
+        "authority": "SeeClickFix (civic issue tracking platform)",
+        "authority_tier": 3,
+        "api_url": "https://seeclickfix.com/api/v2/issues?place_url=alexandria",
+        "probed_at": "2026-02-09T20:30:25.196089",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "accela": {
+        "authority": "Accela (permit management platform)",
+        "authority_tier": 3,
+        "api_url": "https://apis.accela.com/v4/agencies",
+        "probed_at": "2026-02-09T20:32:03.682673",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "socrata_crime": {
+        "authority": "City Open Data Portals (Socrata)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-09T20:27:45.401964",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "cdc_places": {
+        "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
+        "authority_tier": 1,
+        "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Alexandria",
+        "probed_at": "2026-02-13T21:01:56.379361",
+        "data_vintage": "BRFSS 2023",
+        "geographic_level": "place",
+        "status": "available"
+      }
+    },
+    "derived_fields": {
+      "safety.total_crime_rate": {
+        "formula": "violent_crime_rate + property_crime_rate",
+        "inputs": [
+          "safety.violent_crime_rate",
+          "safety.property_crime_rate"
+        ],
+        "formula_location": "score/normalizer.py:_derive_total_crime",
+        "authority_tier": 2
+      },
+      "safety.crime_trend": {
+        "formula": "(last_year_rate - first_year_rate) / years_span",
+        "inputs": [
+          "fbi.time_series[].violent_crime_rate"
+        ],
+        "formula_location": "score/normalizer.py:_build_safety",
+        "authority_tier": 2
+      },
+      "education.school_quality_tier": {
+        "formula": "excellent if avg>=8, good if avg>=6, fair if avg>=4, else poor",
+        "inputs": [
+          "education.avg_school_rating"
+        ],
+        "formula_location": "score/normalizer.py:_build_education",
+        "authority_tier": 3
+      },
+      "environment.avg_disasters_per_decade": {
+        "formula": "total_disasters / (years_span / 10)",
+        "inputs": [
+          "environment.total_disasters"
+        ],
+        "formula_location": "probe/fema_probe.py",
+        "authority_tier": 2
+      },
+      "housing.rent_burden_ratio": {
+        "formula": "(fmr_2br * 12) / median_household_income * 100",
+        "inputs": [
+          "housing.fmr_2br",
+          "economy.median_household_income"
+        ],
+        "formula_location": "score/normalizer.py:_build_housing",
+        "authority_tier": 2
+      },
+      "governance.legislative_velocity": {
+        "formula": "legislative_volume / years_of_legislative_data",
+        "inputs": [
+          "governance.legislative_volume",
+          "governance.years_of_legislative_data"
+        ],
+        "formula_location": "score/normalizer.py:_build_governance",
+        "authority_tier": 2
+      },
+      "development.yoy_trend_pct": {
+        "formula": "(current_year - prior_year) / prior_year * 100",
+        "inputs": [
+          "permit data from Socrata"
+        ],
+        "formula_location": "probe/permits_probe.py",
+        "authority_tier": 2
+      }
+    },
+    "geographic_mismatches": [
+      {
+        "field": "identity.fips_state",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "state-level data applied to city profile"
+      },
+      {
+        "field": "economy.unemployment_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Reflects statewide unemployment, not city-specific rate"
+      },
+      {
+        "field": "economy.labor_force",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: This is the full state labor force, not city-level"
+      },
+      {
+        "field": "economy.employed",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "economy.unemployed",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.violent_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: City-level requires ORI codes not currently used"
+      },
+      {
+        "field": "safety.property_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.murder_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.robbery_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.burglary_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.vehicle_theft_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.total_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA; derived sum"
+      },
+      {
+        "field": "safety.crime_trend",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "state-level data applied to city profile"
+      },
+      {
+        "field": "education.total_schools",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Count includes all schools in the state, not city"
+      },
+      {
+        "field": "education.total_enrollment",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.pupil_teacher_ratio",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Average across all state schools"
+      },
+      {
+        "field": "education.title1_pct",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.charter_pct",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.regular_schools",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.pm25_mean",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE/COUNTY-LEVEL: Averaged across all monitors in the state"
+      },
+      {
+        "field": "environment.ozone_mean",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE/COUNTY-LEVEL"
+      },
+      {
+        "field": "environment.total_disasters",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: All declarations for the state, not city-specific"
+      },
+      {
+        "field": "environment.avg_disasters_per_decade",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.most_recent_disaster",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.most_recent_disaster_type",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "housing.fmr_0br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR: Fair Market Rents at state level, not city-specific metro area"
+      },
+      {
+        "field": "housing.fmr_1br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_2br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_3br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_4br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.rent_burden_ratio",
+        "source_level": "mixed",
+        "profile_level": "place",
+        "note": "GEOGRAPHIC MISMATCH: FMR is state-level (HUD), income is city-level (Census). Ratio may be biased."
+      }
+    ]
+  },
+  "data_quality": {
+    "quality_score": 100.0,
+    "grade": "A",
+    "completeness_pct": 100.0,
+    "issue_count": 5,
+    "granularity_flags": 1
+  },
+  "officials": {
+    "body_name": "City Council Legislative Meeting",
+    "members": [
+      {
+        "name": "Paul Smedberg",
+        "email": null,
+        "title": "Councilwoman",
+        "start_date": "2012-08-10",
+        "committees": [
+          "City Council Work Session"
+        ]
+      }
+    ]
+  },
+  "recent_meetings": [
+    {
+      "date": "2026-02-18",
+      "body": "Board of Architectural Review Public Hearing",
+      "location": "4850 Mark Center Drive, Room 1305",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/alexandria/meetings/2026/2/2702_A_Board_of_Architectural_Review_Public_Hearing_26-02-18_Docket.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-03",
+      "body": "Planning Commission Public Hearing",
+      "location": "4850 Mark Center Drive, Room 1305",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/alexandria/meetings/2026/3/2708_A_Planning_Commission_Public_Hearing_26-03-03_Docket.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-10",
+      "body": "City Council Legislative Meeting",
+      "location": "Council Chamber",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/alexandria/meetings/2026/2/2679_A_City_Council_Legislative_Meeting_26-02-10_Docket.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-09",
+      "body": "Board of Zoning Appeals Public Hearing",
+      "location": "4850 Mark Center Drive, Room 1305",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/alexandria/meetings/2026/2/2710_A_Board_of_Zoning_Appeals_Public_Hearing_26-02-09_Docket.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-04",
+      "body": "Board of Architectural Review Public Hearing",
+      "location": "4850 Mark Center Drive, Room 1305",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/alexandria/meetings/2026/2/2701_A_Board_of_Architectural_Review_Public_Hearing_26-02-04_Docket.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "Planning Commission Public Hearing",
+      "location": "4850 Mark Center Drive, Room 1305",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/alexandria/meetings/2026/2/2703_A_Planning_Commission_Public_Hearing_26-02-03_Docket.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-27",
+      "body": "City Council Legislative Meeting",
+      "location": "ZOOM Webinar",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/alexandria/meetings/2026/1/2666_A_City_Council_Legislative_Meeting_26-01-27_Docket.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-24",
+      "body": "City Council Public Hearing",
+      "location": "City Council Chamber at Del Pepper Community Resource Center \r\n4850 Mark Center Drive, Alexandria, Virginia 22311",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/alexandria/meetings/2026/1/2672_A_City_Council_Public_Hearing_26-01-24_Docket.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-21",
+      "body": "Board of Architectural Review Public Hearing",
+      "location": "4850 Mark Center Drive, Room 1305",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/alexandria/meetings/2026/1/2700_A_Board_of_Architectural_Review_Public_Hearing_26-01-21_Docket.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Development Site Plans and Zoning Ordinance Subdivision cases are heard by the Planning Commission but placed on the City Council docket for information. Zoning Ordinance Subdivision cases are heard b",
+      "type": "Land Use and Development (Planning Commission Items)",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-09",
+      "file_number": "26-0697",
+      "passed_date": null
+    },
+    {
+      "title": "Consideration of a Housing Trust Fund Grant of $450,000 to Wesley Housing to Provide Rental Subsidies for Nine Units at the Landbay G-G Project.",
+      "type": "Written Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-04",
+      "file_number": "26-0691",
+      "passed_date": null
+    },
+    {
+      "title": "Consideration of a Resolution to Support a Grant Application for the Transportation Land-Use Connections Program to the Metropolitan Washington Council of Governments.",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-04",
+      "file_number": "26-0688",
+      "passed_date": null
+    },
+    {
+      "title": "Oral Reports from Members of City Council on Boards, Commissions, and Committees:\r\n\r\n*Legislative Subcommittee  (Mayor Gaskins)\r\n\r\n*Council of Governments (COG) - Climate Energy and Environmental Poli",
+      "type": "Oral Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-03",
+      "file_number": "26-0675",
+      "passed_date": null
+    },
+    {
+      "title": "Commission on Aging - 3-year term\r\n1 citizen member",
+      "type": "Appointment",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-03",
+      "file_number": "26-0681",
+      "passed_date": null
+    },
+    {
+      "title": "Approval of Electronic Participation Resolution by Council. [ROLL-CALL VOTE]",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-03",
+      "file_number": "26-0674",
+      "passed_date": null
+    },
+    {
+      "title": "Historic Restoration & Preservation Commission - 4-year term\r\n1 citizen member",
+      "type": "Appointment",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-03",
+      "file_number": "26-0682",
+      "passed_date": null
+    },
+    {
+      "title": "Board of Zoning Appeals - 4-year term\r\n1 citizen member",
+      "type": "Appointment",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-03",
+      "file_number": "26-0679",
+      "passed_date": null
+    },
+    {
+      "title": "Public Records Advisory Commission - 2-year term\r\n1 citizen member",
+      "type": "Appointment",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-03",
+      "file_number": "26-0684",
+      "passed_date": null
+    },
+    {
+      "title": "Resolution Certifying the Existence of a Vacancy on the City Council and Authorizing the City Attorney to Petition the Circuit Court of the City of Alexandria for a Writ of Election",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-03",
+      "file_number": "26-0687",
+      "passed_date": null
+    }
+  ],
+  "legistar_url": "https://alexandria.legistar.com",
+  "enriched_at": "2026-02-13T20:00:48.850208",
+  "government_news": [],
+  "video_meetings": [],
+  "data_platforms": [
+    "legistar"
+  ]
+}
