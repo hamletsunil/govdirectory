@@ -11,6 +11,7 @@ import {
   generateCityHealth,
   generateChallenges,
   generateTransparency,
+  generateBuilderNarrative,
 } from "@/lib/narrative";
 
 /* ── Section components ── */
@@ -21,7 +22,7 @@ import { ActivityFeed } from "@/components/city/ActivityFeed";
 import { VideoSection } from "@/components/city/VideoSection";
 import { CityGlance } from "@/components/city/CityGlance";
 import { TransparencyScorecard } from "@/components/city/TransparencyScorecard";
-import { DeveloperPanel } from "@/components/city/DeveloperPanel";
+import { BuilderPanel } from "@/components/city/BuilderPanel";
 import { DataSourceGrid } from "@/components/city/DataSourceGrid";
 import { ScrollAnimator } from "@/components/city/ScrollAnimator";
 import { SubscribeForm } from "@/components/city/SubscribeForm";
@@ -66,6 +67,7 @@ export default async function CityPage({
   const health = generateCityHealth(p);
   const challenges = generateChallenges(p);
   const transparency = generateTransparency(p);
+  const builderNarrative = generateBuilderNarrative(p);
 
   /* Derived data */
   const allOfficials = p.officials?.members || [];
@@ -155,7 +157,7 @@ export default async function CityPage({
         )}
       </PersonaSection>
 
-      <PersonaSection personas={["researcher", "developer"]}>
+      <PersonaSection personas={["researcher", "builder"]}>
         <section className="page-section section-alt">
           <div className="section-inner">
             <span className="section-label">Sources</span>
@@ -168,16 +170,14 @@ export default async function CityPage({
         </section>
       </PersonaSection>
 
-      <PersonaSection personas={["developer"]}>
-        <DeveloperPanel
-          slug={slug}
-          dataSources={p.data_sources || {}}
-          provenanceSources={p.provenance?.sources || {}}
-          lastProbe={p.provenance?.last_full_probe}
+      <PersonaSection personas={["builder"]}>
+        <BuilderPanel
+          profile={p}
+          narrative={builderNarrative}
         />
       </PersonaSection>
 
-      <PersonaSection personas={["citizen", "researcher", "developer"]}>
+      <PersonaSection personas={["citizen", "researcher", "builder"]}>
         <div className="subscribe-cta">
           <div className="subscribe-cta-inner">
             <h3>Stay Updated on {p.identity.name}</h3>

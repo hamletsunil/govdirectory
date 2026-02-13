@@ -51,14 +51,15 @@ export default function RootLayout({
       <body className={`${geistSans.variable} ${geistMono.variable} ${literata.variable}`}>
         <header className="site-header">
           <Link href="/" className="site-header-brand">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <rect x="2" y="7" width="20" height="14" rx="2" ry="2" />
-              <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
+            <svg viewBox="0 0 170 150" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M169.665 0H135.973V150H169.665V0Z" />
+              <path d="M57.6378 0H23.9453V150H57.6378V0Z" />
+              <path d="M0 96.7193L96.6264 52.3063L169.387 85.3426V118.889L96.6264 85.8526L0 130.266V96.7193Z" />
             </svg>
             Gov Directory
           </Link>
           <div className="site-header-hamlet">
-            by <a href="https://myhamlet.com" target="_blank" rel="noopener noreferrer">Hamlet</a>
+            <a href="https://myhamlet.com" target="_blank" rel="noopener noreferrer">A Hamlet Publication</a>
           </div>
         </header>
 

@@ -426,3 +426,158 @@ export function generateTransparency(p: CityProfile): string | null {
   if (parts.length === 0) return null;
   return parts.join(" ");
 }
+
+/* ── Builder Narrative (real estate development) ── */
+
+export function generateBuilderNarrative(p: CityProfile): {
+  market: string | null;
+  rental: string | null;
+  building: string | null;
+  risk: string | null;
+  quality: string | null;
+} {
+  const name = p.identity.name;
+
+  // Market Overview
+  let market: string | null = null;
+  if (p.economy?.median_home_value) {
+    const parts: string[] = [];
+    const val = p.economy.median_home_value;
+    const ratio = p.economy.home_value_to_income_ratio;
+
+    if (ratio != null) {
+      const affordability = ratio < 3 ? "highly affordable"
+        : ratio < 4 ? "moderately affordable"
+        : ratio < 5.5 ? "moderately priced"
+        : ratio < 8 ? "expensive"
+        : "very expensive";
+      parts.push(`${name}'s median home value of ${fmtMoney(val)} with a ${ratio.toFixed(1)}\u00d7 income ratio makes it ${affordability} for development.`);
+    } else {
+      parts.push(`${name}'s median home value sits at ${fmtMoney(val)}.`);
+    }
+
+    if (p.economy.homeownership_rate != null) {
+      const rate = p.economy.homeownership_rate;
+      const rental = 100 - rate;
+      if (rental > 60) {
+        parts.push(`With ${rental.toFixed(0)}% of households renting, there's strong demand for rental housing.`);
+      } else if (rental > 45) {
+        parts.push(`About ${rental.toFixed(0)}% of households rent, suggesting a balanced ownership-rental market.`);
+      } else {
+        parts.push(`At ${rate.toFixed(0)}% homeownership, this is primarily an owner-occupied market.`);
+      }
+    }
+
+    if (p.economy.population_growth_cagr != null) {
+      const growth = p.economy.population_growth_cagr;
+      if (growth > 1) {
+        parts.push(`Population is growing at ${growth.toFixed(1)}% annually \u2014 a strong signal for new housing demand.`);
+      } else if (growth > 0.3) {
+        parts.push(`Population growth of ${growth.toFixed(1)}% per year supports steady development.`);
+      } else if (growth > 0) {
+        parts.push(`Population growth is modest at ${growth.toFixed(2)}% annually.`);
+      } else {
+        parts.push(`Population is declining at ${Math.abs(growth).toFixed(1)}% per year \u2014 watch for oversupply risks.`);
+      }
+    }
+
+    if (p.economy.median_real_estate_taxes != null) {
+      parts.push(`Median annual real estate taxes run ${fmtMoney(p.economy.median_real_estate_taxes)}.`);
+    }
+
+    market = parts.join(" ");
+  }
+
+  // Rental Market
+  let rental: string | null = null;
+  if (p.housing?.median_rent != null) {
+    const parts: string[] = [];
+    parts.push(`Median rent in ${name} is ${fmtMoney(p.housing.median_rent)} per month.`);
+
+    if (p.housing.rent_burden_ratio != null) {
+      const burden = p.housing.rent_burden_ratio;
+      if (burden > 30) {
+        parts.push(`Tenants spend ${burden.toFixed(1)}% of income on rent \u2014 above the 30% affordability threshold.`);
+      } else {
+        parts.push(`Rent-to-income ratio of ${burden.toFixed(1)}% is within the affordable range.`);
+      }
+    }
+
+    if (p.housing.cost_burdened_pct != null && p.housing.cost_burdened_pct > 30) {
+      parts.push(`${Math.round(p.housing.cost_burdened_pct)}% of households are cost-burdened, suggesting unmet demand for affordable housing.`);
+    }
+
+    if (p.housing.housing_units != null) {
+      parts.push(`The city has ${p.housing.housing_units.toLocaleString()} total housing units.`);
+    }
+
+    rental = parts.join(" ");
+  }
+
+  // Building Activity
+  let building: string | null = null;
+  if (p.development?.permits_12mo != null && p.development.permits_12mo > 0) {
+    const parts: string[] = [];
+    parts.push(`${p.development.permits_12mo.toLocaleString()} building permits were issued in the past 12 months.`);
+
+    if (p.development.avg_permit_value) {
+      parts.push(`Average permit value: ${fmtMoney(p.development.avg_permit_value)}.`);
+    }
+    if (p.development.yoy_trend_pct != null && Math.abs(p.development.yoy_trend_pct) > 3) {
+      const dir = p.development.yoy_trend_pct > 0 ? "up" : "down";
+      parts.push(`Permit activity is ${dir} ${Math.abs(p.development.yoy_trend_pct).toFixed(1)}% year-over-year.`);
+    }
+    building = parts.join(" ");
+  }
+
+  // Risk Factors
+  let risk: string | null = null;
+  {
+    const parts: string[] = [];
+    if (p.environment?.total_disasters != null && p.environment.total_disasters > 0) {
+      parts.push(`${name} has experienced ${p.environment.total_disasters} federally declared disasters.`);
+      if (p.environment.avg_disasters_per_decade != null) {
+        parts.push(`That averages ${p.environment.avg_disasters_per_decade.toFixed(1)} per decade.`);
+      }
+      if (p.environment.most_recent_disaster_type) {
+        parts.push(`The most recent was a ${p.environment.most_recent_disaster_type.toLowerCase()}.`);
+      }
+    }
+    if (p.safety?.property_crime_rate != null) {
+      const rate = p.safety.property_crime_rate;
+      const level = rate < 2000 ? "low" : rate < 3500 ? "moderate" : rate < 5000 ? "elevated" : "high";
+      parts.push(`Property crime rate is ${Math.round(rate).toLocaleString()} per 100K residents \u2014 considered ${level} for development risk.`);
+    }
+    if (p.environment?.pm25_mean != null && p.environment.pm25_mean > 10) {
+      parts.push(`Air quality (PM2.5: ${p.environment.pm25_mean.toFixed(1)} \u00b5g/m\u00b3) may affect residential desirability.`);
+    }
+    if (parts.length > 0) risk = parts.join(" ");
+  }
+
+  // Quality of Life
+  let quality: string | null = null;
+  {
+    const parts: string[] = [];
+    if (p.education?.avg_school_rating != null) {
+      const rating = p.education.avg_school_rating;
+      const impact = rating >= 7 ? "a strong driver of family-housing demand"
+        : rating >= 5 ? "adequate for most families"
+        : "a factor that may limit family-housing demand";
+      parts.push(`Schools average ${rating.toFixed(1)}/10 \u2014 ${impact}.`);
+    }
+    if (p.safety?.violent_crime_rate != null) {
+      const rate = p.safety.violent_crime_rate;
+      if (rate > 500) {
+        parts.push(`Violent crime at ${Math.round(rate).toLocaleString()} per 100K is elevated and may impact property values.`);
+      } else if (rate < 200) {
+        parts.push(`Low violent crime (${Math.round(rate).toLocaleString()} per 100K) supports premium pricing.`);
+      }
+    }
+    if (p.governance?.has_accela) {
+      parts.push(`The city uses Accela for building permits, enabling online permit tracking and applications.`);
+    }
+    if (parts.length > 0) quality = parts.join(" ");
+  }
+
+  return { market, rental, building, risk, quality };
+}

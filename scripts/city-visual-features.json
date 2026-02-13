@@ -1,0 +1,315 @@
+{
+  "stateDefaults": {
+    "CA": { "terrain": "coastal", "vegetation": "palm", "climate": "warm" },
+    "OR": { "terrain": "coastal", "vegetation": "pine", "climate": "temperate" },
+    "WA": { "terrain": "coastal", "vegetation": "pine", "climate": "temperate" },
+    "HI": { "terrain": "coastal", "vegetation": "palm", "climate": "tropical" },
+    "FL": { "terrain": "coastal", "vegetation": "palm", "climate": "tropical" },
+    "GA": { "terrain": "coastal", "vegetation": "palm", "climate": "warm" },
+    "SC": { "terrain": "coastal", "vegetation": "palm", "climate": "warm" },
+    "NC": { "terrain": "coastal", "vegetation": "deciduous", "climate": "warm" },
+    "VA": { "terrain": "coastal", "vegetation": "deciduous", "climate": "temperate" },
+    "MD": { "terrain": "coastal", "vegetation": "deciduous", "climate": "temperate" },
+    "DE": { "terrain": "coastal", "vegetation": "deciduous", "climate": "temperate" },
+    "NJ": { "terrain": "coastal", "vegetation": "deciduous", "climate": "temperate" },
+    "CT": { "terrain": "coastal", "vegetation": "deciduous", "climate": "temperate" },
+    "RI": { "terrain": "coastal", "vegetation": "deciduous", "climate": "temperate" },
+    "MA": { "terrain": "coastal", "vegetation": "deciduous", "climate": "temperate" },
+    "NH": { "terrain": "coastal", "vegetation": "pine", "climate": "cold" },
+    "ME": { "terrain": "coastal", "vegetation": "pine", "climate": "cold" },
+    "AL": { "terrain": "coastal", "vegetation": "palm", "climate": "warm" },
+    "MS": { "terrain": "coastal", "vegetation": "palm", "climate": "warm" },
+    "LA": { "terrain": "coastal", "vegetation": "palm", "climate": "warm" },
+    "TX": { "terrain": "plains", "vegetation": "palm", "climate": "warm" },
+    "CO": { "terrain": "mountain", "vegetation": "pine", "climate": "cold" },
+    "ID": { "terrain": "mountain", "vegetation": "pine", "climate": "cold" },
+    "WY": { "terrain": "mountain", "vegetation": "pine", "climate": "cold" },
+    "MT": { "terrain": "mountain", "vegetation": "pine", "climate": "cold" },
+    "AK": { "terrain": "mountain", "vegetation": "pine", "climate": "cold" },
+    "UT": { "terrain": "mountain", "vegetation": "deciduous", "climate": "arid" },
+    "NM": { "terrain": "mountain", "vegetation": "cactus", "climate": "arid" },
+    "AZ": { "terrain": "desert", "vegetation": "cactus", "climate": "arid" },
+    "NV": { "terrain": "desert", "vegetation": "cactus", "climate": "arid" },
+    "MI": { "terrain": "lake", "vegetation": "deciduous", "climate": "cold" },
+    "MN": { "terrain": "lake", "vegetation": "pine", "climate": "cold" },
+    "WI": { "terrain": "lake", "vegetation": "pine", "climate": "cold" },
+    "IL": { "terrain": "plains", "vegetation": "deciduous", "climate": "temperate" },
+    "OH": { "terrain": "plains", "vegetation": "deciduous", "climate": "temperate" },
+    "IN": { "terrain": "plains", "vegetation": "deciduous", "climate": "temperate" },
+    "MO": { "terrain": "river", "vegetation": "deciduous", "climate": "temperate" },
+    "KS": { "terrain": "plains", "vegetation": "deciduous", "climate": "temperate" },
+    "IA": { "terrain": "plains", "vegetation": "deciduous", "climate": "temperate" },
+    "NE": { "terrain": "plains", "vegetation": "deciduous", "climate": "temperate" },
+    "ND": { "terrain": "plains", "vegetation": "deciduous", "climate": "cold" },
+    "SD": { "terrain": "plains", "vegetation": "deciduous", "climate": "cold" },
+    "OK": { "terrain": "plains", "vegetation": "deciduous", "climate": "warm" },
+    "AR": { "terrain": "river", "vegetation": "deciduous", "climate": "warm" },
+    "KY": { "terrain": "river", "vegetation": "deciduous", "climate": "temperate" },
+    "WV": { "terrain": "river", "vegetation": "deciduous", "climate": "temperate" },
+    "TN": { "terrain": "river", "vegetation": "deciduous", "climate": "warm" },
+    "PA": { "terrain": "river", "vegetation": "deciduous", "climate": "temperate" },
+    "NY": { "terrain": "river", "vegetation": "deciduous", "climate": "temperate" },
+    "VT": { "terrain": "plains", "vegetation": "pine", "climate": "cold" }
+  },
+  "cityOverrides": {
+    "chicago": {
+      "waterFeature": "lake",
+      "landmarks": ["skyscraper_cluster"]
+    },
+    "sfgov": {
+      "waterFeature": "bay",
+      "landmarks": ["bridge", "hills"],
+      "terrain": "coastal"
+    },
+    "seattle": {
+      "waterFeature": "bay",
+      "landmarks": ["mountain_backdrop"],
+      "vegetation": "pine"
+    },
+    "phoenix": {
+      "landmarks": ["mountain_backdrop"],
+      "terrain": "desert"
+    },
+    "denver": {
+      "landmarks": ["mountain_backdrop"],
+      "terrain": "mountain"
+    },
+    "miamifl": {
+      "waterFeature": "ocean",
+      "landmarks": ["skyscraper_cluster"],
+      "vegetation": "palm"
+    },
+    "boston": {
+      "waterFeature": "bay",
+      "landmarks": ["church_spire"]
+    },
+    "detroit": {
+      "waterFeature": "river",
+      "landmarks": ["skyscraper_cluster"]
+    },
+    "minneapolismn": {
+      "waterFeature": "lake"
+    },
+    "salem": {
+      "waterFeature": "river",
+      "landmarks": ["bridge", "mountain_backdrop"],
+      "vegetation": "pine"
+    },
+    "nashville": {
+      "landmarks": ["dome"],
+      "terrain": "river",
+      "vegetation": "deciduous",
+      "climate": "warm"
+    },
+    "sanjose": {
+      "vegetation": "palm"
+    },
+    "pittsburgh": {
+      "waterFeature": "river",
+      "landmarks": ["bridge"]
+    },
+    "cityofcleveland": {
+      "waterFeature": "lake"
+    },
+    "milwaukee": {
+      "waterFeature": "lake",
+      "terrain": "lake",
+      "vegetation": "pine",
+      "climate": "cold"
+    },
+    "sacramento": {
+      "landmarks": ["dome"],
+      "waterFeature": "river"
+    },
+    "sanantonio": {
+      "waterFeature": "river",
+      "landmarks": ["church_spire"],
+      "vegetation": "palm"
+    },
+    "cityofdallas": {
+      "landmarks": ["skyscraper_cluster"],
+      "vegetation": "palm"
+    },
+    "elpasotexas": {
+      "terrain": "desert",
+      "landmarks": ["mountain_backdrop"]
+    },
+    "atlantaga": {
+      "landmarks": ["skyscraper_cluster"],
+      "vegetation": "palm"
+    },
+    "oakland": {
+      "waterFeature": "bay",
+      "landmarks": ["bridge"]
+    },
+    "coloradosprings": {
+      "landmarks": ["mountain_backdrop"],
+      "terrain": "mountain"
+    },
+    "longbeach": {
+      "waterFeature": "ocean",
+      "landmarks": ["port_crane"],
+      "vegetation": "palm"
+    },
+    "fresno": {
+      "vegetation": "palm",
+      "terrain": "plains"
+    },
+    "stockton": {
+      "waterFeature": "river",
+      "vegetation": "palm"
+    },
+    "corpuschristi": {
+      "waterFeature": "bay",
+      "vegetation": "palm"
+    },
+    "riversideca": {
+      "vegetation": "palm",
+      "terrain": "plains"
+    },
+    "newark": {
+      "waterFeature": "bay",
+      "landmarks": ["skyscraper_cluster"]
+    },
+    "toledo": {
+      "waterFeature": "lake"
+    },
+    "richmondva": {
+      "waterFeature": "river",
+      "landmarks": ["dome"]
+    },
+    "providenceri": {
+      "waterFeature": "bay",
+      "landmarks": ["dome"]
+    },
+    "fortlauderdale": {
+      "waterFeature": "ocean",
+      "vegetation": "palm"
+    },
+    "pensacola": {
+      "waterFeature": "bay",
+      "vegetation": "palm"
+    },
+    "clearwater": {
+      "waterFeature": "ocean",
+      "vegetation": "palm"
+    },
+    "huntingtonbeach": {
+      "waterFeature": "ocean",
+      "vegetation": "palm"
+    },
+    "newportbeach": {
+      "waterFeature": "ocean",
+      "vegetation": "palm"
+    },
+    "cabq": {
+      "terrain": "desert",
+      "landmarks": ["mountain_backdrop"],
+      "vegetation": "cactus",
+      "climate": "arid"
+    },
+    "mesquite": {
+      "terrain": "desert",
+      "vegetation": "cactus"
+    },
+    "lakehavasucity": {
+      "waterFeature": "lake",
+      "terrain": "desert"
+    },
+    "keywest": {
+      "waterFeature": "ocean",
+      "vegetation": "palm",
+      "climate": "tropical"
+    },
+    "valdez": {
+      "waterFeature": "bay",
+      "landmarks": ["mountain_backdrop"],
+      "vegetation": "pine",
+      "climate": "cold"
+    },
+    "idahofalls": {
+      "waterFeature": "river",
+      "landmarks": ["mountain_backdrop"],
+      "vegetation": "pine"
+    },
+    "kansascity": {
+      "waterFeature": "river",
+      "terrain": "plains",
+      "vegetation": "deciduous",
+      "climate": "temperate"
+    },
+    "louisville": {
+      "waterFeature": "river",
+      "terrain": "river",
+      "vegetation": "deciduous",
+      "climate": "temperate"
+    },
+    "madison": {
+      "waterFeature": "lake",
+      "terrain": "lake",
+      "vegetation": "deciduous",
+      "climate": "cold"
+    },
+    "charlottenc": {
+      "landmarks": ["skyscraper_cluster"],
+      "vegetation": "deciduous"
+    },
+    "wilmington": {
+      "waterFeature": "ocean",
+      "vegetation": "deciduous"
+    },
+    "hampton": {
+      "waterFeature": "bay"
+    },
+    "alexandria": {
+      "waterFeature": "river"
+    },
+    "annapolis": {
+      "waterFeature": "bay"
+    },
+    "palmsprings": {
+      "terrain": "desert",
+      "vegetation": "palm",
+      "landmarks": ["mountain_backdrop"]
+    },
+    "cathedralcity": {
+      "terrain": "desert",
+      "vegetation": "palm"
+    },
+    "sitka": {
+      "waterFeature": "ocean",
+      "landmarks": ["mountain_backdrop"],
+      "vegetation": "pine",
+      "climate": "cold"
+    },
+    "marcoisland": {
+      "waterFeature": "ocean",
+      "vegetation": "palm",
+      "climate": "tropical"
+    },
+    "brightonco": {
+      "landmarks": ["mountain_backdrop"]
+    },
+    "lsmo": {
+      "terrain": "plains",
+      "vegetation": "deciduous"
+    },
+    "olympia": {
+      "waterFeature": "bay",
+      "landmarks": ["dome"],
+      "vegetation": "pine"
+    },
+    "cocoa": {
+      "waterFeature": "river",
+      "vegetation": "palm"
+    },
+    "baltimore": {
+      "waterFeature": "bay",
+      "landmarks": ["skyscraper_cluster"]
+    },
+    "stpaul": {
+      "waterFeature": "river",
+      "landmarks": ["dome"]
+    }
+  }
+}

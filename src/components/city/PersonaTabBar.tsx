@@ -6,7 +6,7 @@ import { useSearchParams, useRouter } from "next/navigation";
 const TABS = [
   { value: "citizen", label: "Citizen", subtitle: "What can I do?" },
   { value: "researcher", label: "Researcher", subtitle: "Show me the data" },
-  { value: "developer", label: "Developer", subtitle: "API & downloads" },
+  { value: "builder", label: "Builder", subtitle: "Development data" },
 ] as const;
 
 function TabBar() {
