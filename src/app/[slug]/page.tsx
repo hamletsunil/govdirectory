@@ -868,7 +868,7 @@ export default async function CityPage({
                     <>
                       <h3 className="section-subtitle">Upcoming Meetings</h3>
                       <div className="meetings-list">
-                        {upcoming.slice(0, 5).map((m, i) => (
+                        {upcoming.slice(0, 3).map((m, i) => (
                           <div key={`up-${i}`} className="meeting-item upcoming">
                             <div className="meeting-date">
                               {m.date ? new Date(m.date + "T12:00:00").toLocaleDateString("en-US", { month: "short", day: "numeric" }) : "TBD"}
@@ -891,7 +891,7 @@ export default async function CityPage({
                     <>
                       <h3 className="section-subtitle">Recent Meetings</h3>
                       <div className="meetings-list">
-                        {recent.slice(0, 3).map((m, i) => (
+                        {recent.slice(0, 2).map((m, i) => (
                           <div key={`rec-${i}`} className="meeting-item">
                             <div className="meeting-date">
                               {m.date ? new Date(m.date + "T12:00:00").toLocaleDateString("en-US", { month: "short", day: "numeric" }) : "TBD"}
@@ -918,7 +918,7 @@ export default async function CityPage({
               <>
                 <h3 className="section-subtitle">Latest Legislation</h3>
                 <div className="legislation-list">
-                  {p.recent_legislation.slice(0, 5).map((l, i) => (
+                  {p.recent_legislation.slice(0, 3).map((l, i) => (
                     <div key={i} className="legislation-item">
                       <div className="legislation-meta">
                         <span className="legislation-type">{l.type}</span>
@@ -951,7 +951,7 @@ export default async function CityPage({
               <>
                 <h3 className="section-subtitle">Watch Government</h3>
                 <div className="video-meetings-list">
-                  {p.video_meetings.slice(0, 3).map((v, i) => (
+                  {p.video_meetings.slice(0, 2).map((v, i) => (
                     <a
                       key={i}
                       href={v.video_url || "#"}
@@ -986,7 +986,7 @@ export default async function CityPage({
               <>
                 <h3 className="section-subtitle">City Hall News</h3>
                 <div className="news-list">
-                  {p.government_news.slice(0, 3).map((n, i) => (
+                  {p.government_news.slice(0, 2).map((n, i) => (
                     <a
                       key={i}
                       href={n.url || "#"}
