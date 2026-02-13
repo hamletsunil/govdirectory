@@ -177,6 +177,89 @@ a:hover { text-decoration: underline; }
 .completeness-fill { height: 100%; background: var(--accent); border-radius: 2px; transition: width 1s var(--ease); }
 .completeness-text { font-size: var(--text-tiny); color: var(--text-muted); white-space: nowrap; }
 
+/* === STORY STARTERS === */
+.story-starters {
+  max-width: 900px;
+  margin: 2rem auto 0;
+  padding: 0 1.5rem;
+}
+.story-starters-header {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  margin-bottom: 1rem;
+}
+.story-starters-icon {
+  width: 28px;
+  height: 28px;
+  color: var(--accent);
+  flex-shrink: 0;
+}
+.story-starters-icon svg { width: 18px; height: 18px; }
+.story-starters-title {
+  font-family: var(--font-display);
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 0;
+}
+.story-starters-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.story-starter {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  padding: 1rem 1.25rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
+  border-radius: 12px;
+}
+.story-starter-tag {
+  flex-shrink: 0;
+  font-family: var(--font-body);
+  font-size: 0.5625rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 0.1875rem 0.5rem;
+  border-radius: 4px;
+  margin-top: 0.1875rem;
+}
+.tag-anomaly { background: rgba(239, 68, 68, 0.12); color: #ef4444; }
+.tag-trend { background: rgba(59, 130, 246, 0.12); color: #60a5fa; }
+.tag-comparison { background: rgba(245, 158, 11, 0.12); color: #fbbf24; }
+.tag-governance { background: rgba(16, 185, 129, 0.12); color: #10b981; }
+.story-starter-text {
+  font-family: var(--font-display);
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  flex: 1;
+}
+.story-starter-source {
+  flex-shrink: 0;
+  font-family: var(--font-body);
+  font-size: 0.625rem;
+  color: var(--text-muted);
+  padding: 0.1875rem 0.5rem;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+  margin-top: 0.1875rem;
+  white-space: nowrap;
+}
+
+@media (max-width: 640px) {
+  .story-starter { flex-wrap: wrap; gap: 0.5rem; }
+  .story-starter-source { margin-left: auto; }
+}
+
 /* === SECTIONS CONTAINER === */
 .sections { max-width: 900px; margin: 0 auto; padding: 0.5rem 1.5rem 4rem; display: flex; flex-direction: column; gap: 2.5rem; }
 

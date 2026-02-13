@@ -296,6 +296,244 @@ function generateFinding(p: CityProfile, b: Benchmarks): string {
   return `${name} is one of 290 local governments profiled with open data.`;
 }
 
+/* ── Story Starters — auto-detect the most newsworthy facts ── */
+
+type StoryStarter = {
+  text: string;        // Plain-English quotable sentence
+  source: string;      // e.g. "Census ACS 2022"
+  tag: "anomaly" | "trend" | "comparison" | "governance";
+  magnitude: number;   // sort key — higher = more interesting
+};
+
+/** IQR-based deviation: how many interquartile ranges from the median */
+function iqrDeviation(val: number, bm: BenchmarkEntry): number {
+  const iqr = bm.p75 - bm.p25;
+  if (iqr === 0) return 0;
+  return (val - bm.median) / iqr;
+}
+
+function generateStoryStarters(p: CityProfile, bm: Benchmarks): StoryStarter[] {
+  const name = p.identity.name;
+  const starters: StoryStarter[] = [];
+
+  // — Economy anomalies —
+  if (p.economy?.median_household_income && bm.median_household_income) {
+    const v = p.economy.median_household_income;
+    const dev = iqrDeviation(v, bm.median_household_income);
+    if (Math.abs(dev) > 1) {
+      const pctDiff = Math.round(((v - bm.median_household_income.median) / bm.median_household_income.median) * 100);
+      const dir = pctDiff > 0 ? "above" : "below";
+      starters.push({
+        text: `${name}'s median household income of ${fmtDollar(v)} is ${Math.abs(pctDiff)}% ${dir} the national median of ${fmtCompact(bm.median_household_income.median)}.`,
+        source: "Census ACS 5-year",
+        tag: "anomaly",
+        magnitude: Math.abs(dev),
+      });
+    }
+  }
+
+  if (p.economy?.poverty_rate != null && bm.poverty_rate) {
+    const v = p.economy.poverty_rate;
+    const dev = iqrDeviation(v, bm.poverty_rate);
+    if (Math.abs(dev) > 1.2) {
+      const rel = v > bm.poverty_rate.median ? "above" : "below";
+      starters.push({
+        text: `${fmtPct(v)} of ${name} residents live below the poverty line — ${rel} the ${fmtPct(bm.poverty_rate.median)} national median.`,
+        source: "Census ACS 5-year",
+        tag: "anomaly",
+        magnitude: Math.abs(dev),
+      });
+    }
+  }
+
+  if (p.economy?.unemployment_rate != null && bm.unemployment_rate) {
+    const v = p.economy.unemployment_rate;
+    const dev = iqrDeviation(v, bm.unemployment_rate);
+    if (Math.abs(dev) > 1.2) {
+      starters.push({
+        text: `Unemployment in ${name} stands at ${fmtPct(v)}${p.economy.unemployment_data_level && p.economy.unemployment_data_level !== "city" ? ` (${p.economy.unemployment_data_level}-level)` : ""}, compared to a ${fmtPct(bm.unemployment_rate.median)} national median.`,
+        source: "BLS LAUS",
+        tag: "anomaly",
+        magnitude: Math.abs(dev),
+      });
+    }
+  }
+
+  if (p.economy?.home_value_to_income_ratio != null && bm.home_value_to_income_ratio) {
+    const v = p.economy.home_value_to_income_ratio;
+    const dev = iqrDeviation(v, bm.home_value_to_income_ratio);
+    if (dev > 1.5) {
+      starters.push({
+        text: `Home prices in ${name} run ${v.toFixed(1)}x median income — well above the ${bm.home_value_to_income_ratio.median.toFixed(1)}x national median, signaling a significant affordability gap.`,
+        source: "Census ACS 5-year",
+        tag: "anomaly",
+        magnitude: dev,
+      });
+    }
+  }
+
+  // — Safety anomalies —
+  if (p.safety?.violent_crime_rate != null && bm.violent_crime_rate) {
+    const v = p.safety.violent_crime_rate;
+    const dev = iqrDeviation(v, bm.violent_crime_rate);
+    if (Math.abs(dev) > 0.8) {
+      const level = v < 200 ? "remarkably low" : v > 700 ? "among the highest in the dataset" : v > 400 ? "elevated" : "moderate";
+      starters.push({
+        text: `${name}'s violent crime rate of ${fmt(v, { decimals: 0 })} per 100,000 is ${level}${p.safety.crime_data_level && p.safety.crime_data_level !== "city" ? ` (${p.safety.crime_data_level}-level data)` : ""}.`,
+        source: p.safety.crime_data_level === "city" ? "City open data portal" : "FBI/Socrata",
+        tag: "anomaly",
+        magnitude: Math.abs(dev),
+      });
+    }
+  }
+
+  if (p.safety?.crime_trend != null && Math.abs(p.safety.crime_trend) > 10) {
+    const dir = p.safety.crime_trend < 0 ? "declined" : "increased";
+    starters.push({
+      text: `Crime in ${name} has ${dir} ${fmt(Math.abs(p.safety.crime_trend), { suffix: "%", decimals: 1 })} year over year.`,
+      source: "FBI/Socrata",
+      tag: "trend",
+      magnitude: Math.abs(p.safety.crime_trend) / 10,
+    });
+  }
+
+  // — Housing anomalies —
+  if (p.housing?.median_rent != null && bm.median_rent) {
+    const v = p.housing.median_rent;
+    const dev = iqrDeviation(v, bm.median_rent);
+    if (Math.abs(dev) > 1.2) {
+      const pctDiff = Math.round(((v - bm.median_rent.median) / bm.median_rent.median) * 100);
+      const dir = pctDiff > 0 ? "above" : "below";
+      starters.push({
+        text: `Median rent in ${name} is ${fmtDollar(v)}/month — ${Math.abs(pctDiff)}% ${dir} the national median of ${fmtCompact(bm.median_rent.median)}.`,
+        source: "Census ACS 5-year",
+        tag: "anomaly",
+        magnitude: Math.abs(dev),
+      });
+    }
+  }
+
+  if (p.housing?.cost_burdened_pct != null && bm.cost_burdened_pct) {
+    const v = p.housing.cost_burdened_pct;
+    const dev = iqrDeviation(v, bm.cost_burdened_pct);
+    if (dev > 1.2) {
+      starters.push({
+        text: `${fmtPct(v)} of ${name} households are cost-burdened, spending 30% or more of income on housing — well above the ${fmtPct(bm.cost_burdened_pct.median)} national median.`,
+        source: "Census ACS 5-year",
+        tag: "anomaly",
+        magnitude: dev,
+      });
+    }
+  }
+
+  // — Education anomalies —
+  if (p.education?.avg_school_rating != null && bm.avg_school_rating) {
+    const v = p.education.avg_school_rating;
+    const dev = iqrDeviation(v, bm.avg_school_rating);
+    if (Math.abs(dev) > 1) {
+      const quality = v >= 7 ? "well above average" : v <= 4 ? "well below average" : v > bm.avg_school_rating.median ? "above average" : "below average";
+      starters.push({
+        text: `Schools in ${name} average a ${fmt(v, { decimals: 1 })}/10 rating — ${quality} (national median: ${fmt(bm.avg_school_rating.median, { decimals: 1 })}/10).`,
+        source: "GreatSchools",
+        tag: "comparison",
+        magnitude: Math.abs(dev),
+      });
+    }
+  }
+
+  // — Environment anomalies —
+  if (p.environment?.pm25_mean != null && bm.pm25_mean) {
+    const v = p.environment.pm25_mean;
+    const dev = iqrDeviation(v, bm.pm25_mean);
+    if (Math.abs(dev) > 1) {
+      const quality = v <= 5.0 ? "meets the WHO guideline of 5.0" : v <= 10 ? "is moderate" : "exceeds EPA standards";
+      starters.push({
+        text: `Air quality in ${name} (PM2.5: ${fmt(v, { decimals: 1 })} \u03BCg/m\u00B3) ${quality}. The national median is ${fmt(bm.pm25_mean.median, { decimals: 1 })}.`,
+        source: "EPA AQS",
+        tag: "comparison",
+        magnitude: Math.abs(dev),
+      });
+    }
+  }
+
+  if (p.environment?.total_disasters != null && p.environment.total_disasters > 20) {
+    starters.push({
+      text: `${name}'s area has experienced ${p.environment.total_disasters} federally declared disasters${p.environment.most_recent_disaster_type ? `, most recently a ${p.environment.most_recent_disaster_type.toLowerCase()}` : ""}.`,
+      source: "FEMA",
+      tag: "comparison",
+      magnitude: p.environment.total_disasters / 15,
+    });
+  }
+
+  // — Governance insights —
+  if (p.governance?.agenda_availability_pct != null && p.governance.agenda_availability_pct < 5 &&
+      p.governance?.minutes_availability_pct != null && p.governance.minutes_availability_pct < 5) {
+    starters.push({
+      text: `${name} publishes virtually no meeting agendas or minutes on its legislative platform — a significant transparency gap.`,
+      source: "Legistar",
+      tag: "governance",
+      magnitude: 2.0,
+    });
+  } else if (p.governance?.agenda_availability_pct != null && p.governance.agenda_availability_pct > 90) {
+    starters.push({
+      text: `${name} publishes agendas for ${fmtPct(p.governance.agenda_availability_pct)} of its meetings, indicating strong transparency.`,
+      source: "Legistar",
+      tag: "governance",
+      magnitude: 1.2,
+    });
+  }
+
+  if (p.civic_issues?.resolution_rate != null) {
+    if (p.civic_issues.resolution_rate > 90) {
+      starters.push({
+        text: `${name} resolves ${fmtPct(p.civic_issues.resolution_rate)} of reported civic issues — an unusually high resolution rate.`,
+        source: "SeeClickFix",
+        tag: "governance",
+        magnitude: 1.5,
+      });
+    } else if (p.civic_issues.resolution_rate < 40) {
+      starters.push({
+        text: `Only ${fmtPct(p.civic_issues.resolution_rate)} of civic issues reported in ${name} get resolved.`,
+        source: "SeeClickFix",
+        tag: "governance",
+        magnitude: 1.8,
+      });
+    }
+  }
+
+  if (p.civic_issues?.top_issue_type && (p.civic_issues.total_issues || 0) > 100) {
+    starters.push({
+      text: `The most common civic complaint in ${name}? ${p.civic_issues.top_issue_type} — out of ${(p.civic_issues.total_issues || 0).toLocaleString()} total reported issues.`,
+      source: "SeeClickFix",
+      tag: "governance",
+      magnitude: 1.0,
+    });
+  }
+
+  // — Time series trends —
+  const econH = sortedTimeSeries(p.time_series?.economy_history || []);
+  if (econH.length >= 5) {
+    const uRates = econH.map((e) => (e as Record<string, number>).unemployment_rate).filter((v): v is number => v != null);
+    if (uRates.length >= 5) {
+      const first = uRates[0];
+      const last = uRates[uRates.length - 1];
+      const change = last - first;
+      if (Math.abs(change) > 2) {
+        const dir = change < 0 ? "fallen" : "risen";
+        starters.push({
+          text: `Unemployment in ${name} has ${dir} from ${first.toFixed(1)}% to ${last.toFixed(1)}% over the past ${uRates.length} years.`,
+          source: "BLS LAUS",
+          tag: "trend",
+          magnitude: Math.abs(change) / 2,
+        });
+      }
+    }
+  }
+
+  // Sort by magnitude (most interesting first) and take top 5
+  return starters.sort((a, b) => b.magnitude - a.magnitude).slice(0, 5);
+}
+
 /* ── Data Loading ── */
 
 function loadProfile(slug: string): CityProfile | null {
@@ -334,6 +572,8 @@ export default async function CityPage({
   const grades = computeGrades(p, b);
   const composite = compositeScore(grades);
   const compositeGrade = composite != null ? percentileToGrade(composite) : null;
+
+  const storyStarters = generateStoryStarters(p, b);
 
   const hasEconomy = p.economy?.median_household_income != null;
   const hasSafety = p.safety?.violent_crime_rate != null;
@@ -424,6 +664,29 @@ export default async function CityPage({
           {dims.available} of {dims.total} data dimensions available
         </span>
       </div>
+
+      {/* ── STORY STARTERS ── */}
+      {storyStarters.length > 0 && (
+        <div className="story-starters">
+          <div className="story-starters-header">
+            <div className="story-starters-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+              </svg>
+            </div>
+            <h2 className="story-starters-title">What&apos;s Noteworthy</h2>
+          </div>
+          <ul className="story-starters-list">
+            {storyStarters.map((s, i) => (
+              <li key={i} className="story-starter">
+                <span className={`story-starter-tag tag-${s.tag}`}>{s.tag}</span>
+                <span className="story-starter-text">{s.text}</span>
+                <span className="story-starter-source">{s.source}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
 
       {/* ── SECTIONS ── */}
       <div className="sections">
