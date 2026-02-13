@@ -1,0 +1,620 @@
+{
+  "metadata": {
+    "generated": "2026-02-13",
+    "description": "Mapping of open data portals for govdirectory cities, discovered via Socrata Discovery API, ArcGIS Hub, CKAN portals, and web research.",
+    "total_cities_checked": 290,
+    "cities_with_portals": 42,
+    "coverage_pct": 14.5
+  },
+  "portals": [
+    {
+      "city_slug": "chicago",
+      "city_name": "Chicago",
+      "state": "IL",
+      "platform": "socrata",
+      "domain": "data.cityofchicago.org",
+      "portal_url": "https://data.cityofchicago.org",
+      "dataset_count": 1961,
+      "key_datasets": ["permits", "311", "crime", "budget", "transportation", "business_licenses"],
+      "notes": "One of the largest municipal open data portals in the US. 89 311-related datasets, 41 crime datasets, 170 budget datasets."
+    },
+    {
+      "city_slug": "cityofdallas",
+      "city_name": "Dallas",
+      "state": "TX",
+      "platform": "socrata",
+      "domain": "www.dallasopendata.com",
+      "portal_url": "https://www.dallasopendata.com",
+      "dataset_count": 1009,
+      "key_datasets": ["permits", "crime", "police", "transportation", "GIS"],
+      "notes": "Dallas Police Active Calls, Building Permits, City Council Voting Records. 15 permit-related datasets."
+    },
+    {
+      "city_slug": "seattle",
+      "city_name": "Seattle",
+      "state": "WA",
+      "platform": "socrata",
+      "domain": "data.seattle.gov",
+      "portal_url": "https://data.seattle.gov",
+      "dataset_count": 301,
+      "key_datasets": ["permits", "crime", "911", "transportation"],
+      "notes": "911 dispatches updated every 5 minutes. Parking occupancy data. 14 permit-related datasets."
+    },
+    {
+      "city_slug": "oakland",
+      "city_name": "Oakland",
+      "state": "CA",
+      "platform": "socrata",
+      "domain": "data.oaklandca.gov",
+      "portal_url": "https://data.oaklandca.gov",
+      "dataset_count": 739,
+      "key_datasets": ["311", "crime", "police", "budget", "permits", "housing"],
+      "notes": "CrimeWatch data, OAK 311 service requests, police arrests, budget data. 5 budget datasets, 14 permit-related datasets."
+    },
+    {
+      "city_slug": "providenceri",
+      "city_name": "Providence",
+      "state": "RI",
+      "platform": "socrata",
+      "domain": "data.providenceri.gov",
+      "portal_url": "https://data.providenceri.gov",
+      "dataset_count": 297,
+      "key_datasets": ["crime", "police", "budget", "permits", "property"],
+      "notes": "Police arrests and citations, case logs, property assessments, waste pickup schedules. 37 budget datasets."
+    },
+    {
+      "city_slug": null,
+      "city_name": "New Orleans",
+      "state": "LA",
+      "platform": "socrata",
+      "domain": "data.nola.gov",
+      "portal_url": "https://data.nola.gov",
+      "dataset_count": 282,
+      "key_datasets": ["permits", "311", "crime", "police", "short_term_rentals"],
+      "notes": "NOPD Use of Force, Calls for Service, 311 data, 43 permit datasets. Not in the 290 cities list but discovered via API."
+    },
+    {
+      "city_slug": "kansascity",
+      "city_name": "Kansas City",
+      "state": "MO",
+      "platform": "socrata",
+      "domain": "data.kcmo.org",
+      "portal_url": "https://data.kcmo.org",
+      "dataset_count": 347,
+      "key_datasets": ["permits", "311", "crime", "budget", "property"],
+      "notes": "311 Service Requests, Building Permits, KCPD Crime Data, 21 budget datasets, 22 permit datasets, 16 crime datasets."
+    },
+    {
+      "city_slug": "richmondva",
+      "city_name": "Richmond",
+      "state": "VA",
+      "platform": "socrata",
+      "domain": "data.richmondgov.com",
+      "portal_url": "https://data.richmondgov.com",
+      "dataset_count": 54,
+      "key_datasets": ["business_licenses", "budget", "property", "311"],
+      "notes": "Business Licenses, City Contracts, Delinquent Real Estate Taxes, SeeClickFix data."
+    },
+    {
+      "city_slug": "pittsburgh",
+      "city_name": "Pittsburgh",
+      "state": "PA",
+      "platform": "socrata",
+      "domain": "fiscalfocus.pittsburghpa.gov",
+      "portal_url": "https://fiscalfocus.pittsburghpa.gov",
+      "dataset_count": 195,
+      "key_datasets": ["budget", "payroll", "expenses", "revenue"],
+      "notes": "Fiscal focus portal with checkbook data, ARP monitoring, expenses, revenue budgets, payroll data."
+    },
+    {
+      "city_slug": "somervillema",
+      "city_name": "Somerville",
+      "state": "MA",
+      "platform": "socrata",
+      "domain": "data.somervillema.gov",
+      "portal_url": "https://data.somervillema.gov",
+      "dataset_count": 49,
+      "key_datasets": ["crime", "311", "transportation", "permits"],
+      "notes": "Police crime reports, 311 service requests, bicycle/pedestrian counts, motor vehicle crashes, buildings data."
+    },
+    {
+      "city_slug": "plano",
+      "city_name": "Plano",
+      "state": "TX",
+      "platform": "socrata",
+      "domain": "dashboard.plano.gov",
+      "portal_url": "https://dashboard.plano.gov",
+      "dataset_count": 131,
+      "key_datasets": ["police", "911", "budget", "water_quality"],
+      "notes": "Performance dashboard with citizen surveys, police satisfaction, lead/copper samples, 911 calls."
+    },
+    {
+      "city_slug": "fortlauderdale",
+      "city_name": "Fort Lauderdale",
+      "state": "FL",
+      "platform": "socrata",
+      "domain": "fortlauderdale.data.socrata.com",
+      "portal_url": "https://fortlauderdale.data.socrata.com",
+      "dataset_count": 197,
+      "key_datasets": ["police", "crime", "GIS", "311"],
+      "notes": "Police District Reports, Adult Arrests, Incident data, Neighborhood Associations. Also has ArcGIS Hub portal."
+    },
+    {
+      "city_slug": "coloradosprings",
+      "city_name": "Colorado Springs",
+      "state": "CO",
+      "platform": "socrata",
+      "domain": "data.coloradosprings.gov",
+      "portal_url": "https://data.coloradosprings.gov",
+      "dataset_count": 16,
+      "key_datasets": ["budget", "finance"],
+      "notes": "Tyler Data & Insights. Open Budget Revenue/Expense, Capital Projects Spending, checkbook data. Primarily financial transparency."
+    },
+    {
+      "city_slug": "mesa",
+      "city_name": "Mesa",
+      "state": "AZ",
+      "platform": "socrata",
+      "domain": "citydata.mesaaz.gov",
+      "portal_url": "https://citydata.mesaaz.gov",
+      "dataset_count": 1167,
+      "key_datasets": ["permits", "police", "crime", "budget", "housing"],
+      "notes": "Building Permits, Police Dispatch Events, City Council Strategic Priorities, homelessness data."
+    },
+    {
+      "city_slug": "franklintn",
+      "city_name": "Franklin",
+      "state": "TN",
+      "platform": "socrata",
+      "domain": "performance.franklintn.gov",
+      "portal_url": "https://performance.franklintn.gov",
+      "dataset_count": 88,
+      "key_datasets": ["budget", "economic_development", "safety"],
+      "notes": "FY 2024 Approved Budget, Safe Neighborhoods, Growth Supports, Economic Development Stats."
+    },
+    {
+      "city_slug": null,
+      "city_name": "Austin",
+      "state": "TX",
+      "platform": "socrata",
+      "domain": "datahub.austintexas.gov",
+      "portal_url": "https://datahub.austintexas.gov",
+      "dataset_count": 2223,
+      "key_datasets": ["permits", "311", "crime", "budget", "transportation", "GIS"],
+      "notes": "Second largest Socrata portal discovered. 5 permit datasets, 5 311 datasets, 107 crime/safety datasets. Not in 290 cities list but major reference portal."
+    },
+    {
+      "city_slug": null,
+      "city_name": "New York City",
+      "state": "NY",
+      "platform": "socrata",
+      "domain": "data.cityofnewyork.us",
+      "portal_url": "https://data.cityofnewyork.us",
+      "dataset_count": 2997,
+      "key_datasets": ["permits", "311", "crime", "budget", "transportation", "housing", "business_licenses"],
+      "notes": "Largest municipal open data portal in the US. For-Hire Vehicles, DOB Job Applications, Civil Service Lists. Not in 290 cities list but key reference."
+    },
+    {
+      "city_slug": null,
+      "city_name": "Los Angeles",
+      "state": "CA",
+      "platform": "socrata",
+      "domain": "data.lacity.org",
+      "portal_url": "https://data.lacity.org",
+      "dataset_count": 923,
+      "key_datasets": ["permits", "311", "crime", "budget", "business_licenses", "transportation"],
+      "notes": "Active Businesses, Crime Data, LAX Parking, 20 311 datasets, 164 permit datasets, 14 budget datasets. Not in 290 cities list but major reference."
+    },
+    {
+      "city_slug": "boston",
+      "city_name": "Boston",
+      "state": "MA",
+      "platform": "ckan",
+      "domain": "data.boston.gov",
+      "portal_url": "https://data.boston.gov",
+      "dataset_count": null,
+      "key_datasets": ["permits", "311", "crime", "budget", "property", "food_inspections"],
+      "notes": "Analyze Boston - powered by CKAN/OpenGov. Employee Earnings, Approved Building Permits, 311 Service Requests, Crime Incident Reports, Property Assessment."
+    },
+    {
+      "city_slug": "phoenix",
+      "city_name": "Phoenix",
+      "state": "AZ",
+      "platform": "ckan",
+      "domain": "phoenixstaging.ogopendata.com",
+      "portal_url": "https://data.phoenix.gov",
+      "dataset_count": null,
+      "key_datasets": ["police", "fire", "budget", "health"],
+      "notes": "CKAN/OpenGov portal. Police Use of Force, Substance Use & Overdose Dashboard, Fire Dept Operational Stats, Traffic Citations."
+    },
+    {
+      "city_slug": "sanantonio",
+      "city_name": "San Antonio",
+      "state": "TX",
+      "platform": "ckan",
+      "domain": "data.sanantonio.gov",
+      "portal_url": "https://data.sanantonio.gov",
+      "dataset_count": null,
+      "key_datasets": ["permits", "311", "crime", "police"],
+      "notes": "CKAN/OpenGov. SAPD Arrests (301 views), Building Permits (213 views), SAPD Calls for Service, SAPD Offenses, 311 Service Calls."
+    },
+    {
+      "city_slug": "sanjose",
+      "city_name": "San Jose",
+      "state": "CA",
+      "platform": "ckan",
+      "domain": "data.sanjoseca.gov",
+      "portal_url": "https://data.sanjoseca.gov",
+      "dataset_count": null,
+      "key_datasets": ["police", "fire", "permits", "budget"],
+      "notes": "CKAN/OpenGov. Police Calls for Service (292 views), Employee Compensation Plans, Fire Incidents, Active Building Permits."
+    },
+    {
+      "city_slug": "cityoflacrosse",
+      "city_name": "Laredo",
+      "state": "TX",
+      "platform": "ckan",
+      "domain": "data.openlaredo.com",
+      "portal_url": "https://data.openlaredo.com",
+      "dataset_count": null,
+      "key_datasets": ["GIS", "city_services", "public_safety", "economy"],
+      "notes": "CKAN/OpenGov. OpenLaredo.com with financial transparency, GIS data, and city service datasets."
+    },
+    {
+      "city_slug": "longbeach",
+      "city_name": "Long Beach",
+      "state": "CA",
+      "platform": "opendatasoft",
+      "domain": "data.longbeach.gov",
+      "portal_url": "https://data.longbeach.gov",
+      "dataset_count": 300,
+      "key_datasets": ["311", "police", "homelessness", "climate", "permits"],
+      "notes": "Huwise/Opendatasoft platform. Go Long Beach Service Requests, Police Stop Data (RIPA), Homelessness Dashboard, Animal Shelter Dashboard."
+    },
+    {
+      "city_slug": "baltimore",
+      "city_name": "Baltimore",
+      "state": "MD",
+      "platform": "arcgis_hub",
+      "domain": "data.baltimorecity.gov",
+      "portal_url": "https://data.baltimorecity.gov",
+      "dataset_count": null,
+      "key_datasets": ["crime", "housing", "transportation", "health", "budget", "GIS"],
+      "notes": "Open Baltimore - ArcGIS Hub. Categories: City Government, Health, Environment, Housing & Development, Transportation, Finance, Public Safety, Geographics."
+    },
+    {
+      "city_slug": "detroit",
+      "city_name": "Detroit",
+      "state": "MI",
+      "platform": "arcgis_hub",
+      "domain": "data.detroitmi.gov",
+      "portal_url": "https://data.detroitmi.gov",
+      "dataset_count": null,
+      "key_datasets": ["crime", "311", "permits", "property", "blight", "food_inspections"],
+      "notes": "ArcGIS Hub. Base Units Explorer, Restaurant Inspections, Crime Viewer, Parcels, Property Sales, Blight Violations, 911 Calls."
+    },
+    {
+      "city_slug": "charlottenc",
+      "city_name": "Charlotte",
+      "state": "NC",
+      "platform": "arcgis_hub",
+      "domain": "data.charlottenc.gov",
+      "portal_url": "https://data.charlottenc.gov",
+      "dataset_count": null,
+      "key_datasets": ["crime", "housing", "transportation", "permits", "budget"],
+      "notes": "ArcGIS Hub with Tableau dashboards. Community Violence, Housing Services, Code Enforcement, Vision Zero, Capital Improvement Projects."
+    },
+    {
+      "city_slug": "denver",
+      "city_name": "Denver",
+      "state": "CO",
+      "platform": "arcgis_hub",
+      "domain": "opendata-geospatialdenver.hub.arcgis.com",
+      "portal_url": "https://denvergov.org/opendata",
+      "dataset_count": 250,
+      "key_datasets": ["GIS", "transportation", "public_safety", "parks", "demographics", "health"],
+      "notes": "ArcGIS Hub. Over 250 items across Boundaries, Environment, Demographics, Public Safety, Parks, Education, Transportation, Health."
+    },
+    {
+      "city_slug": "minneapolismn",
+      "city_name": "Minneapolis",
+      "state": "MN",
+      "platform": "arcgis_hub",
+      "domain": "opendata.minneapolismn.gov",
+      "portal_url": "https://opendata.minneapolismn.gov",
+      "dataset_count": null,
+      "key_datasets": ["crime", "311", "permits", "GIS", "transportation"],
+      "notes": "ArcGIS Hub (OpenDataMPLS). Categories: Public Safety, Boundaries, Planning, Assessing, Regulatory Services, Snow Emergency, Business Licensing, 311, Bike & Scooter."
+    },
+    {
+      "city_slug": "cityofcleveland",
+      "city_name": "Cleveland",
+      "state": "OH",
+      "platform": "arcgis_hub",
+      "domain": "data.clevelandohio.gov",
+      "portal_url": "https://data.clevelandohio.gov",
+      "dataset_count": null,
+      "key_datasets": ["crime", "housing", "transportation", "health", "GIS"],
+      "notes": "ArcGIS Hub. Categories: Health & Environment, Housing & Development, Public Safety, Transit & Mobility, Infrastructure, Administration."
+    },
+    {
+      "city_slug": "sacramento",
+      "city_name": "Sacramento",
+      "state": "CA",
+      "platform": "arcgis_hub",
+      "domain": "data.cityofsacramento.org",
+      "portal_url": "https://data.cityofsacramento.org",
+      "dataset_count": null,
+      "key_datasets": ["permits", "311", "crime", "budget", "parks", "transportation"],
+      "notes": "ArcGIS Hub. Categories: Animal Care, Budget & Finance, Disclosure & Ethics, Economy & Community, Permits & Planning, Public Safety, Service Requests, Transportation."
+    },
+    {
+      "city_slug": "greensboro",
+      "city_name": "Greensboro",
+      "state": "NC",
+      "platform": "arcgis_hub",
+      "domain": "data.greensboro-nc.gov",
+      "portal_url": "https://data.greensboro-nc.gov",
+      "dataset_count": null,
+      "key_datasets": ["crime", "police", "traffic", "permits"],
+      "notes": "Open Gate City - ArcGIS Hub. Greensboro PD data (charges, crime, traffic violations, use of force), HR/employee data, City Council communications."
+    },
+    {
+      "city_slug": "elpasotexas",
+      "city_name": "El Paso",
+      "state": "TX",
+      "platform": "arcgis_hub",
+      "domain": "city-of-el-paso-open-data-coepgis.hub.arcgis.com",
+      "portal_url": "https://city-of-el-paso-open-data-coepgis.hub.arcgis.com",
+      "dataset_count": null,
+      "key_datasets": ["GIS", "zoning", "transportation"],
+      "notes": "ArcGIS Hub. Downloadable GIS data in CSV, KML, GeoJSON, GeoTIFF formats with GeoServices API."
+    },
+    {
+      "city_slug": "toledo",
+      "city_name": "Toledo",
+      "state": "OH",
+      "platform": "arcgis_hub",
+      "domain": "data.toledo.gov",
+      "portal_url": "https://data.toledo.gov",
+      "dataset_count": null,
+      "key_datasets": ["GIS", "transportation", "parks", "health", "housing", "economic_development"],
+      "notes": "ArcGIS Hub. Categories: Planning & Zoning, Boundaries, Utilities, Transportation, Parks, Health & Safety, Neighborhoods & Housing, Economic Development."
+    },
+    {
+      "city_slug": "fresno",
+      "city_name": "Fresno",
+      "state": "CA",
+      "platform": "arcgis_hub",
+      "domain": "city-of-fresno-gis-hub-cityoffresno.hub.arcgis.com",
+      "portal_url": "https://city-of-fresno-gis-hub-cityoffresno.hub.arcgis.com",
+      "dataset_count": null,
+      "key_datasets": ["GIS", "zoning", "planning"],
+      "notes": "ArcGIS Hub - primarily GIS data. City of Fresno GIS Data Hub for exploring and downloading GIS data."
+    },
+    {
+      "city_slug": "atlantaga",
+      "city_name": "Atlanta",
+      "state": "GA",
+      "platform": "arcgis_hub",
+      "domain": "dpcd-coaplangis.opendata.arcgis.com",
+      "portal_url": "https://dpcd-coaplangis.opendata.arcgis.com",
+      "dataset_count": null,
+      "key_datasets": ["planning", "zoning", "GIS", "crime", "transportation"],
+      "notes": "ArcGIS Hub - Dept of City Planning. Also has police data at opendata.atlantapd.org and Fulton County data on Socrata (1,964 datasets)."
+    },
+    {
+      "city_slug": "huntsvilleal",
+      "city_name": "Huntsville",
+      "state": "AL",
+      "platform": "arcgis_hub",
+      "domain": "gis-huntsvilleal.opendata.arcgis.com",
+      "portal_url": "https://gis-huntsvilleal.opendata.arcgis.com",
+      "dataset_count": null,
+      "key_datasets": ["GIS", "planning", "zoning"],
+      "notes": "ArcGIS Hub - GIS open data portal."
+    },
+    {
+      "city_slug": "corpuschristi",
+      "city_name": "Corpus Christi",
+      "state": "TX",
+      "platform": "arcgis_hub",
+      "domain": "gis-corpus.opendata.arcgis.com",
+      "portal_url": "https://gis-corpus.opendata.arcgis.com",
+      "dataset_count": null,
+      "key_datasets": ["GIS", "police", "transportation"],
+      "notes": "ArcGIS Hub. GIS data plus Police Open Data page."
+    },
+    {
+      "city_slug": "riversideca",
+      "city_name": "Riverside",
+      "state": "CA",
+      "platform": "arcgis_hub",
+      "domain": "geodata-cityofriverside.opendata.arcgis.com",
+      "portal_url": "https://geodata-cityofriverside.opendata.arcgis.com",
+      "dataset_count": null,
+      "key_datasets": ["GIS", "permits", "311", "fire"],
+      "notes": "ArcGIS Hub GIS data plus Engage Riverside transparency portal at riversideca.gov/transparency/data/."
+    },
+    {
+      "city_slug": "mckinney",
+      "city_name": "McKinney",
+      "state": "TX",
+      "platform": "arcgis_hub",
+      "domain": "mckinneygis-mck.opendata.arcgis.com",
+      "portal_url": "https://mckinneygis-mck.opendata.arcgis.com",
+      "dataset_count": null,
+      "key_datasets": ["GIS", "public_safety", "planning", "parks"],
+      "notes": "Explore McKinney - ArcGIS Hub. Interactive maps for Public Safety, Planning/Zoning, Parks/Trails, Historic District."
+    },
+    {
+      "city_slug": "olatheks",
+      "city_name": "Olathe",
+      "state": "KS",
+      "platform": "arcgis_hub",
+      "domain": "data.olatheks.org",
+      "portal_url": "https://data.olatheks.org",
+      "dataset_count": null,
+      "key_datasets": ["GIS", "zoning", "public_works", "code_enforcement"],
+      "notes": "ArcGIS Hub. Zoning, future land use, public works, code cases, historic properties, traffic counts."
+    },
+    {
+      "city_slug": "salem",
+      "city_name": "Salem",
+      "state": "OR",
+      "platform": "arcgis_hub",
+      "domain": "data.cityofsalem.net",
+      "portal_url": "https://data.cityofsalem.net",
+      "dataset_count": null,
+      "key_datasets": ["GIS", "zoning", "planning", "infrastructure"],
+      "notes": "DataSalem - ArcGIS Hub. Data maps for zoning, planning, infrastructure improvements."
+    },
+    {
+      "city_slug": "coralgables",
+      "city_name": "Coral Gables",
+      "state": "FL",
+      "platform": "arcgis_hub",
+      "domain": "coral-gables-smart-city-hub-2-cggis.hub.arcgis.com",
+      "portal_url": "https://coral-gables-smart-city-hub-2-cggis.hub.arcgis.com",
+      "dataset_count": null,
+      "key_datasets": ["GIS", "permits", "police", "budget"],
+      "notes": "Coral Gables Smart City Hub - ArcGIS Hub. Financial, legislative, permit, and police records. Also uses OpenGov for budget visualization."
+    },
+    {
+      "city_slug": "cityoftacoma",
+      "city_name": "Tacoma",
+      "state": "WA",
+      "platform": "arcgis_hub",
+      "domain": "tacomaopendata-tacoma.hub.arcgis.com",
+      "portal_url": "https://data.cityoftacoma.org",
+      "dataset_count": 70,
+      "key_datasets": ["GIS", "transportation", "planning"],
+      "notes": "ArcGIS Hub. Over 70 datasets available. Also accessible via data.tacoma.gov."
+    },
+    {
+      "city_slug": "alexandria",
+      "city_name": "Alexandria",
+      "state": "VA",
+      "platform": "arcgis_hub",
+      "domain": "cityofalexandria-alexgis.opendata.arcgis.com",
+      "portal_url": "https://cityofalexandria-alexgis.opendata.arcgis.com",
+      "dataset_count": null,
+      "key_datasets": ["GIS", "zoning", "planning"],
+      "notes": "ArcGIS Hub GIS Open Data Portal. Shapefile and CSV downloads, updated bi-annually."
+    },
+    {
+      "city_slug": "bellevue",
+      "city_name": "Bellevue",
+      "state": "WA",
+      "platform": "arcgis_hub",
+      "domain": "city-of-bellevue-open-data-cobgis.hub.arcgis.com",
+      "portal_url": "https://data.bellevuewa.gov",
+      "dataset_count": null,
+      "key_datasets": ["permits", "budget", "crime", "GIS", "demographics"],
+      "notes": "ArcGIS Hub. Over 285,000 permits data, budget/expenditures, demographics, businesses, crime data."
+    },
+    {
+      "city_slug": "fortlauderdale",
+      "city_name": "Fort Lauderdale",
+      "state": "FL",
+      "platform": "arcgis_hub",
+      "domain": "data-fortlauderdale.opendata.arcgis.com",
+      "portal_url": "https://data-fortlauderdale.opendata.arcgis.com",
+      "dataset_count": null,
+      "key_datasets": ["GIS", "permits", "planning"],
+      "notes": "Secondary ArcGIS Hub portal (in addition to Socrata portal). GIS data downloads."
+    },
+    {
+      "city_slug": "miamifl",
+      "city_name": "Miami",
+      "state": "FL",
+      "platform": "socrata",
+      "domain": "data.miamigov.com",
+      "portal_url": "https://data.miamigov.com",
+      "dataset_count": 13,
+      "key_datasets": ["311", "permits", "budget"],
+      "notes": "Small Socrata portal. City of Miami Service Requests, Building Permits (2014-present), Building Tree Permits, Revenues."
+    },
+    {
+      "city_slug": "naperville",
+      "city_name": "Naperville",
+      "state": "IL",
+      "platform": "arcgis_hub",
+      "domain": "open-data-naperville.hub.arcgis.com",
+      "portal_url": "https://data.naperville.il.us",
+      "dataset_count": null,
+      "key_datasets": ["police", "permits", "budget", "GIS"],
+      "notes": "ArcGIS Hub. Police reports (updated every 2 hours), building permits, city financial information. Also performance management dashboards."
+    }
+  ],
+  "platform_summary": {
+    "socrata": {
+      "count": 17,
+      "cities": ["Chicago", "Dallas", "Seattle", "Oakland", "Providence", "Kansas City", "Richmond", "Pittsburgh", "Somerville", "Plano", "Fort Lauderdale", "Colorado Springs", "Mesa", "Franklin", "Austin", "NYC", "Los Angeles"]
+    },
+    "arcgis_hub": {
+      "count": 22,
+      "cities": ["Baltimore", "Detroit", "Charlotte", "Denver", "Minneapolis", "Cleveland", "Sacramento", "Greensboro", "El Paso", "Toledo", "Fresno", "Atlanta", "Huntsville", "Corpus Christi", "Riverside", "McKinney", "Olathe", "Salem", "Coral Gables", "Tacoma", "Alexandria", "Bellevue", "Fort Lauderdale", "Naperville"]
+    },
+    "ckan": {
+      "count": 5,
+      "cities": ["Boston", "Phoenix", "San Antonio", "San Jose", "Laredo"]
+    },
+    "opendatasoft": {
+      "count": 1,
+      "cities": ["Long Beach"]
+    }
+  },
+  "dataset_category_availability": {
+    "permits": {
+      "available_in": ["Chicago", "Dallas", "Seattle", "Oakland", "Providence", "Kansas City", "Austin", "NYC", "Los Angeles", "Boston", "San Antonio", "San Jose", "Long Beach", "New Orleans", "Sacramento", "Minneapolis", "Charlotte", "Bellevue", "Naperville", "Coral Gables", "Miami", "Mesa"],
+      "count": 22,
+      "notes": "Most commonly available dataset category. Building permits, construction permits, business permits."
+    },
+    "311_service_requests": {
+      "available_in": ["Chicago", "Oakland", "Providence", "Kansas City", "Austin", "NYC", "Los Angeles", "Boston", "San Antonio", "Long Beach", "New Orleans", "Somerville", "Sacramento", "Minneapolis", "Riverside", "Richmond"],
+      "count": 16,
+      "notes": "Second most common. Service request data with categories, locations, and resolution status."
+    },
+    "crime": {
+      "available_in": ["Chicago", "Dallas", "Seattle", "Oakland", "Kansas City", "Austin", "NYC", "Los Angeles", "Boston", "San Antonio", "New Orleans", "Somerville", "Baltimore", "Detroit", "Charlotte", "Cleveland", "Greensboro", "Minneapolis", "Atlanta", "Bellevue", "Plano"],
+      "count": 21,
+      "notes": "Highly available. Includes crime incidents, police calls for service, arrests."
+    },
+    "budget": {
+      "available_in": ["Chicago", "Oakland", "Providence", "Kansas City", "Pittsburgh", "Colorado Springs", "Austin", "NYC", "Los Angeles", "Boston", "Franklin", "Plano", "Fort Lauderdale", "Mesa", "Sacramento", "Charlotte", "Denver", "Bellevue", "Coral Gables", "Naperville"],
+      "count": 20,
+      "notes": "Budget appropriations, revenue, expenditure data. Often multi-year historical."
+    },
+    "GIS_geospatial": {
+      "available_in": ["Dallas", "Austin", "Denver", "El Paso", "Fresno", "Huntsville", "Corpus Christi", "McKinney", "Olathe", "Salem", "Tacoma", "Alexandria", "Fort Lauderdale", "Toledo", "Riverside", "Sacramento", "Cleveland", "Greensboro", "Atlanta"],
+      "count": 19,
+      "notes": "Zoning, boundaries, parcels, land use. Primary focus of ArcGIS Hub portals."
+    },
+    "transportation": {
+      "available_in": ["Chicago", "Seattle", "Austin", "NYC", "Los Angeles", "Denver", "Baltimore", "Charlotte", "Cleveland", "Sacramento", "Toledo", "Tacoma", "Somerville"],
+      "count": 13,
+      "notes": "Traffic data, parking, transit routes, bike lanes, road closures."
+    },
+    "police_public_safety": {
+      "available_in": ["Chicago", "Dallas", "Seattle", "Oakland", "Kansas City", "Austin", "NYC", "Los Angeles", "Boston", "San Antonio", "San Jose", "New Orleans", "Fort Lauderdale", "Greensboro", "Phoenix", "Detroit", "Minneapolis", "Plano", "Coral Gables", "Naperville", "McKinney"],
+      "count": 21,
+      "notes": "Overlaps with crime but includes use of force, police stops, dispatch data."
+    },
+    "business_licenses": {
+      "available_in": ["Chicago", "Richmond", "Austin", "NYC", "Los Angeles", "Minneapolis"],
+      "count": 6,
+      "notes": "Active business licenses with registration details."
+    },
+    "property_assessment": {
+      "available_in": ["Providence", "Oakland", "Boston", "Detroit", "Richmond", "Kansas City"],
+      "count": 6,
+      "notes": "Property values, tax assessments, parcel data."
+    },
+    "health": {
+      "available_in": ["Baltimore", "Cleveland", "Denver", "Phoenix", "Toledo"],
+      "count": 5,
+      "notes": "Public health data, inspections, environmental health."
+    }
+  }
+}
