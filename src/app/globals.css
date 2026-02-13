@@ -260,6 +260,186 @@ a:hover { text-decoration: underline; }
   .story-starter-source { margin-left: auto; }
 }
 
+/* === OFFICIALS GRID === */
+.officials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.official-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1rem 1.25rem;
+  transition: border-color 0.2s;
+}
+.official-card:hover {
+  border-color: var(--accent);
+}
+.official-name {
+  font-family: var(--font-display);
+  font-size: 1.0625rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+.official-title {
+  font-size: 0.8125rem;
+  color: var(--accent);
+  margin-top: 0.125rem;
+}
+.official-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 0.125rem;
+  margin-top: 0.5rem;
+  font-size: 0.8125rem;
+}
+.official-email {
+  color: var(--accent);
+  text-decoration: none;
+}
+.official-email:hover {
+  text-decoration: underline;
+}
+.official-phone {
+  color: var(--text-muted);
+}
+.official-committees {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.375rem;
+  margin-top: 0.625rem;
+}
+.committee-tag {
+  font-size: 0.6875rem;
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text-secondary);
+  padding: 0.1875rem 0.5rem;
+  border-radius: 100px;
+  white-space: nowrap;
+}
+
+/* === MEETINGS LIST === */
+.meetings-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+}
+.meeting-item {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  padding: 0.75rem 1rem;
+  background: var(--bg-card);
+  border-radius: 10px;
+  border-left: 3px solid var(--border);
+}
+.meeting-item.upcoming {
+  border-left-color: var(--accent);
+}
+.meeting-date {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: var(--text-primary);
+  min-width: 3.5rem;
+  white-space: nowrap;
+}
+.meeting-details {
+  flex: 1;
+}
+.meeting-body {
+  font-size: 0.9375rem;
+  color: var(--text-primary);
+  font-weight: 500;
+}
+.meeting-location {
+  font-size: 0.8125rem;
+  color: var(--text-muted);
+  margin-top: 0.125rem;
+}
+.meeting-badges {
+  display: flex;
+  gap: 0.375rem;
+  margin-top: 0.375rem;
+}
+.meeting-badge {
+  font-size: 0.6875rem;
+  padding: 0.125rem 0.5rem;
+  border-radius: 100px;
+  font-weight: 500;
+}
+.badge-agenda { background: rgba(76, 175, 80, 0.15); color: #66bb6a; }
+.badge-minutes { background: rgba(66, 165, 245, 0.15); color: #42a5f5; }
+.badge-video { background: rgba(171, 71, 188, 0.15); color: #ab47bc; }
+
+/* === LEGISLATION LIST === */
+.legislation-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+}
+.legislation-item {
+  padding: 0.875rem 1rem;
+  background: var(--bg-card);
+  border-radius: 10px;
+  border: 1px solid var(--border);
+}
+.legislation-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+  margin-bottom: 0.375rem;
+}
+.legislation-type {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--accent);
+}
+.legislation-status {
+  font-size: 0.6875rem;
+  padding: 0.125rem 0.5rem;
+  border-radius: 100px;
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--text-secondary);
+}
+.legislation-status.status-passed { background: rgba(76, 175, 80, 0.15); color: #66bb6a; }
+.legislation-status.status-in-committee { background: rgba(255, 183, 77, 0.15); color: #ffb74d; }
+.legislation-status.status-filed { background: rgba(255, 255, 255, 0.06); color: var(--text-muted); }
+.legislation-file {
+  font-size: 0.6875rem;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+}
+.legislation-title {
+  font-size: 0.9375rem;
+  color: var(--text-primary);
+  line-height: 1.4;
+}
+.legislation-date {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-top: 0.375rem;
+}
+.inline-link {
+  color: var(--accent);
+  text-decoration: none;
+}
+.inline-link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 640px) {
+  .officials-grid { grid-template-columns: 1fr; }
+  .meeting-item { flex-direction: column; gap: 0.25rem; }
+}
+
 /* === SECTIONS CONTAINER === */
 .sections { max-width: 900px; margin: 0 auto; padding: 0.5rem 1.5rem 4rem; display: flex; flex-direction: column; gap: 2.5rem; }
 

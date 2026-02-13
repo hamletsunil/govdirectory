@@ -1359,6 +1359,168 @@ export default async function CityPage({
           </div>
         )}
 
+        {/* ─── Officials (Who Runs the City?) ─── */}
+        {p.officials && p.officials.members && p.officials.members.length > 0 && (
+          <div className="section">
+            <div className="section-header">
+              <div className="section-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                  <circle cx="9" cy="7" r="4" />
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                </svg>
+              </div>
+              <h2 className="section-title">Who Runs the City?</h2>
+            </div>
+
+            <p className="section-narrative">
+              {p.officials.body_name
+                ? <>The <strong>{p.officials.body_name.replace(/^\*\s*/, "")}</strong> has <strong>{p.officials.members.length}</strong> current members on record.</>
+                : <><strong>{p.officials.members.length}</strong> elected officials on record.</>}
+              {p.legistar_url && <> View full records on <a href={p.legistar_url} target="_blank" rel="noopener noreferrer" className="inline-link">Legistar</a>.</>}
+            </p>
+
+            <div className="officials-grid">
+              {p.officials.members.map((m) => (
+                <div key={m.name} className="official-card">
+                  <div className="official-name">{m.name}</div>
+                  {m.title && <div className="official-title">{m.title}</div>}
+                  <div className="official-contact">
+                    {m.email && (
+                      <a href={`mailto:${m.email}`} className="official-email">{m.email}</a>
+                    )}
+                    {m.phone && (
+                      <span className="official-phone">{m.phone}</span>
+                    )}
+                  </div>
+                  {m.committees && m.committees.length > 0 && (
+                    <div className="official-committees">
+                      {m.committees.map((c) => (
+                        <span key={c} className="committee-tag">{c}</span>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* ─── Upcoming Meetings (What's Coming Up?) ─── */}
+        {p.recent_meetings && p.recent_meetings.length > 0 && (
+          <div className="section">
+            <div className="section-header">
+              <div className="section-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+                  <line x1="16" y1="2" x2="16" y2="6" />
+                  <line x1="8" y1="2" x2="8" y2="6" />
+                  <line x1="3" y1="10" x2="21" y2="10" />
+                </svg>
+              </div>
+              <h2 className="section-title">What&apos;s Coming Up?</h2>
+            </div>
+
+            {(() => {
+              const upcoming = p.recent_meetings!.filter((m) => m.upcoming);
+              const recent = p.recent_meetings!.filter((m) => !m.upcoming);
+              return (
+                <>
+                  {upcoming.length > 0 && (
+                    <>
+                      <h3 className="section-subtitle">Upcoming Meetings</h3>
+                      <div className="meetings-list">
+                        {upcoming.map((m, i) => (
+                          <div key={`up-${i}`} className="meeting-item upcoming">
+                            <div className="meeting-date">
+                              {m.date ? new Date(m.date + "T12:00:00").toLocaleDateString("en-US", { month: "short", day: "numeric" }) : "TBD"}
+                            </div>
+                            <div className="meeting-details">
+                              <div className="meeting-body">{m.body}</div>
+                              {m.location && <div className="meeting-location">{m.location}</div>}
+                              <div className="meeting-badges">
+                                {m.has_agenda && <span className="meeting-badge badge-agenda">Agenda</span>}
+                                {m.has_video && <span className="meeting-badge badge-video">Video</span>}
+                              </div>
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    </>
+                  )}
+
+                  {recent.length > 0 && (
+                    <>
+                      <h3 className="section-subtitle">Recent Meetings</h3>
+                      <div className="meetings-list">
+                        {recent.slice(0, 5).map((m, i) => (
+                          <div key={`rec-${i}`} className="meeting-item past">
+                            <div className="meeting-date">
+                              {m.date ? new Date(m.date + "T12:00:00").toLocaleDateString("en-US", { month: "short", day: "numeric" }) : "TBD"}
+                            </div>
+                            <div className="meeting-details">
+                              <div className="meeting-body">{m.body}</div>
+                              <div className="meeting-badges">
+                                {m.has_agenda && <span className="meeting-badge badge-agenda">Agenda</span>}
+                                {m.has_minutes && <span className="meeting-badge badge-minutes">Minutes</span>}
+                                {m.has_video && <span className="meeting-badge badge-video">Video</span>}
+                              </div>
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    </>
+                  )}
+                </>
+              );
+            })()}
+          </div>
+        )}
+
+        {/* ─── Recent Legislation (What Are They Working On?) ─── */}
+        {p.recent_legislation && p.recent_legislation.length > 0 && (
+          <div className="section">
+            <div className="section-header">
+              <div className="section-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                  <polyline points="14 2 14 8 20 8" />
+                  <line x1="16" y1="13" x2="8" y2="13" />
+                  <line x1="16" y1="17" x2="8" y2="17" />
+                  <polyline points="10 9 9 9 8 9" />
+                </svg>
+              </div>
+              <h2 className="section-title">What Are They Working On?</h2>
+            </div>
+
+            <p className="section-narrative">
+              Recent legislative activity in {p.identity.name} — the last 90 days of ordinances, resolutions, and reports.
+              {p.legistar_url && <> <a href={`${p.legistar_url}/Legislation`} target="_blank" rel="noopener noreferrer" className="inline-link">Browse all legislation</a>.</>}
+            </p>
+
+            <div className="legislation-list">
+              {p.recent_legislation.map((l, i) => (
+                <div key={i} className="legislation-item">
+                  <div className="legislation-meta">
+                    <span className="legislation-type">{l.type}</span>
+                    <span className={`legislation-status status-${l.status?.toLowerCase().replace(/\s+/g, "-")}`}>
+                      {l.status}
+                    </span>
+                    {l.file_number && <span className="legislation-file">{l.file_number}</span>}
+                  </div>
+                  <div className="legislation-title">{l.title}</div>
+                  {l.intro_date && (
+                    <div className="legislation-date">
+                      Introduced {new Date(l.intro_date + "T12:00:00").toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" })}
+                    </div>
+                  )}
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
         {/* ─── Civic Issues ─── */}
         {hasCivicIssues && (
           <div className="section">

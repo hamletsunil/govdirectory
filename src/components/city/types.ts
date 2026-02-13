@@ -137,6 +137,45 @@ export interface CityProfile {
     last_full_probe: string;
     sources: Record<string, ProvenanceSource>;
   };
+  /* Enrichment from live DB queries */
+  officials?: {
+    body_name: string | null;
+    members: Official[];
+  };
+  recent_meetings?: RecentMeeting[];
+  recent_legislation?: LegislativeItem[];
+  legistar_url?: string;
+  enriched_at?: string;
+}
+
+export interface Official {
+  name: string;
+  email: string | null;
+  title: string | null;
+  phone?: string;
+  website?: string;
+  start_date: string | null;
+  committees?: string[];
+}
+
+export interface RecentMeeting {
+  date: string | null;
+  body: string | null;
+  location: string | null;
+  has_agenda: boolean;
+  agenda_url: string | null;
+  has_minutes: boolean;
+  has_video: boolean;
+  upcoming: boolean;
+}
+
+export interface LegislativeItem {
+  title: string;
+  type: string;
+  status: string;
+  intro_date: string | null;
+  file_number: string | null;
+  passed_date: string | null;
 }
 
 export interface TimeSeriesEntry {
