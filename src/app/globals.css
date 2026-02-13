@@ -306,11 +306,12 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
 }
 
 .hero-illustration {
+  display: block;
   width: 100%;
-  max-height: 320px;
+  max-height: 180px;
   object-fit: cover;
   border-radius: var(--radius-lg);
-  margin-bottom: var(--space-xl);
+  margin: 0 auto var(--space-lg);
 }
 
 .hero-editorial-content {
@@ -448,14 +449,14 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
 .persona-tab-bar {
   display: flex;
   gap: 0;
-  border-bottom: 1px solid var(--border);
+  border-bottom: 2px solid var(--border);
   max-width: var(--layout-max);
   margin: 0 auto;
   padding: 0 2rem;
   position: sticky;
   top: 0;
   z-index: 50;
-  background: var(--surface-primary);
+  background: var(--surface-secondary);
 }
 
 .persona-tab {
@@ -463,21 +464,24 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
   font-family: var(--font-body);
   font-size: var(--text-body-sm);
   font-weight: 500;
-  color: var(--text-tertiary);
+  color: var(--text-secondary);
   background: none;
   border: none;
-  border-bottom: 2px solid transparent;
+  border-bottom: 3px solid transparent;
+  margin-bottom: -2px;
   cursor: pointer;
-  transition: color 0.2s, border-color 0.2s;
+  transition: color 0.2s, border-color 0.2s, background 0.2s;
   white-space: nowrap;
 }
 .persona-tab:hover {
-  color: var(--text-secondary);
+  color: var(--text-primary);
+  background: var(--accent-bg);
 }
 .persona-tab[data-active="true"] {
   color: var(--accent);
   border-bottom-color: var(--accent);
   font-weight: 600;
+  background: var(--surface-primary);
 }
 
 /* Persona-driven visibility */
@@ -1270,8 +1274,7 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
 }
 
 .index-page .hero-editorial {
-  padding-left: 0;
-  padding-right: 0;
+  padding: var(--space-lg) 0 var(--space-md);
 }
 
 .index-search { position: relative; margin-bottom: var(--space-lg); }
@@ -1401,7 +1404,7 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
   .hero-stats-ribbon { gap: var(--space-lg); }
   .ribbon-value { font-size: 1.125rem; }
   .hero-scroll-prompt { display: none; }
-  .hero-illustration { max-height: 200px; }
+  .hero-illustration { max-height: 120px; }
 
   .persona-tab-bar { padding: 0 1rem; overflow-x: auto; }
   .persona-tab { padding: 0.75rem 1rem; font-size: var(--text-caption); }

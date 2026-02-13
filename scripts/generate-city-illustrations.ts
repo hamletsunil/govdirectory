@@ -1,8 +1,9 @@
 /**
  * generate-city-illustrations.ts
  *
- * Reads each city JSON from public/data/cities/ and generates a deterministic,
- * data-driven SVG illustration written to public/illustrations/{slug}.svg.
+ * Generates clean, minimalist city skyline SVG illustrations for each city.
+ * Design: light backgrounds, prominent geometric building silhouettes,
+ * flat 2-color palettes per region, population-driven density.
  *
  * Usage:  npx tsx scripts/generate-city-illustrations.ts
  */
@@ -82,28 +83,17 @@ const STATE_REGION: Record<string, Region> = {
 };
 
 interface Palette {
-  primary: string;
-  secondary: string;
-  accent: string;
+  building: string;
+  sky: string;
 }
 
 const REGION_PALETTES: Record<Region, Palette> = {
-  northeast: { primary: "#475569", secondary: "#9a3412", accent: "#f5f0e8" },
-  southeast: { primary: "#ea580c", secondary: "#0891b2", accent: "#d4a76a" },
-  midwest: { primary: "#3b82f6", secondary: "#ca8a04", accent: "#166534" },
-  southwest: { primary: "#c2410c", secondary: "#65a30d", accent: "#a16207" },
-  westcoast: { primary: "#0369a1", secondary: "#059669", accent: "#94a3b8" },
-  mountain: { primary: "#1d4ed8", secondary: "#f1f5f9", accent: "#15803d" },
-};
-
-// Motif shapes per region
-const REGION_MOTIF: Record<Region, "circle" | "triangle" | "line"> = {
-  northeast: "circle",
-  southeast: "circle",
-  midwest: "line",
-  southwest: "triangle",
-  westcoast: "circle",
-  mountain: "triangle",
+  northeast: { building: "#3d5a80", sky: "#e8edf2" }, // slate blue
+  southeast: { building: "#6b705c", sky: "#ede8e0" }, // sage/warm gray
+  midwest: { building: "#457b9d", sky: "#e6eef4" }, // lake blue
+  southwest: { building: "#bc6c25", sky: "#f0e6d8" }, // terracotta
+  westcoast: { building: "#2b6777", sky: "#e0eff2" }, // ocean teal
+  mountain: { building: "#386641", sky: "#e4ede4" }, // forest green
 };
 
 // ---------------------------------------------------------------------------
@@ -123,34 +113,45 @@ function createRng(slug: string): () => number {
 }
 
 // ---------------------------------------------------------------------------
-// Helpers
+// Color helpers
 // ---------------------------------------------------------------------------
 
-function clamp(v: number, lo: number, hi: number): number {
-  return Math.max(lo, Math.min(hi, v));
-}
-
-function lerp(a: number, b: number, t: number): number {
-  return a + (b - a) * t;
-}
-
-/** Mix two hex colours by factor t (0 = a, 1 = b) */
-function mixColor(a: string, b: string, t: number): string {
-  const parse = (c: string) => [
+function parseHex(c: string): [number, number, number] {
+  return [
     parseInt(c.slice(1, 3), 16),
     parseInt(c.slice(3, 5), 16),
     parseInt(c.slice(5, 7), 16),
   ];
-  const ca = parse(a);
-  const cb = parse(b);
-  const r = Math.round(lerp(ca[0], cb[0], t));
-  const g = Math.round(lerp(ca[1], cb[1], t));
-  const bl = Math.round(lerp(ca[2], cb[2], t));
-  return `#${r.toString(16).padStart(2, "0")}${g.toString(16).padStart(2, "0")}${bl.toString(16).padStart(2, "0")}`;
+}
+
+function toHex(r: number, g: number, b: number): string {
+  const clamp = (v: number) => Math.max(0, Math.min(255, Math.round(v)));
+  return `#${clamp(r).toString(16).padStart(2, "0")}${clamp(g).toString(16).padStart(2, "0")}${clamp(b).toString(16).padStart(2, "0")}`;
+}
+
+/** Mix two hex colors: t=0 returns a, t=1 returns b */
+function mixColor(a: string, b: string, t: number): string {
+  const [ar, ag, ab] = parseHex(a);
+  const [br, bg, bb] = parseHex(b);
+  return toHex(
+    ar + (br - ar) * t,
+    ag + (bg - ag) * t,
+    ab + (bb - ab) * t
+  );
+}
+
+/** Lighten a hex color toward white by factor t (0=original, 1=white) */
+function lighten(color: string, t: number): string {
+  return mixColor(color, "#ffffff", t);
+}
+
+/** Darken a hex color toward black by factor t (0=original, 1=black) */
+function darken(color: string, t: number): string {
+  return mixColor(color, "#000000", t);
 }
 
 // ---------------------------------------------------------------------------
-// Data extraction with fallback defaults
+// Data extraction
 // ---------------------------------------------------------------------------
 
 interface CityParams {
@@ -159,20 +160,13 @@ interface CityParams {
   region: Region;
   palette: Palette;
   population: number;
-  medianIncome: number;
-  medianHomeValue: number;
-  totalCrimeRate: number;
-  pm25Mean: number;
-  committeeCount: number;
 }
 
-function extractParams(slug: string, data: Record<string, unknown>): CityParams {
+function extractParams(
+  slug: string,
+  data: Record<string, unknown>
+): CityParams {
   const identity = (data.identity ?? {}) as Record<string, unknown>;
-  const economy = (data.economy ?? {}) as Record<string, unknown>;
-  const safety = (data.safety ?? {}) as Record<string, unknown>;
-  const environment = (data.environment ?? {}) as Record<string, unknown>;
-  const governance = (data.governance ?? {}) as Record<string, unknown>;
-
   const state = (identity.state as string) ?? "CA";
   const region = STATE_REGION[state] ?? "westcoast";
   const palette = REGION_PALETTES[region];
@@ -183,11 +177,6 @@ function extractParams(slug: string, data: Record<string, unknown>): CityParams 
     region,
     palette,
     population: (identity.population as number) ?? 50000,
-    medianIncome: (economy.median_household_income as number) ?? 60000,
-    medianHomeValue: (economy.median_home_value as number) ?? 300000,
-    totalCrimeRate: (safety.total_crime_rate as number) ?? 3000,
-    pm25Mean: (environment.pm25_mean as number) ?? 8,
-    committeeCount: (governance.committee_count as number) ?? 5,
   };
 }
 
@@ -196,176 +185,213 @@ function extractParams(slug: string, data: Record<string, unknown>): CityParams 
 // ---------------------------------------------------------------------------
 
 const W = 1200;
-const H = 400;
+const H = 300;
+
+interface Building {
+  x: number;
+  width: number;
+  height: number;
+  row: number; // 0=back, 1=mid, 2=front
+}
 
 function generateSvg(p: CityParams): string {
   const rng = createRng(p.slug);
   const parts: string[] = [];
 
-  // --- Population tier: 0 (tiny) to 1 (huge) ---
-  const popT = clamp(Math.log10(Math.max(p.population, 100)) / 7, 0, 1); // log10(10M)=7
+  const { building: buildingColor, sky: skyColor } = p.palette;
 
-  // --- Income warmth: 0 (cool) to 1 (warm) ---
-  const incomeT = clamp(p.medianIncome / 150000, 0, 1);
+  // --- Population tier drives building count and max height ---
+  let numBuildings: number;
+  let maxHeightPct: number;
+  const pop = p.population;
 
-  // --- Crime angularity: 0 (round) to 1 (angular) ---
-  const crimeT = clamp(p.totalCrimeRate / 10000, 0, 1);
+  if (pop < 10000) {
+    numBuildings = 4 + Math.round(rng() * 2); // 4-6
+    maxHeightPct = 0.35;
+  } else if (pop < 50000) {
+    numBuildings = 6 + Math.round(rng() * 4); // 6-10
+    maxHeightPct = 0.5;
+  } else if (pop < 200000) {
+    numBuildings = 10 + Math.round(rng() * 5); // 10-15
+    maxHeightPct = 0.65;
+  } else if (pop < 1000000) {
+    numBuildings = 15 + Math.round(rng() * 7); // 15-22
+    maxHeightPct = 0.8;
+  } else {
+    numBuildings = 20 + Math.round(rng() * 10); // 20-30
+    maxHeightPct = 0.9;
+  }
 
-  // --- Air quality haze: higher pm25 = more haze ---
-  const hazeOpacity = clamp(p.pm25Mean / 20, 0.05, 0.45);
+  // Color shades for depth layers
+  const backColor = lighten(buildingColor, 0.45); // lightest (back row)
+  const midColor = lighten(buildingColor, 0.2); // medium
+  const frontColor = buildingColor; // darkest (front row)
+  const hillColor = lighten(buildingColor, 0.6); // very light for hills
 
-  // --- Committee subdivisions ---
-  const subdivisions = clamp(Math.round(p.committeeCount / 4), 2, 12);
+  // ===== LAYER 1: Sky background =====
+  parts.push(`<rect width="${W}" height="${H}" fill="${skyColor}"/>`);
 
-  // ===== DEFS =====
-  const warmOverlay = mixColor("#3b82f6", "#f59e0b", incomeT);
-  parts.push(`<defs>`);
+  // ===== LAYER 2: Subtle hills (one gentle bezier curve) =====
+  const hillBaseY = H * 0.7;
+  const hillPeakOffset = 20 + rng() * 30;
+  const hillCp1x = W * (0.15 + rng() * 0.2);
+  const hillCp2x = W * (0.65 + rng() * 0.2);
+  const hillPeak1 = hillBaseY - hillPeakOffset;
+  const hillPeak2 = hillBaseY - (10 + rng() * 20);
+
   parts.push(
-    `<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">` +
-      `<stop offset="0%" stop-color="${p.palette.accent}"/>` +
-      `<stop offset="100%" stop-color="${p.palette.primary}"/>` +
-      `</linearGradient>`
+    `<path d="M0 ${H} L0 ${hillBaseY.toFixed(1)} ` +
+      `C${hillCp1x.toFixed(1)} ${hillPeak1.toFixed(1)}, ` +
+      `${hillCp2x.toFixed(1)} ${hillPeak2.toFixed(1)}, ` +
+      `${W} ${hillBaseY.toFixed(1)} L${W} ${H} Z" ` +
+      `fill="${hillColor}" opacity="0.3"/>`
   );
-  parts.push(
-    `<linearGradient id="warm" x1="0" y1="0" x2="1" y2="1">` +
-      `<stop offset="0%" stop-color="${warmOverlay}" stop-opacity="0.18"/>` +
-      `<stop offset="100%" stop-color="${warmOverlay}" stop-opacity="0.06"/>` +
-      `</linearGradient>`
+
+  // ===== LAYER 3: Buildings =====
+  // Generate buildings in 3 rows (back, mid, front) for depth
+  const buildings: Building[] = [];
+
+  // Distribute buildings across rows: ~30% back, ~35% mid, ~35% front
+  const backCount = Math.max(1, Math.round(numBuildings * 0.3));
+  const midCount = Math.max(1, Math.round(numBuildings * 0.35));
+  const frontCount = Math.max(
+    1,
+    numBuildings - backCount - midCount
   );
-  parts.push(`</defs>`);
 
-  // ===== LAYER 1: Background =====
-  parts.push(`<rect width="${W}" height="${H}" fill="url(#bg)"/>`);
+  // Helper: generate a row of buildings evenly spaced with variation
+  function generateRow(
+    count: number,
+    row: number,
+    minWidthBase: number,
+    maxWidthBase: number,
+    minHeightPct: number,
+    maxHeightPctRow: number
+  ) {
+    if (count === 0) return;
 
-  // ===== LAYER 2: Terrain (bezier horizon) =====
-  const horizonBase = lerp(220, 280, 1 - popT); // big city → lower horizon (more skyline room)
-  const segments = 8;
-  const segW = W / segments;
-  let pathD = `M0 ${H}`;
-  // Build terrain from left to right
-  const terrainPts: Array<{ x: number; y: number }> = [{ x: 0, y: horizonBase + (rng() - 0.5) * 30 }];
-  for (let i = 1; i <= segments; i++) {
-    const jag = popT * 40 + 10; // bigger cities = more jagged
-    const y = horizonBase + (rng() - 0.5) * jag;
-    terrainPts.push({ x: i * segW, y });
+    // Spread buildings across the canvas width with some padding
+    const padding = 30;
+    const availableWidth = W - padding * 2;
+    const slotWidth = availableWidth / count;
+
+    for (let i = 0; i < count; i++) {
+      const bw =
+        minWidthBase + rng() * (maxWidthBase - minWidthBase);
+      // Center building in its slot with some random offset
+      const slotCenter = padding + slotWidth * i + slotWidth / 2;
+      const offset = (rng() - 0.5) * slotWidth * 0.3;
+      const bx = slotCenter - bw / 2 + offset;
+
+      const heightPct =
+        minHeightPct + rng() * (maxHeightPctRow - minHeightPct);
+      const bh = H * heightPct;
+
+      buildings.push({ x: bx, width: bw, height: bh, row });
+    }
   }
-  // Start path at bottom-left, go up to first point
-  pathD = `M0 ${H} L0 ${terrainPts[0].y}`;
-  for (let i = 1; i < terrainPts.length; i++) {
-    const prev = terrainPts[i - 1];
-    const cur = terrainPts[i];
-    const cpx1 = prev.x + segW * 0.4;
-    const cpy1 = prev.y + (rng() - 0.5) * 20;
-    const cpx2 = cur.x - segW * 0.4;
-    const cpy2 = cur.y + (rng() - 0.5) * 20;
-    pathD += ` C${cpx1.toFixed(1)} ${cpy1.toFixed(1)}, ${cpx2.toFixed(1)} ${cpy2.toFixed(1)}, ${cur.x.toFixed(1)} ${cur.y.toFixed(1)}`;
-  }
-  pathD += ` L${W} ${H} Z`;
-  const terrainColor = mixColor(p.palette.primary, p.palette.accent, 0.35);
-  parts.push(`<path d="${pathD}" fill="${terrainColor}" opacity="0.45"/>`);
 
-  // Second terrain layer (slightly different)
-  const horizon2 = horizonBase + 30;
-  const terrainPts2: Array<{ x: number; y: number }> = [{ x: 0, y: horizon2 + (rng() - 0.5) * 20 }];
-  for (let i = 1; i <= segments; i++) {
-    terrainPts2.push({ x: i * segW, y: horizon2 + (rng() - 0.5) * 25 });
-  }
-  let pathD2 = `M0 ${H} L0 ${terrainPts2[0].y}`;
-  for (let i = 1; i < terrainPts2.length; i++) {
-    const prev = terrainPts2[i - 1];
-    const cur = terrainPts2[i];
-    const cpx1 = prev.x + segW * 0.35;
-    const cpy1 = prev.y + (rng() - 0.5) * 15;
-    const cpx2 = cur.x - segW * 0.35;
-    const cpy2 = cur.y + (rng() - 0.5) * 15;
-    pathD2 += ` C${cpx1.toFixed(1)} ${cpy1.toFixed(1)}, ${cpx2.toFixed(1)} ${cpy2.toFixed(1)}, ${cur.x.toFixed(1)} ${cur.y.toFixed(1)}`;
-  }
-  pathD2 += ` L${W} ${H} Z`;
-  parts.push(`<path d="${pathD2}" fill="${p.palette.primary}" opacity="0.3"/>`);
+  // Back row: shorter, wider, lighter
+  generateRow(
+    backCount,
+    0,
+    40,
+    90,
+    maxHeightPct * 0.3,
+    maxHeightPct * 0.65
+  );
 
-  // ===== LAYER 3: Architecture (rectangular blocks) =====
-  const numBlocks = Math.round(lerp(3, 18, popT)); // small town = few, big city = many
-  const maxBlockH = lerp(40, 180, popT); // tall blocks for big cities
-  const minBlockH = lerp(15, 35, popT);
-  const blockZone = W * 0.8;
-  const blockStart = W * 0.1;
+  // Mid row: medium height
+  generateRow(
+    midCount,
+    1,
+    35,
+    80,
+    maxHeightPct * 0.4,
+    maxHeightPct * 0.85
+  );
 
-  for (let i = 0; i < numBlocks; i++) {
-    const bw = lerp(12, 50, rng());
-    const bh = lerp(minBlockH, maxBlockH, rng());
-    const bx = blockStart + rng() * blockZone;
-    const by = H - bh;
+  // Front row: tallest, most prominent
+  generateRow(
+    frontCount,
+    2,
+    30,
+    75,
+    maxHeightPct * 0.25,
+    maxHeightPct
+  );
 
-    // Decide corner radius based on crime (low crime = rounded, high crime = sharp)
-    const cornerR = crimeT < 0.4 ? lerp(3, 8, rng()) : lerp(0, 2, rng());
+  // Sort by row (back first) so front renders on top
+  buildings.sort((a, b) => a.row - b.row);
 
-    // Building colour: mix of palette secondary and primary
-    const colorT = rng();
-    const blockColor = mixColor(p.palette.secondary, p.palette.primary, colorT * 0.6);
-    const blockOpacity = lerp(0.5, 0.85, rng());
+  const isBigCity = pop >= 200000;
+
+  // Render each building
+  for (const b of buildings) {
+    const color =
+      b.row === 0 ? backColor : b.row === 1 ? midColor : frontColor;
+    const bx = Math.max(0, b.x);
+    const by = H - b.height;
 
     parts.push(
-      `<rect x="${bx.toFixed(1)}" y="${by.toFixed(1)}" width="${bw.toFixed(1)}" height="${bh.toFixed(1)}" rx="${cornerR.toFixed(1)}" fill="${blockColor}" opacity="${blockOpacity.toFixed(2)}"/>`
+      `<rect x="${bx.toFixed(1)}" y="${by.toFixed(1)}" width="${b.width.toFixed(1)}" height="${b.height.toFixed(1)}" fill="${color}"/>`
     );
 
-    // Occasional window dots on taller buildings (sparse to keep size down)
-    if (bh > 80 && rng() > 0.55) {
-      const windowRows = Math.min(4, Math.floor(bh / 25));
-      const windowCols = Math.min(2, Math.max(1, Math.floor(bw / 16)));
-      for (let wr = 0; wr < windowRows; wr++) {
-        for (let wc = 0; wc < windowCols; wc++) {
-          const wx = bx + 5 + wc * (bw / (windowCols + 1));
-          const wy = by + 10 + wr * 22;
-          if (wy < H - 6 && rng() > 0.4) {
+    // Window patterns on front and mid row buildings taller than 60px
+    if (b.row >= 1 && b.height > 60) {
+      const windowColor = lighten(color, 0.35);
+      const windowW = 6;
+      const windowH = 8;
+      const windowGapX = 14;
+      const windowGapY = 16;
+      const marginX = 8;
+      const marginTopY = 12;
+
+      const cols = Math.max(
+        1,
+        Math.floor((b.width - marginX * 2) / windowGapX)
+      );
+      const rows = Math.max(
+        1,
+        Math.floor((b.height - marginTopY - 10) / windowGapY)
+      );
+      // Limit window rows to keep SVG small
+      const maxWinRows = Math.min(rows, 12);
+      const maxWinCols = Math.min(cols, 5);
+
+      const totalWindowsWidth = maxWinCols * windowGapX - (windowGapX - windowW);
+      const startX = bx + (b.width - totalWindowsWidth) / 2;
+
+      for (let wr = 0; wr < maxWinRows; wr++) {
+        for (let wc = 0; wc < maxWinCols; wc++) {
+          // Skip some windows randomly for variety
+          if (rng() < 0.25) continue;
+          const wx = startX + wc * windowGapX;
+          const wy = by + marginTopY + wr * windowGapY;
+          if (wy + windowH < H - 4) {
             parts.push(
-              `<rect x="${wx.toFixed(1)}" y="${wy.toFixed(1)}" width="4" height="5" rx="0.5" fill="${p.palette.accent}" opacity="0.6"/>`
+              `<rect x="${wx.toFixed(1)}" y="${wy.toFixed(1)}" width="${windowW}" height="${windowH}" fill="${windowColor}" opacity="0.5"/>`
             );
           }
         }
       }
     }
-  }
 
-  // ===== LAYER 4: Detail motifs (geometric elements based on region) =====
-  const motif = REGION_MOTIF[p.region];
-  const numMotifs = subdivisions;
-
-  for (let i = 0; i < numMotifs; i++) {
-    const mx = rng() * W;
-    const my = rng() * H * 0.6; // mostly in upper portion
-    const size = lerp(3, 12, rng());
-    const motifOpacity = lerp(0.15, 0.45, rng());
-    const motifColor = rng() > 0.5 ? p.palette.accent : p.palette.secondary;
-
-    if (motif === "circle") {
+    // Spires/antennas on some tall buildings in big cities
+    if (isBigCity && b.row === 2 && b.height > H * 0.5 && rng() > 0.6) {
+      const spireH = 8 + rng() * 15;
+      const spireX = bx + b.width / 2;
+      const spireTop = by - spireH;
       parts.push(
-        `<circle cx="${mx.toFixed(1)}" cy="${my.toFixed(1)}" r="${size.toFixed(1)}" fill="${motifColor}" opacity="${motifOpacity.toFixed(2)}"/>`
-      );
-    } else if (motif === "triangle") {
-      const x1 = mx;
-      const y1 = my - size;
-      const x2 = mx - size * 0.866;
-      const y2 = my + size * 0.5;
-      const x3 = mx + size * 0.866;
-      const y3 = my + size * 0.5;
-      parts.push(
-        `<polygon points="${x1.toFixed(1)},${y1.toFixed(1)} ${x2.toFixed(1)},${y2.toFixed(1)} ${x3.toFixed(1)},${y3.toFixed(1)}" fill="${motifColor}" opacity="${motifOpacity.toFixed(2)}"/>`
-      );
-    } else {
-      // horizontal lines
-      const lw = lerp(20, 80, rng());
-      parts.push(
-        `<line x1="${mx.toFixed(1)}" y1="${my.toFixed(1)}" x2="${(mx + lw).toFixed(1)}" y2="${my.toFixed(1)}" stroke="${motifColor}" stroke-width="${lerp(1, 3, rng()).toFixed(1)}" opacity="${motifOpacity.toFixed(2)}"/>`
+        `<line x1="${spireX.toFixed(1)}" y1="${by.toFixed(1)}" x2="${spireX.toFixed(1)}" y2="${spireTop.toFixed(1)}" stroke="${color}" stroke-width="2"/>`
       );
     }
   }
 
-  // ===== LAYER 5: Warm gradient overlay =====
-  parts.push(`<rect width="${W}" height="${H}" fill="url(#warm)"/>`);
-
-  // ===== LAYER 6: Haze overlay (air quality) =====
+  // ===== LAYER 4: Ground line =====
+  // A thin ground line at the very bottom for polish
   parts.push(
-    `<rect width="${W}" height="${H}" fill="${p.palette.accent}" opacity="${hazeOpacity.toFixed(2)}"/>`
+    `<rect x="0" y="${H - 2}" width="${W}" height="2" fill="${darken(buildingColor, 0.1)}" opacity="0.15"/>`
   );
 
   // ===== Assemble =====

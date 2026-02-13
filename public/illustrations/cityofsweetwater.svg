@@ -1,21 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400">
-<defs>
-<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#a16207"/><stop offset="100%" stop-color="#c2410c"/></linearGradient>
-<linearGradient id="warm" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#7e8ca2" stop-opacity="0.18"/><stop offset="100%" stop-color="#7e8ca2" stop-opacity="0.06"/></linearGradient>
-</defs>
-<rect width="1200" height="400" fill="url(#bg)"/>
-<path d="M0 400 L0 270.64748147933426 C60.0 262.9, 90.0 273.7, 150.0 270.6 C210.0 275.4, 240.0 250.3, 300.0 259.0 C360.0 265.7, 390.0 275.8, 450.0 269.4 C510.0 270.2, 540.0 262.0, 600.0 259.8 C660.0 256.4, 690.0 258.4, 750.0 250.4 C810.0 244.3, 840.0 257.2, 900.0 265.8 C960.0 269.5, 990.0 260.4, 1050.0 265.4 C1110.0 273.1, 1140.0 243.2, 1200.0 250.9 L1200 400 Z" fill="#b64d0a" opacity="0.45"/>
-<path d="M0 400 L0 282.8817906074633 C52.5 282.5, 97.5 286.3, 150.0 292.7 C202.5 299.7, 247.5 292.0, 300.0 295.4 C352.5 294.2, 397.5 291.1, 450.0 289.4 C502.5 294.7, 547.5 298.0, 600.0 303.2 C652.5 297.1, 697.5 289.2, 750.0 287.2 C802.5 279.7, 847.5 287.6, 900.0 281.9 C952.5 279.3, 997.5 300.7, 1050.0 301.1 C1102.5 307.3, 1147.5 287.6, 1200.0 284.9 L1200 400 Z" fill="#c2410c" opacity="0.3"/>
-<rect x="577.5" y="347.1" width="49.6" height="52.9" rx="5.4" fill="#72960d" opacity="0.63"/>
-<rect x="385.9" y="349.3" width="48.2" height="50.7" rx="7.0" fill="#92730d" opacity="0.84"/>
-<rect x="597.7" y="346.5" width="23.4" height="53.5" rx="4.8" fill="#7f870d" opacity="0.68"/>
-<rect x="1062.8" y="352.5" width="26.6" height="47.5" rx="6.7" fill="#9b6a0c" opacity="0.80"/>
-<rect x="673.4" y="330.6" width="14.8" height="69.4" rx="3.6" fill="#93730d" opacity="0.74"/>
-<rect x="818.8" y="334.0" width="34.2" height="66.0" rx="3.6" fill="#81850d" opacity="0.76"/>
-<rect x="970.9" y="360.2" width="47.7" height="39.8" rx="7.3" fill="#67a10d" opacity="0.80"/>
-<rect x="317.9" y="331.0" width="25.8" height="69.0" rx="3.6" fill="#96700c" opacity="0.53"/>
-<polygon points="1153.3,147.9 1148.1,156.9 1158.5,156.9" fill="#a16207" opacity="0.38"/>
-<polygon points="1157.1,181.0 1153.7,186.9 1160.5,186.9" fill="#65a30d" opacity="0.42"/>
-<rect width="1200" height="400" fill="url(#warm)"/>
-<rect width="1200" height="400" fill="#a16207" opacity="0.44"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300">
+<rect width="1200" height="300" fill="#f0e6d8"/>
+<path d="M0 300 L0 210.0 C272.7 162.7, 984.7 191.6, 1200 210.0 L1200 300 Z" fill="#e4c4a8" opacity="0.3"/>
+<rect x="328.1" y="243.8" width="40.1" height="56.2" fill="#daae87"/>
+<rect x="798.2" y="244.6" width="41.3" height="55.4" fill="#daae87"/>
+<rect x="206.4" y="218.4" width="68.1" height="81.6" fill="#c98951"/>
+<rect x="223.4" y="230.4" width="6" height="8" fill="#dcb28e" opacity="0.5"/>
+<rect x="223.4" y="246.4" width="6" height="8" fill="#dcb28e" opacity="0.5"/>
+<rect x="237.4" y="246.4" width="6" height="8" fill="#dcb28e" opacity="0.5"/>
+<rect x="251.4" y="246.4" width="6" height="8" fill="#dcb28e" opacity="0.5"/>
+<rect x="223.4" y="262.4" width="6" height="8" fill="#dcb28e" opacity="0.5"/>
+<rect x="237.4" y="262.4" width="6" height="8" fill="#dcb28e" opacity="0.5"/>
+<rect x="855.7" y="229.1" width="71.8" height="70.9" fill="#c98951"/>
+<rect x="874.7" y="241.1" width="6" height="8" fill="#dcb28e" opacity="0.5"/>
+<rect x="902.7" y="241.1" width="6" height="8" fill="#dcb28e" opacity="0.5"/>
+<rect x="888.7" y="257.1" width="6" height="8" fill="#dcb28e" opacity="0.5"/>
+<rect x="902.7" y="257.1" width="6" height="8" fill="#dcb28e" opacity="0.5"/>
+<rect x="874.7" y="273.1" width="6" height="8" fill="#dcb28e" opacity="0.5"/>
+<rect x="888.7" y="273.1" width="6" height="8" fill="#dcb28e" opacity="0.5"/>
+<rect x="902.7" y="273.1" width="6" height="8" fill="#dcb28e" opacity="0.5"/>
+<rect x="361.1" y="258.2" width="44.9" height="41.8" fill="#bc6c25"/>
+<rect x="899.7" y="254.0" width="33.0" height="46.0" fill="#bc6c25"/>
+<rect x="0" y="298" width="1200" height="2" fill="#a96121" opacity="0.15"/>
 </svg>
