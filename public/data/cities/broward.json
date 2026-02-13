@@ -1,1 +1,762 @@
-{"schema_version":"5.0","normalized_at":"2026-02-10T14:21:48.973323","identity":{"name":"Broward County","state":"","fips_state":null,"fips_place":null,"population":null},"city_website":"https://www.broward.gov","economy":{"median_household_income":null,"median_home_value":null,"unemployment_rate":null,"unemployment_data_level":"state","labor_force":null,"employed":null,"unemployed":null,"gini_index":null,"poverty_rate":null,"homeownership_rate":null,"rent_to_income_ratio":null,"home_value_to_income_ratio":null,"price_to_rent_ratio":null,"effective_tax_rate":null,"population_growth_cagr":null,"median_real_estate_taxes":null},"safety":{"violent_crime_rate":null,"property_crime_rate":null,"murder_rate":null,"robbery_rate":null,"burglary_rate":null,"vehicle_theft_rate":null,"total_crime_rate":null,"crime_trend":null,"crime_data_level":null},"education":{"total_schools":null,"total_enrollment":null,"pupil_teacher_ratio":null,"title1_pct":null,"charter_pct":null,"regular_schools":null,"avg_school_rating":null,"rated_schools":null,"school_quality_tier":null},"environment":{"pm25_mean":null,"ozone_mean":null,"total_disasters":null,"avg_disasters_per_decade":null,"most_recent_disaster":null,"most_recent_disaster_type":null,"disasters_by_type":{}},"housing":{"median_rent":null,"housing_units":null,"fmr_0br":null,"fmr_1br":null,"fmr_2br":null,"fmr_3br":null,"fmr_4br":null,"rent_burden_ratio":null,"cost_burdened_pct":null,"severely_burdened_pct":null},"governance":{"legislative_volume":9687,"legislative_velocity":1309.1,"committee_count":2,"years_of_legislative_data":7.4,"has_public_meetings":true,"api_accessible":true,"matter_types":{"Consent Item":668,"Public Hearing":144,"Regular Item":136,"Purchasing Consent Item":43,"Purchasing Regular Item":9},"top_matter_type":"Consent Item","matter_statuses":{"Agenda Ready":1000},"pass_rate":33.3,"passed_count":3229,"active_council_members":9,"avg_tenure_years":6.1,"vote_coverage_pct":0.0,"video_availability_pct":0.0,"agenda_availability_pct":97.8,"minutes_availability_pct":95.6,"avg_meetings_per_month":1.5,"meetings_by_year":{"2026":5,"2025":18,"2024":18,"2023":18,"2022":20,"2021":22,"2020":24,"2019":10},"avg_sponsors_per_matter":0.0,"avg_attachments_per_matter":1.9,"pct_with_text_versions":100.0,"index_categories":["Established Commission Goals","Go Green","MAP Broward","Penny Surtax (Inactive)"],"has_accela":false,"accela_agency_id":null},"development":{"permits_12mo":null,"yoy_trend_pct":null,"avg_permit_value":null,"permit_types":{},"datasets_count":0},"meetings":{"official_channels":0,"meetings_indexed":null,"avg_meetings_per_month":null,"has_video_archive":false,"meeting_types":{},"transcripts_available":null},"civic_issues":{"total_issues":null,"issues_last_30d":null,"issues_last_365d":null,"resolution_rate":null,"top_issue_type":null,"type_distribution":{},"has_civic_issue_tracking":false},"demographics":{"population":null,"poverty_universe":null,"employment_universe":null},"time_series":{"economy_history":[],"safety_history":[],"environment_history":[]},"data_sources":{"legistar":"available","socrata":"skipped","census_acs":"skipped","arcgis":"available","fbi_ucr":"skipped","socrata_crime":"skipped","bls_laus":"skipped","ca_edd":"skipped","epa_aqs":"skipped","nces_ccd":"skipped","hud_fmr":"skipped","fema_openfema":"skipped","greatschools":"skipped","permits":"skipped","youtube_meetings":"skipped","seeclickfix":"skipped","accela":"skipped"},"provenance":{"last_full_probe":"2026-02-09T21:35:28.569606","sources":{"legistar":{"authority":"Legistar by Granicus","authority_tier":1,"api_url":"https://webapi.legistar.com/v1/broward/Bodies","probed_at":"2026-02-09T21:35:28.569685","data_vintage":"2019\u20132026","geographic_level":"place","status":"available"},"socrata":{"authority":"City Open Data Portals (Socrata/Tyler Data & Insights)","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"place","status":"skipped"},"census_acs":{"authority":"US Census Bureau","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":"ACS 5-Year 2022","geographic_level":"place","status":"skipped"},"arcgis":{"authority":"City ArcGIS/GIS Portals","authority_tier":1,"api_url":null,"probed_at":"2026-02-09T21:37:07.758931","data_vintage":null,"geographic_level":"place","status":"available"},"fbi_ucr":{"authority":"FBI Uniform Crime Reporting Program","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"state","status":"skipped"},"bls_laus":{"authority":"Bureau of Labor Statistics","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"state","status":"skipped"},"epa_aqs":{"authority":"US Environmental Protection Agency","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"state","status":"skipped"},"nces_ccd":{"authority":"National Center for Education Statistics","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":"2022-2023 academic year","geographic_level":"state","status":"skipped"},"hud_fmr":{"authority":"US Department of Housing and Urban Development","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":"FY2026","geographic_level":"state","status":"skipped"},"fema_openfema":{"authority":"Federal Emergency Management Agency","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":"1953-present","geographic_level":"state","status":"skipped"},"greatschools":{"authority":"GreatSchools.org (nonprofit)","authority_tier":3,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"place","status":"skipped"},"permits":{"authority":"City Open Data Portals (Socrata)","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"place","status":"skipped"},"youtube_meetings":{"authority":"YouTube (via SerpAPI search + youtube-transcript-api)","authority_tier":3,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"place","status":"skipped"},"seeclickfix":{"authority":"SeeClickFix (civic issue tracking platform)","authority_tier":3,"api_url":"https://seeclickfix.com/api/v2/issues?place_url=broward","probed_at":null,"data_vintage":null,"geographic_level":"place","status":"skipped"},"accela":{"authority":"Accela (permit management platform)","authority_tier":3,"api_url":"https://apis.accela.com/v4/agencies","probed_at":null,"data_vintage":null,"geographic_level":"place","status":"skipped"},"socrata_crime":{"authority":"City Open Data Portals (Socrata)","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"place","status":"skipped"}},"derived_fields":{"safety.total_crime_rate":{"formula":"violent_crime_rate + property_crime_rate","inputs":["safety.violent_crime_rate","safety.property_crime_rate"],"formula_location":"score/normalizer.py:_derive_total_crime","authority_tier":2},"safety.crime_trend":{"formula":"(last_year_rate - first_year_rate) / years_span","inputs":["fbi.time_series[].violent_crime_rate"],"formula_location":"score/normalizer.py:_build_safety","authority_tier":2},"education.school_quality_tier":{"formula":"excellent if avg>=8, good if avg>=6, fair if avg>=4, else poor","inputs":["education.avg_school_rating"],"formula_location":"score/normalizer.py:_build_education","authority_tier":3},"environment.avg_disasters_per_decade":{"formula":"total_disasters / (years_span / 10)","inputs":["environment.total_disasters"],"formula_location":"probe/fema_probe.py","authority_tier":2},"housing.rent_burden_ratio":{"formula":"(fmr_2br * 12) / median_household_income * 100","inputs":["housing.fmr_2br","economy.median_household_income"],"formula_location":"score/normalizer.py:_build_housing","authority_tier":2},"governance.legislative_velocity":{"formula":"legislative_volume / years_of_legislative_data","inputs":["governance.legislative_volume","governance.years_of_legislative_data"],"formula_location":"score/normalizer.py:_build_governance","authority_tier":2},"development.yoy_trend_pct":{"formula":"(current_year - prior_year) / prior_year * 100","inputs":["permit data from Socrata"],"formula_location":"probe/permits_probe.py","authority_tier":2}},"geographic_mismatches":[{"field":"identity.fips_state","source_level":"state","profile_level":"place","note":"state-level data applied to city profile"},{"field":"economy.unemployment_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Reflects statewide unemployment, not city-specific rate"},{"field":"economy.labor_force","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: This is the full state labor force, not city-level"},{"field":"economy.employed","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"economy.unemployed","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.violent_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: City-level requires ORI codes not currently used"},{"field":"safety.property_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.murder_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.robbery_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.burglary_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.vehicle_theft_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.total_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA; derived sum"},{"field":"safety.crime_trend","source_level":"state","profile_level":"place","note":"state-level data applied to city profile"},{"field":"education.total_schools","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Count includes all schools in the state, not city"},{"field":"education.total_enrollment","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.pupil_teacher_ratio","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Average across all state schools"},{"field":"education.title1_pct","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.charter_pct","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.regular_schools","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.pm25_mean","source_level":"state","profile_level":"place","note":"STATE/COUNTY-LEVEL: Averaged across all monitors in the state"},{"field":"environment.ozone_mean","source_level":"state","profile_level":"place","note":"STATE/COUNTY-LEVEL"},{"field":"environment.total_disasters","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: All declarations for the state, not city-specific"},{"field":"environment.avg_disasters_per_decade","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.most_recent_disaster","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.most_recent_disaster_type","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"housing.fmr_0br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR: Fair Market Rents at state level, not city-specific metro area"},{"field":"housing.fmr_1br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_2br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_3br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_4br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.rent_burden_ratio","source_level":"mixed","profile_level":"place","note":"GEOGRAPHIC MISMATCH: FMR is state-level (HUD), income is city-level (Census). Ratio may be biased."}]},"data_quality":{"quality_score":28.6,"grade":"F","completeness_pct":28.6,"issue_count":1,"granularity_flags":0},"officials":{"body_name":"County Commission","members":[{"name":"Alexandra P. Davis","email":null,"title":"Commissioner","start_date":"2024-11-19"},{"name":"Beam Furr","email":null,"title":"Commissioner","start_date":"2017-11-30"},{"name":"Hazelle P. Rogers","email":null,"title":"Commissioner","start_date":"2022-11-29"},{"name":"Lamar P. Fisher","email":null,"title":"Commissioner","start_date":"2018-11-27"},{"name":"Mark D. Bogen","email":null,"title":"Mayor","start_date":"2018-01-27"},{"name":"Michael Udine","email":null,"title":"Commissioner","start_date":"2018-01-27"},{"name":"Nan H. Rich","email":null,"title":"Commissioner","start_date":"2018-01-27"},{"name":"Robert McKinzie","email":null,"title":"Vice-Mayor","start_date":"2022-11-29"},{"name":"Steve Geller","email":null,"title":"Commissioner","start_date":"2018-01-27"}]},"recent_meetings":[{"date":"2026-02-17","body":"County Commission","location":"Broward County Governmental Center\r\nRoom 422 (Commission Chambers)","has_agenda":true,"agenda_url":"https://broward.legistar1.com/broward/meetings/2026/2/1190_A_County_Commission_26-02-17_Regular_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":true},{"date":"2026-02-03","body":"County Commission","location":"Broward County Governmental Center\r\nRoom 422 (Commission Chambers)","has_agenda":true,"agenda_url":"https://broward.legistar1.com/broward/meetings/2026/2/1189_A_County_Commission_26-02-03_Regular_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-01-22","body":"County Commission","location":"Broward County Governmental Center\r\nRoom 422 (Commission Chambers)","has_agenda":true,"agenda_url":"https://broward.legistar1.com/broward/meetings/2026/1/1188_A_County_Commission_26-01-22_Meeting_Agenda.pdf","has_minutes":true,"has_video":false,"upcoming":false}],"recent_legislation":[{"title":"MOTION TO ADOPT Resolution directing the County Administrator to publish Notice of Public Hearing to be held on March 3, 2026, at 10:00 a.m., in Room 422 of Governmental Center East to consider enactm","type":"Consent Item","status":"Agenda Ready","intro_date":"2026-02-04","file_number":"26-144","passed_date":null},{"title":"MOTION TO ADOPT Resolution Amending the Broward County Administrative Code, the title of which is as follows: (Continued from February 3, 2026 - Item No. 23)\r\n\r\nA RESOLUTION OF THE BOARD OF COUNTY COM","type":"Public Hearing","status":"Agenda Ready","intro_date":"2026-02-03","file_number":"26-138","passed_date":null},{"title":"MOTION TO ADOPT Resolution expressing the current intent of the Broward County Board of County Commissioners to prioritize the allocation of expired community redevelopment agency tax increment financ","type":"Consent Item","status":"Agenda Ready","intro_date":"2026-02-02","file_number":"26-136","passed_date":null},{"title":"MOTION TO APPOINT Josephus Eggelletion III to the Housing Finance Authority in the category of \u201cCitizen.\u201d (Commissioner Rogers)","type":"Consent Item","status":"Agenda Ready","intro_date":"2026-01-30","file_number":"26-116","passed_date":null},{"title":"MOTION TO REAPPOINT Osmel Delgado to the Broward Regional Health Planning Council in the at-large category of \u201cHealth Care Purchaser.\u201d (Mayor Bogen)","type":"Consent Item","status":"Agenda Ready","intro_date":"2026-01-30","file_number":"26-118","passed_date":null},{"title":"MOTION TO DISCUSS Broward Days. (Mayor Bogen)","type":"Regular Item","status":"Agenda Ready","intro_date":"2026-01-29","file_number":"26-110","passed_date":null},{"title":"A. MOTION TO ADOPT Resolution directing the County Administrator to publish Notice of Public Hearing to be held on March 3, 2026, at 10:00 a.m., in Room 422 of Governmental Center East, to consider tr","type":"Consent Item","status":"Agenda Ready","intro_date":"2026-01-29","file_number":"26-108","passed_date":null},{"title":"MOTION TO APPROVE travel for more than five County employees from the Public Works and Environmental Services Department to attend the same non-local event.","type":"Consent Item","status":"Agenda Ready","intro_date":"2026-01-28","file_number":"26-096","passed_date":null},{"title":"A. MOTION TO AUTHORIZE Director of Purchasing to approve and execute a lease agreement between Broward County and the City of Gainesville, Florida, for 17 40-foot Low Floor Gillig transit buses for a ","type":"Regular Item","status":"Agenda Ready","intro_date":"2026-01-28","file_number":"26-099","passed_date":null},{"title":"MOTION TO AUTHORIZE Port Everglades Chief Executive Officer to waive and/or reduce dockage and harbormaster fees set forth in Port Everglades Tariff No. 12 associated with the Broward County Sand Bypa","type":"Consent Item","status":"Agenda Ready","intro_date":"2026-01-26","file_number":"26-092","passed_date":null}],"legistar_url":"https://broward.legistar.com","enriched_at":"2026-02-13T20:01:25.082199","government_news":[],"video_meetings":[],"data_platforms":["legistar"]}
+{
+  "schema_version": "5.0",
+  "normalized_at": "2026-02-10T14:21:48.973323",
+  "identity": {
+    "name": "Broward County",
+    "state": "",
+    "fips_state": null,
+    "fips_place": null,
+    "population": null
+  },
+  "city_website": "https://www.broward.gov",
+  "economy": {
+    "median_household_income": null,
+    "median_home_value": null,
+    "unemployment_rate": null,
+    "unemployment_data_level": "state",
+    "labor_force": null,
+    "employed": null,
+    "unemployed": null,
+    "gini_index": null,
+    "poverty_rate": null,
+    "homeownership_rate": null,
+    "rent_to_income_ratio": null,
+    "home_value_to_income_ratio": null,
+    "price_to_rent_ratio": null,
+    "effective_tax_rate": null,
+    "population_growth_cagr": null,
+    "median_real_estate_taxes": null
+  },
+  "safety": {
+    "violent_crime_rate": null,
+    "property_crime_rate": null,
+    "murder_rate": null,
+    "robbery_rate": null,
+    "burglary_rate": null,
+    "vehicle_theft_rate": null,
+    "total_crime_rate": null,
+    "crime_trend": null,
+    "crime_data_level": null
+  },
+  "education": {
+    "total_schools": null,
+    "total_enrollment": null,
+    "pupil_teacher_ratio": null,
+    "title1_pct": null,
+    "charter_pct": null,
+    "regular_schools": null,
+    "avg_school_rating": null,
+    "rated_schools": null,
+    "school_quality_tier": null
+  },
+  "environment": {
+    "pm25_mean": null,
+    "ozone_mean": null,
+    "total_disasters": null,
+    "avg_disasters_per_decade": null,
+    "most_recent_disaster": null,
+    "most_recent_disaster_type": null,
+    "disasters_by_type": {}
+  },
+  "housing": {
+    "median_rent": null,
+    "housing_units": null,
+    "fmr_0br": null,
+    "fmr_1br": null,
+    "fmr_2br": null,
+    "fmr_3br": null,
+    "fmr_4br": null,
+    "rent_burden_ratio": null,
+    "cost_burdened_pct": null,
+    "severely_burdened_pct": null
+  },
+  "governance": {
+    "legislative_volume": 9687,
+    "legislative_velocity": 1309.1,
+    "committee_count": 2,
+    "years_of_legislative_data": 7.4,
+    "has_public_meetings": true,
+    "api_accessible": true,
+    "matter_types": {
+      "Consent Item": 668,
+      "Public Hearing": 144,
+      "Regular Item": 136,
+      "Purchasing Consent Item": 43,
+      "Purchasing Regular Item": 9
+    },
+    "top_matter_type": "Consent Item",
+    "matter_statuses": {
+      "Agenda Ready": 1000
+    },
+    "pass_rate": 33.3,
+    "passed_count": 3229,
+    "active_council_members": 9,
+    "avg_tenure_years": 6.1,
+    "vote_coverage_pct": 0.0,
+    "video_availability_pct": 0.0,
+    "agenda_availability_pct": 97.8,
+    "minutes_availability_pct": 95.6,
+    "avg_meetings_per_month": 1.5,
+    "meetings_by_year": {
+      "2026": 5,
+      "2025": 18,
+      "2024": 18,
+      "2023": 18,
+      "2022": 20,
+      "2021": 22,
+      "2020": 24,
+      "2019": 10
+    },
+    "avg_sponsors_per_matter": 0.0,
+    "avg_attachments_per_matter": 1.9,
+    "pct_with_text_versions": 100.0,
+    "index_categories": [
+      "Established Commission Goals",
+      "Go Green",
+      "MAP Broward",
+      "Penny Surtax (Inactive)"
+    ],
+    "has_accela": false,
+    "accela_agency_id": null
+  },
+  "development": {
+    "permits_12mo": null,
+    "yoy_trend_pct": null,
+    "avg_permit_value": null,
+    "permit_types": {},
+    "datasets_count": 0
+  },
+  "meetings": {
+    "official_channels": 0,
+    "meetings_indexed": null,
+    "avg_meetings_per_month": null,
+    "has_video_archive": false,
+    "meeting_types": {},
+    "transcripts_available": null
+  },
+  "civic_issues": {
+    "total_issues": null,
+    "issues_last_30d": null,
+    "issues_last_365d": null,
+    "resolution_rate": null,
+    "top_issue_type": null,
+    "type_distribution": {},
+    "has_civic_issue_tracking": false
+  },
+  "demographics": {
+    "population": null,
+    "poverty_universe": null,
+    "employment_universe": null
+  },
+  "time_series": {
+    "economy_history": [],
+    "safety_history": [],
+    "environment_history": []
+  },
+  "data_sources": {
+    "legistar": "available",
+    "socrata": "skipped",
+    "census_acs": "skipped",
+    "arcgis": "available",
+    "fbi_ucr": "skipped",
+    "socrata_crime": "skipped",
+    "bls_laus": "skipped",
+    "ca_edd": "skipped",
+    "epa_aqs": "skipped",
+    "nces_ccd": "skipped",
+    "hud_fmr": "skipped",
+    "fema_openfema": "skipped",
+    "greatschools": "skipped",
+    "permits": "skipped",
+    "youtube_meetings": "skipped",
+    "seeclickfix": "skipped",
+    "accela": "skipped",
+    "hud_usps": "unavailable",
+    "census_vacancy": "unavailable"
+  },
+  "provenance": {
+    "last_full_probe": "2026-02-09T21:35:28.569606",
+    "sources": {
+      "legistar": {
+        "authority": "Legistar by Granicus",
+        "authority_tier": 1,
+        "api_url": "https://webapi.legistar.com/v1/broward/Bodies",
+        "probed_at": "2026-02-09T21:35:28.569685",
+        "data_vintage": "2019–2026",
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "socrata": {
+        "authority": "City Open Data Portals (Socrata/Tyler Data & Insights)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "census_acs": {
+        "authority": "US Census Bureau",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": "ACS 5-Year 2022",
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "arcgis": {
+        "authority": "City ArcGIS/GIS Portals",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-09T21:37:07.758931",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "fbi_ucr": {
+        "authority": "FBI Uniform Crime Reporting Program",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "state",
+        "status": "skipped"
+      },
+      "bls_laus": {
+        "authority": "Bureau of Labor Statistics",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "state",
+        "status": "skipped"
+      },
+      "epa_aqs": {
+        "authority": "US Environmental Protection Agency",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "state",
+        "status": "skipped"
+      },
+      "nces_ccd": {
+        "authority": "National Center for Education Statistics",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": "2022-2023 academic year",
+        "geographic_level": "state",
+        "status": "skipped"
+      },
+      "hud_fmr": {
+        "authority": "US Department of Housing and Urban Development",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": "FY2026",
+        "geographic_level": "state",
+        "status": "skipped"
+      },
+      "fema_openfema": {
+        "authority": "Federal Emergency Management Agency",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": "1953-present",
+        "geographic_level": "state",
+        "status": "skipped"
+      },
+      "greatschools": {
+        "authority": "GreatSchools.org (nonprofit)",
+        "authority_tier": 3,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "permits": {
+        "authority": "City Open Data Portals (Socrata)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "youtube_meetings": {
+        "authority": "YouTube (via SerpAPI search + youtube-transcript-api)",
+        "authority_tier": 3,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "seeclickfix": {
+        "authority": "SeeClickFix (civic issue tracking platform)",
+        "authority_tier": 3,
+        "api_url": "https://seeclickfix.com/api/v2/issues?place_url=broward",
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "accela": {
+        "authority": "Accela (permit management platform)",
+        "authority_tier": 3,
+        "api_url": "https://apis.accela.com/v4/agencies",
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "socrata_crime": {
+        "authority": "City Open Data Portals (Socrata)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      }
+    },
+    "derived_fields": {
+      "safety.total_crime_rate": {
+        "formula": "violent_crime_rate + property_crime_rate",
+        "inputs": [
+          "safety.violent_crime_rate",
+          "safety.property_crime_rate"
+        ],
+        "formula_location": "score/normalizer.py:_derive_total_crime",
+        "authority_tier": 2
+      },
+      "safety.crime_trend": {
+        "formula": "(last_year_rate - first_year_rate) / years_span",
+        "inputs": [
+          "fbi.time_series[].violent_crime_rate"
+        ],
+        "formula_location": "score/normalizer.py:_build_safety",
+        "authority_tier": 2
+      },
+      "education.school_quality_tier": {
+        "formula": "excellent if avg>=8, good if avg>=6, fair if avg>=4, else poor",
+        "inputs": [
+          "education.avg_school_rating"
+        ],
+        "formula_location": "score/normalizer.py:_build_education",
+        "authority_tier": 3
+      },
+      "environment.avg_disasters_per_decade": {
+        "formula": "total_disasters / (years_span / 10)",
+        "inputs": [
+          "environment.total_disasters"
+        ],
+        "formula_location": "probe/fema_probe.py",
+        "authority_tier": 2
+      },
+      "housing.rent_burden_ratio": {
+        "formula": "(fmr_2br * 12) / median_household_income * 100",
+        "inputs": [
+          "housing.fmr_2br",
+          "economy.median_household_income"
+        ],
+        "formula_location": "score/normalizer.py:_build_housing",
+        "authority_tier": 2
+      },
+      "governance.legislative_velocity": {
+        "formula": "legislative_volume / years_of_legislative_data",
+        "inputs": [
+          "governance.legislative_volume",
+          "governance.years_of_legislative_data"
+        ],
+        "formula_location": "score/normalizer.py:_build_governance",
+        "authority_tier": 2
+      },
+      "development.yoy_trend_pct": {
+        "formula": "(current_year - prior_year) / prior_year * 100",
+        "inputs": [
+          "permit data from Socrata"
+        ],
+        "formula_location": "probe/permits_probe.py",
+        "authority_tier": 2
+      }
+    },
+    "geographic_mismatches": [
+      {
+        "field": "identity.fips_state",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "state-level data applied to city profile"
+      },
+      {
+        "field": "economy.unemployment_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Reflects statewide unemployment, not city-specific rate"
+      },
+      {
+        "field": "economy.labor_force",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: This is the full state labor force, not city-level"
+      },
+      {
+        "field": "economy.employed",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "economy.unemployed",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.violent_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: City-level requires ORI codes not currently used"
+      },
+      {
+        "field": "safety.property_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.murder_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.robbery_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.burglary_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.vehicle_theft_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.total_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA; derived sum"
+      },
+      {
+        "field": "safety.crime_trend",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "state-level data applied to city profile"
+      },
+      {
+        "field": "education.total_schools",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Count includes all schools in the state, not city"
+      },
+      {
+        "field": "education.total_enrollment",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.pupil_teacher_ratio",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Average across all state schools"
+      },
+      {
+        "field": "education.title1_pct",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.charter_pct",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.regular_schools",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.pm25_mean",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE/COUNTY-LEVEL: Averaged across all monitors in the state"
+      },
+      {
+        "field": "environment.ozone_mean",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE/COUNTY-LEVEL"
+      },
+      {
+        "field": "environment.total_disasters",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: All declarations for the state, not city-specific"
+      },
+      {
+        "field": "environment.avg_disasters_per_decade",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.most_recent_disaster",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.most_recent_disaster_type",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "housing.fmr_0br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR: Fair Market Rents at state level, not city-specific metro area"
+      },
+      {
+        "field": "housing.fmr_1br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_2br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_3br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_4br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.rent_burden_ratio",
+        "source_level": "mixed",
+        "profile_level": "place",
+        "note": "GEOGRAPHIC MISMATCH: FMR is state-level (HUD), income is city-level (Census). Ratio may be biased."
+      }
+    ]
+  },
+  "data_quality": {
+    "quality_score": 28.6,
+    "grade": "F",
+    "completeness_pct": 28.6,
+    "issue_count": 1,
+    "granularity_flags": 0
+  },
+  "officials": {
+    "body_name": "County Commission",
+    "members": [
+      {
+        "name": "Alexandra P. Davis",
+        "email": null,
+        "title": "Commissioner",
+        "start_date": "2024-11-19"
+      },
+      {
+        "name": "Beam Furr",
+        "email": null,
+        "title": "Commissioner",
+        "start_date": "2017-11-30"
+      },
+      {
+        "name": "Hazelle P. Rogers",
+        "email": null,
+        "title": "Commissioner",
+        "start_date": "2022-11-29"
+      },
+      {
+        "name": "Lamar P. Fisher",
+        "email": null,
+        "title": "Commissioner",
+        "start_date": "2018-11-27"
+      },
+      {
+        "name": "Mark D. Bogen",
+        "email": null,
+        "title": "Mayor",
+        "start_date": "2018-01-27"
+      },
+      {
+        "name": "Michael Udine",
+        "email": null,
+        "title": "Commissioner",
+        "start_date": "2018-01-27"
+      },
+      {
+        "name": "Nan H. Rich",
+        "email": null,
+        "title": "Commissioner",
+        "start_date": "2018-01-27"
+      },
+      {
+        "name": "Robert McKinzie",
+        "email": null,
+        "title": "Vice-Mayor",
+        "start_date": "2022-11-29"
+      },
+      {
+        "name": "Steve Geller",
+        "email": null,
+        "title": "Commissioner",
+        "start_date": "2018-01-27"
+      }
+    ]
+  },
+  "recent_meetings": [
+    {
+      "date": "2026-02-17",
+      "body": "County Commission",
+      "location": "Broward County Governmental Center\r\nRoom 422 (Commission Chambers)",
+      "has_agenda": true,
+      "agenda_url": "https://broward.legistar1.com/broward/meetings/2026/2/1190_A_County_Commission_26-02-17_Regular_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-03",
+      "body": "County Commission",
+      "location": "Broward County Governmental Center\r\nRoom 422 (Commission Chambers)",
+      "has_agenda": true,
+      "agenda_url": "https://broward.legistar1.com/broward/meetings/2026/2/1189_A_County_Commission_26-02-03_Regular_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-22",
+      "body": "County Commission",
+      "location": "Broward County Governmental Center\r\nRoom 422 (Commission Chambers)",
+      "has_agenda": true,
+      "agenda_url": "https://broward.legistar1.com/broward/meetings/2026/1/1188_A_County_Commission_26-01-22_Meeting_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "MOTION TO ADOPT Resolution directing the County Administrator to publish Notice of Public Hearing to be held on March 3, 2026, at 10:00 a.m., in Room 422 of Governmental Center East to consider enactm",
+      "type": "Consent Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-04",
+      "file_number": "26-144",
+      "passed_date": null
+    },
+    {
+      "title": "MOTION TO ADOPT Resolution Amending the Broward County Administrative Code, the title of which is as follows: (Continued from February 3, 2026 - Item No. 23)\r\n\r\nA RESOLUTION OF THE BOARD OF COUNTY COM",
+      "type": "Public Hearing",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-03",
+      "file_number": "26-138",
+      "passed_date": null
+    },
+    {
+      "title": "MOTION TO ADOPT Resolution expressing the current intent of the Broward County Board of County Commissioners to prioritize the allocation of expired community redevelopment agency tax increment financ",
+      "type": "Consent Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-02",
+      "file_number": "26-136",
+      "passed_date": null
+    },
+    {
+      "title": "MOTION TO APPOINT Josephus Eggelletion III to the Housing Finance Authority in the category of “Citizen.” (Commissioner Rogers)",
+      "type": "Consent Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-30",
+      "file_number": "26-116",
+      "passed_date": null
+    },
+    {
+      "title": "MOTION TO REAPPOINT Osmel Delgado to the Broward Regional Health Planning Council in the at-large category of “Health Care Purchaser.” (Mayor Bogen)",
+      "type": "Consent Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-30",
+      "file_number": "26-118",
+      "passed_date": null
+    },
+    {
+      "title": "MOTION TO DISCUSS Broward Days. (Mayor Bogen)",
+      "type": "Regular Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-29",
+      "file_number": "26-110",
+      "passed_date": null
+    },
+    {
+      "title": "A. MOTION TO ADOPT Resolution directing the County Administrator to publish Notice of Public Hearing to be held on March 3, 2026, at 10:00 a.m., in Room 422 of Governmental Center East, to consider tr",
+      "type": "Consent Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-29",
+      "file_number": "26-108",
+      "passed_date": null
+    },
+    {
+      "title": "MOTION TO APPROVE travel for more than five County employees from the Public Works and Environmental Services Department to attend the same non-local event.",
+      "type": "Consent Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-28",
+      "file_number": "26-096",
+      "passed_date": null
+    },
+    {
+      "title": "A. MOTION TO AUTHORIZE Director of Purchasing to approve and execute a lease agreement between Broward County and the City of Gainesville, Florida, for 17 40-foot Low Floor Gillig transit buses for a ",
+      "type": "Regular Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-28",
+      "file_number": "26-099",
+      "passed_date": null
+    },
+    {
+      "title": "MOTION TO AUTHORIZE Port Everglades Chief Executive Officer to waive and/or reduce dockage and harbormaster fees set forth in Port Everglades Tariff No. 12 associated with the Broward County Sand Bypa",
+      "type": "Consent Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-26",
+      "file_number": "26-092",
+      "passed_date": null
+    }
+  ],
+  "legistar_url": "https://broward.legistar.com",
+  "enriched_at": "2026-02-13T20:01:25.082199",
+  "government_news": [],
+  "video_meetings": [],
+  "data_platforms": [
+    "legistar"
+  ]
+}

@@ -78,7 +78,21 @@
     "fmr_4br": 5010,
     "rent_burden_ratio": 24.0,
     "cost_burdened_pct": 36.9,
-    "severely_burdened_pct": 17.74
+    "severely_burdened_pct": 17.74,
+    "total_housing_units": 38770,
+    "occupied_housing_units": 34933,
+    "vacant_housing_units": 3837,
+    "vacancy_rate": 9.9,
+    "occupancy_rate": 90.1,
+    "data_year": "2023",
+    "vacancy_source": "Census ACS 5-Year",
+    "vacant_for_rent": 2176,
+    "vacant_rented_not_occupied": 347,
+    "vacant_for_sale": 107,
+    "vacant_sold_not_occupied": 165,
+    "vacant_seasonal": 308,
+    "vacant_migrant_workers": 0,
+    "vacant_other": 734
   },
   "health": {
     "uninsured_pct": 4.9,
@@ -384,7 +398,9 @@
     "youtube_meetings": "skipped",
     "seeclickfix": "skipped",
     "accela": "available",
-    "cdc_places": "available"
+    "cdc_places": "available",
+    "hud_usps": "unavailable",
+    "census_vacancy": "available"
   },
   "provenance": {
     "last_full_probe": "2026-02-10T07:32:35.458230",

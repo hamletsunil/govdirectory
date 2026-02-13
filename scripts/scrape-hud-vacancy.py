@@ -1,19 +1,20 @@
 #!/usr/bin/env python3
 """
-Scrape HUD/USPS Vacancy Data for city profiles.
+Scrape Census ACS housing vacancy data for city profiles.
 
-Pulls quarterly residential and business vacancy rates from the HUD USPS
-Vacancy Data API (https://www.huduser.gov/portal/dataset/usps-702.html)
-and integrates them into city profile JSON files.
+Pulls housing occupancy/vacancy statistics from the U.S. Census Bureau's
+American Community Survey (ACS) 5-Year Estimates and integrates them into
+city profile JSON files.
 
-Requirements:
-  - HUD_API_TOKEN env var (register free at https://www.huduser.gov/hudapi/public/register)
-  - requests library (pip install requests)
+Data source: Census Bureau ACS Table B25002 (Occupancy Status) and
+B25004 (Vacancy Status).  This is a Tier 1 (Federal) data source --
+no API key required.
 
 Usage:
-  HUD_API_TOKEN=your_token python3 scripts/scrape-hud-vacancy.py
-  HUD_API_TOKEN=your_token python3 scripts/scrape-hud-vacancy.py --dry-run
-  HUD_API_TOKEN=your_token python3 scripts/scrape-hud-vacancy.py --city chicago
+  python3 scripts/scrape-hud-vacancy.py
+  python3 scripts/scrape-hud-vacancy.py --dry-run
+  python3 scripts/scrape-hud-vacancy.py --city chicago
+  python3 scripts/scrape-hud-vacancy.py --year 2022
 """
 
 from __future__ import annotations
@@ -24,6 +25,8 @@ import json
 import os
 import sys
 import time
+import urllib.request
+import urllib.error
 from typing import Dict, List, Optional, Tuple
 
 # ---------------------------------------------------------------------------
@@ -31,23 +34,32 @@ from typing import Dict, List, Optional, Tuple
 # ---------------------------------------------------------------------------
 
 CITIES_DIR = os.path.join(os.path.dirname(__file__), "..", "public", "data", "cities")
-HUD_API_BASE = "https://www.huduser.gov/hudapi/public/usps"
-REQUEST_DELAY = 1.0  # seconds between API calls (HUD rate-limits aggressively)
-DATA_SOURCE_KEY = "hud_usps"
+DATA_SOURCE_KEY = "census_vacancy"
+
+# ACS 5-Year variables we pull:
+#   B25002_001E  Total housing units
+#   B25002_002E  Occupied housing units
+#   B25002_003E  Vacant housing units
+#   B25004_002E  Vacant - For rent
+#   B25004_003E  Vacant - Rented, not occupied
+#   B25004_004E  Vacant - For sale only
+#   B25004_005E  Vacant - Sold, not occupied
+#   B25004_006E  Vacant - For seasonal/recreational/occasional use
+#   B25004_007E  Vacant - For migrant workers
+#   B25004_008E  Vacant - Other vacant
+ACS_VARIABLES = [
+    "B25002_001E", "B25002_002E", "B25002_003E",
+    "B25004_002E", "B25004_003E", "B25004_004E",
+    "B25004_005E", "B25004_006E", "B25004_007E", "B25004_008E",
+    "NAME",
+]
+
+# Try most recent ACS year first, fall back
+ACS_YEARS = [2023, 2022, 2021]
 
 # ---------------------------------------------------------------------------
 # Helpers
 # ---------------------------------------------------------------------------
-
-
-def get_api_token() -> str:
-    """Get HUD API token from environment."""
-    token = os.environ.get("HUD_API_TOKEN", "").strip()
-    if not token:
-        print("ERROR: HUD_API_TOKEN environment variable is not set.")
-        print("Register for a free token at https://www.huduser.gov/hudapi/public/register")
-        sys.exit(1)
-    return token
 
 
 def load_city_profiles(
@@ -71,175 +83,125 @@ def load_city_profiles(
     return profiles
 
 
-def fetch_vacancy_data(
-    fips_query: str, token: str, session
-) -> Optional[dict]:
+def fetch_acs_state_places(state_fips: str, year: int) -> Optional[List[List[str]]]:
     """
-    Fetch vacancy data from HUD USPS API for a FIPS place code.
+    Fetch ACS vacancy data for ALL places in a state in one API call.
 
-    Args:
-        fips_query: Concatenated FIPS state + place code (e.g. "1304000" for Atlanta, GA)
-        token: HUD API Bearer token
-        session: requests.Session for connection reuse
-
-    Returns:
-        Dict with the most recent quarter's data, or None on failure.
+    Returns list of rows (each row is a list of strings), or None on failure.
+    First row is the header.
     """
-    url = f"{HUD_API_BASE}?type=2&query={fips_query}"
-    headers = {"Authorization": f"Bearer {token}"}
+    variables = ",".join(ACS_VARIABLES)
+    url = (
+        f"https://api.census.gov/data/{year}/acs/acs5"
+        f"?get={variables}&for=place:*&in=state:{state_fips}"
+    )
 
     try:
-        resp = session.get(url, headers=headers, timeout=30)
+        req = urllib.request.Request(url, headers={"User-Agent": "GovDirectory/1.0"})
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            if resp.status != 200:
+                return None
+            body = resp.read().decode("utf-8")
+            return json.loads(body)
+    except urllib.error.HTTPError as e:
+        if e.code == 204:
+            return None  # No data for this year
+        print(f"    HTTP {e.code} for state {state_fips}, year {year}")
+        return None
     except Exception as e:
-        print(f"    Network error: {e}")
+        print(f"    Error fetching state {state_fips}: {e}")
         return None
 
-    if resp.status_code == 401:
-        print("    ERROR: 401 Unauthorized - check your HUD_API_TOKEN")
-        return None
-    if resp.status_code == 404:
-        print("    No data found (404)")
-        return None
-    if resp.status_code == 429:
-        print("    Rate limited (429) - waiting 10s and retrying...")
-        time.sleep(10)
-        try:
-            resp = session.get(url, headers=headers, timeout=30)
-        except Exception as e:
-            print(f"    Retry network error: {e}")
-            return None
-        if resp.status_code != 200:
-            print(f"    Retry failed with status {resp.status_code}")
-            return None
-    if resp.status_code != 200:
-        print(f"    API returned status {resp.status_code}: {resp.text[:200]}")
-        return None
 
-    try:
-        payload = resp.json()
-    except json.JSONDecodeError:
-        print(f"    Invalid JSON response: {resp.text[:200]}")
-        return None
-
-    # The API returns a list of quarterly records, or a dict with a "data" key
-    records = None
-    if isinstance(payload, list):
-        records = payload
-    elif isinstance(payload, dict):
-        # Could be {"data": [...]} or an error dict
-        if "data" in payload:
-            records = payload["data"]
-        elif "error" in payload:
-            print(f"    API error: {payload['error']}")
-            return None
-        else:
-            # Maybe the dict itself is a single record
-            records = [payload]
-
-    if not records:
-        print("    Empty response from API")
-        return None
-
-    # Find the most recent quarter
-    # Records have YEAR and QTR fields
-    def sort_key(r):
-        try:
-            return (int(r.get("YEAR", 0)), int(r.get("QTR", 0)))
-        except (ValueError, TypeError):
-            return (0, 0)
-
-    records_sorted = sorted(records, key=sort_key, reverse=True)
-    return records_sorted[0]
-
-
-def extract_vacancy_metrics(record: dict) -> Optional[dict]:
+def build_vacancy_lookup(year: int, state_fips_list: List[str]) -> Dict[str, dict]:
     """
-    Extract and calculate vacancy metrics from a HUD USPS record.
-
-    Returns dict with calculated fields, or None if data is insufficient.
+    Build a lookup dict: (state_fips, place_fips) -> vacancy metrics
+    by querying Census ACS for each state.
     """
-    try:
-        res_vac = float(record.get("RES_VAC", 0))
-        res_occ = float(record.get("RES_OCC", 0))
-        bus_vac = float(record.get("BUS_VAC", 0))
-        bus_occ = float(record.get("BUS_OCC", 0))
-        year = record.get("YEAR", "")
-        qtr = record.get("QTR", "")
-    except (ValueError, TypeError) as e:
-        print(f"    Could not parse numeric fields: {e}")
-        return None
+    lookup: Dict[str, dict] = {}
 
-    res_total = res_vac + res_occ
-    bus_total = bus_vac + bus_occ
+    for state_fips in sorted(set(state_fips_list)):
+        rows = None
+        actual_year = year
 
-    if res_total == 0 and bus_total == 0:
-        print("    All vacancy counts are zero - no meaningful data")
-        return None
+        # Try each year
+        for try_year in ACS_YEARS:
+            rows = fetch_acs_state_places(state_fips, try_year)
+            if rows and len(rows) > 1:
+                actual_year = try_year
+                break
+            time.sleep(0.5)
 
-    result: Dict[str, object] = {
-        "residential_vacant": int(res_vac),
-        "residential_occupied": int(res_occ),
-        "vacancy_source": "HUD/USPS",
-    }
+        if not rows or len(rows) < 2:
+            print(f"  State {state_fips}: no ACS data available")
+            continue
 
-    if res_total > 0:
-        result["residential_vacancy_rate"] = round(res_vac / res_total * 100, 2)
-    else:
-        result["residential_vacancy_rate"] = None
+        header = rows[0]
+        print(f"  State {state_fips}: {len(rows)-1} places (ACS {actual_year})")
 
-    if bus_total > 0:
-        result["business_vacancy_rate"] = round(bus_vac / bus_total * 100, 2)
-    else:
-        result["business_vacancy_rate"] = None
+        # Build column index
+        col = {name: i for i, name in enumerate(header)}
 
-    result["business_vacant"] = int(bus_vac)
-    result["business_occupied"] = int(bus_occ)
+        for row in rows[1:]:
+            place_fips = row[col.get("place", len(row) - 1)]
+            st = row[col.get("state", len(row) - 2)]
 
-    if year and qtr:
-        result["vacancy_quarter"] = f"{year}-Q{qtr}"
+            try:
+                total = int(row[col["B25002_001E"]])
+                occupied = int(row[col["B25002_002E"]])
+                vacant = int(row[col["B25002_003E"]])
+            except (ValueError, KeyError):
+                continue
 
-    # Include no-stat counts if present
-    no_stat_res = record.get("NO_STAT_RES")
-    no_stat_bus = record.get("NO_STAT_BUS")
-    if no_stat_res is not None:
-        try:
-            result["no_stat_residential"] = int(float(no_stat_res))
-        except (ValueError, TypeError):
-            pass
-    if no_stat_bus is not None:
-        try:
-            result["no_stat_business"] = int(float(no_stat_bus))
-        except (ValueError, TypeError):
-            pass
+            if total == 0:
+                continue
 
-    return result
+            metrics: Dict[str, object] = {
+                "total_housing_units": total,
+                "occupied_housing_units": occupied,
+                "vacant_housing_units": vacant,
+                "vacancy_rate": round(vacant / total * 100, 2),
+                "occupancy_rate": round(occupied / total * 100, 2),
+                "data_year": str(actual_year),
+                "vacancy_source": "Census ACS 5-Year",
+            }
+
+            # Vacancy breakdown (B25004)
+            breakdown_fields = {
+                "vacant_for_rent": "B25004_002E",
+                "vacant_rented_not_occupied": "B25004_003E",
+                "vacant_for_sale": "B25004_004E",
+                "vacant_sold_not_occupied": "B25004_005E",
+                "vacant_seasonal": "B25004_006E",
+                "vacant_migrant_workers": "B25004_007E",
+                "vacant_other": "B25004_008E",
+            }
+
+            for field_name, var_name in breakdown_fields.items():
+                if var_name in col:
+                    try:
+                        val = int(row[col[var_name]])
+                        metrics[field_name] = val
+                    except (ValueError, IndexError):
+                        pass
+
+            key = f"{st}:{place_fips}"
+            lookup[key] = metrics
+
+        time.sleep(0.3)  # Be nice to Census API
+
+    return lookup
 
 
 def update_city_profile(profile: dict, vacancy: dict) -> dict:
-    """
-    Update a city profile dict with vacancy data in the housing section.
-    Preserves existing housing fields.
-    """
+    """Update a city profile dict with vacancy data in the housing section."""
     if "housing" not in profile:
         profile["housing"] = {}
 
     housing = profile["housing"]
 
-    # Add/update vacancy fields
-    for key in [
-        "residential_vacancy_rate",
-        "business_vacancy_rate",
-        "residential_occupied",
-        "residential_vacant",
-        "business_occupied",
-        "business_vacant",
-        "vacancy_quarter",
-        "vacancy_source",
-        "no_stat_residential",
-        "no_stat_business",
-    ]:
-        if key in vacancy:
-            housing[key] = vacancy[key]
+    for key, value in vacancy.items():
+        housing[key] = value
 
     # Update data_sources
     if "data_sources" not in profile:
@@ -250,7 +212,7 @@ def update_city_profile(profile: dict, vacancy: dict) -> dict:
 
 
 def mark_unavailable(profile: dict) -> dict:
-    """Mark HUD USPS data source as unavailable for a city."""
+    """Mark Census vacancy data source as unavailable for a city."""
     if "data_sources" not in profile:
         profile["data_sources"] = {}
     profile["data_sources"][DATA_SOURCE_KEY] = "unavailable"
@@ -273,7 +235,7 @@ def save_profile(path: str, profile: dict, dry_run: bool = False):
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Scrape HUD/USPS vacancy data for city profiles"
+        description="Scrape Census ACS housing vacancy data for city profiles"
     )
     parser.add_argument(
         "--dry-run",
@@ -286,29 +248,26 @@ def main():
         help="Process a single city (slug, e.g. 'chicago')",
     )
     parser.add_argument(
-        "--delay",
-        type=float,
-        default=REQUEST_DELAY,
-        help="Delay between API requests in seconds (default: 1.0)",
+        "--year",
+        type=int,
+        default=2023,
+        help="ACS year to query (default: 2023, falls back to earlier years)",
     )
     parser.add_argument(
         "--verbose", "-v", action="store_true", help="Verbose output"
     )
     args = parser.parse_args()
 
-    # Resolve cities dir
     cities_dir = os.path.abspath(CITIES_DIR)
     if not os.path.isdir(cities_dir):
         print(f"ERROR: Cities directory not found: {cities_dir}")
         sys.exit(1)
 
-    token = get_api_token()
-
-    print("HUD/USPS Vacancy Data Scraper")
+    print("Census ACS Housing Vacancy Scraper")
     print("=" * 50)
     print(f"Cities dir: {cities_dir}")
     print(f"Dry run: {args.dry_run}")
-    print(f"Delay: {args.delay}s")
+    print(f"Target ACS year: {args.year}")
     if args.city:
         print(f"Single city: {args.city}")
     print()
@@ -321,132 +280,96 @@ def main():
         print("No profiles to process.")
         sys.exit(0)
 
-    # Import requests here so --help works without it
-    try:
-        import requests  # noqa: F811
-    except ImportError:
-        print(
-            "ERROR: 'requests' library is required. Install with: pip install requests"
-        )
-        sys.exit(1)
+    # Collect all state FIPS codes we need to query
+    fips_map: Dict[str, Tuple[str, str]] = {}  # slug -> (state_fips, place_fips)
+    state_fips_list: List[str] = []
 
-    session = requests.Session()
+    for path, profile in profiles:
+        slug = os.path.basename(path).replace(".json", "")
+        identity = profile.get("identity", {})
+        fs = identity.get("fips_state", "")
+        fp = identity.get("fips_place", "")
+        if fs and fp:
+            fips_map[slug] = (str(fs).zfill(2), str(fp).zfill(5))
+            state_fips_list.append(str(fs).zfill(2))
 
-    # Stats
+    print(f"Cities with FIPS codes: {len(fips_map)}")
+    print(f"Unique states to query: {len(set(state_fips_list))}")
+    print()
+
+    # Fetch all data from Census in batches by state
+    print("Fetching ACS data by state...")
+    start_time = time.time()
+    lookup = build_vacancy_lookup(args.year, state_fips_list)
+    fetch_time = time.time() - start_time
+    print(f"\nFetched {len(lookup)} places in {fetch_time:.1f}s")
+    print()
+
+    # Match and update profiles
     stats = {
         "total": len(profiles),
-        "has_fips": 0,
-        "no_fips": 0,
-        "api_success": 0,
-        "api_failure": 0,
+        "has_fips": len(fips_map),
+        "no_fips": len(profiles) - len(fips_map),
+        "matched": 0,
+        "unmatched": 0,
         "updated": 0,
         "skipped": 0,
-        "auth_error": False,
     }
 
-    start_time = time.time()
-
-    for i, (path, profile) in enumerate(profiles):
+    for path, profile in profiles:
         slug = os.path.basename(path).replace(".json", "")
         identity = profile.get("identity", {})
         name = identity.get("name", slug)
         state = identity.get("state", "??")
-        fips_state = identity.get("fips_state", "")
-        fips_place = identity.get("fips_place", "")
 
-        print(f"[{i+1}/{len(profiles)}] {name}, {state} ({slug})")
-
-        if not fips_state or not fips_place:
-            print("  -> No FIPS codes, marking unavailable")
-            profile = mark_unavailable(profile)
-            save_profile(path, profile, args.dry_run)
-            stats["no_fips"] += 1
-            stats["skipped"] += 1
-            continue
-
-        stats["has_fips"] += 1
-        fips_query = f"{fips_state}{fips_place}"
-        print(f"  FIPS query: {fips_query}")
-
-        # Fetch from API
-        record = fetch_vacancy_data(fips_query, token, session)
-
-        if record is None:
-            print("  -> No data returned, marking unavailable")
-            profile = mark_unavailable(profile)
-            save_profile(path, profile, args.dry_run)
-            stats["api_failure"] += 1
-            stats["skipped"] += 1
-            time.sleep(args.delay)
-            continue
-
-        # Check if this was an auth error hidden in the response
-        if isinstance(record, dict) and "error" in record:
-            err = record["error"]
-            if "Unauthenticated" in str(err) or "Unauthorized" in str(err):
-                print(f"  -> AUTH ERROR: {err}")
-                print("  Stopping - please check your HUD_API_TOKEN")
-                stats["auth_error"] = True
-                break
-
-        stats["api_success"] += 1
-
-        # Extract metrics
-        vacancy = extract_vacancy_metrics(record)
-        if vacancy is None:
-            print("  -> Could not extract metrics, marking unavailable")
+        if slug not in fips_map:
+            if args.verbose:
+                print(f"  {name}, {state}: no FIPS codes, skipping")
             profile = mark_unavailable(profile)
             save_profile(path, profile, args.dry_run)
             stats["skipped"] += 1
-            time.sleep(args.delay)
             continue
 
-        # Update profile
-        profile = update_city_profile(profile, vacancy)
-        save_profile(path, profile, args.dry_run)
-        stats["updated"] += 1
+        state_fips, place_fips = fips_map[slug]
+        key = f"{state_fips}:{place_fips}"
 
-        res_rate = vacancy.get("residential_vacancy_rate", "N/A")
-        bus_rate = vacancy.get("business_vacancy_rate", "N/A")
-        quarter = vacancy.get("vacancy_quarter", "?")
-        print(f"  -> {quarter}: res_vacancy={res_rate}%, bus_vacancy={bus_rate}%")
+        if key in lookup:
+            vacancy = lookup[key]
+            profile = update_city_profile(profile, vacancy)
+            save_profile(path, profile, args.dry_run)
+            stats["matched"] += 1
+            stats["updated"] += 1
 
-        if args.verbose:
-            print(
-                f"     res_occ={vacancy.get('residential_occupied')}, "
-                f"res_vac={vacancy.get('residential_vacant')}"
-            )
-            print(
-                f"     bus_occ={vacancy.get('business_occupied')}, "
-                f"bus_vac={vacancy.get('business_vacant')}"
-            )
-
-        # Rate limit
-        if i < len(profiles) - 1:
-            time.sleep(args.delay)
+            vr = vacancy.get("vacancy_rate", "N/A")
+            total = vacancy.get("total_housing_units", "?")
+            yr = vacancy.get("data_year", "?")
+            if args.verbose:
+                print(f"  {name}, {state}: {vr}% vacancy ({total} units, ACS {yr})")
+        else:
+            if args.verbose:
+                print(f"  {name}, {state}: FIPS {state_fips}{place_fips} not in ACS data")
+            profile = mark_unavailable(profile)
+            save_profile(path, profile, args.dry_run)
+            stats["unmatched"] += 1
+            stats["skipped"] += 1
 
     elapsed = time.time() - start_time
 
     # Summary
     print()
     print("=" * 50)
-    print("HUD/USPS Vacancy Scrape Summary")
+    print("Census ACS Vacancy Scrape Summary")
     print("=" * 50)
     print(f"Total profiles:     {stats['total']}")
     print(f"With FIPS codes:    {stats['has_fips']}")
     print(f"Without FIPS codes: {stats['no_fips']}")
-    print(f"API successes:      {stats['api_success']}")
-    print(f"API failures:       {stats['api_failure']}")
+    print(f"ACS matches:        {stats['matched']}")
+    print(f"ACS unmatched:      {stats['unmatched']}")
     print(f"Profiles updated:   {stats['updated']}")
     print(f"Profiles skipped:   {stats['skipped']}")
     print(f"Elapsed time:       {elapsed:.1f}s")
     if args.dry_run:
         print("\n(DRY RUN - no files were modified)")
-    if stats["auth_error"]:
-        print("\nWARNING: Stopped early due to authentication error.")
-        print("Register for a free HUD API token at:")
-        print("  https://www.huduser.gov/hudapi/public/register")
-        sys.exit(1)
 
 
 if __name__ == "__main__":

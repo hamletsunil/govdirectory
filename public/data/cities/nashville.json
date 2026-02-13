@@ -1,1 +1,1290 @@
-{"schema_version":"5.0","normalized_at":"2026-02-10T14:21:49.318048","identity":{"name":"Nashville","state":"","fips_state":null,"fips_place":null,"population":null},"city_website":"https://www.nashville.gov","economy":{"median_household_income":null,"median_home_value":null,"unemployment_rate":null,"unemployment_data_level":"state","labor_force":null,"employed":null,"unemployed":null,"gini_index":null,"poverty_rate":null,"homeownership_rate":null,"rent_to_income_ratio":null,"home_value_to_income_ratio":null,"price_to_rent_ratio":null,"effective_tax_rate":null,"population_growth_cagr":null,"median_real_estate_taxes":null},"safety":{"violent_crime_rate":null,"property_crime_rate":null,"murder_rate":null,"robbery_rate":null,"burglary_rate":null,"vehicle_theft_rate":null,"total_crime_rate":null,"crime_trend":null,"crime_data_level":null},"education":{"total_schools":null,"total_enrollment":null,"pupil_teacher_ratio":null,"title1_pct":null,"charter_pct":null,"regular_schools":null,"avg_school_rating":null,"rated_schools":null,"school_quality_tier":null},"environment":{"pm25_mean":null,"ozone_mean":null,"total_disasters":null,"avg_disasters_per_decade":null,"most_recent_disaster":null,"most_recent_disaster_type":null,"disasters_by_type":{}},"housing":{"median_rent":null,"housing_units":null,"fmr_0br":null,"fmr_1br":null,"fmr_2br":null,"fmr_3br":null,"fmr_4br":null,"rent_burden_ratio":null,"cost_burdened_pct":null,"severely_burdened_pct":null},"governance":{"legislative_volume":7187,"legislative_velocity":697.8,"committee_count":21,"years_of_legislative_data":10.3,"has_public_meetings":true,"api_accessible":true,"matter_types":{"Resolution":509,"Bill":397,"Appointment":91,"Rule Amendment":3},"top_matter_type":"Resolution","matter_statuses":{"Passed":853,"Public Hearing":40,"Second Reading":39,"Withdrawn":28,"Third Reading":25,"Confirmation":3,"Failed":3,"Appointment":2,"Resolution":2,"Election":2,"Indefinitely Deferred":2,"Filed":1},"pass_rate":33.3,"passed_count":2395,"active_council_members":41,"avg_tenure_years":2.4,"vote_coverage_pct":0.0,"video_availability_pct":0.0,"agenda_availability_pct":48.2,"minutes_availability_pct":12.4,"avg_meetings_per_month":16.5,"meetings_by_year":{"2026":17,"2025":195,"2024":200,"2023":88},"avg_sponsors_per_matter":8.9,"avg_attachments_per_matter":0.2,"pct_with_text_versions":100.0,"index_categories":[],"has_accela":false,"accela_agency_id":null},"development":{"permits_12mo":null,"yoy_trend_pct":null,"avg_permit_value":null,"permit_types":{},"datasets_count":0},"meetings":{"official_channels":0,"meetings_indexed":null,"avg_meetings_per_month":null,"has_video_archive":false,"meeting_types":{},"transcripts_available":null},"civic_issues":{"total_issues":null,"issues_last_30d":null,"issues_last_365d":null,"resolution_rate":null,"top_issue_type":null,"type_distribution":{},"has_civic_issue_tracking":false},"demographics":{"population":null,"poverty_universe":null,"employment_universe":null},"time_series":{"economy_history":[],"safety_history":[],"environment_history":[]},"data_sources":{"legistar":"available","socrata":"skipped","census_acs":"skipped","arcgis":"available","fbi_ucr":"skipped","socrata_crime":"skipped","bls_laus":"skipped","ca_edd":"skipped","epa_aqs":"skipped","nces_ccd":"skipped","hud_fmr":"skipped","fema_openfema":"skipped","greatschools":"skipped","permits":"skipped","youtube_meetings":"skipped","seeclickfix":"skipped","accela":"skipped"},"provenance":{"last_full_probe":"2026-02-10T07:53:54.289478","sources":{"legistar":{"authority":"Legistar by Granicus","authority_tier":1,"api_url":"https://webapi.legistar.com/v1/nashville/Bodies","probed_at":"2026-02-10T07:53:54.290987","data_vintage":"2020\u20132026","geographic_level":"place","status":"available"},"socrata":{"authority":"City Open Data Portals (Socrata/Tyler Data & Insights)","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"place","status":"skipped"},"census_acs":{"authority":"US Census Bureau","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":"ACS 5-Year 2022","geographic_level":"place","status":"skipped"},"arcgis":{"authority":"City ArcGIS/GIS Portals","authority_tier":1,"api_url":null,"probed_at":"2026-02-10T07:55:12.783953","data_vintage":null,"geographic_level":"place","status":"available"},"fbi_ucr":{"authority":"FBI Uniform Crime Reporting Program","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"state","status":"skipped"},"bls_laus":{"authority":"Bureau of Labor Statistics","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"state","status":"skipped"},"epa_aqs":{"authority":"US Environmental Protection Agency","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"state","status":"skipped"},"nces_ccd":{"authority":"National Center for Education Statistics","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":"2022-2023 academic year","geographic_level":"state","status":"skipped"},"hud_fmr":{"authority":"US Department of Housing and Urban Development","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":"FY2026","geographic_level":"state","status":"skipped"},"fema_openfema":{"authority":"Federal Emergency Management Agency","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":"1953-present","geographic_level":"state","status":"skipped"},"greatschools":{"authority":"GreatSchools.org (nonprofit)","authority_tier":3,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"place","status":"skipped"},"permits":{"authority":"City Open Data Portals (Socrata)","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"place","status":"skipped"},"youtube_meetings":{"authority":"YouTube (via SerpAPI search + youtube-transcript-api)","authority_tier":3,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"place","status":"skipped"},"seeclickfix":{"authority":"SeeClickFix (civic issue tracking platform)","authority_tier":3,"api_url":"https://seeclickfix.com/api/v2/issues?place_url=nashville","probed_at":null,"data_vintage":null,"geographic_level":"place","status":"skipped"},"accela":{"authority":"Accela (permit management platform)","authority_tier":3,"api_url":"https://apis.accela.com/v4/agencies","probed_at":null,"data_vintage":null,"geographic_level":"place","status":"skipped"},"socrata_crime":{"authority":"City Open Data Portals (Socrata)","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"place","status":"skipped"}},"derived_fields":{"safety.total_crime_rate":{"formula":"violent_crime_rate + property_crime_rate","inputs":["safety.violent_crime_rate","safety.property_crime_rate"],"formula_location":"score/normalizer.py:_derive_total_crime","authority_tier":2},"safety.crime_trend":{"formula":"(last_year_rate - first_year_rate) / years_span","inputs":["fbi.time_series[].violent_crime_rate"],"formula_location":"score/normalizer.py:_build_safety","authority_tier":2},"education.school_quality_tier":{"formula":"excellent if avg>=8, good if avg>=6, fair if avg>=4, else poor","inputs":["education.avg_school_rating"],"formula_location":"score/normalizer.py:_build_education","authority_tier":3},"environment.avg_disasters_per_decade":{"formula":"total_disasters / (years_span / 10)","inputs":["environment.total_disasters"],"formula_location":"probe/fema_probe.py","authority_tier":2},"housing.rent_burden_ratio":{"formula":"(fmr_2br * 12) / median_household_income * 100","inputs":["housing.fmr_2br","economy.median_household_income"],"formula_location":"score/normalizer.py:_build_housing","authority_tier":2},"governance.legislative_velocity":{"formula":"legislative_volume / years_of_legislative_data","inputs":["governance.legislative_volume","governance.years_of_legislative_data"],"formula_location":"score/normalizer.py:_build_governance","authority_tier":2},"development.yoy_trend_pct":{"formula":"(current_year - prior_year) / prior_year * 100","inputs":["permit data from Socrata"],"formula_location":"probe/permits_probe.py","authority_tier":2}},"geographic_mismatches":[{"field":"identity.fips_state","source_level":"state","profile_level":"place","note":"state-level data applied to city profile"},{"field":"economy.unemployment_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Reflects statewide unemployment, not city-specific rate"},{"field":"economy.labor_force","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: This is the full state labor force, not city-level"},{"field":"economy.employed","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"economy.unemployed","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.violent_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: City-level requires ORI codes not currently used"},{"field":"safety.property_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.murder_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.robbery_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.burglary_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.vehicle_theft_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.total_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA; derived sum"},{"field":"safety.crime_trend","source_level":"state","profile_level":"place","note":"state-level data applied to city profile"},{"field":"education.total_schools","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Count includes all schools in the state, not city"},{"field":"education.total_enrollment","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.pupil_teacher_ratio","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Average across all state schools"},{"field":"education.title1_pct","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.charter_pct","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.regular_schools","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.pm25_mean","source_level":"state","profile_level":"place","note":"STATE/COUNTY-LEVEL: Averaged across all monitors in the state"},{"field":"environment.ozone_mean","source_level":"state","profile_level":"place","note":"STATE/COUNTY-LEVEL"},{"field":"environment.total_disasters","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: All declarations for the state, not city-specific"},{"field":"environment.avg_disasters_per_decade","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.most_recent_disaster","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.most_recent_disaster_type","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"housing.fmr_0br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR: Fair Market Rents at state level, not city-specific metro area"},{"field":"housing.fmr_1br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_2br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_3br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_4br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.rent_burden_ratio","source_level":"mixed","profile_level":"place","note":"GEOGRAPHIC MISMATCH: FMR is state-level (HUD), income is city-level (Census). Ratio may be biased."}]},"data_quality":{"quality_score":28.6,"grade":"F","completeness_pct":28.6,"issue_count":1,"granularity_flags":0},"officials":{"body_name":"Metropolitan Council","members":[{"name":"Angie Henderson","email":"Angie.Henderson@nashville.gov","title":"Vice Mayor","start_date":"2023-09-01","phone":"615-432-1334","website":"https://www.nashville.gov/Metro-Council/Metro-Council-Members/Vice-Mayor.aspx","committees":["Vice Mayor"]},{"name":"Antoinette Lee","email":"Antoinette.Lee@nashville.gov","title":"Council Member","start_date":"2023-09-15","phone":"615-432-1333","website":"https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-33-Council-Member.aspx","committees":["Arts, Parks, Libraries, and Entertainment Committee"]},{"name":"Bob Nash","email":"Bob.Nash@nashville.gov","title":"Council Member","start_date":"2023-09-15","phone":"615-432-1327","website":"https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-27-Council-Member.aspx","committees":["Government Operations and Regulations Committee","Public Health and Safety Committee"]},{"name":"Brandon Taylor","email":"Brandon.Taylor@nashville.gov","title":"Council Member","start_date":"2023-09-15","phone":"615-432-1321","website":"https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-21-Council-Member.aspx","committees":["Arts, Parks, Libraries, and Entertainment Committee","Public Facilities, Arts, and Culture Committee"]},{"name":"Brenda Gadd","email":"Brenda.Gadd@nashville.gov","title":"Council Member","start_date":"2023-09-15","phone":"615-432-1324","website":"https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-24-Council-Member.aspx","committees":["Arts, Parks, Libraries, and Entertainment Committee","Planning and Zoning Committee","Public Facilities, Arts, and Culture Committee","Public Health and Safety Committee"]},{"name":"Burkley Allen","email":"Burkley.Allen@nashville.gov","title":"Council Member","start_date":"2023-09-15","phone":"615-432-1343","website":"https://www.nashville.gov/Metro-Council/Metro-Council-Members/At-Large-4-Council-Member.aspx","committees":["Budget and Finance Committee","Planning and Zoning Committee","Transportation and Infrastructure Committee"]},{"name":"Clay Capp","email":"clay.capp@nashville.gov","title":"Council Member","start_date":"2023-09-15","phone":"615-432-1306","website":"https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-5-Council-Member.aspx","committees":["Ad-Hoc East Bank Committee","Arts, Parks, Libraries, and Entertainment Committee","Charter Revision Committee","Planning and Zoning Committee","Public Facilities, Arts, and Culture Committee"]},{"name":"Courtney Johnston","email":"Courtney.Johnston@nashville.gov","title":"Council Member","start_date":"2023-09-15","phone":"615-432-1326","website":"https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-26-Council-Member.aspx","committees":["Budget and Finance Committee","Charter Revision Committee"]},{"name":"David Benton","email":"David.Benton@nashville.gov","title":"Council Member","start_date":"2023-09-15","phone":"615-432-1328","website":"https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-28-Council-Member.aspx","committees":["Government Operations and Regulations Committee","Public Health and Safety Committee"]},{"name":"Delishia Porterfield","email":"Delishia.Porterfield@nashville.gov","title":"Council Member","start_date":"2023-09-15","phone":"615-432-1329","website":"https://www.nashville.gov/Metro-Council/Metro-Council-Members/At-Large-2-Council-Member.aspx","committees":["Budget and Finance Committee","Public Health and Safety Committee"]},{"name":"Deonte Harrell","email":"Deonte.Harrell@nashviklle.gov","title":"Council Member","start_date":"2023-09-15","phone":"615-432-1308","website":"https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-8-Council-Member.aspx","committees":["Planning and Zoning Committee","Public Health and Safety Committee"]},{"name":"Emily Benedict","email":"Emily.Benedict@nashville.gov","title":"Council Member","start_date":"2023-09-15","phone":"615-432-1307","website":"https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-7-Council-Member.aspx","committees":["Planning and Zoning Committee","Transportation and Infrastructure Committee"]},{"name":"Erin Evans","email":"Erin.Evans@nashville.gov","title":"Council Member","start_date":"2023-09-15","phone":"615-432-1312","website":"https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-12-Council-Member.aspx","committees":["Public Health and Safety Committee","Rules, Confirmations, and Public Elections Committee"]},{"name":"Ginny Welsch","email":"Ginny.Welsch@nashville.gov","title":"Council Member","start_date":"2023-09-15","phone":"615-432-1316","website":"https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-16-Council-Member.aspx","committees":["Arts, Parks, Libraries, and Entertainment Committee","Government Operations and Regulations Committee","Public Facilities, Arts, and Culture Committee"]},{"name":"Jacob Kupin","email":"Jacob.Kupin@nashville.gov","title":"Council Member","start_date":"2023-09-15","phone":"615-432-1319","website":"https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-19-Council-Member.aspx","committees":["Ad-Hoc East Bank Committee","Planning and Zoning Committee","Transportation and Infrastructure Committee"]},{"name":"Jason Spain","email":"Jason.Spain@nashville.gov","title":"Council Member","start_date":"2023-09-15","website":"https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-35-Council-Member.aspx","committees":["Budget and Finance Committee","Rules, Confirmations, and Public Elections Committee","Transportation and Infrastructure Committee"]},{"name":"Jeff Eslick","email":"Jeff.Eslick@nashville.gov","title":"Council Member","start_date":"2023-09-15","phone":"615-862-6780","website":"https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-11-Council-Member.aspx","committees":["Arts, Parks, Libraries, and Entertainment Committee","Government Operations and Regulations Committee","Public Facilities, Arts, and Culture Committee"]},{"name":"Jeff Gregg","email":"Jeff.Gregg@nashville.gov","title":"Council Member","start_date":"2023-09-15","phone":"615-432-1315","website":"https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-15-Council-Member.aspx","committees":["Ad-Hoc East Bank Committee","Budget and Finance Committee","Public Health and Safety Committee"]},{"name":"Jeff Preptit","email":"Jeff.Preptit@nashville.gov","title":"Council Member","start_date":"2023-09-15","phone":"615-432-1325","website":"https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-25-Council-Member.aspx","committees":["Charter Revision Committee","Public Health and Safety Committee","Rules, Confirmations, and Public Elections Committee"]},{"name":"Jennifer Gamble","email":"Jennifer.Gamble@nashville.gov","title":"Council Member","start_date":"2023-09-15","phone":"615-432-1303","website":"https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-3-Council-Member.aspx","committees":["Budget and Finance Committee","Planning and Zoning Committee"]},{"name":"Jennifer Webb","email":"Jennifer.Webb@nashville.gov","title":"Council Member","start_date":"2023-09-15","phone":"615-432-1310","website":"https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-10-Council-Member.aspx","committees":["Budget and Finance Committee","Government Operations and Regulations Committee"]},{"name":"John Rutherford","email":"John.Rutherford@nashville.gov","title":"Council Member","start_date":"2023-09-15","phone":"615-432-1312","website":"https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-31-Council-Member.aspx","committees":["Planning and Zoning Committee","Rules, Confirmations, and Public Elections Committee"]},{"name":"Jordan Huffman","email":"Jordan.Huffman@nashville.gov","title":"Council Member","start_date":"2023-09-15","phone":"1 Public Square Park","website":"https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-14-Council-Member.aspx","committees":["Budget and Finance Committee","Public Health and Safety Committee"]},{"name":"Joy Smith Kimbrough","email":"Joy.Kimbrough@nashville.gov","title":"Council Member","start_date":"2023-09-15","phone":"615-432-1301","website":"https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-1-Council-Member.aspx","committees":["Government Operations and Regulations Committee","Public Health and Safety Committee"]},{"name":"Joy Styles","email":"Joy.Styles@nashville.gov","title":"Council Member","start_date":"2023-09-15","phone":"615-432-1332","website":"https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-32-Council-Member.aspx","committees":["Arts, Parks, Libraries, and Entertainment Committee","Government Operations and Regulations Committee","Public Facilities, Arts, and Culture Committee"]},{"name":"Kyonzte Toombs","email":"Kyonzte.Toombs@nashville.gov","title":"Council Member","start_date":"2023-09-15","phone":"615-432-1302","website":"https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-2-Council-Member.aspx","committees":["Ad-Hoc East Bank Committee","Budget and Finance Committee","Charter Revision Committee","Rules, Confirmations, and Public Elections Committee"]},{"name":"Mike Cortese","email":"Mike.Cortese@nashville.gov","title":"Council Member","start_date":"2023-09-15","phone":"615-862-6780","website":"https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-4-Council-Member.aspx","committees":["Budget and Finance Committee","Planning and Zoning Committee"]},{"name":"Olivia Hill","email":"Olivia.Hill@nashville.gov","title":"Council Member","start_date":"2023-09-15","phone":"615-862-6780","website":"https://www.nashville.gov/Metro-Council/Metro-Council-Members/At-Large-5-Council-Member.aspx","committees":["Government Operations and Regulations Committee","Transportation and Infrastructure Committee"]},{"name":"Quin Evans-Segall","email":"Quin.EvansSegall@nashville.gov","title":"Council Member","start_date":"2023-09-15","phone":"615-862-6780","website":"https://www.nashville.gov/Metro-Council/Metro-Council-Members/At-Large-3-Council-Member.aspx","committees":["Ad-Hoc East Bank Committee","Budget and Finance Committee","Transportation and Infrastructure Committee"]},{"name":"Rollin Horton","email":"Rollin.Horton@nashville.gov","title":"Council Member","start_date":"2023-09-15","phone":"615-432-1320","website":"https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-20-Council-Member.aspx","committees":["Planning and Zoning Committee","Transportation and Infrastructure Committee"]},{"name":"Russ Bradford","email":"Russ.Bradford@nashville.gov","title":"Council Member","start_date":"2023-09-15","phone":"615-432-1313","website":"https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-13-Council-Member.aspx","committees":["Arts, Parks, Libraries, and Entertainment Committee","Public Health and Safety Committee"]},{"name":"Sandra Sepulveda","email":"Sandra.Sepulveda@nashville.gov","title":"Council Member","start_date":"2023-09-15","phone":"615-432-1330","website":"https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-30-Council-Member.aspx","committees":["Planning and Zoning Committee","Rules, Confirmations, and Public Elections Committee"]},{"name":"Sandy Ewing","email":"Sandy.Ewing@nashville.gov","title":"Council Member","start_date":"2023-09-15","phone":"615-432-1334","website":"https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-34-Council-Member.aspx","committees":["Arts, Parks, Libraries, and Entertainment Committee","Public Facilities, Arts, and Culture Committee","Transportation and Infrastructure Committee"]},{"name":"Sean Parker","email":"Sean.Parker@nashville.gov","title":"Council Member","start_date":"2023-09-15","phone":"615-432-1305","website":"https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-5-Council-Member.aspx","committees":["Ad-Hoc East Bank Committee","Charter Revision Committee","Planning and Zoning Committee","Transportation and Infrastructure Committee"]},{"name":"Sheri Weiner","email":"Sheri.Weiner@nashville.gov","title":"Council Member","start_date":"2023-09-15","phone":"615-432-1322","website":"https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-22-Council-Member.aspx","committees":["Charter Revision Committee","Public Health and Safety Committee"]},{"name":"Tasha Ellis","email":"Tasha.Ellis@nashville.gov","title":"Council Member","start_date":"2023-09-15","phone":"615-862-6780","website":"https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-29-Council-Member.aspx","committees":["Government Operations and Regulations Committee","Transportation and Infrastructure Committee"]},{"name":"Terry Vo","email":"Terry.Vo@nashville.gov","title":"Council Member","start_date":"2023-09-15","phone":"615-432-1317","website":"https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-17-Council-Member.aspx","committees":["Ad-Hoc East Bank Committee","Arts, Parks, Libraries, and Entertainment Committee","Planning and Zoning Committee","Public Facilities, Arts, and Culture Committee"]},{"name":"Thom Druffel","email":"Thom.Druffel@nashville.gov","title":"Council Member","start_date":"2023-09-15","phone":"615-432-1323","website":"https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-23-Council-Member.aspx","committees":["Budget and Finance Committee","Rules, Confirmations, and Public Elections Committee"]},{"name":"Tom Cash","email":"Tom.Cash@nashville.gov","title":"Council Member","start_date":"2023-09-15","phone":"615-432-1318","website":"https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-18-Council-Member.aspx","committees":["Charter Revision Committee","Rules, Confirmations, and Public Elections Committee","Transportation and Infrastructure Committee"]},{"name":"Tonya Hancock","email":"Tonya.Hancock@nashville.gov","title":"Council Member","start_date":"2023-09-15","phone":"615-432-1309","website":"https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-9-Council-Member.aspx","committees":["Government Operations and Regulations Committee","Public Facilities, Arts, and Culture Committee"]},{"name":"Zulfat Suara","email":"Zulfat.Suara@nashville.gov","title":"Council Member","start_date":"2023-09-15","phone":"615-432-1345","website":"https://www.nashville.gov/Metro-Council/Metro-Council-Members/At-Large-1-Council-Member.aspx","committees":["Budget and Finance Committee","Public Health and Safety Committee"]}]},"recent_meetings":[{"date":"2026-02-03","body":"Government Operations and Regulations Committee","location":"Committee Room 4","has_agenda":true,"agenda_url":"https://nashville.legistar1.com/nashville/meetings/2026/2/2253_A_Government_Operations_and_Regulations_Committee_26-02-03_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-03","body":"Arts, Parks, Libraries, and Entertainment Committee","location":"Committee Room 4","has_agenda":true,"agenda_url":"https://nashville.legistar1.com/nashville/meetings/2026/2/2251_A_Arts%2C_Parks%2C_Libraries%2C_and_Entertainment_Committee_26-02-03_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-03","body":"Rules, Confirmations, and Public Elections Committee","location":"Committee Room 2","has_agenda":true,"agenda_url":"https://nashville.legistar1.com/nashville/meetings/2026/2/2252_A_Rules%2C_Confirmations%2C_and_Public_Elections_Committee_26-02-03_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-03","body":"Metropolitan Council","location":"Metropolitan Courthouse","has_agenda":true,"agenda_url":"https://nashville.legistar1.com/nashville/meetings/2026/2/2184_A_Metropolitan_Council_26-02-03_Meeting_Agenda.pdf","has_minutes":true,"has_video":false,"upcoming":false},{"date":"2026-02-03","body":"Public Health and Safety Committee","location":"David Scobey Council Chambers","has_agenda":true,"agenda_url":"https://nashville.legistar1.com/nashville/meetings/2026/2/2250_A_Public_Health_and_Safety_Committee_26-02-03_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-02","body":"Transportation and Infrastructure Committee","location":"David Scobey Council Chambers","has_agenda":true,"agenda_url":"https://nashville.legistar1.com/nashville/meetings/2026/2/2247_A_Transportation_and_Infrastructure_Committee_26-02-02_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-02","body":"Planning and Zoning Committee","location":"David Scobey Council Chambers","has_agenda":true,"agenda_url":"https://nashville.legistar1.com/nashville/meetings/2026/2/2248_A_Planning_and_Zoning_Committee_26-02-02_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-02","body":"Budget and Finance Committee","location":"David Scobey Council Chambers","has_agenda":true,"agenda_url":"https://nashville.legistar1.com/nashville/meetings/2026/2/2249_A_Budget_and_Finance_Committee_26-02-02_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-01-20","body":"Charter Revision Committee","location":"Committee Room 1","has_agenda":true,"agenda_url":"https://nashville.legistar1.com/nashville/meetings/2026/1/2246_A_Charter_Revision_Committee_26-01-20_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-01-20","body":"Arts, Parks, Libraries, and Entertainment Committee","location":"Committee Room 4","has_agenda":true,"agenda_url":"https://nashville.legistar1.com/nashville/meetings/2026/1/2245_A_Arts%2C_Parks%2C_Libraries%2C_and_Entertainment_Committee_26-01-20_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false}],"recent_legislation":[{"title":"A resolution requesting the Metropolitan Civil Service Commission to update rules about the filing and resolution of employee grievances.","type":"Resolution","status":"Resolution","intro_date":"2026-01-27","file_number":"RS2026-1783","passed_date":null},{"title":"Transportation Licensing Commission\nConsideration of nominees to fill one vacancy on the Commission with a term expiring on January 31, 2028, with an election to be conducted at the March 3, 2026 Coun","type":"Appointment","status":"Appointment","intro_date":"2026-01-27","file_number":"26-008","passed_date":null},{"title":"A resolution recognizing February 2026 as Black History Month in Nashville and Davidson County.","type":"Resolution","status":"Passed","intro_date":"2026-01-27","file_number":"RS2026-1785","passed_date":"2026-02-05"},{"title":"Historical Commission\r\nReappointment of Laura Rost for a term expiring January 29, 2030.","type":"Appointment","status":"Confirmation","intro_date":"2026-01-27","file_number":"26-007","passed_date":null},{"title":"A resolution recognizing Metropolitan Government employees for extraordinary efforts during inclement weather in January 2026.","type":"Resolution","status":"Passed","intro_date":"2026-01-27","file_number":"RS2026-1784","passed_date":"2026-02-05"},{"title":"An ordinance to amend Title 6 of the Metropolitan Code of Laws regarding the disclosure of personalized algorithmic and dynamic pricing.","type":"Bill","status":"Second Reading","intro_date":"2026-01-27","file_number":"BL2026-1254","passed_date":null},{"title":"A resolution recognizing January 2026 as Muslim American Heritage Month in Nashville and Davidson County.","type":"Resolution","status":"Passed","intro_date":"2026-01-27","file_number":"RS2026-1786","passed_date":"2026-02-05"},{"title":"An ordinance amending Chapter 13.08 of the Metropolitan Code of Laws, related to sandwich board signs in the public right-of-way.","type":"Bill","status":"Second Reading","intro_date":"2026-01-27","file_number":"BL2026-1255","passed_date":null},{"title":"An ordinance amending Chapters 17.16 and 17.40 of the Metropolitan Code of Laws, to permit detached accessory dwelling units (DADUs) on legally created residential lots with non-conforming lot area (P","type":"Bill","status":"Public Hearing","intro_date":"2026-01-27","file_number":"BL2026-1257","passed_date":null},{"title":"Historical Commission\r\nReappointment of Don Cusic for a term expiring February 3, 2030.","type":"Appointment","status":"Confirmation","intro_date":"2026-01-27","file_number":"26-006","passed_date":null}],"legistar_url":"https://nashville.legistar.com","enriched_at":"2026-02-13T20:06:43.464341","government_news":[],"video_meetings":[],"data_platforms":["legistar"]}
+{
+  "schema_version": "5.0",
+  "normalized_at": "2026-02-10T14:21:49.318048",
+  "identity": {
+    "name": "Nashville",
+    "state": "",
+    "fips_state": null,
+    "fips_place": null,
+    "population": null
+  },
+  "city_website": "https://www.nashville.gov",
+  "economy": {
+    "median_household_income": null,
+    "median_home_value": null,
+    "unemployment_rate": null,
+    "unemployment_data_level": "state",
+    "labor_force": null,
+    "employed": null,
+    "unemployed": null,
+    "gini_index": null,
+    "poverty_rate": null,
+    "homeownership_rate": null,
+    "rent_to_income_ratio": null,
+    "home_value_to_income_ratio": null,
+    "price_to_rent_ratio": null,
+    "effective_tax_rate": null,
+    "population_growth_cagr": null,
+    "median_real_estate_taxes": null
+  },
+  "safety": {
+    "violent_crime_rate": null,
+    "property_crime_rate": null,
+    "murder_rate": null,
+    "robbery_rate": null,
+    "burglary_rate": null,
+    "vehicle_theft_rate": null,
+    "total_crime_rate": null,
+    "crime_trend": null,
+    "crime_data_level": null
+  },
+  "education": {
+    "total_schools": null,
+    "total_enrollment": null,
+    "pupil_teacher_ratio": null,
+    "title1_pct": null,
+    "charter_pct": null,
+    "regular_schools": null,
+    "avg_school_rating": null,
+    "rated_schools": null,
+    "school_quality_tier": null
+  },
+  "environment": {
+    "pm25_mean": null,
+    "ozone_mean": null,
+    "total_disasters": null,
+    "avg_disasters_per_decade": null,
+    "most_recent_disaster": null,
+    "most_recent_disaster_type": null,
+    "disasters_by_type": {}
+  },
+  "housing": {
+    "median_rent": null,
+    "housing_units": null,
+    "fmr_0br": null,
+    "fmr_1br": null,
+    "fmr_2br": null,
+    "fmr_3br": null,
+    "fmr_4br": null,
+    "rent_burden_ratio": null,
+    "cost_burdened_pct": null,
+    "severely_burdened_pct": null
+  },
+  "governance": {
+    "legislative_volume": 7187,
+    "legislative_velocity": 697.8,
+    "committee_count": 21,
+    "years_of_legislative_data": 10.3,
+    "has_public_meetings": true,
+    "api_accessible": true,
+    "matter_types": {
+      "Resolution": 509,
+      "Bill": 397,
+      "Appointment": 91,
+      "Rule Amendment": 3
+    },
+    "top_matter_type": "Resolution",
+    "matter_statuses": {
+      "Passed": 853,
+      "Public Hearing": 40,
+      "Second Reading": 39,
+      "Withdrawn": 28,
+      "Third Reading": 25,
+      "Confirmation": 3,
+      "Failed": 3,
+      "Appointment": 2,
+      "Resolution": 2,
+      "Election": 2,
+      "Indefinitely Deferred": 2,
+      "Filed": 1
+    },
+    "pass_rate": 33.3,
+    "passed_count": 2395,
+    "active_council_members": 41,
+    "avg_tenure_years": 2.4,
+    "vote_coverage_pct": 0.0,
+    "video_availability_pct": 0.0,
+    "agenda_availability_pct": 48.2,
+    "minutes_availability_pct": 12.4,
+    "avg_meetings_per_month": 16.5,
+    "meetings_by_year": {
+      "2026": 17,
+      "2025": 195,
+      "2024": 200,
+      "2023": 88
+    },
+    "avg_sponsors_per_matter": 8.9,
+    "avg_attachments_per_matter": 0.2,
+    "pct_with_text_versions": 100.0,
+    "index_categories": [],
+    "has_accela": false,
+    "accela_agency_id": null
+  },
+  "development": {
+    "permits_12mo": null,
+    "yoy_trend_pct": null,
+    "avg_permit_value": null,
+    "permit_types": {},
+    "datasets_count": 0
+  },
+  "meetings": {
+    "official_channels": 0,
+    "meetings_indexed": null,
+    "avg_meetings_per_month": null,
+    "has_video_archive": false,
+    "meeting_types": {},
+    "transcripts_available": null
+  },
+  "civic_issues": {
+    "total_issues": null,
+    "issues_last_30d": null,
+    "issues_last_365d": null,
+    "resolution_rate": null,
+    "top_issue_type": null,
+    "type_distribution": {},
+    "has_civic_issue_tracking": false
+  },
+  "demographics": {
+    "population": null,
+    "poverty_universe": null,
+    "employment_universe": null
+  },
+  "time_series": {
+    "economy_history": [],
+    "safety_history": [],
+    "environment_history": []
+  },
+  "data_sources": {
+    "legistar": "available",
+    "socrata": "skipped",
+    "census_acs": "skipped",
+    "arcgis": "available",
+    "fbi_ucr": "skipped",
+    "socrata_crime": "skipped",
+    "bls_laus": "skipped",
+    "ca_edd": "skipped",
+    "epa_aqs": "skipped",
+    "nces_ccd": "skipped",
+    "hud_fmr": "skipped",
+    "fema_openfema": "skipped",
+    "greatschools": "skipped",
+    "permits": "skipped",
+    "youtube_meetings": "skipped",
+    "seeclickfix": "skipped",
+    "accela": "skipped",
+    "hud_usps": "unavailable",
+    "census_vacancy": "unavailable"
+  },
+  "provenance": {
+    "last_full_probe": "2026-02-10T07:53:54.289478",
+    "sources": {
+      "legistar": {
+        "authority": "Legistar by Granicus",
+        "authority_tier": 1,
+        "api_url": "https://webapi.legistar.com/v1/nashville/Bodies",
+        "probed_at": "2026-02-10T07:53:54.290987",
+        "data_vintage": "2020–2026",
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "socrata": {
+        "authority": "City Open Data Portals (Socrata/Tyler Data & Insights)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "census_acs": {
+        "authority": "US Census Bureau",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": "ACS 5-Year 2022",
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "arcgis": {
+        "authority": "City ArcGIS/GIS Portals",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-10T07:55:12.783953",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "fbi_ucr": {
+        "authority": "FBI Uniform Crime Reporting Program",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "state",
+        "status": "skipped"
+      },
+      "bls_laus": {
+        "authority": "Bureau of Labor Statistics",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "state",
+        "status": "skipped"
+      },
+      "epa_aqs": {
+        "authority": "US Environmental Protection Agency",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "state",
+        "status": "skipped"
+      },
+      "nces_ccd": {
+        "authority": "National Center for Education Statistics",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": "2022-2023 academic year",
+        "geographic_level": "state",
+        "status": "skipped"
+      },
+      "hud_fmr": {
+        "authority": "US Department of Housing and Urban Development",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": "FY2026",
+        "geographic_level": "state",
+        "status": "skipped"
+      },
+      "fema_openfema": {
+        "authority": "Federal Emergency Management Agency",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": "1953-present",
+        "geographic_level": "state",
+        "status": "skipped"
+      },
+      "greatschools": {
+        "authority": "GreatSchools.org (nonprofit)",
+        "authority_tier": 3,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "permits": {
+        "authority": "City Open Data Portals (Socrata)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "youtube_meetings": {
+        "authority": "YouTube (via SerpAPI search + youtube-transcript-api)",
+        "authority_tier": 3,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "seeclickfix": {
+        "authority": "SeeClickFix (civic issue tracking platform)",
+        "authority_tier": 3,
+        "api_url": "https://seeclickfix.com/api/v2/issues?place_url=nashville",
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "accela": {
+        "authority": "Accela (permit management platform)",
+        "authority_tier": 3,
+        "api_url": "https://apis.accela.com/v4/agencies",
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "socrata_crime": {
+        "authority": "City Open Data Portals (Socrata)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      }
+    },
+    "derived_fields": {
+      "safety.total_crime_rate": {
+        "formula": "violent_crime_rate + property_crime_rate",
+        "inputs": [
+          "safety.violent_crime_rate",
+          "safety.property_crime_rate"
+        ],
+        "formula_location": "score/normalizer.py:_derive_total_crime",
+        "authority_tier": 2
+      },
+      "safety.crime_trend": {
+        "formula": "(last_year_rate - first_year_rate) / years_span",
+        "inputs": [
+          "fbi.time_series[].violent_crime_rate"
+        ],
+        "formula_location": "score/normalizer.py:_build_safety",
+        "authority_tier": 2
+      },
+      "education.school_quality_tier": {
+        "formula": "excellent if avg>=8, good if avg>=6, fair if avg>=4, else poor",
+        "inputs": [
+          "education.avg_school_rating"
+        ],
+        "formula_location": "score/normalizer.py:_build_education",
+        "authority_tier": 3
+      },
+      "environment.avg_disasters_per_decade": {
+        "formula": "total_disasters / (years_span / 10)",
+        "inputs": [
+          "environment.total_disasters"
+        ],
+        "formula_location": "probe/fema_probe.py",
+        "authority_tier": 2
+      },
+      "housing.rent_burden_ratio": {
+        "formula": "(fmr_2br * 12) / median_household_income * 100",
+        "inputs": [
+          "housing.fmr_2br",
+          "economy.median_household_income"
+        ],
+        "formula_location": "score/normalizer.py:_build_housing",
+        "authority_tier": 2
+      },
+      "governance.legislative_velocity": {
+        "formula": "legislative_volume / years_of_legislative_data",
+        "inputs": [
+          "governance.legislative_volume",
+          "governance.years_of_legislative_data"
+        ],
+        "formula_location": "score/normalizer.py:_build_governance",
+        "authority_tier": 2
+      },
+      "development.yoy_trend_pct": {
+        "formula": "(current_year - prior_year) / prior_year * 100",
+        "inputs": [
+          "permit data from Socrata"
+        ],
+        "formula_location": "probe/permits_probe.py",
+        "authority_tier": 2
+      }
+    },
+    "geographic_mismatches": [
+      {
+        "field": "identity.fips_state",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "state-level data applied to city profile"
+      },
+      {
+        "field": "economy.unemployment_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Reflects statewide unemployment, not city-specific rate"
+      },
+      {
+        "field": "economy.labor_force",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: This is the full state labor force, not city-level"
+      },
+      {
+        "field": "economy.employed",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "economy.unemployed",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.violent_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: City-level requires ORI codes not currently used"
+      },
+      {
+        "field": "safety.property_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.murder_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.robbery_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.burglary_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.vehicle_theft_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.total_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA; derived sum"
+      },
+      {
+        "field": "safety.crime_trend",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "state-level data applied to city profile"
+      },
+      {
+        "field": "education.total_schools",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Count includes all schools in the state, not city"
+      },
+      {
+        "field": "education.total_enrollment",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.pupil_teacher_ratio",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Average across all state schools"
+      },
+      {
+        "field": "education.title1_pct",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.charter_pct",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.regular_schools",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.pm25_mean",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE/COUNTY-LEVEL: Averaged across all monitors in the state"
+      },
+      {
+        "field": "environment.ozone_mean",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE/COUNTY-LEVEL"
+      },
+      {
+        "field": "environment.total_disasters",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: All declarations for the state, not city-specific"
+      },
+      {
+        "field": "environment.avg_disasters_per_decade",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.most_recent_disaster",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.most_recent_disaster_type",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "housing.fmr_0br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR: Fair Market Rents at state level, not city-specific metro area"
+      },
+      {
+        "field": "housing.fmr_1br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_2br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_3br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_4br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.rent_burden_ratio",
+        "source_level": "mixed",
+        "profile_level": "place",
+        "note": "GEOGRAPHIC MISMATCH: FMR is state-level (HUD), income is city-level (Census). Ratio may be biased."
+      }
+    ]
+  },
+  "data_quality": {
+    "quality_score": 28.6,
+    "grade": "F",
+    "completeness_pct": 28.6,
+    "issue_count": 1,
+    "granularity_flags": 0
+  },
+  "officials": {
+    "body_name": "Metropolitan Council",
+    "members": [
+      {
+        "name": "Angie Henderson",
+        "email": "Angie.Henderson@nashville.gov",
+        "title": "Vice Mayor",
+        "start_date": "2023-09-01",
+        "phone": "615-432-1334",
+        "website": "https://www.nashville.gov/Metro-Council/Metro-Council-Members/Vice-Mayor.aspx",
+        "committees": [
+          "Vice Mayor"
+        ]
+      },
+      {
+        "name": "Antoinette Lee",
+        "email": "Antoinette.Lee@nashville.gov",
+        "title": "Council Member",
+        "start_date": "2023-09-15",
+        "phone": "615-432-1333",
+        "website": "https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-33-Council-Member.aspx",
+        "committees": [
+          "Arts, Parks, Libraries, and Entertainment Committee"
+        ]
+      },
+      {
+        "name": "Bob Nash",
+        "email": "Bob.Nash@nashville.gov",
+        "title": "Council Member",
+        "start_date": "2023-09-15",
+        "phone": "615-432-1327",
+        "website": "https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-27-Council-Member.aspx",
+        "committees": [
+          "Government Operations and Regulations Committee",
+          "Public Health and Safety Committee"
+        ]
+      },
+      {
+        "name": "Brandon Taylor",
+        "email": "Brandon.Taylor@nashville.gov",
+        "title": "Council Member",
+        "start_date": "2023-09-15",
+        "phone": "615-432-1321",
+        "website": "https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-21-Council-Member.aspx",
+        "committees": [
+          "Arts, Parks, Libraries, and Entertainment Committee",
+          "Public Facilities, Arts, and Culture Committee"
+        ]
+      },
+      {
+        "name": "Brenda Gadd",
+        "email": "Brenda.Gadd@nashville.gov",
+        "title": "Council Member",
+        "start_date": "2023-09-15",
+        "phone": "615-432-1324",
+        "website": "https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-24-Council-Member.aspx",
+        "committees": [
+          "Arts, Parks, Libraries, and Entertainment Committee",
+          "Planning and Zoning Committee",
+          "Public Facilities, Arts, and Culture Committee",
+          "Public Health and Safety Committee"
+        ]
+      },
+      {
+        "name": "Burkley Allen",
+        "email": "Burkley.Allen@nashville.gov",
+        "title": "Council Member",
+        "start_date": "2023-09-15",
+        "phone": "615-432-1343",
+        "website": "https://www.nashville.gov/Metro-Council/Metro-Council-Members/At-Large-4-Council-Member.aspx",
+        "committees": [
+          "Budget and Finance Committee",
+          "Planning and Zoning Committee",
+          "Transportation and Infrastructure Committee"
+        ]
+      },
+      {
+        "name": "Clay Capp",
+        "email": "clay.capp@nashville.gov",
+        "title": "Council Member",
+        "start_date": "2023-09-15",
+        "phone": "615-432-1306",
+        "website": "https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-5-Council-Member.aspx",
+        "committees": [
+          "Ad-Hoc East Bank Committee",
+          "Arts, Parks, Libraries, and Entertainment Committee",
+          "Charter Revision Committee",
+          "Planning and Zoning Committee",
+          "Public Facilities, Arts, and Culture Committee"
+        ]
+      },
+      {
+        "name": "Courtney Johnston",
+        "email": "Courtney.Johnston@nashville.gov",
+        "title": "Council Member",
+        "start_date": "2023-09-15",
+        "phone": "615-432-1326",
+        "website": "https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-26-Council-Member.aspx",
+        "committees": [
+          "Budget and Finance Committee",
+          "Charter Revision Committee"
+        ]
+      },
+      {
+        "name": "David Benton",
+        "email": "David.Benton@nashville.gov",
+        "title": "Council Member",
+        "start_date": "2023-09-15",
+        "phone": "615-432-1328",
+        "website": "https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-28-Council-Member.aspx",
+        "committees": [
+          "Government Operations and Regulations Committee",
+          "Public Health and Safety Committee"
+        ]
+      },
+      {
+        "name": "Delishia Porterfield",
+        "email": "Delishia.Porterfield@nashville.gov",
+        "title": "Council Member",
+        "start_date": "2023-09-15",
+        "phone": "615-432-1329",
+        "website": "https://www.nashville.gov/Metro-Council/Metro-Council-Members/At-Large-2-Council-Member.aspx",
+        "committees": [
+          "Budget and Finance Committee",
+          "Public Health and Safety Committee"
+        ]
+      },
+      {
+        "name": "Deonte Harrell",
+        "email": "Deonte.Harrell@nashviklle.gov",
+        "title": "Council Member",
+        "start_date": "2023-09-15",
+        "phone": "615-432-1308",
+        "website": "https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-8-Council-Member.aspx",
+        "committees": [
+          "Planning and Zoning Committee",
+          "Public Health and Safety Committee"
+        ]
+      },
+      {
+        "name": "Emily Benedict",
+        "email": "Emily.Benedict@nashville.gov",
+        "title": "Council Member",
+        "start_date": "2023-09-15",
+        "phone": "615-432-1307",
+        "website": "https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-7-Council-Member.aspx",
+        "committees": [
+          "Planning and Zoning Committee",
+          "Transportation and Infrastructure Committee"
+        ]
+      },
+      {
+        "name": "Erin Evans",
+        "email": "Erin.Evans@nashville.gov",
+        "title": "Council Member",
+        "start_date": "2023-09-15",
+        "phone": "615-432-1312",
+        "website": "https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-12-Council-Member.aspx",
+        "committees": [
+          "Public Health and Safety Committee",
+          "Rules, Confirmations, and Public Elections Committee"
+        ]
+      },
+      {
+        "name": "Ginny Welsch",
+        "email": "Ginny.Welsch@nashville.gov",
+        "title": "Council Member",
+        "start_date": "2023-09-15",
+        "phone": "615-432-1316",
+        "website": "https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-16-Council-Member.aspx",
+        "committees": [
+          "Arts, Parks, Libraries, and Entertainment Committee",
+          "Government Operations and Regulations Committee",
+          "Public Facilities, Arts, and Culture Committee"
+        ]
+      },
+      {
+        "name": "Jacob Kupin",
+        "email": "Jacob.Kupin@nashville.gov",
+        "title": "Council Member",
+        "start_date": "2023-09-15",
+        "phone": "615-432-1319",
+        "website": "https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-19-Council-Member.aspx",
+        "committees": [
+          "Ad-Hoc East Bank Committee",
+          "Planning and Zoning Committee",
+          "Transportation and Infrastructure Committee"
+        ]
+      },
+      {
+        "name": "Jason Spain",
+        "email": "Jason.Spain@nashville.gov",
+        "title": "Council Member",
+        "start_date": "2023-09-15",
+        "website": "https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-35-Council-Member.aspx",
+        "committees": [
+          "Budget and Finance Committee",
+          "Rules, Confirmations, and Public Elections Committee",
+          "Transportation and Infrastructure Committee"
+        ]
+      },
+      {
+        "name": "Jeff Eslick",
+        "email": "Jeff.Eslick@nashville.gov",
+        "title": "Council Member",
+        "start_date": "2023-09-15",
+        "phone": "615-862-6780",
+        "website": "https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-11-Council-Member.aspx",
+        "committees": [
+          "Arts, Parks, Libraries, and Entertainment Committee",
+          "Government Operations and Regulations Committee",
+          "Public Facilities, Arts, and Culture Committee"
+        ]
+      },
+      {
+        "name": "Jeff Gregg",
+        "email": "Jeff.Gregg@nashville.gov",
+        "title": "Council Member",
+        "start_date": "2023-09-15",
+        "phone": "615-432-1315",
+        "website": "https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-15-Council-Member.aspx",
+        "committees": [
+          "Ad-Hoc East Bank Committee",
+          "Budget and Finance Committee",
+          "Public Health and Safety Committee"
+        ]
+      },
+      {
+        "name": "Jeff Preptit",
+        "email": "Jeff.Preptit@nashville.gov",
+        "title": "Council Member",
+        "start_date": "2023-09-15",
+        "phone": "615-432-1325",
+        "website": "https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-25-Council-Member.aspx",
+        "committees": [
+          "Charter Revision Committee",
+          "Public Health and Safety Committee",
+          "Rules, Confirmations, and Public Elections Committee"
+        ]
+      },
+      {
+        "name": "Jennifer Gamble",
+        "email": "Jennifer.Gamble@nashville.gov",
+        "title": "Council Member",
+        "start_date": "2023-09-15",
+        "phone": "615-432-1303",
+        "website": "https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-3-Council-Member.aspx",
+        "committees": [
+          "Budget and Finance Committee",
+          "Planning and Zoning Committee"
+        ]
+      },
+      {
+        "name": "Jennifer Webb",
+        "email": "Jennifer.Webb@nashville.gov",
+        "title": "Council Member",
+        "start_date": "2023-09-15",
+        "phone": "615-432-1310",
+        "website": "https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-10-Council-Member.aspx",
+        "committees": [
+          "Budget and Finance Committee",
+          "Government Operations and Regulations Committee"
+        ]
+      },
+      {
+        "name": "John Rutherford",
+        "email": "John.Rutherford@nashville.gov",
+        "title": "Council Member",
+        "start_date": "2023-09-15",
+        "phone": "615-432-1312",
+        "website": "https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-31-Council-Member.aspx",
+        "committees": [
+          "Planning and Zoning Committee",
+          "Rules, Confirmations, and Public Elections Committee"
+        ]
+      },
+      {
+        "name": "Jordan Huffman",
+        "email": "Jordan.Huffman@nashville.gov",
+        "title": "Council Member",
+        "start_date": "2023-09-15",
+        "phone": "1 Public Square Park",
+        "website": "https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-14-Council-Member.aspx",
+        "committees": [
+          "Budget and Finance Committee",
+          "Public Health and Safety Committee"
+        ]
+      },
+      {
+        "name": "Joy Smith Kimbrough",
+        "email": "Joy.Kimbrough@nashville.gov",
+        "title": "Council Member",
+        "start_date": "2023-09-15",
+        "phone": "615-432-1301",
+        "website": "https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-1-Council-Member.aspx",
+        "committees": [
+          "Government Operations and Regulations Committee",
+          "Public Health and Safety Committee"
+        ]
+      },
+      {
+        "name": "Joy Styles",
+        "email": "Joy.Styles@nashville.gov",
+        "title": "Council Member",
+        "start_date": "2023-09-15",
+        "phone": "615-432-1332",
+        "website": "https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-32-Council-Member.aspx",
+        "committees": [
+          "Arts, Parks, Libraries, and Entertainment Committee",
+          "Government Operations and Regulations Committee",
+          "Public Facilities, Arts, and Culture Committee"
+        ]
+      },
+      {
+        "name": "Kyonzte Toombs",
+        "email": "Kyonzte.Toombs@nashville.gov",
+        "title": "Council Member",
+        "start_date": "2023-09-15",
+        "phone": "615-432-1302",
+        "website": "https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-2-Council-Member.aspx",
+        "committees": [
+          "Ad-Hoc East Bank Committee",
+          "Budget and Finance Committee",
+          "Charter Revision Committee",
+          "Rules, Confirmations, and Public Elections Committee"
+        ]
+      },
+      {
+        "name": "Mike Cortese",
+        "email": "Mike.Cortese@nashville.gov",
+        "title": "Council Member",
+        "start_date": "2023-09-15",
+        "phone": "615-862-6780",
+        "website": "https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-4-Council-Member.aspx",
+        "committees": [
+          "Budget and Finance Committee",
+          "Planning and Zoning Committee"
+        ]
+      },
+      {
+        "name": "Olivia Hill",
+        "email": "Olivia.Hill@nashville.gov",
+        "title": "Council Member",
+        "start_date": "2023-09-15",
+        "phone": "615-862-6780",
+        "website": "https://www.nashville.gov/Metro-Council/Metro-Council-Members/At-Large-5-Council-Member.aspx",
+        "committees": [
+          "Government Operations and Regulations Committee",
+          "Transportation and Infrastructure Committee"
+        ]
+      },
+      {
+        "name": "Quin Evans-Segall",
+        "email": "Quin.EvansSegall@nashville.gov",
+        "title": "Council Member",
+        "start_date": "2023-09-15",
+        "phone": "615-862-6780",
+        "website": "https://www.nashville.gov/Metro-Council/Metro-Council-Members/At-Large-3-Council-Member.aspx",
+        "committees": [
+          "Ad-Hoc East Bank Committee",
+          "Budget and Finance Committee",
+          "Transportation and Infrastructure Committee"
+        ]
+      },
+      {
+        "name": "Rollin Horton",
+        "email": "Rollin.Horton@nashville.gov",
+        "title": "Council Member",
+        "start_date": "2023-09-15",
+        "phone": "615-432-1320",
+        "website": "https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-20-Council-Member.aspx",
+        "committees": [
+          "Planning and Zoning Committee",
+          "Transportation and Infrastructure Committee"
+        ]
+      },
+      {
+        "name": "Russ Bradford",
+        "email": "Russ.Bradford@nashville.gov",
+        "title": "Council Member",
+        "start_date": "2023-09-15",
+        "phone": "615-432-1313",
+        "website": "https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-13-Council-Member.aspx",
+        "committees": [
+          "Arts, Parks, Libraries, and Entertainment Committee",
+          "Public Health and Safety Committee"
+        ]
+      },
+      {
+        "name": "Sandra Sepulveda",
+        "email": "Sandra.Sepulveda@nashville.gov",
+        "title": "Council Member",
+        "start_date": "2023-09-15",
+        "phone": "615-432-1330",
+        "website": "https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-30-Council-Member.aspx",
+        "committees": [
+          "Planning and Zoning Committee",
+          "Rules, Confirmations, and Public Elections Committee"
+        ]
+      },
+      {
+        "name": "Sandy Ewing",
+        "email": "Sandy.Ewing@nashville.gov",
+        "title": "Council Member",
+        "start_date": "2023-09-15",
+        "phone": "615-432-1334",
+        "website": "https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-34-Council-Member.aspx",
+        "committees": [
+          "Arts, Parks, Libraries, and Entertainment Committee",
+          "Public Facilities, Arts, and Culture Committee",
+          "Transportation and Infrastructure Committee"
+        ]
+      },
+      {
+        "name": "Sean Parker",
+        "email": "Sean.Parker@nashville.gov",
+        "title": "Council Member",
+        "start_date": "2023-09-15",
+        "phone": "615-432-1305",
+        "website": "https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-5-Council-Member.aspx",
+        "committees": [
+          "Ad-Hoc East Bank Committee",
+          "Charter Revision Committee",
+          "Planning and Zoning Committee",
+          "Transportation and Infrastructure Committee"
+        ]
+      },
+      {
+        "name": "Sheri Weiner",
+        "email": "Sheri.Weiner@nashville.gov",
+        "title": "Council Member",
+        "start_date": "2023-09-15",
+        "phone": "615-432-1322",
+        "website": "https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-22-Council-Member.aspx",
+        "committees": [
+          "Charter Revision Committee",
+          "Public Health and Safety Committee"
+        ]
+      },
+      {
+        "name": "Tasha Ellis",
+        "email": "Tasha.Ellis@nashville.gov",
+        "title": "Council Member",
+        "start_date": "2023-09-15",
+        "phone": "615-862-6780",
+        "website": "https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-29-Council-Member.aspx",
+        "committees": [
+          "Government Operations and Regulations Committee",
+          "Transportation and Infrastructure Committee"
+        ]
+      },
+      {
+        "name": "Terry Vo",
+        "email": "Terry.Vo@nashville.gov",
+        "title": "Council Member",
+        "start_date": "2023-09-15",
+        "phone": "615-432-1317",
+        "website": "https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-17-Council-Member.aspx",
+        "committees": [
+          "Ad-Hoc East Bank Committee",
+          "Arts, Parks, Libraries, and Entertainment Committee",
+          "Planning and Zoning Committee",
+          "Public Facilities, Arts, and Culture Committee"
+        ]
+      },
+      {
+        "name": "Thom Druffel",
+        "email": "Thom.Druffel@nashville.gov",
+        "title": "Council Member",
+        "start_date": "2023-09-15",
+        "phone": "615-432-1323",
+        "website": "https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-23-Council-Member.aspx",
+        "committees": [
+          "Budget and Finance Committee",
+          "Rules, Confirmations, and Public Elections Committee"
+        ]
+      },
+      {
+        "name": "Tom Cash",
+        "email": "Tom.Cash@nashville.gov",
+        "title": "Council Member",
+        "start_date": "2023-09-15",
+        "phone": "615-432-1318",
+        "website": "https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-18-Council-Member.aspx",
+        "committees": [
+          "Charter Revision Committee",
+          "Rules, Confirmations, and Public Elections Committee",
+          "Transportation and Infrastructure Committee"
+        ]
+      },
+      {
+        "name": "Tonya Hancock",
+        "email": "Tonya.Hancock@nashville.gov",
+        "title": "Council Member",
+        "start_date": "2023-09-15",
+        "phone": "615-432-1309",
+        "website": "https://www.nashville.gov/Metro-Council/Metro-Council-Members/District-9-Council-Member.aspx",
+        "committees": [
+          "Government Operations and Regulations Committee",
+          "Public Facilities, Arts, and Culture Committee"
+        ]
+      },
+      {
+        "name": "Zulfat Suara",
+        "email": "Zulfat.Suara@nashville.gov",
+        "title": "Council Member",
+        "start_date": "2023-09-15",
+        "phone": "615-432-1345",
+        "website": "https://www.nashville.gov/Metro-Council/Metro-Council-Members/At-Large-1-Council-Member.aspx",
+        "committees": [
+          "Budget and Finance Committee",
+          "Public Health and Safety Committee"
+        ]
+      }
+    ]
+  },
+  "recent_meetings": [
+    {
+      "date": "2026-02-03",
+      "body": "Government Operations and Regulations Committee",
+      "location": "Committee Room 4",
+      "has_agenda": true,
+      "agenda_url": "https://nashville.legistar1.com/nashville/meetings/2026/2/2253_A_Government_Operations_and_Regulations_Committee_26-02-03_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "Arts, Parks, Libraries, and Entertainment Committee",
+      "location": "Committee Room 4",
+      "has_agenda": true,
+      "agenda_url": "https://nashville.legistar1.com/nashville/meetings/2026/2/2251_A_Arts%2C_Parks%2C_Libraries%2C_and_Entertainment_Committee_26-02-03_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "Rules, Confirmations, and Public Elections Committee",
+      "location": "Committee Room 2",
+      "has_agenda": true,
+      "agenda_url": "https://nashville.legistar1.com/nashville/meetings/2026/2/2252_A_Rules%2C_Confirmations%2C_and_Public_Elections_Committee_26-02-03_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "Metropolitan Council",
+      "location": "Metropolitan Courthouse",
+      "has_agenda": true,
+      "agenda_url": "https://nashville.legistar1.com/nashville/meetings/2026/2/2184_A_Metropolitan_Council_26-02-03_Meeting_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "Public Health and Safety Committee",
+      "location": "David Scobey Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://nashville.legistar1.com/nashville/meetings/2026/2/2250_A_Public_Health_and_Safety_Committee_26-02-03_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-02",
+      "body": "Transportation and Infrastructure Committee",
+      "location": "David Scobey Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://nashville.legistar1.com/nashville/meetings/2026/2/2247_A_Transportation_and_Infrastructure_Committee_26-02-02_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-02",
+      "body": "Planning and Zoning Committee",
+      "location": "David Scobey Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://nashville.legistar1.com/nashville/meetings/2026/2/2248_A_Planning_and_Zoning_Committee_26-02-02_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-02",
+      "body": "Budget and Finance Committee",
+      "location": "David Scobey Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://nashville.legistar1.com/nashville/meetings/2026/2/2249_A_Budget_and_Finance_Committee_26-02-02_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-20",
+      "body": "Charter Revision Committee",
+      "location": "Committee Room 1",
+      "has_agenda": true,
+      "agenda_url": "https://nashville.legistar1.com/nashville/meetings/2026/1/2246_A_Charter_Revision_Committee_26-01-20_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-20",
+      "body": "Arts, Parks, Libraries, and Entertainment Committee",
+      "location": "Committee Room 4",
+      "has_agenda": true,
+      "agenda_url": "https://nashville.legistar1.com/nashville/meetings/2026/1/2245_A_Arts%2C_Parks%2C_Libraries%2C_and_Entertainment_Committee_26-01-20_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "A resolution requesting the Metropolitan Civil Service Commission to update rules about the filing and resolution of employee grievances.",
+      "type": "Resolution",
+      "status": "Resolution",
+      "intro_date": "2026-01-27",
+      "file_number": "RS2026-1783",
+      "passed_date": null
+    },
+    {
+      "title": "Transportation Licensing Commission\nConsideration of nominees to fill one vacancy on the Commission with a term expiring on January 31, 2028, with an election to be conducted at the March 3, 2026 Coun",
+      "type": "Appointment",
+      "status": "Appointment",
+      "intro_date": "2026-01-27",
+      "file_number": "26-008",
+      "passed_date": null
+    },
+    {
+      "title": "A resolution recognizing February 2026 as Black History Month in Nashville and Davidson County.",
+      "type": "Resolution",
+      "status": "Passed",
+      "intro_date": "2026-01-27",
+      "file_number": "RS2026-1785",
+      "passed_date": "2026-02-05"
+    },
+    {
+      "title": "Historical Commission\r\nReappointment of Laura Rost for a term expiring January 29, 2030.",
+      "type": "Appointment",
+      "status": "Confirmation",
+      "intro_date": "2026-01-27",
+      "file_number": "26-007",
+      "passed_date": null
+    },
+    {
+      "title": "A resolution recognizing Metropolitan Government employees for extraordinary efforts during inclement weather in January 2026.",
+      "type": "Resolution",
+      "status": "Passed",
+      "intro_date": "2026-01-27",
+      "file_number": "RS2026-1784",
+      "passed_date": "2026-02-05"
+    },
+    {
+      "title": "An ordinance to amend Title 6 of the Metropolitan Code of Laws regarding the disclosure of personalized algorithmic and dynamic pricing.",
+      "type": "Bill",
+      "status": "Second Reading",
+      "intro_date": "2026-01-27",
+      "file_number": "BL2026-1254",
+      "passed_date": null
+    },
+    {
+      "title": "A resolution recognizing January 2026 as Muslim American Heritage Month in Nashville and Davidson County.",
+      "type": "Resolution",
+      "status": "Passed",
+      "intro_date": "2026-01-27",
+      "file_number": "RS2026-1786",
+      "passed_date": "2026-02-05"
+    },
+    {
+      "title": "An ordinance amending Chapter 13.08 of the Metropolitan Code of Laws, related to sandwich board signs in the public right-of-way.",
+      "type": "Bill",
+      "status": "Second Reading",
+      "intro_date": "2026-01-27",
+      "file_number": "BL2026-1255",
+      "passed_date": null
+    },
+    {
+      "title": "An ordinance amending Chapters 17.16 and 17.40 of the Metropolitan Code of Laws, to permit detached accessory dwelling units (DADUs) on legally created residential lots with non-conforming lot area (P",
+      "type": "Bill",
+      "status": "Public Hearing",
+      "intro_date": "2026-01-27",
+      "file_number": "BL2026-1257",
+      "passed_date": null
+    },
+    {
+      "title": "Historical Commission\r\nReappointment of Don Cusic for a term expiring February 3, 2030.",
+      "type": "Appointment",
+      "status": "Confirmation",
+      "intro_date": "2026-01-27",
+      "file_number": "26-006",
+      "passed_date": null
+    }
+  ],
+  "legistar_url": "https://nashville.legistar.com",
+  "enriched_at": "2026-02-13T20:06:43.464341",
+  "government_news": [],
+  "video_meetings": [],
+  "data_platforms": [
+    "legistar"
+  ]
+}

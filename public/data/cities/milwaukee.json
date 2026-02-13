@@ -1,1 +1,1086 @@
-{"schema_version":"5.0","normalized_at":"2026-02-10T14:21:49.291219","identity":{"name":"Milwaukee","state":"","fips_state":null,"fips_place":null,"population":null},"city_website":"https://www.milwaukee.gov","economy":{"median_household_income":null,"median_home_value":null,"unemployment_rate":null,"unemployment_data_level":"state","labor_force":null,"employed":null,"unemployed":null,"gini_index":null,"poverty_rate":null,"homeownership_rate":null,"rent_to_income_ratio":null,"home_value_to_income_ratio":null,"price_to_rent_ratio":null,"effective_tax_rate":null,"population_growth_cagr":null,"median_real_estate_taxes":null},"safety":{"violent_crime_rate":null,"property_crime_rate":null,"murder_rate":null,"robbery_rate":null,"burglary_rate":null,"vehicle_theft_rate":null,"total_crime_rate":null,"crime_trend":null,"crime_data_level":null},"education":{"total_schools":null,"total_enrollment":null,"pupil_teacher_ratio":null,"title1_pct":null,"charter_pct":null,"regular_schools":null,"avg_school_rating":null,"rated_schools":null,"school_quality_tier":null},"environment":{"pm25_mean":null,"ozone_mean":null,"total_disasters":null,"avg_disasters_per_decade":null,"most_recent_disaster":null,"most_recent_disaster_type":null,"disasters_by_type":{}},"housing":{"median_rent":null,"housing_units":null,"fmr_0br":null,"fmr_1br":null,"fmr_2br":null,"fmr_3br":null,"fmr_4br":null,"rent_burden_ratio":null,"cost_burdened_pct":null,"severely_burdened_pct":null},"governance":{"legislative_volume":60546,"legislative_velocity":1572.6,"committee_count":184,"years_of_legislative_data":38.5,"has_public_meetings":true,"api_accessible":true,"matter_types":{"Resolution":373,"Communication":203,"Fire and Police Resolution":108,"APPEAL":71,"Appointment":60,"Ordinance":52,"Fire and Police Communication":42,"Motion":35,"Housing Authority Resolution":22,"Resolution-Immediate Adoption":15,"Communication to Finance":11,"Plan Commission Resolution":3,"Youth Council Resolution":2,"Travaux Resolution":2,"Motion-Immediate Adoption":1},"top_matter_type":"Resolution","matter_statuses":{"Passed":412,"In Committee":301,"Placed On File":88,"In Council-Adoption":55,"In Commission":53,"Confirmed":30,"In Council-Confirmation":13,"In Council-Placed on File":11,"In Council-Passage":9,"Dead":9,"Introduced":8,"In Council-Indefinite Postponement":5,"Entered through OLS":2,"Denied":2,"In Council-Approval":1,"Withdrawn":1},"pass_rate":33.3,"passed_count":20182,"active_council_members":15,"avg_tenure_years":1.8,"vote_coverage_pct":0.0,"video_availability_pct":0.0,"agenda_availability_pct":98.0,"minutes_availability_pct":75.4,"avg_meetings_per_month":36.1,"meetings_by_year":{"2026":67,"2025":433},"avg_sponsors_per_matter":1.0,"avg_attachments_per_matter":4.9,"pct_with_text_versions":100.0,"index_categories":["53206 TASK FORCE","ABANDONED VEHICLES TASK FORCE","ADMINISTRATIVE REVIEW APPEALS BOARD","ADMINISTRATIVE REVIEW BOARD OF APPEALS","ADVERTISING","ADVERTISING, OUTDOOR","ADVISORY COMMITTEE ON NAMING PUBLIC BUILDINGS AND STREETS","AFFIRMATIVE ACTION","AFRICAN AMERICAN AFFAIRS COMMISSION","AFRICAN AMERICAN MALE UNEMPLOYMENT TASK FORCE","AFRICAN AMERICANS","AGREEMENTS","AGRICULTURE","AIR POLLUTION","AIR QUALITY","AIR SPACE LEASES","AIRPORTS","ALARM SYSTEMS","ALCOHOL - REGULATION AND LICENSING","ALLEY IMPROVEMENTS","ALLEY OPENINGS","ALLEY RESERVATIONS","ALLEY VACATIONS","ALLEYS","AMBULANCE SERVICE","AMBULANCE SERVICE BOARD","AMERICAN RECOVERY AND REINVESTMENT ACT","AMERICAN RESCUE PLAN ACT FUNDING ALLOCATION TASK FORCE","ANIMALS","ANNEXATION","ANNUITY AND BENEFIT FUND","ANNUITY AND PENSION BOARD","ANTI-BULLYING TASK FORCE","APPOINTMENTS","APPORTIONMENT","APPROPRIATIONS AND EXPENDITURES","ARCADES","ARCHITECTURAL REVIEW BOARD","ART AND CULTURE","ASBESTOS","ASSESSMENTS","ASSESSOR'S OFFICE","AUCTIONS","AUDITS","AUTOMATION","BANKING","BANKS AND LENDING INSTITUTIONS","BANNERS","BARRICADES","BEACHES"],"has_accela":false,"accela_agency_id":null},"development":{"permits_12mo":null,"yoy_trend_pct":null,"avg_permit_value":null,"permit_types":{},"datasets_count":0},"meetings":{"official_channels":0,"meetings_indexed":null,"avg_meetings_per_month":null,"has_video_archive":false,"meeting_types":{},"transcripts_available":null},"civic_issues":{"total_issues":null,"issues_last_30d":null,"issues_last_365d":null,"resolution_rate":null,"top_issue_type":null,"type_distribution":{},"has_civic_issue_tracking":false},"demographics":{"population":null,"poverty_universe":null,"employment_universe":null},"time_series":{"economy_history":[],"safety_history":[],"environment_history":[]},"data_sources":{"legistar":"available","socrata":"skipped","census_acs":"skipped","arcgis":"available","fbi_ucr":"skipped","socrata_crime":"skipped","bls_laus":"skipped","ca_edd":"skipped","epa_aqs":"skipped","nces_ccd":"skipped","hud_fmr":"skipped","fema_openfema":"skipped","greatschools":"skipped","permits":"skipped","youtube_meetings":"skipped","seeclickfix":"skipped","accela":"skipped"},"provenance":{"last_full_probe":"2026-02-10T07:09:22.450669","sources":{"legistar":{"authority":"Legistar by Granicus","authority_tier":1,"api_url":"https://webapi.legistar.com/v1/milwaukee/Bodies","probed_at":"2026-02-10T07:09:22.451838","data_vintage":"1982\u20132026","geographic_level":"place","status":"available"},"socrata":{"authority":"City Open Data Portals (Socrata/Tyler Data & Insights)","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"place","status":"skipped"},"census_acs":{"authority":"US Census Bureau","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":"ACS 5-Year 2022","geographic_level":"place","status":"skipped"},"arcgis":{"authority":"City ArcGIS/GIS Portals","authority_tier":1,"api_url":null,"probed_at":"2026-02-10T07:11:16.237156","data_vintage":null,"geographic_level":"place","status":"available"},"fbi_ucr":{"authority":"FBI Uniform Crime Reporting Program","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"state","status":"skipped"},"bls_laus":{"authority":"Bureau of Labor Statistics","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"state","status":"skipped"},"epa_aqs":{"authority":"US Environmental Protection Agency","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"state","status":"skipped"},"nces_ccd":{"authority":"National Center for Education Statistics","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":"2022-2023 academic year","geographic_level":"state","status":"skipped"},"hud_fmr":{"authority":"US Department of Housing and Urban Development","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":"FY2026","geographic_level":"state","status":"skipped"},"fema_openfema":{"authority":"Federal Emergency Management Agency","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":"1953-present","geographic_level":"state","status":"skipped"},"greatschools":{"authority":"GreatSchools.org (nonprofit)","authority_tier":3,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"place","status":"skipped"},"permits":{"authority":"City Open Data Portals (Socrata)","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"place","status":"skipped"},"youtube_meetings":{"authority":"YouTube (via SerpAPI search + youtube-transcript-api)","authority_tier":3,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"place","status":"skipped"},"seeclickfix":{"authority":"SeeClickFix (civic issue tracking platform)","authority_tier":3,"api_url":"https://seeclickfix.com/api/v2/issues?place_url=milwaukee","probed_at":null,"data_vintage":null,"geographic_level":"place","status":"skipped"},"accela":{"authority":"Accela (permit management platform)","authority_tier":3,"api_url":"https://apis.accela.com/v4/agencies","probed_at":null,"data_vintage":null,"geographic_level":"place","status":"skipped"},"socrata_crime":{"authority":"City Open Data Portals (Socrata)","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"place","status":"skipped"}},"derived_fields":{"safety.total_crime_rate":{"formula":"violent_crime_rate + property_crime_rate","inputs":["safety.violent_crime_rate","safety.property_crime_rate"],"formula_location":"score/normalizer.py:_derive_total_crime","authority_tier":2},"safety.crime_trend":{"formula":"(last_year_rate - first_year_rate) / years_span","inputs":["fbi.time_series[].violent_crime_rate"],"formula_location":"score/normalizer.py:_build_safety","authority_tier":2},"education.school_quality_tier":{"formula":"excellent if avg>=8, good if avg>=6, fair if avg>=4, else poor","inputs":["education.avg_school_rating"],"formula_location":"score/normalizer.py:_build_education","authority_tier":3},"environment.avg_disasters_per_decade":{"formula":"total_disasters / (years_span / 10)","inputs":["environment.total_disasters"],"formula_location":"probe/fema_probe.py","authority_tier":2},"housing.rent_burden_ratio":{"formula":"(fmr_2br * 12) / median_household_income * 100","inputs":["housing.fmr_2br","economy.median_household_income"],"formula_location":"score/normalizer.py:_build_housing","authority_tier":2},"governance.legislative_velocity":{"formula":"legislative_volume / years_of_legislative_data","inputs":["governance.legislative_volume","governance.years_of_legislative_data"],"formula_location":"score/normalizer.py:_build_governance","authority_tier":2},"development.yoy_trend_pct":{"formula":"(current_year - prior_year) / prior_year * 100","inputs":["permit data from Socrata"],"formula_location":"probe/permits_probe.py","authority_tier":2}},"geographic_mismatches":[{"field":"identity.fips_state","source_level":"state","profile_level":"place","note":"state-level data applied to city profile"},{"field":"economy.unemployment_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Reflects statewide unemployment, not city-specific rate"},{"field":"economy.labor_force","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: This is the full state labor force, not city-level"},{"field":"economy.employed","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"economy.unemployed","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.violent_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: City-level requires ORI codes not currently used"},{"field":"safety.property_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.murder_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.robbery_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.burglary_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.vehicle_theft_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.total_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA; derived sum"},{"field":"safety.crime_trend","source_level":"state","profile_level":"place","note":"state-level data applied to city profile"},{"field":"education.total_schools","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Count includes all schools in the state, not city"},{"field":"education.total_enrollment","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.pupil_teacher_ratio","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Average across all state schools"},{"field":"education.title1_pct","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.charter_pct","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.regular_schools","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.pm25_mean","source_level":"state","profile_level":"place","note":"STATE/COUNTY-LEVEL: Averaged across all monitors in the state"},{"field":"environment.ozone_mean","source_level":"state","profile_level":"place","note":"STATE/COUNTY-LEVEL"},{"field":"environment.total_disasters","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: All declarations for the state, not city-specific"},{"field":"environment.avg_disasters_per_decade","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.most_recent_disaster","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.most_recent_disaster_type","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"housing.fmr_0br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR: Fair Market Rents at state level, not city-specific metro area"},{"field":"housing.fmr_1br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_2br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_3br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_4br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.rent_burden_ratio","source_level":"mixed","profile_level":"place","note":"GEOGRAPHIC MISMATCH: FMR is state-level (HUD), income is city-level (Census). Ratio may be biased."}]},"data_quality":{"quality_score":28.6,"grade":"F","completeness_pct":28.6,"issue_count":1,"granularity_flags":0},"officials":{"body_name":"COMMON COUNCIL","members":[{"name":"ALD. A. PRATT","email":null,"title":"1st District","start_date":"2024-04-16","committees":["ANTI-ILLEGAL DUMPING POLICY AND RESEARCH COMMITTEE","HARBOR COMMISSION","JUDICIARY & LEGISLATION COMMITTEE","LIBRARY BOARD","LICENSES COMMITTEE"]},{"name":"ALD. BAUMAN","email":"rjbauma@milwaukee.gov","title":"4th District","start_date":"2024-04-16","phone":"414-286-2221","website":"http://www.milwaukee.gov/district4","committees":["ARCHITECTURAL REVIEW BOARD (BID NO. 2)","HISTORIC PRESERVATION COMMISSION","JOINT COMMITTEE ON DOWNTOWN STREETCAR IMPLEMENTATION","JOINT COMMITTEE ON REDEVELOPMENT OF ABANDONED AND FORECLOSED HOMES","JUDICIARY & LEGISLATION COMMITTEE"]},{"name":"ALD. BROWER","email":null,"title":"3rd District","start_date":"2025-04-04","committees":["LICENSES COMMITTEE","PUBLIC WORKS COMMITTEE"]},{"name":"ALD. BURGELIS","email":null,"title":"11th District","start_date":"2024-04-16","committees":["FINANCE & PERSONNEL COMMITTEE","LICENSES COMMITTEE","PUBLIC SAFETY AND HEALTH COMMITTEE"]},{"name":"ALD. CHAMBERS JR.","email":"mark.chambers@milwaukee.gov","title":"2nd District","start_date":"2024-04-16","phone":"414-286-3787","website":"https://city.milwaukee.gov/CommonCouncil/Council-Members/District2","committees":["COMMUNITY & ECONOMIC DEVELOPMENT COMMITTEE","JUDICIARY & LEGISLATION COMMITTEE","LICENSES COMMITTEE","MILWAUKEE METROPOLITAN SEWERAGE DISTRICT"]},{"name":"ALD. COGGS","email":"mcoggs@milwaukee.gov","title":"6th District","start_date":"2024-04-16","phone":"414-286-2221","website":"http://www.milwaukee.gov/district6","committees":["ANTI-ILLEGAL DUMPING POLICY AND RESEARCH COMMITTEE","CAPITAL IMPROVEMENTS COMMITTEE","COMMUNITY INTERVENTION TASK FORCE","FINANCE & PERSONNEL COMMITTEE","JOINT COMMITTEE ON DOWNTOWN STREETCAR IMPLEMENTATION"]},{"name":"ALD. DIMITRIJEVIC","email":"Marina@milwaukee.gov","title":"14th District","start_date":"2024-04-16","committees":["CAPITAL IMPROVEMENTS COMMITTEE","CITY-COUNTY ADVISORY BOARD ON CLIMATE AND ECONOMIC EQUITY","CITY HALL CAMPUS EMERGENCY PREPAREDNESS COMMITTEE","COMMUNITY & ECONOMIC DEVELOPMENT COMMITTEE","FINANCE & PERSONNEL COMMITTEE"]},{"name":"ALD. JACKSON","email":null,"title":"7th District","start_date":"2024-04-16","committees":["ADMINISTRATIVE REVIEW BOARD OF APPEALS","COMMUNITY & ECONOMIC DEVELOPMENT COMMITTEE","JUDICIARY & LEGISLATION COMMITTEE","STEERING & RULES COMMITTEE","ZONING, NEIGHBORHOODS & DEVELOPMENT COMMITTEE"]},{"name":"ALD. MOORE","email":null,"title":"10th District","start_date":"2024-04-16","committees":["ANTI-ILLEGAL DUMPING POLICY AND RESEARCH COMMITTEE","FINANCE & PERSONNEL COMMITTEE","HOUSING AUTHORITY","PUBLIC SAFETY AND HEALTH COMMITTEE"]},{"name":"ALD. PEREZ","email":"jperez@milwaukee.gov","title":"12th District","start_date":"2024-04-16","phone":"414-286-2221","website":"http://www.milwaukee.gov/district12","committees":["BLACK MALE ACHIEVEMENT ADVISORY COUNCIL","CAPITAL IMPROVEMENTS COMMITTEE","EMERGING YOUTH ACHIEVEMENT ADVISORY COUNCIL","LOCAL BUSINESS ACTION TEAM","PURCHASING APPEALS BOARD"]},{"name":"ALD. SPIKER","email":"Scott.Spiker@milwaukee.gov","title":"13th District","start_date":"2024-04-16","committees":["AMBULANCE SERVICE BOARD","CITY INFORMATION MANAGEMENT COMMITTEE","COMMUNITY INTERVENTION TASK FORCE","FINANCE & PERSONNEL COMMITTEE","PUBLIC SAFETY AND HEALTH COMMITTEE"]},{"name":"ALD. STAMPER","email":"Russell.Stamper@milwaukee.gov","title":"15th District","start_date":"2024-04-16","committees":["COMMUNITY & ECONOMIC DEVELOPMENT COMMITTEE","DISPARITY STUDY INDEPENDENT REVIEW COMMITTEE","EMERGING YOUTH ACHIEVEMENT ADVISORY COUNCIL","JOINT COMMITTEE ON REDEVELOPMENT OF ABANDONED AND FORECLOSED HOMES","SISTER CITIES COMMITTEE"]},{"name":"ALD. TAYLOR","email":null,"title":"9th District","start_date":"2024-04-16","committees":["DOMESTIC VIOLENCE AND SEXUAL ASSAULT, MILWAUKEE COMMISSION ON","LIBRARY BOARD","PUBLIC SAFETY AND HEALTH COMMITTEE","PUBLIC WORKS COMMITTEE"]},{"name":"ALD. WESTMORELAND","email":null,"title":"5th District","start_date":"2024-04-16","committees":["JUDICIARY & LEGISLATION COMMITTEE","PUBLIC SAFETY AND HEALTH COMMITTEE","PUBLIC WORKS COMMITTEE","REDEVELOPMENT AUTHORITY","VISIT MILWAUKEE"]},{"name":"ALD. ZAMARRIPA","email":"JoCasta.Zamarripa@milwaukee.gov","title":"8th District","start_date":"2024-04-16","committees":["COMMUNITY & ECONOMIC DEVELOPMENT COMMITTEE","LICENSES COMMITTEE","STEERING & RULES COMMITTEE"]}]},"recent_meetings":[{"date":"2026-02-13","body":"ADMINISTRATIVE REVIEW BOARD OF APPEALS","location":"City Hall Room 301-A \r\nVirtual option available","has_agenda":true,"agenda_url":"https://milwaukee.legistar1.com/milwaukee/meetings/2026/2/13572_A_ADMINISTRATIVE_REVIEW_BOARD_OF_APPEALS_26-02-13_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":true},{"date":"2026-02-16","body":"CITY PLAN COMMISSION","location":"809 N.Broadway, 1st Floor Boardroom","has_agenda":true,"agenda_url":"https://milwaukee.legistar1.com/milwaukee/meetings/2026/2/13549_A_CITY_PLAN_COMMISSION_26-02-16_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":true},{"date":"2026-02-20","body":"BOARD OF CITY SERVICE COMMISSIONERS","location":"Hybrid/City Hall, Room 301-A","has_agenda":true,"agenda_url":"https://milwaukee.legistar1.com/milwaukee/meetings/2026/2/13793_A_BOARD_OF_CITY_SERVICE_COMMISSIONERS_26-02-20_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":true},{"date":"2026-03-06","body":"BOARD OF CITY SERVICE COMMISSIONERS","location":"City Hall, Room 301-A and Microsoft TEAMS","has_agenda":true,"agenda_url":"https://milwaukee.legistar1.com/milwaukee/meetings/2026/3/13800_A_BOARD_OF_CITY_SERVICE_COMMISSIONERS_26-03-06_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":true},{"date":"2026-03-13","body":"BOARD OF CITY SERVICE COMMISSIONERS","location":"City Hall, Room 301-A","has_agenda":true,"agenda_url":"https://milwaukee.legistar1.com/milwaukee/meetings/2026/3/13801_A_BOARD_OF_CITY_SERVICE_COMMISSIONERS_26-03-13_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":true},{"date":"2026-02-12","body":"EMERGING YOUTH ACHIEVEMENT ADVISORY COUNCIL","location":"City Hall, Room 301-B","has_agenda":true,"agenda_url":"https://milwaukee.legistar1.com/milwaukee/meetings/2026/2/13611_A_EMERGING_YOUTH_ACHIEVEMENT_ADVISORY_COUNCIL_26-02-12_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-12","body":"COMMUNITY COLLABORATIVE COMMISSION","location":"Virtual","has_agenda":true,"agenda_url":"https://milwaukee.legistar1.com/milwaukee/meetings/2026/2/13802_A_COMMUNITY_COLLABORATIVE_COMMISSION_26-02-12_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-10","body":"MILWAUKEE ARTS BOARD","location":"Virtual","has_agenda":true,"agenda_url":"https://milwaukee.legistar1.com/milwaukee/meetings/2026/2/13704_A_MILWAUKEE_ARTS_BOARD_26-02-10_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-10","body":"BOARD OF CITY SERVICE COMMISSIONERS","location":"Virtual","has_agenda":true,"agenda_url":"https://milwaukee.legistar1.com/milwaukee/meetings/2026/2/13799_A_BOARD_OF_CITY_SERVICE_COMMISSIONERS_26-02-10_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-10","body":"MILWAUKEE ARTS BOARD PUBLIC ART SUBCOMMITTEE","location":"Virtual","has_agenda":true,"agenda_url":"https://milwaukee.legistar1.com/milwaukee/meetings/2026/2/13680_A_MILWAUKEE_ARTS_BOARD_PUBLIC_ART_SUBCOMMITTEE_26-02-10_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-10","body":"COMMON COUNCIL","location":"Common Council Chamber","has_agenda":true,"agenda_url":"https://milwaukee.legistar1.com/milwaukee/meetings/2026/2/13418_A_COMMON_COUNCIL_26-02-10_Council_Agenda.pdf","has_minutes":true,"has_video":false,"upcoming":false},{"date":"2026-02-10","body":"LICENSES COMMITTEE","location":"Council Chambers, Third Floor, City Hall","has_agenda":true,"agenda_url":"https://milwaukee.legistar1.com/milwaukee/meetings/2026/2/13647_A_LICENSES_COMMITTEE_26-02-10_Meeting_Agenda.pdf","has_minutes":true,"has_video":false,"upcoming":false},{"date":"2026-02-05","body":"FIRE AND POLICE COMMISSION","location":"City Hall, Room 301-B","has_agenda":true,"agenda_url":"https://milwaukee.legistar1.com/milwaukee/meetings/2026/2/13472_A_FIRE_AND_POLICE_COMMISSION_26-02-05_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-05","body":"FIRE AND POLICE COMMISSION","location":"City Hall, Room 301-B","has_agenda":true,"agenda_url":"https://milwaukee.legistar1.com/milwaukee/meetings/2026/2/13473_A_FIRE_AND_POLICE_COMMISSION_26-02-05_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-04","body":"BOARD OF HEALTH","location":"City Hall, Room 301A","has_agenda":true,"agenda_url":"https://milwaukee.legistar1.com/milwaukee/meetings/2026/2/13740_A_BOARD_OF_HEALTH_26-02-04_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false}],"recent_legislation":[{"title":"Resolution authorizing the Department of Emergency Communications to apply for Wisconsin Fast Forward Grants, with a grantor share of 50% and a local share of 50%.","type":"Resolution-Immediate Adoption","status":"Approval Review","intro_date":"2026-02-10","file_number":"251752","passed_date":"2026-02-10"},{"title":"Communication from the City Clerk relating to various commendatory/condolatory resolutions to be acknowledged and affirmed by the Common Council.","type":"Communication","status":"Placed On File","intro_date":"2026-02-10","file_number":"251674","passed_date":"2026-02-10"},{"title":"Motion relating to the recommendations of the Licenses Committee relating to licenses.","type":"Motion","status":"In Committee","intro_date":"2026-02-10","file_number":"251756","passed_date":null},{"title":"Communication from the Department of Administration relating to its Vision Zero Annual Report.","type":"Communication","status":"In Committee","intro_date":"2026-02-10","file_number":"251684","passed_date":null},{"title":"Resolution approving an agreement between the City and O'Neil, Cannon, Hollman, DeJong & Laing S.C. (local counsel) and Miller Shah LLP (national counsel) for legal services and representation relatin","type":"Resolution-Immediate Adoption","status":"Approval Review","intro_date":"2026-02-10","file_number":"251704","passed_date":"2026-02-10"},{"title":"Resolution directing the Department of CIty Development to work with the Milwaukee Health Department and any other relevant agencies to create strategies for the retention and attraction of full-servi","type":"Resolution","status":"In Committee","intro_date":"2026-02-10","file_number":"251707","passed_date":null},{"title":"Communication relating to the activities of the City-County Advisory Board on Climate and Economic Equity.","type":"Communication","status":"Placed On File","intro_date":"2026-02-10","file_number":"251672","passed_date":"2026-02-10"},{"title":"Resolution relating to a Certificate of Appropriateness for installing replica colored glass windows at 1119 E. Knapp Street , in the First Ward Triangle Historic District for WSP Peltz House.","type":"Resolution","status":"In Committee","intro_date":"2026-02-09","file_number":"251769","passed_date":null},{"title":"Appeal of Iqbal Kaur Ghotra and Jagdish Kumar Patel for tall grass and weeds nuisance fees (6154 S 13th St.) (13th Aldermanic District).","type":"APPEAL","status":"In Committee","intro_date":"2026-02-05","file_number":"26023","passed_date":null},{"title":"Appeal of Cody Connors, Hallertau Holdings LLC for snow removal fees (1552 N Farwell Ave.) (3rd Aldermanic District)","type":"APPEAL","status":"In Committee","intro_date":"2026-02-05","file_number":"26022","passed_date":null}],"legistar_url":"https://milwaukee.legistar.com","enriched_at":"2026-02-13T20:06:19.454676","government_news":[],"video_meetings":[],"data_platforms":["legistar"]}
+{
+  "schema_version": "5.0",
+  "normalized_at": "2026-02-10T14:21:49.291219",
+  "identity": {
+    "name": "Milwaukee",
+    "state": "",
+    "fips_state": null,
+    "fips_place": null,
+    "population": null
+  },
+  "city_website": "https://www.milwaukee.gov",
+  "economy": {
+    "median_household_income": null,
+    "median_home_value": null,
+    "unemployment_rate": null,
+    "unemployment_data_level": "state",
+    "labor_force": null,
+    "employed": null,
+    "unemployed": null,
+    "gini_index": null,
+    "poverty_rate": null,
+    "homeownership_rate": null,
+    "rent_to_income_ratio": null,
+    "home_value_to_income_ratio": null,
+    "price_to_rent_ratio": null,
+    "effective_tax_rate": null,
+    "population_growth_cagr": null,
+    "median_real_estate_taxes": null
+  },
+  "safety": {
+    "violent_crime_rate": null,
+    "property_crime_rate": null,
+    "murder_rate": null,
+    "robbery_rate": null,
+    "burglary_rate": null,
+    "vehicle_theft_rate": null,
+    "total_crime_rate": null,
+    "crime_trend": null,
+    "crime_data_level": null
+  },
+  "education": {
+    "total_schools": null,
+    "total_enrollment": null,
+    "pupil_teacher_ratio": null,
+    "title1_pct": null,
+    "charter_pct": null,
+    "regular_schools": null,
+    "avg_school_rating": null,
+    "rated_schools": null,
+    "school_quality_tier": null
+  },
+  "environment": {
+    "pm25_mean": null,
+    "ozone_mean": null,
+    "total_disasters": null,
+    "avg_disasters_per_decade": null,
+    "most_recent_disaster": null,
+    "most_recent_disaster_type": null,
+    "disasters_by_type": {}
+  },
+  "housing": {
+    "median_rent": null,
+    "housing_units": null,
+    "fmr_0br": null,
+    "fmr_1br": null,
+    "fmr_2br": null,
+    "fmr_3br": null,
+    "fmr_4br": null,
+    "rent_burden_ratio": null,
+    "cost_burdened_pct": null,
+    "severely_burdened_pct": null
+  },
+  "governance": {
+    "legislative_volume": 60546,
+    "legislative_velocity": 1572.6,
+    "committee_count": 184,
+    "years_of_legislative_data": 38.5,
+    "has_public_meetings": true,
+    "api_accessible": true,
+    "matter_types": {
+      "Resolution": 373,
+      "Communication": 203,
+      "Fire and Police Resolution": 108,
+      "APPEAL": 71,
+      "Appointment": 60,
+      "Ordinance": 52,
+      "Fire and Police Communication": 42,
+      "Motion": 35,
+      "Housing Authority Resolution": 22,
+      "Resolution-Immediate Adoption": 15,
+      "Communication to Finance": 11,
+      "Plan Commission Resolution": 3,
+      "Youth Council Resolution": 2,
+      "Travaux Resolution": 2,
+      "Motion-Immediate Adoption": 1
+    },
+    "top_matter_type": "Resolution",
+    "matter_statuses": {
+      "Passed": 412,
+      "In Committee": 301,
+      "Placed On File": 88,
+      "In Council-Adoption": 55,
+      "In Commission": 53,
+      "Confirmed": 30,
+      "In Council-Confirmation": 13,
+      "In Council-Placed on File": 11,
+      "In Council-Passage": 9,
+      "Dead": 9,
+      "Introduced": 8,
+      "In Council-Indefinite Postponement": 5,
+      "Entered through OLS": 2,
+      "Denied": 2,
+      "In Council-Approval": 1,
+      "Withdrawn": 1
+    },
+    "pass_rate": 33.3,
+    "passed_count": 20182,
+    "active_council_members": 15,
+    "avg_tenure_years": 1.8,
+    "vote_coverage_pct": 0.0,
+    "video_availability_pct": 0.0,
+    "agenda_availability_pct": 98.0,
+    "minutes_availability_pct": 75.4,
+    "avg_meetings_per_month": 36.1,
+    "meetings_by_year": {
+      "2026": 67,
+      "2025": 433
+    },
+    "avg_sponsors_per_matter": 1.0,
+    "avg_attachments_per_matter": 4.9,
+    "pct_with_text_versions": 100.0,
+    "index_categories": [
+      "53206 TASK FORCE",
+      "ABANDONED VEHICLES TASK FORCE",
+      "ADMINISTRATIVE REVIEW APPEALS BOARD",
+      "ADMINISTRATIVE REVIEW BOARD OF APPEALS",
+      "ADVERTISING",
+      "ADVERTISING, OUTDOOR",
+      "ADVISORY COMMITTEE ON NAMING PUBLIC BUILDINGS AND STREETS",
+      "AFFIRMATIVE ACTION",
+      "AFRICAN AMERICAN AFFAIRS COMMISSION",
+      "AFRICAN AMERICAN MALE UNEMPLOYMENT TASK FORCE",
+      "AFRICAN AMERICANS",
+      "AGREEMENTS",
+      "AGRICULTURE",
+      "AIR POLLUTION",
+      "AIR QUALITY",
+      "AIR SPACE LEASES",
+      "AIRPORTS",
+      "ALARM SYSTEMS",
+      "ALCOHOL - REGULATION AND LICENSING",
+      "ALLEY IMPROVEMENTS",
+      "ALLEY OPENINGS",
+      "ALLEY RESERVATIONS",
+      "ALLEY VACATIONS",
+      "ALLEYS",
+      "AMBULANCE SERVICE",
+      "AMBULANCE SERVICE BOARD",
+      "AMERICAN RECOVERY AND REINVESTMENT ACT",
+      "AMERICAN RESCUE PLAN ACT FUNDING ALLOCATION TASK FORCE",
+      "ANIMALS",
+      "ANNEXATION",
+      "ANNUITY AND BENEFIT FUND",
+      "ANNUITY AND PENSION BOARD",
+      "ANTI-BULLYING TASK FORCE",
+      "APPOINTMENTS",
+      "APPORTIONMENT",
+      "APPROPRIATIONS AND EXPENDITURES",
+      "ARCADES",
+      "ARCHITECTURAL REVIEW BOARD",
+      "ART AND CULTURE",
+      "ASBESTOS",
+      "ASSESSMENTS",
+      "ASSESSOR'S OFFICE",
+      "AUCTIONS",
+      "AUDITS",
+      "AUTOMATION",
+      "BANKING",
+      "BANKS AND LENDING INSTITUTIONS",
+      "BANNERS",
+      "BARRICADES",
+      "BEACHES"
+    ],
+    "has_accela": false,
+    "accela_agency_id": null
+  },
+  "development": {
+    "permits_12mo": null,
+    "yoy_trend_pct": null,
+    "avg_permit_value": null,
+    "permit_types": {},
+    "datasets_count": 0
+  },
+  "meetings": {
+    "official_channels": 0,
+    "meetings_indexed": null,
+    "avg_meetings_per_month": null,
+    "has_video_archive": false,
+    "meeting_types": {},
+    "transcripts_available": null
+  },
+  "civic_issues": {
+    "total_issues": null,
+    "issues_last_30d": null,
+    "issues_last_365d": null,
+    "resolution_rate": null,
+    "top_issue_type": null,
+    "type_distribution": {},
+    "has_civic_issue_tracking": false
+  },
+  "demographics": {
+    "population": null,
+    "poverty_universe": null,
+    "employment_universe": null
+  },
+  "time_series": {
+    "economy_history": [],
+    "safety_history": [],
+    "environment_history": []
+  },
+  "data_sources": {
+    "legistar": "available",
+    "socrata": "skipped",
+    "census_acs": "skipped",
+    "arcgis": "available",
+    "fbi_ucr": "skipped",
+    "socrata_crime": "skipped",
+    "bls_laus": "skipped",
+    "ca_edd": "skipped",
+    "epa_aqs": "skipped",
+    "nces_ccd": "skipped",
+    "hud_fmr": "skipped",
+    "fema_openfema": "skipped",
+    "greatschools": "skipped",
+    "permits": "skipped",
+    "youtube_meetings": "skipped",
+    "seeclickfix": "skipped",
+    "accela": "skipped",
+    "hud_usps": "unavailable",
+    "census_vacancy": "unavailable"
+  },
+  "provenance": {
+    "last_full_probe": "2026-02-10T07:09:22.450669",
+    "sources": {
+      "legistar": {
+        "authority": "Legistar by Granicus",
+        "authority_tier": 1,
+        "api_url": "https://webapi.legistar.com/v1/milwaukee/Bodies",
+        "probed_at": "2026-02-10T07:09:22.451838",
+        "data_vintage": "1982–2026",
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "socrata": {
+        "authority": "City Open Data Portals (Socrata/Tyler Data & Insights)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "census_acs": {
+        "authority": "US Census Bureau",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": "ACS 5-Year 2022",
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "arcgis": {
+        "authority": "City ArcGIS/GIS Portals",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-10T07:11:16.237156",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "fbi_ucr": {
+        "authority": "FBI Uniform Crime Reporting Program",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "state",
+        "status": "skipped"
+      },
+      "bls_laus": {
+        "authority": "Bureau of Labor Statistics",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "state",
+        "status": "skipped"
+      },
+      "epa_aqs": {
+        "authority": "US Environmental Protection Agency",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "state",
+        "status": "skipped"
+      },
+      "nces_ccd": {
+        "authority": "National Center for Education Statistics",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": "2022-2023 academic year",
+        "geographic_level": "state",
+        "status": "skipped"
+      },
+      "hud_fmr": {
+        "authority": "US Department of Housing and Urban Development",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": "FY2026",
+        "geographic_level": "state",
+        "status": "skipped"
+      },
+      "fema_openfema": {
+        "authority": "Federal Emergency Management Agency",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": "1953-present",
+        "geographic_level": "state",
+        "status": "skipped"
+      },
+      "greatschools": {
+        "authority": "GreatSchools.org (nonprofit)",
+        "authority_tier": 3,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "permits": {
+        "authority": "City Open Data Portals (Socrata)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "youtube_meetings": {
+        "authority": "YouTube (via SerpAPI search + youtube-transcript-api)",
+        "authority_tier": 3,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "seeclickfix": {
+        "authority": "SeeClickFix (civic issue tracking platform)",
+        "authority_tier": 3,
+        "api_url": "https://seeclickfix.com/api/v2/issues?place_url=milwaukee",
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "accela": {
+        "authority": "Accela (permit management platform)",
+        "authority_tier": 3,
+        "api_url": "https://apis.accela.com/v4/agencies",
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "socrata_crime": {
+        "authority": "City Open Data Portals (Socrata)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      }
+    },
+    "derived_fields": {
+      "safety.total_crime_rate": {
+        "formula": "violent_crime_rate + property_crime_rate",
+        "inputs": [
+          "safety.violent_crime_rate",
+          "safety.property_crime_rate"
+        ],
+        "formula_location": "score/normalizer.py:_derive_total_crime",
+        "authority_tier": 2
+      },
+      "safety.crime_trend": {
+        "formula": "(last_year_rate - first_year_rate) / years_span",
+        "inputs": [
+          "fbi.time_series[].violent_crime_rate"
+        ],
+        "formula_location": "score/normalizer.py:_build_safety",
+        "authority_tier": 2
+      },
+      "education.school_quality_tier": {
+        "formula": "excellent if avg>=8, good if avg>=6, fair if avg>=4, else poor",
+        "inputs": [
+          "education.avg_school_rating"
+        ],
+        "formula_location": "score/normalizer.py:_build_education",
+        "authority_tier": 3
+      },
+      "environment.avg_disasters_per_decade": {
+        "formula": "total_disasters / (years_span / 10)",
+        "inputs": [
+          "environment.total_disasters"
+        ],
+        "formula_location": "probe/fema_probe.py",
+        "authority_tier": 2
+      },
+      "housing.rent_burden_ratio": {
+        "formula": "(fmr_2br * 12) / median_household_income * 100",
+        "inputs": [
+          "housing.fmr_2br",
+          "economy.median_household_income"
+        ],
+        "formula_location": "score/normalizer.py:_build_housing",
+        "authority_tier": 2
+      },
+      "governance.legislative_velocity": {
+        "formula": "legislative_volume / years_of_legislative_data",
+        "inputs": [
+          "governance.legislative_volume",
+          "governance.years_of_legislative_data"
+        ],
+        "formula_location": "score/normalizer.py:_build_governance",
+        "authority_tier": 2
+      },
+      "development.yoy_trend_pct": {
+        "formula": "(current_year - prior_year) / prior_year * 100",
+        "inputs": [
+          "permit data from Socrata"
+        ],
+        "formula_location": "probe/permits_probe.py",
+        "authority_tier": 2
+      }
+    },
+    "geographic_mismatches": [
+      {
+        "field": "identity.fips_state",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "state-level data applied to city profile"
+      },
+      {
+        "field": "economy.unemployment_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Reflects statewide unemployment, not city-specific rate"
+      },
+      {
+        "field": "economy.labor_force",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: This is the full state labor force, not city-level"
+      },
+      {
+        "field": "economy.employed",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "economy.unemployed",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.violent_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: City-level requires ORI codes not currently used"
+      },
+      {
+        "field": "safety.property_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.murder_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.robbery_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.burglary_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.vehicle_theft_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.total_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA; derived sum"
+      },
+      {
+        "field": "safety.crime_trend",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "state-level data applied to city profile"
+      },
+      {
+        "field": "education.total_schools",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Count includes all schools in the state, not city"
+      },
+      {
+        "field": "education.total_enrollment",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.pupil_teacher_ratio",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Average across all state schools"
+      },
+      {
+        "field": "education.title1_pct",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.charter_pct",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.regular_schools",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.pm25_mean",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE/COUNTY-LEVEL: Averaged across all monitors in the state"
+      },
+      {
+        "field": "environment.ozone_mean",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE/COUNTY-LEVEL"
+      },
+      {
+        "field": "environment.total_disasters",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: All declarations for the state, not city-specific"
+      },
+      {
+        "field": "environment.avg_disasters_per_decade",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.most_recent_disaster",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.most_recent_disaster_type",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "housing.fmr_0br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR: Fair Market Rents at state level, not city-specific metro area"
+      },
+      {
+        "field": "housing.fmr_1br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_2br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_3br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_4br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.rent_burden_ratio",
+        "source_level": "mixed",
+        "profile_level": "place",
+        "note": "GEOGRAPHIC MISMATCH: FMR is state-level (HUD), income is city-level (Census). Ratio may be biased."
+      }
+    ]
+  },
+  "data_quality": {
+    "quality_score": 28.6,
+    "grade": "F",
+    "completeness_pct": 28.6,
+    "issue_count": 1,
+    "granularity_flags": 0
+  },
+  "officials": {
+    "body_name": "COMMON COUNCIL",
+    "members": [
+      {
+        "name": "ALD. A. PRATT",
+        "email": null,
+        "title": "1st District",
+        "start_date": "2024-04-16",
+        "committees": [
+          "ANTI-ILLEGAL DUMPING POLICY AND RESEARCH COMMITTEE",
+          "HARBOR COMMISSION",
+          "JUDICIARY & LEGISLATION COMMITTEE",
+          "LIBRARY BOARD",
+          "LICENSES COMMITTEE"
+        ]
+      },
+      {
+        "name": "ALD. BAUMAN",
+        "email": "rjbauma@milwaukee.gov",
+        "title": "4th District",
+        "start_date": "2024-04-16",
+        "phone": "414-286-2221",
+        "website": "http://www.milwaukee.gov/district4",
+        "committees": [
+          "ARCHITECTURAL REVIEW BOARD (BID NO. 2)",
+          "HISTORIC PRESERVATION COMMISSION",
+          "JOINT COMMITTEE ON DOWNTOWN STREETCAR IMPLEMENTATION",
+          "JOINT COMMITTEE ON REDEVELOPMENT OF ABANDONED AND FORECLOSED HOMES",
+          "JUDICIARY & LEGISLATION COMMITTEE"
+        ]
+      },
+      {
+        "name": "ALD. BROWER",
+        "email": null,
+        "title": "3rd District",
+        "start_date": "2025-04-04",
+        "committees": [
+          "LICENSES COMMITTEE",
+          "PUBLIC WORKS COMMITTEE"
+        ]
+      },
+      {
+        "name": "ALD. BURGELIS",
+        "email": null,
+        "title": "11th District",
+        "start_date": "2024-04-16",
+        "committees": [
+          "FINANCE & PERSONNEL COMMITTEE",
+          "LICENSES COMMITTEE",
+          "PUBLIC SAFETY AND HEALTH COMMITTEE"
+        ]
+      },
+      {
+        "name": "ALD. CHAMBERS JR.",
+        "email": "mark.chambers@milwaukee.gov",
+        "title": "2nd District",
+        "start_date": "2024-04-16",
+        "phone": "414-286-3787",
+        "website": "https://city.milwaukee.gov/CommonCouncil/Council-Members/District2",
+        "committees": [
+          "COMMUNITY & ECONOMIC DEVELOPMENT COMMITTEE",
+          "JUDICIARY & LEGISLATION COMMITTEE",
+          "LICENSES COMMITTEE",
+          "MILWAUKEE METROPOLITAN SEWERAGE DISTRICT"
+        ]
+      },
+      {
+        "name": "ALD. COGGS",
+        "email": "mcoggs@milwaukee.gov",
+        "title": "6th District",
+        "start_date": "2024-04-16",
+        "phone": "414-286-2221",
+        "website": "http://www.milwaukee.gov/district6",
+        "committees": [
+          "ANTI-ILLEGAL DUMPING POLICY AND RESEARCH COMMITTEE",
+          "CAPITAL IMPROVEMENTS COMMITTEE",
+          "COMMUNITY INTERVENTION TASK FORCE",
+          "FINANCE & PERSONNEL COMMITTEE",
+          "JOINT COMMITTEE ON DOWNTOWN STREETCAR IMPLEMENTATION"
+        ]
+      },
+      {
+        "name": "ALD. DIMITRIJEVIC",
+        "email": "Marina@milwaukee.gov",
+        "title": "14th District",
+        "start_date": "2024-04-16",
+        "committees": [
+          "CAPITAL IMPROVEMENTS COMMITTEE",
+          "CITY-COUNTY ADVISORY BOARD ON CLIMATE AND ECONOMIC EQUITY",
+          "CITY HALL CAMPUS EMERGENCY PREPAREDNESS COMMITTEE",
+          "COMMUNITY & ECONOMIC DEVELOPMENT COMMITTEE",
+          "FINANCE & PERSONNEL COMMITTEE"
+        ]
+      },
+      {
+        "name": "ALD. JACKSON",
+        "email": null,
+        "title": "7th District",
+        "start_date": "2024-04-16",
+        "committees": [
+          "ADMINISTRATIVE REVIEW BOARD OF APPEALS",
+          "COMMUNITY & ECONOMIC DEVELOPMENT COMMITTEE",
+          "JUDICIARY & LEGISLATION COMMITTEE",
+          "STEERING & RULES COMMITTEE",
+          "ZONING, NEIGHBORHOODS & DEVELOPMENT COMMITTEE"
+        ]
+      },
+      {
+        "name": "ALD. MOORE",
+        "email": null,
+        "title": "10th District",
+        "start_date": "2024-04-16",
+        "committees": [
+          "ANTI-ILLEGAL DUMPING POLICY AND RESEARCH COMMITTEE",
+          "FINANCE & PERSONNEL COMMITTEE",
+          "HOUSING AUTHORITY",
+          "PUBLIC SAFETY AND HEALTH COMMITTEE"
+        ]
+      },
+      {
+        "name": "ALD. PEREZ",
+        "email": "jperez@milwaukee.gov",
+        "title": "12th District",
+        "start_date": "2024-04-16",
+        "phone": "414-286-2221",
+        "website": "http://www.milwaukee.gov/district12",
+        "committees": [
+          "BLACK MALE ACHIEVEMENT ADVISORY COUNCIL",
+          "CAPITAL IMPROVEMENTS COMMITTEE",
+          "EMERGING YOUTH ACHIEVEMENT ADVISORY COUNCIL",
+          "LOCAL BUSINESS ACTION TEAM",
+          "PURCHASING APPEALS BOARD"
+        ]
+      },
+      {
+        "name": "ALD. SPIKER",
+        "email": "Scott.Spiker@milwaukee.gov",
+        "title": "13th District",
+        "start_date": "2024-04-16",
+        "committees": [
+          "AMBULANCE SERVICE BOARD",
+          "CITY INFORMATION MANAGEMENT COMMITTEE",
+          "COMMUNITY INTERVENTION TASK FORCE",
+          "FINANCE & PERSONNEL COMMITTEE",
+          "PUBLIC SAFETY AND HEALTH COMMITTEE"
+        ]
+      },
+      {
+        "name": "ALD. STAMPER",
+        "email": "Russell.Stamper@milwaukee.gov",
+        "title": "15th District",
+        "start_date": "2024-04-16",
+        "committees": [
+          "COMMUNITY & ECONOMIC DEVELOPMENT COMMITTEE",
+          "DISPARITY STUDY INDEPENDENT REVIEW COMMITTEE",
+          "EMERGING YOUTH ACHIEVEMENT ADVISORY COUNCIL",
+          "JOINT COMMITTEE ON REDEVELOPMENT OF ABANDONED AND FORECLOSED HOMES",
+          "SISTER CITIES COMMITTEE"
+        ]
+      },
+      {
+        "name": "ALD. TAYLOR",
+        "email": null,
+        "title": "9th District",
+        "start_date": "2024-04-16",
+        "committees": [
+          "DOMESTIC VIOLENCE AND SEXUAL ASSAULT, MILWAUKEE COMMISSION ON",
+          "LIBRARY BOARD",
+          "PUBLIC SAFETY AND HEALTH COMMITTEE",
+          "PUBLIC WORKS COMMITTEE"
+        ]
+      },
+      {
+        "name": "ALD. WESTMORELAND",
+        "email": null,
+        "title": "5th District",
+        "start_date": "2024-04-16",
+        "committees": [
+          "JUDICIARY & LEGISLATION COMMITTEE",
+          "PUBLIC SAFETY AND HEALTH COMMITTEE",
+          "PUBLIC WORKS COMMITTEE",
+          "REDEVELOPMENT AUTHORITY",
+          "VISIT MILWAUKEE"
+        ]
+      },
+      {
+        "name": "ALD. ZAMARRIPA",
+        "email": "JoCasta.Zamarripa@milwaukee.gov",
+        "title": "8th District",
+        "start_date": "2024-04-16",
+        "committees": [
+          "COMMUNITY & ECONOMIC DEVELOPMENT COMMITTEE",
+          "LICENSES COMMITTEE",
+          "STEERING & RULES COMMITTEE"
+        ]
+      }
+    ]
+  },
+  "recent_meetings": [
+    {
+      "date": "2026-02-13",
+      "body": "ADMINISTRATIVE REVIEW BOARD OF APPEALS",
+      "location": "City Hall Room 301-A \r\nVirtual option available",
+      "has_agenda": true,
+      "agenda_url": "https://milwaukee.legistar1.com/milwaukee/meetings/2026/2/13572_A_ADMINISTRATIVE_REVIEW_BOARD_OF_APPEALS_26-02-13_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-16",
+      "body": "CITY PLAN COMMISSION",
+      "location": "809 N.Broadway, 1st Floor Boardroom",
+      "has_agenda": true,
+      "agenda_url": "https://milwaukee.legistar1.com/milwaukee/meetings/2026/2/13549_A_CITY_PLAN_COMMISSION_26-02-16_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-20",
+      "body": "BOARD OF CITY SERVICE COMMISSIONERS",
+      "location": "Hybrid/City Hall, Room 301-A",
+      "has_agenda": true,
+      "agenda_url": "https://milwaukee.legistar1.com/milwaukee/meetings/2026/2/13793_A_BOARD_OF_CITY_SERVICE_COMMISSIONERS_26-02-20_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-06",
+      "body": "BOARD OF CITY SERVICE COMMISSIONERS",
+      "location": "City Hall, Room 301-A and Microsoft TEAMS",
+      "has_agenda": true,
+      "agenda_url": "https://milwaukee.legistar1.com/milwaukee/meetings/2026/3/13800_A_BOARD_OF_CITY_SERVICE_COMMISSIONERS_26-03-06_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-13",
+      "body": "BOARD OF CITY SERVICE COMMISSIONERS",
+      "location": "City Hall, Room 301-A",
+      "has_agenda": true,
+      "agenda_url": "https://milwaukee.legistar1.com/milwaukee/meetings/2026/3/13801_A_BOARD_OF_CITY_SERVICE_COMMISSIONERS_26-03-13_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-12",
+      "body": "EMERGING YOUTH ACHIEVEMENT ADVISORY COUNCIL",
+      "location": "City Hall, Room 301-B",
+      "has_agenda": true,
+      "agenda_url": "https://milwaukee.legistar1.com/milwaukee/meetings/2026/2/13611_A_EMERGING_YOUTH_ACHIEVEMENT_ADVISORY_COUNCIL_26-02-12_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-12",
+      "body": "COMMUNITY COLLABORATIVE COMMISSION",
+      "location": "Virtual",
+      "has_agenda": true,
+      "agenda_url": "https://milwaukee.legistar1.com/milwaukee/meetings/2026/2/13802_A_COMMUNITY_COLLABORATIVE_COMMISSION_26-02-12_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "MILWAUKEE ARTS BOARD",
+      "location": "Virtual",
+      "has_agenda": true,
+      "agenda_url": "https://milwaukee.legistar1.com/milwaukee/meetings/2026/2/13704_A_MILWAUKEE_ARTS_BOARD_26-02-10_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "BOARD OF CITY SERVICE COMMISSIONERS",
+      "location": "Virtual",
+      "has_agenda": true,
+      "agenda_url": "https://milwaukee.legistar1.com/milwaukee/meetings/2026/2/13799_A_BOARD_OF_CITY_SERVICE_COMMISSIONERS_26-02-10_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "MILWAUKEE ARTS BOARD PUBLIC ART SUBCOMMITTEE",
+      "location": "Virtual",
+      "has_agenda": true,
+      "agenda_url": "https://milwaukee.legistar1.com/milwaukee/meetings/2026/2/13680_A_MILWAUKEE_ARTS_BOARD_PUBLIC_ART_SUBCOMMITTEE_26-02-10_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "COMMON COUNCIL",
+      "location": "Common Council Chamber",
+      "has_agenda": true,
+      "agenda_url": "https://milwaukee.legistar1.com/milwaukee/meetings/2026/2/13418_A_COMMON_COUNCIL_26-02-10_Council_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "LICENSES COMMITTEE",
+      "location": "Council Chambers, Third Floor, City Hall",
+      "has_agenda": true,
+      "agenda_url": "https://milwaukee.legistar1.com/milwaukee/meetings/2026/2/13647_A_LICENSES_COMMITTEE_26-02-10_Meeting_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-05",
+      "body": "FIRE AND POLICE COMMISSION",
+      "location": "City Hall, Room 301-B",
+      "has_agenda": true,
+      "agenda_url": "https://milwaukee.legistar1.com/milwaukee/meetings/2026/2/13472_A_FIRE_AND_POLICE_COMMISSION_26-02-05_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-05",
+      "body": "FIRE AND POLICE COMMISSION",
+      "location": "City Hall, Room 301-B",
+      "has_agenda": true,
+      "agenda_url": "https://milwaukee.legistar1.com/milwaukee/meetings/2026/2/13473_A_FIRE_AND_POLICE_COMMISSION_26-02-05_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-04",
+      "body": "BOARD OF HEALTH",
+      "location": "City Hall, Room 301A",
+      "has_agenda": true,
+      "agenda_url": "https://milwaukee.legistar1.com/milwaukee/meetings/2026/2/13740_A_BOARD_OF_HEALTH_26-02-04_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Resolution authorizing the Department of Emergency Communications to apply for Wisconsin Fast Forward Grants, with a grantor share of 50% and a local share of 50%.",
+      "type": "Resolution-Immediate Adoption",
+      "status": "Approval Review",
+      "intro_date": "2026-02-10",
+      "file_number": "251752",
+      "passed_date": "2026-02-10"
+    },
+    {
+      "title": "Communication from the City Clerk relating to various commendatory/condolatory resolutions to be acknowledged and affirmed by the Common Council.",
+      "type": "Communication",
+      "status": "Placed On File",
+      "intro_date": "2026-02-10",
+      "file_number": "251674",
+      "passed_date": "2026-02-10"
+    },
+    {
+      "title": "Motion relating to the recommendations of the Licenses Committee relating to licenses.",
+      "type": "Motion",
+      "status": "In Committee",
+      "intro_date": "2026-02-10",
+      "file_number": "251756",
+      "passed_date": null
+    },
+    {
+      "title": "Communication from the Department of Administration relating to its Vision Zero Annual Report.",
+      "type": "Communication",
+      "status": "In Committee",
+      "intro_date": "2026-02-10",
+      "file_number": "251684",
+      "passed_date": null
+    },
+    {
+      "title": "Resolution approving an agreement between the City and O'Neil, Cannon, Hollman, DeJong & Laing S.C. (local counsel) and Miller Shah LLP (national counsel) for legal services and representation relatin",
+      "type": "Resolution-Immediate Adoption",
+      "status": "Approval Review",
+      "intro_date": "2026-02-10",
+      "file_number": "251704",
+      "passed_date": "2026-02-10"
+    },
+    {
+      "title": "Resolution directing the Department of CIty Development to work with the Milwaukee Health Department and any other relevant agencies to create strategies for the retention and attraction of full-servi",
+      "type": "Resolution",
+      "status": "In Committee",
+      "intro_date": "2026-02-10",
+      "file_number": "251707",
+      "passed_date": null
+    },
+    {
+      "title": "Communication relating to the activities of the City-County Advisory Board on Climate and Economic Equity.",
+      "type": "Communication",
+      "status": "Placed On File",
+      "intro_date": "2026-02-10",
+      "file_number": "251672",
+      "passed_date": "2026-02-10"
+    },
+    {
+      "title": "Resolution relating to a Certificate of Appropriateness for installing replica colored glass windows at 1119 E. Knapp Street , in the First Ward Triangle Historic District for WSP Peltz House.",
+      "type": "Resolution",
+      "status": "In Committee",
+      "intro_date": "2026-02-09",
+      "file_number": "251769",
+      "passed_date": null
+    },
+    {
+      "title": "Appeal of Iqbal Kaur Ghotra and Jagdish Kumar Patel for tall grass and weeds nuisance fees (6154 S 13th St.) (13th Aldermanic District).",
+      "type": "APPEAL",
+      "status": "In Committee",
+      "intro_date": "2026-02-05",
+      "file_number": "26023",
+      "passed_date": null
+    },
+    {
+      "title": "Appeal of Cody Connors, Hallertau Holdings LLC for snow removal fees (1552 N Farwell Ave.) (3rd Aldermanic District)",
+      "type": "APPEAL",
+      "status": "In Committee",
+      "intro_date": "2026-02-05",
+      "file_number": "26022",
+      "passed_date": null
+    }
+  ],
+  "legistar_url": "https://milwaukee.legistar.com",
+  "enriched_at": "2026-02-13T20:06:19.454676",
+  "government_news": [],
+  "video_meetings": [],
+  "data_platforms": [
+    "legistar"
+  ]
+}

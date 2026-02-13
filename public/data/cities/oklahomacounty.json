@@ -1,1 +1,902 @@
-{"schema_version":"5.0","normalized_at":"2026-02-10T14:21:49.331246","identity":{"name":"Oklahoma County","state":"","fips_state":null,"fips_place":null,"population":null},"city_website":"https://www.oklahomacounty.org","economy":{"median_household_income":null,"median_home_value":null,"unemployment_rate":null,"unemployment_data_level":"state","labor_force":null,"employed":null,"unemployed":null,"gini_index":null,"poverty_rate":null,"homeownership_rate":null,"rent_to_income_ratio":null,"home_value_to_income_ratio":null,"price_to_rent_ratio":null,"effective_tax_rate":null,"population_growth_cagr":null,"median_real_estate_taxes":null},"safety":{"violent_crime_rate":null,"property_crime_rate":null,"murder_rate":null,"robbery_rate":null,"burglary_rate":null,"vehicle_theft_rate":null,"total_crime_rate":null,"crime_trend":null,"crime_data_level":null},"education":{"total_schools":null,"total_enrollment":null,"pupil_teacher_ratio":null,"title1_pct":null,"charter_pct":null,"regular_schools":null,"avg_school_rating":null,"rated_schools":null,"school_quality_tier":null},"environment":{"pm25_mean":null,"ozone_mean":null,"total_disasters":null,"avg_disasters_per_decade":null,"most_recent_disaster":null,"most_recent_disaster_type":null,"disasters_by_type":{}},"housing":{"median_rent":null,"housing_units":null,"fmr_0br":null,"fmr_1br":null,"fmr_2br":null,"fmr_3br":null,"fmr_4br":null,"rent_burden_ratio":null,"cost_burdened_pct":null,"severely_burdened_pct":null},"governance":{"legislative_volume":33984,"legislative_velocity":3398.4,"committee_count":31,"years_of_legislative_data":10.0,"has_public_meetings":true,"api_accessible":true,"matter_types":{"Departmental Items":481,"Consent Items":253,"Recurring Items":102,"Minutes":84,"Executive Session":80},"top_matter_type":"Departmental Items","matter_statuses":{"Agenda Ready":927,"Passed":72,"Failed":1},"pass_rate":33.3,"passed_count":11328,"active_council_members":9,"avg_tenure_years":3.5,"vote_coverage_pct":null,"video_availability_pct":0.0,"agenda_availability_pct":79.8,"minutes_availability_pct":0.0,"avg_meetings_per_month":36.0,"meetings_by_year":{"2026":68,"2025":432},"avg_sponsors_per_matter":0.0,"avg_attachments_per_matter":0.8,"pct_with_text_versions":100.0,"index_categories":[],"has_accela":false,"accela_agency_id":null},"development":{"permits_12mo":null,"yoy_trend_pct":null,"avg_permit_value":null,"permit_types":{},"datasets_count":0},"meetings":{"official_channels":0,"meetings_indexed":null,"avg_meetings_per_month":null,"has_video_archive":false,"meeting_types":{},"transcripts_available":null},"civic_issues":{"total_issues":null,"issues_last_30d":null,"issues_last_365d":null,"resolution_rate":null,"top_issue_type":null,"type_distribution":{},"has_civic_issue_tracking":false},"demographics":{"population":null,"poverty_universe":null,"employment_universe":null},"time_series":{"economy_history":[],"safety_history":[],"environment_history":[]},"data_sources":{"legistar":"available","socrata":"skipped","census_acs":"skipped","arcgis":"available","fbi_ucr":"skipped","socrata_crime":"skipped","bls_laus":"skipped","ca_edd":"skipped","epa_aqs":"skipped","nces_ccd":"skipped","hud_fmr":"skipped","fema_openfema":"skipped","greatschools":"skipped","permits":"skipped","youtube_meetings":"skipped","seeclickfix":"skipped","accela":"skipped"},"provenance":{"last_full_probe":"2026-02-10T08:31:22.902357","sources":{"legistar":{"authority":"Legistar by Granicus","authority_tier":1,"api_url":"https://webapi.legistar.com/v1/oklahomacounty/Bodies","probed_at":"2026-02-10T08:31:22.902826","data_vintage":"2018\u20132026","geographic_level":"place","status":"available"},"socrata":{"authority":"City Open Data Portals (Socrata/Tyler Data & Insights)","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"place","status":"skipped"},"census_acs":{"authority":"US Census Bureau","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":"ACS 5-Year 2022","geographic_level":"place","status":"skipped"},"arcgis":{"authority":"City ArcGIS/GIS Portals","authority_tier":1,"api_url":null,"probed_at":"2026-02-10T08:32:55.155216","data_vintage":null,"geographic_level":"place","status":"available"},"fbi_ucr":{"authority":"FBI Uniform Crime Reporting Program","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"state","status":"skipped"},"bls_laus":{"authority":"Bureau of Labor Statistics","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"state","status":"skipped"},"epa_aqs":{"authority":"US Environmental Protection Agency","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"state","status":"skipped"},"nces_ccd":{"authority":"National Center for Education Statistics","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":"2022-2023 academic year","geographic_level":"state","status":"skipped"},"hud_fmr":{"authority":"US Department of Housing and Urban Development","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":"FY2026","geographic_level":"state","status":"skipped"},"fema_openfema":{"authority":"Federal Emergency Management Agency","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":"1953-present","geographic_level":"state","status":"skipped"},"greatschools":{"authority":"GreatSchools.org (nonprofit)","authority_tier":3,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"place","status":"skipped"},"permits":{"authority":"City Open Data Portals (Socrata)","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"place","status":"skipped"},"youtube_meetings":{"authority":"YouTube (via SerpAPI search + youtube-transcript-api)","authority_tier":3,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"place","status":"skipped"},"seeclickfix":{"authority":"SeeClickFix (civic issue tracking platform)","authority_tier":3,"api_url":"https://seeclickfix.com/api/v2/issues?place_url=oklahomacounty","probed_at":null,"data_vintage":null,"geographic_level":"place","status":"skipped"},"accela":{"authority":"Accela (permit management platform)","authority_tier":3,"api_url":"https://apis.accela.com/v4/agencies","probed_at":null,"data_vintage":null,"geographic_level":"place","status":"skipped"},"socrata_crime":{"authority":"City Open Data Portals (Socrata)","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"place","status":"skipped"}},"derived_fields":{"safety.total_crime_rate":{"formula":"violent_crime_rate + property_crime_rate","inputs":["safety.violent_crime_rate","safety.property_crime_rate"],"formula_location":"score/normalizer.py:_derive_total_crime","authority_tier":2},"safety.crime_trend":{"formula":"(last_year_rate - first_year_rate) / years_span","inputs":["fbi.time_series[].violent_crime_rate"],"formula_location":"score/normalizer.py:_build_safety","authority_tier":2},"education.school_quality_tier":{"formula":"excellent if avg>=8, good if avg>=6, fair if avg>=4, else poor","inputs":["education.avg_school_rating"],"formula_location":"score/normalizer.py:_build_education","authority_tier":3},"environment.avg_disasters_per_decade":{"formula":"total_disasters / (years_span / 10)","inputs":["environment.total_disasters"],"formula_location":"probe/fema_probe.py","authority_tier":2},"housing.rent_burden_ratio":{"formula":"(fmr_2br * 12) / median_household_income * 100","inputs":["housing.fmr_2br","economy.median_household_income"],"formula_location":"score/normalizer.py:_build_housing","authority_tier":2},"governance.legislative_velocity":{"formula":"legislative_volume / years_of_legislative_data","inputs":["governance.legislative_volume","governance.years_of_legislative_data"],"formula_location":"score/normalizer.py:_build_governance","authority_tier":2},"development.yoy_trend_pct":{"formula":"(current_year - prior_year) / prior_year * 100","inputs":["permit data from Socrata"],"formula_location":"probe/permits_probe.py","authority_tier":2}},"geographic_mismatches":[{"field":"identity.fips_state","source_level":"state","profile_level":"place","note":"state-level data applied to city profile"},{"field":"economy.unemployment_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Reflects statewide unemployment, not city-specific rate"},{"field":"economy.labor_force","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: This is the full state labor force, not city-level"},{"field":"economy.employed","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"economy.unemployed","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.violent_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: City-level requires ORI codes not currently used"},{"field":"safety.property_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.murder_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.robbery_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.burglary_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.vehicle_theft_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.total_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA; derived sum"},{"field":"safety.crime_trend","source_level":"state","profile_level":"place","note":"state-level data applied to city profile"},{"field":"education.total_schools","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Count includes all schools in the state, not city"},{"field":"education.total_enrollment","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.pupil_teacher_ratio","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Average across all state schools"},{"field":"education.title1_pct","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.charter_pct","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.regular_schools","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.pm25_mean","source_level":"state","profile_level":"place","note":"STATE/COUNTY-LEVEL: Averaged across all monitors in the state"},{"field":"environment.ozone_mean","source_level":"state","profile_level":"place","note":"STATE/COUNTY-LEVEL"},{"field":"environment.total_disasters","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: All declarations for the state, not city-specific"},{"field":"environment.avg_disasters_per_decade","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.most_recent_disaster","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.most_recent_disaster_type","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"housing.fmr_0br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR: Fair Market Rents at state level, not city-specific metro area"},{"field":"housing.fmr_1br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_2br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_3br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_4br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.rent_burden_ratio","source_level":"mixed","profile_level":"place","note":"GEOGRAPHIC MISMATCH: FMR is state-level (HUD), income is city-level (Census). Ratio may be biased."}]},"data_quality":{"quality_score":21.4,"grade":"F","completeness_pct":21.4,"issue_count":1,"granularity_flags":0},"officials":{"body_name":"Board of County Commissioners","members":[{"name":"Brandi Mertens","email":"brandi.mertens@oklahomacounty.org","title":"District 2 - Chief Deputy","start_date":"2025-03-25","committees":["Budget Board","Budget Evaluation Team","Handbook Committee","Information Technology Council","Policy & Governance"]},{"name":"Brian Maughan","email":"brian@oklahomacounty.org","title":"County Commissioner","start_date":"2018-09-01","committees":["Budget Board","Court Services Advisory Board","Drug Court","Mental Health Board","Public Buildings Authority"]},{"name":"Charles Dodson","email":"charles@okcounty.org","title":"District 2 - First Deputy","start_date":"2020-07-16","committees":["Budget Evaluation Team","Court Services Advisory Board","Drug Court","Handbook Committee","Jail Advisory Committee"]},{"name":"Jason Lowe","email":"jason.lowe@oklahomacounty.org","title":"County Commissioner","start_date":"2025-04-07","committees":["Budget Board","Public Buildings Authority"]},{"name":"Joe Blough","email":"jblough@oklahomacounty.org","title":"District 1 - First Deputy","start_date":"2019-01-01","committees":["Budget Board","Budget Evaluation Team","Handbook Committee","Information Technology Council","Jail Advisory Committee"]},{"name":"John Pettis","email":"john.pettis@oklahomacounty.org","title":"District 1 - Chief Deputy","start_date":"2025-04-09","committees":["Budget Board","Information Technology Council","Policy & Governance","Public Building Advisory Committee","Public Buildings Authority"]},{"name":"Myles Davidson","email":"myles.davidson@oklahomacounty.org","title":"County Commissioner","start_date":"2019-01-01","committees":["Budget Board","Criminal Justice Authority","Jail Advisory Committee","Public Buildings Authority","Retirement Board"]},{"name":"Paul Foster","email":"Paul.foster@oklahomacounty.org","title":"District 3 - Chief Deputy","start_date":"2024-09-25","committees":["Budget Board","Budget Evaluation Team","Criminal Justice Authority","Handbook Committee","Information Technology Council"]},{"name":"Ryan Jasper","email":"Ryan.Jasper@oklahomacounty.org","title":"District 1 - Appointee","start_date":"2025-07-16","committees":["Handbook Committee","Public Building Advisory Committee","Public Buildings Authority","Public Improvements and Infrastructure Committee"]}]},"recent_meetings":[{"date":"2026-02-13","body":"Election Board","location":"4201 N. Lincoln Boulevard","has_agenda":false,"agenda_url":null,"has_minutes":false,"has_video":false,"upcoming":true},{"date":"2026-02-19","body":"Planning Commission Committee","location":"BOCC Meeting Room 204","has_agenda":false,"agenda_url":null,"has_minutes":false,"has_video":false,"upcoming":true},{"date":"2026-02-11","body":"Board of County Commissioners","location":"BOCC Meeting Room 204","has_agenda":true,"agenda_url":"https://oklahomacounty.legistar1.com/oklahomacounty/meetings/2026/2/5458_A_Board_of_County_Commissioners_26-02-11_Regular_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-11","body":"Criminal Justice Authority Citizens Advisory Board","location":"BOCC Meeting Room 204","has_agenda":true,"agenda_url":"https://oklahomacounty.legistar1.com/oklahomacounty/meetings/2026/2/5632_A_Criminal_Justice_Authority_Citizens_Advisory_Board_26-02-11_Regular_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-11","body":"Public Buildings Authority","location":"BOCC Meeting Room 204","has_agenda":true,"agenda_url":"https://oklahomacounty.legistar1.com/oklahomacounty/meetings/2026/2/5511_A_Public_Buildings_Authority_26-02-11_Regular_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-10","body":"Policy & Governance","location":"BOCC Meeting Room 204","has_agenda":true,"agenda_url":"https://oklahomacounty.legistar1.com/oklahomacounty/meetings/2026/2/5620_A_Policy___Governance_26-02-10_Regular_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-10","body":"Election Board","location":"4201 N. Lincoln Boulevard","has_agenda":false,"agenda_url":null,"has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-09","body":"Tax Roll","location":"BOE Meeting Room 205","has_agenda":true,"agenda_url":"https://oklahomacounty.legistar1.com/oklahomacounty/meetings/2026/2/5717_A_Tax_Roll_26-02-09_Regular_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-09","body":"Public Improvements and Infrastructure Committee","location":"BOCC Meeting Room 204","has_agenda":true,"agenda_url":"https://oklahomacounty.legistar1.com/oklahomacounty/meetings/2026/2/5560_A_Public_Improvements_and_Infrastructure_Committee_26-02-09_Regular_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-09","body":"Public Building Advisory Committee","location":"BOCC Meeting Room 204","has_agenda":true,"agenda_url":"https://oklahomacounty.legistar1.com/oklahomacounty/meetings/2026/2/5585_A_Public_Building_Advisory_Committee_26-02-09_Regular_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-09","body":"Criminal Justice Authority","location":"BOCC Meeting Room 204","has_agenda":true,"agenda_url":"https://oklahomacounty.legistar1.com/oklahomacounty/meetings/2026/2/5608_A_Criminal_Justice_Authority_26-02-09_Regular_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-09","body":"Public Buildings Authority","location":"BOCC Meeting Room 204","has_agenda":true,"agenda_url":"https://oklahomacounty.legistar1.com/oklahomacounty/meetings/2026/2/5756_A_Public_Buildings_Authority_26-02-09_Special_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false}],"recent_legislation":[{"title":"Discussion and possible action regarding the minutes of the meeting of February 9, 2026 prepared by the County Clerk as authorized by statute (19 O.S. \u00a7243, 244, and 445) subject to additions or corre","type":"Minutes","status":"Agenda Ready","intro_date":"2026-02-09","file_number":"2026-0481","passed_date":null},{"title":"Discussion and possible action regarding the following Metro Parking Garage contracts with the Oklahoma County Public Buildings Authority. Requested by Keith Monroe, Director of Facilities Management.","type":"Departmental Items","status":"Agenda Ready","intro_date":"2026-02-09","file_number":"2026-0478","passed_date":null},{"title":"Discussion and possible action regarding Cremation and Burial Services. Requested by Jessica Clayton, County Manager.","type":"Departmental Items","status":"Agenda Ready","intro_date":"2026-02-09","file_number":"2026-0472","passed_date":null},{"title":"Discussion and possible action regarding all claims; list is attached and available for inspection in the Office of the County Clerk, Room 203. Item requested by the Accounts Payable Department, Offic","type":"Recurring Items","status":"Agenda Ready","intro_date":"2026-02-09","file_number":"2026-0482","passed_date":null},{"title":"Discussion and possible action regarding GPS monitoring for the indigent. Requested by Jessica Clayton, County Manager.","type":"Departmental Items","status":"Agenda Ready","intro_date":"2026-02-09","file_number":"2026-0473","passed_date":null},{"title":"Metro Report of Fees for January 2026. This item is requested by Keith Monroe, Director of Facilities Management.","type":"Departmental Items","status":"Agenda Ready","intro_date":"2026-02-09","file_number":"2026-0477","passed_date":null},{"title":"Monthly Report of Fees for Court Fund: January, 2026. Requested by Rick Warren, Court Clerk.","type":"Consent Items","status":"Agenda Ready","intro_date":"2026-02-09","file_number":"2026-0480","passed_date":null},{"title":"Discussion and possible action regarding the CREOKS Professional Services agreement for the Behavioral Care Center. Approved as to form and legality by Lisa Erickson Endres, ADA. Requested by Jessica ","type":"Departmental Items","status":"Agenda Ready","intro_date":"2026-02-09","file_number":"2026-0483","passed_date":null},{"title":"PBA Report of Fees for January 2026. This item is requested by Keith Monroe, Director of Facilities Management.","type":"Departmental Items","status":"Agenda Ready","intro_date":"2026-02-09","file_number":"2026-0476","passed_date":null},{"title":"Monthly Report of Fees for the Court Clerk for January, 2026. Requested by Rick Warren, Court Clerk.","type":"Consent Items","status":"Agenda Ready","intro_date":"2026-02-09","file_number":"2026-0475","passed_date":null}],"legistar_url":"https://oklahomacounty.legistar.com","enriched_at":"2026-02-13T20:07:15.006415","government_news":[],"video_meetings":[],"data_platforms":["legistar"]}
+{
+  "schema_version": "5.0",
+  "normalized_at": "2026-02-10T14:21:49.331246",
+  "identity": {
+    "name": "Oklahoma County",
+    "state": "",
+    "fips_state": null,
+    "fips_place": null,
+    "population": null
+  },
+  "city_website": "https://www.oklahomacounty.org",
+  "economy": {
+    "median_household_income": null,
+    "median_home_value": null,
+    "unemployment_rate": null,
+    "unemployment_data_level": "state",
+    "labor_force": null,
+    "employed": null,
+    "unemployed": null,
+    "gini_index": null,
+    "poverty_rate": null,
+    "homeownership_rate": null,
+    "rent_to_income_ratio": null,
+    "home_value_to_income_ratio": null,
+    "price_to_rent_ratio": null,
+    "effective_tax_rate": null,
+    "population_growth_cagr": null,
+    "median_real_estate_taxes": null
+  },
+  "safety": {
+    "violent_crime_rate": null,
+    "property_crime_rate": null,
+    "murder_rate": null,
+    "robbery_rate": null,
+    "burglary_rate": null,
+    "vehicle_theft_rate": null,
+    "total_crime_rate": null,
+    "crime_trend": null,
+    "crime_data_level": null
+  },
+  "education": {
+    "total_schools": null,
+    "total_enrollment": null,
+    "pupil_teacher_ratio": null,
+    "title1_pct": null,
+    "charter_pct": null,
+    "regular_schools": null,
+    "avg_school_rating": null,
+    "rated_schools": null,
+    "school_quality_tier": null
+  },
+  "environment": {
+    "pm25_mean": null,
+    "ozone_mean": null,
+    "total_disasters": null,
+    "avg_disasters_per_decade": null,
+    "most_recent_disaster": null,
+    "most_recent_disaster_type": null,
+    "disasters_by_type": {}
+  },
+  "housing": {
+    "median_rent": null,
+    "housing_units": null,
+    "fmr_0br": null,
+    "fmr_1br": null,
+    "fmr_2br": null,
+    "fmr_3br": null,
+    "fmr_4br": null,
+    "rent_burden_ratio": null,
+    "cost_burdened_pct": null,
+    "severely_burdened_pct": null
+  },
+  "governance": {
+    "legislative_volume": 33984,
+    "legislative_velocity": 3398.4,
+    "committee_count": 31,
+    "years_of_legislative_data": 10.0,
+    "has_public_meetings": true,
+    "api_accessible": true,
+    "matter_types": {
+      "Departmental Items": 481,
+      "Consent Items": 253,
+      "Recurring Items": 102,
+      "Minutes": 84,
+      "Executive Session": 80
+    },
+    "top_matter_type": "Departmental Items",
+    "matter_statuses": {
+      "Agenda Ready": 927,
+      "Passed": 72,
+      "Failed": 1
+    },
+    "pass_rate": 33.3,
+    "passed_count": 11328,
+    "active_council_members": 9,
+    "avg_tenure_years": 3.5,
+    "vote_coverage_pct": null,
+    "video_availability_pct": 0.0,
+    "agenda_availability_pct": 79.8,
+    "minutes_availability_pct": 0.0,
+    "avg_meetings_per_month": 36.0,
+    "meetings_by_year": {
+      "2026": 68,
+      "2025": 432
+    },
+    "avg_sponsors_per_matter": 0.0,
+    "avg_attachments_per_matter": 0.8,
+    "pct_with_text_versions": 100.0,
+    "index_categories": [],
+    "has_accela": false,
+    "accela_agency_id": null
+  },
+  "development": {
+    "permits_12mo": null,
+    "yoy_trend_pct": null,
+    "avg_permit_value": null,
+    "permit_types": {},
+    "datasets_count": 0
+  },
+  "meetings": {
+    "official_channels": 0,
+    "meetings_indexed": null,
+    "avg_meetings_per_month": null,
+    "has_video_archive": false,
+    "meeting_types": {},
+    "transcripts_available": null
+  },
+  "civic_issues": {
+    "total_issues": null,
+    "issues_last_30d": null,
+    "issues_last_365d": null,
+    "resolution_rate": null,
+    "top_issue_type": null,
+    "type_distribution": {},
+    "has_civic_issue_tracking": false
+  },
+  "demographics": {
+    "population": null,
+    "poverty_universe": null,
+    "employment_universe": null
+  },
+  "time_series": {
+    "economy_history": [],
+    "safety_history": [],
+    "environment_history": []
+  },
+  "data_sources": {
+    "legistar": "available",
+    "socrata": "skipped",
+    "census_acs": "skipped",
+    "arcgis": "available",
+    "fbi_ucr": "skipped",
+    "socrata_crime": "skipped",
+    "bls_laus": "skipped",
+    "ca_edd": "skipped",
+    "epa_aqs": "skipped",
+    "nces_ccd": "skipped",
+    "hud_fmr": "skipped",
+    "fema_openfema": "skipped",
+    "greatschools": "skipped",
+    "permits": "skipped",
+    "youtube_meetings": "skipped",
+    "seeclickfix": "skipped",
+    "accela": "skipped",
+    "hud_usps": "unavailable",
+    "census_vacancy": "unavailable"
+  },
+  "provenance": {
+    "last_full_probe": "2026-02-10T08:31:22.902357",
+    "sources": {
+      "legistar": {
+        "authority": "Legistar by Granicus",
+        "authority_tier": 1,
+        "api_url": "https://webapi.legistar.com/v1/oklahomacounty/Bodies",
+        "probed_at": "2026-02-10T08:31:22.902826",
+        "data_vintage": "2018–2026",
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "socrata": {
+        "authority": "City Open Data Portals (Socrata/Tyler Data & Insights)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "census_acs": {
+        "authority": "US Census Bureau",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": "ACS 5-Year 2022",
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "arcgis": {
+        "authority": "City ArcGIS/GIS Portals",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-10T08:32:55.155216",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "fbi_ucr": {
+        "authority": "FBI Uniform Crime Reporting Program",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "state",
+        "status": "skipped"
+      },
+      "bls_laus": {
+        "authority": "Bureau of Labor Statistics",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "state",
+        "status": "skipped"
+      },
+      "epa_aqs": {
+        "authority": "US Environmental Protection Agency",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "state",
+        "status": "skipped"
+      },
+      "nces_ccd": {
+        "authority": "National Center for Education Statistics",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": "2022-2023 academic year",
+        "geographic_level": "state",
+        "status": "skipped"
+      },
+      "hud_fmr": {
+        "authority": "US Department of Housing and Urban Development",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": "FY2026",
+        "geographic_level": "state",
+        "status": "skipped"
+      },
+      "fema_openfema": {
+        "authority": "Federal Emergency Management Agency",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": "1953-present",
+        "geographic_level": "state",
+        "status": "skipped"
+      },
+      "greatschools": {
+        "authority": "GreatSchools.org (nonprofit)",
+        "authority_tier": 3,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "permits": {
+        "authority": "City Open Data Portals (Socrata)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "youtube_meetings": {
+        "authority": "YouTube (via SerpAPI search + youtube-transcript-api)",
+        "authority_tier": 3,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "seeclickfix": {
+        "authority": "SeeClickFix (civic issue tracking platform)",
+        "authority_tier": 3,
+        "api_url": "https://seeclickfix.com/api/v2/issues?place_url=oklahomacounty",
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "accela": {
+        "authority": "Accela (permit management platform)",
+        "authority_tier": 3,
+        "api_url": "https://apis.accela.com/v4/agencies",
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "socrata_crime": {
+        "authority": "City Open Data Portals (Socrata)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      }
+    },
+    "derived_fields": {
+      "safety.total_crime_rate": {
+        "formula": "violent_crime_rate + property_crime_rate",
+        "inputs": [
+          "safety.violent_crime_rate",
+          "safety.property_crime_rate"
+        ],
+        "formula_location": "score/normalizer.py:_derive_total_crime",
+        "authority_tier": 2
+      },
+      "safety.crime_trend": {
+        "formula": "(last_year_rate - first_year_rate) / years_span",
+        "inputs": [
+          "fbi.time_series[].violent_crime_rate"
+        ],
+        "formula_location": "score/normalizer.py:_build_safety",
+        "authority_tier": 2
+      },
+      "education.school_quality_tier": {
+        "formula": "excellent if avg>=8, good if avg>=6, fair if avg>=4, else poor",
+        "inputs": [
+          "education.avg_school_rating"
+        ],
+        "formula_location": "score/normalizer.py:_build_education",
+        "authority_tier": 3
+      },
+      "environment.avg_disasters_per_decade": {
+        "formula": "total_disasters / (years_span / 10)",
+        "inputs": [
+          "environment.total_disasters"
+        ],
+        "formula_location": "probe/fema_probe.py",
+        "authority_tier": 2
+      },
+      "housing.rent_burden_ratio": {
+        "formula": "(fmr_2br * 12) / median_household_income * 100",
+        "inputs": [
+          "housing.fmr_2br",
+          "economy.median_household_income"
+        ],
+        "formula_location": "score/normalizer.py:_build_housing",
+        "authority_tier": 2
+      },
+      "governance.legislative_velocity": {
+        "formula": "legislative_volume / years_of_legislative_data",
+        "inputs": [
+          "governance.legislative_volume",
+          "governance.years_of_legislative_data"
+        ],
+        "formula_location": "score/normalizer.py:_build_governance",
+        "authority_tier": 2
+      },
+      "development.yoy_trend_pct": {
+        "formula": "(current_year - prior_year) / prior_year * 100",
+        "inputs": [
+          "permit data from Socrata"
+        ],
+        "formula_location": "probe/permits_probe.py",
+        "authority_tier": 2
+      }
+    },
+    "geographic_mismatches": [
+      {
+        "field": "identity.fips_state",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "state-level data applied to city profile"
+      },
+      {
+        "field": "economy.unemployment_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Reflects statewide unemployment, not city-specific rate"
+      },
+      {
+        "field": "economy.labor_force",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: This is the full state labor force, not city-level"
+      },
+      {
+        "field": "economy.employed",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "economy.unemployed",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.violent_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: City-level requires ORI codes not currently used"
+      },
+      {
+        "field": "safety.property_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.murder_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.robbery_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.burglary_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.vehicle_theft_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.total_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA; derived sum"
+      },
+      {
+        "field": "safety.crime_trend",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "state-level data applied to city profile"
+      },
+      {
+        "field": "education.total_schools",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Count includes all schools in the state, not city"
+      },
+      {
+        "field": "education.total_enrollment",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.pupil_teacher_ratio",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Average across all state schools"
+      },
+      {
+        "field": "education.title1_pct",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.charter_pct",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.regular_schools",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.pm25_mean",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE/COUNTY-LEVEL: Averaged across all monitors in the state"
+      },
+      {
+        "field": "environment.ozone_mean",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE/COUNTY-LEVEL"
+      },
+      {
+        "field": "environment.total_disasters",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: All declarations for the state, not city-specific"
+      },
+      {
+        "field": "environment.avg_disasters_per_decade",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.most_recent_disaster",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.most_recent_disaster_type",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "housing.fmr_0br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR: Fair Market Rents at state level, not city-specific metro area"
+      },
+      {
+        "field": "housing.fmr_1br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_2br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_3br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_4br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.rent_burden_ratio",
+        "source_level": "mixed",
+        "profile_level": "place",
+        "note": "GEOGRAPHIC MISMATCH: FMR is state-level (HUD), income is city-level (Census). Ratio may be biased."
+      }
+    ]
+  },
+  "data_quality": {
+    "quality_score": 21.4,
+    "grade": "F",
+    "completeness_pct": 21.4,
+    "issue_count": 1,
+    "granularity_flags": 0
+  },
+  "officials": {
+    "body_name": "Board of County Commissioners",
+    "members": [
+      {
+        "name": "Brandi Mertens",
+        "email": "brandi.mertens@oklahomacounty.org",
+        "title": "District 2 - Chief Deputy",
+        "start_date": "2025-03-25",
+        "committees": [
+          "Budget Board",
+          "Budget Evaluation Team",
+          "Handbook Committee",
+          "Information Technology Council",
+          "Policy & Governance"
+        ]
+      },
+      {
+        "name": "Brian Maughan",
+        "email": "brian@oklahomacounty.org",
+        "title": "County Commissioner",
+        "start_date": "2018-09-01",
+        "committees": [
+          "Budget Board",
+          "Court Services Advisory Board",
+          "Drug Court",
+          "Mental Health Board",
+          "Public Buildings Authority"
+        ]
+      },
+      {
+        "name": "Charles Dodson",
+        "email": "charles@okcounty.org",
+        "title": "District 2 - First Deputy",
+        "start_date": "2020-07-16",
+        "committees": [
+          "Budget Evaluation Team",
+          "Court Services Advisory Board",
+          "Drug Court",
+          "Handbook Committee",
+          "Jail Advisory Committee"
+        ]
+      },
+      {
+        "name": "Jason Lowe",
+        "email": "jason.lowe@oklahomacounty.org",
+        "title": "County Commissioner",
+        "start_date": "2025-04-07",
+        "committees": [
+          "Budget Board",
+          "Public Buildings Authority"
+        ]
+      },
+      {
+        "name": "Joe Blough",
+        "email": "jblough@oklahomacounty.org",
+        "title": "District 1 - First Deputy",
+        "start_date": "2019-01-01",
+        "committees": [
+          "Budget Board",
+          "Budget Evaluation Team",
+          "Handbook Committee",
+          "Information Technology Council",
+          "Jail Advisory Committee"
+        ]
+      },
+      {
+        "name": "John Pettis",
+        "email": "john.pettis@oklahomacounty.org",
+        "title": "District 1 - Chief Deputy",
+        "start_date": "2025-04-09",
+        "committees": [
+          "Budget Board",
+          "Information Technology Council",
+          "Policy & Governance",
+          "Public Building Advisory Committee",
+          "Public Buildings Authority"
+        ]
+      },
+      {
+        "name": "Myles Davidson",
+        "email": "myles.davidson@oklahomacounty.org",
+        "title": "County Commissioner",
+        "start_date": "2019-01-01",
+        "committees": [
+          "Budget Board",
+          "Criminal Justice Authority",
+          "Jail Advisory Committee",
+          "Public Buildings Authority",
+          "Retirement Board"
+        ]
+      },
+      {
+        "name": "Paul Foster",
+        "email": "Paul.foster@oklahomacounty.org",
+        "title": "District 3 - Chief Deputy",
+        "start_date": "2024-09-25",
+        "committees": [
+          "Budget Board",
+          "Budget Evaluation Team",
+          "Criminal Justice Authority",
+          "Handbook Committee",
+          "Information Technology Council"
+        ]
+      },
+      {
+        "name": "Ryan Jasper",
+        "email": "Ryan.Jasper@oklahomacounty.org",
+        "title": "District 1 - Appointee",
+        "start_date": "2025-07-16",
+        "committees": [
+          "Handbook Committee",
+          "Public Building Advisory Committee",
+          "Public Buildings Authority",
+          "Public Improvements and Infrastructure Committee"
+        ]
+      }
+    ]
+  },
+  "recent_meetings": [
+    {
+      "date": "2026-02-13",
+      "body": "Election Board",
+      "location": "4201 N. Lincoln Boulevard",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-19",
+      "body": "Planning Commission Committee",
+      "location": "BOCC Meeting Room 204",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-11",
+      "body": "Board of County Commissioners",
+      "location": "BOCC Meeting Room 204",
+      "has_agenda": true,
+      "agenda_url": "https://oklahomacounty.legistar1.com/oklahomacounty/meetings/2026/2/5458_A_Board_of_County_Commissioners_26-02-11_Regular_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-11",
+      "body": "Criminal Justice Authority Citizens Advisory Board",
+      "location": "BOCC Meeting Room 204",
+      "has_agenda": true,
+      "agenda_url": "https://oklahomacounty.legistar1.com/oklahomacounty/meetings/2026/2/5632_A_Criminal_Justice_Authority_Citizens_Advisory_Board_26-02-11_Regular_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-11",
+      "body": "Public Buildings Authority",
+      "location": "BOCC Meeting Room 204",
+      "has_agenda": true,
+      "agenda_url": "https://oklahomacounty.legistar1.com/oklahomacounty/meetings/2026/2/5511_A_Public_Buildings_Authority_26-02-11_Regular_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "Policy & Governance",
+      "location": "BOCC Meeting Room 204",
+      "has_agenda": true,
+      "agenda_url": "https://oklahomacounty.legistar1.com/oklahomacounty/meetings/2026/2/5620_A_Policy___Governance_26-02-10_Regular_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "Election Board",
+      "location": "4201 N. Lincoln Boulevard",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-09",
+      "body": "Tax Roll",
+      "location": "BOE Meeting Room 205",
+      "has_agenda": true,
+      "agenda_url": "https://oklahomacounty.legistar1.com/oklahomacounty/meetings/2026/2/5717_A_Tax_Roll_26-02-09_Regular_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-09",
+      "body": "Public Improvements and Infrastructure Committee",
+      "location": "BOCC Meeting Room 204",
+      "has_agenda": true,
+      "agenda_url": "https://oklahomacounty.legistar1.com/oklahomacounty/meetings/2026/2/5560_A_Public_Improvements_and_Infrastructure_Committee_26-02-09_Regular_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-09",
+      "body": "Public Building Advisory Committee",
+      "location": "BOCC Meeting Room 204",
+      "has_agenda": true,
+      "agenda_url": "https://oklahomacounty.legistar1.com/oklahomacounty/meetings/2026/2/5585_A_Public_Building_Advisory_Committee_26-02-09_Regular_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-09",
+      "body": "Criminal Justice Authority",
+      "location": "BOCC Meeting Room 204",
+      "has_agenda": true,
+      "agenda_url": "https://oklahomacounty.legistar1.com/oklahomacounty/meetings/2026/2/5608_A_Criminal_Justice_Authority_26-02-09_Regular_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-09",
+      "body": "Public Buildings Authority",
+      "location": "BOCC Meeting Room 204",
+      "has_agenda": true,
+      "agenda_url": "https://oklahomacounty.legistar1.com/oklahomacounty/meetings/2026/2/5756_A_Public_Buildings_Authority_26-02-09_Special_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Discussion and possible action regarding the minutes of the meeting of February 9, 2026 prepared by the County Clerk as authorized by statute (19 O.S. §243, 244, and 445) subject to additions or corre",
+      "type": "Minutes",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-09",
+      "file_number": "2026-0481",
+      "passed_date": null
+    },
+    {
+      "title": "Discussion and possible action regarding the following Metro Parking Garage contracts with the Oklahoma County Public Buildings Authority. Requested by Keith Monroe, Director of Facilities Management.",
+      "type": "Departmental Items",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-09",
+      "file_number": "2026-0478",
+      "passed_date": null
+    },
+    {
+      "title": "Discussion and possible action regarding Cremation and Burial Services. Requested by Jessica Clayton, County Manager.",
+      "type": "Departmental Items",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-09",
+      "file_number": "2026-0472",
+      "passed_date": null
+    },
+    {
+      "title": "Discussion and possible action regarding all claims; list is attached and available for inspection in the Office of the County Clerk, Room 203. Item requested by the Accounts Payable Department, Offic",
+      "type": "Recurring Items",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-09",
+      "file_number": "2026-0482",
+      "passed_date": null
+    },
+    {
+      "title": "Discussion and possible action regarding GPS monitoring for the indigent. Requested by Jessica Clayton, County Manager.",
+      "type": "Departmental Items",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-09",
+      "file_number": "2026-0473",
+      "passed_date": null
+    },
+    {
+      "title": "Metro Report of Fees for January 2026. This item is requested by Keith Monroe, Director of Facilities Management.",
+      "type": "Departmental Items",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-09",
+      "file_number": "2026-0477",
+      "passed_date": null
+    },
+    {
+      "title": "Monthly Report of Fees for Court Fund: January, 2026. Requested by Rick Warren, Court Clerk.",
+      "type": "Consent Items",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-09",
+      "file_number": "2026-0480",
+      "passed_date": null
+    },
+    {
+      "title": "Discussion and possible action regarding the CREOKS Professional Services agreement for the Behavioral Care Center. Approved as to form and legality by Lisa Erickson Endres, ADA. Requested by Jessica ",
+      "type": "Departmental Items",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-09",
+      "file_number": "2026-0483",
+      "passed_date": null
+    },
+    {
+      "title": "PBA Report of Fees for January 2026. This item is requested by Keith Monroe, Director of Facilities Management.",
+      "type": "Departmental Items",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-09",
+      "file_number": "2026-0476",
+      "passed_date": null
+    },
+    {
+      "title": "Monthly Report of Fees for the Court Clerk for January, 2026. Requested by Rick Warren, Court Clerk.",
+      "type": "Consent Items",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-09",
+      "file_number": "2026-0475",
+      "passed_date": null
+    }
+  ],
+  "legistar_url": "https://oklahomacounty.legistar.com",
+  "enriched_at": "2026-02-13T20:07:15.006415",
+  "government_news": [],
+  "video_meetings": [],
+  "data_platforms": [
+    "legistar"
+  ]
+}
