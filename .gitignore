@@ -40,5 +40,5 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# synced city data (generated from simcity-inventory)
-/public/data/cities/
+# synced city data — committed for Vercel builds
+# regenerate locally with: npm run sync-cities
