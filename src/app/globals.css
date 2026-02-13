@@ -835,10 +835,241 @@ a:hover { text-decoration: underline; }
 .index-card-state { font-size: var(--text-tiny); font-family: var(--font-body); color: var(--text-secondary); text-transform: uppercase; letter-spacing: var(--tracking-wider); }
 .index-card-meta { font-size: var(--text-small); font-family: var(--font-body); color: var(--text-muted); margin-top: 0.5rem; }
 
+/* === HERO COMPACT (v2 — utility-first) === */
+.hero-compact { min-height: 50vh; }
+.hero-verdict {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  margin: 2rem 0 1.5rem;
+}
+.hero-pop-inline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero-pop-number {
+  font-family: var(--font-display);
+  font-size: clamp(1.75rem, 4vw, 2.75rem);
+  font-weight: 600;
+  color: var(--text-primary);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.01em;
+}
+.hero-pop-label-sm {
+  font-size: var(--text-tiny);
+  font-family: var(--font-body);
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-wider);
+  color: var(--text-secondary);
+  margin-top: 0.25rem;
+}
+.hero-grade-inline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero-grade-letter {
+  font-family: var(--font-display);
+  font-size: clamp(2.5rem, 7vw, 4rem);
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+.hero-grades-strip {
+  display: flex;
+  justify-content: center;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+}
+.hero-grade-chip {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+}
+.hero-chip-grade {
+  font-family: var(--font-display);
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+.hero-chip-label {
+  font-size: 0.5625rem;
+  font-family: var(--font-body);
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.hero-finding {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-style: italic;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  max-width: 580px;
+  margin: 1.5rem auto 0;
+  text-align: center;
+}
+
+/* === QUICK ACTIONS (pill bar) === */
+.quick-actions {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+.quick-actions-inner {
+  display: flex;
+  gap: 0.625rem;
+  overflow-x: auto;
+  padding: 1rem 0;
+  scrollbar-width: none;
+}
+.quick-actions-inner::-webkit-scrollbar { display: none; }
+.qa-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.625rem 1.125rem;
+  border-radius: 100px;
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+  color: var(--text-secondary);
+  font-size: var(--text-small);
+  font-weight: 500;
+  white-space: nowrap;
+  text-decoration: none;
+  transition: border-color 0.2s, color 0.2s, background 0.2s;
+}
+.qa-pill:hover {
+  border-color: var(--accent);
+  color: var(--accent-light);
+  background: var(--accent-glow);
+  text-decoration: none;
+}
+.qa-icon {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+}
+
+/* === REPORT CARD COMPACT (v2 — replaces 5 sprawling sections) === */
+.rc-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+.rc-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.25rem;
+  background: var(--bg-inset);
+  border-radius: 12px;
+  border: 1px solid transparent;
+  transition: border-color 0.2s;
+}
+.rc-row:hover {
+  border-color: var(--border);
+}
+.rc-grade {
+  font-family: var(--font-display);
+  font-size: 1.375rem;
+  font-weight: 700;
+  width: 2.5rem;
+  text-align: center;
+  flex-shrink: 0;
+}
+.rc-info {
+  flex: 1;
+  min-width: 0;
+}
+.rc-category {
+  font-family: var(--font-body);
+  font-size: 0.6875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+  margin-bottom: 0.125rem;
+}
+.rc-metric-line {
+  display: flex;
+  align-items: baseline;
+  gap: 0.375rem;
+}
+.rc-value {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  font-variant-numeric: tabular-nums;
+}
+.rc-value.good { color: var(--positive); }
+.rc-value.bad { color: var(--negative); }
+.rc-value.caution { color: var(--warning); }
+.rc-label {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+.rc-context {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  margin-top: 0.125rem;
+}
+.rc-bar-wrap {
+  width: 100px;
+  flex-shrink: 0;
+}
+.rc-bar-track {
+  width: 100%;
+  height: 4px;
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 2px;
+  position: relative;
+}
+.rc-bar-fill {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  border-radius: 2px;
+  background: var(--accent);
+  transition: width 0.8s var(--ease);
+}
+.rc-bar-dot {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--accent);
+  border: 2px solid var(--bg-card);
+}
+.rc-bar-median {
+  position: absolute;
+  top: -2px;
+  width: 2px;
+  height: 8px;
+  background: var(--text-muted);
+  border-radius: 1px;
+  transform: translateX(-50%);
+}
+.rc-governance {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+}
+
 /* === RESPONSIVE === */
 @media (max-width: 640px) {
-  .hero { min-height: 50vh; padding: 6rem 1rem 3rem; }
+  .hero { min-height: 40vh; padding: 6rem 1rem 3rem; }
+  .hero-compact { min-height: 40vh; }
   .hero-name { font-size: clamp(2.5rem, 10vw, 4rem); }
+  .hero-verdict { gap: 2rem; }
+  .hero-grades-strip { gap: 0.625rem; }
+  .hero-chip-label { font-size: 0.5rem; }
+  .hero-finding { font-size: 0.9375rem; }
   .section { padding: 2rem 1.5rem; border-radius: 16px; }
   .sections { padding: 0.5rem 1rem 3rem; gap: 2rem; }
   .stat-grid { grid-template-columns: repeat(2, 1fr); gap: 1rem; }
@@ -855,4 +1086,13 @@ a:hover { text-decoration: underline; }
   .subscribe-cta-inner { padding: 3rem 1.5rem; }
   .report-card-grid { grid-template-columns: repeat(2, auto); gap: 0.25rem 1.25rem; }
   .composite-grade { font-size: clamp(2.5rem, 8vw, 3.5rem); }
+  .quick-actions-inner { gap: 0.5rem; }
+  .qa-pill { font-size: 0.8125rem; padding: 0.5rem 0.875rem; }
+  .rc-row { flex-wrap: wrap; gap: 0.5rem; padding: 0.75rem 1rem; }
+  .rc-bar-wrap { width: 100%; order: 3; }
+  .rc-grade { font-size: 1.125rem; width: 2rem; }
+  .officials-grid { grid-template-columns: 1fr; }
+  .meeting-item { flex-direction: column; gap: 0.25rem; }
+  .video-meeting-item { flex-direction: column; text-align: center; }
+  .video-meeting-play { margin: 0 auto; }
 }
