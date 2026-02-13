@@ -1478,6 +1478,90 @@ export default async function CityPage({
           </div>
         )}
 
+        {/* ─── Video Meetings (Watch Government) ─── */}
+        {p.video_meetings && p.video_meetings.length > 0 && (
+          <div className="section">
+            <div className="section-header">
+              <div className="section-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <polygon points="5 3 19 12 5 21 5 3" />
+                </svg>
+              </div>
+              <h2 className="section-title">Watch Government in Action</h2>
+            </div>
+
+            <p className="section-narrative">
+              Recent meeting recordings from {p.identity.name}. Click any meeting to watch the full video archive.
+            </p>
+
+            <div className="video-meetings-list">
+              {p.video_meetings.map((v, i) => (
+                <a
+                  key={i}
+                  href={v.video_url || "#"}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="video-meeting-item"
+                >
+                  <div className="video-meeting-play">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                      <polygon points="5 3 19 12 5 21 5 3" />
+                    </svg>
+                  </div>
+                  <div className="video-meeting-details">
+                    <div className="video-meeting-title">{v.title}</div>
+                    {v.date && (
+                      <div className="video-meeting-date">
+                        {new Date(v.date + "T12:00:00").toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" })}
+                      </div>
+                    )}
+                  </div>
+                  <div className="video-meeting-badge">
+                    {v.is_youtube ? "YouTube" : "Video"}
+                  </div>
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* ─── Government News ─── */}
+        {p.government_news && p.government_news.length > 0 && (
+          <div className="section">
+            <div className="section-header">
+              <div className="section-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2" />
+                  <path d="M18 14h-8" />
+                  <path d="M15 18h-5" />
+                  <path d="M10 6h8v4h-8V6Z" />
+                </svg>
+              </div>
+              <h2 className="section-title">Latest from City Hall</h2>
+            </div>
+
+            <div className="news-list">
+              {p.government_news.map((n, i) => (
+                <a
+                  key={i}
+                  href={n.url || "#"}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="news-item"
+                >
+                  <div className="news-title">{n.title}</div>
+                  {n.description && <div className="news-description">{n.description}</div>}
+                  {n.date && (
+                    <div className="news-date">
+                      {new Date(n.date + "T12:00:00").toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" })}
+                    </div>
+                  )}
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
+
         {/* ─── Recent Legislation (What Are They Working On?) ─── */}
         {p.recent_legislation && p.recent_legislation.length > 0 && (
           <div className="section">

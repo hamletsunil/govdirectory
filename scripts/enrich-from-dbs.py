@@ -39,8 +39,60 @@ DB_URLS = {
         "postgresql://postgres:omqRWdbiJunGjTyBpEREbySsbIxYoDkQ@crossover.proxy.rlwy.net:28507/railway"),
 }
 
+import re
+
 PROFILE_DIR = os.path.expanduser("~/simcity-inventory/output/profiles/")
 OUTPUT_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "public", "data", "cities")
+
+# --- Cross-platform slug mapping ---
+# Maps our Legistar slug -> PrimeGov city_slug
+LEGISTAR_TO_PRIMEGOV = {
+    "longbeach": "longbeach",
+    "sanantonio": "sanantonio",
+    "sanbernardino": "sanbernardino",
+    "sanjose": "sanjoseca",
+    "santaclara": "santaclaracounty",
+    "lacounty": "lacity",
+}
+
+# State abbreviation to full name for CivicPlus matching
+STATE_ABBREV = {
+    'al':'Alabama','ak':'Alaska','az':'Arizona','ar':'Arkansas','ca':'California',
+    'co':'Colorado','ct':'Connecticut','de':'Delaware','fl':'Florida','ga':'Georgia',
+    'hi':'Hawaii','id':'Idaho','il':'Illinois','in':'Indiana','ia':'Iowa',
+    'ks':'Kansas','ky':'Kentucky','la':'Louisiana','me':'Maine','md':'Maryland',
+    'ma':'Massachusetts','mi':'Michigan','mn':'Minnesota','ms':'Mississippi','mo':'Missouri',
+    'mt':'Montana','ne':'Nebraska','nv':'Nevada','nh':'New Hampshire','nj':'New Jersey',
+    'nm':'New Mexico','ny':'New York','nc':'North Carolina','nd':'North Dakota','oh':'Ohio',
+    'ok':'Oklahoma','or':'Oregon','pa':'Pennsylvania','ri':'Rhode Island','sc':'South Carolina',
+    'sd':'South Dakota','tn':'Tennessee','tx':'Texas','ut':'Utah','vt':'Vermont',
+    'va':'Virginia','wa':'Washington','wv':'West Virginia','wi':'Wisconsin','wy':'Wyoming',
+    'dc':'District of Columbia',
+}
+
+
+def build_civicplus_mapping(our_cities):
+    """Build CivicPlus slug mapping with state verification."""
+    # Build lookup: normalized_name -> {slug, state}
+    def normalize(name):
+        name = name.lower().strip()
+        for prefix in ['city of ', 'town of ', 'village of ', 'county of ', 'city and county of ']:
+            if name.startswith(prefix):
+                name = name[len(prefix):]
+        for suffix in [' city', ' county', ' township', ' borough', ' village', ' town']:
+            if name.endswith(suffix):
+                name = name[:-len(suffix)]
+        return re.sub(r'[^a-z0-9]', '', name)
+
+    by_name_state = {}
+    for slug, info in our_cities.items():
+        key = normalize(info['name'])
+        state = info['state']
+        if key and state:
+            by_name_state[(key, state)] = slug
+
+    return by_name_state, normalize
+
 
 # Body type patterns that indicate the main governing body
 COUNCIL_BODY_TYPES = ("Primary Legislative Body", "City Council", "Legislative Body")
@@ -295,13 +347,110 @@ def get_recent_legislation(cur, slug, limit=10):
     return legislation
 
 
+def get_primegov_meetings(cur, pg_slug, limit=10):
+    """Get recent PrimeGov meetings with video links."""
+    meetings = []
+
+    # PrimeGov meetings table: city_slug, title, meeting_date, video_url, data (JSONB)
+    cur.execute("""
+        SELECT title, meeting_date, video_url
+        FROM meetings
+        WHERE city_slug = %s
+          AND meeting_date IS NOT NULL
+          AND video_url IS NOT NULL
+          AND video_url != ''
+        ORDER BY meeting_date DESC
+        LIMIT %s
+    """, (pg_slug, limit))
+
+    for row in cur.fetchall():
+        title, date, video = row
+        date_str = date.strftime("%Y-%m-%d") if date else None
+        is_youtube = bool(video and ('youtube' in video or 'youtu.be' in video))
+
+        meetings.append({
+            "date": date_str,
+            "title": (title or "").strip()[:80],
+            "has_video": True,
+            "video_url": video,
+            "is_youtube": is_youtube,
+            "source": "primegov",
+        })
+
+    return meetings
+
+
+def get_civicplus_news(cur, cp_slug, limit=8):
+    """Get recent CivicPlus RSS news items for a city."""
+    news = []
+
+    cur.execute("""
+        SELECT title, link, pub_date, description
+        FROM rss_items
+        WHERE site_key = %s
+          AND title IS NOT NULL
+          AND LENGTH(title) > 10
+        ORDER BY pub_date DESC NULLS LAST
+        LIMIT %s
+    """, (cp_slug, limit))
+
+    for row in cur.fetchall():
+        title, link, pub_date, description = row
+        date_str = pub_date.strftime("%Y-%m-%d") if pub_date else None
+
+        # Clean description: strip HTML tags, truncate
+        desc = description or ""
+        desc = re.sub(r'<[^>]+>', '', desc).strip()
+        if len(desc) > 200:
+            desc = desc[:197] + "..."
+
+        news.append({
+            "title": title.strip()[:150],
+            "url": link,
+            "date": date_str,
+            "description": desc if desc else None,
+        })
+
+    return news
+
+
+def get_civicplus_agendas(cur, cp_slug, limit=10):
+    """Get recent CivicPlus meeting agendas."""
+    agendas = []
+
+    cur.execute("""
+        SELECT title, meeting_date, agenda_url, minutes_url
+        FROM agendas
+        WHERE site_key = %s
+          AND meeting_date IS NOT NULL
+        ORDER BY meeting_date DESC
+        LIMIT %s
+    """, (cp_slug, limit))
+
+    for row in cur.fetchall():
+        title, date, agenda, minutes = row
+        date_str = date.strftime("%Y-%m-%d") if date else None
+
+        agendas.append({
+            "date": date_str,
+            "body": (title or "").strip()[:80],
+            "has_agenda": bool(agenda),
+            "agenda_url": agenda if agenda else None,
+            "has_minutes": bool(minutes),
+            "has_video": False,
+            "source": "civicplus",
+        })
+
+    return agendas
+
+
 def get_legistar_url(slug):
     """Construct the public Legistar URL for a city."""
     return f"https://{slug}.legistar.com"
 
 
-def enrich_city(slug, dry_run=False):
-    """Enrich a single city profile with DB data."""
+def enrich_city(slug, dry_run=False, pg_conn=None, cp_conn=None, cp_mapping=None, cp_normalize=None, our_cities=None):
+    """Enrich a single city profile with DB data from all platforms."""
     profile_path = os.path.join(PROFILE_DIR, f"{slug}.json")
     if not os.path.exists(profile_path):
         return None
@@ -313,15 +462,18 @@ def enrich_city(slug, dry_run=False):
         "officials": {"body_name": None, "members": []},
         "recent_meetings": [],
         "recent_legislation": [],
+        "government_news": [],
+        "video_meetings": [],
         "legistar_url": get_legistar_url(slug),
+        "data_platforms": ["legistar"],
         "enriched_at": datetime.now().isoformat(),
     }
 
+    # --- Legistar enrichment (primary) ---
     try:
         conn = get_conn("legistar")
         cur = conn.cursor()
 
-        # Check if this city exists in Legistar
         cur.execute("SELECT COUNT(*) FROM events WHERE city_slug = %s", (slug,))
         if cur.fetchone()[0] > 0:
             enrichment["officials"] = get_current_officials(cur, slug)
@@ -332,11 +484,71 @@ def enrich_city(slug, dry_run=False):
     except Exception as e:
         print(f"  WARNING: Legistar query failed for {slug}: {e}")
 
+    # --- PrimeGov enrichment (video meetings) ---
+    pg_slug = LEGISTAR_TO_PRIMEGOV.get(slug)
+    if pg_slug and pg_conn:
+        try:
+            pg_cur = pg_conn.cursor()
+            videos = get_primegov_meetings(pg_cur, pg_slug)
+            if videos:
+                enrichment["video_meetings"] = videos
+                enrichment["data_platforms"].append("primegov")
+        except Exception as e:
+            print(f"  WARNING: PrimeGov query failed for {slug} (pg:{pg_slug}): {e}")
+
+    # --- CivicPlus enrichment (news + agendas) ---
+    if cp_conn and cp_mapping and cp_normalize and our_cities:
+        city_info = our_cities.get(slug, {})
+        city_name_norm = cp_normalize(city_info.get('name', ''))
+        city_state = city_info.get('state', '')
+
+        # Find matching CivicPlus slug: state-cityname format
+        cp_slug = None
+        for state_code, state_name in STATE_ABBREV.items():
+            if state_name == city_state:
+                candidate = f"{state_code}-{city_info.get('name', '').lower().replace(' ', '')}"
+                # Also try with hyphens
+                candidate2 = f"{state_code}-{city_info.get('name', '').lower().replace(' ', '-')}"
+                for c in [candidate, candidate2]:
+                    try:
+                        cp_cur = cp_conn.cursor()
+                        cp_cur.execute("SELECT COUNT(*) FROM rss_items WHERE site_key = %s", (c,))
+                        if cp_cur.fetchone()[0] > 0:
+                            cp_slug = c
+                            break
+                        cp_cur.execute("SELECT COUNT(*) FROM agendas WHERE site_key = %s", (c,))
+                        if cp_cur.fetchone()[0] > 0:
+                            cp_slug = c
+                            break
+                    except:
+                        pass
+                if cp_slug:
+                    break
+
+        if cp_slug:
+            try:
+                cp_cur = cp_conn.cursor()
+                news = get_civicplus_news(cp_cur, cp_slug)
+                if news:
+                    enrichment["government_news"] = news
+                    if "civicplus" not in enrichment["data_platforms"]:
+                        enrichment["data_platforms"].append("civicplus")
+
+                agendas = get_civicplus_agendas(cp_cur, cp_slug)
+                if agendas and not enrichment["recent_meetings"]:
+                    # Only use CivicPlus agendas if Legistar didn't have meetings
+                    enrichment["recent_meetings"] = agendas
+            except Exception as e:
+                print(f"  WARNING: CivicPlus query failed for {slug} (cp:{cp_slug}): {e}")
+
     # Merge enrichment into profile
     profile["officials"] = enrichment["officials"]
     profile["recent_meetings"] = enrichment["recent_meetings"]
     profile["recent_legislation"] = enrichment["recent_legislation"]
+    profile["government_news"] = enrichment["government_news"]
+    profile["video_meetings"] = enrichment["video_meetings"]
     profile["legistar_url"] = enrichment["legistar_url"]
+    profile["data_platforms"] = enrichment["data_platforms"]
     profile["enriched_at"] = enrichment["enriched_at"]
 
     if dry_run:
@@ -369,14 +581,53 @@ def main():
             for f in glob.glob(os.path.join(PROFILE_DIR, "*.json"))
         ])
 
-    print(f"Enriching {len(slugs)} city profiles...")
+    # Load city metadata for cross-platform matching
+    our_cities = {}
+    for slug in slugs:
+        path = os.path.join(PROFILE_DIR, f"{slug}.json")
+        if os.path.exists(path):
+            with open(path) as f:
+                data = json.load(f)
+            our_cities[slug] = {
+                'name': data.get('identity', {}).get('name', ''),
+                'state': data.get('identity', {}).get('state', ''),
+            }
 
-    stats = {"total": 0, "with_officials": 0, "with_meetings": 0, "with_legislation": 0, "errors": 0}
+    # Build CivicPlus mapping
+    cp_name_state_map, cp_normalize = build_civicplus_mapping(our_cities)
+
+    # Connect to secondary DBs
+    pg_conn = None
+    cp_conn = None
+    try:
+        pg_conn = get_conn("primegov")
+        print("  Connected to PrimeGov DB")
+    except Exception as e:
+        print(f"  WARNING: Could not connect to PrimeGov: {e}")
+
+    try:
+        cp_conn = get_conn("civicplus")
+        print("  Connected to CivicPlus DB")
+    except Exception as e:
+        print(f"  WARNING: Could not connect to CivicPlus: {e}")
+
+    print(f"\nEnriching {len(slugs)} city profiles...")
+
+    stats = {
+        "total": 0, "with_officials": 0, "with_meetings": 0,
+        "with_legislation": 0, "with_news": 0, "with_videos": 0,
+        "errors": 0
+    }
 
     for i, slug in enumerate(slugs):
         stats["total"] += 1
         try:
-            profile = enrich_city(slug, dry_run=args.dry_run)
+            profile = enrich_city(
+                slug, dry_run=args.dry_run,
+                pg_conn=pg_conn, cp_conn=cp_conn,
+                cp_mapping=cp_name_state_map, cp_normalize=cp_normalize,
+                our_cities=our_cities,
+            )
             if not profile:
                 continue
 
@@ -384,6 +635,8 @@ def main():
             n_officials = len(officials.get("members", []))
             n_meetings = len(profile.get("recent_meetings", []))
             n_legislation = len(profile.get("recent_legislation", []))
+            n_news = len(profile.get("government_news", []))
+            n_videos = len(profile.get("video_meetings", []))
 
             if n_officials > 0:
                 stats["with_officials"] += 1
@@ -391,8 +644,13 @@ def main():
                 stats["with_meetings"] += 1
             if n_legislation > 0:
                 stats["with_legislation"] += 1
+            if n_news > 0:
+                stats["with_news"] += 1
+            if n_videos > 0:
+                stats["with_videos"] += 1
 
-            status = f"officials={n_officials}, meetings={n_meetings}, legislation={n_legislation}"
+            platforms = profile.get("data_platforms", [])
+            status = f"officials={n_officials}, meetings={n_meetings}, legislation={n_legislation}, news={n_news}, videos={n_videos}, platforms={platforms}"
             if (i + 1) % 10 == 0 or args.city:
                 print(f"  [{i+1}/{len(slugs)}] {slug}: {status}")
 
@@ -400,10 +658,18 @@ def main():
             stats["errors"] += 1
             print(f"  ERROR: {slug}: {e}")
 
+    # Close secondary connections
+    if pg_conn:
+        pg_conn.close()
+    if cp_conn:
+        cp_conn.close()
+
     print(f"\nDone! {stats['total']} cities processed:")
     print(f"  {stats['with_officials']} with current officials")
     print(f"  {stats['with_meetings']} with recent/upcoming meetings")
     print(f"  {stats['with_legislation']} with recent legislation")
+    print(f"  {stats['with_news']} with government news (CivicPlus)")
+    print(f"  {stats['with_videos']} with video meetings (PrimeGov)")
     print(f"  {stats['errors']} errors")
 
 

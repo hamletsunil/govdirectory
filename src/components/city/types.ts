@@ -144,6 +144,9 @@ export interface CityProfile {
   };
   recent_meetings?: RecentMeeting[];
   recent_legislation?: LegislativeItem[];
+  government_news?: NewsItem[];
+  video_meetings?: VideoMeeting[];
+  data_platforms?: string[];
   legistar_url?: string;
   enriched_at?: string;
 }
@@ -176,6 +179,22 @@ export interface LegislativeItem {
   intro_date: string | null;
   file_number: string | null;
   passed_date: string | null;
+}
+
+export interface NewsItem {
+  title: string;
+  url: string | null;
+  date: string | null;
+  description: string | null;
+}
+
+export interface VideoMeeting {
+  date: string | null;
+  title: string;
+  has_video: boolean;
+  video_url: string | null;
+  is_youtube: boolean;
+  source: string;
 }
 
 export interface TimeSeriesEntry {
