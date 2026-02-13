@@ -392,7 +392,8 @@ export function generateChallenges(p: CityProfile): string[] {
     );
   }
 
-  if (p.governance?.agenda_availability_pct != null && p.governance.agenda_availability_pct < 10) {
+  if (p.governance?.agenda_availability_pct != null && p.governance.agenda_availability_pct < 10
+    && p.governance.agenda_availability_pct > 0) {
     challenges.push(
       `Only ${p.governance.agenda_availability_pct.toFixed(1)}% of meetings have published agendas — a significant transparency gap.`
     );

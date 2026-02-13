@@ -466,6 +466,85 @@ a:hover { text-decoration: underline; }
 
 
 /* ═══════════════════════════════════════════════════════════
+   RESIDENT RESOURCES — Quick Action Cards
+   ═══════════════════════════════════════════════════════════ */
+
+.resource-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.resource-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1.25rem 1.5rem;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  text-decoration: none;
+  color: var(--text-body, #231d25);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.resource-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  border-color: var(--city-accent, #6366f1);
+}
+
+.resource-icon {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--city-accent, #6366f1);
+  border-radius: 10px;
+  padding: 8px;
+}
+
+.resource-icon svg {
+  width: 22px;
+  height: 22px;
+  stroke: #fff;
+}
+
+.resource-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.resource-title {
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: #1a1714;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.resource-external-icon {
+  width: 12px;
+  height: 12px;
+  opacity: 0.4;
+  stroke: currentColor;
+  flex-shrink: 0;
+}
+
+.resource-desc {
+  font-size: 0.825rem;
+  color: #6b6560;
+  margin-top: 0.2rem;
+  line-height: 1.4;
+}
+
+
+/* ═══════════════════════════════════════════════════════════
    OFFICIALS — Monogram Cards with Email Buttons
    ═══════════════════════════════════════════════════════════ */
 
@@ -1159,6 +1238,7 @@ a:hover { text-decoration: underline; }
 
   .page-section { padding: 4rem 1.25rem; }
 
+  .resource-grid { grid-template-columns: 1fr; }
   .officials-grid { grid-template-columns: 1fr; }
   .official-card-v2 { flex-wrap: wrap; }
   .official-email-btn { margin-left: auto; }

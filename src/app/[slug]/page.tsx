@@ -58,6 +58,150 @@ function extractYouTubeId(url: string): string | null {
   return match ? match[1] : null;
 }
 
+function stateSlug(state: string): string {
+  return state.toLowerCase().replace(/\s+/g, "-");
+}
+
+interface ResidentResource {
+  title: string;
+  description: string;
+  url: string;
+  icon: "vote" | "calendar" | "gavel" | "people" | "search" | "video" | "alert" | "building";
+  external?: boolean;
+}
+
+function getResidentResources(p: CityProfile): ResidentResource[] {
+  const resources: ResidentResource[] = [];
+  const name = p.identity.name;
+  const st = p.identity.state;
+
+  // Register to vote (universal)
+  if (st) {
+    resources.push({
+      title: "Register to Vote",
+      description: `Check your registration or register in ${st}`,
+      url: `https://vote.org/register-to-vote/${stateSlug(st)}/`,
+      icon: "vote",
+      external: true,
+    });
+  }
+
+  // Meeting calendar (Legistar)
+  if (p.legistar_url) {
+    resources.push({
+      title: "Meeting Calendar",
+      description: `Upcoming ${name} council and committee meetings`,
+      url: `${p.legistar_url}/Calendar.aspx`,
+      icon: "calendar",
+      external: true,
+    });
+  }
+
+  // Contact officials (anchor or Legistar)
+  if ((p.officials?.members?.length || 0) > 0) {
+    resources.push({
+      title: "Contact Officials",
+      description: `Email your ${p.officials?.body_name?.replace(/^\*\s*/, "") || "council"} members`,
+      url: "#representatives",
+      icon: "people",
+    });
+  } else if (p.legistar_url) {
+    resources.push({
+      title: "Find Officials",
+      description: `${name} elected officials and staff`,
+      url: `${p.legistar_url}/People`,
+      icon: "people",
+      external: true,
+    });
+  }
+
+  // Browse legislation (Legistar)
+  if (p.legistar_url) {
+    resources.push({
+      title: "Browse Legislation",
+      description: "Ordinances, resolutions, and pending items",
+      url: `${p.legistar_url}/Legislation`,
+      icon: "gavel",
+      external: true,
+    });
+  }
+
+  // Search meeting records (Hamlet)
+  resources.push({
+    title: "Search Meetings",
+    description: `Search transcripts and agendas from ${name}`,
+    url: `https://myhamlet.com/search?q=${encodeURIComponent(name)}`,
+    icon: "search",
+    external: true,
+  });
+
+  // Watch meetings (if video available)
+  if ((p.video_meetings?.length || 0) > 0) {
+    resources.push({
+      title: "Watch Meetings",
+      description: "Recorded council and committee sessions",
+      url: "#watch",
+      icon: "video",
+    });
+  }
+
+  // Report an issue (SeeClickFix)
+  if (p.civic_issues?.has_civic_issue_tracking) {
+    resources.push({
+      title: "Report an Issue",
+      description: "Potholes, streetlights, noise — report to the city",
+      url: `https://seeclickfix.com/web_portal/search?keyword=${encodeURIComponent(name + " " + (st || ""))}`,
+      icon: "alert",
+      external: true,
+    });
+  }
+
+  return resources;
+}
+
+const RESOURCE_ICONS: Record<string, JSX.Element> = {
+  vote: (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M9 11l3 3L22 4" /><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11" />
+    </svg>
+  ),
+  calendar: (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <rect x="3" y="4" width="18" height="18" rx="2" ry="2" /><line x1="16" y1="2" x2="16" y2="6" /><line x1="8" y1="2" x2="8" y2="6" /><line x1="3" y1="10" x2="21" y2="10" />
+    </svg>
+  ),
+  gavel: (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z" /><polyline points="14 2 14 8 20 8" /><line x1="16" y1="13" x2="8" y2="13" /><line x1="16" y1="17" x2="8" y2="17" /><polyline points="10 9 9 9 8 9" />
+    </svg>
+  ),
+  people: (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" /><circle cx="9" cy="7" r="4" /><path d="M23 21v-2a4 4 0 00-3-3.87" /><path d="M16 3.13a4 4 0 010 7.75" />
+    </svg>
+  ),
+  search: (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" />
+    </svg>
+  ),
+  video: (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <polygon points="23 7 16 12 23 17 23 7" /><rect x="1" y="5" width="15" height="14" rx="2" ry="2" />
+    </svg>
+  ),
+  alert: (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z" /><line x1="12" y1="9" x2="12" y2="13" /><line x1="12" y1="17" x2="12.01" y2="17" />
+    </svg>
+  ),
+  building: (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <rect x="4" y="2" width="16" height="20" rx="2" ry="2" /><path d="M9 22v-4h6v4" /><line x1="8" y1="6" x2="8" y2="6.01" /><line x1="16" y1="6" x2="16" y2="6.01" /><line x1="12" y1="6" x2="12" y2="6.01" /><line x1="8" y1="10" x2="8" y2="10.01" /><line x1="16" y1="10" x2="16" y2="10.01" /><line x1="12" y1="10" x2="12" y2="10.01" /><line x1="8" y1="14" x2="8" y2="14.01" /><line x1="16" y1="14" x2="16" y2="14.01" /><line x1="12" y1="14" x2="12" y2="14.01" />
+    </svg>
+  ),
+};
+
 /* ── Data Loading ── */
 
 function loadProfile(slug: string): CityProfile | null {
@@ -121,6 +265,9 @@ export default async function CityPage({
 
   // Next upcoming meeting
   const nextMeeting = upcoming[0];
+
+  // Resident resources
+  const resources = getResidentResources(p);
 
   return (
     <div className={accentClass}>
@@ -227,7 +374,51 @@ export default async function CityPage({
       </section>
 
       {/* ═══════════════════════════════════════════════════════════
-          SECTION 2: YOUR REPRESENTATIVES (dark)
+          SECTION 2: RESIDENT RESOURCES — Quick Actions (light)
+          ═══════════════════════════════════════════════════════════ */}
+      {resources.length > 0 && (
+        <section className="page-section section-light" id="resources">
+          <div className="section-inner">
+            <span className="section-label">Quick Links</span>
+            <h2 className="section-heading">What Can You Do in {p.identity.name}?</h2>
+            <p className="section-prose section-prose-dark">
+              Your starting point for civic participation — register to vote, attend a meeting, browse legislation, or contact your representatives.
+            </p>
+
+            <div className="resource-grid">
+              {resources.map((r) => {
+                const isExternal = r.external;
+                return (
+                  <a
+                    key={r.title}
+                    href={r.url}
+                    className="resource-card"
+                    {...(isExternal ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+                  >
+                    <div className="resource-icon">
+                      {RESOURCE_ICONS[r.icon]}
+                    </div>
+                    <div className="resource-content">
+                      <div className="resource-title">
+                        {r.title}
+                        {isExternal && (
+                          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="resource-external-icon">
+                            <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6" /><polyline points="15 3 21 3 21 9" /><line x1="10" y1="14" x2="21" y2="3" />
+                          </svg>
+                        )}
+                      </div>
+                      <div className="resource-desc">{r.description}</div>
+                    </div>
+                  </a>
+                );
+              })}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* ═══════════════════════════════════════════════════════════
+          SECTION 3: YOUR REPRESENTATIVES (dark)
           ═══════════════════════════════════════════════════════════ */}
       {hasOfficials && (
         <section className="page-section section-dark" id="representatives">
