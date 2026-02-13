@@ -11,7 +11,7 @@ export function MiniSparkline({
   data,
   labels,
   color,
-  height = 48,
+  height = 72,
 }: MiniSparklineProps) {
   if (data.length < 2) return null;
 
