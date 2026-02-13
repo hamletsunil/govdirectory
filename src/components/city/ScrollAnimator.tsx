@@ -2,10 +2,10 @@
 
 import { useEffect } from "react";
 
-/** Adds .visible to .section elements as they scroll into view */
+/** Adds .visible to .page-section elements as they scroll into view */
 export function ScrollAnimator() {
   useEffect(() => {
-    const sections = document.querySelectorAll(".section");
+    const sections = document.querySelectorAll(".page-section");
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
