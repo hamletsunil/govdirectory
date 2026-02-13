@@ -1,3 +1,4 @@
+import React from "react";
 import fs from "fs";
 import path from "path";
 import { notFound } from "next/navigation";
@@ -170,7 +171,7 @@ function getResidentResources(p: CityProfile): ResidentResource[] {
   return resources;
 }
 
-const RESOURCE_ICONS: Record<string, JSX.Element> = {
+const RESOURCE_ICONS: Record<string, React.ReactNode> = {
   vote: (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
       <path d="M9 11l3 3L22 4" /><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11" />
