@@ -1,7 +1,8 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 interface CityEntry {
   slug: string;
@@ -17,19 +18,72 @@ function fmtPop(n: number): string {
   return n.toLocaleString("en-US");
 }
 
+function groupByState(cities: CityEntry[]): Record<string, CityEntry[]> {
+  const groups: Record<string, CityEntry[]> = {};
+  for (const city of cities) {
+    const key = city.state || "Other";
+    if (!groups[key]) groups[key] = [];
+    groups[key].push(city);
+  }
+  return groups;
+}
+
 export function CityIndex({ cities }: { cities: CityEntry[] }) {
   const [query, setQuery] = useState("");
+  const [imgErrors, setImgErrors] = useState<Set<string>>(new Set());
 
-  const filtered = query.trim()
-    ? cities.filter((c) => {
-        const q = query.toLowerCase();
-        return (
-          c.name.toLowerCase().includes(q) ||
-          c.state.toLowerCase().includes(q) ||
-          c.slug.includes(q)
-        );
-      })
-    : cities;
+  const filtered = useMemo(() => {
+    if (!query.trim()) return cities;
+    const q = query.toLowerCase();
+    return cities.filter(
+      (c) =>
+        c.name.toLowerCase().includes(q) ||
+        c.state.toLowerCase().includes(q) ||
+        c.slug.includes(q),
+    );
+  }, [cities, query]);
+
+  const isSearching = query.trim().length > 0;
+
+  const grouped = useMemo(() => {
+    if (isSearching) return null;
+    return groupByState(filtered);
+  }, [filtered, isSearching]);
+
+  const sortedStateKeys = useMemo(() => {
+    if (!grouped) return [];
+    return Object.keys(grouped).sort((a, b) => {
+      if (a === "Other") return 1;
+      if (b === "Other") return -1;
+      return a.localeCompare(b);
+    });
+  }, [grouped]);
+
+  const handleImgError = (slug: string) => {
+    setImgErrors((prev) => new Set(prev).add(slug));
+  };
+
+  const renderCard = (c: CityEntry) => (
+    <Link key={c.slug} href={`/${c.slug}`} className="card-interactive index-card">
+      {!imgErrors.has(c.slug) && (
+        <div className="index-card-illustration">
+          <Image
+            src={`/illustrations/${c.slug}.svg`}
+            alt=""
+            width={280}
+            height={120}
+            className="index-card-img"
+            onError={() => handleImgError(c.slug)}
+          />
+        </div>
+      )}
+      <div className="index-card-name">{c.name}</div>
+      {c.state && <div className="index-card-state">{c.state}</div>}
+      {c.population != null && (
+        <div className="index-card-meta">Pop. {fmtPop(c.population)}</div>
+      )}
+    </Link>
+  );
 
   return (
     <>
@@ -43,19 +97,25 @@ export function CityIndex({ cities }: { cities: CityEntry[] }) {
       </div>
       <div className="index-count">
         {filtered.length} {filtered.length === 1 ? "city" : "cities"}
-        {query && " found"}
+        {isSearching && " found"}
       </div>
-      <div className="index-grid">
-        {filtered.map((c) => (
-          <Link key={c.slug} href={`/${c.slug}`} className="index-card">
-            <div className="index-card-name">{c.name}</div>
-            <div className="index-card-state">{c.state}</div>
-            {c.population != null && (
-              <div className="index-card-meta">Pop. {fmtPop(c.population)}</div>
-            )}
-          </Link>
-        ))}
-      </div>
+
+      {isSearching ? (
+        <div className="index-grid">
+          {filtered.map(renderCard)}
+        </div>
+      ) : (
+        <div className="index-grouped">
+          {sortedStateKeys.map((state) => (
+            <div key={state} className="index-state-group">
+              <h2 className="index-state-heading">{state}</h2>
+              <div className="index-grid">
+                {grouped![state].map(renderCard)}
+              </div>
+            </div>
+          ))}
+        </div>
+      )}
     </>
   );
 }
