@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Enrich SimCity profiles with live data from Legistar, PrimeGov, CivicPlus, and Swagit DBs.
+Enrich city profiles with live data from Legistar, PrimeGov, CivicPlus, and Swagit DBs.
 
 Adds to each city profile:
   - officials: current elected officials (name, email, phone, committees)
@@ -41,8 +41,9 @@ DB_URLS = {
 
 import re
 
-PROFILE_DIR = os.path.expanduser("~/simcity-inventory/output/profiles/")
-OUTPUT_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "public", "data", "cities")
+# Read and write city profiles in public/data/cities/ (the single source of truth)
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR = os.path.join(os.path.dirname(SCRIPT_DIR), "public", "data", "cities")
 
 # --- Cross-platform slug mapping ---
 # Maps our Legistar slug -> PrimeGov city_slug
@@ -451,7 +452,7 @@ def get_legistar_url(slug):
 
 def enrich_city(slug, dry_run=False, pg_conn=None, cp_conn=None, cp_mapping=None, cp_normalize=None, our_cities=None):
     """Enrich a single city profile with DB data from all platforms."""
-    profile_path = os.path.join(PROFILE_DIR, f"{slug}.json")
+    profile_path = os.path.join(DATA_DIR, f"{slug}.json")
     if not os.path.exists(profile_path):
         return None
 
@@ -554,14 +555,9 @@ def enrich_city(slug, dry_run=False, pg_conn=None, cp_conn=None, cp_mapping=None
     if dry_run:
         return profile
 
-    # Write enriched profile back to SimCity output
+    # Write enriched profile to public/data/cities/
+    os.makedirs(DATA_DIR, exist_ok=True)
     with open(profile_path, "w") as f:
-        json.dump(profile, f, indent=2, default=str)
-
-    # Also write to govdirectory public data
-    output_path = os.path.join(OUTPUT_DIR, f"{slug}.json")
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
-    with open(output_path, "w") as f:
         json.dump(profile, f, separators=(",", ":"), default=str)
 
     return profile
@@ -576,15 +572,17 @@ def main():
     if args.city:
         slugs = [args.city]
     else:
+        # List all city JSON files, excluding meta files (_index.json, _benchmarks.json)
         slugs = sorted([
             os.path.basename(f).replace(".json", "")
-            for f in glob.glob(os.path.join(PROFILE_DIR, "*.json"))
+            for f in glob.glob(os.path.join(DATA_DIR, "*.json"))
+            if not os.path.basename(f).startswith("_")
         ])
 
     # Load city metadata for cross-platform matching
     our_cities = {}
     for slug in slugs:
-        path = os.path.join(PROFILE_DIR, f"{slug}.json")
+        path = os.path.join(DATA_DIR, f"{slug}.json")
         if os.path.exists(path):
             with open(path) as f:
                 data = json.load(f)
