@@ -166,26 +166,14 @@
     "accela_agency_id": "MESA"
   },
   "development": {
-    "permits_12mo": 4381,
-    "yoy_trend_pct": -2.2,
-    "avg_permit_value": null,
-    "permits_per_capita_1k": 8.7,
+    "permits_12mo": 5233,
+    "yoy_trend_pct": 3.0,
+    "avg_permit_value": 869950.37,
+    "permits_per_capita_1k": 10.4,
     "permit_types": {
-      "Electrical": 842,
-      "Single Family (Detached)": 710,
-      "Other Commercial": 529,
-      "Tenant Improvement (Interior Only)": 373,
-      "Plumbing": 355,
-      "Swimming Pool": 313,
-      "Commercial/Industrial Projects": 245,
-      "Renovations/Remodels": 205,
-      "Single Family (Attached)": 136,
-      "Additions": 121,
-      "Remodeling With Addition": 70,
-      "New Mobile Home": 69,
-      "Park Model Other Addition": 52,
-      "Multi-Family Residential": 48,
-      "Garage/Carport": 47
+      "RES": 3364,
+      "COM": 1395,
+      "SVC": 474
     },
     "datasets_count": 10
   },
@@ -486,12 +474,12 @@
       "permits": {
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
-        "api_url": "https://citydata.mesaaz.gov/resource/2gkz-7z4f.json",
-        "probed_at": "2026-02-13T13:03:40.597953",
+        "api_url": "https://citydata.mesaaz.gov/resource/dzpk-hxfb.json",
+        "probed_at": "2026-02-13T13:08:45.827028",
         "data_vintage": "Rolling 12-month window ending 2026-02-13",
         "geographic_level": "place",
         "status": "available",
-        "dataset_name": "Building Permits (RETIRED)",
+        "dataset_name": "Building Permits",
         "date_column_used": "issued_date"
       },
       "youtube_meetings": {
