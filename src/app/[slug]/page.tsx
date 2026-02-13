@@ -98,7 +98,11 @@ export default async function CityPage({
   const transparency = generateTransparency(p);
 
   // Derived data
-  const hasOfficials = (p.officials?.members?.length || 0) > 0;
+  const allOfficials = p.officials?.members || [];
+  const hasOfficials = allOfficials.length > 0;
+  const MAX_OFFICIALS = 12;
+  const showAllOfficials = allOfficials.length <= MAX_OFFICIALS;
+  const displayedOfficials = showAllOfficials ? allOfficials : allOfficials.slice(0, MAX_OFFICIALS);
   const hasMeetings = (p.recent_meetings?.length || 0) > 0;
   const hasLegislation = (p.recent_legislation?.length || 0) > 0;
   const hasVideo = (p.video_meetings?.length || 0) > 0;
@@ -233,7 +237,7 @@ export default async function CityPage({
             <p className="section-prose">{govIntro}</p>
 
             <div className="officials-grid">
-              {p.officials!.members.map((m) => (
+              {displayedOfficials.map((m) => (
                 <div key={m.name} className="official-card-v2">
                   <div className="official-monogram">{monogram(m.name)}</div>
                   <div className="official-info">
@@ -259,6 +263,14 @@ export default async function CityPage({
                 </div>
               ))}
             </div>
+
+            {!showAllOfficials && p.legistar_url && (
+              <div className="section-link-row">
+                <a href={`${p.legistar_url}/People`} target="_blank" rel="noopener noreferrer" className="section-action-link">
+                  View all {allOfficials.length} members &rarr;
+                </a>
+              </div>
+            )}
 
             {p.legistar_url && (
               <div className="section-link-row">
@@ -529,7 +541,12 @@ export default async function CityPage({
       {/* ═══════════════════════════════════════════════════════════
           SECTION 6: TRANSPARENCY SCORECARD (light, different tone)
           ═══════════════════════════════════════════════════════════ */}
+      {/* Only show transparency section if at least one metric > 0 */}
       {transparency && p.governance && (
+        (p.governance.agenda_availability_pct || 0) > 0 ||
+        (p.governance.minutes_availability_pct || 0) > 0 ||
+        (p.governance.video_availability_pct || 0) > 0
+      ) && (
         <section className="page-section section-light-alt" id="transparency">
           <div className="section-inner">
             <span className="section-label">Transparency</span>
@@ -537,31 +554,31 @@ export default async function CityPage({
             <p className="section-prose section-prose-dark">{transparency}</p>
 
             <div className="transparency-bars">
-              {p.governance.agenda_availability_pct != null && (
+              {(p.governance.agenda_availability_pct || 0) > 0 && (
                 <div className="transparency-row">
                   <span className="transparency-label">Agendas Published</span>
                   <div className="transparency-track">
-                    <div className="transparency-fill" style={{ width: `${Math.min(100, p.governance.agenda_availability_pct)}%` }} />
+                    <div className="transparency-fill" style={{ width: `${Math.min(100, p.governance.agenda_availability_pct!)}%` }} />
                   </div>
-                  <span className="transparency-value">{p.governance.agenda_availability_pct.toFixed(0)}%</span>
+                  <span className="transparency-value">{p.governance.agenda_availability_pct!.toFixed(0)}%</span>
                 </div>
               )}
-              {p.governance.minutes_availability_pct != null && (
+              {(p.governance.minutes_availability_pct || 0) > 0 && (
                 <div className="transparency-row">
                   <span className="transparency-label">Minutes Available</span>
                   <div className="transparency-track">
-                    <div className="transparency-fill" style={{ width: `${Math.min(100, p.governance.minutes_availability_pct)}%` }} />
+                    <div className="transparency-fill" style={{ width: `${Math.min(100, p.governance.minutes_availability_pct!)}%` }} />
                   </div>
-                  <span className="transparency-value">{p.governance.minutes_availability_pct.toFixed(0)}%</span>
+                  <span className="transparency-value">{p.governance.minutes_availability_pct!.toFixed(0)}%</span>
                 </div>
               )}
-              {p.governance.video_availability_pct != null && (
+              {(p.governance.video_availability_pct || 0) > 0 && (
                 <div className="transparency-row">
                   <span className="transparency-label">Video Recordings</span>
                   <div className="transparency-track">
-                    <div className="transparency-fill" style={{ width: `${Math.min(100, p.governance.video_availability_pct)}%` }} />
+                    <div className="transparency-fill" style={{ width: `${Math.min(100, p.governance.video_availability_pct!)}%` }} />
                   </div>
-                  <span className="transparency-value">{p.governance.video_availability_pct.toFixed(0)}%</span>
+                  <span className="transparency-value">{p.governance.video_availability_pct!.toFixed(0)}%</span>
                 </div>
               )}
             </div>
