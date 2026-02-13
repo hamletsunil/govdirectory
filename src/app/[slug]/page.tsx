@@ -127,6 +127,108 @@ function sortedTimeSeries<T extends { year: number }>(data: T[]): T[] {
   return [...data].sort((a, b) => a.year - b.year);
 }
 
+/* ── Letter Grades ── */
+
+type GradeInfo = { letter: string; cssClass: string };
+
+/** Compute percentile of a value within its benchmark distribution.
+ *  Returns 0-100 where 50 = median. */
+function percentileRank(val: number, b: BenchmarkEntry): number {
+  // Approximate using p25, median, p75
+  if (val <= b.min) return 0;
+  if (val >= b.max) return 100;
+  if (val <= b.p25) return 25 * ((val - b.min) / (b.p25 - b.min));
+  if (val <= b.median) return 25 + 25 * ((val - b.p25) / (b.median - b.p25));
+  if (val <= b.p75) return 50 + 25 * ((val - b.median) / (b.p75 - b.median));
+  return 75 + 25 * ((val - b.p75) / (b.max - b.p75));
+}
+
+/** Convert percentile (0-100) to letter grade */
+function percentileToGrade(pct: number): GradeInfo {
+  if (pct >= 90) return { letter: "A+", cssClass: "grade-a" };
+  if (pct >= 80) return { letter: "A", cssClass: "grade-a" };
+  if (pct >= 70) return { letter: "B+", cssClass: "grade-b" };
+  if (pct >= 60) return { letter: "B", cssClass: "grade-b" };
+  if (pct >= 50) return { letter: "C+", cssClass: "grade-c" };
+  if (pct >= 40) return { letter: "C", cssClass: "grade-c" };
+  if (pct >= 30) return { letter: "D+", cssClass: "grade-d" };
+  if (pct >= 20) return { letter: "D", cssClass: "grade-d" };
+  return { letter: "F", cssClass: "grade-f" };
+}
+
+/** Compute category grades for report card.
+ *  higherIsBetter=false means lower values are better (crime, poverty, etc.) */
+function computeGrades(p: CityProfile, bm: Benchmarks) {
+  const grades: { category: string; grade: GradeInfo | null }[] = [];
+
+  // Affordability — composite of income (higher=better) + rent burden (lower=better) + housing ratio (lower=better)
+  const affScores: number[] = [];
+  if (p.economy?.median_household_income && bm.median_household_income)
+    affScores.push(percentileRank(p.economy.median_household_income, bm.median_household_income));
+  if (p.economy?.rent_to_income_ratio && bm.rent_to_income_ratio)
+    affScores.push(100 - percentileRank(p.economy.rent_to_income_ratio, bm.rent_to_income_ratio));
+  if (p.economy?.home_value_to_income_ratio && bm.home_value_to_income_ratio)
+    affScores.push(100 - percentileRank(p.economy.home_value_to_income_ratio, bm.home_value_to_income_ratio));
+  grades.push({
+    category: "Affordability",
+    grade: affScores.length > 0 ? percentileToGrade(affScores.reduce((a, b) => a + b, 0) / affScores.length) : null,
+  });
+
+  // Safety
+  if (p.safety?.violent_crime_rate && bm.violent_crime_rate) {
+    const pct = 100 - percentileRank(p.safety.violent_crime_rate, bm.violent_crime_rate);
+    grades.push({ category: "Safety", grade: percentileToGrade(pct) });
+  } else {
+    grades.push({ category: "Safety", grade: null });
+  }
+
+  // Schools
+  if (p.education?.avg_school_rating && bm.avg_school_rating) {
+    grades.push({ category: "Schools", grade: percentileToGrade(percentileRank(p.education.avg_school_rating, bm.avg_school_rating)) });
+  } else {
+    grades.push({ category: "Schools", grade: null });
+  }
+
+  // Jobs
+  const jobScores: number[] = [];
+  if (p.economy?.unemployment_rate && bm.unemployment_rate)
+    jobScores.push(100 - percentileRank(p.economy.unemployment_rate, bm.unemployment_rate));
+  if (p.economy?.median_household_income && bm.median_household_income)
+    jobScores.push(percentileRank(p.economy.median_household_income, bm.median_household_income));
+  grades.push({
+    category: "Jobs",
+    grade: jobScores.length > 0 ? percentileToGrade(jobScores.reduce((a, b) => a + b, 0) / jobScores.length) : null,
+  });
+
+  // Housing
+  if (p.housing?.median_rent && bm.median_rent) {
+    const pct = 100 - percentileRank(p.housing.median_rent, bm.median_rent);
+    grades.push({ category: "Housing", grade: percentileToGrade(pct) });
+  } else {
+    grades.push({ category: "Housing", grade: null });
+  }
+
+  // Environment
+  if (p.environment?.pm25_mean && bm.pm25_mean) {
+    const pct = 100 - percentileRank(p.environment.pm25_mean, bm.pm25_mean);
+    grades.push({ category: "Air Quality", grade: percentileToGrade(pct) });
+  } else {
+    grades.push({ category: "Air Quality", grade: null });
+  }
+
+  return grades;
+}
+
+/** Compute composite score (average of available grades, 0-100) */
+function compositeScore(grades: { grade: GradeInfo | null }[]): number | null {
+  const gradeToScore: Record<string, number> = {
+    "A+": 97, "A": 85, "B+": 75, "B": 65, "C+": 55, "C": 45, "D+": 35, "D": 25, "F": 10,
+  };
+  const scores = grades.filter((g) => g.grade != null).map((g) => gradeToScore[g.grade!.letter] || 50);
+  if (scores.length === 0) return null;
+  return Math.round(scores.reduce((a, b) => a + b, 0) / scores.length);
+}
+
 /* ── At-a-Glance Stats ── */
 
 function pickGlanceStats(p: CityProfile) {
@@ -229,6 +331,10 @@ export default async function CityPage({
   const dims = countDimensions(p);
   const srcCount = countSources(p.data_sources || {});
 
+  const grades = computeGrades(p, b);
+  const composite = compositeScore(grades);
+  const compositeGrade = composite != null ? percentileToGrade(composite) : null;
+
   const hasEconomy = p.economy?.median_household_income != null;
   const hasSafety = p.safety?.violent_crime_rate != null;
   const hasEducation = p.education?.total_schools != null || p.education?.avg_school_rating != null;
@@ -265,6 +371,23 @@ export default async function CityPage({
               <div className="hero-population">{fmtPop(p.identity.population)}</div>
               <div className="hero-pop-label">Population</div>
             </>
+          )}
+          {compositeGrade && (
+            <div className="report-card">
+              <div className={`composite-grade ${compositeGrade.cssClass}`}>
+                {compositeGrade.letter}
+              </div>
+              <div className="report-card-grid">
+                {grades.map((g) => (
+                  <div key={g.category} className="report-card-item">
+                    <span className="report-card-category">{g.category}</span>
+                    <span className={`report-card-grade ${g.grade?.cssClass || "grade-na"}`}>
+                      {g.grade?.letter || "N/A"}
+                    </span>
+                  </div>
+                ))}
+              </div>
+            </div>
           )}
         </div>
         <div className="hero-scroll">
@@ -323,7 +446,7 @@ export default async function CityPage({
                     <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
                   </svg>
                 </div>
-                <h2 className="section-title">Economy</h2>
+                <h2 className="section-title">Can You Afford It?</h2>
               </div>
 
               <p className="section-narrative">
@@ -461,7 +584,7 @@ export default async function CityPage({
                     <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
                   </svg>
                 </div>
-                <h2 className="section-title">Public Safety</h2>
+                <h2 className="section-title">Is It Safe?</h2>
               </div>
 
               <p className="section-narrative">
@@ -564,7 +687,7 @@ export default async function CityPage({
                     <path d="M6 12v5c3 3 10 3 12 0v-5" />
                   </svg>
                 </div>
-                <h2 className="section-title">Education</h2>
+                <h2 className="section-title">Are the Schools Good?</h2>
               </div>
 
               <p className="section-narrative">
@@ -652,7 +775,7 @@ export default async function CityPage({
                     <polyline points="9 22 9 12 15 12 15 22" />
                   </svg>
                 </div>
-                <h2 className="section-title">Housing</h2>
+                <h2 className="section-title">What Does Housing Cost?</h2>
               </div>
 
               <p className="section-narrative">
@@ -764,7 +887,7 @@ export default async function CityPage({
                     <path d="M8 22h8" />
                   </svg>
                 </div>
-                <h2 className="section-title">Environment</h2>
+                <h2 className="section-title">Quality of Life</h2>
               </div>
 
               <p className="section-narrative">
@@ -866,7 +989,7 @@ export default async function CityPage({
                   <polygon points="12 2 20 7 4 7" />
                 </svg>
               </div>
-              <h2 className="section-title">Governance</h2>
+              <h2 className="section-title">How Responsive Is City Hall?</h2>
             </div>
 
             <p className="section-narrative">
@@ -982,7 +1105,7 @@ export default async function CityPage({
                   <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
                 </svg>
               </div>
-              <h2 className="section-title">Civic Issues (311)</h2>
+              <h2 className="section-title">Does the City Listen?</h2>
             </div>
 
             <p className="section-narrative">
@@ -1052,7 +1175,7 @@ export default async function CityPage({
                   <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
                 </svg>
               </div>
-              <h2 className="section-title">Development</h2>
+              <h2 className="section-title">Is the City Growing?</h2>
             </div>
 
             <p className="section-narrative">
@@ -1108,7 +1231,7 @@ export default async function CityPage({
                   <rect x="1" y="5" width="15" height="14" rx="2" ry="2" />
                 </svg>
               </div>
-              <h2 className="section-title">Public Meetings</h2>
+              <h2 className="section-title">Can You Watch Government?</h2>
             </div>
 
             <p className="section-narrative">
