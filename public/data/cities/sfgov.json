@@ -179,15 +179,14 @@
     "yoy_trend_pct": 2.4,
     "avg_permit_value": null,
     "permit_types": {
-      "8": 23224,
-      "3": 1208,
-      "4": 491,
-      "9": 192,
-      "6": 49,
-      "7": 45,
-      "2": 41,
-      "1": 13,
-      "5": 3
+      "otc alterations permit": 23224,
+      "additions alterations or repairs": 1208,
+      "sign - erect": 491,
+      "demolitions": 49,
+      "wall or painted sign": 45,
+      "new construction wood frame": 41,
+      "new construction": 13,
+      "grade or quarry or fill or excavate": 3
     },
     "datasets_count": 10
   },
@@ -343,7 +342,7 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.sfgov.org/resource/i98e-djp9.json",
-        "probed_at": "2026-02-13T13:09:38.561638",
+        "probed_at": "2026-02-13T13:15:22.143851",
         "data_vintage": "Rolling 12-month window ending 2026-02-13",
         "geographic_level": "place",
         "status": "available",

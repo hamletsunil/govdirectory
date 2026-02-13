@@ -19,6 +19,7 @@ jobs:
       PRIMEGOV_DB_URL: ${{ secrets.PRIMEGOV_DB_URL }}
       CIVICPLUS_DB_URL: ${{ secrets.CIVICPLUS_DB_URL }}
       SWAGIT_DB_URL: ${{ secrets.SWAGIT_DB_URL }}
+      SOCRATA_APP_TOKEN: ${{ secrets.SOCRATA_APP_TOKEN }}
 
     steps:
       - name: Checkout repository
@@ -34,6 +35,9 @@ jobs:
 
       - name: Run enrichment script
         run: python scripts/enrich-from-dbs.py
+
+      - name: Scrape Socrata building permits
+        run: python scripts/scrape-socrata-permits.py
 
       - name: Regenerate _index.json and _benchmarks.json
         run: python scripts/regenerate-index.py
