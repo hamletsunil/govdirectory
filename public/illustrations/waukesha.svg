@@ -1,38 +1,120 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300">
-<defs><linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#e0eaf4"/><stop offset="100%" stop-color="#f0f2f5"/></linearGradient></defs><rect width="1200" height="300" fill="url(#skyGrad)"/>
-<rect x="356.4" y="226.8" width="51.9" height="73.2" fill="#99b6c9"/>
-<rect x="869.8" y="235.1" width="62.5" height="64.9" fill="#99b6c9"/>
-<rect x="880.7" y="223.7" width="40.6" height="11.4" fill="#91adbf"/>
-<rect x="246.2" y="235.5" width="34.1" height="64.5" fill="#6a95b1"/>
-<rect x="252.1" y="224.1" width="22.1" height="11.4" fill="#658ea8"/>
-<rect x="260.2" y="236.1" width="6" height="8" fill="#9ebacc" opacity="0.5"/>
-<rect x="260.2" y="252.1" width="6" height="8" fill="#9ebacc" opacity="0.5"/>
-<rect x="939.3" y="243.6" width="56.9" height="56.4" fill="#6a95b1"/>
-<rect x="218.3" y="197.7" width="52.1" height="102.3" fill="#457b9d"/>
-<rect x="227.4" y="179.6" width="33.9" height="18.1" fill="#427595"/>
-<rect x="234.4" y="191.6" width="6" height="8" fill="#86a9bf" opacity="0.5"/>
-<rect x="248.4" y="207.6" width="6" height="8" fill="#86a9bf" opacity="0.5"/>
-<rect x="234.4" y="223.6" width="6" height="8" fill="#86a9bf" opacity="0.5"/>
-<rect x="234.4" y="239.6" width="6" height="8" fill="#86a9bf" opacity="0.5"/>
-<rect x="234.4" y="255.6" width="6" height="8" fill="#86a9bf" opacity="0.5"/>
-<rect x="248.4" y="255.6" width="6" height="8" fill="#86a9bf" opacity="0.5"/>
-<rect x="234.4" y="271.6" width="6" height="8" fill="#86a9bf" opacity="0.5"/>
-<rect x="248.4" y="271.6" width="6" height="8" fill="#86a9bf" opacity="0.5"/>
-<rect x="834.8" y="244.9" width="42.1" height="55.1" fill="#457b9d"/>
-<line x1="552.6" y1="285.0" x2="552.6" y2="273.2" stroke="#5c4a32" stroke-width="3"/>
-<polygon points="543.0,273.2 552.6,233.4 562.2,273.2" fill="#2c5826"/>
-<line x1="76.7" y1="285.0" x2="76.7" y2="276.6" stroke="#5c4a32" stroke-width="3"/>
-<polygon points="68.7,276.6 76.7,232.4 84.7,276.6" fill="#285022"/>
-<line x1="547.9" y1="285.0" x2="547.9" y2="274.5" stroke="#5c4a32" stroke-width="3"/>
-<polygon points="538.0,274.5 547.9,229.8 557.8,274.5" fill="#285023"/>
-<line x1="1085.1" y1="285.0" x2="1085.1" y2="275.4" stroke="#5c4a32" stroke-width="3"/>
-<polygon points="1076.4,275.4 1085.1,241.7 1093.8,275.4" fill="#264d21"/>
-<line x1="1097.4" y1="285.0" x2="1097.4" y2="273.9" stroke="#5c4a32" stroke-width="3"/>
-<polygon points="1089.4,273.9 1097.4,231.2 1105.5,273.9" fill="#274e22"/>
-<line x1="616.0" y1="285.0" x2="616.0" y2="276.7" stroke="#5c4a32" stroke-width="3"/>
-<polygon points="607.2,276.7 616.0,235.4 624.8,276.7" fill="#2d5927"/>
-<line x1="137.6" y1="285.0" x2="137.6" y2="273.9" stroke="#5c4a32" stroke-width="3"/>
-<polygon points="129.4,273.9 137.6,241.0 145.8,273.9" fill="#274e22"/>
-<rect x="0" y="285" width="1200" height="15" fill="#8a9a82" opacity="0.4"/>
-<ellipse cx="308.4" cy="47.2" rx="106.9" ry="17.0" fill="#c8c8c8" opacity="0.15"/>
+<defs>
+<linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0%" stop-color="#818cf8"/>
+<stop offset="22%" stop-color="#a5b4fc"/>
+<stop offset="42%" stop-color="#c4b5fd"/>
+<stop offset="60%" stop-color="#e0c3fc"/>
+<stop offset="80%" stop-color="#fde68a"/>
+<stop offset="100%" stop-color="#fef9c3"/>
+</linearGradient>
+<linearGradient id="bldg_coral" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#fecaca"/><stop offset="100%" stop-color="#fca5a5"/></linearGradient>
+<linearGradient id="bldg_teal" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#99f6e4"/><stop offset="100%" stop-color="#5eead4"/></linearGradient>
+<linearGradient id="bldg_amber" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#fde68a"/><stop offset="100%" stop-color="#fcd34d"/></linearGradient>
+<linearGradient id="bldg_lavender" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#ddd6fe"/><stop offset="100%" stop-color="#c4b5fd"/></linearGradient>
+<linearGradient id="bldg_blue" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#bfdbfe"/><stop offset="100%" stop-color="#93c5fd"/></linearGradient>
+<linearGradient id="bldg_mint" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#a7f3d0"/><stop offset="100%" stop-color="#6ee7b7"/></linearGradient>
+<linearGradient id="bldg_rose" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#fecdd3"/><stop offset="100%" stop-color="#fda4af"/></linearGradient>
+<linearGradient id="bldg_sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#bae6fd"/><stop offset="100%" stop-color="#7dd3fc"/></linearGradient>
+<linearGradient id="roof_navyRoof" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#4338ca"/><stop offset="100%" stop-color="#3730a3"/></linearGradient>
+<linearGradient id="roof_coralRoof" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#f87171"/><stop offset="100%" stop-color="#ef4444"/></linearGradient>
+<linearGradient id="roof_tealRoof" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#2dd4bf"/><stop offset="100%" stop-color="#14b8a6"/></linearGradient>
+<radialGradient id="windowGlow" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#fef08a"/><stop offset="60%" stop-color="#fbbf24"/><stop offset="100%" stop-color="#f59e0b"/></radialGradient>
+<linearGradient id="hillFar" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#c4b5fd"/><stop offset="100%" stop-color="#a5b4fc"/></linearGradient>
+<linearGradient id="hillMid" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#86efac"/><stop offset="100%" stop-color="#4ade80"/></linearGradient>
+<linearGradient id="hillNear" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#34d399"/><stop offset="100%" stop-color="#10b981"/></linearGradient>
+<linearGradient id="hillDesertFar" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#fde68a"/><stop offset="100%" stop-color="#fcd34d"/></linearGradient>
+<linearGradient id="hillDesertMid" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#fcd34d"/><stop offset="100%" stop-color="#fbbf24"/></linearGradient>
+<linearGradient id="hillDesertNear" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#fbbf24"/><stop offset="100%" stop-color="#f59e0b"/></linearGradient>
+<linearGradient id="groundGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#fef3c7"/><stop offset="100%" stop-color="#fde68a"/></linearGradient>
+<linearGradient id="waterGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#bfdbfe"/><stop offset="100%" stop-color="#93c5fd"/></linearGradient>
+<filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur in="SourceGraphic" stdDeviation="12"/></filter>
+</defs>
+<rect width="1200" height="300" fill="url(#skyGrad)"/>
+<circle cx="1075.1" cy="47.9" r="45" fill="#fef08a" opacity="0.12" filter="url(#softGlow)"/>
+<circle cx="1075.1" cy="47.9" r="30" fill="#fde68a" opacity="0.18" filter="url(#softGlow)"/>
+<circle cx="1075.1" cy="47.9" r="16" fill="#fef9c3" opacity="0.25" filter="url(#softGlow)"/>
+<ellipse cx="959.1" cy="45.4" rx="50.8" ry="17.8" fill="white" opacity="0.6"/>
+<ellipse cx="927.4" cy="50.5" rx="35.5" ry="14.0" fill="white" opacity="0.5"/>
+<ellipse cx="987.0" cy="49.2" rx="40.6" ry="15.2" fill="white" opacity="0.5"/>
+<ellipse cx="281.8" cy="25.1" rx="47.3" ry="16.5" fill="white" opacity="0.6"/>
+<ellipse cx="252.3" cy="29.8" rx="33.1" ry="13.0" fill="white" opacity="0.5"/>
+<ellipse cx="307.8" cy="28.6" rx="37.8" ry="14.2" fill="white" opacity="0.5"/>
+<ellipse cx="1064.5" cy="23.3" rx="30.1" ry="10.5" fill="white" opacity="0.6"/>
+<ellipse cx="1045.7" cy="26.3" rx="21.1" ry="8.3" fill="white" opacity="0.6"/>
+<ellipse cx="1081.0" cy="25.6" rx="24.1" ry="9.0" fill="white" opacity="0.5"/>
+<path d="M0 300 L0.0 187.4 C109.8 187.4, 109.8 189.9, 219.5 189.9 C356.7 189.9, 356.7 188.0, 493.9 188.0 C598.8 188.0, 598.8 181.9, 703.6 181.9 C843.2 181.9, 843.2 193.9, 982.9 193.9 C1091.4 193.9, 1091.4 184.1, 1200.0 184.1 L1200 300 Z" fill="url(#hillFar)" opacity="0.5"/>
+<path d="M0 300 L0.0 205.7 C170.3 205.7, 170.3 213.0, 340.7 213.0 C581.1 213.0, 581.1 209.8, 821.5 209.8 C1010.7 209.8, 1010.7 215.8, 1200.0 215.8 L1200 300 Z" fill="url(#hillMid)" opacity="0.7"/>
+<path d="M0 300 L0.0 235.4 C140.6 235.4, 140.6 230.1, 281.2 230.1 C384.7 230.1, 384.7 232.9, 488.2 232.9 C619.6 232.9, 619.6 234.6, 750.9 234.6 C826.9 234.6, 826.9 234.2, 902.9 234.2 C1051.5 234.2, 1051.5 230.4, 1200.0 230.4 L1200 300 Z" fill="url(#hillNear)" opacity="1"/>
+<rect x="232.2" y="234.4" width="57.9" height="65.6" rx="3" fill="url(#bldg_lavender)" opacity="0.7"/>
+<rect x="232.2" y="231.4" width="57.9" height="3" rx="1" fill="url(#roof_coralRoof)" opacity="0.7"/>
+<rect x="251.2" y="244.4" width="6" height="8" rx="1" fill="url(#windowGlow)" opacity="0.9312607042637004"/>
+<rect x="265.2" y="244.4" width="6" height="8" rx="1" fill="url(#windowGlow)" opacity="0.963289758126852"/>
+<rect x="251.2" y="259.4" width="6" height="8" rx="1" fill="url(#windowGlow)" opacity="0.7223764826647827"/>
+<rect x="265.2" y="259.4" width="6" height="8" rx="1" fill="url(#windowGlow)" opacity="0.7137379236583309"/>
+<rect x="891.3" y="255.5" width="74.3" height="44.5" rx="3" fill="url(#bldg_blue)" opacity="0.7"/>
+<polygon points="891.3,255.5 928.4,232.1 965.6,255.5" fill="url(#roof_tealRoof)" opacity="0.7"/>
+<rect x="904.4" y="265.5" width="6" height="8" rx="1" fill="url(#windowGlow)" opacity="0.9673709771909615"/>
+<rect x="946.4" y="265.5" width="6" height="8" rx="1" fill="url(#windowGlow)" opacity="0.8757029239906478"/>
+<rect x="229.3" y="241.8" width="66.2" height="58.2" rx="3" fill="url(#bldg_mint)" opacity="0.85"/>
+<rect x="242.5" y="234.9" width="39.7" height="7.0" rx="2" fill="url(#roof_navyRoof)" opacity="0.85"/>
+<rect x="259.4" y="251.8" width="6" height="8" rx="1" fill="url(#windowGlow)" opacity="0.8873783546441133"/>
+<rect x="273.4" y="251.8" width="6" height="8" rx="1" fill="url(#windowGlow)" opacity="0.875240932207201"/>
+<rect x="917.3" y="217.2" width="60.4" height="82.8" rx="3" fill="url(#bldg_rose)" opacity="0.85"/>
+<polygon points="917.3,217.2 947.5,199.8 977.6,217.2" fill="url(#roof_coralRoof)" opacity="0.85"/>
+<rect x="930.5" y="227.2" width="6" height="8" rx="1" fill="url(#windowGlow)" opacity="0.9565329580365367"/>
+<rect x="944.5" y="227.2" width="6" height="8" rx="1" fill="url(#windowGlow)" opacity="0.8056741540346639"/>
+<rect x="958.5" y="227.2" width="6" height="8" rx="1" fill="url(#windowGlow)" opacity="0.8613786701398802"/>
+<rect x="930.5" y="242.2" width="6" height="8" rx="1" fill="url(#windowGlow)" opacity="0.857550289788074"/>
+<rect x="930.5" y="257.2" width="6" height="8" rx="1" fill="url(#windowGlow)" opacity="0.922296889276382"/>
+<rect x="944.5" y="257.2" width="6" height="8" rx="1" fill="url(#windowGlow)" opacity="0.8046316131970992"/>
+<rect x="958.5" y="257.2" width="6" height="8" rx="1" fill="url(#windowGlow)" opacity="0.9350272394414186"/>
+<rect x="627.1" y="237.8" width="62.6" height="62.2" rx="3" fill="url(#bldg_sky)" opacity="1"/>
+<polygon points="627.1,237.8 658.4,225.2 689.7,237.8" fill="url(#roof_tealRoof)" opacity="1"/>
+<rect x="641.4" y="247.8" width="6" height="8" rx="1" fill="url(#windowGlow)" opacity="0.9125338377489399"/>
+<rect x="655.4" y="247.8" width="6" height="8" rx="1" fill="url(#windowGlow)" opacity="0.9029573370716335"/>
+<rect x="669.4" y="247.8" width="6" height="8" rx="1" fill="url(#windowGlow)" opacity="0.8609040170725919"/>
+<rect x="653.4" y="284.0" width="10" height="16" rx="2" fill="url(#roof_navyRoof)" opacity="0.8"/>
+<rect x="655.4" y="287.0" width="6" height="10" rx="1" fill="url(#windowGlow)" opacity="0.45"/>
+<rect x="596.8" y="275.0" width="6" height="10.0" rx="2" fill="#92400e"/>
+<polygon points="599.8,238.5 595.3,255.6 604.4,255.6" fill="#15803d" opacity="0.9"/>
+<polygon points="599.8,250.6 593.4,267.8 606.2,267.8" fill="#16a34a" opacity="0.9"/>
+<polygon points="599.8,262.8 591.6,280.0 608.1,280.0" fill="#22c55e" opacity="0.9"/>
+<rect x="731.8" y="275.0" width="6" height="10.0" rx="2" fill="#92400e"/>
+<polygon points="734.8,239.7 729.1,256.5 740.6,256.5" fill="#15803d" opacity="0.9"/>
+<polygon points="734.8,251.5 726.8,268.2 742.9,268.2" fill="#16a34a" opacity="0.9"/>
+<polygon points="734.8,263.2 724.4,280.0 745.2,280.0" fill="#22c55e" opacity="0.9"/>
+<rect x="944.4" y="275.0" width="6" height="10.0" rx="2" fill="#92400e"/>
+<polygon points="947.4,240.2 941.5,256.8 953.4,256.8" fill="#15803d" opacity="0.9"/>
+<polygon points="947.4,251.8 939.1,268.4 955.8,268.4" fill="#16a34a" opacity="0.9"/>
+<polygon points="947.4,263.4 936.7,280.0 958.2,280.0" fill="#22c55e" opacity="0.9"/>
+<rect x="92.9" y="275.0" width="6" height="10.0" rx="2" fill="#92400e"/>
+<polygon points="95.9,242.7 91.0,258.5 100.7,258.5" fill="#15803d" opacity="0.9"/>
+<polygon points="95.9,253.5 89.1,269.2 102.7,269.2" fill="#16a34a" opacity="0.9"/>
+<polygon points="95.9,264.2 87.2,280.0 104.6,280.0" fill="#22c55e" opacity="0.9"/>
+<rect x="422.9" y="275.0" width="6" height="10.0" rx="2" fill="#92400e"/>
+<polygon points="425.9,227.9 420.9,248.6 430.9,248.6" fill="#15803d" opacity="0.9"/>
+<polygon points="425.9,243.6 418.9,264.3 432.9,264.3" fill="#16a34a" opacity="0.9"/>
+<polygon points="425.9,259.3 416.9,280.0 434.9,280.0" fill="#22c55e" opacity="0.9"/>
+<rect x="550.2" y="275.0" width="6" height="10.0" rx="2" fill="#92400e"/>
+<polygon points="553.2,230.1 547.8,250.0 558.5,250.0" fill="#15803d" opacity="0.9"/>
+<polygon points="553.2,245.0 545.7,265.0 560.7,265.0" fill="#16a34a" opacity="0.9"/>
+<polygon points="553.2,260.0 543.6,280.0 562.8,280.0" fill="#22c55e" opacity="0.9"/>
+<rect x="490.9" y="275.0" width="6" height="10.0" rx="2" fill="#92400e"/>
+<polygon points="493.9,229.0 488.1,249.3 499.7,249.3" fill="#15803d" opacity="0.9"/>
+<polygon points="493.9,244.3 485.7,264.7 502.0,264.7" fill="#16a34a" opacity="0.9"/>
+<polygon points="493.9,259.7 483.4,280.0 504.4,280.0" fill="#22c55e" opacity="0.9"/>
+<rect x="216.9" y="275.0" width="6" height="10.0" rx="2" fill="#92400e"/>
+<polygon points="219.9,237.7 214.3,255.1 225.5,255.1" fill="#15803d" opacity="0.9"/>
+<polygon points="219.9,250.1 212.1,267.6 227.8,267.6" fill="#16a34a" opacity="0.9"/>
+<polygon points="219.9,262.6 209.8,280.0 230.0,280.0" fill="#22c55e" opacity="0.9"/>
+<rect x="1104.9" y="275.0" width="6" height="10.0" rx="2" fill="#92400e"/>
+<polygon points="1107.9,241.7 1102.6,257.8 1113.2,257.8" fill="#15803d" opacity="0.9"/>
+<polygon points="1107.9,252.8 1100.5,268.9 1115.3,268.9" fill="#16a34a" opacity="0.9"/>
+<polygon points="1107.9,263.9 1098.4,280.0 1117.4,280.0" fill="#22c55e" opacity="0.9"/>
+<rect x="163.4" y="275.0" width="6" height="10.0" rx="2" fill="#92400e"/>
+<polygon points="166.4,238.6 160.4,255.7 172.4,255.7" fill="#15803d" opacity="0.9"/>
+<polygon points="166.4,250.7 158.0,267.9 174.8,267.9" fill="#16a34a" opacity="0.9"/>
+<polygon points="166.4,262.9 155.6,280.0 177.2,280.0" fill="#22c55e" opacity="0.9"/>
+<rect x="0" y="282" width="1200" height="18" fill="url(#groundGrad)"/>
 </svg>

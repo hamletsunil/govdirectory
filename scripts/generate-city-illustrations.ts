@@ -1,8 +1,10 @@
 /**
  * generate-city-illustrations.ts
  *
- * Generates city-specific SVG illustrations with terrain, water, landmarks,
- * vegetation, and atmospheric layers driven by city-visual-features.json.
+ * Generates Hamlet-style flat-design cityscape SVG illustrations for each city,
+ * driven by city-visual-features.json. Produces warm, colorful "golden hour"
+ * cityscapes with multi-color buildings, glowing windows, bezier hills, and
+ * lush rounded trees.
  *
  * Usage:  npx tsx scripts/generate-city-illustrations.ts
  */
@@ -11,7 +13,7 @@ import fs from "fs";
 import path from "path";
 
 // ---------------------------------------------------------------------------
-// Region / palette definitions
+// Region / palette definitions (kept for data extraction compatibility)
 // ---------------------------------------------------------------------------
 
 type Region =
@@ -87,12 +89,12 @@ interface Palette {
 }
 
 const REGION_PALETTES: Record<Region, Palette> = {
-  northeast: { building: "#3d5a80", sky: "#e8edf2" }, // slate blue
-  southeast: { building: "#6b705c", sky: "#ede8e0" }, // sage/warm gray
-  midwest: { building: "#457b9d", sky: "#e6eef4" }, // lake blue
-  southwest: { building: "#bc6c25", sky: "#f0e6d8" }, // terracotta
-  westcoast: { building: "#2b6777", sky: "#e0eff2" }, // ocean teal
-  mountain: { building: "#386641", sky: "#e4ede4" }, // forest green
+  northeast: { building: "#3d5a80", sky: "#e8edf2" },
+  southeast: { building: "#6b705c", sky: "#ede8e0" },
+  midwest: { building: "#457b9d", sky: "#e6eef4" },
+  southwest: { building: "#bc6c25", sky: "#f0e6d8" },
+  westcoast: { building: "#2b6777", sky: "#e0eff2" },
+  mountain: { building: "#386641", sky: "#e4ede4" },
 };
 
 // ---------------------------------------------------------------------------
@@ -128,23 +130,16 @@ function toHex(r: number, g: number, b: number): string {
   return `#${clamp(r).toString(16).padStart(2, "0")}${clamp(g).toString(16).padStart(2, "0")}${clamp(b).toString(16).padStart(2, "0")}`;
 }
 
-/** Mix two hex colors: t=0 returns a, t=1 returns b */
 function mixColor(a: string, b: string, t: number): string {
   const [ar, ag, ab] = parseHex(a);
   const [br, bg, bb] = parseHex(b);
-  return toHex(
-    ar + (br - ar) * t,
-    ag + (bg - ag) * t,
-    ab + (bb - ab) * t
-  );
+  return toHex(ar + (br - ar) * t, ag + (bg - ag) * t, ab + (bb - ab) * t);
 }
 
-/** Lighten a hex color toward white by factor t (0=original, 1=white) */
 function lighten(color: string, t: number): string {
   return mixColor(color, "#ffffff", t);
 }
 
-/** Darken a hex color toward black by factor t (0=original, 1=black) */
 function darken(color: string, t: number): string {
   return mixColor(color, "#000000", t);
 }
@@ -159,18 +154,24 @@ type Climate = "warm" | "cold" | "temperate" | "arid" | "tropical";
 type WaterFeature = "ocean" | "bay" | "lake" | "river" | "none";
 
 interface VisualFeatures {
-  stateDefaults: Record<string, {
-    terrain: Terrain;
-    vegetation: Vegetation;
-    climate: Climate;
-  }>;
-  cityOverrides: Record<string, {
-    terrain?: Terrain;
-    vegetation?: Vegetation;
-    climate?: Climate;
-    waterFeature?: WaterFeature;
-    landmarks?: string[];
-  }>;
+  stateDefaults: Record<
+    string,
+    {
+      terrain: Terrain;
+      vegetation: Vegetation;
+      climate: Climate;
+    }
+  >;
+  cityOverrides: Record<
+    string,
+    {
+      terrain?: Terrain;
+      vegetation?: Vegetation;
+      climate?: Climate;
+      waterFeature?: WaterFeature;
+      landmarks?: string[];
+    }
+  >;
 }
 
 // ---------------------------------------------------------------------------
@@ -204,7 +205,6 @@ function extractParams(
   const region = STATE_REGION[state] ?? "westcoast";
   const palette = REGION_PALETTES[region];
 
-  // Resolve visual features: city override > state default > fallback
   const stateDefault = features.stateDefaults[state] ?? {
     terrain: "plains" as Terrain,
     vegetation: "deciduous" as Vegetation,
@@ -221,7 +221,8 @@ function extractParams(
     medianHomeValue: (economy.median_home_value as number) ?? null,
     pm25Mean: (environment.pm25_mean as number) ?? null,
     terrain: (cityOverride.terrain ?? stateDefault.terrain) as Terrain,
-    vegetation: (cityOverride.vegetation ?? stateDefault.vegetation) as Vegetation,
+    vegetation: (cityOverride.vegetation ??
+      stateDefault.vegetation) as Vegetation,
     climate: (cityOverride.climate ?? stateDefault.climate) as Climate,
     waterFeature: (cityOverride.waterFeature ?? "none") as WaterFeature,
     landmarks: (cityOverride.landmarks ?? []) as string[],
@@ -229,249 +230,507 @@ function extractParams(
 }
 
 // ---------------------------------------------------------------------------
-// SVG generation
+// Hamlet-style color palettes
+// ---------------------------------------------------------------------------
+
+// Building body colors (light, cheerful Tailwind-palette colors)
+const BUILDING_COLORS = [
+  { id: "coral", from: "#fecaca", to: "#fca5a5" },
+  { id: "teal", from: "#99f6e4", to: "#5eead4" },
+  { id: "amber", from: "#fde68a", to: "#fcd34d" },
+  { id: "lavender", from: "#ddd6fe", to: "#c4b5fd" },
+  { id: "blue", from: "#bfdbfe", to: "#93c5fd" },
+  { id: "mint", from: "#a7f3d0", to: "#6ee7b7" },
+  { id: "rose", from: "#fecdd3", to: "#fda4af" },
+  { id: "sky", from: "#bae6fd", to: "#7dd3fc" },
+];
+
+// Roof colors (darker, contrasting)
+const ROOF_COLORS = [
+  { id: "navyRoof", from: "#4338ca", to: "#3730a3" },
+  { id: "coralRoof", from: "#f87171", to: "#ef4444" },
+  { id: "tealRoof", from: "#2dd4bf", to: "#14b8a6" },
+];
+
+// ---------------------------------------------------------------------------
+// SVG generation constants
 // ---------------------------------------------------------------------------
 
 const W = 1200;
 const H = 300;
 
-interface Building {
-  x: number;
-  width: number;
-  height: number;
-  row: number; // 0=back, 1=mid, 2=front
-}
+// ---------------------------------------------------------------------------
+// Gradient defs builder
+// ---------------------------------------------------------------------------
 
-// ---- Layer 1: Sky gradient ----
-function drawSkyGradient(climate: Climate): string {
-  let topColor: string;
-  let bottomColor: string;
+function buildDefs(climate: Climate, rng: () => number): string {
+  const parts: string[] = [];
+  parts.push("<defs>");
+
+  // --- Sky gradient (multi-stop, climate-varied) ---
+  // Base stops: indigo -> violet -> rose -> amber -> yellow -> cream
+  // Shift hues based on climate
+  let skyStops: { offset: string; color: string; opacity?: number }[];
 
   switch (climate) {
     case "warm":
-      topColor = "#e8f0f8";
-      bottomColor = "#f5e6d8";
+    case "tropical":
+      // Warmer: more rose/amber, less indigo
+      skyStops = [
+        { offset: "0%", color: "#a78bfa" },
+        { offset: "18%", color: "#ddb4f0" },
+        { offset: "35%", color: "#fda4af" },
+        { offset: "52%", color: "#fdba74" },
+        { offset: "72%", color: "#fef08a" },
+        { offset: "100%", color: "#fef9c3" },
+      ];
       break;
     case "cold":
-      topColor = "#e0eaf4";
-      bottomColor = "#f0f2f5";
+      // Cooler: more blue/indigo, less amber
+      skyStops = [
+        { offset: "0%", color: "#818cf8" },
+        { offset: "22%", color: "#a5b4fc" },
+        { offset: "42%", color: "#c4b5fd" },
+        { offset: "60%", color: "#e0c3fc" },
+        { offset: "80%", color: "#fde68a" },
+        { offset: "100%", color: "#fef9c3" },
+      ];
       break;
     case "arid":
-      topColor = "#f5ede0";
-      bottomColor = "#ede0cc";
-      break;
-    case "tropical":
-      topColor = "#ddf0f0";
-      bottomColor = "#f0e8d8";
+      // Desert sunset: more amber/gold tones
+      skyStops = [
+        { offset: "0%", color: "#a78bfa" },
+        { offset: "15%", color: "#c4b5fd" },
+        { offset: "30%", color: "#fda4af" },
+        { offset: "48%", color: "#fdba74" },
+        { offset: "65%", color: "#fcd34d" },
+        { offset: "85%", color: "#fef08a" },
+        { offset: "100%", color: "#fef9c3" },
+      ];
       break;
     case "temperate":
     default:
-      topColor = "#e6ecf2";
-      bottomColor = "#f0eeec";
+      // Balanced golden hour
+      skyStops = [
+        { offset: "0%", color: "#818cf8" },
+        { offset: "20%", color: "#c4b5fd" },
+        { offset: "38%", color: "#fda4af" },
+        { offset: "55%", color: "#fdba74" },
+        { offset: "75%", color: "#fef08a" },
+        { offset: "100%", color: "#fef9c3" },
+      ];
       break;
   }
 
-  return (
-    `<defs><linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">` +
-    `<stop offset="0%" stop-color="${topColor}"/>` +
-    `<stop offset="100%" stop-color="${bottomColor}"/>` +
-    `</linearGradient></defs>` +
-    `<rect width="${W}" height="${H}" fill="url(#skyGrad)"/>`
+  parts.push(
+    `<linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">`
   );
+  for (const s of skyStops) {
+    parts.push(
+      `<stop offset="${s.offset}" stop-color="${s.color}"${s.opacity !== undefined ? ` stop-opacity="${s.opacity}"` : ""}/>`
+    );
+  }
+  parts.push("</linearGradient>");
+
+  // --- Building color gradients ---
+  for (const bc of BUILDING_COLORS) {
+    parts.push(
+      `<linearGradient id="bldg_${bc.id}" x1="0" y1="0" x2="0" y2="1">` +
+        `<stop offset="0%" stop-color="${bc.from}"/>` +
+        `<stop offset="100%" stop-color="${bc.to}"/>` +
+        `</linearGradient>`
+    );
+  }
+
+  // --- Roof color gradients ---
+  for (const rc of ROOF_COLORS) {
+    parts.push(
+      `<linearGradient id="roof_${rc.id}" x1="0" y1="0" x2="0" y2="1">` +
+        `<stop offset="0%" stop-color="${rc.from}"/>` +
+        `<stop offset="100%" stop-color="${rc.to}"/>` +
+        `</linearGradient>`
+    );
+  }
+
+  // --- Window glow radialGradient ---
+  parts.push(
+    `<radialGradient id="windowGlow" cx="50%" cy="50%" r="50%">` +
+      `<stop offset="0%" stop-color="#fef08a"/>` +
+      `<stop offset="60%" stop-color="#fbbf24"/>` +
+      `<stop offset="100%" stop-color="#f59e0b"/>` +
+      `</radialGradient>`
+  );
+
+  // --- Hill gradients ---
+  // Far hills: lavender
+  parts.push(
+    `<linearGradient id="hillFar" x1="0" y1="0" x2="0" y2="1">` +
+      `<stop offset="0%" stop-color="#c4b5fd"/>` +
+      `<stop offset="100%" stop-color="#a5b4fc"/>` +
+      `</linearGradient>`
+  );
+  // Mid hills: sage green
+  parts.push(
+    `<linearGradient id="hillMid" x1="0" y1="0" x2="0" y2="1">` +
+      `<stop offset="0%" stop-color="#86efac"/>` +
+      `<stop offset="100%" stop-color="#4ade80"/>` +
+      `</linearGradient>`
+  );
+  // Near hills: emerald
+  parts.push(
+    `<linearGradient id="hillNear" x1="0" y1="0" x2="0" y2="1">` +
+      `<stop offset="0%" stop-color="#34d399"/>` +
+      `<stop offset="100%" stop-color="#10b981"/>` +
+      `</linearGradient>`
+  );
+
+  // Desert hill variants (sandy)
+  parts.push(
+    `<linearGradient id="hillDesertFar" x1="0" y1="0" x2="0" y2="1">` +
+      `<stop offset="0%" stop-color="#fde68a"/>` +
+      `<stop offset="100%" stop-color="#fcd34d"/>` +
+      `</linearGradient>`
+  );
+  parts.push(
+    `<linearGradient id="hillDesertMid" x1="0" y1="0" x2="0" y2="1">` +
+      `<stop offset="0%" stop-color="#fcd34d"/>` +
+      `<stop offset="100%" stop-color="#fbbf24"/>` +
+      `</linearGradient>`
+  );
+  parts.push(
+    `<linearGradient id="hillDesertNear" x1="0" y1="0" x2="0" y2="1">` +
+      `<stop offset="0%" stop-color="#fbbf24"/>` +
+      `<stop offset="100%" stop-color="#f59e0b"/>` +
+      `</linearGradient>`
+  );
+
+  // --- Ground gradient ---
+  parts.push(
+    `<linearGradient id="groundGrad" x1="0" y1="0" x2="0" y2="1">` +
+      `<stop offset="0%" stop-color="#fef3c7"/>` +
+      `<stop offset="100%" stop-color="#fde68a"/>` +
+      `</linearGradient>`
+  );
+
+  // --- Water gradient ---
+  parts.push(
+    `<linearGradient id="waterGrad" x1="0" y1="0" x2="0" y2="1">` +
+      `<stop offset="0%" stop-color="#bfdbfe"/>` +
+      `<stop offset="100%" stop-color="#93c5fd"/>` +
+      `</linearGradient>`
+  );
+
+  // --- Soft glow filter for sun ---
+  parts.push(
+    `<filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">` +
+      `<feGaussianBlur in="SourceGraphic" stdDeviation="12"/>` +
+      `</filter>`
+  );
+
+  parts.push("</defs>");
+  return parts.join("\n");
 }
 
-// ---- Layer 2: Far terrain ----
-function drawFarTerrain(
-  terrain: Terrain,
-  buildingColor: string,
-  rng: () => number
-): string {
-  const parts: string[] = [];
-  const hillColor = lighten(buildingColor, 0.6);
+// ---------------------------------------------------------------------------
+// Layer 1: Sky
+// ---------------------------------------------------------------------------
 
-  if (terrain === "mountain") {
-    // 2-3 triangular peaks with softened vertices
-    const numPeaks = 2 + Math.round(rng());
-    for (let i = 0; i < numPeaks; i++) {
-      const peakX = W * (0.1 + rng() * 0.8);
-      const peakY = H * (0.2 + rng() * 0.25);
-      const baseWidth = 200 + rng() * 300;
-      const leftX = peakX - baseWidth / 2;
-      const rightX = peakX + baseWidth / 2;
-      const baseY = H * 0.7;
-      // Bezier-softened peak
-      const cpLeftX = peakX - baseWidth * 0.15;
-      const cpRightX = peakX + baseWidth * 0.15;
-      parts.push(
-        `<path d="M${leftX.toFixed(1)} ${baseY.toFixed(1)} ` +
-        `Q${cpLeftX.toFixed(1)} ${peakY.toFixed(1)} ${peakX.toFixed(1)} ${peakY.toFixed(1)} ` +
-        `Q${cpRightX.toFixed(1)} ${peakY.toFixed(1)} ${rightX.toFixed(1)} ${baseY.toFixed(1)} Z" ` +
-        `fill="${lighten(hillColor, 0.15)}" opacity="0.5"/>`
-      );
-    }
-  } else if (terrain === "desert") {
-    // Low sine-wave dune silhouettes
-    const duneY = H * (0.55 + rng() * 0.1);
-    let d = `M0 ${H}`;
-    const segments = 6;
-    for (let i = 0; i <= segments; i++) {
-      const sx = (W / segments) * i;
-      const sy = duneY + Math.sin(i * 1.2 + rng() * 3) * (15 + rng() * 20);
-      if (i === 0) {
-        d += ` L${sx.toFixed(1)} ${sy.toFixed(1)}`;
-      } else {
-        const cpx = sx - W / segments / 2;
-        const cpy = sy - (8 + rng() * 15);
-        d += ` Q${cpx.toFixed(1)} ${cpy.toFixed(1)} ${sx.toFixed(1)} ${sy.toFixed(1)}`;
-      }
-    }
-    d += ` L${W} ${H} Z`;
-    const sandColor = mixColor("#d4b896", hillColor, 0.3);
-    parts.push(`<path d="${d}" fill="${sandColor}" opacity="0.35"/>`);
-  } else if (terrain === "plains") {
-    // Very gentle rolling bezier hills
-    const hillBaseY = H * 0.65 + rng() * H * 0.05;
-    let d = `M0 ${H} L0 ${hillBaseY.toFixed(1)}`;
-    const cp1x = W * (0.2 + rng() * 0.15);
-    const cp1y = hillBaseY - (10 + rng() * 15);
-    const cp2x = W * (0.65 + rng() * 0.2);
-    const cp2y = hillBaseY - (5 + rng() * 12);
-    d += ` C${cp1x.toFixed(1)} ${cp1y.toFixed(1)}, ${cp2x.toFixed(1)} ${cp2y.toFixed(1)}, ${W} ${hillBaseY.toFixed(1)}`;
-    d += ` L${W} ${H} Z`;
-    parts.push(`<path d="${d}" fill="${hillColor}" opacity="0.25"/>`);
-  } else if (terrain === "river") {
-    // Minimal gentle hills for river terrain
-    const hillBaseY = H * 0.68 + rng() * H * 0.04;
-    let d = `M0 ${H} L0 ${hillBaseY.toFixed(1)}`;
-    const cp1x = W * (0.25 + rng() * 0.2);
-    const cp1y = hillBaseY - (8 + rng() * 10);
-    const cp2x = W * (0.6 + rng() * 0.2);
-    const cp2y = hillBaseY - (5 + rng() * 8);
-    d += ` C${cp1x.toFixed(1)} ${cp1y.toFixed(1)}, ${cp2x.toFixed(1)} ${cp2y.toFixed(1)}, ${W} ${hillBaseY.toFixed(1)}`;
-    d += ` L${W} ${H} Z`;
-    parts.push(`<path d="${d}" fill="${hillColor}" opacity="0.2"/>`);
-  }
-  // coastal, lake: skip far terrain
+function drawSky(): string {
+  return `<rect width="${W}" height="${H}" fill="url(#skyGrad)"/>`;
+}
+
+// ---------------------------------------------------------------------------
+// Layer 2: Sun
+// ---------------------------------------------------------------------------
+
+function drawSun(rng: () => number): string {
+  const parts: string[] = [];
+  const sunX = W * (0.75 + rng() * 0.15);
+  const sunY = H * (0.12 + rng() * 0.08);
+
+  // 3 concentric circles with soft glow
+  parts.push(
+    `<circle cx="${f(sunX)}" cy="${f(sunY)}" r="45" fill="#fef08a" opacity="0.12" filter="url(#softGlow)"/>`
+  );
+  parts.push(
+    `<circle cx="${f(sunX)}" cy="${f(sunY)}" r="30" fill="#fde68a" opacity="0.18" filter="url(#softGlow)"/>`
+  );
+  parts.push(
+    `<circle cx="${f(sunX)}" cy="${f(sunY)}" r="16" fill="#fef9c3" opacity="0.25" filter="url(#softGlow)"/>`
+  );
 
   return parts.join("\n");
 }
 
-// ---- Layer 3: Water features ----
-function drawWaterFeature(
+// ---------------------------------------------------------------------------
+// Layer 3: Clouds
+// ---------------------------------------------------------------------------
+
+function drawClouds(climate: Climate, rng: () => number): string {
+  // Only for temperate and cold climates
+  if (climate !== "temperate" && climate !== "cold") return "";
+
+  const parts: string[] = [];
+  const numClouds = 2 + Math.round(rng());
+
+  for (let i = 0; i < numClouds; i++) {
+    const cx = W * (0.1 + rng() * 0.8);
+    const cy = H * (0.06 + rng() * 0.12);
+    const opacity = 0.4 + rng() * 0.3;
+    const scale = 0.7 + rng() * 0.6;
+
+    // Cloud = cluster of 3 overlapping ellipses
+    parts.push(
+      `<ellipse cx="${f(cx)}" cy="${f(cy)}" rx="${f(40 * scale)}" ry="${f(14 * scale)}" fill="white" opacity="${f(opacity)}"/>`
+    );
+    parts.push(
+      `<ellipse cx="${f(cx - 25 * scale)}" cy="${f(cy + 4 * scale)}" rx="${f(28 * scale)}" ry="${f(11 * scale)}" fill="white" opacity="${f(opacity * 0.9)}"/>`
+    );
+    parts.push(
+      `<ellipse cx="${f(cx + 22 * scale)}" cy="${f(cy + 3 * scale)}" rx="${f(32 * scale)}" ry="${f(12 * scale)}" fill="white" opacity="${f(opacity * 0.85)}"/>`
+    );
+  }
+
+  return parts.join("\n");
+}
+
+// ---------------------------------------------------------------------------
+// Layer 4-6: Hills (3 layers)
+// ---------------------------------------------------------------------------
+
+function drawHills(
+  terrain: Terrain,
+  rng: () => number
+): string {
+  const parts: string[] = [];
+  const isDesert = terrain === "desert";
+  const isMountain = terrain === "mountain";
+
+  // Helper: generate a smooth bezier hill path across the canvas
+  function hillPath(
+    baseY: number,
+    amplitude: number,
+    numPeaks: number,
+    sharpness: number
+  ): string {
+    const points: { x: number; y: number }[] = [];
+    // Start at left edge
+    points.push({ x: 0, y: baseY - amplitude * (0.3 + rng() * 0.4) });
+
+    // Generate peak points
+    for (let i = 0; i < numPeaks; i++) {
+      const px = (W / (numPeaks + 1)) * (i + 1) + (rng() - 0.5) * (W / (numPeaks + 1)) * 0.5;
+      const py = baseY - amplitude * (0.5 + rng() * 0.5) * sharpness;
+      points.push({ x: px, y: py });
+    }
+
+    // End at right edge
+    points.push({ x: W, y: baseY - amplitude * (0.2 + rng() * 0.4) });
+
+    // Build smooth cubic bezier path through points
+    let d = `M0 ${H} L${f(points[0].x)} ${f(points[0].y)}`;
+
+    for (let i = 0; i < points.length - 1; i++) {
+      const p0 = points[i];
+      const p1 = points[i + 1];
+      const cpx1 = p0.x + (p1.x - p0.x) * 0.5;
+      const cpy1 = p0.y;
+      const cpx2 = p0.x + (p1.x - p0.x) * 0.5;
+      const cpy2 = p1.y;
+      d += ` C${f(cpx1)} ${f(cpy1)}, ${f(cpx2)} ${f(cpy2)}, ${f(p1.x)} ${f(p1.y)}`;
+    }
+
+    d += ` L${W} ${H} Z`;
+    return d;
+  }
+
+  if (isMountain) {
+    // Mountains: taller far hills with sharper peaks
+    // Far: tall lavender peaks
+    const farPath = hillPath(H * 0.72, H * 0.45, 3 + Math.round(rng()), 1.2);
+    parts.push(
+      `<path d="${farPath}" fill="url(#hillFar)" opacity="0.5"/>`
+    );
+
+    // Mid: sage green, medium height
+    const midPath = hillPath(H * 0.78, H * 0.25, 2 + Math.round(rng()), 0.9);
+    parts.push(
+      `<path d="${midPath}" fill="url(#hillMid)" opacity="0.7"/>`
+    );
+
+    // Near: emerald, lower
+    const nearPath = hillPath(H * 0.82, H * 0.15, 3 + Math.round(rng()), 0.8);
+    parts.push(
+      `<path d="${nearPath}" fill="url(#hillNear)" opacity="1"/>`
+    );
+  } else if (isDesert) {
+    // Desert: gentle sandy dunes
+    const farPath = hillPath(H * 0.72, H * 0.12, 3 + Math.round(rng()), 0.6);
+    parts.push(
+      `<path d="${farPath}" fill="url(#hillDesertFar)" opacity="0.45"/>`
+    );
+
+    const midPath = hillPath(H * 0.77, H * 0.1, 2 + Math.round(rng()), 0.5);
+    parts.push(
+      `<path d="${midPath}" fill="url(#hillDesertMid)" opacity="0.6"/>`
+    );
+
+    const nearPath = hillPath(H * 0.82, H * 0.08, 3 + Math.round(rng()), 0.5);
+    parts.push(
+      `<path d="${nearPath}" fill="url(#hillDesertNear)" opacity="0.85"/>`
+    );
+  } else if (terrain === "coastal") {
+    // Coastal: hills on one side, tapering off
+    const farPath = hillPath(H * 0.72, H * 0.18, 2 + Math.round(rng()), 0.8);
+    parts.push(
+      `<path d="${farPath}" fill="url(#hillFar)" opacity="0.5"/>`
+    );
+
+    const midPath = hillPath(H * 0.77, H * 0.14, 2, 0.7);
+    parts.push(
+      `<path d="${midPath}" fill="url(#hillMid)" opacity="0.7"/>`
+    );
+
+    const nearPath = hillPath(H * 0.82, H * 0.1, 2, 0.6);
+    parts.push(
+      `<path d="${nearPath}" fill="url(#hillNear)" opacity="1"/>`
+    );
+  } else {
+    // Plains, river, lake: gentle rolling hills
+    const farPath = hillPath(H * 0.7, H * 0.15, 3 + Math.round(rng()), 0.7);
+    parts.push(
+      `<path d="${farPath}" fill="url(#hillFar)" opacity="0.5"/>`
+    );
+
+    const midPath = hillPath(H * 0.76, H * 0.12, 2 + Math.round(rng()), 0.7);
+    parts.push(
+      `<path d="${midPath}" fill="url(#hillMid)" opacity="0.7"/>`
+    );
+
+    const nearPath = hillPath(H * 0.82, H * 0.09, 3 + Math.round(rng()), 0.6);
+    parts.push(
+      `<path d="${nearPath}" fill="url(#hillNear)" opacity="1"/>`
+    );
+  }
+
+  return parts.join("\n");
+}
+
+// ---------------------------------------------------------------------------
+// Layer 7: Water features
+// ---------------------------------------------------------------------------
+
+function drawWater(
   waterFeature: WaterFeature,
-  buildingColor: string,
   rng: () => number
 ): string {
   if (waterFeature === "none") return "";
   const parts: string[] = [];
-  const waterColor = mixColor(buildingColor, "#4a90c4", 0.6);
-  const waterLight = lighten(waterColor, 0.35);
 
   if (waterFeature === "ocean" || waterFeature === "bay") {
-    // Horizontal water band at bottom
-    const waterTop = H * (0.72 + rng() * 0.06);
+    const waterTop = H * (0.7 + rng() * 0.06);
     const waterHeight = H - waterTop;
     parts.push(
-      `<rect x="0" y="${waterTop.toFixed(1)}" width="${W}" height="${waterHeight.toFixed(1)}" fill="${waterLight}" opacity="0.6"/>`
+      `<rect x="0" y="${f(waterTop)}" width="${W}" height="${f(waterHeight)}" fill="url(#waterGrad)" opacity="0.6"/>`
     );
-    // 2-3 subtle wave lines
+    // Subtle wave lines
     const numWaves = 2 + Math.round(rng());
     for (let i = 0; i < numWaves; i++) {
       const waveY = waterTop + (i + 1) * (waterHeight / (numWaves + 1));
-      let d = `M0 ${waveY.toFixed(1)}`;
-      const segs = 8;
+      let d = `M0 ${f(waveY)}`;
+      const segs = 10;
       for (let s = 1; s <= segs; s++) {
         const sx = (W / segs) * s;
-        const sy = waveY + (rng() - 0.5) * 4;
+        const sy = waveY + (rng() - 0.5) * 3;
         const cpx = sx - W / segs / 2;
-        const cpy = waveY + (rng() - 0.5) * 6;
-        d += ` Q${cpx.toFixed(1)} ${cpy.toFixed(1)} ${sx.toFixed(1)} ${sy.toFixed(1)}`;
+        const cpy = waveY + (rng() - 0.5) * 5;
+        d += ` Q${f(cpx)} ${f(cpy)} ${f(sx)} ${f(sy)}`;
       }
       parts.push(
-        `<path d="${d}" fill="none" stroke="${lighten(waterColor, 0.5)}" stroke-width="1" opacity="0.4"/>`
+        `<path d="${d}" fill="none" stroke="#bfdbfe" stroke-width="1" opacity="0.5"/>`
       );
     }
   } else if (waterFeature === "lake") {
-    // Oval water body on one side
     const side = rng() > 0.5 ? "left" : "right";
-    const lakeWidth = 200 + rng() * 150;
-    const lakeHeight = 60 + rng() * 40;
-    const cx = side === "left" ? 80 + rng() * 120 : W - 80 - rng() * 120;
-    const cy = H * (0.72 + rng() * 0.08);
+    const lakeW = 220 + rng() * 160;
+    const lakeH = 55 + rng() * 35;
+    const cx = side === "left" ? 90 + rng() * 130 : W - 90 - rng() * 130;
+    const cy = H * (0.74 + rng() * 0.06);
     parts.push(
-      `<ellipse cx="${cx.toFixed(1)}" cy="${cy.toFixed(1)}" rx="${(lakeWidth / 2).toFixed(1)}" ry="${(lakeHeight / 2).toFixed(1)}" fill="${waterLight}" opacity="0.55"/>`
+      `<ellipse cx="${f(cx)}" cy="${f(cy)}" rx="${f(lakeW / 2)}" ry="${f(lakeH / 2)}" fill="url(#waterGrad)" opacity="0.55"/>`
     );
-    // One subtle wave line
-    const waveY = cy;
-    const startX = cx - lakeWidth / 2 + 20;
-    const endX = cx + lakeWidth / 2 - 20;
+    // Wave line
+    const startX = cx - lakeW / 2 + 25;
+    const endX = cx + lakeW / 2 - 25;
     const midX = (startX + endX) / 2;
     parts.push(
-      `<path d="M${startX.toFixed(1)} ${waveY.toFixed(1)} Q${midX.toFixed(1)} ${(waveY - 3).toFixed(1)} ${endX.toFixed(1)} ${waveY.toFixed(1)}" fill="none" stroke="${lighten(waterColor, 0.5)}" stroke-width="1" opacity="0.35"/>`
+      `<path d="M${f(startX)} ${f(cy)} Q${f(midX)} ${f(cy - 3)} ${f(endX)} ${f(cy)}" fill="none" stroke="#bfdbfe" stroke-width="1" opacity="0.4"/>`
     );
   } else if (waterFeature === "river") {
-    // Curved bezier path flowing through the scene
-    const riverWidth = 30 + rng() * 20;
-    const entryY = H * (0.5 + rng() * 0.3);
-    const exitY = H * (0.6 + rng() * 0.25);
+    const riverWidth = 28 + rng() * 18;
+    const entryY = H * (0.5 + rng() * 0.25);
+    const exitY = H * (0.55 + rng() * 0.3);
     const cp1x = W * (0.25 + rng() * 0.15);
     const cp1y = H * (0.45 + rng() * 0.2);
     const cp2x = W * (0.6 + rng() * 0.15);
     const cp2y = H * (0.55 + rng() * 0.2);
-    // Draw as a thick path
-    const d = `M0 ${entryY.toFixed(1)} C${cp1x.toFixed(1)} ${cp1y.toFixed(1)}, ${cp2x.toFixed(1)} ${cp2y.toFixed(1)}, ${W} ${exitY.toFixed(1)}`;
+    const d = `M0 ${f(entryY)} C${f(cp1x)} ${f(cp1y)}, ${f(cp2x)} ${f(cp2y)}, ${W} ${f(exitY)}`;
     parts.push(
-      `<path d="${d}" fill="none" stroke="${waterLight}" stroke-width="${riverWidth.toFixed(1)}" stroke-linecap="round" opacity="0.5"/>`
+      `<path d="${d}" fill="none" stroke="url(#waterGrad)" stroke-width="${f(riverWidth)}" stroke-linecap="round" opacity="0.5"/>`
     );
   }
 
   return parts.join("\n");
 }
 
-// ---- Layer 4: Buildings ----
+// ---------------------------------------------------------------------------
+// Layer 8: Buildings (THE KEY LAYER)
+// ---------------------------------------------------------------------------
+
+interface BuildingInfo {
+  x: number;
+  width: number;
+  height: number;
+  row: number;
+}
+
 function drawBuildings(
   p: CityParams,
   rng: () => number
-): { svg: string; buildings: Building[] } {
+): { svg: string; buildings: BuildingInfo[] } {
   const parts: string[] = [];
-  const { building: buildingColor } = p.palette;
-
-  // Population tier drives building count and max height
-  let numBuildings: number;
-  let maxHeightPct: number;
   const pop = p.population;
 
+  // Population tier drives building count
+  let numBuildings: number;
+  let maxHeightPct: number;
+
   if (pop < 10000) {
-    numBuildings = 4 + Math.round(rng() * 2);
-    maxHeightPct = 0.35;
+    numBuildings = 3 + Math.round(rng() * 2);
+    maxHeightPct = 0.4;
   } else if (pop < 50000) {
-    numBuildings = 6 + Math.round(rng() * 4);
+    numBuildings = 5 + Math.round(rng() * 3);
     maxHeightPct = 0.5;
   } else if (pop < 200000) {
-    numBuildings = 10 + Math.round(rng() * 5);
-    maxHeightPct = 0.65;
+    numBuildings = 8 + Math.round(rng() * 4);
+    maxHeightPct = 0.6;
   } else if (pop < 1000000) {
-    numBuildings = 14 + Math.round(rng() * 6);
-    maxHeightPct = 0.8;
+    numBuildings = 12 + Math.round(rng() * 6);
+    maxHeightPct = 0.75;
   } else {
     numBuildings = 18 + Math.round(rng() * 7);
-    maxHeightPct = 0.9;
+    maxHeightPct = 0.85;
   }
 
-  // Color shades for depth layers
-  const backColor = lighten(buildingColor, 0.45);
-  const midColor = lighten(buildingColor, 0.2);
-  const frontColor = buildingColor;
-
-  const buildings: Building[] = [];
-
-  // Terrain and climate modifiers for building shape
+  // Terrain adjustments
   const isDesert = p.terrain === "desert";
-  const isMountainOrCold = p.terrain === "mountain" || p.climate === "cold";
-  const widthMult = isDesert ? 1.3 : isMountainOrCold ? 0.8 : 1.0;
-  const heightMult = isDesert ? 0.7 : isMountainOrCold ? 1.15 : 1.0;
+  const isMountain = p.terrain === "mountain" || p.climate === "cold";
+  const widthMult = isDesert ? 1.25 : isMountain ? 0.85 : 1.0;
+  const heightMult = isDesert ? 0.75 : isMountain ? 1.1 : 1.0;
 
-  // Distribute buildings across rows
+  const buildings: BuildingInfo[] = [];
+
+  // Split into rows
   const backCount = Math.max(1, Math.round(numBuildings * 0.3));
   const midCount = Math.max(1, Math.round(numBuildings * 0.35));
   const frontCount = Math.max(1, numBuildings - backCount - midCount);
@@ -479,287 +738,463 @@ function drawBuildings(
   function generateRow(
     count: number,
     row: number,
-    minWidthBase: number,
-    maxWidthBase: number,
-    minHeightPct: number,
-    maxHeightPctRow: number
+    minW: number,
+    maxW: number,
+    minHPct: number,
+    maxHPct: number
   ) {
-    if (count === 0) return;
-    const padding = 30;
-    const availableWidth = W - padding * 2;
-    const slotWidth = availableWidth / count;
+    const padding = 40;
+    const availW = W - padding * 2;
+    const slotW = availW / count;
 
     for (let i = 0; i < count; i++) {
-      const bw = (minWidthBase + rng() * (maxWidthBase - minWidthBase)) * widthMult;
-      const slotCenter = padding + slotWidth * i + slotWidth / 2;
-      const offset = (rng() - 0.5) * slotWidth * 0.3;
+      const bw = (minW + rng() * (maxW - minW)) * widthMult;
+      const slotCenter = padding + slotW * i + slotW / 2;
+      const offset = (rng() - 0.5) * slotW * 0.25;
       const bx = slotCenter - bw / 2 + offset;
-
-      const heightPct = minHeightPct + rng() * (maxHeightPctRow - minHeightPct);
+      const heightPct = minHPct + rng() * (maxHPct - minHPct);
       const bh = H * heightPct * heightMult;
 
       buildings.push({ x: bx, width: bw, height: bh, row });
     }
   }
 
-  generateRow(backCount, 0, 40, 90, maxHeightPct * 0.3, maxHeightPct * 0.65);
-  generateRow(midCount, 1, 35, 80, maxHeightPct * 0.4, maxHeightPct * 0.85);
-  generateRow(frontCount, 2, 30, 75, maxHeightPct * 0.25, maxHeightPct);
+  generateRow(backCount, 0, 45, 90, maxHeightPct * 0.3, maxHeightPct * 0.6);
+  generateRow(midCount, 1, 40, 80, maxHeightPct * 0.35, maxHeightPct * 0.8);
+  generateRow(frontCount, 2, 35, 75, maxHeightPct * 0.3, maxHeightPct);
 
-  // Sort by row (back first) so front renders on top
+  // Sort back-to-front so front draws on top
   buildings.sort((a, b) => a.row - b.row);
 
-  const isBigCity = pop >= 200000;
+  // Color index for cycling through building colors
+  let colorIdx = Math.floor(rng() * BUILDING_COLORS.length);
+  let roofColorIdx = Math.floor(rng() * ROOF_COLORS.length);
 
   for (const b of buildings) {
-    const color = b.row === 0 ? backColor : b.row === 1 ? midColor : frontColor;
     const bx = Math.max(0, b.x);
     const by = H - b.height;
-    const roofRoll = rng();
+    const bw = b.width;
+    const bh = b.height;
 
-    if (roofRoll < 0.3) {
-      // Triangular rooftop
+    // Pick building color (cycle so every building is different)
+    const bldgColor = BUILDING_COLORS[colorIdx % BUILDING_COLORS.length];
+    colorIdx++;
+
+    // Pick roof color (different from body)
+    const roofColor = ROOF_COLORS[roofColorIdx % ROOF_COLORS.length];
+    roofColorIdx++;
+
+    // Opacity varies by row for depth
+    const rowOpacity = b.row === 0 ? 0.7 : b.row === 1 ? 0.85 : 1.0;
+
+    // --- Building body ---
+    parts.push(
+      `<rect x="${f(bx)}" y="${f(by)}" width="${f(bw)}" height="${f(bh)}" rx="3" fill="url(#bldg_${bldgColor.id})" opacity="${rowOpacity}"/>`
+    );
+
+    // --- Roof ---
+    const roofRoll = rng();
+    if (roofRoll < 0.45) {
+      // Peaked roof (triangle)
+      const roofH = bw * (0.2 + rng() * 0.15);
       parts.push(
-        `<rect x="${bx.toFixed(1)}" y="${by.toFixed(1)}" width="${b.width.toFixed(1)}" height="${b.height.toFixed(1)}" fill="${color}"/>`
+        `<polygon points="${f(bx)},${f(by)} ${f(bx + bw / 2)},${f(by - roofH)} ${f(bx + bw)},${f(by)}" fill="url(#roof_${roofColor.id})" opacity="${rowOpacity}"/>`
       );
-      const peakX = bx + b.width / 2;
-      const peakY = by - b.width * 0.25;
+    } else if (roofRoll < 0.65) {
+      // Stepped roof
+      const stepH = bh * 0.12;
+      const stepW = bw * 0.6;
+      const stepX = bx + (bw - stepW) / 2;
       parts.push(
-        `<polygon points="${bx.toFixed(1)},${by.toFixed(1)} ${peakX.toFixed(1)},${peakY.toFixed(1)} ${(bx + b.width).toFixed(1)},${by.toFixed(1)}" fill="${darken(color, 0.08)}"/>`
-      );
-    } else if (roofRoll < 0.5) {
-      // Stepped top: two stacked rects
-      const stepHeight = b.height * 0.15;
-      const stepWidth = b.width * 0.65;
-      const stepX = bx + (b.width - stepWidth) / 2;
-      parts.push(
-        `<rect x="${bx.toFixed(1)}" y="${(by + stepHeight).toFixed(1)}" width="${b.width.toFixed(1)}" height="${(b.height - stepHeight).toFixed(1)}" fill="${color}"/>`
-      );
-      parts.push(
-        `<rect x="${stepX.toFixed(1)}" y="${by.toFixed(1)}" width="${stepWidth.toFixed(1)}" height="${stepHeight.toFixed(1)}" fill="${darken(color, 0.05)}"/>`
+        `<rect x="${f(stepX)}" y="${f(by - stepH)}" width="${f(stepW)}" height="${f(stepH)}" rx="2" fill="url(#roof_${roofColor.id})" opacity="${rowOpacity}"/>`
       );
     } else {
-      // Flat top
+      // Flat roof - just a thin line on top
       parts.push(
-        `<rect x="${bx.toFixed(1)}" y="${by.toFixed(1)}" width="${b.width.toFixed(1)}" height="${b.height.toFixed(1)}" fill="${color}"/>`
+        `<rect x="${f(bx)}" y="${f(by - 3)}" width="${f(bw)}" height="3" rx="1" fill="url(#roof_${roofColor.id})" opacity="${rowOpacity}"/>`
       );
     }
 
-    // Window patterns on front and mid row buildings taller than 60px
-    if (b.row >= 1 && b.height > 60) {
-      const windowColor = lighten(color, 0.35);
-      const windowW = 6;
-      const windowH = 8;
-      const windowGapX = 14;
-      const windowGapY = 16;
+    // --- Windows (warm glow grid) ---
+    if (bh > 40) {
+      const winW = 6;
+      const winH = 8;
+      const gapX = 14;
+      const gapY = 15;
       const marginX = 8;
-      const marginTopY = 12;
+      const marginTop = 10;
 
-      const cols = Math.max(1, Math.floor((b.width - marginX * 2) / windowGapX));
-      const rows = Math.max(1, Math.floor((b.height - marginTopY - 10) / windowGapY));
-      const maxWinRows = Math.min(rows, 6);
-      const maxWinCols = Math.min(cols, 3);
+      const cols = Math.max(1, Math.min(4, Math.floor((bw - marginX * 2) / gapX)));
+      const rows = Math.max(
+        1,
+        Math.min(8, Math.floor((bh - marginTop - 24) / gapY))
+      );
 
-      const totalWindowsWidth = maxWinCols * windowGapX - (windowGapX - windowW);
-      const startX = bx + (b.width - totalWindowsWidth) / 2;
+      const totalWinW = cols * gapX - (gapX - winW);
+      const startX = bx + (bw - totalWinW) / 2;
 
-      for (let wr = 0; wr < maxWinRows; wr++) {
-        for (let wc = 0; wc < maxWinCols; wc++) {
-          if (rng() < 0.35) continue;
-          const wx = startX + wc * windowGapX;
-          const wy = by + marginTopY + wr * windowGapY;
-          if (wy + windowH < H - 4) {
+      for (let wr = 0; wr < rows; wr++) {
+        for (let wc = 0; wc < cols; wc++) {
+          // Random skip for character
+          if (rng() < 0.2) continue;
+          const wx = startX + wc * gapX;
+          const wy = by + marginTop + wr * gapY;
+          if (wy + winH < H - 22) {
             parts.push(
-              `<rect x="${wx.toFixed(1)}" y="${wy.toFixed(1)}" width="${windowW}" height="${windowH}" fill="${windowColor}" opacity="0.5"/>`
+              `<rect x="${f(wx)}" y="${f(wy)}" width="${winW}" height="${winH}" rx="1" fill="url(#windowGlow)" opacity="${0.7 + rng() * 0.3}"/>`
             );
           }
         }
       }
     }
 
-    // Spires/antennas on some tall buildings in big cities
-    if (isBigCity && b.row === 2 && b.height > H * 0.5 && rng() > 0.6) {
-      const spireH = 8 + rng() * 15;
-      const spireX = bx + b.width / 2;
-      const spireTop = by - spireH;
+    // --- Door (on front row buildings) ---
+    if (b.row === 2 && bh > 50) {
+      const doorW = 10;
+      const doorH = 16;
+      const doorX = bx + bw / 2 - doorW / 2;
+      const doorY = H - doorH;
       parts.push(
-        `<line x1="${spireX.toFixed(1)}" y1="${by.toFixed(1)}" x2="${spireX.toFixed(1)}" y2="${spireTop.toFixed(1)}" stroke="${color}" stroke-width="2"/>`
+        `<rect x="${f(doorX)}" y="${f(doorY)}" width="${doorW}" height="${doorH}" rx="2" fill="url(#roof_navyRoof)" opacity="0.8"/>`
       );
+      parts.push(
+        `<rect x="${f(doorX + 2)}" y="${f(doorY + 3)}" width="${doorW - 4}" height="${doorH - 6}" rx="1" fill="url(#windowGlow)" opacity="0.45"/>`
+      );
+    }
+
+    // --- Optional details on front row ---
+    if (b.row >= 1 && rng() > 0.6) {
+      // Awning (small trapezoid)
+      const awningW = bw * 0.4;
+      const awningH = 6;
+      const awningX = bx + (rng() > 0.5 ? bw * 0.1 : bw * 0.5);
+      const awningY = by + bh * 0.35;
+      if (awningY + awningH < H - 20) {
+        parts.push(
+          `<path d="M${f(awningX)} ${f(awningY)} L${f(awningX + awningW)} ${f(awningY)} L${f(awningX + awningW - 3)} ${f(awningY + awningH)} L${f(awningX + 3)} ${f(awningY + awningH)} Z" fill="url(#roof_${ROOF_COLORS[(roofColorIdx + 1) % ROOF_COLORS.length].id})" opacity="${rowOpacity * 0.8}"/>`
+        );
+      }
+    }
+
+    if (b.row === 2 && rng() > 0.7 && bh > 60) {
+      // Flower box (small rect with tiny colored circles)
+      const fbW = bw * 0.35;
+      const fbH = 5;
+      const winRow = by + 10 + Math.floor(rng() * 2) * 15 + 8;
+      const fbX = bx + bw / 2 - fbW / 2;
+      if (winRow + fbH + 8 < H - 20) {
+        parts.push(
+          `<rect x="${f(fbX)}" y="${f(winRow + 8)}" width="${f(fbW)}" height="${fbH}" rx="1" fill="#15803d" opacity="0.7"/>`
+        );
+        // Tiny flowers
+        const flowerColors = ["#f87171", "#fbbf24", "#a78bfa", "#fb923c"];
+        for (let fl = 0; fl < 3; fl++) {
+          const flx = fbX + 3 + fl * (fbW / 3);
+          parts.push(
+            `<circle cx="${f(flx)}" cy="${f(winRow + 7)}" r="2.5" fill="${flowerColors[Math.floor(rng() * flowerColors.length)]}" opacity="0.85"/>`
+          );
+        }
+      }
     }
   }
 
   return { svg: parts.join("\n"), buildings };
 }
 
-// ---- Layer 5: Landmarks ----
+// ---------------------------------------------------------------------------
+// Layer 9: Landmarks
+// ---------------------------------------------------------------------------
+
 function drawLandmarks(
   landmarks: string[],
   waterFeature: WaterFeature,
-  buildingColor: string,
   maxBuildingHeight: number,
-  rng: () => number
+  rng: () => number,
+  behindBuildings: boolean
 ): string {
   if (landmarks.length === 0) return "";
   const parts: string[] = [];
-  const color = buildingColor;
-  const lightColor = lighten(color, 0.15);
 
   for (const lm of landmarks) {
+    // mountain_backdrop and hills go behind buildings
+    const isBehindType = lm === "mountain_backdrop" || lm === "hills";
+    if (behindBuildings !== isBehindType) continue;
+
     switch (lm) {
+      case "dome": {
+        // Capitol/town-hall with dome, columns, pediment, steps
+        const domeX = W * (0.43 + rng() * 0.14);
+        const baseW = 60 + rng() * 20;
+        const baseH = maxBuildingHeight * 0.55;
+        const baseY = H - baseH;
+
+        // Main building body
+        parts.push(
+          `<rect x="${f(domeX - baseW / 2)}" y="${f(baseY)}" width="${f(baseW)}" height="${f(baseH)}" rx="2" fill="#c7d2fe" opacity="0.95"/>`
+        );
+
+        // Columns (4-6 thin rects)
+        const numCols = 4 + Math.round(rng() * 2);
+        const colGap = (baseW - 8) / (numCols - 1);
+        for (let c = 0; c < numCols; c++) {
+          const cx = domeX - baseW / 2 + 4 + c * colGap;
+          parts.push(
+            `<rect x="${f(cx)}" y="${f(baseY + 8)}" width="3" height="${f(baseH - 16)}" fill="#818cf8" opacity="0.5"/>`
+          );
+        }
+
+        // Pediment (triangle)
+        const pedH = 12;
+        parts.push(
+          `<polygon points="${f(domeX - baseW / 2 - 3)},${f(baseY)} ${f(domeX)},${f(baseY - pedH)} ${f(domeX + baseW / 2 + 3)},${f(baseY)}" fill="#a5b4fc"/>`
+        );
+
+        // Dome (semicircle)
+        const domeR = baseW * 0.3;
+        const domeTopH = domeR * 0.8;
+        parts.push(
+          `<path d="M${f(domeX - domeR)} ${f(baseY - pedH)} A${f(domeR)} ${f(domeTopH)} 0 0 1 ${f(domeX + domeR)} ${f(baseY - pedH)}" fill="#818cf8" opacity="0.85"/>`
+        );
+
+        // Small finial on top
+        parts.push(
+          `<circle cx="${f(domeX)}" cy="${f(baseY - pedH - domeTopH + 2)}" r="3" fill="#fef08a" opacity="0.7"/>`
+        );
+
+        // Steps
+        for (let s = 0; s < 3; s++) {
+          const sw = baseW + s * 8;
+          const sh = 3;
+          const sy = H - s * sh;
+          parts.push(
+            `<rect x="${f(domeX - sw / 2)}" y="${f(sy - sh)}" width="${f(sw)}" height="${sh}" rx="1" fill="#e0e7ff" opacity="0.7"/>`
+          );
+        }
+        break;
+      }
+
       case "bridge": {
-        // Two towers + catenary curve
-        const bridgeX = W * (0.4 + rng() * 0.2);
-        const bridgeSpan = 150 + rng() * 100;
-        const towerH = 50 + rng() * 30;
-        const towerY = H - towerH - 15;
-        const leftX = bridgeX - bridgeSpan / 2;
-        const rightX = bridgeX + bridgeSpan / 2;
+        // Arched bridge with cables
+        const bridgeX = W * (0.38 + rng() * 0.24);
+        const span = 160 + rng() * 100;
+        const towerH = 55 + rng() * 30;
+        const leftX = bridgeX - span / 2;
+        const rightX = bridgeX + span / 2;
+        const deckY = H - 30;
+        const towerY = deckY - towerH;
+
         // Towers
         parts.push(
-          `<rect x="${(leftX - 4).toFixed(1)}" y="${towerY.toFixed(1)}" width="8" height="${towerH.toFixed(1)}" fill="${color}"/>`
+          `<rect x="${f(leftX - 5)}" y="${f(towerY)}" width="10" height="${f(towerH)}" rx="2" fill="url(#roof_coralRoof)"/>`
         );
         parts.push(
-          `<rect x="${(rightX - 4).toFixed(1)}" y="${towerY.toFixed(1)}" width="8" height="${towerH.toFixed(1)}" fill="${color}"/>`
+          `<rect x="${f(rightX - 5)}" y="${f(towerY)}" width="10" height="${f(towerH)}" rx="2" fill="url(#roof_coralRoof)"/>`
         );
+
         // Deck
-        const deckY = towerY + towerH * 0.6;
         parts.push(
-          `<line x1="${leftX.toFixed(1)}" y1="${deckY.toFixed(1)}" x2="${rightX.toFixed(1)}" y2="${deckY.toFixed(1)}" stroke="${color}" stroke-width="3"/>`
+          `<line x1="${f(leftX - 15)}" y1="${f(deckY)}" x2="${f(rightX + 15)}" y2="${f(deckY)}" stroke="#f87171" stroke-width="4"/>`
         );
-        // Cables (catenary)
-        const cableY = towerY + 5;
-        const sagY = deckY - 5;
+
+        // Main cables (catenary)
+        const cableTopY = towerY + 5;
+        const cableSagY = deckY - 8;
         parts.push(
-          `<path d="M${leftX.toFixed(1)} ${cableY.toFixed(1)} Q${bridgeX.toFixed(1)} ${sagY.toFixed(1)} ${rightX.toFixed(1)} ${cableY.toFixed(1)}" fill="none" stroke="${lightColor}" stroke-width="1.5"/>`
+          `<path d="M${f(leftX)} ${f(cableTopY)} Q${f(bridgeX)} ${f(cableSagY)} ${f(rightX)} ${f(cableTopY)}" fill="none" stroke="#fda4af" stroke-width="2"/>`
+        );
+
+        // Suspension cables (vertical lines from main cable to deck)
+        const numCables = 6;
+        for (let c = 0; c < numCables; c++) {
+          const t = (c + 1) / (numCables + 1);
+          const cx = leftX + t * span;
+          // Approximate parabola for cable y
+          const cableY = cableTopY + 4 * (cableSagY - cableTopY) * t * (1 - t) + (cableSagY - cableTopY) * (2 * t * (1 - t));
+          parts.push(
+            `<line x1="${f(cx)}" y1="${f(cableY + 5)}" x2="${f(cx)}" y2="${f(deckY)}" stroke="#fda4af" stroke-width="1" opacity="0.6"/>`
+          );
+        }
+        break;
+      }
+
+      case "church_spire": {
+        const spireX = W * (0.3 + rng() * 0.4);
+        const baseW = 25 + rng() * 12;
+        const baseH = 55 + rng() * 25;
+        const baseY = H - baseH;
+
+        // Body
+        parts.push(
+          `<rect x="${f(spireX - baseW / 2)}" y="${f(baseY)}" width="${f(baseW)}" height="${f(baseH)}" rx="2" fill="url(#bldg_lavender)" opacity="0.95"/>`
+        );
+
+        // Spire
+        const spireH = 35 + rng() * 20;
+        parts.push(
+          `<polygon points="${f(spireX - 5)},${f(baseY)} ${f(spireX)},${f(baseY - spireH)} ${f(spireX + 5)},${f(baseY)}" fill="url(#roof_navyRoof)"/>`
+        );
+
+        // Cross/finial
+        parts.push(
+          `<line x1="${f(spireX)}" y1="${f(baseY - spireH)}" x2="${f(spireX)}" y2="${f(baseY - spireH - 8)}" stroke="#fef08a" stroke-width="2"/>`
+        );
+        parts.push(
+          `<line x1="${f(spireX - 4)}" y1="${f(baseY - spireH - 5)}" x2="${f(spireX + 4)}" y2="${f(baseY - spireH - 5)}" stroke="#fef08a" stroke-width="2"/>`
+        );
+
+        // Window (rose window)
+        parts.push(
+          `<circle cx="${f(spireX)}" cy="${f(baseY + baseH * 0.25)}" r="6" fill="url(#windowGlow)" opacity="0.7"/>`
+        );
+
+        // Door
+        parts.push(
+          `<rect x="${f(spireX - 6)}" y="${f(H - 18)}" width="12" height="18" rx="6" fill="url(#roof_navyRoof)" opacity="0.8"/>`
         );
         break;
       }
-      case "dome": {
-        // Semicircle on a wide rectangle
-        const domeX = W * (0.45 + rng() * 0.1);
-        const domeBaseW = 50 + rng() * 20;
-        const domeH = maxBuildingHeight * 0.6;
-        const domeBaseH = domeH * 0.6;
-        const domeTopH = domeH * 0.4;
-        const domeY = H - domeBaseH - 15;
-        // Base rectangle
-        parts.push(
-          `<rect x="${(domeX - domeBaseW / 2).toFixed(1)}" y="${domeY.toFixed(1)}" width="${domeBaseW.toFixed(1)}" height="${domeBaseH.toFixed(1)}" fill="${lightColor}"/>`
-        );
-        // Dome semicircle
-        const domeR = domeBaseW * 0.4;
-        const domeCY = domeY;
-        parts.push(
-          `<path d="M${(domeX - domeR).toFixed(1)} ${domeCY.toFixed(1)} A${domeR.toFixed(1)} ${domeTopH.toFixed(1)} 0 0 1 ${(domeX + domeR).toFixed(1)} ${domeCY.toFixed(1)}" fill="${darken(lightColor, 0.1)}"/>`
-        );
+
+      case "skyscraper_cluster": {
+        const clusterCenter = W * (0.42 + rng() * 0.16);
+        const numTowers = 3 + Math.round(rng() * 2);
+        const towerColors = ["bldg_blue", "bldg_sky", "bldg_lavender", "bldg_teal", "bldg_mint"];
+
+        for (let i = 0; i < numTowers; i++) {
+          const tw = 18 + rng() * 14;
+          const th = H * (0.6 + rng() * 0.3);
+          const tx = clusterCenter - 60 + i * (120 / numTowers) + (rng() - 0.5) * 15;
+          const ty = H - th;
+          const tColor = towerColors[i % towerColors.length];
+
+          // Tower body
+          parts.push(
+            `<rect x="${f(tx)}" y="${f(ty)}" width="${f(tw)}" height="${f(th)}" rx="2" fill="url(#${tColor})" opacity="0.85"/>`
+          );
+
+          // Glass windows (horizontal bands)
+          const bandCount = Math.floor(th / 12);
+          for (let b = 0; b < bandCount; b++) {
+            const bandY = ty + 6 + b * 12;
+            if (bandY + 4 < H - 10) {
+              parts.push(
+                `<rect x="${f(tx + 3)}" y="${f(bandY)}" width="${f(tw - 6)}" height="4" rx="0.5" fill="url(#windowGlow)" opacity="${0.4 + rng() * 0.3}"/>`
+              );
+            }
+          }
+
+          // Antenna on tallest
+          if (i === Math.floor(numTowers / 2)) {
+            parts.push(
+              `<line x1="${f(tx + tw / 2)}" y1="${f(ty)}" x2="${f(tx + tw / 2)}" y2="${f(ty - 15)}" stroke="#818cf8" stroke-width="1.5"/>`
+            );
+            parts.push(
+              `<circle cx="${f(tx + tw / 2)}" cy="${f(ty - 15)}" r="2" fill="#f87171" opacity="0.7"/>`
+            );
+          }
+        }
         break;
       }
+
       case "port_crane": {
-        // Crane near water edge
-        const craneX = W * (0.15 + rng() * 0.15);
-        const craneBaseY = H - 20;
-        const craneH = 60 + rng() * 30;
-        const armLen = 40 + rng() * 20;
-        // Vertical support
+        const craneX = W * (0.12 + rng() * 0.18);
+        const craneBaseY = H - 18;
+        const craneH = 65 + rng() * 25;
+        const armLen = 45 + rng() * 25;
+
+        // Support structure
         parts.push(
-          `<line x1="${craneX.toFixed(1)}" y1="${craneBaseY.toFixed(1)}" x2="${craneX.toFixed(1)}" y2="${(craneBaseY - craneH).toFixed(1)}" stroke="${color}" stroke-width="3"/>`
+          `<line x1="${f(craneX)}" y1="${f(craneBaseY)}" x2="${f(craneX)}" y2="${f(craneBaseY - craneH)}" stroke="#f87171" stroke-width="4"/>`
         );
         // Arm
         parts.push(
-          `<line x1="${craneX.toFixed(1)}" y1="${(craneBaseY - craneH).toFixed(1)}" x2="${(craneX + armLen).toFixed(1)}" y2="${(craneBaseY - craneH + 10).toFixed(1)}" stroke="${color}" stroke-width="2.5"/>`
+          `<line x1="${f(craneX)}" y1="${f(craneBaseY - craneH)}" x2="${f(craneX + armLen)}" y2="${f(craneBaseY - craneH + 12)}" stroke="#f87171" stroke-width="3"/>`
         );
-        // Counter-arm
+        // Counter arm
         parts.push(
-          `<line x1="${craneX.toFixed(1)}" y1="${(craneBaseY - craneH).toFixed(1)}" x2="${(craneX - armLen * 0.4).toFixed(1)}" y2="${(craneBaseY - craneH + 6).toFixed(1)}" stroke="${color}" stroke-width="2"/>`
+          `<line x1="${f(craneX)}" y1="${f(craneBaseY - craneH)}" x2="${f(craneX - armLen * 0.35)}" y2="${f(craneBaseY - craneH + 8)}" stroke="#f87171" stroke-width="2.5"/>`
+        );
+        // Counterweight
+        parts.push(
+          `<rect x="${f(craneX - armLen * 0.35 - 6)}" y="${f(craneBaseY - craneH + 8)}" width="12" height="8" fill="#ef4444" opacity="0.8"/>`
+        );
+        // Cable from arm tip
+        parts.push(
+          `<line x1="${f(craneX + armLen)}" y1="${f(craneBaseY - craneH + 12)}" x2="${f(craneX + armLen)}" y2="${f(craneBaseY - 10)}" stroke="#fda4af" stroke-width="1" opacity="0.6"/>`
         );
         break;
       }
-      case "skyscraper_cluster": {
-        // 3-5 very tall narrow rects grouped in center
-        const numTowers = 3 + Math.round(rng() * 2);
-        const clusterCenter = W * (0.45 + rng() * 0.1);
-        for (let i = 0; i < numTowers; i++) {
-          const tw = 15 + rng() * 10;
-          const th = H * (0.7 + rng() * 0.2);
-          const tx = clusterCenter - 50 + i * (100 / numTowers) + rng() * 10;
-          const ty = H - th;
-          parts.push(
-            `<rect x="${tx.toFixed(1)}" y="${ty.toFixed(1)}" width="${tw.toFixed(1)}" height="${th.toFixed(1)}" fill="${lighten(color, 0.1)}" opacity="0.7"/>`
-          );
-        }
-        break;
-      }
+
       case "mountain_backdrop": {
-        // 2-3 prominent peaks behind buildings
+        // Prominent peaks behind everything
         const numPeaks = 2 + Math.round(rng());
         for (let i = 0; i < numPeaks; i++) {
-          const peakX = W * (0.15 + rng() * 0.7);
-          const peakY = H * (0.08 + rng() * 0.15);
-          const baseW = 250 + rng() * 250;
+          const peakX = W * (0.12 + rng() * 0.76);
+          const peakY = H * (0.06 + rng() * 0.14);
+          const baseW = 280 + rng() * 280;
           const leftX = peakX - baseW / 2;
           const rightX = peakX + baseW / 2;
           const baseY = H * 0.6;
-          const cpL = peakX - baseW * 0.12;
-          const cpR = peakX + baseW * 0.12;
+          const cpL = peakX - baseW * 0.13;
+          const cpR = peakX + baseW * 0.13;
+
+          // Mountain body
           parts.push(
-            `<path d="M${leftX.toFixed(1)} ${baseY.toFixed(1)} Q${cpL.toFixed(1)} ${peakY.toFixed(1)} ${peakX.toFixed(1)} ${peakY.toFixed(1)} Q${cpR.toFixed(1)} ${peakY.toFixed(1)} ${rightX.toFixed(1)} ${baseY.toFixed(1)} Z" fill="${lighten(color, 0.55)}" opacity="0.35"/>`
+            `<path d="M${f(leftX)} ${f(baseY)} Q${f(cpL)} ${f(peakY)} ${f(peakX)} ${f(peakY)} Q${f(cpR)} ${f(peakY)} ${f(rightX)} ${f(baseY)} Z" fill="#c4b5fd" opacity="0.35"/>`
           );
+
+          // Snow cap
+          if (rng() > 0.3) {
+            const snowY = peakY + (baseY - peakY) * 0.15;
+            const snowW = baseW * 0.2;
+            parts.push(
+              `<path d="M${f(peakX - snowW / 2)} ${f(snowY)} Q${f(peakX - snowW * 0.15)} ${f(peakY - 2)} ${f(peakX)} ${f(peakY)} Q${f(peakX + snowW * 0.15)} ${f(peakY - 2)} ${f(peakX + snowW / 2)} ${f(snowY)} Z" fill="white" opacity="0.5"/>`
+            );
+          }
         }
         break;
       }
+
       case "hills": {
-        // Multiple overlapping bezier rolling hills behind buildings
+        // Rolling hills behind buildings
         const numHills = 3 + Math.round(rng() * 2);
         for (let i = 0; i < numHills; i++) {
           const hillCx = W * rng();
-          const hillW = 200 + rng() * 300;
-          const hillH = 30 + rng() * 50;
-          const hillBaseY = H * 0.6 + rng() * H * 0.1;
+          const hillRx = 150 + rng() * 200;
+          const hillRy = 25 + rng() * 40;
+          const hillCy = H * 0.6 + rng() * H * 0.08;
           parts.push(
-            `<ellipse cx="${hillCx.toFixed(1)}" cy="${hillBaseY.toFixed(1)}" rx="${(hillW / 2).toFixed(1)}" ry="${hillH.toFixed(1)}" fill="${lighten(color, 0.5)}" opacity="0.25"/>`
+            `<ellipse cx="${f(hillCx)}" cy="${f(hillCy)}" rx="${f(hillRx)}" ry="${f(hillRy)}" fill="url(#hillMid)" opacity="0.3"/>`
           );
         }
         break;
       }
-      case "church_spire": {
-        // Narrow triangle on a rectangular base, placed among buildings
-        const spireX = W * (0.35 + rng() * 0.3);
-        const baseW = 20 + rng() * 10;
-        const baseH = 50 + rng() * 30;
-        const spireW = 8;
-        const spireH = 30 + rng() * 15;
-        const baseY = H - baseH - 15;
-        // Base rectangle
-        parts.push(
-          `<rect x="${(spireX - baseW / 2).toFixed(1)}" y="${baseY.toFixed(1)}" width="${baseW.toFixed(1)}" height="${baseH.toFixed(1)}" fill="${lightColor}"/>`
-        );
-        // Spire triangle
-        const spireTopY = baseY - spireH;
-        parts.push(
-          `<polygon points="${(spireX - spireW / 2).toFixed(1)},${baseY.toFixed(1)} ${spireX.toFixed(1)},${spireTopY.toFixed(1)} ${(spireX + spireW / 2).toFixed(1)},${baseY.toFixed(1)}" fill="${darken(lightColor, 0.15)}"/>`
-        );
-        break;
-      }
+
       case "water_tower": {
-        // Circle on tripod legs
         const wtX = W * (0.6 + rng() * 0.25);
-        const tankR = 10 + rng() * 5;
-        const legH = 30 + rng() * 15;
+        const tankR = 12 + rng() * 6;
+        const legH = 35 + rng() * 15;
         const tankCY = H - legH - tankR - 15;
+        const legBase = H - 15;
+
         // Tank
         parts.push(
-          `<circle cx="${wtX.toFixed(1)}" cy="${tankCY.toFixed(1)}" r="${tankR.toFixed(1)}" fill="${lightColor}"/>`
+          `<circle cx="${f(wtX)}" cy="${f(tankCY)}" r="${f(tankR)}" fill="url(#bldg_blue)" opacity="0.9"/>`
         );
+
+        // Tank rim
+        parts.push(
+          `<ellipse cx="${f(wtX)}" cy="${f(tankCY + tankR - 2)}" rx="${f(tankR + 2)}" ry="3" fill="#93c5fd" opacity="0.6"/>`
+        );
+
         // Legs (tripod)
-        const legBase = H - 15;
         parts.push(
-          `<line x1="${wtX.toFixed(1)}" y1="${(tankCY + tankR).toFixed(1)}" x2="${(wtX - tankR).toFixed(1)}" y2="${legBase.toFixed(1)}" stroke="${color}" stroke-width="2"/>`
+          `<line x1="${f(wtX - tankR * 0.6)}" y1="${f(tankCY + tankR)}" x2="${f(wtX - tankR * 1.2)}" y2="${f(legBase)}" stroke="#818cf8" stroke-width="2.5"/>`
         );
         parts.push(
-          `<line x1="${wtX.toFixed(1)}" y1="${(tankCY + tankR).toFixed(1)}" x2="${wtX.toFixed(1)}" y2="${legBase.toFixed(1)}" stroke="${color}" stroke-width="2"/>`
+          `<line x1="${f(wtX)}" y1="${f(tankCY + tankR)}" x2="${f(wtX)}" y2="${f(legBase)}" stroke="#818cf8" stroke-width="2.5"/>`
         );
         parts.push(
-          `<line x1="${wtX.toFixed(1)}" y1="${(tankCY + tankR).toFixed(1)}" x2="${(wtX + tankR).toFixed(1)}" y2="${legBase.toFixed(1)}" stroke="${color}" stroke-width="2"/>`
+          `<line x1="${f(wtX + tankR * 0.6)}" y1="${f(tankCY + tankR)}" x2="${f(wtX + tankR * 1.2)}" y2="${f(legBase)}" stroke="#818cf8" stroke-width="2.5"/>`
         );
         break;
       }
@@ -769,135 +1204,186 @@ function drawLandmarks(
   return parts.join("\n");
 }
 
-// ---- Layer 6: Vegetation ----
-function drawVegetation(
+// ---------------------------------------------------------------------------
+// Layer 10: Trees
+// ---------------------------------------------------------------------------
+
+function drawTrees(
   vegetation: Vegetation,
   population: number,
-  buildingColor: string,
-  buildings: Building[],
+  buildings: BuildingInfo[],
+  climate: Climate,
   rng: () => number
 ): string {
   const parts: string[] = [];
 
-  // Number of trees inversely proportional to population
+  // Tree count inversely proportional to population
   let numTrees: number;
   if (population > 500000) {
     numTrees = 2 + Math.round(rng());
+  } else if (population > 100000) {
+    numTrees = 3 + Math.round(rng() * 2);
   } else if (population > 50000) {
-    numTrees = 4 + Math.round(rng() * 2);
+    numTrees = 5 + Math.round(rng() * 2);
   } else {
-    numTrees = 6 + Math.round(rng() * 2);
+    numTrees = 7 + Math.round(rng() * 3);
   }
 
-  // Find gaps between front-row buildings for tree placement
-  const frontBuildings = buildings.filter((b) => b.row === 2).sort((a, b) => a.x - b.x);
+  // Find gaps between front-row buildings
+  const frontBuildings = buildings
+    .filter((b) => b.row === 2)
+    .sort((a, b) => a.x - b.x);
   const treePositions: number[] = [];
 
+  // Add positions in gaps between buildings
   if (frontBuildings.length > 1) {
-    for (let i = 0; i < frontBuildings.length - 1 && treePositions.length < numTrees; i++) {
-      const gap = frontBuildings[i + 1].x - (frontBuildings[i].x + frontBuildings[i].width);
-      if (gap > 15) {
-        treePositions.push(frontBuildings[i].x + frontBuildings[i].width + gap / 2);
+    for (
+      let i = 0;
+      i < frontBuildings.length - 1 && treePositions.length < numTrees;
+      i++
+    ) {
+      const gap =
+        frontBuildings[i + 1].x -
+        (frontBuildings[i].x + frontBuildings[i].width);
+      if (gap > 20) {
+        treePositions.push(
+          frontBuildings[i].x + frontBuildings[i].width + gap / 2
+        );
       }
     }
   }
+
+  // Add edges
+  if (treePositions.length < numTrees && frontBuildings.length > 0) {
+    treePositions.push(frontBuildings[0].x - 20 - rng() * 30);
+    const last = frontBuildings[frontBuildings.length - 1];
+    treePositions.push(last.x + last.width + 20 + rng() * 30);
+  }
+
   // Fill remaining with random positions
   while (treePositions.length < numTrees) {
-    treePositions.push(50 + rng() * (W - 100));
+    treePositions.push(40 + rng() * (W - 80));
   }
 
   const groundY = H - 15;
+  const isWarm = climate === "warm" || climate === "tropical";
+  const isArid = climate === "arid";
 
   for (let i = 0; i < numTrees; i++) {
     const tx = treePositions[i];
-    const vegType = vegetation === "mixed"
-      ? (["palm", "pine", "deciduous", "cactus"] as Vegetation[])[Math.floor(rng() * 4)]
-      : vegetation;
+    let vegType = vegetation;
+    if (vegetation === "mixed") {
+      const types: Vegetation[] = ["palm", "pine", "deciduous"];
+      vegType = types[Math.floor(rng() * types.length)];
+    }
 
     switch (vegType) {
       case "palm": {
-        // Curved trunk + fronds
-        const trunkH = 40 + rng() * 20;
-        const curve = 15 + rng() * 15;
+        // Curved trunk + frond arcs
+        const trunkH = 42 + rng() * 22;
+        const curve = 12 + rng() * 18;
+        const topX = tx + curve * 0.6;
         const topY = groundY - trunkH;
-        const trunkColor = darken("#8B7355", rng() * 0.15);
-        // Trunk as quadratic bezier
+
+        // Curved trunk (quadratic bezier)
         parts.push(
-          `<path d="M${tx.toFixed(1)} ${groundY.toFixed(1)} Q${(tx + curve).toFixed(1)} ${(groundY - trunkH / 2).toFixed(1)} ${(tx + curve * 0.7).toFixed(1)} ${topY.toFixed(1)}" fill="none" stroke="${trunkColor}" stroke-width="3"/>`
+          `<path d="M${f(tx)} ${f(groundY)} Q${f(tx + curve)} ${f(groundY - trunkH / 2)} ${f(topX)} ${f(topY)}" stroke="#92400e" stroke-width="4" fill="none" stroke-linecap="round"/>`
         );
-        // Fronds
-        const frondColor = darken("#4a8c3f", rng() * 0.1);
-        const topX = tx + curve * 0.7;
-        for (let f = 0; f < 5; f++) {
-          const angle = -Math.PI * 0.8 + (f / 4) * Math.PI * 1.6;
-          const frondLen = 18 + rng() * 12;
+
+        // 5 frond arcs radiating from top
+        const frondColors = ["#16a34a", "#22c55e", "#15803d", "#4ade80", "#16a34a"];
+        for (let fr = 0; fr < 5; fr++) {
+          const angle = -Math.PI * 0.75 + (fr / 4) * Math.PI * 1.5;
+          const frondLen = 20 + rng() * 14;
           const endX = topX + Math.cos(angle) * frondLen;
-          const endY = topY + Math.sin(angle) * frondLen * 0.6;
+          const endY = topY + Math.sin(angle) * frondLen * 0.55;
           const cpfx = topX + Math.cos(angle) * frondLen * 0.6;
-          const cpfy = topY + Math.sin(angle) * frondLen * 0.3 - 5;
+          const cpfy = topY + Math.sin(angle) * frondLen * 0.25 - 6;
           parts.push(
-            `<path d="M${topX.toFixed(1)} ${topY.toFixed(1)} Q${cpfx.toFixed(1)} ${cpfy.toFixed(1)} ${endX.toFixed(1)} ${endY.toFixed(1)}" fill="none" stroke="${frondColor}" stroke-width="2.5"/>`
+            `<path d="M${f(topX)} ${f(topY)} Q${f(cpfx)} ${f(cpfy)} ${f(endX)} ${f(endY)}" stroke="${frondColors[fr]}" stroke-width="2.5" fill="none" stroke-linecap="round"/>`
           );
         }
         break;
       }
-      case "pine": {
-        // Triangle on thin trunk
-        const treeH = 30 + rng() * 15;
-        const trunkH = 8 + rng() * 4;
-        const treeW = 15 + rng() * 5;
-        const topY = groundY - trunkH - treeH;
-        const pineColor = darken("#2d5a27", rng() * 0.15);
-        // Trunk
-        parts.push(
-          `<line x1="${tx.toFixed(1)}" y1="${groundY.toFixed(1)}" x2="${tx.toFixed(1)}" y2="${(groundY - trunkH).toFixed(1)}" stroke="#5c4a32" stroke-width="3"/>`
-        );
-        // Triangle canopy
-        parts.push(
-          `<polygon points="${(tx - treeW / 2).toFixed(1)},${(groundY - trunkH).toFixed(1)} ${tx.toFixed(1)},${topY.toFixed(1)} ${(tx + treeW / 2).toFixed(1)},${(groundY - trunkH).toFixed(1)}" fill="${pineColor}"/>`
-        );
-        break;
-      }
-      case "deciduous": {
-        // Circle on thin trunk
-        const trunkH = 10 + rng() * 6;
-        const canopyR = 12 + rng() * 6;
-        const canopyCY = groundY - trunkH - canopyR;
-        const leafColor = darken("#5a8c4a", rng() * 0.12);
-        // Trunk
-        parts.push(
-          `<line x1="${tx.toFixed(1)}" y1="${groundY.toFixed(1)}" x2="${tx.toFixed(1)}" y2="${(groundY - trunkH).toFixed(1)}" stroke="#6b5a42" stroke-width="3"/>`
-        );
-        // Canopy
-        parts.push(
-          `<circle cx="${tx.toFixed(1)}" cy="${canopyCY.toFixed(1)}" r="${canopyR.toFixed(1)}" fill="${leafColor}"/>`
-        );
-        break;
-      }
+
       case "cactus": {
-        // Vertical line with arm stubs
-        const cactusH = 25 + rng() * 15;
-        const topY = groundY - cactusH;
-        const cactusColor = "#5a7a4a";
+        // Rounded cactus body + arms
+        const cactusH = 28 + rng() * 18;
+        const cactusW = 6;
+
+        // Main trunk
         parts.push(
-          `<line x1="${tx.toFixed(1)}" y1="${groundY.toFixed(1)}" x2="${tx.toFixed(1)}" y2="${topY.toFixed(1)}" stroke="${cactusColor}" stroke-width="4" stroke-linecap="round"/>`
+          `<rect x="${f(tx - cactusW / 2)}" y="${f(groundY - cactusH)}" width="${cactusW}" height="${f(cactusH)}" rx="3" fill="#16a34a"/>`
         );
+
         // 1-2 arms
         const numArms = 1 + Math.round(rng());
         for (let a = 0; a < numArms; a++) {
-          const armY = topY + cactusH * (0.3 + rng() * 0.3);
-          const armDir = rng() > 0.5 ? 1 : -1;
-          const armLen = 8 + rng() * 8;
-          const armUp = 6 + rng() * 6;
+          const armY = groundY - cactusH * (0.4 + rng() * 0.3);
+          const armDir = a === 0 ? -1 : 1;
+          const armLen = 8 + rng() * 7;
+          const armUp = 8 + rng() * 8;
+
           // Horizontal part
           parts.push(
-            `<line x1="${tx.toFixed(1)}" y1="${armY.toFixed(1)}" x2="${(tx + armDir * armLen).toFixed(1)}" y2="${armY.toFixed(1)}" stroke="${cactusColor}" stroke-width="3" stroke-linecap="round"/>`
+            `<rect x="${f(armDir > 0 ? tx + cactusW / 2 : tx - cactusW / 2 - armLen)}" y="${f(armY - 2.5)}" width="${f(armLen)}" height="5" rx="2.5" fill="#22c55e"/>`
           );
           // Upward part
           parts.push(
-            `<line x1="${(tx + armDir * armLen).toFixed(1)}" y1="${armY.toFixed(1)}" x2="${(tx + armDir * armLen).toFixed(1)}" y2="${(armY - armUp).toFixed(1)}" stroke="${cactusColor}" stroke-width="3" stroke-linecap="round"/>`
+            `<rect x="${f(armDir > 0 ? tx + cactusW / 2 + armLen - 2.5 : tx - cactusW / 2 - armLen)}" y="${f(armY - armUp)}" width="5" height="${f(armUp)}" rx="2.5" fill="#22c55e"/>`
           );
         }
+        break;
+      }
+
+      case "pine": {
+        // 2-3 stacked triangles + trunk
+        const treeH = 32 + rng() * 16;
+        const trunkH = 10;
+        const baseW = 18 + rng() * 6;
+        const topY = groundY - trunkH - treeH;
+
+        // Trunk
+        parts.push(
+          `<rect x="${f(tx - 3)}" y="${f(groundY - trunkH)}" width="6" height="${f(trunkH)}" rx="2" fill="#92400e"/>`
+        );
+
+        // 3 layered triangles
+        const layers = 3;
+        for (let l = 0; l < layers; l++) {
+          const layerY = topY + (treeH / layers) * l;
+          const layerBaseY = topY + (treeH / layers) * (l + 1) + 5;
+          const layerW = baseW * (0.5 + (l / layers) * 0.6);
+          const color = ["#15803d", "#16a34a", "#22c55e"][l];
+          parts.push(
+            `<polygon points="${f(tx)},${f(layerY)} ${f(tx - layerW / 2)},${f(layerBaseY)} ${f(tx + layerW / 2)},${f(layerBaseY)}" fill="${color}" opacity="0.9"/>`
+          );
+        }
+        break;
+      }
+
+      case "deciduous":
+      default: {
+        // ROUNDED tree: 2-3 overlapping circles + rect trunk
+        const trunkH = 16 + rng() * 6;
+        const trunkW = 6;
+
+        // Trunk
+        parts.push(
+          `<rect x="${f(tx - trunkW / 2)}" y="${f(groundY - trunkH)}" width="${trunkW}" height="${f(trunkH)}" rx="2" fill="#15803d"/>`
+        );
+
+        // 3 overlapping canopy circles
+        const mainR = 13 + rng() * 5;
+        parts.push(
+          `<circle cx="${f(tx)}" cy="${f(groundY - trunkH - mainR + 4)}" r="${f(mainR)}" fill="#22c55e" opacity="0.9"/>`
+        );
+        parts.push(
+          `<circle cx="${f(tx - 6 - rng() * 3)}" cy="${f(groundY - trunkH - mainR + 7)}" r="${f(mainR * 0.75)}" fill="#16a34a" opacity="0.8"/>`
+        );
+        parts.push(
+          `<circle cx="${f(tx + 5 + rng() * 3)}" cy="${f(groundY - trunkH - mainR + 8)}" r="${f(mainR * 0.7)}" fill="#15803d" opacity="0.7"/>`
+        );
         break;
       }
     }
@@ -906,67 +1392,68 @@ function drawVegetation(
   return parts.join("\n");
 }
 
-// ---- Layer 7: Ground band ----
-function drawGroundBand(terrain: Terrain, waterFeature: WaterFeature): string {
-  let groundColor: string;
+// ---------------------------------------------------------------------------
+// Layer 11: Ground
+// ---------------------------------------------------------------------------
 
-  if (waterFeature === "ocean" || waterFeature === "bay" || terrain === "coastal") {
-    groundColor = "#d4c5a9"; // sandy tan
-  } else if (terrain === "desert") {
-    groundColor = "#d9c4a0"; // warm sand
-  } else if (terrain === "mountain") {
-    groundColor = "#8a7e72"; // gray-brown
-  } else if (terrain === "lake") {
-    groundColor = "#8a9a82"; // gray with green tint
-  } else {
-    // plains, river
-    groundColor = "#9aaa85"; // muted green
-  }
-
-  return `<rect x="0" y="${H - 15}" width="${W}" height="15" fill="${groundColor}" opacity="0.4"/>`;
+function drawGround(): string {
+  const groundH = 18;
+  return `<rect x="0" y="${H - groundH}" width="${W}" height="${groundH}" fill="url(#groundGrad)"/>`;
 }
 
-// ---- Layer 8: Atmospheric details ----
-function drawAtmosphere(
-  climate: Climate,
-  pm25Mean: number | null,
+// ---------------------------------------------------------------------------
+// Layer 12: Street details
+// ---------------------------------------------------------------------------
+
+function drawStreetDetails(
+  population: number,
   rng: () => number
 ): string {
+  if (population < 50000) return "";
+
   const parts: string[] = [];
+  const numLamps = 1 + Math.round(rng());
 
-  if (climate === "cold") {
-    // 1-2 light gray cloud ellipses
-    const numClouds = 1 + Math.round(rng());
-    for (let i = 0; i < numClouds; i++) {
-      const cx = W * (0.2 + rng() * 0.6);
-      const cy = H * (0.08 + rng() * 0.12);
-      const rx = 60 + rng() * 80;
-      const ry = 12 + rng() * 10;
-      parts.push(
-        `<ellipse cx="${cx.toFixed(1)}" cy="${cy.toFixed(1)}" rx="${rx.toFixed(1)}" ry="${ry.toFixed(1)}" fill="#c8c8c8" opacity="0.15"/>`
-      );
-    }
-  }
+  for (let i = 0; i < numLamps; i++) {
+    const lx = 80 + rng() * (W - 160);
+    const lampBaseY = H - 18;
+    const lampH = 30 + rng() * 12;
+    const lampTopY = lampBaseY - lampH;
 
-  if (climate === "warm" || climate === "tropical") {
-    // Pale sun circle in upper-right
-    const sunX = W * (0.82 + rng() * 0.1);
-    const sunY = H * (0.08 + rng() * 0.08);
-    const sunR = 25 + rng() * 15;
+    // Pole
     parts.push(
-      `<circle cx="${sunX.toFixed(1)}" cy="${sunY.toFixed(1)}" r="${sunR.toFixed(1)}" fill="#f5e6a0" opacity="0.1"/>`
+      `<line x1="${f(lx)}" y1="${f(lampBaseY)}" x2="${f(lx)}" y2="${f(lampTopY)}" stroke="#92400e" stroke-width="2"/>`
+    );
+
+    // Lamp head
+    parts.push(
+      `<circle cx="${f(lx)}" cy="${f(lampTopY)}" r="4" fill="#fef08a" opacity="0.6"/>`
+    );
+    parts.push(
+      `<circle cx="${f(lx)}" cy="${f(lampTopY)}" r="8" fill="#fef08a" opacity="0.15" filter="url(#softGlow)"/>`
     );
   }
 
-  if (pm25Mean !== null && pm25Mean > 12) {
-    // Haze overlay
-    const opacity = Math.min(0.1, 0.05 + (pm25Mean - 12) * 0.003);
+  // Small bushes
+  const numBushes = 2 + Math.round(rng() * 2);
+  for (let i = 0; i < numBushes; i++) {
+    const bx = 30 + rng() * (W - 60);
+    const by = H - 18;
+    const br = 4 + rng() * 3;
     parts.push(
-      `<rect x="0" y="0" width="${W}" height="${H}" fill="#a0a0a0" opacity="${opacity.toFixed(3)}"/>`
+      `<ellipse cx="${f(bx)}" cy="${f(by)}" rx="${f(br)}" ry="${f(br * 0.7)}" fill="#22c55e" opacity="0.6"/>`
     );
   }
 
   return parts.join("\n");
+}
+
+// ---------------------------------------------------------------------------
+// Helper: format number to 1 decimal
+// ---------------------------------------------------------------------------
+
+function f(n: number): string {
+  return n.toFixed(1);
 }
 
 // ---------------------------------------------------------------------------
@@ -976,66 +1463,48 @@ function drawAtmosphere(
 function generateSvg(p: CityParams): string {
   const rng = createRng(p.slug);
   const parts: string[] = [];
-  const { building: buildingColor } = p.palette;
 
-  // Layer 1: Sky gradient
-  parts.push(drawSkyGradient(p.climate));
+  // Defs (gradients, filters)
+  parts.push(buildDefs(p.climate, rng));
 
-  // Layer 2: Far terrain
-  parts.push(drawFarTerrain(p.terrain, buildingColor, rng));
+  // Layer 1: Sky
+  parts.push(drawSky());
 
-  // Layer 5 (early): mountain_backdrop and hills landmarks go behind buildings
-  const behindLandmarks = p.landmarks.filter(
-    (l) => l === "mountain_backdrop" || l === "hills"
+  // Layer 2: Sun
+  parts.push(drawSun(rng));
+
+  // Layer 3: Clouds
+  parts.push(drawClouds(p.climate, rng));
+
+  // Layer 4-6: Hills (3 layers built-in)
+  parts.push(drawHills(p.terrain, rng));
+
+  // Layer 7: Water
+  parts.push(drawWater(p.waterFeature, rng));
+
+  // Layer 9 (early): Behind-building landmarks (mountain_backdrop, hills)
+  parts.push(
+    drawLandmarks(p.landmarks, p.waterFeature, H * 0.7, rng, true)
   );
-  const frontLandmarks = p.landmarks.filter(
-    (l) => l !== "mountain_backdrop" && l !== "hills"
-  );
 
-  if (behindLandmarks.length > 0) {
-    parts.push(
-      drawLandmarks(
-        behindLandmarks,
-        p.waterFeature,
-        buildingColor,
-        H * 0.8,
-        rng
-      )
-    );
-  }
-
-  // Layer 3: Water features (behind buildings)
-  parts.push(drawWaterFeature(p.waterFeature, buildingColor, rng));
-
-  // Layer 4: Buildings
+  // Layer 8: Buildings
   const { svg: buildingSvg, buildings } = drawBuildings(p, rng);
   parts.push(buildingSvg);
 
-  // Layer 5 (front): Remaining landmarks on top of buildings
-  const maxBuildingH = buildings.reduce(
-    (m, b) => Math.max(m, b.height),
-    0
+  // Layer 9 (late): Front landmarks
+  const maxBH = buildings.reduce((m, b) => Math.max(m, b.height), 60);
+  parts.push(
+    drawLandmarks(p.landmarks, p.waterFeature, maxBH, rng, false)
   );
-  if (frontLandmarks.length > 0) {
-    parts.push(
-      drawLandmarks(
-        frontLandmarks,
-        p.waterFeature,
-        buildingColor,
-        maxBuildingH,
-        rng
-      )
-    );
-  }
 
-  // Layer 6: Vegetation
-  parts.push(drawVegetation(p.vegetation, p.population, buildingColor, buildings, rng));
+  // Layer 10: Trees
+  parts.push(drawTrees(p.vegetation, p.population, buildings, p.climate, rng));
 
-  // Layer 7: Ground band
-  parts.push(drawGroundBand(p.terrain, p.waterFeature));
+  // Layer 11: Ground
+  parts.push(drawGround());
 
-  // Layer 8: Atmosphere
-  parts.push(drawAtmosphere(p.climate, p.pm25Mean, rng));
+  // Layer 12: Street details
+  parts.push(drawStreetDetails(p.population, rng));
 
   // Assemble
   const svg = [
