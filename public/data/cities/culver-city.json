@@ -1,1 +1,966 @@
-{"schema_version":"5.0","normalized_at":"2026-02-10T14:21:49.118323","identity":{"name":"Culver City","state":"CA","fips_state":"06","fips_place":"17568","population":40357},"economy":{"median_household_income":114429,"median_home_value":1121300,"unemployment_rate":7.23,"unemployment_data_level":"county","labor_force":7817,"employed":7260,"unemployed":557,"gini_index":null,"poverty_rate":5.92,"homeownership_rate":55.9,"rent_to_income_ratio":25.95,"home_value_to_income_ratio":9.8,"price_to_rent_ratio":37.75,"effective_tax_rate":7.0097,"population_growth_cagr":0.3226,"median_real_estate_taxes":6550},"safety":{"violent_crime_rate":null,"property_crime_rate":null,"murder_rate":null,"robbery_rate":null,"burglary_rate":null,"vehicle_theft_rate":null,"total_crime_rate":null,"crime_trend":null,"crime_data_level":null},"education":{"total_schools":10416,"total_enrollment":5837868,"pupil_teacher_ratio":22.1,"title1_pct":0.0,"charter_pct":12.5,"regular_schools":9083,"avg_school_rating":null,"rated_schools":null,"school_quality_tier":null},"environment":{"pm25_mean":13.9546,"ozone_mean":0.0441,"total_disasters":23,"avg_disasters_per_decade":3.3,"most_recent_disaster":"2023-04-03","most_recent_disaster_type":"Severe Storm","disasters_by_type":{"Flood":7,"Severe Storm":6,"Fire":6,"Biological":2,"Hurricane":1,"Drought":1}},"housing":{"median_rent":2475,"housing_units":18972,"fmr_0br":973,"fmr_1br":1075,"fmr_2br":1411,"fmr_3br":1962,"fmr_4br":1995,"rent_burden_ratio":14.8,"cost_burdened_pct":52.34,"severely_burdened_pct":27.57},"governance":{"legislative_volume":14687,"legislative_velocity":680.0,"committee_count":54,"years_of_legislative_data":21.6,"has_public_meetings":true,"api_accessible":true,"matter_types":{"Minute Order":700,"Minutes":92,"Presentation":80,"Closed Session Item":50,"Public Hearing":27,"Resolution":23,"Meeting Cancellation Notice":16,"Ordinance":11,"Agreement":1},"top_matter_type":"Minute Order","matter_statuses":{"Action Item":389,"Consent Agenda":322,"Agenda Ready":69,"Recognition Presentation":51,"Closed Session":50,"Presentation to CBC Body":34,"Public Hearing":32,"Meeting Cancellation Notice":15,"Passed":12,"Presentation to City Council":11,"Minutes":6,"Informational Item":5,"New Business":2,"City Manager Updates":1,"Reported to Council":1},"pass_rate":33.3,"passed_count":4895,"active_council_members":5,"avg_tenure_years":2.0,"vote_coverage_pct":0.0,"video_availability_pct":0.0,"agenda_availability_pct":96.0,"minutes_availability_pct":1.4,"avg_meetings_per_month":16.5,"meetings_by_year":{"2026":29,"2025":212,"2024":185,"2023":74},"avg_sponsors_per_matter":0.0,"avg_attachments_per_matter":0.2,"pct_with_text_versions":100.0,"index_categories":["Chapter 3 - Adminstration","Goal 3: Public Safety","Historic Preservation Program Update"],"has_accela":false,"accela_agency_id":null},"development":{"permits_12mo":null,"yoy_trend_pct":null,"avg_permit_value":null,"permit_types":{},"datasets_count":0},"meetings":{"official_channels":0,"meetings_indexed":null,"avg_meetings_per_month":null,"has_video_archive":false,"meeting_types":{},"transcripts_available":null},"civic_issues":{"total_issues":null,"issues_last_30d":null,"issues_last_365d":null,"resolution_rate":null,"top_issue_type":null,"type_distribution":{},"has_civic_issue_tracking":false},"demographics":{"population":40357,"poverty_universe":40045,"employment_universe":33214},"time_series":{"economy_history":[{"year":2024,"unemployment_rate":7.23,"labor_force":7817,"employed":7260,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2023,"unemployment_rate":7.15,"labor_force":7569,"employed":7036,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2022,"unemployment_rate":6.67,"labor_force":7450,"employed":6960,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2021,"unemployment_rate":9.47,"labor_force":7559,"employed":6846,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2020,"unemployment_rate":10.92,"labor_force":7709,"employed":6869,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2019,"unemployment_rate":7.83,"labor_force":7987,"employed":7369,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2018,"unemployment_rate":7.65,"labor_force":7894,"employed":7298,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2017,"unemployment_rate":8.97,"labor_force":7849,"employed":7152,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2016,"unemployment_rate":9.83,"labor_force":7932,"employed":7161,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2015,"unemployment_rate":10.38,"labor_force":7893,"employed":7080,"data_level":"county","source":"bls_laus","is_partial_year":false}],"safety_history":[],"environment_history":[{"year":2023,"pm25_mean":13.9546,"ozone_mean":0.0441,"data_level":"county","source":"epa_aqs"},{"year":2022,"pm25_mean":11.3029,"ozone_mean":0.0448,"data_level":"county","source":"epa_aqs"},{"year":2021,"pm25_mean":14.3422,"ozone_mean":0.0449,"data_level":"county","source":"epa_aqs"},{"year":2020,"pm25_mean":21.7311,"ozone_mean":0.0449,"data_level":"county","source":"epa_aqs"},{"year":2019,"pm25_mean":10.2965,"ozone_mean":0.0445,"data_level":"county","source":"epa_aqs"},{"year":2018,"pm25_mean":12.4525,"ozone_mean":0.0455,"data_level":"county","source":"epa_aqs"}]},"data_sources":{"legistar":"available","socrata":"available","census_acs":"available","arcgis":"available","fbi_ucr":"available","socrata_crime":"available","bls_laus":"available","ca_edd":"error","epa_aqs":"available","nces_ccd":"available","hud_fmr":"available","fema_openfema":"available","greatschools":"available","permits":"skipped","youtube_meetings":"skipped","seeclickfix":"skipped","accela":"available"},"provenance":{"last_full_probe":"2026-02-10T01:25:24.862027","sources":{"legistar":{"authority":"Legistar by Granicus","authority_tier":1,"api_url":"https://webapi.legistar.com/v1/culver-city/Bodies","probed_at":"2026-02-10T01:25:24.862717","data_vintage":"2005\u20132026","geographic_level":"place","status":"available"},"socrata":{"authority":"City Open Data Portals (Socrata/Tyler Data & Insights)","authority_tier":1,"api_url":null,"probed_at":"2026-02-10T01:27:11.835836","data_vintage":null,"geographic_level":"place","status":"available"},"census_acs":{"authority":"US Census Bureau","authority_tier":1,"api_url":"https://api.census.gov/data/2022/acs/acs5?get=NAME,B01001_001E,B19013_001E,B25077_001E,B25064_001E,B25001_001E&for=place:17568&in=state:06","probed_at":"2026-02-10T01:27:18.931978","data_vintage":"ACS 5-Year 2022","geographic_level":"place","status":"available"},"arcgis":{"authority":"City ArcGIS/GIS Portals","authority_tier":1,"api_url":null,"probed_at":"2026-02-10T01:27:22.292466","data_vintage":null,"geographic_level":"place","status":"available"},"fbi_ucr":{"authority":"FBI Uniform Crime Reporting Program","authority_tier":1,"api_url":"https://api.usa.gov/crime/fbi/sapi/api/estimates/states/CA/2015/2022","probed_at":"2026-02-10T01:27:24.305053","data_vintage":null,"geographic_level":"state","status":"available"},"bls_laus":{"authority":"Bureau of Labor Statistics","authority_tier":1,"api_url":"https://api.bls.gov/publicAPI/v2/timeseries/data/LAUST060000000000003","probed_at":"2026-02-10T01:27:24.626575","data_vintage":"LAUS 2024","geographic_level":"state","status":"available"},"epa_aqs":{"authority":"US Environmental Protection Agency","authority_tier":1,"api_url":"https://aqs.epa.gov/data/api/annualData/byState?state=06&param=88101","probed_at":"2026-02-10T01:27:26.763375","data_vintage":"AQS 2023","geographic_level":"state","status":"available"},"nces_ccd":{"authority":"National Center for Education Statistics","authority_tier":1,"api_url":"https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=06","probed_at":"2026-02-10T01:30:29.756780","data_vintage":"2022-2023 academic year","geographic_level":"state","status":"available"},"hud_fmr":{"authority":"US Department of Housing and Urban Development","authority_tier":1,"api_url":"https://www.huduser.gov/hudapi/public/fmr/statedata/CA","probed_at":"2026-02-10T01:30:51.168303","data_vintage":"FY2026","geographic_level":"state","status":"available"},"fema_openfema":{"authority":"Federal Emergency Management Agency","authority_tier":1,"api_url":"https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries?$filter=state eq 'CA'","probed_at":"2026-02-10T01:30:51.857876","data_vintage":"1953-present","geographic_level":"state","status":"available"},"greatschools":{"authority":"GreatSchools.org (nonprofit)","authority_tier":3,"api_url":null,"probed_at":"2026-02-10T01:30:52.086015","data_vintage":null,"geographic_level":"place","status":"available"},"permits":{"authority":"City Open Data Portals (Socrata)","authority_tier":1,"api_url":null,"probed_at":"2026-02-10T01:30:52.422996","data_vintage":null,"geographic_level":"place","status":"skipped"},"youtube_meetings":{"authority":"YouTube (via SerpAPI search + youtube-transcript-api)","authority_tier":3,"api_url":null,"probed_at":"2026-02-10T01:30:52.424727","data_vintage":null,"geographic_level":"place","status":"skipped"},"seeclickfix":{"authority":"SeeClickFix (civic issue tracking platform)","authority_tier":3,"api_url":"https://seeclickfix.com/api/v2/issues?place_url=culver-city","probed_at":"2026-02-10T01:31:02.189938","data_vintage":null,"geographic_level":"place","status":"skipped"},"accela":{"authority":"Accela (permit management platform)","authority_tier":3,"api_url":"https://apis.accela.com/v4/agencies","probed_at":"2026-02-10T01:31:02.581002","data_vintage":null,"geographic_level":"place","status":"available"},"socrata_crime":{"authority":"City Open Data Portals (Socrata)","authority_tier":1,"api_url":null,"probed_at":"2026-02-10T01:27:24.626210","data_vintage":null,"geographic_level":"place","status":"available"}},"derived_fields":{"safety.total_crime_rate":{"formula":"violent_crime_rate + property_crime_rate","inputs":["safety.violent_crime_rate","safety.property_crime_rate"],"formula_location":"score/normalizer.py:_derive_total_crime","authority_tier":2},"safety.crime_trend":{"formula":"(last_year_rate - first_year_rate) / years_span","inputs":["fbi.time_series[].violent_crime_rate"],"formula_location":"score/normalizer.py:_build_safety","authority_tier":2},"education.school_quality_tier":{"formula":"excellent if avg>=8, good if avg>=6, fair if avg>=4, else poor","inputs":["education.avg_school_rating"],"formula_location":"score/normalizer.py:_build_education","authority_tier":3},"environment.avg_disasters_per_decade":{"formula":"total_disasters / (years_span / 10)","inputs":["environment.total_disasters"],"formula_location":"probe/fema_probe.py","authority_tier":2},"housing.rent_burden_ratio":{"formula":"(fmr_2br * 12) / median_household_income * 100","inputs":["housing.fmr_2br","economy.median_household_income"],"formula_location":"score/normalizer.py:_build_housing","authority_tier":2},"governance.legislative_velocity":{"formula":"legislative_volume / years_of_legislative_data","inputs":["governance.legislative_volume","governance.years_of_legislative_data"],"formula_location":"score/normalizer.py:_build_governance","authority_tier":2},"development.yoy_trend_pct":{"formula":"(current_year - prior_year) / prior_year * 100","inputs":["permit data from Socrata"],"formula_location":"probe/permits_probe.py","authority_tier":2}},"geographic_mismatches":[{"field":"identity.fips_state","source_level":"state","profile_level":"place","note":"state-level data applied to city profile"},{"field":"economy.unemployment_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Reflects statewide unemployment, not city-specific rate"},{"field":"economy.labor_force","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: This is the full state labor force, not city-level"},{"field":"economy.employed","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"economy.unemployed","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.violent_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: City-level requires ORI codes not currently used"},{"field":"safety.property_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.murder_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.robbery_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.burglary_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.vehicle_theft_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.total_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA; derived sum"},{"field":"safety.crime_trend","source_level":"state","profile_level":"place","note":"state-level data applied to city profile"},{"field":"education.total_schools","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Count includes all schools in the state, not city"},{"field":"education.total_enrollment","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.pupil_teacher_ratio","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Average across all state schools"},{"field":"education.title1_pct","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.charter_pct","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.regular_schools","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.pm25_mean","source_level":"state","profile_level":"place","note":"STATE/COUNTY-LEVEL: Averaged across all monitors in the state"},{"field":"environment.ozone_mean","source_level":"state","profile_level":"place","note":"STATE/COUNTY-LEVEL"},{"field":"environment.total_disasters","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: All declarations for the state, not city-specific"},{"field":"environment.avg_disasters_per_decade","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.most_recent_disaster","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.most_recent_disaster_type","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"housing.fmr_0br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR: Fair Market Rents at state level, not city-specific metro area"},{"field":"housing.fmr_1br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_2br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_3br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_4br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.rent_burden_ratio","source_level":"mixed","profile_level":"place","note":"GEOGRAPHIC MISMATCH: FMR is state-level (HUD), income is city-level (Census). Ratio may be biased."}]},"data_quality":{"quality_score":85.7,"grade":"B","completeness_pct":85.7,"issue_count":7,"granularity_flags":2},"officials":{"body_name":"City Council Meeting Agenda","members":[{"name":"Albert Vera","email":"albert.vera@culvercity.org","title":"Member","start_date":"2024-12-10"},{"name":"Bubba Fish","email":null,"title":"Vice Mayor","start_date":"2024-12-10"},{"name":"Dan O'Brien","email":"dan.obrien@culvercity.org","title":"Member","start_date":"2022-12-12"},{"name":"Freddy Puza","email":"freddy.puza@culvercity.org","title":"Mayor","start_date":"2022-12-13","committees":["Standing Sustainability Subcommittee"]},{"name":"Yasmine-Imani McMorrin","email":"Yasmine-Imani.Mcmorrin@culvercity.org","title":"Member","start_date":"2024-12-10","committees":["Standing Sustainability Subcommittee"]}]},"recent_meetings":[{"date":"2026-02-11","body":"PLANNING COMMISSION","location":null,"has_agenda":true,"agenda_url":"https://culver-city.legistar1.com/culver-city/meetings/2026/2/5962_A_PLANNING_COMMISSION_26-02-11_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-11","body":"DISABILITY ADVISORY COMMITTEE","location":null,"has_agenda":true,"agenda_url":"https://culver-city.legistar1.com/culver-city/meetings/2026/2/5940_A_DISABILITY_ADVISORY_COMMITTEE_26-02-11_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-11","body":"DISABILITY ADVISORY COMMITTEE","location":"Senior Center Rooms B45 & B47","has_agenda":true,"agenda_url":"https://culver-city.legistar1.com/culver-city/meetings/2026/2/6098_A_DISABILITY_ADVISORY_COMMITTEE_26-02-11_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-11","body":"FINANCE ADVISORY COMMITTEE","location":"Dan Patacchia Meeting Room, 1st Floor","has_agenda":true,"agenda_url":"https://culver-city.legistar1.com/culver-city/meetings/2026/2/6037_A_FINANCE_ADVISORY_COMMITTEE_26-02-11_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-10","body":"ADVISORY COMMITTEE ON HOUSING AND HOMELESSNESS","location":"Patio Room","has_agenda":true,"agenda_url":"https://culver-city.legistar1.com/culver-city/meetings/2026/2/6097_A_ADVISORY_COMMITTEE_ON_HOUSING_AND_HOMELESSNESS_26-02-10_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-10","body":"Special Meeting of the City Council 2028 Summer Olympics Preparation Ad Hoc Subcommittee, Culver City Arts Foundation, and Representative of Cultural Affairs Commission","location":"City Hall: Patio Room - 3rd Floor","has_agenda":false,"agenda_url":null,"has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-09","body":"City Council Meeting Agenda","location":null,"has_agenda":true,"agenda_url":"https://culver-city.legistar1.com/culver-city/meetings/2026/2/5990_A_City_Council_Meeting_Agenda_26-02-09_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-05","body":"Standing Economic Development Subcommittee","location":"Patio Room - 3rd Floor, City Hall","has_agenda":true,"agenda_url":"https://culver-city.legistar1.com/culver-city/meetings/2026/2/6086_A_Standing_Economic_Development_Subcommittee_26-02-05_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-04","body":"Standing Governance Subcommittee","location":"CANCELLED - Regular Meeting","has_agenda":false,"agenda_url":null,"has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-04","body":"CIVIL SERVICE COMMISSION","location":"Mike Balkman Council Chambers\r\n9770 Culver Blvd\r\nCulver City, CA 90232","has_agenda":true,"agenda_url":"https://culver-city.legistar1.com/culver-city/meetings/2026/2/6017_A_CIVIL_SERVICE_COMMISSION_26-02-04_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false}],"recent_legislation":[{"title":"Approval of the minutes of the Special Meeting of the City Council 2028 Summer Olympics Preparation Ad Hoc Subcommittee, Culver City Arts Foundation, and Representative of Cultural Affairs Commission ","type":"Minutes","status":"Minutes","intro_date":"2026-02-05","file_number":"26-505","passed_date":null},{"title":"ACOHH: Recommendation on pip grant funding allocation.","type":"Minute Order","status":"Action Item","intro_date":"2026-02-05","file_number":"26-507","passed_date":null},{"title":"CC - Announcements and Updates from the City Manager.","type":"Minute Order","status":"City Manager Updates","intro_date":"2026-02-05","file_number":"26-504","passed_date":null},{"title":"ACOHH: Discussion on quarterly updates from service providers.","type":"Minute Order","status":"Action Item","intro_date":"2026-02-05","file_number":"26-516","passed_date":null},{"title":"ACOHH: Approval of the minutes for the special Advisory Committee on Housing and Homelessness meeting of January 13, 2026.","type":"Minute Order","status":"Consent Agenda","intro_date":"2026-02-05","file_number":"26-514","passed_date":null},{"title":"ACOHH: Presentation of Housing & Human Services Emergency homeless update by Dan Richardson, Psy.D./Human Services and Crisis Intervention Division Manager, and Christina Stoffers/Project Manager.","type":"Minute Order","status":"Presentation to CBC Body","intro_date":"2026-02-05","file_number":"26-510","passed_date":null},{"title":"CC - A Presentation by Home Run Financing Regarding Property Assessed Clean Energy (PACE.)","type":"Presentation","status":"Presentation to City Council","intro_date":"2026-02-04","file_number":"26-501","passed_date":null},{"title":"CC:HA:SA - CONSENT ITEM: Approval of Cash Disbursements for  January 17, 2026 to January 30, 2026.","type":"Minute Order","status":"Consent Agenda","intro_date":"2026-02-04","file_number":"26-499","passed_date":null},{"title":"CC- A Proclamation in Honor of Black History Month 2026.","type":"Presentation","status":"Recognition Presentation","intro_date":"2026-02-04","file_number":"26-503","passed_date":null},{"title":"CC - Presentation of a Commendation to Village Well on its 5th Anniversary in Business.","type":"Presentation","status":"Recognition Presentation","intro_date":"2026-02-04","file_number":"26-502","passed_date":null}],"legistar_url":"https://culver-city.legistar.com","enriched_at":"2026-02-12T18:52:46.359216","government_news":[],"video_meetings":[],"data_platforms":["legistar"]}
+{
+  "schema_version": "5.0",
+  "normalized_at": "2026-02-10T14:21:49.118323",
+  "identity": {
+    "name": "Culver City",
+    "state": "CA",
+    "fips_state": "06",
+    "fips_place": "17568",
+    "population": 40357
+  },
+  "city_website": "https://www.culvercity.org",
+  "economy": {
+    "median_household_income": 114429,
+    "median_home_value": 1121300,
+    "unemployment_rate": 7.23,
+    "unemployment_data_level": "county",
+    "labor_force": 7817,
+    "employed": 7260,
+    "unemployed": 557,
+    "gini_index": null,
+    "poverty_rate": 5.92,
+    "homeownership_rate": 55.9,
+    "rent_to_income_ratio": 25.95,
+    "home_value_to_income_ratio": 9.8,
+    "price_to_rent_ratio": 37.75,
+    "effective_tax_rate": 7.0097,
+    "population_growth_cagr": 0.3226,
+    "median_real_estate_taxes": 6550
+  },
+  "safety": {
+    "violent_crime_rate": null,
+    "property_crime_rate": null,
+    "murder_rate": null,
+    "robbery_rate": null,
+    "burglary_rate": null,
+    "vehicle_theft_rate": null,
+    "total_crime_rate": null,
+    "crime_trend": null,
+    "crime_data_level": null
+  },
+  "education": {
+    "total_schools": 10416,
+    "total_enrollment": 5837868,
+    "pupil_teacher_ratio": 22.1,
+    "title1_pct": 0.0,
+    "charter_pct": 12.5,
+    "regular_schools": 9083,
+    "avg_school_rating": null,
+    "rated_schools": null,
+    "school_quality_tier": null
+  },
+  "environment": {
+    "pm25_mean": 13.9546,
+    "ozone_mean": 0.0441,
+    "total_disasters": 23,
+    "avg_disasters_per_decade": 3.3,
+    "most_recent_disaster": "2023-04-03",
+    "most_recent_disaster_type": "Severe Storm",
+    "disasters_by_type": {
+      "Flood": 7,
+      "Severe Storm": 6,
+      "Fire": 6,
+      "Biological": 2,
+      "Hurricane": 1,
+      "Drought": 1
+    }
+  },
+  "housing": {
+    "median_rent": 2475,
+    "housing_units": 18972,
+    "fmr_0br": 973,
+    "fmr_1br": 1075,
+    "fmr_2br": 1411,
+    "fmr_3br": 1962,
+    "fmr_4br": 1995,
+    "rent_burden_ratio": 14.8,
+    "cost_burdened_pct": 52.34,
+    "severely_burdened_pct": 27.57
+  },
+  "governance": {
+    "legislative_volume": 14687,
+    "legislative_velocity": 680.0,
+    "committee_count": 54,
+    "years_of_legislative_data": 21.6,
+    "has_public_meetings": true,
+    "api_accessible": true,
+    "matter_types": {
+      "Minute Order": 700,
+      "Minutes": 92,
+      "Presentation": 80,
+      "Closed Session Item": 50,
+      "Public Hearing": 27,
+      "Resolution": 23,
+      "Meeting Cancellation Notice": 16,
+      "Ordinance": 11,
+      "Agreement": 1
+    },
+    "top_matter_type": "Minute Order",
+    "matter_statuses": {
+      "Action Item": 389,
+      "Consent Agenda": 322,
+      "Agenda Ready": 69,
+      "Recognition Presentation": 51,
+      "Closed Session": 50,
+      "Presentation to CBC Body": 34,
+      "Public Hearing": 32,
+      "Meeting Cancellation Notice": 15,
+      "Passed": 12,
+      "Presentation to City Council": 11,
+      "Minutes": 6,
+      "Informational Item": 5,
+      "New Business": 2,
+      "City Manager Updates": 1,
+      "Reported to Council": 1
+    },
+    "pass_rate": 33.3,
+    "passed_count": 4895,
+    "active_council_members": 5,
+    "avg_tenure_years": 2.0,
+    "vote_coverage_pct": 0.0,
+    "video_availability_pct": 0.0,
+    "agenda_availability_pct": 96.0,
+    "minutes_availability_pct": 1.4,
+    "avg_meetings_per_month": 16.5,
+    "meetings_by_year": {
+      "2026": 29,
+      "2025": 212,
+      "2024": 185,
+      "2023": 74
+    },
+    "avg_sponsors_per_matter": 0.0,
+    "avg_attachments_per_matter": 0.2,
+    "pct_with_text_versions": 100.0,
+    "index_categories": [
+      "Chapter 3 - Adminstration",
+      "Goal 3: Public Safety",
+      "Historic Preservation Program Update"
+    ],
+    "has_accela": false,
+    "accela_agency_id": null
+  },
+  "development": {
+    "permits_12mo": null,
+    "yoy_trend_pct": null,
+    "avg_permit_value": null,
+    "permit_types": {},
+    "datasets_count": 0
+  },
+  "meetings": {
+    "official_channels": 0,
+    "meetings_indexed": null,
+    "avg_meetings_per_month": null,
+    "has_video_archive": false,
+    "meeting_types": {},
+    "transcripts_available": null
+  },
+  "civic_issues": {
+    "total_issues": null,
+    "issues_last_30d": null,
+    "issues_last_365d": null,
+    "resolution_rate": null,
+    "top_issue_type": null,
+    "type_distribution": {},
+    "has_civic_issue_tracking": false
+  },
+  "demographics": {
+    "population": 40357,
+    "poverty_universe": 40045,
+    "employment_universe": 33214
+  },
+  "time_series": {
+    "economy_history": [
+      {
+        "year": 2024,
+        "unemployment_rate": 7.23,
+        "labor_force": 7817,
+        "employed": 7260,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2023,
+        "unemployment_rate": 7.15,
+        "labor_force": 7569,
+        "employed": 7036,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2022,
+        "unemployment_rate": 6.67,
+        "labor_force": 7450,
+        "employed": 6960,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2021,
+        "unemployment_rate": 9.47,
+        "labor_force": 7559,
+        "employed": 6846,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2020,
+        "unemployment_rate": 10.92,
+        "labor_force": 7709,
+        "employed": 6869,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2019,
+        "unemployment_rate": 7.83,
+        "labor_force": 7987,
+        "employed": 7369,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2018,
+        "unemployment_rate": 7.65,
+        "labor_force": 7894,
+        "employed": 7298,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2017,
+        "unemployment_rate": 8.97,
+        "labor_force": 7849,
+        "employed": 7152,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2016,
+        "unemployment_rate": 9.83,
+        "labor_force": 7932,
+        "employed": 7161,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2015,
+        "unemployment_rate": 10.38,
+        "labor_force": 7893,
+        "employed": 7080,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      }
+    ],
+    "safety_history": [],
+    "environment_history": [
+      {
+        "year": 2023,
+        "pm25_mean": 13.9546,
+        "ozone_mean": 0.0441,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2022,
+        "pm25_mean": 11.3029,
+        "ozone_mean": 0.0448,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2021,
+        "pm25_mean": 14.3422,
+        "ozone_mean": 0.0449,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2020,
+        "pm25_mean": 21.7311,
+        "ozone_mean": 0.0449,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2019,
+        "pm25_mean": 10.2965,
+        "ozone_mean": 0.0445,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2018,
+        "pm25_mean": 12.4525,
+        "ozone_mean": 0.0455,
+        "data_level": "county",
+        "source": "epa_aqs"
+      }
+    ]
+  },
+  "data_sources": {
+    "legistar": "available",
+    "socrata": "available",
+    "census_acs": "available",
+    "arcgis": "available",
+    "fbi_ucr": "available",
+    "socrata_crime": "available",
+    "bls_laus": "available",
+    "ca_edd": "error",
+    "epa_aqs": "available",
+    "nces_ccd": "available",
+    "hud_fmr": "available",
+    "fema_openfema": "available",
+    "greatschools": "available",
+    "permits": "skipped",
+    "youtube_meetings": "skipped",
+    "seeclickfix": "skipped",
+    "accela": "available"
+  },
+  "provenance": {
+    "last_full_probe": "2026-02-10T01:25:24.862027",
+    "sources": {
+      "legistar": {
+        "authority": "Legistar by Granicus",
+        "authority_tier": 1,
+        "api_url": "https://webapi.legistar.com/v1/culver-city/Bodies",
+        "probed_at": "2026-02-10T01:25:24.862717",
+        "data_vintage": "2005–2026",
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "socrata": {
+        "authority": "City Open Data Portals (Socrata/Tyler Data & Insights)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-10T01:27:11.835836",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "census_acs": {
+        "authority": "US Census Bureau",
+        "authority_tier": 1,
+        "api_url": "https://api.census.gov/data/2022/acs/acs5?get=NAME,B01001_001E,B19013_001E,B25077_001E,B25064_001E,B25001_001E&for=place:17568&in=state:06",
+        "probed_at": "2026-02-10T01:27:18.931978",
+        "data_vintage": "ACS 5-Year 2022",
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "arcgis": {
+        "authority": "City ArcGIS/GIS Portals",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-10T01:27:22.292466",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "fbi_ucr": {
+        "authority": "FBI Uniform Crime Reporting Program",
+        "authority_tier": 1,
+        "api_url": "https://api.usa.gov/crime/fbi/sapi/api/estimates/states/CA/2015/2022",
+        "probed_at": "2026-02-10T01:27:24.305053",
+        "data_vintage": null,
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "bls_laus": {
+        "authority": "Bureau of Labor Statistics",
+        "authority_tier": 1,
+        "api_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/LAUST060000000000003",
+        "probed_at": "2026-02-10T01:27:24.626575",
+        "data_vintage": "LAUS 2024",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "epa_aqs": {
+        "authority": "US Environmental Protection Agency",
+        "authority_tier": 1,
+        "api_url": "https://aqs.epa.gov/data/api/annualData/byState?state=06&param=88101",
+        "probed_at": "2026-02-10T01:27:26.763375",
+        "data_vintage": "AQS 2023",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "nces_ccd": {
+        "authority": "National Center for Education Statistics",
+        "authority_tier": 1,
+        "api_url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=06",
+        "probed_at": "2026-02-10T01:30:29.756780",
+        "data_vintage": "2022-2023 academic year",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "hud_fmr": {
+        "authority": "US Department of Housing and Urban Development",
+        "authority_tier": 1,
+        "api_url": "https://www.huduser.gov/hudapi/public/fmr/statedata/CA",
+        "probed_at": "2026-02-10T01:30:51.168303",
+        "data_vintage": "FY2026",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "fema_openfema": {
+        "authority": "Federal Emergency Management Agency",
+        "authority_tier": 1,
+        "api_url": "https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries?$filter=state eq 'CA'",
+        "probed_at": "2026-02-10T01:30:51.857876",
+        "data_vintage": "1953-present",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "greatschools": {
+        "authority": "GreatSchools.org (nonprofit)",
+        "authority_tier": 3,
+        "api_url": null,
+        "probed_at": "2026-02-10T01:30:52.086015",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "permits": {
+        "authority": "City Open Data Portals (Socrata)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-10T01:30:52.422996",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "youtube_meetings": {
+        "authority": "YouTube (via SerpAPI search + youtube-transcript-api)",
+        "authority_tier": 3,
+        "api_url": null,
+        "probed_at": "2026-02-10T01:30:52.424727",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "seeclickfix": {
+        "authority": "SeeClickFix (civic issue tracking platform)",
+        "authority_tier": 3,
+        "api_url": "https://seeclickfix.com/api/v2/issues?place_url=culver-city",
+        "probed_at": "2026-02-10T01:31:02.189938",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "accela": {
+        "authority": "Accela (permit management platform)",
+        "authority_tier": 3,
+        "api_url": "https://apis.accela.com/v4/agencies",
+        "probed_at": "2026-02-10T01:31:02.581002",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "socrata_crime": {
+        "authority": "City Open Data Portals (Socrata)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-10T01:27:24.626210",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      }
+    },
+    "derived_fields": {
+      "safety.total_crime_rate": {
+        "formula": "violent_crime_rate + property_crime_rate",
+        "inputs": [
+          "safety.violent_crime_rate",
+          "safety.property_crime_rate"
+        ],
+        "formula_location": "score/normalizer.py:_derive_total_crime",
+        "authority_tier": 2
+      },
+      "safety.crime_trend": {
+        "formula": "(last_year_rate - first_year_rate) / years_span",
+        "inputs": [
+          "fbi.time_series[].violent_crime_rate"
+        ],
+        "formula_location": "score/normalizer.py:_build_safety",
+        "authority_tier": 2
+      },
+      "education.school_quality_tier": {
+        "formula": "excellent if avg>=8, good if avg>=6, fair if avg>=4, else poor",
+        "inputs": [
+          "education.avg_school_rating"
+        ],
+        "formula_location": "score/normalizer.py:_build_education",
+        "authority_tier": 3
+      },
+      "environment.avg_disasters_per_decade": {
+        "formula": "total_disasters / (years_span / 10)",
+        "inputs": [
+          "environment.total_disasters"
+        ],
+        "formula_location": "probe/fema_probe.py",
+        "authority_tier": 2
+      },
+      "housing.rent_burden_ratio": {
+        "formula": "(fmr_2br * 12) / median_household_income * 100",
+        "inputs": [
+          "housing.fmr_2br",
+          "economy.median_household_income"
+        ],
+        "formula_location": "score/normalizer.py:_build_housing",
+        "authority_tier": 2
+      },
+      "governance.legislative_velocity": {
+        "formula": "legislative_volume / years_of_legislative_data",
+        "inputs": [
+          "governance.legislative_volume",
+          "governance.years_of_legislative_data"
+        ],
+        "formula_location": "score/normalizer.py:_build_governance",
+        "authority_tier": 2
+      },
+      "development.yoy_trend_pct": {
+        "formula": "(current_year - prior_year) / prior_year * 100",
+        "inputs": [
+          "permit data from Socrata"
+        ],
+        "formula_location": "probe/permits_probe.py",
+        "authority_tier": 2
+      }
+    },
+    "geographic_mismatches": [
+      {
+        "field": "identity.fips_state",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "state-level data applied to city profile"
+      },
+      {
+        "field": "economy.unemployment_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Reflects statewide unemployment, not city-specific rate"
+      },
+      {
+        "field": "economy.labor_force",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: This is the full state labor force, not city-level"
+      },
+      {
+        "field": "economy.employed",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "economy.unemployed",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.violent_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: City-level requires ORI codes not currently used"
+      },
+      {
+        "field": "safety.property_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.murder_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.robbery_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.burglary_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.vehicle_theft_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.total_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA; derived sum"
+      },
+      {
+        "field": "safety.crime_trend",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "state-level data applied to city profile"
+      },
+      {
+        "field": "education.total_schools",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Count includes all schools in the state, not city"
+      },
+      {
+        "field": "education.total_enrollment",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.pupil_teacher_ratio",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Average across all state schools"
+      },
+      {
+        "field": "education.title1_pct",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.charter_pct",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.regular_schools",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.pm25_mean",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE/COUNTY-LEVEL: Averaged across all monitors in the state"
+      },
+      {
+        "field": "environment.ozone_mean",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE/COUNTY-LEVEL"
+      },
+      {
+        "field": "environment.total_disasters",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: All declarations for the state, not city-specific"
+      },
+      {
+        "field": "environment.avg_disasters_per_decade",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.most_recent_disaster",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.most_recent_disaster_type",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "housing.fmr_0br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR: Fair Market Rents at state level, not city-specific metro area"
+      },
+      {
+        "field": "housing.fmr_1br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_2br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_3br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_4br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.rent_burden_ratio",
+        "source_level": "mixed",
+        "profile_level": "place",
+        "note": "GEOGRAPHIC MISMATCH: FMR is state-level (HUD), income is city-level (Census). Ratio may be biased."
+      }
+    ]
+  },
+  "data_quality": {
+    "quality_score": 85.7,
+    "grade": "B",
+    "completeness_pct": 85.7,
+    "issue_count": 7,
+    "granularity_flags": 2
+  },
+  "officials": {
+    "body_name": "City Council Meeting Agenda",
+    "members": [
+      {
+        "name": "Albert Vera",
+        "email": "albert.vera@culvercity.org",
+        "title": "Member",
+        "start_date": "2024-12-10"
+      },
+      {
+        "name": "Bubba Fish",
+        "email": null,
+        "title": "Vice Mayor",
+        "start_date": "2024-12-10"
+      },
+      {
+        "name": "Dan O'Brien",
+        "email": "dan.obrien@culvercity.org",
+        "title": "Member",
+        "start_date": "2022-12-12"
+      },
+      {
+        "name": "Freddy Puza",
+        "email": "freddy.puza@culvercity.org",
+        "title": "Mayor",
+        "start_date": "2022-12-13",
+        "committees": [
+          "Standing Sustainability Subcommittee"
+        ]
+      },
+      {
+        "name": "Yasmine-Imani McMorrin",
+        "email": "Yasmine-Imani.Mcmorrin@culvercity.org",
+        "title": "Member",
+        "start_date": "2024-12-10",
+        "committees": [
+          "Standing Sustainability Subcommittee"
+        ]
+      }
+    ]
+  },
+  "recent_meetings": [
+    {
+      "date": "2026-02-11",
+      "body": "PLANNING COMMISSION",
+      "location": null,
+      "has_agenda": true,
+      "agenda_url": "https://culver-city.legistar1.com/culver-city/meetings/2026/2/5962_A_PLANNING_COMMISSION_26-02-11_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-11",
+      "body": "DISABILITY ADVISORY COMMITTEE",
+      "location": null,
+      "has_agenda": true,
+      "agenda_url": "https://culver-city.legistar1.com/culver-city/meetings/2026/2/5940_A_DISABILITY_ADVISORY_COMMITTEE_26-02-11_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-11",
+      "body": "DISABILITY ADVISORY COMMITTEE",
+      "location": "Senior Center Rooms B45 & B47",
+      "has_agenda": true,
+      "agenda_url": "https://culver-city.legistar1.com/culver-city/meetings/2026/2/6098_A_DISABILITY_ADVISORY_COMMITTEE_26-02-11_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-11",
+      "body": "FINANCE ADVISORY COMMITTEE",
+      "location": "Dan Patacchia Meeting Room, 1st Floor",
+      "has_agenda": true,
+      "agenda_url": "https://culver-city.legistar1.com/culver-city/meetings/2026/2/6037_A_FINANCE_ADVISORY_COMMITTEE_26-02-11_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "ADVISORY COMMITTEE ON HOUSING AND HOMELESSNESS",
+      "location": "Patio Room",
+      "has_agenda": true,
+      "agenda_url": "https://culver-city.legistar1.com/culver-city/meetings/2026/2/6097_A_ADVISORY_COMMITTEE_ON_HOUSING_AND_HOMELESSNESS_26-02-10_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "Special Meeting of the City Council 2028 Summer Olympics Preparation Ad Hoc Subcommittee, Culver City Arts Foundation, and Representative of Cultural Affairs Commission",
+      "location": "City Hall: Patio Room - 3rd Floor",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-09",
+      "body": "City Council Meeting Agenda",
+      "location": null,
+      "has_agenda": true,
+      "agenda_url": "https://culver-city.legistar1.com/culver-city/meetings/2026/2/5990_A_City_Council_Meeting_Agenda_26-02-09_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-05",
+      "body": "Standing Economic Development Subcommittee",
+      "location": "Patio Room - 3rd Floor, City Hall",
+      "has_agenda": true,
+      "agenda_url": "https://culver-city.legistar1.com/culver-city/meetings/2026/2/6086_A_Standing_Economic_Development_Subcommittee_26-02-05_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-04",
+      "body": "Standing Governance Subcommittee",
+      "location": "CANCELLED - Regular Meeting",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-04",
+      "body": "CIVIL SERVICE COMMISSION",
+      "location": "Mike Balkman Council Chambers\r\n9770 Culver Blvd\r\nCulver City, CA 90232",
+      "has_agenda": true,
+      "agenda_url": "https://culver-city.legistar1.com/culver-city/meetings/2026/2/6017_A_CIVIL_SERVICE_COMMISSION_26-02-04_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Approval of the minutes of the Special Meeting of the City Council 2028 Summer Olympics Preparation Ad Hoc Subcommittee, Culver City Arts Foundation, and Representative of Cultural Affairs Commission ",
+      "type": "Minutes",
+      "status": "Minutes",
+      "intro_date": "2026-02-05",
+      "file_number": "26-505",
+      "passed_date": null
+    },
+    {
+      "title": "ACOHH: Recommendation on pip grant funding allocation.",
+      "type": "Minute Order",
+      "status": "Action Item",
+      "intro_date": "2026-02-05",
+      "file_number": "26-507",
+      "passed_date": null
+    },
+    {
+      "title": "CC - Announcements and Updates from the City Manager.",
+      "type": "Minute Order",
+      "status": "City Manager Updates",
+      "intro_date": "2026-02-05",
+      "file_number": "26-504",
+      "passed_date": null
+    },
+    {
+      "title": "ACOHH: Discussion on quarterly updates from service providers.",
+      "type": "Minute Order",
+      "status": "Action Item",
+      "intro_date": "2026-02-05",
+      "file_number": "26-516",
+      "passed_date": null
+    },
+    {
+      "title": "ACOHH: Approval of the minutes for the special Advisory Committee on Housing and Homelessness meeting of January 13, 2026.",
+      "type": "Minute Order",
+      "status": "Consent Agenda",
+      "intro_date": "2026-02-05",
+      "file_number": "26-514",
+      "passed_date": null
+    },
+    {
+      "title": "ACOHH: Presentation of Housing & Human Services Emergency homeless update by Dan Richardson, Psy.D./Human Services and Crisis Intervention Division Manager, and Christina Stoffers/Project Manager.",
+      "type": "Minute Order",
+      "status": "Presentation to CBC Body",
+      "intro_date": "2026-02-05",
+      "file_number": "26-510",
+      "passed_date": null
+    },
+    {
+      "title": "CC - A Presentation by Home Run Financing Regarding Property Assessed Clean Energy (PACE.)",
+      "type": "Presentation",
+      "status": "Presentation to City Council",
+      "intro_date": "2026-02-04",
+      "file_number": "26-501",
+      "passed_date": null
+    },
+    {
+      "title": "CC:HA:SA - CONSENT ITEM: Approval of Cash Disbursements for  January 17, 2026 to January 30, 2026.",
+      "type": "Minute Order",
+      "status": "Consent Agenda",
+      "intro_date": "2026-02-04",
+      "file_number": "26-499",
+      "passed_date": null
+    },
+    {
+      "title": "CC- A Proclamation in Honor of Black History Month 2026.",
+      "type": "Presentation",
+      "status": "Recognition Presentation",
+      "intro_date": "2026-02-04",
+      "file_number": "26-503",
+      "passed_date": null
+    },
+    {
+      "title": "CC - Presentation of a Commendation to Village Well on its 5th Anniversary in Business.",
+      "type": "Presentation",
+      "status": "Recognition Presentation",
+      "intro_date": "2026-02-04",
+      "file_number": "26-502",
+      "passed_date": null
+    }
+  ],
+  "legistar_url": "https://culver-city.legistar.com",
+  "enriched_at": "2026-02-12T18:52:46.359216",
+  "government_news": [],
+  "video_meetings": [],
+  "data_platforms": [
+    "legistar"
+  ]
+}

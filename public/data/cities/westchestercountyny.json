@@ -1,1 +1,1032 @@
-{"schema_version":"5.0","normalized_at":"2026-02-10T14:21:49.412561","identity":{"name":"Board of Legislators","state":"","fips_state":null,"fips_place":null,"population":null},"economy":{"median_household_income":null,"median_home_value":null,"unemployment_rate":null,"unemployment_data_level":"state","labor_force":null,"employed":null,"unemployed":null,"gini_index":null,"poverty_rate":null,"homeownership_rate":null,"rent_to_income_ratio":null,"home_value_to_income_ratio":null,"price_to_rent_ratio":null,"effective_tax_rate":null,"population_growth_cagr":null,"median_real_estate_taxes":null},"safety":{"violent_crime_rate":null,"property_crime_rate":null,"murder_rate":null,"robbery_rate":null,"burglary_rate":null,"vehicle_theft_rate":null,"total_crime_rate":null,"crime_trend":null,"crime_data_level":null},"education":{"total_schools":null,"total_enrollment":null,"pupil_teacher_ratio":null,"title1_pct":null,"charter_pct":null,"regular_schools":null,"avg_school_rating":null,"rated_schools":null,"school_quality_tier":null},"environment":{"pm25_mean":null,"ozone_mean":null,"total_disasters":null,"avg_disasters_per_decade":null,"most_recent_disaster":null,"most_recent_disaster_type":null,"disasters_by_type":{}},"housing":{"median_rent":null,"housing_units":null,"fmr_0br":null,"fmr_1br":null,"fmr_2br":null,"fmr_3br":null,"fmr_4br":null,"rent_burden_ratio":null,"cost_burdened_pct":null,"severely_burdened_pct":null},"governance":{"legislative_volume":13750,"legislative_velocity":743.2,"committee_count":50,"years_of_legislative_data":18.5,"has_public_meetings":true,"api_accessible":true,"matter_types":{"ACT - Bond Act":208,"ACT":86,"COMMUNICATION - Notice of Petition":79,"ACT - IMAs":69,"RESOLUTION":64,"RESOLUTION - Reappointment":63,"RESOLUTION - Appointment":63,"RESOLUTION - Public Hearing":57,"ACT - Capital Budget Amendment":39,"MEMORIAL RESOLUTION":34,"RESOLUTION - Environmental Resolution":32,"ACT - Lawsuit Settlement":25,"COMMUNICATION - Articles":25,"ACT - Enter Into Agreement":24,"LOCAL LAW - Amendment to Local Law":23,"COMMUNICATION - Report":23,"ACT - Amendment to Agreement":18,"LOCAL LAW - Proposed Local Law":15,"COMMUNICATION - Memo of Legislation":12,"COMMUNICATION":10,"COMMUNICATION - Correspondence":8,"COMMUNICATION - Acceptance of Gift":6,"RESOLUTION - Home Rule Request":4,"ACT - Operating Budget Amendment":3,"RESOLUTION - Proposed Resolution":3,"ACT - Property Conveyance":2,"COMMUNICATION - Constituent Correspondence":2,"LOCAL LAW":2,"ACT - Purchase":1},"top_matter_type":"ACT - Bond Act","matter_statuses":{"Passed":671,"Agenda Ready":191,"New Business":64,"Filed":42,"Held":11,"Term Expired":10,"Referred to Committee":10,"Tabled":1},"pass_rate":33.3,"passed_count":4583,"active_council_members":43,"avg_tenure_years":0.9,"vote_coverage_pct":0.0,"video_availability_pct":0.0,"agenda_availability_pct":97.6,"minutes_availability_pct":91.6,"avg_meetings_per_month":20.0,"meetings_by_year":{"2026":21,"2025":431,"2024":48},"avg_sponsors_per_matter":1.0,"avg_attachments_per_matter":1.0,"pct_with_text_versions":100.0,"index_categories":[],"has_accela":false,"accela_agency_id":null},"development":{"permits_12mo":null,"yoy_trend_pct":null,"avg_permit_value":null,"permit_types":{},"datasets_count":0},"meetings":{"official_channels":0,"meetings_indexed":null,"avg_meetings_per_month":null,"has_video_archive":false,"meeting_types":{},"transcripts_available":null},"civic_issues":{"total_issues":null,"issues_last_30d":null,"issues_last_365d":null,"resolution_rate":null,"top_issue_type":null,"type_distribution":{},"has_civic_issue_tracking":false},"demographics":{"population":null,"poverty_universe":null,"employment_universe":null},"time_series":{"economy_history":[],"safety_history":[],"environment_history":[]},"data_sources":{"legistar":"available","socrata":"skipped","census_acs":"skipped","arcgis":"available","fbi_ucr":"skipped","socrata_crime":"skipped","bls_laus":"skipped","ca_edd":"skipped","epa_aqs":"skipped","nces_ccd":"skipped","hud_fmr":"skipped","fema_openfema":"skipped","greatschools":"skipped","permits":"skipped","youtube_meetings":"skipped","seeclickfix":"skipped","accela":"skipped"},"provenance":{"last_full_probe":"2026-02-10T13:57:29.735582","sources":{"legistar":{"authority":"Legistar by Granicus","authority_tier":1,"api_url":"https://webapi.legistar.com/v1/westchestercountyny/Bodies","probed_at":"2026-02-10T13:57:29.736183","data_vintage":"2008\u20132026","geographic_level":"place","status":"available"},"socrata":{"authority":"City Open Data Portals (Socrata/Tyler Data & Insights)","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"place","status":"skipped"},"census_acs":{"authority":"US Census Bureau","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":"ACS 5-Year 2022","geographic_level":"place","status":"skipped"},"arcgis":{"authority":"City ArcGIS/GIS Portals","authority_tier":1,"api_url":null,"probed_at":"2026-02-10T13:59:42.147567","data_vintage":null,"geographic_level":"place","status":"available"},"fbi_ucr":{"authority":"FBI Uniform Crime Reporting Program","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"state","status":"skipped"},"bls_laus":{"authority":"Bureau of Labor Statistics","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"state","status":"skipped"},"epa_aqs":{"authority":"US Environmental Protection Agency","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"state","status":"skipped"},"nces_ccd":{"authority":"National Center for Education Statistics","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":"2022-2023 academic year","geographic_level":"state","status":"skipped"},"hud_fmr":{"authority":"US Department of Housing and Urban Development","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":"FY2026","geographic_level":"state","status":"skipped"},"fema_openfema":{"authority":"Federal Emergency Management Agency","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":"1953-present","geographic_level":"state","status":"skipped"},"greatschools":{"authority":"GreatSchools.org (nonprofit)","authority_tier":3,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"place","status":"skipped"},"permits":{"authority":"City Open Data Portals (Socrata)","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"place","status":"skipped"},"youtube_meetings":{"authority":"YouTube (via SerpAPI search + youtube-transcript-api)","authority_tier":3,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"place","status":"skipped"},"seeclickfix":{"authority":"SeeClickFix (civic issue tracking platform)","authority_tier":3,"api_url":"https://seeclickfix.com/api/v2/issues?place_url=westchestercountyny","probed_at":null,"data_vintage":null,"geographic_level":"place","status":"skipped"},"accela":{"authority":"Accela (permit management platform)","authority_tier":3,"api_url":"https://apis.accela.com/v4/agencies","probed_at":null,"data_vintage":null,"geographic_level":"place","status":"skipped"},"socrata_crime":{"authority":"City Open Data Portals (Socrata)","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"place","status":"skipped"}},"derived_fields":{"safety.total_crime_rate":{"formula":"violent_crime_rate + property_crime_rate","inputs":["safety.violent_crime_rate","safety.property_crime_rate"],"formula_location":"score/normalizer.py:_derive_total_crime","authority_tier":2},"safety.crime_trend":{"formula":"(last_year_rate - first_year_rate) / years_span","inputs":["fbi.time_series[].violent_crime_rate"],"formula_location":"score/normalizer.py:_build_safety","authority_tier":2},"education.school_quality_tier":{"formula":"excellent if avg>=8, good if avg>=6, fair if avg>=4, else poor","inputs":["education.avg_school_rating"],"formula_location":"score/normalizer.py:_build_education","authority_tier":3},"environment.avg_disasters_per_decade":{"formula":"total_disasters / (years_span / 10)","inputs":["environment.total_disasters"],"formula_location":"probe/fema_probe.py","authority_tier":2},"housing.rent_burden_ratio":{"formula":"(fmr_2br * 12) / median_household_income * 100","inputs":["housing.fmr_2br","economy.median_household_income"],"formula_location":"score/normalizer.py:_build_housing","authority_tier":2},"governance.legislative_velocity":{"formula":"legislative_volume / years_of_legislative_data","inputs":["governance.legislative_volume","governance.years_of_legislative_data"],"formula_location":"score/normalizer.py:_build_governance","authority_tier":2},"development.yoy_trend_pct":{"formula":"(current_year - prior_year) / prior_year * 100","inputs":["permit data from Socrata"],"formula_location":"probe/permits_probe.py","authority_tier":2}},"geographic_mismatches":[{"field":"identity.fips_state","source_level":"state","profile_level":"place","note":"state-level data applied to city profile"},{"field":"economy.unemployment_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Reflects statewide unemployment, not city-specific rate"},{"field":"economy.labor_force","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: This is the full state labor force, not city-level"},{"field":"economy.employed","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"economy.unemployed","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.violent_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: City-level requires ORI codes not currently used"},{"field":"safety.property_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.murder_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.robbery_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.burglary_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.vehicle_theft_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.total_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA; derived sum"},{"field":"safety.crime_trend","source_level":"state","profile_level":"place","note":"state-level data applied to city profile"},{"field":"education.total_schools","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Count includes all schools in the state, not city"},{"field":"education.total_enrollment","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.pupil_teacher_ratio","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Average across all state schools"},{"field":"education.title1_pct","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.charter_pct","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.regular_schools","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.pm25_mean","source_level":"state","profile_level":"place","note":"STATE/COUNTY-LEVEL: Averaged across all monitors in the state"},{"field":"environment.ozone_mean","source_level":"state","profile_level":"place","note":"STATE/COUNTY-LEVEL"},{"field":"environment.total_disasters","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: All declarations for the state, not city-specific"},{"field":"environment.avg_disasters_per_decade","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.most_recent_disaster","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.most_recent_disaster_type","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"housing.fmr_0br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR: Fair Market Rents at state level, not city-specific metro area"},{"field":"housing.fmr_1br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_2br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_3br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_4br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.rent_burden_ratio","source_level":"mixed","profile_level":"place","note":"GEOGRAPHIC MISMATCH: FMR is state-level (HUD), income is city-level (Census). Ratio may be biased."}]},"data_quality":{"quality_score":28.6,"grade":"F","completeness_pct":28.6,"issue_count":1,"granularity_flags":0},"officials":{"body_name":"Board of Legislators","members":[{"name":"Anant Nambiar","email":"Nambiar@westchesterlgislators.com","title":null,"start_date":"2026-01-05","website":"https://www.westchesterlegislators.com/district-7","committees":["Appointments","Budget & Appropriations","Committee of the Whole","Infrastructure & Housing","Litigation"]},{"name":"Colin Smith","email":"Smith@westchesterlegislators.com","title":null,"start_date":"2026-01-05","website":"https://www.westchesterlegislators.com/district-1","committees":["Committee of the Whole","Legislation","Litigation","Public Safety & Veterans","Small Business"]},{"name":"David Imamura","email":"Imamura@westchesterlegislators.com","title":null,"start_date":"2026-01-05","website":"https://www.westchesterlegislators.com/district-12","committees":["Committee of the Whole","Health","Intergovernmental Affairs","Legislation","Litigation"]},{"name":"David Tubiolo","email":"Tubiolo@westchesterlegislators.com","title":null,"start_date":"2026-01-05","website":"https://www.westchesterlegislators.com/district-14","committees":["Budget & Appropriations","Committee of the Whole","Labor","Parks & Environment","Public Safety & Veterans"]},{"name":"Emiljana Ulaj","email":"Ulaj@westchesterlegislators.com","title":null,"start_date":"2026-01-05","website":"https://www.westchesterlegislators.com/district-9","committees":["Appointments","Committee of the Whole","Health","Intergovernmental Affairs","Labor"]},{"name":"Erika Pierce","email":"Pierce@westchestergov.com","title":null,"start_date":"2026-01-05","website":"https://www.westchesterlegislators.com/district-2","committees":["Budget & Appropriations","Committee of the Whole","Health","Infrastructure & Housing","Intergovernmental Affairs"]},{"name":"James Nolan","email":"Nolan@westchesterlegislators.com","title":"Minority Whip","start_date":"2026-01-05","website":"https://www.westchesterlegislators.com/district-15","committees":["Committee of the Whole","Labor","Legislation","Parks & Environment","Seniors & Youth"]},{"name":"Jenn Puja","email":"Puja@westchesterlegislators.com","title":null,"start_date":"2026-01-05","website":"https://www.westchesterlegislators.com/district-5","committees":["Appointments","Committee of the Whole","Labor","Legislation","Seniors & Youth"]},{"name":"Jewel Williams Johnson","email":"WilliamsJohnson@westchesterlegislators.com","title":null,"start_date":"2026-01-05","website":"https://www.westchesterlegislators.com/district-8","committees":["Budget & Appropriations","Committee of the Whole","Health","Litigation","Parks & Environment"]},{"name":"Jose Alvarado","email":"Alvarado@westchesterlegislators.com","title":null,"start_date":"2026-01-05","website":"https://www.westchesterlegislators.com/district-17","committees":["Committee of the Whole","Seniors & Youth"]},{"name":"Judah Holstein","email":"holstein@westchesterlegislators.com","title":"Majority Leader","start_date":"2026-01-05","website":"https://www.westchesterlegislators.com/district-10","committees":["Budget & Appropriations","Committee of the Whole","Infrastructure & Housing","Rules","Small Business"]},{"name":"Margaret Cunzio","email":"Cunzio@westchesterlegislators.com","title":"Minority Leader","start_date":"2026-01-05","website":"https://www.westchesterlegislators.com/district-3","committees":["Appointments","Committee of the Whole","Legislation","Public Safety & Veterans","Rules"]},{"name":"Nancy Barr","email":"Barr@westchesterlegislators.com","title":null,"start_date":"2026-01-05","website":"https://www.westchesterlegislators.com/district-6","committees":["Committee of the Whole","Health","Legislation","Litigation","Social Services, Disabilities & Human Rights"]},{"name":"Shanae Williams","email":"Williams@westchesterlegislators.com","title":"Majority Whip","start_date":"2026-01-05","website":"https://www.westchesterlegislators.com/district-16","committees":["Budget & Appropriations","Committee of the Whole","Infrastructure & Housing","Intergovernmental Affairs","Parks & Environment"]},{"name":"Terry Clements","email":"Clements@westchesterlegislators.com","title":"Vice Chair","start_date":"2026-01-05","website":"https://www.westchesterlegislators.com/district-11","committees":["Appointments","Committee of the Whole","Labor","Legislation","Public Safety & Veterans"]},{"name":"Tyrae Woodson-Samuels","email":"WoodsonSamuels@westchesterlegislators.com","title":null,"start_date":"2026-01-05","website":"https://www.westchesterlegislators.com/district-13","committees":["Budget & Appropriations","Committee of the Whole","Infrastructure & Housing","Intergovernmental Affairs","Public Safety & Veterans"]},{"name":"Vedat Gashi","email":"Gashi@westchesterlegislators.com","title":"Chairman","start_date":"2026-01-05","website":"https://www.westchesterlegislators.com/district-4","committees":["Appointments","Budget & Appropriations","Committee of the Whole","Health","Infrastructure & Housing"]}]},"recent_meetings":[{"date":"2026-02-11","body":"Health","location":"Committee Room","has_agenda":true,"agenda_url":"https://westchestercountyny.legistar1.com/westchestercountyny/meetings/2026/2/7741_A_Health_26-02-11_BOL_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-11","body":"Small Business","location":"Committee Room","has_agenda":true,"agenda_url":"https://westchestercountyny.legistar1.com/westchestercountyny/meetings/2026/2/7738_A_Small_Business_26-02-11_BOL_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-10","body":"Intergovernmental Affairs","location":"Committee Room","has_agenda":true,"agenda_url":"https://westchestercountyny.legistar1.com/westchestercountyny/meetings/2026/2/7730_A_Intergovernmental_Affairs_26-02-10_BOL_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-10","body":"Charter Revision Commission","location":"Committee Room","has_agenda":false,"agenda_url":null,"has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-10","body":"Social Services, Disabilities & Human Rights","location":"Committee Room","has_agenda":true,"agenda_url":"https://westchestercountyny.legistar1.com/westchestercountyny/meetings/2026/2/7736_A_Social_Services%2C_Disabilities___Human_Rights_26-02-10_BOL_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-09","body":"Legislation","location":"Committee Room","has_agenda":true,"agenda_url":"https://westchestercountyny.legistar1.com/westchestercountyny/meetings/2026/2/7732_A_Legislation_26-02-09_BOL_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-09","body":"Board of Legislators","location":"Legislative Chamber","has_agenda":true,"agenda_url":"https://westchestercountyny.legistar1.com/westchestercountyny/meetings/2026/2/7704_A_Board_of_Legislators_26-02-09_BOL_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-09","body":"Litigation","location":"Committee Room","has_agenda":true,"agenda_url":"https://westchestercountyny.legistar1.com/westchestercountyny/meetings/2026/2/7733_A_Litigation__26-02-09_BOL_Agenda.pdf","has_minutes":true,"has_video":false,"upcoming":false},{"date":"2026-02-09","body":"Seniors & Youth","location":"Committee Room","has_agenda":true,"agenda_url":"https://westchestercountyny.legistar1.com/westchestercountyny/meetings/2026/2/7734_A_Seniors___Youth_26-02-09_BOL_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-09","body":"Appointments","location":"Committee Room","has_agenda":true,"agenda_url":"https://westchestercountyny.legistar1.com/westchestercountyny/meetings/2026/2/7735_A_Appointments_26-02-09_BOL_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false}],"recent_legislation":[{"title":"Act - DEF/EPA Consent Agreement","type":"ACT - Enter Into Agreement","status":"Agenda Ready","intro_date":"2026-02-09","file_number":"2026-79","passed_date":null},{"title":"BOND ACT-RGP15-General Infrastructure-Fuel Tank Replacement '24-'28","type":"ACT - Bond Act","status":"Agenda Ready","intro_date":"2026-02-06","file_number":"2026-77","passed_date":null},{"title":"BOND ACT(Amended)-RKD02-Kensico Dam Plaza Storage Building","type":"ACT - Bond Act","status":"Agenda Ready","intro_date":"2026-02-06","file_number":"2026-76","passed_date":null},{"title":"ENV RES-RKD02-Kensico Dam Plaza Storage Building","type":"RESOLUTION - Environmental Resolution","status":"Agenda Ready","intro_date":"2026-02-06","file_number":"2026-74","passed_date":null},{"title":"CBA-RKD02-Kensico Dam Plaza Storage Building","type":"ACT - Capital Budget Amendment","status":"Agenda Ready","intro_date":"2026-02-06","file_number":"2026-75","passed_date":null},{"title":"BOND ACT-BPS42-Firing Range Rehabilitation","type":"ACT - Bond Act","status":"Agenda Ready","intro_date":"2026-02-06","file_number":"2026-78","passed_date":null},{"title":"CLERK OF THE BOARD - HG II Residential Developer LLC and County of Westchester IDA, Amended and Restated PILOT Agreement and \"Application for Real Property Tax Exemption\"","type":"COMMUNICATION - Notice of Petition","status":"Agenda Ready","intro_date":"2026-02-05","file_number":"2026-73","passed_date":null},{"title":"CLERK OF THE BOARD - WC IDA Amended Application for Real Property Tax Exemption - 10 Dr. Martin Luther King Jr. Blvd., WP","type":"COMMUNICATION - Notice of Petition","status":"Agenda Ready","intro_date":"2026-02-05","file_number":"2026-71","passed_date":null},{"title":"CLERK OF THE BOARD - Expiration of Tax Agreements for KRG White Plains City Center","type":"COMMUNICATION - Notice of Petition","status":"Agenda Ready","intro_date":"2026-02-05","file_number":"2026-72","passed_date":null},{"title":"CLERK OF THE BOARD - Village of Port Chester PILOT Agreement - 70 Abendroth Avenue Project","type":"COMMUNICATION - Notice of Petition","status":"Agenda Ready","intro_date":"2026-02-04","file_number":"2026-70","passed_date":null}],"legistar_url":"https://westchestercountyny.legistar.com","enriched_at":"2026-02-12T18:54:57.353210","government_news":[],"video_meetings":[],"data_platforms":["legistar"]}
+{
+  "schema_version": "5.0",
+  "normalized_at": "2026-02-10T14:21:49.412561",
+  "identity": {
+    "name": "Board of Legislators",
+    "state": "",
+    "fips_state": null,
+    "fips_place": null,
+    "population": null
+  },
+  "city_website": "https://www.westchesterlegislators.com",
+  "economy": {
+    "median_household_income": null,
+    "median_home_value": null,
+    "unemployment_rate": null,
+    "unemployment_data_level": "state",
+    "labor_force": null,
+    "employed": null,
+    "unemployed": null,
+    "gini_index": null,
+    "poverty_rate": null,
+    "homeownership_rate": null,
+    "rent_to_income_ratio": null,
+    "home_value_to_income_ratio": null,
+    "price_to_rent_ratio": null,
+    "effective_tax_rate": null,
+    "population_growth_cagr": null,
+    "median_real_estate_taxes": null
+  },
+  "safety": {
+    "violent_crime_rate": null,
+    "property_crime_rate": null,
+    "murder_rate": null,
+    "robbery_rate": null,
+    "burglary_rate": null,
+    "vehicle_theft_rate": null,
+    "total_crime_rate": null,
+    "crime_trend": null,
+    "crime_data_level": null
+  },
+  "education": {
+    "total_schools": null,
+    "total_enrollment": null,
+    "pupil_teacher_ratio": null,
+    "title1_pct": null,
+    "charter_pct": null,
+    "regular_schools": null,
+    "avg_school_rating": null,
+    "rated_schools": null,
+    "school_quality_tier": null
+  },
+  "environment": {
+    "pm25_mean": null,
+    "ozone_mean": null,
+    "total_disasters": null,
+    "avg_disasters_per_decade": null,
+    "most_recent_disaster": null,
+    "most_recent_disaster_type": null,
+    "disasters_by_type": {}
+  },
+  "housing": {
+    "median_rent": null,
+    "housing_units": null,
+    "fmr_0br": null,
+    "fmr_1br": null,
+    "fmr_2br": null,
+    "fmr_3br": null,
+    "fmr_4br": null,
+    "rent_burden_ratio": null,
+    "cost_burdened_pct": null,
+    "severely_burdened_pct": null
+  },
+  "governance": {
+    "legislative_volume": 13750,
+    "legislative_velocity": 743.2,
+    "committee_count": 50,
+    "years_of_legislative_data": 18.5,
+    "has_public_meetings": true,
+    "api_accessible": true,
+    "matter_types": {
+      "ACT - Bond Act": 208,
+      "ACT": 86,
+      "COMMUNICATION - Notice of Petition": 79,
+      "ACT - IMAs": 69,
+      "RESOLUTION": 64,
+      "RESOLUTION - Reappointment": 63,
+      "RESOLUTION - Appointment": 63,
+      "RESOLUTION - Public Hearing": 57,
+      "ACT - Capital Budget Amendment": 39,
+      "MEMORIAL RESOLUTION": 34,
+      "RESOLUTION - Environmental Resolution": 32,
+      "ACT - Lawsuit Settlement": 25,
+      "COMMUNICATION - Articles": 25,
+      "ACT - Enter Into Agreement": 24,
+      "LOCAL LAW - Amendment to Local Law": 23,
+      "COMMUNICATION - Report": 23,
+      "ACT - Amendment to Agreement": 18,
+      "LOCAL LAW - Proposed Local Law": 15,
+      "COMMUNICATION - Memo of Legislation": 12,
+      "COMMUNICATION": 10,
+      "COMMUNICATION - Correspondence": 8,
+      "COMMUNICATION - Acceptance of Gift": 6,
+      "RESOLUTION - Home Rule Request": 4,
+      "ACT - Operating Budget Amendment": 3,
+      "RESOLUTION - Proposed Resolution": 3,
+      "ACT - Property Conveyance": 2,
+      "COMMUNICATION - Constituent Correspondence": 2,
+      "LOCAL LAW": 2,
+      "ACT - Purchase": 1
+    },
+    "top_matter_type": "ACT - Bond Act",
+    "matter_statuses": {
+      "Passed": 671,
+      "Agenda Ready": 191,
+      "New Business": 64,
+      "Filed": 42,
+      "Held": 11,
+      "Term Expired": 10,
+      "Referred to Committee": 10,
+      "Tabled": 1
+    },
+    "pass_rate": 33.3,
+    "passed_count": 4583,
+    "active_council_members": 43,
+    "avg_tenure_years": 0.9,
+    "vote_coverage_pct": 0.0,
+    "video_availability_pct": 0.0,
+    "agenda_availability_pct": 97.6,
+    "minutes_availability_pct": 91.6,
+    "avg_meetings_per_month": 20.0,
+    "meetings_by_year": {
+      "2026": 21,
+      "2025": 431,
+      "2024": 48
+    },
+    "avg_sponsors_per_matter": 1.0,
+    "avg_attachments_per_matter": 1.0,
+    "pct_with_text_versions": 100.0,
+    "index_categories": [],
+    "has_accela": false,
+    "accela_agency_id": null
+  },
+  "development": {
+    "permits_12mo": null,
+    "yoy_trend_pct": null,
+    "avg_permit_value": null,
+    "permit_types": {},
+    "datasets_count": 0
+  },
+  "meetings": {
+    "official_channels": 0,
+    "meetings_indexed": null,
+    "avg_meetings_per_month": null,
+    "has_video_archive": false,
+    "meeting_types": {},
+    "transcripts_available": null
+  },
+  "civic_issues": {
+    "total_issues": null,
+    "issues_last_30d": null,
+    "issues_last_365d": null,
+    "resolution_rate": null,
+    "top_issue_type": null,
+    "type_distribution": {},
+    "has_civic_issue_tracking": false
+  },
+  "demographics": {
+    "population": null,
+    "poverty_universe": null,
+    "employment_universe": null
+  },
+  "time_series": {
+    "economy_history": [],
+    "safety_history": [],
+    "environment_history": []
+  },
+  "data_sources": {
+    "legistar": "available",
+    "socrata": "skipped",
+    "census_acs": "skipped",
+    "arcgis": "available",
+    "fbi_ucr": "skipped",
+    "socrata_crime": "skipped",
+    "bls_laus": "skipped",
+    "ca_edd": "skipped",
+    "epa_aqs": "skipped",
+    "nces_ccd": "skipped",
+    "hud_fmr": "skipped",
+    "fema_openfema": "skipped",
+    "greatschools": "skipped",
+    "permits": "skipped",
+    "youtube_meetings": "skipped",
+    "seeclickfix": "skipped",
+    "accela": "skipped"
+  },
+  "provenance": {
+    "last_full_probe": "2026-02-10T13:57:29.735582",
+    "sources": {
+      "legistar": {
+        "authority": "Legistar by Granicus",
+        "authority_tier": 1,
+        "api_url": "https://webapi.legistar.com/v1/westchestercountyny/Bodies",
+        "probed_at": "2026-02-10T13:57:29.736183",
+        "data_vintage": "2008–2026",
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "socrata": {
+        "authority": "City Open Data Portals (Socrata/Tyler Data & Insights)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "census_acs": {
+        "authority": "US Census Bureau",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": "ACS 5-Year 2022",
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "arcgis": {
+        "authority": "City ArcGIS/GIS Portals",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-10T13:59:42.147567",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "fbi_ucr": {
+        "authority": "FBI Uniform Crime Reporting Program",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "state",
+        "status": "skipped"
+      },
+      "bls_laus": {
+        "authority": "Bureau of Labor Statistics",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "state",
+        "status": "skipped"
+      },
+      "epa_aqs": {
+        "authority": "US Environmental Protection Agency",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "state",
+        "status": "skipped"
+      },
+      "nces_ccd": {
+        "authority": "National Center for Education Statistics",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": "2022-2023 academic year",
+        "geographic_level": "state",
+        "status": "skipped"
+      },
+      "hud_fmr": {
+        "authority": "US Department of Housing and Urban Development",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": "FY2026",
+        "geographic_level": "state",
+        "status": "skipped"
+      },
+      "fema_openfema": {
+        "authority": "Federal Emergency Management Agency",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": "1953-present",
+        "geographic_level": "state",
+        "status": "skipped"
+      },
+      "greatschools": {
+        "authority": "GreatSchools.org (nonprofit)",
+        "authority_tier": 3,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "permits": {
+        "authority": "City Open Data Portals (Socrata)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "youtube_meetings": {
+        "authority": "YouTube (via SerpAPI search + youtube-transcript-api)",
+        "authority_tier": 3,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "seeclickfix": {
+        "authority": "SeeClickFix (civic issue tracking platform)",
+        "authority_tier": 3,
+        "api_url": "https://seeclickfix.com/api/v2/issues?place_url=westchestercountyny",
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "accela": {
+        "authority": "Accela (permit management platform)",
+        "authority_tier": 3,
+        "api_url": "https://apis.accela.com/v4/agencies",
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "socrata_crime": {
+        "authority": "City Open Data Portals (Socrata)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      }
+    },
+    "derived_fields": {
+      "safety.total_crime_rate": {
+        "formula": "violent_crime_rate + property_crime_rate",
+        "inputs": [
+          "safety.violent_crime_rate",
+          "safety.property_crime_rate"
+        ],
+        "formula_location": "score/normalizer.py:_derive_total_crime",
+        "authority_tier": 2
+      },
+      "safety.crime_trend": {
+        "formula": "(last_year_rate - first_year_rate) / years_span",
+        "inputs": [
+          "fbi.time_series[].violent_crime_rate"
+        ],
+        "formula_location": "score/normalizer.py:_build_safety",
+        "authority_tier": 2
+      },
+      "education.school_quality_tier": {
+        "formula": "excellent if avg>=8, good if avg>=6, fair if avg>=4, else poor",
+        "inputs": [
+          "education.avg_school_rating"
+        ],
+        "formula_location": "score/normalizer.py:_build_education",
+        "authority_tier": 3
+      },
+      "environment.avg_disasters_per_decade": {
+        "formula": "total_disasters / (years_span / 10)",
+        "inputs": [
+          "environment.total_disasters"
+        ],
+        "formula_location": "probe/fema_probe.py",
+        "authority_tier": 2
+      },
+      "housing.rent_burden_ratio": {
+        "formula": "(fmr_2br * 12) / median_household_income * 100",
+        "inputs": [
+          "housing.fmr_2br",
+          "economy.median_household_income"
+        ],
+        "formula_location": "score/normalizer.py:_build_housing",
+        "authority_tier": 2
+      },
+      "governance.legislative_velocity": {
+        "formula": "legislative_volume / years_of_legislative_data",
+        "inputs": [
+          "governance.legislative_volume",
+          "governance.years_of_legislative_data"
+        ],
+        "formula_location": "score/normalizer.py:_build_governance",
+        "authority_tier": 2
+      },
+      "development.yoy_trend_pct": {
+        "formula": "(current_year - prior_year) / prior_year * 100",
+        "inputs": [
+          "permit data from Socrata"
+        ],
+        "formula_location": "probe/permits_probe.py",
+        "authority_tier": 2
+      }
+    },
+    "geographic_mismatches": [
+      {
+        "field": "identity.fips_state",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "state-level data applied to city profile"
+      },
+      {
+        "field": "economy.unemployment_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Reflects statewide unemployment, not city-specific rate"
+      },
+      {
+        "field": "economy.labor_force",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: This is the full state labor force, not city-level"
+      },
+      {
+        "field": "economy.employed",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "economy.unemployed",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.violent_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: City-level requires ORI codes not currently used"
+      },
+      {
+        "field": "safety.property_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.murder_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.robbery_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.burglary_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.vehicle_theft_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.total_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA; derived sum"
+      },
+      {
+        "field": "safety.crime_trend",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "state-level data applied to city profile"
+      },
+      {
+        "field": "education.total_schools",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Count includes all schools in the state, not city"
+      },
+      {
+        "field": "education.total_enrollment",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.pupil_teacher_ratio",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Average across all state schools"
+      },
+      {
+        "field": "education.title1_pct",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.charter_pct",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.regular_schools",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.pm25_mean",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE/COUNTY-LEVEL: Averaged across all monitors in the state"
+      },
+      {
+        "field": "environment.ozone_mean",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE/COUNTY-LEVEL"
+      },
+      {
+        "field": "environment.total_disasters",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: All declarations for the state, not city-specific"
+      },
+      {
+        "field": "environment.avg_disasters_per_decade",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.most_recent_disaster",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.most_recent_disaster_type",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "housing.fmr_0br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR: Fair Market Rents at state level, not city-specific metro area"
+      },
+      {
+        "field": "housing.fmr_1br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_2br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_3br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_4br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.rent_burden_ratio",
+        "source_level": "mixed",
+        "profile_level": "place",
+        "note": "GEOGRAPHIC MISMATCH: FMR is state-level (HUD), income is city-level (Census). Ratio may be biased."
+      }
+    ]
+  },
+  "data_quality": {
+    "quality_score": 28.6,
+    "grade": "F",
+    "completeness_pct": 28.6,
+    "issue_count": 1,
+    "granularity_flags": 0
+  },
+  "officials": {
+    "body_name": "Board of Legislators",
+    "members": [
+      {
+        "name": "Anant Nambiar",
+        "email": "Nambiar@westchesterlgislators.com",
+        "title": null,
+        "start_date": "2026-01-05",
+        "website": "https://www.westchesterlegislators.com/district-7",
+        "committees": [
+          "Appointments",
+          "Budget & Appropriations",
+          "Committee of the Whole",
+          "Infrastructure & Housing",
+          "Litigation"
+        ]
+      },
+      {
+        "name": "Colin Smith",
+        "email": "Smith@westchesterlegislators.com",
+        "title": null,
+        "start_date": "2026-01-05",
+        "website": "https://www.westchesterlegislators.com/district-1",
+        "committees": [
+          "Committee of the Whole",
+          "Legislation",
+          "Litigation",
+          "Public Safety & Veterans",
+          "Small Business"
+        ]
+      },
+      {
+        "name": "David Imamura",
+        "email": "Imamura@westchesterlegislators.com",
+        "title": null,
+        "start_date": "2026-01-05",
+        "website": "https://www.westchesterlegislators.com/district-12",
+        "committees": [
+          "Committee of the Whole",
+          "Health",
+          "Intergovernmental Affairs",
+          "Legislation",
+          "Litigation"
+        ]
+      },
+      {
+        "name": "David Tubiolo",
+        "email": "Tubiolo@westchesterlegislators.com",
+        "title": null,
+        "start_date": "2026-01-05",
+        "website": "https://www.westchesterlegislators.com/district-14",
+        "committees": [
+          "Budget & Appropriations",
+          "Committee of the Whole",
+          "Labor",
+          "Parks & Environment",
+          "Public Safety & Veterans"
+        ]
+      },
+      {
+        "name": "Emiljana Ulaj",
+        "email": "Ulaj@westchesterlegislators.com",
+        "title": null,
+        "start_date": "2026-01-05",
+        "website": "https://www.westchesterlegislators.com/district-9",
+        "committees": [
+          "Appointments",
+          "Committee of the Whole",
+          "Health",
+          "Intergovernmental Affairs",
+          "Labor"
+        ]
+      },
+      {
+        "name": "Erika Pierce",
+        "email": "Pierce@westchestergov.com",
+        "title": null,
+        "start_date": "2026-01-05",
+        "website": "https://www.westchesterlegislators.com/district-2",
+        "committees": [
+          "Budget & Appropriations",
+          "Committee of the Whole",
+          "Health",
+          "Infrastructure & Housing",
+          "Intergovernmental Affairs"
+        ]
+      },
+      {
+        "name": "James Nolan",
+        "email": "Nolan@westchesterlegislators.com",
+        "title": "Minority Whip",
+        "start_date": "2026-01-05",
+        "website": "https://www.westchesterlegislators.com/district-15",
+        "committees": [
+          "Committee of the Whole",
+          "Labor",
+          "Legislation",
+          "Parks & Environment",
+          "Seniors & Youth"
+        ]
+      },
+      {
+        "name": "Jenn Puja",
+        "email": "Puja@westchesterlegislators.com",
+        "title": null,
+        "start_date": "2026-01-05",
+        "website": "https://www.westchesterlegislators.com/district-5",
+        "committees": [
+          "Appointments",
+          "Committee of the Whole",
+          "Labor",
+          "Legislation",
+          "Seniors & Youth"
+        ]
+      },
+      {
+        "name": "Jewel Williams Johnson",
+        "email": "WilliamsJohnson@westchesterlegislators.com",
+        "title": null,
+        "start_date": "2026-01-05",
+        "website": "https://www.westchesterlegislators.com/district-8",
+        "committees": [
+          "Budget & Appropriations",
+          "Committee of the Whole",
+          "Health",
+          "Litigation",
+          "Parks & Environment"
+        ]
+      },
+      {
+        "name": "Jose Alvarado",
+        "email": "Alvarado@westchesterlegislators.com",
+        "title": null,
+        "start_date": "2026-01-05",
+        "website": "https://www.westchesterlegislators.com/district-17",
+        "committees": [
+          "Committee of the Whole",
+          "Seniors & Youth"
+        ]
+      },
+      {
+        "name": "Judah Holstein",
+        "email": "holstein@westchesterlegislators.com",
+        "title": "Majority Leader",
+        "start_date": "2026-01-05",
+        "website": "https://www.westchesterlegislators.com/district-10",
+        "committees": [
+          "Budget & Appropriations",
+          "Committee of the Whole",
+          "Infrastructure & Housing",
+          "Rules",
+          "Small Business"
+        ]
+      },
+      {
+        "name": "Margaret Cunzio",
+        "email": "Cunzio@westchesterlegislators.com",
+        "title": "Minority Leader",
+        "start_date": "2026-01-05",
+        "website": "https://www.westchesterlegislators.com/district-3",
+        "committees": [
+          "Appointments",
+          "Committee of the Whole",
+          "Legislation",
+          "Public Safety & Veterans",
+          "Rules"
+        ]
+      },
+      {
+        "name": "Nancy Barr",
+        "email": "Barr@westchesterlegislators.com",
+        "title": null,
+        "start_date": "2026-01-05",
+        "website": "https://www.westchesterlegislators.com/district-6",
+        "committees": [
+          "Committee of the Whole",
+          "Health",
+          "Legislation",
+          "Litigation",
+          "Social Services, Disabilities & Human Rights"
+        ]
+      },
+      {
+        "name": "Shanae Williams",
+        "email": "Williams@westchesterlegislators.com",
+        "title": "Majority Whip",
+        "start_date": "2026-01-05",
+        "website": "https://www.westchesterlegislators.com/district-16",
+        "committees": [
+          "Budget & Appropriations",
+          "Committee of the Whole",
+          "Infrastructure & Housing",
+          "Intergovernmental Affairs",
+          "Parks & Environment"
+        ]
+      },
+      {
+        "name": "Terry Clements",
+        "email": "Clements@westchesterlegislators.com",
+        "title": "Vice Chair",
+        "start_date": "2026-01-05",
+        "website": "https://www.westchesterlegislators.com/district-11",
+        "committees": [
+          "Appointments",
+          "Committee of the Whole",
+          "Labor",
+          "Legislation",
+          "Public Safety & Veterans"
+        ]
+      },
+      {
+        "name": "Tyrae Woodson-Samuels",
+        "email": "WoodsonSamuels@westchesterlegislators.com",
+        "title": null,
+        "start_date": "2026-01-05",
+        "website": "https://www.westchesterlegislators.com/district-13",
+        "committees": [
+          "Budget & Appropriations",
+          "Committee of the Whole",
+          "Infrastructure & Housing",
+          "Intergovernmental Affairs",
+          "Public Safety & Veterans"
+        ]
+      },
+      {
+        "name": "Vedat Gashi",
+        "email": "Gashi@westchesterlegislators.com",
+        "title": "Chairman",
+        "start_date": "2026-01-05",
+        "website": "https://www.westchesterlegislators.com/district-4",
+        "committees": [
+          "Appointments",
+          "Budget & Appropriations",
+          "Committee of the Whole",
+          "Health",
+          "Infrastructure & Housing"
+        ]
+      }
+    ]
+  },
+  "recent_meetings": [
+    {
+      "date": "2026-02-11",
+      "body": "Health",
+      "location": "Committee Room",
+      "has_agenda": true,
+      "agenda_url": "https://westchestercountyny.legistar1.com/westchestercountyny/meetings/2026/2/7741_A_Health_26-02-11_BOL_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-11",
+      "body": "Small Business",
+      "location": "Committee Room",
+      "has_agenda": true,
+      "agenda_url": "https://westchestercountyny.legistar1.com/westchestercountyny/meetings/2026/2/7738_A_Small_Business_26-02-11_BOL_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "Intergovernmental Affairs",
+      "location": "Committee Room",
+      "has_agenda": true,
+      "agenda_url": "https://westchestercountyny.legistar1.com/westchestercountyny/meetings/2026/2/7730_A_Intergovernmental_Affairs_26-02-10_BOL_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "Charter Revision Commission",
+      "location": "Committee Room",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "Social Services, Disabilities & Human Rights",
+      "location": "Committee Room",
+      "has_agenda": true,
+      "agenda_url": "https://westchestercountyny.legistar1.com/westchestercountyny/meetings/2026/2/7736_A_Social_Services%2C_Disabilities___Human_Rights_26-02-10_BOL_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-09",
+      "body": "Legislation",
+      "location": "Committee Room",
+      "has_agenda": true,
+      "agenda_url": "https://westchestercountyny.legistar1.com/westchestercountyny/meetings/2026/2/7732_A_Legislation_26-02-09_BOL_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-09",
+      "body": "Board of Legislators",
+      "location": "Legislative Chamber",
+      "has_agenda": true,
+      "agenda_url": "https://westchestercountyny.legistar1.com/westchestercountyny/meetings/2026/2/7704_A_Board_of_Legislators_26-02-09_BOL_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-09",
+      "body": "Litigation",
+      "location": "Committee Room",
+      "has_agenda": true,
+      "agenda_url": "https://westchestercountyny.legistar1.com/westchestercountyny/meetings/2026/2/7733_A_Litigation__26-02-09_BOL_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-09",
+      "body": "Seniors & Youth",
+      "location": "Committee Room",
+      "has_agenda": true,
+      "agenda_url": "https://westchestercountyny.legistar1.com/westchestercountyny/meetings/2026/2/7734_A_Seniors___Youth_26-02-09_BOL_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-09",
+      "body": "Appointments",
+      "location": "Committee Room",
+      "has_agenda": true,
+      "agenda_url": "https://westchestercountyny.legistar1.com/westchestercountyny/meetings/2026/2/7735_A_Appointments_26-02-09_BOL_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Act - DEF/EPA Consent Agreement",
+      "type": "ACT - Enter Into Agreement",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-09",
+      "file_number": "2026-79",
+      "passed_date": null
+    },
+    {
+      "title": "BOND ACT-RGP15-General Infrastructure-Fuel Tank Replacement '24-'28",
+      "type": "ACT - Bond Act",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-06",
+      "file_number": "2026-77",
+      "passed_date": null
+    },
+    {
+      "title": "BOND ACT(Amended)-RKD02-Kensico Dam Plaza Storage Building",
+      "type": "ACT - Bond Act",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-06",
+      "file_number": "2026-76",
+      "passed_date": null
+    },
+    {
+      "title": "ENV RES-RKD02-Kensico Dam Plaza Storage Building",
+      "type": "RESOLUTION - Environmental Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-06",
+      "file_number": "2026-74",
+      "passed_date": null
+    },
+    {
+      "title": "CBA-RKD02-Kensico Dam Plaza Storage Building",
+      "type": "ACT - Capital Budget Amendment",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-06",
+      "file_number": "2026-75",
+      "passed_date": null
+    },
+    {
+      "title": "BOND ACT-BPS42-Firing Range Rehabilitation",
+      "type": "ACT - Bond Act",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-06",
+      "file_number": "2026-78",
+      "passed_date": null
+    },
+    {
+      "title": "CLERK OF THE BOARD - HG II Residential Developer LLC and County of Westchester IDA, Amended and Restated PILOT Agreement and \"Application for Real Property Tax Exemption\"",
+      "type": "COMMUNICATION - Notice of Petition",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-05",
+      "file_number": "2026-73",
+      "passed_date": null
+    },
+    {
+      "title": "CLERK OF THE BOARD - WC IDA Amended Application for Real Property Tax Exemption - 10 Dr. Martin Luther King Jr. Blvd., WP",
+      "type": "COMMUNICATION - Notice of Petition",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-05",
+      "file_number": "2026-71",
+      "passed_date": null
+    },
+    {
+      "title": "CLERK OF THE BOARD - Expiration of Tax Agreements for KRG White Plains City Center",
+      "type": "COMMUNICATION - Notice of Petition",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-05",
+      "file_number": "2026-72",
+      "passed_date": null
+    },
+    {
+      "title": "CLERK OF THE BOARD - Village of Port Chester PILOT Agreement - 70 Abendroth Avenue Project",
+      "type": "COMMUNICATION - Notice of Petition",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-04",
+      "file_number": "2026-70",
+      "passed_date": null
+    }
+  ],
+  "legistar_url": "https://westchestercountyny.legistar.com",
+  "enriched_at": "2026-02-12T18:54:57.353210",
+  "government_news": [],
+  "video_meetings": [],
+  "data_platforms": [
+    "legistar"
+  ]
+}

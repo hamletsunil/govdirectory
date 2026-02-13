@@ -148,6 +148,7 @@ export interface CityProfile {
   video_meetings?: VideoMeeting[];
   data_platforms?: string[];
   legistar_url?: string;
+  city_website?: string;
   enriched_at?: string;
 }
 

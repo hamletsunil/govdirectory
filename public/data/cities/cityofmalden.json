@@ -1,1 +1,1088 @@
-{"schema_version":"5.0","normalized_at":"2026-02-10T14:21:49.047564","identity":{"name":"Malden","state":"MA","fips_state":"25","fips_place":"37875","population":65463},"economy":{"median_household_income":90295,"median_home_value":570600,"unemployment_rate":3.59,"unemployment_data_level":"county","labor_force":942883,"employed":909086,"unemployed":33797,"gini_index":null,"poverty_rate":13.52,"homeownership_rate":42.63,"rent_to_income_ratio":26.07,"home_value_to_income_ratio":6.32,"price_to_rent_ratio":24.24,"effective_tax_rate":10.0925,"population_growth_cagr":0.9877,"median_real_estate_taxes":4799},"safety":{"violent_crime_rate":null,"property_crime_rate":null,"murder_rate":null,"robbery_rate":null,"burglary_rate":null,"vehicle_theft_rate":null,"total_crime_rate":null,"crime_trend":null,"crime_data_level":null},"education":{"total_schools":1862,"total_enrollment":913735,"pupil_teacher_ratio":12.0,"title1_pct":0.0,"charter_pct":4.2,"regular_schools":1789,"avg_school_rating":null,"rated_schools":null,"school_quality_tier":null},"environment":{"pm25_mean":6.5513,"ozone_mean":0.0382,"total_disasters":35,"avg_disasters_per_decade":7.0,"most_recent_disaster":"2023-09-15","most_recent_disaster_type":"Hurricane","disasters_by_type":{"Severe Storm":9,"Snowstorm":8,"Hurricane":7,"Flood":5,"Biological":2,"Terrorist":1,"Other":1,"Severe Ice Storm":1,"Coastal Storm":1}},"housing":{"median_rent":1962,"housing_units":27708,"fmr_0br":1433,"fmr_1br":1584,"fmr_2br":2056,"fmr_3br":2548,"fmr_4br":2825,"rent_burden_ratio":27.3,"cost_burdened_pct":48.81,"severely_burdened_pct":25.98},"governance":{"legislative_volume":6562,"legislative_velocity":542.3,"committee_count":81,"years_of_legislative_data":12.1,"has_public_meetings":true,"api_accessible":true,"matter_types":{"Petition":310,"Committee Minutes":171,"Appointment":143,"Order":95,"Committee Report":94,"Council Minutes":62,"Communication":48,"Ordinance":39,"Council Item":18,"Resolution":13,"Board Item":3,"Board Minutes":2,"Business Item":2},"top_matter_type":"Petition","matter_statuses":{"Passed":624,"Agenda Ready":202,"Reported from Committee":135,"Filed":15,"Failed":11,"Tabled to a Future Date":7,"Enrolled":3,"In Committee":3},"pass_rate":33.3,"passed_count":2187,"active_council_members":11,"avg_tenure_years":3.0,"vote_coverage_pct":0.0,"video_availability_pct":0.0,"agenda_availability_pct":99.4,"minutes_availability_pct":82.0,"avg_meetings_per_month":10.5,"meetings_by_year":{"2026":17,"2025":128,"2024":125,"2023":137,"2022":93},"avg_sponsors_per_matter":0.0,"avg_attachments_per_matter":0.2,"pct_with_text_versions":100.0,"index_categories":["Council Goal 1: Sustainability"],"has_accela":false,"accela_agency_id":null},"development":{"permits_12mo":null,"yoy_trend_pct":null,"avg_permit_value":null,"permit_types":{},"datasets_count":0},"meetings":{"official_channels":0,"meetings_indexed":null,"avg_meetings_per_month":null,"has_video_archive":false,"meeting_types":{},"transcripts_available":null},"civic_issues":{"total_issues":106344,"issues_last_30d":100,"issues_last_365d":100,"resolution_rate":97.3,"top_issue_type":"Snow/Ice on Streets-Snow/Ice on Sidewalks-please see note on storm monitoring below","type_distribution":{"Snow/Ice on Streets-Snow/Ice on Sidewalks-please see note on storm monitoring below":30,"Snow/Ice on Sidewalks-please see note on storm monitoring below":27,"Trash - Missed Pickup":11,"Other":6,"Trash - Illegal Dumping or Abandoned Property":6,"Traffic Signals and Paint/Markings":3,"Water - Leak":3,"Pothole":2,"Street Light":2,"Sidewalk or Curb Repair":2,"Parking / Traffic Signs":2,"Manhole Cover or Utility Cap":1,"Animal - Pets or Wildlife":1,"Tree - All Other":1,"Public Schools, Buildings or Property":1,"Water - Sewer/Catch Basin/Flooding":1,"Parking - (Enforcement, Meters & Abandoned Vehicles)-please see note on storm monitoring below":1},"has_civic_issue_tracking":true},"demographics":{"population":65463,"poverty_universe":65293,"employment_universe":54597},"time_series":{"economy_history":[{"year":2024,"unemployment_rate":3.59,"labor_force":942883,"employed":909086,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2023,"unemployment_rate":2.98,"labor_force":920235,"employed":892836,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2022,"unemployment_rate":2.98,"labor_force":908998,"employed":881923,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2021,"unemployment_rate":4.27,"labor_force":899380,"employed":860937,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2020,"unemployment_rate":7.68,"labor_force":900454,"employed":831998,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2019,"unemployment_rate":2.42,"labor_force":932133,"employed":909676,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2018,"unemployment_rate":2.8,"labor_force":925033,"employed":899216,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2017,"unemployment_rate":3.13,"labor_force":900561,"employed":872295,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2016,"unemployment_rate":3.27,"labor_force":881127,"employed":852397,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2015,"unemployment_rate":3.92,"labor_force":871043,"employed":836912,"data_level":"county","source":"bls_laus","is_partial_year":false}],"safety_history":[],"environment_history":[{"year":2023,"pm25_mean":6.5513,"ozone_mean":0.0382,"data_level":"county","source":"epa_aqs"},{"year":2022,"pm25_mean":5.7298,"ozone_mean":0.038,"data_level":"county","source":"epa_aqs"},{"year":2021,"pm25_mean":6.2911,"ozone_mean":0.0347,"data_level":"county","source":"epa_aqs"},{"year":2020,"pm25_mean":6.4684,"ozone_mean":0.0385,"data_level":"county","source":"epa_aqs"},{"year":2019,"pm25_mean":6.9486,"ozone_mean":0.0393,"data_level":"county","source":"epa_aqs"},{"year":2018,"pm25_mean":7.5434,"ozone_mean":0.0369,"data_level":"county","source":"epa_aqs"}]},"data_sources":{"legistar":"available","socrata":"available","census_acs":"available","arcgis":"available","fbi_ucr":"available","socrata_crime":"available","bls_laus":"available","ca_edd":"skipped","epa_aqs":"available","nces_ccd":"available","hud_fmr":"available","fema_openfema":"available","greatschools":"available","permits":"skipped","youtube_meetings":"skipped","seeclickfix":"available","accela":"available"},"provenance":{"last_full_probe":"2026-02-09T23:51:21.496285","sources":{"legistar":{"authority":"Legistar by Granicus","authority_tier":1,"api_url":"https://webapi.legistar.com/v1/cityofmalden/Bodies","probed_at":"2026-02-09T23:51:21.499122","data_vintage":"2013\u20132026","geographic_level":"place","status":"available"},"socrata":{"authority":"City Open Data Portals (Socrata/Tyler Data & Insights)","authority_tier":1,"api_url":null,"probed_at":"2026-02-09T23:52:42.853822","data_vintage":null,"geographic_level":"place","status":"available"},"census_acs":{"authority":"US Census Bureau","authority_tier":1,"api_url":"https://api.census.gov/data/2022/acs/acs5?get=NAME,B01001_001E,B19013_001E,B25077_001E,B25064_001E,B25001_001E&for=place:37875&in=state:25","probed_at":"2026-02-09T23:52:42.858548","data_vintage":"ACS 5-Year 2022","geographic_level":"place","status":"available"},"arcgis":{"authority":"City ArcGIS/GIS Portals","authority_tier":1,"api_url":null,"probed_at":"2026-02-09T23:52:46.306513","data_vintage":null,"geographic_level":"place","status":"available"},"fbi_ucr":{"authority":"FBI Uniform Crime Reporting Program","authority_tier":1,"api_url":"https://api.usa.gov/crime/fbi/sapi/api/estimates/states/MA/2015/2022","probed_at":"2026-02-09T23:52:46.836892","data_vintage":null,"geographic_level":"state","status":"available"},"bls_laus":{"authority":"Bureau of Labor Statistics","authority_tier":1,"api_url":"https://api.bls.gov/publicAPI/v2/timeseries/data/LAUST250000000000003","probed_at":"2026-02-09T23:52:47.168702","data_vintage":"LAUS 2024","geographic_level":"state","status":"available"},"epa_aqs":{"authority":"US Environmental Protection Agency","authority_tier":1,"api_url":"https://aqs.epa.gov/data/api/annualData/byState?state=25&param=88101","probed_at":"2026-02-09T23:52:48.351110","data_vintage":"AQS 2023","geographic_level":"state","status":"available"},"nces_ccd":{"authority":"National Center for Education Statistics","authority_tier":1,"api_url":"https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=25","probed_at":"2026-02-09T23:54:01.710905","data_vintage":"2022-2023 academic year","geographic_level":"state","status":"available"},"hud_fmr":{"authority":"US Department of Housing and Urban Development","authority_tier":1,"api_url":"https://www.huduser.gov/hudapi/public/fmr/statedata/MA","probed_at":"2026-02-09T23:54:22.148568","data_vintage":"FY2026","geographic_level":"state","status":"available"},"fema_openfema":{"authority":"Federal Emergency Management Agency","authority_tier":1,"api_url":"https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries?$filter=state eq 'MA'","probed_at":"2026-02-09T23:54:26.933056","data_vintage":"1953-present","geographic_level":"state","status":"available"},"greatschools":{"authority":"GreatSchools.org (nonprofit)","authority_tier":3,"api_url":null,"probed_at":"2026-02-09T23:54:27.177290","data_vintage":null,"geographic_level":"place","status":"available"},"permits":{"authority":"City Open Data Portals (Socrata)","authority_tier":1,"api_url":null,"probed_at":"2026-02-09T23:54:27.510212","data_vintage":null,"geographic_level":"place","status":"skipped"},"youtube_meetings":{"authority":"YouTube (via SerpAPI search + youtube-transcript-api)","authority_tier":3,"api_url":null,"probed_at":"2026-02-09T23:54:27.510742","data_vintage":null,"geographic_level":"place","status":"skipped"},"seeclickfix":{"authority":"SeeClickFix (civic issue tracking platform)","authority_tier":3,"api_url":"https://seeclickfix.com/api/v2/issues?place_url=cityofmalden","probed_at":"2026-02-09T23:54:34.903204","data_vintage":null,"geographic_level":"place","status":"available"},"accela":{"authority":"Accela (permit management platform)","authority_tier":3,"api_url":"https://apis.accela.com/v4/agencies","probed_at":"2026-02-09T23:54:42.455002","data_vintage":null,"geographic_level":"place","status":"available"},"socrata_crime":{"authority":"City Open Data Portals (Socrata)","authority_tier":1,"api_url":null,"probed_at":"2026-02-09T23:52:47.168041","data_vintage":null,"geographic_level":"place","status":"available"}},"derived_fields":{"safety.total_crime_rate":{"formula":"violent_crime_rate + property_crime_rate","inputs":["safety.violent_crime_rate","safety.property_crime_rate"],"formula_location":"score/normalizer.py:_derive_total_crime","authority_tier":2},"safety.crime_trend":{"formula":"(last_year_rate - first_year_rate) / years_span","inputs":["fbi.time_series[].violent_crime_rate"],"formula_location":"score/normalizer.py:_build_safety","authority_tier":2},"education.school_quality_tier":{"formula":"excellent if avg>=8, good if avg>=6, fair if avg>=4, else poor","inputs":["education.avg_school_rating"],"formula_location":"score/normalizer.py:_build_education","authority_tier":3},"environment.avg_disasters_per_decade":{"formula":"total_disasters / (years_span / 10)","inputs":["environment.total_disasters"],"formula_location":"probe/fema_probe.py","authority_tier":2},"housing.rent_burden_ratio":{"formula":"(fmr_2br * 12) / median_household_income * 100","inputs":["housing.fmr_2br","economy.median_household_income"],"formula_location":"score/normalizer.py:_build_housing","authority_tier":2},"governance.legislative_velocity":{"formula":"legislative_volume / years_of_legislative_data","inputs":["governance.legislative_volume","governance.years_of_legislative_data"],"formula_location":"score/normalizer.py:_build_governance","authority_tier":2},"development.yoy_trend_pct":{"formula":"(current_year - prior_year) / prior_year * 100","inputs":["permit data from Socrata"],"formula_location":"probe/permits_probe.py","authority_tier":2}},"geographic_mismatches":[{"field":"identity.fips_state","source_level":"state","profile_level":"place","note":"state-level data applied to city profile"},{"field":"economy.unemployment_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Reflects statewide unemployment, not city-specific rate"},{"field":"economy.labor_force","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: This is the full state labor force, not city-level"},{"field":"economy.employed","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"economy.unemployed","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.violent_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: City-level requires ORI codes not currently used"},{"field":"safety.property_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.murder_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.robbery_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.burglary_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.vehicle_theft_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.total_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA; derived sum"},{"field":"safety.crime_trend","source_level":"state","profile_level":"place","note":"state-level data applied to city profile"},{"field":"education.total_schools","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Count includes all schools in the state, not city"},{"field":"education.total_enrollment","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.pupil_teacher_ratio","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Average across all state schools"},{"field":"education.title1_pct","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.charter_pct","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.regular_schools","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.pm25_mean","source_level":"state","profile_level":"place","note":"STATE/COUNTY-LEVEL: Averaged across all monitors in the state"},{"field":"environment.ozone_mean","source_level":"state","profile_level":"place","note":"STATE/COUNTY-LEVEL"},{"field":"environment.total_disasters","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: All declarations for the state, not city-specific"},{"field":"environment.avg_disasters_per_decade","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.most_recent_disaster","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.most_recent_disaster_type","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"housing.fmr_0br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR: Fair Market Rents at state level, not city-specific metro area"},{"field":"housing.fmr_1br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_2br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_3br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_4br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.rent_burden_ratio","source_level":"mixed","profile_level":"place","note":"GEOGRAPHIC MISMATCH: FMR is state-level (HUD), income is city-level (Census). Ratio may be biased."}]},"data_quality":{"quality_score":100.0,"grade":"A","completeness_pct":100.0,"issue_count":7,"granularity_flags":3},"officials":{"body_name":"City Council","members":[{"name":"Amanda Linehan","email":null,"title":"Councillor","start_date":"2026-01-05","committees":["Arts & Culture Committee","Library Committee","Public Property Committee","Rules & Ordinance Committee"]},{"name":"Ari Taylor","email":null,"title":"Councillor","start_date":"2024-01-01","committees":["Arts & Culture Committee","Economic Development Committee","Finance Committee","Library Committee","License Committee"]},{"name":"Carey McDonald","email":null,"title":"Councillor","start_date":"2022-01-01","committees":["Code of Conduct Committee","Community Engagement & Inclusion Committee","Economic Development Committee","Finance Committee","Public Property Committee"]},{"name":"Chris Simonelli","email":null,"title":"Councillor","start_date":"2022-01-03","committees":["Charter Review Committee","Committee of the Whole","Finance Committee","License Committee","Public Property Committee"]},{"name":"Jadeane Sica","email":"jsica@cityofmalden.org","title":"Councillor","start_date":"2022-01-03","committees":["Arts & Culture Committee","Code of Conduct Committee","Committee of the Whole","Finance Committee","License Committee"]},{"name":"Karen Colon Hayes","email":null,"title":"Councillor","start_date":"2022-01-03","committees":["Code of Conduct Committee","Community Engagement & Inclusion Committee","License Committee","Personnel/Appointments Committee","Rules & Ordinance Committee"]},{"name":"Michelle Luong","email":null,"title":"Councillor","start_date":"2026-01-05","committees":["Arts & Culture Committee","Code of Conduct Committee","Economic Development Committee","Finance Committee","Personnel/Appointments Committee"]},{"name":"Paul Condon","email":null,"title":"Councillor","start_date":"2022-01-03","committees":["Economic Development Committee","Finance Committee","Library Committee","License Committee","Personnel/Appointments Committee"]},{"name":"Peg Crowe","email":null,"title":"Councillor","start_date":"2022-01-03","committees":["Arts & Culture Committee","Code of Conduct Committee","Economic Development Committee","Personnel/Appointments Committee","Personnel Committee"]},{"name":"Ryan O'Malley","email":null,"title":"Councillor","start_date":"2022-01-03","committees":["Charter Review Committee","Community Engagement & Inclusion Committee","Rules & Ordinance Committee","Waterfront Access Committee"]},{"name":"Stephen Winslow","email":null,"title":"Councillor","start_date":"2024-01-01","committees":["Charter Review Committee","Library Committee","Public Safety Committee","Rules & Ordinance Committee","Waterfront Access Committee"]}]},"recent_meetings":[{"date":"2026-02-10","body":"Economic Development Committee","location":"City Hall, Room 105\r\n215 Pleasant Street\r\nMalden, MA 02148","has_agenda":true,"agenda_url":"https://legistar1.granicus.com/cityofmalden/meetings/2026/2/5903_A_Economic_Development_Committee_26-02-10_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-10","body":"Public Safety Committee","location":"City Hall, Room 105\r\n215 Pleasant Street\r\nMalden, MA  02148","has_agenda":true,"agenda_url":"https://legistar1.granicus.com/cityofmalden/meetings/2026/2/5911_A_Public_Safety_Committee_26-02-10_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-10","body":"City Council","location":"City Council Chambers\r\n215 Pleasant Street\r\nMalden, MA  02148","has_agenda":true,"agenda_url":"https://legistar1.granicus.com/cityofmalden/meetings/2026/2/5905_A_City_Council_26-02-10_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-03","body":"Finance Committee","location":"City Hall, Room 105\r\n215 Pleasant Street\r\nMalden, MA  02148","has_agenda":true,"agenda_url":"https://legistar1.granicus.com/cityofmalden/meetings/2026/2/5902_A_Finance_Committee_26-02-03_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-03","body":"City Council","location":"City Council Chambers\r\n215 Pleasant Street\r\nMalden, MA  02148","has_agenda":true,"agenda_url":"https://legistar1.granicus.com/cityofmalden/meetings/2026/2/5907_A_City_Council_26-02-03_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-03","body":"Finance Committee","location":"City Hall, Room #105\r\n215 Pleasant Street\r\nMalden, MA  02148","has_agenda":true,"agenda_url":"https://legistar1.granicus.com/cityofmalden/meetings/2026/2/5906_A_Finance_Committee_26-02-03_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-01-27","body":"Community Engagement & Inclusion Committee","location":"City Hall, Room #105\r\n215 Pleasant Street\r\nMalden, MA  02148","has_agenda":true,"agenda_url":"https://legistar1.granicus.com/cityofmalden/meetings/2026/1/5900_A_Community_Engagement___Inclusion_Committee_26-01-27_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-01-27","body":"City Council","location":"City Council Chambers\r\n215 Pleasant Street\r\nMalden, MA  02148","has_agenda":true,"agenda_url":"https://legistar1.granicus.com/cityofmalden/meetings/2026/1/5892_A_City_Council_26-01-27_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-01-27","body":"Public Property Committee","location":"City Hall, Room 108\r\n215 Pleasant Street\r\nMalden, MA  02148","has_agenda":true,"agenda_url":"https://legistar1.granicus.com/cityofmalden/meetings/2026/1/5901_A_Public_Property_Committee_26-01-27_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-01-20","body":"City Council","location":"City Council Chambers\r\n215 Pleasant Street\r\nMalden, MA  02148","has_agenda":true,"agenda_url":"https://legistar1.granicus.com/cityofmalden/meetings/2026/1/5897_A_City_Council_26-01-20_Meeting_Agenda.pdf","has_minutes":true,"has_video":false,"upcoming":false}],"recent_legislation":[{"title":"Order: That the City Council will vote whether to go into Executive Session with legal counsel for the City, in accordance with Exemption Seven Massachusetts General Laws Chapter 30A Section 21(a)(7),","type":"Order","status":"Agenda Ready","intro_date":"2026-02-05","file_number":"102-26","passed_date":null},{"title":"Petition: Class II: Malden Auto Center LLC, 189 Eastern Avenue, Malden, 31 vehicles (New)","type":"Petition","status":"Agenda Ready","intro_date":"2026-02-05","file_number":"84-26","passed_date":null},{"title":"Mayoral Reappointment: Kirk Zmijewski of 569 Fellsway East as a member of the Conservation Commission, said term to commence upon confirmation by the City Council and to expire on February 13, 2029.","type":"Appointment","status":"Agenda Ready","intro_date":"2026-02-05","file_number":"99-26","passed_date":null},{"title":"The Malden City Council will address the Open Meeting Law Complaint submitted on January 30, 2026 by John Saia of 37 Pierce Street, Malden against the Council related to the wording of Paper 72-26.","type":"Council Item","status":"Agenda Ready","intro_date":"2026-02-05","file_number":"103-26","passed_date":null},{"title":"Communication: During the meeting of February 3, 2026, the Council unanimously voted to enter into Executive Session with legal counsel for the City, in accordance with Exemption Seven Massachusetts G","type":"Communication","status":"Agenda Ready","intro_date":"2026-02-05","file_number":"97-26","passed_date":null},{"title":"Committee Minutes of May 11, 2021 to be approved.","type":"Committee Minutes","status":"Agenda Ready","intro_date":"2026-02-04","file_number":"82-26","passed_date":null},{"title":"Committee Report: The Standing Committee on Finance to whom was referred Paper 53 Series of 2026, having considered the same make the following report: Committee recommends reporting the paper out to ","type":"Committee Report","status":"Agenda Ready","intro_date":"2026-02-04","file_number":"101-26","passed_date":null},{"title":"Mayoral Appointment: Keith Jackson of 103 Woodland Road, Malden, as a full member of the Historical Commission, said term to expire February 4, 2029. (Confirmation not required)","type":"Appointment","status":"Agenda Ready","intro_date":"2026-02-04","file_number":"83-26","passed_date":null},{"title":"Petition: Taxi Driver: David McNamara, 51 Melrose Street #2A, Melrose (Renewal)","type":"Petition","status":"Agenda Ready","intro_date":"2026-02-04","file_number":"93-26","passed_date":null},{"title":"Petition: Taxi Driver: Carlos F. Vargas, 290 Mishawum Road Apt. 2039, Woburn (Renewal)","type":"Petition","status":"Agenda Ready","intro_date":"2026-02-03","file_number":"96-26","passed_date":null}],"legistar_url":"https://cityofmalden.legistar.com","enriched_at":"2026-02-12T18:52:27.691953","government_news":[],"video_meetings":[],"data_platforms":["legistar"]}
+{
+  "schema_version": "5.0",
+  "normalized_at": "2026-02-10T14:21:49.047564",
+  "identity": {
+    "name": "Malden",
+    "state": "MA",
+    "fips_state": "25",
+    "fips_place": "37875",
+    "population": 65463
+  },
+  "city_website": "https://www.cityofmalden.org",
+  "economy": {
+    "median_household_income": 90295,
+    "median_home_value": 570600,
+    "unemployment_rate": 3.59,
+    "unemployment_data_level": "county",
+    "labor_force": 942883,
+    "employed": 909086,
+    "unemployed": 33797,
+    "gini_index": null,
+    "poverty_rate": 13.52,
+    "homeownership_rate": 42.63,
+    "rent_to_income_ratio": 26.07,
+    "home_value_to_income_ratio": 6.32,
+    "price_to_rent_ratio": 24.24,
+    "effective_tax_rate": 10.0925,
+    "population_growth_cagr": 0.9877,
+    "median_real_estate_taxes": 4799
+  },
+  "safety": {
+    "violent_crime_rate": null,
+    "property_crime_rate": null,
+    "murder_rate": null,
+    "robbery_rate": null,
+    "burglary_rate": null,
+    "vehicle_theft_rate": null,
+    "total_crime_rate": null,
+    "crime_trend": null,
+    "crime_data_level": null
+  },
+  "education": {
+    "total_schools": 1862,
+    "total_enrollment": 913735,
+    "pupil_teacher_ratio": 12.0,
+    "title1_pct": 0.0,
+    "charter_pct": 4.2,
+    "regular_schools": 1789,
+    "avg_school_rating": null,
+    "rated_schools": null,
+    "school_quality_tier": null
+  },
+  "environment": {
+    "pm25_mean": 6.5513,
+    "ozone_mean": 0.0382,
+    "total_disasters": 35,
+    "avg_disasters_per_decade": 7.0,
+    "most_recent_disaster": "2023-09-15",
+    "most_recent_disaster_type": "Hurricane",
+    "disasters_by_type": {
+      "Severe Storm": 9,
+      "Snowstorm": 8,
+      "Hurricane": 7,
+      "Flood": 5,
+      "Biological": 2,
+      "Terrorist": 1,
+      "Other": 1,
+      "Severe Ice Storm": 1,
+      "Coastal Storm": 1
+    }
+  },
+  "housing": {
+    "median_rent": 1962,
+    "housing_units": 27708,
+    "fmr_0br": 1433,
+    "fmr_1br": 1584,
+    "fmr_2br": 2056,
+    "fmr_3br": 2548,
+    "fmr_4br": 2825,
+    "rent_burden_ratio": 27.3,
+    "cost_burdened_pct": 48.81,
+    "severely_burdened_pct": 25.98
+  },
+  "governance": {
+    "legislative_volume": 6562,
+    "legislative_velocity": 542.3,
+    "committee_count": 81,
+    "years_of_legislative_data": 12.1,
+    "has_public_meetings": true,
+    "api_accessible": true,
+    "matter_types": {
+      "Petition": 310,
+      "Committee Minutes": 171,
+      "Appointment": 143,
+      "Order": 95,
+      "Committee Report": 94,
+      "Council Minutes": 62,
+      "Communication": 48,
+      "Ordinance": 39,
+      "Council Item": 18,
+      "Resolution": 13,
+      "Board Item": 3,
+      "Board Minutes": 2,
+      "Business Item": 2
+    },
+    "top_matter_type": "Petition",
+    "matter_statuses": {
+      "Passed": 624,
+      "Agenda Ready": 202,
+      "Reported from Committee": 135,
+      "Filed": 15,
+      "Failed": 11,
+      "Tabled to a Future Date": 7,
+      "Enrolled": 3,
+      "In Committee": 3
+    },
+    "pass_rate": 33.3,
+    "passed_count": 2187,
+    "active_council_members": 11,
+    "avg_tenure_years": 3.0,
+    "vote_coverage_pct": 0.0,
+    "video_availability_pct": 0.0,
+    "agenda_availability_pct": 99.4,
+    "minutes_availability_pct": 82.0,
+    "avg_meetings_per_month": 10.5,
+    "meetings_by_year": {
+      "2026": 17,
+      "2025": 128,
+      "2024": 125,
+      "2023": 137,
+      "2022": 93
+    },
+    "avg_sponsors_per_matter": 0.0,
+    "avg_attachments_per_matter": 0.2,
+    "pct_with_text_versions": 100.0,
+    "index_categories": [
+      "Council Goal 1: Sustainability"
+    ],
+    "has_accela": false,
+    "accela_agency_id": null
+  },
+  "development": {
+    "permits_12mo": null,
+    "yoy_trend_pct": null,
+    "avg_permit_value": null,
+    "permit_types": {},
+    "datasets_count": 0
+  },
+  "meetings": {
+    "official_channels": 0,
+    "meetings_indexed": null,
+    "avg_meetings_per_month": null,
+    "has_video_archive": false,
+    "meeting_types": {},
+    "transcripts_available": null
+  },
+  "civic_issues": {
+    "total_issues": 106344,
+    "issues_last_30d": 100,
+    "issues_last_365d": 100,
+    "resolution_rate": 97.3,
+    "top_issue_type": "Snow/Ice on Streets-Snow/Ice on Sidewalks-please see note on storm monitoring below",
+    "type_distribution": {
+      "Snow/Ice on Streets-Snow/Ice on Sidewalks-please see note on storm monitoring below": 30,
+      "Snow/Ice on Sidewalks-please see note on storm monitoring below": 27,
+      "Trash - Missed Pickup": 11,
+      "Other": 6,
+      "Trash - Illegal Dumping or Abandoned Property": 6,
+      "Traffic Signals and Paint/Markings": 3,
+      "Water - Leak": 3,
+      "Pothole": 2,
+      "Street Light": 2,
+      "Sidewalk or Curb Repair": 2,
+      "Parking / Traffic Signs": 2,
+      "Manhole Cover or Utility Cap": 1,
+      "Animal - Pets or Wildlife": 1,
+      "Tree - All Other": 1,
+      "Public Schools, Buildings or Property": 1,
+      "Water - Sewer/Catch Basin/Flooding": 1,
+      "Parking - (Enforcement, Meters & Abandoned Vehicles)-please see note on storm monitoring below": 1
+    },
+    "has_civic_issue_tracking": true
+  },
+  "demographics": {
+    "population": 65463,
+    "poverty_universe": 65293,
+    "employment_universe": 54597
+  },
+  "time_series": {
+    "economy_history": [
+      {
+        "year": 2024,
+        "unemployment_rate": 3.59,
+        "labor_force": 942883,
+        "employed": 909086,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2023,
+        "unemployment_rate": 2.98,
+        "labor_force": 920235,
+        "employed": 892836,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2022,
+        "unemployment_rate": 2.98,
+        "labor_force": 908998,
+        "employed": 881923,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2021,
+        "unemployment_rate": 4.27,
+        "labor_force": 899380,
+        "employed": 860937,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2020,
+        "unemployment_rate": 7.68,
+        "labor_force": 900454,
+        "employed": 831998,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2019,
+        "unemployment_rate": 2.42,
+        "labor_force": 932133,
+        "employed": 909676,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2018,
+        "unemployment_rate": 2.8,
+        "labor_force": 925033,
+        "employed": 899216,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2017,
+        "unemployment_rate": 3.13,
+        "labor_force": 900561,
+        "employed": 872295,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2016,
+        "unemployment_rate": 3.27,
+        "labor_force": 881127,
+        "employed": 852397,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2015,
+        "unemployment_rate": 3.92,
+        "labor_force": 871043,
+        "employed": 836912,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      }
+    ],
+    "safety_history": [],
+    "environment_history": [
+      {
+        "year": 2023,
+        "pm25_mean": 6.5513,
+        "ozone_mean": 0.0382,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2022,
+        "pm25_mean": 5.7298,
+        "ozone_mean": 0.038,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2021,
+        "pm25_mean": 6.2911,
+        "ozone_mean": 0.0347,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2020,
+        "pm25_mean": 6.4684,
+        "ozone_mean": 0.0385,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2019,
+        "pm25_mean": 6.9486,
+        "ozone_mean": 0.0393,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2018,
+        "pm25_mean": 7.5434,
+        "ozone_mean": 0.0369,
+        "data_level": "county",
+        "source": "epa_aqs"
+      }
+    ]
+  },
+  "data_sources": {
+    "legistar": "available",
+    "socrata": "available",
+    "census_acs": "available",
+    "arcgis": "available",
+    "fbi_ucr": "available",
+    "socrata_crime": "available",
+    "bls_laus": "available",
+    "ca_edd": "skipped",
+    "epa_aqs": "available",
+    "nces_ccd": "available",
+    "hud_fmr": "available",
+    "fema_openfema": "available",
+    "greatschools": "available",
+    "permits": "skipped",
+    "youtube_meetings": "skipped",
+    "seeclickfix": "available",
+    "accela": "available"
+  },
+  "provenance": {
+    "last_full_probe": "2026-02-09T23:51:21.496285",
+    "sources": {
+      "legistar": {
+        "authority": "Legistar by Granicus",
+        "authority_tier": 1,
+        "api_url": "https://webapi.legistar.com/v1/cityofmalden/Bodies",
+        "probed_at": "2026-02-09T23:51:21.499122",
+        "data_vintage": "2013–2026",
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "socrata": {
+        "authority": "City Open Data Portals (Socrata/Tyler Data & Insights)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-09T23:52:42.853822",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "census_acs": {
+        "authority": "US Census Bureau",
+        "authority_tier": 1,
+        "api_url": "https://api.census.gov/data/2022/acs/acs5?get=NAME,B01001_001E,B19013_001E,B25077_001E,B25064_001E,B25001_001E&for=place:37875&in=state:25",
+        "probed_at": "2026-02-09T23:52:42.858548",
+        "data_vintage": "ACS 5-Year 2022",
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "arcgis": {
+        "authority": "City ArcGIS/GIS Portals",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-09T23:52:46.306513",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "fbi_ucr": {
+        "authority": "FBI Uniform Crime Reporting Program",
+        "authority_tier": 1,
+        "api_url": "https://api.usa.gov/crime/fbi/sapi/api/estimates/states/MA/2015/2022",
+        "probed_at": "2026-02-09T23:52:46.836892",
+        "data_vintage": null,
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "bls_laus": {
+        "authority": "Bureau of Labor Statistics",
+        "authority_tier": 1,
+        "api_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/LAUST250000000000003",
+        "probed_at": "2026-02-09T23:52:47.168702",
+        "data_vintage": "LAUS 2024",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "epa_aqs": {
+        "authority": "US Environmental Protection Agency",
+        "authority_tier": 1,
+        "api_url": "https://aqs.epa.gov/data/api/annualData/byState?state=25&param=88101",
+        "probed_at": "2026-02-09T23:52:48.351110",
+        "data_vintage": "AQS 2023",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "nces_ccd": {
+        "authority": "National Center for Education Statistics",
+        "authority_tier": 1,
+        "api_url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=25",
+        "probed_at": "2026-02-09T23:54:01.710905",
+        "data_vintage": "2022-2023 academic year",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "hud_fmr": {
+        "authority": "US Department of Housing and Urban Development",
+        "authority_tier": 1,
+        "api_url": "https://www.huduser.gov/hudapi/public/fmr/statedata/MA",
+        "probed_at": "2026-02-09T23:54:22.148568",
+        "data_vintage": "FY2026",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "fema_openfema": {
+        "authority": "Federal Emergency Management Agency",
+        "authority_tier": 1,
+        "api_url": "https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries?$filter=state eq 'MA'",
+        "probed_at": "2026-02-09T23:54:26.933056",
+        "data_vintage": "1953-present",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "greatschools": {
+        "authority": "GreatSchools.org (nonprofit)",
+        "authority_tier": 3,
+        "api_url": null,
+        "probed_at": "2026-02-09T23:54:27.177290",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "permits": {
+        "authority": "City Open Data Portals (Socrata)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-09T23:54:27.510212",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "youtube_meetings": {
+        "authority": "YouTube (via SerpAPI search + youtube-transcript-api)",
+        "authority_tier": 3,
+        "api_url": null,
+        "probed_at": "2026-02-09T23:54:27.510742",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "seeclickfix": {
+        "authority": "SeeClickFix (civic issue tracking platform)",
+        "authority_tier": 3,
+        "api_url": "https://seeclickfix.com/api/v2/issues?place_url=cityofmalden",
+        "probed_at": "2026-02-09T23:54:34.903204",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "accela": {
+        "authority": "Accela (permit management platform)",
+        "authority_tier": 3,
+        "api_url": "https://apis.accela.com/v4/agencies",
+        "probed_at": "2026-02-09T23:54:42.455002",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "socrata_crime": {
+        "authority": "City Open Data Portals (Socrata)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-09T23:52:47.168041",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      }
+    },
+    "derived_fields": {
+      "safety.total_crime_rate": {
+        "formula": "violent_crime_rate + property_crime_rate",
+        "inputs": [
+          "safety.violent_crime_rate",
+          "safety.property_crime_rate"
+        ],
+        "formula_location": "score/normalizer.py:_derive_total_crime",
+        "authority_tier": 2
+      },
+      "safety.crime_trend": {
+        "formula": "(last_year_rate - first_year_rate) / years_span",
+        "inputs": [
+          "fbi.time_series[].violent_crime_rate"
+        ],
+        "formula_location": "score/normalizer.py:_build_safety",
+        "authority_tier": 2
+      },
+      "education.school_quality_tier": {
+        "formula": "excellent if avg>=8, good if avg>=6, fair if avg>=4, else poor",
+        "inputs": [
+          "education.avg_school_rating"
+        ],
+        "formula_location": "score/normalizer.py:_build_education",
+        "authority_tier": 3
+      },
+      "environment.avg_disasters_per_decade": {
+        "formula": "total_disasters / (years_span / 10)",
+        "inputs": [
+          "environment.total_disasters"
+        ],
+        "formula_location": "probe/fema_probe.py",
+        "authority_tier": 2
+      },
+      "housing.rent_burden_ratio": {
+        "formula": "(fmr_2br * 12) / median_household_income * 100",
+        "inputs": [
+          "housing.fmr_2br",
+          "economy.median_household_income"
+        ],
+        "formula_location": "score/normalizer.py:_build_housing",
+        "authority_tier": 2
+      },
+      "governance.legislative_velocity": {
+        "formula": "legislative_volume / years_of_legislative_data",
+        "inputs": [
+          "governance.legislative_volume",
+          "governance.years_of_legislative_data"
+        ],
+        "formula_location": "score/normalizer.py:_build_governance",
+        "authority_tier": 2
+      },
+      "development.yoy_trend_pct": {
+        "formula": "(current_year - prior_year) / prior_year * 100",
+        "inputs": [
+          "permit data from Socrata"
+        ],
+        "formula_location": "probe/permits_probe.py",
+        "authority_tier": 2
+      }
+    },
+    "geographic_mismatches": [
+      {
+        "field": "identity.fips_state",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "state-level data applied to city profile"
+      },
+      {
+        "field": "economy.unemployment_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Reflects statewide unemployment, not city-specific rate"
+      },
+      {
+        "field": "economy.labor_force",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: This is the full state labor force, not city-level"
+      },
+      {
+        "field": "economy.employed",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "economy.unemployed",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.violent_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: City-level requires ORI codes not currently used"
+      },
+      {
+        "field": "safety.property_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.murder_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.robbery_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.burglary_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.vehicle_theft_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.total_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA; derived sum"
+      },
+      {
+        "field": "safety.crime_trend",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "state-level data applied to city profile"
+      },
+      {
+        "field": "education.total_schools",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Count includes all schools in the state, not city"
+      },
+      {
+        "field": "education.total_enrollment",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.pupil_teacher_ratio",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Average across all state schools"
+      },
+      {
+        "field": "education.title1_pct",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.charter_pct",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.regular_schools",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.pm25_mean",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE/COUNTY-LEVEL: Averaged across all monitors in the state"
+      },
+      {
+        "field": "environment.ozone_mean",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE/COUNTY-LEVEL"
+      },
+      {
+        "field": "environment.total_disasters",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: All declarations for the state, not city-specific"
+      },
+      {
+        "field": "environment.avg_disasters_per_decade",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.most_recent_disaster",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.most_recent_disaster_type",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "housing.fmr_0br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR: Fair Market Rents at state level, not city-specific metro area"
+      },
+      {
+        "field": "housing.fmr_1br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_2br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_3br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_4br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.rent_burden_ratio",
+        "source_level": "mixed",
+        "profile_level": "place",
+        "note": "GEOGRAPHIC MISMATCH: FMR is state-level (HUD), income is city-level (Census). Ratio may be biased."
+      }
+    ]
+  },
+  "data_quality": {
+    "quality_score": 100.0,
+    "grade": "A",
+    "completeness_pct": 100.0,
+    "issue_count": 7,
+    "granularity_flags": 3
+  },
+  "officials": {
+    "body_name": "City Council",
+    "members": [
+      {
+        "name": "Amanda Linehan",
+        "email": null,
+        "title": "Councillor",
+        "start_date": "2026-01-05",
+        "committees": [
+          "Arts & Culture Committee",
+          "Library Committee",
+          "Public Property Committee",
+          "Rules & Ordinance Committee"
+        ]
+      },
+      {
+        "name": "Ari Taylor",
+        "email": null,
+        "title": "Councillor",
+        "start_date": "2024-01-01",
+        "committees": [
+          "Arts & Culture Committee",
+          "Economic Development Committee",
+          "Finance Committee",
+          "Library Committee",
+          "License Committee"
+        ]
+      },
+      {
+        "name": "Carey McDonald",
+        "email": null,
+        "title": "Councillor",
+        "start_date": "2022-01-01",
+        "committees": [
+          "Code of Conduct Committee",
+          "Community Engagement & Inclusion Committee",
+          "Economic Development Committee",
+          "Finance Committee",
+          "Public Property Committee"
+        ]
+      },
+      {
+        "name": "Chris Simonelli",
+        "email": null,
+        "title": "Councillor",
+        "start_date": "2022-01-03",
+        "committees": [
+          "Charter Review Committee",
+          "Committee of the Whole",
+          "Finance Committee",
+          "License Committee",
+          "Public Property Committee"
+        ]
+      },
+      {
+        "name": "Jadeane Sica",
+        "email": "jsica@cityofmalden.org",
+        "title": "Councillor",
+        "start_date": "2022-01-03",
+        "committees": [
+          "Arts & Culture Committee",
+          "Code of Conduct Committee",
+          "Committee of the Whole",
+          "Finance Committee",
+          "License Committee"
+        ]
+      },
+      {
+        "name": "Karen Colon Hayes",
+        "email": null,
+        "title": "Councillor",
+        "start_date": "2022-01-03",
+        "committees": [
+          "Code of Conduct Committee",
+          "Community Engagement & Inclusion Committee",
+          "License Committee",
+          "Personnel/Appointments Committee",
+          "Rules & Ordinance Committee"
+        ]
+      },
+      {
+        "name": "Michelle Luong",
+        "email": null,
+        "title": "Councillor",
+        "start_date": "2026-01-05",
+        "committees": [
+          "Arts & Culture Committee",
+          "Code of Conduct Committee",
+          "Economic Development Committee",
+          "Finance Committee",
+          "Personnel/Appointments Committee"
+        ]
+      },
+      {
+        "name": "Paul Condon",
+        "email": null,
+        "title": "Councillor",
+        "start_date": "2022-01-03",
+        "committees": [
+          "Economic Development Committee",
+          "Finance Committee",
+          "Library Committee",
+          "License Committee",
+          "Personnel/Appointments Committee"
+        ]
+      },
+      {
+        "name": "Peg Crowe",
+        "email": null,
+        "title": "Councillor",
+        "start_date": "2022-01-03",
+        "committees": [
+          "Arts & Culture Committee",
+          "Code of Conduct Committee",
+          "Economic Development Committee",
+          "Personnel/Appointments Committee",
+          "Personnel Committee"
+        ]
+      },
+      {
+        "name": "Ryan O'Malley",
+        "email": null,
+        "title": "Councillor",
+        "start_date": "2022-01-03",
+        "committees": [
+          "Charter Review Committee",
+          "Community Engagement & Inclusion Committee",
+          "Rules & Ordinance Committee",
+          "Waterfront Access Committee"
+        ]
+      },
+      {
+        "name": "Stephen Winslow",
+        "email": null,
+        "title": "Councillor",
+        "start_date": "2024-01-01",
+        "committees": [
+          "Charter Review Committee",
+          "Library Committee",
+          "Public Safety Committee",
+          "Rules & Ordinance Committee",
+          "Waterfront Access Committee"
+        ]
+      }
+    ]
+  },
+  "recent_meetings": [
+    {
+      "date": "2026-02-10",
+      "body": "Economic Development Committee",
+      "location": "City Hall, Room 105\r\n215 Pleasant Street\r\nMalden, MA 02148",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/cityofmalden/meetings/2026/2/5903_A_Economic_Development_Committee_26-02-10_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "Public Safety Committee",
+      "location": "City Hall, Room 105\r\n215 Pleasant Street\r\nMalden, MA  02148",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/cityofmalden/meetings/2026/2/5911_A_Public_Safety_Committee_26-02-10_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "City Council",
+      "location": "City Council Chambers\r\n215 Pleasant Street\r\nMalden, MA  02148",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/cityofmalden/meetings/2026/2/5905_A_City_Council_26-02-10_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "Finance Committee",
+      "location": "City Hall, Room 105\r\n215 Pleasant Street\r\nMalden, MA  02148",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/cityofmalden/meetings/2026/2/5902_A_Finance_Committee_26-02-03_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "City Council",
+      "location": "City Council Chambers\r\n215 Pleasant Street\r\nMalden, MA  02148",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/cityofmalden/meetings/2026/2/5907_A_City_Council_26-02-03_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "Finance Committee",
+      "location": "City Hall, Room #105\r\n215 Pleasant Street\r\nMalden, MA  02148",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/cityofmalden/meetings/2026/2/5906_A_Finance_Committee_26-02-03_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-27",
+      "body": "Community Engagement & Inclusion Committee",
+      "location": "City Hall, Room #105\r\n215 Pleasant Street\r\nMalden, MA  02148",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/cityofmalden/meetings/2026/1/5900_A_Community_Engagement___Inclusion_Committee_26-01-27_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-27",
+      "body": "City Council",
+      "location": "City Council Chambers\r\n215 Pleasant Street\r\nMalden, MA  02148",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/cityofmalden/meetings/2026/1/5892_A_City_Council_26-01-27_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-27",
+      "body": "Public Property Committee",
+      "location": "City Hall, Room 108\r\n215 Pleasant Street\r\nMalden, MA  02148",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/cityofmalden/meetings/2026/1/5901_A_Public_Property_Committee_26-01-27_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-20",
+      "body": "City Council",
+      "location": "City Council Chambers\r\n215 Pleasant Street\r\nMalden, MA  02148",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/cityofmalden/meetings/2026/1/5897_A_City_Council_26-01-20_Meeting_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Order: That the City Council will vote whether to go into Executive Session with legal counsel for the City, in accordance with Exemption Seven Massachusetts General Laws Chapter 30A Section 21(a)(7),",
+      "type": "Order",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-05",
+      "file_number": "102-26",
+      "passed_date": null
+    },
+    {
+      "title": "Petition: Class II: Malden Auto Center LLC, 189 Eastern Avenue, Malden, 31 vehicles (New)",
+      "type": "Petition",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-05",
+      "file_number": "84-26",
+      "passed_date": null
+    },
+    {
+      "title": "Mayoral Reappointment: Kirk Zmijewski of 569 Fellsway East as a member of the Conservation Commission, said term to commence upon confirmation by the City Council and to expire on February 13, 2029.",
+      "type": "Appointment",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-05",
+      "file_number": "99-26",
+      "passed_date": null
+    },
+    {
+      "title": "The Malden City Council will address the Open Meeting Law Complaint submitted on January 30, 2026 by John Saia of 37 Pierce Street, Malden against the Council related to the wording of Paper 72-26.",
+      "type": "Council Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-05",
+      "file_number": "103-26",
+      "passed_date": null
+    },
+    {
+      "title": "Communication: During the meeting of February 3, 2026, the Council unanimously voted to enter into Executive Session with legal counsel for the City, in accordance with Exemption Seven Massachusetts G",
+      "type": "Communication",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-05",
+      "file_number": "97-26",
+      "passed_date": null
+    },
+    {
+      "title": "Committee Minutes of May 11, 2021 to be approved.",
+      "type": "Committee Minutes",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-04",
+      "file_number": "82-26",
+      "passed_date": null
+    },
+    {
+      "title": "Committee Report: The Standing Committee on Finance to whom was referred Paper 53 Series of 2026, having considered the same make the following report: Committee recommends reporting the paper out to ",
+      "type": "Committee Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-04",
+      "file_number": "101-26",
+      "passed_date": null
+    },
+    {
+      "title": "Mayoral Appointment: Keith Jackson of 103 Woodland Road, Malden, as a full member of the Historical Commission, said term to expire February 4, 2029. (Confirmation not required)",
+      "type": "Appointment",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-04",
+      "file_number": "83-26",
+      "passed_date": null
+    },
+    {
+      "title": "Petition: Taxi Driver: David McNamara, 51 Melrose Street #2A, Melrose (Renewal)",
+      "type": "Petition",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-04",
+      "file_number": "93-26",
+      "passed_date": null
+    },
+    {
+      "title": "Petition: Taxi Driver: Carlos F. Vargas, 290 Mishawum Road Apt. 2039, Woburn (Renewal)",
+      "type": "Petition",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-03",
+      "file_number": "96-26",
+      "passed_date": null
+    }
+  ],
+  "legistar_url": "https://cityofmalden.legistar.com",
+  "enriched_at": "2026-02-12T18:52:27.691953",
+  "government_news": [],
+  "video_meetings": [],
+  "data_platforms": [
+    "legistar"
+  ]
+}

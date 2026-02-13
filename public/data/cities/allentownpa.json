@@ -1,1 +1,991 @@
-{"schema_version":"5.0","normalized_at":"2026-02-10T14:21:48.943345","identity":{"name":"Allentown","state":"PA","fips_state":"42","fips_place":"02000","population":125292},"economy":{"median_household_income":52449,"median_home_value":168800,"unemployment_rate":3.94,"unemployment_data_level":"county","labor_force":32468,"employed":31183,"unemployed":1284,"gini_index":null,"poverty_rate":21.4,"homeownership_rate":42.31,"rent_to_income_ratio":27.5,"home_value_to_income_ratio":3.22,"price_to_rent_ratio":11.7,"effective_tax_rate":25.109,"population_growth_cagr":0.6155,"median_real_estate_taxes":3532},"safety":{"violent_crime_rate":null,"property_crime_rate":null,"murder_rate":null,"robbery_rate":null,"burglary_rate":null,"vehicle_theft_rate":null,"total_crime_rate":null,"crime_trend":null,"crime_data_level":null},"education":{"total_schools":2956,"total_enrollment":1672695,"pupil_teacher_ratio":13.9,"title1_pct":0.0,"charter_pct":6.2,"regular_schools":2861,"avg_school_rating":null,"rated_schools":null,"school_quality_tier":null},"environment":{"pm25_mean":9.7927,"ozone_mean":0.0446,"total_disasters":18,"avg_disasters_per_decade":2.6,"most_recent_disaster":"2020-03-30","most_recent_disaster_type":"Biological","disasters_by_type":{"Hurricane":4,"Flood":4,"Severe Storm":4,"Snowstorm":3,"Biological":2,"Drought":1}},"housing":{"median_rent":1202,"housing_units":49156,"fmr_0br":1130,"fmr_1br":1341,"fmr_2br":1634,"fmr_3br":2087,"fmr_4br":2195,"rent_burden_ratio":37.4,"cost_burdened_pct":55.21,"severely_burdened_pct":29.6},"governance":{"legislative_volume":7187,"legislative_velocity":198.0,"committee_count":51,"years_of_legislative_data":36.3,"has_public_meetings":true,"api_accessible":true,"matter_types":{"Resolution":336,"Discussion":254,"Ordinance":161,"Minutes":142,"Zoning Commission Case":97,"Communication":10},"top_matter_type":"Resolution","matter_statuses":{"Agenda Ready":504,"Passed":488,"Reported to Council":4,"Withdrawn":2,"Failed":2},"pass_rate":33.3,"passed_count":2395,"active_council_members":7,"avg_tenure_years":4.5,"vote_coverage_pct":0.0,"video_availability_pct":0.0,"agenda_availability_pct":96.8,"minutes_availability_pct":25.6,"avg_meetings_per_month":18.5,"meetings_by_year":{"2026":29,"2025":228,"2024":216,"2023":27},"avg_sponsors_per_matter":0.1,"avg_attachments_per_matter":1.1,"pct_with_text_versions":100.0,"index_categories":["ANIZDA Appointments","Adaptive Re-Use Application","Appointments","Board of Health Proposition","Board of Recreation Agendas","Business Licensing","Contracts","Hamilton Street Overlay District Reviews","Health Board Appointments","Land Development","Land Development/Subdivision","Minor Land Development","Minor Subdivisions","Rezoning","Sewage Planning Module","Sidewalk Construction Postponement Request","Street Vacations","Subdivision","Zoning Amendments"],"has_accela":false,"accela_agency_id":null},"development":{"permits_12mo":null,"yoy_trend_pct":null,"avg_permit_value":null,"permit_types":{},"datasets_count":0},"meetings":{"official_channels":0,"meetings_indexed":null,"avg_meetings_per_month":null,"has_video_archive":false,"meeting_types":{},"transcripts_available":null},"civic_issues":{"total_issues":null,"issues_last_30d":null,"issues_last_365d":null,"resolution_rate":null,"top_issue_type":null,"type_distribution":{},"has_civic_issue_tracking":false},"demographics":{"population":125292,"poverty_universe":119904,"employment_universe":98036},"time_series":{"economy_history":[{"year":2024,"unemployment_rate":3.94,"labor_force":32468,"employed":31183,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2023,"unemployment_rate":4.25,"labor_force":32329,"employed":30957,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2022,"unemployment_rate":4.9,"labor_force":32124,"employed":30552,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2021,"unemployment_rate":6.3,"labor_force":31760,"employed":29756,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2020,"unemployment_rate":9.61,"labor_force":31647,"employed":28616,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2019,"unemployment_rate":5.35,"labor_force":32044,"employed":30327,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2018,"unemployment_rate":5.24,"labor_force":31610,"employed":29950,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2017,"unemployment_rate":5.69,"labor_force":31457,"employed":29670,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2016,"unemployment_rate":5.94,"labor_force":31529,"employed":29653,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2015,"unemployment_rate":6.2,"labor_force":31737,"employed":29768,"data_level":"county","source":"bls_laus","is_partial_year":false}],"safety_history":[],"environment_history":[{"year":2023,"pm25_mean":9.7927,"ozone_mean":0.0446,"data_level":"county","source":"epa_aqs"},{"year":2022,"pm25_mean":7.9899,"ozone_mean":0.042,"data_level":"county","source":"epa_aqs"},{"year":2021,"pm25_mean":8.8608,"ozone_mean":0.0417,"data_level":"county","source":"epa_aqs"},{"year":2020,"pm25_mean":7.6624,"ozone_mean":0.0407,"data_level":"county","source":"epa_aqs"},{"year":2019,"pm25_mean":8.288,"ozone_mean":0.043,"data_level":"county","source":"epa_aqs"},{"year":2018,"pm25_mean":9.0356,"ozone_mean":0.0416,"data_level":"county","source":"epa_aqs"}]},"data_sources":{"legistar":"available","socrata":"available","census_acs":"available","arcgis":"available","fbi_ucr":"available","socrata_crime":"available","bls_laus":"available","ca_edd":"skipped","epa_aqs":"available","nces_ccd":"available","hud_fmr":"available","fema_openfema":"available","greatschools":"available","permits":"skipped","youtube_meetings":"skipped","seeclickfix":"skipped","accela":"available"},"provenance":{"last_full_probe":"2026-02-09T20:32:04.287980","sources":{"legistar":{"authority":"Legistar by Granicus","authority_tier":1,"api_url":"https://webapi.legistar.com/v1/allentownpa/Bodies","probed_at":"2026-02-09T20:32:04.288184","data_vintage":"2010\u20132026","geographic_level":"place","status":"available"},"socrata":{"authority":"City Open Data Portals (Socrata/Tyler Data & Insights)","authority_tier":1,"api_url":null,"probed_at":"2026-02-09T20:34:01.767928","data_vintage":null,"geographic_level":"place","status":"available"},"census_acs":{"authority":"US Census Bureau","authority_tier":1,"api_url":"https://api.census.gov/data/2022/acs/acs5?get=NAME,B01001_001E,B19013_001E,B25077_001E,B25064_001E,B25001_001E&for=place:02000&in=state:42","probed_at":"2026-02-09T20:34:01.769358","data_vintage":"ACS 5-Year 2022","geographic_level":"place","status":"available"},"arcgis":{"authority":"City ArcGIS/GIS Portals","authority_tier":1,"api_url":null,"probed_at":"2026-02-09T20:34:06.189001","data_vintage":null,"geographic_level":"place","status":"available"},"fbi_ucr":{"authority":"FBI Uniform Crime Reporting Program","authority_tier":1,"api_url":"https://api.usa.gov/crime/fbi/sapi/api/estimates/states/PA/2015/2022","probed_at":"2026-02-09T20:34:07.583663","data_vintage":null,"geographic_level":"state","status":"available"},"bls_laus":{"authority":"Bureau of Labor Statistics","authority_tier":1,"api_url":"https://api.bls.gov/publicAPI/v2/timeseries/data/LAUST420000000000003","probed_at":"2026-02-09T20:34:07.942185","data_vintage":"LAUS 2024","geographic_level":"state","status":"available"},"epa_aqs":{"authority":"US Environmental Protection Agency","authority_tier":1,"api_url":"https://aqs.epa.gov/data/api/annualData/byState?state=42&param=88101","probed_at":"2026-02-09T20:34:09.193554","data_vintage":"AQS 2023","geographic_level":"state","status":"available"},"nces_ccd":{"authority":"National Center for Education Statistics","authority_tier":1,"api_url":"https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=42","probed_at":"2026-02-09T20:35:14.790146","data_vintage":"2022-2023 academic year","geographic_level":"state","status":"available"},"hud_fmr":{"authority":"US Department of Housing and Urban Development","authority_tier":1,"api_url":"https://www.huduser.gov/hudapi/public/fmr/statedata/PA","probed_at":"2026-02-09T20:35:21.857521","data_vintage":"FY2026","geographic_level":"state","status":"available"},"fema_openfema":{"authority":"Federal Emergency Management Agency","authority_tier":1,"api_url":"https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries?$filter=state eq 'PA'","probed_at":"2026-02-09T20:35:22.810027","data_vintage":"1953-present","geographic_level":"state","status":"available"},"greatschools":{"authority":"GreatSchools.org (nonprofit)","authority_tier":3,"api_url":null,"probed_at":"2026-02-09T20:35:23.061032","data_vintage":null,"geographic_level":"place","status":"available"},"permits":{"authority":"City Open Data Portals (Socrata)","authority_tier":1,"api_url":null,"probed_at":"2026-02-09T20:35:23.418592","data_vintage":null,"geographic_level":"place","status":"skipped"},"youtube_meetings":{"authority":"YouTube (via SerpAPI search + youtube-transcript-api)","authority_tier":3,"api_url":null,"probed_at":"2026-02-09T20:35:23.426907","data_vintage":null,"geographic_level":"place","status":"skipped"},"seeclickfix":{"authority":"SeeClickFix (civic issue tracking platform)","authority_tier":3,"api_url":"https://seeclickfix.com/api/v2/issues?place_url=allentownpa","probed_at":"2026-02-09T20:35:33.446632","data_vintage":null,"geographic_level":"place","status":"skipped"},"accela":{"authority":"Accela (permit management platform)","authority_tier":3,"api_url":"https://apis.accela.com/v4/agencies","probed_at":"2026-02-09T20:35:33.631630","data_vintage":null,"geographic_level":"place","status":"available"},"socrata_crime":{"authority":"City Open Data Portals (Socrata)","authority_tier":1,"api_url":null,"probed_at":"2026-02-09T20:34:07.941522","data_vintage":null,"geographic_level":"place","status":"available"}},"derived_fields":{"safety.total_crime_rate":{"formula":"violent_crime_rate + property_crime_rate","inputs":["safety.violent_crime_rate","safety.property_crime_rate"],"formula_location":"score/normalizer.py:_derive_total_crime","authority_tier":2},"safety.crime_trend":{"formula":"(last_year_rate - first_year_rate) / years_span","inputs":["fbi.time_series[].violent_crime_rate"],"formula_location":"score/normalizer.py:_build_safety","authority_tier":2},"education.school_quality_tier":{"formula":"excellent if avg>=8, good if avg>=6, fair if avg>=4, else poor","inputs":["education.avg_school_rating"],"formula_location":"score/normalizer.py:_build_education","authority_tier":3},"environment.avg_disasters_per_decade":{"formula":"total_disasters / (years_span / 10)","inputs":["environment.total_disasters"],"formula_location":"probe/fema_probe.py","authority_tier":2},"housing.rent_burden_ratio":{"formula":"(fmr_2br * 12) / median_household_income * 100","inputs":["housing.fmr_2br","economy.median_household_income"],"formula_location":"score/normalizer.py:_build_housing","authority_tier":2},"governance.legislative_velocity":{"formula":"legislative_volume / years_of_legislative_data","inputs":["governance.legislative_volume","governance.years_of_legislative_data"],"formula_location":"score/normalizer.py:_build_governance","authority_tier":2},"development.yoy_trend_pct":{"formula":"(current_year - prior_year) / prior_year * 100","inputs":["permit data from Socrata"],"formula_location":"probe/permits_probe.py","authority_tier":2}},"geographic_mismatches":[{"field":"identity.fips_state","source_level":"state","profile_level":"place","note":"state-level data applied to city profile"},{"field":"economy.unemployment_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Reflects statewide unemployment, not city-specific rate"},{"field":"economy.labor_force","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: This is the full state labor force, not city-level"},{"field":"economy.employed","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"economy.unemployed","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.violent_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: City-level requires ORI codes not currently used"},{"field":"safety.property_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.murder_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.robbery_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.burglary_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.vehicle_theft_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.total_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA; derived sum"},{"field":"safety.crime_trend","source_level":"state","profile_level":"place","note":"state-level data applied to city profile"},{"field":"education.total_schools","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Count includes all schools in the state, not city"},{"field":"education.total_enrollment","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.pupil_teacher_ratio","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Average across all state schools"},{"field":"education.title1_pct","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.charter_pct","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.regular_schools","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.pm25_mean","source_level":"state","profile_level":"place","note":"STATE/COUNTY-LEVEL: Averaged across all monitors in the state"},{"field":"environment.ozone_mean","source_level":"state","profile_level":"place","note":"STATE/COUNTY-LEVEL"},{"field":"environment.total_disasters","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: All declarations for the state, not city-specific"},{"field":"environment.avg_disasters_per_decade","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.most_recent_disaster","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.most_recent_disaster_type","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"housing.fmr_0br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR: Fair Market Rents at state level, not city-specific metro area"},{"field":"housing.fmr_1br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_2br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_3br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_4br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.rent_burden_ratio","source_level":"mixed","profile_level":"place","note":"GEOGRAPHIC MISMATCH: FMR is state-level (HUD), income is city-level (Census). Ratio may be biased."}]},"data_quality":{"quality_score":85.7,"grade":"B","completeness_pct":85.7,"issue_count":6,"granularity_flags":2},"officials":{"body_name":"City Council","members":[{"name":"Candida Affa","email":null,"title":"Council Member","start_date":"2016-01-01","committees":["Allentown Parking Authority"]},{"name":"Ce-Ce Gerlach","email":null,"title":"Council Member","start_date":"2020-01-01"},{"name":"Cristian Pungo","email":null,"title":"Council Member","start_date":"2026-01-05"},{"name":"Cynthia Mota","email":"Cynthia.Mota@allentownpa.gov","title":"Council Member","start_date":"2018-01-17","committees":["Community and Economic Development Committee"]},{"name":"Jeremy Binder","email":null,"title":"Council Member","start_date":"2026-01-05"},{"name":"Natalie Santos","email":null,"title":"Council Member","start_date":"2022-01-03"},{"name":"Santo Napoli","email":null,"title":"Council Member","start_date":"2023-01-04"}]},"recent_meetings":[{"date":"2026-02-16","body":"Zoning Hearing Board","location":"Council Chambers\r\nhttps://rebrand.ly/ZHB-FEBRUARY-16\r\n(717) 740-2323\r\nConference ID: 814 833 714#","has_agenda":true,"agenda_url":"https://allentownpa.legistar1.com/allentownpa/meetings/2026/2/4910_A_Zoning_Hearing_Board_26-02-16_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":true},{"date":"2026-02-11","body":"Redevelopment Authority","location":"Council Chambers","has_agenda":true,"agenda_url":"https://allentownpa.legistar1.com/allentownpa/meetings/2026/2/4919_A_Redevelopment_Authority__26-02-11_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-10","body":"Planning Commission","location":"Council Chambers","has_agenda":true,"agenda_url":"https://allentownpa.legistar1.com/allentownpa/meetings/2026/2/4893_A_Planning_Commission_26-02-10_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-09","body":"Environmental Advisory Council","location":"Virtually through Google Meet","has_agenda":true,"agenda_url":"https://allentownpa.legistar1.com/allentownpa/meetings/2026/2/4927_A_Environmental_Advisory_Council_26-02-09_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-06","body":"Civil Service Board","location":"Council Chambers","has_agenda":true,"agenda_url":"https://allentownpa.legistar1.com/allentownpa/meetings/2026/2/4920_A_Civil_Service_Board_26-02-06_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-05","body":"Human Relations Commission","location":"Council Chambers","has_agenda":true,"agenda_url":"https://allentownpa.legistar1.com/allentownpa/meetings/2026/2/4892_A_Human_Relations_Commission__26-02-05_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-05","body":"Recreation Board","location":"Bucky Boyle Training Room, 10 Pump Pl","has_agenda":true,"agenda_url":"https://allentownpa.legistar1.com/allentownpa/meetings/2026/2/4888_A_Recreation_Board_26-02-05_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-04","body":"Arts Commission","location":"Council Chambers","has_agenda":true,"agenda_url":"https://allentownpa.legistar1.com/allentownpa/meetings/2026/2/4913_A_Arts_Commission__26-02-04_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-04","body":"Parks and Recreation Committee","location":"Council Chambers","has_agenda":true,"agenda_url":"https://allentownpa.legistar1.com/allentownpa/meetings/2026/2/4901_A_Parks_and_Recreation_Committee_26-02-04_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-04","body":"Community and Economic Development Committee","location":"Council Chambers","has_agenda":true,"agenda_url":"https://allentownpa.legistar1.com/allentownpa/meetings/2026/2/4902_A_Community_and_Economic_Development_Committee_26-02-04_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-04","body":"City Council","location":"Council Chambers","has_agenda":true,"agenda_url":"https://allentownpa.legistar1.com/allentownpa/meetings/2026/2/4898_A_City_Council_26-02-04_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false}],"recent_legislation":[{"title":"Friday, December 5th, 2025","type":"Minutes","status":"Agenda Ready","intro_date":"2026-02-05","file_number":"15-8226","passed_date":null},{"title":"Friday, January 9, 2026","type":"Minutes","status":"Agenda Ready","intro_date":"2026-02-05","file_number":"15-8228","passed_date":null},{"title":"Friday, December 12, 2025","type":"Minutes","status":"Agenda Ready","intro_date":"2026-02-05","file_number":"15-8227","passed_date":null},{"title":"R\r\n943-951 W Chew Street (HARB)","type":"Resolution","status":"Agenda Ready","intro_date":"2026-02-05","file_number":"15-8229","passed_date":null},{"title":"A RESOLUTION OF CITY OF ALLENTOWN, COUNTY OF LEHIGH, COMMONWEALTH OF PENNSYLVANIA, APPROVING THE INTERMUNICIPAL TRANSFER OF LIQUOR LICENSE NUMBER R-21060 TO THE FELIX RESTAURANT LLC, 395 S. CEDAR CRES","type":"Resolution","status":"Agenda Ready","intro_date":"2026-02-03","file_number":"15-8222","passed_date":null},{"title":"1. A-2025-00620 640 N 2nd St CONT\u2019D FROM 1/26/26 Appeal of Zahid Mohammad for Antonio Silva to use a vacant sewing factory as a graphic design office, with use not permitted, located in a Medium High ","type":"Zoning Commission Case","status":"Agenda Ready","intro_date":"2026-02-02","file_number":"15-8218","passed_date":null},{"title":"4. A-2025-00791 807 N Lacrosse St CONT\u2019D FROM 1/26/26 Special Use Application and Appeal of Jenmy Tavarez to expand existing FAMILY CHILDCARE HOME to GROUP CHILDCARE HOME, with insuff off-street parki","type":"Zoning Commission Case","status":"Agenda Ready","intro_date":"2026-02-02","file_number":"15-8221","passed_date":null},{"title":"2. A-2025-00625 214 N 8th St CON\u2019TD FROM 1/26/26. Special Use Application and Appeal of ECB Property Holdings, LLC to CONVERT VACANT OFFICE TO LARGE GROUP HOME, with use permitted by special exception","type":"Zoning Commission Case","status":"Agenda Ready","intro_date":"2026-02-02","file_number":"15-8219","passed_date":null},{"title":"3. A-2025-00749   213 E Tioga St   Appeal of Axel Coss for VARIANCE to maintain the parking of tractor trailer truck cabs within a residential property and district; with use and parking not being per","type":"Zoning Commission Case","status":"Agenda Ready","intro_date":"2026-02-02","file_number":"15-8220","passed_date":null},{"title":"R13\r\nAuthorizes the submission of a Formal Application for funding from the Pennsylvania Department of Transportation Multimodal Transportation Fund Grant (MTF-PennDOT) Grant Services in the amount of","type":"Resolution","status":"Passed","intro_date":"2026-01-30","file_number":"15-8216","passed_date":"2026-02-04"}],"legistar_url":"https://allentownpa.legistar.com","enriched_at":"2026-02-12T18:51:44.381650","government_news":[],"video_meetings":[],"data_platforms":["legistar"]}
+{
+  "schema_version": "5.0",
+  "normalized_at": "2026-02-10T14:21:48.943345",
+  "identity": {
+    "name": "Allentown",
+    "state": "PA",
+    "fips_state": "42",
+    "fips_place": "02000",
+    "population": 125292
+  },
+  "city_website": "https://www.allentownpa.gov",
+  "economy": {
+    "median_household_income": 52449,
+    "median_home_value": 168800,
+    "unemployment_rate": 3.94,
+    "unemployment_data_level": "county",
+    "labor_force": 32468,
+    "employed": 31183,
+    "unemployed": 1284,
+    "gini_index": null,
+    "poverty_rate": 21.4,
+    "homeownership_rate": 42.31,
+    "rent_to_income_ratio": 27.5,
+    "home_value_to_income_ratio": 3.22,
+    "price_to_rent_ratio": 11.7,
+    "effective_tax_rate": 25.109,
+    "population_growth_cagr": 0.6155,
+    "median_real_estate_taxes": 3532
+  },
+  "safety": {
+    "violent_crime_rate": null,
+    "property_crime_rate": null,
+    "murder_rate": null,
+    "robbery_rate": null,
+    "burglary_rate": null,
+    "vehicle_theft_rate": null,
+    "total_crime_rate": null,
+    "crime_trend": null,
+    "crime_data_level": null
+  },
+  "education": {
+    "total_schools": 2956,
+    "total_enrollment": 1672695,
+    "pupil_teacher_ratio": 13.9,
+    "title1_pct": 0.0,
+    "charter_pct": 6.2,
+    "regular_schools": 2861,
+    "avg_school_rating": null,
+    "rated_schools": null,
+    "school_quality_tier": null
+  },
+  "environment": {
+    "pm25_mean": 9.7927,
+    "ozone_mean": 0.0446,
+    "total_disasters": 18,
+    "avg_disasters_per_decade": 2.6,
+    "most_recent_disaster": "2020-03-30",
+    "most_recent_disaster_type": "Biological",
+    "disasters_by_type": {
+      "Hurricane": 4,
+      "Flood": 4,
+      "Severe Storm": 4,
+      "Snowstorm": 3,
+      "Biological": 2,
+      "Drought": 1
+    }
+  },
+  "housing": {
+    "median_rent": 1202,
+    "housing_units": 49156,
+    "fmr_0br": 1130,
+    "fmr_1br": 1341,
+    "fmr_2br": 1634,
+    "fmr_3br": 2087,
+    "fmr_4br": 2195,
+    "rent_burden_ratio": 37.4,
+    "cost_burdened_pct": 55.21,
+    "severely_burdened_pct": 29.6
+  },
+  "governance": {
+    "legislative_volume": 7187,
+    "legislative_velocity": 198.0,
+    "committee_count": 51,
+    "years_of_legislative_data": 36.3,
+    "has_public_meetings": true,
+    "api_accessible": true,
+    "matter_types": {
+      "Resolution": 336,
+      "Discussion": 254,
+      "Ordinance": 161,
+      "Minutes": 142,
+      "Zoning Commission Case": 97,
+      "Communication": 10
+    },
+    "top_matter_type": "Resolution",
+    "matter_statuses": {
+      "Agenda Ready": 504,
+      "Passed": 488,
+      "Reported to Council": 4,
+      "Withdrawn": 2,
+      "Failed": 2
+    },
+    "pass_rate": 33.3,
+    "passed_count": 2395,
+    "active_council_members": 7,
+    "avg_tenure_years": 4.5,
+    "vote_coverage_pct": 0.0,
+    "video_availability_pct": 0.0,
+    "agenda_availability_pct": 96.8,
+    "minutes_availability_pct": 25.6,
+    "avg_meetings_per_month": 18.5,
+    "meetings_by_year": {
+      "2026": 29,
+      "2025": 228,
+      "2024": 216,
+      "2023": 27
+    },
+    "avg_sponsors_per_matter": 0.1,
+    "avg_attachments_per_matter": 1.1,
+    "pct_with_text_versions": 100.0,
+    "index_categories": [
+      "ANIZDA Appointments",
+      "Adaptive Re-Use Application",
+      "Appointments",
+      "Board of Health Proposition",
+      "Board of Recreation Agendas",
+      "Business Licensing",
+      "Contracts",
+      "Hamilton Street Overlay District Reviews",
+      "Health Board Appointments",
+      "Land Development",
+      "Land Development/Subdivision",
+      "Minor Land Development",
+      "Minor Subdivisions",
+      "Rezoning",
+      "Sewage Planning Module",
+      "Sidewalk Construction Postponement Request",
+      "Street Vacations",
+      "Subdivision",
+      "Zoning Amendments"
+    ],
+    "has_accela": false,
+    "accela_agency_id": null
+  },
+  "development": {
+    "permits_12mo": null,
+    "yoy_trend_pct": null,
+    "avg_permit_value": null,
+    "permit_types": {},
+    "datasets_count": 0
+  },
+  "meetings": {
+    "official_channels": 0,
+    "meetings_indexed": null,
+    "avg_meetings_per_month": null,
+    "has_video_archive": false,
+    "meeting_types": {},
+    "transcripts_available": null
+  },
+  "civic_issues": {
+    "total_issues": null,
+    "issues_last_30d": null,
+    "issues_last_365d": null,
+    "resolution_rate": null,
+    "top_issue_type": null,
+    "type_distribution": {},
+    "has_civic_issue_tracking": false
+  },
+  "demographics": {
+    "population": 125292,
+    "poverty_universe": 119904,
+    "employment_universe": 98036
+  },
+  "time_series": {
+    "economy_history": [
+      {
+        "year": 2024,
+        "unemployment_rate": 3.94,
+        "labor_force": 32468,
+        "employed": 31183,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2023,
+        "unemployment_rate": 4.25,
+        "labor_force": 32329,
+        "employed": 30957,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2022,
+        "unemployment_rate": 4.9,
+        "labor_force": 32124,
+        "employed": 30552,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2021,
+        "unemployment_rate": 6.3,
+        "labor_force": 31760,
+        "employed": 29756,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2020,
+        "unemployment_rate": 9.61,
+        "labor_force": 31647,
+        "employed": 28616,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2019,
+        "unemployment_rate": 5.35,
+        "labor_force": 32044,
+        "employed": 30327,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2018,
+        "unemployment_rate": 5.24,
+        "labor_force": 31610,
+        "employed": 29950,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2017,
+        "unemployment_rate": 5.69,
+        "labor_force": 31457,
+        "employed": 29670,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2016,
+        "unemployment_rate": 5.94,
+        "labor_force": 31529,
+        "employed": 29653,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2015,
+        "unemployment_rate": 6.2,
+        "labor_force": 31737,
+        "employed": 29768,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      }
+    ],
+    "safety_history": [],
+    "environment_history": [
+      {
+        "year": 2023,
+        "pm25_mean": 9.7927,
+        "ozone_mean": 0.0446,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2022,
+        "pm25_mean": 7.9899,
+        "ozone_mean": 0.042,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2021,
+        "pm25_mean": 8.8608,
+        "ozone_mean": 0.0417,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2020,
+        "pm25_mean": 7.6624,
+        "ozone_mean": 0.0407,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2019,
+        "pm25_mean": 8.288,
+        "ozone_mean": 0.043,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2018,
+        "pm25_mean": 9.0356,
+        "ozone_mean": 0.0416,
+        "data_level": "county",
+        "source": "epa_aqs"
+      }
+    ]
+  },
+  "data_sources": {
+    "legistar": "available",
+    "socrata": "available",
+    "census_acs": "available",
+    "arcgis": "available",
+    "fbi_ucr": "available",
+    "socrata_crime": "available",
+    "bls_laus": "available",
+    "ca_edd": "skipped",
+    "epa_aqs": "available",
+    "nces_ccd": "available",
+    "hud_fmr": "available",
+    "fema_openfema": "available",
+    "greatschools": "available",
+    "permits": "skipped",
+    "youtube_meetings": "skipped",
+    "seeclickfix": "skipped",
+    "accela": "available"
+  },
+  "provenance": {
+    "last_full_probe": "2026-02-09T20:32:04.287980",
+    "sources": {
+      "legistar": {
+        "authority": "Legistar by Granicus",
+        "authority_tier": 1,
+        "api_url": "https://webapi.legistar.com/v1/allentownpa/Bodies",
+        "probed_at": "2026-02-09T20:32:04.288184",
+        "data_vintage": "2010–2026",
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "socrata": {
+        "authority": "City Open Data Portals (Socrata/Tyler Data & Insights)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-09T20:34:01.767928",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "census_acs": {
+        "authority": "US Census Bureau",
+        "authority_tier": 1,
+        "api_url": "https://api.census.gov/data/2022/acs/acs5?get=NAME,B01001_001E,B19013_001E,B25077_001E,B25064_001E,B25001_001E&for=place:02000&in=state:42",
+        "probed_at": "2026-02-09T20:34:01.769358",
+        "data_vintage": "ACS 5-Year 2022",
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "arcgis": {
+        "authority": "City ArcGIS/GIS Portals",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-09T20:34:06.189001",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "fbi_ucr": {
+        "authority": "FBI Uniform Crime Reporting Program",
+        "authority_tier": 1,
+        "api_url": "https://api.usa.gov/crime/fbi/sapi/api/estimates/states/PA/2015/2022",
+        "probed_at": "2026-02-09T20:34:07.583663",
+        "data_vintage": null,
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "bls_laus": {
+        "authority": "Bureau of Labor Statistics",
+        "authority_tier": 1,
+        "api_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/LAUST420000000000003",
+        "probed_at": "2026-02-09T20:34:07.942185",
+        "data_vintage": "LAUS 2024",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "epa_aqs": {
+        "authority": "US Environmental Protection Agency",
+        "authority_tier": 1,
+        "api_url": "https://aqs.epa.gov/data/api/annualData/byState?state=42&param=88101",
+        "probed_at": "2026-02-09T20:34:09.193554",
+        "data_vintage": "AQS 2023",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "nces_ccd": {
+        "authority": "National Center for Education Statistics",
+        "authority_tier": 1,
+        "api_url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=42",
+        "probed_at": "2026-02-09T20:35:14.790146",
+        "data_vintage": "2022-2023 academic year",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "hud_fmr": {
+        "authority": "US Department of Housing and Urban Development",
+        "authority_tier": 1,
+        "api_url": "https://www.huduser.gov/hudapi/public/fmr/statedata/PA",
+        "probed_at": "2026-02-09T20:35:21.857521",
+        "data_vintage": "FY2026",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "fema_openfema": {
+        "authority": "Federal Emergency Management Agency",
+        "authority_tier": 1,
+        "api_url": "https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries?$filter=state eq 'PA'",
+        "probed_at": "2026-02-09T20:35:22.810027",
+        "data_vintage": "1953-present",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "greatschools": {
+        "authority": "GreatSchools.org (nonprofit)",
+        "authority_tier": 3,
+        "api_url": null,
+        "probed_at": "2026-02-09T20:35:23.061032",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "permits": {
+        "authority": "City Open Data Portals (Socrata)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-09T20:35:23.418592",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "youtube_meetings": {
+        "authority": "YouTube (via SerpAPI search + youtube-transcript-api)",
+        "authority_tier": 3,
+        "api_url": null,
+        "probed_at": "2026-02-09T20:35:23.426907",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "seeclickfix": {
+        "authority": "SeeClickFix (civic issue tracking platform)",
+        "authority_tier": 3,
+        "api_url": "https://seeclickfix.com/api/v2/issues?place_url=allentownpa",
+        "probed_at": "2026-02-09T20:35:33.446632",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "accela": {
+        "authority": "Accela (permit management platform)",
+        "authority_tier": 3,
+        "api_url": "https://apis.accela.com/v4/agencies",
+        "probed_at": "2026-02-09T20:35:33.631630",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "socrata_crime": {
+        "authority": "City Open Data Portals (Socrata)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-09T20:34:07.941522",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      }
+    },
+    "derived_fields": {
+      "safety.total_crime_rate": {
+        "formula": "violent_crime_rate + property_crime_rate",
+        "inputs": [
+          "safety.violent_crime_rate",
+          "safety.property_crime_rate"
+        ],
+        "formula_location": "score/normalizer.py:_derive_total_crime",
+        "authority_tier": 2
+      },
+      "safety.crime_trend": {
+        "formula": "(last_year_rate - first_year_rate) / years_span",
+        "inputs": [
+          "fbi.time_series[].violent_crime_rate"
+        ],
+        "formula_location": "score/normalizer.py:_build_safety",
+        "authority_tier": 2
+      },
+      "education.school_quality_tier": {
+        "formula": "excellent if avg>=8, good if avg>=6, fair if avg>=4, else poor",
+        "inputs": [
+          "education.avg_school_rating"
+        ],
+        "formula_location": "score/normalizer.py:_build_education",
+        "authority_tier": 3
+      },
+      "environment.avg_disasters_per_decade": {
+        "formula": "total_disasters / (years_span / 10)",
+        "inputs": [
+          "environment.total_disasters"
+        ],
+        "formula_location": "probe/fema_probe.py",
+        "authority_tier": 2
+      },
+      "housing.rent_burden_ratio": {
+        "formula": "(fmr_2br * 12) / median_household_income * 100",
+        "inputs": [
+          "housing.fmr_2br",
+          "economy.median_household_income"
+        ],
+        "formula_location": "score/normalizer.py:_build_housing",
+        "authority_tier": 2
+      },
+      "governance.legislative_velocity": {
+        "formula": "legislative_volume / years_of_legislative_data",
+        "inputs": [
+          "governance.legislative_volume",
+          "governance.years_of_legislative_data"
+        ],
+        "formula_location": "score/normalizer.py:_build_governance",
+        "authority_tier": 2
+      },
+      "development.yoy_trend_pct": {
+        "formula": "(current_year - prior_year) / prior_year * 100",
+        "inputs": [
+          "permit data from Socrata"
+        ],
+        "formula_location": "probe/permits_probe.py",
+        "authority_tier": 2
+      }
+    },
+    "geographic_mismatches": [
+      {
+        "field": "identity.fips_state",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "state-level data applied to city profile"
+      },
+      {
+        "field": "economy.unemployment_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Reflects statewide unemployment, not city-specific rate"
+      },
+      {
+        "field": "economy.labor_force",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: This is the full state labor force, not city-level"
+      },
+      {
+        "field": "economy.employed",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "economy.unemployed",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.violent_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: City-level requires ORI codes not currently used"
+      },
+      {
+        "field": "safety.property_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.murder_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.robbery_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.burglary_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.vehicle_theft_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.total_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA; derived sum"
+      },
+      {
+        "field": "safety.crime_trend",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "state-level data applied to city profile"
+      },
+      {
+        "field": "education.total_schools",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Count includes all schools in the state, not city"
+      },
+      {
+        "field": "education.total_enrollment",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.pupil_teacher_ratio",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Average across all state schools"
+      },
+      {
+        "field": "education.title1_pct",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.charter_pct",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.regular_schools",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.pm25_mean",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE/COUNTY-LEVEL: Averaged across all monitors in the state"
+      },
+      {
+        "field": "environment.ozone_mean",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE/COUNTY-LEVEL"
+      },
+      {
+        "field": "environment.total_disasters",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: All declarations for the state, not city-specific"
+      },
+      {
+        "field": "environment.avg_disasters_per_decade",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.most_recent_disaster",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.most_recent_disaster_type",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "housing.fmr_0br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR: Fair Market Rents at state level, not city-specific metro area"
+      },
+      {
+        "field": "housing.fmr_1br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_2br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_3br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_4br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.rent_burden_ratio",
+        "source_level": "mixed",
+        "profile_level": "place",
+        "note": "GEOGRAPHIC MISMATCH: FMR is state-level (HUD), income is city-level (Census). Ratio may be biased."
+      }
+    ]
+  },
+  "data_quality": {
+    "quality_score": 85.7,
+    "grade": "B",
+    "completeness_pct": 85.7,
+    "issue_count": 6,
+    "granularity_flags": 2
+  },
+  "officials": {
+    "body_name": "City Council",
+    "members": [
+      {
+        "name": "Candida Affa",
+        "email": null,
+        "title": "Council Member",
+        "start_date": "2016-01-01",
+        "committees": [
+          "Allentown Parking Authority"
+        ]
+      },
+      {
+        "name": "Ce-Ce Gerlach",
+        "email": null,
+        "title": "Council Member",
+        "start_date": "2020-01-01"
+      },
+      {
+        "name": "Cristian Pungo",
+        "email": null,
+        "title": "Council Member",
+        "start_date": "2026-01-05"
+      },
+      {
+        "name": "Cynthia Mota",
+        "email": "Cynthia.Mota@allentownpa.gov",
+        "title": "Council Member",
+        "start_date": "2018-01-17",
+        "committees": [
+          "Community and Economic Development Committee"
+        ]
+      },
+      {
+        "name": "Jeremy Binder",
+        "email": null,
+        "title": "Council Member",
+        "start_date": "2026-01-05"
+      },
+      {
+        "name": "Natalie Santos",
+        "email": null,
+        "title": "Council Member",
+        "start_date": "2022-01-03"
+      },
+      {
+        "name": "Santo Napoli",
+        "email": null,
+        "title": "Council Member",
+        "start_date": "2023-01-04"
+      }
+    ]
+  },
+  "recent_meetings": [
+    {
+      "date": "2026-02-16",
+      "body": "Zoning Hearing Board",
+      "location": "Council Chambers\r\nhttps://rebrand.ly/ZHB-FEBRUARY-16\r\n(717) 740-2323\r\nConference ID: 814 833 714#",
+      "has_agenda": true,
+      "agenda_url": "https://allentownpa.legistar1.com/allentownpa/meetings/2026/2/4910_A_Zoning_Hearing_Board_26-02-16_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-11",
+      "body": "Redevelopment Authority",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://allentownpa.legistar1.com/allentownpa/meetings/2026/2/4919_A_Redevelopment_Authority__26-02-11_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "Planning Commission",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://allentownpa.legistar1.com/allentownpa/meetings/2026/2/4893_A_Planning_Commission_26-02-10_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-09",
+      "body": "Environmental Advisory Council",
+      "location": "Virtually through Google Meet",
+      "has_agenda": true,
+      "agenda_url": "https://allentownpa.legistar1.com/allentownpa/meetings/2026/2/4927_A_Environmental_Advisory_Council_26-02-09_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-06",
+      "body": "Civil Service Board",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://allentownpa.legistar1.com/allentownpa/meetings/2026/2/4920_A_Civil_Service_Board_26-02-06_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-05",
+      "body": "Human Relations Commission",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://allentownpa.legistar1.com/allentownpa/meetings/2026/2/4892_A_Human_Relations_Commission__26-02-05_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-05",
+      "body": "Recreation Board",
+      "location": "Bucky Boyle Training Room, 10 Pump Pl",
+      "has_agenda": true,
+      "agenda_url": "https://allentownpa.legistar1.com/allentownpa/meetings/2026/2/4888_A_Recreation_Board_26-02-05_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-04",
+      "body": "Arts Commission",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://allentownpa.legistar1.com/allentownpa/meetings/2026/2/4913_A_Arts_Commission__26-02-04_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-04",
+      "body": "Parks and Recreation Committee",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://allentownpa.legistar1.com/allentownpa/meetings/2026/2/4901_A_Parks_and_Recreation_Committee_26-02-04_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-04",
+      "body": "Community and Economic Development Committee",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://allentownpa.legistar1.com/allentownpa/meetings/2026/2/4902_A_Community_and_Economic_Development_Committee_26-02-04_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-04",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://allentownpa.legistar1.com/allentownpa/meetings/2026/2/4898_A_City_Council_26-02-04_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Friday, December 5th, 2025",
+      "type": "Minutes",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-05",
+      "file_number": "15-8226",
+      "passed_date": null
+    },
+    {
+      "title": "Friday, January 9, 2026",
+      "type": "Minutes",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-05",
+      "file_number": "15-8228",
+      "passed_date": null
+    },
+    {
+      "title": "Friday, December 12, 2025",
+      "type": "Minutes",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-05",
+      "file_number": "15-8227",
+      "passed_date": null
+    },
+    {
+      "title": "R\r\n943-951 W Chew Street (HARB)",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-05",
+      "file_number": "15-8229",
+      "passed_date": null
+    },
+    {
+      "title": "A RESOLUTION OF CITY OF ALLENTOWN, COUNTY OF LEHIGH, COMMONWEALTH OF PENNSYLVANIA, APPROVING THE INTERMUNICIPAL TRANSFER OF LIQUOR LICENSE NUMBER R-21060 TO THE FELIX RESTAURANT LLC, 395 S. CEDAR CRES",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-03",
+      "file_number": "15-8222",
+      "passed_date": null
+    },
+    {
+      "title": "1. A-2025-00620 640 N 2nd St CONT’D FROM 1/26/26 Appeal of Zahid Mohammad for Antonio Silva to use a vacant sewing factory as a graphic design office, with use not permitted, located in a Medium High ",
+      "type": "Zoning Commission Case",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-02",
+      "file_number": "15-8218",
+      "passed_date": null
+    },
+    {
+      "title": "4. A-2025-00791 807 N Lacrosse St CONT’D FROM 1/26/26 Special Use Application and Appeal of Jenmy Tavarez to expand existing FAMILY CHILDCARE HOME to GROUP CHILDCARE HOME, with insuff off-street parki",
+      "type": "Zoning Commission Case",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-02",
+      "file_number": "15-8221",
+      "passed_date": null
+    },
+    {
+      "title": "2. A-2025-00625 214 N 8th St CON’TD FROM 1/26/26. Special Use Application and Appeal of ECB Property Holdings, LLC to CONVERT VACANT OFFICE TO LARGE GROUP HOME, with use permitted by special exception",
+      "type": "Zoning Commission Case",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-02",
+      "file_number": "15-8219",
+      "passed_date": null
+    },
+    {
+      "title": "3. A-2025-00749   213 E Tioga St   Appeal of Axel Coss for VARIANCE to maintain the parking of tractor trailer truck cabs within a residential property and district; with use and parking not being per",
+      "type": "Zoning Commission Case",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-02",
+      "file_number": "15-8220",
+      "passed_date": null
+    },
+    {
+      "title": "R13\r\nAuthorizes the submission of a Formal Application for funding from the Pennsylvania Department of Transportation Multimodal Transportation Fund Grant (MTF-PennDOT) Grant Services in the amount of",
+      "type": "Resolution",
+      "status": "Passed",
+      "intro_date": "2026-01-30",
+      "file_number": "15-8216",
+      "passed_date": "2026-02-04"
+    }
+  ],
+  "legistar_url": "https://allentownpa.legistar.com",
+  "enriched_at": "2026-02-12T18:51:44.381650",
+  "government_news": [],
+  "video_meetings": [],
+  "data_platforms": [
+    "legistar"
+  ]
+}

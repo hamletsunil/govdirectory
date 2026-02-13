@@ -1,1 +1,951 @@
-{"schema_version":"5.0","normalized_at":"2026-02-10T14:21:49.053858","identity":{"name":"Northport","state":"AL","fips_state":"01","fips_place":"55200","population":30714},"economy":{"median_household_income":72286,"median_home_value":239800,"unemployment_rate":2.99,"unemployment_data_level":"county","labor_force":5922,"employed":5744,"unemployed":177,"gini_index":null,"poverty_rate":14.36,"homeownership_rate":62.01,"rent_to_income_ratio":15.54,"home_value_to_income_ratio":3.32,"price_to_rent_ratio":21.35,"effective_tax_rate":3.9983,"population_growth_cagr":2.6121,"median_real_estate_taxes":799},"safety":{"violent_crime_rate":null,"property_crime_rate":null,"murder_rate":null,"robbery_rate":null,"burglary_rate":null,"vehicle_theft_rate":null,"total_crime_rate":null,"crime_trend":null,"crime_data_level":null},"education":{"total_schools":1528,"total_enrollment":750469,"pupil_teacher_ratio":18.0,"title1_pct":0.0,"charter_pct":1.2,"regular_schools":1367,"avg_school_rating":null,"rated_schools":null,"school_quality_tier":null},"environment":{"pm25_mean":8.0493,"ozone_mean":0.0444,"total_disasters":24,"avg_disasters_per_decade":4.8,"most_recent_disaster":"2024-09-26","most_recent_disaster_type":"Hurricane","disasters_by_type":{"Hurricane":9,"Severe Storm":8,"Flood":3,"Biological":2,"Snowstorm":1,"Drought":1}},"housing":{"median_rent":936,"housing_units":12619,"fmr_0br":576,"fmr_1br":591,"fmr_2br":776,"fmr_3br":1024,"fmr_4br":1027,"rent_burden_ratio":12.9,"cost_burdened_pct":41.5,"severely_burdened_pct":19.18},"governance":{"legislative_volume":13281,"legislative_velocity":1125.5,"committee_count":29,"years_of_legislative_data":11.8,"has_public_meetings":true,"api_accessible":true,"matter_types":{"General Business":223,"Report":163,"1st Hearing Case":157,"Consent Agenda":147,"2nd Hearing Case":65,"Minutes":56,"Resolution":42,"Ceremonial Item":34,"Announcement":32,"Continued Case":21,"Presentation":20,"Ordinance":16,"Petition":9,"Unfinished Business":7,"New Employee":6,"Updates":2},"top_matter_type":"General Business","matter_statuses":{"Passed":352,"Agenda Ready":324,"Draft":319,"Failed":4,"Second Reading":1},"pass_rate":33.3,"passed_count":4427,"active_council_members":5,"avg_tenure_years":1.8,"vote_coverage_pct":0.0,"video_availability_pct":0.0,"agenda_availability_pct":80.8,"minutes_availability_pct":70.2,"avg_meetings_per_month":19.6,"meetings_by_year":{"2026":26,"2025":230,"2024":241,"2023":3},"avg_sponsors_per_matter":0.0,"avg_attachments_per_matter":0.7,"pct_with_text_versions":100.0,"index_categories":[],"has_accela":false,"accela_agency_id":null},"development":{"permits_12mo":null,"yoy_trend_pct":null,"avg_permit_value":null,"permit_types":{},"datasets_count":0},"meetings":{"official_channels":1,"meetings_indexed":24,"avg_meetings_per_month":1.2,"has_video_archive":true,"meeting_types":{"city_council":24},"transcripts_available":0},"civic_issues":{"total_issues":398,"issues_last_30d":4,"issues_last_365d":11,"resolution_rate":96.0,"top_issue_type":"Code Violation (Overgrown Lot/Junk)","type_distribution":{"Code Violation (Overgrown Lot/Junk)":7,"Unknown":3,"Inspections - Residential or Commercial":3,"Water Services":1,"Storm Drain Maintenance":1,"Addressing and Zoning Information":1},"has_civic_issue_tracking":true},"demographics":{"population":30714,"poverty_universe":29760,"employment_universe":23902},"time_series":{"economy_history":[{"year":2024,"unemployment_rate":2.99,"labor_force":5922,"employed":5744,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2023,"unemployment_rate":2.41,"labor_force":5867,"employed":5727,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2022,"unemployment_rate":2.28,"labor_force":6025,"employed":5888,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2021,"unemployment_rate":2.77,"labor_force":5957,"employed":5793,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2020,"unemployment_rate":4.57,"labor_force":6041,"employed":5766,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2019,"unemployment_rate":3.32,"labor_force":6067,"employed":5866,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2018,"unemployment_rate":3.98,"labor_force":5997,"employed":5758,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2017,"unemployment_rate":4.66,"labor_force":5794,"employed":5526,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2016,"unemployment_rate":6.07,"labor_force":5616,"employed":5276,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2015,"unemployment_rate":6.14,"labor_force":5587,"employed":5244,"data_level":"county","source":"bls_laus","is_partial_year":false}],"safety_history":[],"environment_history":[{"year":2023,"pm25_mean":8.0493,"ozone_mean":0.0444,"data_level":"county","source":"epa_aqs"},{"year":2022,"pm25_mean":6.8809,"ozone_mean":0.0412,"data_level":"county","source":"epa_aqs"},{"year":2021,"pm25_mean":6.8073,"ozone_mean":0.0388,"data_level":"county","source":"epa_aqs"},{"year":2020,"pm25_mean":6.8352,"ozone_mean":0.0378,"data_level":"county","source":"epa_aqs"},{"year":2019,"pm25_mean":7.5505,"ozone_mean":0.0425,"data_level":"county","source":"epa_aqs"},{"year":2018,"pm25_mean":7.0118,"ozone_mean":0.0415,"data_level":"county","source":"epa_aqs"}]},"data_sources":{"legistar":"available","socrata":"available","census_acs":"available","arcgis":"available","fbi_ucr":"available","socrata_crime":"available","bls_laus":"available","ca_edd":"skipped","epa_aqs":"available","nces_ccd":"available","hud_fmr":"available","fema_openfema":"available","greatschools":"available","permits":"skipped","youtube_meetings":"available","seeclickfix":"available","accela":"available"},"provenance":{"last_full_probe":"2026-02-09T23:59:27.804576","sources":{"legistar":{"authority":"Legistar by Granicus","authority_tier":1,"api_url":"https://webapi.legistar.com/v1/cityofnorthport/Bodies","probed_at":"2026-02-09T23:59:27.805269","data_vintage":"2011\u20132026","geographic_level":"place","status":"available"},"socrata":{"authority":"City Open Data Portals (Socrata/Tyler Data & Insights)","authority_tier":1,"api_url":null,"probed_at":"2026-02-10T00:01:12.583622","data_vintage":null,"geographic_level":"place","status":"available"},"census_acs":{"authority":"US Census Bureau","authority_tier":1,"api_url":"https://api.census.gov/data/2022/acs/acs5?get=NAME,B01001_001E,B19013_001E,B25077_001E,B25064_001E,B25001_001E&for=place:55200&in=state:01","probed_at":"2026-02-10T00:01:23.297428","data_vintage":"ACS 5-Year 2022","geographic_level":"place","status":"available"},"arcgis":{"authority":"City ArcGIS/GIS Portals","authority_tier":1,"api_url":null,"probed_at":"2026-02-10T00:01:26.651342","data_vintage":null,"geographic_level":"place","status":"available"},"fbi_ucr":{"authority":"FBI Uniform Crime Reporting Program","authority_tier":1,"api_url":"https://api.usa.gov/crime/fbi/sapi/api/estimates/states/AL/2015/2022","probed_at":"2026-02-10T00:01:27.869597","data_vintage":null,"geographic_level":"state","status":"available"},"bls_laus":{"authority":"Bureau of Labor Statistics","authority_tier":1,"api_url":"https://api.bls.gov/publicAPI/v2/timeseries/data/LAUST010000000000003","probed_at":"2026-02-10T00:01:28.073026","data_vintage":"LAUS 2024","geographic_level":"state","status":"available"},"epa_aqs":{"authority":"US Environmental Protection Agency","authority_tier":1,"api_url":"https://aqs.epa.gov/data/api/annualData/byState?state=01&param=88101","probed_at":"2026-02-10T00:01:29.305758","data_vintage":"AQS 2023","geographic_level":"state","status":"available"},"nces_ccd":{"authority":"National Center for Education Statistics","authority_tier":1,"api_url":"https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=01","probed_at":"2026-02-10T00:02:28.930397","data_vintage":"2022-2023 academic year","geographic_level":"state","status":"available"},"hud_fmr":{"authority":"US Department of Housing and Urban Development","authority_tier":1,"api_url":"https://www.huduser.gov/hudapi/public/fmr/statedata/AL","probed_at":"2026-02-10T00:02:37.388226","data_vintage":"FY2026","geographic_level":"state","status":"available"},"fema_openfema":{"authority":"Federal Emergency Management Agency","authority_tier":1,"api_url":"https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries?$filter=state eq 'AL'","probed_at":"2026-02-10T00:02:38.024448","data_vintage":"1953-present","geographic_level":"state","status":"available"},"greatschools":{"authority":"GreatSchools.org (nonprofit)","authority_tier":3,"api_url":null,"probed_at":"2026-02-10T00:02:38.326618","data_vintage":null,"geographic_level":"place","status":"available"},"permits":{"authority":"City Open Data Portals (Socrata)","authority_tier":1,"api_url":null,"probed_at":"2026-02-10T00:02:38.674045","data_vintage":null,"geographic_level":"place","status":"skipped"},"youtube_meetings":{"authority":"YouTube (via SerpAPI search + youtube-transcript-api)","authority_tier":3,"api_url":null,"probed_at":"2026-02-10T00:02:38.675193","data_vintage":null,"geographic_level":"place","status":"available"},"seeclickfix":{"authority":"SeeClickFix (civic issue tracking platform)","authority_tier":3,"api_url":"https://seeclickfix.com/api/v2/issues?place_url=cityofnorthport","probed_at":"2026-02-10T00:04:39.596863","data_vintage":null,"geographic_level":"place","status":"available"},"accela":{"authority":"Accela (permit management platform)","authority_tier":3,"api_url":"https://apis.accela.com/v4/agencies","probed_at":"2026-02-10T00:04:46.214475","data_vintage":null,"geographic_level":"place","status":"available"},"socrata_crime":{"authority":"City Open Data Portals (Socrata)","authority_tier":1,"api_url":null,"probed_at":"2026-02-10T00:01:28.072369","data_vintage":null,"geographic_level":"place","status":"available"}},"derived_fields":{"safety.total_crime_rate":{"formula":"violent_crime_rate + property_crime_rate","inputs":["safety.violent_crime_rate","safety.property_crime_rate"],"formula_location":"score/normalizer.py:_derive_total_crime","authority_tier":2},"safety.crime_trend":{"formula":"(last_year_rate - first_year_rate) / years_span","inputs":["fbi.time_series[].violent_crime_rate"],"formula_location":"score/normalizer.py:_build_safety","authority_tier":2},"education.school_quality_tier":{"formula":"excellent if avg>=8, good if avg>=6, fair if avg>=4, else poor","inputs":["education.avg_school_rating"],"formula_location":"score/normalizer.py:_build_education","authority_tier":3},"environment.avg_disasters_per_decade":{"formula":"total_disasters / (years_span / 10)","inputs":["environment.total_disasters"],"formula_location":"probe/fema_probe.py","authority_tier":2},"housing.rent_burden_ratio":{"formula":"(fmr_2br * 12) / median_household_income * 100","inputs":["housing.fmr_2br","economy.median_household_income"],"formula_location":"score/normalizer.py:_build_housing","authority_tier":2},"governance.legislative_velocity":{"formula":"legislative_volume / years_of_legislative_data","inputs":["governance.legislative_volume","governance.years_of_legislative_data"],"formula_location":"score/normalizer.py:_build_governance","authority_tier":2},"development.yoy_trend_pct":{"formula":"(current_year - prior_year) / prior_year * 100","inputs":["permit data from Socrata"],"formula_location":"probe/permits_probe.py","authority_tier":2}},"geographic_mismatches":[{"field":"identity.fips_state","source_level":"state","profile_level":"place","note":"state-level data applied to city profile"},{"field":"economy.unemployment_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Reflects statewide unemployment, not city-specific rate"},{"field":"economy.labor_force","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: This is the full state labor force, not city-level"},{"field":"economy.employed","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"economy.unemployed","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.violent_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: City-level requires ORI codes not currently used"},{"field":"safety.property_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.murder_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.robbery_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.burglary_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.vehicle_theft_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.total_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA; derived sum"},{"field":"safety.crime_trend","source_level":"state","profile_level":"place","note":"state-level data applied to city profile"},{"field":"education.total_schools","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Count includes all schools in the state, not city"},{"field":"education.total_enrollment","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.pupil_teacher_ratio","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Average across all state schools"},{"field":"education.title1_pct","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.charter_pct","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.regular_schools","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.pm25_mean","source_level":"state","profile_level":"place","note":"STATE/COUNTY-LEVEL: Averaged across all monitors in the state"},{"field":"environment.ozone_mean","source_level":"state","profile_level":"place","note":"STATE/COUNTY-LEVEL"},{"field":"environment.total_disasters","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: All declarations for the state, not city-specific"},{"field":"environment.avg_disasters_per_decade","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.most_recent_disaster","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.most_recent_disaster_type","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"housing.fmr_0br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR: Fair Market Rents at state level, not city-specific metro area"},{"field":"housing.fmr_1br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_2br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_3br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_4br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.rent_burden_ratio","source_level":"mixed","profile_level":"place","note":"GEOGRAPHIC MISMATCH: FMR is state-level (HUD), income is city-level (Census). Ratio may be biased."}]},"data_quality":{"quality_score":100.0,"grade":"A","completeness_pct":100.0,"issue_count":6,"granularity_flags":2},"officials":{"body_name":null,"members":[]},"recent_meetings":[{"date":"2026-02-18","body":"City Commission Joint Meeting","location":"City Commission Chambers","has_agenda":true,"agenda_url":"https://legistar2.granicus.com/cityofnorthport/meetings/2026/2/3836_A_City_Commission_Joint_Meeting_26-02-18_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":true},{"date":"2026-02-19","body":"Planning & Zoning Advisory Board","location":"City Commission Chambers","has_agenda":false,"agenda_url":null,"has_minutes":false,"has_video":false,"upcoming":true},{"date":"2026-02-11","body":"Historic and Cultural Advisory Board","location":"City Hall Room 244","has_agenda":true,"agenda_url":"https://legistar2.granicus.com/cityofnorthport/meetings/2026/2/3826_A_Historic_and_Cultural_Advisory_Board_26-02-11_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-10","body":"Art Advisory Board","location":"City Hall Room 244","has_agenda":true,"agenda_url":"https://legistar2.granicus.com/cityofnorthport/meetings/2026/2/3809_A_Art_Advisory_Board_26-02-10_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-10","body":"City Commission Regular Meeting","location":"City Commission Chambers","has_agenda":true,"agenda_url":"https://legistar2.granicus.com/cityofnorthport/meetings/2026/2/3728_A_City_Commission_Regular_Meeting_26-02-10_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-05","body":"Planning & Zoning Advisory Board","location":"City Commission Chambers","has_agenda":false,"agenda_url":null,"has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-05","body":"City Commission Regular Meeting","location":"City Commission Chambers","has_agenda":false,"agenda_url":null,"has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-02","body":"City Commission Workshop","location":"City Commission Chambers","has_agenda":true,"agenda_url":"https://legistar2.granicus.com/cityofnorthport/meetings/2026/2/3757_A_City_Commission_Workshop_26-02-02_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-02","body":"Environmental Advisory Board","location":"City Hall Room 244","has_agenda":true,"agenda_url":"https://legistar2.granicus.com/cityofnorthport/meetings/2026/2/3649_A_Environmental_Advisory_Board_26-02-02_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-01-28","body":"Veterans Park Ad Hoc Committee","location":"City Hall Room 244","has_agenda":true,"agenda_url":"https://legistar2.granicus.com/cityofnorthport/meetings/2026/1/3800_A_Veterans_Park_Ad_Hoc_Committee_26-01-28_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-01-22","body":"Code Enforcement Hearing","location":"City Commission Chambers","has_agenda":true,"agenda_url":"https://legistar2.granicus.com/cityofnorthport/meetings/2026/1/3679_A_Code_Enforcement_Hearing_26-01-22_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-01-20","body":"City Commission Regular Meeting","location":"City Commission Chambers","has_agenda":true,"agenda_url":"https://legistar2.granicus.com/cityofnorthport/meetings/2026/1/3726_A_City_Commission_Regular_Meeting_26-01-20_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false}],"recent_legislation":[{"title":"Approve the ____ Amendment to Construction Manager at Risk Contract No. 2025-09 for Construction Services Contract, Phase II, with Wharton Smith, Inc. in the Amount Not to Exceed ____ for Project No. ","type":"Consent Agenda","status":"Draft","intro_date":"2026-02-10","file_number":"26-0408","passed_date":null},{"title":"(AB), Derek & Samantha Sauline, 1966 Wheeling Avenue\r\n59-1(b)(1) NPCC - Prohibited parking \r\n(Parking in the City right-of-way, not in compliance with standards.)","type":"1st Hearing Case","status":"Draft","intro_date":"2026-02-10","file_number":"CECASE-26-00164","passed_date":null},{"title":"An Ordinance of the City of North Port, Florida, Amending the Non-District Budget for Fiscal Year 2025-2026 for Purchase of Replacement Fire Engine 85 and Associated Equipment in the Amount of $1,500,","type":"Ordinance","status":"Draft","intro_date":"2026-02-10","file_number":"Ord. No. 2026-06","passed_date":null},{"title":"(AB), Vadim Desyatnikov, 3486 Johannesberg Road\r\n59-1(b)(1) NPCC - Prohibited parking\r\n(Parking in the City right-of-way, not in compliance with standards.)","type":"1st Hearing Case","status":"Draft","intro_date":"2026-02-10","file_number":"CECASE-26-00179","passed_date":null},{"title":"(AB), Trinh Family Holdings II LLC, 5339 Butterfly Lane\r\n59-1(b)(1) NPCC - Prohibited parking \r\n(Parking in the City right-of-way, not in compliance with standards.)","type":"1st Hearing Case","status":"Draft","intro_date":"2026-02-10","file_number":"CECASE-26-00170","passed_date":null},{"title":"(GW), Samuel Vasilchuk & Tanya Berezhinskiy, 4906 Kiska Road\r\n59-1(b)(1) NPCC - Prohibited parking \r\n(Black vehicle, (Nissan), parked on City right-of-way.)","type":"1st Hearing Case","status":"Draft","intro_date":"2026-02-10","file_number":"CECASE-26-00162","passed_date":null},{"title":"(BV), Jochen Pundt Trust, 5930 Talbrook Road\r\n42-23 NPCC - Accumulation of debris\r\n(Debris consisting of trash, bins, boxes, (around trailer), cardboard on property.)","type":"1st Hearing Case","status":"Draft","intro_date":"2026-02-10","file_number":"CECASE-26-00174","passed_date":null},{"title":"(AB), Gaetano & Irene Diprimo, 2550 Abbeville Road\r\n59-1(b)(1) NPCC - Prohibited parking \r\n(Parking in the City right-of-way, not in compliance with standards.)\r\n59-1(b)(4) NPCC - Prohibited parking\r\n","type":"1st Hearing Case","status":"Draft","intro_date":"2026-02-10","file_number":"CECASE-26-00178","passed_date":null},{"title":"(AB), CAF Rental Holdings LLC, 2110 Wheeling Avenue\r\n59-1(b)(1) NPCC - Prohibited parking \r\n(Parking in the City right-of-way, not in compliance with standards.)","type":"1st Hearing Case","status":"Draft","intro_date":"2026-02-10","file_number":"CECASE-26-00167","passed_date":null},{"title":"(AB), Kelly Finecy-Simms, 2062 Wheeling Avenue\r\n59-1(b)(1) NPCC - Prohibited parking\r\n(Parking in the City right-of-way, not in compliance with standards.)","type":"1st Hearing Case","status":"Draft","intro_date":"2026-02-10","file_number":"CECASE-26-00166","passed_date":null}],"legistar_url":"https://cityofnorthport.legistar.com","enriched_at":"2026-02-12T18:52:29.291273","government_news":[],"video_meetings":[],"data_platforms":["legistar"]}
+{
+  "schema_version": "5.0",
+  "normalized_at": "2026-02-10T14:21:49.053858",
+  "identity": {
+    "name": "Northport",
+    "state": "AL",
+    "fips_state": "01",
+    "fips_place": "55200",
+    "population": 30714
+  },
+  "city_website": "https://www.cityofnorthport.org",
+  "economy": {
+    "median_household_income": 72286,
+    "median_home_value": 239800,
+    "unemployment_rate": 2.99,
+    "unemployment_data_level": "county",
+    "labor_force": 5922,
+    "employed": 5744,
+    "unemployed": 177,
+    "gini_index": null,
+    "poverty_rate": 14.36,
+    "homeownership_rate": 62.01,
+    "rent_to_income_ratio": 15.54,
+    "home_value_to_income_ratio": 3.32,
+    "price_to_rent_ratio": 21.35,
+    "effective_tax_rate": 3.9983,
+    "population_growth_cagr": 2.6121,
+    "median_real_estate_taxes": 799
+  },
+  "safety": {
+    "violent_crime_rate": null,
+    "property_crime_rate": null,
+    "murder_rate": null,
+    "robbery_rate": null,
+    "burglary_rate": null,
+    "vehicle_theft_rate": null,
+    "total_crime_rate": null,
+    "crime_trend": null,
+    "crime_data_level": null
+  },
+  "education": {
+    "total_schools": 1528,
+    "total_enrollment": 750469,
+    "pupil_teacher_ratio": 18.0,
+    "title1_pct": 0.0,
+    "charter_pct": 1.2,
+    "regular_schools": 1367,
+    "avg_school_rating": null,
+    "rated_schools": null,
+    "school_quality_tier": null
+  },
+  "environment": {
+    "pm25_mean": 8.0493,
+    "ozone_mean": 0.0444,
+    "total_disasters": 24,
+    "avg_disasters_per_decade": 4.8,
+    "most_recent_disaster": "2024-09-26",
+    "most_recent_disaster_type": "Hurricane",
+    "disasters_by_type": {
+      "Hurricane": 9,
+      "Severe Storm": 8,
+      "Flood": 3,
+      "Biological": 2,
+      "Snowstorm": 1,
+      "Drought": 1
+    }
+  },
+  "housing": {
+    "median_rent": 936,
+    "housing_units": 12619,
+    "fmr_0br": 576,
+    "fmr_1br": 591,
+    "fmr_2br": 776,
+    "fmr_3br": 1024,
+    "fmr_4br": 1027,
+    "rent_burden_ratio": 12.9,
+    "cost_burdened_pct": 41.5,
+    "severely_burdened_pct": 19.18
+  },
+  "governance": {
+    "legislative_volume": 13281,
+    "legislative_velocity": 1125.5,
+    "committee_count": 29,
+    "years_of_legislative_data": 11.8,
+    "has_public_meetings": true,
+    "api_accessible": true,
+    "matter_types": {
+      "General Business": 223,
+      "Report": 163,
+      "1st Hearing Case": 157,
+      "Consent Agenda": 147,
+      "2nd Hearing Case": 65,
+      "Minutes": 56,
+      "Resolution": 42,
+      "Ceremonial Item": 34,
+      "Announcement": 32,
+      "Continued Case": 21,
+      "Presentation": 20,
+      "Ordinance": 16,
+      "Petition": 9,
+      "Unfinished Business": 7,
+      "New Employee": 6,
+      "Updates": 2
+    },
+    "top_matter_type": "General Business",
+    "matter_statuses": {
+      "Passed": 352,
+      "Agenda Ready": 324,
+      "Draft": 319,
+      "Failed": 4,
+      "Second Reading": 1
+    },
+    "pass_rate": 33.3,
+    "passed_count": 4427,
+    "active_council_members": 5,
+    "avg_tenure_years": 1.8,
+    "vote_coverage_pct": 0.0,
+    "video_availability_pct": 0.0,
+    "agenda_availability_pct": 80.8,
+    "minutes_availability_pct": 70.2,
+    "avg_meetings_per_month": 19.6,
+    "meetings_by_year": {
+      "2026": 26,
+      "2025": 230,
+      "2024": 241,
+      "2023": 3
+    },
+    "avg_sponsors_per_matter": 0.0,
+    "avg_attachments_per_matter": 0.7,
+    "pct_with_text_versions": 100.0,
+    "index_categories": [],
+    "has_accela": false,
+    "accela_agency_id": null
+  },
+  "development": {
+    "permits_12mo": null,
+    "yoy_trend_pct": null,
+    "avg_permit_value": null,
+    "permit_types": {},
+    "datasets_count": 0
+  },
+  "meetings": {
+    "official_channels": 1,
+    "meetings_indexed": 24,
+    "avg_meetings_per_month": 1.2,
+    "has_video_archive": true,
+    "meeting_types": {
+      "city_council": 24
+    },
+    "transcripts_available": 0
+  },
+  "civic_issues": {
+    "total_issues": 398,
+    "issues_last_30d": 4,
+    "issues_last_365d": 11,
+    "resolution_rate": 96.0,
+    "top_issue_type": "Code Violation (Overgrown Lot/Junk)",
+    "type_distribution": {
+      "Code Violation (Overgrown Lot/Junk)": 7,
+      "Unknown": 3,
+      "Inspections - Residential or Commercial": 3,
+      "Water Services": 1,
+      "Storm Drain Maintenance": 1,
+      "Addressing and Zoning Information": 1
+    },
+    "has_civic_issue_tracking": true
+  },
+  "demographics": {
+    "population": 30714,
+    "poverty_universe": 29760,
+    "employment_universe": 23902
+  },
+  "time_series": {
+    "economy_history": [
+      {
+        "year": 2024,
+        "unemployment_rate": 2.99,
+        "labor_force": 5922,
+        "employed": 5744,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2023,
+        "unemployment_rate": 2.41,
+        "labor_force": 5867,
+        "employed": 5727,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2022,
+        "unemployment_rate": 2.28,
+        "labor_force": 6025,
+        "employed": 5888,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2021,
+        "unemployment_rate": 2.77,
+        "labor_force": 5957,
+        "employed": 5793,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2020,
+        "unemployment_rate": 4.57,
+        "labor_force": 6041,
+        "employed": 5766,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2019,
+        "unemployment_rate": 3.32,
+        "labor_force": 6067,
+        "employed": 5866,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2018,
+        "unemployment_rate": 3.98,
+        "labor_force": 5997,
+        "employed": 5758,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2017,
+        "unemployment_rate": 4.66,
+        "labor_force": 5794,
+        "employed": 5526,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2016,
+        "unemployment_rate": 6.07,
+        "labor_force": 5616,
+        "employed": 5276,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2015,
+        "unemployment_rate": 6.14,
+        "labor_force": 5587,
+        "employed": 5244,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      }
+    ],
+    "safety_history": [],
+    "environment_history": [
+      {
+        "year": 2023,
+        "pm25_mean": 8.0493,
+        "ozone_mean": 0.0444,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2022,
+        "pm25_mean": 6.8809,
+        "ozone_mean": 0.0412,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2021,
+        "pm25_mean": 6.8073,
+        "ozone_mean": 0.0388,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2020,
+        "pm25_mean": 6.8352,
+        "ozone_mean": 0.0378,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2019,
+        "pm25_mean": 7.5505,
+        "ozone_mean": 0.0425,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2018,
+        "pm25_mean": 7.0118,
+        "ozone_mean": 0.0415,
+        "data_level": "county",
+        "source": "epa_aqs"
+      }
+    ]
+  },
+  "data_sources": {
+    "legistar": "available",
+    "socrata": "available",
+    "census_acs": "available",
+    "arcgis": "available",
+    "fbi_ucr": "available",
+    "socrata_crime": "available",
+    "bls_laus": "available",
+    "ca_edd": "skipped",
+    "epa_aqs": "available",
+    "nces_ccd": "available",
+    "hud_fmr": "available",
+    "fema_openfema": "available",
+    "greatschools": "available",
+    "permits": "skipped",
+    "youtube_meetings": "available",
+    "seeclickfix": "available",
+    "accela": "available"
+  },
+  "provenance": {
+    "last_full_probe": "2026-02-09T23:59:27.804576",
+    "sources": {
+      "legistar": {
+        "authority": "Legistar by Granicus",
+        "authority_tier": 1,
+        "api_url": "https://webapi.legistar.com/v1/cityofnorthport/Bodies",
+        "probed_at": "2026-02-09T23:59:27.805269",
+        "data_vintage": "2011–2026",
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "socrata": {
+        "authority": "City Open Data Portals (Socrata/Tyler Data & Insights)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-10T00:01:12.583622",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "census_acs": {
+        "authority": "US Census Bureau",
+        "authority_tier": 1,
+        "api_url": "https://api.census.gov/data/2022/acs/acs5?get=NAME,B01001_001E,B19013_001E,B25077_001E,B25064_001E,B25001_001E&for=place:55200&in=state:01",
+        "probed_at": "2026-02-10T00:01:23.297428",
+        "data_vintage": "ACS 5-Year 2022",
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "arcgis": {
+        "authority": "City ArcGIS/GIS Portals",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-10T00:01:26.651342",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "fbi_ucr": {
+        "authority": "FBI Uniform Crime Reporting Program",
+        "authority_tier": 1,
+        "api_url": "https://api.usa.gov/crime/fbi/sapi/api/estimates/states/AL/2015/2022",
+        "probed_at": "2026-02-10T00:01:27.869597",
+        "data_vintage": null,
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "bls_laus": {
+        "authority": "Bureau of Labor Statistics",
+        "authority_tier": 1,
+        "api_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/LAUST010000000000003",
+        "probed_at": "2026-02-10T00:01:28.073026",
+        "data_vintage": "LAUS 2024",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "epa_aqs": {
+        "authority": "US Environmental Protection Agency",
+        "authority_tier": 1,
+        "api_url": "https://aqs.epa.gov/data/api/annualData/byState?state=01&param=88101",
+        "probed_at": "2026-02-10T00:01:29.305758",
+        "data_vintage": "AQS 2023",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "nces_ccd": {
+        "authority": "National Center for Education Statistics",
+        "authority_tier": 1,
+        "api_url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=01",
+        "probed_at": "2026-02-10T00:02:28.930397",
+        "data_vintage": "2022-2023 academic year",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "hud_fmr": {
+        "authority": "US Department of Housing and Urban Development",
+        "authority_tier": 1,
+        "api_url": "https://www.huduser.gov/hudapi/public/fmr/statedata/AL",
+        "probed_at": "2026-02-10T00:02:37.388226",
+        "data_vintage": "FY2026",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "fema_openfema": {
+        "authority": "Federal Emergency Management Agency",
+        "authority_tier": 1,
+        "api_url": "https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries?$filter=state eq 'AL'",
+        "probed_at": "2026-02-10T00:02:38.024448",
+        "data_vintage": "1953-present",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "greatschools": {
+        "authority": "GreatSchools.org (nonprofit)",
+        "authority_tier": 3,
+        "api_url": null,
+        "probed_at": "2026-02-10T00:02:38.326618",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "permits": {
+        "authority": "City Open Data Portals (Socrata)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-10T00:02:38.674045",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "youtube_meetings": {
+        "authority": "YouTube (via SerpAPI search + youtube-transcript-api)",
+        "authority_tier": 3,
+        "api_url": null,
+        "probed_at": "2026-02-10T00:02:38.675193",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "seeclickfix": {
+        "authority": "SeeClickFix (civic issue tracking platform)",
+        "authority_tier": 3,
+        "api_url": "https://seeclickfix.com/api/v2/issues?place_url=cityofnorthport",
+        "probed_at": "2026-02-10T00:04:39.596863",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "accela": {
+        "authority": "Accela (permit management platform)",
+        "authority_tier": 3,
+        "api_url": "https://apis.accela.com/v4/agencies",
+        "probed_at": "2026-02-10T00:04:46.214475",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "socrata_crime": {
+        "authority": "City Open Data Portals (Socrata)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-10T00:01:28.072369",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      }
+    },
+    "derived_fields": {
+      "safety.total_crime_rate": {
+        "formula": "violent_crime_rate + property_crime_rate",
+        "inputs": [
+          "safety.violent_crime_rate",
+          "safety.property_crime_rate"
+        ],
+        "formula_location": "score/normalizer.py:_derive_total_crime",
+        "authority_tier": 2
+      },
+      "safety.crime_trend": {
+        "formula": "(last_year_rate - first_year_rate) / years_span",
+        "inputs": [
+          "fbi.time_series[].violent_crime_rate"
+        ],
+        "formula_location": "score/normalizer.py:_build_safety",
+        "authority_tier": 2
+      },
+      "education.school_quality_tier": {
+        "formula": "excellent if avg>=8, good if avg>=6, fair if avg>=4, else poor",
+        "inputs": [
+          "education.avg_school_rating"
+        ],
+        "formula_location": "score/normalizer.py:_build_education",
+        "authority_tier": 3
+      },
+      "environment.avg_disasters_per_decade": {
+        "formula": "total_disasters / (years_span / 10)",
+        "inputs": [
+          "environment.total_disasters"
+        ],
+        "formula_location": "probe/fema_probe.py",
+        "authority_tier": 2
+      },
+      "housing.rent_burden_ratio": {
+        "formula": "(fmr_2br * 12) / median_household_income * 100",
+        "inputs": [
+          "housing.fmr_2br",
+          "economy.median_household_income"
+        ],
+        "formula_location": "score/normalizer.py:_build_housing",
+        "authority_tier": 2
+      },
+      "governance.legislative_velocity": {
+        "formula": "legislative_volume / years_of_legislative_data",
+        "inputs": [
+          "governance.legislative_volume",
+          "governance.years_of_legislative_data"
+        ],
+        "formula_location": "score/normalizer.py:_build_governance",
+        "authority_tier": 2
+      },
+      "development.yoy_trend_pct": {
+        "formula": "(current_year - prior_year) / prior_year * 100",
+        "inputs": [
+          "permit data from Socrata"
+        ],
+        "formula_location": "probe/permits_probe.py",
+        "authority_tier": 2
+      }
+    },
+    "geographic_mismatches": [
+      {
+        "field": "identity.fips_state",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "state-level data applied to city profile"
+      },
+      {
+        "field": "economy.unemployment_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Reflects statewide unemployment, not city-specific rate"
+      },
+      {
+        "field": "economy.labor_force",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: This is the full state labor force, not city-level"
+      },
+      {
+        "field": "economy.employed",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "economy.unemployed",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.violent_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: City-level requires ORI codes not currently used"
+      },
+      {
+        "field": "safety.property_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.murder_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.robbery_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.burglary_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.vehicle_theft_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.total_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA; derived sum"
+      },
+      {
+        "field": "safety.crime_trend",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "state-level data applied to city profile"
+      },
+      {
+        "field": "education.total_schools",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Count includes all schools in the state, not city"
+      },
+      {
+        "field": "education.total_enrollment",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.pupil_teacher_ratio",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Average across all state schools"
+      },
+      {
+        "field": "education.title1_pct",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.charter_pct",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.regular_schools",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.pm25_mean",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE/COUNTY-LEVEL: Averaged across all monitors in the state"
+      },
+      {
+        "field": "environment.ozone_mean",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE/COUNTY-LEVEL"
+      },
+      {
+        "field": "environment.total_disasters",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: All declarations for the state, not city-specific"
+      },
+      {
+        "field": "environment.avg_disasters_per_decade",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.most_recent_disaster",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.most_recent_disaster_type",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "housing.fmr_0br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR: Fair Market Rents at state level, not city-specific metro area"
+      },
+      {
+        "field": "housing.fmr_1br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_2br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_3br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_4br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.rent_burden_ratio",
+        "source_level": "mixed",
+        "profile_level": "place",
+        "note": "GEOGRAPHIC MISMATCH: FMR is state-level (HUD), income is city-level (Census). Ratio may be biased."
+      }
+    ]
+  },
+  "data_quality": {
+    "quality_score": 100.0,
+    "grade": "A",
+    "completeness_pct": 100.0,
+    "issue_count": 6,
+    "granularity_flags": 2
+  },
+  "officials": {
+    "body_name": null,
+    "members": []
+  },
+  "recent_meetings": [
+    {
+      "date": "2026-02-18",
+      "body": "City Commission Joint Meeting",
+      "location": "City Commission Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/cityofnorthport/meetings/2026/2/3836_A_City_Commission_Joint_Meeting_26-02-18_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-19",
+      "body": "Planning & Zoning Advisory Board",
+      "location": "City Commission Chambers",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-11",
+      "body": "Historic and Cultural Advisory Board",
+      "location": "City Hall Room 244",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/cityofnorthport/meetings/2026/2/3826_A_Historic_and_Cultural_Advisory_Board_26-02-11_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "Art Advisory Board",
+      "location": "City Hall Room 244",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/cityofnorthport/meetings/2026/2/3809_A_Art_Advisory_Board_26-02-10_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "City Commission Regular Meeting",
+      "location": "City Commission Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/cityofnorthport/meetings/2026/2/3728_A_City_Commission_Regular_Meeting_26-02-10_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-05",
+      "body": "Planning & Zoning Advisory Board",
+      "location": "City Commission Chambers",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-05",
+      "body": "City Commission Regular Meeting",
+      "location": "City Commission Chambers",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-02",
+      "body": "City Commission Workshop",
+      "location": "City Commission Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/cityofnorthport/meetings/2026/2/3757_A_City_Commission_Workshop_26-02-02_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-02",
+      "body": "Environmental Advisory Board",
+      "location": "City Hall Room 244",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/cityofnorthport/meetings/2026/2/3649_A_Environmental_Advisory_Board_26-02-02_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-28",
+      "body": "Veterans Park Ad Hoc Committee",
+      "location": "City Hall Room 244",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/cityofnorthport/meetings/2026/1/3800_A_Veterans_Park_Ad_Hoc_Committee_26-01-28_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-22",
+      "body": "Code Enforcement Hearing",
+      "location": "City Commission Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/cityofnorthport/meetings/2026/1/3679_A_Code_Enforcement_Hearing_26-01-22_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-20",
+      "body": "City Commission Regular Meeting",
+      "location": "City Commission Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/cityofnorthport/meetings/2026/1/3726_A_City_Commission_Regular_Meeting_26-01-20_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Approve the ____ Amendment to Construction Manager at Risk Contract No. 2025-09 for Construction Services Contract, Phase II, with Wharton Smith, Inc. in the Amount Not to Exceed ____ for Project No. ",
+      "type": "Consent Agenda",
+      "status": "Draft",
+      "intro_date": "2026-02-10",
+      "file_number": "26-0408",
+      "passed_date": null
+    },
+    {
+      "title": "(AB), Derek & Samantha Sauline, 1966 Wheeling Avenue\r\n59-1(b)(1) NPCC - Prohibited parking \r\n(Parking in the City right-of-way, not in compliance with standards.)",
+      "type": "1st Hearing Case",
+      "status": "Draft",
+      "intro_date": "2026-02-10",
+      "file_number": "CECASE-26-00164",
+      "passed_date": null
+    },
+    {
+      "title": "An Ordinance of the City of North Port, Florida, Amending the Non-District Budget for Fiscal Year 2025-2026 for Purchase of Replacement Fire Engine 85 and Associated Equipment in the Amount of $1,500,",
+      "type": "Ordinance",
+      "status": "Draft",
+      "intro_date": "2026-02-10",
+      "file_number": "Ord. No. 2026-06",
+      "passed_date": null
+    },
+    {
+      "title": "(AB), Vadim Desyatnikov, 3486 Johannesberg Road\r\n59-1(b)(1) NPCC - Prohibited parking\r\n(Parking in the City right-of-way, not in compliance with standards.)",
+      "type": "1st Hearing Case",
+      "status": "Draft",
+      "intro_date": "2026-02-10",
+      "file_number": "CECASE-26-00179",
+      "passed_date": null
+    },
+    {
+      "title": "(AB), Trinh Family Holdings II LLC, 5339 Butterfly Lane\r\n59-1(b)(1) NPCC - Prohibited parking \r\n(Parking in the City right-of-way, not in compliance with standards.)",
+      "type": "1st Hearing Case",
+      "status": "Draft",
+      "intro_date": "2026-02-10",
+      "file_number": "CECASE-26-00170",
+      "passed_date": null
+    },
+    {
+      "title": "(GW), Samuel Vasilchuk & Tanya Berezhinskiy, 4906 Kiska Road\r\n59-1(b)(1) NPCC - Prohibited parking \r\n(Black vehicle, (Nissan), parked on City right-of-way.)",
+      "type": "1st Hearing Case",
+      "status": "Draft",
+      "intro_date": "2026-02-10",
+      "file_number": "CECASE-26-00162",
+      "passed_date": null
+    },
+    {
+      "title": "(BV), Jochen Pundt Trust, 5930 Talbrook Road\r\n42-23 NPCC - Accumulation of debris\r\n(Debris consisting of trash, bins, boxes, (around trailer), cardboard on property.)",
+      "type": "1st Hearing Case",
+      "status": "Draft",
+      "intro_date": "2026-02-10",
+      "file_number": "CECASE-26-00174",
+      "passed_date": null
+    },
+    {
+      "title": "(AB), Gaetano & Irene Diprimo, 2550 Abbeville Road\r\n59-1(b)(1) NPCC - Prohibited parking \r\n(Parking in the City right-of-way, not in compliance with standards.)\r\n59-1(b)(4) NPCC - Prohibited parking\r\n",
+      "type": "1st Hearing Case",
+      "status": "Draft",
+      "intro_date": "2026-02-10",
+      "file_number": "CECASE-26-00178",
+      "passed_date": null
+    },
+    {
+      "title": "(AB), CAF Rental Holdings LLC, 2110 Wheeling Avenue\r\n59-1(b)(1) NPCC - Prohibited parking \r\n(Parking in the City right-of-way, not in compliance with standards.)",
+      "type": "1st Hearing Case",
+      "status": "Draft",
+      "intro_date": "2026-02-10",
+      "file_number": "CECASE-26-00167",
+      "passed_date": null
+    },
+    {
+      "title": "(AB), Kelly Finecy-Simms, 2062 Wheeling Avenue\r\n59-1(b)(1) NPCC - Prohibited parking\r\n(Parking in the City right-of-way, not in compliance with standards.)",
+      "type": "1st Hearing Case",
+      "status": "Draft",
+      "intro_date": "2026-02-10",
+      "file_number": "CECASE-26-00166",
+      "passed_date": null
+    }
+  ],
+  "legistar_url": "https://cityofnorthport.legistar.com",
+  "enriched_at": "2026-02-12T18:52:29.291273",
+  "government_news": [],
+  "video_meetings": [],
+  "data_platforms": [
+    "legistar"
+  ]
+}

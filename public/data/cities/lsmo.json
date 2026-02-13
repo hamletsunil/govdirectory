@@ -1,1 +1,1133 @@
-{"schema_version":"5.0","normalized_at":"2026-02-10T14:21:49.259809","identity":{"name":"Lee's Summit","state":"MO","fips_state":"29","fips_place":"41348","population":101728},"economy":{"median_household_income":103447,"median_home_value":291400,"unemployment_rate":3.89,"unemployment_data_level":"county","labor_force":381210,"employed":366352,"unemployed":14857,"gini_index":null,"poverty_rate":5.3,"homeownership_rate":75.14,"rent_to_income_ratio":15.02,"home_value_to_income_ratio":2.82,"price_to_rent_ratio":18.75,"effective_tax_rate":14.9238,"population_growth_cagr":1.3092,"median_real_estate_taxes":3624},"safety":{"violent_crime_rate":null,"property_crime_rate":null,"murder_rate":null,"robbery_rate":null,"burglary_rate":null,"vehicle_theft_rate":null,"total_crime_rate":null,"crime_trend":null,"crime_data_level":null},"education":{"total_schools":2483,"total_enrollment":892246,"pupil_teacher_ratio":13.1,"title1_pct":0.0,"charter_pct":3.3,"regular_schools":2312,"avg_school_rating":null,"rated_schools":null,"school_quality_tier":null},"environment":{"pm25_mean":9.3515,"ozone_mean":0.0475,"total_disasters":26,"avg_disasters_per_decade":3.7,"most_recent_disaster":"2020-03-26","most_recent_disaster_type":"Biological","disasters_by_type":{"Severe Storm":11,"Flood":7,"Severe Ice Storm":3,"Biological":2,"Hurricane":1,"Tornado":1,"Drought":1}},"housing":{"median_rent":1295,"housing_units":40716,"fmr_0br":1095,"fmr_1br":1197,"fmr_2br":1358,"fmr_3br":1769,"fmr_4br":2103,"rent_burden_ratio":15.8,"cost_burdened_pct":43.69,"severely_burdened_pct":21.1},"governance":{"legislative_volume":6250,"legislative_velocity":573.4,"committee_count":64,"years_of_legislative_data":10.9,"has_public_meetings":true,"api_accessible":true,"matter_types":{"Ordinance":208,"Minutes":174,"Presentation":135,"Ordinance - Committee":92,"Public Hearing - Sworn":89,"Discussion Item":88,"Ordinance - Public Hearing":79,"Proclamation":38,"Resolution":37,"Appointment":36,"Report":17,"Public Hearing - Legislative":5,"Ordinance - Emergency":2},"top_matter_type":"Ordinance","matter_statuses":{"Passed":475,"Agenda Ready":359,"Presented":109,"Filed":33,"Second Reading":19,"Remanded":2,"Held":1,"Failed":1,"Tabled":1},"pass_rate":33.3,"passed_count":2083,"active_council_members":9,"avg_tenure_years":4.1,"vote_coverage_pct":null,"video_availability_pct":0.0,"agenda_availability_pct":58.8,"minutes_availability_pct":43.8,"avg_meetings_per_month":17.7,"meetings_by_year":{"2026":75,"2025":219,"2024":206},"avg_sponsors_per_matter":0.3,"avg_attachments_per_matter":1.9,"pct_with_text_versions":100.0,"index_categories":[],"has_accela":false,"accela_agency_id":null},"development":{"permits_12mo":null,"yoy_trend_pct":null,"avg_permit_value":null,"permit_types":{},"datasets_count":0},"meetings":{"official_channels":1,"meetings_indexed":33,"avg_meetings_per_month":2.1,"has_video_archive":true,"meeting_types":{"city_council":15,"planning_commission":14,"other":4},"transcripts_available":0},"civic_issues":{"total_issues":4796,"issues_last_30d":23,"issues_last_365d":61,"resolution_rate":98.7,"top_issue_type":"Sidewalk/Paths Maintenance","type_distribution":{"Sidewalk/Paths Maintenance":25,"Street Deterioration":12,"Sign Maintenance":9,"Streetlights":5,"Pothole":4,"Storm Box/Inlet":4,"Signal":2,"Unknown":2,"Other":1},"has_civic_issue_tracking":true},"demographics":{"population":101728,"poverty_universe":100776,"employment_universe":79187},"time_series":{"economy_history":[{"year":2024,"unemployment_rate":3.89,"labor_force":381210,"employed":366352,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2023,"unemployment_rate":3.37,"labor_force":374942,"employed":362344,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2022,"unemployment_rate":2.9,"labor_force":367282,"employed":356600,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2021,"unemployment_rate":5.03,"labor_force":367353,"employed":348829,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2020,"unemployment_rate":7.08,"labor_force":368042,"employed":342081,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2019,"unemployment_rate":3.59,"labor_force":372132,"employed":358787,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2018,"unemployment_rate":3.73,"labor_force":369362,"employed":355562,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2017,"unemployment_rate":4.37,"labor_force":371170,"employed":354957,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2016,"unemployment_rate":5.05,"labor_force":373365,"employed":354526,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2015,"unemployment_rate":6.02,"labor_force":360197,"employed":338498,"data_level":"county","source":"bls_laus","is_partial_year":false}],"safety_history":[],"environment_history":[{"year":2023,"pm25_mean":9.3515,"ozone_mean":0.0475,"data_level":"county","source":"epa_aqs"},{"year":2022,"pm25_mean":8.3816,"ozone_mean":0.0445,"data_level":"county","source":"epa_aqs"},{"year":2021,"pm25_mean":9.3681,"ozone_mean":0.0425,"data_level":"county","source":"epa_aqs"},{"year":2020,"pm25_mean":8.3193,"ozone_mean":0.04,"data_level":"county","source":"epa_aqs"},{"year":2019,"pm25_mean":8.2377,"ozone_mean":0.0432,"data_level":"county","source":"epa_aqs"},{"year":2018,"pm25_mean":7.8182,"ozone_mean":0.0444,"data_level":"county","source":"epa_aqs"}]},"data_sources":{"legistar":"available","socrata":"available","census_acs":"available","arcgis":"available","fbi_ucr":"available","socrata_crime":"available","bls_laus":"available","ca_edd":"skipped","epa_aqs":"available","nces_ccd":"available","hud_fmr":"available","fema_openfema":"available","greatschools":"available","permits":"skipped","youtube_meetings":"available","seeclickfix":"available","accela":"available"},"provenance":{"last_full_probe":"2026-02-10T05:46:14.185151","sources":{"legistar":{"authority":"Legistar by Granicus","authority_tier":1,"api_url":"https://webapi.legistar.com/v1/lsmo/Bodies","probed_at":"2026-02-10T05:46:14.185401","data_vintage":"2016\u20132026","geographic_level":"place","status":"available"},"socrata":{"authority":"City Open Data Portals (Socrata/Tyler Data & Insights)","authority_tier":1,"api_url":null,"probed_at":"2026-02-10T05:47:34.933050","data_vintage":null,"geographic_level":"place","status":"available"},"census_acs":{"authority":"US Census Bureau","authority_tier":1,"api_url":"https://api.census.gov/data/2022/acs/acs5?get=NAME,B01001_001E,B19013_001E,B25077_001E,B25064_001E,B25001_001E&for=place:41348&in=state:29","probed_at":"2026-02-10T05:47:34.933963","data_vintage":"ACS 5-Year 2022","geographic_level":"place","status":"available"},"arcgis":{"authority":"City ArcGIS/GIS Portals","authority_tier":1,"api_url":null,"probed_at":"2026-02-10T05:47:38.437682","data_vintage":null,"geographic_level":"place","status":"available"},"fbi_ucr":{"authority":"FBI Uniform Crime Reporting Program","authority_tier":1,"api_url":"https://api.usa.gov/crime/fbi/sapi/api/estimates/states/MO/2015/2022","probed_at":"2026-02-10T05:47:39.646817","data_vintage":null,"geographic_level":"state","status":"available"},"bls_laus":{"authority":"Bureau of Labor Statistics","authority_tier":1,"api_url":"https://api.bls.gov/publicAPI/v2/timeseries/data/LAUST290000000000003","probed_at":"2026-02-10T05:48:26.691162","data_vintage":"LAUS 2024","geographic_level":"state","status":"available"},"epa_aqs":{"authority":"US Environmental Protection Agency","authority_tier":1,"api_url":"https://aqs.epa.gov/data/api/annualData/byState?state=29&param=88101","probed_at":"2026-02-10T05:48:27.951991","data_vintage":"AQS 2023","geographic_level":"state","status":"available"},"nces_ccd":{"authority":"National Center for Education Statistics","authority_tier":1,"api_url":"https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=29","probed_at":"2026-02-10T05:49:15.311410","data_vintage":"2022-2023 academic year","geographic_level":"state","status":"available"},"hud_fmr":{"authority":"US Department of Housing and Urban Development","authority_tier":1,"api_url":"https://www.huduser.gov/hudapi/public/fmr/statedata/MO","probed_at":"2026-02-10T05:49:21.804953","data_vintage":"FY2026","geographic_level":"state","status":"available"},"fema_openfema":{"authority":"Federal Emergency Management Agency","authority_tier":1,"api_url":"https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries?$filter=state eq 'MO'","probed_at":"2026-02-10T05:49:22.512224","data_vintage":"1953-present","geographic_level":"state","status":"available"},"greatschools":{"authority":"GreatSchools.org (nonprofit)","authority_tier":3,"api_url":null,"probed_at":"2026-02-10T05:49:22.886960","data_vintage":null,"geographic_level":"place","status":"available"},"permits":{"authority":"City Open Data Portals (Socrata)","authority_tier":1,"api_url":null,"probed_at":"2026-02-10T05:49:23.241471","data_vintage":null,"geographic_level":"place","status":"skipped"},"youtube_meetings":{"authority":"YouTube (via SerpAPI search + youtube-transcript-api)","authority_tier":3,"api_url":null,"probed_at":"2026-02-10T05:49:23.242276","data_vintage":null,"geographic_level":"place","status":"available"},"seeclickfix":{"authority":"SeeClickFix (civic issue tracking platform)","authority_tier":3,"api_url":"https://seeclickfix.com/api/v2/issues?place_url=lsmo","probed_at":"2026-02-10T05:51:55.644214","data_vintage":null,"geographic_level":"place","status":"available"},"accela":{"authority":"Accela (permit management platform)","authority_tier":3,"api_url":"https://apis.accela.com/v4/agencies","probed_at":"2026-02-10T05:52:01.957464","data_vintage":null,"geographic_level":"place","status":"available"},"socrata_crime":{"authority":"City Open Data Portals (Socrata)","authority_tier":1,"api_url":null,"probed_at":"2026-02-10T05:48:26.690337","data_vintage":null,"geographic_level":"place","status":"available"}},"derived_fields":{"safety.total_crime_rate":{"formula":"violent_crime_rate + property_crime_rate","inputs":["safety.violent_crime_rate","safety.property_crime_rate"],"formula_location":"score/normalizer.py:_derive_total_crime","authority_tier":2},"safety.crime_trend":{"formula":"(last_year_rate - first_year_rate) / years_span","inputs":["fbi.time_series[].violent_crime_rate"],"formula_location":"score/normalizer.py:_build_safety","authority_tier":2},"education.school_quality_tier":{"formula":"excellent if avg>=8, good if avg>=6, fair if avg>=4, else poor","inputs":["education.avg_school_rating"],"formula_location":"score/normalizer.py:_build_education","authority_tier":3},"environment.avg_disasters_per_decade":{"formula":"total_disasters / (years_span / 10)","inputs":["environment.total_disasters"],"formula_location":"probe/fema_probe.py","authority_tier":2},"housing.rent_burden_ratio":{"formula":"(fmr_2br * 12) / median_household_income * 100","inputs":["housing.fmr_2br","economy.median_household_income"],"formula_location":"score/normalizer.py:_build_housing","authority_tier":2},"governance.legislative_velocity":{"formula":"legislative_volume / years_of_legislative_data","inputs":["governance.legislative_volume","governance.years_of_legislative_data"],"formula_location":"score/normalizer.py:_build_governance","authority_tier":2},"development.yoy_trend_pct":{"formula":"(current_year - prior_year) / prior_year * 100","inputs":["permit data from Socrata"],"formula_location":"probe/permits_probe.py","authority_tier":2}},"geographic_mismatches":[{"field":"identity.fips_state","source_level":"state","profile_level":"place","note":"state-level data applied to city profile"},{"field":"economy.unemployment_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Reflects statewide unemployment, not city-specific rate"},{"field":"economy.labor_force","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: This is the full state labor force, not city-level"},{"field":"economy.employed","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"economy.unemployed","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.violent_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: City-level requires ORI codes not currently used"},{"field":"safety.property_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.murder_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.robbery_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.burglary_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.vehicle_theft_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.total_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA; derived sum"},{"field":"safety.crime_trend","source_level":"state","profile_level":"place","note":"state-level data applied to city profile"},{"field":"education.total_schools","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Count includes all schools in the state, not city"},{"field":"education.total_enrollment","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.pupil_teacher_ratio","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Average across all state schools"},{"field":"education.title1_pct","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.charter_pct","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.regular_schools","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.pm25_mean","source_level":"state","profile_level":"place","note":"STATE/COUNTY-LEVEL: Averaged across all monitors in the state"},{"field":"environment.ozone_mean","source_level":"state","profile_level":"place","note":"STATE/COUNTY-LEVEL"},{"field":"environment.total_disasters","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: All declarations for the state, not city-specific"},{"field":"environment.avg_disasters_per_decade","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.most_recent_disaster","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.most_recent_disaster_type","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"housing.fmr_0br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR: Fair Market Rents at state level, not city-specific metro area"},{"field":"housing.fmr_1br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_2br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_3br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_4br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.rent_burden_ratio","source_level":"mixed","profile_level":"place","note":"GEOGRAPHIC MISMATCH: FMR is state-level (HUD), income is city-level (Census). Ratio may be biased."}]},"data_quality":{"quality_score":92.9,"grade":"A","completeness_pct":92.9,"issue_count":7,"granularity_flags":3},"officials":{"body_name":"City Council - Regular Session","members":[{"name":"Baird, Bill","email":"Bill.Baird@cityofls.net","title":"Mayor","start_date":"2018-04-12","committees":["City Council - Closed Session","City Council - Mock Meeting","City Council - Work Session","Legislative and Intergovernmental Relations Committee"]},{"name":"Carlyle, Trish","email":"Trish.Carlyle@cityofLS.net","title":"Councilmember","start_date":"2024-04-16","committees":["City Council - Closed Session","City Council - Mock Meeting","City Council - Work Session","Community and Economic Development Committee","Legislative and Intergovernmental Relations Committee"]},{"name":"Funk, Donnie","email":"Donnie.Funk@cityofls.net","title":"Alternate","start_date":"2025-05-20","committees":["Board of Aeronautic Commissioners","City Council - Closed Session","City Council - Mock Meeting","City Council Rules Committee","City Council - Work Session"]},{"name":"Hodges, Faith","email":"Faith.Hodges@cityofls.net","title":"Councilmember","start_date":"2022-04-27","committees":["City Council - Closed Session","City Council - Mock Meeting","City Council - Work Session","Community and Economic Development Committee","Finance and Budget Committee"]},{"name":"Lopez, Beto","email":"Beto.Lopez@cityofls.net","title":"Councilmember","start_date":"2018-04-12","committees":["City Council - Closed Session","City Council - Mock Meeting","City Council - Work Session","Finance and Budget Committee"]},{"name":"Lovell, John","email":"John.Lovell@cityofls.net","title":"Chairperson","start_date":"2025-05-20","committees":["City Council - Closed Session","City Council - Mock Meeting","City Council Rules Committee","City Council - Work Session","Finance and Budget Committee"]},{"name":"Prier, Mia","email":"Mia.Prier@cityofls.net","title":"Councilmember","start_date":"2025-05-20","committees":["City Council - Closed Session","City Council - Mock Meeting","City Council Rules Committee","City Council - Work Session","Community and Economic Development Committee"]},{"name":"Rader, Cynda","email":"Cynda.Rader@cityofls.net","title":"Councilmember","start_date":"2024-05-21","committees":["City Council - Closed Session","City Council - Mock Meeting","City Council Rules Committee","City Council - Work Session","Community and Economic Development Committee"]},{"name":"Shields, Hillary","email":"Hillary.Shields@cityofls.net","title":"Vice Chair","start_date":"2025-05-20","committees":["City Council - Closed Session","City Council - Mock Meeting","City Council Rules Committee","City Council - Work Session","Finance and Budget Committee"]}]},"recent_meetings":[{"date":"2026-02-12","body":"Planning Commission","location":"City Council Chambers\r\nCity Hall\r\n220 SE Green Street\r\nLee's Summit, MO 64063","has_agenda":true,"agenda_url":"https://lsmo.legistar1.com/lsmo/meetings/2026/2/4489_A_Planning_Commission_26-02-12_Final_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":true},{"date":"2026-02-13","body":"City Council Rules Committee","location":"Via Video Conference","has_agenda":true,"agenda_url":"https://lsmo.legistar1.com/lsmo/meetings/2026/2/4533_A_City_Council_Rules_Committee_26-02-13_Final_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":true},{"date":"2026-02-17","body":"Public Safety Advisory Board","location":"Please see the agenda for meeting location.","has_agenda":false,"agenda_url":null,"has_minutes":false,"has_video":false,"upcoming":true},{"date":"2026-02-17","body":"Charter Review Commission","location":"City Council Committee Room\r\nCity Hall\r\n220 SE Green Street\r\nLee's Summit, MO 64063","has_agenda":false,"agenda_url":null,"has_minutes":false,"has_video":false,"upcoming":true},{"date":"2026-02-18","body":"Parks and Recreation Board","location":"Strother Conference Room\r\nCity Hall\r\n220 SE Green Street\r\nLee's Summit, MO 64063","has_agenda":false,"agenda_url":null,"has_minutes":false,"has_video":false,"upcoming":true},{"date":"2026-02-18","body":"Cultural Commission","location":"City Council Committee Room\r\nCity Hall\r\n220 SE Green Street\r\nLee's Summit, MO 64063","has_agenda":false,"agenda_url":null,"has_minutes":false,"has_video":false,"upcoming":true},{"date":"2026-02-19","body":"Board of Appeals","location":"Via Video Conference","has_agenda":false,"agenda_url":null,"has_minutes":false,"has_video":false,"upcoming":true},{"date":"2026-03-11","body":"Wellness Commission","location":"Strother Conference Room\r\nCity Hall\r\n220 SE Green Street\r\nLee's Summit, MO 64063","has_agenda":false,"agenda_url":null,"has_minutes":false,"has_video":false,"upcoming":true},{"date":"2026-02-11","body":"Wellness Commission","location":"Strother Conference Room\r\nCity Hall\r\n220 SE Green Street\r\nLee's Summit, MO 64063","has_agenda":false,"agenda_url":null,"has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-11","body":"Community and Economic Development Committee","location":"City Council Chambers\r\nand Via Video Conference\r\n220 SE Green Street\r\nLee's Summit, MO 64063","has_agenda":true,"agenda_url":"https://lsmo.legistar1.com/lsmo/meetings/2026/2/4320_A_Community_and_Economic_Development_Committee_26-02-11_Final_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-10","body":"City Council - Regular Session","location":"City Council Chambers\r\nand Via Video Conference\r\n220 SE Green Street\r\nLee's Summit, MO 64063","has_agenda":true,"agenda_url":"https://lsmo.legistar1.com/lsmo/meetings/2026/2/4437_A_City_Council_-_Regular_Session_26-02-10_Final_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-09","body":"Public Works Committee","location":"City Council Chambers\r\nand Via Video Conference\r\n220 SE Green Street\r\nLee's Summit, MO 64063","has_agenda":true,"agenda_url":"https://lsmo.legistar1.com/lsmo/meetings/2026/2/4338_A_Public_Works_Committee_26-02-09_Final_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-09","body":"Legislative and Intergovernmental Relations Committee","location":"Via Video Conference","has_agenda":true,"agenda_url":"https://lsmo.legistar1.com/lsmo/meetings/2026/2/4360_A_Legislative_and_Intergovernmental_Relations_Committee_26-02-09_Final_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-04","body":"Board of Aeronautic Commissioners","location":"MEETING CANCELLED\r\nKansas City - Lee's Summit Regional Airport \r\n2740 NE Hagan Road\r\nLee's Summit, MO 64064","has_agenda":true,"agenda_url":"https://lsmo.legistar1.com/lsmo/meetings/2026/2/4466_A_Board_of_Aeronautic_Commissioners_26-02-04_Final_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-03","body":"City Council - Closed Session","location":"City Council Committee Room\r\nand Via Video Conference\r\n220 SE Green Street\r\nLee's Summit, MO 64063","has_agenda":true,"agenda_url":"https://lsmo.legistar1.com/lsmo/meetings/2026/2/4534_A_City_Council_-_Closed_Session_26-02-03_Final_Agenda.pdf","has_minutes":true,"has_video":false,"upcoming":false},{"date":"2026-02-03","body":"City Council - Regular Session","location":"City Council Chambers\r\nand Via Video Conference\r\n220 SE Green Street\r\nLee's Summit, MO 64063","has_agenda":true,"agenda_url":"https://lsmo.legistar1.com/lsmo/meetings/2026/2/4438_A_City_Council_-_Regular_Session_26-02-03_Final_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-02","body":"Finance and Budget Committee","location":"City Council Chambers\r\nand Via Video Conference\r\n220 SE Green Street\r\nLee's Summit, MO 64063","has_agenda":true,"agenda_url":"https://lsmo.legistar1.com/lsmo/meetings/2026/2/4325_A_Finance_and_Budget_Committee_26-02-02_Final_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-01-29","body":"Board of Appeals","location":"Via Video Conference","has_agenda":false,"agenda_url":null,"has_minutes":false,"has_video":false,"upcoming":false}],"recent_legislation":[{"title":"An Ordinance approving an Intergovernmental Agreement between the City of Lee's Summit, Missouri and the Lee's Summit R-7 School District for the use of Green Street.","type":"Ordinance","status":"Agenda Ready","intro_date":"2026-02-06","file_number":"TMP-3598","passed_date":null},{"title":"An Ordinance granting a Special Use Permit renewal for a mini-warehouse facility in district PI (Planned Industrial) on land located at 5 SW Industrial Dr for a period of twenty (20) years and thirty-","type":"Ordinance - Public Hearing","status":"Agenda Ready","intro_date":"2026-02-05","file_number":"TMP-3597","passed_date":null},{"title":"Approval of the January 22, 2026, Planning Commission Action Letter","type":"Minutes","status":"Agenda Ready","intro_date":"2026-02-05","file_number":"2026-7466","passed_date":null},{"title":"An Ordinance authorizing the Mayor to execute the Real Property and Tower Site Lease Agreement with T-Mobile Central, LLC, for the monopole tower at 404 NE Woods Chapel Road","type":"Ordinance","status":"Agenda Ready","intro_date":"2026-02-02","file_number":"BILL NO. 26-025","passed_date":null},{"title":"Mayor Pro Tem - City Council Liaison Assignment Change:\r\nLee's Summit Cares - Appoint Councilmember Funk to replace Councilmember Carlyle","type":"Appointment","status":"Agenda Ready","intro_date":"2026-01-30","file_number":"2026-7461","passed_date":null},{"title":"Application #PL2025-324 - Special Use Permit renewal for a mini-warehouse facility - Jefferson Street Storage, 5 SW Industrial Drive; Matthew Schlicht, applicant.","type":"Public Hearing - Sworn","status":"Agenda Ready","intro_date":"2026-01-29","file_number":"2026-7459","passed_date":null},{"title":"Discussion: Filling Charter Vacancy","type":"Discussion Item","status":"Agenda Ready","intro_date":"2026-01-28","file_number":"2026-7456","passed_date":null},{"title":"Discussion: Amending Public Comments","type":"Discussion Item","status":"Agenda Ready","intro_date":"2026-01-28","file_number":"2026-7455","passed_date":null},{"title":"Presentation: Lobbyist Update","type":"Discussion Item","status":"Agenda Ready","intro_date":"2026-01-28","file_number":"2026-7453","passed_date":null},{"title":"Approval of the January 15, 2026 Legislative and Intergovernmental Relations Committee Action Letter.","type":"Minutes","status":"Agenda Ready","intro_date":"2026-01-28","file_number":"2026-7452","passed_date":null}],"legistar_url":"https://lsmo.legistar.com","enriched_at":"2026-02-12T18:53:32.475219","government_news":[],"video_meetings":[],"data_platforms":["legistar"]}
+{
+  "schema_version": "5.0",
+  "normalized_at": "2026-02-10T14:21:49.259809",
+  "identity": {
+    "name": "Lee's Summit",
+    "state": "MO",
+    "fips_state": "29",
+    "fips_place": "41348",
+    "population": 101728
+  },
+  "city_website": "https://www.cityofls.net",
+  "economy": {
+    "median_household_income": 103447,
+    "median_home_value": 291400,
+    "unemployment_rate": 3.89,
+    "unemployment_data_level": "county",
+    "labor_force": 381210,
+    "employed": 366352,
+    "unemployed": 14857,
+    "gini_index": null,
+    "poverty_rate": 5.3,
+    "homeownership_rate": 75.14,
+    "rent_to_income_ratio": 15.02,
+    "home_value_to_income_ratio": 2.82,
+    "price_to_rent_ratio": 18.75,
+    "effective_tax_rate": 14.9238,
+    "population_growth_cagr": 1.3092,
+    "median_real_estate_taxes": 3624
+  },
+  "safety": {
+    "violent_crime_rate": null,
+    "property_crime_rate": null,
+    "murder_rate": null,
+    "robbery_rate": null,
+    "burglary_rate": null,
+    "vehicle_theft_rate": null,
+    "total_crime_rate": null,
+    "crime_trend": null,
+    "crime_data_level": null
+  },
+  "education": {
+    "total_schools": 2483,
+    "total_enrollment": 892246,
+    "pupil_teacher_ratio": 13.1,
+    "title1_pct": 0.0,
+    "charter_pct": 3.3,
+    "regular_schools": 2312,
+    "avg_school_rating": null,
+    "rated_schools": null,
+    "school_quality_tier": null
+  },
+  "environment": {
+    "pm25_mean": 9.3515,
+    "ozone_mean": 0.0475,
+    "total_disasters": 26,
+    "avg_disasters_per_decade": 3.7,
+    "most_recent_disaster": "2020-03-26",
+    "most_recent_disaster_type": "Biological",
+    "disasters_by_type": {
+      "Severe Storm": 11,
+      "Flood": 7,
+      "Severe Ice Storm": 3,
+      "Biological": 2,
+      "Hurricane": 1,
+      "Tornado": 1,
+      "Drought": 1
+    }
+  },
+  "housing": {
+    "median_rent": 1295,
+    "housing_units": 40716,
+    "fmr_0br": 1095,
+    "fmr_1br": 1197,
+    "fmr_2br": 1358,
+    "fmr_3br": 1769,
+    "fmr_4br": 2103,
+    "rent_burden_ratio": 15.8,
+    "cost_burdened_pct": 43.69,
+    "severely_burdened_pct": 21.1
+  },
+  "governance": {
+    "legislative_volume": 6250,
+    "legislative_velocity": 573.4,
+    "committee_count": 64,
+    "years_of_legislative_data": 10.9,
+    "has_public_meetings": true,
+    "api_accessible": true,
+    "matter_types": {
+      "Ordinance": 208,
+      "Minutes": 174,
+      "Presentation": 135,
+      "Ordinance - Committee": 92,
+      "Public Hearing - Sworn": 89,
+      "Discussion Item": 88,
+      "Ordinance - Public Hearing": 79,
+      "Proclamation": 38,
+      "Resolution": 37,
+      "Appointment": 36,
+      "Report": 17,
+      "Public Hearing - Legislative": 5,
+      "Ordinance - Emergency": 2
+    },
+    "top_matter_type": "Ordinance",
+    "matter_statuses": {
+      "Passed": 475,
+      "Agenda Ready": 359,
+      "Presented": 109,
+      "Filed": 33,
+      "Second Reading": 19,
+      "Remanded": 2,
+      "Held": 1,
+      "Failed": 1,
+      "Tabled": 1
+    },
+    "pass_rate": 33.3,
+    "passed_count": 2083,
+    "active_council_members": 9,
+    "avg_tenure_years": 4.1,
+    "vote_coverage_pct": null,
+    "video_availability_pct": 0.0,
+    "agenda_availability_pct": 58.8,
+    "minutes_availability_pct": 43.8,
+    "avg_meetings_per_month": 17.7,
+    "meetings_by_year": {
+      "2026": 75,
+      "2025": 219,
+      "2024": 206
+    },
+    "avg_sponsors_per_matter": 0.3,
+    "avg_attachments_per_matter": 1.9,
+    "pct_with_text_versions": 100.0,
+    "index_categories": [],
+    "has_accela": false,
+    "accela_agency_id": null
+  },
+  "development": {
+    "permits_12mo": null,
+    "yoy_trend_pct": null,
+    "avg_permit_value": null,
+    "permit_types": {},
+    "datasets_count": 0
+  },
+  "meetings": {
+    "official_channels": 1,
+    "meetings_indexed": 33,
+    "avg_meetings_per_month": 2.1,
+    "has_video_archive": true,
+    "meeting_types": {
+      "city_council": 15,
+      "planning_commission": 14,
+      "other": 4
+    },
+    "transcripts_available": 0
+  },
+  "civic_issues": {
+    "total_issues": 4796,
+    "issues_last_30d": 23,
+    "issues_last_365d": 61,
+    "resolution_rate": 98.7,
+    "top_issue_type": "Sidewalk/Paths Maintenance",
+    "type_distribution": {
+      "Sidewalk/Paths Maintenance": 25,
+      "Street Deterioration": 12,
+      "Sign Maintenance": 9,
+      "Streetlights": 5,
+      "Pothole": 4,
+      "Storm Box/Inlet": 4,
+      "Signal": 2,
+      "Unknown": 2,
+      "Other": 1
+    },
+    "has_civic_issue_tracking": true
+  },
+  "demographics": {
+    "population": 101728,
+    "poverty_universe": 100776,
+    "employment_universe": 79187
+  },
+  "time_series": {
+    "economy_history": [
+      {
+        "year": 2024,
+        "unemployment_rate": 3.89,
+        "labor_force": 381210,
+        "employed": 366352,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2023,
+        "unemployment_rate": 3.37,
+        "labor_force": 374942,
+        "employed": 362344,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2022,
+        "unemployment_rate": 2.9,
+        "labor_force": 367282,
+        "employed": 356600,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2021,
+        "unemployment_rate": 5.03,
+        "labor_force": 367353,
+        "employed": 348829,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2020,
+        "unemployment_rate": 7.08,
+        "labor_force": 368042,
+        "employed": 342081,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2019,
+        "unemployment_rate": 3.59,
+        "labor_force": 372132,
+        "employed": 358787,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2018,
+        "unemployment_rate": 3.73,
+        "labor_force": 369362,
+        "employed": 355562,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2017,
+        "unemployment_rate": 4.37,
+        "labor_force": 371170,
+        "employed": 354957,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2016,
+        "unemployment_rate": 5.05,
+        "labor_force": 373365,
+        "employed": 354526,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2015,
+        "unemployment_rate": 6.02,
+        "labor_force": 360197,
+        "employed": 338498,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      }
+    ],
+    "safety_history": [],
+    "environment_history": [
+      {
+        "year": 2023,
+        "pm25_mean": 9.3515,
+        "ozone_mean": 0.0475,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2022,
+        "pm25_mean": 8.3816,
+        "ozone_mean": 0.0445,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2021,
+        "pm25_mean": 9.3681,
+        "ozone_mean": 0.0425,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2020,
+        "pm25_mean": 8.3193,
+        "ozone_mean": 0.04,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2019,
+        "pm25_mean": 8.2377,
+        "ozone_mean": 0.0432,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2018,
+        "pm25_mean": 7.8182,
+        "ozone_mean": 0.0444,
+        "data_level": "county",
+        "source": "epa_aqs"
+      }
+    ]
+  },
+  "data_sources": {
+    "legistar": "available",
+    "socrata": "available",
+    "census_acs": "available",
+    "arcgis": "available",
+    "fbi_ucr": "available",
+    "socrata_crime": "available",
+    "bls_laus": "available",
+    "ca_edd": "skipped",
+    "epa_aqs": "available",
+    "nces_ccd": "available",
+    "hud_fmr": "available",
+    "fema_openfema": "available",
+    "greatschools": "available",
+    "permits": "skipped",
+    "youtube_meetings": "available",
+    "seeclickfix": "available",
+    "accela": "available"
+  },
+  "provenance": {
+    "last_full_probe": "2026-02-10T05:46:14.185151",
+    "sources": {
+      "legistar": {
+        "authority": "Legistar by Granicus",
+        "authority_tier": 1,
+        "api_url": "https://webapi.legistar.com/v1/lsmo/Bodies",
+        "probed_at": "2026-02-10T05:46:14.185401",
+        "data_vintage": "2016–2026",
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "socrata": {
+        "authority": "City Open Data Portals (Socrata/Tyler Data & Insights)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-10T05:47:34.933050",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "census_acs": {
+        "authority": "US Census Bureau",
+        "authority_tier": 1,
+        "api_url": "https://api.census.gov/data/2022/acs/acs5?get=NAME,B01001_001E,B19013_001E,B25077_001E,B25064_001E,B25001_001E&for=place:41348&in=state:29",
+        "probed_at": "2026-02-10T05:47:34.933963",
+        "data_vintage": "ACS 5-Year 2022",
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "arcgis": {
+        "authority": "City ArcGIS/GIS Portals",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-10T05:47:38.437682",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "fbi_ucr": {
+        "authority": "FBI Uniform Crime Reporting Program",
+        "authority_tier": 1,
+        "api_url": "https://api.usa.gov/crime/fbi/sapi/api/estimates/states/MO/2015/2022",
+        "probed_at": "2026-02-10T05:47:39.646817",
+        "data_vintage": null,
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "bls_laus": {
+        "authority": "Bureau of Labor Statistics",
+        "authority_tier": 1,
+        "api_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/LAUST290000000000003",
+        "probed_at": "2026-02-10T05:48:26.691162",
+        "data_vintage": "LAUS 2024",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "epa_aqs": {
+        "authority": "US Environmental Protection Agency",
+        "authority_tier": 1,
+        "api_url": "https://aqs.epa.gov/data/api/annualData/byState?state=29&param=88101",
+        "probed_at": "2026-02-10T05:48:27.951991",
+        "data_vintage": "AQS 2023",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "nces_ccd": {
+        "authority": "National Center for Education Statistics",
+        "authority_tier": 1,
+        "api_url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=29",
+        "probed_at": "2026-02-10T05:49:15.311410",
+        "data_vintage": "2022-2023 academic year",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "hud_fmr": {
+        "authority": "US Department of Housing and Urban Development",
+        "authority_tier": 1,
+        "api_url": "https://www.huduser.gov/hudapi/public/fmr/statedata/MO",
+        "probed_at": "2026-02-10T05:49:21.804953",
+        "data_vintage": "FY2026",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "fema_openfema": {
+        "authority": "Federal Emergency Management Agency",
+        "authority_tier": 1,
+        "api_url": "https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries?$filter=state eq 'MO'",
+        "probed_at": "2026-02-10T05:49:22.512224",
+        "data_vintage": "1953-present",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "greatschools": {
+        "authority": "GreatSchools.org (nonprofit)",
+        "authority_tier": 3,
+        "api_url": null,
+        "probed_at": "2026-02-10T05:49:22.886960",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "permits": {
+        "authority": "City Open Data Portals (Socrata)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-10T05:49:23.241471",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "youtube_meetings": {
+        "authority": "YouTube (via SerpAPI search + youtube-transcript-api)",
+        "authority_tier": 3,
+        "api_url": null,
+        "probed_at": "2026-02-10T05:49:23.242276",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "seeclickfix": {
+        "authority": "SeeClickFix (civic issue tracking platform)",
+        "authority_tier": 3,
+        "api_url": "https://seeclickfix.com/api/v2/issues?place_url=lsmo",
+        "probed_at": "2026-02-10T05:51:55.644214",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "accela": {
+        "authority": "Accela (permit management platform)",
+        "authority_tier": 3,
+        "api_url": "https://apis.accela.com/v4/agencies",
+        "probed_at": "2026-02-10T05:52:01.957464",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "socrata_crime": {
+        "authority": "City Open Data Portals (Socrata)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-10T05:48:26.690337",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      }
+    },
+    "derived_fields": {
+      "safety.total_crime_rate": {
+        "formula": "violent_crime_rate + property_crime_rate",
+        "inputs": [
+          "safety.violent_crime_rate",
+          "safety.property_crime_rate"
+        ],
+        "formula_location": "score/normalizer.py:_derive_total_crime",
+        "authority_tier": 2
+      },
+      "safety.crime_trend": {
+        "formula": "(last_year_rate - first_year_rate) / years_span",
+        "inputs": [
+          "fbi.time_series[].violent_crime_rate"
+        ],
+        "formula_location": "score/normalizer.py:_build_safety",
+        "authority_tier": 2
+      },
+      "education.school_quality_tier": {
+        "formula": "excellent if avg>=8, good if avg>=6, fair if avg>=4, else poor",
+        "inputs": [
+          "education.avg_school_rating"
+        ],
+        "formula_location": "score/normalizer.py:_build_education",
+        "authority_tier": 3
+      },
+      "environment.avg_disasters_per_decade": {
+        "formula": "total_disasters / (years_span / 10)",
+        "inputs": [
+          "environment.total_disasters"
+        ],
+        "formula_location": "probe/fema_probe.py",
+        "authority_tier": 2
+      },
+      "housing.rent_burden_ratio": {
+        "formula": "(fmr_2br * 12) / median_household_income * 100",
+        "inputs": [
+          "housing.fmr_2br",
+          "economy.median_household_income"
+        ],
+        "formula_location": "score/normalizer.py:_build_housing",
+        "authority_tier": 2
+      },
+      "governance.legislative_velocity": {
+        "formula": "legislative_volume / years_of_legislative_data",
+        "inputs": [
+          "governance.legislative_volume",
+          "governance.years_of_legislative_data"
+        ],
+        "formula_location": "score/normalizer.py:_build_governance",
+        "authority_tier": 2
+      },
+      "development.yoy_trend_pct": {
+        "formula": "(current_year - prior_year) / prior_year * 100",
+        "inputs": [
+          "permit data from Socrata"
+        ],
+        "formula_location": "probe/permits_probe.py",
+        "authority_tier": 2
+      }
+    },
+    "geographic_mismatches": [
+      {
+        "field": "identity.fips_state",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "state-level data applied to city profile"
+      },
+      {
+        "field": "economy.unemployment_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Reflects statewide unemployment, not city-specific rate"
+      },
+      {
+        "field": "economy.labor_force",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: This is the full state labor force, not city-level"
+      },
+      {
+        "field": "economy.employed",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "economy.unemployed",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.violent_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: City-level requires ORI codes not currently used"
+      },
+      {
+        "field": "safety.property_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.murder_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.robbery_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.burglary_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.vehicle_theft_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.total_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA; derived sum"
+      },
+      {
+        "field": "safety.crime_trend",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "state-level data applied to city profile"
+      },
+      {
+        "field": "education.total_schools",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Count includes all schools in the state, not city"
+      },
+      {
+        "field": "education.total_enrollment",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.pupil_teacher_ratio",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Average across all state schools"
+      },
+      {
+        "field": "education.title1_pct",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.charter_pct",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.regular_schools",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.pm25_mean",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE/COUNTY-LEVEL: Averaged across all monitors in the state"
+      },
+      {
+        "field": "environment.ozone_mean",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE/COUNTY-LEVEL"
+      },
+      {
+        "field": "environment.total_disasters",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: All declarations for the state, not city-specific"
+      },
+      {
+        "field": "environment.avg_disasters_per_decade",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.most_recent_disaster",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.most_recent_disaster_type",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "housing.fmr_0br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR: Fair Market Rents at state level, not city-specific metro area"
+      },
+      {
+        "field": "housing.fmr_1br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_2br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_3br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_4br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.rent_burden_ratio",
+        "source_level": "mixed",
+        "profile_level": "place",
+        "note": "GEOGRAPHIC MISMATCH: FMR is state-level (HUD), income is city-level (Census). Ratio may be biased."
+      }
+    ]
+  },
+  "data_quality": {
+    "quality_score": 92.9,
+    "grade": "A",
+    "completeness_pct": 92.9,
+    "issue_count": 7,
+    "granularity_flags": 3
+  },
+  "officials": {
+    "body_name": "City Council - Regular Session",
+    "members": [
+      {
+        "name": "Baird, Bill",
+        "email": "Bill.Baird@cityofls.net",
+        "title": "Mayor",
+        "start_date": "2018-04-12",
+        "committees": [
+          "City Council - Closed Session",
+          "City Council - Mock Meeting",
+          "City Council - Work Session",
+          "Legislative and Intergovernmental Relations Committee"
+        ]
+      },
+      {
+        "name": "Carlyle, Trish",
+        "email": "Trish.Carlyle@cityofLS.net",
+        "title": "Councilmember",
+        "start_date": "2024-04-16",
+        "committees": [
+          "City Council - Closed Session",
+          "City Council - Mock Meeting",
+          "City Council - Work Session",
+          "Community and Economic Development Committee",
+          "Legislative and Intergovernmental Relations Committee"
+        ]
+      },
+      {
+        "name": "Funk, Donnie",
+        "email": "Donnie.Funk@cityofls.net",
+        "title": "Alternate",
+        "start_date": "2025-05-20",
+        "committees": [
+          "Board of Aeronautic Commissioners",
+          "City Council - Closed Session",
+          "City Council - Mock Meeting",
+          "City Council Rules Committee",
+          "City Council - Work Session"
+        ]
+      },
+      {
+        "name": "Hodges, Faith",
+        "email": "Faith.Hodges@cityofls.net",
+        "title": "Councilmember",
+        "start_date": "2022-04-27",
+        "committees": [
+          "City Council - Closed Session",
+          "City Council - Mock Meeting",
+          "City Council - Work Session",
+          "Community and Economic Development Committee",
+          "Finance and Budget Committee"
+        ]
+      },
+      {
+        "name": "Lopez, Beto",
+        "email": "Beto.Lopez@cityofls.net",
+        "title": "Councilmember",
+        "start_date": "2018-04-12",
+        "committees": [
+          "City Council - Closed Session",
+          "City Council - Mock Meeting",
+          "City Council - Work Session",
+          "Finance and Budget Committee"
+        ]
+      },
+      {
+        "name": "Lovell, John",
+        "email": "John.Lovell@cityofls.net",
+        "title": "Chairperson",
+        "start_date": "2025-05-20",
+        "committees": [
+          "City Council - Closed Session",
+          "City Council - Mock Meeting",
+          "City Council Rules Committee",
+          "City Council - Work Session",
+          "Finance and Budget Committee"
+        ]
+      },
+      {
+        "name": "Prier, Mia",
+        "email": "Mia.Prier@cityofls.net",
+        "title": "Councilmember",
+        "start_date": "2025-05-20",
+        "committees": [
+          "City Council - Closed Session",
+          "City Council - Mock Meeting",
+          "City Council Rules Committee",
+          "City Council - Work Session",
+          "Community and Economic Development Committee"
+        ]
+      },
+      {
+        "name": "Rader, Cynda",
+        "email": "Cynda.Rader@cityofls.net",
+        "title": "Councilmember",
+        "start_date": "2024-05-21",
+        "committees": [
+          "City Council - Closed Session",
+          "City Council - Mock Meeting",
+          "City Council Rules Committee",
+          "City Council - Work Session",
+          "Community and Economic Development Committee"
+        ]
+      },
+      {
+        "name": "Shields, Hillary",
+        "email": "Hillary.Shields@cityofls.net",
+        "title": "Vice Chair",
+        "start_date": "2025-05-20",
+        "committees": [
+          "City Council - Closed Session",
+          "City Council - Mock Meeting",
+          "City Council Rules Committee",
+          "City Council - Work Session",
+          "Finance and Budget Committee"
+        ]
+      }
+    ]
+  },
+  "recent_meetings": [
+    {
+      "date": "2026-02-12",
+      "body": "Planning Commission",
+      "location": "City Council Chambers\r\nCity Hall\r\n220 SE Green Street\r\nLee's Summit, MO 64063",
+      "has_agenda": true,
+      "agenda_url": "https://lsmo.legistar1.com/lsmo/meetings/2026/2/4489_A_Planning_Commission_26-02-12_Final_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-13",
+      "body": "City Council Rules Committee",
+      "location": "Via Video Conference",
+      "has_agenda": true,
+      "agenda_url": "https://lsmo.legistar1.com/lsmo/meetings/2026/2/4533_A_City_Council_Rules_Committee_26-02-13_Final_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-17",
+      "body": "Public Safety Advisory Board",
+      "location": "Please see the agenda for meeting location.",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-17",
+      "body": "Charter Review Commission",
+      "location": "City Council Committee Room\r\nCity Hall\r\n220 SE Green Street\r\nLee's Summit, MO 64063",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-18",
+      "body": "Parks and Recreation Board",
+      "location": "Strother Conference Room\r\nCity Hall\r\n220 SE Green Street\r\nLee's Summit, MO 64063",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-18",
+      "body": "Cultural Commission",
+      "location": "City Council Committee Room\r\nCity Hall\r\n220 SE Green Street\r\nLee's Summit, MO 64063",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-19",
+      "body": "Board of Appeals",
+      "location": "Via Video Conference",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-11",
+      "body": "Wellness Commission",
+      "location": "Strother Conference Room\r\nCity Hall\r\n220 SE Green Street\r\nLee's Summit, MO 64063",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-11",
+      "body": "Wellness Commission",
+      "location": "Strother Conference Room\r\nCity Hall\r\n220 SE Green Street\r\nLee's Summit, MO 64063",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-11",
+      "body": "Community and Economic Development Committee",
+      "location": "City Council Chambers\r\nand Via Video Conference\r\n220 SE Green Street\r\nLee's Summit, MO 64063",
+      "has_agenda": true,
+      "agenda_url": "https://lsmo.legistar1.com/lsmo/meetings/2026/2/4320_A_Community_and_Economic_Development_Committee_26-02-11_Final_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "City Council - Regular Session",
+      "location": "City Council Chambers\r\nand Via Video Conference\r\n220 SE Green Street\r\nLee's Summit, MO 64063",
+      "has_agenda": true,
+      "agenda_url": "https://lsmo.legistar1.com/lsmo/meetings/2026/2/4437_A_City_Council_-_Regular_Session_26-02-10_Final_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-09",
+      "body": "Public Works Committee",
+      "location": "City Council Chambers\r\nand Via Video Conference\r\n220 SE Green Street\r\nLee's Summit, MO 64063",
+      "has_agenda": true,
+      "agenda_url": "https://lsmo.legistar1.com/lsmo/meetings/2026/2/4338_A_Public_Works_Committee_26-02-09_Final_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-09",
+      "body": "Legislative and Intergovernmental Relations Committee",
+      "location": "Via Video Conference",
+      "has_agenda": true,
+      "agenda_url": "https://lsmo.legistar1.com/lsmo/meetings/2026/2/4360_A_Legislative_and_Intergovernmental_Relations_Committee_26-02-09_Final_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-04",
+      "body": "Board of Aeronautic Commissioners",
+      "location": "MEETING CANCELLED\r\nKansas City - Lee's Summit Regional Airport \r\n2740 NE Hagan Road\r\nLee's Summit, MO 64064",
+      "has_agenda": true,
+      "agenda_url": "https://lsmo.legistar1.com/lsmo/meetings/2026/2/4466_A_Board_of_Aeronautic_Commissioners_26-02-04_Final_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "City Council - Closed Session",
+      "location": "City Council Committee Room\r\nand Via Video Conference\r\n220 SE Green Street\r\nLee's Summit, MO 64063",
+      "has_agenda": true,
+      "agenda_url": "https://lsmo.legistar1.com/lsmo/meetings/2026/2/4534_A_City_Council_-_Closed_Session_26-02-03_Final_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "City Council - Regular Session",
+      "location": "City Council Chambers\r\nand Via Video Conference\r\n220 SE Green Street\r\nLee's Summit, MO 64063",
+      "has_agenda": true,
+      "agenda_url": "https://lsmo.legistar1.com/lsmo/meetings/2026/2/4438_A_City_Council_-_Regular_Session_26-02-03_Final_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-02",
+      "body": "Finance and Budget Committee",
+      "location": "City Council Chambers\r\nand Via Video Conference\r\n220 SE Green Street\r\nLee's Summit, MO 64063",
+      "has_agenda": true,
+      "agenda_url": "https://lsmo.legistar1.com/lsmo/meetings/2026/2/4325_A_Finance_and_Budget_Committee_26-02-02_Final_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-29",
+      "body": "Board of Appeals",
+      "location": "Via Video Conference",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "An Ordinance approving an Intergovernmental Agreement between the City of Lee's Summit, Missouri and the Lee's Summit R-7 School District for the use of Green Street.",
+      "type": "Ordinance",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-06",
+      "file_number": "TMP-3598",
+      "passed_date": null
+    },
+    {
+      "title": "An Ordinance granting a Special Use Permit renewal for a mini-warehouse facility in district PI (Planned Industrial) on land located at 5 SW Industrial Dr for a period of twenty (20) years and thirty-",
+      "type": "Ordinance - Public Hearing",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-05",
+      "file_number": "TMP-3597",
+      "passed_date": null
+    },
+    {
+      "title": "Approval of the January 22, 2026, Planning Commission Action Letter",
+      "type": "Minutes",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-05",
+      "file_number": "2026-7466",
+      "passed_date": null
+    },
+    {
+      "title": "An Ordinance authorizing the Mayor to execute the Real Property and Tower Site Lease Agreement with T-Mobile Central, LLC, for the monopole tower at 404 NE Woods Chapel Road",
+      "type": "Ordinance",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-02",
+      "file_number": "BILL NO. 26-025",
+      "passed_date": null
+    },
+    {
+      "title": "Mayor Pro Tem - City Council Liaison Assignment Change:\r\nLee's Summit Cares - Appoint Councilmember Funk to replace Councilmember Carlyle",
+      "type": "Appointment",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-30",
+      "file_number": "2026-7461",
+      "passed_date": null
+    },
+    {
+      "title": "Application #PL2025-324 - Special Use Permit renewal for a mini-warehouse facility - Jefferson Street Storage, 5 SW Industrial Drive; Matthew Schlicht, applicant.",
+      "type": "Public Hearing - Sworn",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-29",
+      "file_number": "2026-7459",
+      "passed_date": null
+    },
+    {
+      "title": "Discussion: Filling Charter Vacancy",
+      "type": "Discussion Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-28",
+      "file_number": "2026-7456",
+      "passed_date": null
+    },
+    {
+      "title": "Discussion: Amending Public Comments",
+      "type": "Discussion Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-28",
+      "file_number": "2026-7455",
+      "passed_date": null
+    },
+    {
+      "title": "Presentation: Lobbyist Update",
+      "type": "Discussion Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-28",
+      "file_number": "2026-7453",
+      "passed_date": null
+    },
+    {
+      "title": "Approval of the January 15, 2026 Legislative and Intergovernmental Relations Committee Action Letter.",
+      "type": "Minutes",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-28",
+      "file_number": "2026-7452",
+      "passed_date": null
+    }
+  ],
+  "legistar_url": "https://lsmo.legistar.com",
+  "enriched_at": "2026-02-12T18:53:32.475219",
+  "government_news": [],
+  "video_meetings": [],
+  "data_platforms": [
+    "legistar"
+  ]
+}

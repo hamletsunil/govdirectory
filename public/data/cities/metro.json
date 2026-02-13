@@ -1,1 +1,1101 @@
-{"schema_version":"5.0","normalized_at":"2026-02-10T14:21:49.278876","identity":{"name":"King County Metro","state":"","fips_state":null,"fips_place":null,"population":null},"economy":{"median_household_income":null,"median_home_value":null,"unemployment_rate":null,"unemployment_data_level":"state","labor_force":null,"employed":null,"unemployed":null,"gini_index":null,"poverty_rate":null,"homeownership_rate":null,"rent_to_income_ratio":null,"home_value_to_income_ratio":null,"price_to_rent_ratio":null,"effective_tax_rate":null,"population_growth_cagr":null,"median_real_estate_taxes":null},"safety":{"violent_crime_rate":null,"property_crime_rate":null,"murder_rate":null,"robbery_rate":null,"burglary_rate":null,"vehicle_theft_rate":null,"total_crime_rate":null,"crime_trend":null,"crime_data_level":null},"education":{"total_schools":null,"total_enrollment":null,"pupil_teacher_ratio":null,"title1_pct":null,"charter_pct":null,"regular_schools":null,"avg_school_rating":null,"rated_schools":null,"school_quality_tier":null},"environment":{"pm25_mean":null,"ozone_mean":null,"total_disasters":null,"avg_disasters_per_decade":null,"most_recent_disaster":null,"most_recent_disaster_type":null,"disasters_by_type":{}},"housing":{"median_rent":null,"housing_units":null,"fmr_0br":null,"fmr_1br":null,"fmr_2br":null,"fmr_3br":null,"fmr_4br":null,"rent_burden_ratio":null,"cost_burdened_pct":null,"severely_burdened_pct":null},"governance":{"legislative_volume":5937,"legislative_velocity":539.7,"committee_count":95,"years_of_legislative_data":11.0,"has_public_meetings":true,"api_accessible":true,"matter_types":{"Board Correspondence":348,"Informational Report":217,"Oral Report / Presentation":125,"Contract":107,"Program":44,"Motion / Motion Response":38,"Minutes":23,"Policy":19,"Project":16,"Resolution":12,"Plan":11,"Budget":10,"Agreement":9,"Appointment":8,"Proclamation":6,"Federal Legislation / State Legislation (Position)":4,"Formula Allocation / Local Return":1,"Public Hearing":1,"Rule / By-law":1},"top_matter_type":"Board Correspondence","matter_statuses":{"Sent":348,"Agenda Ready":317,"Passed":216,"Filed":111,"Withdrawn":7,"Held":1},"pass_rate":33.3,"passed_count":1979,"active_council_members":0,"avg_tenure_years":null,"vote_coverage_pct":0.0,"video_availability_pct":0.0,"agenda_availability_pct":43.2,"minutes_availability_pct":0.0,"avg_meetings_per_month":14.3,"meetings_by_year":{"2026":50,"2025":208,"2024":135,"2023":107},"avg_sponsors_per_matter":1.0,"avg_attachments_per_matter":1.4,"pct_with_text_versions":100.0,"index_categories":["\"Hot Spots\" Program","(Bos) - Div 1 Expansion (Project)","(Bos) - Div 2 Maintenance Building Modernization (Project)","(Bos) - Div 7 Facility Improvements (Project)","(Bos) - El Monte Transit Station Enhancement (Project)","(Bos) - Lax Terminal Improvement (Project)","(Bos) - New Div 9 Trans Building & Facilities Improvements (Project)","(Bos) - New Div/South Park Relocation (Project)","(Bos) - Repave Lax & Other Terminals (Project)","(Bos) - Temple & Beaudry Layover Facility (Project)","(Bos)-Permanent Restroom Facilities At Selected Locations (Project)","(Fhwa)-Cal State & L.A. County Usc Busway Station Enhancement (Project)","0715000122 I-105El (Project)","07A0034-05 A11 (Project)","07A0034-11-A4 Prop1B Slpp (Project)","100 45' Composite Buses-2006 (Project)","100 Qty 45' Nabi Compo 46 Seat Buses (Project)","101 Corridor Study (Project)","101 Fwy/7Th St Rail Corridor Coordination Study (Project)","103rd Street/Watts Towers Station","110 (Crdp) (Project)","110 Cms Enginge Replacement Program - Fy09 (Project)","150 45-Ft Buses (Project)","178 Cng Articulated Bus Purchase Base Order Op33200646 (Project)","17th St/Santa Monica College Station","1998 Sb 836 Rideshare Prog, As Needed Labor, Prof % Tech (Project)","1St & Boyle South Jd (Project)","1St/Central Joint Development (Project)","1St/Lorena Jd (Project)","1St/Soto Jd (Project)","1st Street Station","200 Cng Articulated Bus Purchase Option 1 Op33200646 (Project)","2008/2009 Freeway Service Patrol (Project)","2009/2010 Freeway Service Patrol (Project)","2014 Sgc Award (Project)","2028 Mobility Concept Plan","26th Street/Bergamont Station","300-00 Operating Assistance (Project)","3Rd Party Funded Grant (Project)","40-Foot Bus Buy (Project)","405 110 105 Sr91 Ramp&Interch (Project)","45-Foot Composite Buses (Project)","470 Bauchet Enviro (Project)","490 Bauchet (Project)","490 Bauchet St Construction (Project)","490 Bauchet St. Storage Bldg Construction (Project)","5 Mrl Station Ent. Canopies (Project)","511","511 One Call/One Click (Project)","5304 Urban Transit Grant (Project)"],"has_accela":false,"accela_agency_id":null},"development":{"permits_12mo":null,"yoy_trend_pct":null,"avg_permit_value":null,"permit_types":{},"datasets_count":0},"meetings":{"official_channels":0,"meetings_indexed":null,"avg_meetings_per_month":null,"has_video_archive":false,"meeting_types":{},"transcripts_available":null},"civic_issues":{"total_issues":null,"issues_last_30d":null,"issues_last_365d":null,"resolution_rate":null,"top_issue_type":null,"type_distribution":{},"has_civic_issue_tracking":false},"demographics":{"population":null,"poverty_universe":null,"employment_universe":null},"time_series":{"economy_history":[],"safety_history":[],"environment_history":[]},"data_sources":{"legistar":"available","socrata":"skipped","census_acs":"skipped","arcgis":"available","fbi_ucr":"skipped","socrata_crime":"skipped","bls_laus":"skipped","ca_edd":"skipped","epa_aqs":"skipped","nces_ccd":"skipped","hud_fmr":"skipped","fema_openfema":"skipped","greatschools":"skipped","permits":"skipped","youtube_meetings":"skipped","seeclickfix":"skipped","accela":"skipped"},"provenance":{"last_full_probe":"2026-02-10T07:00:59.486303","sources":{"legistar":{"authority":"Legistar by Granicus","authority_tier":1,"api_url":"https://webapi.legistar.com/v1/metro/Bodies","probed_at":"2026-02-10T07:00:59.487796","data_vintage":"2014\u20132026","geographic_level":"place","status":"available"},"socrata":{"authority":"City Open Data Portals (Socrata/Tyler Data & Insights)","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"place","status":"skipped"},"census_acs":{"authority":"US Census Bureau","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":"ACS 5-Year 2022","geographic_level":"place","status":"skipped"},"arcgis":{"authority":"City ArcGIS/GIS Portals","authority_tier":1,"api_url":null,"probed_at":"2026-02-10T07:03:10.843529","data_vintage":null,"geographic_level":"place","status":"available"},"fbi_ucr":{"authority":"FBI Uniform Crime Reporting Program","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"state","status":"skipped"},"bls_laus":{"authority":"Bureau of Labor Statistics","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"state","status":"skipped"},"epa_aqs":{"authority":"US Environmental Protection Agency","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"state","status":"skipped"},"nces_ccd":{"authority":"National Center for Education Statistics","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":"2022-2023 academic year","geographic_level":"state","status":"skipped"},"hud_fmr":{"authority":"US Department of Housing and Urban Development","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":"FY2026","geographic_level":"state","status":"skipped"},"fema_openfema":{"authority":"Federal Emergency Management Agency","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":"1953-present","geographic_level":"state","status":"skipped"},"greatschools":{"authority":"GreatSchools.org (nonprofit)","authority_tier":3,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"place","status":"skipped"},"permits":{"authority":"City Open Data Portals (Socrata)","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"place","status":"skipped"},"youtube_meetings":{"authority":"YouTube (via SerpAPI search + youtube-transcript-api)","authority_tier":3,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"place","status":"skipped"},"seeclickfix":{"authority":"SeeClickFix (civic issue tracking platform)","authority_tier":3,"api_url":"https://seeclickfix.com/api/v2/issues?place_url=metro","probed_at":null,"data_vintage":null,"geographic_level":"place","status":"skipped"},"accela":{"authority":"Accela (permit management platform)","authority_tier":3,"api_url":"https://apis.accela.com/v4/agencies","probed_at":null,"data_vintage":null,"geographic_level":"place","status":"skipped"},"socrata_crime":{"authority":"City Open Data Portals (Socrata)","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"place","status":"skipped"}},"derived_fields":{"safety.total_crime_rate":{"formula":"violent_crime_rate + property_crime_rate","inputs":["safety.violent_crime_rate","safety.property_crime_rate"],"formula_location":"score/normalizer.py:_derive_total_crime","authority_tier":2},"safety.crime_trend":{"formula":"(last_year_rate - first_year_rate) / years_span","inputs":["fbi.time_series[].violent_crime_rate"],"formula_location":"score/normalizer.py:_build_safety","authority_tier":2},"education.school_quality_tier":{"formula":"excellent if avg>=8, good if avg>=6, fair if avg>=4, else poor","inputs":["education.avg_school_rating"],"formula_location":"score/normalizer.py:_build_education","authority_tier":3},"environment.avg_disasters_per_decade":{"formula":"total_disasters / (years_span / 10)","inputs":["environment.total_disasters"],"formula_location":"probe/fema_probe.py","authority_tier":2},"housing.rent_burden_ratio":{"formula":"(fmr_2br * 12) / median_household_income * 100","inputs":["housing.fmr_2br","economy.median_household_income"],"formula_location":"score/normalizer.py:_build_housing","authority_tier":2},"governance.legislative_velocity":{"formula":"legislative_volume / years_of_legislative_data","inputs":["governance.legislative_volume","governance.years_of_legislative_data"],"formula_location":"score/normalizer.py:_build_governance","authority_tier":2},"development.yoy_trend_pct":{"formula":"(current_year - prior_year) / prior_year * 100","inputs":["permit data from Socrata"],"formula_location":"probe/permits_probe.py","authority_tier":2}},"geographic_mismatches":[{"field":"identity.fips_state","source_level":"state","profile_level":"place","note":"state-level data applied to city profile"},{"field":"economy.unemployment_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Reflects statewide unemployment, not city-specific rate"},{"field":"economy.labor_force","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: This is the full state labor force, not city-level"},{"field":"economy.employed","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"economy.unemployed","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.violent_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: City-level requires ORI codes not currently used"},{"field":"safety.property_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.murder_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.robbery_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.burglary_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.vehicle_theft_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.total_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA; derived sum"},{"field":"safety.crime_trend","source_level":"state","profile_level":"place","note":"state-level data applied to city profile"},{"field":"education.total_schools","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Count includes all schools in the state, not city"},{"field":"education.total_enrollment","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.pupil_teacher_ratio","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Average across all state schools"},{"field":"education.title1_pct","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.charter_pct","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.regular_schools","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.pm25_mean","source_level":"state","profile_level":"place","note":"STATE/COUNTY-LEVEL: Averaged across all monitors in the state"},{"field":"environment.ozone_mean","source_level":"state","profile_level":"place","note":"STATE/COUNTY-LEVEL"},{"field":"environment.total_disasters","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: All declarations for the state, not city-specific"},{"field":"environment.avg_disasters_per_decade","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.most_recent_disaster","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.most_recent_disaster_type","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"housing.fmr_0br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR: Fair Market Rents at state level, not city-specific metro area"},{"field":"housing.fmr_1br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_2br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_3br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_4br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.rent_burden_ratio","source_level":"mixed","profile_level":"place","note":"GEOGRAPHIC MISMATCH: FMR is state-level (HUD), income is city-level (Census). Ratio may be biased."}]},"data_quality":{"quality_score":28.6,"grade":"F","completeness_pct":28.6,"issue_count":1,"granularity_flags":0},"officials":{"body_name":"Board of Directors - Regular Board Meeting","members":[{"name":"Ara J. Najarian","email":null,"title":"Board Member","start_date":"2025-09-18","committees":["Ad Hoc Board Composition Committee","Construction Committee","Planning and Programming Committee"]},{"name":"Fernando Dutra","email":null,"title":"Chair","start_date":"2025-09-18","committees":["Ad Hoc Board Composition Committee","Construction Committee","Executive Management Committee"]},{"name":"Gloria Roberts","email":null,"title":"non-voting member","start_date":"2025-09-18","committees":["Ad Hoc Board Composition Committee","Construction Committee","Executive Management Committee","Finance, Budget and Audit Committee","Operations, Safety, and Customer Experience Committee"]},{"name":"Hilda L. Solis","email":null,"title":"Board Member","start_date":"2025-09-18","phone":"phone1","website":"http://web1","committees":["Executive Management Committee","Planning and Programming Committee"]},{"name":"Holly J. Mitchell","email":null,"title":"Board Member","start_date":"2025-09-18","committees":["Finance, Budget and Audit Committee","Operations, Safety, and Customer Experience Committee"]},{"name":"Imelda Padilla","email":null,"title":"Board Member","start_date":"2025-09-18","committees":["Ad Hoc Board Composition Committee","Construction Committee","Operations, Safety, and Customer Experience Committee"]},{"name":"Jacquelyn Dupont-Walker","email":null,"title":"1st Vice Chair","start_date":"2025-09-18","committees":["Ad Hoc Board Composition Committee","Construction Committee","Executive Management Committee","Planning and Programming Committee"]},{"name":"James Butts","email":null,"title":"Board Member","start_date":"2025-09-18","committees":["Construction Committee","Planning and Programming Committee"]},{"name":"Janice Hahn","email":null,"title":"Board Member","start_date":"2025-09-18","committees":["Executive Management Committee","Operations, Safety, and Customer Experience Committee"]},{"name":"Karen Bass","email":null,"title":"Board Member","start_date":"2025-09-18","committees":["Executive Management Committee"]},{"name":"Kathryn Barger","email":null,"title":"2nd Vice Chair","start_date":"2025-09-18","committees":["Ad Hoc Board Composition Committee","Executive Management Committee","Finance, Budget and Audit Committee"]},{"name":"Katy Yaroslavsky","email":null,"title":"Board Member","start_date":"2025-09-18","committees":["Finance, Budget and Audit Committee","Operations, Safety, and Customer Experience Committee"]},{"name":"Lindsey Horvath","email":null,"title":"Board Member","start_date":"2025-09-18","committees":["Ad Hoc Board Composition Committee","Finance, Budget and Audit Committee","Planning and Programming Committee"]},{"name":"Stephanie Wiggins","email":"wigginss@metro.net","title":"Chief Executive Officer","start_date":"2025-09-18","committees":["Ad Hoc Board Composition Committee","Construction Committee","Executive Management Committee","Finance, Budget and Audit Committee","Operations, Safety, and Customer Experience Committee"]},{"name":"Tim Sandoval","email":null,"title":"Board Member","start_date":"2025-09-18","committees":["Finance, Budget and Audit Committee","Operations, Safety, and Customer Experience Committee"]}]},"recent_meetings":[{"date":"2026-02-12","body":"Gateway Cities Service Council","location":"Salt Lake Park Community Center, 3401 E. Florence Ave, Huntington Park, CA  90255","has_agenda":false,"agenda_url":null,"has_minutes":false,"has_video":false,"upcoming":true},{"date":"2026-02-17","body":"Test - Live Committee Meeting Test","location":"test test test","has_agenda":false,"agenda_url":null,"has_minutes":false,"has_video":false,"upcoming":true},{"date":"2026-02-17","body":"Test - Live Committee Meeting Test (SAP)","location":"test test test","has_agenda":false,"agenda_url":null,"has_minutes":false,"has_video":false,"upcoming":true},{"date":"2026-02-25","body":"Test - Live Regular Meeting Test","location":"test test test","has_agenda":false,"agenda_url":null,"has_minutes":false,"has_video":false,"upcoming":true},{"date":"2026-02-25","body":"Test - Live Regular Meeting Test (SAP)","location":"TEST","has_agenda":false,"agenda_url":null,"has_minutes":false,"has_video":false,"upcoming":true},{"date":"2026-03-02","body":"South Bay Service Council","location":"Residence Inn Redondo Beach,  2420 Marine Av, Redondo Beach, CA 9027","has_agenda":false,"agenda_url":null,"has_minutes":false,"has_video":false,"upcoming":true},{"date":"2026-03-04","body":"San Fernando Valley Service Council","location":"Marvin Braude Constituent Center, 6262 Van Nuys Blvd, Van Nuys, CA  91401","has_agenda":false,"agenda_url":null,"has_minutes":false,"has_video":false,"upcoming":true},{"date":"2026-03-09","body":"San Gabriel Valley Service Council","location":"El Monte Station Division 7 Building, 3rd Floor, 3447 Santa Anita Ave, CA  91731","has_agenda":false,"agenda_url":null,"has_minutes":false,"has_video":false,"upcoming":true},{"date":"2026-03-11","body":"Westside/Central Service Council","location":"Metro Board Room, 1 Gateway Plaza, 3rd Floor, Los Angeles, CA  90012","has_agenda":false,"agenda_url":null,"has_minutes":false,"has_video":false,"upcoming":true},{"date":"2026-03-12","body":"Gateway Cities Service Council","location":"Salt Lake Park Community Center, 3401 E. Florence Ave, Huntington Park, CA  90255","has_agenda":false,"agenda_url":null,"has_minutes":false,"has_video":false,"upcoming":true},{"date":"2026-02-11","body":"Westside/Central Service Council","location":"Metro Board Room, 1 Gateway Plaza, 3rd Floor, Los Angeles, CA  90012","has_agenda":false,"agenda_url":null,"has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-09","body":"San Gabriel Valley Service Council","location":"El Monte Station Division 7 Building, 3rd Floor, 3447 Santa Anita Ave, CA  91731\r\n\r\nEl Monte","has_agenda":false,"agenda_url":null,"has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-05","body":"Test - Live Regular Meeting Test","location":"test test test","has_agenda":false,"agenda_url":null,"has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-05","body":"Service Councils - Meet and Confer","location":"Metro 3rd Floor Gateway Cities Conference Room, 1 Gateway Plaza, Los Angeles, CA  90012","has_agenda":false,"agenda_url":null,"has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-05","body":"Test - Live Committee Meeting Test","location":"test test test","has_agenda":false,"agenda_url":null,"has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-04","body":"San Fernando Valley Service Council","location":"Marvin Braude Constituent Center, 6262 Van Nuys Blvd, Van Nuys, CA  91401","has_agenda":false,"agenda_url":null,"has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-02","body":"South Bay Service Council","location":"Residence Inn Redondo Beach,  2420 Marine Av, Redondo Beach, CA 90278","has_agenda":false,"agenda_url":null,"has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-01-22","body":"Board of Directors - Regular Board Meeting","location":"One Gateway Plaza, Los Angeles, CA 90012, \r\n3rd Floor, Metro Board Room","has_agenda":true,"agenda_url":"https://metro.legistar1.com/metro/meetings/2026/1/3354_A_Board_of_Directors_-_Regular_Board_Meeting_26-01-22_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-01-22","body":"Board of Directors - Regular Board Meeting (SAP)","location":"One Gateway Plaza, Los Angeles, CA 90012, \r\n3rd Floor, Metro Board Room","has_agenda":false,"agenda_url":null,"has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-01-15","body":"Finance, Budget and Audit Committee","location":"One Gateway Plaza, Los Angeles, CA 90012, \r\n3rd Floor, Metro Board Room","has_agenda":true,"agenda_url":"https://metro.legistar1.com/metro/meetings/2026/1/3219_A_Finance%2C_Budget_and_Audit_Committee_26-01-15_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false}],"recent_legislation":[{"title":"RECEIVE remarks by the Chair.","type":"Oral Report / Presentation","status":"Agenda Ready","intro_date":"2026-01-26","file_number":"2026-0071","passed_date":null},{"title":"APPROVE Motion by Mitchell, Sandoval, Dupont-Walker, and Butts that the Board direct the Chief Executive Officer to:\n\nA.\tAPPROVE the Hawthorne Option, a 4.5-mile light rail line with two (2) stations ","type":"Motion / Motion Response","status":"Passed","intro_date":"2026-01-16","file_number":"2026-0037","passed_date":"2026-01-22"},{"title":"RECEIVE General Public Comment","type":"Informational Report","status":"Agenda Ready","intro_date":"2026-01-15","file_number":"2026-0033","passed_date":null},{"title":"APPROVE Minutes of the Regular Board Meeting held December 4, 2025 and the Special Board Meeting held January 14, 2026.","type":"Minutes","status":"Passed","intro_date":"2026-01-15","file_number":"2026-0032","passed_date":"2026-01-22"},{"title":"APPROVE Motion by Dutra, Barger, Horvath, Padilla, Najarian, and Dupont-Walker that the Board direct the Chief Executive Officer to:\n\nA.\tA benchmarking analysis of peer transit agencies of comparable ","type":"Motion / Motion Response","status":"Passed","intro_date":"2026-01-15","file_number":"2026-0035","passed_date":"2026-01-22"},{"title":"RECEIVE report by the Chief Executive Officer.","type":"Oral Report / Presentation","status":"Filed","intro_date":"2026-01-15","file_number":"2026-0034","passed_date":"2026-01-22"},{"title":"RECEIVE an oral report from staff regarding the current status of the Eastbound 91 Atlantic to Cherry Safety Improvements project.","type":"Oral Report / Presentation","status":"Agenda Ready","intro_date":"2026-01-09","file_number":"2026-0017","passed_date":"2026-01-15"},{"title":"APPROVE Motion by Bass, Dutra, Solis, Najarian, Sandoval, and Yaroslavsky that the Board direct the Chief Executive Officer to:\n\nA.\tAllow each local jurisdiction in L.A. County, at its sole discretion","type":"Motion / Motion Response","status":"Passed","intro_date":"2026-01-09","file_number":"2026-0019","passed_date":"2026-01-14"},{"title":"CONSIDER:\n\nA.\tADOPTING, pursuant to Senate Bill 707 (SB 707), the following findings on behalf of eligible subsidiary bodies (Attachment A) as defined by SB 707:\n\n(i)\tThe Board of Directors has consid","type":"Resolution","status":"Passed","intro_date":"2025-12-22","file_number":"2025-1081","passed_date":"2026-01-22"},{"title":"CONSIDER:\n\nA.\tAPPROVING the Locally Preferred Alternative (LPA) as Modified Alternative 5: Heavy rail transit underground between the Van Nuys Metrolink Station and the E Line Expo/Sepulveda Station m","type":"Project","status":"Agenda Ready","intro_date":"2025-12-11","file_number":"2025-1062","passed_date":"2026-01-22"}],"legistar_url":"https://metro.legistar.com","enriched_at":"2026-02-12T18:53:44.294836","government_news":[],"video_meetings":[],"data_platforms":["legistar"]}
+{
+  "schema_version": "5.0",
+  "normalized_at": "2026-02-10T14:21:49.278876",
+  "identity": {
+    "name": "King County Metro",
+    "state": "",
+    "fips_state": null,
+    "fips_place": null,
+    "population": null
+  },
+  "city_website": "https://www.metro.net",
+  "economy": {
+    "median_household_income": null,
+    "median_home_value": null,
+    "unemployment_rate": null,
+    "unemployment_data_level": "state",
+    "labor_force": null,
+    "employed": null,
+    "unemployed": null,
+    "gini_index": null,
+    "poverty_rate": null,
+    "homeownership_rate": null,
+    "rent_to_income_ratio": null,
+    "home_value_to_income_ratio": null,
+    "price_to_rent_ratio": null,
+    "effective_tax_rate": null,
+    "population_growth_cagr": null,
+    "median_real_estate_taxes": null
+  },
+  "safety": {
+    "violent_crime_rate": null,
+    "property_crime_rate": null,
+    "murder_rate": null,
+    "robbery_rate": null,
+    "burglary_rate": null,
+    "vehicle_theft_rate": null,
+    "total_crime_rate": null,
+    "crime_trend": null,
+    "crime_data_level": null
+  },
+  "education": {
+    "total_schools": null,
+    "total_enrollment": null,
+    "pupil_teacher_ratio": null,
+    "title1_pct": null,
+    "charter_pct": null,
+    "regular_schools": null,
+    "avg_school_rating": null,
+    "rated_schools": null,
+    "school_quality_tier": null
+  },
+  "environment": {
+    "pm25_mean": null,
+    "ozone_mean": null,
+    "total_disasters": null,
+    "avg_disasters_per_decade": null,
+    "most_recent_disaster": null,
+    "most_recent_disaster_type": null,
+    "disasters_by_type": {}
+  },
+  "housing": {
+    "median_rent": null,
+    "housing_units": null,
+    "fmr_0br": null,
+    "fmr_1br": null,
+    "fmr_2br": null,
+    "fmr_3br": null,
+    "fmr_4br": null,
+    "rent_burden_ratio": null,
+    "cost_burdened_pct": null,
+    "severely_burdened_pct": null
+  },
+  "governance": {
+    "legislative_volume": 5937,
+    "legislative_velocity": 539.7,
+    "committee_count": 95,
+    "years_of_legislative_data": 11.0,
+    "has_public_meetings": true,
+    "api_accessible": true,
+    "matter_types": {
+      "Board Correspondence": 348,
+      "Informational Report": 217,
+      "Oral Report / Presentation": 125,
+      "Contract": 107,
+      "Program": 44,
+      "Motion / Motion Response": 38,
+      "Minutes": 23,
+      "Policy": 19,
+      "Project": 16,
+      "Resolution": 12,
+      "Plan": 11,
+      "Budget": 10,
+      "Agreement": 9,
+      "Appointment": 8,
+      "Proclamation": 6,
+      "Federal Legislation / State Legislation (Position)": 4,
+      "Formula Allocation / Local Return": 1,
+      "Public Hearing": 1,
+      "Rule / By-law": 1
+    },
+    "top_matter_type": "Board Correspondence",
+    "matter_statuses": {
+      "Sent": 348,
+      "Agenda Ready": 317,
+      "Passed": 216,
+      "Filed": 111,
+      "Withdrawn": 7,
+      "Held": 1
+    },
+    "pass_rate": 33.3,
+    "passed_count": 1979,
+    "active_council_members": 0,
+    "avg_tenure_years": null,
+    "vote_coverage_pct": 0.0,
+    "video_availability_pct": 0.0,
+    "agenda_availability_pct": 43.2,
+    "minutes_availability_pct": 0.0,
+    "avg_meetings_per_month": 14.3,
+    "meetings_by_year": {
+      "2026": 50,
+      "2025": 208,
+      "2024": 135,
+      "2023": 107
+    },
+    "avg_sponsors_per_matter": 1.0,
+    "avg_attachments_per_matter": 1.4,
+    "pct_with_text_versions": 100.0,
+    "index_categories": [
+      "\"Hot Spots\" Program",
+      "(Bos) - Div 1 Expansion (Project)",
+      "(Bos) - Div 2 Maintenance Building Modernization (Project)",
+      "(Bos) - Div 7 Facility Improvements (Project)",
+      "(Bos) - El Monte Transit Station Enhancement (Project)",
+      "(Bos) - Lax Terminal Improvement (Project)",
+      "(Bos) - New Div 9 Trans Building & Facilities Improvements (Project)",
+      "(Bos) - New Div/South Park Relocation (Project)",
+      "(Bos) - Repave Lax & Other Terminals (Project)",
+      "(Bos) - Temple & Beaudry Layover Facility (Project)",
+      "(Bos)-Permanent Restroom Facilities At Selected Locations (Project)",
+      "(Fhwa)-Cal State & L.A. County Usc Busway Station Enhancement (Project)",
+      "0715000122 I-105El (Project)",
+      "07A0034-05 A11 (Project)",
+      "07A0034-11-A4 Prop1B Slpp (Project)",
+      "100 45' Composite Buses-2006 (Project)",
+      "100 Qty 45' Nabi Compo 46 Seat Buses (Project)",
+      "101 Corridor Study (Project)",
+      "101 Fwy/7Th St Rail Corridor Coordination Study (Project)",
+      "103rd Street/Watts Towers Station",
+      "110 (Crdp) (Project)",
+      "110 Cms Enginge Replacement Program - Fy09 (Project)",
+      "150 45-Ft Buses (Project)",
+      "178 Cng Articulated Bus Purchase Base Order Op33200646 (Project)",
+      "17th St/Santa Monica College Station",
+      "1998 Sb 836 Rideshare Prog, As Needed Labor, Prof % Tech (Project)",
+      "1St & Boyle South Jd (Project)",
+      "1St/Central Joint Development (Project)",
+      "1St/Lorena Jd (Project)",
+      "1St/Soto Jd (Project)",
+      "1st Street Station",
+      "200 Cng Articulated Bus Purchase Option 1 Op33200646 (Project)",
+      "2008/2009 Freeway Service Patrol (Project)",
+      "2009/2010 Freeway Service Patrol (Project)",
+      "2014 Sgc Award (Project)",
+      "2028 Mobility Concept Plan",
+      "26th Street/Bergamont Station",
+      "300-00 Operating Assistance (Project)",
+      "3Rd Party Funded Grant (Project)",
+      "40-Foot Bus Buy (Project)",
+      "405 110 105 Sr91 Ramp&Interch (Project)",
+      "45-Foot Composite Buses (Project)",
+      "470 Bauchet Enviro (Project)",
+      "490 Bauchet (Project)",
+      "490 Bauchet St Construction (Project)",
+      "490 Bauchet St. Storage Bldg Construction (Project)",
+      "5 Mrl Station Ent. Canopies (Project)",
+      "511",
+      "511 One Call/One Click (Project)",
+      "5304 Urban Transit Grant (Project)"
+    ],
+    "has_accela": false,
+    "accela_agency_id": null
+  },
+  "development": {
+    "permits_12mo": null,
+    "yoy_trend_pct": null,
+    "avg_permit_value": null,
+    "permit_types": {},
+    "datasets_count": 0
+  },
+  "meetings": {
+    "official_channels": 0,
+    "meetings_indexed": null,
+    "avg_meetings_per_month": null,
+    "has_video_archive": false,
+    "meeting_types": {},
+    "transcripts_available": null
+  },
+  "civic_issues": {
+    "total_issues": null,
+    "issues_last_30d": null,
+    "issues_last_365d": null,
+    "resolution_rate": null,
+    "top_issue_type": null,
+    "type_distribution": {},
+    "has_civic_issue_tracking": false
+  },
+  "demographics": {
+    "population": null,
+    "poverty_universe": null,
+    "employment_universe": null
+  },
+  "time_series": {
+    "economy_history": [],
+    "safety_history": [],
+    "environment_history": []
+  },
+  "data_sources": {
+    "legistar": "available",
+    "socrata": "skipped",
+    "census_acs": "skipped",
+    "arcgis": "available",
+    "fbi_ucr": "skipped",
+    "socrata_crime": "skipped",
+    "bls_laus": "skipped",
+    "ca_edd": "skipped",
+    "epa_aqs": "skipped",
+    "nces_ccd": "skipped",
+    "hud_fmr": "skipped",
+    "fema_openfema": "skipped",
+    "greatschools": "skipped",
+    "permits": "skipped",
+    "youtube_meetings": "skipped",
+    "seeclickfix": "skipped",
+    "accela": "skipped"
+  },
+  "provenance": {
+    "last_full_probe": "2026-02-10T07:00:59.486303",
+    "sources": {
+      "legistar": {
+        "authority": "Legistar by Granicus",
+        "authority_tier": 1,
+        "api_url": "https://webapi.legistar.com/v1/metro/Bodies",
+        "probed_at": "2026-02-10T07:00:59.487796",
+        "data_vintage": "2014–2026",
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "socrata": {
+        "authority": "City Open Data Portals (Socrata/Tyler Data & Insights)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "census_acs": {
+        "authority": "US Census Bureau",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": "ACS 5-Year 2022",
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "arcgis": {
+        "authority": "City ArcGIS/GIS Portals",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-10T07:03:10.843529",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "fbi_ucr": {
+        "authority": "FBI Uniform Crime Reporting Program",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "state",
+        "status": "skipped"
+      },
+      "bls_laus": {
+        "authority": "Bureau of Labor Statistics",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "state",
+        "status": "skipped"
+      },
+      "epa_aqs": {
+        "authority": "US Environmental Protection Agency",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "state",
+        "status": "skipped"
+      },
+      "nces_ccd": {
+        "authority": "National Center for Education Statistics",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": "2022-2023 academic year",
+        "geographic_level": "state",
+        "status": "skipped"
+      },
+      "hud_fmr": {
+        "authority": "US Department of Housing and Urban Development",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": "FY2026",
+        "geographic_level": "state",
+        "status": "skipped"
+      },
+      "fema_openfema": {
+        "authority": "Federal Emergency Management Agency",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": "1953-present",
+        "geographic_level": "state",
+        "status": "skipped"
+      },
+      "greatschools": {
+        "authority": "GreatSchools.org (nonprofit)",
+        "authority_tier": 3,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "permits": {
+        "authority": "City Open Data Portals (Socrata)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "youtube_meetings": {
+        "authority": "YouTube (via SerpAPI search + youtube-transcript-api)",
+        "authority_tier": 3,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "seeclickfix": {
+        "authority": "SeeClickFix (civic issue tracking platform)",
+        "authority_tier": 3,
+        "api_url": "https://seeclickfix.com/api/v2/issues?place_url=metro",
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "accela": {
+        "authority": "Accela (permit management platform)",
+        "authority_tier": 3,
+        "api_url": "https://apis.accela.com/v4/agencies",
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "socrata_crime": {
+        "authority": "City Open Data Portals (Socrata)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      }
+    },
+    "derived_fields": {
+      "safety.total_crime_rate": {
+        "formula": "violent_crime_rate + property_crime_rate",
+        "inputs": [
+          "safety.violent_crime_rate",
+          "safety.property_crime_rate"
+        ],
+        "formula_location": "score/normalizer.py:_derive_total_crime",
+        "authority_tier": 2
+      },
+      "safety.crime_trend": {
+        "formula": "(last_year_rate - first_year_rate) / years_span",
+        "inputs": [
+          "fbi.time_series[].violent_crime_rate"
+        ],
+        "formula_location": "score/normalizer.py:_build_safety",
+        "authority_tier": 2
+      },
+      "education.school_quality_tier": {
+        "formula": "excellent if avg>=8, good if avg>=6, fair if avg>=4, else poor",
+        "inputs": [
+          "education.avg_school_rating"
+        ],
+        "formula_location": "score/normalizer.py:_build_education",
+        "authority_tier": 3
+      },
+      "environment.avg_disasters_per_decade": {
+        "formula": "total_disasters / (years_span / 10)",
+        "inputs": [
+          "environment.total_disasters"
+        ],
+        "formula_location": "probe/fema_probe.py",
+        "authority_tier": 2
+      },
+      "housing.rent_burden_ratio": {
+        "formula": "(fmr_2br * 12) / median_household_income * 100",
+        "inputs": [
+          "housing.fmr_2br",
+          "economy.median_household_income"
+        ],
+        "formula_location": "score/normalizer.py:_build_housing",
+        "authority_tier": 2
+      },
+      "governance.legislative_velocity": {
+        "formula": "legislative_volume / years_of_legislative_data",
+        "inputs": [
+          "governance.legislative_volume",
+          "governance.years_of_legislative_data"
+        ],
+        "formula_location": "score/normalizer.py:_build_governance",
+        "authority_tier": 2
+      },
+      "development.yoy_trend_pct": {
+        "formula": "(current_year - prior_year) / prior_year * 100",
+        "inputs": [
+          "permit data from Socrata"
+        ],
+        "formula_location": "probe/permits_probe.py",
+        "authority_tier": 2
+      }
+    },
+    "geographic_mismatches": [
+      {
+        "field": "identity.fips_state",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "state-level data applied to city profile"
+      },
+      {
+        "field": "economy.unemployment_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Reflects statewide unemployment, not city-specific rate"
+      },
+      {
+        "field": "economy.labor_force",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: This is the full state labor force, not city-level"
+      },
+      {
+        "field": "economy.employed",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "economy.unemployed",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.violent_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: City-level requires ORI codes not currently used"
+      },
+      {
+        "field": "safety.property_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.murder_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.robbery_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.burglary_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.vehicle_theft_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.total_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA; derived sum"
+      },
+      {
+        "field": "safety.crime_trend",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "state-level data applied to city profile"
+      },
+      {
+        "field": "education.total_schools",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Count includes all schools in the state, not city"
+      },
+      {
+        "field": "education.total_enrollment",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.pupil_teacher_ratio",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Average across all state schools"
+      },
+      {
+        "field": "education.title1_pct",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.charter_pct",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.regular_schools",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.pm25_mean",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE/COUNTY-LEVEL: Averaged across all monitors in the state"
+      },
+      {
+        "field": "environment.ozone_mean",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE/COUNTY-LEVEL"
+      },
+      {
+        "field": "environment.total_disasters",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: All declarations for the state, not city-specific"
+      },
+      {
+        "field": "environment.avg_disasters_per_decade",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.most_recent_disaster",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.most_recent_disaster_type",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "housing.fmr_0br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR: Fair Market Rents at state level, not city-specific metro area"
+      },
+      {
+        "field": "housing.fmr_1br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_2br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_3br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_4br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.rent_burden_ratio",
+        "source_level": "mixed",
+        "profile_level": "place",
+        "note": "GEOGRAPHIC MISMATCH: FMR is state-level (HUD), income is city-level (Census). Ratio may be biased."
+      }
+    ]
+  },
+  "data_quality": {
+    "quality_score": 28.6,
+    "grade": "F",
+    "completeness_pct": 28.6,
+    "issue_count": 1,
+    "granularity_flags": 0
+  },
+  "officials": {
+    "body_name": "Board of Directors - Regular Board Meeting",
+    "members": [
+      {
+        "name": "Ara J. Najarian",
+        "email": null,
+        "title": "Board Member",
+        "start_date": "2025-09-18",
+        "committees": [
+          "Ad Hoc Board Composition Committee",
+          "Construction Committee",
+          "Planning and Programming Committee"
+        ]
+      },
+      {
+        "name": "Fernando Dutra",
+        "email": null,
+        "title": "Chair",
+        "start_date": "2025-09-18",
+        "committees": [
+          "Ad Hoc Board Composition Committee",
+          "Construction Committee",
+          "Executive Management Committee"
+        ]
+      },
+      {
+        "name": "Gloria Roberts",
+        "email": null,
+        "title": "non-voting member",
+        "start_date": "2025-09-18",
+        "committees": [
+          "Ad Hoc Board Composition Committee",
+          "Construction Committee",
+          "Executive Management Committee",
+          "Finance, Budget and Audit Committee",
+          "Operations, Safety, and Customer Experience Committee"
+        ]
+      },
+      {
+        "name": "Hilda L. Solis",
+        "email": null,
+        "title": "Board Member",
+        "start_date": "2025-09-18",
+        "phone": "phone1",
+        "website": "http://web1",
+        "committees": [
+          "Executive Management Committee",
+          "Planning and Programming Committee"
+        ]
+      },
+      {
+        "name": "Holly J. Mitchell",
+        "email": null,
+        "title": "Board Member",
+        "start_date": "2025-09-18",
+        "committees": [
+          "Finance, Budget and Audit Committee",
+          "Operations, Safety, and Customer Experience Committee"
+        ]
+      },
+      {
+        "name": "Imelda Padilla",
+        "email": null,
+        "title": "Board Member",
+        "start_date": "2025-09-18",
+        "committees": [
+          "Ad Hoc Board Composition Committee",
+          "Construction Committee",
+          "Operations, Safety, and Customer Experience Committee"
+        ]
+      },
+      {
+        "name": "Jacquelyn Dupont-Walker",
+        "email": null,
+        "title": "1st Vice Chair",
+        "start_date": "2025-09-18",
+        "committees": [
+          "Ad Hoc Board Composition Committee",
+          "Construction Committee",
+          "Executive Management Committee",
+          "Planning and Programming Committee"
+        ]
+      },
+      {
+        "name": "James Butts",
+        "email": null,
+        "title": "Board Member",
+        "start_date": "2025-09-18",
+        "committees": [
+          "Construction Committee",
+          "Planning and Programming Committee"
+        ]
+      },
+      {
+        "name": "Janice Hahn",
+        "email": null,
+        "title": "Board Member",
+        "start_date": "2025-09-18",
+        "committees": [
+          "Executive Management Committee",
+          "Operations, Safety, and Customer Experience Committee"
+        ]
+      },
+      {
+        "name": "Karen Bass",
+        "email": null,
+        "title": "Board Member",
+        "start_date": "2025-09-18",
+        "committees": [
+          "Executive Management Committee"
+        ]
+      },
+      {
+        "name": "Kathryn Barger",
+        "email": null,
+        "title": "2nd Vice Chair",
+        "start_date": "2025-09-18",
+        "committees": [
+          "Ad Hoc Board Composition Committee",
+          "Executive Management Committee",
+          "Finance, Budget and Audit Committee"
+        ]
+      },
+      {
+        "name": "Katy Yaroslavsky",
+        "email": null,
+        "title": "Board Member",
+        "start_date": "2025-09-18",
+        "committees": [
+          "Finance, Budget and Audit Committee",
+          "Operations, Safety, and Customer Experience Committee"
+        ]
+      },
+      {
+        "name": "Lindsey Horvath",
+        "email": null,
+        "title": "Board Member",
+        "start_date": "2025-09-18",
+        "committees": [
+          "Ad Hoc Board Composition Committee",
+          "Finance, Budget and Audit Committee",
+          "Planning and Programming Committee"
+        ]
+      },
+      {
+        "name": "Stephanie Wiggins",
+        "email": "wigginss@metro.net",
+        "title": "Chief Executive Officer",
+        "start_date": "2025-09-18",
+        "committees": [
+          "Ad Hoc Board Composition Committee",
+          "Construction Committee",
+          "Executive Management Committee",
+          "Finance, Budget and Audit Committee",
+          "Operations, Safety, and Customer Experience Committee"
+        ]
+      },
+      {
+        "name": "Tim Sandoval",
+        "email": null,
+        "title": "Board Member",
+        "start_date": "2025-09-18",
+        "committees": [
+          "Finance, Budget and Audit Committee",
+          "Operations, Safety, and Customer Experience Committee"
+        ]
+      }
+    ]
+  },
+  "recent_meetings": [
+    {
+      "date": "2026-02-12",
+      "body": "Gateway Cities Service Council",
+      "location": "Salt Lake Park Community Center, 3401 E. Florence Ave, Huntington Park, CA  90255",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-17",
+      "body": "Test - Live Committee Meeting Test",
+      "location": "test test test",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-17",
+      "body": "Test - Live Committee Meeting Test (SAP)",
+      "location": "test test test",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-25",
+      "body": "Test - Live Regular Meeting Test",
+      "location": "test test test",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-25",
+      "body": "Test - Live Regular Meeting Test (SAP)",
+      "location": "TEST",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-02",
+      "body": "South Bay Service Council",
+      "location": "Residence Inn Redondo Beach,  2420 Marine Av, Redondo Beach, CA 9027",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-04",
+      "body": "San Fernando Valley Service Council",
+      "location": "Marvin Braude Constituent Center, 6262 Van Nuys Blvd, Van Nuys, CA  91401",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-09",
+      "body": "San Gabriel Valley Service Council",
+      "location": "El Monte Station Division 7 Building, 3rd Floor, 3447 Santa Anita Ave, CA  91731",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-11",
+      "body": "Westside/Central Service Council",
+      "location": "Metro Board Room, 1 Gateway Plaza, 3rd Floor, Los Angeles, CA  90012",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-12",
+      "body": "Gateway Cities Service Council",
+      "location": "Salt Lake Park Community Center, 3401 E. Florence Ave, Huntington Park, CA  90255",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-11",
+      "body": "Westside/Central Service Council",
+      "location": "Metro Board Room, 1 Gateway Plaza, 3rd Floor, Los Angeles, CA  90012",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-09",
+      "body": "San Gabriel Valley Service Council",
+      "location": "El Monte Station Division 7 Building, 3rd Floor, 3447 Santa Anita Ave, CA  91731\r\n\r\nEl Monte",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-05",
+      "body": "Test - Live Regular Meeting Test",
+      "location": "test test test",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-05",
+      "body": "Service Councils - Meet and Confer",
+      "location": "Metro 3rd Floor Gateway Cities Conference Room, 1 Gateway Plaza, Los Angeles, CA  90012",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-05",
+      "body": "Test - Live Committee Meeting Test",
+      "location": "test test test",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-04",
+      "body": "San Fernando Valley Service Council",
+      "location": "Marvin Braude Constituent Center, 6262 Van Nuys Blvd, Van Nuys, CA  91401",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-02",
+      "body": "South Bay Service Council",
+      "location": "Residence Inn Redondo Beach,  2420 Marine Av, Redondo Beach, CA 90278",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-22",
+      "body": "Board of Directors - Regular Board Meeting",
+      "location": "One Gateway Plaza, Los Angeles, CA 90012, \r\n3rd Floor, Metro Board Room",
+      "has_agenda": true,
+      "agenda_url": "https://metro.legistar1.com/metro/meetings/2026/1/3354_A_Board_of_Directors_-_Regular_Board_Meeting_26-01-22_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-22",
+      "body": "Board of Directors - Regular Board Meeting (SAP)",
+      "location": "One Gateway Plaza, Los Angeles, CA 90012, \r\n3rd Floor, Metro Board Room",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-15",
+      "body": "Finance, Budget and Audit Committee",
+      "location": "One Gateway Plaza, Los Angeles, CA 90012, \r\n3rd Floor, Metro Board Room",
+      "has_agenda": true,
+      "agenda_url": "https://metro.legistar1.com/metro/meetings/2026/1/3219_A_Finance%2C_Budget_and_Audit_Committee_26-01-15_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "RECEIVE remarks by the Chair.",
+      "type": "Oral Report / Presentation",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-26",
+      "file_number": "2026-0071",
+      "passed_date": null
+    },
+    {
+      "title": "APPROVE Motion by Mitchell, Sandoval, Dupont-Walker, and Butts that the Board direct the Chief Executive Officer to:\n\nA.\tAPPROVE the Hawthorne Option, a 4.5-mile light rail line with two (2) stations ",
+      "type": "Motion / Motion Response",
+      "status": "Passed",
+      "intro_date": "2026-01-16",
+      "file_number": "2026-0037",
+      "passed_date": "2026-01-22"
+    },
+    {
+      "title": "RECEIVE General Public Comment",
+      "type": "Informational Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-15",
+      "file_number": "2026-0033",
+      "passed_date": null
+    },
+    {
+      "title": "APPROVE Minutes of the Regular Board Meeting held December 4, 2025 and the Special Board Meeting held January 14, 2026.",
+      "type": "Minutes",
+      "status": "Passed",
+      "intro_date": "2026-01-15",
+      "file_number": "2026-0032",
+      "passed_date": "2026-01-22"
+    },
+    {
+      "title": "APPROVE Motion by Dutra, Barger, Horvath, Padilla, Najarian, and Dupont-Walker that the Board direct the Chief Executive Officer to:\n\nA.\tA benchmarking analysis of peer transit agencies of comparable ",
+      "type": "Motion / Motion Response",
+      "status": "Passed",
+      "intro_date": "2026-01-15",
+      "file_number": "2026-0035",
+      "passed_date": "2026-01-22"
+    },
+    {
+      "title": "RECEIVE report by the Chief Executive Officer.",
+      "type": "Oral Report / Presentation",
+      "status": "Filed",
+      "intro_date": "2026-01-15",
+      "file_number": "2026-0034",
+      "passed_date": "2026-01-22"
+    },
+    {
+      "title": "RECEIVE an oral report from staff regarding the current status of the Eastbound 91 Atlantic to Cherry Safety Improvements project.",
+      "type": "Oral Report / Presentation",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-09",
+      "file_number": "2026-0017",
+      "passed_date": "2026-01-15"
+    },
+    {
+      "title": "APPROVE Motion by Bass, Dutra, Solis, Najarian, Sandoval, and Yaroslavsky that the Board direct the Chief Executive Officer to:\n\nA.\tAllow each local jurisdiction in L.A. County, at its sole discretion",
+      "type": "Motion / Motion Response",
+      "status": "Passed",
+      "intro_date": "2026-01-09",
+      "file_number": "2026-0019",
+      "passed_date": "2026-01-14"
+    },
+    {
+      "title": "CONSIDER:\n\nA.\tADOPTING, pursuant to Senate Bill 707 (SB 707), the following findings on behalf of eligible subsidiary bodies (Attachment A) as defined by SB 707:\n\n(i)\tThe Board of Directors has consid",
+      "type": "Resolution",
+      "status": "Passed",
+      "intro_date": "2025-12-22",
+      "file_number": "2025-1081",
+      "passed_date": "2026-01-22"
+    },
+    {
+      "title": "CONSIDER:\n\nA.\tAPPROVING the Locally Preferred Alternative (LPA) as Modified Alternative 5: Heavy rail transit underground between the Van Nuys Metrolink Station and the E Line Expo/Sepulveda Station m",
+      "type": "Project",
+      "status": "Agenda Ready",
+      "intro_date": "2025-12-11",
+      "file_number": "2025-1062",
+      "passed_date": "2026-01-22"
+    }
+  ],
+  "legistar_url": "https://metro.legistar.com",
+  "enriched_at": "2026-02-12T18:53:44.294836",
+  "government_news": [],
+  "video_meetings": [],
+  "data_platforms": [
+    "legistar"
+  ]
+}

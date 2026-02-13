@@ -1,1 +1,967 @@
-{"schema_version":"5.0","normalized_at":"2026-02-10T14:21:49.329166","identity":{"name":"Orange County Transportation Authority","state":"","fips_state":null,"fips_place":null,"population":null},"economy":{"median_household_income":null,"median_home_value":null,"unemployment_rate":null,"unemployment_data_level":"state","labor_force":null,"employed":null,"unemployed":null,"gini_index":null,"poverty_rate":null,"homeownership_rate":null,"rent_to_income_ratio":null,"home_value_to_income_ratio":null,"price_to_rent_ratio":null,"effective_tax_rate":null,"population_growth_cagr":null,"median_real_estate_taxes":null},"safety":{"violent_crime_rate":null,"property_crime_rate":null,"murder_rate":null,"robbery_rate":null,"burglary_rate":null,"vehicle_theft_rate":null,"total_crime_rate":null,"crime_trend":null,"crime_data_level":null},"education":{"total_schools":null,"total_enrollment":null,"pupil_teacher_ratio":null,"title1_pct":null,"charter_pct":null,"regular_schools":null,"avg_school_rating":null,"rated_schools":null,"school_quality_tier":null},"environment":{"pm25_mean":null,"ozone_mean":null,"total_disasters":null,"avg_disasters_per_decade":null,"most_recent_disaster":null,"most_recent_disaster_type":null,"disasters_by_type":{}},"housing":{"median_rent":null,"housing_units":null,"fmr_0br":null,"fmr_1br":null,"fmr_2br":null,"fmr_3br":null,"fmr_4br":null,"rent_burden_ratio":null,"cost_burdened_pct":null,"severely_burdened_pct":null},"governance":{"legislative_volume":8750,"legislative_velocity":536.8,"committee_count":20,"years_of_legislative_data":16.3,"has_public_meetings":true,"api_accessible":true,"matter_types":{"Orange County Transportation Authority Item":641,"Orange County Local Transportation Authority Item":215,"Orange County Transit District Item":144},"top_matter_type":"Orange County Transportation Authority Item","matter_statuses":{"Passed":345,"Reported to Board - Consent":257,"Received as Information":107,"Reported to Board - Special":64,"Committee Ready - Consent":55,"Reported to Board - Regular":36,"Committee Ready - Regular Calendar":30,"Committee Ready - Discussion Item":30,"Committee Ready - Special Calendar":25,"Reported to Board - Closed Session":20,"Reported to Board - Discussion":13,"Historical":7,"Read Into the Record":4,"No Action Taken":4,"Tabled":3},"pass_rate":33.3,"passed_count":2916,"active_council_members":165,"avg_tenure_years":2.3,"vote_coverage_pct":0.0,"video_availability_pct":0.0,"agenda_availability_pct":99.4,"minutes_availability_pct":0.0,"avg_meetings_per_month":7.6,"meetings_by_year":{"2026":15,"2025":90,"2024":93,"2023":95,"2022":101,"2021":97,"2020":9},"avg_sponsors_per_matter":0.9,"avg_attachments_per_matter":0.7,"pct_with_text_versions":100.0,"index_categories":["BUDGET","CONTRACT","M2"],"has_accela":false,"accela_agency_id":null},"development":{"permits_12mo":null,"yoy_trend_pct":null,"avg_permit_value":null,"permit_types":{},"datasets_count":0},"meetings":{"official_channels":0,"meetings_indexed":null,"avg_meetings_per_month":null,"has_video_archive":false,"meeting_types":{},"transcripts_available":null},"civic_issues":{"total_issues":null,"issues_last_30d":null,"issues_last_365d":null,"resolution_rate":null,"top_issue_type":null,"type_distribution":{},"has_civic_issue_tracking":false},"demographics":{"population":null,"poverty_universe":null,"employment_universe":null},"time_series":{"economy_history":[],"safety_history":[],"environment_history":[]},"data_sources":{"legistar":"available","socrata":"skipped","census_acs":"skipped","arcgis":"available","fbi_ucr":"skipped","socrata_crime":"skipped","bls_laus":"skipped","ca_edd":"skipped","epa_aqs":"skipped","nces_ccd":"skipped","hud_fmr":"skipped","fema_openfema":"skipped","greatschools":"skipped","permits":"skipped","youtube_meetings":"skipped","seeclickfix":"skipped","accela":"skipped"},"provenance":{"last_full_probe":"2026-02-10T08:29:54.682760","sources":{"legistar":{"authority":"Legistar by Granicus","authority_tier":1,"api_url":"https://webapi.legistar.com/v1/octa/Bodies","probed_at":"2026-02-10T08:29:54.683186","data_vintage":"2009\u20132026","geographic_level":"place","status":"available"},"socrata":{"authority":"City Open Data Portals (Socrata/Tyler Data & Insights)","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"place","status":"skipped"},"census_acs":{"authority":"US Census Bureau","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":"ACS 5-Year 2022","geographic_level":"place","status":"skipped"},"arcgis":{"authority":"City ArcGIS/GIS Portals","authority_tier":1,"api_url":null,"probed_at":"2026-02-10T08:31:21.131687","data_vintage":null,"geographic_level":"place","status":"available"},"fbi_ucr":{"authority":"FBI Uniform Crime Reporting Program","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"state","status":"skipped"},"bls_laus":{"authority":"Bureau of Labor Statistics","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"state","status":"skipped"},"epa_aqs":{"authority":"US Environmental Protection Agency","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"state","status":"skipped"},"nces_ccd":{"authority":"National Center for Education Statistics","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":"2022-2023 academic year","geographic_level":"state","status":"skipped"},"hud_fmr":{"authority":"US Department of Housing and Urban Development","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":"FY2026","geographic_level":"state","status":"skipped"},"fema_openfema":{"authority":"Federal Emergency Management Agency","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":"1953-present","geographic_level":"state","status":"skipped"},"greatschools":{"authority":"GreatSchools.org (nonprofit)","authority_tier":3,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"place","status":"skipped"},"permits":{"authority":"City Open Data Portals (Socrata)","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"place","status":"skipped"},"youtube_meetings":{"authority":"YouTube (via SerpAPI search + youtube-transcript-api)","authority_tier":3,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"place","status":"skipped"},"seeclickfix":{"authority":"SeeClickFix (civic issue tracking platform)","authority_tier":3,"api_url":"https://seeclickfix.com/api/v2/issues?place_url=octa","probed_at":null,"data_vintage":null,"geographic_level":"place","status":"skipped"},"accela":{"authority":"Accela (permit management platform)","authority_tier":3,"api_url":"https://apis.accela.com/v4/agencies","probed_at":null,"data_vintage":null,"geographic_level":"place","status":"skipped"},"socrata_crime":{"authority":"City Open Data Portals (Socrata)","authority_tier":1,"api_url":null,"probed_at":null,"data_vintage":null,"geographic_level":"place","status":"skipped"}},"derived_fields":{"safety.total_crime_rate":{"formula":"violent_crime_rate + property_crime_rate","inputs":["safety.violent_crime_rate","safety.property_crime_rate"],"formula_location":"score/normalizer.py:_derive_total_crime","authority_tier":2},"safety.crime_trend":{"formula":"(last_year_rate - first_year_rate) / years_span","inputs":["fbi.time_series[].violent_crime_rate"],"formula_location":"score/normalizer.py:_build_safety","authority_tier":2},"education.school_quality_tier":{"formula":"excellent if avg>=8, good if avg>=6, fair if avg>=4, else poor","inputs":["education.avg_school_rating"],"formula_location":"score/normalizer.py:_build_education","authority_tier":3},"environment.avg_disasters_per_decade":{"formula":"total_disasters / (years_span / 10)","inputs":["environment.total_disasters"],"formula_location":"probe/fema_probe.py","authority_tier":2},"housing.rent_burden_ratio":{"formula":"(fmr_2br * 12) / median_household_income * 100","inputs":["housing.fmr_2br","economy.median_household_income"],"formula_location":"score/normalizer.py:_build_housing","authority_tier":2},"governance.legislative_velocity":{"formula":"legislative_volume / years_of_legislative_data","inputs":["governance.legislative_volume","governance.years_of_legislative_data"],"formula_location":"score/normalizer.py:_build_governance","authority_tier":2},"development.yoy_trend_pct":{"formula":"(current_year - prior_year) / prior_year * 100","inputs":["permit data from Socrata"],"formula_location":"probe/permits_probe.py","authority_tier":2}},"geographic_mismatches":[{"field":"identity.fips_state","source_level":"state","profile_level":"place","note":"state-level data applied to city profile"},{"field":"economy.unemployment_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Reflects statewide unemployment, not city-specific rate"},{"field":"economy.labor_force","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: This is the full state labor force, not city-level"},{"field":"economy.employed","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"economy.unemployed","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.violent_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: City-level requires ORI codes not currently used"},{"field":"safety.property_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.murder_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.robbery_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.burglary_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.vehicle_theft_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.total_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA; derived sum"},{"field":"safety.crime_trend","source_level":"state","profile_level":"place","note":"state-level data applied to city profile"},{"field":"education.total_schools","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Count includes all schools in the state, not city"},{"field":"education.total_enrollment","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.pupil_teacher_ratio","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Average across all state schools"},{"field":"education.title1_pct","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.charter_pct","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.regular_schools","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.pm25_mean","source_level":"state","profile_level":"place","note":"STATE/COUNTY-LEVEL: Averaged across all monitors in the state"},{"field":"environment.ozone_mean","source_level":"state","profile_level":"place","note":"STATE/COUNTY-LEVEL"},{"field":"environment.total_disasters","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: All declarations for the state, not city-specific"},{"field":"environment.avg_disasters_per_decade","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.most_recent_disaster","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.most_recent_disaster_type","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"housing.fmr_0br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR: Fair Market Rents at state level, not city-specific metro area"},{"field":"housing.fmr_1br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_2br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_3br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_4br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.rent_burden_ratio","source_level":"mixed","profile_level":"place","note":"GEOGRAPHIC MISMATCH: FMR is state-level (HUD), income is city-level (Census). Ratio may be biased."}]},"data_quality":{"quality_score":28.6,"grade":"F","completeness_pct":28.6,"issue_count":1,"granularity_flags":0},"officials":{"body_name":"Board","members":[{"name":"Carlos A. Leon","email":null,"title":"Director","start_date":"2025-01-13","committees":["Authors","Finance and Administration Committee","State Route 91 Advisory Committee","Transit Committee"]},{"name":"Donald P. Wagner","email":null,"title":"Director","start_date":"2025-01-13","committees":["Authors","Executive Committee","Legislative and Communications Committee","State Route 91 Advisory Committee"]},{"name":"Doug Chaffee","email":null,"title":"Director","start_date":"2022-01-01"},{"name":"Fred Jung","email":null,"title":"Vice Chair","start_date":"2022-12-12"},{"name":"Jamey M. Federico","email":null,"title":"Chair","start_date":"2025-01-13","committees":["Executive Committee","Finance and Administration Committee","Measure M2 Environmental Oversight Committee"]},{"name":"Janet Nguyen","email":null,"title":"Director","start_date":"2025-01-13","committees":["Legislative and Communications Committee","Transit Committee"]},{"name":"Kathy Tavoularis","email":null,"title":"Director","start_date":"2025-04-11","committees":["Authors","Legislative and Communications Committee","Regional Transportation Planning Committee","State Route 91 Advisory Committee"]},{"name":"Lan Zhou","email":null,"title":"Ex-Officio","start_date":"2024-08-30"},{"name":"Lauren Kleiman","email":null,"title":"Director","start_date":"2026-01-21","committees":["Regional Transportation Planning Committee","Transit Committee"]},{"name":"Mark Tettemer","email":null,"title":"Director","start_date":"2024-05-10","committees":["Authors","Finance and Administration Committee","Legislative and Communications Committee","Measure M2 Environmental Oversight Committee","Regional Transportation Planning Committee"]},{"name":"Michael Hennessey","email":null,"title":"Director","start_date":"2023-11-13","committees":["Authors","Executive Committee","Finance and Administration Committee"]},{"name":"Patrick Harper","email":null,"title":"Director","start_date":"2025-01-13","committees":["Finance and Administration Committee","Regional Transportation Planning Committee"]},{"name":"Stephanie Klopfenstein","email":null,"title":"Director","start_date":"2023-12-14","committees":["Authors","Executive Committee","Regional Transportation Planning Committee","Transit Committee"]},{"name":"Tam T. Nguyen","email":null,"title":"Director","start_date":"2025-04-14","committees":["Authors","Transit Committee"]},{"name":"Valerie Amezcua","email":null,"title":"Director","start_date":"2023-12-14","committees":["Transit Committee"]},{"name":"Vicente Sarmiento","email":null,"title":"Director","start_date":"2022-12-12","committees":["Finance and Administration Committee","Transit Committee"]},{"name":"William Go","email":null,"title":"Director","start_date":"2025-05-09","committees":["Finance and Administration Committee","Regional Transportation Planning Committee","State Route 91 Advisory Committee"]}]},"recent_meetings":[{"date":"2026-02-12","body":"Transit Committee","location":"Board Room","has_agenda":true,"agenda_url":"https://octa.legistar1.com/octa/meetings/2026/2/2948_A_Transit_Committee_26-02-12_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":true},{"date":"2026-02-12","body":"Environmental Cleanup Allocation Committee","location":"Conf Room 07/08","has_agenda":true,"agenda_url":"https://octa.legistar1.com/octa/meetings/2026/2/2989_A_Environmental_Cleanup_Allocation_Committee_26-02-12_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":true},{"date":"2026-02-09","body":"Board","location":"Board Room","has_agenda":true,"agenda_url":"https://octa.legistar1.com/octa/meetings/2026/2/2889_A_Board_26-02-09_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-04","body":"Environmental Oversight Committee","location":"Conf. Room 07/08","has_agenda":true,"agenda_url":"https://octa.legistar1.com/octa/meetings/2026/2/2985_A_Environmental_Oversight_Committee_26-02-04_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-02","body":"Executive Committee","location":"Board Room","has_agenda":true,"agenda_url":"https://octa.legistar1.com/octa/meetings/2026/2/2909_A_Executive_Committee_26-02-02_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-02","body":"Regional Transportation Planning Committee","location":"Board Room","has_agenda":true,"agenda_url":"https://octa.legistar1.com/octa/meetings/2026/2/2947_A_Regional_Transportation_Planning_Committee_26-02-02_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-01-27","body":"Accessible Transit Advisory Committee","location":"Conf. Room 07/08","has_agenda":true,"agenda_url":"https://octa.legistar1.com/octa/meetings/2026/1/2984_A_Accessible_Transit_Advisory_Committee__26-01-27_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-01-26","body":"Board","location":"Board Room","has_agenda":true,"agenda_url":"https://octa.legistar1.com/octa/meetings/2026/1/2881_A_Board_26-01-26_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-01-20","body":"Citizens Advisory Committee","location":"Conf. Room 07/08","has_agenda":true,"agenda_url":"https://octa.legistar1.com/octa/meetings/2026/1/2972_A_Citizens_Advisory_Committee_26-01-20_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-01-15","body":"Finance and Administration Committee","location":"Board Room","has_agenda":true,"agenda_url":"https://octa.legistar1.com/octa/meetings/2026/1/2922_A_Finance_and_Administration_Committee_26-01-15_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-01-15","body":"Legislative and Communications Committee","location":"Board Room","has_agenda":true,"agenda_url":"https://octa.legistar1.com/octa/meetings/2026/1/2876_A_Legislative_and_Communications_Committee_26-01-15_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false}],"recent_legislation":[{"title":"Chair and Vice Chair Elections","type":"Orange County Transportation Authority Item","status":"Committee Ready - Special Calendar","intro_date":"2026-02-03","file_number":"26-6734","passed_date":null},{"title":"City of Anaheim Stormwater Credit Program","type":"Orange County Transportation Authority Item","status":"Committee Ready - Discussion Item","intro_date":"2026-02-02","file_number":"26-6732","passed_date":null},{"title":"Tier 2 Program Performance Assessment","type":"Orange County Transportation Authority Item","status":"Committee Ready - Discussion Item","intro_date":"2026-02-02","file_number":"26-6731","passed_date":null},{"title":"Tier 1 Guidelines Revision and Call for Projects","type":"Orange County Transportation Authority Item","status":"Committee Ready - Regular Calendar","intro_date":"2026-02-02","file_number":"26-6730","passed_date":null},{"title":"Committee Meeting 2026 Schedule","type":"Orange County Transportation Authority Item","status":"Committee Ready - Special Calendar","intro_date":"2026-01-27","file_number":"26-6713","passed_date":null},{"title":"Roles and Responsibilities of the Transit Committee","type":"Orange County Transportation Authority Item","status":"Committee Ready - Special Calendar","intro_date":"2026-01-27","file_number":"26-6714","passed_date":null},{"title":"ACCESS Driver Exceptional Service Awards","type":"Orange County Transportation Authority Item","status":"Committee Ready - Special Calendar","intro_date":"2026-01-22","file_number":"26-6703","passed_date":null},{"title":"OC Bus February Service Change","type":"Orange County Transportation Authority Item","status":"Committee Ready - Discussion Item","intro_date":"2026-01-21","file_number":"26-6698","passed_date":null},{"title":"Mobility Management Programs","type":"Orange County Transportation Authority Item","status":"Committee Ready - Discussion Item","intro_date":"2026-01-21","file_number":"26-6700","passed_date":null},{"title":"OC ACCESS Eligibility and Transit Support Services Contract","type":"Orange County Transportation Authority Item","status":"Committee Ready - Discussion Item","intro_date":"2026-01-21","file_number":"26-6697","passed_date":null}],"legistar_url":"https://octa.legistar.com","enriched_at":"2026-02-12T18:54:04.888063","government_news":[],"video_meetings":[],"data_platforms":["legistar"]}
+{
+  "schema_version": "5.0",
+  "normalized_at": "2026-02-10T14:21:49.329166",
+  "identity": {
+    "name": "Orange County Transportation Authority",
+    "state": "",
+    "fips_state": null,
+    "fips_place": null,
+    "population": null
+  },
+  "city_website": "https://www.octa.gov",
+  "economy": {
+    "median_household_income": null,
+    "median_home_value": null,
+    "unemployment_rate": null,
+    "unemployment_data_level": "state",
+    "labor_force": null,
+    "employed": null,
+    "unemployed": null,
+    "gini_index": null,
+    "poverty_rate": null,
+    "homeownership_rate": null,
+    "rent_to_income_ratio": null,
+    "home_value_to_income_ratio": null,
+    "price_to_rent_ratio": null,
+    "effective_tax_rate": null,
+    "population_growth_cagr": null,
+    "median_real_estate_taxes": null
+  },
+  "safety": {
+    "violent_crime_rate": null,
+    "property_crime_rate": null,
+    "murder_rate": null,
+    "robbery_rate": null,
+    "burglary_rate": null,
+    "vehicle_theft_rate": null,
+    "total_crime_rate": null,
+    "crime_trend": null,
+    "crime_data_level": null
+  },
+  "education": {
+    "total_schools": null,
+    "total_enrollment": null,
+    "pupil_teacher_ratio": null,
+    "title1_pct": null,
+    "charter_pct": null,
+    "regular_schools": null,
+    "avg_school_rating": null,
+    "rated_schools": null,
+    "school_quality_tier": null
+  },
+  "environment": {
+    "pm25_mean": null,
+    "ozone_mean": null,
+    "total_disasters": null,
+    "avg_disasters_per_decade": null,
+    "most_recent_disaster": null,
+    "most_recent_disaster_type": null,
+    "disasters_by_type": {}
+  },
+  "housing": {
+    "median_rent": null,
+    "housing_units": null,
+    "fmr_0br": null,
+    "fmr_1br": null,
+    "fmr_2br": null,
+    "fmr_3br": null,
+    "fmr_4br": null,
+    "rent_burden_ratio": null,
+    "cost_burdened_pct": null,
+    "severely_burdened_pct": null
+  },
+  "governance": {
+    "legislative_volume": 8750,
+    "legislative_velocity": 536.8,
+    "committee_count": 20,
+    "years_of_legislative_data": 16.3,
+    "has_public_meetings": true,
+    "api_accessible": true,
+    "matter_types": {
+      "Orange County Transportation Authority Item": 641,
+      "Orange County Local Transportation Authority Item": 215,
+      "Orange County Transit District Item": 144
+    },
+    "top_matter_type": "Orange County Transportation Authority Item",
+    "matter_statuses": {
+      "Passed": 345,
+      "Reported to Board - Consent": 257,
+      "Received as Information": 107,
+      "Reported to Board - Special": 64,
+      "Committee Ready - Consent": 55,
+      "Reported to Board - Regular": 36,
+      "Committee Ready - Regular Calendar": 30,
+      "Committee Ready - Discussion Item": 30,
+      "Committee Ready - Special Calendar": 25,
+      "Reported to Board - Closed Session": 20,
+      "Reported to Board - Discussion": 13,
+      "Historical": 7,
+      "Read Into the Record": 4,
+      "No Action Taken": 4,
+      "Tabled": 3
+    },
+    "pass_rate": 33.3,
+    "passed_count": 2916,
+    "active_council_members": 165,
+    "avg_tenure_years": 2.3,
+    "vote_coverage_pct": 0.0,
+    "video_availability_pct": 0.0,
+    "agenda_availability_pct": 99.4,
+    "minutes_availability_pct": 0.0,
+    "avg_meetings_per_month": 7.6,
+    "meetings_by_year": {
+      "2026": 15,
+      "2025": 90,
+      "2024": 93,
+      "2023": 95,
+      "2022": 101,
+      "2021": 97,
+      "2020": 9
+    },
+    "avg_sponsors_per_matter": 0.9,
+    "avg_attachments_per_matter": 0.7,
+    "pct_with_text_versions": 100.0,
+    "index_categories": [
+      "BUDGET",
+      "CONTRACT",
+      "M2"
+    ],
+    "has_accela": false,
+    "accela_agency_id": null
+  },
+  "development": {
+    "permits_12mo": null,
+    "yoy_trend_pct": null,
+    "avg_permit_value": null,
+    "permit_types": {},
+    "datasets_count": 0
+  },
+  "meetings": {
+    "official_channels": 0,
+    "meetings_indexed": null,
+    "avg_meetings_per_month": null,
+    "has_video_archive": false,
+    "meeting_types": {},
+    "transcripts_available": null
+  },
+  "civic_issues": {
+    "total_issues": null,
+    "issues_last_30d": null,
+    "issues_last_365d": null,
+    "resolution_rate": null,
+    "top_issue_type": null,
+    "type_distribution": {},
+    "has_civic_issue_tracking": false
+  },
+  "demographics": {
+    "population": null,
+    "poverty_universe": null,
+    "employment_universe": null
+  },
+  "time_series": {
+    "economy_history": [],
+    "safety_history": [],
+    "environment_history": []
+  },
+  "data_sources": {
+    "legistar": "available",
+    "socrata": "skipped",
+    "census_acs": "skipped",
+    "arcgis": "available",
+    "fbi_ucr": "skipped",
+    "socrata_crime": "skipped",
+    "bls_laus": "skipped",
+    "ca_edd": "skipped",
+    "epa_aqs": "skipped",
+    "nces_ccd": "skipped",
+    "hud_fmr": "skipped",
+    "fema_openfema": "skipped",
+    "greatschools": "skipped",
+    "permits": "skipped",
+    "youtube_meetings": "skipped",
+    "seeclickfix": "skipped",
+    "accela": "skipped"
+  },
+  "provenance": {
+    "last_full_probe": "2026-02-10T08:29:54.682760",
+    "sources": {
+      "legistar": {
+        "authority": "Legistar by Granicus",
+        "authority_tier": 1,
+        "api_url": "https://webapi.legistar.com/v1/octa/Bodies",
+        "probed_at": "2026-02-10T08:29:54.683186",
+        "data_vintage": "2009–2026",
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "socrata": {
+        "authority": "City Open Data Portals (Socrata/Tyler Data & Insights)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "census_acs": {
+        "authority": "US Census Bureau",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": "ACS 5-Year 2022",
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "arcgis": {
+        "authority": "City ArcGIS/GIS Portals",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-10T08:31:21.131687",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "fbi_ucr": {
+        "authority": "FBI Uniform Crime Reporting Program",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "state",
+        "status": "skipped"
+      },
+      "bls_laus": {
+        "authority": "Bureau of Labor Statistics",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "state",
+        "status": "skipped"
+      },
+      "epa_aqs": {
+        "authority": "US Environmental Protection Agency",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "state",
+        "status": "skipped"
+      },
+      "nces_ccd": {
+        "authority": "National Center for Education Statistics",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": "2022-2023 academic year",
+        "geographic_level": "state",
+        "status": "skipped"
+      },
+      "hud_fmr": {
+        "authority": "US Department of Housing and Urban Development",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": "FY2026",
+        "geographic_level": "state",
+        "status": "skipped"
+      },
+      "fema_openfema": {
+        "authority": "Federal Emergency Management Agency",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": "1953-present",
+        "geographic_level": "state",
+        "status": "skipped"
+      },
+      "greatschools": {
+        "authority": "GreatSchools.org (nonprofit)",
+        "authority_tier": 3,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "permits": {
+        "authority": "City Open Data Portals (Socrata)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "youtube_meetings": {
+        "authority": "YouTube (via SerpAPI search + youtube-transcript-api)",
+        "authority_tier": 3,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "seeclickfix": {
+        "authority": "SeeClickFix (civic issue tracking platform)",
+        "authority_tier": 3,
+        "api_url": "https://seeclickfix.com/api/v2/issues?place_url=octa",
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "accela": {
+        "authority": "Accela (permit management platform)",
+        "authority_tier": 3,
+        "api_url": "https://apis.accela.com/v4/agencies",
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "socrata_crime": {
+        "authority": "City Open Data Portals (Socrata)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": null,
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      }
+    },
+    "derived_fields": {
+      "safety.total_crime_rate": {
+        "formula": "violent_crime_rate + property_crime_rate",
+        "inputs": [
+          "safety.violent_crime_rate",
+          "safety.property_crime_rate"
+        ],
+        "formula_location": "score/normalizer.py:_derive_total_crime",
+        "authority_tier": 2
+      },
+      "safety.crime_trend": {
+        "formula": "(last_year_rate - first_year_rate) / years_span",
+        "inputs": [
+          "fbi.time_series[].violent_crime_rate"
+        ],
+        "formula_location": "score/normalizer.py:_build_safety",
+        "authority_tier": 2
+      },
+      "education.school_quality_tier": {
+        "formula": "excellent if avg>=8, good if avg>=6, fair if avg>=4, else poor",
+        "inputs": [
+          "education.avg_school_rating"
+        ],
+        "formula_location": "score/normalizer.py:_build_education",
+        "authority_tier": 3
+      },
+      "environment.avg_disasters_per_decade": {
+        "formula": "total_disasters / (years_span / 10)",
+        "inputs": [
+          "environment.total_disasters"
+        ],
+        "formula_location": "probe/fema_probe.py",
+        "authority_tier": 2
+      },
+      "housing.rent_burden_ratio": {
+        "formula": "(fmr_2br * 12) / median_household_income * 100",
+        "inputs": [
+          "housing.fmr_2br",
+          "economy.median_household_income"
+        ],
+        "formula_location": "score/normalizer.py:_build_housing",
+        "authority_tier": 2
+      },
+      "governance.legislative_velocity": {
+        "formula": "legislative_volume / years_of_legislative_data",
+        "inputs": [
+          "governance.legislative_volume",
+          "governance.years_of_legislative_data"
+        ],
+        "formula_location": "score/normalizer.py:_build_governance",
+        "authority_tier": 2
+      },
+      "development.yoy_trend_pct": {
+        "formula": "(current_year - prior_year) / prior_year * 100",
+        "inputs": [
+          "permit data from Socrata"
+        ],
+        "formula_location": "probe/permits_probe.py",
+        "authority_tier": 2
+      }
+    },
+    "geographic_mismatches": [
+      {
+        "field": "identity.fips_state",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "state-level data applied to city profile"
+      },
+      {
+        "field": "economy.unemployment_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Reflects statewide unemployment, not city-specific rate"
+      },
+      {
+        "field": "economy.labor_force",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: This is the full state labor force, not city-level"
+      },
+      {
+        "field": "economy.employed",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "economy.unemployed",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.violent_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: City-level requires ORI codes not currently used"
+      },
+      {
+        "field": "safety.property_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.murder_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.robbery_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.burglary_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.vehicle_theft_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.total_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA; derived sum"
+      },
+      {
+        "field": "safety.crime_trend",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "state-level data applied to city profile"
+      },
+      {
+        "field": "education.total_schools",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Count includes all schools in the state, not city"
+      },
+      {
+        "field": "education.total_enrollment",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.pupil_teacher_ratio",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Average across all state schools"
+      },
+      {
+        "field": "education.title1_pct",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.charter_pct",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.regular_schools",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.pm25_mean",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE/COUNTY-LEVEL: Averaged across all monitors in the state"
+      },
+      {
+        "field": "environment.ozone_mean",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE/COUNTY-LEVEL"
+      },
+      {
+        "field": "environment.total_disasters",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: All declarations for the state, not city-specific"
+      },
+      {
+        "field": "environment.avg_disasters_per_decade",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.most_recent_disaster",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.most_recent_disaster_type",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "housing.fmr_0br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR: Fair Market Rents at state level, not city-specific metro area"
+      },
+      {
+        "field": "housing.fmr_1br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_2br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_3br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_4br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.rent_burden_ratio",
+        "source_level": "mixed",
+        "profile_level": "place",
+        "note": "GEOGRAPHIC MISMATCH: FMR is state-level (HUD), income is city-level (Census). Ratio may be biased."
+      }
+    ]
+  },
+  "data_quality": {
+    "quality_score": 28.6,
+    "grade": "F",
+    "completeness_pct": 28.6,
+    "issue_count": 1,
+    "granularity_flags": 0
+  },
+  "officials": {
+    "body_name": "Board",
+    "members": [
+      {
+        "name": "Carlos A. Leon",
+        "email": null,
+        "title": "Director",
+        "start_date": "2025-01-13",
+        "committees": [
+          "Authors",
+          "Finance and Administration Committee",
+          "State Route 91 Advisory Committee",
+          "Transit Committee"
+        ]
+      },
+      {
+        "name": "Donald P. Wagner",
+        "email": null,
+        "title": "Director",
+        "start_date": "2025-01-13",
+        "committees": [
+          "Authors",
+          "Executive Committee",
+          "Legislative and Communications Committee",
+          "State Route 91 Advisory Committee"
+        ]
+      },
+      {
+        "name": "Doug Chaffee",
+        "email": null,
+        "title": "Director",
+        "start_date": "2022-01-01"
+      },
+      {
+        "name": "Fred Jung",
+        "email": null,
+        "title": "Vice Chair",
+        "start_date": "2022-12-12"
+      },
+      {
+        "name": "Jamey M. Federico",
+        "email": null,
+        "title": "Chair",
+        "start_date": "2025-01-13",
+        "committees": [
+          "Executive Committee",
+          "Finance and Administration Committee",
+          "Measure M2 Environmental Oversight Committee"
+        ]
+      },
+      {
+        "name": "Janet Nguyen",
+        "email": null,
+        "title": "Director",
+        "start_date": "2025-01-13",
+        "committees": [
+          "Legislative and Communications Committee",
+          "Transit Committee"
+        ]
+      },
+      {
+        "name": "Kathy Tavoularis",
+        "email": null,
+        "title": "Director",
+        "start_date": "2025-04-11",
+        "committees": [
+          "Authors",
+          "Legislative and Communications Committee",
+          "Regional Transportation Planning Committee",
+          "State Route 91 Advisory Committee"
+        ]
+      },
+      {
+        "name": "Lan Zhou",
+        "email": null,
+        "title": "Ex-Officio",
+        "start_date": "2024-08-30"
+      },
+      {
+        "name": "Lauren Kleiman",
+        "email": null,
+        "title": "Director",
+        "start_date": "2026-01-21",
+        "committees": [
+          "Regional Transportation Planning Committee",
+          "Transit Committee"
+        ]
+      },
+      {
+        "name": "Mark Tettemer",
+        "email": null,
+        "title": "Director",
+        "start_date": "2024-05-10",
+        "committees": [
+          "Authors",
+          "Finance and Administration Committee",
+          "Legislative and Communications Committee",
+          "Measure M2 Environmental Oversight Committee",
+          "Regional Transportation Planning Committee"
+        ]
+      },
+      {
+        "name": "Michael Hennessey",
+        "email": null,
+        "title": "Director",
+        "start_date": "2023-11-13",
+        "committees": [
+          "Authors",
+          "Executive Committee",
+          "Finance and Administration Committee"
+        ]
+      },
+      {
+        "name": "Patrick Harper",
+        "email": null,
+        "title": "Director",
+        "start_date": "2025-01-13",
+        "committees": [
+          "Finance and Administration Committee",
+          "Regional Transportation Planning Committee"
+        ]
+      },
+      {
+        "name": "Stephanie Klopfenstein",
+        "email": null,
+        "title": "Director",
+        "start_date": "2023-12-14",
+        "committees": [
+          "Authors",
+          "Executive Committee",
+          "Regional Transportation Planning Committee",
+          "Transit Committee"
+        ]
+      },
+      {
+        "name": "Tam T. Nguyen",
+        "email": null,
+        "title": "Director",
+        "start_date": "2025-04-14",
+        "committees": [
+          "Authors",
+          "Transit Committee"
+        ]
+      },
+      {
+        "name": "Valerie Amezcua",
+        "email": null,
+        "title": "Director",
+        "start_date": "2023-12-14",
+        "committees": [
+          "Transit Committee"
+        ]
+      },
+      {
+        "name": "Vicente Sarmiento",
+        "email": null,
+        "title": "Director",
+        "start_date": "2022-12-12",
+        "committees": [
+          "Finance and Administration Committee",
+          "Transit Committee"
+        ]
+      },
+      {
+        "name": "William Go",
+        "email": null,
+        "title": "Director",
+        "start_date": "2025-05-09",
+        "committees": [
+          "Finance and Administration Committee",
+          "Regional Transportation Planning Committee",
+          "State Route 91 Advisory Committee"
+        ]
+      }
+    ]
+  },
+  "recent_meetings": [
+    {
+      "date": "2026-02-12",
+      "body": "Transit Committee",
+      "location": "Board Room",
+      "has_agenda": true,
+      "agenda_url": "https://octa.legistar1.com/octa/meetings/2026/2/2948_A_Transit_Committee_26-02-12_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-12",
+      "body": "Environmental Cleanup Allocation Committee",
+      "location": "Conf Room 07/08",
+      "has_agenda": true,
+      "agenda_url": "https://octa.legistar1.com/octa/meetings/2026/2/2989_A_Environmental_Cleanup_Allocation_Committee_26-02-12_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-09",
+      "body": "Board",
+      "location": "Board Room",
+      "has_agenda": true,
+      "agenda_url": "https://octa.legistar1.com/octa/meetings/2026/2/2889_A_Board_26-02-09_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-04",
+      "body": "Environmental Oversight Committee",
+      "location": "Conf. Room 07/08",
+      "has_agenda": true,
+      "agenda_url": "https://octa.legistar1.com/octa/meetings/2026/2/2985_A_Environmental_Oversight_Committee_26-02-04_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-02",
+      "body": "Executive Committee",
+      "location": "Board Room",
+      "has_agenda": true,
+      "agenda_url": "https://octa.legistar1.com/octa/meetings/2026/2/2909_A_Executive_Committee_26-02-02_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-02",
+      "body": "Regional Transportation Planning Committee",
+      "location": "Board Room",
+      "has_agenda": true,
+      "agenda_url": "https://octa.legistar1.com/octa/meetings/2026/2/2947_A_Regional_Transportation_Planning_Committee_26-02-02_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-27",
+      "body": "Accessible Transit Advisory Committee",
+      "location": "Conf. Room 07/08",
+      "has_agenda": true,
+      "agenda_url": "https://octa.legistar1.com/octa/meetings/2026/1/2984_A_Accessible_Transit_Advisory_Committee__26-01-27_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-26",
+      "body": "Board",
+      "location": "Board Room",
+      "has_agenda": true,
+      "agenda_url": "https://octa.legistar1.com/octa/meetings/2026/1/2881_A_Board_26-01-26_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-20",
+      "body": "Citizens Advisory Committee",
+      "location": "Conf. Room 07/08",
+      "has_agenda": true,
+      "agenda_url": "https://octa.legistar1.com/octa/meetings/2026/1/2972_A_Citizens_Advisory_Committee_26-01-20_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-15",
+      "body": "Finance and Administration Committee",
+      "location": "Board Room",
+      "has_agenda": true,
+      "agenda_url": "https://octa.legistar1.com/octa/meetings/2026/1/2922_A_Finance_and_Administration_Committee_26-01-15_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-15",
+      "body": "Legislative and Communications Committee",
+      "location": "Board Room",
+      "has_agenda": true,
+      "agenda_url": "https://octa.legistar1.com/octa/meetings/2026/1/2876_A_Legislative_and_Communications_Committee_26-01-15_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Chair and Vice Chair Elections",
+      "type": "Orange County Transportation Authority Item",
+      "status": "Committee Ready - Special Calendar",
+      "intro_date": "2026-02-03",
+      "file_number": "26-6734",
+      "passed_date": null
+    },
+    {
+      "title": "City of Anaheim Stormwater Credit Program",
+      "type": "Orange County Transportation Authority Item",
+      "status": "Committee Ready - Discussion Item",
+      "intro_date": "2026-02-02",
+      "file_number": "26-6732",
+      "passed_date": null
+    },
+    {
+      "title": "Tier 2 Program Performance Assessment",
+      "type": "Orange County Transportation Authority Item",
+      "status": "Committee Ready - Discussion Item",
+      "intro_date": "2026-02-02",
+      "file_number": "26-6731",
+      "passed_date": null
+    },
+    {
+      "title": "Tier 1 Guidelines Revision and Call for Projects",
+      "type": "Orange County Transportation Authority Item",
+      "status": "Committee Ready - Regular Calendar",
+      "intro_date": "2026-02-02",
+      "file_number": "26-6730",
+      "passed_date": null
+    },
+    {
+      "title": "Committee Meeting 2026 Schedule",
+      "type": "Orange County Transportation Authority Item",
+      "status": "Committee Ready - Special Calendar",
+      "intro_date": "2026-01-27",
+      "file_number": "26-6713",
+      "passed_date": null
+    },
+    {
+      "title": "Roles and Responsibilities of the Transit Committee",
+      "type": "Orange County Transportation Authority Item",
+      "status": "Committee Ready - Special Calendar",
+      "intro_date": "2026-01-27",
+      "file_number": "26-6714",
+      "passed_date": null
+    },
+    {
+      "title": "ACCESS Driver Exceptional Service Awards",
+      "type": "Orange County Transportation Authority Item",
+      "status": "Committee Ready - Special Calendar",
+      "intro_date": "2026-01-22",
+      "file_number": "26-6703",
+      "passed_date": null
+    },
+    {
+      "title": "OC Bus February Service Change",
+      "type": "Orange County Transportation Authority Item",
+      "status": "Committee Ready - Discussion Item",
+      "intro_date": "2026-01-21",
+      "file_number": "26-6698",
+      "passed_date": null
+    },
+    {
+      "title": "Mobility Management Programs",
+      "type": "Orange County Transportation Authority Item",
+      "status": "Committee Ready - Discussion Item",
+      "intro_date": "2026-01-21",
+      "file_number": "26-6700",
+      "passed_date": null
+    },
+    {
+      "title": "OC ACCESS Eligibility and Transit Support Services Contract",
+      "type": "Orange County Transportation Authority Item",
+      "status": "Committee Ready - Discussion Item",
+      "intro_date": "2026-01-21",
+      "file_number": "26-6697",
+      "passed_date": null
+    }
+  ],
+  "legistar_url": "https://octa.legistar.com",
+  "enriched_at": "2026-02-12T18:54:04.888063",
+  "government_news": [],
+  "video_meetings": [],
+  "data_platforms": [
+    "legistar"
+  ]
+}

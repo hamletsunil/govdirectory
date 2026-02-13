@@ -75,6 +75,17 @@ function getResidentResources(p: CityProfile): ResidentResource[] {
   const name = p.identity.name;
   const st = p.identity.state;
 
+  // Official city website (first — most useful)
+  if (p.city_website) {
+    resources.push({
+      title: "Official Website",
+      description: `${name}'s official government website`,
+      url: p.city_website,
+      icon: "building",
+      external: true,
+    });
+  }
+
   // Register to vote (universal)
   if (st) {
     resources.push({
@@ -248,7 +259,13 @@ export default async function CityPage({
   const showAllOfficials = allOfficials.length <= MAX_OFFICIALS;
   const displayedOfficials = showAllOfficials ? allOfficials : allOfficials.slice(0, MAX_OFFICIALS);
   const hasMeetings = (p.recent_meetings?.length || 0) > 0;
-  const hasLegislation = (p.recent_legislation?.length || 0) > 0;
+  // Filter out test/bogus legislation (dates in far future)
+  const validLegislation = (p.recent_legislation || []).filter(l => {
+    if (!l.intro_date) return true;
+    const year = parseInt(l.intro_date.substring(0, 4), 10);
+    return year <= new Date().getFullYear() + 1;
+  });
+  const hasLegislation = validLegislation.length > 0;
   const hasVideo = (p.video_meetings?.length || 0) > 0;
   const hasNews = (p.government_news?.length || 0) > 0;
   const hasCivicIssues = p.civic_issues?.has_civic_issue_tracking && (p.civic_issues.total_issues || 0) > 0;
@@ -538,7 +555,7 @@ export default async function CityPage({
               <div className="activity-group">
                 <h3 className="activity-group-title">Recent Legislation</h3>
                 <div className="activity-list">
-                  {p.recent_legislation!.slice(0, 4).map((l, i) => (
+                  {validLegislation.slice(0, 4).map((l, i) => (
                     <div key={`leg-${i}`} className="activity-item legislation-item-v2">
                       <span className={`legis-status-badge status-${l.status?.toLowerCase().replace(/[^a-z]/g, "-").replace(/-+/g, "-")}`}>
                         {l.status?.includes("Passed") || l.status?.includes("Adopted") ? "Passed"

@@ -1,1 +1,945 @@
-{"schema_version":"5.0","normalized_at":"2026-02-10T14:21:49.359534","identity":{"name":"Pomona","state":"CA","fips_state":"06","fips_place":"58072","population":149831},"economy":{"median_household_income":73515,"median_home_value":524700,"unemployment_rate":5.82,"unemployment_data_level":"county","labor_force":5109753,"employed":4812579,"unemployed":297173,"gini_index":null,"poverty_rate":14.85,"homeownership_rate":53.88,"rent_to_income_ratio":26.62,"home_value_to_income_ratio":7.14,"price_to_rent_ratio":26.81,"effective_tax_rate":7.7987,"population_growth_cagr":0.059,"median_real_estate_taxes":3410},"safety":{"violent_crime_rate":null,"property_crime_rate":null,"murder_rate":null,"robbery_rate":null,"burglary_rate":null,"vehicle_theft_rate":null,"total_crime_rate":null,"crime_trend":null,"crime_data_level":null},"education":{"total_schools":10416,"total_enrollment":5837868,"pupil_teacher_ratio":22.1,"title1_pct":0.0,"charter_pct":12.5,"regular_schools":9083,"avg_school_rating":5.2,"rated_schools":4,"school_quality_tier":"fair"},"environment":{"pm25_mean":9.9647,"ozone_mean":0.0482,"total_disasters":88,"avg_disasters_per_decade":12.6,"most_recent_disaster":"2025-08-08","most_recent_disaster_type":"Fire","disasters_by_type":{"Fire":61,"Flood":10,"Severe Storm":8,"Earthquake":3,"Biological":2,"Freezing":2,"Hurricane":1,"Coastal Storm":1}},"housing":{"median_rent":1631,"housing_units":43212,"fmr_0br":1863,"fmr_1br":2085,"fmr_2br":2601,"fmr_3br":3298,"fmr_4br":3672,"rent_burden_ratio":42.5,"cost_burdened_pct":55.61,"severely_burdened_pct":30.22},"governance":{"legislative_volume":8125,"legislative_velocity":883.2,"committee_count":31,"years_of_legislative_data":9.2,"has_public_meetings":true,"api_accessible":true,"matter_types":{"Consent Calendar":474,"Discussion ":328,"Public Hearing":72,"Presentation/Proclamation":62,"Closed Session":27,"Report":24,"Minutes":13},"top_matter_type":"Consent Calendar","matter_statuses":{"Agenda Ready":1000},"pass_rate":33.3,"passed_count":2708,"active_council_members":0,"avg_tenure_years":null,"vote_coverage_pct":0.0,"video_availability_pct":0.0,"agenda_availability_pct":94.0,"minutes_availability_pct":0.0,"avg_meetings_per_month":13.9,"meetings_by_year":{"2026":19,"2025":168,"2024":165,"2023":148},"avg_sponsors_per_matter":0.0,"avg_attachments_per_matter":0.8,"pct_with_text_versions":100.0,"index_categories":[],"has_accela":false,"accela_agency_id":null},"development":{"permits_12mo":null,"yoy_trend_pct":null,"avg_permit_value":null,"permit_types":{},"datasets_count":0},"meetings":{"official_channels":1,"meetings_indexed":9,"avg_meetings_per_month":1.0,"has_video_archive":true,"meeting_types":{"city_council":8,"other":1},"transcripts_available":0},"civic_issues":{"total_issues":41,"issues_last_30d":0,"issues_last_365d":0,"resolution_rate":14.6,"top_issue_type":"Unknown","type_distribution":{"Unknown":35},"has_civic_issue_tracking":true},"demographics":{"population":149831,"poverty_universe":146504,"employment_universe":117973},"time_series":{"economy_history":[{"year":2024,"unemployment_rate":5.82,"labor_force":5109753,"employed":4812579,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2023,"unemployment_rate":5.07,"labor_force":5055266,"employed":4799020,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2022,"unemployment_rate":4.98,"labor_force":5021804,"employed":4771748,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2021,"unemployment_rate":8.97,"labor_force":4999686,"employed":4551623,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2020,"unemployment_rate":12.35,"labor_force":4972649,"employed":4363217,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2019,"unemployment_rate":4.49,"labor_force":5163995,"employed":4932291,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2018,"unemployment_rate":4.65,"labor_force":5127133,"employed":4888785,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2017,"unemployment_rate":4.78,"labor_force":5107316,"employed":4863464,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2016,"unemployment_rate":5.29,"labor_force":5041383,"employed":4774435,"data_level":"county","source":"bls_laus","is_partial_year":false},{"year":2015,"unemployment_rate":6.68,"labor_force":4990740,"employed":4657031,"data_level":"county","source":"bls_laus","is_partial_year":false}],"safety_history":[],"environment_history":[{"year":2023,"pm25_mean":9.9647,"ozone_mean":0.0482,"data_level":"county","source":"epa_aqs"},{"year":2022,"pm25_mean":11.2188,"ozone_mean":0.0487,"data_level":"county","source":"epa_aqs"},{"year":2021,"pm25_mean":12.1863,"ozone_mean":0.0477,"data_level":"county","source":"epa_aqs"},{"year":2020,"pm25_mean":13.4703,"ozone_mean":0.0505,"data_level":"county","source":"epa_aqs"},{"year":2019,"pm25_mean":9.9802,"ozone_mean":0.0471,"data_level":"county","source":"epa_aqs"},{"year":2018,"pm25_mean":11.7578,"ozone_mean":0.0472,"data_level":"county","source":"epa_aqs"}]},"data_sources":{"legistar":"available","socrata":"available","census_acs":"available","arcgis":"available","fbi_ucr":"available","socrata_crime":"available","bls_laus":"available","ca_edd":"error","epa_aqs":"available","nces_ccd":"available","hud_fmr":"available","fema_openfema":"available","greatschools":"available","permits":"skipped","youtube_meetings":"available","seeclickfix":"available","accela":"available"},"provenance":{"last_full_probe":"2026-02-10T09:53:37.681408","sources":{"legistar":{"authority":"Legistar by Granicus","authority_tier":1,"api_url":"https://webapi.legistar.com/v1/pomona/Bodies","probed_at":"2026-02-10T09:53:37.682456","data_vintage":"2016\u20132026","geographic_level":"place","status":"available"},"socrata":{"authority":"City Open Data Portals (Socrata/Tyler Data & Insights)","authority_tier":1,"api_url":null,"probed_at":"2026-02-10T09:55:02.397054","data_vintage":null,"geographic_level":"place","status":"available"},"census_acs":{"authority":"US Census Bureau","authority_tier":1,"api_url":"https://api.census.gov/data/2022/acs/acs5?get=NAME,B01001_001E,B19013_001E,B25077_001E,B25064_001E,B25001_001E&for=place:58072&in=state:06","probed_at":"2026-02-10T09:55:56.422551","data_vintage":"ACS 5-Year 2022","geographic_level":"place","status":"available"},"arcgis":{"authority":"City ArcGIS/GIS Portals","authority_tier":1,"api_url":null,"probed_at":"2026-02-10T09:56:04.709048","data_vintage":null,"geographic_level":"place","status":"available"},"fbi_ucr":{"authority":"FBI Uniform Crime Reporting Program","authority_tier":1,"api_url":"https://api.usa.gov/crime/fbi/sapi/api/estimates/states/CA/2015/2022","probed_at":"2026-02-10T09:56:05.972014","data_vintage":null,"geographic_level":"state","status":"available"},"bls_laus":{"authority":"Bureau of Labor Statistics","authority_tier":1,"api_url":"https://api.bls.gov/publicAPI/v2/timeseries/data/LAUST060000000000003","probed_at":"2026-02-10T09:56:06.312824","data_vintage":"LAUS 2024","geographic_level":"state","status":"available"},"epa_aqs":{"authority":"US Environmental Protection Agency","authority_tier":1,"api_url":"https://aqs.epa.gov/data/api/annualData/byState?state=06&param=88101","probed_at":"2026-02-10T09:56:12.991434","data_vintage":"AQS 2023","geographic_level":"state","status":"available"},"nces_ccd":{"authority":"National Center for Education Statistics","authority_tier":1,"api_url":"https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=06","probed_at":"2026-02-10T09:57:00.765175","data_vintage":"2022-2023 academic year","geographic_level":"state","status":"available"},"hud_fmr":{"authority":"US Department of Housing and Urban Development","authority_tier":1,"api_url":"https://www.huduser.gov/hudapi/public/fmr/statedata/CA","probed_at":"2026-02-10T09:57:03.248470","data_vintage":"FY2026","geographic_level":"state","status":"available"},"fema_openfema":{"authority":"Federal Emergency Management Agency","authority_tier":1,"api_url":"https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries?$filter=state eq 'CA'","probed_at":"2026-02-10T09:57:04.272770","data_vintage":"1953-present","geographic_level":"state","status":"available"},"greatschools":{"authority":"GreatSchools.org (nonprofit)","authority_tier":3,"api_url":null,"probed_at":"2026-02-10T09:57:04.764795","data_vintage":null,"geographic_level":"place","status":"available"},"permits":{"authority":"City Open Data Portals (Socrata)","authority_tier":1,"api_url":null,"probed_at":"2026-02-10T09:57:05.181544","data_vintage":null,"geographic_level":"place","status":"skipped"},"youtube_meetings":{"authority":"YouTube (via SerpAPI search + youtube-transcript-api)","authority_tier":3,"api_url":null,"probed_at":"2026-02-10T09:57:05.182487","data_vintage":null,"geographic_level":"place","status":"available"},"seeclickfix":{"authority":"SeeClickFix (civic issue tracking platform)","authority_tier":3,"api_url":"https://seeclickfix.com/api/v2/issues?place_url=pomona","probed_at":"2026-02-10T09:58:06.015540","data_vintage":null,"geographic_level":"place","status":"available"},"accela":{"authority":"Accela (permit management platform)","authority_tier":3,"api_url":"https://apis.accela.com/v4/agencies","probed_at":"2026-02-10T09:58:32.004418","data_vintage":null,"geographic_level":"place","status":"available"},"socrata_crime":{"authority":"City Open Data Portals (Socrata)","authority_tier":1,"api_url":null,"probed_at":"2026-02-10T09:56:06.311236","data_vintage":null,"geographic_level":"place","status":"available"}},"derived_fields":{"safety.total_crime_rate":{"formula":"violent_crime_rate + property_crime_rate","inputs":["safety.violent_crime_rate","safety.property_crime_rate"],"formula_location":"score/normalizer.py:_derive_total_crime","authority_tier":2},"safety.crime_trend":{"formula":"(last_year_rate - first_year_rate) / years_span","inputs":["fbi.time_series[].violent_crime_rate"],"formula_location":"score/normalizer.py:_build_safety","authority_tier":2},"education.school_quality_tier":{"formula":"excellent if avg>=8, good if avg>=6, fair if avg>=4, else poor","inputs":["education.avg_school_rating"],"formula_location":"score/normalizer.py:_build_education","authority_tier":3},"environment.avg_disasters_per_decade":{"formula":"total_disasters / (years_span / 10)","inputs":["environment.total_disasters"],"formula_location":"probe/fema_probe.py","authority_tier":2},"housing.rent_burden_ratio":{"formula":"(fmr_2br * 12) / median_household_income * 100","inputs":["housing.fmr_2br","economy.median_household_income"],"formula_location":"score/normalizer.py:_build_housing","authority_tier":2},"governance.legislative_velocity":{"formula":"legislative_volume / years_of_legislative_data","inputs":["governance.legislative_volume","governance.years_of_legislative_data"],"formula_location":"score/normalizer.py:_build_governance","authority_tier":2},"development.yoy_trend_pct":{"formula":"(current_year - prior_year) / prior_year * 100","inputs":["permit data from Socrata"],"formula_location":"probe/permits_probe.py","authority_tier":2}},"geographic_mismatches":[{"field":"identity.fips_state","source_level":"state","profile_level":"place","note":"state-level data applied to city profile"},{"field":"economy.unemployment_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Reflects statewide unemployment, not city-specific rate"},{"field":"economy.labor_force","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: This is the full state labor force, not city-level"},{"field":"economy.employed","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"economy.unemployed","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.violent_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: City-level requires ORI codes not currently used"},{"field":"safety.property_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.murder_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.robbery_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.burglary_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.vehicle_theft_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"safety.total_crime_rate","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA; derived sum"},{"field":"safety.crime_trend","source_level":"state","profile_level":"place","note":"state-level data applied to city profile"},{"field":"education.total_schools","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Count includes all schools in the state, not city"},{"field":"education.total_enrollment","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.pupil_teacher_ratio","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: Average across all state schools"},{"field":"education.title1_pct","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.charter_pct","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"education.regular_schools","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.pm25_mean","source_level":"state","profile_level":"place","note":"STATE/COUNTY-LEVEL: Averaged across all monitors in the state"},{"field":"environment.ozone_mean","source_level":"state","profile_level":"place","note":"STATE/COUNTY-LEVEL"},{"field":"environment.total_disasters","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA: All declarations for the state, not city-specific"},{"field":"environment.avg_disasters_per_decade","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.most_recent_disaster","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"environment.most_recent_disaster_type","source_level":"state","profile_level":"place","note":"STATE-LEVEL DATA"},{"field":"housing.fmr_0br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR: Fair Market Rents at state level, not city-specific metro area"},{"field":"housing.fmr_1br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_2br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_3br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.fmr_4br","source_level":"state","profile_level":"place","note":"STATE-LEVEL FMR"},{"field":"housing.rent_burden_ratio","source_level":"mixed","profile_level":"place","note":"GEOGRAPHIC MISMATCH: FMR is state-level (HUD), income is city-level (Census). Ratio may be biased."}]},"data_quality":{"quality_score":100.0,"grade":"A","completeness_pct":100.0,"issue_count":7,"granularity_flags":3},"officials":{"body_name":"City Council / Housing Authority / Successor Agency to the Redevelopment Agency","members":[{"name":"Nora Garcia","email":"nora.garcia@pomonaca.gov","title":null,"start_date":"2018-12-03"},{"name":"Steve Lustro","email":"steve_lustro@ci.pomona.ca.us","title":null,"start_date":"2018-12-03"},{"name":"Victor Preciado","email":"victor_preciado@ci.pomona.ca.us","title":null,"start_date":"2018-12-03"}]},"recent_meetings":[{"date":"2026-02-12","body":"Board of Parking Place Commissioners (VPD)","location":"Council Chambers","has_agenda":false,"agenda_url":null,"has_minutes":false,"has_video":false,"upcoming":true},{"date":"2026-02-11","body":"Zoning Administrator","location":"Council Chambers","has_agenda":true,"agenda_url":"https://pomona.legistar1.com/pomona/meetings/2026/2/2862_A_Zoning_Administrator_26-02-11_Regular_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-11","body":"Planning Commission","location":"Council Chambers & Via Teleconference: Hyatt Regency Washington on Capitol Hill, 400 New Jersey Ave NW","has_agenda":true,"agenda_url":"https://pomona.legistar1.com/pomona/meetings/2026/2/3064_A_Planning_Commission_26-02-11_Regular_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-10","body":"Police Oversight Commission","location":"Council Chambers","has_agenda":true,"agenda_url":"https://pomona.legistar1.com/pomona/meetings/2026/2/3044_A_Police_Oversight_Commission_26-02-10_Regular_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-09","body":"City Council / Housing Authority / Successor Agency to the Redevelopment Agency","location":"The Union on Garey, 350 N. Garey Ave","has_agenda":true,"agenda_url":"https://pomona.legistar1.com/pomona/meetings/2026/2/3154_A_City_Council___Housing_Authority___Successor_Agency_to_the_Redevelopment_Agency_26-02-09_Special_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-04","body":"Historic Preservation Commission","location":"City Council Chambers","has_agenda":true,"agenda_url":"https://pomona.legistar1.com/pomona/meetings/2026/2/3085_A_Historic_Preservation_Commission_26-02-04_Regular_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-02-02","body":"City Council / Housing Authority / Successor Agency to the Redevelopment Agency","location":"Council Chambers","has_agenda":true,"agenda_url":"https://pomona.legistar1.com/pomona/meetings/2026/2/3114_A_City_Council___Housing_Authority___Successor_Agency_to_the_Redevelopment_Agency_26-02-02_Regular_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-01-28","body":"Planning Commission","location":"Water Resources Department, 752 W. Commercial Street, Pomona, CA 91768","has_agenda":true,"agenda_url":"https://pomona.legistar1.com/pomona/meetings/2026/1/2793_A_Planning_Commission_26-01-28_Regular_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-01-27","body":"Community Life Commission","location":"City Council Chambers","has_agenda":true,"agenda_url":"https://pomona.legistar1.com/pomona/meetings/2026/1/3141_A_Community_Life_Commission_26-01-27_Regular_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-01-26","body":"Cultural Arts Commission","location":"dA Center for the Arts\r\n252 S. Main Street #D\r\nPomona CA 91766","has_agenda":true,"agenda_url":"https://pomona.legistar1.com/pomona/meetings/2026/1/3096_A_Cultural_Arts_Commission_26-01-26_Regular_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false},{"date":"2026-01-26","body":"City Council / Housing Authority / Successor Agency to the Redevelopment Agency","location":"Council Chambers","has_agenda":true,"agenda_url":"https://pomona.legistar1.com/pomona/meetings/2026/1/3113_A_City_Council___Housing_Authority___Successor_Agency_to_the_Redevelopment_Agency_26-01-26_Regular_Meeting_Agenda.pdf","has_minutes":false,"has_video":false,"upcoming":false}],"recent_legislation":[{"title":"City Council Priorities and Goals Workshop\n\nIt is recommended that the City Council take the following action:\n\n1)\tDiscuss the City Council Priorities and Goals for Fiscal Year 2026-27","type":"Discussion ","status":"Agenda Ready","intro_date":"2026-02-05","file_number":"26-1117","passed_date":null},{"title":"A)\tCONFERENCE WITH REAL PROPERTY NEGOTIATORS\r\n(Pursuant to Government Code Section 54956.8)\r\n\r\nProperty/APN\u2019s: \t8341005029\r\nNegotiating Parties: Pomona Fox Theater Master Tenant LLC Lessee c/o Pomona ","type":"Closed Session","status":"Agenda Ready","intro_date":"2026-02-05","file_number":"26-1121","passed_date":null},{"title":"1.\tApproval of Action Minutes from the Planning Commission Special Meeting of December 16, 2025.","type":"Consent Calendar","status":"Agenda Ready","intro_date":"2026-02-05","file_number":"26-1120","passed_date":null},{"title":"Monthly Report(s) from the Police Department","type":"Discussion ","status":"Agenda Ready","intro_date":"2026-02-04","file_number":"26-1109","passed_date":null},{"title":"Selection of Commission Chair and Vice-Chair\r\n\r\nIt is recommended that the commission members select a Chair and Vice-Chair.","type":"Discussion ","status":"Agenda Ready","intro_date":"2026-02-04","file_number":"26-1110","passed_date":null},{"title":"Approval of Meeting Minutes\r\n\r\nIt is recommended that the commission members approve the following Police Oversight Commission Meeting minutes:\r\n\r\nJanuary 13, 2026","type":"Consent Calendar","status":"Agenda Ready","intro_date":"2026-02-04","file_number":"26-1108","passed_date":null},{"title":"Report out from PD Monthly Reports Ad-Hoc Committee","type":"Discussion ","status":"Agenda Ready","intro_date":"2026-02-04","file_number":"26-1111","passed_date":null},{"title":"Review of Annual Report and Approval of Submission to City Council","type":"Discussion ","status":"Agenda Ready","intro_date":"2026-02-04","file_number":"26-1112","passed_date":null},{"title":"1.\tDevelopment Plan Review (DPR-000236-2024)\nProject Address:\t1463 W. Mission Boulevard (APN: 8348-020-002)\nProject Applicant:     Integrity Property Group\nProject Planner:\tCarlos Molina, Associate Pl","type":"Public Hearing","status":"Agenda Ready","intro_date":"2026-01-29","file_number":"26-1094","passed_date":null},{"title":"1.\tSelection of Chair and Vice-Chair for 2026","type":"Consent Calendar","status":"Agenda Ready","intro_date":"2026-01-29","file_number":"26-1095","passed_date":null}],"legistar_url":"https://pomona.legistar.com","enriched_at":"2026-02-12T18:54:19.941843","government_news":[],"video_meetings":[],"data_platforms":["legistar"]}
+{
+  "schema_version": "5.0",
+  "normalized_at": "2026-02-10T14:21:49.359534",
+  "identity": {
+    "name": "Pomona",
+    "state": "CA",
+    "fips_state": "06",
+    "fips_place": "58072",
+    "population": 149831
+  },
+  "city_website": "https://www.ci.pomona.ca.us",
+  "economy": {
+    "median_household_income": 73515,
+    "median_home_value": 524700,
+    "unemployment_rate": 5.82,
+    "unemployment_data_level": "county",
+    "labor_force": 5109753,
+    "employed": 4812579,
+    "unemployed": 297173,
+    "gini_index": null,
+    "poverty_rate": 14.85,
+    "homeownership_rate": 53.88,
+    "rent_to_income_ratio": 26.62,
+    "home_value_to_income_ratio": 7.14,
+    "price_to_rent_ratio": 26.81,
+    "effective_tax_rate": 7.7987,
+    "population_growth_cagr": 0.059,
+    "median_real_estate_taxes": 3410
+  },
+  "safety": {
+    "violent_crime_rate": null,
+    "property_crime_rate": null,
+    "murder_rate": null,
+    "robbery_rate": null,
+    "burglary_rate": null,
+    "vehicle_theft_rate": null,
+    "total_crime_rate": null,
+    "crime_trend": null,
+    "crime_data_level": null
+  },
+  "education": {
+    "total_schools": 10416,
+    "total_enrollment": 5837868,
+    "pupil_teacher_ratio": 22.1,
+    "title1_pct": 0.0,
+    "charter_pct": 12.5,
+    "regular_schools": 9083,
+    "avg_school_rating": 5.2,
+    "rated_schools": 4,
+    "school_quality_tier": "fair"
+  },
+  "environment": {
+    "pm25_mean": 9.9647,
+    "ozone_mean": 0.0482,
+    "total_disasters": 88,
+    "avg_disasters_per_decade": 12.6,
+    "most_recent_disaster": "2025-08-08",
+    "most_recent_disaster_type": "Fire",
+    "disasters_by_type": {
+      "Fire": 61,
+      "Flood": 10,
+      "Severe Storm": 8,
+      "Earthquake": 3,
+      "Biological": 2,
+      "Freezing": 2,
+      "Hurricane": 1,
+      "Coastal Storm": 1
+    }
+  },
+  "housing": {
+    "median_rent": 1631,
+    "housing_units": 43212,
+    "fmr_0br": 1863,
+    "fmr_1br": 2085,
+    "fmr_2br": 2601,
+    "fmr_3br": 3298,
+    "fmr_4br": 3672,
+    "rent_burden_ratio": 42.5,
+    "cost_burdened_pct": 55.61,
+    "severely_burdened_pct": 30.22
+  },
+  "governance": {
+    "legislative_volume": 8125,
+    "legislative_velocity": 883.2,
+    "committee_count": 31,
+    "years_of_legislative_data": 9.2,
+    "has_public_meetings": true,
+    "api_accessible": true,
+    "matter_types": {
+      "Consent Calendar": 474,
+      "Discussion ": 328,
+      "Public Hearing": 72,
+      "Presentation/Proclamation": 62,
+      "Closed Session": 27,
+      "Report": 24,
+      "Minutes": 13
+    },
+    "top_matter_type": "Consent Calendar",
+    "matter_statuses": {
+      "Agenda Ready": 1000
+    },
+    "pass_rate": 33.3,
+    "passed_count": 2708,
+    "active_council_members": 0,
+    "avg_tenure_years": null,
+    "vote_coverage_pct": 0.0,
+    "video_availability_pct": 0.0,
+    "agenda_availability_pct": 94.0,
+    "minutes_availability_pct": 0.0,
+    "avg_meetings_per_month": 13.9,
+    "meetings_by_year": {
+      "2026": 19,
+      "2025": 168,
+      "2024": 165,
+      "2023": 148
+    },
+    "avg_sponsors_per_matter": 0.0,
+    "avg_attachments_per_matter": 0.8,
+    "pct_with_text_versions": 100.0,
+    "index_categories": [],
+    "has_accela": false,
+    "accela_agency_id": null
+  },
+  "development": {
+    "permits_12mo": null,
+    "yoy_trend_pct": null,
+    "avg_permit_value": null,
+    "permit_types": {},
+    "datasets_count": 0
+  },
+  "meetings": {
+    "official_channels": 1,
+    "meetings_indexed": 9,
+    "avg_meetings_per_month": 1.0,
+    "has_video_archive": true,
+    "meeting_types": {
+      "city_council": 8,
+      "other": 1
+    },
+    "transcripts_available": 0
+  },
+  "civic_issues": {
+    "total_issues": 41,
+    "issues_last_30d": 0,
+    "issues_last_365d": 0,
+    "resolution_rate": 14.6,
+    "top_issue_type": "Unknown",
+    "type_distribution": {
+      "Unknown": 35
+    },
+    "has_civic_issue_tracking": true
+  },
+  "demographics": {
+    "population": 149831,
+    "poverty_universe": 146504,
+    "employment_universe": 117973
+  },
+  "time_series": {
+    "economy_history": [
+      {
+        "year": 2024,
+        "unemployment_rate": 5.82,
+        "labor_force": 5109753,
+        "employed": 4812579,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2023,
+        "unemployment_rate": 5.07,
+        "labor_force": 5055266,
+        "employed": 4799020,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2022,
+        "unemployment_rate": 4.98,
+        "labor_force": 5021804,
+        "employed": 4771748,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2021,
+        "unemployment_rate": 8.97,
+        "labor_force": 4999686,
+        "employed": 4551623,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2020,
+        "unemployment_rate": 12.35,
+        "labor_force": 4972649,
+        "employed": 4363217,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2019,
+        "unemployment_rate": 4.49,
+        "labor_force": 5163995,
+        "employed": 4932291,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2018,
+        "unemployment_rate": 4.65,
+        "labor_force": 5127133,
+        "employed": 4888785,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2017,
+        "unemployment_rate": 4.78,
+        "labor_force": 5107316,
+        "employed": 4863464,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2016,
+        "unemployment_rate": 5.29,
+        "labor_force": 5041383,
+        "employed": 4774435,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      },
+      {
+        "year": 2015,
+        "unemployment_rate": 6.68,
+        "labor_force": 4990740,
+        "employed": 4657031,
+        "data_level": "county",
+        "source": "bls_laus",
+        "is_partial_year": false
+      }
+    ],
+    "safety_history": [],
+    "environment_history": [
+      {
+        "year": 2023,
+        "pm25_mean": 9.9647,
+        "ozone_mean": 0.0482,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2022,
+        "pm25_mean": 11.2188,
+        "ozone_mean": 0.0487,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2021,
+        "pm25_mean": 12.1863,
+        "ozone_mean": 0.0477,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2020,
+        "pm25_mean": 13.4703,
+        "ozone_mean": 0.0505,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2019,
+        "pm25_mean": 9.9802,
+        "ozone_mean": 0.0471,
+        "data_level": "county",
+        "source": "epa_aqs"
+      },
+      {
+        "year": 2018,
+        "pm25_mean": 11.7578,
+        "ozone_mean": 0.0472,
+        "data_level": "county",
+        "source": "epa_aqs"
+      }
+    ]
+  },
+  "data_sources": {
+    "legistar": "available",
+    "socrata": "available",
+    "census_acs": "available",
+    "arcgis": "available",
+    "fbi_ucr": "available",
+    "socrata_crime": "available",
+    "bls_laus": "available",
+    "ca_edd": "error",
+    "epa_aqs": "available",
+    "nces_ccd": "available",
+    "hud_fmr": "available",
+    "fema_openfema": "available",
+    "greatschools": "available",
+    "permits": "skipped",
+    "youtube_meetings": "available",
+    "seeclickfix": "available",
+    "accela": "available"
+  },
+  "provenance": {
+    "last_full_probe": "2026-02-10T09:53:37.681408",
+    "sources": {
+      "legistar": {
+        "authority": "Legistar by Granicus",
+        "authority_tier": 1,
+        "api_url": "https://webapi.legistar.com/v1/pomona/Bodies",
+        "probed_at": "2026-02-10T09:53:37.682456",
+        "data_vintage": "2016–2026",
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "socrata": {
+        "authority": "City Open Data Portals (Socrata/Tyler Data & Insights)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-10T09:55:02.397054",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "census_acs": {
+        "authority": "US Census Bureau",
+        "authority_tier": 1,
+        "api_url": "https://api.census.gov/data/2022/acs/acs5?get=NAME,B01001_001E,B19013_001E,B25077_001E,B25064_001E,B25001_001E&for=place:58072&in=state:06",
+        "probed_at": "2026-02-10T09:55:56.422551",
+        "data_vintage": "ACS 5-Year 2022",
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "arcgis": {
+        "authority": "City ArcGIS/GIS Portals",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-10T09:56:04.709048",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "fbi_ucr": {
+        "authority": "FBI Uniform Crime Reporting Program",
+        "authority_tier": 1,
+        "api_url": "https://api.usa.gov/crime/fbi/sapi/api/estimates/states/CA/2015/2022",
+        "probed_at": "2026-02-10T09:56:05.972014",
+        "data_vintage": null,
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "bls_laus": {
+        "authority": "Bureau of Labor Statistics",
+        "authority_tier": 1,
+        "api_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/LAUST060000000000003",
+        "probed_at": "2026-02-10T09:56:06.312824",
+        "data_vintage": "LAUS 2024",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "epa_aqs": {
+        "authority": "US Environmental Protection Agency",
+        "authority_tier": 1,
+        "api_url": "https://aqs.epa.gov/data/api/annualData/byState?state=06&param=88101",
+        "probed_at": "2026-02-10T09:56:12.991434",
+        "data_vintage": "AQS 2023",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "nces_ccd": {
+        "authority": "National Center for Education Statistics",
+        "authority_tier": 1,
+        "api_url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2022/?fips=06",
+        "probed_at": "2026-02-10T09:57:00.765175",
+        "data_vintage": "2022-2023 academic year",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "hud_fmr": {
+        "authority": "US Department of Housing and Urban Development",
+        "authority_tier": 1,
+        "api_url": "https://www.huduser.gov/hudapi/public/fmr/statedata/CA",
+        "probed_at": "2026-02-10T09:57:03.248470",
+        "data_vintage": "FY2026",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "fema_openfema": {
+        "authority": "Federal Emergency Management Agency",
+        "authority_tier": 1,
+        "api_url": "https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries?$filter=state eq 'CA'",
+        "probed_at": "2026-02-10T09:57:04.272770",
+        "data_vintage": "1953-present",
+        "geographic_level": "state",
+        "status": "available"
+      },
+      "greatschools": {
+        "authority": "GreatSchools.org (nonprofit)",
+        "authority_tier": 3,
+        "api_url": null,
+        "probed_at": "2026-02-10T09:57:04.764795",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "permits": {
+        "authority": "City Open Data Portals (Socrata)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-10T09:57:05.181544",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "skipped"
+      },
+      "youtube_meetings": {
+        "authority": "YouTube (via SerpAPI search + youtube-transcript-api)",
+        "authority_tier": 3,
+        "api_url": null,
+        "probed_at": "2026-02-10T09:57:05.182487",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "seeclickfix": {
+        "authority": "SeeClickFix (civic issue tracking platform)",
+        "authority_tier": 3,
+        "api_url": "https://seeclickfix.com/api/v2/issues?place_url=pomona",
+        "probed_at": "2026-02-10T09:58:06.015540",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "accela": {
+        "authority": "Accela (permit management platform)",
+        "authority_tier": 3,
+        "api_url": "https://apis.accela.com/v4/agencies",
+        "probed_at": "2026-02-10T09:58:32.004418",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      },
+      "socrata_crime": {
+        "authority": "City Open Data Portals (Socrata)",
+        "authority_tier": 1,
+        "api_url": null,
+        "probed_at": "2026-02-10T09:56:06.311236",
+        "data_vintage": null,
+        "geographic_level": "place",
+        "status": "available"
+      }
+    },
+    "derived_fields": {
+      "safety.total_crime_rate": {
+        "formula": "violent_crime_rate + property_crime_rate",
+        "inputs": [
+          "safety.violent_crime_rate",
+          "safety.property_crime_rate"
+        ],
+        "formula_location": "score/normalizer.py:_derive_total_crime",
+        "authority_tier": 2
+      },
+      "safety.crime_trend": {
+        "formula": "(last_year_rate - first_year_rate) / years_span",
+        "inputs": [
+          "fbi.time_series[].violent_crime_rate"
+        ],
+        "formula_location": "score/normalizer.py:_build_safety",
+        "authority_tier": 2
+      },
+      "education.school_quality_tier": {
+        "formula": "excellent if avg>=8, good if avg>=6, fair if avg>=4, else poor",
+        "inputs": [
+          "education.avg_school_rating"
+        ],
+        "formula_location": "score/normalizer.py:_build_education",
+        "authority_tier": 3
+      },
+      "environment.avg_disasters_per_decade": {
+        "formula": "total_disasters / (years_span / 10)",
+        "inputs": [
+          "environment.total_disasters"
+        ],
+        "formula_location": "probe/fema_probe.py",
+        "authority_tier": 2
+      },
+      "housing.rent_burden_ratio": {
+        "formula": "(fmr_2br * 12) / median_household_income * 100",
+        "inputs": [
+          "housing.fmr_2br",
+          "economy.median_household_income"
+        ],
+        "formula_location": "score/normalizer.py:_build_housing",
+        "authority_tier": 2
+      },
+      "governance.legislative_velocity": {
+        "formula": "legislative_volume / years_of_legislative_data",
+        "inputs": [
+          "governance.legislative_volume",
+          "governance.years_of_legislative_data"
+        ],
+        "formula_location": "score/normalizer.py:_build_governance",
+        "authority_tier": 2
+      },
+      "development.yoy_trend_pct": {
+        "formula": "(current_year - prior_year) / prior_year * 100",
+        "inputs": [
+          "permit data from Socrata"
+        ],
+        "formula_location": "probe/permits_probe.py",
+        "authority_tier": 2
+      }
+    },
+    "geographic_mismatches": [
+      {
+        "field": "identity.fips_state",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "state-level data applied to city profile"
+      },
+      {
+        "field": "economy.unemployment_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Reflects statewide unemployment, not city-specific rate"
+      },
+      {
+        "field": "economy.labor_force",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: This is the full state labor force, not city-level"
+      },
+      {
+        "field": "economy.employed",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "economy.unemployed",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.violent_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: City-level requires ORI codes not currently used"
+      },
+      {
+        "field": "safety.property_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.murder_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.robbery_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.burglary_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.vehicle_theft_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "safety.total_crime_rate",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA; derived sum"
+      },
+      {
+        "field": "safety.crime_trend",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "state-level data applied to city profile"
+      },
+      {
+        "field": "education.total_schools",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Count includes all schools in the state, not city"
+      },
+      {
+        "field": "education.total_enrollment",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.pupil_teacher_ratio",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: Average across all state schools"
+      },
+      {
+        "field": "education.title1_pct",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.charter_pct",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "education.regular_schools",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.pm25_mean",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE/COUNTY-LEVEL: Averaged across all monitors in the state"
+      },
+      {
+        "field": "environment.ozone_mean",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE/COUNTY-LEVEL"
+      },
+      {
+        "field": "environment.total_disasters",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA: All declarations for the state, not city-specific"
+      },
+      {
+        "field": "environment.avg_disasters_per_decade",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.most_recent_disaster",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "environment.most_recent_disaster_type",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL DATA"
+      },
+      {
+        "field": "housing.fmr_0br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR: Fair Market Rents at state level, not city-specific metro area"
+      },
+      {
+        "field": "housing.fmr_1br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_2br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_3br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.fmr_4br",
+        "source_level": "state",
+        "profile_level": "place",
+        "note": "STATE-LEVEL FMR"
+      },
+      {
+        "field": "housing.rent_burden_ratio",
+        "source_level": "mixed",
+        "profile_level": "place",
+        "note": "GEOGRAPHIC MISMATCH: FMR is state-level (HUD), income is city-level (Census). Ratio may be biased."
+      }
+    ]
+  },
+  "data_quality": {
+    "quality_score": 100.0,
+    "grade": "A",
+    "completeness_pct": 100.0,
+    "issue_count": 7,
+    "granularity_flags": 3
+  },
+  "officials": {
+    "body_name": "City Council / Housing Authority / Successor Agency to the Redevelopment Agency",
+    "members": [
+      {
+        "name": "Nora Garcia",
+        "email": "nora.garcia@pomonaca.gov",
+        "title": null,
+        "start_date": "2018-12-03"
+      },
+      {
+        "name": "Steve Lustro",
+        "email": "steve_lustro@ci.pomona.ca.us",
+        "title": null,
+        "start_date": "2018-12-03"
+      },
+      {
+        "name": "Victor Preciado",
+        "email": "victor_preciado@ci.pomona.ca.us",
+        "title": null,
+        "start_date": "2018-12-03"
+      }
+    ]
+  },
+  "recent_meetings": [
+    {
+      "date": "2026-02-12",
+      "body": "Board of Parking Place Commissioners (VPD)",
+      "location": "Council Chambers",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-11",
+      "body": "Zoning Administrator",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://pomona.legistar1.com/pomona/meetings/2026/2/2862_A_Zoning_Administrator_26-02-11_Regular_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-11",
+      "body": "Planning Commission",
+      "location": "Council Chambers & Via Teleconference: Hyatt Regency Washington on Capitol Hill, 400 New Jersey Ave NW",
+      "has_agenda": true,
+      "agenda_url": "https://pomona.legistar1.com/pomona/meetings/2026/2/3064_A_Planning_Commission_26-02-11_Regular_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "Police Oversight Commission",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://pomona.legistar1.com/pomona/meetings/2026/2/3044_A_Police_Oversight_Commission_26-02-10_Regular_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-09",
+      "body": "City Council / Housing Authority / Successor Agency to the Redevelopment Agency",
+      "location": "The Union on Garey, 350 N. Garey Ave",
+      "has_agenda": true,
+      "agenda_url": "https://pomona.legistar1.com/pomona/meetings/2026/2/3154_A_City_Council___Housing_Authority___Successor_Agency_to_the_Redevelopment_Agency_26-02-09_Special_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-04",
+      "body": "Historic Preservation Commission",
+      "location": "City Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://pomona.legistar1.com/pomona/meetings/2026/2/3085_A_Historic_Preservation_Commission_26-02-04_Regular_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-02",
+      "body": "City Council / Housing Authority / Successor Agency to the Redevelopment Agency",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://pomona.legistar1.com/pomona/meetings/2026/2/3114_A_City_Council___Housing_Authority___Successor_Agency_to_the_Redevelopment_Agency_26-02-02_Regular_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-28",
+      "body": "Planning Commission",
+      "location": "Water Resources Department, 752 W. Commercial Street, Pomona, CA 91768",
+      "has_agenda": true,
+      "agenda_url": "https://pomona.legistar1.com/pomona/meetings/2026/1/2793_A_Planning_Commission_26-01-28_Regular_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-27",
+      "body": "Community Life Commission",
+      "location": "City Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://pomona.legistar1.com/pomona/meetings/2026/1/3141_A_Community_Life_Commission_26-01-27_Regular_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-26",
+      "body": "Cultural Arts Commission",
+      "location": "dA Center for the Arts\r\n252 S. Main Street #D\r\nPomona CA 91766",
+      "has_agenda": true,
+      "agenda_url": "https://pomona.legistar1.com/pomona/meetings/2026/1/3096_A_Cultural_Arts_Commission_26-01-26_Regular_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-26",
+      "body": "City Council / Housing Authority / Successor Agency to the Redevelopment Agency",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://pomona.legistar1.com/pomona/meetings/2026/1/3113_A_City_Council___Housing_Authority___Successor_Agency_to_the_Redevelopment_Agency_26-01-26_Regular_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "City Council Priorities and Goals Workshop\n\nIt is recommended that the City Council take the following action:\n\n1)\tDiscuss the City Council Priorities and Goals for Fiscal Year 2026-27",
+      "type": "Discussion ",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-05",
+      "file_number": "26-1117",
+      "passed_date": null
+    },
+    {
+      "title": "A)\tCONFERENCE WITH REAL PROPERTY NEGOTIATORS\r\n(Pursuant to Government Code Section 54956.8)\r\n\r\nProperty/APN’s: \t8341005029\r\nNegotiating Parties: Pomona Fox Theater Master Tenant LLC Lessee c/o Pomona ",
+      "type": "Closed Session",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-05",
+      "file_number": "26-1121",
+      "passed_date": null
+    },
+    {
+      "title": "1.\tApproval of Action Minutes from the Planning Commission Special Meeting of December 16, 2025.",
+      "type": "Consent Calendar",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-05",
+      "file_number": "26-1120",
+      "passed_date": null
+    },
+    {
+      "title": "Monthly Report(s) from the Police Department",
+      "type": "Discussion ",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-04",
+      "file_number": "26-1109",
+      "passed_date": null
+    },
+    {
+      "title": "Selection of Commission Chair and Vice-Chair\r\n\r\nIt is recommended that the commission members select a Chair and Vice-Chair.",
+      "type": "Discussion ",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-04",
+      "file_number": "26-1110",
+      "passed_date": null
+    },
+    {
+      "title": "Approval of Meeting Minutes\r\n\r\nIt is recommended that the commission members approve the following Police Oversight Commission Meeting minutes:\r\n\r\nJanuary 13, 2026",
+      "type": "Consent Calendar",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-04",
+      "file_number": "26-1108",
+      "passed_date": null
+    },
+    {
+      "title": "Report out from PD Monthly Reports Ad-Hoc Committee",
+      "type": "Discussion ",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-04",
+      "file_number": "26-1111",
+      "passed_date": null
+    },
+    {
+      "title": "Review of Annual Report and Approval of Submission to City Council",
+      "type": "Discussion ",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-04",
+      "file_number": "26-1112",
+      "passed_date": null
+    },
+    {
+      "title": "1.\tDevelopment Plan Review (DPR-000236-2024)\nProject Address:\t1463 W. Mission Boulevard (APN: 8348-020-002)\nProject Applicant:     Integrity Property Group\nProject Planner:\tCarlos Molina, Associate Pl",
+      "type": "Public Hearing",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-29",
+      "file_number": "26-1094",
+      "passed_date": null
+    },
+    {
+      "title": "1.\tSelection of Chair and Vice-Chair for 2026",
+      "type": "Consent Calendar",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-29",
+      "file_number": "26-1095",
+      "passed_date": null
+    }
+  ],
+  "legistar_url": "https://pomona.legistar.com",
+  "enriched_at": "2026-02-12T18:54:19.941843",
+  "government_news": [],
+  "video_meetings": [],
+  "data_platforms": [
+    "legistar"
+  ]
+}
