@@ -350,7 +350,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=South%20San%20Francisco",
-        "probed_at": "2026-02-13T21:06:21.294682",
+        "probed_at": "2026-02-14T02:43:13.013791",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -711,16 +711,6 @@
     },
     {
       "date": "2026-02-04",
-      "body": "Special City Council",
-      "location": "Library Parks & Recreation Building, Council Chambers\r\n901 Civic Campus Way, South San Francisco, CA",
-      "has_agenda": true,
-      "agenda_url": "https://ci-ssf-ca.legistar1.com/ci-ssf-ca/meetings/2026/2/3228_A_Special_City_Council_26-02-04_Special_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-04",
       "body": "Measure W Citizens' Oversight Committee",
       "location": "City Hall, City Manager's Conference Room\r\n400 Grand Avenue, South San Francisco, CA",
       "has_agenda": true,
@@ -740,6 +730,16 @@
       "upcoming": false
     },
     {
+      "date": "2026-02-04",
+      "body": "Special City Council",
+      "location": "Library Parks & Recreation Building, Council Chambers\r\n901 Civic Campus Way, South San Francisco, CA",
+      "has_agenda": true,
+      "agenda_url": "https://ci-ssf-ca.legistar1.com/ci-ssf-ca/meetings/2026/2/3228_A_Special_City_Council_26-02-04_Special_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
       "date": "2026-02-02",
       "body": "Youth Commission",
       "location": "Library Parks & Recreation Building, Young Adult Library\r\n901 Civic Campus Way, South San Francisco, CA",
@@ -751,20 +751,20 @@
     },
     {
       "date": "2026-01-28",
-      "body": "NOTICE OF MEETING CANCELLATION",
-      "location": null,
-      "has_agenda": false,
-      "agenda_url": null,
+      "body": "City Council",
+      "location": "Library Parks & Recreation Building, Council Chambers\r\n901 Civic Campus Way, South San Francisco, CA",
+      "has_agenda": true,
+      "agenda_url": "https://ci-ssf-ca.legistar1.com/ci-ssf-ca/meetings/2026/1/3171_A_City_Council_26-01-28_Regular_Meeting_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
     },
     {
       "date": "2026-01-28",
-      "body": "City Council",
-      "location": "Library Parks & Recreation Building, Council Chambers\r\n901 Civic Campus Way, South San Francisco, CA",
-      "has_agenda": true,
-      "agenda_url": "https://ci-ssf-ca.legistar1.com/ci-ssf-ca/meetings/2026/1/3171_A_City_Council_26-01-28_Regular_Meeting_Agenda.pdf",
+      "body": "NOTICE OF MEETING CANCELLATION",
+      "location": null,
+      "has_agenda": false,
+      "agenda_url": null,
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -853,7 +853,7 @@
     }
   ],
   "legistar_url": "https://ci-ssf-ca.legistar.com",
-  "enriched_at": "2026-02-13T20:02:10.608086",
+  "enriched_at": "2026-02-14T02:30:55.463202",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

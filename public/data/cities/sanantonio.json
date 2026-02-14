@@ -93,24 +93,24 @@
     "vacant_other": 20021
   },
   "health": {
-    "uninsured_pct": 24.7,
-    "obesity_pct": 35.2,
-    "diabetes_pct": 14.9,
-    "depression_pct": 22.3,
-    "asthma_pct": 9.1,
-    "smoking_pct": 13.3,
-    "physical_inactivity_pct": 33.2,
-    "mental_health_bad_days": 17.2,
-    "physical_health_bad_days": 15.0,
-    "sleep_deficit_pct": 41.9,
-    "high_blood_pressure_pct": 34.1,
-    "high_cholesterol_pct": 31.5,
-    "heart_disease_pct": 5.8,
-    "stroke_pct": 3.3,
-    "cancer_pct": 5.3,
+    "uninsured_pct": null,
+    "obesity_pct": null,
+    "diabetes_pct": null,
+    "depression_pct": null,
+    "asthma_pct": null,
+    "smoking_pct": null,
+    "physical_inactivity_pct": null,
+    "mental_health_bad_days": null,
+    "physical_health_bad_days": null,
+    "sleep_deficit_pct": null,
+    "high_blood_pressure_pct": null,
+    "high_cholesterol_pct": null,
+    "heart_disease_pct": null,
+    "stroke_pct": null,
+    "cancer_pct": null,
     "kidney_disease_pct": null,
-    "checkup_pct": 71.8,
-    "data_year": "2023"
+    "checkup_pct": null,
+    "data_year": null
   },
   "governance": {
     "legislative_volume": 33202,
@@ -410,7 +410,7 @@
     "youtube_meetings": "skipped",
     "seeclickfix": "skipped",
     "accela": "available",
-    "cdc_places": "available",
+    "cdc_places": "unavailable",
     "hud_usps": "unavailable",
     "census_vacancy": "available"
   },
@@ -565,10 +565,10 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=San%20Antonio",
-        "probed_at": "2026-02-13T21:01:00.751155",
-        "data_vintage": "BRFSS 2023",
+        "probed_at": "2026-02-14T02:40:12.830582",
+        "data_vintage": "BRFSS None",
         "geographic_level": "place",
-        "status": "available"
+        "status": "unavailable"
       }
     },
     "derived_fields": {
@@ -835,7 +835,7 @@
   "recent_meetings": [],
   "recent_legislation": [],
   "legistar_url": "https://sanantonio.legistar.com",
-  "enriched_at": "2026-02-13T20:08:39.341689",
+  "enriched_at": "2026-02-14T02:37:47.790971",
   "government_news": [],
   "video_meetings": [
     {

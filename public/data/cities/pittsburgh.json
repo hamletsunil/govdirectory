@@ -571,7 +571,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Pittsburgh",
-        "probed_at": "2026-02-13T21:01:29.285745",
+        "probed_at": "2026-02-14T02:40:31.053609",
         "data_vintage": "BRFSS 2022",
         "geographic_level": "place",
         "status": "available"
@@ -998,8 +998,8 @@
       "date": "2026-02-10",
       "body": "City Council",
       "location": "Council Chambers",
-      "has_agenda": false,
-      "agenda_url": null,
+      "has_agenda": true,
+      "agenda_url": "https://pittsburgh.legistar1.com/pittsburgh/meetings/2026/2/11867_A_City_Council_26-02-10_Regular_Meeting_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -1016,20 +1016,20 @@
     },
     {
       "date": "2026-02-10",
-      "body": "Committee on Hearings and Policy",
+      "body": "City Council",
       "location": "Council Chambers",
-      "has_agenda": true,
-      "agenda_url": "https://pittsburgh.legistar1.com/pittsburgh/meetings/2026/2/11844_A_Committee_on_Hearings_and_Policy__26-02-10_Post_Agenda_and_Committee_on_Hearings_.pdf",
+      "has_agenda": false,
+      "agenda_url": null,
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
     },
     {
       "date": "2026-02-10",
-      "body": "City Council",
+      "body": "Committee on Hearings and Policy",
       "location": "Council Chambers",
       "has_agenda": true,
-      "agenda_url": "https://pittsburgh.legistar1.com/pittsburgh/meetings/2026/2/11867_A_City_Council_26-02-10_Regular_Meeting_Agenda.pdf",
+      "agenda_url": "https://pittsburgh.legistar1.com/pittsburgh/meetings/2026/2/11844_A_Committee_on_Hearings_and_Policy__26-02-10_Post_Agenda_and_Committee_on_Hearings_.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -1046,10 +1046,20 @@
     },
     {
       "date": "2026-02-04",
-      "body": "City Council",
+      "body": "Standing Committee",
       "location": "Council Chambers",
       "has_agenda": true,
-      "agenda_url": "https://pittsburgh.legistar1.com/pittsburgh/meetings/2026/2/11860_A_City_Council_26-02-04_Regular_Meeting_Agenda.pdf",
+      "agenda_url": "https://pittsburgh.legistar1.com/pittsburgh/meetings/2026/2/11857_A_Standing_Committee_26-02-04_Standing_Committee_Meeting_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-04",
+      "body": "Committee on Hearings and Policy",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://pittsburgh.legistar1.com/pittsburgh/meetings/2026/2/11842_A_Committee_on_Hearings_and_Policy__26-02-04_Post_Agenda_and_Committee_on_Hearings_.pdf",
       "has_minutes": true,
       "has_video": false,
       "upcoming": false
@@ -1061,16 +1071,6 @@
       "has_agenda": false,
       "agenda_url": null,
       "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-04",
-      "body": "Committee on Hearings and Policy",
-      "location": "Council Chambers",
-      "has_agenda": true,
-      "agenda_url": "https://pittsburgh.legistar1.com/pittsburgh/meetings/2026/2/11842_A_Committee_on_Hearings_and_Policy__26-02-04_Post_Agenda_and_Committee_on_Hearings_.pdf",
-      "has_minutes": true,
       "has_video": false,
       "upcoming": false
     }
@@ -1158,7 +1158,7 @@
     }
   ],
   "legistar_url": "https://pittsburgh.legistar.com",
-  "enriched_at": "2026-02-13T20:07:46.847983",
+  "enriched_at": "2026-02-14T02:36:54.030473",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

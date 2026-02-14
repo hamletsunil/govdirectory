@@ -180,13 +180,13 @@
     "accela_agency_id": "MESA"
   },
   "development": {
-    "permits_12mo": 5233,
-    "yoy_trend_pct": 3.0,
-    "avg_permit_value": 869950.37,
-    "permits_per_capita_1k": 10.4,
+    "permits_12mo": 5225,
+    "yoy_trend_pct": 2.9,
+    "avg_permit_value": 872278.03,
+    "permits_per_capita_1k": 10.38,
     "permit_types": {
-      "RES": 3364,
-      "COM": 1395,
+      "RES": 3359,
+      "COM": 1392,
       "SVC": 474
     },
     "datasets_count": 10
@@ -491,8 +491,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://citydata.mesaaz.gov/resource/dzpk-hxfb.json",
-        "probed_at": "2026-02-13T13:14:33.225594",
-        "data_vintage": "Rolling 12-month window ending 2026-02-13",
+        "probed_at": "2026-02-14T02:39:29.731415",
+        "data_vintage": "Rolling 12-month window ending 2026-02-14",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -538,7 +538,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Mesa",
-        "probed_at": "2026-02-13T21:01:15.245436",
+        "probed_at": "2026-02-14T02:40:21.939833",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -848,20 +848,20 @@
     },
     {
       "date": "2026-02-04",
-      "body": "Board of Adjustment Study Session",
+      "body": "Board of Adjustment Public Hearing",
       "location": "Study Session",
       "has_agenda": true,
-      "agenda_url": "https://legistar1.granicus.com/Mesa/meetings/2026/2/4619_A_Board_of_Adjustment_Study_Session_26-02-04_Meeting_Agenda.pdf",
+      "agenda_url": "https://legistar1.granicus.com/Mesa/meetings/2026/2/4620_A_Board_of_Adjustment_Public_Hearing_26-02-04_Meeting_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
     },
     {
       "date": "2026-02-04",
-      "body": "Board of Adjustment Public Hearing",
+      "body": "Board of Adjustment Study Session",
       "location": "Study Session",
       "has_agenda": true,
-      "agenda_url": "https://legistar1.granicus.com/Mesa/meetings/2026/2/4620_A_Board_of_Adjustment_Public_Hearing_26-02-04_Meeting_Agenda.pdf",
+      "agenda_url": "https://legistar1.granicus.com/Mesa/meetings/2026/2/4619_A_Board_of_Adjustment_Study_Session_26-02-04_Meeting_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -878,20 +878,20 @@
     },
     {
       "date": "2026-01-28",
-      "body": "Planning and Zoning Board - Study Session",
-      "location": "Study Session",
+      "body": "Planning and Zoning Board - Public Hearing",
+      "location": "Council Chambers",
       "has_agenda": true,
-      "agenda_url": "https://legistar1.granicus.com/Mesa/meetings/2026/1/4623_A_Planning_and_Zoning_Board_-_Study_Session_26-01-28_Meeting_Agenda.pdf",
+      "agenda_url": "https://legistar1.granicus.com/Mesa/meetings/2026/1/4622_A_Planning_and_Zoning_Board_-_Public_Hearing_26-01-28_Meeting_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
     },
     {
       "date": "2026-01-28",
-      "body": "Planning and Zoning Board - Public Hearing",
-      "location": "Council Chambers",
+      "body": "Planning and Zoning Board - Study Session",
+      "location": "Study Session",
       "has_agenda": true,
-      "agenda_url": "https://legistar1.granicus.com/Mesa/meetings/2026/1/4622_A_Planning_and_Zoning_Board_-_Public_Hearing_26-01-28_Meeting_Agenda.pdf",
+      "agenda_url": "https://legistar1.granicus.com/Mesa/meetings/2026/1/4623_A_Planning_and_Zoning_Board_-_Study_Session_26-01-28_Meeting_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -990,7 +990,7 @@
     }
   ],
   "legistar_url": "https://mesa.legistar.com",
-  "enriched_at": "2026-02-13T20:06:11.161732",
+  "enriched_at": "2026-02-14T02:35:13.269251",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

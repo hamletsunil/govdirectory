@@ -567,7 +567,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Dallas",
-        "probed_at": "2026-02-13T21:01:02.037962",
+        "probed_at": "2026-02-14T02:40:13.590722",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -836,16 +836,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-02-13",
-      "body": "Reinvestment Zone (RZ17) Seventeen Board (TOD)",
-      "location": "CITY HALL ROOM 6DN AND VIDEOCONFERENCE",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-02-17",
       "body": "Building Inspection Advisory, Examining & Appeals Boards",
       "location": "320 E.Jefferson Room 300",
@@ -896,9 +886,9 @@
       "upcoming": true
     },
     {
-      "date": "2026-02-12",
-      "body": "Ad Hoc Committee on Administrative Affairs",
-      "location": "COUNCIL BRIEFING ROOM, 6ES",
+      "date": "2026-02-13",
+      "body": "Reinvestment Zone (RZ17) Seventeen Board (TOD)",
+      "location": "CITY HALL ROOM 6DN AND VIDEOCONFERENCE",
       "has_agenda": false,
       "agenda_url": null,
       "has_minutes": false,
@@ -916,9 +906,9 @@
       "upcoming": false
     },
     {
-      "date": "2026-02-11",
-      "body": "Environmental Commission",
-      "location": "COUNCIL BRIEFING, ROOM 6ES",
+      "date": "2026-02-12",
+      "body": "Ad Hoc Committee on Administrative Affairs",
+      "location": "COUNCIL BRIEFING ROOM, 6ES",
       "has_agenda": false,
       "agenda_url": null,
       "has_minutes": false,
@@ -936,11 +926,21 @@
       "upcoming": false
     },
     {
-      "date": "2026-02-10",
-      "body": "Community Police Oversight Board",
-      "location": "COUNCIL CHAMBERS, CITY HALL, 6EN",
+      "date": "2026-02-11",
+      "body": "Environmental Commission",
+      "location": "COUNCIL BRIEFING, ROOM 6ES",
       "has_agenda": false,
       "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "Dallas Housing Finance Corporation",
+      "location": "CITY HALL, L1 AUDITORIUM",
+      "has_agenda": true,
+      "agenda_url": "https://cityofdallas.legistar1.com/cityofdallas/meetings/2026/2/4421_A_Dallas_Housing_Finance_Corporation_26-02-10_Briefing_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -957,17 +957,17 @@
     },
     {
       "date": "2026-02-10",
-      "body": "Dallas Housing Finance Corporation",
-      "location": "CITY HALL, L1 AUDITORIUM",
-      "has_agenda": true,
-      "agenda_url": "https://cityofdallas.legistar1.com/cityofdallas/meetings/2026/2/4421_A_Dallas_Housing_Finance_Corporation_26-02-10_Briefing_Agenda.pdf",
+      "body": "Community Police Oversight Board",
+      "location": "COUNCIL CHAMBERS, CITY HALL, 6EN",
+      "has_agenda": false,
+      "agenda_url": null,
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
     },
     {
       "date": "2026-02-09",
-      "body": "Public Safety Committee",
+      "body": "Committee on Government Efficiency",
       "location": "COUNCIL CHAMBERS, CITY HALL\r\nbit.ly/cityofdallastv",
       "has_agenda": false,
       "agenda_url": null,
@@ -979,16 +979,6 @@
       "date": "2026-02-09",
       "body": "Youth Commission",
       "location": "COUNCIL CHAMBERS, CITY HALL",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-09",
-      "body": "Committee on Government Efficiency",
-      "location": "COUNCIL CHAMBERS, CITY HALL\r\nbit.ly/cityofdallastv",
       "has_agenda": false,
       "agenda_url": null,
       "has_minutes": false,
@@ -1079,7 +1069,7 @@
     }
   ],
   "legistar_url": "https://cityofdallas.legistar.com",
-  "enriched_at": "2026-02-13T20:02:20.525914",
+  "enriched_at": "2026-02-14T02:31:05.425703",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
