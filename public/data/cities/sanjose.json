@@ -85,24 +85,24 @@
     "vacant_other": 5179
   },
   "health": {
-    "uninsured_pct": null,
-    "obesity_pct": null,
-    "diabetes_pct": null,
-    "depression_pct": null,
-    "asthma_pct": null,
-    "smoking_pct": null,
-    "physical_inactivity_pct": null,
-    "mental_health_bad_days": null,
-    "physical_health_bad_days": null,
-    "sleep_deficit_pct": null,
-    "high_blood_pressure_pct": null,
-    "high_cholesterol_pct": null,
-    "heart_disease_pct": null,
-    "stroke_pct": null,
-    "cancer_pct": null,
+    "uninsured_pct": 9.2,
+    "obesity_pct": 23.5,
+    "diabetes_pct": 10.7,
+    "depression_pct": 18.4,
+    "asthma_pct": 8.2,
+    "smoking_pct": 9.3,
+    "physical_inactivity_pct": 24.6,
+    "mental_health_bad_days": 15.0,
+    "physical_health_bad_days": 10.9,
+    "sleep_deficit_pct": 32.6,
+    "high_blood_pressure_pct": 26.5,
+    "high_cholesterol_pct": 31.6,
+    "heart_disease_pct": 4.4,
+    "stroke_pct": 2.5,
+    "cancer_pct": 5.1,
     "kidney_disease_pct": null,
-    "checkup_pct": null,
-    "data_year": null
+    "checkup_pct": 69.9,
+    "data_year": "2023"
   },
   "governance": {
     "legislative_volume": 12343,
@@ -349,7 +349,7 @@
     "youtube_meetings": "skipped",
     "seeclickfix": "skipped",
     "accela": "available",
-    "cdc_places": "unavailable",
+    "cdc_places": "available",
     "hud_usps": "unavailable",
     "census_vacancy": "available"
   },
@@ -504,10 +504,10 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=San%20Jose",
-        "probed_at": "2026-02-15T13:04:33.014932",
-        "data_vintage": "BRFSS None",
+        "probed_at": "2026-02-15T18:54:04.701268",
+        "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
-        "status": "unavailable"
+        "status": "available"
       }
     },
     "derived_fields": {
@@ -966,7 +966,7 @@
     }
   ],
   "legistar_url": "https://sanjose.legistar.com",
-  "enriched_at": "2026-02-15T13:02:28.278266",
+  "enriched_at": "2026-02-15T18:51:39.691447",
   "government_news": [],
   "video_meetings": [
     {
