@@ -116,16 +116,16 @@
     "accela_agency_id": "KANSAS"
   },
   "development": {
-    "permits_12mo": 4287,
+    "permits_12mo": 4274,
     "yoy_trend_pct": -77.2,
-    "avg_permit_value": 196415.29,
+    "avg_permit_value": 196781.47,
     "permit_types": {
-      "Electrical General": 940,
+      "Electrical General": 938,
       "Plumbing General": 594,
       "Mechanical General": 553,
-      "Certificate of Occupancy (Residential)": 224,
+      "Certificate of Occupancy (Residential)": 214,
       "Electrical with Service": 208,
-      "Single Family - Interior Remodel": 182,
+      "Single Family - Interior Remodel": 181,
       "Install/Replace Water Heater": 135,
       "Other": 126,
       "Single Family - New": 117,
@@ -292,8 +292,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.kcmo.org/resource/ntw8-aacc.json",
-        "probed_at": "2026-02-14T18:55:59.162798",
-        "data_vintage": "Rolling 12-month window ending 2026-02-14",
+        "probed_at": "2026-02-15T02:45:11.307369",
+        "data_vintage": "Rolling 12-month window ending 2026-02-15",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Permits - CPD Dataset",
@@ -809,8 +809,8 @@
     },
     {
       "date": "2026-02-11",
-      "body": "Board of Zoning Adjustment",
-      "location": "City Hall, 414 East 12th Street, 10th floor Council\r\nCommittee Room, Kansas City, Missouri",
+      "body": "Crossroads Community Improvement District",
+      "location": "1010 Walnut, Suite 500\r\nKansas City, Missouri 64106",
       "has_agenda": false,
       "agenda_url": null,
       "has_minutes": false,
@@ -819,8 +819,8 @@
     },
     {
       "date": "2026-02-11",
-      "body": "Crossroads Community Improvement District",
-      "location": "1010 Walnut, Suite 500\r\nKansas City, Missouri 64106",
+      "body": "Board of Zoning Adjustment",
+      "location": "City Hall, 414 East 12th Street, 10th floor Council\r\nCommittee Room, Kansas City, Missouri",
       "has_agenda": false,
       "agenda_url": null,
       "has_minutes": false,
@@ -833,6 +833,16 @@
       "location": "26th Floor, Council Chamber",
       "has_agenda": true,
       "agenda_url": "https://kansascity.legistar1.com/kansascity/meetings/2026/2/18967_A_Neighborhood_Planning_and_Development_Committee_26-02-10_Agenda_-_Committees.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "Finance, Governance and Public Safety Committee",
+      "location": "26th Floor, Council Chamber",
+      "has_agenda": true,
+      "agenda_url": "https://kansascity.legistar1.com/kansascity/meetings/2026/2/18962_A_Finance%2C_Governance_and_Public_Safety_Committee_26-02-10_Agenda_-_Committees.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -858,16 +868,6 @@
       "upcoming": false
     },
     {
-      "date": "2026-02-10",
-      "body": "Finance, Governance and Public Safety Committee",
-      "location": "26th Floor, Council Chamber",
-      "has_agenda": true,
-      "agenda_url": "https://kansascity.legistar1.com/kansascity/meetings/2026/2/18962_A_Finance%2C_Governance_and_Public_Safety_Committee_26-02-10_Agenda_-_Committees.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
       "date": "2026-02-06",
       "body": "Municipal Art Commission",
       "location": null,
@@ -889,11 +889,11 @@
     },
     {
       "date": "2026-02-05",
-      "body": "Council",
-      "location": "Council Chambers",
-      "has_agenda": true,
-      "agenda_url": "https://kansascity.legistar1.com/kansascity/meetings/2026/2/18961_A_Council_26-02-05_Docket_-_City_Council.pdf",
-      "has_minutes": true,
+      "body": "Fairness in Construction Board",
+      "location": "IN-PERSON Meeting\r\nCity Hall\r\n414 East 12th Street - 4th Floor – Suite 404\r\nKansas City, MO 64106",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
       "has_video": false,
       "upcoming": false
     }
@@ -981,7 +981,7 @@
     }
   ],
   "legistar_url": "https://kansascity.legistar.com",
-  "enriched_at": "2026-02-14T18:48:16.744611",
+  "enriched_at": "2026-02-15T02:43:21.432710",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

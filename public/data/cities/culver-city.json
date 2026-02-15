@@ -514,7 +514,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Culver%20City",
-        "probed_at": "2026-02-14T18:58:07.799185",
+        "probed_at": "2026-02-15T02:47:44.719148",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -821,16 +821,6 @@
   "recent_meetings": [
     {
       "date": "2026-02-11",
-      "body": "FINANCE ADVISORY COMMITTEE",
-      "location": "Dan Patacchia Meeting Room, 1st Floor",
-      "has_agenda": true,
-      "agenda_url": "https://culver-city.legistar1.com/culver-city/meetings/2026/2/6037_A_FINANCE_ADVISORY_COMMITTEE_26-02-11_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-11",
       "body": "PLANNING COMMISSION",
       "location": null,
       "has_agenda": true,
@@ -855,6 +845,16 @@
       "location": "Senior Center Rooms B45 & B47",
       "has_agenda": true,
       "agenda_url": "https://culver-city.legistar1.com/culver-city/meetings/2026/2/6098_A_DISABILITY_ADVISORY_COMMITTEE_26-02-11_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-11",
+      "body": "FINANCE ADVISORY COMMITTEE",
+      "location": "Dan Patacchia Meeting Room, 1st Floor",
+      "has_agenda": true,
+      "agenda_url": "https://culver-city.legistar1.com/culver-city/meetings/2026/2/6037_A_FINANCE_ADVISORY_COMMITTEE_26-02-11_Meeting_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -901,16 +901,6 @@
     },
     {
       "date": "2026-02-04",
-      "body": "Standing Governance Subcommittee",
-      "location": "CANCELLED - Regular Meeting",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-04",
       "body": "CIVIL SERVICE COMMISSION",
       "location": "Mike Balkman Council Chambers\r\n9770 Culver Blvd\r\nCulver City, CA 90232",
       "has_agenda": true,
@@ -918,15 +908,41 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
+    },
+    {
+      "date": "2026-02-04",
+      "body": "Standing Governance Subcommittee",
+      "location": "CANCELLED - Regular Meeting",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     }
   ],
   "recent_legislation": [
+    {
+      "title": "ACOHH: Discussion on quarterly updates from service providers.",
+      "type": "Minute Order",
+      "status": "Action Item",
+      "intro_date": "2026-02-05",
+      "file_number": "26-516",
+      "passed_date": null
+    },
     {
       "title": "Approval of the minutes of the Special Meeting of the City Council 2028 Summer Olympics Preparation Ad Hoc Subcommittee, Culver City Arts Foundation, and Representative of Cultural Affairs Commission ",
       "type": "Minutes",
       "status": "Minutes",
       "intro_date": "2026-02-05",
       "file_number": "26-505",
+      "passed_date": null
+    },
+    {
+      "title": "ACOHH: Approval of the minutes for the special Advisory Committee on Housing and Homelessness meeting of January 13, 2026.",
+      "type": "Minute Order",
+      "status": "Consent Agenda",
+      "intro_date": "2026-02-05",
+      "file_number": "26-514",
       "passed_date": null
     },
     {
@@ -946,35 +962,11 @@
       "passed_date": null
     },
     {
-      "title": "ACOHH: Discussion on quarterly updates from service providers.",
-      "type": "Minute Order",
-      "status": "Action Item",
-      "intro_date": "2026-02-05",
-      "file_number": "26-516",
-      "passed_date": null
-    },
-    {
-      "title": "ACOHH: Approval of the minutes for the special Advisory Committee on Housing and Homelessness meeting of January 13, 2026.",
-      "type": "Minute Order",
-      "status": "Consent Agenda",
-      "intro_date": "2026-02-05",
-      "file_number": "26-514",
-      "passed_date": null
-    },
-    {
-      "title": "ACOHH: Presentation of Housing & Human Services Emergency homeless update by Dan Richardson, Psy.D./Human Services and Crisis Intervention Division Manager, and Christina Stoffers/Project Manager.",
+      "title": "ACOHH: Presentation of Housing & Human Services emergency homeless update by Dan Richardson, Psy.D./Human Services and Crisis Intervention Division Manager, and Christina Stoffers/Project Manager.",
       "type": "Minute Order",
       "status": "Presentation to CBC Body",
       "intro_date": "2026-02-05",
-      "file_number": "26-510",
-      "passed_date": null
-    },
-    {
-      "title": "CC - A Presentation by Home Run Financing Regarding Property Assessed Clean Energy (PACE.)",
-      "type": "Presentation",
-      "status": "Presentation to City Council",
-      "intro_date": "2026-02-04",
-      "file_number": "26-501",
+      "file_number": "26-513",
       "passed_date": null
     },
     {
@@ -986,11 +978,11 @@
       "passed_date": null
     },
     {
-      "title": "CC- A Proclamation in Honor of Black History Month 2026.",
-      "type": "Presentation",
-      "status": "Recognition Presentation",
+      "title": "CC:HA:SA:PA - CONSENT ITEM: Approval of Minutes of the Regular City Council Meeting Held on January 26, 2026.",
+      "type": "Minute Order",
+      "status": "Consent Agenda",
       "intro_date": "2026-02-04",
-      "file_number": "26-503",
+      "file_number": "26-500",
       "passed_date": null
     },
     {
@@ -1000,10 +992,18 @@
       "intro_date": "2026-02-04",
       "file_number": "26-502",
       "passed_date": null
+    },
+    {
+      "title": "CC- A Proclamation in Honor of Black History Month 2026.",
+      "type": "Presentation",
+      "status": "Recognition Presentation",
+      "intro_date": "2026-02-04",
+      "file_number": "26-503",
+      "passed_date": null
     }
   ],
   "legistar_url": "https://culver-city.legistar.com",
-  "enriched_at": "2026-02-14T18:46:04.920535",
+  "enriched_at": "2026-02-15T02:43:12.675849",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

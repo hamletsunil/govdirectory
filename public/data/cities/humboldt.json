@@ -394,7 +394,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Humboldt",
-        "probed_at": "2026-02-14T18:59:03.885060",
+        "probed_at": "2026-02-15T02:48:50.547487",
         "data_vintage": "BRFSS None",
         "geographic_level": "place",
         "status": "unavailable"
@@ -714,6 +714,16 @@
       "upcoming": true
     },
     {
+      "date": "2026-03-17",
+      "body": "Board of Supervisors",
+      "location": "825 FIFTH STREET\r\nEUREKA, CA 95501\r\nSUPERVISORS’ CHAMBER, FIRST FLOOR",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
       "date": "2026-02-10",
       "body": "Board of Supervisors",
       "location": "825 FIFTH STREET\r\nEUREKA, CA 95501\r\nSUPERVISORS’ CHAMBER, FIRST FLOOR",
@@ -752,26 +762,6 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
-    },
-    {
-      "date": "2026-01-15",
-      "body": "Planning Commission",
-      "location": "825 Fifth Street \r\nBoard of Supervisors Chambers\r\nEureka, California",
-      "has_agenda": true,
-      "agenda_url": "https://humboldt.legistar1.com/humboldt/meetings/2026/1/2930_A_Planning_Commission_26-01-15_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-01-15",
-      "body": "Zoning Administrator",
-      "location": "Planning and Building Department\r\n3015 H St.\r\nEureka, CA 95501",
-      "has_agenda": true,
-      "agenda_url": "https://humboldt.legistar1.com/humboldt/meetings/2026/1/2931_A_Zoning_Administrator_26-01-15_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
     }
   ],
   "recent_legislation": [
@@ -792,19 +782,19 @@
       "passed_date": null
     },
     {
-      "title": "Resolution Authorizing Temporary Road Closures for the 54th Annual Avenue of the Giants Marathon, Half Marathon and 10K Run on Sunday, May 3, 2026",
-      "type": "Informational Report",
-      "status": "Consent Agenda",
-      "intro_date": "2026-02-03",
-      "file_number": "26-112",
-      "passed_date": null
-    },
-    {
       "title": "Approval of the Action Summary - Meeting of February 3, 2026",
       "type": "Board Order",
       "status": "Consent Agenda",
       "intro_date": "2026-02-03",
       "file_number": "26-114",
+      "passed_date": null
+    },
+    {
+      "title": "Resolution Authorizing Temporary Road Closures for the 54th Annual Avenue of the Giants Marathon, Half Marathon and 10K Run on Sunday, May 3, 2026",
+      "type": "Informational Report",
+      "status": "Consent Agenda",
+      "intro_date": "2026-02-03",
+      "file_number": "26-112",
       "passed_date": null
     },
     {
@@ -857,7 +847,7 @@
     }
   ],
   "legistar_url": "https://humboldt.legistar.com",
-  "enriched_at": "2026-02-14T18:47:59.288090",
+  "enriched_at": "2026-02-15T02:43:20.032106",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

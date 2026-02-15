@@ -525,7 +525,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Boston",
-        "probed_at": "2026-02-14T18:56:15.617031",
+        "probed_at": "2026-02-15T02:45:34.399470",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -944,6 +944,16 @@
     },
     {
       "date": "2026-02-12",
+      "body": "Public Improvement Commission",
+      "location": null,
+      "has_agenda": true,
+      "agenda_url": "https://boston.legistar1.com/boston/meetings/2026/2/14038_A_Public_Improvement_Commission_26-02-12_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-12",
       "body": "BPDA Board of Directors",
       "location": "Room 900, City Hall",
       "has_agenda": true,
@@ -958,16 +968,6 @@
       "location": "Virtual",
       "has_agenda": true,
       "agenda_url": "https://boston.legistar1.com/boston/meetings/2026/2/14047_A_Boston_School_Committee_26-02-12_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-12",
-      "body": "Public Improvement Commission",
-      "location": null,
-      "has_agenda": true,
-      "agenda_url": "https://boston.legistar1.com/boston/meetings/2026/2/14038_A_Public_Improvement_Commission_26-02-12_Meeting_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -994,21 +994,21 @@
     },
     {
       "date": "2026-02-04",
-      "body": "City Council",
-      "location": "Council Chambers",
-      "has_agenda": true,
-      "agenda_url": "https://boston.legistar1.com/boston/meetings/2026/2/14087_A_City_Council_26-02-04_Meeting_Agenda.pdf",
-      "has_minutes": true,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-04",
       "body": "Boston School Committee",
       "location": "Virtual",
       "has_agenda": true,
       "agenda_url": "https://boston.legistar1.com/boston/meetings/2026/2/14046_A_Boston_School_Committee_26-02-04_Meeting_Agenda.pdf",
       "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-04",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://boston.legistar1.com/boston/meetings/2026/2/14087_A_City_Council_26-02-04_Meeting_Agenda.pdf",
+      "has_minutes": true,
       "has_video": false,
       "upcoming": false
     },
@@ -1126,7 +1126,7 @@
     }
   ],
   "legistar_url": "https://boston.legistar.com",
-  "enriched_at": "2026-02-14T18:42:58.895277",
+  "enriched_at": "2026-02-15T02:43:00.948640",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

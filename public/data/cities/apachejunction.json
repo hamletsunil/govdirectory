@@ -544,7 +544,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Apache%20Junction",
-        "probed_at": "2026-02-14T18:58:08.587306",
+        "probed_at": "2026-02-15T02:47:45.652722",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -909,20 +909,20 @@
     },
     {
       "date": "2026-02-03",
-      "body": "City Council Executive Session",
-      "location": "Executive Session Conference Room",
+      "body": "City Council Meeting",
+      "location": "City Council Chambers",
       "has_agenda": true,
-      "agenda_url": "https://legistar1.granicus.com/apachejunction/meetings/2026/2/3619_A_City_Council_Executive_Session_26-02-03_Special_Meeting_Agenda.pdf",
+      "agenda_url": "https://legistar1.granicus.com/apachejunction/meetings/2026/2/3599_A_City_Council_Meeting_26-02-03_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
     },
     {
       "date": "2026-02-03",
-      "body": "City Council Meeting",
-      "location": "City Council Chambers",
+      "body": "City Council Executive Session",
+      "location": "Executive Session Conference Room",
       "has_agenda": true,
-      "agenda_url": "https://legistar1.granicus.com/apachejunction/meetings/2026/2/3599_A_City_Council_Meeting_26-02-03_Agenda.pdf",
+      "agenda_url": "https://legistar1.granicus.com/apachejunction/meetings/2026/2/3619_A_City_Council_Executive_Session_26-02-03_Special_Meeting_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -939,11 +939,11 @@
     },
     {
       "date": "2026-01-20",
-      "body": "City Council Meeting",
+      "body": "Superstition Vistas Community Facilities District No. 1",
       "location": "City Council Chambers",
       "has_agenda": true,
-      "agenda_url": "https://legistar1.granicus.com/apachejunction/meetings/2026/1/3595_A_City_Council_Meeting_26-01-20_Agenda.pdf",
-      "has_minutes": true,
+      "agenda_url": "https://legistar1.granicus.com/apachejunction/meetings/2026/1/3613_A_Superstition_Vistas_Community_Facilities_District_No._1_26-01-20_Special_Meeting_Agenda.pdf",
+      "has_minutes": false,
       "has_video": false,
       "upcoming": false
     },
@@ -959,11 +959,11 @@
     },
     {
       "date": "2026-01-20",
-      "body": "Superstition Vistas Community Facilities District No. 1",
+      "body": "City Council Meeting",
       "location": "City Council Chambers",
       "has_agenda": true,
-      "agenda_url": "https://legistar1.granicus.com/apachejunction/meetings/2026/1/3613_A_Superstition_Vistas_Community_Facilities_District_No._1_26-01-20_Special_Meeting_Agenda.pdf",
-      "has_minutes": false,
+      "agenda_url": "https://legistar1.granicus.com/apachejunction/meetings/2026/1/3595_A_City_Council_Meeting_26-01-20_Agenda.pdf",
+      "has_minutes": true,
       "has_video": false,
       "upcoming": false
     },
@@ -976,19 +976,33 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
-    },
-    {
-      "date": "2026-01-15",
-      "body": "Library Board Special Meeting",
-      "location": "City Council Chambers",
-      "has_agenda": true,
-      "agenda_url": "https://legistar1.granicus.com/apachejunction/meetings/2026/1/3612_A_Library_Board_Special_Meeting_26-01-15_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
     }
   ],
   "recent_legislation": [
+    {
+      "title": "Consideration of acceptance of agenda.",
+      "type": "Agenda",
+      "status": "Consent Agenda",
+      "intro_date": "2026-02-04",
+      "file_number": "26-47",
+      "passed_date": null
+    },
+    {
+      "title": "Announcement of Current Events",
+      "type": "Report/Update",
+      "status": "City Manager's Report",
+      "intro_date": "2026-02-04",
+      "file_number": "26-51",
+      "passed_date": null
+    },
+    {
+      "title": "Brief summary of intergovernmental updates from mayor and councilmembers.",
+      "type": "Discussion/Presentation",
+      "status": "Regional Intergovernmental Updates  ",
+      "intro_date": "2026-02-04",
+      "file_number": "26-49",
+      "passed_date": null
+    },
     {
       "title": "City Manager's Report",
       "type": "Report/Update",
@@ -1006,35 +1020,11 @@
       "passed_date": null
     },
     {
-      "title": "Announcement of Current Events",
+      "title": "Update on Previously Funded Nonprofits",
       "type": "Report/Update",
-      "status": "City Manager's Report",
-      "intro_date": "2026-02-04",
-      "file_number": "26-51",
-      "passed_date": null
-    },
-    {
-      "title": "Consideration of acceptance of agenda.",
-      "type": "Agenda",
-      "status": "Consent Agenda",
-      "intro_date": "2026-02-04",
-      "file_number": "26-47",
-      "passed_date": null
-    },
-    {
-      "title": "Brief summary of intergovernmental updates from mayor and councilmembers.",
-      "type": "Discussion/Presentation",
-      "status": "Regional Intergovernmental Updates  ",
-      "intro_date": "2026-02-04",
-      "file_number": "26-49",
-      "passed_date": null
-    },
-    {
-      "title": "Discussion or consideration for legal advice and potential contract negotiations/sale/purchase/lease of property with Bela Flor, LLC and its affiliates (possible housing/commercial development along t",
-      "type": "Agenda Items",
-      "status": "Agenda Items",
+      "status": "Information and Reports",
       "intro_date": "2026-01-22",
-      "file_number": "26-29",
+      "file_number": "26-28",
       "passed_date": null
     },
     {
@@ -1046,14 +1036,6 @@
       "passed_date": "2026-02-03"
     },
     {
-      "title": "Update on Previously Funded Nonprofits",
-      "type": "Report/Update",
-      "status": "Information and Reports",
-      "intro_date": "2026-01-22",
-      "file_number": "26-28",
-      "passed_date": null
-    },
-    {
       "title": "Presentation and discussion with Matthew Weatherly of Public Sector Personnel Consultants of results and recommendations of the city's classification and compensation study. The study was included in ",
       "type": "New Business",
       "status": "New Business",
@@ -1062,16 +1044,24 @@
       "passed_date": null
     },
     {
-      "title": "Consideration of approval of agenda.",
-      "type": "Consent Agenda",
-      "status": "Acceptance of Minutes",
+      "title": "Discussion or consideration for legal advice and potential contract negotiations/sale/purchase/lease of property with Bela Flor, LLC and its affiliates (possible housing/commercial development along t",
+      "type": "Agenda Items",
+      "status": "Agenda Items",
+      "intro_date": "2026-01-22",
+      "file_number": "26-29",
+      "passed_date": null
+    },
+    {
+      "title": "Discussion on memorial dedications in parks including a site for former Parks and Recreation Commissioner Wayne Standage.",
+      "type": "Discussion/Presentation",
+      "status": "New Business",
       "intro_date": "2026-01-21",
-      "file_number": "26-14",
+      "file_number": "26-25",
       "passed_date": null
     }
   ],
   "legistar_url": "https://apachejunction.legistar.com",
-  "enriched_at": "2026-02-14T18:42:29.049945",
+  "enriched_at": "2026-02-15T02:42:58.998713",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

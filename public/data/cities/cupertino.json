@@ -541,7 +541,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Cupertino",
-        "probed_at": "2026-02-14T18:57:53.277074",
+        "probed_at": "2026-02-15T02:47:27.599801",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -862,16 +862,6 @@
     },
     {
       "date": "2026-02-10",
-      "body": "City Council",
-      "location": "10300 Torre Avenue, City Hall, Conference Room C; and Teleconference Location Pursuant to Gov. Code 54953(b)(2): JW Marriott Desert Springs 74-855 Country Club Drive, Palm Desert, California, 92260",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-10",
       "body": "Planning Commission",
       "location": "10350 Torre Avenue, Council Chamber and via Teleconference; and Teleconference Location Pursuant to Government Code section 54953(b)(2); C-174 Anand Vihar, Delhi, India 110092",
       "has_agenda": false,
@@ -881,9 +871,9 @@
       "upcoming": false
     },
     {
-      "date": "2026-02-05",
-      "body": "Administrative Hearing",
-      "location": "10300 Torre Avenue, City Hall Conference Room C",
+      "date": "2026-02-10",
+      "body": "City Council",
+      "location": "10300 Torre Avenue, City Hall, Conference Room C; and Teleconference Location Pursuant to Gov. Code 54953(b)(2): JW Marriott Desert Springs 74-855 Country Club Drive, Palm Desert, California, 92260",
       "has_agenda": false,
       "agenda_url": null,
       "has_minutes": false,
@@ -894,6 +884,16 @@
       "date": "2026-02-05",
       "body": "Parks and Recreation Commission",
       "location": "10185 North Stelling Road, Quinlan Conference Room and via Teleconference",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-05",
+      "body": "Administrative Hearing",
+      "location": "10300 Torre Avenue, City Hall Conference Room C",
       "has_agenda": false,
       "agenda_url": null,
       "has_minutes": false,
@@ -913,7 +913,7 @@
     {
       "date": "2026-02-03",
       "body": "City Council",
-      "location": "10350 Torre Avenue, Council Chamber and via Teleconference",
+      "location": "10300 Torre Avenue, City Hall, Conference Room C and via Teleconference",
       "has_agenda": false,
       "agenda_url": null,
       "has_minutes": false,
@@ -923,7 +923,7 @@
     {
       "date": "2026-02-03",
       "body": "City Council",
-      "location": "10300 Torre Avenue, City Hall, Conference Room C and via Teleconference",
+      "location": "10350 Torre Avenue, Council Chamber and via Teleconference",
       "has_agenda": false,
       "agenda_url": null,
       "has_minutes": false,
@@ -1034,7 +1034,7 @@
     }
   ],
   "legistar_url": "https://cupertino.legistar.com",
-  "enriched_at": "2026-02-14T18:46:09.772893",
+  "enriched_at": "2026-02-15T02:43:13.251228",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

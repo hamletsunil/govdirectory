@@ -169,17 +169,17 @@
     "accela_agency_id": "SEATTLE"
   },
   "development": {
-    "permits_12mo": 6356,
-    "yoy_trend_pct": 8.6,
-    "avg_permit_value": 1082509.38,
+    "permits_12mo": 6385,
+    "yoy_trend_pct": 9.5,
+    "avg_permit_value": 1094519.1,
     "permit_types": {
-      "Building": 5376,
-      "Demolition": 530,
-      "Roof": 424,
+      "Building": 5397,
+      "Demolition": 536,
+      "Roof": 426,
       "Grading": 26
     },
     "datasets_count": 10,
-    "permits_per_capita_1k": 8.65
+    "permits_per_capita_1k": 8.69
   },
   "meetings": {
     "official_channels": 1,
@@ -474,8 +474,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.seattle.gov/resource/76t5-zqzr.json",
-        "probed_at": "2026-02-14T18:55:10.188448",
-        "data_vintage": "Rolling 12-month window ending 2026-02-14",
+        "probed_at": "2026-02-15T02:44:08.690219",
+        "data_vintage": "Rolling 12-month window ending 2026-02-15",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -521,7 +521,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Seattle",
-        "probed_at": "2026-02-14T18:56:12.918172",
+        "probed_at": "2026-02-15T02:45:31.368378",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -950,20 +950,20 @@
     },
     {
       "date": "2026-02-10",
-      "body": "City Council",
-      "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA 98104",
+      "body": "Public Safety Committee",
+      "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA  98104",
       "has_agenda": true,
-      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6581_A_City_Council_26-02-10_Full_Council_Meeting_Agenda.pdf",
+      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6578_A_Public_Safety_Committee_26-02-10_Committee_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
     },
     {
       "date": "2026-02-10",
-      "body": "Public Safety Committee",
-      "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA  98104",
+      "body": "City Council",
+      "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA 98104",
       "has_agenda": true,
-      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6578_A_Public_Safety_Committee_26-02-10_Committee_Agenda.pdf",
+      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6581_A_City_Council_26-02-10_Full_Council_Meeting_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -1031,14 +1031,6 @@
   ],
   "recent_legislation": [
     {
-      "title": "Office of Housing Overview",
-      "type": "Information Item (Inf)",
-      "status": "Committee Agenda Ready",
-      "intro_date": "2026-02-06",
-      "file_number": "Inf 2832",
-      "passed_date": null
-    },
-    {
       "title": "Seattle Social Housing Developer Update",
       "type": "Information Item (Inf)",
       "status": "Committee Agenda Ready",
@@ -1047,11 +1039,11 @@
       "passed_date": null
     },
     {
-      "title": "AN ORDINANCE appropriating money to pay certain claims for the week of January 26, 2026, through January 30, 2026, and ordering the payment thereof; and ratifying and confirming certain prior acts.",
-      "type": "Council Bill (CB)",
-      "status": "Full Council Agenda Ready",
-      "intro_date": "2026-02-04",
-      "file_number": "CB 121159",
+      "title": "Office of Housing Overview",
+      "type": "Information Item (Inf)",
+      "status": "Committee Agenda Ready",
+      "intro_date": "2026-02-06",
+      "file_number": "Inf 2832",
       "passed_date": null
     },
     {
@@ -1063,6 +1055,14 @@
       "passed_date": null
     },
     {
+      "title": "AN ORDINANCE appropriating money to pay certain claims for the week of January 26, 2026, through January 30, 2026, and ordering the payment thereof; and ratifying and confirming certain prior acts.",
+      "type": "Council Bill (CB)",
+      "status": "Full Council Agenda Ready",
+      "intro_date": "2026-02-04",
+      "file_number": "CB 121159",
+      "passed_date": null
+    },
+    {
       "title": "Comcast Franchise Renewal Presentation",
       "type": "Information Item (Inf)",
       "status": "Committee Agenda Ready",
@@ -1071,11 +1071,11 @@
       "passed_date": null
     },
     {
-      "title": "Human Services Department: Aging and Disability Services",
+      "title": "Office of Labor Standards Department Overview",
       "type": "Information Item (Inf)",
       "status": "Heard in Committee",
       "intro_date": "2026-01-29",
-      "file_number": "Inf 2829",
+      "file_number": "Inf 2828",
       "passed_date": null
     },
     {
@@ -1087,11 +1087,11 @@
       "passed_date": null
     },
     {
-      "title": "Office of Labor Standards Department Overview",
+      "title": "Human Services Department: Aging and Disability Services",
       "type": "Information Item (Inf)",
       "status": "Heard in Committee",
       "intro_date": "2026-01-29",
-      "file_number": "Inf 2828",
+      "file_number": "Inf 2829",
       "passed_date": null
     },
     {
@@ -1112,7 +1112,7 @@
     }
   ],
   "legistar_url": "https://seattle.legistar.com",
-  "enriched_at": "2026-02-14T18:53:29.428161",
+  "enriched_at": "2026-02-15T02:43:41.304512",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
