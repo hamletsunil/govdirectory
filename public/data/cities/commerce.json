@@ -96,24 +96,24 @@
     "vacant_other": 55
   },
   "health": {
-    "uninsured_pct": 15.4,
-    "obesity_pct": 35.1,
-    "diabetes_pct": 11.9,
-    "depression_pct": 22.0,
-    "asthma_pct": 10.4,
-    "smoking_pct": 17.5,
-    "physical_inactivity_pct": 29.0,
-    "mental_health_bad_days": 19.2,
-    "physical_health_bad_days": 15.1,
-    "sleep_deficit_pct": 39.1,
-    "high_blood_pressure_pct": 34.8,
-    "high_cholesterol_pct": 33.4,
-    "heart_disease_pct": 6.0,
-    "stroke_pct": 3.5,
-    "cancer_pct": 6.9,
+    "uninsured_pct": null,
+    "obesity_pct": null,
+    "diabetes_pct": null,
+    "depression_pct": null,
+    "asthma_pct": null,
+    "smoking_pct": null,
+    "physical_inactivity_pct": null,
+    "mental_health_bad_days": null,
+    "physical_health_bad_days": null,
+    "sleep_deficit_pct": null,
+    "high_blood_pressure_pct": null,
+    "high_cholesterol_pct": null,
+    "heart_disease_pct": null,
+    "stroke_pct": null,
+    "cancer_pct": null,
     "kidney_disease_pct": null,
-    "checkup_pct": 75.7,
-    "data_year": "2023"
+    "checkup_pct": null,
+    "data_year": null
   },
   "governance": {
     "legislative_volume": 8125,
@@ -368,7 +368,7 @@
     "youtube_meetings": "available",
     "seeclickfix": "available",
     "accela": "available",
-    "cdc_places": "available",
+    "cdc_places": "unavailable",
     "hud_usps": "unavailable",
     "census_vacancy": "available"
   },
@@ -523,10 +523,10 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Commerce",
-        "probed_at": "2026-02-15T02:48:17.812168",
-        "data_vintage": "BRFSS 2023",
+        "probed_at": "2026-02-15T07:10:17.808092",
+        "data_vintage": "BRFSS None",
         "geographic_level": "place",
-        "status": "available"
+        "status": "unavailable"
       }
     },
     "derived_fields": {
@@ -1113,7 +1113,7 @@
     }
   ],
   "legistar_url": "https://commerce.legistar.com",
-  "enriched_at": "2026-02-15T02:43:10.932950",
+  "enriched_at": "2026-02-15T07:00:06.795414",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
