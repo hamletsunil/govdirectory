@@ -91,24 +91,24 @@
     "vacant_other": 14831
   },
   "health": {
-    "uninsured_pct": 17.5,
-    "obesity_pct": 32.4,
-    "diabetes_pct": 10.8,
-    "depression_pct": 18.9,
-    "asthma_pct": 10.2,
-    "smoking_pct": 12.2,
-    "physical_inactivity_pct": 23.2,
-    "mental_health_bad_days": 16.0,
-    "physical_health_bad_days": 12.5,
-    "sleep_deficit_pct": 36.9,
-    "high_blood_pressure_pct": 29.7,
-    "high_cholesterol_pct": 33.2,
-    "heart_disease_pct": 5.3,
-    "stroke_pct": 3.0,
-    "cancer_pct": 7.0,
+    "uninsured_pct": null,
+    "obesity_pct": null,
+    "diabetes_pct": null,
+    "depression_pct": null,
+    "asthma_pct": null,
+    "smoking_pct": null,
+    "physical_inactivity_pct": null,
+    "mental_health_bad_days": null,
+    "physical_health_bad_days": null,
+    "sleep_deficit_pct": null,
+    "high_blood_pressure_pct": null,
+    "high_cholesterol_pct": null,
+    "heart_disease_pct": null,
+    "stroke_pct": null,
+    "cancer_pct": null,
     "kidney_disease_pct": null,
-    "checkup_pct": 71.6,
-    "data_year": "2023"
+    "checkup_pct": null,
+    "data_year": null
   },
   "governance": {
     "legislative_volume": 24531,
@@ -393,7 +393,7 @@
     "youtube_meetings": "skipped",
     "seeclickfix": "available",
     "accela": "available",
-    "cdc_places": "available",
+    "cdc_places": "unavailable",
     "hud_usps": "unavailable",
     "census_vacancy": "available"
   },
@@ -548,10 +548,10 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Phoenix",
-        "probed_at": "2026-02-15T07:08:17.623072",
-        "data_vintage": "BRFSS 2023",
+        "probed_at": "2026-02-15T13:04:20.245030",
+        "data_vintage": "BRFSS None",
         "geographic_level": "place",
-        "status": "available"
+        "status": "unavailable"
       }
     },
     "derived_fields": {
@@ -1082,7 +1082,7 @@
     }
   ],
   "legistar_url": "https://phoenix.legistar.com",
-  "enriched_at": "2026-02-15T07:04:49.124512",
+  "enriched_at": "2026-02-15T13:02:22.521291",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
