@@ -357,7 +357,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Seminole%20County",
-        "probed_at": "2026-02-16T13:24:26.583443",
+        "probed_at": "2026-02-16T18:59:03.890257",
         "data_vintage": "BRFSS None",
         "geographic_level": "place",
         "status": "unavailable"
@@ -621,203 +621,13 @@
     "granularity_flags": 0
   },
   "officials": {
-    "body_name": "Board of County Commissioners",
-    "members": [
-      {
-        "name": "Chairman Andria Herr",
-        "email": null,
-        "title": null,
-        "start_date": "2025-11-19"
-      },
-      {
-        "name": "Commissioner Bob Dallari",
-        "email": null,
-        "title": null,
-        "start_date": "2024-11-19",
-        "committees": [
-          "Board of County Commissioners Worksessions",
-          "Seminole County Industrial Development Authority"
-        ]
-      },
-      {
-        "name": "Commissioner Jay Zembower",
-        "email": null,
-        "title": null,
-        "start_date": "2025-11-19"
-      },
-      {
-        "name": "Commissioner Lee Constantine",
-        "email": null,
-        "title": null,
-        "start_date": "2024-11-19",
-        "committees": [
-          "Board of County Commissioners Worksessions"
-        ]
-      },
-      {
-        "name": "Vice Chairman Amy Lockhart",
-        "email": null,
-        "title": null,
-        "start_date": "2025-11-19"
-      }
-    ]
+    "body_name": null,
+    "members": []
   },
-  "recent_meetings": [
-    {
-      "date": "2026-02-12",
-      "body": "Code Enforcement Special Magistrate",
-      "location": "BCC Chambers, Room 1028",
-      "has_agenda": true,
-      "agenda_url": "https://seminolecountyfl.legistar1.com/seminolecountyfl/meetings/2026/2/3549_A_Code_Enforcement_Special_Magistrate_26-02-12_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-10",
-      "body": "Board of County Commissioners",
-      "location": "BCC Chambers",
-      "has_agenda": true,
-      "agenda_url": "https://seminolecountyfl.legistar1.com/seminolecountyfl/meetings/2026/2/3575_A_Board_of_County_Commissioners_26-02-10_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-04",
-      "body": "Planning and Zoning Commission",
-      "location": "BCC Chambers",
-      "has_agenda": true,
-      "agenda_url": "https://seminolecountyfl.legistar1.com/seminolecountyfl/meetings/2026/2/3564_A_Planning_and_Zoning_Commission_26-02-04_Meeting_Agenda.pdf",
-      "has_minutes": true,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-04",
-      "body": "Development Review Committee",
-      "location": "Room 3024",
-      "has_agenda": true,
-      "agenda_url": "https://seminolecountyfl.legistar1.com/seminolecountyfl/meetings/2026/2/3600_A_Development_Review_Committee_26-02-04_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-01-27",
-      "body": "Board of County Commissioners",
-      "location": "BCC Chambers",
-      "has_agenda": true,
-      "agenda_url": "https://seminolecountyfl.legistar1.com/seminolecountyfl/meetings/2026/1/3562_A_Board_of_County_Commissioners_26-01-27_Meeting_Agenda.pdf",
-      "has_minutes": true,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-01-26",
-      "body": "Board of Adjustment",
-      "location": "BCC Chambers, Room 1028",
-      "has_agenda": true,
-      "agenda_url": "https://seminolecountyfl.legistar1.com/seminolecountyfl/meetings/2026/1/3602_A_Board_of_Adjustment_26-01-26_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-01-21",
-      "body": "Development Review Committee",
-      "location": "Room 3024",
-      "has_agenda": true,
-      "agenda_url": "https://seminolecountyfl.legistar1.com/seminolecountyfl/meetings/2026/1/3599_A_Development_Review_Committee_26-01-21_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    }
-  ],
-  "recent_legislation": [
-    {
-      "title": "3439 Holliday Avenue - Request for a rear yard setback variance from thirty (30) feet to five (5) feet for a shed in the R-1AA (Single Family Dwelling) district; BV2026-004 (Eric Schimmer, Applicant) ",
-      "type": "Resolution",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-03",
-      "file_number": "2026-0156",
-      "passed_date": null
-    },
-    {
-      "title": "Approve an additional paid day off in observance of President’s Day (February 16, 2026), consistent with the State of Florida’s holiday schedule and in recognition of the America 250 commemoration. Co",
-      "type": "Consent Item",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-02",
-      "file_number": "2026-0153",
-      "passed_date": null
-    },
-    {
-      "title": "528 Pinesong Drive - Request for a rear yard setback variance from five (5) feet to two (2) feet for a pool screen enclosure in the PD (Planned Development) district; BV2025-144 (Kacey Foust, Applican",
-      "type": "Variances",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-02",
-      "file_number": "2026-0149",
-      "passed_date": null
-    },
-    {
-      "title": "500 Sweetwater Club Boulevard - Request for a height variance from five (5) feet to seven (7) feet for fence columns in the A-1 (Agriculture) district; BV2025-143 (Chad & Cindy Barr, Applicant) Distri",
-      "type": "Variances",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-02",
-      "file_number": "2026-0147",
-      "passed_date": null
-    },
-    {
-      "title": "Tourism Update (Gui Cunha, Economic Development & Tourism Director)",
-      "type": "Consent Item",
-      "status": "Agenda Ready",
-      "intro_date": "2026-01-29",
-      "file_number": "2026-0144",
-      "passed_date": null
-    },
-    {
-      "title": "Work Session - Indoor Sports Complex (Rick Durr, Parks and Recreation Director)",
-      "type": "County Manager and Staff Briefings",
-      "status": "Agenda Ready",
-      "intro_date": "2026-01-28",
-      "file_number": "2026-0140",
-      "passed_date": null
-    },
-    {
-      "title": "Presentation - Seminole State College Seminole Commits (Gui Cunha, Economic Development & Tourism Director and Amy Kirkland, Seminole State College)",
-      "type": "Award/Presentation",
-      "status": "Agenda Ready",
-      "intro_date": "2026-01-28",
-      "file_number": "2026-0138",
-      "passed_date": null
-    },
-    {
-      "title": "Approve and authorize the Chairman to execute a Proclamation proclaiming February 11, 2026 as “Heart of Florida United Way 211 Day” in Seminole County, Fl.",
-      "type": "Consent Item",
-      "status": "Agenda Ready",
-      "intro_date": "2026-01-28",
-      "file_number": "2026-0137",
-      "passed_date": null
-    },
-    {
-      "title": "Approve and authorize the Chairman to execute an Interlocal Agreement between Central Florida Expressway Authority and Seminole County related to joint funding for the SR 417 Sanford Airport Connector",
-      "type": "Consent Item",
-      "status": "Agenda Ready",
-      "intro_date": "2026-01-28",
-      "file_number": "2026-0141",
-      "passed_date": null
-    },
-    {
-      "title": "Work Session - Business Tax Receipts (Tricia Johnson, Deputy County Manager)",
-      "type": "County Manager and Staff Briefings",
-      "status": "Agenda Ready",
-      "intro_date": "2026-01-28",
-      "file_number": "2026-0139",
-      "passed_date": null
-    }
-  ],
+  "recent_meetings": [],
+  "recent_legislation": [],
   "legistar_url": "https://seminolecountyfl.legistar.com",
-  "enriched_at": "2026-02-16T13:18:55.470649",
+  "enriched_at": "2026-02-16T18:55:05.560738",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

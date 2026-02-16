@@ -385,7 +385,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Cumberland%20County",
-        "probed_at": "2026-02-16T13:23:47.167708",
+        "probed_at": "2026-02-16T18:58:40.993561",
         "data_vintage": "BRFSS None",
         "geographic_level": "place",
         "status": "unavailable"
@@ -649,191 +649,13 @@
     "granularity_flags": 0
   },
   "officials": {
-    "body_name": "Board of Commissioners",
-    "members": [
-      {
-        "name": "James Cloutier",
-        "email": "cloutier@cumberlandcounty.org",
-        "title": "Commissioner",
-        "start_date": "2023-01-01",
-        "committees": [
-          "Commissioner Workshop"
-        ]
-      },
-      {
-        "name": "Jean-Marie Caterina",
-        "email": "caterina@cumberlandcounty.org",
-        "title": "Commissioner",
-        "start_date": "2025-01-01",
-        "committees": [
-          "Commissioner Workshop"
-        ]
-      },
-      {
-        "name": "Patricia Smith",
-        "email": "psmith@cumberlandcounty.org",
-        "title": "Chair",
-        "start_date": "2023-01-01",
-        "committees": [
-          "Commissioner Workshop"
-        ]
-      },
-      {
-        "name": "Stephen Gorden",
-        "email": "gorden@cumberlandcounty.org",
-        "title": "Commissioner",
-        "start_date": "2023-01-01",
-        "committees": [
-          "Commissioner Workshop"
-        ]
-      },
-      {
-        "name": "Tom Tyler",
-        "email": "tyler@cumberlandcounty.org",
-        "title": "Vice Chair",
-        "start_date": "2025-01-01",
-        "committees": [
-          "Commissioner Workshop"
-        ]
-      }
-    ]
+    "body_name": null,
+    "members": []
   },
-  "recent_meetings": [
-    {
-      "date": "2026-02-10",
-      "body": "Finance Committee",
-      "location": "27 Northport Dr\r\nPortland, ME 04103",
-      "has_agenda": true,
-      "agenda_url": "https://cumberlandcounty.legistar1.com/cumberlandcounty/meetings/2026/2/1075_A_Finance_Committee_26-02-10_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-01-27",
-      "body": "Finance Committee",
-      "location": "27 Northport Dr\r\nPortland, ME 04103",
-      "has_agenda": true,
-      "agenda_url": "https://cumberlandcounty.legistar1.com/cumberlandcounty/meetings/2026/1/1074_A_Finance_Committee_26-01-27_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-01-23",
-      "body": "Board of Commissioners",
-      "location": "Coastal Counties Workforce\r\nZoom Virtual Call\r\nSee Agenda for Details",
-      "has_agenda": true,
-      "agenda_url": "https://cumberlandcounty.legistar1.com/cumberlandcounty/meetings/2026/1/1078_A_Board_of_Commissioners_26-01-23_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-01-20",
-      "body": "Commissioner Workshop",
-      "location": "27 Northport Dr\r\nPortland, ME 04103",
-      "has_agenda": true,
-      "agenda_url": "https://cumberlandcounty.legistar1.com/cumberlandcounty/meetings/2026/1/1076_A_Commissioner_Workshop_26-01-20_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-01-20",
-      "body": "Board of Commissioners",
-      "location": "Sebago Meeting Room\r\n27 Northport Dr\r\nPortland, ME 04103",
-      "has_agenda": true,
-      "agenda_url": "https://cumberlandcounty.legistar1.com/cumberlandcounty/meetings/2026/1/1079_A_Board_of_Commissioners_26-01-20_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    }
-  ],
-  "recent_legislation": [
-    {
-      "title": "Approval of the minutes, January 27, 2026, meeting of the Finance Committee",
-      "type": "Finance Committee Item",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-06",
-      "file_number": "FC 26-008",
-      "passed_date": null
-    },
-    {
-      "title": "Committee Recommendation Development",
-      "type": "Finance Committee Item",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-03",
-      "file_number": "FC 26-011",
-      "passed_date": null
-    },
-    {
-      "title": "Committee budget questions and answers",
-      "type": "Finance Committee Item",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-03",
-      "file_number": "FC 26-010",
-      "passed_date": null
-    },
-    {
-      "title": "County Staff Update on FY27 Budget",
-      "type": "Finance Committee Item",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-03",
-      "file_number": "FC 26-009",
-      "passed_date": null
-    },
-    {
-      "title": "Approval of the minutes, January 6, 2026, meeting of the Finance Committee",
-      "type": "Finance Committee Item",
-      "status": "Agenda Ready",
-      "intro_date": "2026-01-23",
-      "file_number": "FC 26-005",
-      "passed_date": "2026-01-27"
-    },
-    {
-      "title": "Committee Budget Discussion",
-      "type": "Finance Committee Item",
-      "status": "Received",
-      "intro_date": "2026-01-21",
-      "file_number": "FC 26-007",
-      "passed_date": null
-    },
-    {
-      "title": "County Department Presentations\r\na. Information Technology\r\nb. Cross Insurance Arena\r\nc. Sheriff's Office - Administration, Law Enforcement, Jail and Civil Division",
-      "type": "Finance Committee Item",
-      "status": "Received",
-      "intro_date": "2026-01-21",
-      "file_number": "FC 26-006",
-      "passed_date": "2026-01-27"
-    },
-    {
-      "title": "Approval of the minutes, December 9, 2025, meeting of the Finance Committee",
-      "type": "Finance Committee Item",
-      "status": "Agenda Ready",
-      "intro_date": "2026-01-21",
-      "file_number": "FC 26-004",
-      "passed_date": "2026-01-27"
-    },
-    {
-      "title": "Discussion of FY26-27 Budget",
-      "type": "Workshop Document",
-      "status": "Agenda Ready",
-      "intro_date": "2026-01-16",
-      "file_number": "REV 26-01",
-      "passed_date": null
-    },
-    {
-      "title": "Acceptance of the FY25 Emergency Management Performance Grant award.",
-      "type": "Order",
-      "status": "Agenda Ready",
-      "intro_date": "2026-01-15",
-      "file_number": "26-009",
-      "passed_date": null
-    }
-  ],
+  "recent_meetings": [],
+  "recent_legislation": [],
   "legistar_url": "https://cumberlandcounty.legistar.com",
-  "enriched_at": "2026-02-16T13:16:14.788954",
+  "enriched_at": "2026-02-16T18:53:03.354752",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

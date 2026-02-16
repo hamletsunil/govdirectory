@@ -517,7 +517,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Mesquite",
-        "probed_at": "2026-02-16T13:23:13.630695",
+        "probed_at": "2026-02-16T18:58:14.946945",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -781,158 +781,13 @@
     "granularity_flags": 3
   },
   "officials": {
-    "body_name": "City Council",
-    "members": [
-      {
-        "name": "Andrew Hubacek",
-        "email": "District4@cityofmesquite.com",
-        "title": "Councilmember",
-        "start_date": "2025-12-22"
-      },
-      {
-        "name": "Brandon Murden",
-        "email": "District6@cityofmesquite.com",
-        "title": "Councilmember",
-        "start_date": "2023-11-20"
-      },
-      {
-        "name": "B. W. Smith",
-        "email": "District5@cityofmesquite.com",
-        "title": "Councilmember",
-        "start_date": "2019-11-14"
-      },
-      {
-        "name": "Daniel Alemán, Jr.",
-        "email": "Mayor@cityofmesquite.com",
-        "title": "Mayor",
-        "start_date": "2016-05-18"
-      },
-      {
-        "name": "Elizabeth Rodriguez-Ross",
-        "email": "District3@cityofmesquite.com",
-        "title": "Councilmember",
-        "start_date": "2023-11-20"
-      },
-      {
-        "name": "Jeff Casper",
-        "email": "district1@cityofmesquite.com",
-        "title": "Councilmember",
-        "start_date": "2021-12-20"
-      },
-      {
-        "name": "Kenny Green",
-        "email": "District2@cityofmesquite.com",
-        "title": "Councilmember",
-        "start_date": "2019-11-14"
-      }
-    ]
+    "body_name": null,
+    "members": []
   },
-  "recent_meetings": [
-    {
-      "date": "2026-02-02",
-      "body": "City Council",
-      "location": "City Hall | Council Chamber\r\n757 N. Galloway Avenue | Mesquite, Texas",
-      "has_agenda": true,
-      "agenda_url": "https://legistar1.granicus.com/Mesquite/meetings/2026/2/1585_A_City_Council_26-02-02_Meeting_Agenda_3.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-01-20",
-      "body": "City Council",
-      "location": "City Hall | Council Chamber\r\n757 N. Galloway Avenue | Mesquite, Texas",
-      "has_agenda": true,
-      "agenda_url": "https://legistar1.granicus.com/Mesquite/meetings/2026/1/1584_A_City_Council_26-01-20_Meeting_Agenda_3.pdf",
-      "has_minutes": true,
-      "has_video": false,
-      "upcoming": false
-    }
-  ],
-  "recent_legislation": [
-    {
-      "title": "Discuss the purchase of property on South Ebrite Street.",
-      "type": "Agenda Item",
-      "status": "Executive Session - Real Property",
-      "intro_date": "2026-02-10",
-      "file_number": "26-8121",
-      "passed_date": null
-    },
-    {
-      "title": "Discuss Meet & Confer process.",
-      "type": "Agenda Item",
-      "status": "Executive Session",
-      "intro_date": "2026-02-10",
-      "file_number": "26-8120",
-      "passed_date": null
-    },
-    {
-      "title": "Discuss an economic development program agreement assignment for a project at Scyene Road and Faithon P. Lucas, Sr. Boulevard.",
-      "type": "Agenda Item",
-      "status": "Executive Session - Economic Development",
-      "intro_date": "2026-02-02",
-      "file_number": "26-8116",
-      "passed_date": null
-    },
-    {
-      "title": "Receive presentation regarding the Fiscal Year 2024-2025 Annual Report from the Mesquite Quality of Life Corporation Board of Directors.",
-      "type": "Agenda Item",
-      "status": "Personal Appearance",
-      "intro_date": "2026-02-02",
-      "file_number": "26-8060",
-      "passed_date": null
-    },
-    {
-      "title": "Conduct a public hearing and consider an ordinance for Zoning Application No. Z0425-0392 submitted by Austin Bridge & Road, LP, for a change of zoning from Planned Development, Ordinance No. 1110, to ",
-      "type": "Agenda Item",
-      "status": "Public Hearing",
-      "intro_date": "2026-02-02",
-      "file_number": "26-8113",
-      "passed_date": null
-    },
-    {
-      "title": "Bid No. 2026-052 - Purchase of Four Toyota Vehicles.\r\n(Staff recommends award to Silsbee Toyota Inc., through The Interlocal Purchasing System (TIPS) Contract No. 240901, in an amount not to exceed $1",
-      "type": "Agenda Item",
-      "status": "Consent",
-      "intro_date": "2026-02-02",
-      "file_number": "26-8115",
-      "passed_date": null
-    },
-    {
-      "title": "Conduct a public hearing and consider a resolution supporting Reserve at Motley Limited Partnership’s application to the Texas Department of Housing and Community Affairs (TDHCA) for 2026 Competitive ",
-      "type": "Agenda Item",
-      "status": "Public Hearing",
-      "intro_date": "2026-01-30",
-      "file_number": "26-8112",
-      "passed_date": null
-    },
-    {
-      "title": "Consider appointment of one Regular Member (Position No. 4) to the Mesquite Quality of Life Corporation (MQOLC) Board of Directors for a term to expire December 31, 2026, who will also serve on the Me",
-      "type": "Agenda Item",
-      "status": "Appointments to Boards and Commissions",
-      "intro_date": "2026-01-29",
-      "file_number": "26-8110",
-      "passed_date": null
-    },
-    {
-      "title": "Discuss amended budget.",
-      "type": "Agenda Item",
-      "status": "Pre-Meeting",
-      "intro_date": "2026-01-23",
-      "file_number": "26-8108",
-      "passed_date": null
-    },
-    {
-      "title": "Consider appointment of one Regular Member (Position No. 3) to the Landmark Commission for a term to expire December 31, 2027.",
-      "type": "Agenda Item",
-      "status": "Passed",
-      "intro_date": "2026-01-23",
-      "file_number": "26-8109",
-      "passed_date": null
-    }
-  ],
+  "recent_meetings": [],
+  "recent_legislation": [],
   "legistar_url": "https://mesquite.legistar.com",
-  "enriched_at": "2026-02-16T13:17:33.446422",
+  "enriched_at": "2026-02-16T18:54:02.858394",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

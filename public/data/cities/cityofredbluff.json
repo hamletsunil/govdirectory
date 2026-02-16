@@ -499,7 +499,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Red%20Bluff",
-        "probed_at": "2026-02-16T13:23:18.814775",
+        "probed_at": "2026-02-16T18:58:19.017679",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -763,55 +763,13 @@
     "granularity_flags": 2
   },
   "officials": {
-    "body_name": "City Council",
-    "members": [
-      {
-        "name": "Cody Strock",
-        "email": "cstrock@cityofredbluff.org",
-        "title": "Council Member",
-        "start_date": "2022-12-02"
-      },
-      {
-        "name": "JR Gonzales",
-        "email": "jgonzales@cityofredbluff.org",
-        "title": "Mayor Pro Tem",
-        "start_date": "2020-12-02"
-      },
-      {
-        "name": "Kris Deiters",
-        "email": "kdeiters@cityofredbluff.org",
-        "title": "Mayor",
-        "start_date": "2018-12-02"
-      },
-      {
-        "name": "Mark Clement",
-        "email": "mclement@cityofredbluff.org",
-        "title": "Council Member",
-        "start_date": "2024-12-02"
-      },
-      {
-        "name": "Patrick Hurton",
-        "email": "phurton@cityofredbluff.org",
-        "title": "Council Member",
-        "start_date": "2022-12-02"
-      }
-    ]
+    "body_name": null,
+    "members": []
   },
-  "recent_meetings": [
-    {
-      "date": "2026-02-04",
-      "body": "City Council",
-      "location": "Council Chambers",
-      "has_agenda": true,
-      "agenda_url": "https://cityofredbluff.legistar1.com/cityofredbluff/meetings/2026/2/963_A_City_Council_26-02-04_Regular_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    }
-  ],
+  "recent_meetings": [],
   "recent_legislation": [],
   "legistar_url": "https://cityofredbluff.legistar.com",
-  "enriched_at": "2026-02-16T13:15:52.730028",
+  "enriched_at": "2026-02-16T18:52:47.740132",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

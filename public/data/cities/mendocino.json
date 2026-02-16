@@ -352,7 +352,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Mendocino%20County",
-        "probed_at": "2026-02-16T13:24:12.024889",
+        "probed_at": "2026-02-16T18:58:52.634781",
         "data_vintage": "BRFSS None",
         "geographic_level": "place",
         "status": "unavailable"
@@ -616,176 +616,13 @@
     "granularity_flags": 0
   },
   "officials": {
-    "body_name": "Board of Supervisors",
-    "members": [
-      {
-        "name": "Bernie Norvell",
-        "email": null,
-        "title": "Supervisor",
-        "start_date": "2025-01-06"
-      },
-      {
-        "name": "John  Haschak",
-        "email": "haschakj@mendocinocounty.org",
-        "title": "Supervisor",
-        "start_date": "2023-01-03"
-      },
-      {
-        "name": "Madeline Cline",
-        "email": null,
-        "title": "Supervisor",
-        "start_date": "2025-01-06"
-      },
-      {
-        "name": "Maureen Mulheren",
-        "email": "mulherenm@mendocinocounty.org",
-        "title": "Supervisor",
-        "start_date": "2025-01-06"
-      },
-      {
-        "name": "Ted Williams",
-        "email": "williamst@mendocinocounty.org",
-        "title": "Supervisor",
-        "start_date": "2023-01-03"
-      }
-    ]
+    "body_name": null,
+    "members": []
   },
-  "recent_meetings": [
-    {
-      "date": "2026-02-24",
-      "body": "Board of Supervisors",
-      "location": "Board Chambers, Room 1070\r\nCounty Administration Center",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
-      "date": "2026-02-25",
-      "body": "General Government Committee",
-      "location": "Board Chambers, Room 1070, County Administration Center",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
-      "date": "2026-02-04",
-      "body": "Board of Supervisors",
-      "location": "Board Chambers, Room 1070\r\nCounty Administration Center",
-      "has_agenda": true,
-      "agenda_url": "https://mendocino.legistar1.com/mendocino/meetings/2026/2/1656_A_Board_of_Supervisors_26-02-04_BOARD_OF_SUPERVISORS_AGENDA.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-03",
-      "body": "Board of Supervisors",
-      "location": "Board Chambers, Room 1070\r\nCounty Administration Center",
-      "has_agenda": true,
-      "agenda_url": "https://mendocino.legistar1.com/mendocino/meetings/2026/2/1635_A_Board_of_Supervisors_26-02-03_BOARD_OF_SUPERVISORS_AGENDA.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-01-26",
-      "body": "Assessment Appeals Board",
-      "location": "Board Chambers, Room 1070\r\nCounty Administration Center",
-      "has_agenda": true,
-      "agenda_url": "https://mendocino.legistar1.com/mendocino/meetings/2026/1/1674_A_Assessment_Appeals_Board_26-01-26_BOARD_OF_SUPERVISORS_AGENDA.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    }
-  ],
-  "recent_legislation": [
-    {
-      "title": "Approval of Out of State Travel for Supervisor Cline to Attend National Association of Counties' (NACo) Legislative Conference in Washington D.C; and Authorization of Expenditure of Conference Registr",
-      "type": "Approval",
-      "status": "Consent Agenda",
-      "intro_date": "2026-01-29",
-      "file_number": "26-0192",
-      "passed_date": null
-    },
-    {
-      "title": "Approval of Minutes of January 13, 2026, Board Workshop (Special Meeting)",
-      "type": "Approval",
-      "status": "Consent Agenda",
-      "intro_date": "2026-01-27",
-      "file_number": "26-0185",
-      "passed_date": null
-    },
-    {
-      "title": "Pursuant to Government Code section 54956.8 - Conference with Real Property Negotiators. The negotiators for the County are Darcie Antle, CEO, Sara Pierce, Assistant CEO, and Steve Dunnicliff, Deputy ",
-      "type": "Approval",
-      "status": "Agenda Ready",
-      "intro_date": "2026-01-27",
-      "file_number": "26-0187",
-      "passed_date": null
-    },
-    {
-      "title": "Approval of Minutes of January 14, 2026, Board Workshop (Special Meeting)",
-      "type": "Approval",
-      "status": "Consent Agenda",
-      "intro_date": "2026-01-27",
-      "file_number": "26-0186",
-      "passed_date": null
-    },
-    {
-      "title": "Approval of Minutes of January 6, 2026, Organizational Meeting",
-      "type": "Approval",
-      "status": "Consent Agenda",
-      "intro_date": "2026-01-26",
-      "file_number": "26-0182",
-      "passed_date": null
-    },
-    {
-      "title": "Discussion and Possible Action Including Reconsideration of Approval of Board Special Assignments/Appointments as Recommended by the Chair of the Board\r\n(Sponsor: Supervisor Haschak)",
-      "type": "Approval",
-      "status": "Agenda Ready",
-      "intro_date": "2026-01-26",
-      "file_number": "26-0183",
-      "passed_date": null
-    },
-    {
-      "title": "Discussion and Possible Action Including Direction to Staff Regarding Recommendations from the State of California Auditor’s Report on Mendocino County Released on December 18, 2025\r\n(Sponsor: Executi",
-      "type": "Approval",
-      "status": "Agenda Ready",
-      "intro_date": "2026-01-22",
-      "file_number": "26-0177",
-      "passed_date": null
-    },
-    {
-      "title": "Approval of Allocation of District Attorney Asset Forfeiture to Support the CHP 11-99 Foundation Providing Critical Financial Assistance to Families of Highway Patrol Officers Who are Killed in the Li",
-      "type": "Approval",
-      "status": "Consent Agenda",
-      "intro_date": "2026-01-21",
-      "file_number": "26-0176",
-      "passed_date": null
-    },
-    {
-      "title": "Pursuant to Government Code Section 54957.6 - Conference with Labor Negotiator - Agency Negotiators: Darcie Antle and Cherie Johnson; Employee Organization(s): Service Employees' International Union (",
-      "type": "Approval",
-      "status": "Agenda Ready",
-      "intro_date": "2026-01-20",
-      "file_number": "26-0152",
-      "passed_date": null
-    },
-    {
-      "title": "Pursuant to Government Code Section 54956.9(d)(2) - Conference with Legal Counsel - Anticipated Litigation: Significant Exposure to Litigation: Pursuant to Government Code section 54956.9(e)(1) - Mult",
-      "type": "Approval",
-      "status": "Agenda Ready",
-      "intro_date": "2026-01-20",
-      "file_number": "26-0151",
-      "passed_date": null
-    }
-  ],
+  "recent_meetings": [],
+  "recent_legislation": [],
   "legistar_url": "https://mendocino.legistar.com",
-  "enriched_at": "2026-02-16T13:17:31.965544",
+  "enriched_at": "2026-02-16T18:54:01.522828",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

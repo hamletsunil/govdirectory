@@ -362,7 +362,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Laramie%20County",
-        "probed_at": "2026-02-16T13:24:07.038161",
+        "probed_at": "2026-02-16T18:58:48.756764",
         "data_vintage": "BRFSS None",
         "geographic_level": "place",
         "status": "unavailable"
@@ -626,156 +626,13 @@
     "granularity_flags": 0
   },
   "officials": {
-    "body_name": "Board of County Commissioners",
-    "members": [
-      {
-        "name": "Don Hollingshead",
-        "email": "don.hollingshead@laramiecountywy.gov",
-        "title": "Commissioner",
-        "start_date": "2026-01-06"
-      },
-      {
-        "name": "Gunnar Malm",
-        "email": "gunnar.malm@laramiecountywy.gov",
-        "title": "Chairman",
-        "start_date": "2026-01-06"
-      },
-      {
-        "name": "Linda Heath",
-        "email": "linda.heath@laramiecountywy.gov",
-        "title": "Commissioner",
-        "start_date": "2026-01-06"
-      },
-      {
-        "name": "Troy Thompson",
-        "email": "troy.thompson@laramiecountywy.gov",
-        "title": "Vice Chairman",
-        "start_date": "2026-01-06"
-      },
-      {
-        "name": "Ty Zwonitzer",
-        "email": "ty.zwonitzer@laramiecountywy.gov",
-        "title": "Commissioner",
-        "start_date": "2026-01-06"
-      }
-    ]
+    "body_name": null,
+    "members": []
   },
-  "recent_meetings": [
-    {
-      "date": "2026-02-03",
-      "body": "Board of County Commissioners",
-      "location": "Commissioners Board Room",
-      "has_agenda": true,
-      "agenda_url": "https://laramiecounty.legistar1.com/laramiecounty/meetings/2026/2/2191_A_Board_of_County_Commissioners_26-02-03_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-01-22",
-      "body": "Planning Commission",
-      "location": "Commissioners Board Room",
-      "has_agenda": true,
-      "agenda_url": "https://laramiecounty.legistar1.com/laramiecounty/meetings/2026/1/2206_A_Planning_Commission_26-01-22_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-01-20",
-      "body": "Board of County Commissioners",
-      "location": "Commissioners Board Room",
-      "has_agenda": true,
-      "agenda_url": "https://laramiecounty.legistar1.com/laramiecounty/meetings/2026/1/2186_A_Board_of_County_Commissioners_26-01-20_Meeting_Agenda.pdf",
-      "has_minutes": true,
-      "has_video": false,
-      "upcoming": false
-    }
-  ],
-  "recent_legislation": [
-    {
-      "title": "Consideration of a resolution of Laramie County's intent to adopt the Emergency 2026 Laramie County Fair Rules.",
-      "type": "Resolutions",
-      "status": "Passed",
-      "intro_date": "2026-02-02",
-      "file_number": "26 - 073",
-      "passed_date": "2026-02-03"
-    },
-    {
-      "title": "PUBLIC HEARING regarding a subdivision permit and plat for Conley Ranch, a portion of land in Sect 30, T14N, R61W, 6th PM, Laramie County, WY.",
-      "type": "Land Use:Variances/Board App./Plats",
-      "status": "Passed",
-      "intro_date": "2026-01-30",
-      "file_number": "26 - 072",
-      "passed_date": null
-    },
-    {
-      "title": "Consideration of a resolution to change the speed limit for one segment of Rd 130, Christensen Rd, from mile post 0.0 to 2.25.",
-      "type": "Resolutions",
-      "status": "Postponed",
-      "intro_date": "2026-01-28",
-      "file_number": "26 - 064",
-      "passed_date": null
-    },
-    {
-      "title": "Consideration of the following fees collected by various county entities for Dec 2025: County Clerk, $124,042.04; Sheriff, $18,386.94; Clerk of District Court, $23,396.30; Shooting Sports, $17,521.22;",
-      "type": "Consent Agenda Item",
-      "status": "Passed",
-      "intro_date": "2026-01-28",
-      "file_number": "26 - 069",
-      "passed_date": "2026-02-03"
-    },
-    {
-      "title": "Consideration of amendment two to the cooperative agreement (200218-02) between Laramie County, WY, and the WY Dept of Transportation for county project B221004 (US 30 and Dell Range Blvd and Whitney ",
-      "type": "Contract/Agreement/Leases",
-      "status": "Passed",
-      "intro_date": "2026-01-28",
-      "file_number": "26 - 061",
-      "passed_date": "2026-02-03"
-    },
-    {
-      "title": "Consideration of a cooperative agreement between Laramie County, WY, and the WY Dept of Transportation (WYDOT) and the city of Cheyenne for federal project B231031 for improvements to US 30, Dell Rang",
-      "type": "Contract/Agreement/Leases",
-      "status": "Passed",
-      "intro_date": "2026-01-28",
-      "file_number": "26 - 062",
-      "passed_date": "2026-02-03"
-    },
-    {
-      "title": "Consideration of warrants in the amount of $4,492,261.93  for Jan 2026.",
-      "type": "Warrants",
-      "status": "Passed",
-      "intro_date": "2026-01-28",
-      "file_number": "26 - 071",
-      "passed_date": "2026-02-03"
-    },
-    {
-      "title": "Consideration of the following part-time salaries in the amount of $57,929.21 for Jan 2026: Planning, $416.08; Shooting Sports, $6,487.87; Buildings/Maintenance, $17,769.05; Sheriff Operations, $2,120",
-      "type": "Consent Agenda Item",
-      "status": "Passed",
-      "intro_date": "2026-01-28",
-      "file_number": "26 - 070",
-      "passed_date": "2026-02-03"
-    },
-    {
-      "title": "Consideration of a resolution authorizing the submission of a three-year agreement to International Data Base Corp, dba Bidnet, to implement and use an E-Procurement system to publish all county solic",
-      "type": "Contract/Agreement/Leases",
-      "status": "Passed",
-      "intro_date": "2026-01-28",
-      "file_number": "26 - 068",
-      "passed_date": "2026-02-03"
-    },
-    {
-      "title": "Consideration of the Minutes of Proceedings for Jan 20, 2026.",
-      "type": "Minutes",
-      "status": "Passed",
-      "intro_date": "2026-01-27",
-      "file_number": "26 - 060",
-      "passed_date": "2026-02-03"
-    }
-  ],
+  "recent_meetings": [],
+  "recent_legislation": [],
   "legistar_url": "https://laramiecounty.legistar.com",
-  "enriched_at": "2026-02-16T13:17:06.877467",
+  "enriched_at": "2026-02-16T18:53:44.674671",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

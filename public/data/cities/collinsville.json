@@ -513,7 +513,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Collinsville",
-        "probed_at": "2026-02-16T13:23:24.852588",
+        "probed_at": "2026-02-16T18:58:23.678461",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -777,189 +777,13 @@
     "granularity_flags": 4
   },
   "officials": {
-    "body_name": "City Council",
-    "members": [
-      {
-        "name": "David Seaton",
-        "email": null,
-        "title": "Councilman",
-        "start_date": "2025-05-13"
-      },
-      {
-        "name": "Donna Green",
-        "email": null,
-        "title": "Councilman",
-        "start_date": "2025-05-13",
-        "committees": [
-          "Uptown Development Commission"
-        ]
-      },
-      {
-        "name": "Jeff Stehman",
-        "email": null,
-        "title": "Mayor",
-        "start_date": "2015-05-11"
-      },
-      {
-        "name": "Tony Fuhrmann",
-        "email": null,
-        "title": "Councilman",
-        "start_date": "2023-05-09"
-      },
-      {
-        "name": "Tony Hausmann",
-        "email": null,
-        "title": "Councilman",
-        "start_date": "2023-05-09"
-      }
-    ]
+    "body_name": null,
+    "members": []
   },
-  "recent_meetings": [
-    {
-      "date": "2026-02-12",
-      "body": "Fire & Police Commission",
-      "location": "Police Department",
-      "has_agenda": true,
-      "agenda_url": "https://collinsville.legistar1.com/collinsville/meetings/2026/2/1960_A_Fire___Police_Commission_26-02-12_Regular_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-12",
-      "body": "Planning Commission",
-      "location": "City Hall",
-      "has_agenda": true,
-      "agenda_url": "https://collinsville.legistar1.com/collinsville/meetings/2026/2/1961_A_Planning_Commission_26-02-12_Commission_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-11",
-      "body": "Community Appearance Board",
-      "location": "Activity Center",
-      "has_agenda": true,
-      "agenda_url": "https://collinsville.legistar1.com/collinsville/meetings/2026/2/1959_A_Community_Appearance_Board_26-02-11_Commission_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-10",
-      "body": "City Council",
-      "location": "Council Chambers",
-      "has_agenda": true,
-      "agenda_url": "https://collinsville.legistar1.com/collinsville/meetings/2026/2/1958_A_City_Council_26-02-10_Regular_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-01-27",
-      "body": "City Council",
-      "location": "Council Chambers",
-      "has_agenda": true,
-      "agenda_url": "https://collinsville.legistar1.com/collinsville/meetings/2026/1/1956_A_City_Council_26-01-27_Regular_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-01-26",
-      "body": "Cool Cities Committee",
-      "location": "City Hall",
-      "has_agenda": true,
-      "agenda_url": "https://collinsville.legistar1.com/collinsville/meetings/2026/1/1955_A_Cool_Cities_Committee_26-01-26_Commission_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    }
-  ],
-  "recent_legislation": [
-    {
-      "title": "Motion to Approve Minutes of the January 27, 2026 Council Meeting",
-      "type": "Consent Agenda",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-06",
-      "file_number": "5452-2025",
-      "passed_date": null
-    },
-    {
-      "title": "Ordinance Authorizing the Jurisdictional Transfer of a Certain Highway from Illinois Department of Transportation to the City of Collinsville (Ramada Blvd. from east edge of pavement of northbound IL ",
-      "type": "New Business",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-06",
-      "file_number": "5455-2025",
-      "passed_date": null
-    },
-    {
-      "title": "Consideration of Permissible Use of \"Neighborhood Vehicles\" on Public Roadways",
-      "type": "Council Discussion",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-06",
-      "file_number": "5453-2025",
-      "passed_date": null
-    },
-    {
-      "title": "Ordinance Authorizing the Mayor to Execute a City Manager's Employment Agreement with Derek Jackson (2026)",
-      "type": "New Business",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-06",
-      "file_number": "5451-2025",
-      "passed_date": null
-    },
-    {
-      "title": "Ordinance: (1) Approving the Recommended Construction Contractors; (2) Authorizing Agreements between the City of Collinsville and the Construction Contractors; and (3) Authorizing Assignment of Trade",
-      "type": "New Business",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-06",
-      "file_number": "5458-2025",
-      "passed_date": null
-    },
-    {
-      "title": "Ordinance Authorizing the Assignment of a License Agreement for Use of City of Collinsville Right-Of-Way Between the City and Parta Networks, LLC and to the Execution of Amendment No. 1 to the License",
-      "type": "New Business",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-06",
-      "file_number": "5456-2025",
-      "passed_date": null
-    },
-    {
-      "title": "Ordinance Authorizing the Mayor to Execute a Standard Form of Agreement for a Guaranteed Maximum Price Amendment (Exhibit A, AIA document A133-2019) Between the City of Collinsville and Holland Constr",
-      "type": "New Business",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-06",
-      "file_number": "5454-2025",
-      "passed_date": null
-    },
-    {
-      "title": "RZ 25-12 Hunziker Properties Inc - A request for to rezone 709 Rose Avenue from \"R-2\" One and Two Family Residential to \"P-R-2\" Planned One and Two Family Residential in order to permit the constructi",
-      "type": "Public Hearing",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-05",
-      "file_number": "5446-2025",
-      "passed_date": null
-    },
-    {
-      "title": "Motion to Approve the December 11, 2025, Planning Commission Meeting Minutes",
-      "type": "Minutes",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-05",
-      "file_number": "5448-2025",
-      "passed_date": null
-    },
-    {
-      "title": "Update on New Hire Firefighter/Paramedic Candidate",
-      "type": "New Business",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-05",
-      "file_number": "5443-2025",
-      "passed_date": null
-    }
-  ],
+  "recent_meetings": [],
+  "recent_legislation": [],
   "legistar_url": "https://collinsville.legistar.com",
-  "enriched_at": "2026-02-16T13:15:59.422230",
+  "enriched_at": "2026-02-16T18:52:53.851570",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

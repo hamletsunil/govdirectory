@@ -516,7 +516,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Olathe",
-        "probed_at": "2026-02-16T13:21:57.614966",
+        "probed_at": "2026-02-16T18:57:15.583912",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -780,188 +780,13 @@
     "granularity_flags": 1
   },
   "officials": {
-    "body_name": "City Council",
-    "members": [
-      {
-        "name": "Dr. Felter",
-        "email": null,
-        "title": "Council Member",
-        "start_date": "2022-01-03"
-      },
-      {
-        "name": "Mr. Bacon",
-        "email": null,
-        "title": "Mayor",
-        "start_date": "2018-04-01"
-      },
-      {
-        "name": "Mr. Creighton",
-        "email": "jcreighton@olatheks.org",
-        "title": "Mayor",
-        "start_date": "2026-01-01"
-      },
-      {
-        "name": "Mr. Deneault",
-        "email": "kdeneault@olatheks.org",
-        "title": "Mayor",
-        "start_date": "2026-01-01"
-      },
-      {
-        "name": "Mr. Schoonover",
-        "email": "Mschoonover@olatheks.org",
-        "title": "Council Member",
-        "start_date": "2024-01-01"
-      },
-      {
-        "name": "Mr. Vakas",
-        "email": "dvakas@olatheks.org",
-        "title": "Council Member",
-        "start_date": "2024-01-01"
-      },
-      {
-        "name": "Ms. Essex",
-        "email": null,
-        "title": "Council Member",
-        "start_date": "2022-03-07"
-      }
-    ]
+    "body_name": null,
+    "members": []
   },
-  "recent_meetings": [
-    {
-      "date": "2026-02-09",
-      "body": "Planning Commission",
-      "location": "100 E. Santa Fe | Council Chamber",
-      "has_agenda": true,
-      "agenda_url": "https://olatheks.legistar1.com/olatheks/meetings/2026/2/1722_A_Planning_Commission_26-02-09_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-05",
-      "body": "City Council",
-      "location": "475 S Wardcliff Dr. | Eagles Landing",
-      "has_agenda": true,
-      "agenda_url": "https://olatheks.legistar1.com/olatheks/meetings/2026/2/1726_A_City_Council_26-02-05_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-03",
-      "body": "City Council",
-      "location": "100 E. Santa Fe | Council Chamber",
-      "has_agenda": true,
-      "agenda_url": "https://olatheks.legistar1.com/olatheks/meetings/2026/2/1697_A_City_Council_26-02-03_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-01-26",
-      "body": "Planning Commission",
-      "location": "100 E. Santa Fe | Council Chamber",
-      "has_agenda": true,
-      "agenda_url": "https://olatheks.legistar1.com/olatheks/meetings/2026/1/1721_A_Planning_Commission_26-01-26_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-01-20",
-      "body": "City Council",
-      "location": "100 E. Santa Fe | Council Chamber",
-      "has_agenda": true,
-      "agenda_url": "https://olatheks.legistar1.com/olatheks/meetings/2026/1/1696_A_City_Council_26-01-20_Meeting_Agenda.pdf",
-      "has_minutes": true,
-      "has_video": false,
-      "upcoming": false
-    }
-  ],
-  "recent_legislation": [
-    {
-      "title": "Consideration of approval of the City Council meeting minutes of February 3, 2026.",
-      "type": "Council Consent",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-05",
-      "file_number": "G26-5579",
-      "passed_date": null
-    },
-    {
-      "title": "MN26-0126: Approval of the minutes as written from the January 26, 2026 Planning Commission meeting.",
-      "type": "PC Consent Item",
-      "status": "Passed",
-      "intro_date": "2026-02-02",
-      "file_number": "MN26-0126",
-      "passed_date": "2026-02-09"
-    },
-    {
-      "title": "FP25-0035: A final plat for Parkside Reserve, Seventh Plat, containing 37 lots and three (3) tracts on approximately 13.36 acres, located southeast of W. 167th Street and S. Mur-Len Road.",
-      "type": "PC Consent Item",
-      "status": "Passed",
-      "intro_date": "2026-02-02",
-      "file_number": "FP25-0035",
-      "passed_date": "2026-02-09"
-    },
-    {
-      "title": "PUBLIC HEARING\r\nRZ25-0019: Request for approval of a rezoning from the CTY RUR (County Rural) District to the M-2 (General Industrial) District and a preliminary site development plan for 175th Lone E",
-      "type": "PC - Public Hearing",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-02",
-      "file_number": "RZ25-0019",
-      "passed_date": null
-    },
-    {
-      "title": "Consideration of new license(s) as recommended by the City Clerk.",
-      "type": "Council Consent",
-      "status": "Passed",
-      "intro_date": "2026-01-29",
-      "file_number": "G26-5569",
-      "passed_date": "2026-02-03"
-    },
-    {
-      "title": "Proclamation recognizing Feb. 16-20, 2026 as Random Acts of Kindness Week",
-      "type": "Special Business",
-      "status": "Agenda Ready",
-      "intro_date": "2026-01-29",
-      "file_number": "G26-5570",
-      "passed_date": null
-    },
-    {
-      "title": "Proclamation recognizing February as Black History Month",
-      "type": "Special Business",
-      "status": "Agenda Ready",
-      "intro_date": "2026-01-27",
-      "file_number": "G26-5567",
-      "passed_date": null
-    },
-    {
-      "title": "Consideration of bid and award of contract to C&B Equipment for water and wastewater pump repair and replacement, and vertical well testing and cleaning for Environmental Services Division of Infrastr",
-      "type": "Council Consent",
-      "status": "Passed",
-      "intro_date": "2026-01-23",
-      "file_number": "G26-5566",
-      "passed_date": "2026-02-03"
-    },
-    {
-      "title": "Public hearing and consideration of Ordinance No. 26-06 electing to participate in a STAR Bond project by specifying a pledge of local sales and use taxes as a source of repayment of STAR Bonds to be ",
-      "type": "Public Hearing",
-      "status": "Agenda Ready",
-      "intro_date": "2026-01-23",
-      "file_number": "G26-5564",
-      "passed_date": null
-    },
-    {
-      "title": "Consideration of renewal license(s) as recommended by the City Clerk.",
-      "type": "Council Consent",
-      "status": "Passed",
-      "intro_date": "2026-01-23",
-      "file_number": "G26-5563",
-      "passed_date": "2026-02-03"
-    }
-  ],
+  "recent_meetings": [],
+  "recent_legislation": [],
   "legistar_url": "https://olatheks.legistar.com",
-  "enriched_at": "2026-02-16T13:18:05.385316",
+  "enriched_at": "2026-02-16T18:54:22.629467",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

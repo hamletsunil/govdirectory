@@ -513,7 +513,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Princeton",
-        "probed_at": "2026-02-16T13:23:04.037490",
+        "probed_at": "2026-02-16T18:58:07.337751",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -777,187 +777,13 @@
     "granularity_flags": 4
   },
   "officials": {
-    "body_name": "Mayor and Council of Princeton",
-    "members": [
-      {
-        "name": "Brian McDonald",
-        "email": "bmcdonald@princetonnj.gov",
-        "title": "Council Member",
-        "start_date": "2025-01-01"
-      },
-      {
-        "name": "David Cohen",
-        "email": "dcohen@princetonnj.gov",
-        "title": "Council Member",
-        "start_date": "2024-01-01"
-      },
-      {
-        "name": "Dawn M. Mount",
-        "email": "dchampion@princetonnj.gov",
-        "title": "Municipal Clerk",
-        "start_date": "2022-01-01",
-        "committees": [
-          "Clerk"
-        ]
-      },
-      {
-        "name": "Leighton Newlin",
-        "email": "lnewlin@princetonnj.gov",
-        "title": "Council Member",
-        "start_date": "2022-09-01"
-      },
-      {
-        "name": "Leticia Fraga",
-        "email": "lfraga@princetonnj.gov",
-        "title": "Council Member",
-        "start_date": "2024-01-01"
-      },
-      {
-        "name": "Mark Freda",
-        "email": "mfreda@princetonnj.gov",
-        "title": "Mayor",
-        "start_date": "2022-09-01"
-      },
-      {
-        "name": "Mia Sacks",
-        "email": "msacks@princetonnj.gov",
-        "title": "Council Member",
-        "start_date": "2026-01-01"
-      },
-      {
-        "name": "Michelle Pirone Lambros",
-        "email": "mpironelambros@princetonnj.gov",
-        "title": "Council Member",
-        "start_date": "2026-01-01"
-      }
-    ]
+    "body_name": null,
+    "members": []
   },
-  "recent_meetings": [
-    {
-      "date": "2026-02-09",
-      "body": "Mayor and Council of Princeton",
-      "location": "Main Council Chambers",
-      "has_agenda": true,
-      "agenda_url": "https://princetonnj.legistar1.com/princetonnj/meetings/2026/2/1009_A_Mayor_and_Council_of_Princeton_26-02-09_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-03",
-      "body": "Mayor and Council Closed Session",
-      "location": "Virtual Meeting",
-      "has_agenda": true,
-      "agenda_url": "https://princetonnj.legistar1.com/princetonnj/meetings/2026/2/1008_A_Mayor_and_Council_Closed_Session_26-02-03_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-01-27",
-      "body": "Mayor and Council of Princeton",
-      "location": "Main Council Chambers",
-      "has_agenda": true,
-      "agenda_url": "https://princetonnj.legistar1.com/princetonnj/meetings/2026/1/1060_A_Mayor_and_Council_of_Princeton_26-01-27_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-01-20",
-      "body": "Mayor and Council Closed Session",
-      "location": "Virtual Meeting",
-      "has_agenda": true,
-      "agenda_url": "https://princetonnj.legistar1.com/princetonnj/meetings/2026/1/1005_A_Mayor_and_Council_Closed_Session_26-01-20_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    }
-  ],
-  "recent_legislation": [
-    {
-      "title": "An Ordinance of the Municipality of Princeton Amending §T10B-272.146 “Affordable Housing Overlay-4 (AHO-4) Site Development Regulations” of the Code of Princeton, New Jersey, 2013 (Public Hearing:  Fe",
-      "type": "Ordinance",
-      "status": "Public Hearing",
-      "intro_date": "2026-02-06",
-      "file_number": "ORD 26-09",
-      "passed_date": null
-    },
-    {
-      "title": "Resolution of the Mayor and Council of Princeton Designating Certain Real Property Located at 1-10 Franklin Avenue, Identified as Lots 2, 26 and 27 in Block 21.04 on the Tax Map of Princeton, As a Non",
-      "type": "Resolution",
-      "status": "Passed",
-      "intro_date": "2026-02-06",
-      "file_number": "R-26-054",
-      "passed_date": "2026-02-09"
-    },
-    {
-      "title": "An Ordinance of the Municipality of Princeton Amending Chapter B17A Entitled “Land Use And Zoning” of the Municipality Of Princeton to Create the Affordable Housing District-16 (AH-16) In Furtherance ",
-      "type": "Ordinance",
-      "status": "Public Hearing",
-      "intro_date": "2026-02-04",
-      "file_number": "ORD 26-08",
-      "passed_date": null
-    },
-    {
-      "title": "Resolution of the Mayor and Council of Princeton Authorizing Appointments to Boards, Commissions and Committees",
-      "type": "Resolution",
-      "status": "Passed",
-      "intro_date": "2026-02-04",
-      "file_number": "R-26-056",
-      "passed_date": "2026-02-09"
-    },
-    {
-      "title": "Resolution of the Mayor and Council of the Municipality of Princeton Authorizing the Award of a Professional Services Agreement to Storm Water Management Consulting, LLC for Professional Engineering S",
-      "type": "Resolution",
-      "status": "Passed",
-      "intro_date": "2026-02-04",
-      "file_number": "R-26-053",
-      "passed_date": "2026-02-09"
-    },
-    {
-      "title": "2025 Urban Forestry Report",
-      "type": "Report",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-03",
-      "file_number": "0008",
-      "passed_date": null
-    },
-    {
-      "title": "Resolution of the Mayor and Council of Princeton Approving Transfers in Accordance with N.J.S.A. 40A:4-59",
-      "type": "Resolution",
-      "status": "Passed",
-      "intro_date": "2026-02-03",
-      "file_number": "R-26-058",
-      "passed_date": "2026-02-09"
-    },
-    {
-      "title": "An Ordinance of the Municipality of Princeton Amending “The Code of the Borough of Princeton, New Jersey 1974” to Add thereto a New Chapter Entitled “Filming” (Public Hearing: February 23, 2026)-Roll ",
-      "type": "Ordinance",
-      "status": "Public Hearing",
-      "intro_date": "2026-02-02",
-      "file_number": "ORD 26-10",
-      "passed_date": null
-    },
-    {
-      "title": "Mayor and Council of Princeton- Closed Session- October 7, 2025",
-      "type": "Minutes",
-      "status": "Passed",
-      "intro_date": "2026-01-23",
-      "file_number": "0006",
-      "passed_date": "2026-01-27"
-    },
-    {
-      "title": "Mayor and Council of Princeton- Regular Meeting- September 23, 2025",
-      "type": "Minutes",
-      "status": "Passed",
-      "intro_date": "2026-01-23",
-      "file_number": "0005",
-      "passed_date": "2026-01-27"
-    }
-  ],
+  "recent_meetings": [],
+  "recent_legislation": [],
   "legistar_url": "https://princetonnj.legistar.com",
-  "enriched_at": "2026-02-16T13:18:28.785782",
+  "enriched_at": "2026-02-16T18:54:42.510042",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

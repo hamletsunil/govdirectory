@@ -522,7 +522,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Mount%20Vernon",
-        "probed_at": "2026-02-16T13:22:30.705353",
+        "probed_at": "2026-02-16T18:57:41.548169",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -786,203 +786,13 @@
     "granularity_flags": 2
   },
   "officials": {
-    "body_name": "City Council",
-    "members": [
-      {
-        "name": "Andre Wallace",
-        "email": "awallace@mountvernonny.gov",
-        "title": null,
-        "start_date": "2026-01-01",
-        "committees": [
-          "City Council Public Hearing"
-        ]
-      },
-      {
-        "name": "Cathlin Gleason",
-        "email": "cgleason@cmvny.com",
-        "title": null,
-        "start_date": "2026-01-01",
-        "committees": [
-          "City Council Public Hearing"
-        ]
-      },
-      {
-        "name": "Cynthia Turnquest-Jones",
-        "email": "cturnquest-jones@mountvernonny.gov",
-        "title": "Councilmember",
-        "start_date": "2026-01-01",
-        "committees": [
-          "City Council Public Hearing"
-        ]
-      },
-      {
-        "name": "Derrick Thompson",
-        "email": "dthompson@cmvny.com",
-        "title": "Council President",
-        "start_date": "2026-01-01",
-        "committees": [
-          "Board of Estimate & Contract",
-          "Board of Estimate & Contract Public Hearing",
-          "City Council Public Hearing"
-        ]
-      },
-      {
-        "name": "Jaevon Boxhill",
-        "email": "jsboxhill@cmvny.com",
-        "title": "Pro Tempore",
-        "start_date": "2026-01-01",
-        "committees": [
-          "City Council Public Hearing"
-        ]
-      }
-    ]
+    "body_name": null,
+    "members": []
   },
-  "recent_meetings": [
-    {
-      "date": "2026-02-11",
-      "body": "City Council",
-      "location": "CITY COUNCIL CHAMBERS\r\nCITY HALL",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-09",
-      "body": "City Council Work Session",
-      "location": "City Council Chambers",
-      "has_agenda": true,
-      "agenda_url": "https://mountvernonny.legistar1.com/mountvernonny/meetings/2026/2/1294_A_City_Council_Work_Session_26-02-09_Tally_Sheet.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-03",
-      "body": "Board of Estimate & Contract",
-      "location": "MAYOR'S CONFERENCE ROOM - 1st FLOOR",
-      "has_agenda": true,
-      "agenda_url": "https://mountvernonny.legistar1.com/mountvernonny/meetings/2026/2/1231_A_Board_of_Estimate___Contract_26-02-03_Tally_Sheet.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-01-28",
-      "body": "City Council",
-      "location": "CITY COUNCIL CHAMBERS\r\nCITY HALL",
-      "has_agenda": true,
-      "agenda_url": "https://mountvernonny.legistar1.com/mountvernonny/meetings/2026/1/1264_A_City_Council_26-01-28_Committee_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-01-26",
-      "body": "City Council Work Session",
-      "location": "City Council Chambers",
-      "has_agenda": true,
-      "agenda_url": "https://mountvernonny.legistar1.com/mountvernonny/meetings/2026/1/1293_A_City_Council_Work_Session_26-01-26_Tally_Sheet.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-01-20",
-      "body": "Board of Estimate & Contract",
-      "location": "MAYOR'S CONFERENCE ROOM - 1st FLOOR",
-      "has_agenda": true,
-      "agenda_url": "https://mountvernonny.legistar1.com/mountvernonny/meetings/2026/1/1230_A_Board_of_Estimate___Contract_26-01-20_Tally_Sheet.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    }
-  ],
-  "recent_legislation": [
-    {
-      "title": "City Clerk:  A Resolution Establishing the Standard Workdays and Reporting Guidelines for Elected and Appointed Officials",
-      "type": "Resolution",
-      "status": "Reported to Council",
-      "intro_date": "2026-02-04",
-      "file_number": "TMP -1936",
-      "passed_date": null
-    },
-    {
-      "title": "Department of Planning and Community Development:  An Ordinance Authorizing the Mayor to Execute a Professional Services Agreement with ARUP for Phase II of a New York State Energy Research and Develo",
-      "type": "Ordinance",
-      "status": "Held",
-      "intro_date": "2026-02-03",
-      "file_number": "TMP -1935",
-      "passed_date": null
-    },
-    {
-      "title": "Department of Public Works:  An Ordinance Amending Chapter 227, §227-56 of the City Code of the City of Mount Vernon, entitled \"Removal of Snow and Ice\"",
-      "type": "Ordinance",
-      "status": "Reported to Council",
-      "intro_date": "2026-02-03",
-      "file_number": "TMP -1921",
-      "passed_date": null
-    },
-    {
-      "title": "City Council:  A Local Law Amending Article XV of the Charter of the City of the City of  Mount Vernon to Establish an Installment Payment Plan for Delinquent Property Taxes",
-      "type": "Local Law",
-      "status": "Reported to Council",
-      "intro_date": "2026-02-03",
-      "file_number": "TMP -1930",
-      "passed_date": null
-    },
-    {
-      "title": "City Council:  A Local Law Amending the City Charter to Codify the Positions of Chief of Staff and Deputy Chief of Staff within the Office of the Mayor",
-      "type": "Local Law",
-      "status": "Reported to Council",
-      "intro_date": "2026-02-03",
-      "file_number": "TMP -1933",
-      "passed_date": null
-    },
-    {
-      "title": "Department of Public Works:  An Ordinance Amending Chapter 140-24 of the Code of the City of Mount Vernon Relating to Unauthorized Dumping; Fines",
-      "type": "Ordinance",
-      "status": "Reported to Council",
-      "intro_date": "2026-02-03",
-      "file_number": "TMP -1917",
-      "passed_date": null
-    },
-    {
-      "title": "Real Estate Committee:  An Ordinance Rescinding the Recommendation for the Sale of Certain City-Owned Property Located at 328 South 1st Avenue, Mount Vernon, New York - (Parcel ID: 169.31.3120.01)",
-      "type": "Ordinance",
-      "status": "Reported to Council",
-      "intro_date": "2026-02-03",
-      "file_number": "TMP -1926",
-      "passed_date": null
-    },
-    {
-      "title": "Department of Public Works:  An Ordinance Amending Article I - Preservation of Good Order, Chapter 191 - Peace and Good Order, §191-3(D) - Littering; Fine of the Code of the City of Mount Vernon to Re",
-      "type": "Ordinance",
-      "status": "Reported to Council",
-      "intro_date": "2026-02-03",
-      "file_number": "TMP -1918",
-      "passed_date": null
-    },
-    {
-      "title": "City Council:  A Local Law Authorizing the Amendment of the City Charter Regarding Budget Schedule",
-      "type": "Local Law",
-      "status": "Reported to Council",
-      "intro_date": "2026-02-03",
-      "file_number": "TMP -1929",
-      "passed_date": null
-    },
-    {
-      "title": "City Council:  A Local Law Amending the Vehicle and Traffic Law Authorizing the City of Mount Vernon to Establish a Traffic-Control Signal Photo Monitoring Demonstration Program",
-      "type": "Local Law",
-      "status": "Reported to Council",
-      "intro_date": "2026-02-03",
-      "file_number": "TMP -1931",
-      "passed_date": null
-    }
-  ],
+  "recent_meetings": [],
+  "recent_legislation": [],
   "legistar_url": "https://mountvernonny.legistar.com",
-  "enriched_at": "2026-02-16T13:17:42.946535",
+  "enriched_at": "2026-02-16T18:54:11.009794",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

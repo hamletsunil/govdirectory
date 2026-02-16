@@ -506,7 +506,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Visalia",
-        "probed_at": "2026-02-16T13:21:58.495696",
+        "probed_at": "2026-02-16T18:57:16.229528",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -770,152 +770,13 @@
     "granularity_flags": 2
   },
   "officials": {
-    "body_name": "Visalia City Council ",
-    "members": [
-      {
-        "name": "Brett Taylor",
-        "email": "brett.taylor@visalia.city",
-        "title": "Mayor",
-        "start_date": "2022-12-09"
-      },
-      {
-        "name": "Brian Poochigian",
-        "email": "brian.poochigian@visalia.city",
-        "title": "Council Member",
-        "start_date": "2022-12-09",
-        "committees": [
-          "City Council Closed Session"
-        ]
-      },
-      {
-        "name": "Emmanuel Hernandez Soto",
-        "email": null,
-        "title": "Council Member",
-        "start_date": "2022-12-08",
-        "committees": [
-          "City Council Closed Session"
-        ]
-      },
-      {
-        "name": "Liz Wynn",
-        "email": null,
-        "title": "Vice Mayor",
-        "start_date": "2021-08-16"
-      },
-      {
-        "name": "Steve Nelsen",
-        "email": "steve.nelsen@visalia.city",
-        "title": "Council Member",
-        "start_date": "2022-12-08"
-      }
-    ]
+    "body_name": null,
+    "members": []
   },
-  "recent_meetings": [
-    {
-      "date": "2026-02-02",
-      "body": "Visalia City Council",
-      "location": "City Council Chambers",
-      "has_agenda": true,
-      "agenda_url": "https://visalia.legistar1.com/visalia/meetings/2026/2/2161_A_Visalia_City_Council__26-02-02_Meeting_Agenda.pdf",
-      "has_minutes": true,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-01-20",
-      "body": "Visalia City Council",
-      "location": "City Council Chambers",
-      "has_agenda": true,
-      "agenda_url": "https://visalia.legistar1.com/visalia/meetings/2026/1/2160_A_Visalia_City_Council__26-01-20_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    }
-  ],
-  "recent_legislation": [
-    {
-      "title": "Authorization to read ordinances by title only.",
-      "type": "Consent Item",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-04",
-      "file_number": "25-0664",
-      "passed_date": null
-    },
-    {
-      "title": "Upcoming City Council Meetings \r\n\r\nMonday, March 2, 2026 @ 7:00 p.m. at 707 W. Acequia\r\n\r\nMonday, March 16, 2026 @ 7:00 p.m. at 707 W. Acequia\r\n\r\nNote:  Meeting dates and times are subject to change, ",
-      "type": "Regular Item",
-      "status": "Agenda Ready",
-      "intro_date": "2026-01-28",
-      "file_number": "25-0654",
-      "passed_date": null
-    },
-    {
-      "title": "Contract award for total compensation and comprehensive classification study - Authorize the City Manager to award the contract to conduct a total compensation and comprehensive classification study t",
-      "type": "Consent Item",
-      "status": "Passed",
-      "intro_date": "2026-01-21",
-      "file_number": "25-0637",
-      "passed_date": "2026-02-02"
-    },
-    {
-      "title": "Contract for the transport of road materials- Authorize the City Manager to award an annual contract to Mike Clark Trucking Services for the transport of road materials. The contract shall not exceed ",
-      "type": "Consent Item",
-      "status": "Passed",
-      "intro_date": "2026-01-21",
-      "file_number": "25-0635",
-      "passed_date": "2026-02-02"
-    },
-    {
-      "title": "Approve a contract amendment with Holloway Environmental Solutions - Approve an amendment to the contract with Holloway Environmental Solutions to increase the not-to-exceed amount from $144,000 to $3",
-      "type": "Consent Item",
-      "status": "Passed",
-      "intro_date": "2026-01-20",
-      "file_number": "25-0632",
-      "passed_date": "2026-02-02"
-    },
-    {
-      "title": "Upcoming City Council Meetings \r\n\r\nTuesday, February 17, 2026 @ 7:00 p.m. at 707 W. Acequia\r\n\r\nMonday, March 2, 2026 @ 7:00 p.m. at 707 W. Acequia\r\n\r\nNote:  Meeting dates and times are subject to chan",
-      "type": "Regular Item",
-      "status": "Agenda Ready",
-      "intro_date": "2026-01-20",
-      "file_number": "25-0634",
-      "passed_date": null
-    },
-    {
-      "title": "Approve a contract amendment with Mike Clark Trucking - Approve an amendment to the contract with Mike Clark Trucking to increase the annual not-to-exceed amount from $226,800 to $331,800 to haul bios",
-      "type": "Consent Item",
-      "status": "Passed",
-      "intro_date": "2026-01-16",
-      "file_number": "25-0631",
-      "passed_date": "2026-02-02"
-    },
-    {
-      "title": "Citizens Advisory Committee 2026 work plan calendar presentation",
-      "type": "Regular Item",
-      "status": "Filed",
-      "intro_date": "2026-01-09",
-      "file_number": "25-0628",
-      "passed_date": "2026-02-02"
-    },
-    {
-      "title": "New employee introductions\r\n\r\nZachary Giovanni, Firefighter/Paramedic\r\nCiera Ortiz, Firefighter/Paramedic\r\nAlexis Walty, Firefighter/Paramedic\r\nFelix Hernandez, Squad Paramedic\r\nBryden Ruiz, Squad Par",
-      "type": "Work Session Item",
-      "status": "Agenda Ready",
-      "intro_date": "2026-01-09",
-      "file_number": "25-0629",
-      "passed_date": null
-    },
-    {
-      "title": "Fiscal Year 2026-27 federal congressional community project funding requests - Approve the submittal of federal congressional community project funding requests for the upcoming 2026-27 fiscal year.",
-      "type": "Consent Item",
-      "status": "Agenda Ready",
-      "intro_date": "2026-01-08",
-      "file_number": "25-0627",
-      "passed_date": null
-    }
-  ],
+  "recent_meetings": [],
+  "recent_legislation": [],
   "legistar_url": "https://visalia.legistar.com",
-  "enriched_at": "2026-02-16T13:19:08.582465",
+  "enriched_at": "2026-02-16T18:55:16.607371",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

@@ -508,7 +508,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Dublin",
-        "probed_at": "2026-02-16T13:22:31.683731",
+        "probed_at": "2026-02-16T18:57:42.200968",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -772,24 +772,13 @@
     "granularity_flags": 2
   },
   "officials": {
-    "body_name": "City Council",
+    "body_name": null,
     "members": []
   },
-  "recent_meetings": [
-    {
-      "date": "2026-01-30",
-      "body": "City Council",
-      "location": "Peter W. Snyder Council Chamber 2",
-      "has_agenda": true,
-      "agenda_url": "https://dublin.legistar1.com/dublin/meetings/2026/1/907_A_City_Council_26-01-30_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    }
-  ],
+  "recent_meetings": [],
   "recent_legislation": [],
   "legistar_url": "https://dublin.legistar.com",
-  "enriched_at": "2026-02-16T13:16:25.713281",
+  "enriched_at": "2026-02-16T18:53:10.896398",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

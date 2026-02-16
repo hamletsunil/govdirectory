@@ -511,7 +511,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Carrollton",
-        "probed_at": "2026-02-16T13:22:02.242805",
+        "probed_at": "2026-02-16T18:57:19.024701",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -775,164 +775,13 @@
     "granularity_flags": 2
   },
   "officials": {
-    "body_name": "City Council",
-    "members": [
-      {
-        "name": "Andrew Palacios",
-        "email": "andrew.palacios@cityofcarrollton.com",
-        "title": "Councilmember",
-        "start_date": "2023-06-01"
-      },
-      {
-        "name": "Christopher Axberg",
-        "email": "christopher.axberg@cityofcarrollton.com",
-        "title": "Mayor Pro Tem",
-        "start_date": "2025-05-07"
-      },
-      {
-        "name": "Daisy Palomo",
-        "email": null,
-        "title": "Deputy Mayor Pro Tem",
-        "start_date": "2023-06-01"
-      },
-      {
-        "name": "Jason Carpenter",
-        "email": null,
-        "title": "Councilmember",
-        "start_date": "2023-06-01"
-      },
-      {
-        "name": "Nancy Cline",
-        "email": "nancy.cline@cityofcarrollton.com",
-        "title": "Councilmember",
-        "start_date": "2021-05-01"
-      },
-      {
-        "name": "Richard  Fleming",
-        "email": "richard.fleming@cityofcarrollton.com",
-        "title": "Councilmember",
-        "start_date": "2022-07-08"
-      },
-      {
-        "name": "Rowena Watters",
-        "email": "rowena.watters@cityofcarrollton.com",
-        "title": "Councilmember",
-        "start_date": "2024-05-14"
-      },
-      {
-        "name": "Steve Babick",
-        "email": "Steve.Babick@cityofcarrollton.com",
-        "title": "Mayor",
-        "start_date": "2018-05-16"
-      }
-    ]
+    "body_name": null,
+    "members": []
   },
-  "recent_meetings": [
-    {
-      "date": "2026-02-03",
-      "body": "City Council",
-      "location": "CITY HALL, 2nd Floor",
-      "has_agenda": true,
-      "agenda_url": "https://legistar.granicus.com/Carrolltontx/meetings/2026/2/1906_A_City_Council_26-02-03_REGULAR_WORKSESSION___MEETING.pdf",
-      "has_minutes": false,
-      "has_video": true,
-      "upcoming": false
-    },
-    {
-      "date": "2026-01-20",
-      "body": "City Council",
-      "location": "CITY HALL, 2nd Floor",
-      "has_agenda": true,
-      "agenda_url": "https://legistar.granicus.com/Carrolltontx/meetings/2026/1/1904_A_City_Council_26-01-20_REGULAR_WORKSESSION___MEETING.pdf",
-      "has_minutes": false,
-      "has_video": true,
-      "upcoming": false
-    }
-  ],
-  "recent_legislation": [
-    {
-      "title": "Consider Approval Of A Resolution Appointing A Member To The Museum And Historic Advisory Committee.",
-      "type": "Resolution",
-      "status": "Consent Agenda",
-      "intro_date": "2026-02-09",
-      "file_number": "7545",
-      "passed_date": null
-    },
-    {
-      "title": "Consider Approval Of The January 20, 2026 Regular Meeting Minutes.",
-      "type": "Minutes",
-      "status": "Consent Agenda",
-      "intro_date": "2026-02-09",
-      "file_number": "7546",
-      "passed_date": null
-    },
-    {
-      "title": "Consider Approval Of The February 3, 2026 Regular Meeting Minutes.",
-      "type": "Minutes",
-      "status": "Consent Agenda",
-      "intro_date": "2026-02-09",
-      "file_number": "7547",
-      "passed_date": null
-    },
-    {
-      "title": "Consider Authorizing The City Manager To Enter Into An Agreement With Catapult Staffing, LLC, Through GSA Purchasing Cooperative, For Staffing Services In A Total Amount Not To Exceed $1,200,000.00.",
-      "type": "Contracts/Agreements",
-      "status": "Consent Agenda",
-      "intro_date": "2026-02-04",
-      "file_number": "7544",
-      "passed_date": null
-    },
-    {
-      "title": "Consider Approval Of Repair And Resurfacing Of Pickleball Courts With Master Systems Courts Through An Inter-Local Agreement With Texas Interlocal Purchasing System (TIPS) In An Amount Not To Exceed $",
-      "type": "Contracts/Agreements",
-      "status": "Consent Agenda",
-      "intro_date": "2026-02-03",
-      "file_number": "7543",
-      "passed_date": null
-    },
-    {
-      "title": "Receive An Overview Of The City’s Annual Financial Report For The Fiscal Year Ending September 30, 2025.",
-      "type": "Work Session Item",
-      "status": "Work Session",
-      "intro_date": "2026-02-02",
-      "file_number": "7540",
-      "passed_date": null
-    },
-    {
-      "title": "Consider A Resolution Acknowledging Receipt Of The Annual Comprehensive Financial Report For The Fiscal Year Ending September 30, 2025.",
-      "type": "Resolution",
-      "status": "Consent Agenda",
-      "intro_date": "2026-02-02",
-      "file_number": "7541",
-      "passed_date": null
-    },
-    {
-      "title": "Consider A Resolution Accepting The Investment Officer’s Quarterly Report For First Quarter Ended December 31, 2025.",
-      "type": "Resolution",
-      "status": "Consent Agenda",
-      "intro_date": "2026-01-28",
-      "file_number": "7538",
-      "passed_date": null
-    },
-    {
-      "title": "Receive Funding From Denton County Commissioner Falconer For Hebron And Frankford.",
-      "type": "Presentations",
-      "status": "Presentations",
-      "intro_date": "2026-01-27",
-      "file_number": "7536",
-      "passed_date": null
-    },
-    {
-      "title": "Receive Update From Metrocrest Area Chamber.",
-      "type": "Work Session Item",
-      "status": "Work Session",
-      "intro_date": "2026-01-27",
-      "file_number": "7537",
-      "passed_date": null
-    }
-  ],
+  "recent_meetings": [],
+  "recent_legislation": [],
   "legistar_url": "https://carrolltontx.legistar.com",
-  "enriched_at": "2026-02-16T13:15:22.480368",
+  "enriched_at": "2026-02-16T18:52:26.953247",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

@@ -525,7 +525,7 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://corstat.coronaca.gov/resource/2agx-camz.json",
-        "probed_at": "2026-02-16T13:20:23.086297",
+        "probed_at": "2026-02-16T18:56:09.634295",
         "data_vintage": "Rolling 12-month window ending 2026-02-16",
         "geographic_level": "place",
         "status": "available",
@@ -572,7 +572,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Corona",
-        "probed_at": "2026-02-16T13:21:47.770829",
+        "probed_at": "2026-02-16T18:57:08.108134",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -836,44 +836,13 @@
     "granularity_flags": 3
   },
   "officials": {
-    "body_name": "City Council",
-    "members": [
-      {
-        "name": "Jacque Casillas",
-        "email": "jacque.casillas@coronaca.gov",
-        "title": "Council Member",
-        "start_date": "2022-12-14",
-        "committees": [
-          "Committee of the Whole",
-          "Study Session"
-        ]
-      },
-      {
-        "name": "Jim Steiner",
-        "email": "jim.steiner@coronaca.gov",
-        "title": "Vice Mayor",
-        "start_date": "2022-12-14",
-        "committees": [
-          "Committee of the Whole",
-          "Study Session"
-        ]
-      },
-      {
-        "name": "Wes Speake",
-        "email": "wes.speake@coronaca.gov",
-        "title": "Council Member",
-        "start_date": "2022-12-14",
-        "committees": [
-          "Committee of the Whole",
-          "Study Session"
-        ]
-      }
-    ]
+    "body_name": null,
+    "members": []
   },
   "recent_meetings": [],
   "recent_legislation": [],
   "legistar_url": "https://corona.legistar.com",
-  "enriched_at": "2026-02-16T13:16:10.697598",
+  "enriched_at": "2026-02-16T18:52:59.971332",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

@@ -491,7 +491,7 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://citydata.mesaaz.gov/resource/dzpk-hxfb.json",
-        "probed_at": "2026-02-16T13:19:53.899884",
+        "probed_at": "2026-02-16T18:55:49.978086",
         "data_vintage": "Rolling 12-month window ending 2026-02-16",
         "geographic_level": "place",
         "status": "available",
@@ -538,7 +538,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Mesa",
-        "probed_at": "2026-02-16T13:21:15.871229",
+        "probed_at": "2026-02-16T18:56:42.803095",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -802,195 +802,13 @@
     "granularity_flags": 2
   },
   "officials": {
-    "body_name": "City Council",
+    "body_name": null,
     "members": []
   },
-  "recent_meetings": [
-    {
-      "date": "2026-02-10",
-      "body": "Design Review Board",
-      "location": "Study Session",
-      "has_agenda": true,
-      "agenda_url": "https://legistar1.granicus.com/Mesa/meetings/2026/2/4621_A_Design_Review_Board_26-02-10_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-09",
-      "body": "City Council",
-      "location": "Council Chambers",
-      "has_agenda": true,
-      "agenda_url": "https://legistar1.granicus.com/Mesa/meetings/2026/2/4489_A_City_Council_26-02-09_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-09",
-      "body": "City Council Study Session",
-      "location": "Study Session",
-      "has_agenda": true,
-      "agenda_url": "https://legistar1.granicus.com/Mesa/meetings/2026/2/4493_A_City_Council_Study_Session_26-02-09_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-05",
-      "body": "City Council Study Session",
-      "location": "Study Session",
-      "has_agenda": true,
-      "agenda_url": "https://legistar1.granicus.com/Mesa/meetings/2026/2/4541_A_City_Council_Study_Session_26-02-05_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-04",
-      "body": "Board of Adjustment Public Hearing",
-      "location": "Study Session",
-      "has_agenda": true,
-      "agenda_url": "https://legistar1.granicus.com/Mesa/meetings/2026/2/4620_A_Board_of_Adjustment_Public_Hearing_26-02-04_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-04",
-      "body": "Board of Adjustment Study Session",
-      "location": "Study Session",
-      "has_agenda": true,
-      "agenda_url": "https://legistar1.granicus.com/Mesa/meetings/2026/2/4619_A_Board_of_Adjustment_Study_Session_26-02-04_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-03",
-      "body": "Historic Preservation Board",
-      "location": "Study Session",
-      "has_agenda": true,
-      "agenda_url": "https://legistar1.granicus.com/Mesa/meetings/2026/2/4617_A_Historic_Preservation_Board_26-02-03_Meeting_Agenda.pdf",
-      "has_minutes": true,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-01-28",
-      "body": "Planning and Zoning Board - Public Hearing",
-      "location": "Council Chambers",
-      "has_agenda": true,
-      "agenda_url": "https://legistar1.granicus.com/Mesa/meetings/2026/1/4622_A_Planning_and_Zoning_Board_-_Public_Hearing_26-01-28_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-01-28",
-      "body": "Planning and Zoning Board - Study Session",
-      "location": "Study Session",
-      "has_agenda": true,
-      "agenda_url": "https://legistar1.granicus.com/Mesa/meetings/2026/1/4623_A_Planning_and_Zoning_Board_-_Study_Session_26-01-28_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-01-26",
-      "body": "City Council Study Session",
-      "location": "Study Session",
-      "has_agenda": true,
-      "agenda_url": "https://legistar1.granicus.com/Mesa/meetings/2026/1/4469_A_City_Council_Study_Session_26-01-26_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    }
-  ],
-  "recent_legislation": [
-    {
-      "title": "Appointments to Council Committees, Regional Boards, and other Committees.",
-      "type": "Appointment",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-05",
-      "file_number": "26-0195",
-      "passed_date": null
-    },
-    {
-      "title": "Use of a Cooperative Contract for the Purchase of One Paint Striping Truck (Addition) for the Fleet Services and Transportation Departments (Citywide)\n \nThe Transportation Department requires an addit",
-      "type": "Contract",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-05",
-      "file_number": "26-0194",
-      "passed_date": null
-    },
-    {
-      "title": "Turf Paradise \n \nNew Off-Track Betting License for Turf Paradise to telecast at JJ Madison's located at 430 North Power Road, Skyfall 7 LLC - Gary Alan Hartunian, applicant. (District 2)",
-      "type": "Off Track Betting License Application",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-05",
-      "file_number": "26-0188",
-      "passed_date": null
-    },
-    {
-      "title": "Aldi #195\n\nA grocery store requesting a new Series 10S Beer and Wine Store License with sampling privileges. for Aldi Arizona LLC, 1045 South Gilbert Road Suite 104-109 - Jeffrey Craig Miller, agent. ",
-      "type": "Liquor License Application",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-05",
-      "file_number": "26-0191",
-      "passed_date": null
-    },
-    {
-      "title": "Planning and Zoning Public Hearing Board meeting held on January 14, 2026",
-      "type": "Minutes",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-05",
-      "file_number": "26-0168",
-      "passed_date": null
-    },
-    {
-      "title": "Minutes from the January 13, 2026 Design Review Board meeting.",
-      "type": "DSN Minutes",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-05",
-      "file_number": "DSN 26008",
-      "passed_date": null
-    },
-    {
-      "title": "Mango Mini Mart\n \nA convenience store is requesting a new Series 10 Beer and Wine Store License for MV4 Enterprise LLC, 760 South Alma School Road - Lauren Kay Merrett, agent. The existing license hel",
-      "type": "Liquor License Application",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-05",
-      "file_number": "26-0192",
-      "passed_date": null
-    },
-    {
-      "title": "Dollar Limit Increase to the Cooperative Term Contract for Water Reclamation Facility Laboratory Supplies for the Water Resources Department (Citywide)\n \nThe Water Resources Department utilizes the Ci",
-      "type": "Contract",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-05",
-      "file_number": "26-0193",
-      "passed_date": null
-    },
-    {
-      "title": "Turf Paradise \n\nNew Off-Track Betting License for Turf Paradise, to telecast at R.T. O'Sullivans located at 6646 East Superstition Springs Boulevard, Skyfall 7 LLC  - Gary Alan Hartunian, applicant (D",
-      "type": "Off Track Betting License Application",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-05",
-      "file_number": "26-0190",
-      "passed_date": null
-    },
-    {
-      "title": "Turf Paradise\n\nNew Off-Track Betting License for Turf Paradise to telecast at O'Kelley's Sports Bar & Grill located at 2120 West Guadalupe Road Suite 14-19, Skyfall 7 LLC - Gary Alan Hartunian, applic",
-      "type": "Off Track Betting License Application",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-05",
-      "file_number": "26-0189",
-      "passed_date": null
-    }
-  ],
+  "recent_meetings": [],
+  "recent_legislation": [],
   "legistar_url": "https://mesa.legistar.com",
-  "enriched_at": "2026-02-16T13:17:32.862805",
+  "enriched_at": "2026-02-16T18:54:02.189446",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
