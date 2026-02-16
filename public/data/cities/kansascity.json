@@ -116,9 +116,9 @@
     "accela_agency_id": "KANSAS"
   },
   "development": {
-    "permits_12mo": 4274,
+    "permits_12mo": 4273,
     "yoy_trend_pct": -77.2,
-    "avg_permit_value": 196781.47,
+    "avg_permit_value": 196828.99,
     "permit_types": {
       "Electrical General": 938,
       "Plumbing General": 594,
@@ -292,8 +292,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.kcmo.org/resource/ntw8-aacc.json",
-        "probed_at": "2026-02-15T18:53:56.218401",
-        "data_vintage": "Rolling 12-month window ending 2026-02-15",
+        "probed_at": "2026-02-16T02:51:24.400896",
+        "data_vintage": "Rolling 12-month window ending 2026-02-16",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Permits - CPD Dataset",
@@ -798,6 +798,16 @@
       "upcoming": true
     },
     {
+      "date": "2026-03-18",
+      "body": "Risk Management Committee",
+      "location": "Virtual Closed Session",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
       "date": "2026-02-12",
       "body": "Property Maintenance Appeals Board",
       "location": "414 E. 12th St, Kansas City, MO 64106 \r\n13th Floor Conference Room West",
@@ -981,7 +991,7 @@
     }
   ],
   "legistar_url": "https://kansascity.legistar.com",
-  "enriched_at": "2026-02-15T18:47:47.030543",
+  "enriched_at": "2026-02-16T02:44:21.972690",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

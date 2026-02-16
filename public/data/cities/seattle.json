@@ -169,12 +169,12 @@
     "accela_agency_id": "SEATTLE"
   },
   "development": {
-    "permits_12mo": 6385,
-    "yoy_trend_pct": 9.5,
-    "avg_permit_value": 1094519.1,
+    "permits_12mo": 6382,
+    "yoy_trend_pct": 9.8,
+    "avg_permit_value": 1094922.22,
     "permit_types": {
-      "Building": 5397,
-      "Demolition": 536,
+      "Building": 5395,
+      "Demolition": 535,
       "Roof": 426,
       "Grading": 26
     },
@@ -474,8 +474,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.seattle.gov/resource/76t5-zqzr.json",
-        "probed_at": "2026-02-15T18:53:13.125567",
-        "data_vintage": "Rolling 12-month window ending 2026-02-15",
+        "probed_at": "2026-02-16T02:50:38.002025",
+        "data_vintage": "Rolling 12-month window ending 2026-02-16",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -521,7 +521,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Seattle",
-        "probed_at": "2026-02-15T18:54:05.955257",
+        "probed_at": "2026-02-16T02:51:39.160993",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -930,20 +930,20 @@
     },
     {
       "date": "2026-02-11",
-      "body": "Housing, Arts, and Civil Rights Committee",
-      "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA 98104",
+      "body": "Libraries, Education, and Neighborhoods Committee",
+      "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA  98104",
       "has_agenda": true,
-      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6585_A_Housing%2C_Arts%2C_and_Civil_Rights_Committee_26-02-11_Committee_Agenda.pdf",
+      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6580_A_Libraries%2C_Education%2C_and_Neighborhoods_Committee_26-02-11_Committee_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
     },
     {
       "date": "2026-02-11",
-      "body": "Libraries, Education, and Neighborhoods Committee",
-      "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA  98104",
+      "body": "Housing, Arts, and Civil Rights Committee",
+      "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA 98104",
       "has_agenda": true,
-      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6580_A_Libraries%2C_Education%2C_and_Neighborhoods_Committee_26-02-11_Committee_Agenda.pdf",
+      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6585_A_Housing%2C_Arts%2C_and_Civil_Rights_Committee_26-02-11_Committee_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -993,8 +993,8 @@
       "body": "Transportation, Waterfront, and Seattle Center Committee",
       "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA 98104",
       "has_agenda": true,
-      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6568_A_Transportation%2C_Waterfront%2C_and_Seattle_Center_Committee_26-02-05_Committee_Agenda.pdf",
-      "has_minutes": true,
+      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6575_A_Transportation%2C_Waterfront%2C_and_Seattle_Center_Committee_26-02-05_Committee_Agenda.pdf",
+      "has_minutes": false,
       "has_video": false,
       "upcoming": false
     },
@@ -1003,17 +1003,7 @@
       "body": "Transportation, Waterfront, and Seattle Center Committee",
       "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA 98104",
       "has_agenda": true,
-      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6575_A_Transportation%2C_Waterfront%2C_and_Seattle_Center_Committee_26-02-05_Committee_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-04",
-      "body": "Land Use and Sustainability Committee",
-      "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA 98104",
-      "has_agenda": true,
-      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6570_A_Land_Use_and_Sustainability_Committee_26-02-04_Committee_Agenda.pdf",
+      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6568_A_Transportation%2C_Waterfront%2C_and_Seattle_Center_Committee_26-02-05_Committee_Agenda.pdf",
       "has_minutes": true,
       "has_video": false,
       "upcoming": false
@@ -1025,6 +1015,16 @@
       "has_agenda": true,
       "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6561_A_Parks_and_City_Light_Committee_26-02-04_Committee_Agenda.pdf",
       "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-04",
+      "body": "Land Use and Sustainability Committee",
+      "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA 98104",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6570_A_Land_Use_and_Sustainability_Committee_26-02-04_Committee_Agenda.pdf",
+      "has_minutes": true,
       "has_video": false,
       "upcoming": false
     }
@@ -1071,19 +1071,19 @@
       "passed_date": null
     },
     {
-      "title": "Office of Labor Standards Department Overview",
-      "type": "Information Item (Inf)",
-      "status": "Heard in Committee",
-      "intro_date": "2026-01-29",
-      "file_number": "Inf 2828",
-      "passed_date": null
-    },
-    {
       "title": "Accessibility in Our Public Right-of-Way: ADA (Americans with Disabilities Act) and Consent Decree Compliance",
       "type": "Information Item (Inf)",
       "status": "Heard in Committee",
       "intro_date": "2026-01-29",
       "file_number": "Inf 2827",
+      "passed_date": null
+    },
+    {
+      "title": "Office of Labor Standards Department Overview",
+      "type": "Information Item (Inf)",
+      "status": "Heard in Committee",
+      "intro_date": "2026-01-29",
+      "file_number": "Inf 2828",
       "passed_date": null
     },
     {
@@ -1112,7 +1112,7 @@
     }
   ],
   "legistar_url": "https://seattle.legistar.com",
-  "enriched_at": "2026-02-15T18:51:55.155148",
+  "enriched_at": "2026-02-16T02:49:03.670602",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
