@@ -71,24 +71,24 @@
     "severely_burdened_pct": null
   },
   "health": {
-    "uninsured_pct": null,
-    "obesity_pct": null,
-    "diabetes_pct": null,
-    "depression_pct": null,
-    "asthma_pct": null,
-    "smoking_pct": null,
-    "physical_inactivity_pct": null,
-    "mental_health_bad_days": null,
-    "physical_health_bad_days": null,
-    "sleep_deficit_pct": null,
-    "high_blood_pressure_pct": null,
-    "high_cholesterol_pct": null,
-    "heart_disease_pct": null,
-    "stroke_pct": null,
-    "cancer_pct": null,
+    "uninsured_pct": 7.3,
+    "obesity_pct": 27.1,
+    "diabetes_pct": 7.7,
+    "depression_pct": 21.7,
+    "asthma_pct": 9.8,
+    "smoking_pct": 10.0,
+    "physical_inactivity_pct": 17.1,
+    "mental_health_bad_days": 15.4,
+    "physical_health_bad_days": 9.9,
+    "sleep_deficit_pct": 33.3,
+    "high_blood_pressure_pct": 25.0,
+    "high_cholesterol_pct": 30.4,
+    "heart_disease_pct": 4.2,
+    "stroke_pct": 2.3,
+    "cancer_pct": 7.0,
     "kidney_disease_pct": null,
-    "checkup_pct": null,
-    "data_year": null
+    "checkup_pct": 75.6,
+    "data_year": "2023"
   },
   "governance": {
     "legislative_volume": 15156,
@@ -246,7 +246,7 @@
     "youtube_meetings": "skipped",
     "seeclickfix": "available",
     "accela": "available",
-    "cdc_places": "unavailable",
+    "cdc_places": "available",
     "hud_usps": "unavailable",
     "census_vacancy": "unavailable"
   },
@@ -401,10 +401,10 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Orland%20Park",
-        "probed_at": "2026-02-17T13:21:00.114076",
-        "data_vintage": "BRFSS None",
+        "probed_at": "2026-02-17T19:09:43.596710",
+        "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
-        "status": "unavailable"
+        "status": "available"
       }
     },
     "derived_fields": {
@@ -671,7 +671,7 @@
   "recent_meetings": [],
   "recent_legislation": [],
   "legistar_url": "https://orlandpark.legistar.com",
-  "enriched_at": "2026-02-17T13:16:35.291902",
+  "enriched_at": "2026-02-17T19:04:15.788856",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
