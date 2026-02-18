@@ -85,24 +85,24 @@
     "vacant_other": 221
   },
   "health": {
-    "uninsured_pct": 9.6,
-    "obesity_pct": 25.5,
-    "diabetes_pct": 9.2,
-    "depression_pct": 22.0,
-    "asthma_pct": 9.2,
-    "smoking_pct": 10.1,
-    "physical_inactivity_pct": 20.6,
-    "mental_health_bad_days": 17.0,
-    "physical_health_bad_days": 12.0,
-    "sleep_deficit_pct": 34.4,
-    "high_blood_pressure_pct": 26.9,
-    "high_cholesterol_pct": 30.6,
-    "heart_disease_pct": 4.8,
-    "stroke_pct": 2.6,
-    "cancer_pct": 6.5,
+    "uninsured_pct": null,
+    "obesity_pct": null,
+    "diabetes_pct": null,
+    "depression_pct": null,
+    "asthma_pct": null,
+    "smoking_pct": null,
+    "physical_inactivity_pct": null,
+    "mental_health_bad_days": null,
+    "physical_health_bad_days": null,
+    "sleep_deficit_pct": null,
+    "high_blood_pressure_pct": null,
+    "high_cholesterol_pct": null,
+    "heart_disease_pct": null,
+    "stroke_pct": null,
+    "cancer_pct": null,
     "kidney_disease_pct": null,
-    "checkup_pct": 71.8,
-    "data_year": "2023"
+    "checkup_pct": null,
+    "data_year": null
   },
   "governance": {
     "legislative_volume": 3875,
@@ -342,7 +342,7 @@
     "youtube_meetings": "skipped",
     "seeclickfix": "skipped",
     "accela": "available",
-    "cdc_places": "available",
+    "cdc_places": "unavailable",
     "hud_usps": "unavailable",
     "census_vacancy": "available"
   },
@@ -497,10 +497,10 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=San%20Marcos",
-        "probed_at": "2026-02-18T02:59:33.598295",
-        "data_vintage": "BRFSS 2023",
+        "probed_at": "2026-02-18T07:11:40.125804",
+        "data_vintage": "BRFSS None",
         "geographic_level": "place",
-        "status": "available"
+        "status": "unavailable"
       }
     },
     "derived_fields": {
@@ -767,7 +767,7 @@
   "recent_meetings": [],
   "recent_legislation": [],
   "legistar_url": "https://sanmarcos.legistar.com",
-  "enriched_at": "2026-02-18T02:54:40.870040",
+  "enriched_at": "2026-02-18T07:08:29.489348",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
