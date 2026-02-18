@@ -94,24 +94,24 @@
     "vacant_other": 168
   },
   "health": {
-    "uninsured_pct": 16.9,
-    "obesity_pct": 33.3,
-    "diabetes_pct": 9.7,
-    "depression_pct": 21.0,
-    "asthma_pct": 11.1,
-    "smoking_pct": 13.4,
-    "physical_inactivity_pct": 22.9,
-    "mental_health_bad_days": 17.3,
-    "physical_health_bad_days": 12.8,
-    "sleep_deficit_pct": 33.3,
-    "high_blood_pressure_pct": 27.8,
-    "high_cholesterol_pct": 29.7,
-    "heart_disease_pct": 5.0,
-    "stroke_pct": 2.8,
-    "cancer_pct": 6.7,
+    "uninsured_pct": null,
+    "obesity_pct": null,
+    "diabetes_pct": null,
+    "depression_pct": null,
+    "asthma_pct": null,
+    "smoking_pct": null,
+    "physical_inactivity_pct": null,
+    "mental_health_bad_days": null,
+    "physical_health_bad_days": null,
+    "sleep_deficit_pct": null,
+    "high_blood_pressure_pct": null,
+    "high_cholesterol_pct": null,
+    "heart_disease_pct": null,
+    "stroke_pct": null,
+    "cancer_pct": null,
     "kidney_disease_pct": null,
-    "checkup_pct": 70.6,
-    "data_year": "2023"
+    "checkup_pct": null,
+    "data_year": null
   },
   "governance": {
     "legislative_volume": 3875,
@@ -372,7 +372,7 @@
     "youtube_meetings": "skipped",
     "seeclickfix": "available",
     "accela": "available",
-    "cdc_places": "available",
+    "cdc_places": "unavailable",
     "hud_usps": "unavailable",
     "census_vacancy": "available"
   },
@@ -527,10 +527,10 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Brighton",
-        "probed_at": "2026-02-18T07:12:30.070693",
-        "data_vintage": "BRFSS 2023",
+        "probed_at": "2026-02-18T13:22:51.031411",
+        "data_vintage": "BRFSS None",
         "geographic_level": "place",
-        "status": "available"
+        "status": "unavailable"
       }
     },
     "derived_fields": {
@@ -797,7 +797,7 @@
   "recent_meetings": [],
   "recent_legislation": [],
   "legistar_url": "https://brightonco.legistar.com",
-  "enriched_at": "2026-02-18T07:07:49.805863",
+  "enriched_at": "2026-02-18T13:16:22.114289",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

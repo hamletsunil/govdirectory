@@ -92,24 +92,24 @@
     "vacant_other": 1093
   },
   "health": {
-    "uninsured_pct": 3.7,
-    "obesity_pct": 22.1,
-    "diabetes_pct": 7.2,
-    "depression_pct": 22.8,
-    "asthma_pct": 9.7,
-    "smoking_pct": 7.8,
-    "physical_inactivity_pct": 14.6,
-    "mental_health_bad_days": 15.6,
-    "physical_health_bad_days": 10.2,
-    "sleep_deficit_pct": 31.7,
-    "high_blood_pressure_pct": 24.6,
-    "high_cholesterol_pct": 32.0,
-    "heart_disease_pct": 3.9,
-    "stroke_pct": 2.2,
-    "cancer_pct": 7.3,
+    "uninsured_pct": null,
+    "obesity_pct": null,
+    "diabetes_pct": null,
+    "depression_pct": null,
+    "asthma_pct": null,
+    "smoking_pct": null,
+    "physical_inactivity_pct": null,
+    "mental_health_bad_days": null,
+    "physical_health_bad_days": null,
+    "sleep_deficit_pct": null,
+    "high_blood_pressure_pct": null,
+    "high_cholesterol_pct": null,
+    "heart_disease_pct": null,
+    "stroke_pct": null,
+    "cancer_pct": null,
     "kidney_disease_pct": null,
-    "checkup_pct": 72.5,
-    "data_year": "2023"
+    "checkup_pct": null,
+    "data_year": null
   },
   "governance": {
     "legislative_volume": 0,
@@ -328,7 +328,7 @@
     "youtube_meetings": "skipped",
     "seeclickfix": "available",
     "accela": "available",
-    "cdc_places": "available",
+    "cdc_places": "unavailable",
     "hud_usps": "unavailable",
     "census_vacancy": "available"
   },
@@ -483,10 +483,10 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Beverly%20Hills",
-        "probed_at": "2026-02-18T07:12:34.563946",
-        "data_vintage": "BRFSS 2023",
+        "probed_at": "2026-02-18T13:23:04.679573",
+        "data_vintage": "BRFSS None",
         "geographic_level": "place",
-        "status": "available"
+        "status": "unavailable"
       }
     },
     "derived_fields": {
@@ -753,7 +753,7 @@
   "recent_meetings": [],
   "recent_legislation": [],
   "legistar_url": "https://beverlyhills.legistar.com",
-  "enriched_at": "2026-02-18T07:07:48.624496",
+  "enriched_at": "2026-02-18T13:16:17.319075",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
