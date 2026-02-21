@@ -94,24 +94,24 @@
     "vacant_other": 405
   },
   "health": {
-    "uninsured_pct": 3.0,
-    "obesity_pct": 19.9,
-    "diabetes_pct": 6.2,
-    "depression_pct": 21.1,
-    "asthma_pct": 9.0,
-    "smoking_pct": 5.9,
-    "physical_inactivity_pct": 11.9,
-    "mental_health_bad_days": 13.9,
-    "physical_health_bad_days": 8.6,
-    "sleep_deficit_pct": 29.5,
-    "high_blood_pressure_pct": 22.6,
-    "high_cholesterol_pct": 31.6,
-    "heart_disease_pct": 3.4,
-    "stroke_pct": 1.8,
-    "cancer_pct": 7.2,
+    "uninsured_pct": null,
+    "obesity_pct": null,
+    "diabetes_pct": null,
+    "depression_pct": null,
+    "asthma_pct": null,
+    "smoking_pct": null,
+    "physical_inactivity_pct": null,
+    "mental_health_bad_days": null,
+    "physical_health_bad_days": null,
+    "sleep_deficit_pct": null,
+    "high_blood_pressure_pct": null,
+    "high_cholesterol_pct": null,
+    "heart_disease_pct": null,
+    "stroke_pct": null,
+    "cancer_pct": null,
     "kidney_disease_pct": null,
-    "checkup_pct": 72.5,
-    "data_year": "2023"
+    "checkup_pct": null,
+    "data_year": null
   },
   "governance": {
     "legislative_volume": 5000,
@@ -405,7 +405,7 @@
     "youtube_meetings": "available",
     "seeclickfix": "available",
     "accela": "available",
-    "cdc_places": "available",
+    "cdc_places": "unavailable",
     "hud_usps": "unavailable",
     "census_vacancy": "available"
   },
@@ -560,10 +560,10 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Manhattan%20Beach",
-        "probed_at": "2026-02-21T13:02:30.054877",
-        "data_vintage": "BRFSS 2023",
+        "probed_at": "2026-02-21T18:47:22.295564",
+        "data_vintage": "BRFSS None",
         "geographic_level": "place",
-        "status": "available"
+        "status": "unavailable"
       }
     },
     "derived_fields": {
@@ -830,7 +830,7 @@
   "recent_meetings": [],
   "recent_legislation": [],
   "legistar_url": "https://manhattanbeach.legistar.com",
-  "enriched_at": "2026-02-21T12:58:34.960783",
+  "enriched_at": "2026-02-21T18:42:01.068403",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
