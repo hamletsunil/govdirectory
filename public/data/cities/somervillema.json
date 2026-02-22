@@ -85,24 +85,24 @@
     "vacant_other": 1193
   },
   "health": {
-    "uninsured_pct": null,
-    "obesity_pct": null,
-    "diabetes_pct": null,
-    "depression_pct": null,
-    "asthma_pct": null,
-    "smoking_pct": null,
-    "physical_inactivity_pct": null,
-    "mental_health_bad_days": null,
-    "physical_health_bad_days": null,
-    "sleep_deficit_pct": null,
-    "high_blood_pressure_pct": null,
-    "high_cholesterol_pct": null,
-    "heart_disease_pct": null,
-    "stroke_pct": null,
-    "cancer_pct": null,
+    "uninsured_pct": 4.1,
+    "obesity_pct": 24.7,
+    "diabetes_pct": 8.0,
+    "depression_pct": 24.7,
+    "asthma_pct": 11.5,
+    "smoking_pct": 9.2,
+    "physical_inactivity_pct": 17.8,
+    "mental_health_bad_days": 15.4,
+    "physical_health_bad_days": 9.9,
+    "sleep_deficit_pct": 31.9,
+    "high_blood_pressure_pct": 26.0,
+    "high_cholesterol_pct": 31.7,
+    "heart_disease_pct": 4.4,
+    "stroke_pct": 2.4,
+    "cancer_pct": 7.2,
     "kidney_disease_pct": null,
-    "checkup_pct": null,
-    "data_year": null
+    "checkup_pct": 79.1,
+    "data_year": "2023"
   },
   "governance": {
     "legislative_volume": 31640,
@@ -221,7 +221,7 @@
   },
   "development": {
     "permits_12mo": 7395,
-    "yoy_trend_pct": 6.2,
+    "yoy_trend_pct": 6.3,
     "avg_permit_value": null,
     "permit_types": {
       "Building Permit": 1899,
@@ -517,7 +517,7 @@
     "youtube_meetings": "available",
     "seeclickfix": "available",
     "accela": "available",
-    "cdc_places": "unavailable",
+    "cdc_places": "available",
     "hud_usps": "unavailable",
     "census_vacancy": "available"
   },
@@ -627,8 +627,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.somervillema.gov/resource/nneb-s3f7.json",
-        "probed_at": "2026-02-21T18:43:54.927312",
-        "data_vintage": "Rolling 12-month window ending 2026-02-21",
+        "probed_at": "2026-02-22T02:39:31.045066",
+        "data_vintage": "Rolling 12-month window ending 2026-02-22",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Applications for Permits and Licenses",
@@ -674,10 +674,10 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Somerville",
-        "probed_at": "2026-02-21T18:46:26.316888",
-        "data_vintage": "BRFSS None",
+        "probed_at": "2026-02-22T02:41:16.120344",
+        "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
-        "status": "unavailable"
+        "status": "available"
       }
     },
     "derived_fields": {
@@ -944,7 +944,7 @@
   "recent_meetings": [],
   "recent_legislation": [],
   "legistar_url": "https://somervillema.legistar.com",
-  "enriched_at": "2026-02-21T18:42:04.263389",
+  "enriched_at": "2026-02-22T02:38:25.140343",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

@@ -71,24 +71,24 @@
     "severely_burdened_pct": null
   },
   "health": {
-    "uninsured_pct": null,
-    "obesity_pct": null,
-    "diabetes_pct": null,
-    "depression_pct": null,
-    "asthma_pct": null,
-    "smoking_pct": null,
-    "physical_inactivity_pct": null,
-    "mental_health_bad_days": null,
-    "physical_health_bad_days": null,
-    "sleep_deficit_pct": null,
-    "high_blood_pressure_pct": null,
-    "high_cholesterol_pct": null,
-    "heart_disease_pct": null,
-    "stroke_pct": null,
-    "cancer_pct": null,
+    "uninsured_pct": 12.4,
+    "obesity_pct": 46.3,
+    "diabetes_pct": 17.1,
+    "depression_pct": 21.5,
+    "asthma_pct": 12.9,
+    "smoking_pct": 18.0,
+    "physical_inactivity_pct": 33.3,
+    "mental_health_bad_days": 20.5,
+    "physical_health_bad_days": 15.7,
+    "sleep_deficit_pct": 49.6,
+    "high_blood_pressure_pct": 43.3,
+    "high_cholesterol_pct": 32.8,
+    "heart_disease_pct": 6.5,
+    "stroke_pct": 4.9,
+    "cancer_pct": 5.0,
     "kidney_disease_pct": null,
-    "checkup_pct": null,
-    "data_year": null
+    "checkup_pct": 81.2,
+    "data_year": "2023"
   },
   "governance": {
     "legislative_volume": 2750,
@@ -265,7 +265,7 @@
     "youtube_meetings": "available",
     "seeclickfix": "available",
     "accela": "available",
-    "cdc_places": "unavailable",
+    "cdc_places": "available",
     "hud_usps": "unavailable",
     "census_vacancy": "unavailable"
   },
@@ -420,10 +420,10 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Petersburg",
-        "probed_at": "2026-02-21T18:48:50.781668",
-        "data_vintage": "BRFSS None",
+        "probed_at": "2026-02-22T02:43:14.266692",
+        "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
-        "status": "unavailable"
+        "status": "available"
       }
     },
     "derived_fields": {
@@ -690,7 +690,7 @@
   "recent_meetings": [],
   "recent_legislation": [],
   "legistar_url": "https://petersburg.legistar.com",
-  "enriched_at": "2026-02-21T18:42:02.592210",
+  "enriched_at": "2026-02-22T02:38:23.455459",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
