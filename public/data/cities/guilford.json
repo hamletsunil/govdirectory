@@ -356,7 +356,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Guilford",
-        "probed_at": "2026-02-22T18:47:22.738457",
+        "probed_at": "2026-02-23T02:52:13.675534",
         "data_vintage": "BRFSS None",
         "geographic_level": "place",
         "status": "unavailable"
@@ -620,13 +620,145 @@
     "granularity_flags": 0
   },
   "officials": {
-    "body_name": null,
+    "body_name": "Board of Commissioners",
     "members": []
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-19",
+      "body": "Board of Commissioners",
+      "location": "Second Floor, Old County Courthouse",
+      "has_agenda": true,
+      "agenda_url": "https://guilford.legistar1.com/guilford/meetings/2026/2/1583_A_Board_of_Commissioners_26-02-19_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-19",
+      "body": "Board of Commissioners",
+      "location": "Second Floor, Old County Courthouse",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-05",
+      "body": "Board of Commissioners",
+      "location": "City of High Point Council Chambers\r\nMunicipal Bldg., 3rd Floor\r\n211 South Hamilton Street\r\nHigh Point, NC 27261",
+      "has_agenda": true,
+      "agenda_url": "https://guilford.legistar1.com/guilford/meetings/2026/2/1582_A_Board_of_Commissioners_26-02-05_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-05",
+      "body": "Board of Commissioners Work Session",
+      "location": "City of High Point Municipal Bldg.\r\nCouncil Chambers, 3rd Floor\r\n211 South Hamilton St., High Point",
+      "has_agenda": true,
+      "agenda_url": "https://guilford.legistar1.com/guilford/meetings/2026/2/1607_A_Board_of_Commissioners_Work_Session__26-02-05_Work_Session.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-30",
+      "body": "Board of Commissioners - Retreat",
+      "location": "ACC Hall of Champions Conference Room\r\n1921 W. Gate City Blvd., Greensboro, NC",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "RESOLUTION HONORING THE LIFE AND LEGACY OF REVEREND JESSE LOUIS JACKSON, SR.",
+      "type": "Presentation",
+      "status": "Passed",
+      "intro_date": "2026-02-19",
+      "file_number": "2026-167",
+      "passed_date": "2026-02-19"
+    },
+    {
+      "title": "TRANSCO PIPELINE EASEMENT",
+      "type": "New Business",
+      "status": "Passed",
+      "intro_date": "2026-02-13",
+      "file_number": "2026-163",
+      "passed_date": "2026-02-19"
+    },
+    {
+      "title": "APPOINTMENTS AND REAPPOINTMENTS TO VARIOUS BOARDS & COMMISSIONS",
+      "type": "Appointments",
+      "status": "Passed",
+      "intro_date": "2026-02-04",
+      "file_number": "2026-152",
+      "passed_date": "2026-02-19"
+    },
+    {
+      "title": "BUDGET AMENDMENT FY 26 NC DEPARTMENT OF MILITARY AND VETERANS AFFAIRS GRANT - $20,000",
+      "type": "Budget Amendment",
+      "status": "Passed",
+      "intro_date": "2026-02-04",
+      "file_number": "2026-151",
+      "passed_date": "2026-02-19"
+    },
+    {
+      "title": "ADVANCING OUR LIVABILITY STRATEGIC PLAN UPDATE",
+      "type": "New Business",
+      "status": "Reported to Council",
+      "intro_date": "2026-02-03",
+      "file_number": "2026-149",
+      "passed_date": "2026-02-05"
+    },
+    {
+      "title": "COUNTY DEBT LEVELING PLAN",
+      "type": "New Business",
+      "status": "Reported to Council",
+      "intro_date": "2026-02-03",
+      "file_number": "2026-148",
+      "passed_date": "2026-02-05"
+    },
+    {
+      "title": "RESOLUTION CELEBRATING THE CIVIL RIGHTS MOVEMENT AND COMMEMORATING THE GREENSBORO AND HIGH POINT SIT-INS",
+      "type": "New Business",
+      "status": "Passed",
+      "intro_date": "2026-01-31",
+      "file_number": "2026-146",
+      "passed_date": "2026-02-05"
+    },
+    {
+      "title": "PROCLAIM FEBRUARY 20, 2026 AS GOVERNMENT COMMUNICATORS DAY IN GUILFORD COUNTY",
+      "type": "Presentation",
+      "status": "Passed",
+      "intro_date": "2026-01-30",
+      "file_number": "2026-145",
+      "passed_date": "2026-02-19"
+    },
+    {
+      "title": "PROPERTY TAX REBATES AND RELEASES FOR MONTH ENDING JANUARY 31, 2026",
+      "type": "Miscellaneous",
+      "status": "Passed",
+      "intro_date": "2026-01-29",
+      "file_number": "2026-144",
+      "passed_date": "2026-02-19"
+    },
+    {
+      "title": "TAX COLLECTION AND BEVERAGE LICENSE REPORTS FOR MONTH ENDING JANUARY 31, 2026",
+      "type": "Miscellaneous",
+      "status": "Passed",
+      "intro_date": "2026-01-29",
+      "file_number": "2026-143",
+      "passed_date": "2026-02-19"
+    }
+  ],
   "legistar_url": "https://guilford.legistar.com",
-  "enriched_at": "2026-02-22T18:42:37.858364",
+  "enriched_at": "2026-02-23T02:43:08.374049",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

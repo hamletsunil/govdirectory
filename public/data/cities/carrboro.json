@@ -349,7 +349,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Carrboro",
-        "probed_at": "2026-02-22T18:47:13.545587",
+        "probed_at": "2026-02-23T02:52:06.184404",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -613,13 +613,135 @@
     "granularity_flags": 0
   },
   "officials": {
-    "body_name": null,
+    "body_name": "Town Council",
     "members": []
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-20",
+      "body": "Town Council",
+      "location": "Drakeford Library Complex (203 S. Greensboro St.)",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/carrboro/meetings/2026/2/1593_A_Town_Council_26-02-20_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "Town Council",
+      "location": "Council Chambers - Room 110",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/carrboro/meetings/2026/2/1574_A_Town_Council_26-02-17_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "Town Council",
+      "location": "Council Chambers - Room 110",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/carrboro/meetings/2026/2/1573_A_Town_Council_26-02-10_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "Town Council",
+      "location": "Council Chambers - Room 110",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/carrboro/meetings/2026/2/1572_A_Town_Council_26-02-03_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Appointment to Selected Boards/Commissions",
+      "type": "Action Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-13",
+      "file_number": "26-022",
+      "passed_date": null
+    },
+    {
+      "title": "Review of the Stormwater Enterprise and Stormwater Rates",
+      "type": "Information Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-11",
+      "file_number": "26-020",
+      "passed_date": null
+    },
+    {
+      "title": "Fiscal Year 2025-26 Budget Amendment #4",
+      "type": "Consent Agenda",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-10",
+      "file_number": "26-018",
+      "passed_date": null
+    },
+    {
+      "title": "Pre-authorization to Apply for 2026 NC Forest Service Urban and Community Forestry Grant",
+      "type": "Consent Agenda",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-09",
+      "file_number": "26-017",
+      "passed_date": null
+    },
+    {
+      "title": "Tropical Storm Chantal Recovery Update and FEMA Public Assistance Overview",
+      "type": "Information Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-06",
+      "file_number": "26-016",
+      "passed_date": null
+    },
+    {
+      "title": "FY 2026-27 Budget Work Session",
+      "type": "Information Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-06",
+      "file_number": "26-015",
+      "passed_date": null
+    },
+    {
+      "title": "Approval of Minutes from Town Council meeting held on February 3, 2026",
+      "type": "Consent Agenda",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-29",
+      "file_number": "26-014",
+      "passed_date": null
+    },
+    {
+      "title": "Request to Set a Legislative Public Hearing on a Land Use Ordinance Text Amendment Relating to the Office-Residential Mixed Use (OR-MU) Zoning District",
+      "type": "Consent Agenda",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-15",
+      "file_number": "26-012",
+      "passed_date": null
+    },
+    {
+      "title": "Comprehensive Plan Update & Performance Measures",
+      "type": "Information Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-15",
+      "file_number": "26-010",
+      "passed_date": null
+    },
+    {
+      "title": "Proposed Amendment to Chapter 4 (Personnel Policy) of the Town Code Related to Holiday Compensation for Shift Employees, Compensatory Time, and Personal Time Off",
+      "type": "Consent Agenda",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-15",
+      "file_number": "26-011",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://carrboro.legistar.com",
-  "enriched_at": "2026-02-22T18:42:22.807166",
+  "enriched_at": "2026-02-23T02:40:20.434338",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

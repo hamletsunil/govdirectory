@@ -534,7 +534,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Orange",
-        "probed_at": "2026-02-22T18:45:26.423905",
+        "probed_at": "2026-02-23T02:50:39.802816",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -798,13 +798,274 @@
     "granularity_flags": 2
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "Orange City Council",
+    "members": [
+      {
+        "name": "Ana Gutierrez",
+        "email": "anagutierrez@cityoforange.org",
+        "title": "Councilmember",
+        "start_date": "2020-12-05",
+        "website": "https://www.cityoforange.org/our-city/local-government/city-council/councilmember-ana-gutierrez"
+      },
+      {
+        "name": "Arianna Barrios",
+        "email": "abarrios@cityoforange.org",
+        "title": "Councilmember",
+        "start_date": "2022-12-16",
+        "website": "https://www.cityoforange.org/our-city/local-government/city-council/mayor-pro-tem-arianna-barrios"
+      },
+      {
+        "name": "Dan Slater",
+        "email": "dan@danslater.com",
+        "title": "Mayor",
+        "start_date": "2022-12-16",
+        "website": "https://www.cityoforange.org/our-city/local-government/city-council/mayor-dan-slater"
+      },
+      {
+        "name": "Denis Bilodeau",
+        "email": "dbilodeau@cityoforange.org",
+        "title": "Mayor pro tem",
+        "start_date": "2022-12-16"
+      },
+      {
+        "name": "John Gyllenhammer",
+        "email": "jgyllenhammer@cityoforange.org",
+        "title": "Councilmember",
+        "start_date": "2022-12-16",
+        "website": "https://www.cityoforange.org/our-city/local-government/city-council/councilmember-john-gyllenhammer"
+      },
+      {
+        "name": "Jon Dumitru",
+        "email": "jdumitru@cityoforange.org",
+        "title": "Councilmember",
+        "start_date": "2020-12-05",
+        "website": "https://www.cityoforange.org/our-city/local-government/city-council/councilmember-jon-dumitru"
+      },
+      {
+        "name": "Kathy Tavoularis",
+        "email": "ktavoularis@cityoforange.org",
+        "title": "Councilmember",
+        "start_date": "2022-12-16",
+        "website": "https://www.cityoforange.org/our-city/local-government/city-council/councilmember-kathy-tavoularis"
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-23",
+      "body": "Orange Public Library Board of Trustees",
+      "location": "Taft Branch Library - Salter Annex\r\n740 E. Taft Avenue\r\nOrange, CA  92865",
+      "has_agenda": true,
+      "agenda_url": "https://cityoforange.legistar1.com/cityoforange/meetings/2026/2/1701_A_Orange_Public_Library_Board_of_Trustees_26-02-23_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-24",
+      "body": "Orange City Council",
+      "location": "City Council Chamber\r\n300 E. Chapman Avenue\r\nOrange, CA 92866",
+      "has_agenda": true,
+      "agenda_url": "https://cityoforange.legistar1.com/cityoforange/meetings/2026/2/1717_A_Orange_City_Council_26-02-24_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-24",
+      "body": "Orange City Council",
+      "location": "City Council Chamber\r\n300 E. Chapman Avenue\r\nOrange, CA 92866",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-19",
+      "body": "Planning Commission",
+      "location": "City Council Chamber\r\n300 E. Chapman Avenue\r\nOrange, CA  92866",
+      "has_agenda": true,
+      "agenda_url": "https://cityoforange.legistar1.com/cityoforange/meetings/2026/2/1755_A_Planning_Commission_26-02-19_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-18",
+      "body": "Design Review Committee",
+      "location": "City Council Chamber\r\n300 E. Chapman Avenue\r\nOrange, CA  92866",
+      "has_agenda": true,
+      "agenda_url": "https://cityoforange.legistar1.com/cityoforange/meetings/2026/2/1781_A_Design_Review_Committee_26-02-18_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-12",
+      "body": "Audit Advisory Committee",
+      "location": "Orange Public Library\r\nCommunity Room\r\n407 E. Chapman Avenue\r\nOrange, CA  92866",
+      "has_agenda": true,
+      "agenda_url": "https://cityoforange.legistar1.com/cityoforange/meetings/2026/2/1819_A_Audit_Advisory_Committee_26-02-12_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-12",
+      "body": "Community Development Block Grant Program Committee",
+      "location": "Weimer Room\r\n300 E. Chapman Avenue\r\nOrange, CA  92866",
+      "has_agenda": true,
+      "agenda_url": "https://cityoforange.legistar1.com/cityoforange/meetings/2026/2/1752_A_Community_Development_Block_Grant_Program_Committee_26-02-12_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-11",
+      "body": "City Traffic Commission",
+      "location": "City Council Chamber\r\n300 E. Chapman Avenue\r\nOrange, CA 92866",
+      "has_agenda": true,
+      "agenda_url": "https://cityoforange.legistar1.com/cityoforange/meetings/2026/2/1806_A_City_Traffic_Commission_26-02-11_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "Orange City Council",
+      "location": "City Council Chamber\r\n300 E. Chapman Avenue\r\nOrange, CA 92866",
+      "has_agenda": true,
+      "agenda_url": "https://cityoforange.legistar1.com/cityoforange/meetings/2026/2/1716_A_Orange_City_Council_26-02-10_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-05",
+      "body": "Audit Advisory Committee",
+      "location": "Meeting Cancelled",
+      "has_agenda": true,
+      "agenda_url": "https://cityoforange.legistar1.com/cityoforange/meetings/2026/2/1817_A_Audit_Advisory_Committee_26-02-05_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-05",
+      "body": "Orange City Council",
+      "location": "Orange Public Library & History Center\r\nCommunity Room\r\n407 E. Chapman Avenue\r\nOrange, CA  92866",
+      "has_agenda": true,
+      "agenda_url": "https://cityoforange.legistar1.com/cityoforange/meetings/2026/2/1818_A_Orange_City_Council_26-02-05_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-04",
+      "body": "Design Review Committee",
+      "location": "Meeting Cancelled",
+      "has_agenda": true,
+      "agenda_url": "https://cityoforange.legistar1.com/cityoforange/meetings/2026/2/1780_A_Design_Review_Committee_26-02-04_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-02",
+      "body": "Planning Commission",
+      "location": "City Council Chamber\r\n300 E. Chapman Avenue\r\nOrange, CA  92866",
+      "has_agenda": true,
+      "agenda_url": "https://cityoforange.legistar1.com/cityoforange/meetings/2026/2/1756_A_Planning_Commission_26-02-02_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Approval of minutes of the Orange Public Library Board of Trustees Regular Meeting held on January 26, 2026",
+      "type": "Minutes",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-17",
+      "file_number": "26-0102",
+      "passed_date": null
+    },
+    {
+      "title": "Review of the Santiago Creek Commission Strategic Plan.",
+      "type": "Administrative Reports",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-06",
+      "file_number": "26-0090",
+      "passed_date": null
+    },
+    {
+      "title": "Authorize purchase of replacement public use desktop computers and laptops from CPAC, Inc.",
+      "type": "Consent - Purchase",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-04",
+      "file_number": "26-0088",
+      "passed_date": null
+    },
+    {
+      "title": "Request for a time extension for the Copic Orthodox Church located at 491 N. Hewes Street (Conditional Use Permit No. 3215-23, Major Site Plan Review No. 1054-21, and Design Review No. 1799-15).",
+      "type": "PC/DRC Consent Calendar",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-04",
+      "file_number": "26-0089",
+      "passed_date": null
+    },
+    {
+      "title": "Selection of Planning Commission Officers.",
+      "type": "PC Commission Business",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-03",
+      "file_number": "26-0076",
+      "passed_date": null
+    },
+    {
+      "title": "Selection of Audit Advisory Committee Officers.",
+      "type": "Audit Business",
+      "status": "Passed",
+      "intro_date": "2026-02-03",
+      "file_number": "26-0080",
+      "passed_date": "2026-02-12"
+    },
+    {
+      "title": "Appropriation of $55,000 from the County of Orange for the 2025 Proposition 69 funding award and approval of purchase of a forensic imaging and evidence detection device from Foster & Freeman USA Inc.",
+      "type": "Consent - Appropriations",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-03",
+      "file_number": "26-0079",
+      "passed_date": null
+    },
+    {
+      "title": "Public Hearing to consider a request to subdivide an existing vacant site to construct 15 detached three-story residential dwellings at 715 W. Fletcher Avenue and finding of CEQA Exemption (ENT25-0015",
+      "type": "PC Public Hearing",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-03",
+      "file_number": "26-0073",
+      "passed_date": null
+    },
+    {
+      "title": "First Amendment to Agreement with Tetra Tech, Inc. for additional design services for Well 29 Equipping.",
+      "type": "Consent - Agreements",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-03",
+      "file_number": "26-0078",
+      "passed_date": null
+    },
+    {
+      "title": "Authorize an increase to two purchase orders for medical supplies and essential equipment repairs for the Emergency Medical Transport Program.",
+      "type": "Consent - Purchase",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-03",
+      "file_number": "26-0081",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://cityoforange.legistar.com",
-  "enriched_at": "2026-02-22T18:42:27.851421",
+  "enriched_at": "2026-02-23T02:41:09.201352",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

@@ -347,7 +347,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Troup",
-        "probed_at": "2026-02-22T18:47:50.164415",
+        "probed_at": "2026-02-23T02:52:36.023911",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -611,13 +611,69 @@
     "granularity_flags": 0
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "Board of County Commissioners",
+    "members": [
+      {
+        "name": "James L Thrailkill, Sr.",
+        "email": null,
+        "title": "Commissioner",
+        "start_date": "2025-08-01"
+      },
+      {
+        "name": "Jimmy D. McCamey, Jr.",
+        "email": null,
+        "title": "Vice Chairman",
+        "start_date": "2025-08-01"
+      },
+      {
+        "name": "J. Morris Jones, III",
+        "email": null,
+        "title": "Commissioner",
+        "start_date": "2025-08-01"
+      },
+      {
+        "name": "Patrick Crews",
+        "email": null,
+        "title": "Chairman",
+        "start_date": "2025-08-01"
+      },
+      {
+        "name": "Rex Scott",
+        "email": null,
+        "title": "Commissioner",
+        "start_date": "2025-08-01"
+      }
+    ]
   },
   "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_legislation": [
+    {
+      "title": "VAR-010826-McGhee-2942 Mobley Bridge Rd",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-02",
+      "file_number": "2025-135",
+      "passed_date": null
+    },
+    {
+      "title": "Text Amendment to Unified Development Ordinance",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-02",
+      "file_number": "2025-140",
+      "passed_date": null
+    },
+    {
+      "title": "Beer & Wine License Application - Isitri Sikdhar - 1231 Bartley Rd (APN 0532 000056)",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2025-12-31",
+      "file_number": "2025-131",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://troup.legistar.com",
-  "enriched_at": "2026-02-22T18:43:04.909249",
+  "enriched_at": "2026-02-23T02:48:10.408707",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

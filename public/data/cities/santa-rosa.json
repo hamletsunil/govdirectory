@@ -544,7 +544,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Santa%20Rosa",
-        "probed_at": "2026-02-22T18:45:10.258482",
+        "probed_at": "2026-02-23T02:50:26.470815",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -808,13 +808,321 @@
     "granularity_flags": 2
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "City Council",
+    "members": [
+      {
+        "name": "Caroline Bañuelos",
+        "email": "cbanuelos@srcity.org",
+        "title": "Council Member",
+        "start_date": "2024-12-18",
+        "committees": [
+          "Public Financing Authority"
+        ]
+      },
+      {
+        "name": "Dianna MacDonald",
+        "email": "dmacdonald@srcity.org",
+        "title": "Council Member",
+        "start_date": "2028-12-18"
+      },
+      {
+        "name": "Eddie Alvarez",
+        "email": "ealvarez@srcity.org",
+        "title": "Council Member",
+        "start_date": "2025-11-18"
+      },
+      {
+        "name": "Jeff Okrepkie",
+        "email": "jokrepkie@srcity.org",
+        "title": "Vice Mayor",
+        "start_date": "2025-11-18"
+      },
+      {
+        "name": "Mark Stapp",
+        "email": "mstapp@srcity.org",
+        "title": "Mayor",
+        "start_date": "2024-12-18"
+      },
+      {
+        "name": "Natalie Rogers",
+        "email": "nrogers@srcity.org",
+        "title": "Council Member",
+        "start_date": "2024-12-18"
+      },
+      {
+        "name": "Victoria Fleming",
+        "email": "vfleming@srcity.org",
+        "title": "Council Member",
+        "start_date": "2022-12-14"
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-23",
+      "body": "Housing Authority",
+      "location": "Council Chamber, City Hall\r\n100 Santa Rosa Avenue Room 11, Santa Rosa",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/santarosa/meetings/2026/2/5393_A_Housing_Authority_26-02-23_Regular_Meeting_Agenda_and_Summary_Report.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-24",
+      "body": "City Council",
+      "location": "City Hall, Council Chamber,\r\n100 Santa Rosa Avenue\r\nSanta Rosa, CA  95404",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/santarosa/meetings/2026/2/5349_A_City_Council_26-02-24_Regular_Meeting_Agenda_and_Summary_Report.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-25",
+      "body": "Board of Parks and Recreation",
+      "location": "Finley Center\r\n2060 W. College Avenue\r\nCypress Room",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/santarosa/meetings/2026/2/5467_A_Board_of_Parks_and_Recreation_26-02-25_Regular_Meeting_Agenda_and_Summary_Report.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-26",
+      "body": "Waterways Advisory Committee",
+      "location": "637 First St\r\nFirst Floor Conference Room\r\nSanta Rosa, CA 95404",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/santarosa/meetings/2026/2/5329_A_Waterways_Advisory_Committee_26-02-26_Regular_Meeting_Agenda_and_Summary_Report.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-26",
+      "body": "Planning Commission",
+      "location": "City Hall, Council Chamber,\r\n100 Santa Rosa Avenue,\r\nSanta Rosa, CA",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/santarosa/meetings/2026/2/5283_A_Planning_Commission_26-02-26_Regular_Meeting_Agenda_and_Summary_Report.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-10",
+      "body": "City Council",
+      "location": "City Hall, Council Chamber,\r\n100 Santa Rosa Avenue\r\nSanta Rosa, CA  95404",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-12",
+      "body": "Long-Term Financial Policy and Audit Subcommittee",
+      "location": "637 First Street, \r\nSanta Rosa, CA",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-18",
+      "body": "Santa Rosa Violence Prevention Partnership",
+      "location": "Finley Center 2060 W. College Ave.\r\nCypress Room",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/santarosa/meetings/2026/3/5453_A_Santa_Rosa_Violence_Prevention_Partnership_26-03-18_Location_-_Regular_Meeting_Agenda_and_Summary_Report.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-19",
+      "body": "Board of Public Utilities",
+      "location": "City Hall, Council Chamber,\r\n100 Santa Rosa Avenue, \r\nSanta Rosa, CA",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/santarosa/meetings/2026/2/5427_A_Board_of_Public_Utilities_26-02-19_Regular_Meeting_Agenda_and_Summary_Report.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-19",
+      "body": "Bicycle and Pedestrian Advisory Board",
+      "location": "Municipal Service Center South\r\n69 Stony Circle\r\nConference Room 5",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/santarosa/meetings/2026/2/5359_A_Bicycle_and_Pedestrian_Advisory_Board_26-02-19_Regular_Meeting_Agenda_and_Summary_Report.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-19",
+      "body": "Design Review and Preservation Board",
+      "location": "City Hall, Council Chamber\r\n100 Santa Rosa Avenue\r\nSanta Rosa, CA 95404",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/santarosa/meetings/2026/2/5356_A_Design_Review_and_Preservation_Board_26-02-19_Regular_Meeting_Agenda_and_Summary_Report.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-12",
+      "body": "Zoning Administrator",
+      "location": "City Hall Council Chamber\r\n100 Santa Rosa Ave\r\nSanta Rosa, CA",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/santarosa/meetings/2026/2/5306_A_Zoning_Administrator_26-02-12_Regular_Meeting_Agenda_and_Summary_Report.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-12",
+      "body": "Planning Commission",
+      "location": "City Hall, Council Chamber,\r\n100 Santa Rosa Avenue,\r\nSanta Rosa, CA",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/santarosa/meetings/2026/2/5282_A_Planning_Commission_26-02-12_Regular_Meeting_Agenda_and_Summary_Report.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-11",
+      "body": "Water Conservation Subcommittee",
+      "location": "Utility Field Office\r\n35 Stony Point Rd. \r\nTraining Room M",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/santarosa/meetings/2026/2/5488_A_Water_Conservation_Subcommittee_26-02-11_Location_-_Special_Meeting_Notice_and_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "City Council",
+      "location": "City Hall, Council Chamber,\r\n100 Santa Rosa Avenue\r\nSanta Rosa, CA  95404",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/santarosa/meetings/2026/2/5348_A_City_Council_26-02-10_Regular_Meeting_Agenda_and_Summary_Report.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-09",
+      "body": "Economic Development Subcommittee",
+      "location": "City Hall, Council Chamber,\r\n100 Santa Rosa Avenue\r\nSanta Rosa, CA  95404",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/santarosa/meetings/2026/2/5257_A_Economic_Development_Subcommittee_26-02-09_Regular_Meeting_Agenda_and_Summary_Report.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-05",
+      "body": "Open Government Task Force Implementation Subcommittee",
+      "location": "637 First Street\r\nSanta Rosa, CA 95404",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/santarosa/meetings/2026/2/5404_A_Open_Government_Task_Force_Implementation_Subcommittee_26-02-05_Regular_Meeting_Agenda_and_Summary_Report.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-05",
+      "body": "Board of Public Utilities",
+      "location": "City Hall, Council Chamber,\r\n100 Santa Rosa Avenue, \r\nSanta Rosa, CA",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/santarosa/meetings/2026/2/5426_A_Board_of_Public_Utilities_26-02-05_Regular_Meeting_Agenda_and_Summary_Report.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "PUBLIC MEETING - FENCE INSTALL - 1750 NORTHPOINT PKWY - DR24-020\r\n\r\nBACKGROUND: Proposed 6' Beta Prism fence surrounding the rear parking area of lot to provide safe parking and prevent crime. The fen",
+      "type": "WAC- Agenda Item",
+      "status": "In Committee",
+      "intro_date": "2026-02-19",
+      "file_number": "26-001WAC",
+      "passed_date": null
+    },
+    {
+      "title": "PUBLIC HEARING - MEADOWOOD RANCH - TENTATIVE MAP AMENDMENT - PLANNING RECORD - 2875 DUTTON MEADOW - PLN25-0563 (THIS ITEM IS CONTINUED TO THE MARCH 12, 2026 PLANNING COMMISSION MEETING)\r\n\r\nBACKGROUND:",
+      "type": "PC- Public Hearing",
+      "status": "In Committee",
+      "intro_date": "2026-02-19",
+      "file_number": "26-106PC",
+      "passed_date": null
+    },
+    {
+      "title": "Draft Minutes - February 12, 2026.",
+      "type": "PC- Minutes",
+      "status": "In Committee",
+      "intro_date": "2026-02-19",
+      "file_number": "26-004PC",
+      "passed_date": null
+    },
+    {
+      "title": "Draft Minutes - October 24, 2024.",
+      "type": "WAC- Minutes",
+      "status": "In Committee",
+      "intro_date": "2026-02-19",
+      "file_number": "26-202WAC",
+      "passed_date": null
+    },
+    {
+      "title": "SOUTH SANTA ROSA SPECIFIC PLAN - STUDY FILE - 0 CITYWIDE - ST23-004\r\n\r\nRECOMMENDATION: It is recommended by the Planning & Economic Development Department that the Planning Commission review and provi",
+      "type": "PC- Study Session",
+      "status": "In Committee",
+      "intro_date": "2026-02-19",
+      "file_number": "26-301PC",
+      "passed_date": null
+    },
+    {
+      "title": "PUBLIC HEARING - MD MARKET - CONDITIONAL USE PERMIT - 1478 GUERNEVILLE RD - CUP24-027 (THIS ITEM IS CONTINUED TO THE MARCH 12, 2026 PLANNING COMMISSION MEETING)\n\nBACKGROUND: The project proposes appro",
+      "type": "PC- Public Hearing",
+      "status": "In Committee",
+      "intro_date": "2026-02-19",
+      "file_number": "26-105PC",
+      "passed_date": null
+    },
+    {
+      "title": "Draft Minutes - February 27, 2025.",
+      "type": "WAC- Minutes",
+      "status": "In Committee",
+      "intro_date": "2026-02-19",
+      "file_number": "26-203WAC",
+      "passed_date": null
+    },
+    {
+      "title": "PUBLIC MEETING - TRIPLEX DESIGN REVIEW & PARKING REDUCTION PLANNING PROJECT- 945 HENDLEY ST - PRJ23-011\r\n\r\nBACKGROUND: Minor Design Review for a single-story triplex with a three-car carport. The proj",
+      "type": "ZA- Agenda Item",
+      "status": "In Committee",
+      "intro_date": "2026-02-19",
+      "file_number": "26-014ZA",
+      "passed_date": null
+    },
+    {
+      "title": "PUBLIC HEARING - ZONING CODE AMENDMENTS PERTAINING TO MASSAGE ORDINANCE\n\nBACKGROUND: The proposed amendments to the Massage ordinance are primarily driven by the need to align City Code with DOJ and F",
+      "type": "PC- Public Hearing",
+      "status": "In Committee",
+      "intro_date": "2026-02-19",
+      "file_number": "26-107PC",
+      "passed_date": null
+    },
+    {
+      "title": "Draft Minutes - April 23, 2025.",
+      "type": "WAC- Minutes",
+      "status": "In Committee",
+      "intro_date": "2026-02-19",
+      "file_number": "26-204WAC",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://santa-rosa.legistar.com",
-  "enriched_at": "2026-02-22T18:43:01.758804",
+  "enriched_at": "2026-02-23T02:47:34.918347",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

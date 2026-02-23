@@ -506,7 +506,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Revere",
-        "probed_at": "2026-02-22T18:46:09.258040",
+        "probed_at": "2026-02-23T02:51:14.251878",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -770,13 +770,235 @@
     "granularity_flags": 3
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "City Council",
+    "members": [
+      {
+        "name": "Angela Guarino-Sawaya",
+        "email": null,
+        "title": "Council Vice President",
+        "start_date": "2024-01-01",
+        "committees": [
+          "Zoning Sub-Committee"
+        ]
+      },
+      {
+        "name": "Anthony Saverio Cogliandro",
+        "email": null,
+        "title": "Councillor",
+        "start_date": "2025-01-01",
+        "committees": [
+          "Ways & Means Sub-Committee",
+          "Zoning Sub-Committee"
+        ]
+      },
+      {
+        "name": "Anthony T. Zambuto",
+        "email": null,
+        "title": "Council President",
+        "start_date": "2025-01-01"
+      },
+      {
+        "name": "Chris Giannino",
+        "email": null,
+        "title": "Councillor",
+        "start_date": "2025-01-01"
+      },
+      {
+        "name": "Ira Novoselsky",
+        "email": null,
+        "title": "Councillor",
+        "start_date": "2025-01-01",
+        "committees": [
+          "Ways & Means Sub-Committee"
+        ]
+      },
+      {
+        "name": "Jim Mercurio",
+        "email": null,
+        "title": "Councillor",
+        "start_date": "2026-01-01",
+        "committees": [
+          "Ways & Means Sub-Committee"
+        ]
+      },
+      {
+        "name": "Joanne McKenna",
+        "email": null,
+        "title": "Councillor",
+        "start_date": "2025-01-01",
+        "committees": [
+          "Ways & Means Sub-Committee"
+        ]
+      },
+      {
+        "name": "Marc Silvestri",
+        "email": null,
+        "title": "Councillor",
+        "start_date": "2025-01-01",
+        "committees": [
+          "Zoning Sub-Committee"
+        ]
+      },
+      {
+        "name": "Michelle Kelley",
+        "email": null,
+        "title": "Councillor",
+        "start_date": "2025-01-01"
+      },
+      {
+        "name": "Paul Argenzio",
+        "email": null,
+        "title": "Councillor",
+        "start_date": "2025-01-01",
+        "committees": [
+          "Ways & Means Sub-Committee",
+          "Zoning Sub-Committee"
+        ]
+      },
+      {
+        "name": "Robert J. Haas, III",
+        "email": null,
+        "title": "Councillor",
+        "start_date": "2025-01-01"
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-09",
+      "body": "City Council",
+      "location": "City Council Chamber – 2nd Floor",
+      "has_agenda": true,
+      "agenda_url": "https://revere.legistar1.com/revere/meetings/2026/2/944_A_City_Council_26-02-09_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-09",
+      "body": "Zoning Sub-Committee",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://revere.legistar1.com/revere/meetings/2026/2/948_A_Zoning_Sub-Committee_26-02-09_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-09",
+      "body": "Ways & Means Sub-Committee",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://revere.legistar1.com/revere/meetings/2026/2/949_A_Ways___Means_Sub-Committee_26-02-09_Meeting_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-28",
+      "body": "Zoning Board of Appeals",
+      "location": "City Council Chamber - 2nd Floor",
+      "has_agenda": true,
+      "agenda_url": "https://revere.legistar1.com/revere/meetings/2026/1/947_A_Zoning_Board_of_Appeals_26-01-28_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-26",
+      "body": "City Council",
+      "location": "City Council Chamber – 2nd Floor",
+      "has_agenda": true,
+      "agenda_url": "https://revere.legistar1.com/revere/meetings/2026/1/943_A_City_Council_26-01-26_Meeting_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Communication from the City Auditor relative to bond authorization in the amount of  $1,250,000 for MassDEP CWSRF Planning Project #19200.",
+      "type": "Loan Order",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-12",
+      "file_number": "26-037",
+      "passed_date": null
+    },
+    {
+      "title": "Motion presented by Councillor Guarino-Sawaya: That the Mayor, through the appropriate departments, include a dedicated line item in the Parking Enforcement budget to fund the purchase and implementat",
+      "type": "Motion",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-12",
+      "file_number": "26-042",
+      "passed_date": null
+    },
+    {
+      "title": "Motion presented by Councillor Kelley: That the City Council amend the City Council Rules of Order by inserting new Rule 47 - Community Meetings, as follows, for the purpose of requiring internal noti",
+      "type": "Motion",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-12",
+      "file_number": "26-041",
+      "passed_date": null
+    },
+    {
+      "title": "Motion presented by Councillor Guarino-Sawaya, Councillor Novoselsky, Councillor McKenna: That the City Council award a Certificate of Commendation to Linda DeMaio on the occasion of her retirement an",
+      "type": "Motion",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-12",
+      "file_number": "26-040",
+      "passed_date": null
+    },
+    {
+      "title": "Motion presented by Councillor Silvestri: That the Mayor request the City Solicitor and Policy Writer & Analyst to provide the City Council with an update on a proposed ordinance amendment banning cry",
+      "type": "Motion",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-12",
+      "file_number": "26-045",
+      "passed_date": null
+    },
+    {
+      "title": "Communication from the City Auditor requesting approval of a Resolution relative to Design of Wonderland Area Sewer Improvements MassDEP CY-2025 CWSRF Project #19185.",
+      "type": "Communication",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-12",
+      "file_number": "26-039",
+      "passed_date": null
+    },
+    {
+      "title": "Communication from the City Auditor relative to a bond authorization in the amount of $500,000 for MassDEP CWSRF Planning Project #19201.",
+      "type": "Loan Order",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-12",
+      "file_number": "26-038",
+      "passed_date": null
+    },
+    {
+      "title": "Communication from the Mayor relative to the reappointment of Matthew Wolfer to the Affordable Housing Trust Fund Board.",
+      "type": "Appointment",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-12",
+      "file_number": "26-036",
+      "passed_date": null
+    },
+    {
+      "title": "Motion presented by Councillor Silvestri: That the Mayor be requested to send a communication to MassDOT advising the department that state-maintained roadways and sidewalks have not been cleared of s",
+      "type": "Motion",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-12",
+      "file_number": "26-044",
+      "passed_date": null
+    },
+    {
+      "title": "Approval of the minutes of the meeting of January 29, 2026.",
+      "type": "Motion",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-03",
+      "file_number": "26-035",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://revere.legistar.com",
-  "enriched_at": "2026-02-22T18:42:58.085751",
+  "enriched_at": "2026-02-23T02:46:50.439833",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

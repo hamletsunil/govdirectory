@@ -525,7 +525,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Fayetteville",
-        "probed_at": "2026-02-22T18:45:04.938161",
+        "probed_at": "2026-02-23T02:50:21.851469",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -789,13 +789,236 @@
     "granularity_flags": 1
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "City Council Regular Meeting",
+    "members": [
+      {
+        "name": "Antonio Jones",
+        "email": "AntonioJones@FayettevilleNC.Gov",
+        "title": "Council Member",
+        "start_date": "2025-12-01",
+        "committees": [
+          "City Council Work Session"
+        ]
+      },
+      {
+        "name": "Brenda McNair",
+        "email": null,
+        "title": "Council Member",
+        "start_date": "2022-09-06",
+        "committees": [
+          "City Council Work Session"
+        ]
+      },
+      {
+        "name": "Deno Hondros",
+        "email": null,
+        "title": "Council Member",
+        "start_date": "2022-09-06",
+        "committees": [
+          "City Council Work Session"
+        ]
+      },
+      {
+        "name": "Derrick Thompson",
+        "email": null,
+        "title": "Mayor Pro Tem",
+        "start_date": "2022-09-06",
+        "committees": [
+          "City Council Work Session"
+        ]
+      },
+      {
+        "name": "DJ Haire",
+        "email": "djhaire@ci.fay.nc.us",
+        "title": "Council Member",
+        "start_date": "2022-09-06",
+        "committees": [
+          "City Council Work Session"
+        ]
+      },
+      {
+        "name": "Lynne Greene",
+        "email": null,
+        "title": "Council Member",
+        "start_date": "2023-12-06",
+        "committees": [
+          "City Council Work Session"
+        ]
+      },
+      {
+        "name": "Malik Davis",
+        "email": null,
+        "title": "Council Member",
+        "start_date": "2023-12-06",
+        "committees": [
+          "City Council Work Session"
+        ]
+      },
+      {
+        "name": "Mitch Colvin",
+        "email": null,
+        "title": "Mayor",
+        "start_date": "2022-09-06",
+        "committees": [
+          "City Council Work Session"
+        ]
+      },
+      {
+        "name": "ShaunMcMillan",
+        "email": "ShaunMcMillan@Fayettevillenc.gov",
+        "title": "Council Member",
+        "start_date": "2025-12-01",
+        "committees": [
+          "City Council Work Session"
+        ]
+      },
+      {
+        "name": "StephonFerguson",
+        "email": "StephonFerguson@Fayettevillenc.gov",
+        "title": "Council Member",
+        "start_date": "2025-12-01",
+        "committees": [
+          "City Council Work Session"
+        ]
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-23",
+      "body": "City Council Regular Meeting",
+      "location": "Council Chamber",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/cityoffayetteville/meetings/2026/2/1595_A_City_Council_Regular_Meeting_26-02-23_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-02",
+      "body": "City Council Work Session",
+      "location": "Council Chamber",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-09",
+      "body": "City Council Regular Meeting",
+      "location": "Council Chamber",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/cityoffayetteville/meetings/2026/2/1594_A_City_Council_Regular_Meeting_26-02-09_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-06",
+      "body": "City Council Work Session",
+      "location": "Council Chamber",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/cityoffayetteville/meetings/2026/2/1648_A_City_Council_Work_Session_26-02-06_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-26",
+      "body": "City Council Regular Meeting",
+      "location": "Council Chamber",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Update from Financial Advisors on Debt Management and Market Conditions",
+      "type": "Other Items of Business",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-16",
+      "file_number": "26-0136",
+      "passed_date": null
+    },
+    {
+      "title": "Fayetteville Police Department 2025 4th Quarter Review",
+      "type": "Staff Reports",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-13",
+      "file_number": "26-0130",
+      "passed_date": null
+    },
+    {
+      "title": "Receive Airport Commission Annual Report",
+      "type": "Reports From Boards and Commissions",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-13",
+      "file_number": "26-0131",
+      "passed_date": null
+    },
+    {
+      "title": "Receive an Administrative Report on the Day Resource Center for the Second Quarter of Fiscal Year 2026",
+      "type": "Administrative Reports",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-13",
+      "file_number": "26-0129",
+      "passed_date": null
+    },
+    {
+      "title": "PWC - Approve Bid Recommendation - Annual Contract for Overhead Distribution",
+      "type": "Consent",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-13",
+      "file_number": "26-0132",
+      "passed_date": null
+    },
+    {
+      "title": "Fire Station No. 16 (At the Corner of Cedar Creek Road and Fields Road) Guaranteed Maximum Price (GMP #1) for Construction",
+      "type": "Consent",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-13",
+      "file_number": "26-0133",
+      "passed_date": null
+    },
+    {
+      "title": "Approve Meeting Minutes:\r\nFebruary 4, 2026 - Strategic Planning Retreat\r\nFebruary 6, 2026 - Work Session\r\nFebruary 9, 2026 - Discussion of Agenda Items\r\nFebruary 9, 2026 - Regular",
+      "type": "Consent",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-12",
+      "file_number": "26-0128",
+      "passed_date": null
+    },
+    {
+      "title": "Update on Martin Luther King, Jr. Memorial Park",
+      "type": "Staff Reports",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-11",
+      "file_number": "26-0121",
+      "passed_date": null
+    },
+    {
+      "title": "Receive the FY25 - Fayetteville-Cumberland Human Relations Department and Commission Annual Report",
+      "type": "Reports From Boards and Commissions",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-11",
+      "file_number": "26-0120",
+      "passed_date": null
+    },
+    {
+      "title": "Approve P26-01: A request to rezone property at 600 Hope Mills Rd  (0416184349000 ), consisting of 3.72 acres and owned by LAFAYETTE LAND CORPORATION, from Office and Institutional (OI) to Limited Com",
+      "type": "Consent",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-10",
+      "file_number": "26-0116",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://cityoffayetteville.legistar.com",
-  "enriched_at": "2026-02-22T18:42:25.957426",
+  "enriched_at": "2026-02-23T02:40:54.584972",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

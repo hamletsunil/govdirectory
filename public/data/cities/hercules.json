@@ -509,7 +509,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Hercules",
-        "probed_at": "2026-02-22T18:46:35.917958",
+        "probed_at": "2026-02-23T02:51:35.767218",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -773,13 +773,216 @@
     "granularity_flags": 3
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "City Council",
+    "members": [
+      {
+        "name": "A. Walker-Griffin",
+        "email": "awalkergriffin@ci.hercules.ca.us",
+        "title": "Vice Mayor",
+        "start_date": "2025-01-02"
+      },
+      {
+        "name": "C. Kelley",
+        "email": "ckelley@herculesca.gov",
+        "title": "Mayor",
+        "start_date": "2018-11-06"
+      },
+      {
+        "name": "D. Bailey",
+        "email": "dbailey@herculesca.gov",
+        "title": "Council Member",
+        "start_date": "2018-11-06"
+      },
+      {
+        "name": "Dilli Bhattarai",
+        "email": "dbhat@herculesca.gov",
+        "title": "Council Member",
+        "start_date": "2025-01-01"
+      },
+      {
+        "name": "T. Grimsley",
+        "email": "tgrimsley@herculesca.gov",
+        "title": "Council Member",
+        "start_date": "2025-01-02"
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-24",
+      "body": "City Council",
+      "location": null,
+      "has_agenda": true,
+      "agenda_url": "https://hercules.legistar1.com/hercules/meetings/2026/2/1833_A_City_Council_26-02-24_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-02",
+      "body": "Planning Commission",
+      "location": null,
+      "has_agenda": true,
+      "agenda_url": "https://hercules.legistar1.com/hercules/meetings/2026/3/1836_A_Planning_Commission_26-03-02_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-18",
+      "body": "Finance Commission",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://hercules.legistar1.com/hercules/meetings/2026/2/1835_A_Finance_Commission_26-02-18_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "Planning Commission",
+      "location": null,
+      "has_agenda": true,
+      "agenda_url": "https://hercules.legistar1.com/hercules/meetings/2026/2/1832_A_Planning_Commission_26-02-17_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "City Council",
+      "location": null,
+      "has_agenda": true,
+      "agenda_url": "https://hercules.legistar1.com/hercules/meetings/2026/2/1831_A_City_Council_26-02-10_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-09",
+      "body": "Community and Library Services Commission",
+      "location": null,
+      "has_agenda": true,
+      "agenda_url": "https://hercules.legistar1.com/hercules/meetings/2026/2/1830_A_Community_and_Library_Services_Commission_26-02-09_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "City Council",
+      "location": null,
+      "has_agenda": true,
+      "agenda_url": "https://hercules.legistar1.com/hercules/meetings/2026/2/1834_A_City_Council_26-02-03_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-02",
+      "body": "Planning Commission",
+      "location": null,
+      "has_agenda": true,
+      "agenda_url": "https://hercules.legistar1.com/hercules/meetings/2026/2/1829_A_Planning_Commission_26-02-02_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-27",
+      "body": "City Council",
+      "location": null,
+      "has_agenda": true,
+      "agenda_url": "https://hercules.legistar1.com/hercules/meetings/2026/1/1825_A_City_Council_26-01-27_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Discuss and review the Mid-Year Budget Update for FY 2025-26",
+      "type": "Director Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "26-048",
+      "passed_date": null
+    },
+    {
+      "title": "Finance Commission Meeting January 21, 2026\r\nRecommendation: Approve the Finance Commission Minutes for January 21, 2026",
+      "type": "Consent",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "26-050",
+      "passed_date": null
+    },
+    {
+      "title": "FY 2025-26 Capital Improvement Program Update\r\nRECOMMENDATION:\r\nIt is recommended that the City Council receive an update on the status of the FY 2025-26 Capital Improvement Program.",
+      "type": "Discussion/Action Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-17",
+      "file_number": "26-049",
+      "passed_date": null
+    },
+    {
+      "title": "Adoption of a Resolution Amending the Fiscal Year (FY) 2025-26 Operating and Capital Budgets to Reflect the Recommended Mid-year Adjustments\r\nRECOMMENDATION:\r\nThe staff recommends that the City Counci",
+      "type": "Discussion/Action Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-17",
+      "file_number": "26-047",
+      "passed_date": null
+    },
+    {
+      "title": "Initiation of Fiscal Year 2026/27 Landscaping and Lighting Assessment Districts Proceedings \r\nRECOMMENDATION:\r\nIt is recommended by City staff that City Council adopt a resolution directing the filing",
+      "type": "Discussion/Action Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-17",
+      "file_number": "26-051",
+      "passed_date": null
+    },
+    {
+      "title": "Contract Amendment No. 2 to the Professional Services Agreement with Gates & Associates, Inc. for Final Design of Beechnut Park Improvement Project\nRECOMMENDATION:\nAdopt a Resolution authorizing the C",
+      "type": "Discussion/Action Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-17",
+      "file_number": "26-054",
+      "passed_date": null
+    },
+    {
+      "title": "Proclamation - Recognizing February 17 through March 3, 2026 as Lunar New Year in the City of Hercules",
+      "type": "Introductions/Presentation",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-17",
+      "file_number": "26-045",
+      "passed_date": null
+    },
+    {
+      "title": "Appointment of J. Patrick Tang as Interim City Manager\r\nRECOMMENDATION:\r\nAdopt a Resolution approving the Employment Agreement for the Interim City Manager and authorizing the Mayor to execute the Emp",
+      "type": "Consent",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-17",
+      "file_number": "26-043",
+      "passed_date": null
+    },
+    {
+      "title": "“Shop Hercules” Yiftee Gift Card program\r\nRECOMMENDATION:\r\nApprove a resolution approving a fourth amendment to an agreement with Yiftee in the amount of $25,000 for the “Shop Hercules” digital gift c",
+      "type": "Consent",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-17",
+      "file_number": "26-052",
+      "passed_date": null
+    },
+    {
+      "title": "Meeting Minutes for the Regular Meeting of February 10, 2026",
+      "type": "Consent",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-17",
+      "file_number": "26-039",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://hercules.legistar.com",
-  "enriched_at": "2026-02-22T18:42:39.074098",
+  "enriched_at": "2026-02-23T02:43:21.060904",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

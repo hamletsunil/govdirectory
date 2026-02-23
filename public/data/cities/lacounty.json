@@ -559,7 +559,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Los%20Angeles%20County",
-        "probed_at": "2026-02-22T18:47:00.306147",
+        "probed_at": "2026-02-23T02:51:55.256418",
         "data_vintage": "BRFSS None",
         "geographic_level": "place",
         "status": "unavailable"
@@ -823,13 +823,34 @@
     "granularity_flags": 4
   },
   "officials": {
-    "body_name": null,
+    "body_name": "Hearing Board of Supervisors",
     "members": []
   },
-  "recent_meetings": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-17",
+      "body": "Board of Supervisors",
+      "location": "BOARD HEARING ROOM 381B",
+      "has_agenda": true,
+      "agenda_url": "https://lacounty.legistar1.com/lacounty/meetings/2026/2/13028_A_Board_of_Supervisors_26-02-17_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-13",
+      "body": "Board of Supervisors",
+      "location": "BOARD HEARING ROOM 381B",
+      "has_agenda": true,
+      "agenda_url": "https://lacounty.legistar1.com/lacounty/meetings/2026/2/13011_A_Board_of_Supervisors_26-02-13_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
   "recent_legislation": [],
   "legistar_url": "https://lacounty.legistar.com",
-  "enriched_at": "2026-02-22T18:42:42.027183",
+  "enriched_at": "2026-02-23T02:44:00.575751",
   "government_news": [],
   "video_meetings": [
     {

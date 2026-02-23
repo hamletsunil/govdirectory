@@ -516,7 +516,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Olathe",
-        "probed_at": "2026-02-22T18:45:24.634162",
+        "probed_at": "2026-02-23T02:50:38.377362",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -780,13 +780,198 @@
     "granularity_flags": 1
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "City Council",
+    "members": [
+      {
+        "name": "Dr. Felter",
+        "email": null,
+        "title": "Council Member",
+        "start_date": "2022-01-03"
+      },
+      {
+        "name": "Mr. Bacon",
+        "email": null,
+        "title": "Mayor",
+        "start_date": "2018-04-01"
+      },
+      {
+        "name": "Mr. Creighton",
+        "email": "jcreighton@olatheks.org",
+        "title": "Mayor",
+        "start_date": "2026-01-01"
+      },
+      {
+        "name": "Mr. Deneault",
+        "email": "kdeneault@olatheks.org",
+        "title": "Mayor",
+        "start_date": "2026-01-01"
+      },
+      {
+        "name": "Mr. Schoonover",
+        "email": "Mschoonover@olatheks.org",
+        "title": "Council Member",
+        "start_date": "2024-01-01"
+      },
+      {
+        "name": "Mr. Vakas",
+        "email": "dvakas@olatheks.org",
+        "title": "Council Member",
+        "start_date": "2024-01-01"
+      },
+      {
+        "name": "Ms. Essex",
+        "email": null,
+        "title": "Council Member",
+        "start_date": "2022-03-07"
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-23",
+      "body": "Planning Commission",
+      "location": "100 E. Santa Fe | Council Chamber",
+      "has_agenda": true,
+      "agenda_url": "https://olatheks.legistar1.com/olatheks/meetings/2026/2/1723_A_Planning_Commission_26-02-23_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-17",
+      "body": "City Council",
+      "location": "100 E. Santa Fe | Council Chamber",
+      "has_agenda": true,
+      "agenda_url": "https://olatheks.legistar1.com/olatheks/meetings/2026/2/1698_A_City_Council_26-02-17_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-09",
+      "body": "Planning Commission",
+      "location": "100 E. Santa Fe | Council Chamber",
+      "has_agenda": true,
+      "agenda_url": "https://olatheks.legistar1.com/olatheks/meetings/2026/2/1722_A_Planning_Commission_26-02-09_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-05",
+      "body": "City Council",
+      "location": "475 S Wardcliff Dr. | Eagles Landing",
+      "has_agenda": true,
+      "agenda_url": "https://olatheks.legistar1.com/olatheks/meetings/2026/2/1726_A_City_Council_26-02-05_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "City Council",
+      "location": "100 E. Santa Fe | Council Chamber",
+      "has_agenda": true,
+      "agenda_url": "https://olatheks.legistar1.com/olatheks/meetings/2026/2/1697_A_City_Council_26-02-03_Meeting_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-26",
+      "body": "Planning Commission",
+      "location": "100 E. Santa Fe | Council Chamber",
+      "has_agenda": true,
+      "agenda_url": "https://olatheks.legistar1.com/olatheks/meetings/2026/1/1721_A_Planning_Commission_26-01-26_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "PUBLIC HEARING\r\nSU25-0007: A special use permit for a Telecommunications Monopole, located south of W. 151st Street and west of Red Bird Street.",
+      "type": "PC - Public Hearing",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "SU25-0007",
+      "passed_date": null
+    },
+    {
+      "title": "PUBLIC HEARING\r\nRZ25-0008: Request for approval of a rezoning from the C-3 (Regional Center) and MP-2 (Planned General Industrial) Districts to C-3 (Regional Center) District with a preliminary site d",
+      "type": "PC - Public Hearing",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "RZ25-0008",
+      "passed_date": null
+    },
+    {
+      "title": "PUBLIC HEARING\r\nRZ25-0020: Request for approval of a rezoning from the BP (Business Park) District to C-2 (Community Center) District, with a preliminary site development plan for Dillons at Sunnybroo",
+      "type": "PC - Public Hearing",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "RZ25-0020",
+      "passed_date": null
+    },
+    {
+      "title": "FP25-0044: A final plat for Corporate Ridge Apartments, containing one (1) lot and two (2) tracts on approximately 56.52 acres, located east of S. Ridgeview Road and W. 106th Street.",
+      "type": "PC Consent Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-17",
+      "file_number": "FP25-0044",
+      "passed_date": null
+    },
+    {
+      "title": "FP25-0042: A final plat for Hedge Industrial Park North First, containing one (1) lot and one (1) tract on approximately 16.32 acres, located southeast of W. 167th Street and S. Hedge Lane.",
+      "type": "PC Consent Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-17",
+      "file_number": "FP25-0042",
+      "passed_date": null
+    },
+    {
+      "title": "MN26-0209: Approval of the minutes as written from the February 9, 2026 Planning Commission meeting.",
+      "type": "PC Consent Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-17",
+      "file_number": "MN26-0209",
+      "passed_date": null
+    },
+    {
+      "title": "Consideration of Resolution No. 26-1020 appointing members to the Citizens Police Advisory Council.",
+      "type": "Special Business",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-10",
+      "file_number": "G26-5590",
+      "passed_date": null
+    },
+    {
+      "title": "Report regarding proposed amendments to Title 10 of the Olathe Municipal Code (the Olathe Traffic Ordinance).",
+      "type": "Reports",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-09",
+      "file_number": "G26-5589",
+      "passed_date": null
+    },
+    {
+      "title": "Consideration of renewal of contract to Core and Main for the purchase of water meters and associated supplies.",
+      "type": "Council Consent",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-06",
+      "file_number": "G26-5585",
+      "passed_date": null
+    },
+    {
+      "title": "Quarterly Procurement Report",
+      "type": "Reports",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-06",
+      "file_number": "G26-5583",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://olatheks.legistar.com",
-  "enriched_at": "2026-02-22T18:42:52.079021",
+  "enriched_at": "2026-02-23T02:45:44.718262",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

@@ -547,7 +547,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Venice",
-        "probed_at": "2026-02-22T18:46:36.829232",
+        "probed_at": "2026-02-23T02:51:36.469018",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -811,13 +811,258 @@
     "granularity_flags": 2
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "City Council",
+    "members": [
+      {
+        "name": "Jim Boldt",
+        "email": null,
+        "title": "Vice Mayor",
+        "start_date": "2021-11-16"
+      },
+      {
+        "name": "Kevin Engelke",
+        "email": null,
+        "title": "Mr.",
+        "start_date": "2024-11-19"
+      },
+      {
+        "name": "Lloyd Weed",
+        "email": null,
+        "title": "Mr.",
+        "start_date": "2025-05-19"
+      },
+      {
+        "name": "Nick Pachota",
+        "email": null,
+        "title": "Mayor",
+        "start_date": "2019-11-19"
+      },
+      {
+        "name": "Rachel Frank",
+        "email": null,
+        "title": "Mrs.",
+        "start_date": "2022-01-06"
+      },
+      {
+        "name": "Rick Howard",
+        "email": null,
+        "title": "Mr.",
+        "start_date": "2022-11-29"
+      },
+      {
+        "name": "Ron Smith",
+        "email": null,
+        "title": "Mr.",
+        "start_date": "2023-11-28"
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-24",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/venice/meetings/2026/2/3837_A_City_Council_26-02-24_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-04",
+      "body": "Special Magistrate for Code Enforcement",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/venice/meetings/2026/3/3843_A_Special_Magistrate_for_Code_Enforcement_26-03-04_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-18",
+      "body": "Citizen Advisory Board",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/venice/meetings/2026/2/3836_A_Citizen_Advisory_Board_26-02-18_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "Planning Commission",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/venice/meetings/2026/2/3835_A_Planning_Commission_26-02-17_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-12",
+      "body": "Historic and Architectural Preservation Board",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/venice/meetings/2026/2/3834_A_Historic_and_Architectural_Preservation_Board_26-02-12_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-11",
+      "body": "Airport Technical Advisory Panel",
+      "location": "Community Hall Room 165",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-11",
+      "body": "Airport Citizens Advisory Panel",
+      "location": "Community Hall Room 165",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/venice/meetings/2026/2/3833_A_City_Council_26-02-10_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-04",
+      "body": "Special Magistrate for Code Enforcement",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/venice/meetings/2026/2/3832_A_Special_Magistrate_for_Code_Enforcement_26-02-04_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "CRS Floodplain Management Plan Committee",
+      "location": "Fire Station 1 Conference Room",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "Planning Commission",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/venice/meetings/2026/2/3831_A_Planning_Commission_26-02-03_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-02",
+      "body": "City Council",
+      "location": "Community Hall Room 165",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/venice/meetings/2026/2/3861_A_City_Council_26-02-02_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Kevin McGrath, Chair of the Police Pension Board of Trustees and Douglas Lozen, Senior Consulting Actuary, Foster and Foster Actuaries and Consultants: Board Annual Report and Council Feedback",
+      "type": "Presentation",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-20",
+      "file_number": "TMP-11098",
+      "passed_date": null
+    },
+    {
+      "title": "An Ordinance of the City Of Venice, Florida, Annexing Certain Lands Lying Contiguous to the City Limits, Pursuant to Petition No. 25-19AN by iHeartMedia + Entertainment, Inc., Into the Corporate Limit",
+      "type": "Ordinance",
+      "status": "First Reading and Public Hearing",
+      "intro_date": "2026-02-18",
+      "file_number": "ORD. NO. 2026-08",
+      "passed_date": null
+    },
+    {
+      "title": "Appoint Two Members to the Planning Commission to Serve a Term from March 10, 2026 to January 31, 2029",
+      "type": "Agreement",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "TMP-11097",
+      "passed_date": null
+    },
+    {
+      "title": "Chalets at Venice Future Land Use Map Amendment (Legislative)\r\nStaff: Brittany Smith, Planner\r\nAgent: Jackson R. Boone, Esq., Boone Law Firm\r\nOwner/Applicant: P3 LAF Chalets at Venice LP",
+      "type": "Comprehensive Plan Amendment",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "CC 25-20CP",
+      "passed_date": null
+    },
+    {
+      "title": "Chalets at Venice Zoning Map Amendment (Quasi-Judicial)\r\nStaff: Brittany Smith, Planner\r\nAgent: Jackson R. Boone, Esq., Boone Law Firm\r\nOwner/Applicant: P3 LAF Chalets at Venice LP",
+      "type": "Rezoning",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "CC 25-21RZ",
+      "passed_date": null
+    },
+    {
+      "title": "Impasse Hearing Between the CIty of Venice and AFSCME Regarding Shift Schedule Changes",
+      "type": "Agreement",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "TMP-11093",
+      "passed_date": null
+    },
+    {
+      "title": "Property Signage for Public Notice Requirements  (Mrs. Frank)",
+      "type": "Agreement",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-17",
+      "file_number": "26-0524",
+      "passed_date": null
+    },
+    {
+      "title": "Centennial Park Rededication Plaque",
+      "type": "Agreement",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-13",
+      "file_number": "26-0521",
+      "passed_date": null
+    },
+    {
+      "title": "Invitation to Consider a Joint Meeting of the Sarasota County Commissioners and the Venice City Council (City Manager Clinch)",
+      "type": "Agreement",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-13",
+      "file_number": "26-0522",
+      "passed_date": null
+    },
+    {
+      "title": "Minutes of the February 2, 2026 Strategic Planning Workshop and February 10, 2026 Regular Meeting",
+      "type": "Minutes",
+      "status": "Consent Agenda",
+      "intro_date": "2026-02-13",
+      "file_number": "26-0516",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://venice.legistar.com",
-  "enriched_at": "2026-02-22T18:43:05.426603",
+  "enriched_at": "2026-02-23T02:48:17.642706",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

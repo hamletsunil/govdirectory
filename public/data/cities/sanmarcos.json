@@ -497,7 +497,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=San%20Marcos",
-        "probed_at": "2026-02-22T18:45:44.433156",
+        "probed_at": "2026-02-23T02:50:54.203832",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -761,13 +761,135 @@
     "granularity_flags": 3
   },
   "officials": {
-    "body_name": null,
+    "body_name": "City Council",
     "members": []
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-24",
+      "body": "City Council",
+      "location": "City Council Chambers\r\n6 PM",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/sanmarcos/meetings/2026/2/1336_A_City_Council_26-02-24_Regular_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-10",
+      "body": "City Council",
+      "location": "City Council Chambers\r\n6 PM",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/sanmarcos/meetings/2026/2/1335_A_City_Council_26-02-10_Regular_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-02",
+      "body": "Planning Commission",
+      "location": "City Council Chambers",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-27",
+      "body": "City Council",
+      "location": "City Council Chambers\r\n6 PM",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/sanmarcos/meetings/2026/1/1334_A_City_Council_26-01-27_Regular_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "RESOLUTION NO. 2026-9547 - APPROVAL OF UPDATED FULL TIME CLASSIFICATION AND COMPENSATION SCHEDULE",
+      "type": "Informational Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "TMP-2398",
+      "passed_date": null
+    },
+    {
+      "title": "NORTH COUNTY TRANSIT DISTRICT REPORT (DEPUTY MAYOR SANNELLA)",
+      "type": "Informational Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-17",
+      "file_number": "26-2808",
+      "passed_date": null
+    },
+    {
+      "title": "SAN DIEGO ASSOCIATION OF GOVERNMENTS REPORT (MAYOR JONES)",
+      "type": "Informational Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-17",
+      "file_number": "26-2806",
+      "passed_date": null
+    },
+    {
+      "title": "RESOLUTION NO. 2026-9546 - APPROVE AN HOURLY RATE INCREASE FOR THE FIRM OF LOUNSBERY FERGUSON ALTONA AND PEAK FOR CONTRACT CITY ATTORNEY AND CITY PROSECUTOR SERVICES, AND PROVIDING CONTINUED AUTHORIZA",
+      "type": "Informational Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-17",
+      "file_number": "TMP-2396",
+      "passed_date": null
+    },
+    {
+      "title": "WAIVER OF TEXT. This item is to waive the reading of the text of all ordinances and resolutions introduced and adopted at this meeting. Ordinances and resolutions shall be introduced or adopted by tit",
+      "type": "Informational Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-17",
+      "file_number": "26-2803",
+      "passed_date": null
+    },
+    {
+      "title": "CITY COUNCIL BUSINESS VISITS",
+      "type": "Action Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-17",
+      "file_number": "26-2811",
+      "passed_date": null
+    },
+    {
+      "title": "NORTH COUNTY DISPATCH JOINT POWERS AUTHORITY REPORT (COUNCILMEMBER LEBLANG)",
+      "type": "Informational Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-17",
+      "file_number": "26-2809",
+      "passed_date": null
+    },
+    {
+      "title": "CLEAN ENERGY ALLIANCE REPORT (COUNCILMEMBER NUÑEZ)",
+      "type": "Informational Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-17",
+      "file_number": "26-2810",
+      "passed_date": null
+    },
+    {
+      "title": "LEAGUE OF CALIFORNIA CITIES REPORT (COUNCILMEMBER MUSGROVE)",
+      "type": "Informational Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-17",
+      "file_number": "26-2807",
+      "passed_date": null
+    },
+    {
+      "title": "RESOLUTION NO. 2026-9548 - CONTRACT FOR PRELIMINARY CONCEPTUAL CITY HALL COMMON AREA DRAWINGS",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-12",
+      "file_number": "TMP-2394",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://sanmarcos.legistar.com",
-  "enriched_at": "2026-02-22T18:43:01.249299",
+  "enriched_at": "2026-02-23T02:47:29.433952",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

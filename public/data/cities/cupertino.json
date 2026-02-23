@@ -541,7 +541,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Cupertino",
-        "probed_at": "2026-02-22T18:46:10.132309",
+        "probed_at": "2026-02-23T02:51:14.948113",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -805,13 +805,236 @@
     "granularity_flags": 4
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "City Council",
+    "members": [
+      {
+        "name": "J.R.  Fruen",
+        "email": null,
+        "title": "Council member",
+        "start_date": "2024-02-27"
+      },
+      {
+        "name": "Kitty Moore",
+        "email": null,
+        "title": "Vice Mayor",
+        "start_date": "2022-01-01"
+      },
+      {
+        "name": "Liang Chao",
+        "email": null,
+        "title": "Mayor",
+        "start_date": "2022-01-01"
+      },
+      {
+        "name": "R \"Ray\" Wang",
+        "email": null,
+        "title": "Council member",
+        "start_date": "2024-12-12"
+      },
+      {
+        "name": "Sheila Mohan",
+        "email": null,
+        "title": "Council member",
+        "start_date": "2023-12-14"
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-24",
+      "body": "Planning Commission",
+      "location": "10350 Torre Avenue, Council Chamber and via Teleconference",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-19",
+      "body": "City Council",
+      "location": "10350 Torre Avenue, Council Chamber and via Teleconference; and Teleconference Location Pursuant to Gov. Code 54953(b)(2): Omni Barton Creek Hotel - 8212 Barton Club Dr, Austin, Texas, 78735",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-18",
+      "body": "Bicycle Pedestrian Commission",
+      "location": "10185 North Stelling Road, Quinlan Conference Room and via Teleconference",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "City Council",
+      "location": "10350 Torre Avenue, Council Chamber and via Teleconference",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-11",
+      "body": "Teen Commission",
+      "location": "10185 North Stelling Road, Quinlan Conference Room and via Teleconference",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "Planning Commission",
+      "location": "10350 Torre Avenue, Council Chamber and via Teleconference; and Teleconference Location Pursuant to Government Code section 54953(b)(2); C-174 Anand Vihar, Delhi, India 110092",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "City Council",
+      "location": "10300 Torre Avenue, City Hall, Conference Room C; and Teleconference Location Pursuant to Gov. Code 54953(b)(2): JW Marriott Desert Springs 74-855 Country Club Drive, Palm Desert, California, 92260",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-05",
+      "body": "Administrative Hearing",
+      "location": "10300 Torre Avenue, City Hall Conference Room C",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-05",
+      "body": "Parks and Recreation Commission",
+      "location": "10185 North Stelling Road, Quinlan Conference Room and via Teleconference",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-04",
+      "body": "Library Commission",
+      "location": "10800 Torre Avenue, Cupertino Library, Room 101A",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/cupertino/meetings/2026/2/5168_A_Library_Commission_26-02-04_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "City Council",
+      "location": "10300 Torre Avenue, City Hall, Conference Room C and via Teleconference",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Consider a Tentative Map, Architectural and Site Approval, and Tree Removal Permit for the construction of a 51-unit townhome condominium development on Housing Element Priority Housing Sites 25 throu",
+      "type": "Public Hearings",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-13",
+      "file_number": "26-14880",
+      "passed_date": null
+    },
+    {
+      "title": "Approval of the February 10, 2026 Planning Commission Minutes.",
+      "type": "Approval of Minutes",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-13",
+      "file_number": "26-14879",
+      "passed_date": null
+    },
+    {
+      "title": "Approval of February 10, 2026 City Council meeting minutes",
+      "type": "Consent Calendar ",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-12",
+      "file_number": "26-14878",
+      "passed_date": null
+    },
+    {
+      "title": "Consider designation of the following positions as appointees to the PLAN JPA Board of Directors: Senior Assistant City Attorney, Board Member; and Senior Management Analyst, Board Alternate.",
+      "type": "Consent Calendar ",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-12",
+      "file_number": "26-14877",
+      "passed_date": null
+    },
+    {
+      "title": "Cupertino Active Transportation Plan",
+      "type": "Old Business",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-10",
+      "file_number": "26-14873",
+      "passed_date": null
+    },
+    {
+      "title": "January 29, 2026 Bicycle Pedestrian Commission minutes",
+      "type": "Approval of Minutes",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-10",
+      "file_number": "26-14872",
+      "passed_date": null
+    },
+    {
+      "title": "Staff Update and Commissioner Activity Report (All)",
+      "type": "Staff and Commission Reports",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-10",
+      "file_number": "26-14875",
+      "passed_date": null
+    },
+    {
+      "title": "Torre Ave/Town Center Lane Pedestrian Crossing (Dullu)",
+      "type": "Old Business",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-10",
+      "file_number": "26-14874",
+      "passed_date": null
+    },
+    {
+      "title": "Parkland Ballot Measure - Mapping, Zoning, Legal Review, and Election Considerations",
+      "type": "Action Calendar",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-09",
+      "file_number": "26-14858",
+      "passed_date": null
+    },
+    {
+      "title": "Significant exposure to litigation pursuant to paragraph (2) of subdivision (d) of Section 54956.9 and subdivision (e)(1): (one case)",
+      "type": "Closed Session",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-06",
+      "file_number": "26-14857",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://cupertino.legistar.com",
-  "enriched_at": "2026-02-22T18:42:32.320719",
+  "enriched_at": "2026-02-23T02:42:00.462833",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

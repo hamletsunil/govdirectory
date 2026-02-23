@@ -516,7 +516,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Lexington",
-        "probed_at": "2026-02-22T18:46:44.579208",
+        "probed_at": "2026-02-23T02:51:42.227559",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -780,13 +780,37 @@
     "granularity_flags": 3
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "City Council",
+    "members": [
+      {
+        "name": "Becky Klass",
+        "email": "CouncilorKlass@LexingtonNC.gov",
+        "title": "At Large Councilmember",
+        "start_date": "2023-12-11"
+      },
+      {
+        "name": "Tommy Black",
+        "email": "CouncilorBlack@LexingtonNC.gov",
+        "title": "Ward 6 Councilmember",
+        "start_date": "2023-12-11"
+      }
+    ]
   },
-  "recent_meetings": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-16",
+      "body": "Planning Board/Board of Adjustment",
+      "location": "City Hall\r\n28 West Center Street Lexington, NC 27292",
+      "has_agenda": true,
+      "agenda_url": "https://lexingtonnc.legistar1.com/lexingtonnc/meetings/2026/2/1711_A_Planning_Board_Board_of_Adjustment_26-02-16_PUBLIC_AGENDA.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
   "recent_legislation": [],
   "legistar_url": "https://lexingtonnc.legistar.com",
-  "enriched_at": "2026-02-22T18:42:43.440474",
+  "enriched_at": "2026-02-23T02:44:07.549584",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

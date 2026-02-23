@@ -521,7 +521,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Temecula",
-        "probed_at": "2026-02-22T18:45:38.047714",
+        "probed_at": "2026-02-23T02:50:49.082592",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -785,13 +785,166 @@
     "granularity_flags": 4
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "City Council",
+    "members": [
+      {
+        "name": "Brenden Kalfus",
+        "email": "brenden.kalfus@temeculaca.gov",
+        "title": "Council Member",
+        "start_date": "2023-02-01"
+      },
+      {
+        "name": "James Stewart",
+        "email": "james.stewart@TemeculaCA.gov",
+        "title": "Council Member",
+        "start_date": "2020-12-08"
+      },
+      {
+        "name": "Jessica Alexander",
+        "email": null,
+        "title": "Council Member",
+        "start_date": "2020-12-08"
+      },
+      {
+        "name": "Matt Rahn",
+        "email": "matt.rahn@TemeculaCA.gov",
+        "title": "Council Member",
+        "start_date": "2023-02-01"
+      },
+      {
+        "name": "Zak Schwank",
+        "email": null,
+        "title": "Council Member",
+        "start_date": "2019-02-15"
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-24",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://temeculaca.legistar1.com/temeculaca/meetings/2026/2/2719_A_City_Council_26-02-24_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-10",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://temeculaca.legistar1.com/temeculaca/meetings/2026/2/2717_A_City_Council_26-02-10_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-04",
+      "body": "Planning Commission",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://temeculaca.legistar1.com/temeculaca/meetings/2026/2/2718_A_Planning_Commission_26-02-04_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-27",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://temeculaca.legistar1.com/temeculaca/meetings/2026/1/2715_A_City_Council_26-01-27_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Consider Position of Support for Senate Bill 974 Regarding Property Taxation Transfer for Severely and Permanently Disabled Persons (At the Request of Mayor Pro Tem Rahn)",
+      "type": "Council - Business",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-17",
+      "file_number": "AR-26-073",
+      "passed_date": null
+    },
+    {
+      "title": "Waive Reading of Title and Text of All Ordinances and Resolutions Included in the Agenda",
+      "type": "Council - Consent Calendar",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-10",
+      "file_number": "AR-26-067",
+      "passed_date": null
+    },
+    {
+      "title": "Approve Action Minutes of February 10, 2026",
+      "type": "CSD - Consent Calendar",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-10",
+      "file_number": "AR-26-069",
+      "passed_date": null
+    },
+    {
+      "title": "Approve Fiscal Year 2025-26 Mid-Year Budget Adjustments",
+      "type": "Council - Business",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-10",
+      "file_number": "AR-26-072",
+      "passed_date": null
+    },
+    {
+      "title": "Adopt Ordinance No. 2026-03 Amending Section 10.28.010(D) of the Temecula Municipal Code Regarding Prima Facie Speed Limits on Certain Streets (Second Reading)",
+      "type": "Council - Consent Calendar",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-10",
+      "file_number": "AR-26-070",
+      "passed_date": null
+    },
+    {
+      "title": "Fire Department Monthly Report",
+      "type": "Council - Departmental Reports",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-10",
+      "file_number": "AR-26-071",
+      "passed_date": null
+    },
+    {
+      "title": "Receive and File Presentation on General Plan Update and Community Vision Plan",
+      "type": "Council - Business",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-09",
+      "file_number": "AR-26-065",
+      "passed_date": null
+    },
+    {
+      "title": "Public Works Department Monthly Report",
+      "type": "Council - Departmental Reports",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-09",
+      "file_number": "AR-26-059",
+      "passed_date": null
+    },
+    {
+      "title": "Approve Increase to Contingency for the Professional Services Agreement with CNS Engineers, Inc. for the Murrieta Creek Bridge at Overland Drive Project, PW16-05",
+      "type": "Council - Consent Calendar",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-09",
+      "file_number": "AR-26-060",
+      "passed_date": null
+    },
+    {
+      "title": "Adopt Resolution to Conduct Proactive Fire Prevention and Hazardous Fuel Reduction on Sites Identified by CAL FIRE/Riverside County Fire Department Consistent With State Proclamations",
+      "type": "Council - Business",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-09",
+      "file_number": "AR-26-066",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://temeculaca.legistar.com",
-  "enriched_at": "2026-02-22T18:43:04.569105",
+  "enriched_at": "2026-02-23T02:48:05.020307",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

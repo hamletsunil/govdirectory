@@ -571,7 +571,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Pittsburgh",
-        "probed_at": "2026-02-22T18:44:54.021037",
+        "probed_at": "2026-02-23T02:50:13.106348",
         "data_vintage": "BRFSS 2022",
         "geographic_level": "place",
         "status": "available"
@@ -835,13 +835,370 @@
     "granularity_flags": 1
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "City Council",
+    "members": [
+      {
+        "name": "Anthony Coghill",
+        "email": null,
+        "title": null,
+        "start_date": "2018-01-03",
+        "phone": "412-255-2131",
+        "website": "http://pittsburghpa.gov/council/d4",
+        "committees": [
+          "Executive Session",
+          "Standing Committees"
+        ]
+      },
+      {
+        "name": "Barbara Warwick",
+        "email": null,
+        "title": null,
+        "start_date": "2022-12-12",
+        "committees": [
+          "Standing Committees"
+        ]
+      },
+      {
+        "name": "Bobby Wilson",
+        "email": null,
+        "title": null,
+        "start_date": "2020-01-06",
+        "committees": [
+          "Executive Session",
+          "Standing Committees"
+        ]
+      },
+      {
+        "name": "Deborah L. Gross",
+        "email": "deborah.gross@pittsburghpa.gov",
+        "title": null,
+        "start_date": "2013-12-06",
+        "phone": "412-255-2140",
+        "website": "http://pittsburghpa.gov/council/d7",
+        "committees": [
+          "Executive Session",
+          "Standing Committees"
+        ]
+      },
+      {
+        "name": "Erika Strassburger",
+        "email": "erika.strassburger@pittsburghpa.gov",
+        "title": null,
+        "start_date": "2018-04-05",
+        "phone": "412-255-2133",
+        "website": "http://pittsburghpa.gov/council/d8",
+        "committees": [
+          "Executive Session",
+          "Standing Committees"
+        ]
+      },
+      {
+        "name": "Khari Mosley",
+        "email": null,
+        "title": null,
+        "start_date": "2024-01-08",
+        "committees": [
+          "Standing Committees"
+        ]
+      },
+      {
+        "name": "Kim Salinetro",
+        "email": "kim.salinetro@pittsburghpa.gov",
+        "title": null,
+        "start_date": "2026-01-05",
+        "committees": [
+          "Standing Committees"
+        ]
+      },
+      {
+        "name": "R. Daniel Lavelle",
+        "email": "daniel.lavelle@pittsburghpa.gov",
+        "title": null,
+        "start_date": "2010-01-04",
+        "phone": "412-255-2134",
+        "website": "http://pittsburghpa.gov/council/d6",
+        "committees": [
+          "Executive Session",
+          "Standing Committees"
+        ]
+      },
+      {
+        "name": "Robert Charland",
+        "email": "robert.charland@pittsburghpa.gov",
+        "title": null,
+        "start_date": "2024-01-08",
+        "committees": [
+          "Standing Committees"
+        ]
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-24",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://pittsburgh.legistar1.com/pittsburgh/meetings/2026/2/11882_A_City_Council_26-02-24_Regular_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-24",
+      "body": "Post Agenda",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://pittsburgh.legistar1.com/pittsburgh/meetings/2026/2/11858_A_Post_Agenda_26-02-24_Post_Agenda_and_Committee_on_Hearings_.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-24",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-25",
+      "body": "Standing Committees",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://pittsburgh.legistar1.com/pittsburgh/meetings/2026/2/11880_A_Standing_Committees_26-02-25_Standing_Committees_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-02",
+      "body": "Briefing",
+      "location": null,
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-06",
+      "body": "Committee on Hearings and Policy",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://pittsburgh.legistar1.com/pittsburgh/meetings/2026/3/11847_A_Committee_on_Hearings_and_Policy__26-03-06_Post_Agenda_and_Committee_on_Hearings_.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-10",
+      "body": "Post Agenda",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://pittsburgh.legistar1.com/pittsburgh/meetings/2026/3/11864_A_Post_Agenda_26-03-10_Post_Agenda_and_Committee_on_Hearings_.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-24",
+      "body": "Committee on Hearings and Policy",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://pittsburgh.legistar1.com/pittsburgh/meetings/2026/3/11883_A_Committee_on_Hearings_and_Policy__26-03-24_Post_Agenda_and_Committee_on_Hearings_.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-18",
+      "body": "Standing Committees",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://pittsburgh.legistar1.com/pittsburgh/meetings/2026/2/11872_A_Standing_Committees_26-02-18_Standing_Committees_Meeting_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "Committee on Hearings and Policy",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://pittsburgh.legistar1.com/pittsburgh/meetings/2026/2/11843_A_Committee_on_Hearings_and_Policy__26-02-17_Post_Agenda_and_Committee_on_Hearings_.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://pittsburgh.legistar1.com/pittsburgh/meetings/2026/2/11873_A_City_Council_26-02-17_Regular_Meeting_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "Executive Session",
+      "location": null,
+      "has_agenda": true,
+      "agenda_url": "https://pittsburgh.legistar1.com/pittsburgh/meetings/2026/2/11874_A_Executive_Session_26-02-17_Post_Agenda_and_Committee_on_Hearings_.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-12",
+      "body": "Briefing",
+      "location": null,
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-11",
+      "body": "Standing Committees",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://pittsburgh.legistar1.com/pittsburgh/meetings/2026/2/11863_A_Standing_Committee_26-02-11_Standing_Committee_Meeting_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-11",
+      "body": "Committee on Hearings and Policy",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://pittsburgh.legistar1.com/pittsburgh/meetings/2026/2/11845_A_Committee_on_Hearings_and_Policy__26-02-11_Post_Agenda_and_Committee_on_Hearings_.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "Executive Session",
+      "location": null,
+      "has_agenda": true,
+      "agenda_url": "https://pittsburgh.legistar1.com/pittsburgh/meetings/2026/2/11868_A_Executive_Session_26-02-10_Post_Agenda_and_Committee_on_Hearings_.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Resolution informing City Council of the appointment of Jacob Williamson as a Member of the Southwestern Pennsylvania Commission for a term concurrent with that of the Mayor.",
+      "type": "Appointment-Informing",
+      "status": "To Be Presented",
+      "intro_date": "2026-02-20",
+      "file_number": "2026-0183",
+      "passed_date": null
+    },
+    {
+      "title": "Resolution amending Resolution 37of 2026, which authorized a cooperation agreement or agreements with the City of Pittsburgh Equipment Leasing Authority for the purchase and leasing of vehicles, equip",
+      "type": "Resolution",
+      "status": "To Be Presented",
+      "intro_date": "2026-02-20",
+      "file_number": "2026-0176",
+      "passed_date": null
+    },
+    {
+      "title": "Resolution providing for the issuance of a warrant in favor of Levy Convention Centers aka Levy Premium Foodservice in the amount of Nine Thousand Seventy-Seven Dollars and Forty Cents ($9,077.40) to ",
+      "type": "Resolution",
+      "status": "To Be Presented",
+      "intro_date": "2026-02-20",
+      "file_number": "2026-0175",
+      "passed_date": null
+    },
+    {
+      "title": "Resolution informing City Council of the reappointment of Anthony Coghill as a Member of the Board of Directors of the Sports and Exhibition Authority for a term to expire January 1, 2030.",
+      "type": "Appointment-Informing",
+      "status": "To Be Presented",
+      "intro_date": "2026-02-20",
+      "file_number": "2026-0182",
+      "passed_date": null
+    },
+    {
+      "title": "Resolution informing City Council of the appointment of Tom Joyce as a Member of the Southwestern Pennsylvania Commission for a term concurrent with that of the Mayor.",
+      "type": "Appointment-Informing",
+      "status": "To Be Presented",
+      "intro_date": "2026-02-20",
+      "file_number": "2026-0184",
+      "passed_date": null
+    },
+    {
+      "title": "Resolution authorizing the Mayor and the Director of the Department of Public Works to enter into an Agreement or Agreements with Pittsburgh Water to allow Pittsburgh Water access to City property in ",
+      "type": "Resolution",
+      "status": "To Be Presented",
+      "intro_date": "2026-02-20",
+      "file_number": "2026-0177",
+      "passed_date": null
+    },
+    {
+      "title": "Report of the Committee on Public Works and Infrastructure for February 18, 2026 with an Affirmative Recommendation.",
+      "type": "Report",
+      "status": "Committee Report",
+      "intro_date": "2026-02-20",
+      "file_number": "2026-0171",
+      "passed_date": null
+    },
+    {
+      "title": "Report of the Committee on Intergovernmental and Educational Affairs for February 18, 2026 with an Affirmative Recommendation.",
+      "type": "Report",
+      "status": "Committee Report",
+      "intro_date": "2026-02-20",
+      "file_number": "2026-0174",
+      "passed_date": null
+    },
+    {
+      "title": "Resolution appointing Chelsea Arthur-Succop as a Member of the Public Art Committee of the Public Art and Civic Design Commission for a term concurrent with that of the Mayor.",
+      "type": "Appointment-Requiring Vote",
+      "status": "To Be Presented",
+      "intro_date": "2026-02-20",
+      "file_number": "2026-0181",
+      "passed_date": null
+    },
+    {
+      "title": "NOW, THEREFORE BE IT RESOLVED, that the Council of the City of Pittsburgh does recognize Lieutenant Commander Budd’s distinguished career involving many aspects of law enforcement and thanks him for h",
+      "type": "Proclamation",
+      "status": "To Be Presented",
+      "intro_date": "2026-02-20",
+      "file_number": "2026-0186",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://pittsburgh.legistar.com",
-  "enriched_at": "2026-02-22T18:42:55.332388",
+  "enriched_at": "2026-02-23T02:46:19.751104",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

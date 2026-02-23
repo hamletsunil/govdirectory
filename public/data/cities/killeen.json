@@ -590,7 +590,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Killeen",
-        "probed_at": "2026-02-22T18:45:17.371143",
+        "probed_at": "2026-02-23T02:50:32.481489",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -854,13 +854,214 @@
     "granularity_flags": 4
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "City Council",
+    "members": [
+      {
+        "name": "Anthony Kendrick",
+        "email": "akendrick@killeentexas.gov",
+        "title": "Councilmember",
+        "start_date": "2025-05-14",
+        "committees": [
+          "City Council Workshop"
+        ]
+      },
+      {
+        "name": "Debbie Nash-King",
+        "email": "dnash-king@killeentexas.gov",
+        "title": "Mayor",
+        "start_date": "2024-05-15",
+        "phone": "254-290-1336",
+        "committees": [
+          "City Council Workshop",
+          "Employee Benefits Trust"
+        ]
+      },
+      {
+        "name": "Jessica Gonzalez",
+        "email": "jgonzalez@killeentexas.gov",
+        "title": "Councilmember",
+        "start_date": "2023-05-16",
+        "committees": [
+          "City Council Workshop"
+        ]
+      },
+      {
+        "name": "Joseph Solomon",
+        "email": "jsolomon@killeentexas.gov",
+        "title": "Councilmember",
+        "start_date": "2023-05-16",
+        "committees": [
+          "City Council Workshop"
+        ]
+      },
+      {
+        "name": "Jose Segarra",
+        "email": "jsegarra@killeentexas.gov",
+        "title": "Councilmember",
+        "start_date": "2024-05-14",
+        "phone": "254-290-0548",
+        "committees": [
+          "City Council Workshop",
+          "Employee Benefits Trust"
+        ]
+      },
+      {
+        "name": "Nina Cobb",
+        "email": "ncobb@killeentexas.gov",
+        "title": "Councilmember",
+        "start_date": "2023-05-16",
+        "committees": [
+          "City Council Workshop"
+        ]
+      },
+      {
+        "name": "Ramon Alvarez",
+        "email": "ralvarez@killeentexas.gov",
+        "title": "Councilmember",
+        "start_date": "2024-05-14",
+        "committees": [
+          "City Council Workshop",
+          "Employee Benefits Trust"
+        ]
+      },
+      {
+        "name": "Riakos Adams",
+        "email": "radams@killeentexas.gov",
+        "title": "Mayor Pro-Tem",
+        "start_date": "2024-05-14",
+        "committees": [
+          "City Council Workshop",
+          "Employee Benefits Trust"
+        ]
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-23",
+      "body": "City Council Workshop",
+      "location": "Utility Collections\r\nConference Room\r\n210 W Avenue C\r\nKilleen, TX 76541",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/killeen/meetings/2026/2/2213_A_City_Council_Workshop_26-02-23_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-17",
+      "body": "City Council",
+      "location": "City Hall\r\nCouncil Chambers\r\n101 N. College Street\r\nKilleen, Texas 76541",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/killeen/meetings/2026/2/2210_A_City_Council_26-02-17_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "City Council",
+      "location": "City Hall\r\nCouncil Chambers\r\n101 N. College Street\r\nKilleen, Texas 76541",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/killeen/meetings/2026/2/2209_A_City_Council_26-02-03_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "City Council",
+      "location": "City Hall\r\nCouncil Chambers\r\n101 N. College Street\r\nKilleen, Texas 76541",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/killeen/meetings/2026/2/2212_A_City_Council_26-02-03_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Consider a memorandum/resolution supporting for the Low-income Housing Tax Credit application to Texas Department of Housing & Community Affairs for RST The Madelyn, LP.",
+      "type": "Resolution",
+      "status": "Resolutions",
+      "intro_date": "2026-02-05",
+      "file_number": "RS-26-037",
+      "passed_date": null
+    },
+    {
+      "title": "Consider an ordinance ordering the May 2, 2026 Special Election for the purpose of electing a Councilmember for District 2.",
+      "type": "Ordinance",
+      "status": "Ordinances ",
+      "intro_date": "2026-02-05",
+      "file_number": "OR-26-005",
+      "passed_date": null
+    },
+    {
+      "title": "Consider Minutes of Regular City Council Meeting of January 20, 2026.",
+      "type": "Minutes",
+      "status": "Minutes",
+      "intro_date": "2026-01-28",
+      "file_number": "MN-26-008",
+      "passed_date": null
+    },
+    {
+      "title": "Discuss and consider scope of review for the Charter Review Committee",
+      "type": "Discussion Items",
+      "status": "Discussion Items",
+      "intro_date": "2026-01-22",
+      "file_number": "DS-26-009",
+      "passed_date": null
+    },
+    {
+      "title": "Consider a memorandum/resolution appointing members to the Charter Review Committee.",
+      "type": "Resolution",
+      "status": "Passed",
+      "intro_date": "2026-01-22",
+      "file_number": "RS-26-026",
+      "passed_date": "2026-02-03"
+    },
+    {
+      "title": "Discuss and conduct interviews for Councilmember At-Large applicants",
+      "type": "Discussion Items",
+      "status": "Discussion Items",
+      "intro_date": "2026-01-21",
+      "file_number": "DS-26-008",
+      "passed_date": null
+    },
+    {
+      "title": "Discuss candidates and consider a potential memorandum/resolution appointing a Councilmember to fill the unexpired term for the Councilmember At-Large vacancy.",
+      "type": "Resolution",
+      "status": "Resolutions",
+      "intro_date": "2026-01-21",
+      "file_number": "RS-26-022",
+      "passed_date": "2026-02-03"
+    },
+    {
+      "title": "Consider Minutes of Special City Council Meeting of January 6, 2026.",
+      "type": "Minutes",
+      "status": "Passed",
+      "intro_date": "2026-01-20",
+      "file_number": "MN-26-007",
+      "passed_date": "2026-02-03"
+    },
+    {
+      "title": "Killeen Economic Development Corporation Update",
+      "type": "Presentations",
+      "status": "Presentations",
+      "intro_date": "2026-01-20",
+      "file_number": "PR-26-005",
+      "passed_date": null
+    },
+    {
+      "title": "Discuss renaming of street in honor of Bettie Ann McLaurin",
+      "type": "Discussion Items",
+      "status": "Discussion Items",
+      "intro_date": "2026-01-16",
+      "file_number": "DS-26-017",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://killeen.legistar.com",
-  "enriched_at": "2026-02-22T18:42:41.675427",
+  "enriched_at": "2026-02-23T02:43:56.808298",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

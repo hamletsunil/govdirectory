@@ -527,7 +527,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Brighton",
-        "probed_at": "2026-02-22T18:46:24.527316",
+        "probed_at": "2026-02-23T02:51:26.481739",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -791,13 +791,261 @@
     "granularity_flags": 3
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "City Council",
+    "members": [
+      {
+        "name": "Chairman Mills",
+        "email": "gmills@brightonco.gov",
+        "title": "Chairperson",
+        "start_date": "2019-12-17",
+        "committees": [
+          "South Brighton General Improvement District"
+        ]
+      },
+      {
+        "name": "Councilmember Carbajal",
+        "email": "mcarbajal@brightonco.gov",
+        "title": "Councilmember",
+        "start_date": "2025-12-30"
+      },
+      {
+        "name": "Councilmember Collins",
+        "email": "rcollins@brightonco.gov",
+        "title": "Councilmember",
+        "start_date": "2025-12-30"
+      },
+      {
+        "name": "Councilmember Fiedler",
+        "email": "cfiedler@brightonco.gov",
+        "title": "Councilmember",
+        "start_date": "2024-01-02"
+      },
+      {
+        "name": "Councilmember Green",
+        "email": "tgreen@brightonco.gov",
+        "title": "Councilmember",
+        "start_date": "2022-11-30"
+      },
+      {
+        "name": "Councilmember Snyder",
+        "email": "jsnyder@brightonco.gov",
+        "title": "Councilmember",
+        "start_date": "2024-01-02"
+      },
+      {
+        "name": "Councilmember Taddeo",
+        "email": "ataddeo@brightonco.gov",
+        "title": "Councilmember",
+        "start_date": "2020-06-16"
+      },
+      {
+        "name": "Councilmember Worth",
+        "email": "lworth@brightonco.gov",
+        "title": "Councilmember",
+        "start_date": "2024-01-02"
+      },
+      {
+        "name": "Mayor Mills",
+        "email": "gmills@brightonco.gov",
+        "title": "Mayor",
+        "start_date": "2019-12-17"
+      },
+      {
+        "name": "Mayor Pro Tem Padilla",
+        "email": "ppadilla@brightonco.gov",
+        "title": "Mayor Pro Tem",
+        "start_date": "2022-01-01"
+      },
+      {
+        "name": "Member Carbajal",
+        "email": "mcarbajal@brightonco.gov",
+        "title": "Member",
+        "start_date": "2026-01-06",
+        "committees": [
+          "South Brighton General Improvement District"
+        ]
+      },
+      {
+        "name": "Member Collins",
+        "email": "rcollins@brightonco.gov",
+        "title": "Member",
+        "start_date": "2026-01-06",
+        "committees": [
+          "South Brighton General Improvement District"
+        ]
+      },
+      {
+        "name": "Member Fiedler",
+        "email": "cfiedler@brightonco.gov",
+        "title": "Member",
+        "start_date": "2024-01-02",
+        "committees": [
+          "South Brighton General Improvement District"
+        ]
+      },
+      {
+        "name": "Member Green",
+        "email": "tgreen@brightonco.gov",
+        "title": "Member",
+        "start_date": "2024-01-02",
+        "committees": [
+          "South Brighton General Improvement District"
+        ]
+      },
+      {
+        "name": "Member Padilla",
+        "email": "ppadilla@brightonco.gov",
+        "title": "Member",
+        "start_date": "2022-01-04",
+        "committees": [
+          "South Brighton General Improvement District"
+        ]
+      },
+      {
+        "name": "Member Snyder",
+        "email": "jsnyder@brightonco.gov",
+        "title": "Member",
+        "start_date": "2024-01-02",
+        "committees": [
+          "South Brighton General Improvement District"
+        ]
+      },
+      {
+        "name": "Member Taddeo",
+        "email": "ataddeo@brightonco.gov",
+        "title": "Member",
+        "start_date": "2020-06-16",
+        "committees": [
+          "South Brighton General Improvement District"
+        ]
+      },
+      {
+        "name": "Member Worth",
+        "email": "lworth@brightonco.gov",
+        "title": "Member",
+        "start_date": "2024-01-02",
+        "committees": [
+          "South Brighton General Improvement District"
+        ]
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-17",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://brightonco.legistar1.com/brightonco/meetings/2026/2/1622_A_City_Council_26-02-17_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "City Council",
+      "location": "Study Session Room",
+      "has_agenda": true,
+      "agenda_url": "https://brightonco.legistar1.com/brightonco/meetings/2026/2/1623_A_City_Council_26-02-10_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://brightonco.legistar1.com/brightonco/meetings/2026/2/1621_A_City_Council_26-02-03_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "A RESOLUTION OF THE CITY COUNCIL OF THE CITY OF BRIGHTON, COLORADO, REAPPOINTING ANDREW SWORD AS A MEMBER OF THE DISTRICT PLAN COMMISSION WITH A TERM TO JANUARY 2029",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-09",
+      "file_number": "ID-66-26",
+      "passed_date": null
+    },
+    {
+      "title": "AN ORDINANCE OF THE CITY COUNCIL, OF THE CITY OF BRIGHTON, COLORADO, AMENDING CHAPTER 15 OF THE BRIGHTON MUNICIPAL CODE; ADOPTING BY REFERENCE THE 2025 EDITION OF THE 2025 COLORADO WILDFIRE RESILIENCY",
+      "type": "Ordinance",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-09",
+      "file_number": "ID-67-26",
+      "passed_date": null
+    },
+    {
+      "title": "DISCUSSION OF AMENDMENTS TO THE CITY COUNCIL POLICY FOR THE APPOINTMENT OF MEMBERS TO CITY BOARDS, COMMISSIONS, AND AUTHORITIES",
+      "type": "Informational Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-06",
+      "file_number": "ID-65-26",
+      "passed_date": null
+    },
+    {
+      "title": "National Engineers Week Proclamation",
+      "type": "Proclamation",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-05",
+      "file_number": "ID-55-26",
+      "passed_date": null
+    },
+    {
+      "title": "AN ORDINANCE OF THE CITY COUNCIL OF THE CITY OF BRIGHTON, COLORADO, AMENDING ARTICLE 15-16 OF THE BRIGHTON MUNICIPAL CODE TO PROHIBIT GRAYWATER TREATMENT WORKS AND DIRECTING CITY STAFF TO NOTIFY THE C",
+      "type": "Ordinance",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-05",
+      "file_number": "ID-51-26",
+      "passed_date": null
+    },
+    {
+      "title": "Approval of the January 20, 2026 City Council Minutes",
+      "type": "Minutes",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-04",
+      "file_number": "ID-50-26",
+      "passed_date": null
+    },
+    {
+      "title": "New Utility Billing System Overview",
+      "type": "Informational Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-04",
+      "file_number": "ID-46-26",
+      "passed_date": null
+    },
+    {
+      "title": "Approval of the January 13, 2026 City Council Minutes",
+      "type": "Minutes",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-04",
+      "file_number": "ID-49-26",
+      "passed_date": null
+    },
+    {
+      "title": "Utility Repair and Construction: Master Price Agreement Awards",
+      "type": "Informational Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-29",
+      "file_number": "ID-41-26",
+      "passed_date": null
+    },
+    {
+      "title": "Graywater Treatment Works and Use Prohibition",
+      "type": "Informational Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-29",
+      "file_number": "ID-42-26",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://brightonco.legistar.com",
-  "enriched_at": "2026-02-22T18:42:21.274244",
+  "enriched_at": "2026-02-23T02:39:50.151781",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

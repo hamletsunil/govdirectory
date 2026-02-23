@@ -563,7 +563,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Hudson",
-        "probed_at": "2026-02-22T18:46:40.251970",
+        "probed_at": "2026-02-23T02:51:38.582601",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -827,13 +827,249 @@
     "granularity_flags": 3
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "City Council",
+    "members": [
+      {
+        "name": "Amanda Weinstein",
+        "email": "aweinstein@hudson.oh.us",
+        "title": "Dr.",
+        "start_date": "2025-11-25",
+        "committees": [
+          "City Council Workshop"
+        ]
+      },
+      {
+        "name": "Dan White",
+        "email": null,
+        "title": "Mr.",
+        "start_date": "2025-12-16",
+        "committees": [
+          "City Council Workshop"
+        ]
+      },
+      {
+        "name": "Kyle Brezovec",
+        "email": null,
+        "title": "Mr.",
+        "start_date": "2025-12-16",
+        "committees": [
+          "City Council Workshop"
+        ]
+      },
+      {
+        "name": "Michael Bird",
+        "email": "mbird@hudson.oh.us",
+        "title": "Dr.",
+        "start_date": "2023-12-12",
+        "committees": [
+          "City Council Workshop"
+        ]
+      },
+      {
+        "name": "Patricia Goetz",
+        "email": "pgoetz@hudson.oh.us",
+        "title": "Dr.",
+        "start_date": "2023-12-12",
+        "committees": [
+          "City Council Workshop"
+        ]
+      },
+      {
+        "name": "Samantha D'Eramo",
+        "email": "sderamo@hudson.oh.us",
+        "title": "Ms.",
+        "start_date": "2025-11-25",
+        "committees": [
+          "City Council Workshop"
+        ]
+      },
+      {
+        "name": "Skylar Sutton",
+        "email": "ssutton@hudson.oh.us",
+        "title": "Mr.",
+        "start_date": "2023-12-05",
+        "committees": [
+          "City Council Workshop"
+        ]
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-25",
+      "body": "Architectural & Historic Board of Review",
+      "location": "Town Hall\r\n27 East Main Street",
+      "has_agenda": true,
+      "agenda_url": "https://hudson.legistar1.com/hudson/meetings/2026/2/2728_A_Architectural___Historic_Board_of_Review_26-02-25_CD_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-17",
+      "body": "City Council",
+      "location": "Town Hall\r\n27 East Main Street",
+      "has_agenda": true,
+      "agenda_url": "https://hudson.legistar1.com/hudson/meetings/2026/2/2664_A_City_Council_26-02-17_Council_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-11",
+      "body": "Architectural & Historic Board of Review",
+      "location": "Town Hall\r\n27 East Main Street",
+      "has_agenda": true,
+      "agenda_url": "https://hudson.legistar1.com/hudson/meetings/2026/2/2727_A_Architectural___Historic_Board_of_Review_26-02-11_CD_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "City Council Workshop",
+      "location": "Town Hall\r\n27 East Main Street",
+      "has_agenda": true,
+      "agenda_url": "https://hudson.legistar1.com/hudson/meetings/2026/2/2655_A_City_Council_Workshop_26-02-10_Council_Meeting_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-09",
+      "body": "Planning Commission",
+      "location": "Town Hall\r\n27 East Main Street",
+      "has_agenda": true,
+      "agenda_url": "https://hudson.legistar1.com/hudson/meetings/2026/2/2713_A_Planning_Commission__26-02-09_CD_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-07",
+      "body": "City Council",
+      "location": "City Hall\r\n1140 Terex Road",
+      "has_agenda": true,
+      "agenda_url": "https://hudson.legistar1.com/hudson/meetings/2026/2/2731_A_City_Council_26-02-07_Council_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "City Council",
+      "location": "Town Hall\r\n27 East Main Street",
+      "has_agenda": true,
+      "agenda_url": "https://hudson.legistar1.com/hudson/meetings/2026/2/2663_A_City_Council_26-02-03_Council_Meeting_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-28",
+      "body": "Architectural & Historic Board of Review",
+      "location": "Town Hall\r\n27 East Main Street",
+      "has_agenda": true,
+      "agenda_url": "https://hudson.legistar1.com/hudson/meetings/2026/1/2700_A_Architectural___Historic_Board_of_Review_26-01-28_CD_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-27",
+      "body": "City Council Workshop",
+      "location": "Town Hall\r\n27 East Main Street",
+      "has_agenda": true,
+      "agenda_url": "https://hudson.legistar1.com/hudson/meetings/2026/1/2654_A_City_Council_Workshop_26-01-27_Council_Meeting_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Architectural and Historic Board of Review Findings of Fact for case #25-361, for the property located at 33 E. Streetsboro Street, Hudson, OH 44236",
+      "type": "Minutes",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-20",
+      "file_number": "AHBR 25-361 Findings of Fact",
+      "passed_date": null
+    },
+    {
+      "title": "Minutes of Previous Architectural & Historic Board of Review Meeting:  February 11, 2026.",
+      "type": "Minutes",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-20",
+      "file_number": "AHBR 2.11.2026",
+      "passed_date": null
+    },
+    {
+      "title": "88 N Main Street (Historic District)\r\nAlterations (Door Replacement)\r\nSubmitted by Joseph Kernan\r\na)\tStaff notes this application was continued from the February 11, 2026, AHBR meeting.\r\nb)\tThe AHBR r",
+      "type": "AHBR Application",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "AHBR 2025-1478",
+      "passed_date": null
+    },
+    {
+      "title": "50 W Streetsboro Street\r\nSign (Wall Sign)\r\nSubmitted by Dr. Shweta Arora\r\na)\tStaff recommends approval as submitted.",
+      "type": "AHBR Application",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "AHBR 25-1510",
+      "passed_date": null
+    },
+    {
+      "title": "41 E Main Street (Historic District)\r\nCommercial Addition (Office and Storage Space)\r\nSubmitted by Elizabeth Swearingen, Peninsula Architects\r\na)\tStaff notes this proposal received informal AHBR comme",
+      "type": "AHBR Application",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "AHBR 25-1022",
+      "passed_date": null
+    },
+    {
+      "title": "201 N. Main Street (Historic District)\r\nDemolition, Alteration and Re-build\r\nSubmitted by Elizabeth Swearingen, Peninsula Architects\r\na)\tStaff notes this project received AHBR approval at the October ",
+      "type": "AHBR Application",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "AHBR 26-98",
+      "passed_date": null
+    },
+    {
+      "title": "A Motion to Acknowledge the Timely Receipt of the January 2026 Monthly Financial Report\r\nBrief Description:   Financial summaries are provided each month for Council’s review.",
+      "type": "Motion",
+      "status": "Passed",
+      "intro_date": "2026-02-09",
+      "file_number": "26-0014",
+      "passed_date": "2026-02-17"
+    },
+    {
+      "title": "AN ORDINANCE TO APPROVE THE EDITING AND INCLUSION OF CERTAIN ORDINANCES AND RESOLUTIONS AS PARTS OF THE VARIOUS COMPONENT CODES OF THE CODIFIED ORDINANCES; TO PROVIDE FOR THE ADOPTION OF NEW MATTER IN",
+      "type": "Ordinance",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-09",
+      "file_number": "TMP-8499",
+      "passed_date": null
+    },
+    {
+      "title": "130 N Oviatt Street (Historic District)(Informal)\nAddition (Commercial)",
+      "type": "AHBR Application",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-06",
+      "file_number": "AHBR 8495",
+      "passed_date": null
+    },
+    {
+      "title": "11 S Main Street (Gazebo Green - Historic District)\nAlterations (Downtown Gazebo)",
+      "type": "AHBR Application",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-06",
+      "file_number": "AHBR 26-69",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://hudson.legistar.com",
-  "enriched_at": "2026-02-22T18:42:40.122774",
+  "enriched_at": "2026-02-23T02:43:34.581497",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

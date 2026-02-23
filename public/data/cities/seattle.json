@@ -169,11 +169,11 @@
     "accela_agency_id": "SEATTLE"
   },
   "development": {
-    "permits_12mo": 6357,
-    "yoy_trend_pct": 9.1,
-    "avg_permit_value": 1120541.33,
+    "permits_12mo": 6356,
+    "yoy_trend_pct": 9.3,
+    "avg_permit_value": 1120781.35,
     "permit_types": {
-      "Building": 5365,
+      "Building": 5364,
       "Demolition": 539,
       "Roof": 428,
       "Grading": 25
@@ -474,8 +474,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.seattle.gov/resource/76t5-zqzr.json",
-        "probed_at": "2026-02-22T18:43:31.313042",
-        "data_vintage": "Rolling 12-month window ending 2026-02-22",
+        "probed_at": "2026-02-23T02:49:07.254559",
+        "data_vintage": "Rolling 12-month window ending 2026-02-23",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -521,7 +521,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Seattle",
-        "probed_at": "2026-02-22T18:44:34.388809",
+        "probed_at": "2026-02-23T02:49:56.553587",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -785,13 +785,364 @@
     "granularity_flags": 0
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "City Council",
+    "members": [
+      {
+        "name": "Alexis Mercedes Rinck",
+        "email": "AlexisMercedes.Rinck@seattle.gov",
+        "title": "Member",
+        "start_date": "2024-11-26",
+        "website": "https://www.seattle.gov/council/rinck",
+        "committees": [
+          "Council Briefing",
+          "Housing, Arts, and Civil Rights Committee",
+          "Human Services, Labor, and Economic Development Committee",
+          "Land Use and Sustainability Committee",
+          "Land Use Committee"
+        ]
+      },
+      {
+        "name": "Dan Strauss",
+        "email": "Dan.Strauss@seattle.gov",
+        "title": "Member",
+        "start_date": "2020-01-01",
+        "phone": "206-684-8806",
+        "website": "http://www.seattle.gov/council/strauss",
+        "committees": [
+          "Council Briefing",
+          "Finance, Native Communities, and Tribal Governments Committee",
+          "Governance and Utilities Committee",
+          "Land Use and Sustainability Committee",
+          "Parks and City Light Committee"
+        ]
+      },
+      {
+        "name": "Debora Juarez",
+        "email": "Debora.Juarez@seattle.gov",
+        "title": "Member",
+        "start_date": "2025-07-28",
+        "phone": "206-684-8805",
+        "website": "http://www.seattle.gov/council/juarez",
+        "committees": [
+          "Council Briefing",
+          "Governance and Utilities Committee",
+          "Housing, Arts, and Civil Rights Committee",
+          "Human Services, Labor, and Economic Development Committee",
+          "Land Use Committee"
+        ]
+      },
+      {
+        "name": "Dionne Foster",
+        "email": "Dionne.Foster@seattle.gov",
+        "title": "Member",
+        "start_date": "2026-01-01",
+        "phone": "206-684-8809",
+        "website": "https://seattle.gov/council/members/dionne-foster",
+        "committees": [
+          "Council Briefing",
+          "Housing, Arts, and Civil Rights Committee",
+          "Human Services, Labor, and Economic Development Committee",
+          "Land Use and Sustainability Committee",
+          "Libraries, Education, and Neighborhoods Committee"
+        ]
+      },
+      {
+        "name": "Eddie Lin",
+        "email": "Eddie.Lin@seattle.gov",
+        "title": "Member",
+        "start_date": "2025-11-25",
+        "committees": [
+          "Council Briefing",
+          "Governance, Accountability, and Economic Development Committee",
+          "Housing and Human Services Committee",
+          "Housing, Arts, and Civil Rights Committee",
+          "Land Use and Sustainability Committee"
+        ]
+      },
+      {
+        "name": "Joy Hollingsworth",
+        "email": "Joy.Hollingsworth@seattle.gov",
+        "title": "Council President",
+        "start_date": "2024-01-02",
+        "website": "https://www.seattle.gov/council/hollingsworth",
+        "committees": [
+          "Council Briefing",
+          "Finance, Native Communities, and Tribal Governments Committee",
+          "Governance and Utilities Committee",
+          "Housing, Arts, and Civil Rights Committee",
+          "Human Services, Labor, and Economic Development Committee"
+        ]
+      },
+      {
+        "name": "Maritza Rivera",
+        "email": "Maritza.Rivera@seattle.gov",
+        "title": "Member",
+        "start_date": "2024-01-02",
+        "website": "https://www.seattle.gov/council/rivera",
+        "committees": [
+          "Council Briefing",
+          "Finance, Native Communities, and Tribal Governments Committee",
+          "Governance and Utilities Committee",
+          "Libraries, Education, and Neighborhoods Committee",
+          "Parks and City Light Committee"
+        ]
+      },
+      {
+        "name": "Robert Kettle",
+        "email": "Robert.Kettle@seattle.gov",
+        "title": "Member",
+        "start_date": "2024-01-02",
+        "website": "https://www.seattle.gov/council/kettle",
+        "committees": [
+          "Council Briefing",
+          "Finance, Native Communities, and Tribal Governments Committee",
+          "Governance and Utilities Committee",
+          "Parks and City Light Committee",
+          "Public Safety Committee"
+        ]
+      },
+      {
+        "name": "Rob Saka",
+        "email": "Rob.Saka@seattle.gov",
+        "title": "Member",
+        "start_date": "2024-01-02",
+        "website": "https://www.seattle.gov/council/saka",
+        "committees": [
+          "Council Briefing",
+          "Finance, Native Communities, and Tribal Governments Committee",
+          "Human Services, Labor, and Economic Development Committee",
+          "Parks and City Light Committee",
+          "Public Safety Committee"
+        ]
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-23",
+      "body": "Council Briefing",
+      "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA  98104",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6595_A_Council_Briefing_26-02-23_Council_Briefing.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-24",
+      "body": "Public Safety Committee",
+      "location": "Council Chamber, City Hall \r\n600 4th Avenue \r\nSeattle, WA  98104",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6597_A_Public_Safety_Committee_26-02-24_Committee_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-24",
+      "body": "City Council",
+      "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA 98104",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6598_A_City_Council_26-02-24_Full_Council_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-25",
+      "body": "Housing, Arts, and Civil Rights Committee",
+      "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA 98104",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6600_A_Housing%2C_Arts%2C_and_Civil_Rights_Committee_26-02-25_Committee_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-20",
+      "body": "Human Services, Labor, and Economic Development Committee",
+      "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA 98104",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6593_A_Human_Services%2C_Labor%2C_and_Economic_Development_Committee_26-02-20_Committee_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-19",
+      "body": "Transportation, Waterfront, and Seattle Center Committee",
+      "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA 98104",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6591_A_Transportation%2C_Waterfront%2C_and_Seattle_Center_Committee_26-02-19_Committee_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-19",
+      "body": "Libraries, Education, and Neighborhoods Committee",
+      "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA  98104",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6594_A_Libraries%2C_Education%2C_and_Neighborhoods_Committee_26-02-19_Committee_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-18",
+      "body": "Land Use and Sustainability Committee",
+      "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA 98104",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6588_A_Land_Use_and_Sustainability_Committee_26-02-18_Committee_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-18",
+      "body": "Parks and City Light Committee",
+      "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA 98104",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6583_A_Parks_and_City_Light_Committee_26-02-18_Committee_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "City Council",
+      "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA 98104",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6592_A_City_Council_26-02-17_Full_Council_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "Finance, Native Communities, and Tribal Governments Committee",
+      "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA 98104",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6589_A_Finance%2C_Native_Communities%2C_and_Tribal_Governments_Committee_26-02-17_Committee_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-12",
+      "body": "Governance and Utilities Committee",
+      "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA 98104",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6577_A_Governance_and_Utilities_Committee_26-02-12_Committee_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-11",
+      "body": "Libraries, Education, and Neighborhoods Committee",
+      "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA  98104",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6580_A_Libraries%2C_Education%2C_and_Neighborhoods_Committee_26-02-11_Committee_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-11",
+      "body": "Housing, Arts, and Civil Rights Committee",
+      "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA 98104",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6585_A_Housing%2C_Arts%2C_and_Civil_Rights_Committee_26-02-11_Committee_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Alternative Response Overview in Seattle’s Public Safety Department",
+      "type": "Information Item (Inf)",
+      "status": "Committee Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "Inf 2843",
+      "passed_date": null
+    },
+    {
+      "title": "Sound Transit Expansion Program Update",
+      "type": "Information Item (Inf)",
+      "status": "Committee Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "Inf 2842",
+      "passed_date": null
+    },
+    {
+      "title": "Overview of Veterans, Seniors and Human Services Levy Workforce Investments",
+      "type": "Information Item (Inf)",
+      "status": "Committee Agenda Ready",
+      "intro_date": "2026-02-17",
+      "file_number": "Inf 2840",
+      "passed_date": null
+    },
+    {
+      "title": "Seattle Public Library 2019 Levy Background and Overview",
+      "type": "Information Item (Inf)",
+      "status": "Heard in Committee",
+      "intro_date": "2026-02-13",
+      "file_number": "Inf 2839",
+      "passed_date": null
+    },
+    {
+      "title": "Appointment of Steven Zwerin as member, Civil Service Commission, for a term to December 31, 2028.",
+      "type": "Appointment (Appt)",
+      "status": "Filed with City Clerk",
+      "intro_date": "2026-02-13",
+      "file_number": "Appt 03443",
+      "passed_date": null
+    },
+    {
+      "title": "Seattle Center Overview",
+      "type": "Information Item (Inf)",
+      "status": "Heard in Committee",
+      "intro_date": "2026-02-12",
+      "file_number": "Inf 2835",
+      "passed_date": null
+    },
+    {
+      "title": "HSD’s (Human Services Department) 2024 Provider Pay Report",
+      "type": "Information Item (Inf)",
+      "status": "Committee Agenda Ready",
+      "intro_date": "2026-02-12",
+      "file_number": "Inf 2838",
+      "passed_date": null
+    },
+    {
+      "title": "State of the City address delivered by Mayor Katie B. Wilson on February 17, 2026.",
+      "type": "Clerk File (CF)",
+      "status": "Filed with City Clerk",
+      "intro_date": "2026-02-12",
+      "file_number": "CF 314547",
+      "passed_date": "2026-02-17"
+    },
+    {
+      "title": "Transportation Funding Task Force Update",
+      "type": "Information Item (Inf)",
+      "status": "Heard in Committee",
+      "intro_date": "2026-02-12",
+      "file_number": "Inf 2836",
+      "passed_date": null
+    },
+    {
+      "title": "AN ORDINANCE relating to civil immigration enforcement; prohibiting civil immigration enforcement staging on all real property that is City owned and controlled; and adding a new Chapter 14.125 to the",
+      "type": "Council Bill (CB)",
+      "status": "Committee Agenda Ready",
+      "intro_date": "2026-02-12",
+      "file_number": "CB 121164",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://seattle.legistar.com",
-  "enriched_at": "2026-02-22T18:43:02.477499",
+  "enriched_at": "2026-02-23T02:47:44.454227",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

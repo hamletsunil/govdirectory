@@ -500,7 +500,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Idaho%20Falls",
-        "probed_at": "2026-02-22T18:46:04.825727",
+        "probed_at": "2026-02-23T02:51:10.675924",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -764,13 +764,137 @@
     "granularity_flags": 1
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "City Council",
+    "members": [
+      {
+        "name": "Brandon Lee",
+        "email": "blee@idahofalls.gov",
+        "title": "Councilor",
+        "start_date": "2026-01-08"
+      },
+      {
+        "name": "Jim Francis",
+        "email": "jfrancis@idahofalls.gov",
+        "title": "Council President",
+        "start_date": "2020-05-01"
+      },
+      {
+        "name": "Jim Freeman",
+        "email": "jfreeman@idahofalls.gov",
+        "title": "Councilor",
+        "start_date": "2020-05-01"
+      },
+      {
+        "name": "John Radford",
+        "email": "jradford@idahofalls.gov",
+        "title": "Councilor",
+        "start_date": "2024-01-11"
+      },
+      {
+        "name": "Kirk Larsen",
+        "email": null,
+        "title": "Councilor",
+        "start_date": "2024-01-01"
+      },
+      {
+        "name": "Lisa Burtenshaw",
+        "email": "lburtenshaw@idahofalls.gov",
+        "title": "Mayor",
+        "start_date": "2021-01-01"
+      },
+      {
+        "name": "Michelle Ziel-Dingman",
+        "email": "mdingman@idahofalls.gov",
+        "title": "Councilor",
+        "start_date": "2020-05-01"
+      }
+    ]
   },
   "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_legislation": [
+    {
+      "title": "Variance and Reasoned Statement of Relevant Criteria and Standards, Subdivision Ordinance Variance.",
+      "type": "Approval",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-12",
+      "file_number": "26-64",
+      "passed_date": null
+    },
+    {
+      "title": "Treasurer’s Report for November 2025",
+      "type": "Approval",
+      "status": "Passed",
+      "intro_date": "2026-01-16",
+      "file_number": "26-33",
+      "passed_date": "2026-01-22"
+    },
+    {
+      "title": "Appointments to City Boards, Committees and Commissions pursuant to Idaho Falls Police Department Policy.",
+      "type": "Acceptance",
+      "status": "Passed",
+      "intro_date": "2026-01-15",
+      "file_number": "26-32",
+      "passed_date": "2026-01-22"
+    },
+    {
+      "title": "Development Agreement for Christ Community Church",
+      "type": "Approval",
+      "status": "Passed",
+      "intro_date": "2026-01-14",
+      "file_number": "26-30",
+      "passed_date": "2026-01-22"
+    },
+    {
+      "title": "Replace Asphalt Recycler for Public Works",
+      "type": "Approval",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-13",
+      "file_number": "26-29",
+      "passed_date": null
+    },
+    {
+      "title": "Quasi-Judicial Public Hearing - Planned Unit Development (PUD) and Reasoned Statement of Relevant Criteria and Standards, Willows Place Townhomes.",
+      "type": "Public Hearing",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-12",
+      "file_number": "26-27",
+      "passed_date": null
+    },
+    {
+      "title": "Final Plat, Development Agreement, and Reasoned Statement of Relevant Criteria and Standards, Loock Subdivision, Division No. 3",
+      "type": "Approval",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-12",
+      "file_number": "26-25",
+      "passed_date": null
+    },
+    {
+      "title": "Final Plat and Reasoned Statement of Relevant Criteria and Standards, Home Ranch Addition, Division No. 7, First Amended.",
+      "type": "Approval",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-12",
+      "file_number": "26-26",
+      "passed_date": null
+    },
+    {
+      "title": "Resolution approving the Eligibility Report for the Narrows Urban Renewal District",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-12",
+      "file_number": "26-28",
+      "passed_date": null
+    },
+    {
+      "title": "Annual Impact Fee Report",
+      "type": "Approval",
+      "status": "Passed",
+      "intro_date": "2026-01-06",
+      "file_number": "26-23",
+      "passed_date": "2026-01-22"
+    }
+  ],
   "legistar_url": "https://idahofalls.legistar.com",
-  "enriched_at": "2026-02-22T18:42:40.817434",
+  "enriched_at": "2026-02-23T02:43:43.866272",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

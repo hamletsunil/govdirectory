@@ -404,7 +404,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Santa%20Barbara",
-        "probed_at": "2026-02-22T18:47:45.913897",
+        "probed_at": "2026-02-23T02:52:32.495675",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -668,13 +668,199 @@
     "granularity_flags": 0
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "BOARD OF SUPERVISORS",
+    "members": [
+      {
+        "name": "Bob Nelson",
+        "email": null,
+        "title": "Supervisor",
+        "start_date": "2021-01-04"
+      },
+      {
+        "name": "Joan Hartmann",
+        "email": null,
+        "title": "Supervisor",
+        "start_date": "2017-01-03",
+        "phone": "H 805-693-9425"
+      },
+      {
+        "name": "Laura Capps",
+        "email": null,
+        "title": "Supervisor",
+        "start_date": "2022-12-06"
+      },
+      {
+        "name": "Roy Lee",
+        "email": null,
+        "title": "Supervisor",
+        "start_date": "2025-01-06"
+      },
+      {
+        "name": "Steve Lavagnino",
+        "email": null,
+        "title": "Supervisor",
+        "start_date": "2011-01-01",
+        "phone": "805-346-8400",
+        "website": "http://www.countyofsb.org/bos/lavagnino/"
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-24",
+      "body": "BOARD OF SUPERVISORS",
+      "location": "COUNTY ADMINISTRATION BUILDING\r\nBOARD HEARING ROOM, FOURTH FLOOR  \r\n105 EAST ANAPAMU STREET, SANTA BARBARA",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/SantaBarbara/meetings/2026/2/2549_A_BOARD_OF_SUPERVISORS_26-02-24_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-10",
+      "body": "BOARD OF SUPERVISORS",
+      "location": null,
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-24",
+      "body": "BOARD OF SUPERVISORS",
+      "location": null,
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-17",
+      "body": "BOARD OF SUPERVISORS",
+      "location": null,
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "BOARD OF SUPERVISORS",
+      "location": "JOSEPH CENTENO BETTERAVIA GOVERNMENT ADMINISTRATION\r\nBUILDING, BOARD HEARING ROOM\r\n511 EAST LAKESIDE PARKWAY, SANTA MARIA",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/SantaBarbara/meetings/2026/2/2547_A_BOARD_OF_SUPERVISORS_26-02-10_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "BOARD OF SUPERVISORS",
+      "location": "COUNTY ADMINISTRATION BUILDING\r\nBOARD HEARING ROOM, FOURTH FLOOR  \r\n105 EAST ANAPAMU STREET, SANTA BARBARA",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/SantaBarbara/meetings/2026/2/2546_A_BOARD_OF_SUPERVISORS_26-02-03_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-27",
+      "body": "BOARD OF SUPERVISORS",
+      "location": "JOSEPH CENTENO BETTERAVIA GOVERNMENT ADMINISTRATION\r\nBUILDING, BOARD HEARING ROOM\r\n511 EAST LAKESIDE PARKWAY, SANTA MARIA",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/SantaBarbara/meetings/2026/1/2545_A_BOARD_OF_SUPERVISORS_26-01-27_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Consider recommendations regarding a Memorandum of Understanding between the County of Santa Barbara and the Superior Court of Santa Barbara for the provision of court security services, as follows:\r\n",
+      "type": "Administrative Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-20",
+      "file_number": "26-00176",
+      "passed_date": null
+    },
+    {
+      "title": "CONFERENCE WITH LEGAL COUNSEL-EXISTING LITIGATION\r\n(Paragraph (1) of subdivision (d) of Government Code section 54956.9)\r\n\r\nZainab Anastasiya Abdullah v. County of Santa Barbara, et al., United States",
+      "type": "Agenda Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "26-00157",
+      "passed_date": null
+    },
+    {
+      "title": "HEARING - Consider recommendations regarding a presentation of the California Department of Health Care Services Behavioral Health Community-Based Organized Networks of Equitable Care and Treatment (B",
+      "type": "Departmental Agenda",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-17",
+      "file_number": "26-00156",
+      "passed_date": null
+    },
+    {
+      "title": "HEARING - Consider recommendations regarding the Araya and Hayduk Appeals, Case Nos. 25APL-00019 and 25APL-00020, of the Montecito Planning Commission Approval of the Promise Land LLC - As-Built Wall,",
+      "type": "Departmental Agenda",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-13",
+      "file_number": "26-00138",
+      "passed_date": null
+    },
+    {
+      "title": "Consider recommendations regarding Lower Mission Creek Flood Control Project Reach 4, First District, as follows:\n\nActing as the Board of Directors, Flood Control and Water Conservation District:\n\na) ",
+      "type": "Administrative Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-13",
+      "file_number": "26-00150",
+      "passed_date": null
+    },
+    {
+      "title": "The Santa Barbara County Board of Supervisors currently provides in-person participation as well as remote participation until further notice. \r\n\r\nBoard members and the public may participate from the",
+      "type": "Agenda Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-13",
+      "file_number": "26-00155",
+      "passed_date": null
+    },
+    {
+      "title": "Approve Budget Revision Request Nos. 0010779; 0010942; 0010959; 0010966; 0010970; and 0010977. (4/5 Vote Required)",
+      "type": "Administrative Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-13",
+      "file_number": "26-00139",
+      "passed_date": null
+    },
+    {
+      "title": "Consider recommendations regarding certification of total miles in the County Maintained Road System, as follows:\n\na) Adopt the attached Resolution recertifying the current total mileage included in t",
+      "type": "Administrative Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-13",
+      "file_number": "26-00151",
+      "passed_date": null
+    },
+    {
+      "title": "Consider recommendations regarding Amendment No. 4 to the Cachuma Lake RV Site Renewal Construction Contract, as follows: (4/5 Vote Required)\n\na) Approve, ratify, and authorize the Chair to execute Am",
+      "type": "Administrative Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-13",
+      "file_number": "26-00142",
+      "passed_date": null
+    },
+    {
+      "title": "Consider recommendations regarding the Public Works Director’s Report on Emergency Response Actions from Impacts on Flooding and Storms and Continuation of Emergency Actions for the Transportation Div",
+      "type": "Administrative Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-13",
+      "file_number": "26-00148",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://santabarbara.legistar.com",
-  "enriched_at": "2026-02-22T18:43:01.936230",
+  "enriched_at": "2026-02-23T02:47:37.481213",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

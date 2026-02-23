@@ -529,7 +529,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Goleta",
-        "probed_at": "2026-02-22T18:46:28.010166",
+        "probed_at": "2026-02-23T02:51:29.361929",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -793,13 +793,216 @@
     "granularity_flags": 2
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "City Council",
+    "members": [
+      {
+        "name": "James Kyriaco",
+        "email": null,
+        "title": "Councilmember",
+        "start_date": "2018-12-14"
+      },
+      {
+        "name": "Jennifer R. Smith",
+        "email": null,
+        "title": "Councilmember",
+        "start_date": "2024-12-17"
+      },
+      {
+        "name": "Luz Reyes-Martin",
+        "email": "lreyes-martin@cityofgoleta.org",
+        "title": "Councilmember",
+        "start_date": "2022-12-20"
+      },
+      {
+        "name": "Paula Perotte",
+        "email": null,
+        "title": "Mayor",
+        "start_date": "2016-12-18"
+      },
+      {
+        "name": "Stuart Kasdin",
+        "email": null,
+        "title": "Mayor Pro Tempore",
+        "start_date": "2016-12-06"
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-24",
+      "body": "Design Review Board",
+      "location": "3:00 P.M.\r\nCity Hall, Council Chambers \r\n130 Cremona Drive, Goleta, California",
+      "has_agenda": true,
+      "agenda_url": "https://goleta.legistar1.com/goleta/meetings/2026/2/3229_A__Design_Review_Board_26-02-24_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-18",
+      "body": "City Council",
+      "location": "Special \r\n\r\n5:30 P.M.\r\n\r\nCity Hall, Council Chambers\r\n130 Cremona Dr.\r\nGoleta, CA",
+      "has_agenda": true,
+      "agenda_url": "https://goleta.legistar1.com/goleta/meetings/2026/2/3212_A_City_Council_26-02-18_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-18",
+      "body": "Agenda del Concejo Municipal",
+      "location": "Reunión Ordinaria 5:30 P.M.\r\n\r\nAyuntamiento, Cámaras del Consejo\r\n130 Cremona Dr.\r\nGoleta, CA",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "City Council",
+      "location": "Closed Session 4:30 P.M./Regular Meeting 5:30 P.M.\r\n\r\nCity Hall, Council Chambers\r\n130 Cremona Dr.\r\nGoleta, CA",
+      "has_agenda": true,
+      "agenda_url": "https://goleta.legistar1.com/goleta/meetings/2026/2/3195_A_City_Council_26-02-17_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-11",
+      "body": "Public Tree Advisory Commission",
+      "location": "5:30 P.M.\r\nCity Hall, Council Chambers\r\n130 Cremona Dr.\r\nGoleta, CA",
+      "has_agenda": true,
+      "agenda_url": "https://goleta.legistar1.com/goleta/meetings/2026/2/3221_A__Public_Tree_Advisory_Commission__26-02-11_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "Design Review Board",
+      "location": "3:00 P.M.\r\nCity Hall, Council Chambers \r\n130 Cremona Drive, Goleta, California",
+      "has_agenda": true,
+      "agenda_url": "https://goleta.legistar1.com/goleta/meetings/2026/2/3224_A__Design_Review_Board_26-02-10_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-09",
+      "body": "Planning Commission",
+      "location": "6:00 P.M.\r\nCity Hall, Council Chambers \r\n130 Cremona Dr. Goleta, CA",
+      "has_agenda": true,
+      "agenda_url": "https://goleta.legistar1.com/goleta/meetings/2026/2/3222_A_Planning_Commission_26-02-09_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-27",
+      "body": "Design Review Board",
+      "location": "3:00 P.M.\r\nCity Hall, Council Chambers \r\n130 Cremona Drive, Goleta, California",
+      "has_agenda": true,
+      "agenda_url": "https://goleta.legistar1.com/goleta/meetings/2026/1/3215_A__Design_Review_Board_26-01-27_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-26",
+      "body": "Planning Commission",
+      "location": "6:00 P.M.\r\nCity Hall, Council Chambers \r\n130 Cremona Dr. Goleta, CA",
+      "has_agenda": true,
+      "agenda_url": "https://goleta.legistar1.com/goleta/meetings/2026/1/3214_A_Planning_Commission_26-01-26_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Santa Barbara South Coast Chamber of Commerce 5-year Strategic Plan",
+      "type": "Presentation",
+      "status": "Approval Review",
+      "intro_date": "2026-02-20",
+      "file_number": "26-088",
+      "passed_date": null
+    },
+    {
+      "title": "Agreement with Dudek for Storm Drain Master Plan",
+      "type": "Consent Item",
+      "status": "Approval Review",
+      "intro_date": "2026-02-19",
+      "file_number": "26-087",
+      "passed_date": null
+    },
+    {
+      "title": "Historic Preservation Commission Meeting Schedule for 2026",
+      "type": "Consent Item",
+      "status": "Draft",
+      "intro_date": "2026-02-19",
+      "file_number": "26-084",
+      "passed_date": null
+    },
+    {
+      "title": "Proposed Barnsdall Rio Grande Café of the Sandpiper Golf Course Renovation and New Clubhouse Project; 7925 Hollister Avenue; APN 079-210-059; Case Nos. 22-001-CDPH (in concept); 22-0009-DP-CUP; 22-003",
+      "type": "Public Hearing",
+      "status": "Draft",
+      "intro_date": "2026-02-19",
+      "file_number": "26-083",
+      "passed_date": null
+    },
+    {
+      "title": "A Proclamation of the City of Goleta Proclaiming March 7-14, 2026, as Arbor Week in the City of Goleta",
+      "type": "Presentation",
+      "status": "Draft",
+      "intro_date": "2026-02-19",
+      "file_number": "26-086",
+      "passed_date": null
+    },
+    {
+      "title": "Selection of Chair and Vice Chair for 2026",
+      "type": "Consent Item",
+      "status": "Draft",
+      "intro_date": "2026-02-19",
+      "file_number": "26-085",
+      "passed_date": null
+    },
+    {
+      "title": "151 S Fairview Ave (APN 073-080-081) America’s Tire Signage and California Environmental Quality Act Notice of Exemption\r\nCase Nos. 26-0004-ZC, 26-0002-DRB",
+      "type": "Design Review",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "26-081",
+      "passed_date": null
+    },
+    {
+      "title": "Approval of the Design Review Board Meeting Minutes of February 10, 2026",
+      "type": "Consent Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "26-082",
+      "passed_date": null
+    },
+    {
+      "title": "Acceptance of the January 2026 Check Register",
+      "type": "Consent Item",
+      "status": "Approval Review",
+      "intro_date": "2026-02-18",
+      "file_number": "26-079",
+      "passed_date": null
+    },
+    {
+      "title": "Memo prepared by City Attorney’s office detailing this matter",
+      "type": "Closed Session",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-11",
+      "file_number": "26-078",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://goleta.legistar.com",
-  "enriched_at": "2026-02-22T18:42:36.984893",
+  "enriched_at": "2026-02-23T02:42:58.520304",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

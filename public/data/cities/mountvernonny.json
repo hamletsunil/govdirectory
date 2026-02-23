@@ -522,7 +522,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Mount%20Vernon",
-        "probed_at": "2026-02-22T18:45:58.639023",
+        "probed_at": "2026-02-23T02:51:05.607383",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -786,13 +786,223 @@
     "granularity_flags": 2
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "City Council",
+    "members": [
+      {
+        "name": "Andre Wallace",
+        "email": "awallace@mountvernonny.gov",
+        "title": "Councilmember",
+        "start_date": "2026-01-01",
+        "committees": [
+          "City Council Public Hearing"
+        ]
+      },
+      {
+        "name": "Cathlin Gleason",
+        "email": "cgleason@cmvny.com",
+        "title": null,
+        "start_date": "2026-01-01",
+        "committees": [
+          "City Council Public Hearing"
+        ]
+      },
+      {
+        "name": "Cynthia Turnquest-Jones",
+        "email": "cturnquest-jones@mountvernonny.gov",
+        "title": "Councilmember",
+        "start_date": "2026-01-01",
+        "committees": [
+          "City Council Public Hearing"
+        ]
+      },
+      {
+        "name": "Derrick Thompson",
+        "email": "dthompson@cmvny.com",
+        "title": null,
+        "start_date": "2026-01-01",
+        "committees": [
+          "Board of Estimate & Contract",
+          "Board of Estimate & Contract Public Hearing",
+          "City Council Public Hearing"
+        ]
+      },
+      {
+        "name": "Jaevon Boxhill",
+        "email": "jsboxhill@cmvny.com",
+        "title": "Pro Tempore",
+        "start_date": "2026-01-01",
+        "committees": [
+          "City Council Public Hearing"
+        ]
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-23",
+      "body": "City Council Work Session",
+      "location": "City Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://mountvernonny.legistar1.com/mountvernonny/meetings/2026/2/1296_A_City_Council_Work_Session_26-02-23_Tally_Sheet.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-25",
+      "body": "City Council",
+      "location": "CITY COUNCIL CHAMBERS\r\nCITY HALL",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-17",
+      "body": "Board of Estimate & Contract",
+      "location": "MAYOR'S CONFERENCE ROOM - 1st FLOOR",
+      "has_agenda": true,
+      "agenda_url": "https://mountvernonny.legistar1.com/mountvernonny/meetings/2026/2/1232_A_Board_of_Estimate___Contract_26-02-17_Tally_Sheet.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-11",
+      "body": "City Council",
+      "location": "CITY COUNCIL CHAMBERS\r\nCITY HALL",
+      "has_agenda": true,
+      "agenda_url": "https://mountvernonny.legistar1.com/mountvernonny/meetings/2026/2/1295_A_City_Council_26-02-11_Committee_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-09",
+      "body": "City Council Work Session",
+      "location": "City Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://mountvernonny.legistar1.com/mountvernonny/meetings/2026/2/1294_A_City_Council_Work_Session_26-02-09_Tally_Sheet.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "Board of Estimate & Contract",
+      "location": "MAYOR'S CONFERENCE ROOM - 1st FLOOR",
+      "has_agenda": true,
+      "agenda_url": "https://mountvernonny.legistar1.com/mountvernonny/meetings/2026/2/1231_A_Board_of_Estimate___Contract_26-02-03_Tally_Sheet.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-28",
+      "body": "City Council",
+      "location": "CITY COUNCIL CHAMBERS\r\nCITY HALL",
+      "has_agenda": true,
+      "agenda_url": "https://mountvernonny.legistar1.com/mountvernonny/meetings/2026/1/1264_A_City_Council_26-01-28_Committee_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-26",
+      "body": "City Council Work Session",
+      "location": "City Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://mountvernonny.legistar1.com/mountvernonny/meetings/2026/1/1293_A_City_Council_Work_Session_26-01-26_Tally_Sheet.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "City Clerk: A Resolution Amending Resolution No. 9 Adopted by the City Council on February 11, 2026, Establishing The Standard Workdays and Reporting Guidelines for Elected and Appointed Officials",
+      "type": "Ordinance",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-20",
+      "file_number": "TMP -1977",
+      "passed_date": null
+    },
+    {
+      "title": "Department of Planning and Community Development:  An Ordinance Authorizing the Release of a Request for Proposals (RFP) for Professional Consulting Services to Prepare a Comprehensive Update to the C",
+      "type": "Ordinance",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-17",
+      "file_number": "TMP -1960",
+      "passed_date": null
+    },
+    {
+      "title": "Amended Resolution for Tax Settlement for AMC Realty Group, Inc., 74 MacQuesten Pkwy, S., - [$34,600] -  $13,700.91",
+      "type": "Ordinance",
+      "status": "Adopted",
+      "intro_date": "2026-02-17",
+      "file_number": "TMP -1959",
+      "passed_date": "2026-02-17"
+    },
+    {
+      "title": "Department of Public Works:  An Ordinance Granting a One (1) Year Leave of Absence to Dwayne A. Jones, who Currently Serve as the  Assistant Supervisor within the Department of Public Works",
+      "type": "Ordinance",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-13",
+      "file_number": "TMP -1958",
+      "passed_date": null
+    },
+    {
+      "title": "Department of Buildings:  A Resolution Authorizing Payment for NYSBOC Annual Membership and Conference Training for Fourteen (14) Code Enforcement Officers",
+      "type": "Resolution",
+      "status": "Adopted",
+      "intro_date": "2026-02-13",
+      "file_number": "TMP -1957",
+      "passed_date": "2026-02-17"
+    },
+    {
+      "title": "Law Department:  Authorization to retain the firm of Arcina Risk Group to assist the City in locating documentation of historical insurance coverage response",
+      "type": "Retainer",
+      "status": "Adopted",
+      "intro_date": "2026-02-11",
+      "file_number": "TMP -1952",
+      "passed_date": "2026-02-17"
+    },
+    {
+      "title": "City Council:  Local Law No. ___ - 2026 -  A Local Law Amending Section 265 of Chapter 490 of the Laws of 1922, as amended, being the Charter of the City of Mount Vernon, New York, entitled \"Liability",
+      "type": "Ordinance",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-11",
+      "file_number": "TMP -1940",
+      "passed_date": null
+    },
+    {
+      "title": "Resolution for Tax Settlement for Grand Gardens Apartment Corp., 61 Grand Street - $92,268.29",
+      "type": "Tax Review Settlements",
+      "status": "Adopted",
+      "intro_date": "2026-02-11",
+      "file_number": "TMP -1954",
+      "passed_date": "2026-02-17"
+    },
+    {
+      "title": "Resolution for Tax Settlement for 12-14 Mount Vernon LLC, 12-14 South Fourth Avenue - $6,041.36",
+      "type": "Tax Review Settlements",
+      "status": "Adopted",
+      "intro_date": "2026-02-11",
+      "file_number": "TMP -1955",
+      "passed_date": "2026-02-17"
+    },
+    {
+      "title": "Salary Resolution No. 14 - (ALL POSITIONS) - Secretary - Administrative Assistant within the Department of Public Works",
+      "type": "Ordinance",
+      "status": "Adopted",
+      "intro_date": "2026-02-11",
+      "file_number": "TMP -1950",
+      "passed_date": "2026-02-17"
+    }
+  ],
   "legistar_url": "https://mountvernonny.legistar.com",
-  "enriched_at": "2026-02-22T18:42:49.151287",
+  "enriched_at": "2026-02-23T02:44:55.511805",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

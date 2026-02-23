@@ -564,7 +564,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Napa",
-        "probed_at": "2026-02-22T18:45:55.139977",
+        "probed_at": "2026-02-23T02:51:02.729911",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -828,13 +828,211 @@
     "granularity_flags": 2
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "CITY COUNCIL OF THE CITY OF NAPA",
+    "members": [
+      {
+        "name": "Bernie Narvaez",
+        "email": "bnarvaez@cityofnapa.org",
+        "title": "Councilmember",
+        "start_date": "2024-12-19",
+        "committees": [
+          "HOUSING AUTHORITY"
+        ]
+      },
+      {
+        "name": "Beth Painter",
+        "email": null,
+        "title": "Councilmember",
+        "start_date": "2023-12-21",
+        "committees": [
+          "HOUSING AUTHORITY"
+        ]
+      },
+      {
+        "name": "Chris DeNatale",
+        "email": "cdenatale@cityofnapa.org",
+        "title": "Vice Mayor",
+        "start_date": "2025-12-17",
+        "committees": [
+          "HOUSING AUTHORITY"
+        ]
+      },
+      {
+        "name": "Mary Luros",
+        "email": null,
+        "title": "Councilmember",
+        "start_date": "2025-12-18",
+        "committees": [
+          "HOUSING AUTHORITY"
+        ]
+      },
+      {
+        "name": "Scott Sedgley",
+        "email": "ssedgley@cityofnapa.org",
+        "title": "Mayor",
+        "start_date": "2020-12-10",
+        "committees": [
+          "HOUSING AUTHORITY"
+        ]
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-03-03",
+      "body": "HOUSING AUTHORITY",
+      "location": "City Hall Council Chambers",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-03",
+      "body": "CITY COUNCIL OF THE CITY OF NAPA",
+      "location": "City Hall Council Chambers",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-04",
+      "body": "MEASURE G CITIZEN OVERSIGHT COMMITTEE",
+      "location": "City Council Chambers",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-17",
+      "body": "CITY COUNCIL OF THE CITY OF NAPA",
+      "location": "City Hall Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://napacity.legistar1.com/napacity/meetings/2026/2/2019_A_CITY_COUNCIL_OF_THE_CITY_OF_NAPA_26-02-17_Regular_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "CITY COUNCIL OF THE CITY OF NAPA",
+      "location": "City Hall Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://napacity.legistar1.com/napacity/meetings/2026/2/2017_A_CITY_COUNCIL_OF_THE_CITY_OF_NAPA_26-02-03_Regular_Meeting_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "HOUSING AUTHORITY",
+      "location": "City Hall Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://napacity.legistar1.com/napacity/meetings/2026/2/2018_A_HOUSING_AUTHORITY_26-02-03_Housing_Authority_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-28",
+      "body": "CITY COUNCIL OF THE CITY OF NAPA",
+      "location": "The Pelusi Building",
+      "has_agenda": true,
+      "agenda_url": "https://napacity.legistar1.com/napacity/meetings/2026/1/2026_A_CITY_COUNCIL_OF_THE_CITY_OF_NAPA_26-01-28_Special_Meeting_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "CONFERENCE WITH LABOR NEGOTIATORS (Government Code Section 54957.6): \r\nCity designated representatives: Steve Potter, Liz Habkirk, Heather Ruiz, MJ Tueros, Donna Lee, Zach Curren and Jesse Lad. \r\nEmpl",
+      "type": "Closed Session",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-20",
+      "file_number": "093-2026",
+      "passed_date": null
+    },
+    {
+      "title": "City Council Meeting Minutes",
+      "type": "Consent Calendar",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "088-2026",
+      "passed_date": null
+    },
+    {
+      "title": "City Manager’s Office Staffing Plan Updates",
+      "type": "Consent Calendar",
+      "status": "Passed",
+      "intro_date": "2026-02-10",
+      "file_number": "076-2026",
+      "passed_date": "2026-02-17"
+    },
+    {
+      "title": "Parks, Recreation and Trees Advisory Commission Non-Voting High School Representative Membership",
+      "type": "Consent Calendar",
+      "status": "Passed",
+      "intro_date": "2026-02-10",
+      "file_number": "074-2026",
+      "passed_date": "2026-02-17"
+    },
+    {
+      "title": "CONFERENCE WITH LEGAL COUNSEL – ANTICIPATED LITIGATION\r\nPursuant to Government Code Section 54956.9(d)(2)\r\nOne Potential Case\r\nReceipt of Claim/Complaint from Employee (State Case No. 202505-29445917;",
+      "type": "Closed Session",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-09",
+      "file_number": "072-2026",
+      "passed_date": "2026-02-17"
+    },
+    {
+      "title": "Parks, Recreation and Trees Advisory Commission Membership",
+      "type": "Consent Calendar",
+      "status": "Passed",
+      "intro_date": "2026-02-09",
+      "file_number": "073-2026",
+      "passed_date": "2026-02-17"
+    },
+    {
+      "title": "Affordable Housing Infill Infrastructure Grant",
+      "type": "Consent Calendar",
+      "status": "Passed",
+      "intro_date": "2026-02-03",
+      "file_number": "063-2026",
+      "passed_date": "2026-02-17"
+    },
+    {
+      "title": "Community Development Block Grant (CDBG) Program Income Funding",
+      "type": "Afternoon Administrative Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-02",
+      "file_number": "061-2026",
+      "passed_date": "2026-02-17"
+    },
+    {
+      "title": "Treasurer’s Quarterly Investment Report on the City’s Investment Portfolio for the Quarter Ended December 31, 2025",
+      "type": "Consent Calendar",
+      "status": "Passed",
+      "intro_date": "2026-02-02",
+      "file_number": "055-2026",
+      "passed_date": "2026-02-17"
+    },
+    {
+      "title": "Authorization and Approval to Issue a No Cost Permit",
+      "type": "Consent Calendar",
+      "status": "Passed",
+      "intro_date": "2026-01-28",
+      "file_number": "045-2026",
+      "passed_date": "2026-02-03"
+    }
+  ],
   "legistar_url": "https://napacity.legistar.com",
-  "enriched_at": "2026-02-22T18:42:49.838657",
+  "enriched_at": "2026-02-23T02:45:04.753242",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

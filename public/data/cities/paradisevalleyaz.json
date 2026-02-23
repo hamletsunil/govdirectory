@@ -413,7 +413,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Paradise%20Valley",
-        "probed_at": "2026-02-22T18:47:37.179567",
+        "probed_at": "2026-02-23T02:52:25.518766",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -677,13 +677,188 @@
     "granularity_flags": 0
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "Town Council",
+    "members": [
+      {
+        "name": "Anna Thomasson",
+        "email": "athomasson@paradisevalleyaz.gov",
+        "title": "Council Member",
+        "start_date": "2019-01-08"
+      },
+      {
+        "name": "Christine Labelle",
+        "email": "clabelle@paradisevalleyaz.gov",
+        "title": "Vice Mayor",
+        "start_date": "2023-01-01"
+      },
+      {
+        "name": "Ellen Andeen-Keller",
+        "email": "eandeen@paradisevalleyaz.gov",
+        "title": "Council Member",
+        "start_date": "2019-01-08"
+      },
+      {
+        "name": "Julie Pace",
+        "email": "jpace@paradisevalleyaz.gov",
+        "title": "Council Member",
+        "start_date": "2021-01-14"
+      },
+      {
+        "name": "Karen Liepmann",
+        "email": "kliepmann@paradisevalleyaz.gov",
+        "title": "Council Member",
+        "start_date": "2025-01-09"
+      },
+      {
+        "name": "Mark Stanton",
+        "email": "mstanton@paradisevalleyaz.gov",
+        "title": "Mayor",
+        "start_date": "2025-01-09"
+      },
+      {
+        "name": "Scott Moore",
+        "email": "smoore@paradisevalleyaz.gov",
+        "title": "Council Member",
+        "start_date": "2021-01-14"
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-26",
+      "body": "Town Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://paradisevalleyaz.legistar1.com/paradisevalleyaz/meetings/2026/2/1952_A_Town_Council_26-02-26_Meeting_Notice_and_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-12",
+      "body": "Town Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://paradisevalleyaz.legistar1.com/paradisevalleyaz/meetings/2026/2/1951_A_Town_Council_26-02-12_Meeting_Notice_and_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-11",
+      "body": "Hillside Building Committee",
+      "location": "Town Hall Boardroom",
+      "has_agenda": true,
+      "agenda_url": "https://paradisevalleyaz.legistar1.com/paradisevalleyaz/meetings/2026/2/1960_A_Hillside_Building_Committee_26-02-11_Meeting_Notice_and_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-04",
+      "body": "Board of Adjustment",
+      "location": "Council Chambers",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "Planning Commission",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://paradisevalleyaz.legistar1.com/paradisevalleyaz/meetings/2026/2/1958_A_Planning_Commission_26-02-03_Meeting_Notice_and_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Discussion and Possible Action to Approve a Contract with Selectron Technologies, Inc for Building Inspection Relay SelecTXT and Automatic Results Notification",
+      "type": "Contract",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "26-051",
+      "passed_date": null
+    },
+    {
+      "title": "The Town Council may go into executive session at one or more times during the meeting as needed to confer with the Town Attorney for legal advice regarding any of the items listed on the agenda as au",
+      "type": "Executive Session",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-13",
+      "file_number": "26-046",
+      "passed_date": null
+    },
+    {
+      "title": "Discussion and Possible Action on the Statement of Direction for Phoenix Country Day School (3901 E Stanford Drive) Intermediate Special Use Permit Amendment (SUP-25-06)",
+      "type": "Statement of Direction",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-13",
+      "file_number": "26-045",
+      "passed_date": null
+    },
+    {
+      "title": "Minutes of Town Council Meeting February 12, 2026",
+      "type": "Minutes",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-13",
+      "file_number": "26-047",
+      "passed_date": null
+    },
+    {
+      "title": "Consideration of Requests for Future Agenda Items",
+      "type": "Future Agenda Request",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-13",
+      "file_number": "26-048",
+      "passed_date": null
+    },
+    {
+      "title": "Phoenix Country Day School Student Art Exhibit\r\nApproximate Start Time 5:00 PM",
+      "type": "Study Session Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-13",
+      "file_number": "26-050",
+      "passed_date": null
+    },
+    {
+      "title": "Discussion and Possible Action to Approve a Linking Agreement with Weems Asphalt through 1Government Purchasing Alliance for Doubletree Ranch Road Repairs",
+      "type": "Contract",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-05",
+      "file_number": "26-042",
+      "passed_date": null
+    },
+    {
+      "title": "Discussion and Possible Action to Adopt Resolution 2026-02 Calling for an Election to Authorize the Creation of a Capital Projects Accumulation Fund for the Town of Paradise Valley and Associated Acti",
+      "type": "Resolution",
+      "status": "Passed",
+      "intro_date": "2026-02-05",
+      "file_number": "26-044",
+      "passed_date": "2026-02-12"
+    },
+    {
+      "title": "Discussion and Possible Action to Adopt Resolution 2026-01 Calling for an Election to Permanently Adjust the Expenditure Base of the Town of Paradise Valley and Associated Actions",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-05",
+      "file_number": "26-043",
+      "passed_date": null
+    },
+    {
+      "title": "Discussion of Permanent Base Adjustment and Capital Projects Accumulation Fund Ballot Measures\r\n60 Minutes",
+      "type": "Study Session Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-03",
+      "file_number": "26-039",
+      "passed_date": "2026-02-12"
+    }
+  ],
   "legistar_url": "https://paradisevalleyaz.legistar.com",
-  "enriched_at": "2026-02-22T18:42:53.117565",
+  "enriched_at": "2026-02-23T02:45:54.769250",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

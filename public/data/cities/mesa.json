@@ -180,13 +180,13 @@
     "accela_agency_id": "MESA"
   },
   "development": {
-    "permits_12mo": 5234,
-    "yoy_trend_pct": 2.8,
-    "avg_permit_value": 892929.77,
-    "permits_per_capita_1k": 10.4,
+    "permits_12mo": 5231,
+    "yoy_trend_pct": 3.0,
+    "avg_permit_value": 893573.82,
+    "permits_per_capita_1k": 10.39,
     "permit_types": {
-      "RES": 3338,
-      "COM": 1415,
+      "RES": 3337,
+      "COM": 1413,
       "SVC": 481
     },
     "datasets_count": 10
@@ -491,8 +491,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://citydata.mesaaz.gov/resource/dzpk-hxfb.json",
-        "probed_at": "2026-02-22T18:43:40.119981",
-        "data_vintage": "Rolling 12-month window ending 2026-02-22",
+        "probed_at": "2026-02-23T02:49:13.673131",
+        "data_vintage": "Rolling 12-month window ending 2026-02-23",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -538,7 +538,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Mesa",
-        "probed_at": "2026-02-22T18:44:42.448714",
+        "probed_at": "2026-02-23T02:50:03.372245",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -802,13 +802,245 @@
     "granularity_flags": 2
   },
   "officials": {
-    "body_name": null,
+    "body_name": "City Council",
     "members": []
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-23",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/Mesa/meetings/2026/2/4472_A_City_Council_26-02-23_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-23",
+      "body": "City Council Study Session",
+      "location": "Study Session",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/Mesa/meetings/2026/2/4514_A_City_Council_Study_Session_26-02-23_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-23",
+      "body": "City Council Study Session",
+      "location": "Study Session",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/Mesa/meetings/2026/2/4641_A_City_Council_Study_Session_26-02-23_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-25",
+      "body": "Planning and Zoning Board - Public Hearing",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/Mesa/meetings/2026/2/4624_A_Planning_and_Zoning_Board_-_Public_Hearing_26-02-25_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-25",
+      "body": "Planning and Zoning Board - Study Session",
+      "location": "Study Session",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/Mesa/meetings/2026/2/4642_A_Planning_and_Zoning_Board_-_Study_Session_26-02-25_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-19",
+      "body": "City Council Strategic Planning Session",
+      "location": "The Post",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/Mesa/meetings/2026/2/4543_A_City_Council_Strategic_Planning_Session_26-02-19_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-12",
+      "body": "City Council Study Session",
+      "location": "Study Session",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/Mesa/meetings/2026/2/4546_A_City_Council_Study_Session_26-02-12_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "Design Review Board",
+      "location": "Study Session",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/Mesa/meetings/2026/2/4621_A_Design_Review_Board_26-02-10_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-09",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/Mesa/meetings/2026/2/4489_A_City_Council_26-02-09_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-09",
+      "body": "City Council Study Session",
+      "location": "Study Session",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/Mesa/meetings/2026/2/4493_A_City_Council_Study_Session_26-02-09_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-05",
+      "body": "City Council Study Session",
+      "location": "Study Session",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/Mesa/meetings/2026/2/4541_A_City_Council_Study_Session_26-02-05_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-04",
+      "body": "Board of Adjustment Study Session",
+      "location": "Study Session",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/Mesa/meetings/2026/2/4619_A_Board_of_Adjustment_Study_Session_26-02-04_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-04",
+      "body": "Board of Adjustment Public Hearing",
+      "location": "Study Session",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/Mesa/meetings/2026/2/4620_A_Board_of_Adjustment_Public_Hearing_26-02-04_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "Historic Preservation Board",
+      "location": "Study Session",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/Mesa/meetings/2026/2/4617_A_Historic_Preservation_Board_26-02-03_Meeting_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-28",
+      "body": "Planning and Zoning Board - Study Session",
+      "location": "Study Session",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/Mesa/meetings/2026/1/4623_A_Planning_and_Zoning_Board_-_Study_Session_26-01-28_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Dollar Limit Increase to the Term Contract for Landscape Maintenance Services for City Facilities (Zone 7) for the Facilities Management Department (Council Districts 1, 2, 5, and 6)\n \nA dollar limit ",
+      "type": "Contract",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "26-0216",
+      "passed_date": null
+    },
+    {
+      "title": "Zax Cigar Bar\n \nA cigar bar is requesting a new Series 7 Beer & Wine Bar License for Jakub LLC, 7310 East Main Street - Zachary Ryan Jakubowski, Agent. There is no existing license at this location. (",
+      "type": "Liquor License Application",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "26-0219",
+      "passed_date": null
+    },
+    {
+      "title": "Dollar Limit Increase to the Term Contract for Safety and Medical Supplies for the Mesa Police and Public Safety Support Departments (Citywide)\r\n \r\nThe Mesa Police and Public Safety Support Department",
+      "type": "Contract",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "26-0217",
+      "passed_date": null
+    },
+    {
+      "title": "Three-Year Term Contract with Two-Year Renewal Options for Traffic Management Center (TMC) Video Wall Upgrade (Replacement) for the Transportation Department (Citywide)\r\n\r\nThe first year of the contra",
+      "type": "Contract",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "26-0220",
+      "passed_date": null
+    },
+    {
+      "title": "Use of a Cooperative Contract for the Purchase of 150 Ballistic Helmets (Replacement) for the Mesa Police Department (Citywide)\n \nThis contract will be used to purchase 150 ballistic helmets with face",
+      "type": "Contract",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "26-0215",
+      "passed_date": null
+    },
+    {
+      "title": "Design Review Board meeting held on January 13, 2026.",
+      "type": "Minutes",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "26-0222",
+      "passed_date": null
+    },
+    {
+      "title": "Three-Year Term Use of a Cooperative Contract for Pavement Management Services for the Transportation Department (Citywide)\n \nThe Transportation Department is leveraging advancements in pavement manag",
+      "type": "Contract",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "26-0218",
+      "passed_date": null
+    },
+    {
+      "title": "Approving and authorizing the City Manager or designee to enter into the Power Purchase and Energy Storage Agreement for the Pinal Solar Project (\"Project\") with Arizona Electric Power Cooperative (\"A",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-17",
+      "file_number": "26-0208",
+      "passed_date": null
+    },
+    {
+      "title": "ZON24-01027 \"Mesa Premier RV & Boat Storage Phase II\", 13.7± acres located approximately 265 feet east of the Southeast corner of North Higley Road and East Thomas Road. Rezone 3.5± acres from Single ",
+      "type": "Ordinance",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-12",
+      "file_number": "26-0205",
+      "passed_date": null
+    },
+    {
+      "title": "Judicial Advisory Board meeting held on October 22, 2025.",
+      "type": "Minutes",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-12",
+      "file_number": "26-0206",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://mesa.legistar.com",
-  "enriched_at": "2026-02-22T18:42:46.924500",
+  "enriched_at": "2026-02-23T02:44:38.126894",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

@@ -514,7 +514,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Boerne",
-        "probed_at": "2026-02-22T18:46:46.326878",
+        "probed_at": "2026-02-23T02:51:43.606814",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -778,13 +778,247 @@
     "granularity_flags": 2
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "City Council",
+    "members": [
+      {
+        "name": "Bret A. Bunker",
+        "email": null,
+        "title": "Council Member",
+        "start_date": "2023-10-05",
+        "committees": [
+          "Boerne Public Facility Corporation"
+        ]
+      },
+      {
+        "name": "Frank Ritchie",
+        "email": null,
+        "title": "Mayor",
+        "start_date": "2023-05-17",
+        "committees": [
+          "Boerne Public Facility Corporation"
+        ]
+      },
+      {
+        "name": "Joe Bateman",
+        "email": null,
+        "title": "Council Member",
+        "start_date": "2025-05-27",
+        "committees": [
+          "Boerne Public Facility Corporation"
+        ]
+      },
+      {
+        "name": "Joseph Macaluso",
+        "email": null,
+        "title": "Council Member",
+        "start_date": "2024-06-01",
+        "committees": [
+          "Boerne Public Facility Corporation"
+        ]
+      },
+      {
+        "name": "Kyle Mickelsen",
+        "email": null,
+        "title": "Council Member",
+        "start_date": "2025-09-23"
+      },
+      {
+        "name": "Ty Wolosin",
+        "email": null,
+        "title": "Mayor Pro Tem",
+        "start_date": "2024-06-01",
+        "committees": [
+          "Boerne Public Facility Corporation"
+        ]
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-24",
+      "body": "City Council",
+      "location": "City Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://boerne.legistar1.com/boerne/meetings/2026/2/2067_A_City_Council_26-02-24_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-12",
+      "body": "Design Review Committee",
+      "location": "City Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://boerne.legistar1.com/boerne/meetings/2026/2/2145_A_Design_Review_Committee_26-02-12_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "City Council",
+      "location": "Staff Training Room - 1st Floor",
+      "has_agenda": true,
+      "agenda_url": "https://boerne.legistar1.com/boerne/meetings/2026/2/2126_A_City_Council_26-02-10_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "City Council",
+      "location": "Boerne City Hall",
+      "has_agenda": true,
+      "agenda_url": "https://boerne.legistar1.com/boerne/meetings/2026/2/2131_A_City_Council_26-02-10_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-05",
+      "body": "City Council",
+      "location": "622 Plant Ave. - Parking Lot",
+      "has_agenda": true,
+      "agenda_url": "https://boerne.legistar1.com/boerne/meetings/2026/2/2128_A_City_Council_26-02-05_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "Historic Landmark Commission",
+      "location": "City Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://boerne.legistar1.com/boerne/meetings/2026/2/2125_A_Historic_Landmark_Commission_26-02-03_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "City Council",
+      "location": "The Mays Family Center at the Witte Museum",
+      "has_agenda": true,
+      "agenda_url": "https://boerne.legistar1.com/boerne/meetings/2026/2/2096_A_City_Council_26-02-03_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-02",
+      "body": "Planning and Zoning Commission",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://boerne.legistar1.com/boerne/meetings/2026/2/2122_A_Planning_and_Zoning_Commission_26-02-02_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-27",
+      "body": "City Council",
+      "location": "City Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://boerne.legistar1.com/boerne/meetings/2026/1/2065_A_City_Council_26-01-27_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-24",
+      "body": "City Council",
+      "location": "The Cana Ballroom",
+      "has_agenda": true,
+      "agenda_url": "https://boerne.legistar1.com/boerne/meetings/2026/1/2121_A_City_Council_26-01-24_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "CONSIDER RESOLUTION NO. 2026-R09; A RESOLUTION AUTHORIZING THE CITY MANAGER TO ENTER INTO AND MANAGE AN INTERLOCAL AGREEMENT BETWEEN THE CITY OF BOERNE AND KENDALL COUNTY FOR FIRE PROTECTION SERVICES.",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-03-10",
+      "file_number": "2026-037",
+      "passed_date": null
+    },
+    {
+      "title": "CONSIDER AN ORDER OF CANCELLATION FOR THE GENERAL ELECTION FOR CITY COUNCIL MEMBER DISTRICTS 1 AND 3.",
+      "type": "Consent Agenda",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "2026-050",
+      "passed_date": null
+    },
+    {
+      "title": "SECTION 551.071 - CONSULTATION WITH CITY ATTORNEY; LITIGATION LAURA HANING V. CITY OF BOERNE CAUSE NO. 24-622 A LAWSUIT PENDING IN THE 451st JUDICIAL DISTRICT.",
+      "type": "Executive Session",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "2026-048",
+      "passed_date": null
+    },
+    {
+      "title": "CONSIDER RESOLUTION NO. 2026-R14; A RESOLUTION OF THE CITY COUNCIL OF THE CITY OF BOERNE, TEXAS, AUTHORIZING THE CITY MANAGER TO EXECUTE AN ARCHITECTURAL SERVICES CONTRACT BETWEEN THE CITY OF BOERNE A",
+      "type": "Consent Agenda",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "2026-045",
+      "passed_date": null
+    },
+    {
+      "title": "RECOGNITION OF THE FINANCE DEPARTMENT FOR RECEIVING CERTIFICATE OF ACHIEVEMENT FOR EXCELLENCE IN FINANCIAL REPORTING FROM THE GOVERNMENT FINANCE OFFICERS ASSOCIATION FOR FISCAL YEAR 2023-2024.",
+      "type": "Presentation",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "2026-042",
+      "passed_date": null
+    },
+    {
+      "title": "RECEIVE THE BOERNE POLICE DEPARTMENT 2025 ANNUAL REPORT AND THE ANNUAL REPORT ON RACIAL PROFILING.",
+      "type": "Presentation",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "2026-041",
+      "passed_date": null
+    },
+    {
+      "title": "RECEIVE AND CONSIDER CERTIFICATION OF UNOPPOSED CANDIDATES FOR THE GENERAL ELECTION OF MAY 2, 2026.",
+      "type": "Consent Agenda",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "2026-049",
+      "passed_date": null
+    },
+    {
+      "title": "CONSIDER RESOLUTION NO. 2026-R13; A RESOLUTION OF THE CITY COUNCIL OF THE CITY OF BOERNE, TEXAS, AUTHORIZING THE CITY MANAGER TO EXECUTE AN ARCHITECTURAL SERVICES CONTRACT BETWEEN THE CITY OF BOERNE A",
+      "type": "Consent Agenda",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "2026-044",
+      "passed_date": null
+    },
+    {
+      "title": "CONSIDER APPROVAL OF THE MINUTES OF THE REGULAR CALLED CITY COUNCIL MEETING OF JANUARY 27, 2026 AND THE MINUTES OF THE SPECIAL CALLED CITY COUNCIL MEETING OF FEBRUARY 10, 2026 (WINTER WORKSHOP)",
+      "type": "Consent Agenda",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-17",
+      "file_number": "2026-040",
+      "passed_date": null
+    },
+    {
+      "title": "CONSIDER RESOLUTION NO. 2026-R12; A RESOLUTION OF THE CITY COUNCIL OF THE CITY OF BOERNE, TEXAS, AUTHORIZING THE SUBMISSION OF A CRIMINAL JUSTICE GRANT PROGRAM FISCAL YEAR 2027 APPLICATION TO THE OFFI",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-13",
+      "file_number": "2026-038",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://boerne.legistar.com",
-  "enriched_at": "2026-02-22T18:42:20.750750",
+  "enriched_at": "2026-02-23T02:39:42.205956",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

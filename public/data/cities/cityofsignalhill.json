@@ -520,7 +520,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Signal%20Hill",
-        "probed_at": "2026-02-22T18:46:50.665725",
+        "probed_at": "2026-02-23T02:51:47.281873",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -784,13 +784,185 @@
     "granularity_flags": 2
   },
   "officials": {
-    "body_name": null,
+    "body_name": "City Council",
     "members": []
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-24",
+      "body": "City Council",
+      "location": "Council Chamber, 2175 Cherry Avenue, Signal Hill, CA 90755",
+      "has_agenda": true,
+      "agenda_url": "https://cityofsignalhill.legistar1.com/cityofsignalhill/meetings/2026/2/1438_A_City_Council_26-02-24_Regular_Meeting.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-18",
+      "body": "Parks and Recreation Commission",
+      "location": "Signal Hill Public Library Community Room, 1800 E. Hill Street, Signal Hill, CA 90755",
+      "has_agenda": true,
+      "agenda_url": "https://cityofsignalhill.legistar1.com/cityofsignalhill/meetings/2026/2/1403_A_Parks_and_Recreation_Commission_26-02-18_Regular_Meeting.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-18",
+      "body": "Civil Service Commission",
+      "location": "Council Chamber, 2175 Cherry Avenue, Signal Hill, CA 90755",
+      "has_agenda": true,
+      "agenda_url": "https://cityofsignalhill.legistar1.com/cityofsignalhill/meetings/2026/2/1459_A_Civil_Service_Commission_26-02-18_Special_Meeting.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "Planning Commission",
+      "location": "Signal Hill Public Library Community Room, 1800 E. Hill Street, Signal Hill, CA 90755",
+      "has_agenda": true,
+      "agenda_url": "https://cityofsignalhill.legistar1.com/cityofsignalhill/meetings/2026/2/1419_A_Planning_Commission_26-02-17_Regular_Meeting.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "City Council",
+      "location": "Council Chamber, 2175 Cherry Avenue, Signal Hill, CA 90755",
+      "has_agenda": true,
+      "agenda_url": "https://cityofsignalhill.legistar1.com/cityofsignalhill/meetings/2026/2/1430_A_City_Council_26-02-10_Regular_Meeting.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-04",
+      "body": "Civil Service Commission",
+      "location": "Signal Hill Public Library, 1800 E Hill Street, Signal Hill, CA 90755",
+      "has_agenda": true,
+      "agenda_url": "https://cityofsignalhill.legistar1.com/cityofsignalhill/meetings/2026/2/1446_A_Civil_Service_Commission_26-02-04_Regular_Meeting.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "Sustainable City Committee",
+      "location": "Signal Hill Public Library Learning Center, 1800 E Hill St, Signal Hill CA 90755",
+      "has_agenda": true,
+      "agenda_url": "https://cityofsignalhill.legistar1.com/cityofsignalhill/meetings/2026/2/1457_A_Sustainable_City_Committee_26-02-03_Regular_Meeting.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-27",
+      "body": "City Council",
+      "location": "Council Chamber, 2175 Cherry Avenue, Signal Hill, CA 90755",
+      "has_agenda": true,
+      "agenda_url": "https://cityofsignalhill.legistar1.com/cityofsignalhill/meetings/2026/1/1431_A_City_Council_26-01-27_Regular_Meeting.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-26",
+      "body": "Civil Service Commission",
+      "location": "Council Chamber, 2175 Cherry Avenue, Signal Hill, CA 90755",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "BLACK HISTORY MONTH SPOTLIGHT AWARD FOR DIANA PHILLIPS",
+      "type": "Presentation",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-17",
+      "file_number": "26-1460",
+      "passed_date": null
+    },
+    {
+      "title": "SCHEDULE OF INVESTMENTS AND MONTHLY TRANSACTION REPORT",
+      "type": "Investment Schedule",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-11",
+      "file_number": "26-1455",
+      "passed_date": null
+    },
+    {
+      "title": "CITY COUNCIL DIRECTION TO SCHEDULE A BIENNIAL BUDGET WORKSHOP",
+      "type": "City Manager Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-11",
+      "file_number": "26-1457",
+      "passed_date": null
+    },
+    {
+      "title": "PET OF THE MONTH NOMINATIONS",
+      "type": "Discussion Item Report",
+      "status": "Passed",
+      "intro_date": "2026-02-09",
+      "file_number": "26-1451",
+      "passed_date": "2026-02-18"
+    },
+    {
+      "title": "DEVELOPMENT STATUS REPORT",
+      "type": "Consent Staff Report",
+      "status": "Passed",
+      "intro_date": "2026-02-09",
+      "file_number": "26-1448",
+      "passed_date": "2026-02-17"
+    },
+    {
+      "title": "CITY COUNCIL FOLLOW UP",
+      "type": "Consent Staff Report",
+      "status": "Passed",
+      "intro_date": "2026-02-09",
+      "file_number": "26-1447",
+      "passed_date": "2026-02-17"
+    },
+    {
+      "title": "2025 GENERAL PLAN ANNUAL PROGRESS REPORT",
+      "type": "PC Director's Report",
+      "status": "Filed",
+      "intro_date": "2026-02-09",
+      "file_number": "26-1450",
+      "passed_date": "2026-02-17"
+    },
+    {
+      "title": "DIRECTOR’S REPORT - UPDATES ON CITY COUNCIL ACTIONS, PARK PROJECTS, AND PROGRAMS",
+      "type": "Discussion Item Report",
+      "status": "Filed",
+      "intro_date": "2026-02-04",
+      "file_number": "26-1439",
+      "passed_date": "2026-02-18"
+    },
+    {
+      "title": "Staff will provide a presentation on the upcoming activities for the Signal Hill Public Library’s 100th Anniversary Celebration week.",
+      "type": "Presentation",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-03",
+      "file_number": "26-1429",
+      "passed_date": "2026-02-13"
+    },
+    {
+      "title": "PROFESSIONAL SERVICES AGREEMENT WITH PLACEWORKS TO PREPARE CALIFORNIA ENVIRONMENTAL QUALITY ACT (CEQA) ANALYSIS FOR THE OPPORTUNITY STUDY AREAS",
+      "type": "City Manager Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-03",
+      "file_number": "26-1428",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://cityofsignalhill.legistar.com",
-  "enriched_at": "2026-02-22T18:42:28.538929",
+  "enriched_at": "2026-02-23T02:41:15.193549",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

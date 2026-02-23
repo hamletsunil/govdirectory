@@ -532,7 +532,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Pinellas%20Park",
-        "probed_at": "2026-02-22T18:46:16.423227",
+        "probed_at": "2026-02-23T02:51:20.029484",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -796,13 +796,166 @@
     "granularity_flags": 2
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "City Council",
+    "members": [
+      {
+        "name": "Keith Sabiel",
+        "email": "KeSabiel@pinellas-park.com",
+        "title": "Vice-Mayor",
+        "start_date": "2018-03-09"
+      },
+      {
+        "name": "Patti Reed",
+        "email": null,
+        "title": "Councilwoman",
+        "start_date": "2022-05-09"
+      },
+      {
+        "name": "Ricky Butler",
+        "email": null,
+        "title": "Councilman",
+        "start_date": "2015-01-07"
+      },
+      {
+        "name": "Sandra Bradbury",
+        "email": null,
+        "title": "Mayor",
+        "start_date": "2015-01-07"
+      },
+      {
+        "name": "Tim Caddell",
+        "email": "tcaddell@pinellas-park.com",
+        "title": "Councilman",
+        "start_date": "2023-05-09"
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-26",
+      "body": "City Council",
+      "location": "City Council Chambers",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-10",
+      "body": "City Council",
+      "location": "City Council Chambers",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-05",
+      "body": "Planning and Zoning Commission",
+      "location": "City Council Chambers",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-05",
+      "body": "Board of Adjustment",
+      "location": "City Council Chambers",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "RESOLUTION NO. 2026-08. A RESOLUTION OF THE CITY COUNCIL OF THE CITY OF PINELLAS PARK, PINELLAS COUNTY, FLORIDA, VACATING A PORTION OF A 10-FOOT-WIDE BY 50-FOOT-LONG PORTION OF A DRAINAGE AND UTILITY ",
+      "type": "Resolution",
+      "status": "Public Hearing",
+      "intro_date": "2026-02-13",
+      "file_number": "26-3284",
+      "passed_date": null
+    },
+    {
+      "title": "AUTHORIZATION FOR THE CITY MANAGER TO SIGN A TEMPORARY LICENSE AGREEMENT AND TERMINATION OF PRIOR LICENSE AGREEMENT BETWEEN THE CITY OF PINELLAS PARK AND CELLCO PARTNERSHIP, A DELAWARE GENERAL PARTNER",
+      "type": "Other",
+      "status": "Consent Agenda",
+      "intro_date": "2026-02-13",
+      "file_number": "26-3289",
+      "passed_date": null
+    },
+    {
+      "title": "ORDINANCE NO. 2026-08. AN ORDINANCE OF THE CITY COUNCIL OF THE CITY OF PINELLAS PARK, PINELLAS COUNTY, FLORIDA, AMENDING THE CODE OF ORDINANCES, BY AMENDING CHAPTER 18, LAND DEVELOPMENT CODE, AMENDING",
+      "type": "Ordinance",
+      "status": "Consent Agenda",
+      "intro_date": "2026-02-13",
+      "file_number": "26-3291",
+      "passed_date": null
+    },
+    {
+      "title": "RESOLUTION NO. 2026-09. A RESOLUTION OF THE CITY COUNCIL OF THE CITY OF PINELLAS PARK, PINELLAS COUNTY, FLORIDA, AMENDING THE CITY’S ADMINISTRATIVE FEE SCHEDULE AS ESTABLISHED IN EXHIBIT “A” INCLUDED ",
+      "type": "Resolution",
+      "status": "Consent Agenda",
+      "intro_date": "2026-02-13",
+      "file_number": "26-3290",
+      "passed_date": null
+    },
+    {
+      "title": "ORDINANCE NO. 2026-09. AN ORDINANCE OF THE CITY COUNCIL OF THE CITY OF PINELLAS PARK, PINELLAS COUNTY, FLORIDA, AMENDING THE CODE OF ORDINANCES, BY AMENDING CHAPTER 18, LAND DEVELOPMENT CODE, AMENDING",
+      "type": "Ordinance",
+      "status": "Consent Agenda",
+      "intro_date": "2026-02-13",
+      "file_number": "26-3292",
+      "passed_date": null
+    },
+    {
+      "title": "AUTHORIZATION FOR THE CITY MANAGER TO SIGN A TERMINATION OF LICENSE AGREEMENT AND TEMPORARY LICENSE AGREEMENT BETWEEN THE CITY OF PINELLAS PARK AND T-MOBILE SOUTH, LLC - For City-owned property locate",
+      "type": "Other",
+      "status": "Consent Agenda",
+      "intro_date": "2026-02-13",
+      "file_number": "26-3288",
+      "passed_date": null
+    },
+    {
+      "title": "ORDINANCE NO. 2026-07. AN ORDINANCE OF THE CITY COUNCIL OF THE CITY OF PINELLAS PARK, PINELLAS COUNTY, FLORIDA, AMENDING THE CODE OF ORDINANCES, BY AMENDING CHAPTER 18, LAND DEVELOPMENT CODE, TO ADD A",
+      "type": "Ordinance",
+      "status": "Consent Agenda",
+      "intro_date": "2026-02-13",
+      "file_number": "26-3287",
+      "passed_date": null
+    },
+    {
+      "title": "AUTHORIZATION FOR THE CITY OF PINELLAS PARK TO ACCEPT A UTILITY EASEMENT FROM BUSINESS ENTERPRISE OF PINELLAS, LTD FOR THE PROPERTY LOCATED AT 6565 44TH STREET NORTH - (ESMT-2026-00002)",
+      "type": "Other",
+      "status": "Consent Agenda",
+      "intro_date": "2026-02-13",
+      "file_number": "26-3285",
+      "passed_date": null
+    },
+    {
+      "title": "APPOINTMENT TO THE PARKS AND RECREATION ADVISORY BOARD - Kimberly Nash",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-11",
+      "file_number": "26-3283",
+      "passed_date": null
+    },
+    {
+      "title": "DISCUSSION OF PARKS AND RECREATION ADVISORY BOARD APPLICANT",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-11",
+      "file_number": "26-3282",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://pinellaspark.legistar.com",
-  "enriched_at": "2026-02-22T18:42:55.161556",
+  "enriched_at": "2026-02-23T02:46:17.606148",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

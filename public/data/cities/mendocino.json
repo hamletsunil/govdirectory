@@ -352,7 +352,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Mendocino%20County",
-        "probed_at": "2026-02-22T18:47:32.046337",
+        "probed_at": "2026-02-23T02:52:21.311070",
         "data_vintage": "BRFSS None",
         "geographic_level": "place",
         "status": "unavailable"
@@ -616,13 +616,176 @@
     "granularity_flags": 0
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "Board of Supervisors",
+    "members": [
+      {
+        "name": "Bernie Norvell",
+        "email": null,
+        "title": "Supervisor",
+        "start_date": "2025-01-06"
+      },
+      {
+        "name": "John  Haschak",
+        "email": "haschakj@mendocinocounty.org",
+        "title": "Supervisor",
+        "start_date": "2023-01-03"
+      },
+      {
+        "name": "Madeline Cline",
+        "email": null,
+        "title": "Supervisor",
+        "start_date": "2025-01-06"
+      },
+      {
+        "name": "Maureen Mulheren",
+        "email": "mulherenm@mendocinocounty.org",
+        "title": "Supervisor",
+        "start_date": "2025-01-06"
+      },
+      {
+        "name": "Ted Williams",
+        "email": "williamst@mendocinocounty.org",
+        "title": "Supervisor",
+        "start_date": "2023-01-03"
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-24",
+      "body": "Board of Supervisors",
+      "location": "Board Chambers, Room 1070\r\nCounty Administration Center",
+      "has_agenda": true,
+      "agenda_url": "https://mendocino.legistar1.com/mendocino/meetings/2026/2/1636_A_Board_of_Supervisors_26-02-24_BOARD_OF_SUPERVISORS_AGENDA.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-25",
+      "body": "General Government Committee",
+      "location": "Board Chambers, Room 1070, County Administration Center",
+      "has_agenda": true,
+      "agenda_url": "https://mendocino.legistar1.com/mendocino/meetings/2026/2/1664_A_General_Government_Committee_26-02-25_Committee_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-04",
+      "body": "Board of Supervisors",
+      "location": "Board Chambers, Room 1070\r\nCounty Administration Center",
+      "has_agenda": true,
+      "agenda_url": "https://mendocino.legistar1.com/mendocino/meetings/2026/2/1656_A_Board_of_Supervisors_26-02-04_BOARD_OF_SUPERVISORS_AGENDA.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "Board of Supervisors",
+      "location": "Board Chambers, Room 1070\r\nCounty Administration Center",
+      "has_agenda": true,
+      "agenda_url": "https://mendocino.legistar1.com/mendocino/meetings/2026/2/1635_A_Board_of_Supervisors_26-02-03_BOARD_OF_SUPERVISORS_AGENDA.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-26",
+      "body": "Assessment Appeals Board",
+      "location": "Board Chambers, Room 1070\r\nCounty Administration Center",
+      "has_agenda": true,
+      "agenda_url": "https://mendocino.legistar1.com/mendocino/meetings/2026/1/1674_A_Assessment_Appeals_Board_26-01-26_BOARD_OF_SUPERVISORS_AGENDA.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Adoption of Proclamation Recognizing February 2026 as Grand Jury Awareness Month\r\n(Sponsor: Supervisor Norvell)",
+      "type": "Approval",
+      "status": "Consent Agenda",
+      "intro_date": "2026-02-17",
+      "file_number": "26-0246",
+      "passed_date": null
+    },
+    {
+      "title": "Approval of Minutes of February 3, 2026, Regular Meeting",
+      "type": "Approval",
+      "status": "Consent Agenda",
+      "intro_date": "2026-02-17",
+      "file_number": "26-0243",
+      "passed_date": null
+    },
+    {
+      "title": "Approval of Minutes of February 4, 2026, Closed Session Meeting",
+      "type": "Approval",
+      "status": "Consent Agenda",
+      "intro_date": "2026-02-17",
+      "file_number": "26-0244",
+      "passed_date": null
+    },
+    {
+      "title": "Adoption of Proclamation Recognizing March 2026 as Women’s History Month in Mendocino County \r\n(Sponsors: Supervisor Mulheren and Supervisor Cline)",
+      "type": "Approval",
+      "status": "Consent Agenda",
+      "intro_date": "2026-02-17",
+      "file_number": "26-0242",
+      "passed_date": null
+    },
+    {
+      "title": "Pursuant to Government Code section 54956.9(d)(1) - Conference with Legal Counsel - Existing Litigation: One Case - Preciado v. County of Mendocino, et al., Mendocino County Superior Court, Case No. 2",
+      "type": "Approval",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-12",
+      "file_number": "26-0235",
+      "passed_date": null
+    },
+    {
+      "title": "Pursuant to Government Code Section 54957.6 - Conference with Labor Negotiator - Agency Negotiators: Darcie Antle and Cherie Johnson; Employee Organization(s): Service Employees' International Union (",
+      "type": "Approval",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-12",
+      "file_number": "26-0234",
+      "passed_date": null
+    },
+    {
+      "title": "Adoption of Proclamation Recognizing February 2026 as African American/Black History Month in Mendocino County\r\n(Sponsor: Supervisor Mulheren)",
+      "type": "Approval",
+      "status": "Consent Agenda",
+      "intro_date": "2026-02-11",
+      "file_number": "26-0232",
+      "passed_date": null
+    },
+    {
+      "title": "Approval of the California Department of Health Care Services Proposition 36 Behavioral Health Implementation Funding Allocation in the Amount of $458,944.09 for the Period of March 1, 2026, through M",
+      "type": "Approval",
+      "status": "Consent Agenda",
+      "intro_date": "2026-02-11",
+      "file_number": "26-0230",
+      "passed_date": null
+    },
+    {
+      "title": "Approval of Appointments/Reappointments",
+      "type": "Approval",
+      "status": "Consent Agenda",
+      "intro_date": "2026-02-11",
+      "file_number": "26-0233",
+      "passed_date": null
+    },
+    {
+      "title": "Approval of Retroactive Agreement with Canteen Services of Ukiah in the Amount of $5,400 to Maintain Avanti Micro-Markets in Four County Buildings, Effective July 01, 2025, through June 30, 2026",
+      "type": "Approval",
+      "status": "Consent Agenda",
+      "intro_date": "2026-02-11",
+      "file_number": "26-0231",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://mendocino.legistar.com",
-  "enriched_at": "2026-02-22T18:42:46.751806",
+  "enriched_at": "2026-02-23T02:44:36.033400",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

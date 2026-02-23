@@ -650,7 +650,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Oakland",
-        "probed_at": "2026-02-22T18:44:46.941435",
+        "probed_at": "2026-02-23T02:50:06.985775",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -914,13 +914,407 @@
     "granularity_flags": 2
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "Meeting of the Oakland City Council",
+    "members": [
+      {
+        "name": "Carroll Fife",
+        "email": null,
+        "title": null,
+        "start_date": "2025-05-22",
+        "committees": [
+          "City/Port Liaison Committee",
+          "Community & Economic Development Committee",
+          "Life Enrichment Committee",
+          "Public Safety Committee",
+          "Rules & Legislation Committee"
+        ]
+      },
+      {
+        "name": "Charlene Wang",
+        "email": null,
+        "title": null,
+        "start_date": "2025-05-22",
+        "committees": [
+          "Finance & Management Committee",
+          "Life Enrichment Committee",
+          "Public Safety Committee",
+          "Public Works And Transportation Committee"
+        ]
+      },
+      {
+        "name": "Dan Kalb",
+        "email": "dkalb@oaklandca.gov",
+        "title": null,
+        "start_date": "2022-04-20",
+        "committees": [
+          "Public Works Committee"
+        ]
+      },
+      {
+        "name": "Janani Ramachandran",
+        "email": null,
+        "title": null,
+        "start_date": "2025-05-22",
+        "committees": [
+          "Community & Economic Development Committee",
+          "Finance & Management Committee",
+          "Rules & Legislation Committee"
+        ]
+      },
+      {
+        "name": "Ken Houston",
+        "email": null,
+        "title": null,
+        "start_date": "2025-05-22"
+      },
+      {
+        "name": "Kevin Jenkins",
+        "email": null,
+        "title": null,
+        "start_date": "2025-05-22",
+        "committees": [
+          "Community & Economic Development Committee",
+          "Finance & Management Committee",
+          "Rules & Legislation Committee"
+        ]
+      },
+      {
+        "name": "Lynette McElhaney",
+        "email": null,
+        "title": null,
+        "start_date": "2018-04-17"
+      },
+      {
+        "name": "Nikki Fortunato Bas",
+        "email": null,
+        "title": null,
+        "start_date": "2022-12-30",
+        "phone": "5102387002",
+        "committees": [
+          "Public Works Committee"
+        ]
+      },
+      {
+        "name": "Noel Gallo",
+        "email": null,
+        "title": null,
+        "start_date": "2025-05-22",
+        "committees": [
+          "Education Partnership Committee",
+          "Life Enrichment Committee",
+          "Public Works And Transportation Committee",
+          "Public Works Committee"
+        ]
+      },
+      {
+        "name": "Rebecca Kaplan",
+        "email": null,
+        "title": null,
+        "start_date": "2018-04-17"
+      },
+      {
+        "name": "Rowena Brown",
+        "email": null,
+        "title": null,
+        "start_date": "2025-05-22",
+        "committees": [
+          "Community & Economic Development Committee",
+          "Education Partnership Committee",
+          "Finance & Management Committee",
+          "Public Safety Committee",
+          "Rules & Legislation Committee"
+        ]
+      },
+      {
+        "name": "Treva Reid",
+        "email": null,
+        "title": null,
+        "start_date": "2021-01-04",
+        "committees": [
+          "City/Port Liaison Committee",
+          "Public Works Committee"
+        ]
+      },
+      {
+        "name": "Zac Unger",
+        "email": null,
+        "title": null,
+        "start_date": "2025-05-22",
+        "committees": [
+          "Community & Economic Development Committee",
+          "Education Partnership Committee",
+          "Finance & Management Committee",
+          "Public Works And Transportation Committee"
+        ]
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-24",
+      "body": "Public Works And Transportation Committee",
+      "location": "City Council Chamber, 3rd Floor",
+      "has_agenda": true,
+      "agenda_url": "https://oakland.legistar1.com/oakland/meetings/2026/2/9482_A___Public_Works_And_Transportation_Committee_26-02-24__Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-24",
+      "body": "Finance & Management Committee",
+      "location": "City Council Chamber, 3rd Floor",
+      "has_agenda": true,
+      "agenda_url": "https://oakland.legistar1.com/oakland/meetings/2026/2/9481_A__Finance___Management_Committee_26-02-24__Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-24",
+      "body": "Community & Economic Development Committee",
+      "location": "City Council Chamber, 3rd Floor",
+      "has_agenda": true,
+      "agenda_url": "https://oakland.legistar1.com/oakland/meetings/2026/2/9483_A__Community___Economic_Development_Committee_26-02-24__Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-24",
+      "body": "Life Enrichment Committee",
+      "location": "City Council Chamber, 3rd Floor",
+      "has_agenda": true,
+      "agenda_url": "https://oakland.legistar1.com/oakland/meetings/2026/2/9484_A__Life_Enrichment_Committee_26-02-24__Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-24",
+      "body": "Public Safety Committee",
+      "location": "City Council Chamber, 3rd Floor",
+      "has_agenda": true,
+      "agenda_url": "https://oakland.legistar1.com/oakland/meetings/2026/2/9485_A__Public_Safety_Committee_26-02-24__Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-26",
+      "body": "Rules & Legislation Committee",
+      "location": "City Council Chamber, 3rd Floor",
+      "has_agenda": true,
+      "agenda_url": "https://oakland.legistar1.com/oakland/meetings/2026/2/9486_A__Rules___Legislation_Committee_26-02-26__Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-03",
+      "body": "Concurrent Meeting of the Oakland Redevelopment Successor Agency and the City Council",
+      "location": "City Council Chamber, 3rd Floor",
+      "has_agenda": true,
+      "agenda_url": "https://oakland.legistar1.com/oakland/meetings/2026/3/9487_A___Concurrent_Meeting_of_the_Oakland_Redevelopment_Successor_Agency_and_the_City_Council_26-03-03__Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-05",
+      "body": "Rules & Legislation Committee",
+      "location": "City Council Chamber, 3rd Floor",
+      "has_agenda": true,
+      "agenda_url": "https://oakland.legistar1.com/oakland/meetings/2026/3/9502_A__Rules___Legislation_Committee_26-03-05__Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-19",
+      "body": "Rules & Legislation Committee",
+      "location": "City Council Chamber, 3rd Floor",
+      "has_agenda": true,
+      "agenda_url": "https://oakland.legistar1.com/oakland/meetings/2026/2/9480_A__Rules___Legislation_Committee_26-02-19__Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "Concurrent Meeting of the Oakland Redevelopment Successor Agency and the City Council",
+      "location": "City Council Chamber, 3rd Floor",
+      "has_agenda": true,
+      "agenda_url": "https://oakland.legistar1.com/oakland/meetings/2026/2/9479_A___Concurrent_Meeting_of_the_Oakland_Redevelopment_Successor_Agency_and_the_City_Council_26-02-17__Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-12",
+      "body": "Rules & Legislation Committee",
+      "location": "City Council Chamber, 3rd Floor",
+      "has_agenda": true,
+      "agenda_url": "https://oakland.legistar1.com/oakland/meetings/2026/2/9477_A__Rules___Legislation_Committee_26-02-12__Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "Community & Economic Development Committee",
+      "location": "City Council Chamber, 3rd Floor",
+      "has_agenda": true,
+      "agenda_url": "https://oakland.legistar1.com/oakland/meetings/2026/2/9474_A__Community___Economic_Development_Committee_26-02-10__Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "Finance & Management Committee",
+      "location": "City Council Chamber, 3rd Floor",
+      "has_agenda": true,
+      "agenda_url": "https://oakland.legistar1.com/oakland/meetings/2026/2/9472_A__Finance___Management_Committee_26-02-10__Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "Public Works And Transportation Committee",
+      "location": "City Council Chamber, 3rd Floor",
+      "has_agenda": true,
+      "agenda_url": "https://oakland.legistar1.com/oakland/meetings/2026/2/9473_A___Public_Works_And_Transportation_Committee_26-02-10__Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "Public Safety Committee",
+      "location": "City Council Chamber, 3rd Floor",
+      "has_agenda": true,
+      "agenda_url": "https://oakland.legistar1.com/oakland/meetings/2026/2/9476_A__Public_Safety_Committee_26-02-10__Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "Life Enrichment Committee",
+      "location": "City Council Chamber, 3rd Floor",
+      "has_agenda": true,
+      "agenda_url": "https://oakland.legistar1.com/oakland/meetings/2026/2/9475_A__Life_Enrichment_Committee_26-02-10__Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-05",
+      "body": "Rules & Legislation Committee",
+      "location": "City Council Chamber, 3rd Floor",
+      "has_agenda": true,
+      "agenda_url": "https://oakland.legistar1.com/oakland/meetings/2026/2/9471_A__Rules___Legislation_Committee_26-02-05__Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "Concurrent Meeting of the Oakland Redevelopment Successor Agency and the City Council",
+      "location": "City Council Chamber, 3rd Floor",
+      "has_agenda": true,
+      "agenda_url": "https://oakland.legistar1.com/oakland/meetings/2026/2/9470_A___Concurrent_Meeting_of_the_Oakland_Redevelopment_Successor_Agency_and_the_City_Council_26-02-03__Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Robert Solomon V. City Of Oakland And DOES 1-100\r\nFrom: \t\tOffice Of The City Attorney\r\nRecommendation: Adopt A Resolution Authorizing And Directing The City Attorney To Compromise And Settle The Case ",
+      "type": "City Resolution",
+      "status": "To be Scheduled",
+      "intro_date": "2026-02-19",
+      "file_number": "26-0466",
+      "passed_date": null
+    },
+    {
+      "title": "Informational Report On Measure Q\nFrom: \t\tCouncilmember Unger\nRecommendation: Receive An Informational Report On Measure Q (1) Why Was Extreme Fiscal Necessity Declared Without Open Discussion And Wha",
+      "type": "Informational Report",
+      "status": "In Committee",
+      "intro_date": "2026-02-18",
+      "file_number": "26-0465",
+      "passed_date": null
+    },
+    {
+      "title": "2) Resolution Authorizing The City To Accept And Appropriate Loan And Grant Funds Under The State Of California’s Round 9 2025-2026 Affordable Housing And Sustainable Communities Program For The 285 1",
+      "type": "City Resolution",
+      "status": "To be Scheduled",
+      "intro_date": "2026-02-17",
+      "file_number": "26-0455",
+      "passed_date": null
+    },
+    {
+      "title": "Lead Hazard Reduction Grant Program\nFrom: \t\tHousing And Community Development Department \nRecommendation: Adopt A Resolution Authorizing The City Administrator To (1) Accept And Appropriate Up To $4.4",
+      "type": "City Resolution",
+      "status": "In Committee",
+      "intro_date": "2026-02-17",
+      "file_number": "26-0464",
+      "passed_date": null
+    },
+    {
+      "title": "Declaration Of A Local Emergency Due To AIDS Epidemic\r\nFrom: \t\tOffice Of The Council President\r\nRecommendation: Adopt A Resolution Renewing And Continuing The City Council's Declaration Of A Local Eme",
+      "type": "City Resolution",
+      "status": "To be Scheduled",
+      "intro_date": "2026-02-17",
+      "file_number": "26-0445",
+      "passed_date": null
+    },
+    {
+      "title": "Affordable Housing And Sustainable Communities Program Cycles 8 And 9\nFrom: Department Of Transportation\nRecommendation: Adopt The Following Pieces Of Legislation: \n\n1) A Resolution Authorizing The Ci",
+      "type": "City Resolution",
+      "status": "To be Scheduled",
+      "intro_date": "2026-02-17",
+      "file_number": "26-0452",
+      "passed_date": null
+    },
+    {
+      "title": "Declaration Of Medical Cannabis Health Emergency\r\nFrom: \t\tOffice Of The Council President\r\nRecommendation: Adopt A Resolution Renewing The City Council's Declaration Of A Local Public Health Emergency",
+      "type": "City Resolution",
+      "status": "To be Scheduled",
+      "intro_date": "2026-02-17",
+      "file_number": "26-0446",
+      "passed_date": null
+    },
+    {
+      "title": "Declaration Of A Local Emergency On Homelessness\r\nFrom: \t\tOffice Of The Council President\r\nRecommendation: Adopt A Resolution Renewing And Continuing The City Council's Declaration Of A Local Emergenc",
+      "type": "City Resolution",
+      "status": "To be Scheduled",
+      "intro_date": "2026-02-17",
+      "file_number": "26-0447",
+      "passed_date": null
+    },
+    {
+      "title": "Library Agreement with City of Emeryville\r\nFrom: \t\tOakland Public Library\r\nRecommendation: Adopt A Resolution (1) Authorizing The City Administrator To Enter Into An Agreement With City Of Emeryville ",
+      "type": "City Resolution",
+      "status": "In Committee",
+      "intro_date": "2026-02-11",
+      "file_number": "26-0439",
+      "passed_date": null
+    },
+    {
+      "title": "Black New Deal Report\nFrom: \t\tCouncilmember Fife\nRecommendation: Receive An Informational Report On The Black New Deal Racial Impact Study Developed By Dr. Brandi Summers",
+      "type": "Informational Report",
+      "status": "In Committee",
+      "intro_date": "2026-02-11",
+      "file_number": "26-0442",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://oakland.legistar.com",
-  "enriched_at": "2026-02-22T18:42:51.219682",
+  "enriched_at": "2026-02-23T02:45:26.062966",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

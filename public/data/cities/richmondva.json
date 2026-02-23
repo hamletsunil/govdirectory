@@ -565,7 +565,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Richmond",
-        "probed_at": "2026-02-22T18:44:59.642601",
+        "probed_at": "2026-02-23T02:50:17.502195",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -829,13 +829,362 @@
     "granularity_flags": 1
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "City Council",
+    "members": [
+      {
+        "name": "Andrew Breton",
+        "email": "andrew.breton@rva.gov",
+        "title": null,
+        "start_date": "2025-01-01"
+      },
+      {
+        "name": "Ellen Robertson",
+        "email": "Ellen.Robertson@rva.gov",
+        "title": null,
+        "start_date": "2025-01-01",
+        "phone": "804.646.2778",
+        "website": "http://www.rva.gov/richmond-city-council/index.aspx",
+        "committees": [
+          "Informal Meeting",
+          "Planning Commission"
+        ]
+      },
+      {
+        "name": "Kenya Gibson",
+        "email": "kenya.gibson@rva.gov",
+        "title": null,
+        "start_date": "2025-01-01"
+      },
+      {
+        "name": "Nicole Jones",
+        "email": null,
+        "title": null,
+        "start_date": "2025-01-01"
+      },
+      {
+        "name": "President Cynthia Newbille",
+        "email": "cynthia.newbille@rva.gov",
+        "title": null,
+        "start_date": "2025-01-02"
+      },
+      {
+        "name": "Reva Trammell",
+        "email": "reva.trammell@rva.gov",
+        "title": null,
+        "start_date": "2025-01-01",
+        "phone": "804.646.2778",
+        "website": "http://www.rva.gov/richmond-city-council/index.aspx",
+        "committees": [
+          "Informal Meeting"
+        ]
+      },
+      {
+        "name": "Sarah Abubaker",
+        "email": "sarah.abubaker@rva.gov",
+        "title": null,
+        "start_date": "2025-01-01"
+      },
+      {
+        "name": "Stephanie Lynch",
+        "email": "Stephanie.Lynch@riva.gov",
+        "title": null,
+        "start_date": "2025-01-01",
+        "website": "http://www.rva.gov/richmond-city-council/index.aspx"
+      },
+      {
+        "name": "Vice President Katherine Jordan",
+        "email": null,
+        "title": null,
+        "start_date": "2025-01-02"
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-23",
+      "body": "City Council",
+      "location": "Council Chamber, 2nd Floor - City Hall",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/richmondva/meetings/2026/2/5171_A_City_Council_26-02-23_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-23",
+      "body": "Informal Meeting",
+      "location": "Council Chamber, 2nd Floor - City Hall",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/richmondva/meetings/2026/2/5154_A_Informal_Meeting_26-02-23_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-24",
+      "body": "Public Safety Standing Committee",
+      "location": "Council Chamber, 2nd Floor – City Hall",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/richmondva/meetings/2026/2/5085_A_Public_Safety_Standing_Committee_26-02-24_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-24",
+      "body": "Commission of Architectural Review",
+      "location": "5th Floor Conference Room of City Hall",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/richmondva/meetings/2026/2/5195_A_Commission_of_Architectural_Review_26-02-24_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-25",
+      "body": "Governmental Operations Standing Committee",
+      "location": "Council Chamber, 2nd Floor - City Hall",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/richmondva/meetings/2026/2/5111_A_Governmental_Operations_Standing_Committee_26-02-25_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-02",
+      "body": "Organizational Development Standing Committee",
+      "location": "Council Chamber, 2nd Floor - City Hall",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-04",
+      "body": "Board of Zoning Appeals",
+      "location": "5th Floor Conference Room",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/richmondva/meetings/2026/3/5231_A_Board_of_Zoning_Appeals_26-03-04_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-10",
+      "body": "City Council",
+      "location": "Council Chamber, 2nd Floor - City Hall",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/richmondva/meetings/2026/3/5172_A_City_Council_26-03-10_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-17",
+      "body": "Land Use, Housing and Transportation Standing Committee",
+      "location": "Council Chamber, 2nd Floor - City Hall",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/richmondva/meetings/2026/3/5060_A_Land_Use%2C_Housing_and_Transportation_Standing_Committee_26-03-17_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-19",
+      "body": "Finance and Economic Development Standing Committee",
+      "location": "Council Chamber, 2nd Floor – City Hall",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/richmondva/meetings/2026/3/5072_A_Finance_and_Economic_Development_Standing_Committee_26-03-18_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-18",
+      "body": "Finance and Economic Development Standing Committee",
+      "location": "Council Chamber, 2nd Floor – City Hall",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/richmondva/meetings/2026/2/5071_A_Finance_and_Economic_Development_Standing_Committee_26-02-18_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "Planning Commission",
+      "location": "5th Floor Conference Room",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/richmondva/meetings/2026/2/5130_A_Planning_Commission_26-02-17_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "Land Use, Housing and Transportation Standing Committee",
+      "location": "Council Chamber, 2nd Floor - City Hall",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/richmondva/meetings/2026/2/5059_A_Land_Use%2C_Housing_and_Transportation_Standing_Committee_26-02-17_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-12",
+      "body": "Urban Design Committee",
+      "location": "5th Floor Conference Room of City Hall",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/richmondva/meetings/2026/2/5213_A_Urban_Design_Committee_26-02-12_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-12",
+      "body": "Education and Human Services Standing Committee",
+      "location": "Council Chamber, 2nd Floor - City Hall",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/richmondva/meetings/2026/2/5097_A_Education_and_Human_Services_Standing_Committee_26-02-12_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-09",
+      "body": "Informal Meeting",
+      "location": "Council Chamber, 2nd Floor - City Hall",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/richmondva/meetings/2026/2/5153_A_Informal_Meeting_26-02-09_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-09",
+      "body": "City Council",
+      "location": "Council Chamber, 2nd Floor - City Hall",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/richmondva/meetings/2026/2/5170_A_City_Council_26-02-09_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-04",
+      "body": "Board of Zoning Appeals",
+      "location": "5th Floor Conference Room",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/richmondva/meetings/2026/2/5228_A_Board_of_Zoning_Appeals_26-02-04_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "Planning Commission",
+      "location": "5th Floor Conference Room",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/richmondva/meetings/2026/2/5189_A_Planning_Commission_26-02-03_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-02",
+      "body": "Organizational Development Standing Committee",
+      "location": "Council Chamber, 2nd Floor - City Hall",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/richmondva/meetings/2026/2/5226_A_Organizational_Development_Standing_Committee__26-02-02_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "To close, to public use and travel, a dead-end portion of an alley in the block bounded by Broad, Street, 5th Street, Grace Street and 4th Street, consisting of 2004 ± square feet, while retaining a f",
+      "type": "Ordinance",
+      "status": "Adopted",
+      "intro_date": "9859-10-01",
+      "file_number": "ORD. 2003-354-317",
+      "passed_date": "2003-11-24"
+    },
+    {
+      "title": "Public Access and Participation Instructions - Commission of Architectural Review",
+      "type": "PDR Presentation",
+      "status": "Regular Agenda",
+      "intro_date": "2026-02-20",
+      "file_number": "PDRPRES 2025.054",
+      "passed_date": null
+    },
+    {
+      "title": "20260223 Formal Awards and Recognitions Ceremony Docket",
+      "type": "Council Document ",
+      "status": "Referred",
+      "intro_date": "2026-02-20",
+      "file_number": "CD.2026.059",
+      "passed_date": "2026-02-23"
+    },
+    {
+      "title": "RESOLUTION  OF   THE   RICHMOND   CITY   PLANNING COMMISSION APPROVING A FINAL COMMUNITY UNIT  PLAN  AMENDMENT  FOR STONY POINT SHOPPING CENTER, TO AUTHORIZE THE CONSTRUCTION OF A SECOND DRIVE-THRU LA",
+      "type": "City Planning Commission Resolution",
+      "status": "Consent Agenda",
+      "intro_date": "2026-02-20",
+      "file_number": "CPCR.2026.001",
+      "passed_date": null
+    },
+    {
+      "title": "February 24, 2026 - RAA Annual Report and Updates",
+      "type": "Council Document ",
+      "status": "Presentation",
+      "intro_date": "2026-02-18",
+      "file_number": "CD.2026.056",
+      "passed_date": null
+    },
+    {
+      "title": "February 23, 2026 Public Comment Period Speakers List",
+      "type": "Council Document ",
+      "status": "Public Comment Period Speakers List",
+      "intro_date": "2026-02-18",
+      "file_number": "CD.2026.057",
+      "passed_date": "2026-02-23"
+    },
+    {
+      "title": "February 9, 2026 Formal Meeting Minutes",
+      "type": "Council Document ",
+      "status": "Minutes to be Approved",
+      "intro_date": "2026-02-18",
+      "file_number": "CD.2026.058",
+      "passed_date": "2026-02-18"
+    },
+    {
+      "title": "DECPR Hagerty Report Follow-up Presentation",
+      "type": "Council Document ",
+      "status": "Presentation",
+      "intro_date": "2026-02-17",
+      "file_number": "CD.2026.055",
+      "passed_date": null
+    },
+    {
+      "title": "February 17, 2026 - Land Use, Housing and Transportation Staff Report",
+      "type": "Council Document ",
+      "status": "Filed",
+      "intro_date": "2026-02-17",
+      "file_number": "CD.2026.052",
+      "passed_date": null
+    },
+    {
+      "title": "November 19, 2025 - Finance and Economic Development Standing Committee Meeting Minutes",
+      "type": "Council Document ",
+      "status": "Minutes to be Approved",
+      "intro_date": "2026-02-17",
+      "file_number": "CD.2026.053",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://richmondva.legistar.com",
-  "enriched_at": "2026-02-22T18:42:58.438647",
+  "enriched_at": "2026-02-23T02:46:55.247083",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

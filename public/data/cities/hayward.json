@@ -550,7 +550,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Hayward",
-        "probed_at": "2026-02-22T18:45:13.854770",
+        "probed_at": "2026-02-23T02:50:29.481517",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -814,13 +814,294 @@
     "granularity_flags": 2
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "City Council",
+    "members": [
+      {
+        "name": "Angela Andrews",
+        "email": "Angela.Andrews@hayward-ca.gov",
+        "title": "Council Member",
+        "start_date": "2024-12-10",
+        "committees": [
+          "Council Economic Development Committee"
+        ]
+      },
+      {
+        "name": "Daniel Goldstein",
+        "email": "daniel.goldstein@hayward-ca.gov",
+        "title": "Council Member",
+        "start_date": "2024-12-10"
+      },
+      {
+        "name": "Francisco Zermeno",
+        "email": "francisco.zermeno@hayward-ca.gov",
+        "title": "Council Member",
+        "start_date": "2024-12-10"
+      },
+      {
+        "name": "George Syrop",
+        "email": "george.syrop@hayward-ca.gov",
+        "title": "Council Member",
+        "start_date": "2022-12-13"
+      },
+      {
+        "name": "Julie Roche",
+        "email": "julie.roche@hayward-ca.gov",
+        "title": "Council Member",
+        "start_date": "2022-12-13"
+      },
+      {
+        "name": "Mark Salinas",
+        "email": "mark.salinas@hayward-ca.gov",
+        "title": "Mayor",
+        "start_date": "2020-12-15",
+        "committees": [
+          "Council Economic Development Committee"
+        ]
+      },
+      {
+        "name": "Ray Bonilla Jr",
+        "email": "ray.bonilla@hayward-ca.gov",
+        "title": "Council Member",
+        "start_date": "2024-12-10"
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-24",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://hayward.legistar1.com/hayward/meetings/2026/2/4485_A_City_Council_26-02-24_Revised_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-24",
+      "body": "City Council",
+      "location": "Conference Room 2A",
+      "has_agenda": true,
+      "agenda_url": "https://hayward.legistar1.com/hayward/meetings/2026/2/4499_A_City_Council_26-02-24_Closed_Session_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-25",
+      "body": "Council Infrastructure & Airport Committee",
+      "location": "Hybrid/Conference Room 2A",
+      "has_agenda": true,
+      "agenda_url": "https://hayward.legistar1.com/hayward/meetings/2026/2/4500_A_Council_Infrastructure___Airport_Committee_26-02-25_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-26",
+      "body": "Clean and Green Commission",
+      "location": "Conference Room 2A",
+      "has_agenda": true,
+      "agenda_url": "https://hayward.legistar1.com/hayward/meetings/2026/2/4439_A_Clean_and_Green_Commission_26-02-26_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-26",
+      "body": "Planning Commission",
+      "location": "Council Chambers & Virtual Platform (Zoom)",
+      "has_agenda": true,
+      "agenda_url": "https://hayward.legistar1.com/hayward/meetings/2026/2/4498_A_Planning_Commission_26-02-26_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-18",
+      "body": "Council Budget and Finance Committee",
+      "location": "Conference Room 4A & Virtual Participation",
+      "has_agenda": true,
+      "agenda_url": "https://hayward.legistar1.com/hayward/meetings/2026/2/4493_A_Council_Budget_and_Finance_Committee_26-02-18_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "City Council",
+      "location": "Conference Room 2A",
+      "has_agenda": true,
+      "agenda_url": "https://hayward.legistar1.com/hayward/meetings/2026/2/4496_A_City_Council_26-02-17_Closed_Session_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://hayward.legistar1.com/hayward/meetings/2026/2/4484_A_City_Council_26-02-17_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-12",
+      "body": "Planning Commission",
+      "location": "Council Chambers & Virtual Platform (Zoom)",
+      "has_agenda": true,
+      "agenda_url": "https://hayward.legistar1.com/hayward/meetings/2026/2/4490_A_Planning_Commission_26-02-12_Meeting_Cancelation_Notice.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-09",
+      "body": "Hayward Youth Commission",
+      "location": "Conference Room 2A",
+      "has_agenda": true,
+      "agenda_url": "https://hayward.legistar1.com/hayward/meetings/2026/2/4491_A_Hayward_Youth_Commission_26-02-09_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-05",
+      "body": "Council Infrastructure & Airport Committee",
+      "location": "Hybrid/Conference Room 2A",
+      "has_agenda": true,
+      "agenda_url": "https://hayward.legistar1.com/hayward/meetings/2026/2/4488_A_Council_Infrastructure___Airport_Committee_26-02-05_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "City Council",
+      "location": "Conference Room 2A",
+      "has_agenda": true,
+      "agenda_url": "https://hayward.legistar1.com/hayward/meetings/2026/2/4487_A_City_Council_26-02-03_Closed_Session_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://hayward.legistar1.com/hayward/meetings/2026/2/4474_A_City_Council_26-02-03_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-02",
+      "body": "Council Economic Development Committee",
+      "location": "Conference Room 2A and Virtual Platform (Zoom)",
+      "has_agenda": true,
+      "agenda_url": "https://hayward.legistar1.com/hayward/meetings/2026/2/4478_A_Council_Economic_Development_Committee_26-02-02_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-28",
+      "body": "Council Public Safety Committee",
+      "location": "Conference Room 2A & Virtual Participation (Zoom)",
+      "has_agenda": true,
+      "agenda_url": "https://hayward.legistar1.com/hayward/meetings/2026/1/4476_A_Council_Public_Safety_Committee_26-01-28_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Approval of Minutes of the Council Infrastructure & Airport Committee (CIAC) Meeting Held on November 13, 2025.",
+      "type": "Minutes",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "MIN 26-025",
+      "passed_date": null
+    },
+    {
+      "title": "Minutes of the Planning Commission Meeting on January 8, 2026",
+      "type": "Minutes",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "MIN 26-024",
+      "passed_date": null
+    },
+    {
+      "title": "Hayward Area Recreation and Park District: Comprehensive Update on Current Operations (Report from HARD General Manager Wheeler)",
+      "type": "Informational Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "RPT 26-021",
+      "passed_date": null
+    },
+    {
+      "title": "Approve the City Council Minutes of the City Council Meeting on February 17, 2026",
+      "type": "Minutes",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "MIN 26-023",
+      "passed_date": null
+    },
+    {
+      "title": "Receive an Oral Report and Provide Comment on the Fiscal Year 2025-26 Monthly Budget Update and Five-Year Financial Forecast",
+      "type": "Informational Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-14",
+      "file_number": "RPT 26-020",
+      "passed_date": null
+    },
+    {
+      "title": "Public Hearing Pursuant to Government Code Section 3502.3 to Receive a Report on City of Hayward Vacancies; and Recruitment and Retention Efforts (Report from Human Resources Director Tecson)",
+      "type": "Public Hearing",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-13",
+      "file_number": "PH 26-008",
+      "passed_date": null
+    },
+    {
+      "title": "Public Safety Center Project Update",
+      "type": "Informational Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-13",
+      "file_number": "RPT 26-015",
+      "passed_date": null
+    },
+    {
+      "title": "Review and Comment on Draft City of Hayward Financial Policies",
+      "type": "Action Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-13",
+      "file_number": "ACT 26-006",
+      "passed_date": null
+    },
+    {
+      "title": "Adopt an Ordinance of the City Council of the City of Hayward Amending Sections 8-18.20 to 8-18.40, 8-18.120 to 8-18.170, and 8-18.190 to 8-18.200 of Article 18, Chapter 8 of the Hayward Municipal Cod",
+      "type": "Consent",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-11",
+      "file_number": "CONS 26-057",
+      "passed_date": null
+    },
+    {
+      "title": "Proposed Agenda Planning Calendar: Review and Comment",
+      "type": "Action Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-11",
+      "file_number": "ACT 26-005",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://hayward.legistar.com",
-  "enriched_at": "2026-02-22T18:42:38.719343",
+  "enriched_at": "2026-02-23T02:43:16.255007",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

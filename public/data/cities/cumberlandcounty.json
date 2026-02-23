@@ -385,7 +385,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Cumberland%20County",
-        "probed_at": "2026-02-22T18:47:16.964407",
+        "probed_at": "2026-02-23T02:52:08.950494",
         "data_vintage": "BRFSS None",
         "geographic_level": "place",
         "status": "unavailable"
@@ -649,13 +649,181 @@
     "granularity_flags": 0
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "Board of Commissioners",
+    "members": [
+      {
+        "name": "James Cloutier",
+        "email": "cloutier@cumberlandcounty.org",
+        "title": "Commissioner",
+        "start_date": "2023-01-01",
+        "committees": [
+          "Commissioner Workshop"
+        ]
+      },
+      {
+        "name": "Jean-Marie Caterina",
+        "email": "caterina@cumberlandcounty.org",
+        "title": "Commissioner",
+        "start_date": "2025-01-01",
+        "committees": [
+          "Commissioner Workshop"
+        ]
+      },
+      {
+        "name": "Patricia Smith",
+        "email": "psmith@cumberlandcounty.org",
+        "title": "Chair",
+        "start_date": "2023-01-01",
+        "committees": [
+          "Commissioner Workshop"
+        ]
+      },
+      {
+        "name": "Stephen Gorden",
+        "email": "gorden@cumberlandcounty.org",
+        "title": "Commissioner",
+        "start_date": "2023-01-01",
+        "committees": [
+          "Commissioner Workshop"
+        ]
+      },
+      {
+        "name": "Tom Tyler",
+        "email": "tyler@cumberlandcounty.org",
+        "title": "Vice Chair",
+        "start_date": "2025-01-01",
+        "committees": [
+          "Commissioner Workshop"
+        ]
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-17",
+      "body": "Board of Commissioners",
+      "location": "Sebago Meeting Room\r\n27 Northport Dr\r\nPortland, ME 04103",
+      "has_agenda": true,
+      "agenda_url": "https://cumberlandcounty.legistar1.com/cumberlandcounty/meetings/2026/2/1061_A_Board_of_Commissioners_26-02-17_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "Commissioner Workshop",
+      "location": "27 Northport Dr\r\nPortland, ME 04103",
+      "has_agenda": true,
+      "agenda_url": "https://cumberlandcounty.legistar1.com/cumberlandcounty/meetings/2026/2/1080_A_Commissioner_Workshop_26-02-17_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "Finance Committee",
+      "location": "27 Northport Dr\r\nPortland, ME 04103",
+      "has_agenda": true,
+      "agenda_url": "https://cumberlandcounty.legistar1.com/cumberlandcounty/meetings/2026/2/1075_A_Finance_Committee_26-02-10_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-27",
+      "body": "Finance Committee",
+      "location": "27 Northport Dr\r\nPortland, ME 04103",
+      "has_agenda": true,
+      "agenda_url": "https://cumberlandcounty.legistar1.com/cumberlandcounty/meetings/2026/1/1074_A_Finance_Committee_26-01-27_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Informational Report FY26 Budget vs Actual Expenses Q2",
+      "type": "Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-17",
+      "file_number": "CD 26-006",
+      "passed_date": null
+    },
+    {
+      "title": "Authorization of the County Manager to execute a purchase agreement with Metro for discounted transit passes for the Mobility, Access, and Transportation (MATI) project.",
+      "type": "Order",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-12",
+      "file_number": "26-012",
+      "passed_date": null
+    },
+    {
+      "title": "Discussion of county budget for Fiscal Year 2026-2027",
+      "type": "Workshop Document",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-12",
+      "file_number": "REV 26-02",
+      "passed_date": null
+    },
+    {
+      "title": "Approve the Jail Medical Services Agreement between CFG Medical and Cumberland County for medical services provided at the Jail.",
+      "type": "Order",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-12",
+      "file_number": "26-016",
+      "passed_date": null
+    },
+    {
+      "title": "Approval of the minutes, January 5, 2026, meeting of the Board of Commissioners",
+      "type": "Minutes Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-11",
+      "file_number": "CD 26-004",
+      "passed_date": null
+    },
+    {
+      "title": "Appoint Chair Patti Smith as the Commissioners appointee for the review and sign-off of the County’s weekly warrants for calendar year 2026.",
+      "type": "Order",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-11",
+      "file_number": "26-011",
+      "passed_date": null
+    },
+    {
+      "title": "Authorize the County Manager to sign the Pharmacy Services Agreement between Westwood Pharmacy and Cumberland County for services provided at the Jail.",
+      "type": "Order",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-11",
+      "file_number": "26-015",
+      "passed_date": null
+    },
+    {
+      "title": "Approval of the minutes, January 20, 2026, meeting of the Board of Commissioners",
+      "type": "Minutes Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-11",
+      "file_number": "CD 26-005",
+      "passed_date": null
+    },
+    {
+      "title": "Approval of the minutes, January 27, 2026, meeting of the Finance Committee",
+      "type": "Finance Committee Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-06",
+      "file_number": "FC 26-008",
+      "passed_date": null
+    },
+    {
+      "title": "Sheriff’s Office Commissions December 12, 2025 through January 31, 2026",
+      "type": "Order",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-03",
+      "file_number": "26-010",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://cumberlandcounty.legistar.com",
-  "enriched_at": "2026-02-22T18:42:32.143519",
+  "enriched_at": "2026-02-23T02:41:58.392041",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

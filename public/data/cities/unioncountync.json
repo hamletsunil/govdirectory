@@ -356,7 +356,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Union%20County",
-        "probed_at": "2026-02-22T18:47:50.996125",
+        "probed_at": "2026-02-23T02:52:36.688548",
         "data_vintage": "BRFSS None",
         "geographic_level": "place",
         "status": "unavailable"
@@ -620,13 +620,181 @@
     "granularity_flags": 0
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "Board of Commissioners",
+    "members": [
+      {
+        "name": "Brian Helms",
+        "email": "BrianW.Helms@unioncountync.gov",
+        "title": "Vice Chair",
+        "start_date": "2022-12-02",
+        "committees": [
+          "Board of Commissioners Work Session"
+        ]
+      },
+      {
+        "name": "Christina B. Helms",
+        "email": "Christina.Helms@unioncountync.gov",
+        "title": "Commissioner",
+        "start_date": "2024-12-02",
+        "committees": [
+          "Board of Commissioners Work Session"
+        ]
+      },
+      {
+        "name": "Clancy Baucom",
+        "email": "Clancy.Baucom@unioncountync.gov",
+        "title": "Commissioner",
+        "start_date": "2024-03-18",
+        "committees": [
+          "Board of Commissioners Work Session"
+        ]
+      },
+      {
+        "name": "Gary Sides",
+        "email": "Gary.Sides@unioncountync.gov",
+        "title": "Commissioner",
+        "start_date": "2024-12-02",
+        "committees": [
+          "Board of Commissioners Work Session"
+        ]
+      },
+      {
+        "name": "Melissa Merrell",
+        "email": "Melissa.Merrell@unioncountync.gov",
+        "title": "Chair",
+        "start_date": "2022-12-02",
+        "committees": [
+          "Board of Commissioners Work Session"
+        ]
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-24",
+      "body": "Land Use Board",
+      "location": "Board Room, First Floor",
+      "has_agenda": true,
+      "agenda_url": "https://unioncountync.legistar1.com/unioncountync/meetings/2026/2/1264_A_Land_Use_Board_26-02-24_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-17",
+      "body": "Board of Commissioners",
+      "location": "Board Room, First Floor",
+      "has_agenda": true,
+      "agenda_url": "https://unioncountync.legistar1.com/unioncountync/meetings/2026/2/1245_A_Board_of_Commissioners_26-02-17_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-02",
+      "body": "Board of Commissioners",
+      "location": "Board Room, First Floor",
+      "has_agenda": true,
+      "agenda_url": "https://unioncountync.legistar1.com/unioncountync/meetings/2026/2/1244_A_Board_of_Commissioners_26-02-02_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-27",
+      "body": "Land Use Board",
+      "location": "Board Room, First Floor",
+      "has_agenda": true,
+      "agenda_url": "https://unioncountync.legistar1.com/unioncountync/meetings/2026/1/1263_A_Land_Use_Board_26-01-27_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Sustained Professional Purchasing Award",
+      "type": "Staff Recognition",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-20",
+      "file_number": "26-137",
+      "passed_date": null
+    },
+    {
+      "title": "Proclamation Honoring Charles E. Rose on his 100th Birthday",
+      "type": "Staff Recognition",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-10",
+      "file_number": "26-113",
+      "passed_date": null
+    },
+    {
+      "title": "Appointments to Boards and Committees",
+      "type": "Business",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-04",
+      "file_number": "26-108",
+      "passed_date": null
+    },
+    {
+      "title": "UC Food Innovation Center Project Update and GMP Contract Amendment Approval",
+      "type": "Business",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-03",
+      "file_number": "26-105",
+      "passed_date": null
+    },
+    {
+      "title": "Communications Monthly Report - December 2025",
+      "type": "Information Only",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-03",
+      "file_number": "26-104",
+      "passed_date": null
+    },
+    {
+      "title": "Resolution - Surplus Vehicle Sale",
+      "type": "Consent Agenda",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-30",
+      "file_number": "26-101",
+      "passed_date": null
+    },
+    {
+      "title": "Resolution Supporting Amendment to Catawba-Wateree Water Management Group Bylaws to Provide Full Voting Rights to Union County",
+      "type": "Consent Agenda",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-30",
+      "file_number": "26-100",
+      "passed_date": null
+    },
+    {
+      "title": "Resolution - Per- & Polyfluoroalkyl Substances (PFAS) Pilot Testing NCDEQ-DWI Grant Funding",
+      "type": "Consent Agenda",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-29",
+      "file_number": "26-099",
+      "passed_date": null
+    },
+    {
+      "title": "Tax Bill Correction Report for December 2025",
+      "type": "Consent Agenda",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-29",
+      "file_number": "26-098",
+      "passed_date": null
+    },
+    {
+      "title": "Grant Application - United States Department of Transportation (USDOT) Better Utilizing Investments to Leverage Development (BUILD) Grant for Critical Intersection Program",
+      "type": "Consent Agenda",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-28",
+      "file_number": "26-097",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://unioncountync.legistar.com",
-  "enriched_at": "2026-02-22T18:43:05.082354",
+  "enriched_at": "2026-02-23T02:48:12.492460",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

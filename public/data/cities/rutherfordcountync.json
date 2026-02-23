@@ -375,7 +375,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Rutherford%20County%20Emergency%20Services",
-        "probed_at": "2026-02-22T18:47:44.980016",
+        "probed_at": "2026-02-23T02:52:31.773135",
         "data_vintage": "BRFSS None",
         "geographic_level": "place",
         "status": "unavailable"
@@ -639,13 +639,161 @@
     "granularity_flags": 0
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "Board of Commissioners",
+    "members": [
+      {
+        "name": "Alan Toney",
+        "email": "alan.toney@rutherfordcountync.gov",
+        "title": "Commissioner",
+        "start_date": "2014-12-01",
+        "committees": [
+          "Rutherford County Airport Authority"
+        ]
+      },
+      {
+        "name": "Bryan King",
+        "email": "bryan.king@rutherfordcountync.gov",
+        "title": "Commissioner",
+        "start_date": "2014-12-01",
+        "committees": [
+          "Rutherford County Airport Authority"
+        ]
+      },
+      {
+        "name": "Donnie Haulk",
+        "email": null,
+        "title": "Commissioner",
+        "start_date": "2024-12-16",
+        "committees": [
+          "Rutherford County Airport Authority"
+        ]
+      },
+      {
+        "name": "Hunter Haynes",
+        "email": null,
+        "title": "Commissioner",
+        "start_date": "2024-12-02",
+        "committees": [
+          "Rutherford County Airport Authority"
+        ]
+      },
+      {
+        "name": "Michael Benfield",
+        "email": "michael.benfield@rutherfordcountync.gov",
+        "title": "Commissioner",
+        "start_date": "2014-12-01",
+        "committees": [
+          "Rutherford County Airport Authority"
+        ]
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-18",
+      "body": "Social Services Board",
+      "location": "289 N Main St. Rutherfordton, NC 28139",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/rutherfordcountync/meetings/2026/2/1526_A_Social_Services_Board_26-02-18_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-02",
+      "body": "Board of Commissioners",
+      "location": "289 N. Main St. Rutherfordton NC 28139   Commission Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/rutherfordcountync/meetings/2026/2/1522_A_Board_of_Commissioners_26-02-02_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "American 250 Rutherford County Proclamation",
+      "type": "Resolution",
+      "status": "New Business",
+      "intro_date": "2026-02-19",
+      "file_number": "ID 26-4402",
+      "passed_date": null
+    },
+    {
+      "title": "Tax Collector’s Report - March, 2026",
+      "type": "Report",
+      "status": "Informational Item",
+      "intro_date": "2026-02-19",
+      "file_number": "ID 26-4403",
+      "passed_date": null
+    },
+    {
+      "title": "Child Abuse Prevention Month Proclamation",
+      "type": "Proclamation",
+      "status": "New Business",
+      "intro_date": "2026-02-19",
+      "file_number": "ID 26-4401",
+      "passed_date": null
+    },
+    {
+      "title": "Appointment to Foothills Workforce Development Board",
+      "type": "Appointment",
+      "status": "Appointments",
+      "intro_date": "2026-02-19",
+      "file_number": "ID 26-4399",
+      "passed_date": null
+    },
+    {
+      "title": "Service Report - January 2026",
+      "type": "Report",
+      "status": "Service Report",
+      "intro_date": "2026-02-13",
+      "file_number": "ID 26-4392",
+      "passed_date": null
+    },
+    {
+      "title": "Director’s Report - Jan 2026",
+      "type": "Report",
+      "status": "Director's Report",
+      "intro_date": "2026-02-13",
+      "file_number": "ID 26-4393",
+      "passed_date": null
+    },
+    {
+      "title": "Personnel Report - January 2026",
+      "type": "Report",
+      "status": "Personnel Report",
+      "intro_date": "2026-02-13",
+      "file_number": "ID 26-4396",
+      "passed_date": null
+    },
+    {
+      "title": "Director’s Report - AAA Performance Monitoring Report",
+      "type": "Report",
+      "status": "Director's Report",
+      "intro_date": "2026-02-13",
+      "file_number": "ID 26-4395",
+      "passed_date": null
+    },
+    {
+      "title": "Director’s Report - IMC Reclass Email",
+      "type": "Report",
+      "status": "Director's Report",
+      "intro_date": "2026-02-13",
+      "file_number": "ID 26-4394",
+      "passed_date": null
+    },
+    {
+      "title": "Fuel Farm Upgrade Work Authorization No. 6",
+      "type": "Action Item",
+      "status": "New Business",
+      "intro_date": "2026-02-10",
+      "file_number": "ID 26-4389",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://rutherfordcountync.legistar.com",
-  "enriched_at": "2026-02-22T18:42:59.816271",
+  "enriched_at": "2026-02-23T02:47:12.778633",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

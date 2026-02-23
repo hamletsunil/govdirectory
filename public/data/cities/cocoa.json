@@ -561,7 +561,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Cocoa",
-        "probed_at": "2026-02-22T18:46:45.448800",
+        "probed_at": "2026-02-23T02:51:42.908780",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -825,13 +825,44 @@
     "granularity_flags": 3
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "City Council",
+    "members": [
+      {
+        "name": "James Goins",
+        "email": "jgoins@cocoafl.gov",
+        "title": "Councilman",
+        "start_date": "2018-11-20"
+      },
+      {
+        "name": "Lavander Hearn",
+        "email": "lhearn@cocoafl.gov",
+        "title": "Deputy Mayor",
+        "start_date": "2020-11-17"
+      },
+      {
+        "name": "Lorraine Koss",
+        "email": "lkoss@cocoafl.gov",
+        "title": "Councilwoman",
+        "start_date": "2018-11-20"
+      },
+      {
+        "name": "Matthew  Barringer",
+        "email": "mbarringer@cocoafl.gov",
+        "title": "Councilman",
+        "start_date": "2023-10-24"
+      },
+      {
+        "name": "Michael  Blake",
+        "email": "mblake@cocoafl.gov",
+        "title": "Mayor",
+        "start_date": "2020-11-17"
+      }
+    ]
   },
   "recent_meetings": [],
   "recent_legislation": [],
   "legistar_url": "https://cocoa.legistar.com",
-  "enriched_at": "2026-02-22T18:42:29.419501",
+  "enriched_at": "2026-02-23T02:41:25.222736",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

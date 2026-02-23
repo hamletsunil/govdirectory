@@ -627,8 +627,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.somervillema.gov/resource/nneb-s3f7.json",
-        "probed_at": "2026-02-22T18:44:12.991584",
-        "data_vintage": "Rolling 12-month window ending 2026-02-22",
+        "probed_at": "2026-02-23T02:49:42.985544",
+        "data_vintage": "Rolling 12-month window ending 2026-02-23",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Applications for Permits and Licenses",
@@ -674,7 +674,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Somerville",
-        "probed_at": "2026-02-22T18:45:54.270034",
+        "probed_at": "2026-02-23T02:51:02.020475",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -938,13 +938,164 @@
     "granularity_flags": 3
   },
   "officials": {
-    "body_name": null,
+    "body_name": "City Council",
     "members": []
   },
-  "recent_meetings": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-23",
+      "body": "Traffic and Parking Committee",
+      "location": "Virtual",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-24",
+      "body": "Finance Committee",
+      "location": "Virtual",
+      "has_agenda": true,
+      "agenda_url": "https://somervillema.legistar1.com/somervillema/meetings/2026/2/3980_A_Finance_Committee_26-02-24_Regular_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-25",
+      "body": "Licenses and Permits Committee",
+      "location": "Virtual",
+      "has_agenda": true,
+      "agenda_url": "https://somervillema.legistar1.com/somervillema/meetings/2026/2/3981_A_Licenses_and_Permits_Committee_26-02-25_Regular_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-04",
+      "body": "Housing, Community Development and Equity Committee",
+      "location": "Committee Room and Remote Participation",
+      "has_agenda": true,
+      "agenda_url": "https://somervillema.legistar1.com/somervillema/meetings/2026/3/3986_A_Housing%2C_Community_Development_and_Equity_Committee_26-03-04_Regular_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-05",
+      "body": "Land Use Committee",
+      "location": "Virtual",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-19",
+      "body": "Land Use Committee",
+      "location": "Virtual",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-18",
+      "body": "School Building Facilities and Maintenance Committee",
+      "location": "Virtual",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "Legislative Matters Committee",
+      "location": "Virtual",
+      "has_agenda": true,
+      "agenda_url": "https://somervillema.legistar1.com/somervillema/meetings/2026/2/3984_A_Legislative_Matters_Committee_26-02-17_Regular_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-12",
+      "body": "City Council",
+      "location": "City Council Chamber and Remote Participation",
+      "has_agenda": true,
+      "agenda_url": "https://somervillema.legistar1.com/somervillema/meetings/2026/2/3953_A_City_Council_26-02-12_Regular_Meeting_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-11",
+      "body": "Licenses and Permits Committee",
+      "location": "Virtual",
+      "has_agenda": true,
+      "agenda_url": "https://somervillema.legistar1.com/somervillema/meetings/2026/2/3975_A_Licenses_and_Permits_Committee_26-02-11_Regular_Meeting_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "Finance Committee",
+      "location": "Committee Room and Remote Participation",
+      "has_agenda": true,
+      "agenda_url": "https://somervillema.legistar1.com/somervillema/meetings/2026/2/3971_A_Finance_Committee_26-02-10_Regular_Meeting_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-09",
+      "body": "Sustainability and Infrastructure Committee",
+      "location": "Virtual",
+      "has_agenda": true,
+      "agenda_url": "https://somervillema.legistar1.com/somervillema/meetings/2026/2/3974_A_Sustainability_and_Infrastructure_Committee_26-02-09_Regular_Meeting_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-02",
+      "body": "Confirmation of Appointments and Personnel Matters Committee",
+      "location": "Virtual",
+      "has_agenda": true,
+      "agenda_url": "https://somervillema.legistar1.com/somervillema/meetings/2026/2/3973_A_Confirmation_of_Appointments_and_Personnel_Matters_Committee_26-02-02_Regular_Meeting_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-29",
+      "body": "School Building Facilities and Maintenance Committee",
+      "location": "Virtual",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-28",
+      "body": "Housing, Community Development and Equity Committee",
+      "location": "Committee Room and Remote Participation",
+      "has_agenda": true,
+      "agenda_url": "https://somervillema.legistar1.com/somervillema/meetings/2026/1/3968_A_Housing%2C_Community_Development_and_Equity_Committee_26-01-28_Regular_Meeting_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
   "recent_legislation": [],
   "legistar_url": "https://somervillema.legistar.com",
-  "enriched_at": "2026-02-22T18:43:03.688264",
+  "enriched_at": "2026-02-23T02:47:55.231841",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

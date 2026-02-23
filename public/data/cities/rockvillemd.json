@@ -600,7 +600,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Rockville",
-        "probed_at": "2026-02-22T18:46:03.002266",
+        "probed_at": "2026-02-23T02:51:09.206453",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -864,13 +864,295 @@
     "granularity_flags": 3
   },
   "officials": {
-    "body_name": null,
+    "body_name": "Mayor and Council",
     "members": []
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-23",
+      "body": "Mayor and Council",
+      "location": "WebEx",
+      "has_agenda": true,
+      "agenda_url": "https://rockvillemd.legistar1.com/rockvillemd/meetings/2026/2/1321_A_Mayor_and_Council_26-02-23_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-23",
+      "body": "Human Rights Commission",
+      "location": "Virtual",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-23",
+      "body": "Leadership Planning",
+      "location": null,
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-24",
+      "body": "Transportation and Mobility Commission",
+      "location": "Virtual",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-25",
+      "body": "Planning Commission",
+      "location": "WebEx",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-25",
+      "body": "Ethics Commission",
+      "location": "Virtual",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-26",
+      "body": "Recreation and Park Advisory Board",
+      "location": "WebEx (online)",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-27",
+      "body": "Animal Matters Board",
+      "location": "WebEx & City Hall",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-02",
+      "body": "Mayor and Council",
+      "location": "WebEx",
+      "has_agenda": true,
+      "agenda_url": "https://rockvillemd.legistar1.com/rockvillemd/meetings/2026/3/2390_A_Mayor_and_Council_26-03-02_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-02",
+      "body": "Leadership Planning",
+      "location": null,
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-20",
+      "body": "Retirement Board",
+      "location": "WebEx",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-19",
+      "body": "Historic District Commission",
+      "location": "WebEx",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-19",
+      "body": "Mayor and Council",
+      "location": "WebEx",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-18",
+      "body": "Human Services Advisory Commission",
+      "location": "City Hall & Virtual",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-18",
+      "body": "Education Commission",
+      "location": "Virtual",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-18",
+      "body": "Ethics Commission",
+      "location": "City Hall",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-18",
+      "body": "Human Rights Commission",
+      "location": "Virtual",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-12",
+      "body": "Community Policing Advisory Board",
+      "location": "Rockville City Police Department",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-12",
+      "body": "Rockville Pedestrian Advocacy Committee",
+      "location": "Virtual",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-11",
+      "body": "Cultural Arts Commission",
+      "location": "WebEx: https://rockvillemd.webex.com/rockvillemd/j.php?MTID=m0cc4da8cac253d1859795d7acae6638a",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Authorization for the City Manager to Execute Two Easements for Public Improvements and Water Meter on Parcel A-1 and Lot 2, MetroPlace at Twinbrook",
+      "type": "Consent",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-11",
+      "file_number": "26-2067",
+      "passed_date": null
+    },
+    {
+      "title": "Bi-Annual Vision Zero Update",
+      "type": "Presentation",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-10",
+      "file_number": "26-2065",
+      "passed_date": null
+    },
+    {
+      "title": "Authorization for the City Manager to Execute Amendment 1 to the Grant Agreement Between the City and the Maryland Energy Administration for the Streetlight and Outdoor Lighting Efficiency FY2024 Gran",
+      "type": "Consent",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-10",
+      "file_number": "26-2064",
+      "passed_date": null
+    },
+    {
+      "title": "Introduction of an Ordinance Declaring 5,867 sq. ft. of Property Located at 301 Frederick Avenue to be No Longer Necessary for Public Use and Authorizing the Conveyance of Said Property to the 715 Dou",
+      "type": "Introduction",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-10",
+      "file_number": "26-2062",
+      "passed_date": null
+    },
+    {
+      "title": "JEDI Strategic Plan Process and Approach",
+      "type": "Worksession",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-05",
+      "file_number": "26-2054",
+      "passed_date": null
+    },
+    {
+      "title": "Approve and Authorize the City Manager to Execute the Project Agreement with the State of Maryland Department of Natural Resources (DNR) to proceed with a grant agreement to apply for a $1,500,000 gra",
+      "type": "Consent",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-04",
+      "file_number": "26-2052",
+      "passed_date": null
+    },
+    {
+      "title": "Instrumentl Nonprofit Grant Seeking Resource City of Rockville Agreement",
+      "type": "Consent",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-29",
+      "file_number": "26-2047",
+      "passed_date": null
+    },
+    {
+      "title": "Public Hearing and Work Session on Zoning Text Amendment Application TXT2026-00271, for the Zoning Ordinance Rewrite and Map Amendment Application MAP2026-00126, for the Comprehensive Map Amendment; M",
+      "type": "Public Hearing",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-28",
+      "file_number": "26-2046",
+      "passed_date": null
+    },
+    {
+      "title": "Authorize the City Manager to sign a rider agreement with IPS GROUP, Inc. to continue service of parking enforcement management and citation processing.",
+      "type": "Consent",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-22",
+      "file_number": "26-2043",
+      "passed_date": null
+    },
+    {
+      "title": "Mid-Year Report Presentation and Update on Impact of Government Restructuring and Effects on Rockville - Rockville Economic Development, Inc.",
+      "type": "Worksession",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-22",
+      "file_number": "26-2042",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://rockvillemd.legistar.com",
-  "enriched_at": "2026-02-22T18:42:59.135466",
+  "enriched_at": "2026-02-23T02:47:04.032157",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

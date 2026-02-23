@@ -513,7 +513,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Edgewater",
-        "probed_at": "2026-02-22T18:46:39.051460",
+        "probed_at": "2026-02-23T02:51:37.878409",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -777,13 +777,305 @@
     "granularity_flags": 2
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "City Council",
+    "members": [
+      {
+        "name": "Aaron Wolfe",
+        "email": null,
+        "title": "City Attorney ",
+        "start_date": "2025-11-01",
+        "committees": [
+          "Charter Review Committee",
+          "City Council - Executive Session",
+          "Planning and Zoning Board"
+        ]
+      },
+      {
+        "name": "Charlotte Gillis",
+        "email": null,
+        "title": "Councilwoman",
+        "start_date": "2022-12-05",
+        "committees": [
+          "City Council - Executive Session",
+          "City Council - Workshop",
+          "Community Redevelopment Agency"
+        ]
+      },
+      {
+        "name": "Debbie Dolbow",
+        "email": null,
+        "title": "Councilwoman",
+        "start_date": "2022-12-01",
+        "committees": [
+          "City Council - Executive Session",
+          "City Council - Workshop",
+          "Community Redevelopment Agency"
+        ]
+      },
+      {
+        "name": "Diezel DePew",
+        "email": null,
+        "title": "Mayor",
+        "start_date": "2022-12-05",
+        "committees": [
+          "City Council - Executive Session",
+          "City Council - Workshop",
+          "Community Redevelopment Agency"
+        ]
+      },
+      {
+        "name": "Eric Rainbird",
+        "email": null,
+        "title": "Councilman",
+        "start_date": "2025-04-07",
+        "committees": [
+          "City Council - Executive Session",
+          "City Council - Workshop"
+        ]
+      },
+      {
+        "name": "Joe Mahoney",
+        "email": "jmahoney@cityofedgewater.org",
+        "title": "City Manager",
+        "start_date": "2025-11-01",
+        "committees": [
+          "Charter Review Committee",
+          "City Council - Executive Session",
+          "City Manager",
+          "Police Pension Board"
+        ]
+      },
+      {
+        "name": "Mike Thomas",
+        "email": null,
+        "title": "Councilman",
+        "start_date": "2024-12-02",
+        "committees": [
+          "City Council - Executive Session",
+          "City Council - Workshop",
+          "Community Redevelopment Agency"
+        ]
+      },
+      {
+        "name": "Monique Toupin",
+        "email": "Mtoupin@cityofedgewater.org",
+        "title": "Assistant to the City Clerk",
+        "start_date": "2021-07-01",
+        "committees": [
+          "Charter Review Committee",
+          "City Clerk"
+        ]
+      },
+      {
+        "name": "Sara Geiger",
+        "email": null,
+        "title": "City Clerk",
+        "start_date": "2025-12-01",
+        "committees": [
+          "Charter Review Committee",
+          "City Council - Executive Session",
+          "City Council - Workshop",
+          "City Manager"
+        ]
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-03-02",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://cityofedgewater.legistar1.com/cityofedgewater/meetings/2026/3/2526_A_City_Council_26-03-02_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-03",
+      "body": "Charter Review Committee",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://cityofedgewater.legistar1.com/cityofedgewater/meetings/2026/3/2570_A_Charter_Review_Committee_26-03-03_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-19",
+      "body": "Miscellaneous",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://cityofedgewater.legistar1.com/cityofedgewater/meetings/2026/2/2588_A_Miscellaneous__26-02-19_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-18",
+      "body": "Recreation & Cultural Services Board",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://cityofedgewater.legistar1.com/cityofedgewater/meetings/2026/2/2584_A_Recreation___Cultural_Services_Board_26-02-18_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "Charter Review Committee",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://cityofedgewater.legistar1.com/cityofedgewater/meetings/2026/2/2569_A_Charter_Review_Committee_26-02-17_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-12",
+      "body": "Code Enforcement/Special Magistrate",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://cityofedgewater.legistar1.com/cityofedgewater/meetings/2026/2/2577_A_Code_Enforcement_Special_Magistrate_26-02-12_Meeting_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-11",
+      "body": "Planning and Zoning Board",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://cityofedgewater.legistar1.com/cityofedgewater/meetings/2026/2/2587_A_Planning_and_Zoning_Board_26-02-11_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-05",
+      "body": "Miscellaneous",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://cityofedgewater.legistar1.com/cityofedgewater/meetings/2026/2/2586_A_Miscellaneous__26-02-05_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-04",
+      "body": "Economic Development Board",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://cityofedgewater.legistar1.com/cityofedgewater/meetings/2026/2/2585_A_Economic_Development_Board_26-02-04_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "Charter Review Committee",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://cityofedgewater.legistar1.com/cityofedgewater/meetings/2026/2/2568_A_Charter_Review_Committee_26-02-03_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-02",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://cityofedgewater.legistar1.com/cityofedgewater/meetings/2026/2/2524_A_City_Council_26-02-02_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Veteran's Park Fishing/Observation Pier replacement",
+      "type": "Other Business Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-20",
+      "file_number": "AR-2026-0044",
+      "passed_date": null
+    },
+    {
+      "title": "Wastewater Treatment Plant Flood Proofing Project",
+      "type": "Consent",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-17",
+      "file_number": "AR-2026-0043",
+      "passed_date": null
+    },
+    {
+      "title": "Recreation & Cultural Services Board - Councilwoman Dolbow's appointment due to the revision of Recreation & Cultural Services Board Bylaws.",
+      "type": "Appointment",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-17",
+      "file_number": "AR-2026-0038",
+      "passed_date": null
+    },
+    {
+      "title": "Discussion Request by City Council regarding Blackwater Reuse",
+      "type": "Other Business Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-17",
+      "file_number": "AR-2026-0042",
+      "passed_date": null
+    },
+    {
+      "title": "Recreation & Cultural Services Board - Councilman Thomas' appointment due to the revision of Recreation & Cultural Services Board Bylaws.",
+      "type": "Appointment",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-17",
+      "file_number": "AR-2026-0040",
+      "passed_date": null
+    },
+    {
+      "title": "Revision of Recreation & Cultural Services Board Bylaws",
+      "type": "Consent",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-17",
+      "file_number": "AR-2026-0037",
+      "passed_date": null
+    },
+    {
+      "title": "Proclamation - Irish Heritage Month",
+      "type": "Presentation",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-17",
+      "file_number": "AR-2026-0041",
+      "passed_date": null
+    },
+    {
+      "title": "RZ-2413: Request for a rezoning from Volusia County Industrial (I-1), Volusia County Agriculture (A-3), and City of Edgewater Heavy Industrial (I-2) to City of Edgewater Mixed Use Planned Unit Develop",
+      "type": "Planning Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-12",
+      "file_number": "RZ-2413",
+      "passed_date": null
+    },
+    {
+      "title": "Routine Highway Maintenance Memorandum of Agreement (MOA) between the City of Edgewater & State of Florida Department of Transportation",
+      "type": "Consent",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-10",
+      "file_number": "AR-2026-0034",
+      "passed_date": null
+    },
+    {
+      "title": "Resolution 2026-R-09: Florida Inland Navigation District - Grant Proposal",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-10",
+      "file_number": "2026-R-09",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://cityofedgewater.legistar.com",
-  "enriched_at": "2026-02-22T18:42:25.793185",
+  "enriched_at": "2026-02-23T02:40:51.824428",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

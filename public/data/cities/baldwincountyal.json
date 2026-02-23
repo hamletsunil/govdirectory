@@ -348,7 +348,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Baldwin%20County",
-        "probed_at": "2026-02-22T18:47:08.364461",
+        "probed_at": "2026-02-23T02:52:01.903331",
         "data_vintage": "BRFSS None",
         "geographic_level": "place",
         "status": "unavailable"
@@ -612,13 +612,230 @@
     "granularity_flags": 0
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "Baldwin County Commission Regular",
+    "members": [
+      {
+        "name": "Billie Jo Underwood",
+        "email": "bunderwood@baldwincountyal.gov",
+        "title": "Commissioner",
+        "start_date": "2022-10-01"
+      },
+      {
+        "name": "Charles F. Gruber",
+        "email": "cgruber@baldwincountyal.gov",
+        "title": "Commissioner",
+        "start_date": "2022-10-01"
+      },
+      {
+        "name": "James E. Ball",
+        "email": "jeb.ball@baldwincountyal.gov",
+        "title": "Commissioner",
+        "start_date": "2022-10-01"
+      },
+      {
+        "name": "Matthew P. McKenzie",
+        "email": "matt.mckenzie@baldwincountyal.gov",
+        "title": "Commissioner",
+        "start_date": "2022-10-01"
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-24",
+      "body": "Board of Adjustment Number One",
+      "location": "Central Annex Auditorium, 22251 Palmer Street, Robertsdale, Alabama",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-19",
+      "body": "Baldwin County Commission Work Session",
+      "location": "Baldwin County Fairhope Satellite Courthouse, County Commission Meeting Chambers – 2nd Floor,\r\n1100 Fairhope Avenue, Fairhope, Alabama 36532",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-19",
+      "body": "Baldwin County Commission Regular",
+      "location": "Baldwin County Fairhope Satellite Courthouse, County Commission Meeting Chambers – 2nd Floor,\r\n1100 Fairhope Avenue, Fairhope, Alabama 36532",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-12",
+      "body": "Board of Adjustment Number Two",
+      "location": "Baldwin County Satellite Courthouse, Large Meeting Hall, 201 East Section Avenue, Foley, Alabama 36535",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-05",
+      "body": "Baldwin County Planning and Zoning Commission Agenda Review Meeting",
+      "location": "Baldwin County Central Annex Auditorium 22251 Palmer Street Robertsdale, Alabama 36567",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-05",
+      "body": "Baldwin County Planning and Zoning Commission Regular",
+      "location": "Baldwin County Central Annex Auditorium 22251 Palmer Street Robertsdale, Alabama 36567",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-05",
+      "body": "Baldwin County Planning and Zoning Commission Work Session",
+      "location": "Baldwin County Central Annex Auditorium 22251 Palmer Street Robertsdale, Alabama 36567",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "Baldwin County Commission Work Session",
+      "location": "Baldwin County Administration Building, County Commission Meeting Chambers,\r\n322 Courthouse Square, Bay Minette, Alabama 36507",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "Baldwin County Commission Regular",
+      "location": "Baldwin County Administration Building, County Commission Meeting Chambers,\r\n322 Courthouse Square, Bay Minette, Alabama 36507",
+      "has_agenda": true,
+      "agenda_url": "https://baldwincountyal.legistar1.com/baldwincountyal/meetings/2026/2/6285_A_Baldwin_County_Commission_Regular_26-02-03_Meeting_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-28",
+      "body": "Eastern Shore Metropolitan Planning Organization Policy Board",
+      "location": "City of Fairhope City Hall\r\nCity Council Chambers \r\n161 North Section Street\r\nFairhope, Alabama 36532",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-28",
+      "body": "Eastern Shore Metropolitan Planning Organization Work Session",
+      "location": "City of Fairhope City Hall\r\nDelchamps Room 1 \r\n161 North Section Street\r\nFairhope, Alabama 36532",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Consultant Services - Engineering Services for Utility-scale Solar Energy Facility Permitting Review & Support Services",
+      "type": "Addenda",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "26-0509",
+      "passed_date": null
+    },
+    {
+      "title": "Proposal for Donation of Property in North Baldwin County to Prodisee Pantry for Construction of Food Distribution Facility in Stockton, Alabama",
+      "type": "Addenda",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-11",
+      "file_number": "26-0500",
+      "passed_date": null
+    },
+    {
+      "title": "Construction of New Female Housing Addition to Baldwin County Corrections Center and Renovations of Adjacent Buildings Located in Bay Minette, Alabama",
+      "type": "Consent",
+      "status": "Passed",
+      "intro_date": "2026-02-09",
+      "file_number": "26-0498",
+      "passed_date": "2026-02-19"
+    },
+    {
+      "title": "Contract Relating to Request for Qualifications (RFQ) for Engineering / Environmental Services for Dirt Road Paving Project - Fairground Road from Adams Drive to Baldwin Beach Express for the Baldwin ",
+      "type": "Consent",
+      "status": "Passed",
+      "intro_date": "2026-02-09",
+      "file_number": "26-0497",
+      "passed_date": "2026-02-19"
+    },
+    {
+      "title": "Request from Baldwin County America 250 Committee - Letter of Support for Interstate 10 Revolutionary War Sites Signage",
+      "type": "Consent",
+      "status": "Passed",
+      "intro_date": "2026-02-09",
+      "file_number": "26-0492",
+      "passed_date": "2026-02-19"
+    },
+    {
+      "title": "Request for Qualifications (RFQ) for 2026 Digital Orthophoto Acquisition",
+      "type": "Consent",
+      "status": "Passed",
+      "intro_date": "2026-02-09",
+      "file_number": "26-0494",
+      "passed_date": "2026-02-19"
+    },
+    {
+      "title": "Engineering Fee Proposal for Design Update of Baldwin Beach Express II from U.S. Highway 31 to Interstate 65",
+      "type": "Consent",
+      "status": "Passed",
+      "intro_date": "2026-02-09",
+      "file_number": "26-0493",
+      "passed_date": "2026-02-19"
+    },
+    {
+      "title": "*Request from City of Bay Minette - Letter of Support for FY 2026 Rebuild Alabama Act Annual Grant Program Application for N. Dobson Avenue and W. 7th Street Intersection Improvements",
+      "type": "Consent",
+      "status": "Passed",
+      "intro_date": "2026-02-09",
+      "file_number": "26-0491",
+      "passed_date": "2026-02-19"
+    },
+    {
+      "title": "Case No. Z25-63 - Hehman Property Rezoning",
+      "type": "Public Hearings",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-06",
+      "file_number": "26-0483",
+      "passed_date": null
+    },
+    {
+      "title": "Animal Shelter - Employment of One (1) Animal Control Technician Position",
+      "type": "Consent",
+      "status": "Passed",
+      "intro_date": "2026-02-06",
+      "file_number": "26-0489",
+      "passed_date": "2026-02-19"
+    }
+  ],
   "legistar_url": "https://baldwincountyal.legistar.com",
-  "enriched_at": "2026-02-22T18:42:19.341058",
+  "enriched_at": "2026-02-23T02:39:28.339788",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

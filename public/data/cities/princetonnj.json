@@ -513,7 +513,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Princeton",
-        "probed_at": "2026-02-22T18:46:32.425671",
+        "probed_at": "2026-02-23T02:51:32.861804",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -777,13 +777,197 @@
     "granularity_flags": 4
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "Mayor and Council of Princeton",
+    "members": [
+      {
+        "name": "Brian McDonald",
+        "email": "bmcdonald@princetonnj.gov",
+        "title": "Council Member",
+        "start_date": "2025-01-01"
+      },
+      {
+        "name": "David Cohen",
+        "email": "dcohen@princetonnj.gov",
+        "title": "Council Member",
+        "start_date": "2024-01-01"
+      },
+      {
+        "name": "Dawn M. Mount",
+        "email": "dchampion@princetonnj.gov",
+        "title": "Municipal Clerk",
+        "start_date": "2022-01-01",
+        "committees": [
+          "Clerk"
+        ]
+      },
+      {
+        "name": "Leighton Newlin",
+        "email": "lnewlin@princetonnj.gov",
+        "title": "Council Member",
+        "start_date": "2022-09-01"
+      },
+      {
+        "name": "Leticia Fraga",
+        "email": "lfraga@princetonnj.gov",
+        "title": "Council Member",
+        "start_date": "2024-01-01"
+      },
+      {
+        "name": "Mark Freda",
+        "email": "mfreda@princetonnj.gov",
+        "title": "Mayor",
+        "start_date": "2022-09-01"
+      },
+      {
+        "name": "Mia Sacks",
+        "email": "msacks@princetonnj.gov",
+        "title": "Council Member",
+        "start_date": "2026-01-01"
+      },
+      {
+        "name": "Michelle Pirone Lambros",
+        "email": "mpironelambros@princetonnj.gov",
+        "title": "Council Member",
+        "start_date": "2026-01-01"
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-23",
+      "body": "Mayor and Council of Princeton",
+      "location": "Main Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://princetonnj.legistar1.com/princetonnj/meetings/2026/2/1011_A_Mayor_and_Council_of_Princeton_26-02-23_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-17",
+      "body": "Mayor and Council Closed Session",
+      "location": "Virtual Meeting",
+      "has_agenda": true,
+      "agenda_url": "https://princetonnj.legistar1.com/princetonnj/meetings/2026/2/1010_A_Mayor_and_Council_Closed_Session_26-02-17_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-09",
+      "body": "Mayor and Council of Princeton",
+      "location": "Main Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://princetonnj.legistar1.com/princetonnj/meetings/2026/2/1009_A_Mayor_and_Council_of_Princeton_26-02-09_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "Mayor and Council Closed Session",
+      "location": "Virtual Meeting",
+      "has_agenda": true,
+      "agenda_url": "https://princetonnj.legistar1.com/princetonnj/meetings/2026/2/1008_A_Mayor_and_Council_Closed_Session_26-02-03_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-27",
+      "body": "Mayor and Council of Princeton",
+      "location": "Main Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://princetonnj.legistar1.com/princetonnj/meetings/2026/1/1060_A_Mayor_and_Council_of_Princeton_26-01-27_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "An Ordinance of the Municipality of Princeton Amending Chapter T10B Entitled “Land Use” of the Municipality of Princeton to Address the Requirements of the Fair Housing Act and the Uniform Housing Aff",
+      "type": "Ordinance",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-20",
+      "file_number": "ORD 26-15",
+      "passed_date": null
+    },
+    {
+      "title": "Mayor and Council of Princeton-Closed Session-October 21, 2025",
+      "type": "Minutes",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-20",
+      "file_number": "0010",
+      "passed_date": null
+    },
+    {
+      "title": "Mayor and Council of Princeton-Regular Meeting-October 8, 2025",
+      "type": "Minutes",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "0009",
+      "passed_date": null
+    },
+    {
+      "title": "Presentation of a Proposed Open Space Project - Improvements at Princeton Ridge East (725 Herrontown Road) - for Submittal of a Green Acres Stewardship Grant Application by Inga Reich, Open Space Mana",
+      "type": "Presentation",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "0014",
+      "passed_date": null
+    },
+    {
+      "title": "Public Hearing on the Proposed Open Space Project - Improvements at Princeton Ridge East (725 Herrontown Road) - for a Green Acres Stewardship Grant Application",
+      "type": "Presentation",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "0015",
+      "passed_date": null
+    },
+    {
+      "title": "Princeton Police Department January 2026 Chief’s Monthly Report",
+      "type": "Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-17",
+      "file_number": "0011",
+      "passed_date": null
+    },
+    {
+      "title": "Resolution of the Mayor and Council of Princeton Authorizing 2026 1st Quarter Refunds of $21,408.05 Overpayments",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-17",
+      "file_number": "R-26-070",
+      "passed_date": null
+    },
+    {
+      "title": "Resolution of the Mayor and Council of Princeton Renewing Lease Agreement between Princeton and Princeton Tennis Program in Connection with Community Park South Tennis Facility for Additional One-Year",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-17",
+      "file_number": "R-26-068",
+      "passed_date": null
+    },
+    {
+      "title": "Work Session Regarding Beautification Efforts in the Central Business District for the United States Semiquincentennial",
+      "type": "Presentation",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-13",
+      "file_number": "0016",
+      "passed_date": null
+    },
+    {
+      "title": "Palmer Square’s Proposed 2026 Events Calendar for Council Approval",
+      "type": "Presentation",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-13",
+      "file_number": "0013",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://princetonnj.legistar.com",
-  "enriched_at": "2026-02-22T18:42:57.045801",
+  "enriched_at": "2026-02-23T02:46:39.563030",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

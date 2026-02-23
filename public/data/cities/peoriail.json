@@ -555,7 +555,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Peoria",
-        "probed_at": "2026-02-22T18:45:35.303998",
+        "probed_at": "2026-02-23T02:50:46.976466",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -819,13 +819,44 @@
     "granularity_flags": 2
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "City Council",
+    "members": [
+      {
+        "name": "Council Member Gordon-Young",
+        "email": "bgordonyoung@peoriagov.org",
+        "title": "Council Member",
+        "start_date": "2023-05-02"
+      },
+      {
+        "name": "Council Member Kelly",
+        "email": "jkelly@peoriagov.org",
+        "title": "Council Member",
+        "start_date": "2019-05-07"
+      },
+      {
+        "name": "Council Member Oyler",
+        "email": "zoyler@peoriagov.org",
+        "title": "Council Member",
+        "start_date": "2017-05-02"
+      },
+      {
+        "name": "Council Member Velpula",
+        "email": "kvelpula@peoriagov.org",
+        "title": "Council Member",
+        "start_date": "2021-06-22"
+      },
+      {
+        "name": "Council Member Vespa",
+        "email": "mvespa@peoriagov.org",
+        "title": "Council Member",
+        "start_date": "2023-05-02"
+      }
+    ]
   },
   "recent_meetings": [],
   "recent_legislation": [],
   "legistar_url": "https://peoriail.legistar.com",
-  "enriched_at": "2026-02-22T18:42:53.790264",
+  "enriched_at": "2026-02-23T02:46:04.443145",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

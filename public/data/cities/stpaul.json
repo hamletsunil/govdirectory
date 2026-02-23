@@ -561,7 +561,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Stpaul",
-        "probed_at": "2026-02-22T18:44:52.269988",
+        "probed_at": "2026-02-23T02:50:11.470071",
         "data_vintage": "BRFSS None",
         "geographic_level": "place",
         "status": "unavailable"
@@ -825,13 +825,353 @@
     "granularity_flags": 2
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "City Council",
+    "members": [
+      {
+        "name": "Anika Bowie",
+        "email": "anika.bowie@ci.stpaul.mn.us",
+        "title": "Councilmember",
+        "start_date": "2024-01-01",
+        "committees": [
+          "Budget Committee",
+          "City Operations",
+          "Council Operations",
+          "Housing & Redevelopment Authority",
+          "Library Board"
+        ]
+      },
+      {
+        "name": "Cheniqua Johnson",
+        "email": "cheniqua.johnson@ci.stpaul.mn.us",
+        "title": "Councilmember",
+        "start_date": "2024-01-01",
+        "committees": [
+          "Budget Committee",
+          "City Operations",
+          "Council Operations",
+          "Housing & Redevelopment Authority",
+          "Library Board"
+        ]
+      },
+      {
+        "name": "Dai Thao",
+        "email": "dai.thao@ci.stpaul.mn.us",
+        "title": null,
+        "start_date": "2020-08-18",
+        "phone": "(651) 266-8610",
+        "website": "http://www.stpaul.gov/index.aspx?nid=2245",
+        "committees": [
+          "Public Meeting"
+        ]
+      },
+      {
+        "name": "HwaJeong Kim",
+        "email": "HwaJeong.Kim@ci.stpaul.mn.us",
+        "title": "Councilmember",
+        "start_date": "2024-01-01",
+        "committees": [
+          "Budget Committee",
+          "City Operations",
+          "Council Operations",
+          "Housing & Redevelopment Authority",
+          "Library Board"
+        ]
+      },
+      {
+        "name": "Jane L. Prince",
+        "email": "jane.prince@ci.stpaul.mn.us",
+        "title": null,
+        "start_date": "2020-08-18",
+        "phone": "651-266-8670",
+        "website": "https://www.stpaul.gov/ward-7-councilmember-jane-l-prince",
+        "committees": [
+          "Public Meeting"
+        ]
+      },
+      {
+        "name": "Molly Coleman",
+        "email": "molly.coleman@ci.stpaul.mn.us",
+        "title": "Councilmember",
+        "start_date": "2025-08-27",
+        "committees": [
+          "Audit Committee",
+          "Board of Water Commissioners",
+          "Budget Committee",
+          "Council Operations",
+          "Housing & Redevelopment Authority"
+        ]
+      },
+      {
+        "name": "Nelsie Yang",
+        "email": "nelsie.yang@ci.stpaul.mn.us",
+        "title": null,
+        "start_date": "2020-08-18",
+        "phone": "651-266-8660",
+        "website": "https://www.stpaul.gov/departments/city-council/ward-6",
+        "committees": [
+          "Board of Water Commissioners",
+          "Budget Committee",
+          "City Operations",
+          "Council Operations",
+          "Housing & Redevelopment Authority"
+        ]
+      },
+      {
+        "name": "Rebecca Noecker",
+        "email": "rebecca.noecker@ci.stpaul.mn.us",
+        "title": null,
+        "start_date": "2020-08-18",
+        "phone": "651-266-8620",
+        "website": "https://www.stpaul.gov/department/city-council/ward-2-councilmember-rebecca-noecker",
+        "committees": [
+          "Audit Committee",
+          "Budget Committee",
+          "City Operations",
+          "Council Operations",
+          "Housing & Redevelopment Authority"
+        ]
+      },
+      {
+        "name": "Saura Jost",
+        "email": "saura.jost@ci.stpaul.mn.us",
+        "title": "Councilmember",
+        "start_date": "2024-01-01",
+        "committees": [
+          "Board of Water Commissioners",
+          "Budget Committee",
+          "City Operations",
+          "Council Operations",
+          "Housing & Redevelopment Authority"
+        ]
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-24",
+      "body": "Legislative Hearings",
+      "location": "Room 330 City Hall & Court House/Remote",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/StPaul/meetings/2026/2/7569_A_Legislative_Hearings_26-02-24_ADA_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-25",
+      "body": "Public Safety Committee",
+      "location": "Council Chambers, City Hall",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/StPaul/meetings/2026/2/7570_A_Public_Safety_Committee_26-02-25_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-25",
+      "body": "Housing & Redevelopment Authority",
+      "location": "Council Chambers, City Hall",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/StPaul/meetings/2026/2/7571_A_Housing___Redevelopment_Authority_26-02-25_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-25",
+      "body": "City Council",
+      "location": "Council Chambers - 3rd Floor",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/StPaul/meetings/2026/2/7568_A_City_Council_26-02-25_ADA_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-18",
+      "body": "Policy Committee",
+      "location": "Council Chambers, City Hall",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-18",
+      "body": "City Council",
+      "location": "Council Chambers - 3rd Floor",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/StPaul/meetings/2026/2/7564_A_City_Council_26-02-18_Meeting_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-18",
+      "body": "Housing & Redevelopment Authority",
+      "location": "Council Chambers, City Hall",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "Audit Committee",
+      "location": "City Hall, 3rd Floor",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/StPaul/meetings/2026/2/7554_A_Audit_Committee_26-02-17_ADA_Meeting_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "Legislative Hearings",
+      "location": "Room 330 City Hall & Court House/Remote",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/StPaul/meetings/2026/2/7565_A_Legislative_Hearings_26-02-17_ADA_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-11",
+      "body": "Organizational Committee",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/StPaul/meetings/2026/2/7549_A_Organizational_Committee_26-02-11_ADA_Meeting_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-11",
+      "body": "Housing & Redevelopment Authority",
+      "location": "Council Chambers, City Hall",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/StPaul/meetings/2026/2/7550_A_Housing___Redevelopment_Authority_26-02-11_Meeting_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-11",
+      "body": "City Council",
+      "location": "Council Chambers - 3rd Floor",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/StPaul/meetings/2026/2/7551_A_City_Council_26-02-11_ADA_Meeting_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "Board of Water Commissioners",
+      "location": "Room 40 City Hall",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/StPaul/meetings/2026/2/7553_A_Board_of_Water_Commissioners_26-02-10_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "Legislative Hearings",
+      "location": "Room 330 City Hall & Court House/Remote",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/StPaul/meetings/2026/2/7552_A_Legislative_Hearings_26-02-10_ADA_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Approving the (appointment or reappointment) of (who) by Mayor (name) to (what).",
+      "type": "Resolution",
+      "status": "Passed Unsigned by Mayor",
+      "intro_date": "2026-02-20",
+      "file_number": "RES 26-350",
+      "passed_date": null
+    },
+    {
+      "title": "Recognizing Portia Hampton Flowers’ career with the City of Saint Paul and thanking her for her service.",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "RES 26-343",
+      "passed_date": null
+    },
+    {
+      "title": "Approving the application of MN Run Series, Podium Sports Marketing for a sound level variance in order to present amplified sound for the Mightyssippi 10 Mile event on Saturday, June 6, 2026, at 226 ",
+      "type": "Resolution-Public Hearing",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "RES PH 26-56",
+      "passed_date": null
+    },
+    {
+      "title": "Second Making finding on the appealed substantial abatement ordered for 925 MAGNOLIA AVENUE EAST in Council File RLH RR 25-25.",
+      "type": "Resolution LH Substantial Abatement Order",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "RLH RR 26-6",
+      "passed_date": null
+    },
+    {
+      "title": "Amending the 2026 PED Operations Budget to Include HRA Housing Trust Fund Funding for Emergency Rental Assistance Staffing, Citywide.",
+      "type": "Resolution-Public Hearing",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "RES PH 26-62",
+      "passed_date": null
+    },
+    {
+      "title": "Review of the POST Board and the Investigation Process and Procedures",
+      "type": "Staff Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "SR 26-32",
+      "passed_date": null
+    },
+    {
+      "title": "Restoring Ford's Area C.",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "RES 26-330",
+      "passed_date": null
+    },
+    {
+      "title": "Resolution Amending the Housing Trust Fund Project Budget to Provide Funding for Staffing In the Department of Planning and Economic Development for the Emergency Rental Assistance Program, Citywide",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "RES 26-331",
+      "passed_date": null
+    },
+    {
+      "title": "Authorizing the write off of Police staffing costs for qualifying free public cultural festivals and community events.",
+      "type": "Resolution-Public Hearing",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "RES PH 26-59",
+      "passed_date": null
+    },
+    {
+      "title": "Approving February 4, 2026, Library Board Minutes.",
+      "type": "Approval of Minutes",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "Min 26-9",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://stpaul.legistar.com",
-  "enriched_at": "2026-02-22T18:43:04.217695",
+  "enriched_at": "2026-02-23T02:47:59.697110",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

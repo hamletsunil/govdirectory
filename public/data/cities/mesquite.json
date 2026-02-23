@@ -517,7 +517,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Mesquite",
-        "probed_at": "2026-02-22T18:46:42.786703",
+        "probed_at": "2026-02-23T02:51:40.715065",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -781,13 +781,158 @@
     "granularity_flags": 3
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "City Council",
+    "members": [
+      {
+        "name": "Andrew Hubacek",
+        "email": "District4@cityofmesquite.com",
+        "title": "Councilmember",
+        "start_date": "2025-12-22"
+      },
+      {
+        "name": "Brandon Murden",
+        "email": "District6@cityofmesquite.com",
+        "title": "Councilmember",
+        "start_date": "2023-11-20"
+      },
+      {
+        "name": "B. W. Smith",
+        "email": "District5@cityofmesquite.com",
+        "title": "Councilmember",
+        "start_date": "2019-11-14"
+      },
+      {
+        "name": "Daniel Alemán, Jr.",
+        "email": "Mayor@cityofmesquite.com",
+        "title": "Mayor",
+        "start_date": "2016-05-18"
+      },
+      {
+        "name": "Elizabeth Rodriguez-Ross",
+        "email": "District3@cityofmesquite.com",
+        "title": "Councilmember",
+        "start_date": "2023-11-20"
+      },
+      {
+        "name": "Jeff Casper",
+        "email": "district1@cityofmesquite.com",
+        "title": "Councilmember",
+        "start_date": "2021-12-20"
+      },
+      {
+        "name": "Kenny Green",
+        "email": "District2@cityofmesquite.com",
+        "title": "Councilmember",
+        "start_date": "2019-11-14"
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-16",
+      "body": "City Council",
+      "location": "City Hall | Council Chamber\r\n757 N. Galloway Avenue | Mesquite, Texas",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/Mesquite/meetings/2026/2/1587_A_City_Council_26-02-16_Meeting_Agenda_3.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-02",
+      "body": "City Council",
+      "location": "City Hall | Council Chamber\r\n757 N. Galloway Avenue | Mesquite, Texas",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/Mesquite/meetings/2026/2/1585_A_City_Council_26-02-02_Meeting_Agenda_3.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Authorize the City Manager to finalize and execute Change Order No. 11 to Bid No. 2023-029, Faithon P. Lucas, Sr. Boulevard Paving and Drainage Reconstruction Project (McKenzie Road to East Cartwright",
+      "type": "Agenda Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-17",
+      "file_number": "26-8129",
+      "passed_date": null
+    },
+    {
+      "title": "Receive a briefing regarding the North Gus Thomasson Road Corridor Study.",
+      "type": "Agenda Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-16",
+      "file_number": "26-8126",
+      "passed_date": null
+    },
+    {
+      "title": "An ordinance adopting the 2025-26 Pay Plans for General Government Personnel with an effective date of October 1, 2025, and for Commissioned Police and Fire Personnel with an effective date of January",
+      "type": "Agenda Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-16",
+      "file_number": "26-8125",
+      "passed_date": null
+    },
+    {
+      "title": "Conduct a public hearing and consider an ordinance for Zoning Application No. Z0425-0392 submitted by Austin Bridge & Road, LP, for a change of zoning from Planned Development, Ordinance No. 1110, to ",
+      "type": "Agenda Item",
+      "status": "Passed",
+      "intro_date": "2026-02-02",
+      "file_number": "26-8113",
+      "passed_date": null
+    },
+    {
+      "title": "Bid No. 2026-052 - Purchase of Four Toyota Vehicles.\r\n(Staff recommends award to Silsbee Toyota Inc., through The Interlocal Purchasing System (TIPS) Contract No. 240901, in an amount not to exceed $1",
+      "type": "Agenda Item",
+      "status": "Passed",
+      "intro_date": "2026-02-02",
+      "file_number": "26-8115",
+      "passed_date": null
+    },
+    {
+      "title": "Receive presentation regarding the Fiscal Year 2024-2025 Annual Report from the Mesquite Quality of Life Corporation Board of Directors.",
+      "type": "Agenda Item",
+      "status": "Personal Appearance",
+      "intro_date": "2026-02-02",
+      "file_number": "26-8060",
+      "passed_date": null
+    },
+    {
+      "title": "Conduct a public hearing and consider a resolution supporting Reserve at Motley Limited Partnership’s application to the Texas Department of Housing and Community Affairs (TDHCA) for 2026 Competitive ",
+      "type": "Agenda Item",
+      "status": "Failed",
+      "intro_date": "2026-01-30",
+      "file_number": "26-8112",
+      "passed_date": "2026-02-16"
+    },
+    {
+      "title": "Consider appointment of one Regular Member (Position No. 4) to the Mesquite Quality of Life Corporation (MQOLC) Board of Directors for a term to expire December 31, 2026, who will also serve on the Me",
+      "type": "Agenda Item",
+      "status": "Passed",
+      "intro_date": "2026-01-29",
+      "file_number": "26-8110",
+      "passed_date": null
+    },
+    {
+      "title": "Consider appointment of one Regular Member (Position No. 3) to the Landmark Commission for a term to expire December 31, 2027.",
+      "type": "Agenda Item",
+      "status": "Passed",
+      "intro_date": "2026-01-23",
+      "file_number": "26-8109",
+      "passed_date": null
+    },
+    {
+      "title": "Discuss amended budget.",
+      "type": "Agenda Item",
+      "status": "Pre-Meeting",
+      "intro_date": "2026-01-23",
+      "file_number": "26-8108",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://mesquite.legistar.com",
-  "enriched_at": "2026-02-22T18:42:47.098733",
+  "enriched_at": "2026-02-23T02:44:39.486771",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

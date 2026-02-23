@@ -373,7 +373,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Chapel%20Hill",
-        "probed_at": "2026-02-22T18:47:14.422471",
+        "probed_at": "2026-02-23T02:52:06.892385",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -637,13 +637,221 @@
     "granularity_flags": 0
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "Town Council",
+    "members": [
+      {
+        "name": "Amy Ryan",
+        "email": "amymorrisryan@gmail.com",
+        "title": "Council Member",
+        "start_date": "2025-12-05"
+      },
+      {
+        "name": "Camille Berry",
+        "email": null,
+        "title": "Mayor pro tem",
+        "start_date": "2025-12-07"
+      },
+      {
+        "name": "Elizabeth Sharp",
+        "email": null,
+        "title": "Council Member",
+        "start_date": "2023-12-18"
+      },
+      {
+        "name": "Jessica Anderson",
+        "email": "janderson@townofchapelhill.org",
+        "title": "Mayor",
+        "start_date": "2023-12-19",
+        "phone": "(919) 391-0118"
+      },
+      {
+        "name": "Louie Rivers",
+        "email": "lriveriii@gmail.com",
+        "title": "Council Member",
+        "start_date": "2025-12-03"
+      },
+      {
+        "name": "Melissa McCullough",
+        "email": "melissamccnc@gmail.com",
+        "title": "Council Member",
+        "start_date": "2023-12-18"
+      },
+      {
+        "name": "Paris Miller-Foushee",
+        "email": null,
+        "title": "Council Member",
+        "start_date": "2021-12-08"
+      },
+      {
+        "name": "Theodore Nollert",
+        "email": null,
+        "title": "Council Member",
+        "start_date": "2023-12-18"
+      },
+      {
+        "name": "Wesley McMahon",
+        "email": null,
+        "title": "Council Member",
+        "start_date": "2025-12-03"
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-24",
+      "body": "Community Design Commission",
+      "location": "Virtual Meeting",
+      "has_agenda": true,
+      "agenda_url": "https://chapelhill.legistar1.com/chapelhill/meetings/2026/2/2400_A_Community_Design_Commission_26-02-24_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-25",
+      "body": "Town Council",
+      "location": "RM 110 | Council Chamber",
+      "has_agenda": true,
+      "agenda_url": "https://chapelhill.legistar1.com/chapelhill/meetings/2026/2/2345_A_Town_Council_26-02-25_Council_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-11",
+      "body": "Town Council",
+      "location": "Library, Meeting Room B",
+      "has_agenda": true,
+      "agenda_url": "https://chapelhill.legistar1.com/chapelhill/meetings/2026/2/2331_A_Town_Council_26-02-11_Council_Meeting_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "Historic District Commission",
+      "location": "RM 110 | Council Chamber",
+      "has_agenda": true,
+      "agenda_url": "https://chapelhill.legistar1.com/chapelhill/meetings/2026/2/2363_A_Historic_District_Commission_26-02-10_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "Planning Commission",
+      "location": "Virtual Meeting",
+      "has_agenda": true,
+      "agenda_url": "https://chapelhill.legistar1.com/chapelhill/meetings/2026/2/2380_A_Planning_Commission_26-02-03_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-30",
+      "body": "Town Council",
+      "location": "INFORMATION ITEMS ONLY",
+      "has_agenda": true,
+      "agenda_url": "https://chapelhill.legistar1.com/chapelhill/meetings/2026/1/2339_A_Town_Council_26-01-30_Information_Packet.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-27",
+      "body": "Community Design Commission",
+      "location": "Virtual Meeting",
+      "has_agenda": true,
+      "agenda_url": "https://chapelhill.legistar1.com/chapelhill/meetings/2026/1/2399_A_Community_Design_Commission_26-01-27_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Cell Tower Alternative Buffer",
+      "type": "Discussion Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "[26-0046]",
+      "passed_date": null
+    },
+    {
+      "title": "Sign Permit-Southern Village",
+      "type": "Consent",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "[26-0044]",
+      "passed_date": null
+    },
+    {
+      "title": "Proclamation: Black History Month",
+      "type": "Opening",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "[26-0036]",
+      "passed_date": null
+    },
+    {
+      "title": "2026 Council Meeting Schedule Amendment",
+      "type": "Consent",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-12",
+      "file_number": "[26-0039]",
+      "passed_date": null
+    },
+    {
+      "title": "Conditional Zoning for 1165 Weaver Dairy Road",
+      "type": "Discussion Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-11",
+      "file_number": "[26-0042]",
+      "passed_date": null
+    },
+    {
+      "title": "FY 2025 Audit Results and FY 2026 Financial Update",
+      "type": "Discussion Item",
+      "status": "Filed",
+      "intro_date": "2026-02-02",
+      "file_number": "[26-0033]",
+      "passed_date": "2026-02-11"
+    },
+    {
+      "title": "Report on Town Manager Evaluation Practices",
+      "type": "Discussion Item",
+      "status": "Filed",
+      "intro_date": "2026-02-02",
+      "file_number": "[26-0035]",
+      "passed_date": "2026-02-11"
+    },
+    {
+      "title": "January 7, 9, 10, and 21, 2026 Meeting Minutes",
+      "type": "Consent",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-29",
+      "file_number": "[26-0040]",
+      "passed_date": null
+    },
+    {
+      "title": "Parks and Recreation Master Plan Engagement Update.",
+      "type": "Information Items",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-28",
+      "file_number": "[26-0032]",
+      "passed_date": null
+    },
+    {
+      "title": "Town Code Section 14-68 Amendment",
+      "type": "Consent",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-28",
+      "file_number": "[26-0038]",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://chapelhill.legistar.com",
-  "enriched_at": "2026-02-22T18:42:23.509075",
+  "enriched_at": "2026-02-23T02:40:26.666661",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

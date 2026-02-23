@@ -357,7 +357,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Seminole%20County",
-        "probed_at": "2026-02-22T18:47:46.733738",
+        "probed_at": "2026-02-23T02:52:33.214168",
         "data_vintage": "BRFSS None",
         "geographic_level": "place",
         "status": "unavailable"
@@ -621,13 +621,223 @@
     "granularity_flags": 0
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "Board of County Commissioners",
+    "members": [
+      {
+        "name": "Chairman Andria Herr",
+        "email": null,
+        "title": null,
+        "start_date": "2025-11-19"
+      },
+      {
+        "name": "Commissioner Bob Dallari",
+        "email": null,
+        "title": null,
+        "start_date": "2024-11-19",
+        "committees": [
+          "Board of County Commissioners Worksessions",
+          "Seminole County Industrial Development Authority"
+        ]
+      },
+      {
+        "name": "Commissioner Jay Zembower",
+        "email": null,
+        "title": null,
+        "start_date": "2025-11-19"
+      },
+      {
+        "name": "Commissioner Lee Constantine",
+        "email": null,
+        "title": null,
+        "start_date": "2024-11-19",
+        "committees": [
+          "Board of County Commissioners Worksessions"
+        ]
+      },
+      {
+        "name": "Vice Chairman Amy Lockhart",
+        "email": null,
+        "title": null,
+        "start_date": "2025-11-19"
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-23",
+      "body": "Board of Adjustment",
+      "location": "BCC Chambers, Room 1028",
+      "has_agenda": true,
+      "agenda_url": "https://seminolecountyfl.legistar1.com/seminolecountyfl/meetings/2026/2/3605_A_Board_of_Adjustment_26-02-23_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-24",
+      "body": "Board of County Commissioners",
+      "location": "BCC Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://seminolecountyfl.legistar1.com/seminolecountyfl/meetings/2026/2/3576_A_Board_of_County_Commissioners_26-02-24_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-18",
+      "body": "Development Review Committee",
+      "location": "Room 3024",
+      "has_agenda": true,
+      "agenda_url": "https://seminolecountyfl.legistar1.com/seminolecountyfl/meetings/2026/2/3601_A_Development_Review_Committee_26-02-18_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-12",
+      "body": "Code Enforcement Special Magistrate",
+      "location": "BCC Chambers, Room 1028",
+      "has_agenda": true,
+      "agenda_url": "https://seminolecountyfl.legistar1.com/seminolecountyfl/meetings/2026/2/3549_A_Code_Enforcement_Special_Magistrate_26-02-12_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "Board of County Commissioners",
+      "location": "BCC Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://seminolecountyfl.legistar1.com/seminolecountyfl/meetings/2026/2/3575_A_Board_of_County_Commissioners_26-02-10_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-04",
+      "body": "Planning and Zoning Commission",
+      "location": "BCC Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://seminolecountyfl.legistar1.com/seminolecountyfl/meetings/2026/2/3564_A_Planning_and_Zoning_Commission_26-02-04_Meeting_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-04",
+      "body": "Development Review Committee",
+      "location": "Room 3024",
+      "has_agenda": true,
+      "agenda_url": "https://seminolecountyfl.legistar1.com/seminolecountyfl/meetings/2026/2/3600_A_Development_Review_Committee_26-02-04_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-27",
+      "body": "Board of County Commissioners",
+      "location": "BCC Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://seminolecountyfl.legistar1.com/seminolecountyfl/meetings/2026/1/3562_A_Board_of_County_Commissioners_26-01-27_Meeting_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-26",
+      "body": "Board of Adjustment",
+      "location": "BCC Chambers, Room 1028",
+      "has_agenda": true,
+      "agenda_url": "https://seminolecountyfl.legistar1.com/seminolecountyfl/meetings/2026/1/3602_A_Board_of_Adjustment_26-01-26_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Approve and authorize the Chairman to execute a Resolution implementing Budget Amendment (BAR) # 26-023 in the 2024 Infrastructure Sales Tax Fund to transfer $6,500,000 from reserves for FY26 design a",
+      "type": "Consent Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-13",
+      "file_number": "2026-0210",
+      "passed_date": null
+    },
+    {
+      "title": "Approval of the at-large Board Appointment",
+      "type": "Consent Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-13",
+      "file_number": "2026-0209",
+      "passed_date": null
+    },
+    {
+      "title": "Resolution Honoring the Retirement of Roads and Stormwater Division Manager Owen Reagan",
+      "type": "Award/Presentation",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-11",
+      "file_number": "2026-0190",
+      "passed_date": null
+    },
+    {
+      "title": "Midway Update (John Slot, Public Works Director)",
+      "type": "County Manager and Staff Briefings",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-11",
+      "file_number": "2026-0195",
+      "passed_date": null
+    },
+    {
+      "title": "Approve and authorize the Chairman to execute a Proclamation proclaiming February 16 - 20, 2026 as “Food Check Out Week” in Seminole County, FL",
+      "type": "Consent Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-11",
+      "file_number": "2026-0193",
+      "passed_date": null
+    },
+    {
+      "title": "County Investment Advisor Report (Scott McIntyre, CFA - Senior Portfolio Manager, Managing Director Hilltop Securities Asset Management)",
+      "type": "Award/Presentation",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-11",
+      "file_number": "2026-0192",
+      "passed_date": null
+    },
+    {
+      "title": "Approve and authorize the Chairman to execute a Resolution Honoring the 60th Anniversary of Community Legal Services in Seminole County, Florida",
+      "type": "Consent Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-11",
+      "file_number": "2026-0196",
+      "passed_date": null
+    },
+    {
+      "title": "Approval of the District 5 Board Appointments",
+      "type": "Consent Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-11",
+      "file_number": "2026-0197",
+      "passed_date": null
+    },
+    {
+      "title": "Resolution Honoring the Contributions of League of Women Voters  Member Marilyn Crotty",
+      "type": "Consent Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-11",
+      "file_number": "2026-0194",
+      "passed_date": null
+    },
+    {
+      "title": "3425 Gleaves Court - Request for a rear yard setback variance from thirty (30) feet to 9.7 feet for a shed in the R-1A (Single Family Dwelling) district; BV2025-142 (Tilak Ramaprakash, Applicant) Dist",
+      "type": "Variances",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-09",
+      "file_number": "2026-0174",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://seminolecountyfl.legistar.com",
-  "enriched_at": "2026-02-22T18:43:02.827844",
+  "enriched_at": "2026-02-23T02:47:48.021055",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

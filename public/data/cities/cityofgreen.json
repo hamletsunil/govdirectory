@@ -523,7 +523,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Green",
-        "probed_at": "2026-02-22T18:46:33.296480",
+        "probed_at": "2026-02-23T02:51:33.580488",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -787,13 +787,269 @@
     "granularity_flags": 4
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "City Council",
+    "members": [
+      {
+        "name": "Chris Humphrey",
+        "email": "chumphrey@cityofgreen.org",
+        "title": "Council Member",
+        "start_date": "2026-01-01",
+        "committees": [
+          "Committee  Meetings"
+        ]
+      },
+      {
+        "name": "CJ Meager",
+        "email": null,
+        "title": "Council Member",
+        "start_date": "2021-02-02",
+        "committees": [
+          "Committee  Meetings"
+        ]
+      },
+      {
+        "name": "Clark A. DeVitis",
+        "email": null,
+        "title": "Council Member",
+        "start_date": "2020-01-01",
+        "committees": [
+          "Committee  Meetings"
+        ]
+      },
+      {
+        "name": "Gerard Neugebauer",
+        "email": "gneugebauer@cityofgreen.org",
+        "title": "Council Member",
+        "start_date": "2024-01-01",
+        "committees": [
+          "Committee  Meetings"
+        ]
+      },
+      {
+        "name": "Jeff Noble",
+        "email": "Jeff_noble@urscorp.com",
+        "title": "Council Member",
+        "start_date": "2022-01-01",
+        "committees": [
+          "Committee  Meetings"
+        ]
+      },
+      {
+        "name": "Justin Speight",
+        "email": "jspeight@cityofgreen.org",
+        "title": "Council Member",
+        "start_date": "2024-01-01",
+        "committees": [
+          "Committee  Meetings"
+        ]
+      },
+      {
+        "name": "Richard Brandenburg",
+        "email": null,
+        "title": "Council Member",
+        "start_date": "2026-01-01",
+        "committees": [
+          "Committee  Meetings"
+        ]
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-23",
+      "body": "Charter Review Commission",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/cityofgreen/meetings/2026/2/2581_A_Charter_Review_Commission_26-02-23_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-24",
+      "body": "Committee  Meetings",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/cityofgreen/meetings/2026/2/2559_A_Committee__Meetings_26-02-24_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-24",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/cityofgreen/meetings/2026/2/2558_A_City_Council_26-02-24_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-18",
+      "body": "Planning and Zoning Commission",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/cityofgreen/meetings/2026/2/2576_A_Planning_and_Zoning_Commission_26-02-18_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/cityofgreen/meetings/2026/2/2556_A_City_Council_26-02-10_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "Committee  Meetings",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/cityofgreen/meetings/2026/2/2557_A_Committee__Meetings_26-02-10_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-09",
+      "body": "Charter Review Commission",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/cityofgreen/meetings/2026/2/2580_A_Charter_Review_Commission_26-02-09_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-04",
+      "body": "Design Review Board",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/cityofgreen/meetings/2026/2/2568_A_Design_Review_Board_26-02-04_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "Veterans Advisory Commission",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/cityofgreen/meetings/2026/2/2577_A_Veterans_Advisory_Commission_26-02-03_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-29",
+      "body": "City Council",
+      "location": "Green High School Auditorium",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/cityofgreen/meetings/2026/1/2573_A_City_Council_26-01-29_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-28",
+      "body": "Charter Review Commission",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/cityofgreen/meetings/2026/1/2574_A_Charter_Review_Commission_26-01-28_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "February 18, 2026 Planning & Zoning Commission Meeting Agenda",
+      "type": "Action Item",
+      "status": "Correspondence",
+      "intro_date": "2026-02-18",
+      "file_number": "TMP-5249",
+      "passed_date": null
+    },
+    {
+      "title": "February 23, 2026 Charter Review Commission Meeting Agenda",
+      "type": "Action Item",
+      "status": "Correspondence",
+      "intro_date": "2026-02-18",
+      "file_number": "TMP-5252",
+      "passed_date": null
+    },
+    {
+      "title": "Summit County Sheriffs Department January 2026 Activity Report",
+      "type": "Action Item",
+      "status": "Correspondence",
+      "intro_date": "2026-02-18",
+      "file_number": "TMP-5255",
+      "passed_date": null
+    },
+    {
+      "title": "A RESOLUTION AUTHORIZING THE MAYOR TO ACCEPT THE NORTHEAST OHIO PUBLIC ENERGY COUNCIL 2026 ENERGIZED COMMUNITY GRANT FUNDS, AND DECLARING AN EMERGENCY. -Referred to the Intergovernmental and Utilities",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "2026-R08",
+      "passed_date": null
+    },
+    {
+      "title": "Resident opposition Letters regarding the proposed SELU Commercial Development at 3929 S Main St.",
+      "type": "Action Item",
+      "status": "Correspondence",
+      "intro_date": "2026-02-18",
+      "file_number": "TMP-5256",
+      "passed_date": null
+    },
+    {
+      "title": "A RESOLUTION MODIFYING APPROPRIATIONS WITHIN CERTAIN FUNDS IN ORDER TO PROVIDE SUFFICIENT FUNDING AND DECLARING AN EMERGENCY. -Referred to the Finance Committee",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "2026-R06",
+      "passed_date": null
+    },
+    {
+      "title": "February 9, 2026 Charter Review Commission Meeting Minutes",
+      "type": "Action Item",
+      "status": "Correspondence",
+      "intro_date": "2026-02-18",
+      "file_number": "TMP-5250",
+      "passed_date": null
+    },
+    {
+      "title": "Approval of the January 2026 Electronic Financial Report, Subject to Audit",
+      "type": "Financial Statement",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "TMP-5254",
+      "passed_date": null
+    },
+    {
+      "title": "Approval of the February 9, 2026 CRC Meeting Minutes",
+      "type": "Minutes",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "TMP-5251",
+      "passed_date": null
+    },
+    {
+      "title": "Approval of the February 10, 2026 Committee Meeting Minutes",
+      "type": "Minutes",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-11",
+      "file_number": "TMP-5247",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://cityofgreen.legistar.com",
-  "enriched_at": "2026-02-22T18:42:26.301980",
+  "enriched_at": "2026-02-23T02:40:59.759532",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

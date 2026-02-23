@@ -378,7 +378,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Wellington",
-        "probed_at": "2026-02-22T18:47:52.794165",
+        "probed_at": "2026-02-23T02:52:38.106785",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -642,13 +642,278 @@
     "granularity_flags": 0
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "Village Council ",
+    "members": [
+      {
+        "name": "Amanda Silvestri",
+        "email": null,
+        "title": "Councilwoman",
+        "start_date": "2024-04-03",
+        "committees": [
+          "ACME Improvement District",
+          "Village Council Workshop"
+        ]
+      },
+      {
+        "name": "John T. McGovern",
+        "email": "jmcgovern@wellingtonfl.gov",
+        "title": "Councilman",
+        "start_date": "2020-04-21",
+        "phone": "(561) 791-4000",
+        "website": "http://www.wellingtonfl.gov/government/council/councilman-john-t-mcgovern",
+        "committees": [
+          "ACME Improvement District",
+          "Village Council Workshop"
+        ]
+      },
+      {
+        "name": "Maria S. Antuña",
+        "email": null,
+        "title": "Councilwoman",
+        "start_date": "2024-04-03"
+      },
+      {
+        "name": "Michael J. Napoleone",
+        "email": "mnapoleone@wellingtonfl.gov",
+        "title": "Mayor",
+        "start_date": "2020-04-21",
+        "phone": "(561) 791-4000",
+        "website": "http://www.wellingtonfl.gov/government/village-council/councilman-michael-napoleone",
+        "committees": [
+          "ACME Improvement District",
+          "Village Council Workshop"
+        ]
+      },
+      {
+        "name": "Tanya Siskind",
+        "email": "tsiskind@wellingtonfl.gov",
+        "title": "Vice Mayor",
+        "start_date": "2020-04-21",
+        "phone": "(561) 791-4000",
+        "website": "http://www.wellingtonfl.gov/government/village-council/councilwoman-tanya-siskind",
+        "committees": [
+          "ACME Improvement District",
+          "Village Council Workshop"
+        ]
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-23",
+      "body": "Village Council Workshop",
+      "location": "Village Hall - Conference Rooms 1E & 1F",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/Wellington/meetings/2026/2/4245_A_Village_Council_Workshop_26-02-23_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-24",
+      "body": "Village Council",
+      "location": "Village Hall - Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/Wellington/meetings/2026/2/4244_A_Village_Council__26-02-24_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-25",
+      "body": "Architectural Review Board",
+      "location": "Village Hall",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/Wellington/meetings/2026/2/4243_A_Architectural_Review_Board_26-02-25_Summary_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-19",
+      "body": "Special Magistrate Hearing",
+      "location": "Village Hall",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/Wellington/meetings/2026/2/4212_A_Special_Magistrate_Hearing_26-02-19_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-18",
+      "body": "Planning, Zoning and Adjustment Board",
+      "location": "Village Hall",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/Wellington/meetings/2026/2/4233_A_Planning%2C_Zoning_and_Adjustment_Board_26-02-18_Summary_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "Village Council",
+      "location": "Village Hall - Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/Wellington/meetings/2026/2/4137_A_Village_Council__26-02-10_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "ACME Improvement District",
+      "location": "Village Hall",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/Wellington/meetings/2026/2/4246_A_ACME_Improvement_District_26-02-10_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-09",
+      "body": "Village Council Workshop",
+      "location": "Village Hall - Conference Rooms 1E & 1F",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/Wellington/meetings/2026/2/4159_A_Village_Council_Workshop_26-02-09_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-05",
+      "body": "Special Magistrate Hearing",
+      "location": "Village Hall",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/Wellington/meetings/2026/2/4211_A_Special_Magistrate_Hearing_26-02-05_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-04",
+      "body": "Equestrian Preserve Committee",
+      "location": "Village Hall",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/Wellington/meetings/2026/2/4196_A_Equestrian_Preserve_Committee_26-02-04_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "Education Committee",
+      "location": "Village Hall",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/Wellington/meetings/2026/2/4176_A_Education_Committee_26-02-03_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-28",
+      "body": "Architectural Review Board",
+      "location": "Village Hall",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/Wellington/meetings/2026/1/4209_A_Architectural_Review_Board_26-01-28_Meeting_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-27",
+      "body": "Village Council",
+      "location": "Village Hall - Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/Wellington/meetings/2026/1/4242_A_Village_Council__26-01-27_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "SIXTH AMENDMENT TO PURCHASE AND SALE AGREEMENT WITH WELLINGTON PROPERTY OWNER LLC AND APPROVAL OF TERMINATION OF PURCHASE AND SALE AGREEMENT WITH EIM",
+      "type": "Presentation",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "26-7616",
+      "passed_date": null
+    },
+    {
+      "title": "RESOLUTION NO. AC2026-01 (AUTHORIZING THE BOARD PRESIDENT OR VICE PRESIDENT, AND BOARD SECRETARY, TO EXECUTE A SPECIAL WARRANTY DEED IN FAVOR OF WELLINGTON PROPERTY OWNER LLC, TOGETHER WITH ALL OTHER ",
+      "type": "Presentation",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "26-7615",
+      "passed_date": null
+    },
+    {
+      "title": "PRESENTATION BY DOUG CRANE, PALM BEACH COUNTY LIBRARY DIRECTOR",
+      "type": "Presentation",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "26-7614",
+      "passed_date": null
+    },
+    {
+      "title": "Petition No. 2026-0004-ARB Life Church Elevation and Signage",
+      "type": "ARB - Commercial",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "ARB-383",
+      "passed_date": null
+    },
+    {
+      "title": "RESOLUTION NO. R2026-04 (WELLINGTON VILLAGE (FKA K PARK) CONDITIONAL USE FOR POD A SCHOOL)\r\n\r\nA RESOLUTION OF WELLINGTON, FLORIDA’S COUNCIL, APPROVING A CONDITIONAL USE (PETITION 2025-0001-CU) FOR CER",
+      "type": "Conditional Use",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "26-7610",
+      "passed_date": null
+    },
+    {
+      "title": "Petition No 2026-0005-ARB Lewis Prime Grill Signage",
+      "type": "ARB - Commercial",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "ARB-382",
+      "passed_date": null
+    },
+    {
+      "title": "RESOLUTION NO. AC2026-02 (LAND SWAP AGREEMENT WITH MH WELLINGTON 2023 LLC)\r\n\r\nA RESOLUTION OF THE BOARD OF SUPERVISORS OF THE ACME IMPROVEMENT DISTRICT APPROVING A LAND SWAP AGREEMENT WITH MH WELLINGT",
+      "type": "Presentation",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "26-7612",
+      "passed_date": null
+    },
+    {
+      "title": "Petition No. 2026-0006-ARB Color Board Modification",
+      "type": "ARB - Color",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-17",
+      "file_number": "ARB-380",
+      "passed_date": null
+    },
+    {
+      "title": "CONSIDERATION OF VILLAGE MANAGER’S EMPLOYMENT AGREEMENT",
+      "type": "Purchasing/Contract",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-17",
+      "file_number": "26-7608",
+      "passed_date": null
+    },
+    {
+      "title": "WELLINGTON ATHLETICS UPDATE",
+      "type": "Presentation",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-17",
+      "file_number": "26-7602",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://wellington.legistar.com",
-  "enriched_at": "2026-02-22T18:43:06.290702",
+  "enriched_at": "2026-02-23T02:48:30.541154",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

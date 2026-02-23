@@ -530,7 +530,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Groveport",
-        "probed_at": "2026-02-22T18:46:56.813346",
+        "probed_at": "2026-02-23T02:51:52.443109",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -794,13 +794,217 @@
     "granularity_flags": 3
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "City Council",
+    "members": [
+      {
+        "name": "Abdullah Ansar-Barsa",
+        "email": null,
+        "title": "Council Member",
+        "start_date": "2026-01-01",
+        "committees": [
+          "Committee of the Whole",
+          "Public Hearing"
+        ]
+      },
+      {
+        "name": "Jamie Hise",
+        "email": null,
+        "title": "Council Member",
+        "start_date": "2026-01-28",
+        "committees": [
+          "Committee of the Whole",
+          "Public Hearing"
+        ]
+      },
+      {
+        "name": "Jean Ann Hilbert",
+        "email": null,
+        "title": "Council Member",
+        "start_date": "2024-01-01",
+        "committees": [
+          "Committee of the Whole",
+          "Public Hearing"
+        ]
+      },
+      {
+        "name": "Karen Fraser",
+        "email": null,
+        "title": "Council Member",
+        "start_date": "2026-01-28",
+        "committees": [
+          "Committee of the Whole",
+          "Public Hearing",
+          "Trees & Decorations Committee"
+        ]
+      },
+      {
+        "name": "Lance Westcamp",
+        "email": null,
+        "title": "Mayor",
+        "start_date": "2024-07-22",
+        "committees": [
+          "Planning & Zoning Commission"
+        ]
+      },
+      {
+        "name": "Scott Lockett",
+        "email": null,
+        "title": "Council Member",
+        "start_date": "2026-01-01",
+        "committees": [
+          "Committee of the Whole",
+          "Public Hearing"
+        ]
+      },
+      {
+        "name": "Shawn M. Cleary",
+        "email": null,
+        "title": "Council Member",
+        "start_date": "2024-01-01",
+        "committees": [
+          "Cemetery Committee",
+          "Committee of the Whole",
+          "Public Hearing"
+        ]
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-23",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/Groveport/meetings/2026/2/2035_A_City_Council_26-02-23_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-16",
+      "body": "Committee of the Whole",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/Groveport/meetings/2026/2/2036_A_Committee_of_the_Whole_26-02-16_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-09",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/Groveport/meetings/2026/2/2034_A_City_Council_26-02-09_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-28",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/Groveport/meetings/2026/1/2038_A_City_Council_26-01-28_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-26",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/Groveport/meetings/2026/1/2032_A_City_Council_26-01-26_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "2026 Budget Memo Amended",
+      "type": "Report",
+      "status": "Report",
+      "intro_date": "2026-02-20",
+      "file_number": "#041-2026",
+      "passed_date": null
+    },
+    {
+      "title": "February 9, 2026 City Council Meeting Minutes",
+      "type": "Report",
+      "status": "Report",
+      "intro_date": "2026-02-19",
+      "file_number": "#040-2026",
+      "passed_date": null
+    },
+    {
+      "title": "AN ORDINANCE AUTHORIZING THE ADMINISTRATOR TO ENTER INTO CONTRACT WITH ACCURATE MECHANICAL, INC FOR THE REPLACEMENT OF HEATING AND COOLING EQUIPMENT AT THE RECREATION CENTER UNDER THE OHIO STATE TERM ",
+      "type": "Ordinance",
+      "status": "First Reading",
+      "intro_date": "2026-02-17",
+      "file_number": "Ord. 2026-013",
+      "passed_date": null
+    },
+    {
+      "title": "Finance Director Report",
+      "type": "Report",
+      "status": "Director of Finance",
+      "intro_date": "2026-02-13",
+      "file_number": "#027-2026",
+      "passed_date": "2026-02-16"
+    },
+    {
+      "title": "January 20, 2026 Committee of the Whole Meeting Minutes",
+      "type": "Report",
+      "status": "Report",
+      "intro_date": "2026-02-13",
+      "file_number": "#023-2026",
+      "passed_date": "2026-02-16"
+    },
+    {
+      "title": "Citizens Academy Recap",
+      "type": "Report",
+      "status": "Report",
+      "intro_date": "2026-02-13",
+      "file_number": "#025-2026",
+      "passed_date": "2026-02-16"
+    },
+    {
+      "title": "AN ORDINANCE AMENDING ORDINANCE NO. 2025-034 (ADOPTED 11/24/2025), AUTHORIZING THE TRANSFER OF CASH FUND BALANCES",
+      "type": "Ordinance",
+      "status": "First Reading",
+      "intro_date": "2026-02-13",
+      "file_number": "Ord. 2026-012",
+      "passed_date": null
+    },
+    {
+      "title": "AN ORDINANCE AMENDING PART ONE - ADMINISTRATIVE CODE, TITLE FIVE- ADMINISTRATIVE, CHAPTER 137 -BOARD OF CEMETERY TRUSTEES, SECTION 137.02 - RULES AND REGULATIONS, AND THE DECLARATION OF AN EMERGENCY",
+      "type": "Ordinance",
+      "status": "Adopted",
+      "intro_date": "2026-02-05",
+      "file_number": "Ord. 2026-009",
+      "passed_date": "2026-02-09"
+    },
+    {
+      "title": "January 12, 2026 City Council Meeting Minutes",
+      "type": "Report",
+      "status": "Report",
+      "intro_date": "2026-02-05",
+      "file_number": "#022-2026",
+      "passed_date": "2026-02-09"
+    },
+    {
+      "title": "A RESOLUTION REGARDING THE NATURE OF SERVICES TO BE PROVIDED TO 3.18 ACRES, MORE OR LESS, PARCEL NUMBER 180-001454, LOCATED IN MADISON TOWNSHIP UPON ANNEXATION OF SAID TRACT TO THE CITY OF GROVEPORT A",
+      "type": "Resolution",
+      "status": "Adopted",
+      "intro_date": "2026-02-05",
+      "file_number": "Res. 2026-002",
+      "passed_date": "2026-02-09"
+    }
+  ],
   "legistar_url": "https://groveport.legistar.com",
-  "enriched_at": "2026-02-22T18:42:37.675173",
+  "enriched_at": "2026-02-23T02:43:05.963672",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

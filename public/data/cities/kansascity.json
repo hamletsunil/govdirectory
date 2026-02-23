@@ -116,15 +116,15 @@
     "accela_agency_id": "KANSAS"
   },
   "development": {
-    "permits_12mo": 4044,
+    "permits_12mo": 4043,
     "yoy_trend_pct": -78.3,
-    "avg_permit_value": 196171.93,
+    "avg_permit_value": 196220.24,
     "permit_types": {
       "Electrical General": 885,
       "Plumbing General": 565,
       "Mechanical General": 528,
       "Certificate of Occupancy (Residential)": 208,
-      "Electrical with Service": 202,
+      "Electrical with Service": 201,
       "Single Family - Interior Remodel": 171,
       "Install/Replace Water Heater": 126,
       "Other": 124,
@@ -292,8 +292,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.kcmo.org/resource/ntw8-aacc.json",
-        "probed_at": "2026-02-22T18:44:17.824469",
-        "data_vintage": "Rolling 12-month window ending 2026-02-22",
+        "probed_at": "2026-02-23T02:49:46.868678",
+        "data_vintage": "Rolling 12-month window ending 2026-02-23",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Permits - CPD Dataset",
@@ -594,13 +594,454 @@
     "granularity_flags": 0
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "Council",
+    "members": [
+      {
+        "name": "Andrea Bough",
+        "email": "andrea.bough@kcmo.org",
+        "title": "Councilmember",
+        "start_date": "2023-08-01",
+        "committees": [
+          "Business Session",
+          "City Council Business Session",
+          "Finance, Governance and Public Safety Committee",
+          "Finance, Governance & Neighborhood Joint Committee",
+          "The Joint Committee of Finance and Neighborhood"
+        ]
+      },
+      {
+        "name": "Crispin Rea",
+        "email": "crispin.rea@kcmo.org",
+        "title": "Councilmember",
+        "start_date": "2023-08-01",
+        "committees": [
+          "Business Session",
+          "City Council Business Session",
+          "Finance, Governance and Public Safety Committee",
+          "The Joint Committee of Finance and Neighborhood"
+        ]
+      },
+      {
+        "name": "Darrell Curls",
+        "email": "darrell.curls@kcmo.org",
+        "title": "Councilmember",
+        "start_date": "2023-08-01",
+        "committees": [
+          "Business Session",
+          "City Council Business Session",
+          "Finance, Governance and Public Safety Committee",
+          "The Joint Committee of Finance and Neighborhood"
+        ]
+      },
+      {
+        "name": "Eric Bunch",
+        "email": null,
+        "title": "Councilmember",
+        "start_date": "2023-08-01",
+        "committees": [
+          "Business Session",
+          "City Council Business Session",
+          "Neighborhood Planning and Development Committee",
+          "The Joint Committee of Finance and Neighborhood",
+          "Transportation, Infrastructure and Operations Committee"
+        ]
+      },
+      {
+        "name": "Johnathan Duncan",
+        "email": "johnathan.duncan@kcmo.org",
+        "title": "Councilmember",
+        "start_date": "2023-08-01",
+        "committees": [
+          "Business Session",
+          "City Council Business Session",
+          "Transportation, Infrastructure and Operations Committee"
+        ]
+      },
+      {
+        "name": "Kevin O'Neill",
+        "email": null,
+        "title": "Councilmember",
+        "start_date": "2023-08-01",
+        "committees": [
+          "Business Session",
+          "City Council Business Session",
+          "Transportation, Infrastructure and Operations Committee"
+        ]
+      },
+      {
+        "name": "Lindsay French",
+        "email": "lindsay.french@kcmo.org",
+        "title": "Councilmember",
+        "start_date": "2023-08-01",
+        "committees": [
+          "Action Center",
+          "Business Session",
+          "City Council Business Session",
+          "Transportation, Infrastructure and Operations Committee"
+        ]
+      },
+      {
+        "name": "Melissa Patterson Hazley",
+        "email": "mph@kcmo.org",
+        "title": "Councilmember",
+        "start_date": "2023-08-01",
+        "committees": [
+          "Business Session",
+          "City Council Business Session",
+          "Neighborhood Planning and Development Committee",
+          "The Joint Committee of Finance and Neighborhood"
+        ]
+      },
+      {
+        "name": "Melissa Robinson",
+        "email": null,
+        "title": "Councilmember",
+        "start_date": "2023-08-01",
+        "committees": [
+          "Business Session",
+          "City Council Business Session",
+          "Finance, Governance & Neighborhood Joint Committee",
+          "Transportation, Infrastructure and Operations Committee"
+        ]
+      },
+      {
+        "name": "Nathan Willett",
+        "email": "nathan.willett@kcmo.org",
+        "title": "Councilmember",
+        "start_date": "2023-08-01",
+        "committees": [
+          "Business Session",
+          "City Council Business Session",
+          "Neighborhood Planning and Development Committee",
+          "The Joint Committee of Finance and Neighborhood"
+        ]
+      },
+      {
+        "name": "Quinton Lucas",
+        "email": null,
+        "title": "Mayor",
+        "start_date": "2023-08-01",
+        "committees": [
+          "Business Session",
+          "City Council Business Session",
+          "Economic Development Corporation",
+          "Finance, Governance and Public Safety Committee",
+          "The Joint Committee of Finance and Neighborhood"
+        ]
+      },
+      {
+        "name": "Ryana Parks-Shaw",
+        "email": null,
+        "title": "Councilmember",
+        "start_date": "2023-08-01",
+        "committees": [
+          "Business Session",
+          "City Council Business Session",
+          "Finance, Governance & Neighborhood Joint Committee",
+          "Neighborhood Planning and Development Committee",
+          "The Joint Committee of Finance and Neighborhood"
+        ]
+      },
+      {
+        "name": "Wes Rogers",
+        "email": "wes.rogers@kcmo.org",
+        "title": "Councilmember",
+        "start_date": "2023-08-01",
+        "committees": [
+          "Business Session",
+          "City Council Business Session",
+          "Finance, Governance and Public Safety Committee",
+          "The Joint Committee of Finance and Neighborhood"
+        ]
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-23",
+      "body": "Health Commission",
+      "location": "Kansas City, Health Department\r\nWatson (Multipurpose Room)",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-23",
+      "body": "Public Budget Hearings",
+      "location": "Ruskin High School (7000 E 111th St, KCMO 64134)",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-23",
+      "body": "Northland Gateway Community Improvement District",
+      "location": "TEAMS Meeting",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-23",
+      "body": "Housing Trust Fund Board",
+      "location": "Virtual",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-24",
+      "body": "Neighborhood Planning and Development Committee",
+      "location": "26th Floor, Council Chamber",
+      "has_agenda": true,
+      "agenda_url": "https://kansascity.legistar1.com/kansascity/meetings/2026/2/18982_A_Neighborhood_Planning_and_Development_Committee_26-02-24_Agenda_-_Committees.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-24",
+      "body": "Central City Economic Development Sales Tax Board",
+      "location": "https://us06web.zoom.us/j/81345598809?pwd=EZoOYWweYp7Oye2nOyBHaKe05Dt41R.1",
+      "has_agenda": true,
+      "agenda_url": "https://kansascity.legistar1.com/kansascity/meetings/2026/2/19011_A_Central_City_Economic_Development_Sales_Tax_Board_26-02-24_Agenda_-_Committees.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-24",
+      "body": "Board of Police Commissioners",
+      "location": "1125 Locust Street",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-24",
+      "body": "Finance, Governance and Public Safety Committee",
+      "location": "26th Floor, Council Chamber",
+      "has_agenda": true,
+      "agenda_url": "https://kansascity.legistar1.com/kansascity/meetings/2026/2/18983_A_Finance%2C_Governance_and_Public_Safety_Committee_26-02-24_Agenda_-_Committees.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-25",
+      "body": "Employee Retirement System Board of Trustees",
+      "location": "Finance Department, Large Conference Room, located on the 3rd Floor and North side of City Hall and virtually via Microsoft Teams.",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-25",
+      "body": "Finance, Governance and Public Safety Committee",
+      "location": "26th Floor, Council Chamber",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-19",
+      "body": "Deferred Compensation Plan Board",
+      "location": "HR 9th Floor East conference room and virtually",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-19",
+      "body": "Homesteading Authority",
+      "location": null,
+      "has_agenda": true,
+      "agenda_url": "https://kansascity.legistar1.com/kansascity/meetings/2026/2/19001_A_Homesteading_Authority_26-02-19_Agenda_-_Committees.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-19",
+      "body": "Land Bank Board of Commissioners",
+      "location": "https://us06web.zoom.us/j/88435632523?pwd=FX4s4M5zwaPwh2qsAhjYkdoz9FlYks.1\r\nMeeting Passcode: 535651",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-19",
+      "body": "Investment Committee",
+      "location": "Treasury Conference Room \r\nCity Hall 1st Floor East, 414 E. 12th Street\r\nKansas City, Missouri",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-18",
+      "body": "Land Bank Board of Commissioners",
+      "location": "Canceled",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-18",
+      "body": "City Plan Commission",
+      "location": "City Hall, 414 East 12th Street, 10th floor Council Committee\r\nRoom, Kansas City, Missouri",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-18",
+      "body": "LGBTQ Commission",
+      "location": "Waldo Branch of KC Library, 201 E 75th St, Kansas City, MO 64114, Room B",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-18",
+      "body": "Linwood Shopping Center CID Board of Director's Meeting",
+      "location": "TEAMS Meeting",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-18",
+      "body": "Human Rights Commission",
+      "location": "Gender Equity Task Force",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-18",
+      "body": "Risk Management Committee",
+      "location": "Virtual Closed Session",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Sponsor: Mayor Pro Tem Ryana Parks-Shaw\r\n\r\nRESOLUTION - Honoring Jessie Jefferson in Recognition of 50 Years of Community Service.",
+      "type": "Special Action",
+      "status": "Passed",
+      "intro_date": "2026-02-13",
+      "file_number": "260223",
+      "passed_date": "2026-02-12"
+    },
+    {
+      "title": "Sponsor: Mayor Quinton Lucas\n\nRESOLUTION -Directing the City Manager to develop a funding plan for the Violence Prevention Fund, Fund No. 2000, for Fiscal Year 2028 and Fiscal Year 2029.",
+      "type": "Resolution",
+      "status": "Referred",
+      "intro_date": "2026-02-12",
+      "file_number": "260224",
+      "passed_date": null
+    },
+    {
+      "title": "Sponsor: Mayor Quinton Lucas\r\n\r\nRESOLUTION - Appointing Kristen Campbell, Kelby Hopkins, David Scott Knisley, Keley Brandt and Karson Bennett as successor directors to the Ward Parkway Center Communit",
+      "type": "Resolution",
+      "status": "Referred",
+      "intro_date": "2026-02-11",
+      "file_number": "260217",
+      "passed_date": null
+    },
+    {
+      "title": "Sponsor: Mayor Quinton Lucas\r\n\r\nRESOLUTION - Directing the City Manager to develop and implement a public communication plan, including the publication of a Frequently Asked Questions (FAQ) document o",
+      "type": "Resolution",
+      "status": "Referred",
+      "intro_date": "2026-02-11",
+      "file_number": "260222",
+      "passed_date": null
+    },
+    {
+      "title": "Sponsor: Mayor Quinton Lucas\r\n\r\nRESOLUTION - Appointing Matthew Muckenthaler, Michael Coddington, Sean Carroll, Kellee Madinger and Gabriel Robinson as successor directors to the 1200 Main/South Loop ",
+      "type": "Resolution",
+      "status": "Referred",
+      "intro_date": "2026-02-11",
+      "file_number": "260216",
+      "passed_date": null
+    },
+    {
+      "title": "Notice to the City Clerk of the Brywood Centre Community Improvement District’s Proposed Budget for the period ending April 30, 2027.",
+      "type": "Communication",
+      "status": "Filed",
+      "intro_date": "2026-02-10",
+      "file_number": "260198",
+      "passed_date": "2026-02-12"
+    },
+    {
+      "title": "Notice to the City Clerk of the Truman Road Community Improvement District’s Proposed Budget for the period ending April 30, 2027.",
+      "type": "Communication",
+      "status": "Filed",
+      "intro_date": "2026-02-10",
+      "file_number": "260202",
+      "passed_date": "2026-02-12"
+    },
+    {
+      "title": "Notice to the City Clerk of the Downtown KC Community Improvement District’s Proposed Budget for the period ending April 30, 2027.",
+      "type": "Communication",
+      "status": "Filed",
+      "intro_date": "2026-02-10",
+      "file_number": "260199",
+      "passed_date": "2026-02-12"
+    },
+    {
+      "title": "Notice to the City Clerk of the Waldo Community Improvement District’s Proposed Budget for the period ending April 30, 2027.",
+      "type": "Communication",
+      "status": "Filed",
+      "intro_date": "2026-02-10",
+      "file_number": "260203",
+      "passed_date": "2026-02-12"
+    },
+    {
+      "title": "Notice to the City Clerk of the 12TH Street Heritage Community Improvement District’s Proposed Budget for the period ending April 30, 2027.",
+      "type": "Communication",
+      "status": "Filed",
+      "intro_date": "2026-02-10",
+      "file_number": "260197",
+      "passed_date": "2026-02-12"
+    }
+  ],
   "legistar_url": "https://kansascity.legistar.com",
-  "enriched_at": "2026-02-22T18:42:41.330648",
+  "enriched_at": "2026-02-23T02:43:52.359541",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

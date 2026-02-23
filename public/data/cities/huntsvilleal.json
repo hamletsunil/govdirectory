@@ -512,7 +512,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Huntsville",
-        "probed_at": "2026-02-22T18:45:01.402166",
+        "probed_at": "2026-02-23T02:50:18.937901",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -776,13 +776,191 @@
     "granularity_flags": 2
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "City Council Regular Meeting",
+    "members": [
+      {
+        "name": "Bill Kling",
+        "email": "bill.kling@huntsvilleal.gov",
+        "title": "Councilmember",
+        "start_date": "2022-11-07",
+        "committees": [
+          "City Council Work Session"
+        ]
+      },
+      {
+        "name": "David Little",
+        "email": "david.little@huntsvilleal.gov",
+        "title": "Councilmember",
+        "start_date": "2022-11-07",
+        "committees": [
+          "City Council Work Session"
+        ]
+      },
+      {
+        "name": "Jennie Robinson",
+        "email": "jennie.robinson@huntsvilleal.gov",
+        "title": "President",
+        "start_date": "2022-11-17",
+        "committees": [
+          "City Council Work Session"
+        ]
+      },
+      {
+        "name": "John Meredith",
+        "email": "john.meredith@huntsvilleal.gov",
+        "title": "Councilmember",
+        "start_date": "2024-11-05",
+        "committees": [
+          "City Council Work Session"
+        ]
+      },
+      {
+        "name": "Michelle Watkins",
+        "email": "michelle.watkins@huntsvilleal.gov",
+        "title": "Councilmember",
+        "start_date": "2024-11-04",
+        "committees": [
+          "City Council Work Session"
+        ]
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-26",
+      "body": "City Council Regular Meeting",
+      "location": "CITY COUNCIL CHAMBERS",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-07",
+      "body": "City Council Regular Meeting",
+      "location": "CITY COUNCIL CHAMBERS",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-12",
+      "body": "City Council Regular Meeting",
+      "location": "CITY COUNCIL CHAMBERS",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-13",
+      "body": "City Council Work Session",
+      "location": "CITY COUNCIL CHAMBERS",
+      "has_agenda": true,
+      "agenda_url": "https://huntsvilleal.legistar1.com/huntsvilleal/meetings/2025/5/1191_A_City_Council_Work_Session_25-05-31_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-12",
+      "body": "City Council Regular Meeting",
+      "location": "CITY COUNCIL CHAMBERS",
+      "has_agenda": true,
+      "agenda_url": "https://huntsvilleal.legistar1.com/huntsvilleal/meetings/2026/2/1209_A_City_Council_Regular_Meeting_26-02-12_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Public hearing on the rezoning of 90.51 acres of land lying on various existing single-family neighborhoods within the city limits from Residence 2, Residence 2-A, Residence 2-B and Light Industry Dis",
+      "type": "Public Hearings to be Held",
+      "status": "Public Hearing",
+      "intro_date": "2026-02-16",
+      "file_number": "TMP-6615",
+      "passed_date": null
+    },
+    {
+      "title": "Public hearing on the zoning of 36.54 acres of land lying on the south side of Martin Rd and east of Electronics Blvd. to Residence 2 District; and the consideration of an Ordinance pertaining to the ",
+      "type": "Public Hearings to be Held",
+      "status": "Public Hearing",
+      "intro_date": "2026-02-16",
+      "file_number": "TMP-6612",
+      "passed_date": null
+    },
+    {
+      "title": "Ordinance declaring certain property surplus and to be disposed of per Agreement with Managed Asset Recycling Solutions, LLC. (Introduced on February 12, 2026, Regular Council Meeting)\r\nOrdinance No. ",
+      "type": "Unfinished Business",
+      "status": "Unfinished Business",
+      "intro_date": "2026-02-16",
+      "file_number": "TMP-6611",
+      "passed_date": null
+    },
+    {
+      "title": "Public hearing on the rezoning of 73.44 acres of land lying on the east of Greenbrier Road, and north of I-565 from Residence 2 and Highway Business C-4 Districts to Commercial Industrial Park Distric",
+      "type": "Public Hearings to be Held",
+      "status": "Public Hearing",
+      "intro_date": "2026-02-16",
+      "file_number": "TMP-6614",
+      "passed_date": null
+    },
+    {
+      "title": "Resolution to appoint Deputy Chief Michael Johnson to the Alternative Sentencing and Release Commission due to the resignation of Rex Reynolds for the remainder of the vacant term. (Nominated on Febru",
+      "type": "Board Appointments ",
+      "status": "To Be Voted On",
+      "intro_date": "2026-02-16",
+      "file_number": "TMP-6608",
+      "passed_date": null
+    },
+    {
+      "title": "Resolution to appoint Brandon Tucker to the Huntsville-Madison County Convention and Visitors Bureau Board of Directors to fill a vacancy due to the resignation of Ernest Young for the remainder of a ",
+      "type": "Board Appointments ",
+      "status": "To Be Voted On",
+      "intro_date": "2026-02-16",
+      "file_number": "TMP-6609",
+      "passed_date": null
+    },
+    {
+      "title": "Nomination to appoint Brandon Tucker to the Huntsville-Madison County Convention and Visitors Bureau Board of Directors to fill a vacancy due to the resignation of Ernest Young for the remainder of  a",
+      "type": "Board Nominations",
+      "status": "Referred",
+      "intro_date": "2026-02-10",
+      "file_number": "2026-168",
+      "passed_date": null
+    },
+    {
+      "title": "Resolution Honoring Jazz McKenzie for Her Exceptional Talent and Outstanding Achievements. \r\nResolution No. 26-93",
+      "type": "Resolutions for Approval and Presentation",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-09",
+      "file_number": "2026-110",
+      "passed_date": null
+    },
+    {
+      "title": "Council decision on Personnel Hearing for Scott Hartman (Huntsville Police Department) held on 02/06/2026.",
+      "type": "Matters with Outside Representation",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-06",
+      "file_number": "2026-111",
+      "passed_date": null
+    },
+    {
+      "title": "Ordinance approving appropriations, goods, or services for District 2 Council Improvement Funds.\r\nOrdinance No. 26-103",
+      "type": "New Business for Consideration or Action",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-05",
+      "file_number": "2026-119",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://huntsvilleal.legistar.com",
-  "enriched_at": "2026-02-22T18:42:40.645757",
+  "enriched_at": "2026-02-23T02:43:41.783449",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

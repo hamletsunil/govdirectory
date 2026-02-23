@@ -518,7 +518,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Olympia",
-        "probed_at": "2026-02-22T18:46:14.589225",
+        "probed_at": "2026-02-23T02:51:18.534467",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -782,13 +782,368 @@
     "granularity_flags": 4
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "City Council",
+    "members": [
+      {
+        "name": "Clark Gilman",
+        "email": "cgilman@ci.olympia.wa.us",
+        "title": "Councilmember",
+        "start_date": "2026-01-06",
+        "website": "https://www.olympiawa.gov/government/city_council___mayor/clark_gilman.php",
+        "committees": [
+          "Finance Committee",
+          "Land Use & Environment Committee"
+        ]
+      },
+      {
+        "name": "Dani Madrone",
+        "email": "dmadrone@ci.olympia.wa.us",
+        "title": "Councilmember",
+        "start_date": "2023-11-07",
+        "website": "https://www.olympiawa.gov/government/city_council___mayor/dani_madrone.php",
+        "committees": [
+          "Community Livability and Public Safety Committee",
+          "LEOFF I Disability Board",
+          "Metropolitan Park District Board"
+        ]
+      },
+      {
+        "name": "Dontae Payne",
+        "email": "dpayne@ci.olympia.wa.us",
+        "title": "Mayor",
+        "start_date": "2024-01-01",
+        "website": "https://www.olympiawa.gov/government/city_council___mayor/dontae_payne.php",
+        "committees": [
+          "Metropolitan Park District Board"
+        ]
+      },
+      {
+        "name": "Kelly Green",
+        "email": "kgreen@ci.olympia.wa.us",
+        "title": "Councilmember",
+        "start_date": "2026-01-06",
+        "committees": [
+          "Community Livability and Public Safety Committee",
+          "Finance Committee",
+          "LEOFF I Disability Board"
+        ]
+      },
+      {
+        "name": "Paul Berendt",
+        "email": null,
+        "title": "Councilmember",
+        "start_date": "2026-01-01"
+      },
+      {
+        "name": "Robert Vanderpool",
+        "email": "rvanderp@ci.olympia.wa.us",
+        "title": "Councilmember",
+        "start_date": "2026-01-01",
+        "website": "https://www.olympiawa.gov/government/city_council___mayor/robert_vanderpool.php",
+        "committees": [
+          "Finance Committee",
+          "Land Use & Environment Committee"
+        ]
+      },
+      {
+        "name": "Yến Huỳnh",
+        "email": "yhuýnh@ci.olympia.wa.us",
+        "title": "Mayor Pro Tem",
+        "start_date": "2024-01-03",
+        "website": "https://www.olympiawa.gov/government/city_council___mayor/yen_huynh.php",
+        "committees": [
+          "Community Livability and Public Safety Committee",
+          "Metropolitan Park District Board"
+        ]
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-23",
+      "body": "Finance Committee",
+      "location": "Council Chambers, Online and Via Phone",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/olympia/meetings/2026/2/7160_A_Finance_Committee_26-02-23_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-24",
+      "body": "City Council",
+      "location": "Council Chambers, Online and Via Phone",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/olympia/meetings/2026/2/7090_A_City_Council_26-02-24_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-24",
+      "body": "City Council",
+      "location": "Council Chambers, Online and Via Phone",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/olympia/meetings/2026/2/7206_A_City_Council_26-02-24_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-25",
+      "body": "Community Livability and Public Safety Committee",
+      "location": "Council Chambers, Online and Via Phone",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/olympia/meetings/2026/2/7148_A_Community_Livability_and_Public_Safety_Committee_26-02-25_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-25",
+      "body": "Site Plan Review Committee",
+      "location": "Virtual Via Zoom",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/olympia/meetings/2026/2/6920_A_Site_Plan_Review_Committee_26-02-25_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-26",
+      "body": "Land Use & Environment Committee",
+      "location": "Council Chambers, Online and Via Phone",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/olympia/meetings/2026/2/7171_A_Land_Use___Environment_Committee_26-02-26_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-26",
+      "body": "Salary Commission",
+      "location": "Zoom: https://us06web.zoom.us/j/89590024094",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/olympia/meetings/2026/2/7205_A_Salary_Commission_26-02-26_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-02",
+      "body": "Planning Commission",
+      "location": "Online Only",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/olympia/meetings/2026/3/7051_A_Planning_Commission_26-03-02_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-04",
+      "body": "Site Plan Review Committee",
+      "location": "Virtual Via Zoom",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/olympia/meetings/2026/3/6921_A_Site_Plan_Review_Committee_26-03-04_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-06",
+      "body": "Sea Level Rise Response Collaborative-Executive Committee",
+      "location": "Online via Zoom",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/olympia/meetings/2026/3/6909_A_Sea_Level_Rise_Response_Collaborative-Executive_Committee_26-03-06_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-18",
+      "body": "Youth Council",
+      "location": "Room 207",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/olympia/meetings/2026/2/7203_A_Youth_Council_26-02-18_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "Land Use & Environment Committee",
+      "location": "Council Chambers and Online",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/olympia/meetings/2026/2/7202_A_Land_Use___Environment_Committee_26-02-17_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "Civil Service Commission",
+      "location": "Room 112",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/olympia/meetings/2026/2/7204_A_Civil_Service_Commission_26-02-17_Meeting_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-12",
+      "body": "Arts Commission",
+      "location": "Online or via phone",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/olympia/meetings/2026/2/7198_A_Arts_Commission_26-02-12_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "City Council",
+      "location": "Council Chambers, Online and Via Phone",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/olympia/meetings/2026/2/7088_A_City_Council_26-02-10_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-09",
+      "body": "LEOFF I Disability Board",
+      "location": "Zoom",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/olympia/meetings/2026/2/7200_A_LEOFF_I_Disability_Board_26-02-09_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-09",
+      "body": "Social Justice & Equity Commission",
+      "location": "Council Chambers, City Hall",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/olympia/meetings/2026/2/7193_A_Social_Justice___Equity_Commission_26-02-09_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-05",
+      "body": "Utility Advisory Committee",
+      "location": "City Hall, Room 207",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/olympia/meetings/2026/2/7185_A_Utility_Advisory_Committee_26-02-05_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-05",
+      "body": "Social Justice & Equity Commission",
+      "location": "Lacey City Hall, Council Chambers 420 College St SE, Lacey",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/olympia/meetings/2026/2/7195_A_Social_Justice___Equity_Commission_26-02-05_Meeting_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-04",
+      "body": "Site Plan Review Committee",
+      "location": null,
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/olympia/meetings/2026/2/6917_A_Site_Plan_Review_Committee_26-02-04_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Election of Officers for the Sea Level Rise Response Collaborative Executive Committee",
+      "type": "discussion",
+      "status": "In Committee",
+      "intro_date": "2026-02-20",
+      "file_number": "26-0157",
+      "passed_date": null
+    },
+    {
+      "title": "Update on 2026 Sea Level Rise Collaborative Workplan",
+      "type": "information",
+      "status": "In Committee",
+      "intro_date": "2026-02-20",
+      "file_number": "26-0158",
+      "passed_date": null
+    },
+    {
+      "title": "Approval of September 5, 2025 Sea Level Rise Response Collaborative Executive Committee Meeting Minutes",
+      "type": "minutes",
+      "status": "In Committee",
+      "intro_date": "2026-02-20",
+      "file_number": "26-0156",
+      "passed_date": null
+    },
+    {
+      "title": "Youth Council Update and Approval of the Proposed 2026 Youth Council Work Plan",
+      "type": "decision",
+      "status": "In Committee",
+      "intro_date": "2026-02-19",
+      "file_number": "26-0155",
+      "passed_date": null
+    },
+    {
+      "title": "Approval of the Reappointment of Chris Leicht to the Capital Area Regional Public Facilities District Board",
+      "type": "decision",
+      "status": "Consent Calendar",
+      "intro_date": "2026-02-19",
+      "file_number": "26-0153",
+      "passed_date": null
+    },
+    {
+      "title": "Approval of February 3, 2026 City Council Meeting Minutes",
+      "type": "minutes",
+      "status": "Consent Calendar",
+      "intro_date": "2026-02-19",
+      "file_number": "26-0154",
+      "passed_date": null
+    },
+    {
+      "title": "Approval of January 26, 2026, Olympia Planning Commission Meeting Minutes",
+      "type": "minutes",
+      "status": "In Committee",
+      "intro_date": "2026-02-18",
+      "file_number": "26-0145",
+      "passed_date": null
+    },
+    {
+      "title": "Draft 2026-2027 Planning Commission Work Plan",
+      "type": "decision",
+      "status": "In Committee",
+      "intro_date": "2026-02-18",
+      "file_number": "26-0151",
+      "passed_date": null
+    },
+    {
+      "title": "Consider Recommendations Related to City Council Appointed Advisory Bodies",
+      "type": "decision",
+      "status": "In Committee",
+      "intro_date": "2026-02-18",
+      "file_number": "26-0152",
+      "passed_date": null
+    },
+    {
+      "title": "Elizabeth Street Multifamily, 1627 Elizabeth St SE, 26-0947",
+      "type": "information",
+      "status": "In Committee",
+      "intro_date": "2026-02-18",
+      "file_number": "26-0148",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://olympia.legistar.com",
-  "enriched_at": "2026-02-22T18:42:52.248149",
+  "enriched_at": "2026-02-23T02:45:47.151505",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

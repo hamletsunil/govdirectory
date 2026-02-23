@@ -538,7 +538,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Coral%20Gables",
-        "probed_at": "2026-02-22T18:46:18.209069",
+        "probed_at": "2026-02-23T02:51:21.407669",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -802,13 +802,276 @@
     "granularity_flags": 4
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "City Commission",
+    "members": [
+      {
+        "name": "Commissioner Castro",
+        "email": null,
+        "title": "Commissioner",
+        "start_date": "2023-05-02"
+      },
+      {
+        "name": "Commissioner Fernandez",
+        "email": null,
+        "title": "Commissioner",
+        "start_date": "2023-05-02"
+      },
+      {
+        "name": "Commissioner Lara",
+        "email": null,
+        "title": "Commissioner",
+        "start_date": "2025-04-26"
+      },
+      {
+        "name": "Mayor Lago",
+        "email": null,
+        "title": "Mayor",
+        "start_date": "2025-04-25"
+      },
+      {
+        "name": "Vice Mayor Anderson",
+        "email": "randerson@coralgables.com",
+        "title": "Vice Mayor",
+        "start_date": "2025-04-30"
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-24",
+      "body": "City Commission",
+      "location": "City Hall, Commission Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://coralgables.legistar1.com/coralgables/meetings/2026/2/5057_A_City_Commission_26-02-24_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-25",
+      "body": "Sustainability Advisory Board",
+      "location": "Parking Department Conference Room",
+      "has_agenda": true,
+      "agenda_url": "https://coralgables.legistar1.com/coralgables/meetings/2026/2/5265_A_Sustainability_Advisory_Board_26-02-25_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-25",
+      "body": "Landmarks Advisory Board",
+      "location": "Sister Cities Conference Room - Coral Gables Museum",
+      "has_agenda": true,
+      "agenda_url": "https://coralgables.legistar1.com/coralgables/meetings/2026/2/5358_A_Landmarks_Advisory_Board_26-02-25_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-25",
+      "body": "Pinewood Cemetery Advisory Board",
+      "location": "Sister Cities Conference Room - Coral Gables Museum",
+      "has_agenda": true,
+      "agenda_url": "https://coralgables.legistar1.com/coralgables/meetings/2026/2/5468_A_Pinewood_Cemetery_Advisory_Board_26-02-25_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-27",
+      "body": "Development Review Committee",
+      "location": "427 Biltmore Way, First Floor Conference Room",
+      "has_agenda": true,
+      "agenda_url": "https://coralgables.legistar1.com/coralgables/meetings/2026/2/5148_A_Development_Review_Committee_26-02-27_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-19",
+      "body": "Board of Architects",
+      "location": "427 Biltmore Way, First Floor Conference Room",
+      "has_agenda": true,
+      "agenda_url": "https://coralgables.legistar1.com/coralgables/meetings/2026/2/5401_A_Board_of_Architects_26-02-19_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-19",
+      "body": "Mayor's Citizens Advisory Council",
+      "location": "Communications/Public Affairs Conference Room",
+      "has_agenda": true,
+      "agenda_url": "https://coralgables.legistar1.com/coralgables/meetings/2026/2/5178_A_Mayor%27s_Citizens_Advisory_Council_26-02-19_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-18",
+      "body": "Transportation Advisory Board",
+      "location": "427 Biltmore Way, First Floor Conference Room",
+      "has_agenda": true,
+      "agenda_url": "https://coralgables.legistar1.com/coralgables/meetings/2026/2/5336_A_Transportation_Advisory_Board_26-02-18_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-18",
+      "body": "Budget/ Audit Advisory Board",
+      "location": "Communications/Public Affairs Conference Room",
+      "has_agenda": true,
+      "agenda_url": "https://coralgables.legistar1.com/coralgables/meetings/2026/2/5277_A_Budget__Audit_Advisory_Board_26-02-18_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-18",
+      "body": "Library Advisory Board",
+      "location": "Coral Gables Library",
+      "has_agenda": true,
+      "agenda_url": "https://coralgables.legistar1.com/coralgables/meetings/2026/2/5212_A_Library_Advisory_Board_26-02-18_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "Cultural Development Board",
+      "location": "Sister Cities Conference Room - Coral Gables Museum",
+      "has_agenda": true,
+      "agenda_url": "https://coralgables.legistar1.com/coralgables/meetings/2026/2/5301_A_Cultural_Development_Board_26-02-17_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-12",
+      "body": "Parks and Recreation Advisory Board",
+      "location": "Youth Center - Conference Room",
+      "has_agenda": true,
+      "agenda_url": "https://coralgables.legistar1.com/coralgables/meetings/2026/2/5232_A_Parks_and_Recreation_Advisory_Board_26-02-12_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-12",
+      "body": "Historic Preservation Board",
+      "location": "City Hall, Commission Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://coralgables.legistar1.com/coralgables/meetings/2026/2/5124_A_Historic_Preservation_Board_26-02-12_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": true,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-12",
+      "body": "Landscape Beautification Advisory Board",
+      "location": "Police and Fire Headquarters, Community Meeting Room",
+      "has_agenda": true,
+      "agenda_url": "https://coralgables.legistar1.com/coralgables/meetings/2026/2/5169_A_Landscape_Beautification_Advisory_Board_26-02-12_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-12",
+      "body": "Coral Gables Retirement Board",
+      "location": "Police and Fire Headquarters, Community Meeting Room",
+      "has_agenda": true,
+      "agenda_url": "https://coralgables.legistar1.com/coralgables/meetings/2026/2/5159_A_Coral_Gables_Retirement_Board_26-02-12_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "A Resolution of the City Commission affirming support for the preservation of the Miami-Dade Urban Development Boundary (“UDB”) as it currently exists to protect downstream water resources, including ",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "26-1211",
+      "passed_date": null
+    },
+    {
+      "title": "Landmark Advisory Board Meeting Minutes for September 9, 2025",
+      "type": "Agenda Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "26-1212",
+      "passed_date": null
+    },
+    {
+      "title": "A Resolution of the City Commission directing the City Manager to Coordinate with Miami-Dade County to make available the MeetQ Permit Services at the City's Development Services Department.\n(Sponsore",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "26-1215",
+      "passed_date": null
+    },
+    {
+      "title": "A Resolution of the City Commission confirming the appointment of Douglas Yoder (nominated by Mayor Lago) to serve as a member of the Pinewood Cemetery Advisory Board, for a two (2) year term which be",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "26-1207",
+      "passed_date": null
+    },
+    {
+      "title": "Discussion regarding Senate Bill 1422: Coral Reefs.\r\n(Mayor Lago)",
+      "type": "Agenda Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "26-1214",
+      "passed_date": null
+    },
+    {
+      "title": "Pinewood Cemetery Advisory Board Meeting Minutes for January 20, 2026",
+      "type": "Agenda Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "26-1209",
+      "passed_date": null
+    },
+    {
+      "title": "Pinewood Cemetery Advisory Board Annual Report 2024 - 2025",
+      "type": "Agenda Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "26-1210",
+      "passed_date": null
+    },
+    {
+      "title": "Discussion regarding a bicycle rental program. \r\n(Sponsored by Vice Mayor Anderson)",
+      "type": "Agenda Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "26-1205",
+      "passed_date": null
+    },
+    {
+      "title": "Discussion regarding a City compost station. \n(Sponsored by Vice Mayor Anderson)",
+      "type": "Agenda Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "26-1206",
+      "passed_date": null
+    },
+    {
+      "title": "Social Media Year-End Performance Report.",
+      "type": "Agenda Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-17",
+      "file_number": "26-1201",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://coralgables.legistar.com",
-  "enriched_at": "2026-02-22T18:42:31.116961",
+  "enriched_at": "2026-02-23T02:41:45.083036",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

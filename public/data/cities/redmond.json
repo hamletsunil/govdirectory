@@ -518,7 +518,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Redmond",
-        "probed_at": "2026-02-22T18:45:41.567767",
+        "probed_at": "2026-02-23T02:50:52.119590",
         "data_vintage": "BRFSS None",
         "geographic_level": "place",
         "status": "unavailable"
@@ -782,13 +782,310 @@
     "granularity_flags": 3
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "City Council",
+    "members": [
+      {
+        "name": "Angie Nuevacamina",
+        "email": null,
+        "title": "Councilmember",
+        "start_date": "2024-01-01",
+        "committees": [
+          "Committee of the Whole - Finance, Administration, and Communications",
+          "Committee of the Whole - Parks and Environmental Sustainability",
+          "Committee of the Whole - Planning and Public Works",
+          "Committee of the Whole - Public Safety and Human Services"
+        ]
+      },
+      {
+        "name": "Jessica Forsythe",
+        "email": "jforsythe@redmond.gov",
+        "title": "Councilmember",
+        "start_date": "2020-01-01",
+        "committees": [
+          "Committee of the Whole - Finance, Administration, and Communications",
+          "Committee of the Whole - Parks and Environmental Sustainability",
+          "Committee of the Whole - Planning and Public Works",
+          "Committee of the Whole - Public Safety and Human Services"
+        ]
+      },
+      {
+        "name": "Melissa Stuart",
+        "email": "mstuart@redmond.gov",
+        "title": "Councilmember",
+        "start_date": "2022-01-01",
+        "committees": [
+          "Committee of the Whole - Finance, Administration, and Communications",
+          "Committee of the Whole - Parks and Environmental Sustainability",
+          "Committee of the Whole - Planning and Public Works",
+          "Committee of the Whole - Public Safety and Human Services"
+        ]
+      },
+      {
+        "name": "Menka Soni",
+        "email": "msoni@redmond.gov",
+        "title": "Councilmember",
+        "start_date": "2026-01-01",
+        "committees": [
+          "Committee of the Whole - Finance, Administration, and Communications",
+          "Committee of the Whole - Parks and Environmental Sustainability",
+          "Committee of the Whole - Planning and Public Works",
+          "Committee of the Whole - Public Safety and Human Services"
+        ]
+      },
+      {
+        "name": "Sayna Parsi",
+        "email": null,
+        "title": "Councilmember",
+        "start_date": "2026-01-20",
+        "committees": [
+          "Committee of the Whole - Finance, Administration, and Communications",
+          "Committee of the Whole - Parks and Environmental Sustainability",
+          "Committee of the Whole - Planning and Public Works",
+          "Committee of the Whole - Public Safety and Human Services"
+        ]
+      },
+      {
+        "name": "Vanessa Kritzer",
+        "email": null,
+        "title": "Councilmember",
+        "start_date": "2020-01-01",
+        "committees": [
+          "Committee of the Whole - Finance, Administration, and Communications",
+          "Committee of the Whole - Parks and Environmental Sustainability",
+          "Committee of the Whole - Planning and Public Works",
+          "Committee of the Whole - Public Safety and Human Services"
+        ]
+      },
+      {
+        "name": "Vivek Prakriya",
+        "email": "vprakriya@redmond.gov",
+        "title": "Councilmember",
+        "start_date": "2026-01-01",
+        "committees": [
+          "Committee of the Whole - Finance, Administration, and Communications",
+          "Committee of the Whole - Parks and Environmental Sustainability",
+          "Committee of the Whole - Planning and Public Works",
+          "Committee of the Whole - Public Safety and Human Services"
+        ]
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-24",
+      "body": "City Council",
+      "location": "City Hall: 15670 NE 85th St; Remote: Comcast Ch. 21/321, Ziply Ch. 34, Facebook (@CityofRedmond), Redmond.gov/rctvlive, or 510-335-7371",
+      "has_agenda": true,
+      "agenda_url": "https://redmond.legistar1.com/redmond/meetings/2026/2/3139_A_City_Council_26-02-24_Study_Session-Special_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-24",
+      "body": "Committee of the Whole - Parks and Environmental Sustainability",
+      "location": "City Hall: 15670 NE 85th St; Remote: Comcast Ch. 21/321, Ziply Ch. 34, Facebook (@CityofRedmond), Redmond.gov/rctvlive, or 510-335-7371",
+      "has_agenda": true,
+      "agenda_url": "https://redmond.legistar1.com/redmond/meetings/2026/2/3140_A_Committee_of_the_Whole_-_Parks_and_Environmental_Sustainability_26-02-24_Committee_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-26",
+      "body": "City Council",
+      "location": "City Hall, CONF-CH140 Council Conference Room: 15670 NE 85th St, Redmond, WA 98052",
+      "has_agenda": true,
+      "agenda_url": "https://redmond.legistar1.com/redmond/meetings/2026/2/3207_A_City_Council_26-02-26_Study_Session-Special_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-17",
+      "body": "City Council",
+      "location": "City Hall: 15670 NE 85th St; Remote: Comcast Ch. 21/321, Ziply Ch. 34, Facebook (@CityofRedmond), Redmond.gov/rctvlive, or 510-335-7371",
+      "has_agenda": true,
+      "agenda_url": "https://redmond.legistar1.com/redmond/meetings/2026/2/3137_A_City_Council_26-02-17_City_Council_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "Committee of the Whole - Public Safety and Human Services",
+      "location": "City Hall: 15670 NE 85th St; Remote: Comcast Ch. 21/321, Ziply Ch. 34, Facebook (@CityofRedmond), Redmond.gov/rctvlive, or 510-335-7371",
+      "has_agenda": true,
+      "agenda_url": "https://redmond.legistar1.com/redmond/meetings/2026/2/3138_A_Committee_of_the_Whole_-_Public_Safety_and_Human_Services_26-02-17_Committee_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "City Council",
+      "location": "City Hall: 15670 NE 85th St; Remote: Comcast Ch. 21/321, Ziply Ch. 34, Facebook (@CityofRedmond), Redmond.gov/rctvlive, or 510-335-7371",
+      "has_agenda": true,
+      "agenda_url": "https://redmond.legistar1.com/redmond/meetings/2026/2/3135_A_City_Council_26-02-10_Study_Session-Special_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "Committee of the Whole - Finance, Administration, and Communications",
+      "location": "City Hall: 15670 NE 85th St; Remote: Comcast Ch. 21/321, Ziply Ch. 34, Facebook (@CityofRedmond), Redmond.gov/rctvlive, or 510-335-7371",
+      "has_agenda": true,
+      "agenda_url": "https://redmond.legistar1.com/redmond/meetings/2026/2/3136_A_Committee_of_the_Whole_-_Finance%2C_Administration%2C_and_Communications_26-02-10_Committee_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "Committee of the Whole - Planning and Public Works",
+      "location": "City Hall: 15670 NE 85th St; Remote: Comcast Ch. 21/321, Ziply Ch. 34, Facebook (@CityofRedmond), Redmond.gov/rctvlive, or 510-335-7371",
+      "has_agenda": true,
+      "agenda_url": "https://redmond.legistar1.com/redmond/meetings/2026/2/3134_A_Committee_of_the_Whole_-_Planning_and_Public_Works__26-02-03_Committee_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "Community Facilities District No. 2016-1",
+      "location": "City Hall Council Conference Room: 15670 NE 85th Street; or Listen at 510-335-7371",
+      "has_agenda": true,
+      "agenda_url": "https://redmond.legistar1.com/redmond/meetings/2026/2/3170_A_Community_Facilities_District_No._2016-1_26-02-03_CFD.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "City Council",
+      "location": "City Hall: 15670 NE 85th St; Remote: Comcast Ch. 21/321, Ziply Ch. 34, Facebook (@CityofRedmond), Redmond.gov/rctvlive, or 510-335-7371",
+      "has_agenda": true,
+      "agenda_url": "https://redmond.legistar1.com/redmond/meetings/2026/2/3133_A_City_Council_26-02-03_City_Council_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-31",
+      "body": "City Council",
+      "location": "City Hall, Conference Room 127: 15670 NE 85th St., Redmond, WA 98052",
+      "has_agenda": true,
+      "agenda_url": "https://redmond.legistar1.com/redmond/meetings/2026/1/3182_A_City_Council_26-01-31_Study_Session-Special_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-27",
+      "body": "Committee of the Whole - Parks and Environmental Sustainability",
+      "location": "City Hall: 15670 NE 85th St; Remote: Comcast Ch. 21/321, Ziply Ch. 34, Facebook (@CityofRedmond), Redmond.gov/rctvlive, or 510-335-7371",
+      "has_agenda": true,
+      "agenda_url": "https://redmond.legistar1.com/redmond/meetings/2026/1/3128_A_Committee_of_the_Whole_-_Parks_and_Environmental_Sustainability_26-01-27_Committee_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-27",
+      "body": "City Council",
+      "location": "City Hall: 15670 NE 85th St; Remote: Comcast Ch. 21/321, Ziply Ch. 34, Facebook (@CityofRedmond), Redmond.gov/rctvlive, or 510-335-7371",
+      "has_agenda": true,
+      "agenda_url": "https://redmond.legistar1.com/redmond/meetings/2026/1/3127_A_City_Council_26-01-27_Study_Session-Special_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Expansion and Implementation of Redmond’s Welcoming Resolution Enhancing our Commitment to Community and the U.S. Constitution",
+      "type": "Study Session",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-13",
+      "file_number": "SS 26-023",
+      "passed_date": null
+    },
+    {
+      "title": "​​Recreation Program Plan Overview​",
+      "type": "Committee Memo",
+      "status": "Agenda Ready for Committee of the Whole",
+      "intro_date": "2026-02-11",
+      "file_number": "CM 26-116",
+      "passed_date": null
+    },
+    {
+      "title": "2025 Fire Prevention Performance Data",
+      "type": "Committee Memo",
+      "status": "Presented",
+      "intro_date": "2026-02-11",
+      "file_number": "CM 26-120",
+      "passed_date": "2026-02-17"
+    },
+    {
+      "title": "Emergency Management Q1 - 2026 Update",
+      "type": "Committee Memo",
+      "status": "Presented",
+      "intro_date": "2026-02-11",
+      "file_number": "CM 26-118",
+      "passed_date": "2026-02-17"
+    },
+    {
+      "title": "​​Authorize the Mayor to Sign a Contract with King County for the Parks Property Tax Levy Agreement​",
+      "type": "Committee Memo",
+      "status": "Agenda Ready for Committee of the Whole",
+      "intro_date": "2026-02-11",
+      "file_number": "CM 26-117",
+      "passed_date": null
+    },
+    {
+      "title": "2025 King County Regional Hazard Mitigation Plan and Redmond Annex Update",
+      "type": "Committee Memo",
+      "status": "Referred",
+      "intro_date": "2026-02-11",
+      "file_number": "CM 26-119",
+      "passed_date": null
+    },
+    {
+      "title": "World Cup Planning Update: Public Safety and Emergency Management Focus",
+      "type": "Staff Report",
+      "status": "Referred",
+      "intro_date": "2026-02-10",
+      "file_number": "AM No. 26-028",
+      "passed_date": null
+    },
+    {
+      "title": "Approve Consultant Agreement with KPFF Consulting Engineers for the SE Redmond Park Project",
+      "type": "Committee Memo",
+      "status": "Agenda Ready for Committee of the Whole",
+      "intro_date": "2026-02-10",
+      "file_number": "CM 26-114",
+      "passed_date": null
+    },
+    {
+      "title": "2025 Redmond Police Activity Report",
+      "type": "Committee Memo",
+      "status": "Presented",
+      "intro_date": "2026-02-10",
+      "file_number": "CM 26-113",
+      "passed_date": "2026-02-17"
+    },
+    {
+      "title": "Environmental Sustainability Action Plan Implementation Update - February 2026",
+      "type": "Committee Memo",
+      "status": "Agenda Ready for Committee of the Whole",
+      "intro_date": "2026-02-10",
+      "file_number": "CM 26-110",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://redmond.legistar.com",
-  "enriched_at": "2026-02-22T18:42:57.737792",
+  "enriched_at": "2026-02-23T02:46:46.770596",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

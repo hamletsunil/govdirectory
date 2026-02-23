@@ -512,7 +512,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Valdez",
-        "probed_at": "2026-02-22T18:46:57.689762",
+        "probed_at": "2026-02-23T02:51:53.159744",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -776,13 +776,284 @@
     "granularity_flags": 4
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "City Council",
+    "members": [
+      {
+        "name": "Austin Love",
+        "email": null,
+        "title": "Council Member",
+        "start_date": "2023-05-23"
+      },
+      {
+        "name": "Dennis Fleming",
+        "email": "dfleming@valdezak.gov",
+        "title": "Mayor",
+        "start_date": "2016-05-17",
+        "committees": [
+          "Valdez Tourism Task Force"
+        ]
+      },
+      {
+        "name": "Elise Sorum-Birk",
+        "email": "esorumbirk@valdezak.gov",
+        "title": "Deputy City Clerk",
+        "start_date": "2022-06-06",
+        "committees": [
+          "Beautification Commission",
+          "Veggie Commission (for Testing/Training)"
+        ]
+      },
+      {
+        "name": "Jimmy Devens",
+        "email": "jdevens@valdezak.gov",
+        "title": "Council Member",
+        "start_date": "2023-05-23"
+      },
+      {
+        "name": "Joseph Lally",
+        "email": null,
+        "title": "Council Member",
+        "start_date": "2024-05-21"
+      },
+      {
+        "name": "Joy Witte",
+        "email": null,
+        "title": "Council Member",
+        "start_date": "2025-05-15"
+      },
+      {
+        "name": "Katie Carr",
+        "email": "kcarr@valdezak.gov",
+        "title": "Administrative Assistant",
+        "start_date": "2023-10-06"
+      },
+      {
+        "name": "Lester Greene",
+        "email": null,
+        "title": "Council Member",
+        "start_date": "2025-08-19"
+      },
+      {
+        "name": "Nathan Duval",
+        "email": "nduval@valdezak.gov",
+        "title": "City Manager",
+        "start_date": "2024-08-16",
+        "committees": [
+          "Administration",
+          "Flood Mitigation Task Force",
+          "Valdez Tourism Task Force"
+        ]
+      },
+      {
+        "name": "Olivia Foster",
+        "email": null,
+        "title": "Council Member",
+        "start_date": "2023-05-23"
+      },
+      {
+        "name": "Sheri Pierce",
+        "email": "spierce@valdezak.gov",
+        "title": "City Clerk",
+        "start_date": "2016-01-01"
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-25",
+      "body": "Planning and Zoning Commission",
+      "location": "Council Chambers",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-18",
+      "body": "Valdez Tourism Task Force",
+      "location": "City Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://valdez.legistar1.com/valdez/meetings/2026/2/3081_A_Valdez_Tourism_Task_Force_26-02-18_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-18",
+      "body": "Ports and Harbor Commission",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://valdez.legistar1.com/valdez/meetings/2026/2/3077_A_Ports_and_Harbor_Commission_26-02-18_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://valdez.legistar1.com/valdez/meetings/2026/2/2977_A_City_Council_26-02-17_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-11",
+      "body": "Planning and Zoning Commission",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://valdez.legistar1.com/valdez/meetings/2026/2/2979_A_Planning_and_Zoning_Commission_26-02-11_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "Parks and Recreation Commission",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://valdez.legistar1.com/valdez/meetings/2026/2/2981_A_Parks_and_Recreation_Commission_26-02-10_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "Parks and Recreation Commission",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://valdez.legistar1.com/valdez/meetings/2026/2/3070_A_Parks_and_Recreation_Commission_26-02-10_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://valdez.legistar1.com/valdez/meetings/2026/2/2976_A_City_Council_26-02-03_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://valdez.legistar1.com/valdez/meetings/2026/2/3078_A_City_Council_26-02-03_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-02",
+      "body": "Ports and Harbor Commission",
+      "location": "Council Chambers",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-28",
+      "body": "Planning and Zoning Commission",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://valdez.legistar1.com/valdez/meetings/2026/1/2975_A_Planning_and_Zoning_Commission_26-01-28_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Discussion Item: Introduction to Models and Funding Mechanisms",
+      "type": "New Business",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-14",
+      "file_number": "26-0074",
+      "passed_date": null
+    },
+    {
+      "title": "Introductions, Intent and Task Force Process",
+      "type": "New Business",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-14",
+      "file_number": "26-0072",
+      "passed_date": null
+    },
+    {
+      "title": "Discussion Item: Status of City Funding for the Valdez Convention and Visitors Bureau",
+      "type": "New Business",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-14",
+      "file_number": "26-0073",
+      "passed_date": null
+    },
+    {
+      "title": "Discussion Item: Next Steps",
+      "type": "New Business",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-14",
+      "file_number": "26-0075",
+      "passed_date": null
+    },
+    {
+      "title": "Discussion of Recommendation to the Ports and Harbor Commission to Name Rates and Fees for Use of Facilities in the Valdez Harbors and Repeal Resolution No. 24-51 Naming Such Rates and Fees",
+      "type": "Work Session Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-13",
+      "file_number": "26-0071",
+      "passed_date": null
+    },
+    {
+      "title": "Approval of 2026 Community Purpose Property Tax Exemption Applications",
+      "type": "New Business",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-12",
+      "file_number": "26-0062",
+      "passed_date": null
+    },
+    {
+      "title": "Approval of Senior Citizen Hardship Property Tax Exemption for Barbara Ezell",
+      "type": "Consent Item",
+      "status": "Consent Agenda",
+      "intro_date": "2026-02-12",
+      "file_number": "26-0063",
+      "passed_date": null
+    },
+    {
+      "title": "Procurement Report - 2025 Ford Explorer Patrol Vehicle #252",
+      "type": "Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-11",
+      "file_number": "26-0067",
+      "passed_date": null
+    },
+    {
+      "title": "Procurement Report - 2025 Ford Explorer Patrol Vehicle #251",
+      "type": "Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-11",
+      "file_number": "26-0066",
+      "passed_date": null
+    },
+    {
+      "title": "Approval To Go Into Executive Session Re: Discussion of Implications for City Revenues and Litigation Strategy Regarding Trans Alaska Pipeline System Ad Valorem Tax Issues",
+      "type": "Consent Item",
+      "status": "Consent Agenda",
+      "intro_date": "2026-02-11",
+      "file_number": "26-0064",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://valdez.legistar.com",
-  "enriched_at": "2026-02-22T18:43:05.255315",
+  "enriched_at": "2026-02-23T02:48:14.545926",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

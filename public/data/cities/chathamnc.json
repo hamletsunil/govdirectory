@@ -371,7 +371,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Chatham%20County",
-        "probed_at": "2026-02-22T18:47:15.269424",
+        "probed_at": "2026-02-23T02:52:07.591619",
         "data_vintage": "BRFSS None",
         "geographic_level": "place",
         "status": "unavailable"
@@ -635,13 +635,146 @@
     "granularity_flags": 0
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "Board of Commissioners",
+    "members": [
+      {
+        "name": "Amanda Robertson",
+        "email": "amanda.robertson@chathamcountync.gov",
+        "title": "Commissioner",
+        "start_date": "2024-12-02"
+      },
+      {
+        "name": "David Delaney",
+        "email": "david.delaney@chathamcountync.gov",
+        "title": "Commissioner",
+        "start_date": "2022-12-05"
+      },
+      {
+        "name": "Franklin Gomez Flores",
+        "email": "franklin.gomez@chathamcountync.gov",
+        "title": "Commissioner",
+        "start_date": "2022-12-05"
+      },
+      {
+        "name": "Karen Howard",
+        "email": "Karen.Howard@Chathamcountync.gov",
+        "title": "Chair",
+        "start_date": "2014-12-01"
+      },
+      {
+        "name": "Katie Kenlan",
+        "email": "katie.kenlan@chathamcountync.gov",
+        "title": "Vice Chair",
+        "start_date": "2022-12-05"
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-16",
+      "body": "Board of Commissioners",
+      "location": "Historic Courthouse Courtroom",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/chathamnc/meetings/2026/2/1441_A_Board_of_Commissioners_26-02-16_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-11",
+      "body": "Board of Commissioners",
+      "location": "Historic Courthouse Courtroom",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/chathamnc/meetings/2026/2/1446_A_Board_of_Commissioners_26-02-11_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Board of Adjustment hearing to consider an appeal request by Cynthia Young and Fodera from the Chatham County Zoning Ordinance 9.3 B for property located at 30 Stonecrest Way, Pittsboro and identified",
+      "type": "Agenda Item",
+      "status": "Board Priorities",
+      "intro_date": "2026-02-18",
+      "file_number": "26-0085",
+      "passed_date": null
+    },
+    {
+      "title": "Welcome and introductions",
+      "type": "Agenda Item",
+      "status": "Board Priorities",
+      "intro_date": "2026-02-18",
+      "file_number": "26-0091",
+      "passed_date": null
+    },
+    {
+      "title": "Receive a presentation on the alignment of capital and long-range planning",
+      "type": "Agenda Item",
+      "status": "Board Priorities",
+      "intro_date": "2026-02-18",
+      "file_number": "26-0089",
+      "passed_date": null
+    },
+    {
+      "title": "Consideration of the draft orders for the variance request by Cynthia Young and John Fodera from the Chatham County Zoning Ordinance Section 9.3 B for property located at 30 Stonecrest Way, Pittsboro ",
+      "type": "Agenda Item",
+      "status": "Board Priorities",
+      "intro_date": "2026-02-18",
+      "file_number": "26-0084",
+      "passed_date": null
+    },
+    {
+      "title": "Receive a presentation on enrollment projections by OREd",
+      "type": "Agenda Item",
+      "status": "Board Priorities",
+      "intro_date": "2026-02-18",
+      "file_number": "26-0086",
+      "passed_date": null
+    },
+    {
+      "title": "Discuss next steps and future coordination",
+      "type": "Agenda Item",
+      "status": "Board Priorities",
+      "intro_date": "2026-02-18",
+      "file_number": "26-0090",
+      "passed_date": null
+    },
+    {
+      "title": "Receive a presentation on school growth",
+      "type": "Agenda Item",
+      "status": "Board Priorities",
+      "intro_date": "2026-02-18",
+      "file_number": "26-0088",
+      "passed_date": null
+    },
+    {
+      "title": "Receive a presentation from Chatham Park",
+      "type": "Agenda Item",
+      "status": "Board Priorities",
+      "intro_date": "2026-02-18",
+      "file_number": "26-0087",
+      "passed_date": null
+    },
+    {
+      "title": "Vote to adopt the Parkers Ridge Park Amended Project Ordinance",
+      "type": "Ordinance",
+      "status": "Board Priorities",
+      "intro_date": "2026-02-09",
+      "file_number": "26-0079",
+      "passed_date": null
+    },
+    {
+      "title": "The Public Comment Session is held to give residents an opportunity to speak on any item. The session is no more than thirty minutes long to allow as many as possible to speak. Speakers are limited to",
+      "type": "Agenda Item",
+      "status": "Board Priorities",
+      "intro_date": "2026-02-09",
+      "file_number": "26-0081",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://chathamnc.legistar.com",
-  "enriched_at": "2026-02-22T18:42:23.857897",
+  "enriched_at": "2026-02-23T02:40:32.792704",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

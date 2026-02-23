@@ -369,7 +369,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=City%20and%20Borough%20of%20Sitka",
-        "probed_at": "2026-02-22T18:47:16.108582",
+        "probed_at": "2026-02-23T02:52:08.278700",
         "data_vintage": "BRFSS None",
         "geographic_level": "place",
         "status": "unavailable"
@@ -633,13 +633,198 @@
     "granularity_flags": 0
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "City and Borough Assembly",
+    "members": [
+      {
+        "name": "JJ Carlson",
+        "email": null,
+        "title": "Assembly Member",
+        "start_date": "2022-12-13"
+      },
+      {
+        "name": "Katie Riley",
+        "email": null,
+        "title": "Assembly Member",
+        "start_date": "2025-10-14"
+      },
+      {
+        "name": "Kevin Mosher",
+        "email": null,
+        "title": "Assembly Member",
+        "start_date": "2018-10-09"
+      },
+      {
+        "name": "Scott Saline",
+        "email": null,
+        "title": "Assembly Member",
+        "start_date": "2023-10-10"
+      },
+      {
+        "name": "Steven Eisenbeisz",
+        "email": null,
+        "title": "Mayor",
+        "start_date": "2020-10-14"
+      },
+      {
+        "name": "Thor Christianson",
+        "email": null,
+        "title": "Assembly Member",
+        "start_date": "2019-10-08"
+      },
+      {
+        "name": "Timothy Pike",
+        "email": null,
+        "title": "Assembly Member",
+        "start_date": "2022-10-25"
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-24",
+      "body": "City and Borough Assembly",
+      "location": "Assembly Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/Sitka/meetings/2026/2/7673_A_City_and_Borough_Assembly_26-02-24_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-18",
+      "body": "Planning Commission",
+      "location": "Harrigan Centennial Hall",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/Sitka/meetings/2026/2/7676_A_Planning_Commission_26-02-18_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "City and Borough Assembly",
+      "location": "Assembly Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/Sitka/meetings/2026/2/7672_A_City_and_Borough_Assembly_26-02-10_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-05",
+      "body": "City and Borough Assembly",
+      "location": "Assembly Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/Sitka/meetings/2026/2/7671_A_City_and_Borough_Assembly_26-02-05_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-04",
+      "body": "Planning Commission",
+      "location": "Harrigan Centennial Hall",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/Sitka/meetings/2026/2/7675_A_Planning_Commission_26-02-04_Meeting_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-27",
+      "body": "City and Borough Assembly",
+      "location": "Assembly Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/Sitka/meetings/2026/1/7670_A_City_and_Borough_Assembly_26-01-27_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Reminders, Calendars, and General Correspondence",
+      "type": "Item",
+      "status": "AGENDA READY",
+      "intro_date": "2026-02-19",
+      "file_number": "26-037",
+      "passed_date": null
+    },
+    {
+      "title": "Making supplemental appropriations for fiscal year 2026 (body-worn cameras)",
+      "type": "Ordinance",
+      "status": "AGENDA READY",
+      "intro_date": "2026-02-18",
+      "file_number": "ORD 26-05",
+      "passed_date": null
+    },
+    {
+      "title": "Board of Adjustment: Consideration of an appeal of the Planning Commission’s denial of a conditional use permit for a public transportation facility at 408 and 410 Oja Way Central Business District, f",
+      "type": "Item",
+      "status": "AGENDA READY",
+      "intro_date": "2026-02-18",
+      "file_number": "26-036",
+      "passed_date": null
+    },
+    {
+      "title": "Approve the Health Needs and Human Services Commission 2026 goals",
+      "type": "Item",
+      "status": "AGENDA READY",
+      "intro_date": "2026-02-18",
+      "file_number": "26-033",
+      "passed_date": null
+    },
+    {
+      "title": "Amending Title 1 of the Sitka General Code by adding Chapter 1.41 \"Americans with Disabilities Act Title II Enactment\"",
+      "type": "Ordinance",
+      "status": "AGENDA READY",
+      "intro_date": "2026-02-18",
+      "file_number": "ORD 26-04",
+      "passed_date": null
+    },
+    {
+      "title": "Making supplemental appropriations for fiscal year 2026 (public records request software)",
+      "type": "Ordinance",
+      "status": "AGENDA READY",
+      "intro_date": "2026-02-18",
+      "file_number": "ORD 26-06",
+      "passed_date": null
+    },
+    {
+      "title": "1) Sitka Tribe of Alaska Tribal Council - Alana Peterson\r\n2) Sitka School Board - Phil Burdick \r\n3) Department Quarterly Report - Assessing",
+      "type": "Item",
+      "status": "AGENDA READY",
+      "intro_date": "2026-02-18",
+      "file_number": "26-034",
+      "passed_date": null
+    },
+    {
+      "title": "Initial screening of municipal administrator applicants",
+      "type": "Item",
+      "status": "AGENDA READY",
+      "intro_date": "2026-02-18",
+      "file_number": "26-035",
+      "passed_date": null
+    },
+    {
+      "title": "1) Sitka Land Suitability and Feasibility Study Phase I Summary and Recommendations, Amy Ainslie\r\n2) Department Quarterly Reports - Harbors, Public and Government Relations, Fire",
+      "type": "Item",
+      "status": "AGENDA READY",
+      "intro_date": "2026-02-04",
+      "file_number": "26-026",
+      "passed_date": null
+    },
+    {
+      "title": "Regarding the Federal Subsistence Management Program (FSMP) under Title VIII of the Alaska National Interest Lands Conservation Act (ANILCA)",
+      "type": "Resolution",
+      "status": "AGENDA READY",
+      "intro_date": "2026-02-04",
+      "file_number": "RES 26-03",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://sitka.legistar.com",
-  "enriched_at": "2026-02-22T18:43:03.176151",
+  "enriched_at": "2026-02-23T02:47:50.882308",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

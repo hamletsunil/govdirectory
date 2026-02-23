@@ -499,7 +499,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Red%20Bluff",
-        "probed_at": "2026-02-22T18:46:48.070035",
+        "probed_at": "2026-02-23T02:51:45.091168",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -763,13 +763,82 @@
     "granularity_flags": 2
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "City Council",
+    "members": [
+      {
+        "name": "Cody Strock",
+        "email": "cstrock@cityofredbluff.org",
+        "title": "Council Member",
+        "start_date": "2022-12-02"
+      },
+      {
+        "name": "JR Gonzales",
+        "email": "jgonzales@cityofredbluff.org",
+        "title": "Mayor Pro Tem",
+        "start_date": "2020-12-02"
+      },
+      {
+        "name": "Kris Deiters",
+        "email": "kdeiters@cityofredbluff.org",
+        "title": "Mayor",
+        "start_date": "2018-12-02"
+      },
+      {
+        "name": "Mark Clement",
+        "email": "mclement@cityofredbluff.org",
+        "title": "Council Member",
+        "start_date": "2024-12-02"
+      },
+      {
+        "name": "Patrick Hurton",
+        "email": "phurton@cityofredbluff.org",
+        "title": "Council Member",
+        "start_date": "2022-12-02"
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-20",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://cityofredbluff.legistar1.com/cityofredbluff/meetings/2026/2/974_A_City_Council_26-02-20_Regular_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-14",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://cityofredbluff.legistar1.com/cityofredbluff/meetings/2026/2/972_A_City_Council_26-02-14_Regular_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Test Encoder and Camera",
+      "type": "Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-20",
+      "file_number": "0127",
+      "passed_date": null
+    },
+    {
+      "title": "Testing Encoder and Camera",
+      "type": "Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-10",
+      "file_number": "0121",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://cityofredbluff.legistar.com",
-  "enriched_at": "2026-02-22T18:42:28.186475",
+  "enriched_at": "2026-02-23T02:41:12.385917",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

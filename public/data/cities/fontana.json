@@ -509,7 +509,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Fontana",
-        "probed_at": "2026-02-22T18:45:04.056934",
+        "probed_at": "2026-02-23T02:50:21.131904",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -773,13 +773,195 @@
     "granularity_flags": 3
   },
   "officials": {
-    "body_name": null,
+    "body_name": "City Council Meeting",
     "members": []
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-24",
+      "body": "City Council Meeting",
+      "location": "Steelworkers' Auditorium",
+      "has_agenda": true,
+      "agenda_url": "https://fontana.legistar1.com/fontana/meetings/2026/2/2768_A_City_Council_Meeting_26-02-24_Regular_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-24",
+      "body": "Housing Authority",
+      "location": "Steelworker's Auditorium",
+      "has_agenda": true,
+      "agenda_url": "https://fontana.legistar1.com/fontana/meetings/2026/2/2818_A_Housing_Authority_26-02-24_Regular_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-24",
+      "body": "Fire Protection District",
+      "location": "Steelworker's Auditorium",
+      "has_agenda": true,
+      "agenda_url": "https://fontana.legistar1.com/fontana/meetings/2026/2/2819_A_Fire_Protection_District_26-02-24_Regular_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-24",
+      "body": "Community Foundation",
+      "location": "Steelworker's Auditorium",
+      "has_agenda": true,
+      "agenda_url": "https://fontana.legistar1.com/fontana/meetings/2026/2/2820_A_Community_Foundation_26-02-24_Regular_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-26",
+      "body": "Parks, Community and Human Services Commission",
+      "location": "Steelworker's Auditorium",
+      "has_agenda": true,
+      "agenda_url": "https://fontana.legistar1.com/fontana/meetings/2026/2/2807_A_Parks%2C_Community_and_Human_Services_Commission_26-02-26_Regular_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-19",
+      "body": "Special City Council Meeting",
+      "location": "Water of Life Community Church\r\nSpecial Needs Room\r\n7625 East Ave, Fontana, CA 92336",
+      "has_agenda": true,
+      "agenda_url": "https://fontana.legistar1.com/fontana/meetings/2026/2/2816_A_Special_City_Council_Meeting_26-02-19_Special_Meeting.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "Planning Commission",
+      "location": "Steelworkers' Auditorium",
+      "has_agenda": true,
+      "agenda_url": "https://fontana.legistar1.com/fontana/meetings/2026/2/2794_A_Planning_Commission_26-02-17_Regular_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "City Council Meeting",
+      "location": "Steelworkers' Auditorium",
+      "has_agenda": true,
+      "agenda_url": "https://fontana.legistar1.com/fontana/meetings/2026/2/2767_A_City_Council_Meeting_26-02-10_Regular_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "Planning Commission",
+      "location": "Steelworkers' Auditorium",
+      "has_agenda": true,
+      "agenda_url": "https://fontana.legistar1.com/fontana/meetings/2026/2/2793_A_Planning_Commission_26-02-03_Regular_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-27",
+      "body": "City Council Meeting",
+      "location": "Steelworkers' Auditorium",
+      "has_agenda": true,
+      "agenda_url": "https://fontana.legistar1.com/fontana/meetings/2026/1/2766_A_City_Council_Meeting_26-01-27_Regular_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "San Bernardino Council of Governments (SBCOG) Membership Dues",
+      "type": "Consent Calendar",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "26-0834",
+      "passed_date": null
+    },
+    {
+      "title": "Purchase and Sale Agreement for City owned property- 11109 Jasmine Street",
+      "type": "Consent Calendar",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "26-0826",
+      "passed_date": null
+    },
+    {
+      "title": "Award a Professional Services Agreement for the development and implementation of an ADA Self-Evaluation and Transition Plan for City owned facilities",
+      "type": "Consent Calendar",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-11",
+      "file_number": "26-0819",
+      "passed_date": null
+    },
+    {
+      "title": "Adoption of Ordinance No. 1982 (Second Reading), Amending Section 30 Of The City Of Fontana Municipal Code Relating To Emergency Shelter Overlay Development Standards And Operating Regulations And App",
+      "type": "Consent Calendar",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-11",
+      "file_number": "26-0817",
+      "passed_date": null
+    },
+    {
+      "title": "Mayor Warren and City Council to recognize Public Works & Engineering 2025 Employees of the year.",
+      "type": "Special Presentation",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-11",
+      "file_number": "26-0814",
+      "passed_date": null
+    },
+    {
+      "title": "Mayor Warren and City Council to recognize Officer, Mario Martinez and Dispatch Manager Jennifer Schlotterbeck as 2025 Employees of the year.",
+      "type": "Special Presentation",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-11",
+      "file_number": "26-0813",
+      "passed_date": null
+    },
+    {
+      "title": "Mayor Warren and City Council to recognize Fontana Police Corporal Katie Clark.",
+      "type": "Special Presentation",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-11",
+      "file_number": "26-0815",
+      "passed_date": null
+    },
+    {
+      "title": "Adoption of Ordinance No. 1983 (Second Reading), amending Section 30-467 of the Fontana Municipal Code regarding accessory dwelling units and junior accessory dwelling units to comply with recent chan",
+      "type": "Consent Calendar",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-11",
+      "file_number": "26-0818",
+      "passed_date": null
+    },
+    {
+      "title": "1. CONFERENCE WITH REAL PROPERTY NEGOTIATORS \r\n(Gov. Code section 54956.8)\r\nProperty: APN’s: 1100-111-51-0000, 1100-091-71-0000, 0232-20-113-0000\r\nCity Negotiator: Phillip Burum, Deputy City Manager \r",
+      "type": "Closed Session",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-11",
+      "file_number": "26-0816",
+      "passed_date": null
+    },
+    {
+      "title": "Ordinance of the City Council of the City of Fontana, California Rescinding and Replacing Articles I Through VIII of Chapter 23 of the Fontana Municipal Code Regarding Sewers and Sewage Disposal",
+      "type": "New Business",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-10",
+      "file_number": "26-0810",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://fontana.legistar.com",
-  "enriched_at": "2026-02-22T18:42:35.268917",
+  "enriched_at": "2026-02-23T02:42:39.376805",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

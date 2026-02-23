@@ -408,7 +408,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Gaston%20County",
-        "probed_at": "2026-02-22T18:47:21.932842",
+        "probed_at": "2026-02-23T02:52:12.973767",
         "data_vintage": "BRFSS None",
         "geographic_level": "place",
         "status": "unavailable"
@@ -672,13 +672,181 @@
     "granularity_flags": 0
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "Board of Commissioners",
+    "members": [
+      {
+        "name": "Allen R. Fraley",
+        "email": "allen.fraley@gastongov.com",
+        "title": "Commissioner",
+        "start_date": "2024-12-02",
+        "phone": "(704) 813-4830"
+      },
+      {
+        "name": "Bob Hovis",
+        "email": "bob.hovis@gastongov.com",
+        "title": "Commissioner",
+        "start_date": "2024-12-02"
+      },
+      {
+        "name": "Cathy Cloninger",
+        "email": null,
+        "title": "Vice Chairman",
+        "start_date": "2022-12-05"
+      },
+      {
+        "name": "Chad Brown",
+        "email": "chad.brown@gastongov.com",
+        "title": "Chairman",
+        "start_date": "2022-12-05",
+        "phone": "(704) 516-8017"
+      },
+      {
+        "name": "Jim Bailey",
+        "email": "Jim.Bailey@gastongov.com",
+        "title": "Commissioner",
+        "start_date": "2024-12-02"
+      },
+      {
+        "name": "Scott Shehan",
+        "email": "Scott.Shehan@gastongov.com",
+        "title": "Commissioner",
+        "start_date": "2024-12-02"
+      },
+      {
+        "name": "Tom Keigher",
+        "email": "tomkcom@aol.com",
+        "title": "Commissioner",
+        "start_date": "2022-12-05",
+        "phone": "(704) 864-2797"
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-26",
+      "body": "Board of Commissioners",
+      "location": "Courthouse",
+      "has_agenda": true,
+      "agenda_url": "https://gaston.legistar1.com/gaston/meetings/2026/2/1329_A_Board_of_Commissioners_26-02-26_Agenda_noDep.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-10",
+      "body": "Board of Commissioners",
+      "location": "Courthouse",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "Board of Commissioners",
+      "location": "Gaston County Administration Building, 3rd Floor, Conf. Rm. 3A",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-27",
+      "body": "Board of Commissioners",
+      "location": "Courthouse",
+      "has_agenda": true,
+      "agenda_url": "https://gaston.legistar1.com/gaston/meetings/2026/1/1327_A_Board_of_Commissioners_26-01-27_Agenda_noDep.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Commissioner Hovis - Financial and Management Services - Finance - To Approve the Appropriation of Unified Fire Protection Service District Fund Balance for Distribution to Gaston County Firefighters ",
+      "type": "Resolution (Consent)",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-16",
+      "file_number": "26-083",
+      "passed_date": null
+    },
+    {
+      "title": "Commissioner Keigher - County Manager - To Transfer $3,209,843.77 from Gaston County Schools’ Capital Allocation Balance to the General Fund for One-Time Additional Operating Allocation",
+      "type": "Resolution (Consent)",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-13",
+      "file_number": "26-080",
+      "passed_date": null
+    },
+    {
+      "title": "Commissioner Keigher - DHHS - Health Division - To Approve a Resolution to Direct the Expenditure of Opioid Settlement Funds and Appropriate $352,500.00 (Year 1: $342,500.00, Year 2: $10,000.00, Total",
+      "type": "Resolution (Consent)",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-09",
+      "file_number": "26-072",
+      "passed_date": null
+    },
+    {
+      "title": "Commissioner Keigher - DHHS - Social Services Division - To Accept and Appropriate Funds from Partners Behavioral Health Management for Reimbursement of Foster Care Placement Costs in the Amount of $1",
+      "type": "Resolution (Consent)",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-09",
+      "file_number": "26-067",
+      "passed_date": null
+    },
+    {
+      "title": "Commissioner Hovis - Office of Capital Improvements - To Amend Gaston County ARPA Grant Project Ordinance 2021-264, to Approve Additional Funding ($56,617) for Tryon Elementary Waterline Extension and",
+      "type": "Resolution (Consent)",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-09",
+      "file_number": "26-074",
+      "passed_date": null
+    },
+    {
+      "title": "Commissioner Brown - Office of Capital Improvements - To Authorize the County Manager, or His Designee, to Execute a Professional Services Contract with ESP Associates, Inc. for Special Inspections an",
+      "type": "Resolution (Consent)",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-07",
+      "file_number": "26-065",
+      "passed_date": null
+    },
+    {
+      "title": "Commissioner Brown - Office of Capital Improvements - To Award a Construction Contract and Authorize the County Manager, or his Designee, to Execute said Contract with Cinderella Partners, Inc. for th",
+      "type": "Resolution (Consent)",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-07",
+      "file_number": "26-066",
+      "passed_date": null
+    },
+    {
+      "title": "Commissioners Brown & Keigher - Register of Deeds - To Appropriate Restricted Automation Preservation Fund Balance to Fund Record Vault Expansion ($8,000)",
+      "type": "Resolution (Consent)",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-06",
+      "file_number": "26-062",
+      "passed_date": null
+    },
+    {
+      "title": "Commissioner Fraley - Tax Collections - Pursuant to G.S. 105-381, the Tax Collector Requests that the Listed January 2026 Tax Refunds be Made. (Releases and Refunds - $6,192.88; Overpayments - $183,60",
+      "type": "Resolution (Consent)",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-06",
+      "file_number": "26-063",
+      "passed_date": null
+    },
+    {
+      "title": "Appointment List - Current Expiring Terms/Vacant Positions",
+      "type": "Appointments",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-06",
+      "file_number": "26-058",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://gaston.legistar.com",
-  "enriched_at": "2026-02-22T18:42:36.813574",
+  "enriched_at": "2026-02-23T02:42:56.082711",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

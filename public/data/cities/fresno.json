@@ -515,7 +515,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Fresno",
-        "probed_at": "2026-02-22T18:44:39.818062",
+        "probed_at": "2026-02-23T02:50:01.128394",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -779,13 +779,344 @@
     "granularity_flags": 1
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "City Council",
+    "members": [
+      {
+        "name": "Annalisa Perea",
+        "email": "Annalisa.Perea@fresno.gov",
+        "title": "Councilmember",
+        "start_date": "2022-12-15",
+        "website": "https://www.fresno.gov/citycouncil/district-1/"
+      },
+      {
+        "name": "Brandon Vang",
+        "email": "brandon.vang@fresno.gov",
+        "title": "Councilmember",
+        "start_date": "2025-04-10",
+        "committees": [
+          "School Liaison Subcommittee"
+        ]
+      },
+      {
+        "name": "Miguel Angel Arias",
+        "email": "miguel.arias@fresno.gov",
+        "title": "Councilmember",
+        "start_date": "2023-01-01",
+        "website": "https://www.fresno.gov/citycouncil/district-3/",
+        "committees": [
+          "Fresno City Council Finance and Audit Committee",
+          "Fresno EIFD Public Financing Authority"
+        ]
+      },
+      {
+        "name": "Mike Karbassi",
+        "email": "mike.karbassi@fresno.gov",
+        "title": "Vice Chair",
+        "start_date": "2025-03-12",
+        "website": "https://www.fresno.gov/citycouncil/district-2/",
+        "committees": [
+          "Fresno City Council Finance and Audit Committee"
+        ]
+      },
+      {
+        "name": "Nelson Esparza",
+        "email": "nelson.esparza@fresno.gov",
+        "title": "Chair",
+        "start_date": "2023-01-01",
+        "website": "https://www.fresno.gov/citycouncil/district-7/",
+        "committees": [
+          "Fresno City Council Finance and Audit Committee",
+          "Fresno EIFD Public Financing Authority",
+          "School Liaison Subcommittee"
+        ]
+      },
+      {
+        "name": "Nick Richardson",
+        "email": "nick.richardson@fresno.gov",
+        "title": "Councilmember",
+        "start_date": "2025-01-07",
+        "committees": [
+          "School Liaison Subcommittee"
+        ]
+      },
+      {
+        "name": "Tyler Maxwell",
+        "email": "tyler.maxwell@fresno.gov",
+        "title": "Councilmember",
+        "start_date": "2023-01-01",
+        "website": "https://www.fresno.gov/citycouncil/district-4/",
+        "committees": [
+          "Fresno EIFD Public Financing Authority"
+        ]
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-23",
+      "body": "Parks, Recreation, and Arts Commission",
+      "location": "Council Chambers (In Person and/or Electronic)\r\nhttps://www.fresno.gov/prac-meeting/",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/fresno/meetings/2026/2/4266_A_Parks%2C_Recreation%2C_and_Arts_Commission_26-02-23_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-23",
+      "body": "Historic Preservation Commission",
+      "location": "In Person and/or Electronic\r\nCity Hall, Room 2165",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/fresno/meetings/2026/2/4383_A_Historic_Preservation_Commission_26-02-23_Commission_Agenda_%28no_veto_language%29.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-23",
+      "body": "Civil Service Board",
+      "location": "City Hall, Second Floor\r\nMeeting Room A (2165N)",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/fresno/meetings/2026/2/4456_A_Civil_Service_Board_26-02-23_Commission_Agenda_%28no_veto_language%29.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-24",
+      "body": "Council District 3 Project Review Committee",
+      "location": "Fresno City Hall, Second Floor Room 2165A",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-25",
+      "body": "Disability Advisory Commission - Transportation",
+      "location": "In Person and/or Electronic\r\nFresno City Hall, Room 4050N",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/fresno/meetings/2026/2/4376_A_Disability_Advisory_Commission_-_Transportation_26-02-25_Commission_Agenda_%28no_veto_language%29.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-25",
+      "body": "Active Transportation Advisory Committee",
+      "location": "In Person and/or Electronic",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/fresno/meetings/2026/2/4249_A_Active_Transportation_Advisory_Committee_26-02-25_Commission_Agenda_%28no_veto_language%29.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-26",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/fresno/meetings/2026/2/4332_A_City_Council_26-02-26_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-03",
+      "body": "Building Standards Appeals Board",
+      "location": "City Hall Council Chambers\r\n2600 Fresno Street",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/fresno/meetings/2026/3/4310_A_Building_Standards_Appeals_Board_26-03-03_Commission_Agenda_%28no_veto_language%29.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-19",
+      "body": "Tower District Specific Plan Implementation Committee",
+      "location": "Fresno City Hall, Second Floor Room 2165",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-19",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/fresno/meetings/2026/2/4331_A_City_Council_26-02-19_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-18",
+      "body": "Planning Commission",
+      "location": "City Hall Council Chambers\r\n2600 Fresno Street",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/fresno/meetings/2026/2/4284_A_Planning_Commission_26-02-18_Commission_Agenda_%28no_veto_language%29.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "Building Standards Appeals Board",
+      "location": "City Hall Council Chambers\r\n2600 Fresno Street",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/fresno/meetings/2026/2/4309_A_Building_Standards_Appeals_Board_26-02-17_Commission_Agenda_%28no_veto_language%29.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "Council District 4 Project Review Committee",
+      "location": "Fresno City Hall, Second Floor Room 2165A",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-12",
+      "body": "Council District 1 Project Review Committee",
+      "location": "Fresno City Hall, Second Floor Room 2165A",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-11",
+      "body": "Council District 6 Project Review Committee",
+      "location": "Fresno City Hall, Second Floor Room 2165A",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "Mobilehome Park Rent Review and Stabilization Commission",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/fresno/meetings/2026/2/4459_A_Mobilehome_Park_Rent_Review_and_Stabilization_Commission_26-02-10_Commission_Agenda_%28no_veto_language%29.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/fresno/meetings/2026/2/4475_A_City_Council_26-02-10_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "Disability Advisory Commission",
+      "location": "In Person and/or Electronic\r\nFresno City Hall, Room 4017N",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/fresno/meetings/2026/2/4367_A_Disability_Advisory_Commission_26-02-10_Commission_Agenda_%28no_veto_language%29.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "CONFERENCE WITH LEGAL COUNSEL - ANTICIPATED LITIGATION \r\nGovernment Code Section 54956.9 (d)(4)\r\n1 potential case",
+      "type": "Closed Session Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-20",
+      "file_number": "ID 26-265",
+      "passed_date": "2026-02-26"
+    },
+    {
+      "title": "Proclamation for the “60th Anniversary of Mike’s Pizzeria”",
+      "type": "Action Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-20",
+      "file_number": "ID 26-264",
+      "passed_date": "2026-02-26"
+    },
+    {
+      "title": "WORKSHOP - Update on the Expanded Access to Arts and Culture Grant Program",
+      "type": "Action Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "ID 26-254",
+      "passed_date": null
+    },
+    {
+      "title": "Active Transportation Plan (ATP) presentation by ADA Coordinator Joe Hinojosa",
+      "type": "Action Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "ID 26-257",
+      "passed_date": null
+    },
+    {
+      "title": "Hearing-\r\n1.\tPresentation- Measure P- Category 4 Annual Appropriation Resolution presentation. (PARCS)\r\n2.\tRecommend to City Council the Resolution Adopting the 41st Amendment to the Annual Appropriat",
+      "type": "Action Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "ID 26-253",
+      "passed_date": null
+    },
+    {
+      "title": "Approval of the Disability Advisory Transportation Sub-committee Minutes from December 10, 2025",
+      "type": "Minutes",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "ID 26-255",
+      "passed_date": null
+    },
+    {
+      "title": "CONFERENCE WITH LEGAL COUNSEL - ANTICIPATED LITIGATION \nGovernment Code Section 54956.9, subdivision (d)(4)\nCase Name: City of Fresno v. Wu Junjie            \n6311 E Robinson Ave.; Code Enforcement Ca",
+      "type": "Closed Session Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "ID 26-259",
+      "passed_date": "2026-02-26"
+    },
+    {
+      "title": "Introduce/Welcome new member Elizer Andres",
+      "type": "Action Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "ID 26-256",
+      "passed_date": null
+    },
+    {
+      "title": "CONFERENCE WITH LEGAL COUNSEL - ANTICIPATED LITIGATION\r\nGovernment Code Section 54956.9, subdivision (d)(4): \r\n1 potential case",
+      "type": "Closed Session Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "ID 26-262",
+      "passed_date": "2026-02-26"
+    },
+    {
+      "title": "Update on the Bill of Ordinances Related to Bicycle Facilities and Bicyclists. (Public Works Department)",
+      "type": "Discussion Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "ID 26-246",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://fresno.legistar.com",
-  "enriched_at": "2026-02-22T18:42:35.770779",
+  "enriched_at": "2026-02-23T02:42:43.874526",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

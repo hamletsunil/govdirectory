@@ -532,7 +532,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Fort%20Lauderdale",
-        "probed_at": "2026-02-22T18:45:09.371002",
+        "probed_at": "2026-02-23T02:50:25.617467",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -796,13 +796,231 @@
     "granularity_flags": 3
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "City Commission Regular Meeting",
+    "members": [
+      {
+        "name": "Ben Sorensen",
+        "email": null,
+        "title": "Commissioner",
+        "start_date": "2024-12-03",
+        "committees": [
+          "CITY COMMISSION - SPECIAL MEETING",
+          "COMMUNITY REDEVELOPMENT AGENCY BOARD",
+          "Other Post-Employment Benefits Board Meeting"
+        ]
+      },
+      {
+        "name": "Dean J. Trantalis",
+        "email": "DTrantalis@fortlauderdale.gov",
+        "title": "Mayor",
+        "start_date": "2018-03-20",
+        "committees": [
+          "CITY COMMISSION - SPECIAL MEETING",
+          "COMMUNITY REDEVELOPMENT AGENCY BOARD",
+          "Other Post-Employment Benefits Board Meeting"
+        ]
+      },
+      {
+        "name": "John C. Herbst",
+        "email": null,
+        "title": "Vice Mayor",
+        "start_date": "2022-12-06",
+        "committees": [
+          "CITY COMMISSION - SPECIAL MEETING",
+          "COMMUNITY REDEVELOPMENT AGENCY BOARD",
+          "Other Post-Employment Benefits Board Meeting"
+        ]
+      },
+      {
+        "name": "Pam Beasley-Pittman",
+        "email": null,
+        "title": "Commissioner",
+        "start_date": "2022-12-06",
+        "committees": [
+          "CITY COMMISSION - SPECIAL MEETING",
+          "COMMUNITY REDEVELOPMENT AGENCY BOARD",
+          "Other Post-Employment Benefits Board Meeting"
+        ]
+      },
+      {
+        "name": "Steven Glassman",
+        "email": null,
+        "title": "Commissioner",
+        "start_date": "2024-12-03",
+        "committees": [
+          "CITY COMMISSION - SPECIAL MEETING",
+          "COMMUNITY REDEVELOPMENT AGENCY BOARD",
+          "Other Post-Employment Benefits Board Meeting"
+        ]
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-21",
+      "body": "Historic Preservation Board",
+      "location": "Development Services Department\r\n700 NW 19 Avenue\r\nFort Lauderdale, FL. 33311",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "City Commission Conference Meeting",
+      "location": "Broward Center for the Performing Arts - Mary N. Porter Riverview Ballroom - 201 SW 5th Avenue, Fort Lauderdale, Florida 33312",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/FortLauderdale/meetings/2026/2/2126_A_City_Commission_Conference_Meeting_26-02-17_Conference_Meeting.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "City Commission Regular Meeting",
+      "location": "Broward Center for the Performing Arts - Mary N. Porter Riverview Ballroom - 201 SW 5th Avenue, Fort Lauderdale, Florida 33312",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/FortLauderdale/meetings/2026/2/2127_A_City_Commission_Regular_Meeting_26-02-17_Regular_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "CITY COMMISSION WORKSHOP",
+      "location": "Broward Center for the Performing Arts - Mary N. Porter Riverview Ballroom - 201 SW 5th Avenue, Fort Lauderdale, Florida 33312",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/FortLauderdale/meetings/2026/2/2177_A_CITY_COMMISSION_WORKSHOP_26-02-17_Conference_Meeting.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "COMMUNITY REDEVELOPMENT AGENCY BOARD",
+      "location": "Broward Center for the Performing Arts - Mary N. Porter Riverview Ballroom - 201 SW 5th Avenue, Fort Lauderdale, Florida 33312",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/FortLauderdale/meetings/2026/2/2182_A_COMMUNITY_REDEVELOPMENT_AGENCY_BOARD_26-02-17_CRA_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "COMMUNITY REDEVELOPMENT AGENCY BOARD",
+      "location": "Broward Center for the Performing Arts - Mary N. Porter Riverview Ballroom - 201 SW 5th Avenue, Fort Lauderdale, Florida 33312",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/FortLauderdale/meetings/2026/2/2178_A_COMMUNITY_REDEVELOPMENT_AGENCY_BOARD_26-02-03_CRA_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "City Commission Regular Meeting",
+      "location": "Broward Center for the Performing Arts - Mary N. Porter Riverview Ballroom - 201 SW 5th Avenue, Fort Lauderdale, Florida 33312",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/FortLauderdale/meetings/2026/2/2125_A_City_Commission_Regular_Meeting_26-02-03_Regular_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "City Commission Conference Meeting",
+      "location": "Broward Center for the Performing Arts - Mary N. Porter Riverview Ballroom - 201 SW 5th Avenue, Fort Lauderdale, Florida 33312",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/FortLauderdale/meetings/2026/2/2124_A_City_Commission_Conference_Meeting_26-02-03_Conference_Meeting.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "WALK-ON PRESENTATION - Congresswoman Sheila Cherfilus-McCormick - Federal Legislative Update",
+      "type": "PRESENTATIONS",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-17",
+      "file_number": "26-0262",
+      "passed_date": "2026-02-17"
+    },
+    {
+      "title": "Minutes for December 16, 2025, Commission Conference Meeting and December 16, 2025, Commission Regular Meeting - (Commission Districts 1, 2, 3 and 4)",
+      "type": "MOTION",
+      "status": "PASSED",
+      "intro_date": "2026-02-03",
+      "file_number": "26-0214",
+      "passed_date": "2026-02-17"
+    },
+    {
+      "title": "Motion Approving Minutes for February 3, 2026, Community Redevelopment Agency Board Meeting - (Commission Districts 2 and 3)",
+      "type": "MOTION",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-03",
+      "file_number": "26-0213",
+      "passed_date": "2026-02-17"
+    },
+    {
+      "title": "Appointment of Board and Committee Members - (Commission Districts 1, 2, 3 and 4)",
+      "type": "RESOLUTION",
+      "status": "PASSED",
+      "intro_date": "2026-02-03",
+      "file_number": "26-0209",
+      "passed_date": "2026-02-17"
+    },
+    {
+      "title": "Motion Approving an Amendment to the MicroTransit Pilot Services Agreement with Circuit Transit Inc. to Transition Services from the Piggyback Pompano Beach Agreement No. P-29-20 to the City’s Agreeme",
+      "type": "MOTION",
+      "status": "PASSED",
+      "intro_date": "2026-02-02",
+      "file_number": "26-0203",
+      "passed_date": "2026-02-17"
+    },
+    {
+      "title": "Broward County Florida Inland Navigation District (FIND) Commissioner Richard Waltzer to make a Check Presentation in Support of the Riverwalk Upland North Project in the amount of $1,032,636",
+      "type": "PRESENTATIONS",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-02",
+      "file_number": "26-0205",
+      "passed_date": "2026-02-17"
+    },
+    {
+      "title": "Fort Lauderdale Fire Rescue Department Naloxone Presentation",
+      "type": "PRESENTATIONS",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-02",
+      "file_number": "26-0206",
+      "passed_date": "2026-02-17"
+    },
+    {
+      "title": "Outdoor Event Ordinance Presentation - Parks and Recreation (Commission Districts 1, 2, 3 and 4)",
+      "type": "OLD/NEW BUSINESS",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-02",
+      "file_number": "26-0201",
+      "passed_date": null
+    },
+    {
+      "title": "City Commission Follow-up Action Items and Letters to the Commission (LTC) - City Manager's Office (Commission Districts 1, 2, 3 and 4)",
+      "type": "CITY MANAGER REPORTS",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-02",
+      "file_number": "26-0204",
+      "passed_date": null
+    },
+    {
+      "title": "Juliet Gray-Williams - Rock Island Homeowner's Association - Our Caring Community",
+      "type": "NEIGHBOR PRESENTATIONS",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-28",
+      "file_number": "26-0190",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://fortlauderdale.legistar.com",
-  "enriched_at": "2026-02-22T18:42:35.434487",
+  "enriched_at": "2026-02-23T02:42:40.601099",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

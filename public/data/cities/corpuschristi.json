@@ -519,7 +519,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Corpus%20Christi",
-        "probed_at": "2026-02-22T18:44:50.481730",
+        "probed_at": "2026-02-23T02:50:09.968732",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -783,13 +783,402 @@
     "granularity_flags": 4
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "City Council",
+    "members": [
+      {
+        "name": "Carolyn Vaughn",
+        "email": null,
+        "title": "Council Member",
+        "start_date": "2024-11-05",
+        "website": "https://www.corpuschristitx.gov/our-government/mayor-and-council/council-members/at-large-carolyn-vaughn/",
+        "committees": [
+          "City Council Workshop",
+          "Municipal Court Committee",
+          "Reinvestment Zone No. 2 - Island",
+          "Reinvestment Zone No. 3 - Downtown",
+          "Reinvestment Zone No. 4 - North Beach"
+        ]
+      },
+      {
+        "name": "Eric Cantu",
+        "email": "eric.cantu@corpuschristitx.gov",
+        "title": "Council Member",
+        "start_date": "2025-01-14",
+        "website": "https://www.corpuschristitx.gov/our-government/mayor-and-council/council-members/district-3-eric-cantu/",
+        "committees": [
+          "City Council Workshop",
+          "Municipal Court Committee",
+          "Reinvestment Zone No. 2 - Island",
+          "Reinvestment Zone No. 3 - Downtown",
+          "Reinvestment Zone No. 4 - North Beach"
+        ]
+      },
+      {
+        "name": "Everett Roy",
+        "email": "everett.roy@corpuschristitx.gov",
+        "title": "Council Member",
+        "start_date": "2025-01-14",
+        "website": "https://www.corpuschristitx.gov/our-government/mayor-and-council/council-members/district-1-everett-roy/",
+        "committees": [
+          "City Council Workshop",
+          "Municipal Court Committee",
+          "Reinvestment Zone No. 2 - Island",
+          "Reinvestment Zone No. 3 - Downtown",
+          "Reinvestment Zone No. 4 - North Beach"
+        ]
+      },
+      {
+        "name": "Gilbert Hernandez",
+        "email": "gil.hernandez@corpuschristitx.gov",
+        "title": "Council Member",
+        "start_date": "2022-07-28",
+        "website": "https://www.corpuschristitx.gov/our-government/mayor-and-council/council-members/district-5-gil-hernandez/",
+        "committees": [
+          "City Council Workshop",
+          "Municipal Court Committee",
+          "Reinvestment Zone No. 2 - Island",
+          "Reinvestment Zone No. 3 - Downtown",
+          "Reinvestment Zone No. 4 - North Beach"
+        ]
+      },
+      {
+        "name": "Kaylynn Paxson",
+        "email": "kaylynn.paxson@corpuschristitx.gov",
+        "title": "Council Member",
+        "start_date": "2025-01-14",
+        "website": "https://www.corpuschristitx.gov/our-government/mayor-and-council/council-members/district-4-kaylynn-paxson/",
+        "committees": [
+          "Audit Committee",
+          "City Council Workshop",
+          "Reinvestment Zone No. 2 - Island",
+          "Reinvestment Zone No. 3 - Downtown",
+          "Reinvestment Zone No. 4 - North Beach"
+        ]
+      },
+      {
+        "name": "Mark Scott",
+        "email": "mark.scott@cctexas.com",
+        "title": "Council Member",
+        "start_date": "2025-01-14",
+        "website": "https://www.corpuschristitx.gov/our-government/mayor-and-council/council-members/at-large-mark-scott/",
+        "committees": [
+          "Audit Committee",
+          "City Council Workshop",
+          "Reinvestment Zone No. 2 - Island",
+          "Reinvestment Zone No. 3 - Downtown",
+          "Reinvestment Zone No. 4 - North Beach"
+        ]
+      },
+      {
+        "name": "Paulette Guajardo",
+        "email": "paulette.guajardo@corpuschristitx.gov",
+        "title": "Mayor",
+        "start_date": "2023-11-17",
+        "website": "https://www.corpuschristitx.gov/our-government/mayor-and-council/mayor-s-office/",
+        "committees": [
+          "City Council Workshop",
+          "Mayor",
+          "Reinvestment Zone No. 2 - Island",
+          "Reinvestment Zone No. 3 - Downtown",
+          "Reinvestment Zone No. 4 - North Beach"
+        ]
+      },
+      {
+        "name": "Roland Barrera",
+        "email": "roland.barrera@corpuschristitx.gov",
+        "title": "Council Member",
+        "start_date": "2022-07-28",
+        "website": "https://www.corpuschristitx.gov/our-government/mayor-and-council/council-members/at-large-roland-barrera/",
+        "committees": [
+          "Audit Committee",
+          "City Council Workshop",
+          "Reinvestment Zone No. 2 - Island",
+          "Reinvestment Zone No. 3 - Downtown",
+          "Reinvestment Zone No. 4 - North Beach"
+        ]
+      },
+      {
+        "name": "Sylvia Campos",
+        "email": "sylvia.campos@corpuschristitx.gov",
+        "title": "Council Member",
+        "start_date": "2024-11-05",
+        "website": "https://www.corpuschristitx.gov/our-government/mayor-and-council/council-members/district-2-sylvia-campos/",
+        "committees": [
+          "Audit Committee",
+          "City Council Workshop",
+          "Reinvestment Zone No. 2 - Island",
+          "Reinvestment Zone No. 3 - Downtown",
+          "Reinvestment Zone No. 4 - North Beach"
+        ]
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-24",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/CorpusChristi/meetings/2026/2/4091_A_City_Council_26-02-24_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-24",
+      "body": "Reinvestment Zone No. 3 - Downtown",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/CorpusChristi/meetings/2026/2/4171_A_Reinvestment_Zone_No._3_-_Downtown_26-02-24_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-24",
+      "body": "City Council Ceremonial Meeting",
+      "location": "City Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/CorpusChristi/meetings/2026/2/4186_A_City_Council_Ceremonial_Meeting_26-02-24_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-24",
+      "body": "Arts and Cultural Commission",
+      "location": "KEDT Board Room, \r\n3205 S. Staples, Corpus Christi, TX 78411",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/CorpusChristi/meetings/2026/2/4191_A_Arts_and_Cultural_Commission_26-02-24_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-25",
+      "body": "Airport Board",
+      "location": "Airport Board Room\r\n1000 International Blvd. C.C., TX. 78406",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/CorpusChristi/meetings/2026/2/4184_A_Airport_Board_26-02-25_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-25",
+      "body": "Board of Adjustment",
+      "location": "City Hall, Council Chambers.",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/CorpusChristi/meetings/2026/2/4183_A_Board_of_Adjustment_26-02-25_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-26",
+      "body": "Landmark Commission",
+      "location": "City Hall, Council Chambers.",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/CorpusChristi/meetings/2026/2/4169_A_Landmark_Commission_26-02-26_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-05",
+      "body": "Water, Shore, and Beach Advisory Committee",
+      "location": "Beach Operations 8185 HWY 361 Corpus Christi TX 78418",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/CorpusChristi/meetings/2026/3/4190_A_Water%2C_Shore%2C_and_Beach_Advisory_Committee_26-03-05_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-19",
+      "body": "Ethics Commission",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/CorpusChristi/meetings/2026/2/4180_A_Ethics_Commission_26-02-19_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-18",
+      "body": "Planning Commission",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/CorpusChristi/meetings/2026/2/4170_A_Planning_Commission_26-02-18_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-18",
+      "body": "Animal Care Advisory Committee",
+      "location": "Animal Care Facility Conference Room, 2626 Holly Rd.",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/CorpusChristi/meetings/2026/2/4153_A_Animal_Care_Advisory_Committee_26-02-18_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "Reinvestment Zone No. 4 - North Beach",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/CorpusChristi/meetings/2026/2/4181_A_Reinvestment_Zone_No._4_-_North_Beach_26-02-17_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "City Council Ceremonial Meeting",
+      "location": "City Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/CorpusChristi/meetings/2026/2/4090_A_City_Council_Ceremonial_Meeting_26-02-17_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/CorpusChristi/meetings/2026/2/4086_A_City_Council_26-02-17_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-12",
+      "body": "Senior Corps Advisory Committee",
+      "location": "Greenwood Senior Center, 4040 Greenwood Dr.",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/CorpusChristi/meetings/2026/2/4178_A_Senior_Corps_Advisory_Committee_26-02-12_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/CorpusChristi/meetings/2026/2/4117_A_City_Council_26-02-10_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "City Council Ceremonial Meeting",
+      "location": "City Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/CorpusChristi/meetings/2026/2/4144_A_City_Council_Ceremonial_Meeting_26-02-10_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-09",
+      "body": "Corpus Christi Business and Job Development Corporation - Type A",
+      "location": "City Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/CorpusChristi/meetings/2026/2/4173_A_Corpus_Christi_Business_and_Job_Development_Corporation_-_Type_A_26-02-09_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Presentation, Discussion and Possible action to recommend City Council approve a ground lease estoppel certificate and agreement to the ground lease with DLUGOSCH III, LLC (DBA THE TEXAN STORES) at th",
+      "type": "Motion",
+      "status": "To Be Introduced",
+      "intro_date": "2026-02-19",
+      "file_number": "26-0317",
+      "passed_date": null
+    },
+    {
+      "title": "Adoption of Minutes- Regular Meeting February 18, 2026",
+      "type": "Minutes",
+      "status": "To Be Introduced",
+      "intro_date": "2026-02-19",
+      "file_number": "26-0322",
+      "passed_date": null
+    },
+    {
+      "title": "Monthly Shelter Clinic Report",
+      "type": "Staff Report",
+      "status": "To Be Introduced",
+      "intro_date": "2026-02-19",
+      "file_number": "26-0320",
+      "passed_date": null
+    },
+    {
+      "title": "Review and approval of minutes of prior meeting(s) and the election of officers, if necessary.",
+      "type": "New Business",
+      "status": "To Be Introduced",
+      "intro_date": "2026-02-19",
+      "file_number": "26-0255",
+      "passed_date": null
+    },
+    {
+      "title": "Minutes for Meeting on February 5th, 2026",
+      "type": "Minutes",
+      "status": "To Be Introduced",
+      "intro_date": "2026-02-18",
+      "file_number": "26-0299",
+      "passed_date": null
+    },
+    {
+      "title": "2025 Completion Report Update",
+      "type": "Briefing",
+      "status": "To Be Introduced",
+      "intro_date": "2026-02-18",
+      "file_number": "26-0302",
+      "passed_date": null
+    },
+    {
+      "title": "2026 Arts Grant Event Calendar & Announcement of Grant Recipients",
+      "type": "Briefing",
+      "status": "To Be Introduced",
+      "intro_date": "2026-02-18",
+      "file_number": "26-0303",
+      "passed_date": null
+    },
+    {
+      "title": "Beach Shoreline Survey by Deidre Williams",
+      "type": "New Business",
+      "status": "To Be Introduced",
+      "intro_date": "2026-02-18",
+      "file_number": "26-0296",
+      "passed_date": null
+    },
+    {
+      "title": "2026 Mural Fest Selection Committee Volunteer Opportunity",
+      "type": "Briefing",
+      "status": "To Be Introduced",
+      "intro_date": "2026-02-18",
+      "file_number": "26-0308",
+      "passed_date": null
+    },
+    {
+      "title": "Public Art Conservation - Sunseeker",
+      "type": "Briefing",
+      "status": "To Be Introduced",
+      "intro_date": "2026-02-18",
+      "file_number": "26-0305",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://corpuschristi.legistar.com",
-  "enriched_at": "2026-02-22T18:42:31.453409",
+  "enriched_at": "2026-02-23T02:41:48.984233",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

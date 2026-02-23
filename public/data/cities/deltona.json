@@ -509,7 +509,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Deltona",
-        "probed_at": "2026-02-22T18:45:43.486157",
+        "probed_at": "2026-02-23T02:50:53.502711",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -773,13 +773,280 @@
     "granularity_flags": 2
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "City Commission",
+    "members": [
+      {
+        "name": "Commissioner Colwell",
+        "email": "scolwell@deltonafl.gov",
+        "title": null,
+        "start_date": "2022-11-08",
+        "committees": [
+          "Affordable Housing Advisory Committee",
+          "City Commission Workshop"
+        ]
+      },
+      {
+        "name": "Commissioner Heriot",
+        "email": "dheriot@deltonafl.gov",
+        "title": null,
+        "start_date": "2025-11-21",
+        "committees": [
+          "City Commission Workshop"
+        ]
+      },
+      {
+        "name": "Commissioner Howington",
+        "email": "dhowington@deltonafl.gov",
+        "title": null,
+        "start_date": "2024-11-08",
+        "committees": [
+          "City Commission Workshop"
+        ]
+      },
+      {
+        "name": "Commissioner Nabicht",
+        "email": "cnabicht@deltonafl.gov",
+        "title": null,
+        "start_date": "2025-09-21",
+        "committees": [
+          "City Commission Workshop"
+        ]
+      },
+      {
+        "name": "Commissioner Santiago",
+        "email": "esantiago@deltonafl.gov",
+        "title": null,
+        "start_date": "2024-11-08",
+        "committees": [
+          "City Commission Workshop"
+        ]
+      },
+      {
+        "name": "Mayor Avila",
+        "email": "savila@deltonafl.gov",
+        "title": null,
+        "start_date": "2022-11-16",
+        "committees": [
+          "City Commission Workshop"
+        ]
+      },
+      {
+        "name": "Vice Mayor Avila-Vazquez",
+        "email": null,
+        "title": null,
+        "start_date": "2025-11-21",
+        "committees": [
+          "City Commission Workshop"
+        ]
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-25",
+      "body": "Special Magistrate",
+      "location": "Deltona Commission Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://deltona.legistar1.com/deltona/meetings/2026/2/3812_A_Special_Magistrate_26-02-25_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-26",
+      "body": "Development Review Committee",
+      "location": "2nd Floor Conference Room",
+      "has_agenda": true,
+      "agenda_url": "https://deltona.legistar1.com/deltona/meetings/2026/2/3785_A_Development_Review_Committee_26-02-26_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-17",
+      "body": "Affordable Housing Advisory Committee",
+      "location": "2nd Floor Conference Room",
+      "has_agenda": true,
+      "agenda_url": "https://deltona.legistar1.com/deltona/meetings/2026/2/3805_A_Affordable_Housing_Advisory_Committee_26-02-17_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "City Commission",
+      "location": "Deltona Commission Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://deltona.legistar1.com/deltona/meetings/2026/2/3748_A_City_Commission_26-02-17_Regular_Commission_Meeting.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-16",
+      "body": "City Commission Workshop",
+      "location": "Deltona Commission Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://deltona.legistar1.com/deltona/meetings/2026/2/3799_A_City_Commission_Workshop_26-02-16_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-12",
+      "body": "Development Review Committee",
+      "location": "2nd Floor Conference Room",
+      "has_agenda": true,
+      "agenda_url": "https://deltona.legistar1.com/deltona/meetings/2026/2/3784_A_Development_Review_Committee_26-02-12_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "Ordinance Review Committee",
+      "location": "2nd Floor Conference Room",
+      "has_agenda": true,
+      "agenda_url": "https://deltona.legistar1.com/deltona/meetings/2026/2/3783_A_Ordinance_Review_Committee_26-02-10_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-09",
+      "body": "City Commission Workshop",
+      "location": "Deltona Commission Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://deltona.legistar1.com/deltona/meetings/2026/2/3796_A_City_Commission_Workshop_26-02-09_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-09",
+      "body": "Special City Commission Meeting",
+      "location": "Deltona Commission Chambers",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-09",
+      "body": "Special City Commission Meeting",
+      "location": "Deltona Commission Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://deltona.legistar1.com/deltona/meetings/2026/2/3800_A_Special_City_Commission_Meeting_26-02-09_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-02",
+      "body": "City Commission",
+      "location": "Deltona Commission Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://deltona.legistar1.com/deltona/meetings/2026/2/3747_A_City_Commission_26-02-02_Regular_Commission_Meeting.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-28",
+      "body": "Special Magistrate",
+      "location": "Deltona Commission Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://deltona.legistar1.com/deltona/meetings/2026/1/3792_A_Special_Magistrate_26-01-28_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Chick-fil-A - Deltona Village BPUD - Pre-Application Meeting",
+      "type": "Discussion",
+      "status": "New Business",
+      "intro_date": "2026-02-19",
+      "file_number": "15-10298",
+      "passed_date": null
+    },
+    {
+      "title": "The DRC and Informational/Pre-application meeting is held both in person and in a virtual environment via Microsoft Teams and can be accessed by the following methods:",
+      "type": "Discussion",
+      "status": "New Business",
+      "intro_date": "2026-02-19",
+      "file_number": "15-10301",
+      "passed_date": null
+    },
+    {
+      "title": "FIRE-010-2026\r\nProperty Address:\r\n915 Doyle Road, Suites 103-105, Deltona, FL 32725\r\nParcel ID: 9106-09-00-0010\r\nProperty Owner: \r\nTCB Deltona LLC \r\n353 N. Clark STE 3625\r\nChicago, IL 60654-3477\r\n\r\nVi",
+      "type": "Code Violation",
+      "status": "New Business",
+      "intro_date": "2026-02-11",
+      "file_number": "15-10293",
+      "passed_date": null
+    },
+    {
+      "title": "FIRE-014-2026\r\nProperty Address:\r\n890 N. SR 415, Deltona, FL 32764\r\nParcel ID: 9206-05-00-0010\r\nProperty Owner: \r\nBRG Real Estate Investments \r\n76 San Juan Drive\r\nPonte Vedra Beach, FL 32082\r\n\r\nViolat",
+      "type": "Code Violation",
+      "status": "New Business",
+      "intro_date": "2026-02-11",
+      "file_number": "15-10296",
+      "passed_date": null
+    },
+    {
+      "title": "FIRE-009-2026\r\nProperty Address:\r\n915 Doyle Road, Deltona, FL 32725\r\nParcel ID: 9106-09-00-0010\r\nProperty Owner: \r\nTCB Deltona LLC\r\n353 N. Clark STE 3625\r\nChicago, IL 60654-3477\r\n\r\nViolation: A\r\nCity ",
+      "type": "Code Violation",
+      "status": "New Business",
+      "intro_date": "2026-02-11",
+      "file_number": "15-10292",
+      "passed_date": null
+    },
+    {
+      "title": "DEL-26-012\r\nProperty Address:\r\n3342 Vancouver Avenue, Deltona, FL 32738\r\nParcel ID: 8130-35-07-0120\r\nProperty Owner: \r\nGloria Brathwaite\r\n3342 Vancouver Avenue\r\nDeltona, FL 32738\r\n\r\nViolation: \r\nCity ",
+      "type": "Code Violation",
+      "status": "New Business",
+      "intro_date": "2026-02-11",
+      "file_number": "15-10283",
+      "passed_date": null
+    },
+    {
+      "title": "FIRE-007-2026\r\nProperty Address:\r\n414 Deltona Boulevard, Deltona, FL 32725\r\nParcel ID: 9001-09-00-0020\r\nProperty Owner: \r\nWaffle House Inc.\r\n5986 Financial Drive\r\nNorcross, GA 30071\r\n\r\nViolation: A\r\nC",
+      "type": "Code Violation",
+      "status": "New Business",
+      "intro_date": "2026-02-11",
+      "file_number": "15-10291",
+      "passed_date": null
+    },
+    {
+      "title": "DEL-25-086 (A - C) Massey\r\nProperty Address:\r\n679 Vicksburg Street, Deltona, FL 32725\r\nParcel ID: 8130-04-38-0350\r\nProperty Owner: \r\nCesar Borges &/or\r\nTamara Pita Pinheiro \r\n679 Vicksburg Street \r\nDe",
+      "type": "Code Violation",
+      "status": "Old Business",
+      "intro_date": "2026-02-11",
+      "file_number": "15-10279",
+      "passed_date": null
+    },
+    {
+      "title": "FIRE-046-2025\r\nProperty Address:\r\n2031 Saxon Boulevard, Deltona, FL 32725\r\nParcel ID: 8023-01-12-0090\r\nProperty Owner: \r\nShaffer Investments LLC\r\n879 Mason Avenue\r\nDaytona Beach, FL 32117\r\n\r\nViolation",
+      "type": "Code Violation",
+      "status": "New Business",
+      "intro_date": "2026-02-11",
+      "file_number": "15-10287",
+      "passed_date": null
+    },
+    {
+      "title": "FIRE-016-2026\r\nProperty Address:\r\n1240 E. Normandy Boulevard, Deltona, FL 32725\r\nParcel ID: 8130-01-01-0030\r\nProperty Owner: \r\nCarolina Cleaning & Roberto Renovations LLC\r\n1282 W. Portillo Drive\r\nDelt",
+      "type": "Code Violation",
+      "status": "New Business",
+      "intro_date": "2026-02-11",
+      "file_number": "15-10297",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://deltona.legistar.com",
-  "enriched_at": "2026-02-22T18:42:33.191964",
+  "enriched_at": "2026-02-23T02:42:10.505992",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

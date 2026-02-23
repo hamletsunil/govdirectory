@@ -516,7 +516,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Naperville",
-        "probed_at": "2026-02-22T18:45:21.956745",
+        "probed_at": "2026-02-23T02:50:36.074908",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -780,13 +780,290 @@
     "granularity_flags": 3
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "City Council",
+    "members": [
+      {
+        "name": "Ashfaq Syed",
+        "email": null,
+        "title": "Councilman",
+        "start_date": "2025-05-04"
+      },
+      {
+        "name": "Benjamin White",
+        "email": "whiteb@naperville.il.us",
+        "title": "Councilman",
+        "start_date": "2025-05-04"
+      },
+      {
+        "name": "Ian Holzhauer",
+        "email": "HolzhauerI@naperville.il.us",
+        "title": "Councilman",
+        "start_date": "2025-05-04",
+        "committees": [
+          "Riverwalk Commission"
+        ]
+      },
+      {
+        "name": "Josh McBroom",
+        "email": "mcbroomj@naperville.il.us",
+        "title": "Councilman",
+        "start_date": "2023-05-01",
+        "committees": [
+          "Financial Advisory Board",
+          "Transportation Advisory Board"
+        ]
+      },
+      {
+        "name": "Mary Gibson",
+        "email": "gibsonm@naperville.il.us",
+        "title": "Councilwoman",
+        "start_date": "2025-05-04",
+        "committees": [
+          "Naper Settlement Museum Board"
+        ]
+      },
+      {
+        "name": "Nathan Wilson",
+        "email": "wilsonn@naperville.il.us",
+        "title": "Councilman",
+        "start_date": "2023-05-01"
+      },
+      {
+        "name": "Patrick Kelly",
+        "email": "kellyp@naperville.il.us",
+        "title": "Councilman",
+        "start_date": "2019-05-01",
+        "committees": [
+          "Historic Preservation Commission"
+        ]
+      },
+      {
+        "name": "Scott Wehrli",
+        "email": "wehrlis@naperville.il.us",
+        "title": "Mayor",
+        "start_date": "2023-05-01",
+        "committees": [
+          "Liquor Commission",
+          "Naper Settlement Museum Board"
+        ]
+      },
+      {
+        "name": "Supna Jain",
+        "email": "jains@naperville.il.us",
+        "title": "Councilwoman",
+        "start_date": "2025-09-16",
+        "committees": [
+          "Advisory Commission on Disabilities"
+        ]
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-24",
+      "body": "Board of Fire and Police",
+      "location": "Meeting Room C",
+      "has_agenda": true,
+      "agenda_url": "https://naperville.legistar1.com/naperville/meetings/2026/2/3753_A_Board_of_Fire_and_Police_26-02-24_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-26",
+      "body": "Historic Preservation Commission",
+      "location": "Meeting Room C",
+      "has_agenda": true,
+      "agenda_url": "https://naperville.legistar1.com/naperville/meetings/2026/2/3746_A_Historic_Preservation_Commission_26-02-26_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-19",
+      "body": "Public Utilities Advisory Board",
+      "location": "Meeting Room C",
+      "has_agenda": true,
+      "agenda_url": "https://naperville.legistar1.com/naperville/meetings/2026/2/3748_A_Public_Utilities_Advisory_Board_26-02-19_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-18",
+      "body": "Planning and Zoning Commission",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://naperville.legistar1.com/naperville/meetings/2026/2/3747_A_Planning_and_Zoning_Commission_26-02-18_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "Board of Fire and Police",
+      "location": "Meeting Room C",
+      "has_agenda": true,
+      "agenda_url": "https://naperville.legistar1.com/naperville/meetings/2026/2/3619_A_Board_of_Fire_and_Police_26-02-17_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://naperville.legistar1.com/naperville/meetings/2026/2/3577_A_City_Council_26-02-17_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-11",
+      "body": "Riverwalk Commission",
+      "location": "Meeting Room C",
+      "has_agenda": true,
+      "agenda_url": "https://naperville.legistar1.com/naperville/meetings/2026/2/3552_A_Riverwalk_Commission_26-02-11_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "Board of Fire and Police",
+      "location": "Meeting Room C",
+      "has_agenda": true,
+      "agenda_url": "https://naperville.legistar1.com/naperville/meetings/2026/2/3618_A_Board_of_Fire_and_Police_26-02-10_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-05",
+      "body": "Liquor Commission",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://naperville.legistar1.com/naperville/meetings/2026/2/3731_A_Liquor_Commission_26-02-05_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-05",
+      "body": "Advisory Commission on Disabilities",
+      "location": "Meeting Room C",
+      "has_agenda": true,
+      "agenda_url": "https://naperville.legistar1.com/naperville/meetings/2026/2/3612_A_Advisory_Commission_on_Disabilities_26-02-05_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-05",
+      "body": "Transportation Advisory Board",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://naperville.legistar1.com/naperville/meetings/2026/2/3691_A_Transportation_Advisory_Board_26-02-05_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-04",
+      "body": "Planning and Zoning Commission",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://naperville.legistar1.com/naperville/meetings/2026/2/3708_A_Planning_and_Zoning_Commission_26-02-04_Meeting_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "A motion to approve continuing in the process firefighter/paramedic candidate #15 Wilcox",
+      "type": "Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-20",
+      "file_number": "26-0264",
+      "passed_date": null
+    },
+    {
+      "title": "A motion to approve ratifying the decision to waive the traditional method of breaking the ties amongst the board and allowing HR to break the ties on the police officer primary eligibility register",
+      "type": "Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-20",
+      "file_number": "26-0257",
+      "passed_date": null
+    },
+    {
+      "title": "A motion to approve/deny the appeal request of firefighter/paramedic candidate #1 Grabarek",
+      "type": "Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-20",
+      "file_number": "26-0259",
+      "passed_date": null
+    },
+    {
+      "title": "A motion to approve the hire of police officer lateral candidate #10 Strappazon",
+      "type": "Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-20",
+      "file_number": "26-0262",
+      "passed_date": null
+    },
+    {
+      "title": "A motion to approve the open session minutes, and approve and keep sealed the closed session minutes from the February 10, 2025 and February 17, 2025 Naperville board of fire and police meeting",
+      "type": "Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-20",
+      "file_number": "26-0258",
+      "passed_date": null
+    },
+    {
+      "title": "A motion to approve destroying the recording of the June 11, 2024 and June 25, 2024 closed session minutes and to keep the minutes sealed",
+      "type": "Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-20",
+      "file_number": "26-0266",
+      "passed_date": null
+    },
+    {
+      "title": "A motion to approve the hire of firefighter/paramedic candidate #60 Hozian",
+      "type": "Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-20",
+      "file_number": "26-0263",
+      "passed_date": null
+    },
+    {
+      "title": "Approve the Historic Preservation Commission meeting minutes of December 4, 2025",
+      "type": "Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-17",
+      "file_number": "26-0245",
+      "passed_date": null
+    },
+    {
+      "title": "Consider the Certificate of Appropriateness (COA) for 143 N Wright St. - HPC-0009-2025",
+      "type": "Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-17",
+      "file_number": "26-0244",
+      "passed_date": null
+    },
+    {
+      "title": "Receive Electric Utility Regulatory Update Memo",
+      "type": "Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-16",
+      "file_number": "26-0239",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://naperville.legistar.com",
-  "enriched_at": "2026-02-22T18:42:50.012067",
+  "enriched_at": "2026-02-23T02:45:06.813357",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

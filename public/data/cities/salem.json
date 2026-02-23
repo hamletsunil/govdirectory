@@ -518,7 +518,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Salem",
-        "probed_at": "2026-02-22T18:45:11.129185",
+        "probed_at": "2026-02-23T02:50:27.253470",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -782,13 +782,264 @@
     "granularity_flags": 1
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "City Council",
+    "members": [
+      {
+        "name": "Deanna Gwyn",
+        "email": "dggwyn@cityofsalem.net",
+        "title": "Councilor",
+        "start_date": "2023-01-01",
+        "committees": [
+          "Housing Authority of the City of Salem",
+          "Urban Renewal Agency"
+        ]
+      },
+      {
+        "name": "Irvin M. Brown",
+        "email": null,
+        "title": "Councilor",
+        "start_date": "2025-01-13",
+        "committees": [
+          "Housing Authority of the City of Salem",
+          "Urban Renewal Agency"
+        ]
+      },
+      {
+        "name": "Julie Hoy",
+        "email": "jhoy@cityofsalem.net",
+        "title": "Mayor",
+        "start_date": "2025-01-13",
+        "committees": [
+          "Urban Renewal Agency"
+        ]
+      },
+      {
+        "name": "Linda Nishioka",
+        "email": "lnishioka@cityofsalem.net",
+        "title": "Councilor",
+        "start_date": "2022-08-15",
+        "committees": [
+          "Housing Authority of the City of Salem",
+          "Urban Renewal Agency"
+        ]
+      },
+      {
+        "name": "Mai Vang",
+        "email": null,
+        "title": "Councilor",
+        "start_date": "2025-06-23",
+        "committees": [
+          "Housing Authority of the City of Salem",
+          "Urban Renewal Agency"
+        ]
+      },
+      {
+        "name": "Micki Varney",
+        "email": "mvarney@cityofsalem.net",
+        "title": "Councilor",
+        "start_date": "2022-03-28",
+        "committees": [
+          "Housing Authority of the City of Salem",
+          "Urban Renewal Agency"
+        ]
+      },
+      {
+        "name": "Paul Tigan",
+        "email": null,
+        "title": "Councilor",
+        "start_date": "2025-01-13",
+        "committees": [
+          "Housing Authority of the City of Salem",
+          "Urban Renewal Agency"
+        ]
+      },
+      {
+        "name": "Shane Matthews",
+        "email": null,
+        "title": "Councilor",
+        "start_date": "2025-01-13",
+        "committees": [
+          "Urban Renewal Agency"
+        ]
+      },
+      {
+        "name": "Vanessa Nordyke",
+        "email": "vnordyke@cityofsalem.net",
+        "title": "Councilor",
+        "start_date": "2019-10-28",
+        "committees": [
+          "Housing Authority of the City of Salem",
+          "Urban Renewal Agency"
+        ]
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-23",
+      "body": "City Council",
+      "location": "Loucks Auditorium / Salem Public Library",
+      "has_agenda": true,
+      "agenda_url": "https://salem.legistar1.com/salem/meetings/2026/2/1739_A_City_Council_26-02-23_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-23",
+      "body": "Urban Renewal Agency",
+      "location": "Loucks Auditorium / Salem Public Library",
+      "has_agenda": true,
+      "agenda_url": "https://salem.legistar1.com/salem/meetings/2026/2/1758_A_Urban_Renewal_Agency_26-02-23_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-23",
+      "body": "Housing Authority of the City of Salem",
+      "location": "Loucks Auditorium / Salem Public Library",
+      "has_agenda": true,
+      "agenda_url": "https://salem.legistar1.com/salem/meetings/2026/2/1770_A_Housing_Authority_of_the_City_of_Salem_26-02-23_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-17",
+      "body": "City Council",
+      "location": "Loucks Auditorium / Salem Public Library",
+      "has_agenda": true,
+      "agenda_url": "https://salem.legistar1.com/salem/meetings/2026/2/1767_A_City_Council_26-02-17_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-09",
+      "body": "City Council",
+      "location": "Loucks Auditorium / Salem Public Library",
+      "has_agenda": true,
+      "agenda_url": "https://salem.legistar1.com/salem/meetings/2026/2/1738_A_City_Council_26-02-09_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-26",
+      "body": "Housing Authority of the City of Salem",
+      "location": "Loucks Auditorium / Salem Public Library",
+      "has_agenda": true,
+      "agenda_url": "https://salem.legistar1.com/salem/meetings/2026/1/1737_A_Housing_Authority_of_the_City_of_Salem_26-01-26_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-26",
+      "body": "City Council",
+      "location": "Loucks Auditorium / Salem Public Library",
+      "has_agenda": true,
+      "agenda_url": "https://salem.legistar1.com/salem/meetings/2026/1/1754_A_City_Council_26-01-26_Meeting_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-26",
+      "body": "Urban Renewal Agency",
+      "location": "Loucks Auditorium / Salem Public Library",
+      "has_agenda": true,
+      "agenda_url": "https://salem.legistar1.com/salem/meetings/2026/1/1755_A_Urban_Renewal_Agency_26-01-26_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "February 17, 2026, Draft City Council Work Session Minutes",
+      "type": "Minutes",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "26-80",
+      "passed_date": null
+    },
+    {
+      "title": "Proclamation - Englewood Park Centennial Year\r\n\r\nWard(s):  All Wards     \r\nCouncilor(s):  All Councilors     \r\nNeighborhood(s):  All Neighborhoods",
+      "type": "Proclamation",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "26-79",
+      "passed_date": null
+    },
+    {
+      "title": "Proclamation - Women in Construction Week \r\n\r\nWard(s):  All Wards     \r\nCouncilor(s):  All Councilors     \r\nNeighborhood(s):  All Neighborhoods",
+      "type": "Proclamation",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-17",
+      "file_number": "26-78",
+      "passed_date": null
+    },
+    {
+      "title": "Agreement between the City of Salem and Salem Housing Authority for Opioid Settlement Funds to be administered for the purpose of Opioid remediation at Redwood Crossings.     \n\nWard(s): All Wards     ",
+      "type": "Action Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-13",
+      "file_number": "26-77",
+      "passed_date": null
+    },
+    {
+      "title": "Amendment 1 to the Intergovernmental Agreement with the State of Oregon allowing the Office of the Legislative Assembly to use a portion of State Street adjacent to Oregon State Capitol. \n\nWard(s): Wa",
+      "type": "Action Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-12",
+      "file_number": "26-73",
+      "passed_date": null
+    },
+    {
+      "title": "Reporting on changes in perceptions of safety and livability in Salem.    \r\n\r\nWard(s): All Wards     \r\nCouncilor(s): All Councilors     \r\nNeighborhood(s):  All Neighborhoods     \r\nResult Area(s): Good",
+      "type": "SOB - Management Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-12",
+      "file_number": "26-74",
+      "passed_date": null
+    },
+    {
+      "title": "February 9, 2026, Draft City Council Minutes",
+      "type": "Minutes",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-11",
+      "file_number": "26-68",
+      "passed_date": null
+    },
+    {
+      "title": "Revisions to the Salem Revised Code Sections 58.001, 58.003, 58.004, 58.190, 58.305, 58.455, and 58.457 related to the Fire Prevention Code.  \r\n\r\nWard(s): All Wards     \r\nCouncilor(s): All Councilors ",
+      "type": "Ordinance Second Reading",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-10",
+      "file_number": "26-66",
+      "passed_date": null
+    },
+    {
+      "title": "Until further notice, all Salem City Council meetings will be conducted in Loucks Auditorium, located at Salem Public Library, 585 Liberty Street SE, with the option for remote attendance. Please see ",
+      "type": "Future Agenda Items",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-10",
+      "file_number": "26-64",
+      "passed_date": null
+    },
+    {
+      "title": "Vacation of right-of-way in the vicinity of Landaggard Drive NW, north of Orchard Heights Road NW.  \r\n\r\nWard(s): 8  \r\nCouncilor(s): Varney  \r\nNeighborhood(s): West Salem Neighborhood Association  \r\nRe",
+      "type": "Ordinance Second Reading",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-10",
+      "file_number": "26-65",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://salem.legistar.com",
-  "enriched_at": "2026-02-22T18:43:00.157873",
+  "enriched_at": "2026-02-23T02:47:17.595526",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

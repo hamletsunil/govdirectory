@@ -508,7 +508,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Hernando%20County",
-        "probed_at": "2026-02-22T18:46:52.380391",
+        "probed_at": "2026-02-23T02:51:48.710499",
         "data_vintage": "BRFSS None",
         "geographic_level": "place",
         "status": "unavailable"
@@ -772,13 +772,291 @@
     "granularity_flags": 3
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "Board of County Commissioners",
+    "members": [
+      {
+        "name": "Brian Hawkins",
+        "email": "bhawkins@co.hernando.fl.us",
+        "title": "Commissioner",
+        "start_date": "2022-11-09",
+        "committees": [
+          "Board of County Commissioners Budget Hearing",
+          "Board of County Commissioners Budget Workshop",
+          "Board of County Commissioners Workshop",
+          "Community Redevelopment Agency",
+          "Metropolitan Planning Organization"
+        ]
+      },
+      {
+        "name": "Jerry Campbell",
+        "email": "jerryc@co.hernando.fl.us",
+        "title": "Commissioner",
+        "start_date": "2022-11-09",
+        "committees": [
+          "Board of County Commissioners Budget Hearing",
+          "Board of County Commissioners Budget Workshop",
+          "Board of County Commissioners Workshop",
+          "Community Redevelopment Agency",
+          "Metropolitan Planning Organization"
+        ]
+      },
+      {
+        "name": "John Allocco",
+        "email": "jallocco@co.hernando.fl.us",
+        "title": "Commissioner",
+        "start_date": "2024-11-19",
+        "committees": [
+          "Board of County Commissioners Budget Hearing",
+          "Board of County Commissioners Budget Workshop",
+          "Board of County Commissioners Workshop",
+          "Community Redevelopment Agency",
+          "Metropolitan Planning Organization"
+        ]
+      },
+      {
+        "name": "Ryan Amsler",
+        "email": "ramsler@co.hernando.fl.us",
+        "title": "Vice Chairman",
+        "start_date": "2024-11-19",
+        "committees": [
+          "Board of County Commissioners Budget Hearing",
+          "Board of County Commissioners Budget Workshop",
+          "Board of County Commissioners Workshop",
+          "Community Redevelopment Agency",
+          "Metropolitan Planning Organization"
+        ]
+      },
+      {
+        "name": "Steve Champion",
+        "email": "schampion@co.hernando.fl.us",
+        "title": "Second Vice Chairman",
+        "start_date": "2024-11-19",
+        "committees": [
+          "Board of County Commissioners Budget Hearing",
+          "Board of County Commissioners Budget Workshop",
+          "Board of County Commissioners Workshop",
+          "Community Redevelopment Agency",
+          "Metropolitan Planning Organization"
+        ]
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-24",
+      "body": "Board of County Commissioners",
+      "location": "John Law Ayers Commission Chambers, Room 160",
+      "has_agenda": true,
+      "agenda_url": "https://hernandocountyfl.legistar1.com/hernandocountyfl/meetings/2026/2/1468_A_Board_of_County_Commissioners_26-02-24_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-03",
+      "body": "Board of County Commissioners",
+      "location": "John Law Ayers Commission Chambers, Room 160",
+      "has_agenda": true,
+      "agenda_url": "https://hernandocountyfl.legistar1.com/hernandocountyfl/meetings/2026/3/1469_A_Board_of_County_Commissioners_26-03-03_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-10",
+      "body": "Board of County Commissioners",
+      "location": "John Law Ayers Commission Chambers, Room 160",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-10",
+      "body": "Board of County Commissioners",
+      "location": "John Law Ayers Commission Chambers, Room 160",
+      "has_agenda": true,
+      "agenda_url": "https://hernandocountyfl.legistar1.com/hernandocountyfl/meetings/2026/2/1467_A_Board_of_County_Commissioners_26-02-10_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-09",
+      "body": "Planning & Zoning Commission",
+      "location": "John Law Ayers Commission Chambers, Room 160",
+      "has_agenda": true,
+      "agenda_url": "https://hernandocountyfl.legistar1.com/hernandocountyfl/meetings/2026/2/1510_A_Planning___Zoning_Commission_26-02-09_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-06",
+      "body": "Value Adjustment Board",
+      "location": "John Law Ayers Commission Chambers, Room 160",
+      "has_agenda": true,
+      "agenda_url": "https://hernandocountyfl.legistar1.com/hernandocountyfl/meetings/2026/2/1458_A_Value_Adjustment_Board_26-02-06_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-05",
+      "body": "Value Adjustment Board",
+      "location": "John Law Ayers Commission Chambers, Room 160",
+      "has_agenda": true,
+      "agenda_url": "https://hernandocountyfl.legistar1.com/hernandocountyfl/meetings/2026/2/1457_A_Value_Adjustment_Board_26-02-05_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-05",
+      "body": "Metropolitan Planning Organization",
+      "location": "Brooksville City Hall Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://hernandocountyfl.legistar1.com/hernandocountyfl/meetings/2026/2/1508_A_Metropolitan_Planning_Organization_26-02-05_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "Board of County Commissioners",
+      "location": "John Law Ayers Commission Chambers, Room 160",
+      "has_agenda": true,
+      "agenda_url": "https://hernandocountyfl.legistar1.com/hernandocountyfl/meetings/2026/2/1466_A_Board_of_County_Commissioners_26-02-03_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-02",
+      "body": "Value Adjustment Board",
+      "location": "John Law Ayers Commission Chambers, Room 160",
+      "has_agenda": true,
+      "agenda_url": "https://hernandocountyfl.legistar1.com/hernandocountyfl/meetings/2026/2/1456_A_Value_Adjustment_Board_26-02-02_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-30",
+      "body": "Value Adjustment Board",
+      "location": "John Law Ayers Commission Chambers, Room 160",
+      "has_agenda": true,
+      "agenda_url": "https://hernandocountyfl.legistar1.com/hernandocountyfl/meetings/2026/1/1455_A_Value_Adjustment_Board_26-01-30_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-29",
+      "body": "Board of County Commissioners",
+      "location": "John Law Ayers Commission Chambers, Room 160",
+      "has_agenda": true,
+      "agenda_url": "https://hernandocountyfl.legistar1.com/hernandocountyfl/meetings/2026/1/1465_A_Board_of_County_Commissioners_26-01-29_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-27",
+      "body": "Value Adjustment Board",
+      "location": "John Law Ayers Commission Chambers, Room 160",
+      "has_agenda": true,
+      "agenda_url": "https://hernandocountyfl.legistar1.com/hernandocountyfl/meetings/2026/1/1454_A_Value_Adjustment_Board_26-01-27_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Discussion Regarding Proposed Interlocal Agreement With Hernando County Sheriff Concerning License Plate Reader Technology",
+      "type": "Agenda Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-20",
+      "file_number": "17206",
+      "passed_date": null
+    },
+    {
+      "title": "Resolution Amending Building Division Fee Schedule",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "17202",
+      "passed_date": null
+    },
+    {
+      "title": "Update Regarding Status of Declaration of Temporary Burn Ban Due to Drought Conditions",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-16",
+      "file_number": "17196",
+      "passed_date": null
+    },
+    {
+      "title": "Resolution Amending Planning and Zoning Department’s Fee Schedule",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-12",
+      "file_number": "17181",
+      "passed_date": null
+    },
+    {
+      "title": "Resolution Amending Department of Public Works Fee Schedule for Engineering and Road Maintenance Division Fees",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-12",
+      "file_number": "17180",
+      "passed_date": null
+    },
+    {
+      "title": "Resolution Revising Prior Approval of Petition Submitted by Alfred P. Martucci and Sharon K. Martucci for Hardship Relief from Subdivision Regulations",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-11",
+      "file_number": "17173",
+      "passed_date": null
+    },
+    {
+      "title": "Easement With Duke Energy Florida, LLC, for Installation of Electrical and Communication Facilities for Property Located at Dr. Dennis Wilfong Center for Success Within Brooksville-Tampa Bay Regional ",
+      "type": "Agenda Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-11",
+      "file_number": "17171",
+      "passed_date": null
+    },
+    {
+      "title": "First Public Hearing on Ordinance Amending Size Requirements for Structures with Impervious Roof Coverings that Require Zoning Permits Prior to Construction or Permit",
+      "type": "Agenda Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-11",
+      "file_number": "17172",
+      "passed_date": null
+    },
+    {
+      "title": "First Public Hearing on Ordinance Amending Conditional Use Permit Regulations",
+      "type": "Agenda Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-10",
+      "file_number": "17169",
+      "passed_date": null
+    },
+    {
+      "title": "Master Plan Revision Petition Submitted by SV Tampa Land LP, LLC (H2549)",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-09",
+      "file_number": "17161",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://hernandocountyfl.legistar.com",
-  "enriched_at": "2026-02-22T18:42:39.250229",
+  "enriched_at": "2026-02-23T02:43:23.133852",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

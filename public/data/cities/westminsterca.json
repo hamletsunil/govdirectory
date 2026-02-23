@@ -508,7 +508,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Westminster",
-        "probed_at": "2026-02-22T18:45:48.870935",
+        "probed_at": "2026-02-23T02:50:57.780789",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -772,13 +772,154 @@
     "granularity_flags": 2
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "City Council",
+    "members": [
+      {
+        "name": "Amy Phan West",
+        "email": "aphanwest@westminster-ca.gov",
+        "title": "Council Member",
+        "start_date": "2022-12-14"
+      },
+      {
+        "name": "Chi Charlie Nguyen",
+        "email": "ccnguyen@westminster-ca.gov",
+        "title": "Mayor",
+        "start_date": "2018-12-12"
+      },
+      {
+        "name": "NamQuan Nguyen",
+        "email": "nnguyen@westminster-ca.gov",
+        "title": "Council Member",
+        "start_date": "2022-12-14"
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-25",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-11",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-11",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-28",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Public Hearing - Consideration of the City of Westminster’s Housing and Community Development Needs in Preparation of the Fiscal Year 2026-2027 Annual Action Plan",
+      "type": "Public Hearings",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-25",
+      "file_number": "26-1296",
+      "passed_date": null
+    },
+    {
+      "title": "Orange County Fire Authority (OCFA) 2025 Year End Review.",
+      "type": "Consent Calendar Items",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-20",
+      "file_number": "26-1300",
+      "passed_date": null
+    },
+    {
+      "title": "Minutes of the City Council and the Successor Agency to the Westminster Redevelopment Agency.",
+      "type": "Consent Calendar Items",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "26-1299",
+      "passed_date": null
+    },
+    {
+      "title": "Approval of Proclamations.",
+      "type": "Consent Calendar Items",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-17",
+      "file_number": "26-1298",
+      "passed_date": null
+    },
+    {
+      "title": "Award of Contract - 2025 CDBG Residential Street Overlay Project (Project No: P-2665).",
+      "type": "Regular Business",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-12",
+      "file_number": "26-1295",
+      "passed_date": null
+    },
+    {
+      "title": "Strategic Plan Goal #1 - Achieve Financial Stability.\r\nStrategic Plan Objective: Engage a consultant to conduct a scientifically valid community survey to gauge community perspective on potential reve",
+      "type": "Regular Business",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-10",
+      "file_number": "26-1294",
+      "passed_date": null
+    },
+    {
+      "title": "Receipt of the Fiscal Year 2024-2025 Annual Comprehensive Financial Report (ACFR) and Related Statements.",
+      "type": "Regular Business",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-10",
+      "file_number": "26-1293",
+      "passed_date": null
+    },
+    {
+      "title": "Treasurer’s Report for January 2026.",
+      "type": "Consent Calendar Items",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-10",
+      "file_number": "26-1292",
+      "passed_date": null
+    },
+    {
+      "title": "Fiscal Year 2025-26 Midyear Budget Review.",
+      "type": "Consent Calendar Items",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-10",
+      "file_number": "26-1291",
+      "passed_date": null
+    },
+    {
+      "title": "City Council and Successor Agency Warrant Register dated February 5, 2026 through February 18, 2026.",
+      "type": "Consent Calendar Items",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-10",
+      "file_number": "26-1290",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://westminsterca.legistar.com",
-  "enriched_at": "2026-02-22T18:43:06.637261",
+  "enriched_at": "2026-02-23T02:48:36.837638",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

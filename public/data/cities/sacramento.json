@@ -495,7 +495,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Sacramento",
-        "probed_at": "2026-02-22T18:44:40.739452",
+        "probed_at": "2026-02-23T02:50:01.897744",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -759,13 +759,392 @@
     "granularity_flags": 1
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "City Council - 5PM",
+    "members": [
+      {
+        "name": "Caity Maple",
+        "email": "district5@cityofsacramento.org",
+        "title": "Member",
+        "start_date": "2022-12-01",
+        "committees": [
+          "City Council - 2PM",
+          "City Council - 3"
+        ]
+      },
+      {
+        "name": "Eric Guerra",
+        "email": "eguerra@cityofsacramento.org",
+        "title": "Mayor Pro Tem",
+        "start_date": "2024-12-10",
+        "committees": [
+          "City Council - 2PM",
+          "City Council - 3",
+          "Racial Equity Committee"
+        ]
+      },
+      {
+        "name": "Karina Talamantes",
+        "email": "district3@cityofsacramento.org",
+        "title": "Vice Mayor",
+        "start_date": "2022-12-01",
+        "committees": [
+          "Personnel and Public Employees Committee",
+          "Racial Equity Committee"
+        ]
+      },
+      {
+        "name": "Kevin McCarty",
+        "email": "mayor@cityofsacramento.org",
+        "title": "Mayor",
+        "start_date": "2024-12-10",
+        "committees": [
+          "City Council - 2PM",
+          "City Council - 3"
+        ]
+      },
+      {
+        "name": "Lisa Kaplan",
+        "email": "district1@cityofsacramento.org",
+        "title": "Member",
+        "start_date": "2022-12-01",
+        "committees": [
+          "City Council - 2PM",
+          "City Council - 3",
+          "Personnel and Public Employees Committee"
+        ]
+      },
+      {
+        "name": "Mai Vang",
+        "email": "district8@cityofsacramento.org",
+        "title": "Member",
+        "start_date": "2024-12-10",
+        "committees": [
+          "City Council - 2PM",
+          "City Council - 3",
+          "Personnel and Public Employees Committee",
+          "Racial Equity Committee"
+        ]
+      },
+      {
+        "name": "Phil  Pluckebaum",
+        "email": "district4@cityofsacramento.org",
+        "title": "Member",
+        "start_date": "2024-12-10",
+        "committees": [
+          "City Council - 2PM",
+          "City Council - 3"
+        ]
+      },
+      {
+        "name": "Rick Jennings II",
+        "email": "rjennings@cityofsacramento.org",
+        "title": "Member",
+        "start_date": "2022-12-01",
+        "committees": [
+          "City Council - 2PM",
+          "City Council - 3",
+          "Personnel and Public Employees Committee",
+          "Racial Equity Committee"
+        ]
+      },
+      {
+        "name": "Roger Dickinson",
+        "email": "district2@cityofsacramento.org",
+        "title": "Member",
+        "start_date": "2024-12-10",
+        "committees": [
+          "City Council - 2PM",
+          "City Council - 3"
+        ]
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-23",
+      "body": "Ethics Commission",
+      "location": "City Hall Complex, 915 I Street, Sacramento, CA 95814",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-23",
+      "body": "Measure U Community Advisory Commission",
+      "location": "City Hall Council Chamber - 915 I Street - 1st Floor",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-24",
+      "body": "City Council - 2PM",
+      "location": "City Hall Complex, 915 I Street, Sacramento, CA 95814",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-24",
+      "body": "City Council - 5PM",
+      "location": "City Hall Complex, 915 I Street, Sacramento, CA 95814",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-26",
+      "body": "Planning and Design Commission",
+      "location": "City Hall Council Chamber - 915 I Street Sacramento, CA 95814",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-02",
+      "body": "Youth Commission",
+      "location": "City Hall Complex, 915 I Street, Sacramento, CA 95814",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-03",
+      "body": "City Council - 2PM",
+      "location": "City Hall Complex, 915 I Street, Sacramento, CA 95814",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-03",
+      "body": "City Council - 5PM",
+      "location": "City Hall Complex, 915 I Street, Sacramento, CA 95814",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-04",
+      "body": "Disabilities Advisory Commission",
+      "location": "City Hall Complex, 915 I Street, Sacramento, CA 95814",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-05",
+      "body": "Parks and Community Enrichment Commission",
+      "location": "City Hall Complex, 915 I Street, Sacramento, CA 95814",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-19",
+      "body": "Active Transportation Commission",
+      "location": "City Hall Complex, 915 I Street, Sacramento, CA 95814",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-19",
+      "body": "Administration, Investment, & Fiscal Management Board",
+      "location": "City Hall Complex, 915 I Street, Sacramento, CA 95814",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-18",
+      "body": "Preservation Commission",
+      "location": "City Hall Council Chamber - 915 I Street",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "City Council - 2PM",
+      "location": "City Hall Complex, 915 I Street, Sacramento, CA 95814",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "City Council - 2PM",
+      "location": "City Hall Complex, 915 I Street, Sacramento, CA 95814",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "City Council - 5PM",
+      "location": "City Hall Complex, 915 I Street, Sacramento, CA 95814",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-12",
+      "body": "Planning and Design Commission",
+      "location": "City Hall Council Chamber - 915 I Street Sacramento, CA 95814",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-11",
+      "body": "Joint Meetings of the Litigation Resolution Committee and the Workers’ Compensation Claims Committee",
+      "location": "City Hall Complex, 915 I Street, Sacramento, CA 95814",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-11",
+      "body": "Animal Wellbeing Commission",
+      "location": "City Hall Complex, 915 I Street, Sacramento, CA 95814",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "City Council - 2PM",
+      "location": "City Hall Complex, 915 I Street, Sacramento, CA 95814",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "WKJ Test File - Approval of the Ethel MacLeod Hart Trust Fund Advisory Committee Meeting Minutes",
+      "type": "Consent Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-12-25",
+      "file_number": "2026-00545",
+      "passed_date": null
+    },
+    {
+      "title": "[Grant] Governor’s Office of Business and Economic Development (GO-Biz) Cannabis Equity Grant for Local Jurisdictions",
+      "type": "Consent Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-10",
+      "file_number": "2026-00596",
+      "passed_date": null
+    },
+    {
+      "title": "Law and Legislation Committee Meeting Minutes",
+      "type": "Consent Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-04",
+      "file_number": "2026-00572",
+      "passed_date": null
+    },
+    {
+      "title": "City Auditor's Activity Report for the 2nd Quarter of Fiscal Year (FY) 2025/26",
+      "type": "Consent Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-03",
+      "file_number": "2026-00565",
+      "passed_date": null
+    },
+    {
+      "title": "WKJ Test File - Ethel MacLeod Trust Fund Cycle 7 Funding Review and Recommendations February 2026",
+      "type": "Discussion Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-02",
+      "file_number": "2026-00548",
+      "passed_date": null
+    },
+    {
+      "title": "Review of Applicants for the Civil Service Board",
+      "type": "Discussion Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-02",
+      "file_number": "2026-00554",
+      "passed_date": null
+    },
+    {
+      "title": "WKJ Test File - Selection of Chair and Vice Chair for Calendar Year 2026",
+      "type": "Discussion Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-02",
+      "file_number": "2026-00549",
+      "passed_date": null
+    },
+    {
+      "title": "WKJ Test File - Ethel MacLeod Trust Fund Financial Updates February 2026",
+      "type": "Consent Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-02",
+      "file_number": "2026-00546",
+      "passed_date": null
+    },
+    {
+      "title": "WKJ Test File - Ethel MacLeod Trust Fund Cycle 6 Funding Review and Recommendations February 2026",
+      "type": "Discussion Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-02",
+      "file_number": "2026-00547",
+      "passed_date": null
+    },
+    {
+      "title": "Review of Applicants for the City of Sacramento Housing Code Advisory and Appeals Board",
+      "type": "Discussion Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-02",
+      "file_number": "2026-00555",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://sacramento.legistar.com",
-  "enriched_at": "2026-02-22T18:42:59.986772",
+  "enriched_at": "2026-02-23T02:47:14.828683",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

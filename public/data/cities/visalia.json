@@ -506,7 +506,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Visalia",
-        "probed_at": "2026-02-22T18:45:25.525867",
+        "probed_at": "2026-02-23T02:50:39.095743",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -770,13 +770,152 @@
     "granularity_flags": 2
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "Visalia City Council ",
+    "members": [
+      {
+        "name": "Brett Taylor",
+        "email": "brett.taylor@visalia.city",
+        "title": "Mayor",
+        "start_date": "2022-12-09"
+      },
+      {
+        "name": "Brian Poochigian",
+        "email": "brian.poochigian@visalia.city",
+        "title": "Council Member",
+        "start_date": "2022-12-09",
+        "committees": [
+          "City Council Closed Session"
+        ]
+      },
+      {
+        "name": "Emmanuel Hernandez Soto",
+        "email": null,
+        "title": "Council Member",
+        "start_date": "2022-12-08",
+        "committees": [
+          "City Council Closed Session"
+        ]
+      },
+      {
+        "name": "Liz Wynn",
+        "email": null,
+        "title": "Vice Mayor",
+        "start_date": "2021-08-16"
+      },
+      {
+        "name": "Steve Nelsen",
+        "email": "steve.nelsen@visalia.city",
+        "title": "Council Member",
+        "start_date": "2022-12-08"
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-17",
+      "body": "Visalia City Council",
+      "location": "City Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://visalia.legistar1.com/visalia/meetings/2026/2/2162_A_Visalia_City_Council__26-02-17_Meeting_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-02",
+      "body": "Visalia City Council",
+      "location": "City Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://visalia.legistar1.com/visalia/meetings/2026/2/2161_A_Visalia_City_Council__26-02-02_Meeting_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Designate portion of City owned property into public right of way - Adopt Resolution 2026-05 designating portions of City owned property located at the northwest and southwest corners of McAulliff Str",
+      "type": "Consent Item",
+      "status": "Passed",
+      "intro_date": "2026-02-09",
+      "file_number": "25-0669",
+      "passed_date": "2026-02-17"
+    },
+    {
+      "title": "Parks and Recreation Commission appointment- Approve the Parks and Recreation Commission sub-committee recommendation to appoint Jacob Olson to the Parks and Recreation Commission.",
+      "type": "Consent Item",
+      "status": "Passed",
+      "intro_date": "2026-02-09",
+      "file_number": "25-0667",
+      "passed_date": "2026-02-17"
+    },
+    {
+      "title": "Designate City owned property into public right of way - Adopt Resolution 2026-04 designating City owned property located at the southwest corner of Pratt Avenue and Mooney Blvd into the public right ",
+      "type": "Consent Item",
+      "status": "Passed",
+      "intro_date": "2026-02-09",
+      "file_number": "25-0668",
+      "passed_date": "2026-02-17"
+    },
+    {
+      "title": "Authorization to read ordinances by title only.",
+      "type": "Consent Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-04",
+      "file_number": "25-0664",
+      "passed_date": null
+    },
+    {
+      "title": "Visalia Convention and Visitors Bureau Agreement - Authorize the City Manager to negotiate and enter into a professional services agreement with the Visalia Convention and Visitors Bureau for conventi",
+      "type": "Consent Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-03",
+      "file_number": "25-0662",
+      "passed_date": null
+    },
+    {
+      "title": "Approve a contract extension with Aspen Rentals - Authorize the City Manager to approve a 1-year extension to the existing agreement with Aspen Rentals in the amount of $170,000 for the rental of a be",
+      "type": "Consent Item",
+      "status": "Passed",
+      "intro_date": "2026-02-02",
+      "file_number": "25-0660",
+      "passed_date": "2026-02-17"
+    },
+    {
+      "title": "Award of annual contract for analytical laboratory services - Authorize the City Manager to award an annual contract, not to exceed $260,000 per year, with four (4) annual renewal options to Moore Twi",
+      "type": "Consent Item",
+      "status": "Passed",
+      "intro_date": "2026-02-02",
+      "file_number": "25-0659",
+      "passed_date": "2026-02-17"
+    },
+    {
+      "title": "Upcoming City Council Meetings \r\n\r\nMonday, March 2, 2026 @ 7:00 p.m. at 707 W. Acequia\r\n\r\nMonday, March 16, 2026 @ 7:00 p.m. at 707 W. Acequia\r\n\r\nNote:  Meeting dates and times are subject to change, ",
+      "type": "Regular Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-28",
+      "file_number": "25-0654",
+      "passed_date": null
+    },
+    {
+      "title": "Notice of completion - Authorization to file the notice of completion for the Valley Strong Stadium (Recreation Park) Expansion & Remodel of Clubhouse & Batting Cage: Task 1 - Batting Cage & Related S",
+      "type": "Consent Item",
+      "status": "Passed",
+      "intro_date": "2026-01-26",
+      "file_number": "25-0652",
+      "passed_date": "2026-02-17"
+    },
+    {
+      "title": "Award construction contract and accept California Natural Resources Agency funding - Authorize the City Manager to award the construction contract for the Oaks Basin project to Archer Civil Constructi",
+      "type": "Consent Item",
+      "status": "Passed",
+      "intro_date": "2026-01-22",
+      "file_number": "25-0639",
+      "passed_date": "2026-02-17"
+    }
+  ],
   "legistar_url": "https://visalia.legistar.com",
-  "enriched_at": "2026-02-22T18:43:05.593895",
+  "enriched_at": "2026-02-23T02:48:20.104544",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

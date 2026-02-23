@@ -508,7 +508,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Dublin",
-        "probed_at": "2026-02-22T18:45:59.515395",
+        "probed_at": "2026-02-23T02:51:06.325880",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -772,13 +772,110 @@
     "granularity_flags": 2
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "City Council",
+    "members": [
+      {
+        "name": "Aimee Dacumos",
+        "email": "aimee.dacumos@dublin.ca.gov",
+        "title": null,
+        "start_date": "2026-02-01"
+      },
+      {
+        "name": "Anthony Cukar",
+        "email": "anthony.cukar@dublin.ca.gov",
+        "title": null,
+        "start_date": "2026-02-01"
+      },
+      {
+        "name": "Ben Keisic",
+        "email": "ben.keisic@dublin.ca.gov",
+        "title": null,
+        "start_date": "2026-02-01"
+      },
+      {
+        "name": "Brandon Harris",
+        "email": "brandon.harris@dublin.ca.gov",
+        "title": null,
+        "start_date": "2026-02-01"
+      },
+      {
+        "name": "Carlos Moya",
+        "email": "carlos.moya@dublin.ca.gov",
+        "title": null,
+        "start_date": "2026-02-02"
+      },
+      {
+        "name": "Cathy Wells",
+        "email": "cathy.wells@dublin.ca.gov",
+        "title": null,
+        "start_date": "2026-02-02"
+      },
+      {
+        "name": "Christina Brekelmans",
+        "email": "christina.brekelmans@dublin.ca.gov",
+        "title": null,
+        "start_date": "2026-02-01"
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-10",
+      "body": "City Council",
+      "location": "Peter W. Snyder Council Chamber",
+      "has_agenda": true,
+      "agenda_url": "https://dublin.legistar1.com/dublin/meetings/2026/2/909_A_City_Council_26-02-10_Meeting_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-30",
+      "body": "City Council",
+      "location": "Peter W. Snyder Council Chamber 2",
+      "has_agenda": true,
+      "agenda_url": "https://dublin.legistar1.com/dublin/meetings/2026/1/907_A_City_Council_26-01-30_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Test Approval Tracking 1",
+      "type": "Resolution",
+      "status": "Passed",
+      "intro_date": "2026-02-12",
+      "file_number": "2026-3",
+      "passed_date": "2026-02-17"
+    },
+    {
+      "title": "Test Item with Approval Tracking 2",
+      "type": "Resolution",
+      "status": "Referred",
+      "intro_date": "2026-02-12",
+      "file_number": "2026-4",
+      "passed_date": null
+    },
+    {
+      "title": "Test Resolution Template",
+      "type": "Resolution",
+      "status": "Passed",
+      "intro_date": "2026-02-05",
+      "file_number": "25-023",
+      "passed_date": "2026-02-10"
+    },
+    {
+      "title": "Test Res With Template",
+      "type": "Resolution",
+      "status": "Passed",
+      "intro_date": "2026-02-05",
+      "file_number": "2026-1",
+      "passed_date": "2026-02-10"
+    }
+  ],
   "legistar_url": "https://dublin.legistar.com",
-  "enriched_at": "2026-02-22T18:42:34.060419",
+  "enriched_at": "2026-02-23T02:42:22.530179",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

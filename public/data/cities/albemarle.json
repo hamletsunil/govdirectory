@@ -372,7 +372,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Stanly%20County",
-        "probed_at": "2026-02-22T18:47:49.298655",
+        "probed_at": "2026-02-23T02:52:35.311232",
         "data_vintage": "BRFSS None",
         "geographic_level": "place",
         "status": "unavailable"
@@ -636,13 +636,162 @@
     "granularity_flags": 0
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "Board of Supervisors",
+    "members": [
+      {
+        "name": "Ann H. Mallek",
+        "email": "AMallek@albemarle.org",
+        "title": "Supervisor, White Hall District",
+        "start_date": "2012-01-01"
+      },
+      {
+        "name": "Bea LaPisto-Kirtley",
+        "email": "bkirtley@albemarle.org",
+        "title": "Supervisor, Rivanna District",
+        "start_date": "2020-01-01"
+      },
+      {
+        "name": "Fred Missel",
+        "email": "fmissel2@albemarle.org",
+        "title": "Supervisor, Samuel Miller District ",
+        "start_date": "2026-01-01"
+      },
+      {
+        "name": "Mike Pruitt",
+        "email": "mpruitt@albemarle.org",
+        "title": "Supervisor, Scottsville District ",
+        "start_date": "2024-01-01"
+      },
+      {
+        "name": "Ned Gallaway",
+        "email": "ngallaway@albemarle.org",
+        "title": "Supervisor, Rio District",
+        "start_date": "2018-01-01"
+      },
+      {
+        "name": "Sally Duncan",
+        "email": "sduncan@albemarle.org",
+        "title": "Supervisor, Jack Jouett District",
+        "start_date": "2026-01-01"
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-25",
+      "body": "Board of Supervisors",
+      "location": "Room 241",
+      "has_agenda": true,
+      "agenda_url": "https://albemarle.legistar1.com/albemarle/meetings/2026/2/1569_A_Board_of_Supervisors_26-02-25_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-18",
+      "body": "Board of Supervisors",
+      "location": "Lane Auditorium",
+      "has_agenda": true,
+      "agenda_url": "https://albemarle.legistar1.com/albemarle/meetings/2026/2/1544_A_Board_of_Supervisors_26-02-18_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-04",
+      "body": "Board of Supervisors",
+      "location": "Lane Auditorium",
+      "has_agenda": true,
+      "agenda_url": "https://albemarle.legistar1.com/albemarle/meetings/2026/2/1543_A_Board_of_Supervisors_26-02-04_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Resolution Authorizing Both (I) Development Grant Agreement(s) and/or Performance Agreement(s) with the Economic Development Authority of Albemarle County, Virginia, and/or AstraZeneca LP and (II) a D",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "26-183",
+      "passed_date": null
+    },
+    {
+      "title": "DRAFT Letter to Federal Delegation.",
+      "type": "Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "26-179",
+      "passed_date": null
+    },
+    {
+      "title": "County Executive’s FY 2026/2027 Recommended Budget.",
+      "type": "Presentation",
+      "status": "Presentations",
+      "intro_date": "2026-02-10",
+      "file_number": "26-172",
+      "passed_date": null
+    },
+    {
+      "title": "Board to Board, February 2026, A Monthly Report from the Albemarle County School Board.",
+      "type": "Report",
+      "status": "Consent Agenda (no vote)",
+      "intro_date": "2026-02-06",
+      "file_number": "26-169",
+      "passed_date": null
+    },
+    {
+      "title": "Approval of Minutes: May 21 and September 3, 2025.",
+      "type": "Minutes",
+      "status": "Consent Agenda",
+      "intro_date": "2026-02-05",
+      "file_number": "26-166",
+      "passed_date": null
+    },
+    {
+      "title": "FY 26 Second Quarter Financial Report.",
+      "type": "Report",
+      "status": "Consent Agenda (no vote)",
+      "intro_date": "2026-02-02",
+      "file_number": "26-182",
+      "passed_date": null
+    },
+    {
+      "title": "Fiscal Year 2026 Appropriations.",
+      "type": "Resolution",
+      "status": "Consent Agenda",
+      "intro_date": "2026-02-02",
+      "file_number": "26-181",
+      "passed_date": null
+    },
+    {
+      "title": "Resolution Confirming and Ending Declaration of Local Emergency.",
+      "type": "Resolution",
+      "status": "Consent Agenda",
+      "intro_date": "2026-01-27",
+      "file_number": "26-176",
+      "passed_date": null
+    },
+    {
+      "title": "Public Hearing for Conveyance of Utility Easements on Colonnade Drive (SUB-2025-00215). To consider granting public utility easements to the Albemarle County Service Authority and drainage easements, ",
+      "type": "Resolution",
+      "status": "Public Hearing",
+      "intro_date": "2026-01-26",
+      "file_number": "26-173",
+      "passed_date": null
+    },
+    {
+      "title": "Three Notched Trail Master Plan Project Update.",
+      "type": "Report",
+      "status": "Presentations",
+      "intro_date": "2026-01-26",
+      "file_number": "26-174",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://albemarle.legistar.com",
-  "enriched_at": "2026-02-22T18:42:17.830120",
+  "enriched_at": "2026-02-23T02:39:14.273693",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

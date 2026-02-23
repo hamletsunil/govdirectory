@@ -510,7 +510,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Salinas",
-        "probed_at": "2026-02-22T18:45:12.940420",
+        "probed_at": "2026-02-23T02:50:28.773339",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -774,13 +774,293 @@
     "granularity_flags": 2
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "City Council",
+    "members": [
+      {
+        "name": "Aurelio Salazar",
+        "email": null,
+        "title": "Councilmember",
+        "start_date": "2024-12-04",
+        "committees": [
+          "Housing and Land Use Committee"
+        ]
+      },
+      {
+        "name": "Dennis Donohue",
+        "email": null,
+        "title": "Mayor",
+        "start_date": "2024-12-04",
+        "committees": [
+          "Finance Committee"
+        ]
+      },
+      {
+        "name": "Gloria De La Rosa",
+        "email": "district4@ci.salinas.ca.us",
+        "title": "Councilmember",
+        "start_date": "2024-12-04",
+        "committees": [
+          "Finance Committee"
+        ]
+      },
+      {
+        "name": "Jose Andrew Sandoval",
+        "email": null,
+        "title": "Councilmember",
+        "start_date": "2022-12-13"
+      },
+      {
+        "name": "Jose Barajas",
+        "email": null,
+        "title": "Councilmember",
+        "start_date": "2024-12-04",
+        "committees": [
+          "Housing and Land Use Committee"
+        ]
+      },
+      {
+        "name": "Margaret D'Arrigo",
+        "email": null,
+        "title": "Councilmember",
+        "start_date": "2024-12-04",
+        "committees": [
+          "Finance Committee"
+        ]
+      },
+      {
+        "name": "Tony Barrera",
+        "email": "district2@ci.salinas.ca.us",
+        "title": "Councilmember",
+        "start_date": "2010-11-02"
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-23",
+      "body": "Public Art Commission",
+      "location": "Salinas Rotunda",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/salinas/meetings/2026/2/3000_A_Public_Art_Commission_26-02-23_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-24",
+      "body": "City Council",
+      "location": "SALINAS ROTUNDA",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/salinas/meetings/2026/2/2902_A_City_Council_26-02-24_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-25",
+      "body": "Police Community Advisory Committee",
+      "location": "Salinas Rotunda",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/salinas/meetings/2026/2/3002_A_Police_Community_Advisory_Committee_26-02-25_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-26",
+      "body": "Airport Commission",
+      "location": "City Council Rotunda",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/salinas/meetings/2026/2/2950_A_Airport_Commission_26-02-26_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-18",
+      "body": "Planning Commission",
+      "location": "City Council Rotunda",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/salinas/meetings/2026/2/2975_A_Planning_Commission_26-02-18_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "Housing and Land Use Committee",
+      "location": "Council Chamber",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/salinas/meetings/2026/2/3026_A_Housing_and_Land_Use_Committee_26-02-17_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "Finance Committee",
+      "location": "Salinas Rotunda",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/salinas/meetings/2026/2/3012_A_Finance_Committee_26-02-17_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-12",
+      "body": "Traffic and Transportation Commission",
+      "location": "Salinas Rotunda",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/salinas/meetings/2026/2/3025_A_Traffic_and_Transportation_Commission_26-02-12_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-04",
+      "body": "Planning Commission",
+      "location": "City Council Rotunda",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "Finance Committee",
+      "location": "Salinas Rotunda",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/salinas/meetings/2026/2/2926_A_Finance_Committee_26-02-03_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "City Council",
+      "location": "SALINAS ROTUNDA",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/salinas/meetings/2026/2/2901_A_City_Council_26-02-03_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-02",
+      "body": "Historic Resources Board",
+      "location": "Salinas Rotunda\r\n200 Lincoln Avenue, Salinas CA",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/salinas/meetings/2026/2/2937_A_Historic_Resources_Board_26-02-02_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-28",
+      "body": "Police Community Advisory Committee",
+      "location": "Salinas Rotunda",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/salinas/meetings/2026/1/3001_A_Police_Community_Advisory_Committee_26-01-28_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-27",
+      "body": "City Council",
+      "location": "SALINAS ROTUNDA",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/salinas/meetings/2026/1/2900_A_City_Council_26-01-27_Meeting_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Hartnell College Foundation - Salinas Valley Promise",
+      "type": "Minute Order",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "ID#26-063",
+      "passed_date": null
+    },
+    {
+      "title": "a.\tLabor Negotiations - California Government Code Section §54957.6 with its designated labor representatives Rene Mendez, City Manager; Lisa G. Murphy, Assistant City Manager; Christopher A. Callihan",
+      "type": "Minute Order",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "ID#26-064",
+      "passed_date": null
+    },
+    {
+      "title": "Public Review Draft Visión Salinas 2040 General Plan",
+      "type": "Administrative Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "ID#26-060",
+      "passed_date": null
+    },
+    {
+      "title": "Annual Public Art Plan Fiscal Year 2026-2027",
+      "type": "Minute Order",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "ID#26-061",
+      "passed_date": null
+    },
+    {
+      "title": "Rental Registration and Rent Stabilization 2025 Final Program Data and 2026 Implementation Activities",
+      "type": "Administrative Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-13",
+      "file_number": "ID#26-054",
+      "passed_date": null
+    },
+    {
+      "title": "Study Session: CEQA 101",
+      "type": "Administrative Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-13",
+      "file_number": "ID#26-053",
+      "passed_date": null
+    },
+    {
+      "title": "All-Way STOP at California Street and East San Luis Street",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-11",
+      "file_number": "ID#26-049",
+      "passed_date": null
+    },
+    {
+      "title": "All-Way STOP Request for North Madeira Avenue and Roosevelt Street",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-11",
+      "file_number": "ID#26-051",
+      "passed_date": null
+    },
+    {
+      "title": "2025 Permit Center Annual Report",
+      "type": "Administrative Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-11",
+      "file_number": "ID#26-050",
+      "passed_date": null
+    },
+    {
+      "title": "Minutes from January 20, 2026, Housing and Land Use Committee Meeting",
+      "type": "Minute Order",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-10",
+      "file_number": "ID#26-043",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://salinas.legistar.com",
-  "enriched_at": "2026-02-22T18:43:00.326629",
+  "enriched_at": "2026-02-23T02:47:20.438097",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

@@ -413,7 +413,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Harris%20County",
-        "probed_at": "2026-02-22T18:47:23.568006",
+        "probed_at": "2026-02-23T02:52:14.353471",
         "data_vintage": "BRFSS None",
         "geographic_level": "place",
         "status": "unavailable"
@@ -677,13 +677,172 @@
     "granularity_flags": 0
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "Commissioners Court",
+    "members": [
+      {
+        "name": "Adrian Garcia",
+        "email": null,
+        "title": "Commissioner",
+        "start_date": "2019-01-01"
+      },
+      {
+        "name": "Lesley Briones",
+        "email": null,
+        "title": "Commissioner",
+        "start_date": "2023-01-01"
+      },
+      {
+        "name": "Lina Hidalgo",
+        "email": null,
+        "title": "County Judge",
+        "start_date": "2019-01-01"
+      },
+      {
+        "name": "Rodney Ellis",
+        "email": null,
+        "title": "Commissioner",
+        "start_date": "2017-01-01"
+      },
+      {
+        "name": "Teneshia Hudspeth",
+        "email": "Teneshia.Hudspeth@cco.hctx.net",
+        "title": "County Clerk",
+        "start_date": "2023-01-01"
+      },
+      {
+        "name": "Tom  S. Ramsey, P.E.",
+        "email": null,
+        "title": "Commissioner",
+        "start_date": "2021-01-01"
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-26",
+      "body": "Commissioners Court",
+      "location": "1001 Preston, 1st Floor",
+      "has_agenda": true,
+      "agenda_url": "https://harriscountytx.legistar1.com/harriscountytx/meetings/2026/2/1230_A_Commissioners_Court_26-02-26_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-12",
+      "body": "Commissioners Court",
+      "location": "1001 Preston, 1st Floor",
+      "has_agenda": true,
+      "agenda_url": "https://harriscountytx.legistar1.com/harriscountytx/meetings/2026/2/1229_A_Commissioners_Court_26-02-12_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "Commissioners Court",
+      "location": "1001 Preston, 1st Floor",
+      "has_agenda": true,
+      "agenda_url": "https://harriscountytx.legistar1.com/harriscountytx/meetings/2026/2/1259_A_Commissioners_Court_26-02-10_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-29",
+      "body": "Commissioners Court",
+      "location": "1001 Preston, 1st Floor",
+      "has_agenda": true,
+      "agenda_url": "https://harriscountytx.legistar1.com/harriscountytx/meetings/2026/1/1228_A_Commissioners_Court_26-01-29_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Request by the Office of the County Engineer for approval to award a contract to MC2 Civil, LLC, in the amount of $2,218,706.95 for Construction Services of Roadway Maintenance - Asphalt Package -4- 2",
+      "type": "Contract - Award",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "26-1536",
+      "passed_date": null
+    },
+    {
+      "title": "Request by the Office of the Purchasing Agent for approval of an award on the basis of best proposal meeting requirements and that the County Judge execute an agreement with Playaway Products LLC; Mid",
+      "type": "Contract - Award",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "26-1520",
+      "passed_date": null
+    },
+    {
+      "title": "Request by Public Health Services for approval to submit an application to the Texas Health and Human Services Commission for grant funds in the amount of $5,000,000, with no required match, for the F",
+      "type": "Grant",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "26-1522",
+      "passed_date": null
+    },
+    {
+      "title": "Request by the Flood Control District for approval to delegate authority to the Harris County Purchasing Agent to take necessary action to award construction contracts in accordance with Texas Governm",
+      "type": "Policy",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "26-1528",
+      "passed_date": null
+    },
+    {
+      "title": "Request by Public Health Services for approval to accept from the U.S. Department of Housing and Urban Development (HUD) grant funds in the amount of $5,750,000, with a required match of $500,000, for",
+      "type": "Grant",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "26-1523",
+      "passed_date": null
+    },
+    {
+      "title": "Request by the Office of Management and Budget for discussion and possible action on the Harris County strategic hiring savings projections and accrued vacancy savings.",
+      "type": "Discussion Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "26-1517",
+      "passed_date": null
+    },
+    {
+      "title": "Request by Harris County Resources for Children & Adults for approval to submit an application to the Texas Health and Human Services Commission for grant funds in the amount of $1,000,000 with no req",
+      "type": "Grant",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "26-1521",
+      "passed_date": null
+    },
+    {
+      "title": "Request by Public Health Services for approval of renewal of an agreement with Texas Children’s Pediatrics to collaborate by utilizing Community Health Workers in pediatric clinics for the term March ",
+      "type": "Contract - Renewal",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "26-1527",
+      "passed_date": null
+    },
+    {
+      "title": "Request by the Flood Control District for approval on the basis of highest overall evaluation to establish a Registry and authorize negotiations with multiple vendors for professional services to prov",
+      "type": "Negotiation",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "26-1529",
+      "passed_date": null
+    },
+    {
+      "title": "Request by Public Health Services that the County Judge execute an interlocal agreement with The Harris Center for Mental Health and IDD in an amount not to exceed $602,652.75 to support activities fo",
+      "type": "Grant",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "26-1524",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://harriscountytx.legistar.com",
-  "enriched_at": "2026-02-22T18:42:38.372283",
+  "enriched_at": "2026-02-23T02:43:13.118900",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

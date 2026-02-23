@@ -364,7 +364,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Durham%20County",
-        "probed_at": "2026-02-22T18:47:20.247644",
+        "probed_at": "2026-02-23T02:52:11.650502",
         "data_vintage": "BRFSS None",
         "geographic_level": "place",
         "status": "unavailable"
@@ -628,13 +628,125 @@
     "granularity_flags": 0
   },
   "officials": {
-    "body_name": null,
+    "body_name": "Board of County Commissioners",
     "members": []
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-09",
+      "body": "Board of County Commissioners",
+      "location": "Commissioners' Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://durhamcounty.legistar1.com/durhamcounty/meetings/2026/2/1442_A_Board_of_County_Commissioners_26-02-09_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-02",
+      "body": "Board of County Commissioners",
+      "location": "Virtual Due to Inclement Weather",
+      "has_agenda": true,
+      "agenda_url": "https://durhamcounty.legistar1.com/durhamcounty/meetings/2026/2/1441_A_Board_of_County_Commissioners_26-02-02_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-26",
+      "body": "Board of County Commissioners",
+      "location": "Commissioners' Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://durhamcounty.legistar1.com/durhamcounty/meetings/2026/1/1440_A_Board_of_County_Commissioners_26-01-26_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Economic Development and Infrastructure Expansion",
+      "type": "Informational Report",
+      "status": "Other Business",
+      "intro_date": "2026-02-18",
+      "file_number": "26-0101",
+      "passed_date": null
+    },
+    {
+      "title": "Family Treatment Court",
+      "type": "Informational Report",
+      "status": "Other Business",
+      "intro_date": "2026-02-18",
+      "file_number": "26-0099",
+      "passed_date": null
+    },
+    {
+      "title": "Early Childhood Update",
+      "type": "Informational Report",
+      "status": "Other Business",
+      "intro_date": "2026-02-18",
+      "file_number": "26-0100",
+      "passed_date": null
+    },
+    {
+      "title": "Human Services Federal and State Support",
+      "type": "Informational Report",
+      "status": "Other Business",
+      "intro_date": "2026-02-18",
+      "file_number": "26-0098",
+      "passed_date": null
+    },
+    {
+      "title": "FY 2026-27 Budget Outlook - Economic and Demographic Trends",
+      "type": "Informational Report",
+      "status": "Other Business",
+      "intro_date": "2026-02-18",
+      "file_number": "26-0096",
+      "passed_date": null
+    },
+    {
+      "title": "Budget Development - Program & Performance Measurement",
+      "type": "Informational Report",
+      "status": "Other Business",
+      "intro_date": "2026-02-18",
+      "file_number": "26-0097",
+      "passed_date": null
+    },
+    {
+      "title": "Tax Projections - Revaluation",
+      "type": "Informational Report",
+      "status": "Other Business",
+      "intro_date": "2026-02-18",
+      "file_number": "26-0095",
+      "passed_date": null
+    },
+    {
+      "title": "Approve Updated Durham City-County Interlocal Agreement for Immigrant & Refugee Affairs",
+      "type": "Action Item",
+      "status": "Consent Agenda",
+      "intro_date": "2026-02-09",
+      "file_number": "26-0070",
+      "passed_date": null
+    },
+    {
+      "title": "Approval of Budget Ordinance Amendment No. 26BCC056 Appropriating $350,000 in General Fund Fund Balance to Support a Contract with Urban Ministries of Durham (UMD) to Administer the Homeless Day Shelt",
+      "type": "Action Item",
+      "status": "Consent Agenda",
+      "intro_date": "2026-02-06",
+      "file_number": "26-0072",
+      "passed_date": null
+    },
+    {
+      "title": "Approval of Budget Ordinance Amendment No. 26BCC055 Cooperative Extension to Recognize $14,820.61 in additional Smart Start funding for the Welcome Baby Program",
+      "type": "Action Item",
+      "status": "Consent Agenda",
+      "intro_date": "2026-01-30",
+      "file_number": "26-0067",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://durhamcounty.legistar.com",
-  "enriched_at": "2026-02-22T18:42:34.408219",
+  "enriched_at": "2026-02-23T02:42:29.442140",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

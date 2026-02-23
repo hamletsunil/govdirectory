@@ -542,7 +542,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Clearwater",
-        "probed_at": "2026-02-22T18:45:32.543961",
+        "probed_at": "2026-02-23T02:50:44.806570",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -806,13 +806,266 @@
     "granularity_flags": 3
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "City Council",
+    "members": [
+      {
+        "name": "Bruce Rector",
+        "email": null,
+        "title": "Mayor",
+        "start_date": "2024-04-01",
+        "committees": [
+          "Community Redevelopment Agency",
+          "Council Work Session"
+        ]
+      },
+      {
+        "name": "David Allbritton",
+        "email": null,
+        "title": "Councilmember",
+        "start_date": "2020-03-30",
+        "committees": [
+          "Community Redevelopment Agency",
+          "Council Work Session",
+          "Downtown Development Board",
+          "Pension Trustees"
+        ]
+      },
+      {
+        "name": "Lina Teixeira",
+        "email": null,
+        "title": "Vice Mayor",
+        "start_date": "2022-03-21",
+        "committees": [
+          "Community Redevelopment Agency",
+          "Council Work Session",
+          "Downtown Development Board",
+          "Pension Trustees",
+          "Sister Cities Advisory Board"
+        ]
+      },
+      {
+        "name": "Michael Mannino",
+        "email": null,
+        "title": "Councilmember",
+        "start_date": "2024-04-01",
+        "committees": [
+          "Community Redevelopment Agency",
+          "Council Work Session",
+          "Downtown Development Board",
+          "Pension Trustees"
+        ]
+      },
+      {
+        "name": "Ryan Cotton",
+        "email": null,
+        "title": "Councilmember",
+        "start_date": "2024-04-01",
+        "committees": [
+          "Community Redevelopment Agency",
+          "Council Work Session",
+          "Downtown Development Board",
+          "Pension Advisory Committee",
+          "Pension Trustees"
+        ]
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-25",
+      "body": "Municipal Code Enforcement Board",
+      "location": "Main Library - Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/clearwater/meetings/2026/2/3236_A_Municipal_Code_Enforcement_Board_26-02-25_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-19",
+      "body": "City Council",
+      "location": "Main Library - Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/clearwater/meetings/2026/2/3140_A_City_Council_26-02-19_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-19",
+      "body": "Community Development Board",
+      "location": "Main Library - Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/clearwater/meetings/2026/2/3218_A_Community_Development_Board_26-02-19_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "Council Work Session",
+      "location": "Main Library - Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/clearwater/meetings/2026/2/3119_A_Council_Work_Session_26-02-17_Work_Session_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "Community Redevelopment Agency",
+      "location": "Main Library - Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/clearwater/meetings/2026/2/3164_A_Community_Redevelopment_Agency_26-02-17_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-12",
+      "body": "Public Art and Design Board",
+      "location": "Main Library - Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/clearwater/meetings/2026/2/3262_A_Public_Art_and_Design_Board_26-02-12_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-09",
+      "body": "Council Work Session",
+      "location": "Morningside Recreation Center",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/clearwater/meetings/2026/2/3276_A_Council_Work_Session_26-02-09_Special_Work_Session.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-05",
+      "body": "City Council",
+      "location": "Main Library - Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/clearwater/meetings/2026/2/3139_A_City_Council_26-02-05_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-04",
+      "body": "Community Resiliency and Leisure Services Advisory Board",
+      "location": "Main Library - Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/clearwater/meetings/2026/2/3275_A_Community_Resiliency_and_Leisure_Services_Advisory_Board_26-02-04_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-02",
+      "body": "Council Work Session",
+      "location": "Main Library - Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/clearwater/meetings/2026/2/3118_A_Council_Work_Session_26-02-02_Work_Session_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-02",
+      "body": "Downtown Development Board",
+      "location": "Main Library - Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/clearwater/meetings/2026/2/3162_A_Downtown_Development_Board_26-02-02_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Case 69-26 - Accept the Nuisance Abatement Lien for respondent(s) Delbert & Mary Lou Baustert at 134 Brightwater Dr. for Lot Clearing; and issue an order with the compliance deadline and authorize the",
+      "type": "Action Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-20",
+      "file_number": "ID#26-0242",
+      "passed_date": null
+    },
+    {
+      "title": "Case 68-26 - Accept the Nuisance Abatement Lien for respondent(s) Mark Montgomery at 1206 N Garden Ave. for Lot Clearing; and issue an order with the compliance deadline and authorize the City to miti",
+      "type": "Action Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-20",
+      "file_number": "ID#26-0241",
+      "passed_date": null
+    },
+    {
+      "title": "Approve the minutes of the January 28, 2026 Municipal Code Enforcement Board meeting as submitted in written summation.",
+      "type": "Minutes",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-20",
+      "file_number": "ID#26-0251",
+      "passed_date": null
+    },
+    {
+      "title": "Case 66-26 - Accept the Nuisance Abatement Lien for respondent(s) St. John Missionary Baptist Church at 1412 Monroe Ave. for Lot Clearing; and issue an order with the compliance deadline and authorize",
+      "type": "Action Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-20",
+      "file_number": "ID#26-0239",
+      "passed_date": null
+    },
+    {
+      "title": "Case 67-26 - Accept the Nuisance Abatement Lien for respondent(s) Catherine Thomas at 1515 Stevensons Dr. for Lot Clearing; and issue an order with the compliance deadline and authorize the City to mi",
+      "type": "Action Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-20",
+      "file_number": "ID#26-0240",
+      "passed_date": null
+    },
+    {
+      "title": "Case 16-24 - Consider request by petitioner(s) Resi Prestige Worldwide LLC at 910 Engman St. to reduce the fine re Abandoned Building; and if approved, issue an order that specifies a fine that includ",
+      "type": "Action Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-20",
+      "file_number": "ID#26-0243",
+      "passed_date": null
+    },
+    {
+      "title": "Case 70-26 - Accept the Nuisance Abatement Lien for respondent(s) Chandradat Ramnariain at 1475 Park St. for Lot Clearing; and issue an order with the compliance deadline and authorize the City to mit",
+      "type": "Action Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-20",
+      "file_number": "ID#26-0248",
+      "passed_date": null
+    },
+    {
+      "title": "Accept the Affidavits of Compliance as listed.\r\n\r\n4.1.1\tCase PNU2012-00570 Affidavit of Compliance\r\n\tCarter, W Miles Tre\r\n\t1115 N Betty Ln\r\n\tLot Clearing - Dixon\r\n\r\n4.1.2\tCase PNU2015-01039 Affidavit ",
+      "type": "Action Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-20",
+      "file_number": "ID#26-0244",
+      "passed_date": null
+    },
+    {
+      "title": "Update on Traffic Studies - Councilmember Mannino",
+      "type": "Council Discussion Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-20",
+      "file_number": "ID#26-0245",
+      "passed_date": null
+    },
+    {
+      "title": "Case 71-26 - Accept the Nuisance Abatement Lien for respondent(s) Frank Lesowske at 1487 Laura St. for Inoperative Vehicle and Lot Clearing; and issue an order with the compliance deadline and authori",
+      "type": "Action Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-20",
+      "file_number": "ID#26-0249",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://clearwater.legistar.com",
-  "enriched_at": "2026-02-22T18:42:29.242303",
+  "enriched_at": "2026-02-23T02:41:23.114248",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

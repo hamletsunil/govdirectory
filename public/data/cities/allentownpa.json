@@ -517,7 +517,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Allentown",
-        "probed_at": "2026-02-22T18:45:30.831646",
+        "probed_at": "2026-02-23T02:50:43.391223",
         "data_vintage": "BRFSS 2022",
         "geographic_level": "place",
         "status": "available"
@@ -781,13 +781,294 @@
     "granularity_flags": 2
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "City Council",
+    "members": [
+      {
+        "name": "Candida Affa",
+        "email": null,
+        "title": "Council Member",
+        "start_date": "2016-01-01",
+        "committees": [
+          "Allentown Parking Authority"
+        ]
+      },
+      {
+        "name": "Ce-Ce Gerlach",
+        "email": null,
+        "title": "Council Member",
+        "start_date": "2020-01-01"
+      },
+      {
+        "name": "Cristian Pungo",
+        "email": null,
+        "title": "Council Member",
+        "start_date": "2026-01-05"
+      },
+      {
+        "name": "Cynthia Mota",
+        "email": "Cynthia.Mota@allentownpa.gov",
+        "title": "Council Member",
+        "start_date": "2018-01-17",
+        "committees": [
+          "Community and Economic Development Committee"
+        ]
+      },
+      {
+        "name": "Jeremy Binder",
+        "email": null,
+        "title": "Council Member",
+        "start_date": "2026-01-05"
+      },
+      {
+        "name": "Natalie Santos",
+        "email": null,
+        "title": "Council Member",
+        "start_date": "2022-01-03"
+      },
+      {
+        "name": "Santo Napoli",
+        "email": null,
+        "title": "Council Member",
+        "start_date": "2023-01-04"
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-23",
+      "body": "Environmental Advisory Council",
+      "location": "Virtually through Google Meet",
+      "has_agenda": true,
+      "agenda_url": "https://allentownpa.legistar1.com/allentownpa/meetings/2026/2/4938_A_Environmental_Advisory_Council_26-02-23_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-25",
+      "body": "Budget and Finance Committee",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://allentownpa.legistar1.com/allentownpa/meetings/2026/2/4926_A_Budget_and_Finance_Committee_26-02-25_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-02",
+      "body": "Zoning Hearing Board",
+      "location": "Council Chambers\r\nhttps://rebrand.ly/ZHB-MARCH-2\r\n(717) 740-2323\r\nConference ID: 814 833 714#",
+      "has_agenda": true,
+      "agenda_url": "https://allentownpa.legistar1.com/allentownpa/meetings/2026/3/4937_A_Zoning_Hearing_Board_26-03-02_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-04",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://allentownpa.legistar1.com/allentownpa/meetings/2026/3/4911_A_City_Council_26-03-04_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-10",
+      "body": "Planning Commission",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://allentownpa.legistar1.com/allentownpa/meetings/2026/3/4912_A_Planning_Commission_26-03-10_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-20",
+      "body": "Civil Service Board",
+      "location": "5th Floor Conference Room",
+      "has_agenda": true,
+      "agenda_url": "https://allentownpa.legistar1.com/allentownpa/meetings/2026/2/4936_A_Civil_Service_Board_26-02-20_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-18",
+      "body": "Community and Economic Development Committee",
+      "location": null,
+      "has_agenda": true,
+      "agenda_url": "https://allentownpa.legistar1.com/allentownpa/meetings/2026/2/4918_A_Community_and_Economic_Development_Committee_26-02-18_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-18",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://allentownpa.legistar1.com/allentownpa/meetings/2026/2/4909_A_City_Council_26-02-18_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "Allentown Aggregate Pension Board",
+      "location": "5th Floor Conference Room",
+      "has_agenda": true,
+      "agenda_url": "https://allentownpa.legistar1.com/allentownpa/meetings/2026/2/4906_A_Allentown_Aggregate_Pension_Board_26-02-17_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "O&E, Fire, Police and Aggregate Pension Boards",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://allentownpa.legistar1.com/allentownpa/meetings/2026/2/4908_A_O_E%2C_Fire%2C_Police_and_Aggregate_Pension_Boards_26-02-17_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "Allentown Police Pension Board",
+      "location": "5th Floor Conference Room",
+      "has_agenda": true,
+      "agenda_url": "https://allentownpa.legistar1.com/allentownpa/meetings/2026/2/4905_A_Allentown_Police_Pension_Board_26-02-17_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "Allentown Fire Pension Board",
+      "location": "5th Floor Conference Room",
+      "has_agenda": true,
+      "agenda_url": "https://allentownpa.legistar1.com/allentownpa/meetings/2026/2/4907_A_Allentown_Fire_Pension_Board_26-02-17_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-16",
+      "body": "Zoning Hearing Board",
+      "location": "Council Chambers\r\nhttps://rebrand.ly/ZHB-FEBRUARY-16\r\n(717) 740-2323\r\nConference ID: 814 833 714#",
+      "has_agenda": true,
+      "agenda_url": "https://allentownpa.legistar1.com/allentownpa/meetings/2026/2/4910_A_Zoning_Hearing_Board_26-02-16_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-11",
+      "body": "Redevelopment Authority",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://allentownpa.legistar1.com/allentownpa/meetings/2026/2/4919_A_Redevelopment_Authority__26-02-11_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "Planning Commission",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://allentownpa.legistar1.com/allentownpa/meetings/2026/2/4893_A_Planning_Commission_26-02-10_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Alternative Revenue Sources",
+      "type": "Discussion",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-20",
+      "file_number": "15-8275",
+      "passed_date": null
+    },
+    {
+      "title": "R\r\nAllowing the city to allocate CHDO funds from the federal 2021 HOME grant to Community Action of the Lehigh Valley to offset the costs incurred for the project located at 136 S 8th Street.",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "15-8269",
+      "passed_date": null
+    },
+    {
+      "title": "2. A-2025-00841 1421-1425 Hamilton St Appeal of Jaindl Partners LP for Lucky Khinda and Artefact Inc. to CONVERT VACANT OFFICE BUILDING INTO TEN (10) DWELLING UNITS. With the following unit #s having ",
+      "type": "Zoning Commission Case",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "15-8268",
+      "passed_date": null
+    },
+    {
+      "title": "1. A-2026-00041 118 St John St Special Use Appeal and Application of Paulino Segundo Tejada for Rosa Gutierrez to EXPAND EXISTNG FAMILY CHILD CARE HOME TO GROUP CHILD CARE HOME; with use permitted by ",
+      "type": "Zoning Commission Case",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "15-8267",
+      "passed_date": null
+    },
+    {
+      "title": "February 4, 2026 City Council Meeting Minutes",
+      "type": "Minutes",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "15-8266",
+      "passed_date": null
+    },
+    {
+      "title": "January 21, 2026 City Council Meeting Minutes",
+      "type": "Minutes",
+      "status": "Passed",
+      "intro_date": "2026-02-12",
+      "file_number": "15-8253",
+      "passed_date": "2026-02-18"
+    },
+    {
+      "title": "R29\r\n$41,500 Transfer – placing authorization for the unhoused access to restrooms, drinking water, hydration systems, laundry facilities and animal care into proper accounts for expenditure; $58,828 ",
+      "type": "Resolution",
+      "status": "Passed",
+      "intro_date": "2026-02-12",
+      "file_number": "15-8254",
+      "passed_date": "2026-02-18"
+    },
+    {
+      "title": "R23\r\nDiane Purdy, Disruptive Conduct Board of Appeals, 02/19/2029",
+      "type": "Resolution",
+      "status": "Passed",
+      "intro_date": "2026-02-11",
+      "file_number": "15-8247",
+      "passed_date": "2026-02-18"
+    },
+    {
+      "title": "R28 \r\nCity Council and Mayor Matt Tuerk authorize the civic naming of the 2000 block of Liberty Street in honor of Rose Kennedy.",
+      "type": "Resolution",
+      "status": "Passed",
+      "intro_date": "2026-02-11",
+      "file_number": "15-8252",
+      "passed_date": "2026-02-18"
+    },
+    {
+      "title": "R24\r\nCandida Affa, Disruptive Conduct Board of Appeals, 02/19/2029",
+      "type": "Resolution",
+      "status": "Passed",
+      "intro_date": "2026-02-11",
+      "file_number": "15-8248",
+      "passed_date": "2026-02-18"
+    }
+  ],
   "legistar_url": "https://allentownpa.legistar.com",
-  "enriched_at": "2026-02-22T18:42:18.241021",
+  "enriched_at": "2026-02-23T02:39:18.021850",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

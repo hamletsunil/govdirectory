@@ -510,7 +510,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Bellevue",
-        "probed_at": "2026-02-22T18:45:19.127291",
+        "probed_at": "2026-02-23T02:50:33.926824",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -774,13 +774,235 @@
     "granularity_flags": 1
   },
   "officials": {
-    "body_name": null,
+    "body_name": "City Council Extended Study Session",
     "members": []
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-23",
+      "body": "Human Services Commission",
+      "location": "Room 1E-113 & via Zoom",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/bellevue/meetings/2026/2/2924_A_Human_Services_Commission_26-02-23_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-24",
+      "body": "City Council Regular Meeting",
+      "location": "Council Chambers (1E-126)",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/bellevue/meetings/2026/2/2870_A_City_Council_Regular_Meeting_26-02-24_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-25",
+      "body": "Planning Commission",
+      "location": "Room 1E-113",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/bellevue/meetings/2026/2/2933_A_Planning_Commission_26-02-25_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-12",
+      "body": "Transportation Commission",
+      "location": "Room 1E-113",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-18",
+      "body": "Parks & Community Services Board",
+      "location": "Room 1E-113 & Virtual",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/bellevue/meetings/2026/2/2940_A_Parks___Community_Services_Board_26-02-18_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "City Council Regular Meeting",
+      "location": "Council Chambers (1E-126)",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/bellevue/meetings/2026/2/2939_A_City_Council_Regular_Meeting_26-02-17_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-12",
+      "body": "Transportation Commission",
+      "location": "Room 1E-113",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/bellevue/meetings/2026/2/2918_A_Transportation_Commission_26-02-12_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-11",
+      "body": "Planning Commission",
+      "location": "Room 1E-113",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/bellevue/meetings/2026/2/2932_A_Planning_Commission_26-02-11_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "City Council Regular Meeting",
+      "location": "Council Chambers (1E-126)",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/bellevue/meetings/2026/2/2868_A_City_Council_Regular_Meeting_26-02-10_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-05",
+      "body": "Environmental Services Commission",
+      "location": "Room 1E-113",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/bellevue/meetings/2026/2/2938_A_Environmental_Services_Commission_26-02-05_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "City Council Regular Meeting",
+      "location": "Council Chambers (1E-126)",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/bellevue/meetings/2026/2/2867_A_City_Council_Regular_Meeting_26-02-03_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-02",
+      "body": "Human Services Commission",
+      "location": "Room 1E-113",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/bellevue/meetings/2026/2/2923_A_Human_Services_Commission_26-02-02_Meeting_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-28",
+      "body": "Planning Commission",
+      "location": "Room 1E-113",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/bellevue/meetings/2026/1/2931_A_Planning_Commission_26-01-28_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-27",
+      "body": "City Council Regular Meeting",
+      "location": "Council Chambers (1E-126)",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/bellevue/meetings/2026/1/2862_A_City_Council_Regular_Meeting_26-01-27_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Approval of draft minutes from February 2, 2026",
+      "type": "Appointment",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "26-200",
+      "passed_date": null
+    },
+    {
+      "title": "Eviction Prevention and BCRC’s Housing Accord Program",
+      "type": "Appointment",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "26-202",
+      "passed_date": null
+    },
+    {
+      "title": "Direction for Bylaws Update",
+      "type": "Appointment",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "26-201",
+      "passed_date": null
+    },
+    {
+      "title": "Written Communications",
+      "type": "Written Communication",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "26-186",
+      "passed_date": null
+    },
+    {
+      "title": "Minutes of January 28, 2026",
+      "type": "Minutes",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "26-190",
+      "passed_date": null
+    },
+    {
+      "title": "2025 Annual Process Improvement Survey",
+      "type": "Study Session Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "26-189",
+      "passed_date": null
+    },
+    {
+      "title": "Planning Commission meeting Schedule",
+      "type": "Staff Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "26-185",
+      "passed_date": null
+    },
+    {
+      "title": "Check-in on the Parking Reform Land Use Code Amendment",
+      "type": "Study Session Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "26-188",
+      "passed_date": null
+    },
+    {
+      "title": "Human Rights in Iran and Everywhere Proclamation",
+      "type": "Proclamation",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "26-191",
+      "passed_date": null
+    },
+    {
+      "title": "Parks & Community Services Board September - December 2025 Report and Communication.\r\n(Written information only. No presentation.)",
+      "type": "Management Brief",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-17",
+      "file_number": "26-192",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://bellevue.legistar.com",
-  "enriched_at": "2026-02-22T18:42:19.853812",
+  "enriched_at": "2026-02-23T02:39:32.481822",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
