@@ -503,7 +503,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Newport%20Beach",
-        "probed_at": "2026-02-23T02:50:59.896697",
+        "probed_at": "2026-02-23T07:25:06.093316",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -767,13 +767,409 @@
     "granularity_flags": 3
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "City Council",
+    "members": [
+      {
+        "name": "Brad Avery",
+        "email": "brad@occsailing.com",
+        "title": "Councilmember",
+        "start_date": "2018-07-12",
+        "committees": [
+          "City Council - 2020 Planning Session",
+          "Election Reform Ad Hoc Committee",
+          "Newport Beach Public Facilities Corporation - do not use"
+        ]
+      },
+      {
+        "name": "Diane B. Dixon",
+        "email": null,
+        "title": "Councilmember",
+        "start_date": "2018-07-12",
+        "committees": [
+          "City Council - 2020 Planning Session",
+          "General Plan/Local Coastal Program Implementation Committee",
+          "Newport Beach Public Facilities Corporation - do not use"
+        ]
+      },
+      {
+        "name": "Duffy Duffield",
+        "email": null,
+        "title": "Mayor",
+        "start_date": "2018-07-12",
+        "committees": [
+          "City Council - 2020 Planning Session",
+          "Newport Beach Public Facilities Corporation - do not use"
+        ]
+      },
+      {
+        "name": "Erik Weigand",
+        "email": "eweigand@newportbeachca.gov",
+        "title": "Councilmember",
+        "start_date": "2022-12-13",
+        "committees": [
+          "Newport Beach Public Facilities Corporation"
+        ]
+      },
+      {
+        "name": "Jeffrey Herdman",
+        "email": null,
+        "title": "Councilmember",
+        "start_date": "2018-07-12"
+      },
+      {
+        "name": "Joe Stapleton",
+        "email": "jstapleton@newportbeachca.gov",
+        "title": "Councilmember",
+        "start_date": "2022-12-14",
+        "committees": [
+          "Lower Castaways and Aquatic Center Site Ad Hoc Committee",
+          "Lower Castaways Aquatic Complex PB&R Ad Hoc Committee",
+          "Newport Beach Public Facilities Corporation"
+        ]
+      },
+      {
+        "name": "Kevin Muldoon",
+        "email": null,
+        "title": "Councilmember",
+        "start_date": "2018-07-12",
+        "committees": [
+          "City Council - 2020 Planning Session",
+          "Newport Beach Public Facilities Corporation - do not use"
+        ]
+      },
+      {
+        "name": "Lauren Kleiman",
+        "email": "lkleiman@newportbeachca.gov",
+        "title": "Mayor",
+        "start_date": "2022-12-13",
+        "committees": [
+          "Aviation Committee",
+          "Newport Beach Public Facilities Corporation"
+        ]
+      },
+      {
+        "name": "Michelle Barto",
+        "email": "mbarto@newportbeachca.gov",
+        "title": "Councilmember",
+        "start_date": "2024-12-10",
+        "committees": [
+          "Lower Castaways and Aquatic Center Site Ad Hoc Committee",
+          "Newport Beach Public Facilities Corporation"
+        ]
+      },
+      {
+        "name": "Noah Blom",
+        "email": null,
+        "title": "Councilmember",
+        "start_date": "2020-12-15",
+        "committees": [
+          "Aviation Committee",
+          "Lower Castaways and Aquatic Center Site Ad Hoc Committee",
+          "Newport Beach Public Facilities Corporation"
+        ]
+      },
+      {
+        "name": "Robyn Grant",
+        "email": "rgrant@newportbeachca.gov",
+        "title": "Councilmember",
+        "start_date": "2022-12-13",
+        "committees": [
+          "Newport Beach Public Facilities Corporation"
+        ]
+      },
+      {
+        "name": "Sara J. Weber",
+        "email": "sweber@newportbeachca.gov",
+        "title": "Councilmember",
+        "start_date": "2024-12-10"
+      },
+      {
+        "name": "Scott Peotter",
+        "email": null,
+        "title": "Councilmember",
+        "start_date": "2018-07-12",
+        "committees": [
+          "Newport Beach Public Facilities Corporation - do not use"
+        ]
+      },
+      {
+        "name": "Will O'Neill",
+        "email": "woneill@newportbeachca.gov",
+        "title": "Mayor Pro Tem",
+        "start_date": "2018-07-12",
+        "committees": [
+          "City Council - 2020 Planning Session",
+          "Newport Beach Public Facilities Corporation - do not use"
+        ]
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-23",
+      "body": "Board of Library Trustees",
+      "location": "Civic Center Council Chambers\r\n100 Civic Center Drive, Newport Beach, CA 92660",
+      "has_agenda": true,
+      "agenda_url": "https://newportbeach.legistar1.com/newportbeach/meetings/2026/2/4398_A_Board_of_Library_Trustees_26-02-23_BCC_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-24",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://newportbeach.legistar1.com/newportbeach/meetings/2026/2/4429_A_City_Council_26-02-24_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-24",
+      "body": "Public Notice",
+      "location": "100 Civic Center Drive - Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://newportbeach.legistar1.com/newportbeach/meetings/2026/2/4437_A_Public_Notice_26-02-24_Public_Notices.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-26",
+      "body": "Public Notice",
+      "location": "ONLINE VIA ZOOM",
+      "has_agenda": true,
+      "agenda_url": "https://newportbeach.legistar1.com/newportbeach/meetings/2026/2/4461_A_Public_Notice_26-02-26_Public_Notices.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-26",
+      "body": "Zoning Administrator",
+      "location": "ZOOM",
+      "has_agenda": true,
+      "agenda_url": "https://newportbeach.legistar1.com/newportbeach/meetings/2026/2/4470_A_Zoning_Administrator_26-02-26_BCC_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-27",
+      "body": "Public Notice",
+      "location": null,
+      "has_agenda": true,
+      "agenda_url": "https://newportbeach.legistar1.com/newportbeach/meetings/2026/2/4455_A_Public_Notice_26-02-27_Public_Notices.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-05",
+      "body": "Public Notice",
+      "location": "City Council Chambers - 100 Civic Center Drive",
+      "has_agenda": true,
+      "agenda_url": "https://newportbeach.legistar1.com/newportbeach/meetings/2026/3/4475_A_Public_Notice_26-03-05_Public_Notices.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-05",
+      "body": "Public Notice",
+      "location": "100 Civic Center Drive, CDM Conference Rm (Bay E-1st Fl)",
+      "has_agenda": true,
+      "agenda_url": "https://newportbeach.legistar1.com/newportbeach/meetings/2026/3/4474_A_Public_Notice_26-03-05_Public_Notices.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-19",
+      "body": "Planning Commission",
+      "location": "Council Chambers - 100 Civic Center Drive",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-19",
+      "body": "Public Notice",
+      "location": "City Council Chambers - 100 Civic Center Drive",
+      "has_agenda": true,
+      "agenda_url": "https://newportbeach.legistar1.com/newportbeach/meetings/2026/2/4467_A_Public_Notice_26-02-19_Public_Notices.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "Planning Commission",
+      "location": "Council Chambers - 100 Civic Center Drive",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-14",
+      "body": "Public Notice",
+      "location": null,
+      "has_agenda": true,
+      "agenda_url": "https://newportbeach.legistar1.com/newportbeach/meetings/2026/2/4462_A_Public_Notice_26-02-14_Public_Notices.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-12",
+      "body": "Finance Committee",
+      "location": "Community Room\r\n100 Civic Center Drive, Newport Beach, CA 92660",
+      "has_agenda": true,
+      "agenda_url": "https://newportbeach.legistar1.com/newportbeach/meetings/2026/2/4453_A_Finance_Committee_26-02-12_BCC_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-11",
+      "body": "Harbor Commission",
+      "location": "City Council Chambers-100 Civic Center Dr, Newport Beach CA 92660",
+      "has_agenda": true,
+      "agenda_url": "https://newportbeach.legistar1.com/newportbeach/meetings/2026/2/4438_A_Harbor_Commission_26-02-11_BCC_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://newportbeach.legistar1.com/newportbeach/meetings/2026/2/4424_A_City_Council_26-02-10_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-05",
+      "body": "Public Notice",
+      "location": "100 Civic Center Dr., Crystal Cove Conf. Room (Bay D-2nd Floor)",
+      "has_agenda": true,
+      "agenda_url": "https://newportbeach.legistar1.com/newportbeach/meetings/2026/2/4427_A_Public_Notice_26-02-05_Public_Notices.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-05",
+      "body": "Water Quality/Coastal Tidelands Committee",
+      "location": "Crystal Cove Room (Bay 2D)",
+      "has_agenda": true,
+      "agenda_url": "https://newportbeach.legistar1.com/newportbeach/meetings/2026/2/4421_A_Water_Quality_Coastal_Tidelands_Committee_26-02-05_BCC_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-05",
+      "body": "Public Notice",
+      "location": "City Council Chambers - 100 Civic Center Drive",
+      "has_agenda": true,
+      "agenda_url": "https://newportbeach.legistar1.com/newportbeach/meetings/2026/2/4442_A_Public_Notice_26-02-05_Public_Notices.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "300 NEWPORT CENTER DRIVE CONDOMINIUMS (PA2025-0102)\r\nSite Location: 210 and 300 Newport Center Drive and Unaddressed Parcels Identified as Accessor Parcel Numbers 442-091-12 and 442-161-16",
+      "type": "Public Notice",
+      "status": "Public Notice",
+      "intro_date": "2026-02-19",
+      "file_number": "26-1924",
+      "passed_date": null
+    },
+    {
+      "title": "TOBACCO RETAILER BUSINESS AND CIGAR LOUNGE ORDINANCE\r\nSite Location: Citywide",
+      "type": "Public Notice",
+      "status": "Public Notice",
+      "intro_date": "2026-02-19",
+      "file_number": "26-1927",
+      "passed_date": null
+    },
+    {
+      "title": "TELECOM FACILITIES (PA2021-103)\r\nSite Location: Citywide",
+      "type": "Public Notice",
+      "status": "Public Notice",
+      "intro_date": "2026-02-19",
+      "file_number": "26-1928",
+      "passed_date": null
+    },
+    {
+      "title": "THE NICE GUY RESTAURANT (PA2025-0252)\r\nSite Location: 2607 West Coast Highway",
+      "type": "Public Notice",
+      "status": "Public Notice",
+      "intro_date": "2026-02-19",
+      "file_number": "26-1925",
+      "passed_date": null
+    },
+    {
+      "title": "Three-Year Construction Limit Extension (XR2023-0440)\r\nSite Location: 1421 Kings Road",
+      "type": "Public Notice",
+      "status": "Public Notice",
+      "intro_date": "2026-02-18",
+      "file_number": "26-1920",
+      "passed_date": null
+    },
+    {
+      "title": "Three-Year Construction Limit Extension (X2019-3921)\r\nSite Location: 3100 Breakers",
+      "type": "Public Notice",
+      "status": "Public Hearing",
+      "intro_date": "2026-02-18",
+      "file_number": "26-1919",
+      "passed_date": null
+    },
+    {
+      "title": "Bonita Creek Park Synthetic Turf Replacement and LED Lighting Retrofit Project",
+      "type": "Informational Report",
+      "status": "Approved",
+      "intro_date": "2026-02-17",
+      "file_number": "26-1916",
+      "passed_date": null
+    },
+    {
+      "title": "Sky Thai Massage Minor Use Permit (PA2024-0201) \r\nSite Location: 2737 East Coast Highway",
+      "type": "Resolution",
+      "status": "Public Hearing",
+      "intro_date": "2026-02-12",
+      "file_number": "26-1911",
+      "passed_date": null
+    },
+    {
+      "title": "Draft Minutes of February 12, 2026",
+      "type": "Minutes",
+      "status": "Public Hearing",
+      "intro_date": "2026-02-12",
+      "file_number": "26-1910",
+      "passed_date": null
+    },
+    {
+      "title": "Annino Residence Coastal Development Permit (PA2025-0209) \r\nSite Location: 239 61ST Street",
+      "type": "Resolution",
+      "status": "Public Hearing",
+      "intro_date": "2026-02-12",
+      "file_number": "26-1914",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://newportbeach.legistar.com",
-  "enriched_at": "2026-02-23T02:45:22.096810",
+  "enriched_at": "2026-02-23T07:19:22.418340",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

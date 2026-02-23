@@ -512,7 +512,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Lewisville",
-        "probed_at": "2026-02-23T02:51:55.987020",
+        "probed_at": "2026-02-23T07:26:02.490040",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -776,13 +776,228 @@
     "granularity_flags": 3
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "City Council",
+    "members": [
+      {
+        "name": "Bob Troyer",
+        "email": null,
+        "title": "Council Member",
+        "start_date": "2023-05-06"
+      },
+      {
+        "name": "Kristin Green",
+        "email": null,
+        "title": "Council Member",
+        "start_date": "2025-05-03"
+      },
+      {
+        "name": "Lonnie Tipton",
+        "email": null,
+        "title": "Council Member",
+        "start_date": "2025-06-07"
+      },
+      {
+        "name": "Patrick Kelly",
+        "email": null,
+        "title": "Council Member",
+        "start_date": "2025-05-03"
+      },
+      {
+        "name": "Ronni Cade",
+        "email": null,
+        "title": "Council Member",
+        "start_date": "2023-05-06"
+      },
+      {
+        "name": "TJ Gilmore",
+        "email": null,
+        "title": "Council Member",
+        "start_date": "2024-05-04"
+      },
+      {
+        "name": "William Meridith",
+        "email": null,
+        "title": "Council Member",
+        "start_date": "2023-05-01"
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-24",
+      "body": "Notice of Quorum",
+      "location": "Hilton Garden Inn\r\n785 State Hwy 121\r\nLewisville, TX 75067",
+      "has_agenda": true,
+      "agenda_url": "https://cityoflewisville.legistar1.com/cityoflewisville/meetings/2026/2/1773_A_Notice_of_Quorum_26-02-24_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-27",
+      "body": "City Council",
+      "location": "Lewisville City Hall",
+      "has_agenda": true,
+      "agenda_url": "https://cityoflewisville.legistar1.com/cityoflewisville/meetings/2026/2/1769_A_City_Council_26-02-27_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": true,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-21",
+      "body": "Notice of Quorum",
+      "location": "Royal Affairs Ballroom\r\n140 E. Main Street\r\nLewisville, TX, 75057",
+      "has_agenda": true,
+      "agenda_url": "https://cityoflewisville.legistar1.com/cityoflewisville/meetings/2026/2/1772_A_Notice_of_Quorum_26-02-21_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-19",
+      "body": "City Council",
+      "location": "Lewisville City Hall",
+      "has_agenda": true,
+      "agenda_url": "https://cityoflewisville.legistar1.com/cityoflewisville/meetings/2026/2/1771_A_City_Council_26-02-19_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": true,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-16",
+      "body": "City Council",
+      "location": "Lewisville City Hall",
+      "has_agenda": true,
+      "agenda_url": "https://cityoflewisville.legistar1.com/cityoflewisville/meetings/2026/2/1727_A_City_Council_26-02-16_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": true,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-02",
+      "body": "City Council",
+      "location": "Lewisville City Hall",
+      "has_agenda": true,
+      "agenda_url": "https://cityoflewisville.legistar1.com/cityoflewisville/meetings/2026/2/1726_A_City_Council_26-02-02_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": true,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-30",
+      "body": "City Council",
+      "location": "Lewisville City Hall",
+      "has_agenda": true,
+      "agenda_url": "https://cityoflewisville.legistar1.com/cityoflewisville/meetings/2026/1/1766_A_City_Council_26-01-30_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": true,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-30",
+      "body": "City Council",
+      "location": "Lewisville City Hall",
+      "has_agenda": true,
+      "agenda_url": "https://cityoflewisville.legistar1.com/cityoflewisville/meetings/2026/1/1768_A_City_Council_26-01-30_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": true,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-26",
+      "body": "City Council",
+      "location": "Lewisville City Hall",
+      "has_agenda": true,
+      "agenda_url": "https://cityoflewisville.legistar1.com/cityoflewisville/meetings/2026/1/1697_A_City_Council_26-01-26_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": true,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Alley Traffic Calming",
+      "type": "Workshop",
+      "status": "Workshop",
+      "intro_date": "2026-02-19",
+      "file_number": "26-4494",
+      "passed_date": null
+    },
+    {
+      "title": "Recognition of Lewisville Parks and Recreation Department and Dr. Jaime Baxter-Slye for Receiving Awards From the Texas Recreation and Park Society",
+      "type": "Agenda Item",
+      "status": "Proclamation",
+      "intro_date": "2026-02-19",
+      "file_number": "26-4495",
+      "passed_date": null
+    },
+    {
+      "title": "Approval of a Resolution of the City of Lewisville, Texas Finding That Texas-New Mexico Power Company’s Application to Change Rates Within the City Should be Denied; Finding That the City’s Reasonable",
+      "type": "Resolution",
+      "status": "Consent Agenda",
+      "intro_date": "2026-02-18",
+      "file_number": "26-4493",
+      "passed_date": null
+    },
+    {
+      "title": "Consideration of a Resolution of the City Council of the City of Lewisville, Texas, Nominating a Candidate to Fill a Vacancy on the Denton Central Appraisal District Board of Directors, Place 4; and P",
+      "type": "Agenda Item",
+      "status": "Regular Hearing",
+      "intro_date": "2026-02-18",
+      "file_number": "26-4492",
+      "passed_date": null
+    },
+    {
+      "title": "Approval of a Professional Services Agreement with Tanko Streetlighting, Inc. for Streetlight Purchase, Conversion to LED, & Maintenance Support in an Amount not to Exceed $825,528; and Authorization ",
+      "type": "Agreement/Contract",
+      "status": "Consent Agenda",
+      "intro_date": "2026-02-17",
+      "file_number": "26-4491",
+      "passed_date": null
+    },
+    {
+      "title": "City Council and Staff Reports",
+      "type": "Agenda Item",
+      "status": "Reported to Council",
+      "intro_date": "2026-02-16",
+      "file_number": "26-4490",
+      "passed_date": null
+    },
+    {
+      "title": "Discussion of Consent and Regular Agenda",
+      "type": "Workshop",
+      "status": "Workshop",
+      "intro_date": "2026-02-16",
+      "file_number": "26-4489",
+      "passed_date": null
+    },
+    {
+      "title": "Consideration of an Ordinance of the City Council of the City of Lewisville, Texas, Amending the Fee Schedule to Add Credit Card Convenience Fees to Electronically Processed Credit Card Payments Made ",
+      "type": "Ordinance",
+      "status": "Regular Hearing",
+      "intro_date": "2026-02-15",
+      "file_number": "26-4488",
+      "passed_date": null
+    },
+    {
+      "title": "Tour of PediPlace - 502 S Old Orchard Ln #126, Lewisville, TX 75067",
+      "type": "Workshop",
+      "status": "Workshop",
+      "intro_date": "2026-02-11",
+      "file_number": "26-4487",
+      "passed_date": null
+    },
+    {
+      "title": "Tour of Denton County MHMR Center - 1001 Cross Timbers Rd Suite #1250, Flower Mound, TX 75028",
+      "type": "Workshop",
+      "status": "Workshop",
+      "intro_date": "2026-02-11",
+      "file_number": "26-4486",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://cityoflewisville.legistar.com",
-  "enriched_at": "2026-02-23T02:41:04.945511",
+  "enriched_at": "2026-02-23T07:14:15.810958",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

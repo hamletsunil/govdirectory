@@ -531,7 +531,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Malden",
-        "probed_at": "2026-02-23T02:51:11.375804",
+        "probed_at": "2026-02-23T07:25:18.075089",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -795,13 +795,367 @@
     "granularity_flags": 3
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "City Council",
+    "members": [
+      {
+        "name": "Amanda Linehan",
+        "email": null,
+        "title": "Councillor",
+        "start_date": "2026-01-05",
+        "committees": [
+          "Arts & Culture Committee",
+          "Library Committee",
+          "Public Property Committee",
+          "Rules & Ordinance Committee"
+        ]
+      },
+      {
+        "name": "Ari Taylor",
+        "email": null,
+        "title": "Councillor",
+        "start_date": "2024-01-01",
+        "committees": [
+          "Arts & Culture Committee",
+          "Economic Development Committee",
+          "Finance Committee",
+          "Library Committee",
+          "License Committee"
+        ]
+      },
+      {
+        "name": "Carey McDonald",
+        "email": null,
+        "title": "Councillor",
+        "start_date": "2022-01-01",
+        "committees": [
+          "Code of Conduct Committee",
+          "Community Engagement & Inclusion Committee",
+          "Economic Development Committee",
+          "Finance Committee",
+          "Public Property Committee"
+        ]
+      },
+      {
+        "name": "Chris Simonelli",
+        "email": null,
+        "title": "Councillor",
+        "start_date": "2022-01-03",
+        "committees": [
+          "Charter Review Committee",
+          "Committee of the Whole",
+          "Finance Committee",
+          "License Committee",
+          "Public Property Committee"
+        ]
+      },
+      {
+        "name": "Jadeane Sica",
+        "email": "jsica@cityofmalden.org",
+        "title": "Councillor",
+        "start_date": "2022-01-03",
+        "committees": [
+          "Arts & Culture Committee",
+          "Code of Conduct Committee",
+          "Committee of the Whole",
+          "Finance Committee",
+          "License Committee"
+        ]
+      },
+      {
+        "name": "Karen Colon Hayes",
+        "email": null,
+        "title": "Councillor",
+        "start_date": "2022-01-03",
+        "committees": [
+          "Code of Conduct Committee",
+          "Community Engagement & Inclusion Committee",
+          "License Committee",
+          "Personnel/Appointments Committee",
+          "Rules & Ordinance Committee"
+        ]
+      },
+      {
+        "name": "Michelle Luong",
+        "email": null,
+        "title": "Councillor",
+        "start_date": "2026-01-05",
+        "committees": [
+          "Arts & Culture Committee",
+          "Code of Conduct Committee",
+          "Economic Development Committee",
+          "Finance Committee",
+          "Personnel/Appointments Committee"
+        ]
+      },
+      {
+        "name": "Paul Condon",
+        "email": null,
+        "title": "Councillor",
+        "start_date": "2022-01-03",
+        "committees": [
+          "Economic Development Committee",
+          "Finance Committee",
+          "Library Committee",
+          "License Committee",
+          "Personnel/Appointments Committee"
+        ]
+      },
+      {
+        "name": "Peg Crowe",
+        "email": null,
+        "title": "Councillor",
+        "start_date": "2022-01-03",
+        "committees": [
+          "Arts & Culture Committee",
+          "Code of Conduct Committee",
+          "Economic Development Committee",
+          "Personnel/Appointments Committee",
+          "Personnel Committee"
+        ]
+      },
+      {
+        "name": "Ryan O'Malley",
+        "email": null,
+        "title": "Councillor",
+        "start_date": "2022-01-03",
+        "committees": [
+          "Charter Review Committee",
+          "Community Engagement & Inclusion Committee",
+          "Rules & Ordinance Committee",
+          "Waterfront Access Committee"
+        ]
+      },
+      {
+        "name": "Stephen Winslow",
+        "email": null,
+        "title": "Councillor",
+        "start_date": "2024-01-01",
+        "committees": [
+          "Charter Review Committee",
+          "Library Committee",
+          "Public Safety Committee",
+          "Rules & Ordinance Committee",
+          "Waterfront Access Committee"
+        ]
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-24",
+      "body": "City Council",
+      "location": "City Council Chambers\r\n215 Pleasant Street\r\nMalden, MA  02148",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/cityofmalden/meetings/2026/2/5912_A_City_Council_26-02-24_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-24",
+      "body": "Code of Conduct Committee",
+      "location": "City Hall, Room 105\r\n215 Pleasant Street\r\nMalden, Ma 02148",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/cityofmalden/meetings/2026/2/5918_A_Code_of_Conduct_Committee_26-02-24_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-24",
+      "body": "Library Committee",
+      "location": "City Hall, Room 105\r\n215 Pleasant Street\r\nMalden, MA 02148",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/cityofmalden/meetings/2026/2/5919_A_Library_Committee_26-02-24_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-17",
+      "body": "City Council",
+      "location": "City Council Chambers\r\n215 Pleasant Street\r\nMalden, MA  02148",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/cityofmalden/meetings/2026/2/5913_A_City_Council_26-02-17_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "License Committee",
+      "location": "215 Pleasant Street\r\nRoom 105\r\nMalden, MA  02148",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/cityofmalden/meetings/2026/2/5910_A_License_Committee_26-02-17_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "Community Engagement & Inclusion Committee",
+      "location": "City Hall, Room 105\r\n215 Pleasant Street\r\nMalden, MA  02148",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/cityofmalden/meetings/2026/2/5915_A_Community_Engagement___Inclusion_Committee_26-02-17_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "Public Safety Committee",
+      "location": "City Hall, Room 105\r\n215 Pleasant Street\r\nMalden, MA  02148",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/cityofmalden/meetings/2026/2/5911_A_Public_Safety_Committee_26-02-10_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "Economic Development Committee",
+      "location": "City Hall, Room 105\r\n215 Pleasant Street\r\nMalden, MA 02148",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/cityofmalden/meetings/2026/2/5903_A_Economic_Development_Committee_26-02-10_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "City Council",
+      "location": "City Council Chambers\r\n215 Pleasant Street\r\nMalden, MA  02148",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/cityofmalden/meetings/2026/2/5905_A_City_Council_26-02-10_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "Finance Committee",
+      "location": "City Hall, Room #105\r\n215 Pleasant Street\r\nMalden, MA  02148",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/cityofmalden/meetings/2026/2/5906_A_Finance_Committee_26-02-03_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "Finance Committee",
+      "location": "City Hall, Room 105\r\n215 Pleasant Street\r\nMalden, MA  02148",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/cityofmalden/meetings/2026/2/5902_A_Finance_Committee_26-02-03_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "City Council",
+      "location": "City Council Chambers\r\n215 Pleasant Street\r\nMalden, MA  02148",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/cityofmalden/meetings/2026/2/5907_A_City_Council_26-02-03_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-27",
+      "body": "City Council",
+      "location": "City Council Chambers\r\n215 Pleasant Street\r\nMalden, MA  02148",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/cityofmalden/meetings/2026/1/5892_A_City_Council_26-01-27_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Minutes for the meeting of January 27, 2026",
+      "type": "Council Minutes",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "110-26",
+      "passed_date": null
+    },
+    {
+      "title": "Resolved: That it is the sense of the Malden City Council that no resources of the City of Malden should be used to assist with the Federal government's responsibility for civil (non-criminal) immigra",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "130-26",
+      "passed_date": null
+    },
+    {
+      "title": "Communication: During the meeting of February 17, 2026, the Council voted by a 10-1 roll call vote to enter into Executive Session with legal counsel for the City, in accordance with Exemption Seven M",
+      "type": "Communication",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "119-26",
+      "passed_date": null
+    },
+    {
+      "title": "Minutes of September 9, 2025 to be approved.",
+      "type": "Committee Minutes",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "109-26",
+      "passed_date": null
+    },
+    {
+      "title": "The City Council will address the Open Meeting Law complaint submitted on February 17, 2026 (revised February 19) by Ryan O’Malley of 706A Main Street, Malden against the Council related to accusation",
+      "type": "Council Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "128-26",
+      "passed_date": null
+    },
+    {
+      "title": "Order: That the City Council will vote to go into Executive Session with Legal Council regarding the matter of Benevolent Botanicals and 926 Eastern Avenue v. The City of Malden for the purposes of Ex",
+      "type": "Order",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "134-26",
+      "passed_date": null
+    },
+    {
+      "title": "Minutes of the meeting of February 3, 2026",
+      "type": "Council Minutes",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "111-26",
+      "passed_date": null
+    },
+    {
+      "title": "Minutes from the meeting of February 10, 2026",
+      "type": "Council Minutes",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "112-26",
+      "passed_date": null
+    },
+    {
+      "title": "Minutes from the meeting of February 17, 2026",
+      "type": "Council Minutes",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "113-26",
+      "passed_date": null
+    },
+    {
+      "title": "Petition: Class II: Friends Auto Group LLC, 225 Eastern Avenue, Malden, 17 vehicles (Renewal)",
+      "type": "Petition",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "115-26",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://cityofmalden.legistar.com",
-  "enriched_at": "2026-02-23T02:41:06.503423",
+  "enriched_at": "2026-02-23T07:14:20.734377",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

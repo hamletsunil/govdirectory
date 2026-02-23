@@ -559,7 +559,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Los%20Angeles%20County",
-        "probed_at": "2026-02-23T02:51:55.256418",
+        "probed_at": "2026-02-23T07:26:01.778398",
         "data_vintage": "BRFSS None",
         "geographic_level": "place",
         "status": "unavailable"
@@ -824,7 +824,88 @@
   },
   "officials": {
     "body_name": "Hearing Board of Supervisors",
-    "members": []
+    "members": [
+      {
+        "name": "Alhambra",
+        "email": null,
+        "title": null,
+        "start_date": "2023-06-06"
+      },
+      {
+        "name": "Don Knabe",
+        "email": null,
+        "title": "Supervisor",
+        "start_date": "2011-05-01"
+      },
+      {
+        "name": "Hilda L. Solis",
+        "email": null,
+        "title": "Supervisor",
+        "start_date": "2014-12-01",
+        "committees": [
+          "Board of Supervisors",
+          "Budget Hearings",
+          "Los Angeles County Affordable Housing Solutions Agency",
+          "Los Angeles Grand Avenue Authority",
+          "West Carson Enhanced Infrastructure Financing District Public Finance Authority"
+        ]
+      },
+      {
+        "name": "Holly J. Mitchell",
+        "email": null,
+        "title": "Chair Pro Tem",
+        "start_date": "2020-12-08",
+        "committees": [
+          "Board of Supervisors",
+          "Los Angeles County Affordable Housing Solutions Agency",
+          "West Carson Enhanced Infrastructure Financing District Public Finance Authority"
+        ]
+      },
+      {
+        "name": "Janice Hahn",
+        "email": null,
+        "title": "Supervisor",
+        "start_date": "2016-12-01",
+        "committees": [
+          "Board of Supervisors",
+          "Budget Deliberation",
+          "Los Angeles County Affordable Housing Solutions Agency",
+          "West Carson Enhanced Infrastructure Financing District Public Finance Authority"
+        ]
+      },
+      {
+        "name": "Kathryn Barger",
+        "email": null,
+        "title": "Supervisor",
+        "start_date": "2016-12-01",
+        "committees": [
+          "Board of Supervisors",
+          "Budget Deliberation",
+          "Los Angeles County Affordable Housing Solutions Agency",
+          "Los Angeles County Executive Committee for Regional Homeless Alignment"
+        ]
+      },
+      {
+        "name": "Lindsey P. Horvath",
+        "email": null,
+        "title": "Supervisor",
+        "start_date": "2022-12-06",
+        "committees": [
+          "Board of Supervisors",
+          "Los Angeles County Affordable Housing Solutions Agency",
+          "Los Angeles County Executive Committee for Regional Homeless Alignment"
+        ]
+      },
+      {
+        "name": "Sheila Kuehl",
+        "email": null,
+        "title": "Chair Pro Tem",
+        "start_date": "2014-12-01",
+        "committees": [
+          "Budget Hearings"
+        ]
+      }
+    ]
   },
   "recent_meetings": [
     {
@@ -848,9 +929,90 @@
       "upcoming": false
     }
   ],
-  "recent_legislation": [],
+  "recent_legislation": [
+    {
+      "title": "Presentation and consideration of a grant request from the County of Los Angeles Department of Parks and Recreation, in the amount of $31,000.00, to support the Apollo Park Youth Fishing Derby, schedu",
+      "type": "ComPresentation",
+      "status": "On Agenda",
+      "intro_date": "2026-02-20",
+      "file_number": "26-1355",
+      "passed_date": null
+    },
+    {
+      "title": "Receive and file the Fish and Wildlife Commission’s Propagation Fund Summary of Income, Expenditures, and Fund Balance Report, for the period ending January 31, 2026, for Fiscal Year 2025-2026.",
+      "type": "ComAdministrative",
+      "status": "On Agenda",
+      "intro_date": "2026-02-20",
+      "file_number": "26-1360",
+      "passed_date": null
+    },
+    {
+      "title": "Receive and file the Fish and Wildlife Commission’s Trust Fund (TK7) Reconciliation Report, for the period ending January 31, 2026, for Fiscal Year 2025-2026.",
+      "type": "ComAdministrative",
+      "status": "On Agenda",
+      "intro_date": "2026-02-20",
+      "file_number": "26-1359",
+      "passed_date": null
+    },
+    {
+      "title": "AUDIO FOR THE ENTIRE MEETING",
+      "type": "ComAdministrative",
+      "status": "Filed",
+      "intro_date": "2026-02-20",
+      "file_number": "26-1352",
+      "passed_date": "2026-02-13"
+    },
+    {
+      "title": "Call to Order, Welcome, LA County Land Acknowledgement, and Roll Call.\r\n\r\nThe County of Los Angeles recognizes that we occupy land originally and still inhabited and cared for by the Tongva (TONG+VUH)",
+      "type": "ComAdministrative",
+      "status": "On Agenda",
+      "intro_date": "2026-02-20",
+      "file_number": "26-1354",
+      "passed_date": null
+    },
+    {
+      "title": "Adjournment for the Special meeting of February 26, 2026.",
+      "type": "ComAdjournments",
+      "status": "On Agenda",
+      "intro_date": "2026-02-20",
+      "file_number": "26-1364",
+      "passed_date": null
+    },
+    {
+      "title": "Chairperson report on various items and correspondence received.",
+      "type": "ComReport",
+      "status": "On Agenda",
+      "intro_date": "2026-02-20",
+      "file_number": "26-1361",
+      "passed_date": null
+    },
+    {
+      "title": "Receive and file the Minutes from the meeting of July 24, 2025.",
+      "type": "ComAdministrative",
+      "status": "On Agenda",
+      "intro_date": "2026-02-20",
+      "file_number": "26-1358",
+      "passed_date": null
+    },
+    {
+      "title": "Staff report on various items, and correspondence received.",
+      "type": "ComReport",
+      "status": "On Agenda",
+      "intro_date": "2026-02-20",
+      "file_number": "26-1362",
+      "passed_date": null
+    },
+    {
+      "title": "Presentation and consideration of a grant proposal from Cleo’s Critter Care Wildlife Rescue and Rehabilitation (CCCWRR) in the amount of $10,000.00, to ensure CCCWRR’s ability to provide appropriate n",
+      "type": "ComPresentation",
+      "status": "On Agenda",
+      "intro_date": "2026-02-20",
+      "file_number": "26-1357",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://lacounty.legistar.com",
-  "enriched_at": "2026-02-23T02:44:00.575751",
+  "enriched_at": "2026-02-23T07:17:24.950469",
   "government_news": [],
   "video_meetings": [
     {

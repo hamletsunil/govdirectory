@@ -512,7 +512,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Lu%20Verne",
-        "probed_at": "2026-02-23T02:51:58.195184",
+        "probed_at": "2026-02-23T07:26:04.640682",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -776,13 +776,218 @@
     "granularity_flags": 3
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "City Council",
+    "members": [
+      {
+        "name": "Caroline Thorson",
+        "email": "cthorson@cityofluverne.org",
+        "title": "Council Member",
+        "start_date": "2023-01-01",
+        "committees": [
+          "Aquatics & Fitness Board",
+          "Board of Appeals and Adjustments",
+          "Board of Appeals and Equalization",
+          "Canvassing Board",
+          "City Council Work Session"
+        ]
+      },
+      {
+        "name": "Dan Nath",
+        "email": "dnath@cityofluverne.org",
+        "title": "Council Member",
+        "start_date": "2022-11-16",
+        "committees": [
+          "Cable Television Board",
+          "Canvassing Board",
+          "City Council Work Session",
+          "Luverne Community Economic Development Corporation",
+          "Planning Commission"
+        ]
+      },
+      {
+        "name": "Jessica Mead",
+        "email": "jmead@cityofluverne.org",
+        "title": null,
+        "start_date": "2023-03-16"
+      },
+      {
+        "name": "Jill Wolf",
+        "email": "jwolf@cityofluverne.org",
+        "title": null,
+        "start_date": "2023-03-16",
+        "committees": [
+          "Labor Management",
+          "Luverne Community Economic Development Corporation"
+        ]
+      },
+      {
+        "name": "Kevin Aaker",
+        "email": "kaaker@cityofluverne.org",
+        "title": "Council Member",
+        "start_date": "2023-01-01",
+        "committees": [
+          "Airport Board",
+          "Board of Appeals and Equalization",
+          "Canvassing Board",
+          "City Council Work Session",
+          "Economic Development Authority"
+        ]
+      },
+      {
+        "name": "Marlin Kracht",
+        "email": "mkracht@cityofluverne.org",
+        "title": "Council Member",
+        "start_date": "2025-01-14",
+        "committees": [
+          "Canvassing Board",
+          "City Council Work Session"
+        ]
+      },
+      {
+        "name": "Patrick Baustian",
+        "email": "pbaustian@cityofluverne.org",
+        "title": "Mayor",
+        "start_date": "2022-11-16",
+        "committees": [
+          "Canvassing Board",
+          "City Council Work Session",
+          "Economic Development Authority"
+        ]
+      },
+      {
+        "name": "Tyler Reisch",
+        "email": "tylerreisch@cityofluverne.org",
+        "title": null,
+        "start_date": "2024-01-01"
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-17",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://cityofluverne.legistar1.com/cityofluverne/meetings/2026/2/1245_A_City_Council_26-02-17_Regular_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "City Council Work Session",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://cityofluverne.legistar1.com/cityofluverne/meetings/2026/2/1246_A_City_Council_Work_Session_26-02-10_Regular_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-09",
+      "body": "Economic Development Authority",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://cityofluverne.legistar1.com/cityofluverne/meetings/2026/2/1227_A_Economic_Development_Authority_26-02-09_Regular_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "Airport Board",
+      "location": "Luverne Municipal Airport",
+      "has_agenda": true,
+      "agenda_url": "https://cityofluverne.legistar1.com/cityofluverne/meetings/2026/2/1239_A_Airport_Board_26-02-03_Regular_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Change Order No. 3 for a contract increase of $2,247.45 RE: Highway 75 project for storm sewer structures near Bethany Lutheran Church to accommodate the proposed detention basin.",
+      "type": "Motion",
+      "status": "Passed",
+      "intro_date": "2026-02-13",
+      "file_number": "2025-451",
+      "passed_date": "2026-02-17"
+    },
+    {
+      "title": "PROPOSED RESOLUTION\r\nRESOLUTION TO APPLY FOR AN OUTDOOR RECREATION GRANT",
+      "type": "Resolution",
+      "status": "Passed",
+      "intro_date": "2026-02-12",
+      "file_number": "7-26",
+      "passed_date": "2026-02-17"
+    },
+    {
+      "title": "PROPOSED RESOLUTION\r\nRESOLUTION ALLOWING THE WAIVER OF CHAPTER 152 SUBDIVISION REQUIREMENTS AND RECORDING OF SUBDIVIDED PROPERTY\r\n(Brett & Wendy Stegenga Living Trust to Comex Holdings, LLC)",
+      "type": "Resolution",
+      "status": "Passed",
+      "intro_date": "2026-02-12",
+      "file_number": "8-26",
+      "passed_date": "2026-02-17"
+    },
+    {
+      "title": "Replacement of Rooftop Dehumidification Unit Quote.",
+      "type": "Motion",
+      "status": "Passed",
+      "intro_date": "2026-02-12",
+      "file_number": "2025-449",
+      "passed_date": "2026-02-17"
+    },
+    {
+      "title": "PROPOSED RESOLUTION\nRESOLUTION AUTHORIZING THE ISSUANCE AND AWARDING THE SALE OF $2,180,000 GENERAL OBLIGATION UTILITY REVENUE BONDS, SERIES 2026A AND PLEDGING FOR THE SECURITY THEREOF NET REVENUES",
+      "type": "Resolution",
+      "status": "Passed",
+      "intro_date": "2026-02-12",
+      "file_number": "9-26",
+      "passed_date": "2026-02-17"
+    },
+    {
+      "title": "PROPOSED RESOLUTION\r\nRESOLUTION DESIGNATING CERTAIN REAL PROPERTY AS A CITY PARK, DEDICATING IT FOR PUBLIC OUTDOOR RECREATION USE, AND AUTHORIZING RELATED ACTIONS",
+      "type": "Resolution",
+      "status": "Passed",
+      "intro_date": "2026-02-12",
+      "file_number": "6-26",
+      "passed_date": "2026-02-17"
+    },
+    {
+      "title": "Claim Report for February 2026 (Check No. 166855 - )",
+      "type": "Claim Report",
+      "status": "Passed",
+      "intro_date": "2026-02-05",
+      "file_number": "2025-436",
+      "passed_date": "2026-02-17"
+    },
+    {
+      "title": "January 20, 2026 City Council Minutes",
+      "type": "Minutes",
+      "status": "Passed",
+      "intro_date": "2026-02-05",
+      "file_number": "2025-442",
+      "passed_date": "2026-02-17"
+    },
+    {
+      "title": "Application for Exempt Permit for Jackson Ducks Unlimited MN to conduct a Raffle and Bingo at the Luverne Fire Department on April 18, 2026",
+      "type": "Motion",
+      "status": "Passed",
+      "intro_date": "2026-02-05",
+      "file_number": "2025-440",
+      "passed_date": "2026-02-17"
+    },
+    {
+      "title": "Sheriff's Office Quarterly Report - Matt Sorenson",
+      "type": "Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-05",
+      "file_number": "2025-437",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://cityofluverne.legistar.com",
-  "enriched_at": "2026-02-23T02:41:05.725101",
+  "enriched_at": "2026-02-23T07:14:18.146518",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

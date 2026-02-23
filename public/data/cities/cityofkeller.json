@@ -505,7 +505,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Keller",
-        "probed_at": "2026-02-23T02:51:22.114498",
+        "probed_at": "2026-02-23T07:25:28.637420",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -770,7 +770,71 @@
   },
   "officials": {
     "body_name": "City Council",
-    "members": []
+    "members": [
+      {
+        "name": "Armin Mizani",
+        "email": "amizani@cityofkeller.com",
+        "title": "Mayor",
+        "start_date": "2023-06-08",
+        "committees": [
+          "JOINT MEETING"
+        ]
+      },
+      {
+        "name": "Chris Whatley",
+        "email": null,
+        "title": "Council Member",
+        "start_date": "2023-06-08",
+        "committees": [
+          "JOINT MEETING",
+          "Keller Development Corporation"
+        ]
+      },
+      {
+        "name": "Gregory Will",
+        "email": null,
+        "title": "Council Member",
+        "start_date": "2024-05-15"
+      },
+      {
+        "name": "Karen Brennan",
+        "email": "kbrennan@cityofkeller.com",
+        "title": "Council Member",
+        "start_date": "2025-05-06",
+        "committees": [
+          "JOINT MEETING"
+        ]
+      },
+      {
+        "name": "Ross McMullin",
+        "email": null,
+        "title": "Mayor Pro Tem",
+        "start_date": "2023-06-08",
+        "committees": [
+          "JOINT MEETING",
+          "Keller Development Corporation"
+        ]
+      },
+      {
+        "name": "Shannon Dubberly",
+        "email": null,
+        "title": "Council Member",
+        "start_date": "2021-05-12",
+        "committees": [
+          "JOINT MEETING",
+          "Keller Development Corporation"
+        ]
+      },
+      {
+        "name": "Tag Green",
+        "email": null,
+        "title": "Council Member",
+        "start_date": "2025-05-06",
+        "committees": [
+          "Economic Development Board"
+        ]
+      }
+    ]
   },
   "recent_meetings": [
     {
@@ -884,9 +948,90 @@
       "upcoming": false
     }
   ],
-  "recent_legislation": [],
+  "recent_legislation": [
+    {
+      "title": "Consider the minutes of the February 10, 2026 Planning and Zoning Commission Meeting.",
+      "type": "Consent",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "26-163",
+      "passed_date": null
+    },
+    {
+      "title": "Briefing regarding City Council action on February 17, 2026.",
+      "type": "Administrative Comments",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "26-162",
+      "passed_date": null
+    },
+    {
+      "title": "Consider the minutes of the January 27, 2026 Planning and Zoning Commission Meeting.",
+      "type": "Consent",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "26-164",
+      "passed_date": null
+    },
+    {
+      "title": "Discuss Shelter Statistical Data and Staffing.",
+      "type": "New Business",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "26-160",
+      "passed_date": null
+    },
+    {
+      "title": "Consider approval of the previous meeting minutes",
+      "type": "New Business",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "26-159",
+      "passed_date": null
+    },
+    {
+      "title": "PUBLIC HEARING: Consider a request for a Specific Use Permit (SUP) for an existing 1,750 square-foot accessory structure and carport, on .86  acres, located on the east side of Oakwood Drive, approxim",
+      "type": "New Business",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "26-161",
+      "passed_date": null
+    },
+    {
+      "title": "Mayor Mizani recognized the following winners of the Keller ISD Spelling Bees:",
+      "type": "Proclamation/Presentation",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-17",
+      "file_number": "26-158",
+      "passed_date": null
+    },
+    {
+      "title": "Discuss the Keller Economic Development Board.",
+      "type": "Work Session",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-10",
+      "file_number": "26-154",
+      "passed_date": null
+    },
+    {
+      "title": "Consider a resolution approving an update to the Keller Sports Park Operating Policies, for the Parks and Recreation Department, in the City of Keller, Tarrant County, Texas.",
+      "type": "Consent",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-09",
+      "file_number": "26-153",
+      "passed_date": null
+    },
+    {
+      "title": "Discuss and appoint two Council Members to the Citywide Solid Waste and Recycling Services Committee.",
+      "type": "Work Session",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-05",
+      "file_number": "26-152",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://cityofkeller.legistar.com",
-  "enriched_at": "2026-02-23T02:41:02.186605",
+  "enriched_at": "2026-02-23T07:14:09.430541",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

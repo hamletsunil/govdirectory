@@ -422,7 +422,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Los%20Alamos",
-        "probed_at": "2026-02-23T02:52:18.546407",
+        "probed_at": "2026-02-23T07:26:24.814911",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -686,13 +686,343 @@
     "granularity_flags": 0
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "County Council - Regular Session",
+    "members": [
+      {
+        "name": "Beverly Neal-Clinton",
+        "email": null,
+        "title": "Chair",
+        "start_date": "2025-01-29",
+        "committees": [
+          "Board of Adjustment",
+          "County Council - Budget Hearing",
+          "County Council - Closed Session",
+          "County Council - Notice",
+          "County Council - Work Session"
+        ]
+      },
+      {
+        "name": "County Council",
+        "email": null,
+        "title": null,
+        "start_date": "2021-03-18"
+      },
+      {
+        "name": "David Reagor",
+        "email": null,
+        "title": null,
+        "start_date": "2021-01-01",
+        "committees": [
+          "County Council - Budget Hearing",
+          "County Council - Closed Session",
+          "County Council - Notice",
+          "County Council - Work Session"
+        ]
+      },
+      {
+        "name": "Linda Matteson",
+        "email": "linda.matteson@lacnm.us",
+        "title": null,
+        "start_date": "2025-03-02",
+        "website": "http://www.losalamosnm.us/",
+        "committees": [
+          "County Manager"
+        ]
+      },
+      {
+        "name": "Loryn 'Ryn' Herrmann",
+        "email": null,
+        "title": null,
+        "start_date": "2025-01-29",
+        "committees": [
+          "County Council - Budget Hearing",
+          "County Council - Closed Session",
+          "County Council - Notice",
+          "County Council - Work Session"
+        ]
+      },
+      {
+        "name": "Melanee Hand",
+        "email": null,
+        "title": null,
+        "start_date": "2022-01-28",
+        "committees": [
+          "County Council - Budget Hearing",
+          "County Council - Closed Session",
+          "County Council - Notice",
+          "County Council - Work Session"
+        ]
+      },
+      {
+        "name": "Randall Ryti",
+        "email": null,
+        "title": null,
+        "start_date": "2025-01-29",
+        "committees": [
+          "Board of Appeals",
+          "County Council - Budget Hearing",
+          "County Council - Closed Session",
+          "County Council - Notice"
+        ]
+      },
+      {
+        "name": "Susie Havemann",
+        "email": null,
+        "title": "Chair",
+        "start_date": "2022-12-27"
+      },
+      {
+        "name": "Suzie Havemann",
+        "email": null,
+        "title": null,
+        "start_date": "2023-06-13",
+        "committees": [
+          "County Council - Budget Hearing",
+          "County Council - Closed Session",
+          "County Council - Notice",
+          "County Council - Work Session"
+        ]
+      },
+      {
+        "name": "Theresa Cull",
+        "email": null,
+        "title": null,
+        "start_date": "2023-01-01",
+        "committees": [
+          "County Council - Budget Hearing",
+          "County Council - Closed Session",
+          "County Council - Notice",
+          "County Council - Work Session"
+        ]
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-24",
+      "body": "Personnel Board",
+      "location": "1000 Central Avenue, Suite 110",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/LosAlamos/meetings/2026/2/6055_A_Personnel_Board_26-02-24_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-25",
+      "body": "Planning and Zoning Commission",
+      "location": "Council Chambers\r\n1000 Central Avenue",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/LosAlamos/meetings/2026/2/6088_A_Planning_and_Zoning_Commission__26-02-25_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-26",
+      "body": "Arts in Public Places Advisory Board",
+      "location": "1000 Central Avenue, Suite 110, Los Alamos, NM  87544\r\nZoom (see agenda for the link)",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/LosAlamos/meetings/2026/2/5993_A_Arts_in_Public_Places_Advisory_Board_26-02-26_BCC_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-11",
+      "body": "Planning and Zoning Commission",
+      "location": "Council Chambers\r\n1000 Central Avenue",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/LosAlamos/meetings/2026/3/6089_A_Planning_and_Zoning_Commission__26-03-11_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-19",
+      "body": "Environmental Sustainability Board",
+      "location": "1000 Central Avenue - Council Chambers & Zoom",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/LosAlamos/meetings/2026/2/6176_A_Environmental_Sustainability_Board_26-02-19_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-18",
+      "body": "Board of Public Utilities",
+      "location": "Municipal Building, Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/LosAlamos/meetings/2026/2/6005_A_Board_of_Public_Utilities_26-02-18_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-18",
+      "body": "Inclusivity Task Force",
+      "location": "1000 Central Avenue - Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/LosAlamos/meetings/2026/2/6094_A_Inclusivity_Task_Force_26-02-18_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "County Council - Regular Session",
+      "location": "Council Chambers - 1000 Central Avenue",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/LosAlamos/meetings/2026/2/6097_A_County_Council_-_Regular_Session_26-02-17_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-12",
+      "body": "Los Alamos County DWI Planning Council",
+      "location": "Municipal Building, Room 330",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/LosAlamos/meetings/2026/2/6036_A_Los_Alamos_County_DWI_Planning_Council_26-02-12_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-12",
+      "body": "Parks and Recreation Board",
+      "location": "1000 Central Avenue",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/LosAlamos/meetings/2026/2/6064_A_Parks_and_Recreation_Board_26-02-12_BCC_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-11",
+      "body": "Personnel Board",
+      "location": "1000 Central Avenue, Suite 110",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/LosAlamos/meetings/2026/2/6191_A_Personnel_Board_26-02-11_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-11",
+      "body": "Planning and Zoning Commission",
+      "location": "Council Chambers\r\n1000 Central Avenue",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/LosAlamos/meetings/2026/2/6087_A_Planning_and_Zoning_Commission__26-02-11_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-11",
+      "body": "Personnel Board",
+      "location": "1000 Central Avenue, Suite 110",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/LosAlamos/meetings/2026/2/6135_A_Personnel_Board_26-02-11_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "County Council - Work Session",
+      "location": "Fire Station No. 3\r\n129 State Road 4 - White Rock",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/LosAlamos/meetings/2026/2/6096_A_County_Council_-_Work_Session_26-02-10_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Semi Quincentennial Art Competition",
+      "type": "Briefing/Report (Dept,BCC) - Action Requested",
+      "status": "Agenda Ready (BCC)",
+      "intro_date": "2026-02-20",
+      "file_number": "21351-26",
+      "passed_date": null
+    },
+    {
+      "title": "Approval of Minutes from the January 22, 2026 APP Meeting",
+      "type": "Briefing/Report (Dept,BCC) - Action Requested",
+      "status": "Agenda Ready (BCC)",
+      "intro_date": "2026-02-20",
+      "file_number": "21347-26",
+      "passed_date": null
+    },
+    {
+      "title": "Approval of January 14, 2026, Planning and Zoning Commission Meeting minutes.",
+      "type": "Minutes",
+      "status": "Agenda Ready (BCC)",
+      "intro_date": "2026-02-20",
+      "file_number": "21346-26",
+      "passed_date": null
+    },
+    {
+      "title": "Update on Deaccession Policy and Procedures",
+      "type": "Briefing/Report (Dept, BCC) - No action requested",
+      "status": "Agenda Ready (BCC)",
+      "intro_date": "2026-02-20",
+      "file_number": "21354-26",
+      "passed_date": null
+    },
+    {
+      "title": "Fire Station 4 - Discussion with LAFD Leadership",
+      "type": "Briefing/Report (Dept, BCC) - No action requested",
+      "status": "Agenda Ready (BCC)",
+      "intro_date": "2026-02-20",
+      "file_number": "21349-26",
+      "passed_date": null
+    },
+    {
+      "title": "Thank You and Farewell to Stephanie Haaser",
+      "type": "Briefing/Report (Dept, BCC) - No action requested",
+      "status": "Agenda Ready (BCC)",
+      "intro_date": "2026-02-20",
+      "file_number": "21348-26",
+      "passed_date": null
+    },
+    {
+      "title": "Working Group Updates",
+      "type": "Briefing/Report (Dept, BCC) - No action requested",
+      "status": "Agenda Ready (BCC)",
+      "intro_date": "2026-02-20",
+      "file_number": "21353-26",
+      "passed_date": null
+    },
+    {
+      "title": "Sustainability Manager Updates",
+      "type": "Briefing/Report (Dept, BCC) - No action requested",
+      "status": "Agenda Ready (BCC)",
+      "intro_date": "2026-02-13",
+      "file_number": "21331-26",
+      "passed_date": null
+    },
+    {
+      "title": "Presentation of the FInal Fleet Conversion and Community-WIde Electric Vehicle Charging Plan and Possible Action",
+      "type": "Briefing/Report (Dept,BCC) - Action Requested",
+      "status": "Agenda Ready (BCC)",
+      "intro_date": "2026-02-13",
+      "file_number": "21329-26",
+      "passed_date": null
+    },
+    {
+      "title": "Discuss and Appoint Liaison Assignments",
+      "type": "Briefing/Report (Dept,BCC) - Action Requested",
+      "status": "Agenda Ready (BCC)",
+      "intro_date": "2026-02-13",
+      "file_number": "21332-26",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://losalamos.legistar.com",
-  "enriched_at": "2026-02-23T02:44:17.278924",
+  "enriched_at": "2026-02-23T07:17:50.668446",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

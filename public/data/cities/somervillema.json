@@ -627,7 +627,7 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.somervillema.gov/resource/nneb-s3f7.json",
-        "probed_at": "2026-02-23T02:49:42.985544",
+        "probed_at": "2026-02-23T07:23:48.657668",
         "data_vintage": "Rolling 12-month window ending 2026-02-23",
         "geographic_level": "place",
         "status": "available",
@@ -674,7 +674,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Somerville",
-        "probed_at": "2026-02-23T02:51:02.020475",
+        "probed_at": "2026-02-23T07:25:08.296068",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -939,7 +939,145 @@
   },
   "officials": {
     "body_name": "City Council",
-    "members": []
+    "members": [
+      {
+        "name": "Ben Ewen-Campen",
+        "email": "benforward3@gmail.com",
+        "title": "Ward Three City Councilor",
+        "start_date": "2024-01-02",
+        "committees": [
+          "City Council Organizational Meeting",
+          "Confirmation of Appointments and Personnel Matters Committee",
+          "Land Use Committee",
+          "Legislative Matters Committee"
+        ]
+      },
+      {
+        "name": "Ben Wheeler",
+        "email": "bwheeler@somervillema.gov",
+        "title": "City Councilor At Large",
+        "start_date": "2026-01-02",
+        "committees": [
+          "City Council Organizational Meeting",
+          "Finance Committee",
+          "Licenses and Permits Committee",
+          "Traffic and Parking Committee"
+        ]
+      },
+      {
+        "name": "Emily Hardt",
+        "email": "ehardt@somervillema.gov",
+        "title": "Ward Seven City Councilor",
+        "start_date": "2025-11-05",
+        "committees": [
+          "City Council Organizational Meeting",
+          "Confirmation of Appointments and Personnel Matters Committee",
+          "Finance Committee",
+          "Licenses and Permits Committee",
+          "Sustainability and Infrastructure Committee"
+        ]
+      },
+      {
+        "name": "Jefferson Thomas (J.T.) Scott",
+        "email": "jtscott@somervillema.gov",
+        "title": "Ward Two City Councilor",
+        "start_date": "2024-01-02",
+        "committees": [
+          "City Council Organizational Meeting",
+          "Finance Committee",
+          "Legislative Matters Committee",
+          "School Building Facilities and Maintenance Committee",
+          "Sustainability and Infrastructure Committee"
+        ]
+      },
+      {
+        "name": "Jesse Clingan",
+        "email": "councilorjesseclingan@gmail.com",
+        "title": "Ward Four City Councilor",
+        "start_date": "2024-01-02",
+        "committees": [
+          "City Council Organizational Meeting",
+          "Land Use Committee",
+          "Public Health and Public Safety Committee",
+          "Sustainability and Infrastructure Committee"
+        ]
+      },
+      {
+        "name": "Jon Link",
+        "email": "jlink@somervillema.gov",
+        "title": "City Councilor At Large",
+        "start_date": "2026-01-02",
+        "committees": [
+          "City Council Organizational Meeting",
+          "Confirmation of Appointments and Personnel Matters Committee",
+          "Finance Committee",
+          "Housing, Community Development and Equity Committee",
+          "School Building Facilities and Maintenance Committee"
+        ]
+      },
+      {
+        "name": "Kristen Strezo",
+        "email": "strezoatlarge@gmail.com",
+        "title": "City Councilor At Large",
+        "start_date": "2024-01-02",
+        "committees": [
+          "City Council Organizational Meeting",
+          "Finance Committee",
+          "Housing, Community Development and Equity Committee",
+          "Legislative Matters Committee",
+          "Public Health and Public Safety Committee"
+        ]
+      },
+      {
+        "name": "Lance L. Davis",
+        "email": "ldavis@somervillema.gov",
+        "title": "Ward Six City Councilor",
+        "start_date": "2024-01-02",
+        "committees": [
+          "City Council Organizational Meeting",
+          "Land Use Committee",
+          "Legislative Matters Committee",
+          "Licenses and Permits Committee"
+        ]
+      },
+      {
+        "name": "Matthew McLaughlin",
+        "email": "MMcLaughlin@somervillema.gov",
+        "title": "Ward One City Councilor",
+        "start_date": "2024-01-02",
+        "committees": [
+          "City Council Organizational Meeting",
+          "Confirmation of Appointments and Personnel Matters Committee",
+          "Land Use Committee",
+          "Public Health and Public Safety Committee"
+        ]
+      },
+      {
+        "name": "Naima Sait",
+        "email": "naimaforsomerville@gmail.com",
+        "title": "Ward Five City Councilor",
+        "start_date": "2024-01-02",
+        "committees": [
+          "City Council Organizational Meeting",
+          "Housing, Community Development and Equity Committee",
+          "Land Use Committee",
+          "School Building Facilities and Maintenance Committee",
+          "Traffic and Parking Committee"
+        ]
+      },
+      {
+        "name": "Wilfred N. Mbah",
+        "email": "wmbah@somervillema.gov",
+        "title": "City Councilor At Large",
+        "start_date": "2024-01-02",
+        "committees": [
+          "City Council Organizational Meeting",
+          "Confirmation of Appointments and Personnel Matters Committee",
+          "Legislative Matters Committee",
+          "Traffic and Parking Committee"
+        ]
+      }
+    ]
   },
   "recent_meetings": [
     {
@@ -1093,9 +1231,90 @@
       "upcoming": false
     }
   ],
-  "recent_legislation": [],
+  "recent_legislation": [
+    {
+      "title": "That this City Council hold a public hearing on the petition submitted by 52 registered voters regarding Out of the Blue Community Arts Space at Arts at the Armory, pursuant to Section 2-11 of the Cit",
+      "type": "Public Communication",
+      "status": "Referred for Recommendation",
+      "intro_date": "2026-02-12",
+      "file_number": "26-0265",
+      "passed_date": null
+    },
+    {
+      "title": "Approval of the Minutes of the Finance Committee Meeting of February 10, 2026.",
+      "type": "Committee Minutes",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-12",
+      "file_number": "26-0263",
+      "passed_date": null
+    },
+    {
+      "title": "Requesting authorization to borrow $1,530,000 in a bond, and to appropriate the same amount for the annual FY 2026 Sewer System Evaluation and Infiltration/Inflow Assessment.",
+      "type": "Mayor's Request",
+      "status": "Referred for Recommendation",
+      "intro_date": "2026-02-12",
+      "file_number": "26-0162",
+      "passed_date": null
+    },
+    {
+      "title": "Approval of the Minutes of the Licenses and Permits Committee Meeting of February 11, 2026.",
+      "type": "Committee Minutes",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-12",
+      "file_number": "26-0264",
+      "passed_date": null
+    },
+    {
+      "title": "Elizabeth Schaul submitting comments re: snow removal.",
+      "type": "Public Communication",
+      "status": "Placed on File",
+      "intro_date": "2026-02-11",
+      "file_number": "26-0256",
+      "passed_date": "2026-02-12"
+    },
+    {
+      "title": "Noa Cohen Hughes and Crystal Huff submitting comments re: item #26-0114, Fiscal Year 2027 budget priorities.",
+      "type": "Public Communication",
+      "status": "Placed on File",
+      "intro_date": "2026-02-11",
+      "file_number": "26-0258",
+      "passed_date": "2026-02-12"
+    },
+    {
+      "title": "Cole Rainey-Slavick submitting comments re: U.S. Immigration and Customs Enforcement.",
+      "type": "Public Communication",
+      "status": "Placed on File",
+      "intro_date": "2026-02-11",
+      "file_number": "26-0254",
+      "passed_date": "2026-02-12"
+    },
+    {
+      "title": "That this City Council commends the Fire Department for its fast and professional emergency response to the recent fire at 26 Summer Street.",
+      "type": "Resolution",
+      "status": "Approved",
+      "intro_date": "2026-02-11",
+      "file_number": "26-0253",
+      "passed_date": "2026-02-12"
+    },
+    {
+      "title": "Union 2 Associates, LLC requesting a Zoning Map Amendment to change the zoning district of  2 and 9 Union Square, 286, 290, and 298 Somerville Avenue from Commercial Core 5 (CC5) to Mid-Rise 6 (MR6).",
+      "type": "Public Communication",
+      "status": "Referred for Recommendation",
+      "intro_date": "2026-02-11",
+      "file_number": "26-0257",
+      "passed_date": null
+    },
+    {
+      "title": "Four residents submitting comments re: Israel boycott.",
+      "type": "Public Communication",
+      "status": "Placed on File",
+      "intro_date": "2026-02-11",
+      "file_number": "26-0255",
+      "passed_date": "2026-02-12"
+    }
+  ],
   "legistar_url": "https://somervillema.legistar.com",
-  "enriched_at": "2026-02-23T02:47:55.231841",
+  "enriched_at": "2026-02-23T07:21:58.426685",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

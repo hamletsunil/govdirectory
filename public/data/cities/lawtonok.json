@@ -500,7 +500,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Lawton",
-        "probed_at": "2026-02-23T02:50:56.366187",
+        "probed_at": "2026-02-23T07:25:02.414795",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -764,13 +764,73 @@
     "granularity_flags": 3
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "City Council",
+    "members": [
+      {
+        "name": "Allan Hampton",
+        "email": "ward5@lawtonok.gov",
+        "title": "Council Member",
+        "start_date": "2020-01-16",
+        "committees": [
+          "City Transit Trust",
+          "Lawton Parking Authority",
+          "Lawton Water Authority"
+        ]
+      },
+      {
+        "name": "Bob Weger",
+        "email": "ward6@lawtonok.gov",
+        "title": "Council Member",
+        "start_date": "2023-05-09",
+        "committees": [
+          "City Transit Trust",
+          "Lawton Water Authority"
+        ]
+      },
+      {
+        "name": "Mary Ann Hankins",
+        "email": "ward1@lawtonok.gov",
+        "title": "Council Member",
+        "start_date": "2019-01-07",
+        "committees": [
+          "City Transit Trust",
+          "Lawton Parking Authority",
+          "Lawton Water Authority"
+        ]
+      },
+      {
+        "name": "Randy Warren",
+        "email": "ward8@lawtonok.gov",
+        "title": "Council Member",
+        "start_date": "2020-01-16",
+        "committees": [
+          "City Transit Trust",
+          "Lawton Parking Authority",
+          "Lawton Water Authority"
+        ]
+      },
+      {
+        "name": "RL Smith",
+        "email": "ward2@lawtonok.gov",
+        "title": "Council Member",
+        "start_date": "2025-01-13"
+      },
+      {
+        "name": "Sherene Williams",
+        "email": "ward7@lawtonok.gov",
+        "title": "Council Member",
+        "start_date": "2024-01-08",
+        "committees": [
+          "City Transit Trust",
+          "Lawton Water Authority"
+        ]
+      }
+    ]
   },
   "recent_meetings": [],
   "recent_legislation": [],
   "legistar_url": "https://lawtonok.legistar.com",
-  "enriched_at": "2026-02-23T02:44:05.198687",
+  "enriched_at": "2026-02-23T07:17:34.315035",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

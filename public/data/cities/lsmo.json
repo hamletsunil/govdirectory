@@ -522,7 +522,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Lee%27s%20Summit",
-        "probed_at": "2026-02-23T02:50:50.596468",
+        "probed_at": "2026-02-23T07:24:56.535962",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -786,13 +786,401 @@
     "granularity_flags": 3
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "City Council - Regular Session",
+    "members": [
+      {
+        "name": "Baird, Bill",
+        "email": "Bill.Baird@cityofls.net",
+        "title": "Mayor",
+        "start_date": "2018-04-12",
+        "committees": [
+          "City Council - Closed Session",
+          "City Council - Mock Meeting",
+          "City Council - Work Session",
+          "Legislative and Intergovernmental Relations Committee"
+        ]
+      },
+      {
+        "name": "Carlyle, Trish",
+        "email": "Trish.Carlyle@cityofLS.net",
+        "title": "Councilmember",
+        "start_date": "2024-04-16",
+        "committees": [
+          "City Council - Closed Session",
+          "City Council - Mock Meeting",
+          "City Council - Work Session",
+          "Community and Economic Development Committee",
+          "Legislative and Intergovernmental Relations Committee"
+        ]
+      },
+      {
+        "name": "Funk, Donnie",
+        "email": "Donnie.Funk@cityofls.net",
+        "title": "Alternate",
+        "start_date": "2025-05-20",
+        "committees": [
+          "Board of Aeronautic Commissioners",
+          "City Council - Closed Session",
+          "City Council - Mock Meeting",
+          "City Council Rules Committee",
+          "City Council - Work Session"
+        ]
+      },
+      {
+        "name": "Hodges, Faith",
+        "email": "Faith.Hodges@cityofls.net",
+        "title": "Councilmember",
+        "start_date": "2022-04-27",
+        "committees": [
+          "City Council - Closed Session",
+          "City Council - Mock Meeting",
+          "City Council - Work Session",
+          "Community and Economic Development Committee",
+          "Finance and Budget Committee"
+        ]
+      },
+      {
+        "name": "Lopez, Beto",
+        "email": "Beto.Lopez@cityofls.net",
+        "title": "Councilmember",
+        "start_date": "2018-04-12",
+        "committees": [
+          "City Council - Closed Session",
+          "City Council - Mock Meeting",
+          "City Council - Work Session",
+          "Finance and Budget Committee"
+        ]
+      },
+      {
+        "name": "Lovell, John",
+        "email": "John.Lovell@cityofls.net",
+        "title": "Chairperson",
+        "start_date": "2025-05-20",
+        "committees": [
+          "City Council - Closed Session",
+          "City Council - Mock Meeting",
+          "City Council Rules Committee",
+          "City Council - Work Session",
+          "Finance and Budget Committee"
+        ]
+      },
+      {
+        "name": "Prier, Mia",
+        "email": "Mia.Prier@cityofls.net",
+        "title": "Councilmember",
+        "start_date": "2025-05-20",
+        "committees": [
+          "City Council - Closed Session",
+          "City Council - Mock Meeting",
+          "City Council Rules Committee",
+          "City Council - Work Session",
+          "Community and Economic Development Committee"
+        ]
+      },
+      {
+        "name": "Rader, Cynda",
+        "email": "Cynda.Rader@cityofls.net",
+        "title": "Councilmember",
+        "start_date": "2024-05-21",
+        "committees": [
+          "City Council - Closed Session",
+          "City Council - Mock Meeting",
+          "City Council Rules Committee",
+          "City Council - Work Session",
+          "Community and Economic Development Committee"
+        ]
+      },
+      {
+        "name": "Shields, Hillary",
+        "email": "Hillary.Shields@cityofls.net",
+        "title": "Vice Chair",
+        "start_date": "2025-05-20",
+        "committees": [
+          "City Council - Closed Session",
+          "City Council - Mock Meeting",
+          "City Council Rules Committee",
+          "City Council - Work Session",
+          "Finance and Budget Committee"
+        ]
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-24",
+      "body": "City Council - Regular Session",
+      "location": "City Council Chambers\r\nand Via Video Conference\r\n220 SE Green Street\r\nLee's Summit, MO 64063",
+      "has_agenda": true,
+      "agenda_url": "https://lsmo.legistar1.com/lsmo/meetings/2026/2/4436_A_City_Council_-_Regular_Session_26-02-24_Final_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-25",
+      "body": "Land Clearance for Redevelopment Authority",
+      "location": "Strother Conference Room\r\n220 SE Green Street\r\nLee's Summit, MO 64063",
+      "has_agenda": true,
+      "agenda_url": "https://lsmo.legistar1.com/lsmo/meetings/2026/2/4538_A_Land_Clearance_for_Redevelopment_Authority_26-02-25_Final_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-26",
+      "body": "Planning Commission",
+      "location": "City Council Chambers\r\nCity Hall\r\n220 SE Green Street\r\nLee's Summit, MO 64063",
+      "has_agenda": true,
+      "agenda_url": "https://lsmo.legistar1.com/lsmo/meetings/2026/2/4490_A_Planning_Commission_26-02-26_Final_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-27",
+      "body": "Industrial Development Authority",
+      "location": "Lee's Summit City Hall\r\nStrother Conference Room\r\n220 SE Green Street\r\nLee's Summit, MO 64063",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-11",
+      "body": "Wellness Commission",
+      "location": "Strother Conference Room\r\nCity Hall\r\n220 SE Green Street\r\nLee's Summit, MO 64063",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-16",
+      "body": "Charter Review Commission",
+      "location": "City Council Committee Room\r\nCity Hall\r\n220 SE Green Street\r\nLee's Summit, MO 64063",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-17",
+      "body": "Public Safety Advisory Board",
+      "location": "Please see the agenda for meeting location.",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-18",
+      "body": "Cultural Commission",
+      "location": "Strother Conference Room\r\nCity Hall\r\n220 SE Green Street\r\nLee's Summit, MO 64063",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-25",
+      "body": "Parks and Recreation Board",
+      "location": "Strother Conference Room\r\nCity Hall\r\n220 SE Green Street\r\nLee's Summit, MO 64063",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-19",
+      "body": "Board of Appeals",
+      "location": "Via Video Conference",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-18",
+      "body": "Parks and Recreation Board",
+      "location": "Strother Conference Room\r\n220 SE Green Street\r\nLee's Summit, MO 64063",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-18",
+      "body": "Parks and Recreation Board",
+      "location": "Strother Conference Room\r\nCity Hall\r\n220 SE Green Street\r\nLee's Summit, MO 64063",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "Public Safety Advisory Board",
+      "location": "Please see the agenda for meeting location.",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "Charter Review Commission",
+      "location": "City Council Committee Room\r\nCity Hall\r\n220 SE Green Street\r\nLee's Summit, MO 64063",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-13",
+      "body": "City Council Rules Committee",
+      "location": "Via Video Conference",
+      "has_agenda": true,
+      "agenda_url": "https://lsmo.legistar1.com/lsmo/meetings/2026/2/4533_A_City_Council_Rules_Committee_26-02-13_Final_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-12",
+      "body": "Planning Commission",
+      "location": "City Council Chambers\r\nCity Hall\r\n220 SE Green Street\r\nLee's Summit, MO 64063",
+      "has_agenda": true,
+      "agenda_url": "https://lsmo.legistar1.com/lsmo/meetings/2026/2/4489_A_Planning_Commission_26-02-12_Final_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-11",
+      "body": "Wellness Commission",
+      "location": "Strother Conference Room\r\nCity Hall\r\n220 SE Green Street\r\nLee's Summit, MO 64063",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-11",
+      "body": "Community and Economic Development Committee",
+      "location": "City Council Chambers\r\nand Via Video Conference\r\n220 SE Green Street\r\nLee's Summit, MO 64063",
+      "has_agenda": true,
+      "agenda_url": "https://lsmo.legistar1.com/lsmo/meetings/2026/2/4320_A_Community_and_Economic_Development_Committee_26-02-11_Final_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "City Council - Regular Session",
+      "location": "City Council Chambers\r\nand Via Video Conference\r\n220 SE Green Street\r\nLee's Summit, MO 64063",
+      "has_agenda": true,
+      "agenda_url": "https://lsmo.legistar1.com/lsmo/meetings/2026/2/4437_A_City_Council_-_Regular_Session_26-02-10_Final_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "An Ordinance approving rezoning from District AG (Agricultural) to District CP-2 (Planned Community Commercial) and preliminary development plan on approximately 9 acres of land generally located at t",
+      "type": "Ordinance - Public Hearing",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "TMP-3613",
+      "passed_date": null
+    },
+    {
+      "title": "Public Hearing: Amended & Restated Paragon Star Apartments LCRA Redevelopment Plan; Grayson Capital, applicant.",
+      "type": "Public Hearing - Sworn",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "2026-7488",
+      "passed_date": null
+    },
+    {
+      "title": "Appl. #PL2026-038 - COMPREHENSIVE PLAN AMENDMENT - Thoroughfare Master Plan; City of Lee’s Summit, Applicant",
+      "type": "Public Hearing - Sworn",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "2026-7496",
+      "passed_date": null
+    },
+    {
+      "title": "Approval of the February 12, 2026, Planning Commission Action Letter",
+      "type": "Minutes",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "2026-7495",
+      "passed_date": null
+    },
+    {
+      "title": "Resolution 2026-01 - A Resolution of the Planning Commission of the City of Lee's Summit adopting the Scherer Road, Scherer Parkway, and Longview Boulevard Alignment Analysis as a revision to the Lee’",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "2026-7498",
+      "passed_date": null
+    },
+    {
+      "title": "Appl. #PL2026-039 - COMPREHENSIVE PLAN AMENDMENT - Future Land Use Map Update; City of Lee’s Summit, Applicant",
+      "type": "Public Hearing - Sworn",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "2026-7497",
+      "passed_date": null
+    },
+    {
+      "title": "Resolution 2026-1 recommending approval of the Amended & Restated Paragon Star Apartments LCRA Redevelopment Plan",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "2026-7489",
+      "passed_date": null
+    },
+    {
+      "title": "Appl. #PL2025-195 - REZONING from AG to CP-2 and PRELIMINARY DEVELOPMENT PLAN - Douglas Corporate Center, approximately 9 acres located at the southeast corner of NE Lee's Summit Rd and NE Douglas St;",
+      "type": "Public Hearing - Sworn",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "2026-7490",
+      "passed_date": null
+    },
+    {
+      "title": "Resolution 2026-02 - A Resolution of the Planning Commission of the City of Lee's Summit amending the Comprehensive Plan Future Land Use Map",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "2026-7499",
+      "passed_date": null
+    },
+    {
+      "title": "An Ordinance amending Article II. Council; Division 2. Procedures for the conduct of business by repealing Rule 13 of Section 2-49. Rules of Order and Section 2-50. Procedural rules for public meeting",
+      "type": "Ordinance - Committee",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-13",
+      "file_number": "TMP-3605",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://lsmo.legistar.com",
-  "enriched_at": "2026-02-23T02:44:18.818662",
+  "enriched_at": "2026-02-23T07:17:55.087911",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

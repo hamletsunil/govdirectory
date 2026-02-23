@@ -530,7 +530,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=League%20City",
-        "probed_at": "2026-02-23T02:50:46.252547",
+        "probed_at": "2026-02-23T07:24:52.284458",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -794,13 +794,183 @@
     "granularity_flags": 2
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "City Council",
+    "members": [
+      {
+        "name": "Andy Mann",
+        "email": "andy.mann@leaguecitytx.gov",
+        "title": "Mr.",
+        "start_date": "2018-11-21",
+        "website": "http://www.leaguecitytx.gov"
+      },
+      {
+        "name": "Chad Tressler",
+        "email": "chad.tressler@leaguecitytx.gov",
+        "title": "Mr.",
+        "start_date": "2019-01-08",
+        "website": "http://www.leaguecitytx.gov"
+      },
+      {
+        "name": "Courtney Chadwell",
+        "email": "courtney.chadwell@leaguecitytx.gov",
+        "title": "Mr.",
+        "start_date": "2024-02-27"
+      },
+      {
+        "name": "Nick Long",
+        "email": "nick.long@leaguecitytx.gov",
+        "title": "Mayor",
+        "start_date": "2014-11-18",
+        "website": "http://www.leaguecitytx.gov"
+      },
+      {
+        "name": "Scott Higginbotham",
+        "email": "scott.higginbotham@leaguecitytx.gov",
+        "title": "Mr.",
+        "start_date": "2025-05-13"
+      },
+      {
+        "name": "Sean Saunders",
+        "email": "sean.saunders@leaguecitytx.gov",
+        "title": "Mr.",
+        "start_date": "2022-12-13",
+        "website": "http://www.leaguecitytx.gov"
+      },
+      {
+        "name": "Tom Crews",
+        "email": "tom.crews@leaguecitytx.gov",
+        "title": "Mr.",
+        "start_date": "2022-11-22",
+        "website": "http://www.leaguecitytx.gov"
+      },
+      {
+        "name": "Tommy Cones",
+        "email": "tommy.cones@leaguecitytx.gov",
+        "title": "Mr.",
+        "start_date": "2022-11-22",
+        "website": "http://www.leaguecitytx.gov",
+        "committees": [
+          "Fire Department"
+        ]
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-24",
+      "body": "City Council",
+      "location": "Council Chambers\r\n200 West Walker Street",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/LeagueCity/meetings/2026/2/2202_A_City_Council_26-02-24_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-10",
+      "body": "City Council",
+      "location": "Council Chambers\r\n200 West Walker Street",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/LeagueCity/meetings/2026/2/2201_A_City_Council_26-02-10_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-27",
+      "body": "City Council",
+      "location": "Council Chambers\r\n200 West Walker Street",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/LeagueCity/meetings/2026/1/2199_A_City_Council_26-01-27_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Consider and take action on a resolution authorizing an expenditure of an amount not to exceed $796,900.00 with Ready Power LLC for the purchase of four generators utilizing FEMA Hazard Mitigation Gra",
+      "type": "Agenda Item",
+      "status": "Consent Agenda",
+      "intro_date": "2026-02-13",
+      "file_number": "26-0088",
+      "passed_date": null
+    },
+    {
+      "title": "Presentation by ETC Institute - 2025 League City Citizen Survey Report (City Manager)",
+      "type": "Agenda Item",
+      "status": "Presentations",
+      "intro_date": "2026-02-12",
+      "file_number": "26-0087",
+      "passed_date": null
+    },
+    {
+      "title": "February 10, 2026 Regular Meeting",
+      "type": "Agenda Item",
+      "status": "Minutes",
+      "intro_date": "2026-02-11",
+      "file_number": "26-0085",
+      "passed_date": null
+    },
+    {
+      "title": "Consider and take action on a resolution rejecting all proposals received for RFP #25-033 Signs and Banners (Director of Finance)",
+      "type": "Agenda Item",
+      "status": "Consent Agenda",
+      "intro_date": "2026-02-10",
+      "file_number": "26-0082",
+      "passed_date": null
+    },
+    {
+      "title": "Consider and take action on a resolution authorizing the First Amendment to the Memorandum of Understanding with the City of Friendswood related to the Harris County Precinct 2 Grant Partnership Progr",
+      "type": "Agenda Item",
+      "status": "Consent Agenda",
+      "intro_date": "2026-02-10",
+      "file_number": "26-0080",
+      "passed_date": null
+    },
+    {
+      "title": "Consider and take action on a resolution authorizing a contingent fee professional services agreement with Linebarger Goggan Blair and Sampson, LLP for delinquent ad valorem tax and delinquent municip",
+      "type": "Agenda Item",
+      "status": "Consent Agenda",
+      "intro_date": "2026-02-10",
+      "file_number": "26-0081",
+      "passed_date": null
+    },
+    {
+      "title": "Consider and take action on an ordinance approving a Rezoning Application, MAP-25-0010 (3143 W FM 517), a request to rezone approximately 54.656 acres from “RSF-7” (Residential Single-Family 7) to “IL",
+      "type": "Agenda Item",
+      "status": "Public Hearing",
+      "intro_date": "2026-02-09",
+      "file_number": "26-0079",
+      "passed_date": null
+    },
+    {
+      "title": "Hold a public hearing on a Planned Unit Development (PUD) Amendment, PUD-25-0002 (Duncan PUD Amendment), to amend the Duncan PUD to permit 3-phase overhead power lines along Ervin Street, generally lo",
+      "type": "Agenda Item",
+      "status": "Public Hearing",
+      "intro_date": "2026-02-09",
+      "file_number": "26-0074",
+      "passed_date": null
+    },
+    {
+      "title": "Consider and take action on a resolution authorizing a one-year agreement with Semper Striping LLC for roadway markings on-call in an amount not to exceed $213,185 (Director of Public Works)",
+      "type": "Agenda Item",
+      "status": "Consent Agenda",
+      "intro_date": "2026-02-09",
+      "file_number": "26-0069",
+      "passed_date": null
+    },
+    {
+      "title": "Hold a public hearing on a request to rezone approximately 7.982 acres from “RSF-7” (Residential Single-Family 7) to “CG” (General Commercial), MAP-25-0009 (League City Parkway and Legacy Drive), gene",
+      "type": "Agenda Item",
+      "status": "Public Hearing",
+      "intro_date": "2026-02-09",
+      "file_number": "26-0076",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://leaguecity.legistar.com",
-  "enriched_at": "2026-02-23T02:44:05.964898",
+  "enriched_at": "2026-02-23T07:17:36.682938",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

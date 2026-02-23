@@ -512,7 +512,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=New%20Braunfels",
-        "probed_at": "2026-02-23T02:50:54.964197",
+        "probed_at": "2026-02-23T07:25:00.869542",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -777,7 +777,71 @@
   },
   "officials": {
     "body_name": "City Council",
-    "members": []
+    "members": [
+      {
+        "name": "April Ryan",
+        "email": "april.ryan@newbraunfels.gov",
+        "title": "Councilmember",
+        "start_date": "2025-06-10",
+        "committees": [
+          "City Council - Executive Session"
+        ]
+      },
+      {
+        "name": "D. Lee Edwards",
+        "email": "dledwards@newbraunfels.gov",
+        "title": "Councilmember",
+        "start_date": "2024-05-28",
+        "committees": [
+          "City Council - Executive Session"
+        ]
+      },
+      {
+        "name": "Lawrence Spradley",
+        "email": "lspradley@newbraunfels.gov",
+        "title": "Mayor Pro Tem",
+        "start_date": "2021-05-24",
+        "committees": [
+          "City Council - Executive Session"
+        ]
+      },
+      {
+        "name": "Mary Ann Labowski",
+        "email": "mlabowski@newbraunfels.gov",
+        "title": "Councilmember",
+        "start_date": "2025-06-10",
+        "committees": [
+          "City Council - Executive Session"
+        ]
+      },
+      {
+        "name": "Michael Capizzi",
+        "email": "mcapizzi@newbraunfels.gov",
+        "title": "Councilmember",
+        "start_date": "2025-06-10",
+        "committees": [
+          "City Council - Executive Session"
+        ]
+      },
+      {
+        "name": "Neal Linnartz",
+        "email": "nlinnartz@newbraunfels.gov",
+        "title": "Mayor",
+        "start_date": "2025-06-10",
+        "committees": [
+          "City Council - Executive Session"
+        ]
+      },
+      {
+        "name": "Toni Carter",
+        "email": "tcarter@newbraunfels.gov",
+        "title": "Councilmember",
+        "start_date": "2025-06-10",
+        "committees": [
+          "City Council - Executive Session"
+        ]
+      }
+    ]
   },
   "recent_meetings": [
     {
@@ -961,9 +1025,90 @@
       "upcoming": false
     }
   ],
-  "recent_legislation": [],
+  "recent_legislation": [
+    {
+      "title": "Approval of the February 3, 2026 regular meeting minutes.",
+      "type": "Minutes",
+      "status": "Individual Item Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "26-236",
+      "passed_date": null
+    },
+    {
+      "title": "Comal County Historical Commission General Updates",
+      "type": "Report",
+      "status": "Individual Item Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "26-235",
+      "passed_date": null
+    },
+    {
+      "title": "REP26-041 Public hearing and consideration of a replat by James Ingalls on behalf of Hillyer Consulting Services Inc & Donna A Johnson, of approximately 0.9 acres out of City Block 1019, Lot E & FA of",
+      "type": "Recommendation",
+      "status": "Individual Item Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "26-225",
+      "passed_date": null
+    },
+    {
+      "title": "Discuss and consider approval of the January 22, 2026 minutes of the Cemetery Committee",
+      "type": "Minutes",
+      "status": "Individual Item Ready",
+      "intro_date": "2026-02-12",
+      "file_number": "26-199",
+      "passed_date": null
+    },
+    {
+      "title": "National Register Nomination",
+      "type": "Presentation",
+      "status": "Individual Item Ready",
+      "intro_date": "2026-02-12",
+      "file_number": "26-202",
+      "passed_date": null
+    },
+    {
+      "title": "Approval of the appointment of Will Henry to fill the unexpired term on the Planning Commission with a term ending 05-31-2028.",
+      "type": "Presentation",
+      "status": "Consent Item Ready",
+      "intro_date": "2026-02-11",
+      "file_number": "26-191",
+      "passed_date": null
+    },
+    {
+      "title": "PZ26-0023 Public hearing and recommendation to City Council, requested by Henry Espinoza, to rezone approximately 2.3 acres out of the AM Esnaurizar Survey, Abstract 20, from APD AH (Agricultural/Pre-",
+      "type": "Public Hearing",
+      "status": "Individual Item Ready",
+      "intro_date": "2026-02-11",
+      "file_number": "26-196",
+      "passed_date": null
+    },
+    {
+      "title": "Approval of the February 2, 2026 city council special meeting minutes, and the February 9, 2026 city council regular and executive session meeting minutes.",
+      "type": "Minutes",
+      "status": "Consent Item Ready",
+      "intro_date": "2026-02-11",
+      "file_number": "26-193",
+      "passed_date": null
+    },
+    {
+      "title": "Approval of the appointment of James Tipton and Greg Latimer for the two (2) seats on the Roadway Impact Fee Advisory Committee with terms expiring 5-31-2028 and David Speicher with a term expiring 5-",
+      "type": "Presentation",
+      "status": "Consent Item Ready",
+      "intro_date": "2026-02-11",
+      "file_number": "26-192",
+      "passed_date": null
+    },
+    {
+      "title": "SUP26-013 Public hearing and recommendation to City Council, requested by Tarrah Stewart, on behalf of Allen and Jillian Beck, to rezone approximately 0.2 of an acre out of City Block 4045, Lot 10, fr",
+      "type": "Public Hearing",
+      "status": "Individual Item Ready",
+      "intro_date": "2026-02-10",
+      "file_number": "26-190",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://newbraunfels.legistar.com",
-  "enriched_at": "2026-02-23T02:45:20.882507",
+  "enriched_at": "2026-02-23T07:19:20.041605",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

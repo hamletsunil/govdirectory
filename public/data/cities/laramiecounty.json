@@ -362,7 +362,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Laramie%20County",
-        "probed_at": "2026-02-23T02:52:17.131651",
+        "probed_at": "2026-02-23T07:26:23.384507",
         "data_vintage": "BRFSS None",
         "geographic_level": "place",
         "status": "unavailable"
@@ -626,13 +626,146 @@
     "granularity_flags": 0
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "Board of County Commissioners",
+    "members": [
+      {
+        "name": "Don Hollingshead",
+        "email": "don.hollingshead@laramiecountywy.gov",
+        "title": "Commissioner",
+        "start_date": "2026-01-06"
+      },
+      {
+        "name": "Gunnar Malm",
+        "email": "gunnar.malm@laramiecountywy.gov",
+        "title": "Chairman",
+        "start_date": "2026-01-06"
+      },
+      {
+        "name": "Linda Heath",
+        "email": "linda.heath@laramiecountywy.gov",
+        "title": "Commissioner",
+        "start_date": "2026-01-06"
+      },
+      {
+        "name": "Troy Thompson",
+        "email": "troy.thompson@laramiecountywy.gov",
+        "title": "Vice Chairman",
+        "start_date": "2026-01-06"
+      },
+      {
+        "name": "Ty Zwonitzer",
+        "email": "ty.zwonitzer@laramiecountywy.gov",
+        "title": "Commissioner",
+        "start_date": "2026-01-06"
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-17",
+      "body": "Board of County Commissioners",
+      "location": "Commissioners Board Room",
+      "has_agenda": true,
+      "agenda_url": "https://laramiecounty.legistar1.com/laramiecounty/meetings/2026/2/2192_A_Board_of_County_Commissioners_26-02-17_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-03",
+      "body": "Board of County Commissioners",
+      "location": "Commissioners Board Room",
+      "has_agenda": true,
+      "agenda_url": "https://laramiecounty.legistar1.com/laramiecounty/meetings/2026/2/2191_A_Board_of_County_Commissioners_26-02-03_Meeting_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Consideration of a resolution giving public notice of Laramie County's intent to adopt the Laramie County Fair rules.",
+      "type": "Resolutions",
+      "status": "Passed",
+      "intro_date": "2026-02-12",
+      "file_number": "26 - 082",
+      "passed_date": "2026-02-17"
+    },
+    {
+      "title": "Consideration of the Minutes of Proceedings for Feb 3, 2026.",
+      "type": "Minutes",
+      "status": "Passed",
+      "intro_date": "2026-02-10",
+      "file_number": "26 - 079",
+      "passed_date": "2026-02-17"
+    },
+    {
+      "title": "Consideration of modification #02 to the Stasis Design, PC, agreement (240618-14) in a new amount not to exceed $128,850 to provide professional design services for the new Archer storage building and",
+      "type": "Consent Agenda Item",
+      "status": "Postponed",
+      "intro_date": "2026-02-10",
+      "file_number": "26 - 078",
+      "passed_date": null
+    },
+    {
+      "title": "Consideration of a two-day catering permit submitted by DeLancey Enterprises, LLC, dba Hell on Wheels Package Liquors, for an event on March 22 and 23, 2026, at the Archer Complex.",
+      "type": "Consent Agenda Item",
+      "status": "Postponed",
+      "intro_date": "2026-02-10",
+      "file_number": "26 - 081",
+      "passed_date": null
+    },
+    {
+      "title": "Consideration of a catering permit submitted by DeLancey Enterprises, LLC, dba Hell on Wheels Package Liquors, for an event on Feb 27, 2026, at the Archer Complex.",
+      "type": "Consent Agenda Item",
+      "status": "Passed",
+      "intro_date": "2026-02-10",
+      "file_number": "26 - 080",
+      "passed_date": "2026-02-17"
+    },
+    {
+      "title": "Consideration of an agreement between Laramie County, WY, and TK Elevator Corp, in the amount of $397,868.43 to furnish labor and material for modernization of three elevators at the Laramie County Go",
+      "type": "Contract/Agreement/Leases",
+      "status": "Passed",
+      "intro_date": "2026-02-09",
+      "file_number": "26 - 077",
+      "passed_date": "2026-02-17"
+    },
+    {
+      "title": "Consideration of a resolution appointing a member to the Laramie County Adult Community Corrections Board to complete a four-year term left vacant by Perry Rockvam, expiring Dec 31, 2026.",
+      "type": "Appointments",
+      "status": "Passed",
+      "intro_date": "2026-02-06",
+      "file_number": "26 - 076",
+      "passed_date": "2026-02-17"
+    },
+    {
+      "title": "Consideration of a resolution approving assignment and transfer of County Commission approvals from Cowboy Racing, LLC, to Bally's Wyoming, LLC, to conduct parimutuel events within Laramie County, WY,",
+      "type": "Resolutions",
+      "status": "Passed",
+      "intro_date": "2026-02-03",
+      "file_number": "26 - 075",
+      "passed_date": "2026-02-17"
+    },
+    {
+      "title": "Presentation of the FY25 audit of Laramie County.",
+      "type": "Report & Public Petitions",
+      "status": "Filed",
+      "intro_date": "2026-02-02",
+      "file_number": "26 - 074",
+      "passed_date": "2026-02-17"
+    },
+    {
+      "title": "Consideration of a resolution of Laramie County's intent to adopt the Emergency 2026 Laramie County Fair Rules.",
+      "type": "Resolutions",
+      "status": "Passed",
+      "intro_date": "2026-02-02",
+      "file_number": "26 - 073",
+      "passed_date": "2026-02-03"
+    }
+  ],
   "legistar_url": "https://laramiecounty.legistar.com",
-  "enriched_at": "2026-02-23T02:44:03.583411",
+  "enriched_at": "2026-02-23T07:17:31.185355",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

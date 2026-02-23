@@ -512,7 +512,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Lake%20Havasu%20City",
-        "probed_at": "2026-02-23T02:51:17.820049",
+        "probed_at": "2026-02-23T07:25:24.451875",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -776,13 +776,268 @@
     "granularity_flags": 4
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "City Council",
+    "members": [
+      {
+        "name": "Cal Sheehy",
+        "email": null,
+        "title": "Mayor",
+        "start_date": "2024-12-10"
+      },
+      {
+        "name": "Cameron Moses",
+        "email": "mosesc@lhcaz.gov",
+        "title": "Councilmember",
+        "start_date": "2024-12-11"
+      },
+      {
+        "name": "David Diaz",
+        "email": null,
+        "title": "Vice Mayor",
+        "start_date": "2025-12-10"
+      },
+      {
+        "name": "Jeni Coke",
+        "email": null,
+        "title": "Councilmember",
+        "start_date": "2024-12-10"
+      },
+      {
+        "name": "Jim Dolan",
+        "email": "dolanj@lhcaz.gov",
+        "title": "Councilmember",
+        "start_date": "2024-12-10"
+      },
+      {
+        "name": "Michele Lin",
+        "email": null,
+        "title": "Councilmember",
+        "start_date": "2025-12-10"
+      },
+      {
+        "name": "Nancy Campbell",
+        "email": "campbelln@lhcaz.gov",
+        "title": "Councilmember",
+        "start_date": "2024-12-10"
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-23",
+      "body": "Parks and Recreation Advisory Board",
+      "location": null,
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-24",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/lakehavasucity/meetings/2026/2/2274_A_City_Council_26-02-24_Regular_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-25",
+      "body": "Board of Adjustment",
+      "location": null,
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-04",
+      "body": "Planning and Zoning Commission",
+      "location": "Council Chambers",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-11",
+      "body": "Board of Adjustment",
+      "location": null,
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-25",
+      "body": "Board of Adjustment",
+      "location": null,
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-18",
+      "body": "Planning and Zoning Commission",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/lakehavasucity/meetings/2026/2/2280_A_Planning_and_Zoning_Commission_26-02-18_Regular_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-11",
+      "body": "Board of Adjustment",
+      "location": null,
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/lakehavasucity/meetings/2026/2/2273_A_City_Council_26-02-10_Regular_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-04",
+      "body": "Planning and Zoning Commission",
+      "location": "Council Chambers",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-28",
+      "body": "Board of Adjustment",
+      "location": null,
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-27",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/lakehavasucity/meetings/2026/1/2272_A_City_Council_26-01-27_Regular_Meeting_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-26",
+      "body": "Parks and Recreation Advisory Board",
+      "location": null,
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Action: Service Agreement with Arizona Bounce Around for Inflatable Equipment and Services for Teen Break Event (Gabby Vera)",
+      "type": "Action Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-16",
+      "file_number": "ID 26-5124",
+      "passed_date": null
+    },
+    {
+      "title": "Approval of the Minutes of the January 21, 2026, Planning & Zoning Commission Regular Meeting (Shelby Hennigan)",
+      "type": "Action Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-12",
+      "file_number": "ID 26-5123",
+      "passed_date": null
+    },
+    {
+      "title": "Action: Call for Executive Session Pursuant to A.R.S.§ 38-431.03(A) 4:30 p.m., Tuesday, March 10, 2026 (Kelly Williams)",
+      "type": "Action Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-10",
+      "file_number": "ID 26-5118",
+      "passed_date": null
+    },
+    {
+      "title": "Action: Approve the February 10, 2026, City Council Regular Meeting Minutes (Kelly Williams)",
+      "type": "Action Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-10",
+      "file_number": "ID 26-5117",
+      "passed_date": null
+    },
+    {
+      "title": "City Manager’s Report (Jess Knudson)",
+      "type": "Informational Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-10",
+      "file_number": "ID 26-5120",
+      "passed_date": null
+    },
+    {
+      "title": "Announce Vacancies on Lake Havasu City Boards, Committees, and Commissions (Kelly Williams)",
+      "type": "Informational Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-10",
+      "file_number": "ID 26-5119",
+      "passed_date": null
+    },
+    {
+      "title": "Discussion and Action: Cooperative Purchase of One (1) 2026 Chevrolet Silverado 3500 Service Body from Midway Chevrolet for the Fire Department (Chief Pilafas)",
+      "type": "Action Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-10",
+      "file_number": "ID 26-5121",
+      "passed_date": null
+    },
+    {
+      "title": "Discussion and Action: Cooperative Purchases of Services and Parts with Freightliner of Arizona dba Velocity Truck Centers (Bill Young)",
+      "type": "Action Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-10",
+      "file_number": "ID 26-5122",
+      "passed_date": null
+    },
+    {
+      "title": "Discussion and Action: Resolution No. 26-3899 Approving the 2025 Water Master Plan (Tim Kellett)",
+      "type": "Action Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-09",
+      "file_number": "ID 26-5113",
+      "passed_date": null
+    },
+    {
+      "title": "Discussion and Action: Presentation from CliftonLarsonAllen LLP on the Fiscal Year 2025 Audit Results and Any Findings (Trinna Ware)",
+      "type": "Action Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-09",
+      "file_number": "ID 26-5115",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://lakehavasucity.legistar.com",
-  "enriched_at": "2026-02-23T02:44:02.784239",
+  "enriched_at": "2026-02-23T07:17:28.765546",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

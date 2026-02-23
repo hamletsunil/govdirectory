@@ -564,7 +564,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Coconut%20Creek",
-        "probed_at": "2026-02-23T02:51:17.067815",
+        "probed_at": "2026-02-23T07:25:23.782367",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -829,7 +829,53 @@
   },
   "officials": {
     "body_name": "City Commission",
-    "members": []
+    "members": [
+      {
+        "name": "Jacqueline Railey",
+        "email": null,
+        "title": "Mayor",
+        "start_date": "2021-03-25",
+        "committees": [
+          "City Commission Workshop"
+        ]
+      },
+      {
+        "name": "Jeffrey Wasserman",
+        "email": "jwasserman@coconutcreek.net",
+        "title": "Vice Mayor",
+        "start_date": "2023-03-23",
+        "committees": [
+          "City Commission Workshop"
+        ]
+      },
+      {
+        "name": "John Brodie",
+        "email": null,
+        "title": "Commissioner",
+        "start_date": "2023-03-23",
+        "committees": [
+          "City Commission Workshop"
+        ]
+      },
+      {
+        "name": "Joshua Rydell",
+        "email": "jrydell@coconutcreek.net",
+        "title": "Commissioner",
+        "start_date": "2017-03-27",
+        "committees": [
+          "City Commission Workshop"
+        ]
+      },
+      {
+        "name": "Sandra Welch",
+        "email": "swelch@coconutcreek.net",
+        "title": "Commissioner",
+        "start_date": "2017-03-27",
+        "committees": [
+          "City Commission Workshop"
+        ]
+      }
+    ]
   },
   "recent_meetings": [
     {
@@ -963,9 +1009,90 @@
       "upcoming": false
     }
   ],
-  "recent_legislation": [],
+  "recent_legislation": [
+    {
+      "title": "A PRESENTATION OF THE POLICE DEPARTMENT’S OFFICER OF THE YEAR AWARD FOR POLICE OFFICER ALEXANDER A. LUKIANOV, DETECTIVE OF THE YEAR AWARD FOR DETECTIVE CHERI J. STABILE, AND CIVILIAN OF THE YEAR AWARD",
+      "type": "Presentation",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-09",
+      "file_number": "26-035",
+      "passed_date": null
+    },
+    {
+      "title": "A PRESENTATION BY BROWARD COUNTY PROPERTY APPRAISER MARTY KIAR TO PROVIDE AN UPDATE ON THE STATE LEGISLATURE’S ONGOING DISCUSSION OF PROPERTY TAX REFORM.",
+      "type": "Presentation",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-09",
+      "file_number": "26-036",
+      "passed_date": null
+    },
+    {
+      "title": "A RESOLUTION AUTHORIZING THE MAYOR AND THE CITY MANAGER, OR THEIR DESIGNEES, TO EXECUTE A TRI-PARTY REVOCABLE LICENSE AGREEMENT BETWEEN BROWARD COUNTY, COCOMAR PROPERTY OWNER, LLC, AND THE CITY OF COC",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-05",
+      "file_number": "RES 2026-027",
+      "passed_date": null
+    },
+    {
+      "title": "A PROCLAMATION RECOGNIZING MARCH 2026 AS “IRISH AMERICAN HERITAGE MONTH.”",
+      "type": "Proclamation",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-05",
+      "file_number": "26-033",
+      "passed_date": null
+    },
+    {
+      "title": "A PRESENTATION OF THE LIFESAVING COMMENDATION AWARD FOR COCONUT CREEK POLICE OFFICERS SIDNEY BALLESTEROS AND DONDRELL LUBERICE.",
+      "type": "Presentation",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-04",
+      "file_number": "26-032",
+      "passed_date": null
+    },
+    {
+      "title": "A RESOLUTION AUTHORIZING THE CITY MANAGER, OR DESIGNEE, TO EXECUTE AN AGREEMENT WITH SUNSHINE CLEANING SYSTEMS, LLC, D/B/A PRITCHARD INDUSTRIES, TO PROVIDE JANITORIAL SERVICES FOR CITY FACILITIES PURS",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-03",
+      "file_number": "RES 2026-026",
+      "passed_date": null
+    },
+    {
+      "title": "A RESOLUTION AUTHORIZING THE MAYOR AND CITY MANAGER, OR THEIR DESIGNEES, TO EXECUTE THE ATTACHED SECOND AMENDMENT TO THE INTERLOCAL AGREEMENT WITH BROWARD COUNTY FOR PUBLIC IMPROVEMENTS AS PART OF THE",
+      "type": "Resolution",
+      "status": "Passed",
+      "intro_date": "2026-01-26",
+      "file_number": "RES 2026-021",
+      "passed_date": "2026-02-12"
+    },
+    {
+      "title": "A RESOLUTION APPROVING THE CITY OF COCONUT CREEK’S 2026 FEDERAL LEGISLATIVE AGENDA.",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-26",
+      "file_number": "RES 2026-024",
+      "passed_date": null
+    },
+    {
+      "title": "A PROCLAMATION RECOGNIZING MARCH 2026 AS “COLORECTAL CANCER AWARENESS MONTH.”",
+      "type": "Proclamation",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-26",
+      "file_number": "26-029",
+      "passed_date": null
+    },
+    {
+      "title": "A PRESENTATION OF AN $8,000 DONATION TO THE CITY FROM NORTH CREEK PRESBYTERIAN CHURCH FOR THE COCONUT CREEK POLICE EXPLORER PROGRAM.",
+      "type": "Presentation",
+      "status": "Filed",
+      "intro_date": "2026-01-21",
+      "file_number": "26-027",
+      "passed_date": "2026-02-12"
+    }
+  ],
   "legistar_url": "https://coconutcreek.legistar.com",
-  "enriched_at": "2026-02-23T02:41:27.304208",
+  "enriched_at": "2026-02-23T07:14:45.457931",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

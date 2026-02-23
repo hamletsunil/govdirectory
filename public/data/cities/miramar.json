@@ -508,7 +508,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Miramar",
-        "probed_at": "2026-02-23T02:50:41.267934",
+        "probed_at": "2026-02-23T07:24:47.258723",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -772,13 +772,135 @@
     "granularity_flags": 3
   },
   "officials": {
-    "body_name": null,
+    "body_name": "CITY COMMISSION SPECIAL MEETING",
     "members": []
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-23",
+      "body": "CITY COMMISSION REGULAR MEETING",
+      "location": "Commission Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://miramar.legistar1.com/miramar/meetings/2026/2/1257_A_CITY_COMMISSION_REGULAR_MEETING_26-02-23_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-20",
+      "body": "CITY COMMISSION REGULAR MEETING",
+      "location": "Commission Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://miramar.legistar1.com/miramar/meetings/2026/2/1247_A_CITY_COMMISSION_REGULAR_MEETING_26-02-13_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-11",
+      "body": "CITY COMMISSION REGULAR MEETING",
+      "location": "Commission Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://miramar.legistar1.com/miramar/meetings/2026/2/1256_A_CITY_COMMISSION_REGULAR_MEETING_26-02-11_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-11",
+      "body": "CITY COMMISSION SPECIAL MEETING",
+      "location": "Commission Conference Room",
+      "has_agenda": true,
+      "agenda_url": "https://miramar.legistar1.com/miramar/meetings/2026/2/1276_A_CITY_COMMISSION_SPECIAL_MEETING_26-02-11_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Temp. Reso. #R8635 approving the award of Invitation for Bid No. 26-002, entitled “Armed Security Guard Services,” to Securtec of Florida L.L.C., in an annual amount not-to-exceed $740,597.36, for an ",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-05",
+      "file_number": "#R8635",
+      "passed_date": null
+    },
+    {
+      "title": "Temp. Reso. #R8636 approving the renewal of security software licenses and maintenance services from Mission Critical Systems, L.L.C., in the amount of $142,538, for Fiscal Year 2026, utilizing Procur",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-05",
+      "file_number": "#R8636",
+      "passed_date": null
+    },
+    {
+      "title": "Temp. Reso. #R8634 approving a settlement agreement in the case of George Wood vs. City of Miramar. (City Attorney Burnadette Norris-Weeks)",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-04",
+      "file_number": "#R8634",
+      "passed_date": null
+    },
+    {
+      "title": "Temp. Reso. #R8625 expressing support for the City of Pembroke Pines’ application to the United States Department of Transportation Fiscal Year 2026 Better Utilizing Investments to Leverage Developmen",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-22",
+      "file_number": "#R8625",
+      "passed_date": null
+    },
+    {
+      "title": "Temp. Reso. #R8624 authorizing a second one year renewal of the insurance brokerage contract, from June 30, 2026 to June 29, 2027; approving the contract’s assignment from McGriff Insurance Services t",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-20",
+      "file_number": "#R8624",
+      "passed_date": null
+    },
+    {
+      "title": "Temp. Reso. #R8623 approving the renewal of City phone telecommunication services from Granite Telecommunications, L.L.C., in an amount of $130,000, for Fiscal Year 2026 through the utilization of NCP",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-20",
+      "file_number": "#R8623",
+      "passed_date": null
+    },
+    {
+      "title": "Temp. Reso. #R8622 approving the purchase of parts and services from Parkson Corporation for bar screens and backwash sand filters at the Wastewater Reclamation Facility using the approved sole source",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-12",
+      "file_number": "#R8622",
+      "passed_date": null
+    },
+    {
+      "title": "Temp. Reso. #R8616 accepting an Absolute Bill of Sale and Easement from Safeguard Properties L.L.C., for the water system improvements to serve Safeguard Storage Miramar; authorizing the release of Su",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-08",
+      "file_number": "#R8616",
+      "passed_date": null
+    },
+    {
+      "title": "Temp. Reso. #R8619 approving and authorizing the execution of Amendment No. 1 to the agreement with Walters Zackria Associates, P.L.L.C., for additional design services, HVAC system evaluation and rep",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-08",
+      "file_number": "#R8619",
+      "passed_date": null
+    },
+    {
+      "title": "Temp. Reso. #R8618 authorizing the City Manager to execute a supplemental agreement with the State Of Florida Department of Transportation, reconciling financial assistance to the City for constructio",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-08",
+      "file_number": "#R8618",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://miramar.legistar.com",
-  "enriched_at": "2026-02-23T02:44:46.141446",
+  "enriched_at": "2026-02-23T07:18:44.772988",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

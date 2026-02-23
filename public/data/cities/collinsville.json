@@ -513,7 +513,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Collinsville",
-        "probed_at": "2026-02-23T02:51:50.181259",
+        "probed_at": "2026-02-23T07:25:56.608606",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -777,13 +777,209 @@
     "granularity_flags": 4
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "City Council",
+    "members": [
+      {
+        "name": "David Seaton",
+        "email": null,
+        "title": "Councilman",
+        "start_date": "2025-05-13"
+      },
+      {
+        "name": "Donna Green",
+        "email": null,
+        "title": "Councilman",
+        "start_date": "2025-05-13",
+        "committees": [
+          "Uptown Development Commission"
+        ]
+      },
+      {
+        "name": "Jeff Stehman",
+        "email": null,
+        "title": "Mayor",
+        "start_date": "2015-05-11"
+      },
+      {
+        "name": "Tony Fuhrmann",
+        "email": null,
+        "title": "Councilman",
+        "start_date": "2023-05-09"
+      },
+      {
+        "name": "Tony Hausmann",
+        "email": null,
+        "title": "Councilman",
+        "start_date": "2023-05-09"
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-23",
+      "body": "Cool Cities Committee",
+      "location": "City Hall",
+      "has_agenda": true,
+      "agenda_url": "https://collinsville.legistar1.com/collinsville/meetings/2026/2/1962_A_Cool_Cities_Committee_26-02-23_Commission_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-24",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://collinsville.legistar1.com/collinsville/meetings/2026/2/1963_A_City_Council_26-02-24_Regular_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-12",
+      "body": "Fire & Police Commission",
+      "location": "Police Department",
+      "has_agenda": true,
+      "agenda_url": "https://collinsville.legistar1.com/collinsville/meetings/2026/2/1960_A_Fire___Police_Commission_26-02-12_Regular_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-12",
+      "body": "Planning Commission",
+      "location": "City Hall",
+      "has_agenda": true,
+      "agenda_url": "https://collinsville.legistar1.com/collinsville/meetings/2026/2/1961_A_Planning_Commission_26-02-12_Commission_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-11",
+      "body": "Community Appearance Board",
+      "location": "Activity Center",
+      "has_agenda": true,
+      "agenda_url": "https://collinsville.legistar1.com/collinsville/meetings/2026/2/1959_A_Community_Appearance_Board_26-02-11_Commission_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-10",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://collinsville.legistar1.com/collinsville/meetings/2026/2/1958_A_City_Council_26-02-10_Regular_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-27",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://collinsville.legistar1.com/collinsville/meetings/2026/1/1956_A_City_Council_26-01-27_Regular_Meeting_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-01-26",
+      "body": "Cool Cities Committee",
+      "location": "City Hall",
+      "has_agenda": true,
+      "agenda_url": "https://collinsville.legistar1.com/collinsville/meetings/2026/1/1955_A_Cool_Cities_Committee_26-01-26_Commission_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Election of Vice Chair",
+      "type": "Old Business",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-20",
+      "file_number": "5471-2025",
+      "passed_date": null
+    },
+    {
+      "title": "Goals & Projects Update",
+      "type": "Discussion",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-20",
+      "file_number": "5469-2025",
+      "passed_date": null
+    },
+    {
+      "title": "Motion to Approve Minutes of the January 26th, 2026, Cool Cities Committee Meeting",
+      "type": "Minutes",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-20",
+      "file_number": "5468-2025",
+      "passed_date": null
+    },
+    {
+      "title": "Motion to Approve Minutes of the February 10, 2026 Council Meeting",
+      "type": "Consent Agenda",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-20",
+      "file_number": "5467-2025",
+      "passed_date": null
+    },
+    {
+      "title": "Swearing-In Ceremony of Isaiah Coad as Firefighter",
+      "type": "Proclamation/Recognitions/Presentations",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "5465-2025",
+      "passed_date": null
+    },
+    {
+      "title": "Ordinance Authorizing the Mayor to Execute (1) a Standard Form Agreement between Owner and Construction Manager as Constructor (Guaranteed Maximum Price), and (2) an AIA Document A133-2019 Exhibit A G",
+      "type": "New Business",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "5464-2025",
+      "passed_date": null
+    },
+    {
+      "title": "Ordinance Authorizing the Execution of a Collective Bargaining Agreement Between the City of Collinsville, Illinois and the Collinsville Lodge No.103 of the Fraternal Order of Police",
+      "type": "New Business",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "5466-2025",
+      "passed_date": null
+    },
+    {
+      "title": "Ordinance Authorizing the Mayor or City Manager for the City of Collinsville to Enter into an Illinois Workers' Compensation Settlement Agreement (David Scott)",
+      "type": "Consent Agenda",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-17",
+      "file_number": "5463-2025",
+      "passed_date": null
+    },
+    {
+      "title": "Motion to Approve Payroll for the Period Ending January 30, 2026 in the Amount of $884,298.53",
+      "type": "Consent Agenda",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-17",
+      "file_number": "5459-2025",
+      "passed_date": null
+    },
+    {
+      "title": "Ordinance Rezoning 206 Vandalia Street from \"B-2\" Limited Commercial District to \"P-UCD\" Planned Uptown Collinsville District",
+      "type": "Business Prior to Public Input",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-17",
+      "file_number": "5461-2025",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://collinsville.legistar.com",
-  "enriched_at": "2026-02-23T02:41:28.519556",
+  "enriched_at": "2026-02-23T07:14:47.543817",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
