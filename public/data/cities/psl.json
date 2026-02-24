@@ -661,16 +661,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-02-23",
-      "body": "City Council",
-      "location": "Council Chambers, City Hall",
-      "has_agenda": true,
-      "agenda_url": "https://psl.legistar1.com/psl/meetings/2026/2/2709_A_City_Council_26-02-23_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-02-25",
       "body": "Special Magistrate Hearing",
       "location": "City Hall, Council Chambers",
@@ -702,8 +692,8 @@
     },
     {
       "date": "2026-03-03",
-      "body": "Dangerous Dog Hearing",
-      "location": "City Hall, Council Chambers",
+      "body": "Planning and Zoning Board",
+      "location": "Council Chambers, City Hall",
       "has_agenda": false,
       "agenda_url": null,
       "has_minutes": false,
@@ -712,8 +702,8 @@
     },
     {
       "date": "2026-03-03",
-      "body": "Planning and Zoning Board",
-      "location": "Council Chambers, City Hall",
+      "body": "Dangerous Dog Hearing",
+      "location": "City Hall, Council Chambers",
       "has_agenda": false,
       "agenda_url": null,
       "has_minutes": false,
@@ -731,6 +721,16 @@
       "upcoming": true
     },
     {
+      "date": "2026-02-23",
+      "body": "City Council",
+      "location": "Council Chambers, City Hall",
+      "has_agenda": true,
+      "agenda_url": "https://psl.legistar1.com/psl/meetings/2026/2/2709_A_City_Council_26-02-23_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
       "date": "2026-02-20",
       "body": "City Council Workshop",
       "location": "PSL Community Center 2195 SE Airoso Blvd, Port St. Lucie, FL 34984",
@@ -742,20 +742,20 @@
     },
     {
       "date": "2026-02-19",
-      "body": "City Council Workshop",
-      "location": "PSL Community Center 2195 SE Airoso Blvd, Port St. Lucie, FL 34984",
-      "has_agenda": true,
-      "agenda_url": "https://psl.legistar1.com/psl/meetings/2026/2/2750_A_City_Council_Workshop_26-02-19_Meeting_Agenda.pdf",
+      "body": "Safety Review Board",
+      "location": "City Hall, Room 366",
+      "has_agenda": false,
+      "agenda_url": null,
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
     },
     {
       "date": "2026-02-19",
-      "body": "Safety Review Board",
-      "location": "City Hall, Room 366",
-      "has_agenda": false,
-      "agenda_url": null,
+      "body": "City Council Workshop",
+      "location": "PSL Community Center 2195 SE Airoso Blvd, Port St. Lucie, FL 34984",
+      "has_agenda": true,
+      "agenda_url": "https://psl.legistar1.com/psl/meetings/2026/2/2750_A_City_Council_Workshop_26-02-19_Meeting_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -819,16 +819,6 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
-    },
-    {
-      "date": "2026-02-11",
-      "body": "Site Plan Review Committee",
-      "location": "Building B, 1st Floor Training Room",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
     }
   ],
   "recent_legislation": [
@@ -865,14 +855,6 @@
       "passed_date": null
     },
     {
-      "title": "Approve a Major Site Plan Amendment for Southern Grove-Plat No. 42 - TCC Tract \"B\" (P23-145-A1)",
-      "type": "Consent",
-      "status": "Consent",
-      "intro_date": "2026-02-11",
-      "file_number": "2026-203",
-      "passed_date": null
-    },
-    {
       "title": "Hear Case Presentations to Determine Compliance with City Code and Imposition of a Fine",
       "type": "New Business",
       "status": "Agenda Ready",
@@ -881,11 +863,11 @@
       "passed_date": null
     },
     {
-      "title": "Approval of November 24, 2025 Regular City Council, December 8, 2025 Regular City Council and February 9, 2026 Regular City Council Meeting Minutes",
-      "type": "Consent",
-      "status": "Consent",
+      "title": "Resolution 26-R14, Quasi-Judicial, Public Hearing, a Resolution Granting a Special Exception Use to Allow an Enclosed Assembly Area over 3,000 Square Feet, Without an Alcoholic Beverage License for On",
+      "type": "Resolution",
+      "status": "Agenda Ready",
       "intro_date": "2026-02-11",
-      "file_number": "2026-204",
+      "file_number": "2026-205",
       "passed_date": null
     },
     {
@@ -897,24 +879,32 @@
       "passed_date": null
     },
     {
-      "title": "Hear Case Presentations to Determine Violation of City Code and Set Compliance Deadline",
-      "type": "New Business",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-11",
-      "file_number": "2026-210",
-      "passed_date": null
-    },
-    {
       "title": "Approval of Hearing Minutes January 28th, 2026",
       "type": "Minutes",
       "status": "Agenda Ready",
       "intro_date": "2026-02-11",
       "file_number": "2026-208",
       "passed_date": null
+    },
+    {
+      "title": "Approval of November 24, 2025 Regular City Council, December 8, 2025 Regular City Council and February 9, 2026 Regular City Council Meeting Minutes",
+      "type": "Consent",
+      "status": "Consent",
+      "intro_date": "2026-02-11",
+      "file_number": "2026-204",
+      "passed_date": null
+    },
+    {
+      "title": "Hear Case Presentations to Determine Violation of City Code and Set Compliance Deadline",
+      "type": "New Business",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-11",
+      "file_number": "2026-210",
+      "passed_date": null
     }
   ],
   "legistar_url": "https://psl.legistar.com",
-  "enriched_at": "2026-02-23T19:28:08.301984",
+  "enriched_at": "2026-02-24T02:39:17.249516",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

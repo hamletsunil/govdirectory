@@ -427,7 +427,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Lombard",
-        "probed_at": "2026-02-23T19:35:26.572577",
+        "probed_at": "2026-02-24T02:44:44.282113",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -1004,16 +1004,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-02-23",
-      "body": "Finance & Administration Committee",
-      "location": "Village Manager's Office Conference Room",
-      "has_agenda": true,
-      "agenda_url": "https://legistar1.granicus.com/Lombard/meetings/2026/2/7975_A_Finance___Administration_Committee__26-02-23_Meeting_Agenda.pdf",
-      "has_minutes": true,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-02-25",
       "body": "Zoning Board of Appeals",
       "location": "Village Hall Board Room",
@@ -1044,6 +1034,16 @@
       "upcoming": true
     },
     {
+      "date": "2026-02-23",
+      "body": "Finance & Administration Committee",
+      "location": "Village Manager's Office Conference Room",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/Lombard/meetings/2026/2/7975_A_Finance___Administration_Committee__26-02-23_Meeting_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
       "date": "2026-02-19",
       "body": "Village Board of Trustees",
       "location": "Village Hall Board Room",
@@ -1055,20 +1055,20 @@
     },
     {
       "date": "2026-02-16",
-      "body": "Board of Fire and Police Commissioners",
-      "location": "POLICE DEPARTMENT",
+      "body": "Plan Commission",
+      "location": "Village Hall Board Room",
       "has_agenda": true,
-      "agenda_url": "https://legistar1.granicus.com/Lombard/meetings/2026/2/7974_A_Board_of_Fire_and_Police_Commissioners_26-02-16_Meeting_Agenda.pdf",
+      "agenda_url": "https://legistar1.granicus.com/Lombard/meetings/2026/2/7966_A_Plan_Commission_26-02-16_Meeting_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
     },
     {
       "date": "2026-02-16",
-      "body": "Plan Commission",
-      "location": "Village Hall Board Room",
+      "body": "Board of Fire and Police Commissioners",
+      "location": "POLICE DEPARTMENT",
       "has_agenda": true,
-      "agenda_url": "https://legistar1.granicus.com/Lombard/meetings/2026/2/7966_A_Plan_Commission_26-02-16_Meeting_Agenda.pdf",
+      "agenda_url": "https://legistar1.granicus.com/Lombard/meetings/2026/2/7974_A_Board_of_Fire_and_Police_Commissioners_26-02-16_Meeting_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -1125,16 +1125,6 @@
     },
     {
       "date": "2026-02-04",
-      "body": "Board of Building Appeals",
-      "location": "Village Hall",
-      "has_agenda": true,
-      "agenda_url": "https://legistar1.granicus.com/Lombard/meetings/2026/2/7963_A_Board_of_Building_Appeals_26-02-04_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-04",
       "body": "Public Safety & Transportation Committee",
       "location": "Lorraine G. Gerhardt Community Room",
       "has_agenda": true,
@@ -1170,19 +1160,19 @@
       "passed_date": null
     },
     {
-      "title": "Approval of Village Payroll\r\nFor the period ending January 25, 2026 in the amount of $1,040,793.89.",
-      "type": "Payroll/Accounts Payable",
-      "status": "Passed",
-      "intro_date": "2026-02-11",
-      "file_number": "260072",
-      "passed_date": "2026-02-19"
-    },
-    {
       "title": "Resolution Authorizing Northern Illinois Municipal Electric Cooperative (NIMEC) to Serve as Broker for the Village for Electricity Providers  \r\nResolution authorizing the Northern Illinois Municipal E",
       "type": "Resolution",
       "status": "Passed",
       "intro_date": "2026-02-11",
       "file_number": "260074",
+      "passed_date": "2026-02-19"
+    },
+    {
+      "title": "Approval of Village Payroll\r\nFor the period ending January 25, 2026 in the amount of $1,040,793.89.",
+      "type": "Payroll/Accounts Payable",
+      "status": "Passed",
+      "intro_date": "2026-02-11",
+      "file_number": "260072",
       "passed_date": "2026-02-19"
     },
     {
@@ -1194,14 +1184,6 @@
       "passed_date": "2026-02-19"
     },
     {
-      "title": "Adoption of Official Zoning Map - 2026\r\nAn ordinance approving a Village of Lombard Zoning Map pursuant to State Statutes. This maps does not change the zoning of any properties within the Village's C",
-      "type": "Ordinance",
-      "status": "Passed",
-      "intro_date": "2026-02-09",
-      "file_number": "260068",
-      "passed_date": "2026-02-19"
-    },
-    {
       "title": "Water & Sewer System Supplies Bid - Mid American Water, Inc.\nAward of a contract to Mid American Water of Wauconda, Illinois, the lowest responsible bidder of six (6) bids received, in the amount not ",
       "type": "Bid",
       "status": "Passed",
@@ -1210,24 +1192,32 @@
       "passed_date": "2026-02-19"
     },
     {
+      "title": "Adoption of Official Zoning Map - 2026\r\nAn ordinance approving a Village of Lombard Zoning Map pursuant to State Statutes. This maps does not change the zoning of any properties within the Village's C",
+      "type": "Ordinance",
+      "status": "Passed",
+      "intro_date": "2026-02-09",
+      "file_number": "260068",
+      "passed_date": "2026-02-19"
+    },
+    {
+      "title": "Committee Role and Responsibilities\r\nA memo defining the role and responsibility of the Committee.",
+      "type": "Information Item",
+      "status": "In Committee",
+      "intro_date": "2026-02-05",
+      "file_number": "260064",
+      "passed_date": "2026-02-10"
+    },
+    {
       "title": "Tree Planting Program Update",
       "type": "Information Item",
       "status": "In Committee",
       "intro_date": "2026-02-05",
       "file_number": "260062",
       "passed_date": "2026-02-10"
-    },
-    {
-      "title": "FY2026 Asphalt Roadway Program (Contracted Services and In-House)\r\nA list of recommended streets to be improved as part of the 2026 Asphalt Roadway Program.",
-      "type": "Information Item",
-      "status": "In Committee",
-      "intro_date": "2026-02-05",
-      "file_number": "260063",
-      "passed_date": "2026-02-10"
     }
   ],
   "legistar_url": "https://lombard.legistar.com",
-  "enriched_at": "2026-02-23T19:23:47.842835",
+  "enriched_at": "2026-02-24T02:38:06.536521",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

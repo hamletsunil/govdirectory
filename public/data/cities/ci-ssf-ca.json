@@ -350,7 +350,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=South%20San%20Francisco",
-        "probed_at": "2026-02-23T19:35:43.864232",
+        "probed_at": "2026-02-24T02:45:06.235796",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -670,16 +670,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-02-23",
-      "body": "Commission on Equity and Public Safety",
-      "location": "City Hall: City Manager's Conference Room \r\n400 Grand Avenue South San Francisco, CA 94080",
-      "has_agenda": true,
-      "agenda_url": "https://ci-ssf-ca.legistar1.com/ci-ssf-ca/meetings/2026/2/3235_A_Commission_on_Equity_and_Public_Safety_26-02-23_Regular_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-02-24",
       "body": "Cultural Arts Commission",
       "location": "Library Parks & Recreation Building, Council Chambers\r\n901 Civic Campus Way, South San Francisco, CA",
@@ -720,6 +710,16 @@
       "upcoming": true
     },
     {
+      "date": "2026-02-23",
+      "body": "Commission on Equity and Public Safety",
+      "location": "City Hall: City Manager's Conference Room \r\n400 Grand Avenue South San Francisco, CA 94080",
+      "has_agenda": true,
+      "agenda_url": "https://ci-ssf-ca.legistar1.com/ci-ssf-ca/meetings/2026/2/3235_A_Commission_on_Equity_and_Public_Safety_26-02-23_Regular_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
       "date": "2026-02-19",
       "body": "Planning Commission",
       "location": "Library Parks & Recreation Building, Council Chambers\r\n901 Civic Campus Way, South San Francisco, CA",
@@ -751,20 +751,20 @@
     },
     {
       "date": "2026-02-10",
-      "body": "Parking Place Commission",
-      "location": "Corporation Yard Conference Room\r\n550 North Canal Street, South San Francisco, CA",
+      "body": "Traffic Safety Commission",
+      "location": "Corporation Yard Conference Room\r\n550 N Canal Street, South San Francisco, CA 94080",
       "has_agenda": true,
-      "agenda_url": "https://ci-ssf-ca.legistar1.com/ci-ssf-ca/meetings/2026/2/3229_A_Parking_Place_Commission_26-02-10_Regular_Meeting_Agenda.pdf",
+      "agenda_url": "https://ci-ssf-ca.legistar1.com/ci-ssf-ca/meetings/2026/2/3230_A_Traffic_Safety_Commission_26-02-10_Regular_Meeting_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
     },
     {
       "date": "2026-02-10",
-      "body": "Traffic Safety Commission",
-      "location": "Corporation Yard Conference Room\r\n550 N Canal Street, South San Francisco, CA 94080",
+      "body": "Parking Place Commission",
+      "location": "Corporation Yard Conference Room\r\n550 North Canal Street, South San Francisco, CA",
       "has_agenda": true,
-      "agenda_url": "https://ci-ssf-ca.legistar1.com/ci-ssf-ca/meetings/2026/2/3230_A_Traffic_Safety_Commission_26-02-10_Regular_Meeting_Agenda.pdf",
+      "agenda_url": "https://ci-ssf-ca.legistar1.com/ci-ssf-ca/meetings/2026/2/3229_A_Parking_Place_Commission_26-02-10_Regular_Meeting_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -775,6 +775,16 @@
       "location": "Library Parks & Recreation Building, Council Chambers\r\n901 Civic Campus Way, South San Francisco, CA",
       "has_agenda": true,
       "agenda_url": "https://ci-ssf-ca.legistar1.com/ci-ssf-ca/meetings/2026/2/3157_A_Planning_Commission_26-02-05_Regular_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-04",
+      "body": "Special City Council",
+      "location": "Library Parks & Recreation Building, Council Chambers\r\n901 Civic Campus Way, South San Francisco, CA",
+      "has_agenda": true,
+      "agenda_url": "https://ci-ssf-ca.legistar1.com/ci-ssf-ca/meetings/2026/2/3228_A_Special_City_Council_26-02-04_Special_Meeting_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -798,26 +808,6 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
-    },
-    {
-      "date": "2026-02-04",
-      "body": "Special City Council",
-      "location": "Library Parks & Recreation Building, Council Chambers\r\n901 Civic Campus Way, South San Francisco, CA",
-      "has_agenda": true,
-      "agenda_url": "https://ci-ssf-ca.legistar1.com/ci-ssf-ca/meetings/2026/2/3228_A_Special_City_Council_26-02-04_Special_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-02",
-      "body": "Youth Commission",
-      "location": "Library Parks & Recreation Building, Young Adult Library\r\n901 Civic Campus Way, South San Francisco, CA",
-      "has_agenda": true,
-      "agenda_url": "https://ci-ssf-ca.legistar1.com/ci-ssf-ca/meetings/2026/2/3225_A_Youth_Commission_26-02-02_Regular_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
     }
   ],
   "recent_legislation": [
@@ -830,14 +820,6 @@
       "passed_date": null
     },
     {
-      "title": "Motion to approve meeting minutes for January 26, 2026. (Devin Stenhouse, Management Analyst II)",
-      "type": "Motion",
-      "status": "Agenda Ready - Administrative Business",
-      "intro_date": "2026-02-20",
-      "file_number": "26-1482",
-      "passed_date": null
-    },
-    {
       "title": "Commissioners will receive a “refresher” of Rosenberg’s Rules of Order (Devin Stenhouse, Management Analyst II)",
       "type": "Staff Report",
       "status": "Agenda Ready - Administrative Business",
@@ -846,11 +828,11 @@
       "passed_date": null
     },
     {
-      "title": "Motion to approve the Minutes from the meetings of January 28, 2026, and February 4, 2026. (Office of the City Clerk)",
-      "type": "Minutes",
-      "status": "Consent Calendar",
-      "intro_date": "2026-02-18",
-      "file_number": "26-1457",
+      "title": "Motion to approve meeting minutes for January 26, 2026. (Devin Stenhouse, Management Analyst II)",
+      "type": "Motion",
+      "status": "Agenda Ready - Administrative Business",
+      "intro_date": "2026-02-20",
+      "file_number": "26-1482",
       "passed_date": null
     },
     {
@@ -862,19 +844,27 @@
       "passed_date": null
     },
     {
-      "title": "Every Story Counts Survey Update (Elliot Warren, Library Program Manager)",
-      "type": "Staff Report",
-      "status": "Agenda Ready - Administrative Business",
-      "intro_date": "2026-02-18",
-      "file_number": "26-1458",
-      "passed_date": null
-    },
-    {
       "title": "Continuation of Fiscal Year 2026-27 Pending Budget Requests Discussion (Valerie Sommer, Library Director)",
       "type": "Staff Report",
       "status": "Agenda Ready - Administrative Business",
       "intro_date": "2026-02-18",
       "file_number": "26-1461",
+      "passed_date": null
+    },
+    {
+      "title": "Next Meeting | Agenda Building",
+      "type": "Staff Report",
+      "status": "Agenda Ready - Administrative Business",
+      "intro_date": "2026-02-18",
+      "file_number": "26-1462",
+      "passed_date": null
+    },
+    {
+      "title": "Every Story Counts Survey Update (Elliot Warren, Library Program Manager)",
+      "type": "Staff Report",
+      "status": "Agenda Ready - Administrative Business",
+      "intro_date": "2026-02-18",
+      "file_number": "26-1458",
       "passed_date": null
     },
     {
@@ -886,24 +876,24 @@
       "passed_date": null
     },
     {
+      "title": "Motion to approve the Minutes from the meetings of January 28, 2026, and February 4, 2026. (Office of the City Clerk)",
+      "type": "Minutes",
+      "status": "Consent Calendar",
+      "intro_date": "2026-02-18",
+      "file_number": "26-1457",
+      "passed_date": null
+    },
+    {
       "title": "Lunar New Year Recap (Adam Elsholz, Assistant Library Director and Jess Koshi-Lum, Library Program Manager)",
       "type": "Staff Report",
       "status": "Agenda Ready - Administrative Business",
       "intro_date": "2026-02-18",
       "file_number": "26-1460",
       "passed_date": null
-    },
-    {
-      "title": "Next Meeting | Agenda Building",
-      "type": "Staff Report",
-      "status": "Agenda Ready - Administrative Business",
-      "intro_date": "2026-02-18",
-      "file_number": "26-1462",
-      "passed_date": null
     }
   ],
   "legistar_url": "https://ci-ssf-ca.legistar.com",
-  "enriched_at": "2026-02-23T19:17:50.379219",
+  "enriched_at": "2026-02-24T02:36:01.722851",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

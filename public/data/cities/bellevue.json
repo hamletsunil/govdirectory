@@ -510,7 +510,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Bellevue",
-        "probed_at": "2026-02-23T19:33:36.602585",
+        "probed_at": "2026-02-24T02:42:25.368059",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -779,16 +779,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-02-23",
-      "body": "Human Services Commission",
-      "location": "Room 1E-113 & via Zoom",
-      "has_agenda": true,
-      "agenda_url": "https://legistar2.granicus.com/bellevue/meetings/2026/2/2924_A_Human_Services_Commission_26-02-23_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-02-24",
       "body": "City Council Regular Meeting",
       "location": "Council Chambers (1E-126)",
@@ -817,6 +807,16 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": true
+    },
+    {
+      "date": "2026-02-23",
+      "body": "Human Services Commission",
+      "location": "Room 1E-113 & via Zoom",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/bellevue/meetings/2026/2/2924_A_Human_Services_Commission_26-02-23_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     },
     {
       "date": "2026-02-18",
@@ -907,19 +907,17 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
-    },
-    {
-      "date": "2026-01-27",
-      "body": "City Council Regular Meeting",
-      "location": "Council Chambers (1E-126)",
-      "has_agenda": true,
-      "agenda_url": "https://legistar2.granicus.com/bellevue/meetings/2026/1/2862_A_City_Council_Regular_Meeting_26-01-27_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
     }
   ],
   "recent_legislation": [
+    {
+      "title": "Direction for Bylaws Update",
+      "type": "Appointment",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "26-201",
+      "passed_date": null
+    },
     {
       "title": "Approval of draft minutes from February 2, 2026",
       "type": "Appointment",
@@ -937,35 +935,11 @@
       "passed_date": null
     },
     {
-      "title": "Direction for Bylaws Update",
-      "type": "Appointment",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-19",
-      "file_number": "26-201",
-      "passed_date": null
-    },
-    {
       "title": "Written Communications",
       "type": "Written Communication",
       "status": "Agenda Ready",
       "intro_date": "2026-02-18",
       "file_number": "26-186",
-      "passed_date": null
-    },
-    {
-      "title": "Minutes of January 28, 2026",
-      "type": "Minutes",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-18",
-      "file_number": "26-190",
-      "passed_date": null
-    },
-    {
-      "title": "2025 Annual Process Improvement Survey",
-      "type": "Study Session Item",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-18",
-      "file_number": "26-189",
       "passed_date": null
     },
     {
@@ -977,6 +951,14 @@
       "passed_date": null
     },
     {
+      "title": "Human Rights in Iran and Everywhere Proclamation",
+      "type": "Proclamation",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "26-191",
+      "passed_date": null
+    },
+    {
       "title": "Check-in on the Parking Reform Land Use Code Amendment",
       "type": "Study Session Item",
       "status": "Agenda Ready",
@@ -985,11 +967,19 @@
       "passed_date": null
     },
     {
-      "title": "Human Rights in Iran and Everywhere Proclamation",
-      "type": "Proclamation",
+      "title": "2025 Annual Process Improvement Survey",
+      "type": "Study Session Item",
       "status": "Agenda Ready",
       "intro_date": "2026-02-18",
-      "file_number": "26-191",
+      "file_number": "26-189",
+      "passed_date": null
+    },
+    {
+      "title": "Minutes of January 28, 2026",
+      "type": "Minutes",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "26-190",
       "passed_date": null
     },
     {
@@ -1002,7 +992,7 @@
     }
   ],
   "legistar_url": "https://bellevue.legistar.com",
-  "enriched_at": "2026-02-23T19:16:12.317351",
+  "enriched_at": "2026-02-24T02:35:37.699012",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

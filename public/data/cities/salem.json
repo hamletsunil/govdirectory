@@ -518,7 +518,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Salem",
-        "probed_at": "2026-02-23T19:33:29.669905",
+        "probed_at": "2026-02-24T02:42:16.565223",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -883,7 +883,7 @@
       "agenda_url": "https://salem.legistar1.com/salem/meetings/2026/2/1739_A_City_Council_26-02-23_Meeting_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
-      "upcoming": true
+      "upcoming": false
     },
     {
       "date": "2026-02-23",
@@ -893,7 +893,7 @@
       "agenda_url": "https://salem.legistar1.com/salem/meetings/2026/2/1758_A_Urban_Renewal_Agency_26-02-23_Meeting_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
-      "upcoming": true
+      "upcoming": false
     },
     {
       "date": "2026-02-23",
@@ -903,7 +903,7 @@
       "agenda_url": "https://salem.legistar1.com/salem/meetings/2026/2/1770_A_Housing_Authority_of_the_City_of_Salem_26-02-23_Meeting_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
-      "upcoming": true
+      "upcoming": false
     },
     {
       "date": "2026-02-17",
@@ -927,16 +927,6 @@
     },
     {
       "date": "2026-01-26",
-      "body": "Housing Authority of the City of Salem",
-      "location": "Loucks Auditorium / Salem Public Library",
-      "has_agenda": true,
-      "agenda_url": "https://salem.legistar1.com/salem/meetings/2026/1/1737_A_Housing_Authority_of_the_City_of_Salem_26-01-26_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-01-26",
       "body": "City Council",
       "location": "Loucks Auditorium / Salem Public Library",
       "has_agenda": true,
@@ -954,23 +944,33 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
+    },
+    {
+      "date": "2026-01-26",
+      "body": "Housing Authority of the City of Salem",
+      "location": "Loucks Auditorium / Salem Public Library",
+      "has_agenda": true,
+      "agenda_url": "https://salem.legistar1.com/salem/meetings/2026/1/1737_A_Housing_Authority_of_the_City_of_Salem_26-01-26_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     }
   ],
   "recent_legislation": [
-    {
-      "title": "February 17, 2026, Draft City Council Work Session Minutes",
-      "type": "Minutes",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-18",
-      "file_number": "26-80",
-      "passed_date": null
-    },
     {
       "title": "Proclamation - Englewood Park Centennial Year\r\n\r\nWard(s):  All Wards     \r\nCouncilor(s):  All Councilors     \r\nNeighborhood(s):  All Neighborhoods",
       "type": "Proclamation",
       "status": "Agenda Ready",
       "intro_date": "2026-02-18",
       "file_number": "26-79",
+      "passed_date": null
+    },
+    {
+      "title": "February 17, 2026, Draft City Council Work Session Minutes",
+      "type": "Minutes",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "26-80",
       "passed_date": null
     },
     {
@@ -990,19 +990,19 @@
       "passed_date": null
     },
     {
-      "title": "Amendment 1 to the Intergovernmental Agreement with the State of Oregon allowing the Office of the Legislative Assembly to use a portion of State Street adjacent to Oregon State Capitol. \n\nWard(s): Wa",
-      "type": "Action Item",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-12",
-      "file_number": "26-73",
-      "passed_date": null
-    },
-    {
       "title": "Reporting on changes in perceptions of safety and livability in Salem.    \r\n\r\nWard(s): All Wards     \r\nCouncilor(s): All Councilors     \r\nNeighborhood(s):  All Neighborhoods     \r\nResult Area(s): Good",
       "type": "SOB - Management Report",
       "status": "Agenda Ready",
       "intro_date": "2026-02-12",
       "file_number": "26-74",
+      "passed_date": null
+    },
+    {
+      "title": "Amendment 1 to the Intergovernmental Agreement with the State of Oregon allowing the Office of the Legislative Assembly to use a portion of State Street adjacent to Oregon State Capitol. \n\nWard(s): Wa",
+      "type": "Action Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-12",
+      "file_number": "26-73",
       "passed_date": null
     },
     {
@@ -1014,11 +1014,11 @@
       "passed_date": null
     },
     {
-      "title": "Revisions to the Salem Revised Code Sections 58.001, 58.003, 58.004, 58.190, 58.305, 58.455, and 58.457 related to the Fire Prevention Code.  \r\n\r\nWard(s): All Wards     \r\nCouncilor(s): All Councilors ",
+      "title": "Vacation of right-of-way in the vicinity of Landaggard Drive NW, north of Orchard Heights Road NW.  \r\n\r\nWard(s): 8  \r\nCouncilor(s): Varney  \r\nNeighborhood(s): West Salem Neighborhood Association  \r\nRe",
       "type": "Ordinance Second Reading",
       "status": "Agenda Ready",
       "intro_date": "2026-02-10",
-      "file_number": "26-66",
+      "file_number": "26-65",
       "passed_date": null
     },
     {
@@ -1030,16 +1030,16 @@
       "passed_date": null
     },
     {
-      "title": "Vacation of right-of-way in the vicinity of Landaggard Drive NW, north of Orchard Heights Road NW.  \r\n\r\nWard(s): 8  \r\nCouncilor(s): Varney  \r\nNeighborhood(s): West Salem Neighborhood Association  \r\nRe",
+      "title": "Revisions to the Salem Revised Code Sections 58.001, 58.003, 58.004, 58.190, 58.305, 58.455, and 58.457 related to the Fire Prevention Code.  \r\n\r\nWard(s): All Wards     \r\nCouncilor(s): All Councilors ",
       "type": "Ordinance Second Reading",
       "status": "Agenda Ready",
       "intro_date": "2026-02-10",
-      "file_number": "26-65",
+      "file_number": "26-66",
       "passed_date": null
     }
   ],
   "legistar_url": "https://salem.legistar.com",
-  "enriched_at": "2026-02-23T19:28:52.794544",
+  "enriched_at": "2026-02-24T02:39:24.151942",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

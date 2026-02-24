@@ -367,7 +367,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Washoe%20",
-        "probed_at": "2026-02-23T19:35:46.650595",
+        "probed_at": "2026-02-24T02:45:09.971264",
         "data_vintage": "BRFSS None",
         "geographic_level": "place",
         "status": "unavailable"
@@ -683,16 +683,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-02-23",
-      "body": "Incline Village/Crystal Bay Citizens Advisory Board",
-      "location": null,
-      "has_agenda": true,
-      "agenda_url": "https://washoe-nv.legistar1.com/washoe-nv/meetings/2026/2/1928_A_Incline_Village_Crystal_Bay_Citizens_Advisory_Board_26-02-23_Boards_and_Commissions.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-02-24",
       "body": "Board of County Commissioners",
       "location": null,
@@ -721,6 +711,16 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": true
+    },
+    {
+      "date": "2026-02-23",
+      "body": "Incline Village/Crystal Bay Citizens Advisory Board",
+      "location": null,
+      "has_agenda": true,
+      "agenda_url": "https://washoe-nv.legistar1.com/washoe-nv/meetings/2026/2/1928_A_Incline_Village_Crystal_Bay_Citizens_Advisory_Board_26-02-23_Boards_and_Commissions.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     },
     {
       "date": "2026-02-17",
@@ -811,16 +811,6 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
-    },
-    {
-      "date": "2026-02-03",
-      "body": "Board of Fire Commissioners",
-      "location": "Commission Chambers",
-      "has_agenda": true,
-      "agenda_url": "https://washoe-nv.legistar1.com/washoe-nv/meetings/2026/2/1891_A_Board_of_Fire_Commissioners_26-02-03_TMFPD_BOFC.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
     }
   ],
   "recent_legislation": [
@@ -830,6 +820,14 @@
       "status": "Miscellaneous",
       "intro_date": "2026-02-18",
       "file_number": "TMP-11050",
+      "passed_date": null
+    },
+    {
+      "title": "For the meeting of January 26, 2026. [For Possible Action]",
+      "type": "Resolution",
+      "status": "Draft",
+      "intro_date": "2026-02-17",
+      "file_number": "TMP-11034",
       "passed_date": null
     },
     {
@@ -849,27 +847,11 @@
       "passed_date": null
     },
     {
-      "title": "For the meeting of January 26, 2026. [For Possible Action]",
-      "type": "Resolution",
-      "status": "Draft",
-      "intro_date": "2026-02-17",
-      "file_number": "TMP-11034",
-      "passed_date": null
-    },
-    {
       "title": "Closed Session for the purpose of Board training and development.",
       "type": "Resolution",
       "status": "Miscellaneous",
       "intro_date": "2026-02-09",
       "file_number": "TMP-11005",
-      "passed_date": null
-    },
-    {
-      "title": "Welcome and Opening.\r\nPresented by: Vice Chair Andriola and Health Officer Chad Kingsley\r\nFacilitated by: Erica Olsen, OnStrategy",
-      "type": "Informational Report",
-      "status": "Miscellaneous",
-      "intro_date": "2026-02-06",
-      "file_number": "TMP-10997",
       "passed_date": null
     },
     {
@@ -889,11 +871,11 @@
       "passed_date": null
     },
     {
-      "title": "Presentation, Discussion, and Acceptance of NNPH's Guiding Financial Principles to align the Board on long-term sustainability, responsible stewardship, investment strategy and mission aligned resourc",
+      "title": "Welcome and Opening.\r\nPresented by: Vice Chair Andriola and Health Officer Chad Kingsley\r\nFacilitated by: Erica Olsen, OnStrategy",
       "type": "Informational Report",
       "status": "Miscellaneous",
       "intro_date": "2026-02-06",
-      "file_number": "TMP-11001",
+      "file_number": "TMP-10997",
       "passed_date": null
     },
     {
@@ -903,10 +885,18 @@
       "intro_date": "2026-02-06",
       "file_number": "TMP-10999",
       "passed_date": null
+    },
+    {
+      "title": "Presentation, Discussion, and Acceptance of NNPH's Guiding Financial Principles to align the Board on long-term sustainability, responsible stewardship, investment strategy and mission aligned resourc",
+      "type": "Informational Report",
+      "status": "Miscellaneous",
+      "intro_date": "2026-02-06",
+      "file_number": "TMP-11001",
+      "passed_date": null
     }
   ],
   "legistar_url": "https://washoe-nv.legistar.com",
-  "enriched_at": "2026-02-23T19:30:31.056687",
+  "enriched_at": "2026-02-24T02:39:46.407202",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

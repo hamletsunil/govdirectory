@@ -169,17 +169,17 @@
     "accela_agency_id": "SEATTLE"
   },
   "development": {
-    "permits_12mo": 6356,
-    "yoy_trend_pct": 9.3,
-    "avg_permit_value": 1120781.35,
+    "permits_12mo": 6347,
+    "yoy_trend_pct": 9.2,
+    "avg_permit_value": 1121887.15,
     "permit_types": {
-      "Building": 5364,
+      "Building": 5356,
       "Demolition": 539,
-      "Roof": 428,
+      "Roof": 427,
       "Grading": 25
     },
     "datasets_count": 10,
-    "permits_per_capita_1k": 8.65
+    "permits_per_capita_1k": 8.64
   },
   "meetings": {
     "official_channels": 1,
@@ -474,8 +474,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.seattle.gov/resource/76t5-zqzr.json",
-        "probed_at": "2026-02-23T19:31:27.754468",
-        "data_vintage": "Rolling 12-month window ending 2026-02-23",
+        "probed_at": "2026-02-24T02:40:22.180442",
+        "data_vintage": "Rolling 12-month window ending 2026-02-24",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -521,7 +521,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Seattle",
-        "probed_at": "2026-02-23T19:32:58.712649",
+        "probed_at": "2026-02-24T02:41:36.538242",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -919,16 +919,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-02-23",
-      "body": "Council Briefing",
-      "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA  98104",
-      "has_agenda": true,
-      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6595_A_Council_Briefing_26-02-23_Council_Briefing.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-02-24",
       "body": "Public Safety Committee",
       "location": "Council Chamber, City Hall \r\n600 4th Avenue \r\nSeattle, WA  98104",
@@ -957,6 +947,16 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": true
+    },
+    {
+      "date": "2026-02-23",
+      "body": "Council Briefing",
+      "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA  98104",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6595_A_Council_Briefing_26-02-23_Council_Briefing.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     },
     {
       "date": "2026-02-20",
@@ -1047,16 +1047,6 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
-    },
-    {
-      "date": "2026-02-11",
-      "body": "Housing, Arts, and Civil Rights Committee",
-      "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA 98104",
-      "has_agenda": true,
-      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6585_A_Housing%2C_Arts%2C_and_Civil_Rights_Committee_26-02-11_Committee_Agenda.pdf",
-      "has_minutes": true,
-      "has_video": false,
-      "upcoming": false
     }
   ],
   "recent_legislation": [
@@ -1109,6 +1099,14 @@
       "passed_date": null
     },
     {
+      "title": "Human Services Provider Roundtable Discussion",
+      "type": "Information Item (Inf)",
+      "status": "Committee Agenda Ready",
+      "intro_date": "2026-02-12",
+      "file_number": "Inf 2841",
+      "passed_date": null
+    },
+    {
       "title": "HSD’s (Human Services Department) 2024 Provider Pay Report",
       "type": "Information Item (Inf)",
       "status": "Committee Agenda Ready",
@@ -1117,19 +1115,11 @@
       "passed_date": null
     },
     {
-      "title": "State of the City address delivered by Mayor Katie B. Wilson on February 17, 2026.",
-      "type": "Clerk File (CF)",
-      "status": "Filed with City Clerk",
-      "intro_date": "2026-02-12",
-      "file_number": "CF 314547",
-      "passed_date": "2026-02-17"
-    },
-    {
-      "title": "Transportation Funding Task Force Update",
+      "title": "Wage Equity for Human Services Contracts",
       "type": "Information Item (Inf)",
       "status": "Heard in Committee",
       "intro_date": "2026-02-12",
-      "file_number": "Inf 2836",
+      "file_number": "Inf 2837",
       "passed_date": null
     },
     {
@@ -1142,7 +1132,7 @@
     }
   ],
   "legistar_url": "https://seattle.legistar.com",
-  "enriched_at": "2026-02-23T19:29:32.911842",
+  "enriched_at": "2026-02-24T02:39:34.803069",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

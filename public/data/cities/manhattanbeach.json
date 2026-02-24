@@ -560,7 +560,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Manhattan%20Beach",
-        "probed_at": "2026-02-23T19:34:32.884309",
+        "probed_at": "2026-02-24T02:43:39.978000",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -880,26 +880,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-02-23",
-      "body": "Parks and Recreation Commission",
-      "location": "City Council Chambers and Zoom",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
-      "date": "2026-02-23",
-      "body": "City Council Adjourned Regular Meeting",
-      "location": "City Council Chambers and Zoom",
-      "has_agenda": true,
-      "agenda_url": "https://legistar.granicus.com/ManhattanBeach/meetings/2026/2/2268_A_City_Council_Adjourned_Regular_Meeting_26-02-23_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-02-24",
       "body": "City Council Adjourned Regular Meeting",
       "location": "City Council Chambers and Zoom",
@@ -928,6 +908,26 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": true
+    },
+    {
+      "date": "2026-02-23",
+      "body": "Parks and Recreation Commission",
+      "location": "City Council Chambers and Zoom",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-23",
+      "body": "City Council Adjourned Regular Meeting",
+      "location": "City Council Chambers and Zoom",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/ManhattanBeach/meetings/2026/2/2268_A_City_Council_Adjourned_Regular_Meeting_26-02-23_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     },
     {
       "date": "2026-02-18",
@@ -1066,24 +1066,24 @@
       "passed_date": null
     },
     {
-      "title": "Cultural Arts Commission 2025-2026 Work Plan",
-      "type": "Gen. Bus. - Staff Report",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-12",
-      "file_number": "CAC 25-0013",
-      "passed_date": null
-    },
-    {
       "title": "Cultural Arts Commission Minutes:\n\nThis Item Contains Minutes of the Cultural Arts Commission Adjourned Regular Meeting Minutes of January 21, 2026.\n\nAPPROVE",
       "type": "Gen. Bus. - Staff Report",
       "status": "Agenda Ready",
       "intro_date": "2026-02-12",
       "file_number": "CAC 25-0012",
       "passed_date": null
+    },
+    {
+      "title": "Cultural Arts Commission 2025-2026 Work Plan",
+      "type": "Gen. Bus. - Staff Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-12",
+      "file_number": "CAC 25-0013",
+      "passed_date": null
     }
   ],
   "legistar_url": "https://manhattanbeach.legistar.com",
-  "enriched_at": "2026-02-23T19:24:21.278142",
+  "enriched_at": "2026-02-24T02:38:17.744880",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

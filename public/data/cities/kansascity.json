@@ -116,24 +116,24 @@
     "accela_agency_id": "KANSAS"
   },
   "development": {
-    "permits_12mo": 4043,
-    "yoy_trend_pct": -78.3,
-    "avg_permit_value": 196220.24,
+    "permits_12mo": 3973,
+    "yoy_trend_pct": -78.6,
+    "avg_permit_value": 194068.01,
     "permit_types": {
-      "Electrical General": 885,
-      "Plumbing General": 565,
-      "Mechanical General": 528,
-      "Certificate of Occupancy (Residential)": 208,
-      "Electrical with Service": 201,
-      "Single Family - Interior Remodel": 171,
-      "Install/Replace Water Heater": 126,
+      "Electrical General": 877,
+      "Plumbing General": 560,
+      "Mechanical General": 511,
+      "Certificate of Occupancy (Residential)": 202,
+      "Electrical with Service": 197,
+      "Single Family - Interior Remodel": 164,
       "Other": 124,
+      "Install/Replace Water Heater": 124,
       "Single Family - New": 109,
       "Renovation": 105,
-      "Plumbing with Limited Service": 90,
+      "Plumbing with Limited Service": 89,
       "Fire Protection System": 84,
-      "Security Alarms": 83,
-      "Wall Sign / Projecting Sign": 71,
+      "Security Alarms": 79,
+      "Wall Sign / Projecting Sign": 69,
       "Electrical Fire Alarm Commercial": 69
     },
     "datasets_count": 1
@@ -292,8 +292,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.kcmo.org/resource/ntw8-aacc.json",
-        "probed_at": "2026-02-23T19:32:24.356899",
-        "data_vintage": "Rolling 12-month window ending 2026-02-23",
+        "probed_at": "2026-02-24T02:41:22.577376",
+        "data_vintage": "Rolling 12-month window ending 2026-02-24",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Permits - CPD Dataset",
@@ -758,46 +758,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-02-23",
-      "body": "Health Commission",
-      "location": "Kansas City, Health Department\r\nWatson (Multipurpose Room)",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
-      "date": "2026-02-23",
-      "body": "Public Budget Hearings",
-      "location": "Ruskin High School (7000 E 111th St, KCMO 64134)",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
-      "date": "2026-02-23",
-      "body": "Northland Gateway Community Improvement District",
-      "location": "TEAMS Meeting",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
-      "date": "2026-02-23",
-      "body": "Housing Trust Fund Board",
-      "location": "Virtual",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-02-24",
       "body": "Neighborhood Planning and Development Committee",
       "location": "26th Floor, Council Chamber",
@@ -819,6 +779,16 @@
     },
     {
       "date": "2026-02-24",
+      "body": "Finance, Governance and Public Safety Committee",
+      "location": "26th Floor, Council Chamber",
+      "has_agenda": true,
+      "agenda_url": "https://kansascity.legistar1.com/kansascity/meetings/2026/2/18983_A_Finance%2C_Governance_and_Public_Safety_Committee_26-02-24_Agenda_-_Committees.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-24",
       "body": "Board of Police Commissioners",
       "location": "1125 Locust Street",
       "has_agenda": false,
@@ -828,11 +798,21 @@
       "upcoming": true
     },
     {
-      "date": "2026-02-24",
+      "date": "2026-02-25",
+      "body": "Board of Zoning Adjustment",
+      "location": "The hearing will by hybrid; both in-person at City Hall, \r\n414 E 12th St, 10th floor Council Committee Room\r\nKansas City, MO and virtually via Zoom. \r\nDetails can be found at https://kcmo.gov/bza.",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-25",
       "body": "Finance, Governance and Public Safety Committee",
       "location": "26th Floor, Council Chamber",
-      "has_agenda": true,
-      "agenda_url": "https://kansascity.legistar1.com/kansascity/meetings/2026/2/18983_A_Finance%2C_Governance_and_Public_Safety_Committee_26-02-24_Agenda_-_Committees.pdf",
+      "has_agenda": false,
+      "agenda_url": null,
       "has_minutes": false,
       "has_video": false,
       "upcoming": true
@@ -848,7 +828,7 @@
       "upcoming": true
     },
     {
-      "date": "2026-02-25",
+      "date": "2026-02-26",
       "body": "Finance, Governance and Public Safety Committee",
       "location": "26th Floor, Council Chamber",
       "has_agenda": false,
@@ -858,9 +838,69 @@
       "upcoming": true
     },
     {
+      "date": "2026-02-27",
+      "body": "Firefighters Pension System Board of Trustees",
+      "location": "Century Towers, Suite 2106 (Conference Room B), located at 635 Woodland Ave and via Microsoft Teams.",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-03-02",
+      "body": "Public Budget Hearings",
+      "location": "Guadalupe Community Center (1015 Avenida Cesar E Chavez, KCMO 64108)",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-02-23",
+      "body": "Housing Trust Fund Board",
+      "location": "Virtual",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-23",
+      "body": "Health Commission",
+      "location": "Kansas City, Health Department\r\nWatson (Multipurpose Room)",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-23",
+      "body": "Public Budget Hearings",
+      "location": "Ruskin High School (7000 E 111th St, KCMO 64134)",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-23",
+      "body": "Northland Gateway Community Improvement District",
+      "location": "TEAMS Meeting",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
       "date": "2026-02-19",
-      "body": "Deferred Compensation Plan Board",
-      "location": "HR 9th Floor East conference room and virtually",
+      "body": "Investment Committee",
+      "location": "Treasury Conference Room \r\nCity Hall 1st Floor East, 414 E. 12th Street\r\nKansas City, Missouri",
       "has_agenda": false,
       "agenda_url": null,
       "has_minutes": false,
@@ -889,18 +929,8 @@
     },
     {
       "date": "2026-02-19",
-      "body": "Investment Committee",
-      "location": "Treasury Conference Room \r\nCity Hall 1st Floor East, 414 E. 12th Street\r\nKansas City, Missouri",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-18",
-      "body": "Land Bank Board of Commissioners",
-      "location": "Canceled",
+      "body": "Deferred Compensation Plan Board",
+      "location": "HR 9th Floor East conference room and virtually",
       "has_agenda": false,
       "agenda_url": null,
       "has_minutes": false,
@@ -919,38 +949,8 @@
     },
     {
       "date": "2026-02-18",
-      "body": "LGBTQ Commission",
-      "location": "Waldo Branch of KC Library, 201 E 75th St, Kansas City, MO 64114, Room B",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-18",
-      "body": "Linwood Shopping Center CID Board of Director's Meeting",
-      "location": "TEAMS Meeting",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-18",
-      "body": "Human Rights Commission",
-      "location": "Gender Equity Task Force",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-18",
-      "body": "Risk Management Committee",
-      "location": "Virtual Closed Session",
+      "body": "Land Bank Board of Commissioners",
+      "location": "Canceled",
       "has_agenda": false,
       "agenda_url": null,
       "has_minutes": false,
@@ -1041,7 +1041,7 @@
     }
   ],
   "legistar_url": "https://kansascity.legistar.com",
-  "enriched_at": "2026-02-23T19:23:10.198702",
+  "enriched_at": "2026-02-24T02:37:52.876162",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

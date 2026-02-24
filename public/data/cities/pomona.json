@@ -501,7 +501,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Pomona",
-        "probed_at": "2026-02-23T19:33:38.127639",
+        "probed_at": "2026-02-24T02:42:27.247095",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -789,26 +789,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-02-23",
-      "body": "Cultural Arts Commission",
-      "location": "Office of Economic and Business Affairs, Second Floor, City Hall, 505 South Garey Ave., Pomona, CA 91766",
-      "has_agenda": true,
-      "agenda_url": "https://pomona.legistar1.com/pomona/meetings/2026/2/3097_A_Cultural_Arts_Commission_26-02-23_Regular_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
-      "date": "2026-02-23",
-      "body": "City Council / Housing Authority / Successor Agency to the Redevelopment Agency",
-      "location": "Council Chambers",
-      "has_agenda": true,
-      "agenda_url": "https://pomona.legistar1.com/pomona/meetings/2026/2/3115_A_City_Council___Housing_Authority___Successor_Agency_to_the_Redevelopment_Agency_26-02-23_Regular_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-02-24",
       "body": "Community Life Commission",
       "location": "City Council Chambers",
@@ -837,6 +817,26 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": true
+    },
+    {
+      "date": "2026-02-23",
+      "body": "City Council / Housing Authority / Successor Agency to the Redevelopment Agency",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://pomona.legistar1.com/pomona/meetings/2026/2/3115_A_City_Council___Housing_Authority___Successor_Agency_to_the_Redevelopment_Agency_26-02-23_Regular_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-23",
+      "body": "Cultural Arts Commission",
+      "location": "Office of Economic and Business Affairs, Second Floor, City Hall, 505 South Garey Ave., Pomona, CA 91766",
+      "has_agenda": true,
+      "agenda_url": "https://pomona.legistar1.com/pomona/meetings/2026/2/3097_A_Cultural_Arts_Commission_26-02-23_Regular_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     },
     {
       "date": "2026-02-19",
@@ -880,20 +880,20 @@
     },
     {
       "date": "2026-02-11",
-      "body": "Zoning Administrator",
-      "location": "Council Chambers",
+      "body": "Planning Commission",
+      "location": "Council Chambers & Via Teleconference: Hyatt Regency Washington on Capitol Hill, 400 New Jersey Ave NW",
       "has_agenda": true,
-      "agenda_url": "https://pomona.legistar1.com/pomona/meetings/2026/2/2862_A_Zoning_Administrator_26-02-11_Regular_Meeting_Agenda.pdf",
+      "agenda_url": "https://pomona.legistar1.com/pomona/meetings/2026/2/3064_A_Planning_Commission_26-02-11_Regular_Meeting_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
     },
     {
       "date": "2026-02-11",
-      "body": "Planning Commission",
-      "location": "Council Chambers & Via Teleconference: Hyatt Regency Washington on Capitol Hill, 400 New Jersey Ave NW",
+      "body": "Zoning Administrator",
+      "location": "Council Chambers",
       "has_agenda": true,
-      "agenda_url": "https://pomona.legistar1.com/pomona/meetings/2026/2/3064_A_Planning_Commission_26-02-11_Regular_Meeting_Agenda.pdf",
+      "agenda_url": "https://pomona.legistar1.com/pomona/meetings/2026/2/2862_A_Zoning_Administrator_26-02-11_Regular_Meeting_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -917,43 +917,23 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
-    },
-    {
-      "date": "2026-02-04",
-      "body": "Historic Preservation Commission",
-      "location": "City Council Chambers",
-      "has_agenda": true,
-      "agenda_url": "https://pomona.legistar1.com/pomona/meetings/2026/2/3085_A_Historic_Preservation_Commission_26-02-04_Regular_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-02",
-      "body": "City Council / Housing Authority / Successor Agency to the Redevelopment Agency",
-      "location": "Council Chambers",
-      "has_agenda": true,
-      "agenda_url": "https://pomona.legistar1.com/pomona/meetings/2026/2/3114_A_City_Council___Housing_Authority___Successor_Agency_to_the_Redevelopment_Agency_26-02-02_Regular_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
     }
   ],
   "recent_legislation": [
-    {
-      "title": "Approval of Meeting Minutes\r\n\r\nIt is recommended that the Commission members approve the following Ethics Commission Meeting minutes:\r\n\r\nJanuary 22, 2026",
-      "type": "Consent Calendar",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-19",
-      "file_number": "26-1168",
-      "passed_date": null
-    },
     {
       "title": "Update on Ethics Policy",
       "type": "Discussion ",
       "status": "Agenda Ready",
       "intro_date": "2026-02-19",
       "file_number": "26-1169",
+      "passed_date": null
+    },
+    {
+      "title": "1.\tCivic Center Plaza Playground Sculpture",
+      "type": "Discussion ",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "26-1179",
       "passed_date": null
     },
     {
@@ -973,11 +953,11 @@
       "passed_date": null
     },
     {
-      "title": "Discussion to Memorialize Any Changes to the Duties and Responsibilities of the Ethics Commission",
-      "type": "Discussion ",
+      "title": "Approval of Meeting Minutes\r\n\r\nIt is recommended that the Commission members approve the following Ethics Commission Meeting minutes:\r\n\r\nJanuary 22, 2026",
+      "type": "Consent Calendar",
       "status": "Agenda Ready",
       "intro_date": "2026-02-19",
-      "file_number": "26-1174",
+      "file_number": "26-1168",
       "passed_date": null
     },
     {
@@ -989,11 +969,11 @@
       "passed_date": null
     },
     {
-      "title": "Selection of Commission Chair and Vice-Chair\r\n\r\nIt is recommended that the Commission members select a Chair and Vice-Chair.",
+      "title": "Discussion to Memorialize Any Changes to the Duties and Responsibilities of the Ethics Commission",
       "type": "Discussion ",
       "status": "Agenda Ready",
       "intro_date": "2026-02-19",
-      "file_number": "26-1172",
+      "file_number": "26-1174",
       "passed_date": null
     },
     {
@@ -1013,16 +993,16 @@
       "passed_date": null
     },
     {
-      "title": "1.\tCivic Center Plaza Playground Sculpture",
+      "title": "Selection of Commission Chair and Vice-Chair\r\n\r\nIt is recommended that the Commission members select a Chair and Vice-Chair.",
       "type": "Discussion ",
       "status": "Agenda Ready",
       "intro_date": "2026-02-19",
-      "file_number": "26-1179",
+      "file_number": "26-1172",
       "passed_date": null
     }
   ],
   "legistar_url": "https://pomona.legistar.com",
-  "enriched_at": "2026-02-23T19:27:48.032502",
+  "enriched_at": "2026-02-24T02:39:12.482053",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

@@ -220,28 +220,28 @@
     "accela_agency_id": null
   },
   "development": {
-    "permits_12mo": 7395,
-    "yoy_trend_pct": 6.3,
+    "permits_12mo": 7364,
+    "yoy_trend_pct": 5.4,
     "avg_permit_value": null,
     "permit_types": {
-      "Building Permit": 1899,
-      "Electrical Permit": 1773,
-      "Plumbing Permit": 663,
+      "Building Permit": 1893,
+      "Electrical Permit": 1766,
+      "Plumbing Permit": 658,
       "Food Establishment": 495,
-      "Gas Fitting": 440,
+      "Gas Fitting": 437,
       "Dumpster": 323,
-      "Certificate of Inspection": 303,
+      "Certificate of Inspection": 301,
       "Temporary Food": 294,
-      "Sheet Metal Permit": 210,
-      "Dumpster (Located on Street) Permit": 198,
-      "Certificate of Occupancy": 167,
-      "Business License": 113,
+      "Sheet Metal Permit": 207,
+      "Dumpster (Located on Street) Permit": 197,
+      "Certificate of Occupancy": 166,
+      "Business License": 112,
       "Farmers Market": 102,
-      "Public Event License": 99,
+      "Public Event License": 97,
       "Block Party": 80
     },
     "datasets_count": 1,
-    "permits_per_capita_1k": 91.9
+    "permits_per_capita_1k": 91.52
   },
   "meetings": {
     "official_channels": 1,
@@ -627,8 +627,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.somervillema.gov/resource/nneb-s3f7.json",
-        "probed_at": "2026-02-23T19:32:17.682759",
-        "data_vintage": "Rolling 12-month window ending 2026-02-23",
+        "probed_at": "2026-02-24T02:41:16.335487",
+        "data_vintage": "Rolling 12-month window ending 2026-02-24",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Applications for Permits and Licenses",
@@ -674,7 +674,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Somerville",
-        "probed_at": "2026-02-23T19:34:05.376953",
+        "probed_at": "2026-02-24T02:43:03.203529",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -1081,16 +1081,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-02-23",
-      "body": "Traffic and Parking Committee",
-      "location": "Virtual",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-02-24",
       "body": "Finance Committee",
       "location": "Virtual",
@@ -1129,6 +1119,16 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": true
+    },
+    {
+      "date": "2026-02-23",
+      "body": "Traffic and Parking Committee",
+      "location": "Virtual",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     },
     {
       "date": "2026-02-19",
@@ -1219,16 +1219,6 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
-    },
-    {
-      "date": "2026-01-28",
-      "body": "Housing, Community Development and Equity Committee",
-      "location": "Committee Room and Remote Participation",
-      "has_agenda": true,
-      "agenda_url": "https://somervillema.legistar1.com/somervillema/meetings/2026/1/3968_A_Housing%2C_Community_Development_and_Equity_Committee_26-01-28_Regular_Meeting_Agenda.pdf",
-      "has_minutes": true,
-      "has_video": false,
-      "upcoming": false
     }
   ],
   "recent_legislation": [
@@ -1314,7 +1304,7 @@
     }
   ],
   "legistar_url": "https://somervillema.legistar.com",
-  "enriched_at": "2026-02-23T19:29:45.509452",
+  "enriched_at": "2026-02-24T02:39:37.089564",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

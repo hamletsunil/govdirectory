@@ -357,7 +357,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Seminole%20County",
-        "probed_at": "2026-02-23T19:35:42.449938",
+        "probed_at": "2026-02-24T02:45:04.411644",
         "data_vintage": "BRFSS None",
         "geographic_level": "place",
         "status": "unavailable"
@@ -664,16 +664,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-02-23",
-      "body": "Board of Adjustment",
-      "location": "BCC Chambers, Room 1028",
-      "has_agenda": true,
-      "agenda_url": "https://seminolecountyfl.legistar1.com/seminolecountyfl/meetings/2026/2/3605_A_Board_of_Adjustment_26-02-23_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-02-24",
       "body": "Board of County Commissioners",
       "location": "BCC Chambers",
@@ -682,6 +672,16 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": true
+    },
+    {
+      "date": "2026-02-23",
+      "body": "Board of Adjustment",
+      "location": "BCC Chambers, Room 1028",
+      "has_agenda": true,
+      "agenda_url": "https://seminolecountyfl.legistar1.com/seminolecountyfl/meetings/2026/2/3605_A_Board_of_Adjustment_26-02-23_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     },
     {
       "date": "2026-02-18",
@@ -715,21 +715,21 @@
     },
     {
       "date": "2026-02-04",
-      "body": "Planning and Zoning Commission",
-      "location": "BCC Chambers",
-      "has_agenda": true,
-      "agenda_url": "https://seminolecountyfl.legistar1.com/seminolecountyfl/meetings/2026/2/3564_A_Planning_and_Zoning_Commission_26-02-04_Meeting_Agenda.pdf",
-      "has_minutes": true,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-04",
       "body": "Development Review Committee",
       "location": "Room 3024",
       "has_agenda": true,
       "agenda_url": "https://seminolecountyfl.legistar1.com/seminolecountyfl/meetings/2026/2/3600_A_Development_Review_Committee_26-02-04_Meeting_Agenda.pdf",
       "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-04",
+      "body": "Planning and Zoning Commission",
+      "location": "BCC Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://seminolecountyfl.legistar1.com/seminolecountyfl/meetings/2026/2/3564_A_Planning_and_Zoning_Commission_26-02-04_Meeting_Agenda.pdf",
+      "has_minutes": true,
       "has_video": false,
       "upcoming": false
     },
@@ -756,14 +756,6 @@
   ],
   "recent_legislation": [
     {
-      "title": "Approve and authorize the Chairman to execute a Resolution implementing Budget Amendment (BAR) # 26-023 in the 2024 Infrastructure Sales Tax Fund to transfer $6,500,000 from reserves for FY26 design a",
-      "type": "Consent Item",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-13",
-      "file_number": "2026-0210",
-      "passed_date": null
-    },
-    {
       "title": "Approval of the at-large Board Appointment",
       "type": "Consent Item",
       "status": "Agenda Ready",
@@ -772,19 +764,11 @@
       "passed_date": null
     },
     {
-      "title": "Resolution Honoring the Retirement of Roads and Stormwater Division Manager Owen Reagan",
-      "type": "Award/Presentation",
+      "title": "Approve and authorize the Chairman to execute a Resolution implementing Budget Amendment (BAR) # 26-023 in the 2024 Infrastructure Sales Tax Fund to transfer $6,500,000 from reserves for FY26 design a",
+      "type": "Consent Item",
       "status": "Agenda Ready",
-      "intro_date": "2026-02-11",
-      "file_number": "2026-0190",
-      "passed_date": null
-    },
-    {
-      "title": "Midway Update (John Slot, Public Works Director)",
-      "type": "County Manager and Staff Briefings",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-11",
-      "file_number": "2026-0195",
+      "intro_date": "2026-02-13",
+      "file_number": "2026-0210",
       "passed_date": null
     },
     {
@@ -793,6 +777,22 @@
       "status": "Agenda Ready",
       "intro_date": "2026-02-11",
       "file_number": "2026-0193",
+      "passed_date": null
+    },
+    {
+      "title": "Approval of the District 5 Board Appointments",
+      "type": "Consent Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-11",
+      "file_number": "2026-0197",
+      "passed_date": null
+    },
+    {
+      "title": "Resolution Honoring the Retirement of Roads and Stormwater Division Manager Owen Reagan",
+      "type": "Award/Presentation",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-11",
+      "file_number": "2026-0190",
       "passed_date": null
     },
     {
@@ -812,14 +812,6 @@
       "passed_date": null
     },
     {
-      "title": "Approval of the District 5 Board Appointments",
-      "type": "Consent Item",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-11",
-      "file_number": "2026-0197",
-      "passed_date": null
-    },
-    {
       "title": "Resolution Honoring the Contributions of League of Women Voters  Member Marilyn Crotty",
       "type": "Consent Item",
       "status": "Agenda Ready",
@@ -828,16 +820,24 @@
       "passed_date": null
     },
     {
-      "title": "3425 Gleaves Court - Request for a rear yard setback variance from thirty (30) feet to 9.7 feet for a shed in the R-1A (Single Family Dwelling) district; BV2025-142 (Tilak Ramaprakash, Applicant) Dist",
-      "type": "Variances",
+      "title": "Midway Update (John Slot, Public Works Director)",
+      "type": "County Manager and Staff Briefings",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-11",
+      "file_number": "2026-0195",
+      "passed_date": null
+    },
+    {
+      "title": "Approve and authorize the Chairman to execute the agreement with Duke Energy Florida, LLC, acknowledging it has permitted and allowed the existing Seminole County utility encroachments to remain and o",
+      "type": "Consent Item",
       "status": "Agenda Ready",
       "intro_date": "2026-02-09",
-      "file_number": "2026-0174",
+      "file_number": "2026-0175",
       "passed_date": null
     }
   ],
   "legistar_url": "https://seminolecountyfl.legistar.com",
-  "enriched_at": "2026-02-23T19:29:37.039828",
+  "enriched_at": "2026-02-24T02:39:35.119730",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

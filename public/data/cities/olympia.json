@@ -518,7 +518,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Olympia",
-        "probed_at": "2026-02-23T19:34:22.465752",
+        "probed_at": "2026-02-24T02:43:26.486539",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -860,11 +860,11 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-02-23",
-      "body": "Finance Committee",
+      "date": "2026-02-24",
+      "body": "City Council",
       "location": "Council Chambers, Online and Via Phone",
       "has_agenda": true,
-      "agenda_url": "https://legistar.granicus.com/olympia/meetings/2026/2/7160_A_Finance_Committee_26-02-23_Meeting_Agenda.pdf",
+      "agenda_url": "https://legistar.granicus.com/olympia/meetings/2026/2/7206_A_City_Council_26-02-24_Meeting_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": true
@@ -875,16 +875,6 @@
       "location": "Council Chambers, Online and Via Phone",
       "has_agenda": true,
       "agenda_url": "https://legistar.granicus.com/olympia/meetings/2026/2/7090_A_City_Council_26-02-24_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
-      "date": "2026-02-24",
-      "body": "City Council",
-      "location": "Council Chambers, Online and Via Phone",
-      "has_agenda": true,
-      "agenda_url": "https://legistar.granicus.com/olympia/meetings/2026/2/7206_A_City_Council_26-02-24_Meeting_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": true
@@ -960,6 +950,16 @@
       "upcoming": true
     },
     {
+      "date": "2026-02-23",
+      "body": "Finance Committee",
+      "location": "Council Chambers, Online and Via Phone",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/olympia/meetings/2026/2/7160_A_Finance_Committee_26-02-23_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
       "date": "2026-02-18",
       "body": "Youth Council",
       "location": "Room 207",
@@ -971,21 +971,21 @@
     },
     {
       "date": "2026-02-17",
-      "body": "Land Use & Environment Committee",
-      "location": "Council Chambers and Online",
-      "has_agenda": true,
-      "agenda_url": "https://legistar.granicus.com/olympia/meetings/2026/2/7202_A_Land_Use___Environment_Committee_26-02-17_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-17",
       "body": "Civil Service Commission",
       "location": "Room 112",
       "has_agenda": true,
       "agenda_url": "https://legistar.granicus.com/olympia/meetings/2026/2/7204_A_Civil_Service_Commission_26-02-17_Meeting_Agenda.pdf",
       "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "Land Use & Environment Committee",
+      "location": "Council Chambers and Online",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/olympia/meetings/2026/2/7202_A_Land_Use___Environment_Committee_26-02-17_Meeting_Agenda.pdf",
+      "has_minutes": false,
       "has_video": false,
       "upcoming": false
     },
@@ -1048,16 +1048,6 @@
       "has_minutes": true,
       "has_video": false,
       "upcoming": false
-    },
-    {
-      "date": "2026-02-04",
-      "body": "Site Plan Review Committee",
-      "location": null,
-      "has_agenda": true,
-      "agenda_url": "https://legistar.granicus.com/olympia/meetings/2026/2/6917_A_Site_Plan_Review_Committee_26-02-04_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
     }
   ],
   "recent_legislation": [
@@ -1070,6 +1060,14 @@
       "passed_date": null
     },
     {
+      "title": "Approval of September 5, 2025 Sea Level Rise Response Collaborative Executive Committee Meeting Minutes",
+      "type": "minutes",
+      "status": "In Committee",
+      "intro_date": "2026-02-20",
+      "file_number": "26-0156",
+      "passed_date": null
+    },
+    {
       "title": "Update on 2026 Sea Level Rise Collaborative Workplan",
       "type": "information",
       "status": "In Committee",
@@ -1078,11 +1076,11 @@
       "passed_date": null
     },
     {
-      "title": "Approval of September 5, 2025 Sea Level Rise Response Collaborative Executive Committee Meeting Minutes",
+      "title": "Approval of February 3, 2026 City Council Meeting Minutes",
       "type": "minutes",
-      "status": "In Committee",
-      "intro_date": "2026-02-20",
-      "file_number": "26-0156",
+      "status": "Consent Calendar",
+      "intro_date": "2026-02-19",
+      "file_number": "26-0154",
       "passed_date": null
     },
     {
@@ -1102,19 +1100,11 @@
       "passed_date": null
     },
     {
-      "title": "Approval of February 3, 2026 City Council Meeting Minutes",
-      "type": "minutes",
-      "status": "Consent Calendar",
-      "intro_date": "2026-02-19",
-      "file_number": "26-0154",
-      "passed_date": null
-    },
-    {
-      "title": "Approval of January 26, 2026, Olympia Planning Commission Meeting Minutes",
-      "type": "minutes",
+      "title": "Elizabeth Street Multifamily, 1627 Elizabeth St SE, 26-0947",
+      "type": "information",
       "status": "In Committee",
       "intro_date": "2026-02-18",
-      "file_number": "26-0145",
+      "file_number": "26-0148",
       "passed_date": null
     },
     {
@@ -1126,24 +1116,24 @@
       "passed_date": null
     },
     {
+      "title": "Approval of January 26, 2026, Olympia Planning Commission Meeting Minutes",
+      "type": "minutes",
+      "status": "In Committee",
+      "intro_date": "2026-02-18",
+      "file_number": "26-0145",
+      "passed_date": null
+    },
+    {
       "title": "Consider Recommendations Related to City Council Appointed Advisory Bodies",
       "type": "decision",
       "status": "In Committee",
       "intro_date": "2026-02-18",
       "file_number": "26-0152",
       "passed_date": null
-    },
-    {
-      "title": "Elizabeth Street Multifamily, 1627 Elizabeth St SE, 26-0947",
-      "type": "information",
-      "status": "In Committee",
-      "intro_date": "2026-02-18",
-      "file_number": "26-0148",
-      "passed_date": null
     }
   ],
   "legistar_url": "https://olympia.legistar.com",
-  "enriched_at": "2026-02-23T19:26:48.200835",
+  "enriched_at": "2026-02-24T02:38:57.147879",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

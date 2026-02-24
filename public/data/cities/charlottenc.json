@@ -527,7 +527,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Charlotte",
-        "probed_at": "2026-02-23T19:32:57.953594",
+        "probed_at": "2026-02-24T02:41:35.588409",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -946,23 +946,23 @@
   "recent_meetings": [
     {
       "date": "2026-02-23",
-      "body": "City Council Business Meeting",
-      "location": "Council Chamber",
-      "has_agenda": true,
-      "agenda_url": "https://charlottenc.legistar1.com/charlottenc/meetings/2026/2/1923_A_City_Council_Business_Meeting_26-02-23_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
-      "date": "2026-02-23",
       "body": "City Council Budget Workshop",
       "location": "Charlotte-Mecklenburg Government Center, Room 267",
       "has_agenda": true,
       "agenda_url": "https://charlottenc.legistar1.com/charlottenc/meetings/2026/2/1955_A_City_Council_Budget_Workshop__26-02-23_Meeting_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
-      "upcoming": true
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-23",
+      "body": "City Council Business Meeting",
+      "location": "Council Chamber",
+      "has_agenda": true,
+      "agenda_url": "https://charlottenc.legistar1.com/charlottenc/meetings/2026/2/1923_A_City_Council_Business_Meeting_26-02-23_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     },
     {
       "date": "2026-02-18",
@@ -996,20 +996,20 @@
     },
     {
       "date": "2026-02-05",
-      "body": "Budget, Governance, and Intergovernmental Relations Council Committee",
+      "body": "Economic Development and Workforce Council Committee",
       "location": "Charlotte-Mecklenburg Government Center, Room CH-14",
       "has_agenda": true,
-      "agenda_url": "https://charlottenc.legistar1.com/charlottenc/meetings/2026/2/1953_A_Budget%2C_Governance%2C_and_Intergovernmental_Relations_Council_Committee_26-02-05_Meeting_Agenda.pdf",
+      "agenda_url": "https://charlottenc.legistar1.com/charlottenc/meetings/2026/2/1954_A_Economic_Development_and_Workforce_Council_Committee_26-02-05_Meeting_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
     },
     {
       "date": "2026-02-05",
-      "body": "Economic Development and Workforce Council Committee",
+      "body": "Budget, Governance, and Intergovernmental Relations Council Committee",
       "location": "Charlotte-Mecklenburg Government Center, Room CH-14",
       "has_agenda": true,
-      "agenda_url": "https://charlottenc.legistar1.com/charlottenc/meetings/2026/2/1954_A_Economic_Development_and_Workforce_Council_Committee_26-02-05_Meeting_Agenda.pdf",
+      "agenda_url": "https://charlottenc.legistar1.com/charlottenc/meetings/2026/2/1953_A_Budget%2C_Governance%2C_and_Intergovernmental_Relations_Council_Committee_26-02-05_Meeting_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -1128,7 +1128,7 @@
     }
   ],
   "legistar_url": "https://charlottenc.legistar.com",
-  "enriched_at": "2026-02-23T19:17:26.167469",
+  "enriched_at": "2026-02-24T02:35:54.985741",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
