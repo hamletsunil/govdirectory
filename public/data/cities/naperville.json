@@ -516,7 +516,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Naperville",
-        "probed_at": "2026-02-24T19:23:01.990004",
+        "probed_at": "2026-02-25T02:41:50.101290",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -860,16 +860,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-02-24",
-      "body": "Board of Fire and Police",
-      "location": "Meeting Room C",
-      "has_agenda": true,
-      "agenda_url": "https://naperville.legistar1.com/naperville/meetings/2026/2/3753_A_Board_of_Fire_and_Police_26-02-24_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-02-26",
       "body": "Historic Preservation Commission",
       "location": "Meeting Room C",
@@ -878,6 +868,16 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": true
+    },
+    {
+      "date": "2026-02-24",
+      "body": "Board of Fire and Police",
+      "location": "Meeting Room C",
+      "has_agenda": true,
+      "agenda_url": "https://naperville.legistar1.com/naperville/meetings/2026/2/3753_A_Board_of_Fire_and_Police_26-02-24_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     },
     {
       "date": "2026-02-19",
@@ -941,6 +941,16 @@
     },
     {
       "date": "2026-02-05",
+      "body": "Transportation Advisory Board",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://naperville.legistar1.com/naperville/meetings/2026/2/3691_A_Transportation_Advisory_Board_26-02-05_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-05",
       "body": "Liquor Commission",
       "location": "Council Chambers",
       "has_agenda": true,
@@ -956,26 +966,6 @@
       "has_agenda": true,
       "agenda_url": "https://naperville.legistar1.com/naperville/meetings/2026/2/3612_A_Advisory_Commission_on_Disabilities_26-02-05_Meeting_Agenda.pdf",
       "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-05",
-      "body": "Transportation Advisory Board",
-      "location": "Council Chambers",
-      "has_agenda": true,
-      "agenda_url": "https://naperville.legistar1.com/naperville/meetings/2026/2/3691_A_Transportation_Advisory_Board_26-02-05_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-04",
-      "body": "Planning and Zoning Commission",
-      "location": "Council Chambers",
-      "has_agenda": true,
-      "agenda_url": "https://naperville.legistar1.com/naperville/meetings/2026/2/3708_A_Planning_and_Zoning_Commission_26-02-04_Meeting_Agenda.pdf",
-      "has_minutes": true,
       "has_video": false,
       "upcoming": false
     }
@@ -1063,7 +1053,7 @@
     }
   ],
   "legistar_url": "https://naperville.legistar.com",
-  "enriched_at": "2026-02-24T19:16:46.406775",
+  "enriched_at": "2026-02-25T02:37:57.098810",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

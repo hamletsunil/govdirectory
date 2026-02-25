@@ -509,7 +509,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Hercules",
-        "probed_at": "2026-02-24T19:24:02.659192",
+        "probed_at": "2026-02-25T02:43:05.092330",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -809,16 +809,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-02-24",
-      "body": "City Council",
-      "location": null,
-      "has_agenda": true,
-      "agenda_url": "https://hercules.legistar1.com/hercules/meetings/2026/2/1833_A_City_Council_26-02-24_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-03-02",
       "body": "Planning Commission",
       "location": null,
@@ -827,6 +817,16 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": true
+    },
+    {
+      "date": "2026-02-24",
+      "body": "City Council",
+      "location": null,
+      "has_agenda": true,
+      "agenda_url": "https://hercules.legistar1.com/hercules/meetings/2026/2/1833_A_City_Council_26-02-24_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     },
     {
       "date": "2026-02-18",
@@ -982,7 +982,7 @@
     }
   ],
   "legistar_url": "https://hercules.legistar.com",
-  "enriched_at": "2026-02-24T19:14:20.746871",
+  "enriched_at": "2026-02-25T02:37:22.555483",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

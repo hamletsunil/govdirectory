@@ -353,7 +353,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Blount%20County",
-        "probed_at": "2026-02-24T19:24:29.606725",
+        "probed_at": "2026-02-25T02:43:38.397838",
         "data_vintage": "BRFSS None",
         "geographic_level": "place",
         "status": "unavailable"
@@ -881,16 +881,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-02-24",
-      "body": "Animal Center Advisory Board",
-      "location": "Blount County Animal Center",
-      "has_agenda": true,
-      "agenda_url": "https://blounttn.legistar1.com/blounttn/meetings/2026/2/2177_A_Animal_Center_Advisory_Board_26-02-24_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-02-26",
       "body": "Planning Commission",
       "location": "Blount County Courthouse, Room 430",
@@ -899,6 +889,16 @@
       "has_minutes": false,
       "has_video": true,
       "upcoming": true
+    },
+    {
+      "date": "2026-02-24",
+      "body": "Animal Center Advisory Board",
+      "location": "Blount County Animal Center",
+      "has_agenda": true,
+      "agenda_url": "https://blounttn.legistar1.com/blounttn/meetings/2026/2/2177_A_Animal_Center_Advisory_Board_26-02-24_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     },
     {
       "date": "2026-02-19",
@@ -922,16 +922,6 @@
     },
     {
       "date": "2026-02-12",
-      "body": "Commission Workshop",
-      "location": "Blount County Courthouse, Room 430",
-      "has_agenda": true,
-      "agenda_url": "https://blounttn.legistar1.com/blounttn/meetings/2026/2/2175_A_Commission_Workshop__26-02-12_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": true,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-12",
       "body": "Board of Commissioners",
       "location": "Blount County Courthouse, Room 430",
       "has_agenda": true,
@@ -947,6 +937,16 @@
       "has_agenda": true,
       "agenda_url": "https://blounttn.legistar1.com/blounttn/meetings/2026/2/2174_A_Budget_Committee_26-02-12_Agenda.pdf",
       "has_minutes": true,
+      "has_video": true,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-12",
+      "body": "Commission Workshop",
+      "location": "Blount County Courthouse, Room 430",
+      "has_agenda": true,
+      "agenda_url": "https://blounttn.legistar1.com/blounttn/meetings/2026/2/2175_A_Commission_Workshop__26-02-12_Agenda.pdf",
+      "has_minutes": false,
       "has_video": true,
       "upcoming": false
     },
@@ -1064,7 +1064,7 @@
     }
   ],
   "legistar_url": "https://blounttn.legistar.com",
-  "enriched_at": "2026-02-24T19:09:54.099976",
+  "enriched_at": "2026-02-25T02:36:20.672388",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

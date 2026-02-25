@@ -512,7 +512,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Lake%20Havasu%20City",
-        "probed_at": "2026-02-24T19:23:44.173340",
+        "probed_at": "2026-02-25T02:42:42.695643",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -824,16 +824,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-02-24",
-      "body": "City Council",
-      "location": "Council Chambers",
-      "has_agenda": true,
-      "agenda_url": "https://legistar1.granicus.com/lakehavasucity/meetings/2026/2/2274_A_City_Council_26-02-24_Regular_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-02-25",
       "body": "Board of Adjustment",
       "location": null,
@@ -872,6 +862,16 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": true
+    },
+    {
+      "date": "2026-02-24",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/lakehavasucity/meetings/2026/2/2274_A_City_Council_26-02-24_Regular_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     },
     {
       "date": "2026-02-23",
@@ -1037,7 +1037,7 @@
     }
   ],
   "legistar_url": "https://lakehavasucity.legistar.com",
-  "enriched_at": "2026-02-24T19:15:05.867549",
+  "enriched_at": "2026-02-25T02:37:33.100208",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

@@ -565,7 +565,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Jonesboro",
-        "probed_at": "2026-02-24T19:23:29.695800",
+        "probed_at": "2026-02-25T02:42:24.863897",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -983,23 +983,33 @@
   "recent_meetings": [
     {
       "date": "2026-02-24",
-      "body": "Metropolitan Area Planning Commission",
-      "location": "Municipal Center, 300 S. Church",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
-      "date": "2026-02-24",
       "body": "Finance & Administration Council Committee",
       "location": "Municipal Center, 300 S. Church",
       "has_agenda": false,
       "agenda_url": null,
       "has_minutes": false,
       "has_video": false,
-      "upcoming": true
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-24",
+      "body": "Metropolitan Area Planning Commission",
+      "location": "Municipal Center, 300 S. Church",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "Public Safety Council Committee",
+      "location": "Municipal Center, 300 S. Church",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/Jonesboro/meetings/2026/2/3872_A_Public_Safety_Council_Committee_26-02-17_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     },
     {
       "date": "2026-02-17",
@@ -1023,30 +1033,10 @@
     },
     {
       "date": "2026-02-17",
-      "body": "Public Safety Council Committee",
-      "location": "Municipal Center, 300 S. Church",
-      "has_agenda": true,
-      "agenda_url": "https://legistar.granicus.com/Jonesboro/meetings/2026/2/3872_A_Public_Safety_Council_Committee_26-02-17_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-17",
       "body": "Board of Zoning Adjustments",
       "location": "Municipal Center, 300 S. Church",
       "has_agenda": true,
       "agenda_url": "https://legistar.granicus.com/Jonesboro/meetings/2026/2/3882_A_Board_of_Zoning_Adjustments_26-02-17_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-10",
-      "body": "Metropolitan Area Planning Commission",
-      "location": "Municipal Center, 300 S. Church",
-      "has_agenda": true,
-      "agenda_url": "https://legistar.granicus.com/Jonesboro/meetings/2026/2/3880_A_Metropolitan_Area_Planning_Commission_26-02-10_Meeting_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -1062,12 +1052,12 @@
       "upcoming": false
     },
     {
-      "date": "2026-02-03",
-      "body": "City Council",
+      "date": "2026-02-10",
+      "body": "Metropolitan Area Planning Commission",
       "location": "Municipal Center, 300 S. Church",
       "has_agenda": true,
-      "agenda_url": "https://legistar.granicus.com/Jonesboro/meetings/2026/2/3869_A_City_Council_26-02-03_Council_Agenda.pdf",
-      "has_minutes": true,
+      "agenda_url": "https://legistar.granicus.com/Jonesboro/meetings/2026/2/3880_A_Metropolitan_Area_Planning_Commission_26-02-10_Meeting_Agenda.pdf",
+      "has_minutes": false,
       "has_video": false,
       "upcoming": false
     },
@@ -1083,21 +1073,11 @@
     },
     {
       "date": "2026-02-03",
-      "body": "Public Services Council Committee",
-      "location": "First Community Bank, 630 Southwest Drive",
-      "has_agenda": true,
-      "agenda_url": "https://legistar.granicus.com/Jonesboro/meetings/2026/2/3890_A_Public_Services_Council_Committee_26-02-03_Meeting_Agenda.pdf",
-      "has_minutes": true,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-01-27",
-      "body": "Finance & Administration Council Committee",
+      "body": "City Council",
       "location": "Municipal Center, 300 S. Church",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/Jonesboro/meetings/2026/2/3869_A_City_Council_26-02-03_Council_Agenda.pdf",
+      "has_minutes": true,
       "has_video": false,
       "upcoming": false
     }
@@ -1185,7 +1165,7 @@
     }
   ],
   "legistar_url": "https://jonesboro.legistar.com",
-  "enriched_at": "2026-02-24T19:14:49.736274",
+  "enriched_at": "2026-02-25T02:37:29.136157",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

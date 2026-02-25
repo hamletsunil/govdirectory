@@ -550,7 +550,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Hayward",
-        "probed_at": "2026-02-24T19:22:55.389383",
+        "probed_at": "2026-02-25T02:41:41.865463",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -868,26 +868,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-02-24",
-      "body": "City Council",
-      "location": "Council Chambers",
-      "has_agenda": true,
-      "agenda_url": "https://hayward.legistar1.com/hayward/meetings/2026/2/4485_A_City_Council_26-02-24_Revised_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
-      "date": "2026-02-24",
-      "body": "City Council",
-      "location": "Conference Room 2A",
-      "has_agenda": true,
-      "agenda_url": "https://hayward.legistar1.com/hayward/meetings/2026/2/4499_A_City_Council_26-02-24_Closed_Session_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-02-25",
       "body": "Council Infrastructure & Airport Committee",
       "location": "Hybrid/Conference Room 2A",
@@ -916,6 +896,26 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": true
+    },
+    {
+      "date": "2026-02-24",
+      "body": "City Council",
+      "location": "Conference Room 2A",
+      "has_agenda": true,
+      "agenda_url": "https://hayward.legistar1.com/hayward/meetings/2026/2/4499_A_City_Council_26-02-24_Closed_Session_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-24",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://hayward.legistar1.com/hayward/meetings/2026/2/4485_A_City_Council_26-02-24_Revised_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     },
     {
       "date": "2026-02-18",
@@ -980,16 +980,6 @@
     {
       "date": "2026-02-03",
       "body": "City Council",
-      "location": "Conference Room 2A",
-      "has_agenda": true,
-      "agenda_url": "https://hayward.legistar1.com/hayward/meetings/2026/2/4487_A_City_Council_26-02-03_Closed_Session_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-03",
-      "body": "City Council",
       "location": "Council Chambers",
       "has_agenda": true,
       "agenda_url": "https://hayward.legistar1.com/hayward/meetings/2026/2/4474_A_City_Council_26-02-03_Agenda.pdf",
@@ -998,21 +988,11 @@
       "upcoming": false
     },
     {
-      "date": "2026-02-02",
-      "body": "Council Economic Development Committee",
-      "location": "Conference Room 2A and Virtual Platform (Zoom)",
+      "date": "2026-02-03",
+      "body": "City Council",
+      "location": "Conference Room 2A",
       "has_agenda": true,
-      "agenda_url": "https://hayward.legistar1.com/hayward/meetings/2026/2/4478_A_Council_Economic_Development_Committee_26-02-02_Agenda.pdf",
-      "has_minutes": true,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-01-28",
-      "body": "Council Public Safety Committee",
-      "location": "Conference Room 2A & Virtual Participation (Zoom)",
-      "has_agenda": true,
-      "agenda_url": "https://hayward.legistar1.com/hayward/meetings/2026/1/4476_A_Council_Public_Safety_Committee_26-01-28_Agenda.pdf",
+      "agenda_url": "https://hayward.legistar1.com/hayward/meetings/2026/2/4487_A_City_Council_26-02-03_Closed_Session_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -1101,7 +1081,7 @@
     }
   ],
   "legistar_url": "https://hayward.legistar.com",
-  "enriched_at": "2026-02-24T19:14:15.836734",
+  "enriched_at": "2026-02-25T02:37:21.482005",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

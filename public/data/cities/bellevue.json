@@ -510,7 +510,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Bellevue",
-        "probed_at": "2026-02-24T19:22:59.862719",
+        "probed_at": "2026-02-25T02:41:47.227846",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -779,16 +779,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-02-24",
-      "body": "City Council Regular Meeting",
-      "location": "Council Chambers (1E-126)",
-      "has_agenda": true,
-      "agenda_url": "https://legistar2.granicus.com/bellevue/meetings/2026/2/2870_A_City_Council_Regular_Meeting_26-02-24_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-02-25",
       "body": "Planning Commission",
       "location": "Room 1E-113",
@@ -807,6 +797,16 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": true
+    },
+    {
+      "date": "2026-02-24",
+      "body": "City Council Regular Meeting",
+      "location": "Council Chambers (1E-126)",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/bellevue/meetings/2026/2/2870_A_City_Council_Regular_Meeting_26-02-24_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     },
     {
       "date": "2026-02-23",
@@ -897,16 +897,6 @@
       "has_minutes": true,
       "has_video": false,
       "upcoming": false
-    },
-    {
-      "date": "2026-01-28",
-      "body": "Planning Commission",
-      "location": "Room 1E-113",
-      "has_agenda": true,
-      "agenda_url": "https://legistar2.granicus.com/bellevue/meetings/2026/1/2931_A_Planning_Commission_26-01-28_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
     }
   ],
   "recent_legislation": [
@@ -992,7 +982,7 @@
     }
   ],
   "legistar_url": "https://bellevue.legistar.com",
-  "enriched_at": "2026-02-24T19:09:48.935722",
+  "enriched_at": "2026-02-25T02:36:19.450972",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

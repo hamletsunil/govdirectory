@@ -505,7 +505,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Keller",
-        "probed_at": "2026-02-24T19:23:48.447178",
+        "probed_at": "2026-02-25T02:42:48.046165",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -838,16 +838,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-02-24",
-      "body": "Planning & Zoning Commission",
-      "location": "Keller Town Hall",
-      "has_agenda": true,
-      "agenda_url": "https://cityofkeller.legistar1.com/cityofkeller/meetings/2026/2/2449_A_Planning___Zoning_Commission_26-02-24_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-02-25",
       "body": "Animal Shelter Advisory Committee",
       "location": "Keller Animal Adoption Center, Conference Room, 330 Rufe Snow Drive, Keller, Texas 76248",
@@ -856,6 +846,16 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": true
+    },
+    {
+      "date": "2026-02-24",
+      "body": "Planning & Zoning Commission",
+      "location": "Keller Town Hall",
+      "has_agenda": true,
+      "agenda_url": "https://cityofkeller.legistar1.com/cityofkeller/meetings/2026/2/2449_A_Planning___Zoning_Commission_26-02-24_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     },
     {
       "date": "2026-02-17",
@@ -909,20 +909,20 @@
     },
     {
       "date": "2026-02-02",
-      "body": "Economic Development Board",
-      "location": "Keller Town Hall",
+      "body": "Library Board",
+      "location": "Keller Public Library",
       "has_agenda": true,
-      "agenda_url": "https://cityofkeller.legistar1.com/cityofkeller/meetings/2026/2/2548_A_Economic_Development_Board_26-02-02_Agenda.pdf",
+      "agenda_url": "https://cityofkeller.legistar1.com/cityofkeller/meetings/2026/2/2447_A_Library_Board_26-02-02_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
     },
     {
       "date": "2026-02-02",
-      "body": "Library Board",
-      "location": "Keller Public Library",
+      "body": "Economic Development Board",
+      "location": "Keller Town Hall",
       "has_agenda": true,
-      "agenda_url": "https://cityofkeller.legistar1.com/cityofkeller/meetings/2026/2/2447_A_Library_Board_26-02-02_Agenda.pdf",
+      "agenda_url": "https://cityofkeller.legistar1.com/cityofkeller/meetings/2026/2/2548_A_Economic_Development_Board_26-02-02_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -1031,7 +1031,7 @@
     }
   ],
   "legistar_url": "https://cityofkeller.legistar.com",
-  "enriched_at": "2026-02-24T19:11:36.335279",
+  "enriched_at": "2026-02-25T02:36:43.810492",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

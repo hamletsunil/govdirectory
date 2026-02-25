@@ -578,7 +578,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Roundrock",
-        "probed_at": "2026-02-24T19:23:09.956337",
+        "probed_at": "2026-02-25T02:42:00.470492",
         "data_vintage": "BRFSS None",
         "geographic_level": "place",
         "status": "unavailable"
@@ -900,16 +900,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-02-24",
-      "body": "City Council - Packet Briefing",
-      "location": "City Council Chambers, 221 East Main St.",
-      "has_agenda": true,
-      "agenda_url": "https://legistar.granicus.com/RoundRock/meetings/2026/2/3397_A_City_Council_-_Packet_Briefing_26-02-24_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-02-26",
       "body": "City Council",
       "location": "City Council Chambers, 221 East Main St.",
@@ -918,6 +908,16 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": true
+    },
+    {
+      "date": "2026-02-24",
+      "body": "City Council - Packet Briefing",
+      "location": "City Council Chambers, 221 East Main St.",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/RoundRock/meetings/2026/2/3397_A_City_Council_-_Packet_Briefing_26-02-24_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     },
     {
       "date": "2026-02-18",
@@ -1093,7 +1093,7 @@
     }
   ],
   "legistar_url": "https://roundrock.legistar.com",
-  "enriched_at": "2026-02-24T19:18:58.530462",
+  "enriched_at": "2026-02-25T02:38:28.623938",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

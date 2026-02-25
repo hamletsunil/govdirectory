@@ -352,7 +352,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Mendocino%20County",
-        "probed_at": "2026-02-24T19:24:47.561741",
+        "probed_at": "2026-02-25T02:44:00.305653",
         "data_vintage": "BRFSS None",
         "geographic_level": "place",
         "status": "unavailable"
@@ -652,16 +652,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-02-24",
-      "body": "Board of Supervisors",
-      "location": "Board Chambers, Room 1070\r\nCounty Administration Center",
-      "has_agenda": true,
-      "agenda_url": "https://mendocino.legistar1.com/mendocino/meetings/2026/2/1636_A_Board_of_Supervisors_26-02-24_BOARD_OF_SUPERVISORS_AGENDA.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-02-25",
       "body": "General Government Committee",
       "location": "Board Chambers, Room 1070, County Administration Center",
@@ -670,6 +660,16 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": true
+    },
+    {
+      "date": "2026-02-24",
+      "body": "Board of Supervisors",
+      "location": "Board Chambers, Room 1070\r\nCounty Administration Center",
+      "has_agenda": true,
+      "agenda_url": "https://mendocino.legistar1.com/mendocino/meetings/2026/2/1636_A_Board_of_Supervisors_26-02-24_BOARD_OF_SUPERVISORS_AGENDA.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     },
     {
       "date": "2026-02-04",
@@ -785,7 +785,7 @@
     }
   ],
   "legistar_url": "https://mendocino.legistar.com",
-  "enriched_at": "2026-02-24T19:16:07.584357",
+  "enriched_at": "2026-02-25T02:37:47.858098",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

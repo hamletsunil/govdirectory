@@ -422,7 +422,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Los%20Alamos",
-        "probed_at": "2026-02-24T19:24:44.799461",
+        "probed_at": "2026-02-25T02:43:56.875789",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -799,16 +799,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-02-24",
-      "body": "Personnel Board",
-      "location": "1000 Central Avenue, Suite 110",
-      "has_agenda": true,
-      "agenda_url": "https://legistar.granicus.com/LosAlamos/meetings/2026/2/6055_A_Personnel_Board_26-02-24_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-02-25",
       "body": "Planning and Zoning Commission",
       "location": "Council Chambers\r\n1000 Central Avenue",
@@ -839,6 +829,16 @@
       "upcoming": true
     },
     {
+      "date": "2026-02-24",
+      "body": "Personnel Board",
+      "location": "1000 Central Avenue, Suite 110",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/LosAlamos/meetings/2026/2/6055_A_Personnel_Board_26-02-24_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
       "date": "2026-02-19",
       "body": "Environmental Sustainability Board",
       "location": "1000 Central Avenue - Council Chambers & Zoom",
@@ -850,21 +850,21 @@
     },
     {
       "date": "2026-02-18",
-      "body": "Board of Public Utilities",
-      "location": "Municipal Building, Council Chambers",
-      "has_agenda": true,
-      "agenda_url": "https://legistar.granicus.com/LosAlamos/meetings/2026/2/6005_A_Board_of_Public_Utilities_26-02-18_Agenda.pdf",
-      "has_minutes": true,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-18",
       "body": "Inclusivity Task Force",
       "location": "1000 Central Avenue - Council Chambers",
       "has_agenda": true,
       "agenda_url": "https://legistar.granicus.com/LosAlamos/meetings/2026/2/6094_A_Inclusivity_Task_Force_26-02-18_Agenda.pdf",
       "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-18",
+      "body": "Board of Public Utilities",
+      "location": "Municipal Building, Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/LosAlamos/meetings/2026/2/6005_A_Board_of_Public_Utilities_26-02-18_Agenda.pdf",
+      "has_minutes": true,
       "has_video": false,
       "upcoming": false
     },
@@ -900,16 +900,6 @@
     },
     {
       "date": "2026-02-11",
-      "body": "Personnel Board",
-      "location": "1000 Central Avenue, Suite 110",
-      "has_agenda": true,
-      "agenda_url": "https://legistar.granicus.com/LosAlamos/meetings/2026/2/6191_A_Personnel_Board_26-02-11_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-11",
       "body": "Planning and Zoning Commission",
       "location": "Council Chambers\r\n1000 Central Avenue",
       "has_agenda": true,
@@ -929,11 +919,11 @@
       "upcoming": false
     },
     {
-      "date": "2026-02-10",
-      "body": "County Council - Work Session",
-      "location": "Fire Station No. 3\r\n129 State Road 4 - White Rock",
+      "date": "2026-02-11",
+      "body": "Personnel Board",
+      "location": "1000 Central Avenue, Suite 110",
       "has_agenda": true,
-      "agenda_url": "https://legistar.granicus.com/LosAlamos/meetings/2026/2/6096_A_County_Council_-_Work_Session_26-02-10_Agenda.pdf",
+      "agenda_url": "https://legistar.granicus.com/LosAlamos/meetings/2026/2/6191_A_Personnel_Board_26-02-11_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -1022,7 +1012,7 @@
     }
   ],
   "legistar_url": "https://losalamos.legistar.com",
-  "enriched_at": "2026-02-24T19:15:28.732868",
+  "enriched_at": "2026-02-25T02:37:38.445532",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
