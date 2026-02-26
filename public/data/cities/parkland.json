@@ -358,7 +358,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Parkland",
-        "probed_at": "2026-02-25T19:24:50.919264",
+        "probed_at": "2026-02-26T02:41:54.582535",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -700,16 +700,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-02-25",
-      "body": "Council",
-      "location": "Council Chambers",
-      "has_agenda": true,
-      "agenda_url": "https://legistar1.granicus.com/Parkland/meetings/2026/2/1937_A_Council_26-02-25_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-02-26",
       "body": "Council",
       "location": "Council Chambers",
@@ -728,6 +718,16 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": true
+    },
+    {
+      "date": "2026-02-25",
+      "body": "Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/Parkland/meetings/2026/2/1937_A_Council_26-02-25_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     },
     {
       "date": "2026-02-24",
@@ -818,16 +818,6 @@
       "has_minutes": true,
       "has_video": false,
       "upcoming": false
-    },
-    {
-      "date": "2026-02-02",
-      "body": "Council",
-      "location": "Council Chambers",
-      "has_agenda": true,
-      "agenda_url": "https://legistar1.granicus.com/Parkland/meetings/2026/2/1979_A_Council_26-02-02_Meeting_Agenda.pdf",
-      "has_minutes": true,
-      "has_video": false,
-      "upcoming": false
     }
   ],
   "recent_legislation": [
@@ -913,7 +903,7 @@
     }
   ],
   "legistar_url": "https://parkland.legistar.com",
-  "enriched_at": "2026-02-25T19:18:00.660302",
+  "enriched_at": "2026-02-26T02:35:32.235307",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

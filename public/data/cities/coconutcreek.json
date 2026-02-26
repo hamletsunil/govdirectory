@@ -564,7 +564,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Coconut%20Creek",
-        "probed_at": "2026-02-25T19:23:18.523221",
+        "probed_at": "2026-02-26T02:40:23.905790",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -879,16 +879,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-02-25",
-      "body": "Special Magistrate Administrative Hearing",
-      "location": "Coconut Creek Government Center - Commission Chambers",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-02-26",
       "body": "City Commission",
       "location": "Coconut Creek Government Center - Commission Chambers",
@@ -907,6 +897,16 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": true
+    },
+    {
+      "date": "2026-02-25",
+      "body": "Special Magistrate Administrative Hearing",
+      "location": "Coconut Creek Government Center - Commission Chambers",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     },
     {
       "date": "2026-02-20",
@@ -940,20 +940,20 @@
     },
     {
       "date": "2026-02-12",
-      "body": "Development Review Committee",
-      "location": "Coconut Creek Government Center",
-      "has_agenda": false,
-      "agenda_url": null,
+      "body": "City Commission",
+      "location": "Coconut Creek Government Center - Commission Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://coconutcreek.legistar1.com/coconutcreek/meetings/2026/2/4867_A_City_Commission_26-02-12_Meeting_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
     },
     {
       "date": "2026-02-12",
-      "body": "City Commission",
-      "location": "Coconut Creek Government Center - Commission Chambers",
-      "has_agenda": true,
-      "agenda_url": "https://coconutcreek.legistar1.com/coconutcreek/meetings/2026/2/4867_A_City_Commission_26-02-12_Meeting_Agenda.pdf",
+      "body": "Development Review Committee",
+      "location": "Coconut Creek Government Center",
+      "has_agenda": false,
+      "agenda_url": null,
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -994,16 +994,6 @@
       "location": "Coconut Creek Community Center\r\n1100 Lyons Road, Coconut Creek",
       "has_agenda": true,
       "agenda_url": "https://coconutcreek.legistar1.com/coconutcreek/meetings/2026/2/4887_A_Lunch_Bunch_26-02-02_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-01",
-      "body": "Public Notice",
-      "location": null,
-      "has_agenda": false,
-      "agenda_url": null,
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -1092,7 +1082,7 @@
     }
   ],
   "legistar_url": "https://coconutcreek.legistar.com",
-  "enriched_at": "2026-02-25T19:14:23.223772",
+  "enriched_at": "2026-02-26T02:33:13.428496",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

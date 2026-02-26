@@ -220,28 +220,28 @@
     "accela_agency_id": null
   },
   "development": {
-    "permits_12mo": 7349,
-    "yoy_trend_pct": 5.5,
+    "permits_12mo": 7374,
+    "yoy_trend_pct": 6.0,
     "avg_permit_value": null,
     "permit_types": {
-      "Building Permit": 1888,
-      "Electrical Permit": 1762,
-      "Plumbing Permit": 657,
+      "Building Permit": 1890,
+      "Electrical Permit": 1780,
+      "Plumbing Permit": 663,
       "Food Establishment": 495,
-      "Gas Fitting": 437,
+      "Gas Fitting": 442,
       "Dumpster": 323,
       "Certificate of Inspection": 301,
-      "Temporary Food": 291,
+      "Temporary Food": 289,
       "Sheet Metal Permit": 207,
-      "Dumpster (Located on Street) Permit": 197,
-      "Certificate of Occupancy": 166,
+      "Dumpster (Located on Street) Permit": 195,
+      "Certificate of Occupancy": 164,
       "Business License": 111,
       "Farmers Market": 102,
       "Public Event License": 97,
       "Block Party": 80
     },
     "datasets_count": 1,
-    "permits_per_capita_1k": 91.33
+    "permits_per_capita_1k": 91.64
   },
   "meetings": {
     "official_channels": 1,
@@ -627,8 +627,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.somervillema.gov/resource/nneb-s3f7.json",
-        "probed_at": "2026-02-25T19:21:08.514512",
-        "data_vintage": "Rolling 12-month window ending 2026-02-25",
+        "probed_at": "2026-02-26T02:37:57.339771",
+        "data_vintage": "Rolling 12-month window ending 2026-02-26",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Applications for Permits and Licenses",
@@ -674,7 +674,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Somerville",
-        "probed_at": "2026-02-25T19:22:58.998837",
+        "probed_at": "2026-02-26T02:40:04.219148",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -1081,16 +1081,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-02-25",
-      "body": "Licenses and Permits Committee",
-      "location": "Virtual",
-      "has_agenda": true,
-      "agenda_url": "https://somervillema.legistar1.com/somervillema/meetings/2026/2/3981_A_Licenses_and_Permits_Committee_26-02-25_Regular_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-03-04",
       "body": "Housing, Community Development and Equity Committee",
       "location": "Committee Room and Remote Participation",
@@ -1109,6 +1099,16 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": true
+    },
+    {
+      "date": "2026-02-25",
+      "body": "Licenses and Permits Committee",
+      "location": "Virtual",
+      "has_agenda": true,
+      "agenda_url": "https://somervillema.legistar1.com/somervillema/meetings/2026/2/3981_A_Licenses_and_Permits_Committee_26-02-25_Regular_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     },
     {
       "date": "2026-02-24",
@@ -1199,16 +1199,6 @@
       "has_minutes": true,
       "has_video": false,
       "upcoming": false
-    },
-    {
-      "date": "2026-02-02",
-      "body": "Confirmation of Appointments and Personnel Matters Committee",
-      "location": "Virtual",
-      "has_agenda": true,
-      "agenda_url": "https://somervillema.legistar1.com/somervillema/meetings/2026/2/3973_A_Confirmation_of_Appointments_and_Personnel_Matters_Committee_26-02-02_Regular_Meeting_Agenda.pdf",
-      "has_minutes": true,
-      "has_video": false,
-      "upcoming": false
     }
   ],
   "recent_legislation": [
@@ -1294,7 +1284,7 @@
     }
   ],
   "legistar_url": "https://somervillema.legistar.com",
-  "enriched_at": "2026-02-25T19:19:05.073507",
+  "enriched_at": "2026-02-26T02:36:07.109458",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

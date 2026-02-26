@@ -511,7 +511,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Hesperia",
-        "probed_at": "2026-02-25T19:22:44.235679",
+        "probed_at": "2026-02-26T02:39:50.172243",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -850,16 +850,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-02-25",
-      "body": "Development Review Committee",
-      "location": "Joshua Conference Room",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-03-05",
       "body": "City Council Advisory",
       "location": "Council Chambers",
@@ -868,6 +858,16 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": true
+    },
+    {
+      "date": "2026-02-25",
+      "body": "Development Review Committee",
+      "location": "Joshua Conference Room",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     },
     {
       "date": "2026-02-17",
@@ -1013,7 +1013,7 @@
     }
   ],
   "legistar_url": "https://hesperia.legistar.com",
-  "enriched_at": "2026-02-25T19:16:02.202315",
+  "enriched_at": "2026-02-26T02:34:18.222860",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

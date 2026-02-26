@@ -510,7 +510,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Bellevue",
-        "probed_at": "2026-02-25T19:22:22.153935",
+        "probed_at": "2026-02-26T02:39:27.658314",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -779,16 +779,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-02-25",
-      "body": "Planning Commission",
-      "location": "Room 1E-113",
-      "has_agenda": true,
-      "agenda_url": "https://legistar2.granicus.com/bellevue/meetings/2026/2/2933_A_Planning_Commission_26-02-25_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-03-12",
       "body": "Transportation Commission",
       "location": "Room 1E-113",
@@ -797,6 +787,16 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": true
+    },
+    {
+      "date": "2026-02-25",
+      "body": "Planning Commission",
+      "location": "Room 1E-113",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/bellevue/meetings/2026/2/2933_A_Planning_Commission_26-02-25_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     },
     {
       "date": "2026-02-24",
@@ -887,16 +887,6 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
-    },
-    {
-      "date": "2026-02-02",
-      "body": "Human Services Commission",
-      "location": "Room 1E-113",
-      "has_agenda": true,
-      "agenda_url": "https://legistar2.granicus.com/bellevue/meetings/2026/2/2923_A_Human_Services_Commission_26-02-02_Meeting_Agenda.pdf",
-      "has_minutes": true,
-      "has_video": false,
-      "upcoming": false
     }
   ],
   "recent_legislation": [
@@ -982,7 +972,7 @@
     }
   ],
   "legistar_url": "https://bellevue.legistar.com",
-  "enriched_at": "2026-02-25T19:12:59.395664",
+  "enriched_at": "2026-02-26T02:32:17.421406",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

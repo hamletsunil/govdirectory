@@ -560,7 +560,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Manhattan%20Beach",
-        "probed_at": "2026-02-25T19:23:33.155661",
+        "probed_at": "2026-02-26T02:40:39.178171",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -880,16 +880,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-02-25",
-      "body": "Planning Commission Regular Meeting",
-      "location": "City Council Chambers and Zoom",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-02-26",
       "body": "Parking and Public Improvements Commission",
       "location": "City Council Chambers and Zoom",
@@ -898,6 +888,16 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": true
+    },
+    {
+      "date": "2026-02-25",
+      "body": "Planning Commission Regular Meeting",
+      "location": "City Council Chambers and Zoom",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     },
     {
       "date": "2026-02-24",
@@ -911,20 +911,20 @@
     },
     {
       "date": "2026-02-23",
-      "body": "Parks and Recreation Commission",
+      "body": "City Council Adjourned Regular Meeting",
       "location": "City Council Chambers and Zoom",
-      "has_agenda": false,
-      "agenda_url": null,
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/ManhattanBeach/meetings/2026/2/2268_A_City_Council_Adjourned_Regular_Meeting_26-02-23_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
     },
     {
       "date": "2026-02-23",
-      "body": "City Council Adjourned Regular Meeting",
+      "body": "Parks and Recreation Commission",
       "location": "City Council Chambers and Zoom",
-      "has_agenda": true,
-      "agenda_url": "https://legistar.granicus.com/ManhattanBeach/meetings/2026/2/2268_A_City_Council_Adjourned_Regular_Meeting_26-02-23_Agenda.pdf",
+      "has_agenda": false,
+      "agenda_url": null,
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -985,16 +985,6 @@
       "location": "City Council Chambers and Zoom",
       "has_agenda": true,
       "agenda_url": "https://legistar.granicus.com/ManhattanBeach/meetings/2026/1/2253_A_City_Council_Adjourned_Regular_Meeting_26-01-27_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-01-26",
-      "body": "Parks and Recreation Commission",
-      "location": "City Council Chambers and Zoom",
-      "has_agenda": false,
-      "agenda_url": null,
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -1083,7 +1073,7 @@
     }
   ],
   "legistar_url": "https://manhattanbeach.legistar.com",
-  "enriched_at": "2026-02-25T19:16:53.036994",
+  "enriched_at": "2026-02-26T02:34:50.222782",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

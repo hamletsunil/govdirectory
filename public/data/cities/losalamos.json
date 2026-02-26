@@ -422,7 +422,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Los%20Alamos",
-        "probed_at": "2026-02-25T19:24:39.945384",
+        "probed_at": "2026-02-26T02:41:44.692335",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -799,16 +799,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-02-25",
-      "body": "Planning and Zoning Commission",
-      "location": "Council Chambers\r\n1000 Central Avenue",
-      "has_agenda": true,
-      "agenda_url": "https://legistar.granicus.com/LosAlamos/meetings/2026/2/6088_A_Planning_and_Zoning_Commission__26-02-25_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-02-26",
       "body": "Arts in Public Places Advisory Board",
       "location": "1000 Central Avenue, Suite 110, Los Alamos, NM  87544\r\nZoom (see agenda for the link)",
@@ -827,6 +817,16 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": true
+    },
+    {
+      "date": "2026-02-25",
+      "body": "Planning and Zoning Commission",
+      "location": "Council Chambers\r\n1000 Central Avenue",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/LosAlamos/meetings/2026/2/6088_A_Planning_and_Zoning_Commission__26-02-25_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     },
     {
       "date": "2026-02-24",
@@ -850,21 +850,21 @@
     },
     {
       "date": "2026-02-18",
-      "body": "Inclusivity Task Force",
-      "location": "1000 Central Avenue - Council Chambers",
-      "has_agenda": true,
-      "agenda_url": "https://legistar.granicus.com/LosAlamos/meetings/2026/2/6094_A_Inclusivity_Task_Force_26-02-18_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-18",
       "body": "Board of Public Utilities",
       "location": "Municipal Building, Council Chambers",
       "has_agenda": true,
       "agenda_url": "https://legistar.granicus.com/LosAlamos/meetings/2026/2/6005_A_Board_of_Public_Utilities_26-02-18_Agenda.pdf",
       "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-18",
+      "body": "Inclusivity Task Force",
+      "location": "1000 Central Avenue - Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/LosAlamos/meetings/2026/2/6094_A_Inclusivity_Task_Force_26-02-18_Agenda.pdf",
+      "has_minutes": false,
       "has_video": false,
       "upcoming": false
     },
@@ -914,16 +914,6 @@
       "location": "1000 Central Avenue, Suite 110",
       "has_agenda": true,
       "agenda_url": "https://legistar.granicus.com/LosAlamos/meetings/2026/2/6135_A_Personnel_Board_26-02-11_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-11",
-      "body": "Personnel Board",
-      "location": "1000 Central Avenue, Suite 110",
-      "has_agenda": true,
-      "agenda_url": "https://legistar.granicus.com/LosAlamos/meetings/2026/2/6191_A_Personnel_Board_26-02-11_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -1012,7 +1002,7 @@
     }
   ],
   "legistar_url": "https://losalamos.legistar.com",
-  "enriched_at": "2026-02-25T19:16:47.255236",
+  "enriched_at": "2026-02-26T02:34:47.466269",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

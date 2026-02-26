@@ -169,17 +169,17 @@
     "accela_agency_id": "SEATTLE"
   },
   "development": {
-    "permits_12mo": 6348,
-    "yoy_trend_pct": 9.0,
-    "avg_permit_value": 1121919.12,
+    "permits_12mo": 6352,
+    "yoy_trend_pct": 9.2,
+    "avg_permit_value": 1124378.97,
     "permit_types": {
       "Building": 5357,
-      "Demolition": 537,
-      "Roof": 429,
+      "Demolition": 542,
+      "Roof": 428,
       "Grading": 25
     },
     "datasets_count": 10,
-    "permits_per_capita_1k": 8.64
+    "permits_per_capita_1k": 8.65
   },
   "meetings": {
     "official_channels": 1,
@@ -474,8 +474,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.seattle.gov/resource/76t5-zqzr.json",
-        "probed_at": "2026-02-25T19:20:08.118280",
-        "data_vintage": "Rolling 12-month window ending 2026-02-25",
+        "probed_at": "2026-02-26T02:36:54.179301",
+        "data_vintage": "Rolling 12-month window ending 2026-02-26",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -521,7 +521,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Seattle",
-        "probed_at": "2026-02-25T19:21:30.656848",
+        "probed_at": "2026-02-26T02:38:40.770127",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -926,7 +926,7 @@
       "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6600_A_Housing%2C_Arts%2C_and_Civil_Rights_Committee_26-02-25_Committee_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
-      "upcoming": true
+      "upcoming": false
     },
     {
       "date": "2026-02-24",
@@ -990,21 +990,21 @@
     },
     {
       "date": "2026-02-18",
-      "body": "Land Use and Sustainability Committee",
-      "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA 98104",
-      "has_agenda": true,
-      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6588_A_Land_Use_and_Sustainability_Committee_26-02-18_Committee_Agenda.pdf",
-      "has_minutes": true,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-18",
       "body": "Parks and City Light Committee",
       "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA 98104",
       "has_agenda": true,
       "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6583_A_Parks_and_City_Light_Committee_26-02-18_Committee_Agenda.pdf",
       "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-18",
+      "body": "Land Use and Sustainability Committee",
+      "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA 98104",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6588_A_Land_Use_and_Sustainability_Committee_26-02-18_Committee_Agenda.pdf",
+      "has_minutes": true,
       "has_video": false,
       "upcoming": false
     },
@@ -1015,16 +1015,6 @@
       "has_agenda": true,
       "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6589_A_Finance%2C_Native_Communities%2C_and_Tribal_Governments_Committee_26-02-17_Committee_Agenda.pdf",
       "has_minutes": true,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-17",
-      "body": "City Council",
-      "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA 98104",
-      "has_agenda": true,
-      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6592_A_City_Council_26-02-17_Full_Council_Meeting_Agenda.pdf",
-      "has_minutes": false,
       "has_video": false,
       "upcoming": false
     }
@@ -1112,7 +1102,7 @@
     }
   ],
   "legistar_url": "https://seattle.legistar.com",
-  "enriched_at": "2026-02-25T19:19:00.530870",
+  "enriched_at": "2026-02-26T02:36:06.194430",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

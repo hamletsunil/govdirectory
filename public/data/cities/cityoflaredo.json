@@ -517,7 +517,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Laredo",
-        "probed_at": "2026-02-25T19:21:58.876915",
+        "probed_at": "2026-02-26T02:39:06.032362",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -869,16 +869,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-02-25",
-      "body": "Library Advisory Committee",
-      "location": "Laredo Public Library \r\n1120 E. Calton Rd",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-02-26",
       "body": "City Council",
       "location": "City Council Chambers",
@@ -909,6 +899,16 @@
       "upcoming": true
     },
     {
+      "date": "2026-02-25",
+      "body": "Library Advisory Committee",
+      "location": "Laredo Public Library \r\n1120 E. Calton Rd",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
       "date": "2026-02-18",
       "body": "Planning & Zoning Commission",
       "location": "City of Laredo City Hall \r\nFirst Floor Conference Room\r\n1110 Houston Street\r\nLaredo, Texas 78040",
@@ -920,20 +920,20 @@
     },
     {
       "date": "2026-02-17",
-      "body": "City Council - Supplemental Agenda",
+      "body": "City Council",
       "location": "City Council Chambers",
-      "has_agenda": false,
-      "agenda_url": null,
+      "has_agenda": true,
+      "agenda_url": "https://cityoflaredo.legistar1.com/cityoflaredo/meetings/2026/2/1321_A_City_Council_26-02-17_Regular_Meeting_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
     },
     {
       "date": "2026-02-17",
-      "body": "City Council",
+      "body": "City Council - Supplemental Agenda",
       "location": "City Council Chambers",
-      "has_agenda": true,
-      "agenda_url": "https://cityoflaredo.legistar1.com/cityoflaredo/meetings/2026/2/1321_A_City_Council_26-02-17_Regular_Meeting_Agenda.pdf",
+      "has_agenda": false,
+      "agenda_url": null,
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -1072,7 +1072,7 @@
     }
   ],
   "legistar_url": "https://cityoflaredo.legistar.com",
-  "enriched_at": "2026-02-25T19:14:00.168939",
+  "enriched_at": "2026-02-26T02:32:57.145216",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
