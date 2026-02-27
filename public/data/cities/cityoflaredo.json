@@ -517,7 +517,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Laredo",
-        "probed_at": "2026-02-26T19:14:51.333364",
+        "probed_at": "2026-02-27T02:38:02.598498",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -869,16 +869,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-02-26",
-      "body": "City Council",
-      "location": "City Council Chambers",
-      "has_agenda": true,
-      "agenda_url": "https://cityoflaredo.legistar1.com/cityoflaredo/meetings/2026/2/1394_A_City_Council_26-02-26_Special_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-03-02",
       "body": "City Council",
       "location": "City Council Chambers",
@@ -897,6 +887,16 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": true
+    },
+    {
+      "date": "2026-02-26",
+      "body": "City Council",
+      "location": "City Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://cityoflaredo.legistar1.com/cityoflaredo/meetings/2026/2/1394_A_City_Council_26-02-26_Special_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     },
     {
       "date": "2026-02-25",
@@ -975,16 +975,6 @@
       "has_agenda": true,
       "agenda_url": "https://cityoflaredo.legistar1.com/cityoflaredo/meetings/2026/2/1320_A_City_Council_26-02-02_Regular_Meeting_Agenda.pdf",
       "has_minutes": true,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-01-27",
-      "body": "Downtown Business Improvement District",
-      "location": "First Floor Conference Room",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
       "has_video": false,
       "upcoming": false
     }
@@ -1072,7 +1062,7 @@
     }
   ],
   "legistar_url": "https://cityoflaredo.legistar.com",
-  "enriched_at": "2026-02-26T19:02:02.528343",
+  "enriched_at": "2026-02-27T02:31:53.018516",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

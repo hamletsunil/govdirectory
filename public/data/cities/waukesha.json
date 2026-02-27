@@ -587,7 +587,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Waukesha",
-        "probed_at": "2026-02-26T19:16:13.209825",
+        "probed_at": "2026-02-27T02:40:06.096876",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -1043,6 +1043,16 @@
     },
     {
       "date": "2026-02-19",
+      "body": "Board of Public Works",
+      "location": "Council Chambers, City Hall",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/waukesha/meetings/2026/2/13261_A_Board_of_Public_Works_26-02-19_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-19",
       "body": "Waukesha Water Commission",
       "location": "Water Utility Conference Room\r\n115 Delafield St. Waukesha, Wi 53188",
       "has_agenda": true,
@@ -1057,16 +1067,6 @@
       "location": "Council Chambers, City Hall",
       "has_agenda": true,
       "agenda_url": "https://legistar2.granicus.com/waukesha/meetings/2026/2/13335_A_City_Council_26-02-19_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-19",
-      "body": "Board of Public Works",
-      "location": "Council Chambers, City Hall",
-      "has_agenda": true,
-      "agenda_url": "https://legistar2.granicus.com/waukesha/meetings/2026/2/13261_A_Board_of_Public_Works_26-02-19_Meeting_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -1205,7 +1205,7 @@
     }
   ],
   "legistar_url": "https://waukesha.legistar.com",
-  "enriched_at": "2026-02-26T19:12:46.228810",
+  "enriched_at": "2026-02-27T02:35:39.030174",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

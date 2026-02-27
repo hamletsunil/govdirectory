@@ -169,17 +169,17 @@
     "accela_agency_id": "SEATTLE"
   },
   "development": {
-    "permits_12mo": 6352,
-    "yoy_trend_pct": 9.2,
-    "avg_permit_value": 1124378.97,
+    "permits_12mo": 6329,
+    "yoy_trend_pct": 8.9,
+    "avg_permit_value": 1123952.07,
     "permit_types": {
-      "Building": 5357,
-      "Demolition": 542,
-      "Roof": 428,
+      "Building": 5338,
+      "Demolition": 539,
+      "Roof": 427,
       "Grading": 25
     },
     "datasets_count": 10,
-    "permits_per_capita_1k": 8.65
+    "permits_per_capita_1k": 8.62
   },
   "meetings": {
     "official_channels": 1,
@@ -474,8 +474,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.seattle.gov/resource/76t5-zqzr.json",
-        "probed_at": "2026-02-26T19:13:28.296040",
-        "data_vintage": "Rolling 12-month window ending 2026-02-26",
+        "probed_at": "2026-02-27T02:36:16.363985",
+        "data_vintage": "Rolling 12-month window ending 2026-02-27",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -521,7 +521,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Seattle",
-        "probed_at": "2026-02-26T19:14:33.925652",
+        "probed_at": "2026-02-27T02:37:36.530168",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -930,20 +930,20 @@
     },
     {
       "date": "2026-02-24",
-      "body": "Public Safety Committee",
-      "location": "Council Chamber, City Hall \r\n600 4th Avenue \r\nSeattle, WA  98104",
+      "body": "City Council",
+      "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA 98104",
       "has_agenda": true,
-      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6597_A_Public_Safety_Committee_26-02-24_Committee_Agenda.pdf",
+      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6598_A_City_Council_26-02-24_Full_Council_Meeting_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
     },
     {
       "date": "2026-02-24",
-      "body": "City Council",
-      "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA 98104",
+      "body": "Public Safety Committee",
+      "location": "Council Chamber, City Hall \r\n600 4th Avenue \r\nSeattle, WA  98104",
       "has_agenda": true,
-      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6598_A_City_Council_26-02-24_Full_Council_Meeting_Agenda.pdf",
+      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6597_A_Public_Safety_Committee_26-02-24_Committee_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -1102,7 +1102,7 @@
     }
   ],
   "legistar_url": "https://seattle.legistar.com",
-  "enriched_at": "2026-02-26T19:11:53.990480",
+  "enriched_at": "2026-02-27T02:35:26.196632",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

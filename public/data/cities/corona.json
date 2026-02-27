@@ -190,17 +190,17 @@
     "accela_agency_id": null
   },
   "development": {
-    "permits_12mo": 4100,
-    "yoy_trend_pct": -5.6,
+    "permits_12mo": 4078,
+    "yoy_trend_pct": -6.1,
     "avg_permit_value": null,
-    "permits_per_capita_1k": 25.89,
+    "permits_per_capita_1k": 25.75,
     "permit_types": {
-      "ELECTRICAL RESIDENTIAL": 1023,
-      "PLUMBING": 461,
+      "ELECTRICAL RESIDENTIAL": 1017,
+      "PLUMBING": 459,
       "REROOF": 353,
-      "MECHANICAL RESIDENTIAL": 340,
+      "MECHANICAL RESIDENTIAL": 339,
       "FENCE WALL PERMITS": 288,
-      "OVERHEAD FIRE SPRINKLERS": 183,
+      "OVERHEAD FIRE SPRINKLERS": 182,
       "SYMBIUM SOLAR": 177,
       "COMMERCIAL ALTERATION": 122,
       "BUILDING RESIDENTIAL": 120,
@@ -208,7 +208,7 @@
       "SINGLE FAMILY ALTERATION": 99,
       "PATIO AND BALCONY RESIDENTIAL": 93,
       "BUILDING SIGN PERMIT": 84,
-      "SINGLE FAMILY ADU": 82,
+      "SINGLE FAMILY ADU": 80,
       "POOL": 73
     },
     "datasets_count": 10
@@ -525,8 +525,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://corstat.coronaca.gov/resource/2agx-camz.json",
-        "probed_at": "2026-02-26T19:13:57.786593",
-        "data_vintage": "Rolling 12-month window ending 2026-02-26",
+        "probed_at": "2026-02-27T02:36:55.834027",
+        "data_vintage": "Rolling 12-month window ending 2026-02-27",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "CorStat - Building Permits",
@@ -572,7 +572,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Corona",
-        "probed_at": "2026-02-26T19:15:02.770297",
+        "probed_at": "2026-02-27T02:38:20.069581",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -873,7 +873,7 @@
   "recent_meetings": [],
   "recent_legislation": [],
   "legistar_url": "https://corona.legistar.com",
-  "enriched_at": "2026-02-26T19:03:28.727361",
+  "enriched_at": "2026-02-27T02:32:32.541458",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

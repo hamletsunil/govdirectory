@@ -550,7 +550,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Hayward",
-        "probed_at": "2026-02-26T19:15:02.133719",
+        "probed_at": "2026-02-27T02:38:19.140209",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -869,23 +869,23 @@
   "recent_meetings": [
     {
       "date": "2026-02-26",
-      "body": "Clean and Green Commission",
-      "location": "Conference Room 2A",
-      "has_agenda": true,
-      "agenda_url": "https://hayward.legistar1.com/hayward/meetings/2026/2/4439_A_Clean_and_Green_Commission_26-02-26_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
-      "date": "2026-02-26",
       "body": "Planning Commission",
       "location": "Council Chambers & Virtual Platform (Zoom)",
       "has_agenda": true,
       "agenda_url": "https://hayward.legistar1.com/hayward/meetings/2026/2/4498_A_Planning_Commission_26-02-26_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
-      "upcoming": true
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-26",
+      "body": "Clean and Green Commission",
+      "location": "Conference Room 2A",
+      "has_agenda": true,
+      "agenda_url": "https://hayward.legistar1.com/hayward/meetings/2026/2/4439_A_Clean_and_Green_Commission_26-02-26_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     },
     {
       "date": "2026-02-25",
@@ -930,20 +930,20 @@
     {
       "date": "2026-02-17",
       "body": "City Council",
-      "location": "Council Chambers",
+      "location": "Conference Room 2A",
       "has_agenda": true,
-      "agenda_url": "https://hayward.legistar1.com/hayward/meetings/2026/2/4484_A_City_Council_26-02-17_Agenda.pdf",
-      "has_minutes": true,
+      "agenda_url": "https://hayward.legistar1.com/hayward/meetings/2026/2/4496_A_City_Council_26-02-17_Closed_Session_Agenda.pdf",
+      "has_minutes": false,
       "has_video": false,
       "upcoming": false
     },
     {
       "date": "2026-02-17",
       "body": "City Council",
-      "location": "Conference Room 2A",
+      "location": "Council Chambers",
       "has_agenda": true,
-      "agenda_url": "https://hayward.legistar1.com/hayward/meetings/2026/2/4496_A_City_Council_26-02-17_Closed_Session_Agenda.pdf",
-      "has_minutes": false,
+      "agenda_url": "https://hayward.legistar1.com/hayward/meetings/2026/2/4484_A_City_Council_26-02-17_Agenda.pdf",
+      "has_minutes": true,
       "has_video": false,
       "upcoming": false
     },
@@ -963,26 +963,6 @@
       "location": "Conference Room 2A",
       "has_agenda": true,
       "agenda_url": "https://hayward.legistar1.com/hayward/meetings/2026/2/4491_A_Hayward_Youth_Commission_26-02-09_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-05",
-      "body": "Council Infrastructure & Airport Committee",
-      "location": "Hybrid/Conference Room 2A",
-      "has_agenda": true,
-      "agenda_url": "https://hayward.legistar1.com/hayward/meetings/2026/2/4488_A_Council_Infrastructure___Airport_Committee_26-02-05_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-03",
-      "body": "City Council",
-      "location": "Conference Room 2A",
-      "has_agenda": true,
-      "agenda_url": "https://hayward.legistar1.com/hayward/meetings/2026/2/4487_A_City_Council_26-02-03_Closed_Session_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -1071,7 +1051,7 @@
     }
   ],
   "legistar_url": "https://hayward.legistar.com",
-  "enriched_at": "2026-02-26T19:05:29.614289",
+  "enriched_at": "2026-02-27T02:33:20.093874",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
