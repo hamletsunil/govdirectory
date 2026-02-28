@@ -401,7 +401,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Orland%20Park",
-        "probed_at": "2026-02-27T19:06:23.590443",
+        "probed_at": "2026-02-28T02:40:10.249126",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -701,6 +701,16 @@
     },
     {
       "date": "2026-02-16",
+      "body": "Committee of the Whole",
+      "location": "Village Hall",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/OrlandPark/meetings/2026/2/9027_A_Committee_of_the_Whole_26-02-16_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-16",
       "body": "Senior Citizen Advisory Board",
       "location": "Village Hall Board Room",
       "has_agenda": true,
@@ -715,16 +725,6 @@
       "location": "Village Hall",
       "has_agenda": true,
       "agenda_url": "https://legistar.granicus.com/OrlandPark/meetings/2026/2/9028_A_Board_of_Trustees_26-02-16_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-16",
-      "body": "Committee of the Whole",
-      "location": "Village Hall",
-      "has_agenda": true,
-      "agenda_url": "https://legistar.granicus.com/OrlandPark/meetings/2026/2/9027_A_Committee_of_the_Whole_26-02-16_Meeting_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -853,7 +853,7 @@
     }
   ],
   "legistar_url": "https://orlandpark.legistar.com",
-  "enriched_at": "2026-02-27T18:59:35.938982",
+  "enriched_at": "2026-02-28T02:32:01.517146",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

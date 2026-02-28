@@ -532,7 +532,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Toledo",
-        "probed_at": "2026-02-27T19:04:23.320032",
+        "probed_at": "2026-02-28T02:38:01.804560",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -1039,20 +1039,20 @@
     },
     {
       "date": "2026-02-17",
-      "body": "City Council",
-      "location": "Council Chambers",
-      "has_agenda": true,
-      "agenda_url": "https://legistar2.granicus.com/toledo/meetings/2026/2/4008_A_City_Council_26-02-17_Formal_Agenda.pdf",
+      "body": "SPECIAL RECORDED CONTENT",
+      "location": "City Council Chambers",
+      "has_agenda": false,
+      "agenda_url": null,
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
     },
     {
       "date": "2026-02-17",
-      "body": "SPECIAL RECORDED CONTENT",
-      "location": "City Council Chambers",
-      "has_agenda": false,
-      "agenda_url": null,
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/toledo/meetings/2026/2/4008_A_City_Council_26-02-17_Formal_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -1161,7 +1161,7 @@
     }
   ],
   "legistar_url": "https://toledo.legistar.com",
-  "enriched_at": "2026-02-27T19:01:36.858333",
+  "enriched_at": "2026-02-28T02:35:05.367673",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

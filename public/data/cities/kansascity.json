@@ -116,25 +116,25 @@
     "accela_agency_id": "KANSAS"
   },
   "development": {
-    "permits_12mo": 3747,
-    "yoy_trend_pct": -79.9,
-    "avg_permit_value": 200910.74,
+    "permits_12mo": 3665,
+    "yoy_trend_pct": -80.4,
+    "avg_permit_value": 204258.76,
     "permit_types": {
-      "Electrical General": 837,
-      "Plumbing General": 534,
-      "Mechanical General": 476,
+      "Electrical General": 827,
+      "Plumbing General": 521,
+      "Mechanical General": 465,
       "Certificate of Occupancy (Residential)": 199,
-      "Electrical with Service": 175,
-      "Single Family - Interior Remodel": 160,
-      "Install/Replace Water Heater": 122,
-      "Other": 121,
-      "Single Family - New": 104,
+      "Electrical with Service": 171,
+      "Single Family - Interior Remodel": 154,
+      "Other": 120,
+      "Install/Replace Water Heater": 115,
       "Renovation": 103,
-      "Plumbing with Limited Service": 81,
-      "Security Alarms": 75,
-      "Electrical Fire Alarm Commercial": 67,
-      "Fire Protection System": 65,
-      "Wall Sign / Projecting Sign": 64
+      "Single Family - New": 103,
+      "Plumbing with Limited Service": 79,
+      "Security Alarms": 68,
+      "Electrical Fire Alarm Commercial": 66,
+      "Fire Protection System": 63,
+      "Wall Sign / Projecting Sign": 60
     },
     "datasets_count": 1
   },
@@ -292,8 +292,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.kcmo.org/resource/ntw8-aacc.json",
-        "probed_at": "2026-02-27T19:03:34.351498",
-        "data_vintage": "Rolling 12-month window ending 2026-02-27",
+        "probed_at": "2026-02-28T02:37:16.590445",
+        "data_vintage": "Rolling 12-month window ending 2026-02-28",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Permits - CPD Dataset",
@@ -758,16 +758,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-02-27",
-      "body": "Firefighters Pension System Board of Trustees",
-      "location": "Century Towers, Suite 2106 (Conference Room B), located at 635 Woodland Ave and via Microsoft Teams.",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-03-02",
       "body": "Public Budget Hearings",
       "location": "Guadalupe Community Center (1015 Avenida Cesar E Chavez, KCMO 64108)",
@@ -858,6 +848,16 @@
       "upcoming": true
     },
     {
+      "date": "2026-02-27",
+      "body": "Firefighters Pension System Board of Trustees",
+      "location": "Century Towers, Suite 2106 (Conference Room B), located at 635 Woodland Ave and via Microsoft Teams.",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
       "date": "2026-02-26",
       "body": "Finance, Governance and Public Safety Committee",
       "location": "26th Floor, Council Chamber",
@@ -879,6 +879,16 @@
     },
     {
       "date": "2026-02-25",
+      "body": "Finance, Governance and Public Safety Committee",
+      "location": "26th Floor, Council Chamber",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-25",
       "body": "Employee Retirement System Board of Trustees",
       "location": "Finance Department, Large Conference Room, located on the 3rd Floor and North side of City Hall and virtually via Microsoft Teams.",
       "has_agenda": false,
@@ -888,9 +898,9 @@
       "upcoming": false
     },
     {
-      "date": "2026-02-25",
-      "body": "Finance, Governance and Public Safety Committee",
-      "location": "26th Floor, Council Chamber",
+      "date": "2026-02-24",
+      "body": "Board of Police Commissioners",
+      "location": "1125 Locust Street",
       "has_agenda": false,
       "agenda_url": null,
       "has_minutes": false,
@@ -909,26 +919,6 @@
     },
     {
       "date": "2026-02-24",
-      "body": "Central City Economic Development Sales Tax Board",
-      "location": "https://us06web.zoom.us/j/81345598809?pwd=EZoOYWweYp7Oye2nOyBHaKe05Dt41R.1",
-      "has_agenda": true,
-      "agenda_url": "https://kansascity.legistar1.com/kansascity/meetings/2026/2/19011_A_Central_City_Economic_Development_Sales_Tax_Board_26-02-24_Agenda_-_Committees.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-24",
-      "body": "Board of Police Commissioners",
-      "location": "1125 Locust Street",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-24",
       "body": "Neighborhood Planning and Development Committee",
       "location": "26th Floor, Council Chamber",
       "has_agenda": true,
@@ -938,19 +928,19 @@
       "upcoming": false
     },
     {
-      "date": "2026-02-23",
-      "body": "Public Budget Hearings",
-      "location": "Ruskin High School (7000 E 111th St, KCMO 64134)",
-      "has_agenda": false,
-      "agenda_url": null,
+      "date": "2026-02-24",
+      "body": "Central City Economic Development Sales Tax Board",
+      "location": "https://us06web.zoom.us/j/81345598809?pwd=EZoOYWweYp7Oye2nOyBHaKe05Dt41R.1",
+      "has_agenda": true,
+      "agenda_url": "https://kansascity.legistar1.com/kansascity/meetings/2026/2/19011_A_Central_City_Economic_Development_Sales_Tax_Board_26-02-24_Agenda_-_Committees.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
     },
     {
       "date": "2026-02-23",
-      "body": "Housing Trust Fund Board",
-      "location": "Virtual",
+      "body": "Public Budget Hearings",
+      "location": "Ruskin High School (7000 E 111th St, KCMO 64134)",
       "has_agenda": false,
       "agenda_url": null,
       "has_minutes": false,
@@ -1041,7 +1031,7 @@
     }
   ],
   "legistar_url": "https://kansascity.legistar.com",
-  "enriched_at": "2026-02-27T18:57:15.224315",
+  "enriched_at": "2026-02-28T02:28:19.133450",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

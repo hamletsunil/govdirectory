@@ -210,16 +210,16 @@
     "accela_agency_id": "E_CHICAGO"
   },
   "development": {
-    "permits_12mo": 31650,
+    "permits_12mo": 31594,
     "yoy_trend_pct": -2.9,
-    "avg_permit_value": 325376.94,
-    "permits_per_capita_1k": 11.63,
+    "avg_permit_value": 325863.99,
+    "permits_per_capita_1k": 11.61,
     "permit_types": {
-      "PERMIT – EXPRESS PERMIT PROGRAM": 20174,
+      "PERMIT – EXPRESS PERMIT PROGRAM": 20132,
       "PERMIT - RENOVATION/ALTERATION": 5446,
       "PERMIT - SIGNS": 2359,
       "PERMIT - NEW CONSTRUCTION": 1454,
-      "PERMIT - ELEVATOR EQUIPMENT": 1091,
+      "PERMIT - ELEVATOR EQUIPMENT": 1077,
       "PERMIT - WRECKING/DEMOLITION": 675,
       "PERMIT - REINSTATE REVOKED PMT": 448,
       "PERMIT - EASY PERMIT PROCESS": 3
@@ -636,8 +636,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.cityofchicago.org/resource/ydr8-5enu.json",
-        "probed_at": "2026-02-27T19:02:17.140827",
-        "data_vintage": "Rolling 12-month window ending 2026-02-27",
+        "probed_at": "2026-02-28T02:36:15.118042",
+        "data_vintage": "Rolling 12-month window ending 2026-02-28",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -683,7 +683,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Chicago",
-        "probed_at": "2026-02-27T19:04:00.144454",
+        "probed_at": "2026-02-28T02:37:38.802691",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -1586,7 +1586,7 @@
   "recent_meetings": [],
   "recent_legislation": [],
   "legistar_url": "https://chicago.legistar.com",
-  "enriched_at": "2026-02-27T18:53:53.227958",
+  "enriched_at": "2026-02-28T02:22:42.250906",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
