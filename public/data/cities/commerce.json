@@ -80,20 +80,20 @@
     "rent_burden_ratio": 24.3,
     "cost_burdened_pct": 43.63,
     "severely_burdened_pct": 15.75,
-    "total_housing_units": 2660,
-    "occupied_housing_units": 2577,
-    "vacant_housing_units": 83,
-    "vacancy_rate": 3.12,
-    "occupancy_rate": 96.88,
-    "data_year": "2023",
+    "total_housing_units": 2610,
+    "occupied_housing_units": 2451,
+    "vacant_housing_units": 159,
+    "vacancy_rate": 6.09,
+    "occupancy_rate": 93.91,
+    "data_year": "2022",
     "vacancy_source": "Census ACS 5-Year",
-    "vacant_for_rent": 0,
+    "vacant_for_rent": 51,
     "vacant_rented_not_occupied": 0,
     "vacant_for_sale": 0,
     "vacant_sold_not_occupied": 28,
     "vacant_seasonal": 0,
     "vacant_migrant_workers": 0,
-    "vacant_other": 55
+    "vacant_other": 80
   },
   "health": {
     "uninsured_pct": 15.4,
@@ -523,7 +523,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Commerce",
-        "probed_at": "2026-02-28T18:54:44.319189",
+        "probed_at": "2026-03-01T02:54:27.090779",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -1048,22 +1048,6 @@
       "passed_date": null
     },
     {
-      "title": "February 3rd 2026 Meeting Minutes",
-      "type": "Minutes",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-17",
-      "file_number": "Min 26-042",
-      "passed_date": null
-    },
-    {
-      "title": "Waste/Compost Program, Urban Forestry",
-      "type": "Presentation",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-17",
-      "file_number": "Pres 26-242",
-      "passed_date": null
-    },
-    {
       "title": "Community Garden Update and MiniCon Tabling",
       "type": "Presentation",
       "status": "Agenda Ready",
@@ -1077,6 +1061,22 @@
       "status": "Agenda Ready",
       "intro_date": "2026-02-17",
       "file_number": "Min 26-043",
+      "passed_date": null
+    },
+    {
+      "title": "Waste/Compost Program, Urban Forestry",
+      "type": "Presentation",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-17",
+      "file_number": "Pres 26-242",
+      "passed_date": null
+    },
+    {
+      "title": "February 3rd 2026 Meeting Minutes",
+      "type": "Minutes",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-17",
+      "file_number": "Min 26-042",
       "passed_date": null
     },
     {
@@ -1104,16 +1104,16 @@
       "passed_date": null
     },
     {
-      "title": "Bylaws Update_Feb 2026",
-      "type": "Administrative Business",
-      "status": "Agenda Ready",
+      "title": "DRB25-0001: The applicant requests Derby Review Board approval for window replacement and $3,350 of Catalyst Funds located at 6525 East 72nd Place, Commerce City, CO 80022.",
+      "type": "Presentation",
+      "status": "Recommended by Board or Commission",
       "intro_date": "2026-02-09",
-      "file_number": "26-035",
+      "file_number": "Pres 26-213",
       "passed_date": null
     }
   ],
   "legistar_url": "https://commerce.legistar.com",
-  "enriched_at": "2026-02-28T18:42:53.342400",
+  "enriched_at": "2026-03-01T02:46:28.748959",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

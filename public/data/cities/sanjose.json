@@ -504,7 +504,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=San%20Jose",
-        "probed_at": "2026-02-28T18:53:00.569768",
+        "probed_at": "2026-03-01T02:51:50.454955",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -773,16 +773,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-02-28",
-      "body": "Youth Commission",
-      "location": "Dr. Martin Luther King, Jr. Library - Room 225, 150 San Fernando Street",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-03-03",
       "body": "City Council",
       "location": "Council Chambers",
@@ -823,6 +813,16 @@
       "upcoming": true
     },
     {
+      "date": "2026-02-28",
+      "body": "Youth Commission",
+      "location": "Dr. Martin Luther King, Jr. Library - Room 225, 150 San Fernando Street",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
       "date": "2026-02-26",
       "body": "Appeals Hearing Board",
       "location": "City Hall Tower, 3rd Floor, Room T-332",
@@ -854,6 +854,26 @@
     },
     {
       "date": "2026-02-25",
+      "body": "San Jose Arena Authority",
+      "location": "1500 South Tenth Street",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-25",
+      "body": "Joint Meeting for the Rules and Open Government Committee and Committee of the Whole",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/sanjose/meetings/2026/2/7636_A_Joint_Meeting_for_the_Rules_and_Open_Government_Committee_and_Committee_of_the_Whole_26-02-25_Administrative_Draft.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-25",
       "body": "Planning Commission",
       "location": "City Hall Wing, Rooms W118-W120",
       "has_agenda": false,
@@ -873,36 +893,6 @@
       "upcoming": false
     },
     {
-      "date": "2026-02-25",
-      "body": "Joint Meeting for the Rules and Open Government Committee and Committee of the Whole",
-      "location": "Council Chambers",
-      "has_agenda": true,
-      "agenda_url": "https://legistar.granicus.com/sanjose/meetings/2026/2/7636_A_Joint_Meeting_for_the_Rules_and_Open_Government_Committee_and_Committee_of_the_Whole_26-02-25_Administrative_Draft.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-25",
-      "body": "San Jose Arena Authority",
-      "location": "1500 South Tenth Street",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-24",
-      "body": "City Council",
-      "location": "Council Chambers",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
       "date": "2026-02-24",
       "body": "City Council",
       "location": "Council Chambers",
@@ -913,9 +903,9 @@
       "upcoming": false
     },
     {
-      "date": "2026-02-23",
-      "body": "Bicycle Pedestrian Advisory Committee",
-      "location": "City Hall Tower, 17th Floor, Room T-1734",
+      "date": "2026-02-24",
+      "body": "City Council",
+      "location": "Council Chambers",
       "has_agenda": false,
       "agenda_url": null,
       "has_minutes": false,
@@ -1006,7 +996,7 @@
     }
   ],
   "legistar_url": "https://sanjose.legistar.com",
-  "enriched_at": "2026-02-28T18:50:21.427264",
+  "enriched_at": "2026-03-01T02:49:12.987669",
   "government_news": [],
   "video_meetings": [
     {

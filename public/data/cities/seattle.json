@@ -169,17 +169,17 @@
     "accela_agency_id": "SEATTLE"
   },
   "development": {
-    "permits_12mo": 6314,
-    "yoy_trend_pct": 8.6,
-    "avg_permit_value": 1126441.41,
+    "permits_12mo": 6331,
+    "yoy_trend_pct": 8.8,
+    "avg_permit_value": 1123954.95,
     "permit_types": {
-      "Building": 5325,
+      "Building": 5340,
       "Demolition": 538,
-      "Roof": 426,
+      "Roof": 428,
       "Grading": 25
     },
     "datasets_count": 10,
-    "permits_per_capita_1k": 8.6
+    "permits_per_capita_1k": 8.62
   },
   "meetings": {
     "official_channels": 1,
@@ -474,8 +474,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.seattle.gov/resource/76t5-zqzr.json",
-        "probed_at": "2026-02-28T18:51:58.045130",
-        "data_vintage": "Rolling 12-month window ending 2026-02-28",
+        "probed_at": "2026-03-01T02:50:31.277647",
+        "data_vintage": "Rolling 12-month window ending 2026-03-01",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -521,7 +521,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Seattle",
-        "probed_at": "2026-02-28T18:53:01.844934",
+        "probed_at": "2026-03-01T02:51:52.461115",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -1077,6 +1077,14 @@
       "passed_date": null
     },
     {
+      "title": "AN ORDINANCE relating to civil immigration enforcement; prohibiting civil immigration enforcement staging on all real property that is City owned and controlled; and adding a new Chapter 14.125 to the",
+      "type": "Council Bill (CB)",
+      "status": "Committee Agenda Ready",
+      "intro_date": "2026-02-12",
+      "file_number": "CB 121164",
+      "passed_date": null
+    },
+    {
       "title": "HSD’s (Human Services Department) 2024 Provider Pay Report",
       "type": "Information Item (Inf)",
       "status": "Committee Agenda Ready",
@@ -1085,24 +1093,16 @@
       "passed_date": null
     },
     {
-      "title": "Wage Equity for Human Services Contracts",
-      "type": "Information Item (Inf)",
-      "status": "Heard in Committee",
+      "title": "State of the City address delivered by Mayor Katie B. Wilson on February 17, 2026.",
+      "type": "Clerk File (CF)",
+      "status": "Filed with City Clerk",
       "intro_date": "2026-02-12",
-      "file_number": "Inf 2837",
-      "passed_date": null
-    },
-    {
-      "title": "AN ORDINANCE relating to civil immigration enforcement; prohibiting civil immigration enforcement staging on all real property that is City owned and controlled; and adding a new Chapter 14.125 to the",
-      "type": "Council Bill (CB)",
-      "status": "Committee Agenda Ready",
-      "intro_date": "2026-02-12",
-      "file_number": "CB 121164",
-      "passed_date": null
+      "file_number": "CF 314547",
+      "passed_date": "2026-02-17"
     }
   ],
   "legistar_url": "https://seattle.legistar.com",
-  "enriched_at": "2026-02-28T18:50:36.646848",
+  "enriched_at": "2026-03-01T02:49:19.484782",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
