@@ -220,7 +220,7 @@
     "accela_agency_id": null
   },
   "development": {
-    "permits_12mo": 7320,
+    "permits_12mo": 7319,
     "yoy_trend_pct": 5.6,
     "avg_permit_value": null,
     "permit_types": {
@@ -231,7 +231,7 @@
       "Gas Fitting": 441,
       "Dumpster": 323,
       "Certificate of Inspection": 290,
-      "Temporary Food": 281,
+      "Temporary Food": 280,
       "Sheet Metal Permit": 204,
       "Dumpster (Located on Street) Permit": 194,
       "Certificate of Occupancy": 163,
@@ -241,7 +241,7 @@
       "Block Party": 80
     },
     "datasets_count": 1,
-    "permits_per_capita_1k": 90.97
+    "permits_per_capita_1k": 90.96
   },
   "meetings": {
     "official_channels": 1,
@@ -627,8 +627,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.somervillema.gov/resource/nneb-s3f7.json",
-        "probed_at": "2026-03-01T18:48:53.247888",
-        "data_vintage": "Rolling 12-month window ending 2026-03-01",
+        "probed_at": "2026-03-02T02:48:30.532362",
+        "data_vintage": "Rolling 12-month window ending 2026-03-02",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Applications for Permits and Licenses",
@@ -674,7 +674,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Somerville",
-        "probed_at": "2026-03-01T18:50:37.234012",
+        "probed_at": "2026-03-02T02:49:48.082273",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -1284,7 +1284,7 @@
     }
   ],
   "legistar_url": "https://somervillema.legistar.com",
-  "enriched_at": "2026-03-01T18:46:40.704038",
+  "enriched_at": "2026-03-02T02:46:22.697139",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

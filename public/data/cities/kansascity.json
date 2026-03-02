@@ -116,15 +116,15 @@
     "accela_agency_id": "KANSAS"
   },
   "development": {
-    "permits_12mo": 3664,
-    "yoy_trend_pct": -80.4,
-    "avg_permit_value": 204304.47,
+    "permits_12mo": 3653,
+    "yoy_trend_pct": -80.3,
+    "avg_permit_value": 204861.01,
     "permit_types": {
-      "Electrical General": 826,
+      "Electrical General": 821,
       "Plumbing General": 521,
-      "Mechanical General": 465,
+      "Mechanical General": 464,
       "Certificate of Occupancy (Residential)": 199,
-      "Electrical with Service": 171,
+      "Electrical with Service": 169,
       "Single Family - Interior Remodel": 154,
       "Other": 120,
       "Install/Replace Water Heater": 115,
@@ -132,7 +132,7 @@
       "Single Family - New": 103,
       "Plumbing with Limited Service": 79,
       "Security Alarms": 68,
-      "Electrical Fire Alarm Commercial": 66,
+      "Electrical Fire Alarm Commercial": 65,
       "Fire Protection System": 63,
       "Wall Sign / Projecting Sign": 60
     },
@@ -292,8 +292,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.kcmo.org/resource/ntw8-aacc.json",
-        "probed_at": "2026-03-01T18:49:03.120594",
-        "data_vintage": "Rolling 12-month window ending 2026-03-01",
+        "probed_at": "2026-03-02T02:48:39.022382",
+        "data_vintage": "Rolling 12-month window ending 2026-03-02",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Permits - CPD Dataset",
@@ -848,6 +848,16 @@
       "upcoming": true
     },
     {
+      "date": "2026-04-01",
+      "body": "Risk Management Committee",
+      "location": "Virtual Closed Session",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
       "date": "2026-02-27",
       "body": "Firefighters Pension System Board of Trustees",
       "location": "Century Towers, Suite 2106 (Conference Room B), located at 635 Woodland Ave and via Microsoft Teams.",
@@ -1031,7 +1041,7 @@
     }
   ],
   "legistar_url": "https://kansascity.legistar.com",
-  "enriched_at": "2026-03-01T18:43:53.910310",
+  "enriched_at": "2026-03-02T02:40:42.112998",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
