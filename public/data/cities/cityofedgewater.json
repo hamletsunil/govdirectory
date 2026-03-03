@@ -513,7 +513,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Edgewater",
-        "probed_at": "2026-03-02T19:08:56.738584",
+        "probed_at": "2026-03-03T02:48:49.586099",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -882,16 +882,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-03-02",
-      "body": "City Council",
-      "location": "Council Chambers",
-      "has_agenda": true,
-      "agenda_url": "https://cityofedgewater.legistar1.com/cityofedgewater/meetings/2026/3/2526_A_City_Council_26-03-02_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-03-03",
       "body": "Charter Review Committee",
       "location": "Council Chambers",
@@ -900,6 +890,16 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": true
+    },
+    {
+      "date": "2026-03-02",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://cityofedgewater.legistar1.com/cityofedgewater/meetings/2026/3/2526_A_City_Council_26-03-02_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     },
     {
       "date": "2026-02-19",
@@ -1026,6 +1026,14 @@
       "passed_date": null
     },
     {
+      "title": "Discussion Request by City Council regarding Blackwater Reuse",
+      "type": "Other Business Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-17",
+      "file_number": "AR-2026-0042",
+      "passed_date": null
+    },
+    {
       "title": "Wastewater Treatment Plant Flood Proofing Project",
       "type": "Consent",
       "status": "Agenda Ready",
@@ -1042,14 +1050,6 @@
       "passed_date": null
     },
     {
-      "title": "Discussion Request by City Council regarding Blackwater Reuse",
-      "type": "Other Business Item",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-17",
-      "file_number": "AR-2026-0042",
-      "passed_date": null
-    },
-    {
       "title": "RZ-2413: Request for a rezoning from Volusia County Industrial (I-1), Volusia County Agriculture (A-3), and City of Edgewater Heavy Industrial (I-2) to City of Edgewater Mixed Use Planned Unit Develop",
       "type": "Planning Item",
       "status": "Agenda Ready",
@@ -1058,24 +1058,24 @@
       "passed_date": null
     },
     {
-      "title": "Resolution 2026-R-10 Approving the Countywide Program for Public Information (PPI) for participation in the NFIP through the Community Rating System.",
-      "type": "Resolution",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-10",
-      "file_number": "2026-R-10",
-      "passed_date": null
-    },
-    {
-      "title": "Agreement with Odyssey Manufacturing for chemicals for the Water Plant and Wastewater Treatment Plant.",
+      "title": "Routine Highway Maintenance Memorandum of Agreement (MOA) between the City of Edgewater & State of Florida Department of Transportation",
       "type": "Consent",
       "status": "Agenda Ready",
       "intro_date": "2026-02-10",
-      "file_number": "AR-2026-0029",
+      "file_number": "AR-2026-0034",
+      "passed_date": null
+    },
+    {
+      "title": "Resolution 2026-R-09: Florida Inland Navigation District - Grant Proposal",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-10",
+      "file_number": "2026-R-09",
       "passed_date": null
     }
   ],
   "legistar_url": "https://cityofedgewater.legistar.com",
-  "enriched_at": "2026-03-02T18:57:34.899930",
+  "enriched_at": "2026-03-03T02:38:08.825844",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

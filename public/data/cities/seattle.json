@@ -169,17 +169,17 @@
     "accela_agency_id": "SEATTLE"
   },
   "development": {
-    "permits_12mo": 6337,
-    "yoy_trend_pct": 9.1,
-    "avg_permit_value": 1122938.1,
+    "permits_12mo": 6298,
+    "yoy_trend_pct": 8.4,
+    "avg_permit_value": 1128575.75,
     "permit_types": {
-      "Building": 5345,
-      "Demolition": 539,
-      "Roof": 428,
+      "Building": 5311,
+      "Demolition": 538,
+      "Roof": 424,
       "Grading": 25
     },
     "datasets_count": 10,
-    "permits_per_capita_1k": 8.63
+    "permits_per_capita_1k": 8.57
   },
   "meetings": {
     "official_channels": 1,
@@ -474,8 +474,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.seattle.gov/resource/76t5-zqzr.json",
-        "probed_at": "2026-03-02T19:05:07.336911",
-        "data_vintage": "Rolling 12-month window ending 2026-03-02",
+        "probed_at": "2026-03-03T02:45:24.475645",
+        "data_vintage": "Rolling 12-month window ending 2026-03-03",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -521,7 +521,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Seattle",
-        "probed_at": "2026-03-02T19:06:48.698632",
+        "probed_at": "2026-03-03T02:46:43.723051",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -1061,27 +1061,19 @@
       "passed_date": null
     },
     {
-      "title": "Seattle Center Overview",
+      "title": "Human Services Provider Roundtable Discussion",
       "type": "Information Item (Inf)",
-      "status": "Heard in Committee",
+      "status": "Committee Agenda Ready",
       "intro_date": "2026-02-12",
-      "file_number": "Inf 2835",
+      "file_number": "Inf 2841",
       "passed_date": null
     },
     {
-      "title": "State of the City address delivered by Mayor Katie B. Wilson on February 17, 2026.",
-      "type": "Clerk File (CF)",
-      "status": "Filed with City Clerk",
+      "title": "Wage Equity for Human Services Contracts",
+      "type": "Information Item (Inf)",
+      "status": "Heard in Committee",
       "intro_date": "2026-02-12",
-      "file_number": "CF 314547",
-      "passed_date": "2026-02-17"
-    },
-    {
-      "title": "AN ORDINANCE relating to civil immigration enforcement; prohibiting civil immigration enforcement staging on all real property that is City owned and controlled; and adding a new Chapter 14.125 to the",
-      "type": "Council Bill (CB)",
-      "status": "Committee Agenda Ready",
-      "intro_date": "2026-02-12",
-      "file_number": "CB 121164",
+      "file_number": "Inf 2837",
       "passed_date": null
     },
     {
@@ -1093,16 +1085,24 @@
       "passed_date": null
     },
     {
-      "title": "Human Services Provider Roundtable Discussion",
-      "type": "Information Item (Inf)",
-      "status": "Committee Agenda Ready",
+      "title": "State of the City address delivered by Mayor Katie B. Wilson on February 17, 2026.",
+      "type": "Clerk File (CF)",
+      "status": "Filed with City Clerk",
       "intro_date": "2026-02-12",
-      "file_number": "Inf 2841",
+      "file_number": "CF 314547",
+      "passed_date": "2026-02-17"
+    },
+    {
+      "title": "Transportation Funding Task Force Update",
+      "type": "Information Item (Inf)",
+      "status": "Heard in Committee",
+      "intro_date": "2026-02-12",
+      "file_number": "Inf 2836",
       "passed_date": null
     }
   ],
   "legistar_url": "https://seattle.legistar.com",
-  "enriched_at": "2026-03-02T19:03:52.879343",
+  "enriched_at": "2026-03-03T02:44:21.583366",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

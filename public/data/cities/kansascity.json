@@ -116,23 +116,23 @@
     "accela_agency_id": "KANSAS"
   },
   "development": {
-    "permits_12mo": 3653,
-    "yoy_trend_pct": -80.3,
-    "avg_permit_value": 204861.01,
+    "permits_12mo": 3555,
+    "yoy_trend_pct": -80.9,
+    "avg_permit_value": 210166.18,
     "permit_types": {
-      "Electrical General": 821,
-      "Plumbing General": 521,
-      "Mechanical General": 464,
+      "Electrical General": 803,
+      "Plumbing General": 509,
+      "Mechanical General": 421,
       "Certificate of Occupancy (Residential)": 199,
-      "Electrical with Service": 169,
-      "Single Family - Interior Remodel": 154,
+      "Electrical with Service": 157,
+      "Single Family - Interior Remodel": 153,
       "Other": 120,
-      "Install/Replace Water Heater": 115,
-      "Renovation": 103,
-      "Single Family - New": 103,
-      "Plumbing with Limited Service": 79,
+      "Install/Replace Water Heater": 114,
+      "Renovation": 102,
+      "Single Family - New": 101,
+      "Plumbing with Limited Service": 78,
       "Security Alarms": 68,
-      "Electrical Fire Alarm Commercial": 65,
+      "Electrical Fire Alarm Commercial": 64,
       "Fire Protection System": 63,
       "Wall Sign / Projecting Sign": 60
     },
@@ -292,8 +292,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.kcmo.org/resource/ntw8-aacc.json",
-        "probed_at": "2026-03-02T19:06:14.192503",
-        "data_vintage": "Rolling 12-month window ending 2026-03-02",
+        "probed_at": "2026-03-03T02:46:29.763334",
+        "data_vintage": "Rolling 12-month window ending 2026-03-03",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Permits - CPD Dataset",
@@ -758,16 +758,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-03-02",
-      "body": "Public Budget Hearings",
-      "location": "Guadalupe Community Center (1015 Avenida Cesar E Chavez, KCMO 64108)",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-03-04",
       "body": "Risk Management Committee",
       "location": "Virtual Closed Session",
@@ -858,6 +848,16 @@
       "upcoming": true
     },
     {
+      "date": "2026-03-02",
+      "body": "Public Budget Hearings",
+      "location": "Guadalupe Community Center (1015 Avenida Cesar E Chavez, KCMO 64108)",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
       "date": "2026-02-27",
       "body": "Firefighters Pension System Board of Trustees",
       "location": "Century Towers, Suite 2106 (Conference Room B), located at 635 Woodland Ave and via Microsoft Teams.",
@@ -879,8 +879,8 @@
     },
     {
       "date": "2026-02-25",
-      "body": "Board of Zoning Adjustment",
-      "location": "The hearing will by hybrid; both in-person at City Hall, \r\n414 E 12th St, 10th floor Council Committee Room\r\nKansas City, MO and virtually via Zoom. \r\nDetails can be found at https://kcmo.gov/bza.",
+      "body": "Employee Retirement System Board of Trustees",
+      "location": "Finance Department, Large Conference Room, located on the 3rd Floor and North side of City Hall and virtually via Microsoft Teams.",
       "has_agenda": false,
       "agenda_url": null,
       "has_minutes": false,
@@ -899,10 +899,20 @@
     },
     {
       "date": "2026-02-25",
-      "body": "Employee Retirement System Board of Trustees",
-      "location": "Finance Department, Large Conference Room, located on the 3rd Floor and North side of City Hall and virtually via Microsoft Teams.",
+      "body": "Board of Zoning Adjustment",
+      "location": "The hearing will by hybrid; both in-person at City Hall, \r\n414 E 12th St, 10th floor Council Committee Room\r\nKansas City, MO and virtually via Zoom. \r\nDetails can be found at https://kcmo.gov/bza.",
       "has_agenda": false,
       "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-24",
+      "body": "Neighborhood Planning and Development Committee",
+      "location": "26th Floor, Council Chamber",
+      "has_agenda": true,
+      "agenda_url": "https://kansascity.legistar1.com/kansascity/meetings/2026/2/18982_A_Neighborhood_Planning_and_Development_Committee_26-02-24_Agenda_-_Committees.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -929,30 +939,10 @@
     },
     {
       "date": "2026-02-24",
-      "body": "Neighborhood Planning and Development Committee",
-      "location": "26th Floor, Council Chamber",
-      "has_agenda": true,
-      "agenda_url": "https://kansascity.legistar1.com/kansascity/meetings/2026/2/18982_A_Neighborhood_Planning_and_Development_Committee_26-02-24_Agenda_-_Committees.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-24",
       "body": "Central City Economic Development Sales Tax Board",
       "location": "https://us06web.zoom.us/j/81345598809?pwd=EZoOYWweYp7Oye2nOyBHaKe05Dt41R.1",
       "has_agenda": true,
       "agenda_url": "https://kansascity.legistar1.com/kansascity/meetings/2026/2/19011_A_Central_City_Economic_Development_Sales_Tax_Board_26-02-24_Agenda_-_Committees.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-23",
-      "body": "Public Budget Hearings",
-      "location": "Ruskin High School (7000 E 111th St, KCMO 64134)",
-      "has_agenda": false,
-      "agenda_url": null,
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -1041,7 +1031,7 @@
     }
   ],
   "legistar_url": "https://kansascity.legistar.com",
-  "enriched_at": "2026-03-02T19:00:19.416007",
+  "enriched_at": "2026-03-03T02:40:57.189531",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
