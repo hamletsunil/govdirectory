@@ -536,7 +536,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Chino",
-        "probed_at": "2026-03-03T19:05:10.845292",
+        "probed_at": "2026-03-04T02:40:08.020504",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -856,16 +856,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-03-03",
-      "body": "City Council",
-      "location": "CITY HALL COUNCIL CHAMBERS\r\n13220 CENTRAL AVENUE\r\nCHINO, CA 91710",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-03-10",
       "body": "City Council",
       "location": "CITY HALL COUNCIL CHAMBERS\r\n13220 CENTRAL AVENUE\r\nCHINO, CA 91710",
@@ -884,6 +874,16 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": true
+    },
+    {
+      "date": "2026-03-03",
+      "body": "City Council",
+      "location": "CITY HALL COUNCIL CHAMBERS\r\n13220 CENTRAL AVENUE\r\nCHINO, CA 91710",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     },
     {
       "date": "2026-03-01",
@@ -1032,24 +1032,24 @@
       "passed_date": null
     },
     {
+      "title": "13286 Third Street Rehabilitation Project.",
+      "type": "Discussion",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-28",
+      "file_number": "26-079",
+      "passed_date": null
+    },
+    {
       "title": "Development Impact Fees for Affordable Housing.",
       "type": "Discussion",
       "status": "Agenda Ready",
       "intro_date": "2026-01-28",
       "file_number": "26-081",
       "passed_date": null
-    },
-    {
-      "title": "Infill Housing Development Program.",
-      "type": "Discussion",
-      "status": "Agenda Ready",
-      "intro_date": "2026-01-28",
-      "file_number": "26-080",
-      "passed_date": null
     }
   ],
   "legistar_url": "https://chino.legistar.com",
-  "enriched_at": "2026-03-03T18:58:31.640965",
+  "enriched_at": "2026-03-04T02:30:03.770298",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

@@ -504,7 +504,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=San%20Jose",
-        "probed_at": "2026-03-03T19:03:46.327773",
+        "probed_at": "2026-03-04T02:38:54.598857",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -773,16 +773,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-03-03",
-      "body": "City Council",
-      "location": "Council Chambers",
-      "has_agenda": true,
-      "agenda_url": "https://legistar.granicus.com/sanjose/meetings/2026/3/7611_A_City_Council_26-03-03_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-03-04",
       "body": "Downtown Parking Board",
       "location": "City Hall Tower, 8th Floor, Room T-847",
@@ -813,6 +803,16 @@
       "upcoming": true
     },
     {
+      "date": "2026-03-03",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/sanjose/meetings/2026/3/7611_A_City_Council_26-03-03_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
       "date": "2026-02-28",
       "body": "Youth Commission",
       "location": "Dr. Martin Luther King, Jr. Library - Room 225, 150 San Fernando Street",
@@ -834,6 +834,16 @@
     },
     {
       "date": "2026-02-25",
+      "body": "Planning Commission",
+      "location": "City Hall Wing, Rooms W118-W120",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-25",
       "body": "San Jose Arena Authority",
       "location": "1500 South Tenth Street",
       "has_agenda": false,
@@ -856,26 +866,6 @@
       "date": "2026-02-25",
       "body": "San Jose Arena Authority",
       "location": "1500 South Tenth Street",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-25",
-      "body": "Joint Meeting for the Rules and Open Government Committee and Committee of the Whole",
-      "location": "Council Chambers",
-      "has_agenda": true,
-      "agenda_url": "https://legistar.granicus.com/sanjose/meetings/2026/2/7636_A_Joint_Meeting_for_the_Rules_and_Open_Government_Committee_and_Committee_of_the_Whole_26-02-25_Administrative_Draft.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-25",
-      "body": "Planning Commission",
-      "location": "City Hall Wing, Rooms W118-W120",
       "has_agenda": false,
       "agenda_url": null,
       "has_minutes": false,
@@ -893,11 +883,11 @@
       "upcoming": false
     },
     {
-      "date": "2026-02-24",
-      "body": "City Council",
+      "date": "2026-02-25",
+      "body": "Joint Meeting for the Rules and Open Government Committee and Committee of the Whole",
       "location": "Council Chambers",
       "has_agenda": true,
-      "agenda_url": "https://legistar.granicus.com/sanjose/meetings/2026/2/7610_A_City_Council_26-02-24_Amended_Agenda.pdf",
+      "agenda_url": "https://legistar.granicus.com/sanjose/meetings/2026/2/7636_A_Joint_Meeting_for_the_Rules_and_Open_Government_Committee_and_Committee_of_the_Whole_26-02-25_Administrative_Draft.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -906,8 +896,8 @@
       "date": "2026-02-24",
       "body": "City Council",
       "location": "Council Chambers",
-      "has_agenda": false,
-      "agenda_url": null,
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/sanjose/meetings/2026/2/7610_A_City_Council_26-02-24_Amended_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -955,14 +945,6 @@
       "passed_date": null
     },
     {
-      "title": "Approval of the Free Use of City Hall Wing Committee Rooms and Waiver of Gross Admission Receipts Percentage Fee for the Sister Cities International Spring Leadership Meeting Sponsored by Council Dist",
-      "type": "Consent Agenda",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-18",
-      "file_number": "26-195",
-      "passed_date": null
-    },
-    {
       "title": "Retroactive Approval of Tower Lighting for American Heart Month Sponsored by Council District 8 as a City Council Sponsored Special Event to Expend City Funds and Accept Donations of Materials and Ser",
       "type": "Consent Agenda",
       "status": "Agenda Ready",
@@ -971,19 +953,27 @@
       "passed_date": null
     },
     {
-      "title": "Review March 10, 2026 Draft Agenda.\na. Add New Items to Draft Agenda\nb. Assign \"Time Certain\" to Agenda Items (if needed)\nc. Review of Notice of Waiver Requirements for Agenda Items or Documents (if n",
-      "type": "Review Draft Agenda",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-18",
-      "file_number": "ROGC 26-072",
-      "passed_date": null
-    },
-    {
       "title": "Retroactive Approval of “Free Use” of City Hall East and West Plazas for the Sonic Loveway Event.",
       "type": "Consent Agenda",
       "status": "Agenda Ready",
       "intro_date": "2026-02-18",
       "file_number": "26-189",
+      "passed_date": null
+    },
+    {
+      "title": "Closed Session Agenda",
+      "type": "Closed Session Agenda",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "26-199",
+      "passed_date": null
+    },
+    {
+      "title": "Review March 10, 2026 Draft Agenda.\na. Add New Items to Draft Agenda\nb. Assign \"Time Certain\" to Agenda Items (if needed)\nc. Review of Notice of Waiver Requirements for Agenda Items or Documents (if n",
+      "type": "Review Draft Agenda",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "ROGC 26-072",
       "passed_date": null
     },
     {
@@ -996,7 +986,7 @@
     }
   ],
   "legistar_url": "https://sanjose.legistar.com",
-  "enriched_at": "2026-03-03T19:01:28.942436",
+  "enriched_at": "2026-03-04T02:35:37.432687",
   "government_news": [],
   "video_meetings": [
     {

@@ -553,7 +553,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Mountain%20View",
-        "probed_at": "2026-03-03T19:05:16.987320",
+        "probed_at": "2026-03-04T02:40:13.305630",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -887,16 +887,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-03-03",
-      "body": "Council Transportation Committee",
-      "location": "Plaza Conference Room and Video Conference, 500 Castro St., Mountain View, CA 94041",
-      "has_agenda": true,
-      "agenda_url": "https://legistar1.granicus.com/mountainview/meetings/2026/3/3382_A_Council_Transportation_Committee_26-03-03_Cancellation_Notice.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-03-11",
       "body": "Parks and Recreation Commission and Urban Forestry Board",
       "location": "Maple Room and Video Conference, 201 South Rengstorff Avenue, Mountain View, CA 94040",
@@ -905,6 +895,16 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": true
+    },
+    {
+      "date": "2026-03-03",
+      "body": "Council Transportation Committee",
+      "location": "Plaza Conference Room and Video Conference, 500 Castro St., Mountain View, CA 94041",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/mountainview/meetings/2026/3/3382_A_Council_Transportation_Committee_26-03-03_Cancellation_Notice.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     },
     {
       "date": "2026-02-26",
@@ -928,20 +928,20 @@
     },
     {
       "date": "2026-02-25",
-      "body": "Administrative Zoning Hearing",
-      "location": "Plaza Conference Room, 500 Castro St., Mountain View, CA 94041",
+      "body": "Bicycle/Pedestrian Advisory Committee",
+      "location": "Plaza Conference Room and Video Conference, 500 Castro St., Mountain View, CA 94041",
       "has_agenda": true,
-      "agenda_url": "https://legistar1.granicus.com/mountainview/meetings/2026/2/3434_A_Administrative_Zoning_Hearing_26-02-25_Advisory_Board_Agenda.pdf",
+      "agenda_url": "https://legistar1.granicus.com/mountainview/meetings/2026/2/3469_A_Bicycle_Pedestrian_Advisory_Committee_26-02-25_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
     },
     {
       "date": "2026-02-25",
-      "body": "Bicycle/Pedestrian Advisory Committee",
-      "location": "Plaza Conference Room and Video Conference, 500 Castro St., Mountain View, CA 94041",
+      "body": "Administrative Zoning Hearing",
+      "location": "Plaza Conference Room, 500 Castro St., Mountain View, CA 94041",
       "has_agenda": true,
-      "agenda_url": "https://legistar1.granicus.com/mountainview/meetings/2026/2/3469_A_Bicycle_Pedestrian_Advisory_Committee_26-02-25_Agenda.pdf",
+      "agenda_url": "https://legistar1.granicus.com/mountainview/meetings/2026/2/3434_A_Administrative_Zoning_Hearing_26-02-25_Advisory_Board_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -995,16 +995,6 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
-    },
-    {
-      "date": "2026-02-17",
-      "body": "Youth Advisory Committee",
-      "location": "The View Teen Center, 263 Escuela Ave., Mountain View, CA 94040",
-      "has_agenda": true,
-      "agenda_url": "https://legistar1.granicus.com/mountainview/meetings/2026/2/3494_A_Youth_Advisory_Committee_26-02-17_Cancellation_Notice.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
     }
   ],
   "recent_legislation": [
@@ -1017,11 +1007,27 @@
       "passed_date": null
     },
     {
+      "title": "Upcoming Workshops and Housing Help Center Dates",
+      "type": "Information Only",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "205949",
+      "passed_date": null
+    },
+    {
       "title": "BPAC Fiscal Year 2025-26 Work Plan",
       "type": "New Business",
       "status": "Agenda Ready",
       "intro_date": "2026-02-18",
       "file_number": "205943",
+      "passed_date": null
+    },
+    {
+      "title": "Expected Future Agenda Items for RHC Meetings\nRHC Meeting Thursday, March 26, 2026",
+      "type": "Information Only",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "205950",
       "passed_date": null
     },
     {
@@ -1041,11 +1047,11 @@
       "passed_date": null
     },
     {
-      "title": "Upcoming Workshops and Housing Help Center Dates",
-      "type": "Information Only",
+      "title": "CSFRA and MHRSO Annual Fee Payment and Registration Requirements Compliance",
+      "type": "New Business",
       "status": "Agenda Ready",
       "intro_date": "2026-02-18",
-      "file_number": "205949",
+      "file_number": "205946",
       "passed_date": null
     },
     {
@@ -1054,22 +1060,6 @@
       "status": "Agenda Ready",
       "intro_date": "2026-02-18",
       "file_number": "205952",
-      "passed_date": null
-    },
-    {
-      "title": "Expected Future Agenda Items for RHC Meetings\nRHC Meeting Thursday, March 26, 2026",
-      "type": "Information Only",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-18",
-      "file_number": "205950",
-      "passed_date": null
-    },
-    {
-      "title": "CSFRA and MHRSO Annual Fee Payment and Registration Requirements Compliance",
-      "type": "New Business",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-18",
-      "file_number": "205946",
       "passed_date": null
     },
     {
@@ -1090,7 +1080,7 @@
     }
   ],
   "legistar_url": "https://mountainview.legistar.com",
-  "enriched_at": "2026-03-03T19:00:39.712551",
+  "enriched_at": "2026-03-04T02:33:58.234985",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
