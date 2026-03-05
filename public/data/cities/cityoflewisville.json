@@ -512,7 +512,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Lewisville",
-        "probed_at": "2026-03-04T19:17:44.277814",
+        "probed_at": "2026-03-05T02:49:44.393728",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -872,33 +872,23 @@
       "has_minutes": false,
       "has_video": true,
       "upcoming": false
-    },
-    {
-      "date": "2026-02-02",
-      "body": "City Council",
-      "location": "Lewisville City Hall",
-      "has_agenda": true,
-      "agenda_url": "https://cityoflewisville.legistar1.com/cityoflewisville/meetings/2026/2/1726_A_City_Council_26-02-02_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": true,
-      "upcoming": false
     }
   ],
   "recent_legislation": [
-    {
-      "title": "Alley Traffic Calming",
-      "type": "Workshop",
-      "status": "Workshop",
-      "intro_date": "2026-02-19",
-      "file_number": "26-4494",
-      "passed_date": null
-    },
     {
       "title": "Recognition of Lewisville Parks and Recreation Department and Dr. Jaime Baxter-Slye for Receiving Awards From the Texas Recreation and Park Society",
       "type": "Agenda Item",
       "status": "Proclamation",
       "intro_date": "2026-02-19",
       "file_number": "26-4495",
+      "passed_date": null
+    },
+    {
+      "title": "Alley Traffic Calming",
+      "type": "Workshop",
+      "status": "Workshop",
+      "intro_date": "2026-02-19",
+      "file_number": "26-4494",
       "passed_date": null
     },
     {
@@ -926,19 +916,19 @@
       "passed_date": null
     },
     {
-      "title": "City Council and Staff Reports",
-      "type": "Agenda Item",
-      "status": "Reported to Council",
-      "intro_date": "2026-02-16",
-      "file_number": "26-4490",
-      "passed_date": null
-    },
-    {
       "title": "Discussion of Consent and Regular Agenda",
       "type": "Workshop",
       "status": "Workshop",
       "intro_date": "2026-02-16",
       "file_number": "26-4489",
+      "passed_date": null
+    },
+    {
+      "title": "City Council and Staff Reports",
+      "type": "Agenda Item",
+      "status": "Reported to Council",
+      "intro_date": "2026-02-16",
+      "file_number": "26-4490",
       "passed_date": null
     },
     {
@@ -967,7 +957,7 @@
     }
   ],
   "legistar_url": "https://cityoflewisville.legistar.com",
-  "enriched_at": "2026-03-04T19:01:15.105943",
+  "enriched_at": "2026-03-05T02:35:14.175436",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

@@ -517,7 +517,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Allentown",
-        "probed_at": "2026-03-04T19:16:28.766593",
+        "probed_at": "2026-03-05T02:48:36.663264",
         "data_vintage": "BRFSS 2022",
         "geographic_level": "place",
         "status": "available"
@@ -835,16 +835,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-03-04",
-      "body": "City Council",
-      "location": "Council Chambers",
-      "has_agenda": true,
-      "agenda_url": "https://allentownpa.legistar1.com/allentownpa/meetings/2026/3/4911_A_City_Council_26-03-04_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-03-10",
       "body": "Planning Commission",
       "location": "Council Chambers",
@@ -853,6 +843,16 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": true
+    },
+    {
+      "date": "2026-03-04",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://allentownpa.legistar1.com/allentownpa/meetings/2026/3/4911_A_City_Council_26-03-04_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     },
     {
       "date": "2026-03-02",
@@ -896,16 +896,6 @@
     },
     {
       "date": "2026-02-18",
-      "body": "City Council",
-      "location": "Council Chambers",
-      "has_agenda": true,
-      "agenda_url": "https://allentownpa.legistar1.com/allentownpa/meetings/2026/2/4909_A_City_Council_26-02-18_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-18",
       "body": "Community and Economic Development Committee",
       "location": null,
       "has_agenda": true,
@@ -915,21 +905,11 @@
       "upcoming": false
     },
     {
-      "date": "2026-02-17",
-      "body": "Allentown Fire Pension Board",
-      "location": "5th Floor Conference Room",
+      "date": "2026-02-18",
+      "body": "City Council",
+      "location": "Council Chambers",
       "has_agenda": true,
-      "agenda_url": "https://allentownpa.legistar1.com/allentownpa/meetings/2026/2/4907_A_Allentown_Fire_Pension_Board_26-02-17_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-17",
-      "body": "Allentown Aggregate Pension Board",
-      "location": "5th Floor Conference Room",
-      "has_agenda": true,
-      "agenda_url": "https://allentownpa.legistar1.com/allentownpa/meetings/2026/2/4906_A_Allentown_Aggregate_Pension_Board_26-02-17_Meeting_Agenda.pdf",
+      "agenda_url": "https://allentownpa.legistar1.com/allentownpa/meetings/2026/2/4909_A_City_Council_26-02-18_Meeting_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -950,6 +930,16 @@
       "location": "Council Chambers",
       "has_agenda": true,
       "agenda_url": "https://allentownpa.legistar1.com/allentownpa/meetings/2026/2/4908_A_O_E%2C_Fire%2C_Police_and_Aggregate_Pension_Boards_26-02-17_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "Allentown Fire Pension Board",
+      "location": "5th Floor Conference Room",
+      "has_agenda": true,
+      "agenda_url": "https://allentownpa.legistar1.com/allentownpa/meetings/2026/2/4907_A_Allentown_Fire_Pension_Board_26-02-17_Meeting_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -1038,7 +1028,7 @@
     }
   ],
   "legistar_url": "https://allentownpa.legistar.com",
-  "enriched_at": "2026-03-04T18:58:25.464747",
+  "enriched_at": "2026-03-05T02:32:35.771490",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

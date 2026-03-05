@@ -565,7 +565,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Richmond",
-        "probed_at": "2026-03-04T19:16:02.938241",
+        "probed_at": "2026-03-05T02:48:12.502875",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -901,16 +901,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-03-04",
-      "body": "Board of Zoning Appeals",
-      "location": "5th Floor Conference Room",
-      "has_agenda": true,
-      "agenda_url": "https://legistar2.granicus.com/richmondva/meetings/2026/3/5231_A_Board_of_Zoning_Appeals_26-03-04_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-03-10",
       "body": "City Council",
       "location": "Council Chamber, 2nd Floor - City Hall",
@@ -961,6 +951,16 @@
       "upcoming": true
     },
     {
+      "date": "2026-03-04",
+      "body": "Board of Zoning Appeals",
+      "location": "5th Floor Conference Room",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/richmondva/meetings/2026/3/5231_A_Board_of_Zoning_Appeals_26-03-04_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
       "date": "2026-03-02",
       "body": "Organizational Development Standing Committee",
       "location": "Council Chamber, 2nd Floor - City Hall",
@@ -982,20 +982,20 @@
     },
     {
       "date": "2026-02-24",
-      "body": "Public Safety Standing Committee",
-      "location": "Council Chamber, 2nd Floor – City Hall",
+      "body": "Commission of Architectural Review",
+      "location": "5th Floor Conference Room of City Hall",
       "has_agenda": true,
-      "agenda_url": "https://legistar2.granicus.com/richmondva/meetings/2026/2/5085_A_Public_Safety_Standing_Committee_26-02-24_Agenda.pdf",
+      "agenda_url": "https://legistar2.granicus.com/richmondva/meetings/2026/2/5195_A_Commission_of_Architectural_Review_26-02-24_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
     },
     {
       "date": "2026-02-24",
-      "body": "Commission of Architectural Review",
-      "location": "5th Floor Conference Room of City Hall",
+      "body": "Public Safety Standing Committee",
+      "location": "Council Chamber, 2nd Floor – City Hall",
       "has_agenda": true,
-      "agenda_url": "https://legistar2.granicus.com/richmondva/meetings/2026/2/5195_A_Commission_of_Architectural_Review_26-02-24_Agenda.pdf",
+      "agenda_url": "https://legistar2.granicus.com/richmondva/meetings/2026/2/5085_A_Public_Safety_Standing_Committee_26-02-24_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -1049,16 +1049,6 @@
       "has_minutes": true,
       "has_video": false,
       "upcoming": false
-    },
-    {
-      "date": "2026-02-12",
-      "body": "Urban Design Committee",
-      "location": "5th Floor Conference Room of City Hall",
-      "has_agenda": true,
-      "agenda_url": "https://legistar2.granicus.com/richmondva/meetings/2026/2/5213_A_Urban_Design_Committee_26-02-12_Agenda.pdf",
-      "has_minutes": true,
-      "has_video": false,
-      "upcoming": false
     }
   ],
   "recent_legislation": [
@@ -1069,14 +1059,6 @@
       "intro_date": "9859-10-01",
       "file_number": "ORD. 2003-354-317",
       "passed_date": "2003-11-24"
-    },
-    {
-      "title": "RESOLUTION  OF   THE   RICHMOND   CITY   PLANNING COMMISSION APPROVING A FINAL COMMUNITY UNIT  PLAN  AMENDMENT  FOR STONY POINT SHOPPING CENTER, TO AUTHORIZE THE CONSTRUCTION OF A SECOND DRIVE-THRU LA",
-      "type": "City Planning Commission Resolution",
-      "status": "Consent Agenda",
-      "intro_date": "2026-02-20",
-      "file_number": "CPCR.2026.001",
-      "passed_date": null
     },
     {
       "title": "Public Access and Participation Instructions - Commission of Architectural Review",
@@ -1095,12 +1077,12 @@
       "passed_date": "2026-02-23"
     },
     {
-      "title": "February 23, 2026 Public Comment Period Speakers List",
-      "type": "Council Document ",
-      "status": "Public Comment Period Speakers List",
-      "intro_date": "2026-02-18",
-      "file_number": "CD.2026.057",
-      "passed_date": "2026-02-23"
+      "title": "RESOLUTION  OF   THE   RICHMOND   CITY   PLANNING COMMISSION APPROVING A FINAL COMMUNITY UNIT  PLAN  AMENDMENT  FOR STONY POINT SHOPPING CENTER, TO AUTHORIZE THE CONSTRUCTION OF A SECOND DRIVE-THRU LA",
+      "type": "City Planning Commission Resolution",
+      "status": "Consent Agenda",
+      "intro_date": "2026-02-20",
+      "file_number": "CPCR.2026.001",
+      "passed_date": null
     },
     {
       "title": "February 9, 2026 Formal Meeting Minutes",
@@ -1117,6 +1099,14 @@
       "intro_date": "2026-02-18",
       "file_number": "CD.2026.056",
       "passed_date": null
+    },
+    {
+      "title": "February 23, 2026 Public Comment Period Speakers List",
+      "type": "Council Document ",
+      "status": "Public Comment Period Speakers List",
+      "intro_date": "2026-02-18",
+      "file_number": "CD.2026.057",
+      "passed_date": "2026-02-23"
     },
     {
       "title": "February 17, 2026 - Land Use, Housing and Transportation Staff Report",
@@ -1144,7 +1134,7 @@
     }
   ],
   "legistar_url": "https://richmondva.legistar.com",
-  "enriched_at": "2026-03-04T19:10:59.320749",
+  "enriched_at": "2026-03-05T02:43:57.031925",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

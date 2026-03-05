@@ -504,7 +504,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=San%20Jose",
-        "probed_at": "2026-03-04T19:15:40.431134",
+        "probed_at": "2026-03-05T02:47:52.589795",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -773,6 +773,16 @@
   },
   "recent_meetings": [
     {
+      "date": "2026-03-06",
+      "body": "Miscellaneous Agendas",
+      "location": "City Hall Tower, 17th Floor, City Manager's Conference Room",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
       "date": "2026-03-04",
       "body": "Downtown Parking Board",
       "location": "City Hall Tower, 8th Floor, Room T-847",
@@ -780,7 +790,7 @@
       "agenda_url": null,
       "has_minutes": false,
       "has_video": false,
-      "upcoming": true
+      "upcoming": false
     },
     {
       "date": "2026-03-04",
@@ -790,17 +800,7 @@
       "agenda_url": null,
       "has_minutes": false,
       "has_video": false,
-      "upcoming": true
-    },
-    {
-      "date": "2026-03-06",
-      "body": "Miscellaneous Agendas",
-      "location": "City Hall Tower, 17th Floor, City Manager's Conference Room",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
+      "upcoming": false
     },
     {
       "date": "2026-03-03",
@@ -834,48 +834,18 @@
     },
     {
       "date": "2026-02-25",
-      "body": "Planning Commission",
-      "location": "City Hall Wing, Rooms W118-W120",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-25",
-      "body": "San Jose Arena Authority",
-      "location": "1500 South Tenth Street",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-25",
-      "body": "Planning Commission",
-      "location": "City Hall Wing, Rooms W118-W120",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-25",
-      "body": "San Jose Arena Authority",
-      "location": "1500 South Tenth Street",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-25",
       "body": "Planning Director's Hearing",
       "location": "Virtual Meeting - https://sanjoseca.zoom.us/j/89012305097",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-25",
+      "body": "Planning Commission",
+      "location": "City Hall Wing, Rooms W118-W120",
       "has_agenda": false,
       "agenda_url": null,
       "has_minutes": false,
@@ -893,11 +863,21 @@
       "upcoming": false
     },
     {
-      "date": "2026-02-24",
-      "body": "City Council",
-      "location": "Council Chambers",
-      "has_agenda": true,
-      "agenda_url": "https://legistar.granicus.com/sanjose/meetings/2026/2/7610_A_City_Council_26-02-24_Amended_Agenda.pdf",
+      "date": "2026-02-25",
+      "body": "San Jose Arena Authority",
+      "location": "1500 South Tenth Street",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-25",
+      "body": "San Jose Arena Authority",
+      "location": "1500 South Tenth Street",
+      "has_agenda": false,
+      "agenda_url": null,
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -913,19 +893,19 @@
       "passed_date": null
     },
     {
-      "title": "Respective Roles and Responsibilities of the City Council Committees. (City Attorney)",
-      "type": "Rules Committee Reviews, Recommendations and Approvals",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-19",
-      "file_number": "ROGC 26-078",
-      "passed_date": null
-    },
-    {
       "title": "Deferred Compensation Advisory Committee Appointments. (Human Resources)",
       "type": "Rules Committee Reviews, Recommendations and Approvals",
       "status": "Agenda Ready",
       "intro_date": "2026-02-19",
       "file_number": "ROGC 26-080",
+      "passed_date": null
+    },
+    {
+      "title": "Respective Roles and Responsibilities of the City Council Committees. (City Attorney)",
+      "type": "Rules Committee Reviews, Recommendations and Approvals",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "ROGC 26-078",
       "passed_date": null
     },
     {
@@ -945,11 +925,11 @@
       "passed_date": null
     },
     {
-      "title": "Retroactive Approval of Tower Lighting for American Heart Month Sponsored by Council District 8 as a City Council Sponsored Special Event to Expend City Funds and Accept Donations of Materials and Ser",
-      "type": "Consent Agenda",
+      "title": "Approval of Council Committee Minutes.",
+      "type": "Approval of Council Committee Minutes",
       "status": "Agenda Ready",
       "intro_date": "2026-02-18",
-      "file_number": "26-192",
+      "file_number": "26-200",
       "passed_date": null
     },
     {
@@ -969,24 +949,24 @@
       "passed_date": null
     },
     {
+      "title": "Review March 3, 2026 Final Agenda.\r\na. Add New Items to Final Agenda\r\nb. Assign \"Time Certain\" to Agenda Items (if needed)\r\nc. Review of Notice of Waiver Requirements for Agenda Items or Documents (if",
+      "type": "Rules Committee Reviews, Recommendations and Approvals Consent",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "ROGC 26-070",
+      "passed_date": null
+    },
+    {
       "title": "Review March 10, 2026 Draft Agenda.\na. Add New Items to Draft Agenda\nb. Assign \"Time Certain\" to Agenda Items (if needed)\nc. Review of Notice of Waiver Requirements for Agenda Items or Documents (if n",
       "type": "Review Draft Agenda",
       "status": "Agenda Ready",
       "intro_date": "2026-02-18",
       "file_number": "ROGC 26-072",
       "passed_date": null
-    },
-    {
-      "title": "Review March 3, 2026 Draft Agenda.\r\na. Add New Items to Draft Agenda\r\nb. Assign \"Time Certain\" to Agenda Items (if needed)\r\nc. Review of Notice of Waiver Requirements for Agenda Items or Documents (if",
-      "type": "Review Draft Agenda",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-18",
-      "file_number": "ROGC 26-071",
-      "passed_date": null
     }
   ],
   "legistar_url": "https://sanjose.legistar.com",
-  "enriched_at": "2026-03-04T19:11:43.395442",
+  "enriched_at": "2026-03-05T02:44:32.107037",
   "government_news": [],
   "video_meetings": [
     {

@@ -116,24 +116,24 @@
     "accela_agency_id": "KANSAS"
   },
   "development": {
-    "permits_12mo": 3506,
-    "yoy_trend_pct": -81.2,
-    "avg_permit_value": 211808.69,
+    "permits_12mo": 3447,
+    "yoy_trend_pct": -81.5,
+    "avg_permit_value": 214022.28,
     "permit_types": {
-      "Electrical General": 790,
-      "Plumbing General": 506,
-      "Mechanical General": 417,
-      "Certificate of Occupancy (Residential)": 195,
-      "Electrical with Service": 156,
-      "Single Family - Interior Remodel": 151,
-      "Other": 116,
-      "Install/Replace Water Heater": 109,
-      "Renovation": 102,
+      "Electrical General": 781,
+      "Plumbing General": 488,
+      "Mechanical General": 406,
+      "Certificate of Occupancy (Residential)": 194,
+      "Electrical with Service": 154,
+      "Single Family - Interior Remodel": 150,
+      "Other": 115,
+      "Install/Replace Water Heater": 108,
       "Single Family - New": 100,
+      "Renovation": 95,
       "Plumbing with Limited Service": 78,
-      "Security Alarms": 68,
+      "Security Alarms": 67,
       "Electrical Fire Alarm Commercial": 64,
-      "Fire Protection System": 63,
+      "Fire Protection System": 61,
       "Electrical Reconnect": 60
     },
     "datasets_count": 1
@@ -292,8 +292,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.kcmo.org/resource/ntw8-aacc.json",
-        "probed_at": "2026-03-04T19:15:10.657868",
-        "data_vintage": "Rolling 12-month window ending 2026-03-04",
+        "probed_at": "2026-03-05T02:47:35.279607",
+        "data_vintage": "Rolling 12-month window ending 2026-03-05",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Permits - CPD Dataset",
@@ -758,26 +758,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-03-04",
-      "body": "Risk Management Committee",
-      "location": "Virtual Closed Session",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
-      "date": "2026-03-04",
-      "body": "Risk Management Committee",
-      "location": null,
-      "has_agenda": true,
-      "agenda_url": "https://kansascity.legistar1.com/kansascity/meetings/2026/3/18884_A_Risk_Management_Committee_26-03-04_Agenda_-_Committees.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-03-05",
       "body": "Finance, Governance and Public Safety Committee",
       "location": "26th Floor, Council Chamber",
@@ -848,6 +828,26 @@
       "upcoming": true
     },
     {
+      "date": "2026-03-04",
+      "body": "Risk Management Committee",
+      "location": "Virtual Closed Session",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-03-04",
+      "body": "Risk Management Committee",
+      "location": null,
+      "has_agenda": true,
+      "agenda_url": "https://kansascity.legistar1.com/kansascity/meetings/2026/3/18884_A_Risk_Management_Committee_26-03-04_Agenda_-_Committees.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
       "date": "2026-03-02",
       "body": "Public Budget Hearings",
       "location": "Guadalupe Community Center (1015 Avenida Cesar E Chavez, KCMO 64108)",
@@ -879,6 +879,16 @@
     },
     {
       "date": "2026-02-25",
+      "body": "Board of Zoning Adjustment",
+      "location": "The hearing will by hybrid; both in-person at City Hall, \r\n414 E 12th St, 10th floor Council Committee Room\r\nKansas City, MO and virtually via Zoom. \r\nDetails can be found at https://kcmo.gov/bza.",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-25",
       "body": "Employee Retirement System Board of Trustees",
       "location": "Finance Department, Large Conference Room, located on the 3rd Floor and North side of City Hall and virtually via Microsoft Teams.",
       "has_agenda": false,
@@ -898,9 +908,9 @@
       "upcoming": false
     },
     {
-      "date": "2026-02-25",
-      "body": "Board of Zoning Adjustment",
-      "location": "The hearing will by hybrid; both in-person at City Hall, \r\n414 E 12th St, 10th floor Council Committee Room\r\nKansas City, MO and virtually via Zoom. \r\nDetails can be found at https://kcmo.gov/bza.",
+      "date": "2026-02-24",
+      "body": "Board of Police Commissioners",
+      "location": "1125 Locust Street",
       "has_agenda": false,
       "agenda_url": null,
       "has_minutes": false,
@@ -913,36 +923,6 @@
       "location": "26th Floor, Council Chamber",
       "has_agenda": true,
       "agenda_url": "https://kansascity.legistar1.com/kansascity/meetings/2026/2/18982_A_Neighborhood_Planning_and_Development_Committee_26-02-24_Agenda_-_Committees.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-24",
-      "body": "Board of Police Commissioners",
-      "location": "1125 Locust Street",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-24",
-      "body": "Finance, Governance and Public Safety Committee",
-      "location": "26th Floor, Council Chamber",
-      "has_agenda": true,
-      "agenda_url": "https://kansascity.legistar1.com/kansascity/meetings/2026/2/18983_A_Finance%2C_Governance_and_Public_Safety_Committee_26-02-24_Agenda_-_Committees.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-24",
-      "body": "Central City Economic Development Sales Tax Board",
-      "location": "https://us06web.zoom.us/j/81345598809?pwd=EZoOYWweYp7Oye2nOyBHaKe05Dt41R.1",
-      "has_agenda": true,
-      "agenda_url": "https://kansascity.legistar1.com/kansascity/meetings/2026/2/19011_A_Central_City_Economic_Development_Sales_Tax_Board_26-02-24_Agenda_-_Committees.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -1031,7 +1011,7 @@
     }
   ],
   "legistar_url": "https://kansascity.legistar.com",
-  "enriched_at": "2026-03-04T19:05:44.010804",
+  "enriched_at": "2026-03-05T02:39:17.297144",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

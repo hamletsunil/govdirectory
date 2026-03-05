@@ -169,17 +169,17 @@
     "accela_agency_id": "SEATTLE"
   },
   "development": {
-    "permits_12mo": 6303,
-    "yoy_trend_pct": 7.8,
-    "avg_permit_value": 1129481.27,
+    "permits_12mo": 6310,
+    "yoy_trend_pct": 7.9,
+    "avg_permit_value": 1128354.78,
     "permit_types": {
-      "Building": 5315,
-      "Demolition": 538,
-      "Roof": 425,
+      "Building": 5325,
+      "Demolition": 537,
+      "Roof": 423,
       "Grading": 25
     },
     "datasets_count": 10,
-    "permits_per_capita_1k": 8.58
+    "permits_per_capita_1k": 8.59
   },
   "meetings": {
     "official_channels": 1,
@@ -474,8 +474,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.seattle.gov/resource/76t5-zqzr.json",
-        "probed_at": "2026-03-04T19:14:05.216372",
-        "data_vintage": "Rolling 12-month window ending 2026-03-04",
+        "probed_at": "2026-03-05T02:46:38.778867",
+        "data_vintage": "Rolling 12-month window ending 2026-03-05",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -521,7 +521,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Seattle",
-        "probed_at": "2026-03-04T19:15:41.995052",
+        "probed_at": "2026-03-05T02:47:53.885081",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -930,20 +930,20 @@
     },
     {
       "date": "2026-02-24",
-      "body": "Public Safety Committee",
-      "location": "Council Chamber, City Hall \r\n600 4th Avenue \r\nSeattle, WA  98104",
+      "body": "City Council",
+      "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA 98104",
       "has_agenda": true,
-      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6597_A_Public_Safety_Committee_26-02-24_Committee_Agenda.pdf",
+      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6598_A_City_Council_26-02-24_Full_Council_Meeting_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
     },
     {
       "date": "2026-02-24",
-      "body": "City Council",
-      "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA 98104",
+      "body": "Public Safety Committee",
+      "location": "Council Chamber, City Hall \r\n600 4th Avenue \r\nSeattle, WA  98104",
       "has_agenda": true,
-      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6598_A_City_Council_26-02-24_Full_Council_Meeting_Agenda.pdf",
+      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6597_A_Public_Safety_Committee_26-02-24_Committee_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -970,6 +970,16 @@
     },
     {
       "date": "2026-02-19",
+      "body": "Transportation, Waterfront, and Seattle Center Committee",
+      "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA 98104",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6591_A_Transportation%2C_Waterfront%2C_and_Seattle_Center_Committee_26-02-19_Committee_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-19",
       "body": "Libraries, Education, and Neighborhoods Committee",
       "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA  98104",
       "has_agenda": true,
@@ -979,11 +989,11 @@
       "upcoming": false
     },
     {
-      "date": "2026-02-19",
-      "body": "Transportation, Waterfront, and Seattle Center Committee",
+      "date": "2026-02-18",
+      "body": "Land Use and Sustainability Committee",
       "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA 98104",
       "has_agenda": true,
-      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6591_A_Transportation%2C_Waterfront%2C_and_Seattle_Center_Committee_26-02-19_Committee_Agenda.pdf",
+      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6588_A_Land_Use_and_Sustainability_Committee_26-02-18_Committee_Agenda.pdf",
       "has_minutes": true,
       "has_video": false,
       "upcoming": false
@@ -999,22 +1009,12 @@
       "upcoming": false
     },
     {
-      "date": "2026-02-18",
-      "body": "Land Use and Sustainability Committee",
-      "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA 98104",
-      "has_agenda": true,
-      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6588_A_Land_Use_and_Sustainability_Committee_26-02-18_Committee_Agenda.pdf",
-      "has_minutes": true,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
       "date": "2026-02-17",
-      "body": "Finance, Native Communities, and Tribal Governments Committee",
+      "body": "City Council",
       "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA 98104",
       "has_agenda": true,
-      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6589_A_Finance%2C_Native_Communities%2C_and_Tribal_Governments_Committee_26-02-17_Committee_Agenda.pdf",
-      "has_minutes": true,
+      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6592_A_City_Council_26-02-17_Full_Council_Meeting_Agenda.pdf",
+      "has_minutes": false,
       "has_video": false,
       "upcoming": false
     }
@@ -1061,6 +1061,22 @@
       "passed_date": null
     },
     {
+      "title": "State of the City address delivered by Mayor Katie B. Wilson on February 17, 2026.",
+      "type": "Clerk File (CF)",
+      "status": "Filed with City Clerk",
+      "intro_date": "2026-02-12",
+      "file_number": "CF 314547",
+      "passed_date": "2026-02-17"
+    },
+    {
+      "title": "Wage Equity for Human Services Contracts",
+      "type": "Information Item (Inf)",
+      "status": "Heard in Committee",
+      "intro_date": "2026-02-12",
+      "file_number": "Inf 2837",
+      "passed_date": null
+    },
+    {
       "title": "AN ORDINANCE relating to civil immigration enforcement; prohibiting civil immigration enforcement staging on all real property that is City owned and controlled; and adding a new Chapter 14.125 to the",
       "type": "Council Bill (CB)",
       "status": "Committee Agenda Ready",
@@ -1083,26 +1099,10 @@
       "intro_date": "2026-02-12",
       "file_number": "Inf 2835",
       "passed_date": null
-    },
-    {
-      "title": "Human Services Provider Roundtable Discussion",
-      "type": "Information Item (Inf)",
-      "status": "Committee Agenda Ready",
-      "intro_date": "2026-02-12",
-      "file_number": "Inf 2841",
-      "passed_date": null
-    },
-    {
-      "title": "HSD’s (Human Services Department) 2024 Provider Pay Report",
-      "type": "Information Item (Inf)",
-      "status": "Committee Agenda Ready",
-      "intro_date": "2026-02-12",
-      "file_number": "Inf 2838",
-      "passed_date": null
     }
   ],
   "legistar_url": "https://seattle.legistar.com",
-  "enriched_at": "2026-03-04T19:12:08.389795",
+  "enriched_at": "2026-03-05T02:44:52.484582",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
