@@ -180,14 +180,14 @@
     "accela_agency_id": "MESA"
   },
   "development": {
-    "permits_12mo": 5214,
-    "yoy_trend_pct": 2.4,
-    "avg_permit_value": 911307.81,
-    "permits_per_capita_1k": 10.36,
+    "permits_12mo": 5199,
+    "yoy_trend_pct": 2.1,
+    "avg_permit_value": 916725.09,
+    "permits_per_capita_1k": 10.33,
     "permit_types": {
-      "RES": 3318,
-      "COM": 1415,
-      "SVC": 481
+      "RES": 3304,
+      "COM": 1418,
+      "SVC": 477
     },
     "datasets_count": 10
   },
@@ -491,8 +491,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://citydata.mesaaz.gov/resource/dzpk-hxfb.json",
-        "probed_at": "2026-03-05T19:36:37.408485",
-        "data_vintage": "Rolling 12-month window ending 2026-03-05",
+        "probed_at": "2026-03-06T02:35:58.837019",
+        "data_vintage": "Rolling 12-month window ending 2026-03-06",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -538,7 +538,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Mesa",
-        "probed_at": "2026-03-05T19:37:45.908666",
+        "probed_at": "2026-03-06T02:38:00.587930",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -888,20 +888,20 @@
     },
     {
       "date": "2026-02-09",
-      "body": "City Council",
-      "location": "Council Chambers",
+      "body": "City Council Study Session",
+      "location": "Study Session",
       "has_agenda": true,
-      "agenda_url": "https://legistar1.granicus.com/Mesa/meetings/2026/2/4489_A_City_Council_26-02-09_Meeting_Agenda.pdf",
+      "agenda_url": "https://legistar1.granicus.com/Mesa/meetings/2026/2/4493_A_City_Council_Study_Session_26-02-09_Meeting_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
     },
     {
       "date": "2026-02-09",
-      "body": "City Council Study Session",
-      "location": "Study Session",
+      "body": "City Council",
+      "location": "Council Chambers",
       "has_agenda": true,
-      "agenda_url": "https://legistar1.granicus.com/Mesa/meetings/2026/2/4493_A_City_Council_Study_Session_26-02-09_Meeting_Agenda.pdf",
+      "agenda_url": "https://legistar1.granicus.com/Mesa/meetings/2026/2/4489_A_City_Council_26-02-09_Meeting_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -990,7 +990,7 @@
     }
   ],
   "legistar_url": "https://mesa.legistar.com",
-  "enriched_at": "2026-03-05T19:29:36.821977",
+  "enriched_at": "2026-03-06T02:33:29.296088",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

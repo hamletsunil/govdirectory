@@ -503,7 +503,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Joliet",
-        "probed_at": "2026-03-05T19:38:16.978480",
+        "probed_at": "2026-03-06T02:38:42.243734",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -934,6 +934,16 @@
     },
     {
       "date": "2026-02-17",
+      "body": "City Council Meeting",
+      "location": "City Hall, Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://joliet.legistar1.com/joliet/meetings/2026/2/2578_A_City_Council_Meeting__26-02-17_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
       "body": "Finance Committee",
       "location": "Council Chambers",
       "has_agenda": true,
@@ -948,16 +958,6 @@
       "location": "City Hall, Council Chambers",
       "has_agenda": true,
       "agenda_url": "https://joliet.legistar1.com/joliet/meetings/2026/2/2542_A_Public_Service_Committee_26-02-17_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-17",
-      "body": "City Council Meeting",
-      "location": "City Hall, Council Chambers",
-      "has_agenda": true,
-      "agenda_url": "https://joliet.legistar1.com/joliet/meetings/2026/2/2578_A_City_Council_Meeting__26-02-17_Meeting_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -1066,7 +1066,7 @@
     }
   ],
   "legistar_url": "https://joliet.legistar.com",
-  "enriched_at": "2026-03-05T19:27:41.697632",
+  "enriched_at": "2026-03-06T02:32:46.326194",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

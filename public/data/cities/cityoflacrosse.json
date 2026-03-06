@@ -390,7 +390,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=La%20Crosse",
-        "probed_at": "2026-03-05T19:40:01.753676",
+        "probed_at": "2026-03-06T02:41:02.711539",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -659,16 +659,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-03-05",
-      "body": "Finance & Personnel Committee",
-      "location": "Council Chambers\r\nCity Hall, First Floor",
-      "has_agenda": true,
-      "agenda_url": "https://legistar.granicus.com/cityoflacrosse/meetings/2026/3/7156_A_Finance___Personnel_Committee_26-03-05_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-03-10",
       "body": "Council Planning Meeting",
       "location": "Council Chambers\r\n400 La Crosse Street",
@@ -687,6 +677,16 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": true
+    },
+    {
+      "date": "2026-03-05",
+      "body": "Finance & Personnel Committee",
+      "location": "Council Chambers\r\nCity Hall, First Floor",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/cityoflacrosse/meetings/2026/3/7156_A_Finance___Personnel_Committee_26-03-05_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     },
     {
       "date": "2026-03-03",
@@ -720,21 +720,21 @@
     },
     {
       "date": "2026-02-19",
-      "body": "Board of Park Commissioners",
-      "location": "Council Chambers",
-      "has_agenda": true,
-      "agenda_url": "https://legistar.granicus.com/cityoflacrosse/meetings/2026/2/7203_A_Board_of_Park_Commissioners_26-02-19_Meeting_Agenda.pdf",
-      "has_minutes": true,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-19",
       "body": "City of La Crosse Diversity Equity Inclusion Team",
       "location": "Miller Room / Zoom",
       "has_agenda": true,
       "agenda_url": "https://legistar.granicus.com/cityoflacrosse/meetings/2026/2/7358_A_City_of_La_Crosse_Diversity_Equity_Inclusion_Team_26-02-19_Meeting_Agenda.pdf",
       "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-19",
+      "body": "Board of Park Commissioners",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/cityoflacrosse/meetings/2026/2/7203_A_Board_of_Park_Commissioners_26-02-19_Meeting_Agenda.pdf",
+      "has_minutes": true,
       "has_video": false,
       "upcoming": false
     },
@@ -774,16 +774,6 @@
       "location": "Council Chambers\r\nCity Hall, First Floor",
       "has_agenda": true,
       "agenda_url": "https://legistar.granicus.com/cityoflacrosse/meetings/2026/2/7100_A_Board_of_Public_Works_26-02-16_Meeting_Agenda.pdf",
-      "has_minutes": true,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-16",
-      "body": "Board of Zoning Appeals",
-      "location": "Council Chambers\r\nCity Hall, First Floor",
-      "has_agenda": true,
-      "agenda_url": "https://legistar.granicus.com/cityoflacrosse/meetings/2026/2/7345_A_Board_of_Zoning_Appeals_26-02-16_Meeting_Agenda.pdf",
       "has_minutes": true,
       "has_video": false,
       "upcoming": false
@@ -872,7 +862,7 @@
     }
   ],
   "legistar_url": "https://cityoflacrosse.legistar.com",
-  "enriched_at": "2026-03-05T19:23:13.702297",
+  "enriched_at": "2026-03-06T02:31:03.737982",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

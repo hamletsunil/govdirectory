@@ -561,7 +561,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Stpaul",
-        "probed_at": "2026-03-05T19:37:54.083756",
+        "probed_at": "2026-03-06T02:38:11.839347",
         "data_vintage": "BRFSS None",
         "geographic_level": "place",
         "status": "unavailable"
@@ -989,11 +989,11 @@
     },
     {
       "date": "2026-02-18",
-      "body": "City Council",
-      "location": "Council Chambers - 3rd Floor",
-      "has_agenda": true,
-      "agenda_url": "https://legistar1.granicus.com/StPaul/meetings/2026/2/7564_A_City_Council_26-02-18_Meeting_Agenda.pdf",
-      "has_minutes": true,
+      "body": "Housing & Redevelopment Authority",
+      "location": "Council Chambers, City Hall",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
       "has_video": false,
       "upcoming": false
     },
@@ -1009,11 +1009,11 @@
     },
     {
       "date": "2026-02-18",
-      "body": "Housing & Redevelopment Authority",
-      "location": "Council Chambers, City Hall",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
+      "body": "City Council",
+      "location": "Council Chambers - 3rd Floor",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/StPaul/meetings/2026/2/7564_A_City_Council_26-02-18_Meeting_Agenda.pdf",
+      "has_minutes": true,
       "has_video": false,
       "upcoming": false
     },
@@ -1039,10 +1039,10 @@
     },
     {
       "date": "2026-02-11",
-      "body": "City Council",
-      "location": "Council Chambers - 3rd Floor",
+      "body": "Organizational Committee",
+      "location": "Council Chambers",
       "has_agenda": true,
-      "agenda_url": "https://legistar1.granicus.com/StPaul/meetings/2026/2/7551_A_City_Council_26-02-11_ADA_Meeting_Agenda.pdf",
+      "agenda_url": "https://legistar1.granicus.com/StPaul/meetings/2026/2/7549_A_Organizational_Committee_26-02-11_ADA_Meeting_Agenda.pdf",
       "has_minutes": true,
       "has_video": false,
       "upcoming": false
@@ -1131,7 +1131,7 @@
     }
   ],
   "legistar_url": "https://stpaul.legistar.com",
-  "enriched_at": "2026-03-05T19:34:41.397843",
+  "enriched_at": "2026-03-06T02:34:53.313532",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

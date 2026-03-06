@@ -220,28 +220,28 @@
     "accela_agency_id": null
   },
   "development": {
-    "permits_12mo": 7242,
-    "yoy_trend_pct": 3.9,
+    "permits_12mo": 7326,
+    "yoy_trend_pct": 5.4,
     "avg_permit_value": null,
     "permit_types": {
-      "Building Permit": 1857,
-      "Electrical Permit": 1745,
-      "Plumbing Permit": 649,
+      "Building Permit": 1877,
+      "Electrical Permit": 1781,
+      "Plumbing Permit": 664,
       "Food Establishment": 495,
-      "Gas Fitting": 432,
+      "Gas Fitting": 444,
       "Dumpster": 323,
-      "Certificate of Inspection": 287,
-      "Temporary Food": 280,
-      "Sheet Metal Permit": 197,
+      "Certificate of Inspection": 284,
+      "Temporary Food": 282,
+      "Sheet Metal Permit": 199,
       "Dumpster (Located on Street) Permit": 191,
       "Certificate of Occupancy": 162,
       "Business License": 110,
       "Farmers Market": 102,
-      "Public Event License": 97,
+      "Public Event License": 95,
       "Block Party": 80
     },
     "datasets_count": 1,
-    "permits_per_capita_1k": 90.0
+    "permits_per_capita_1k": 91.05
   },
   "meetings": {
     "official_channels": 1,
@@ -627,8 +627,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.somervillema.gov/resource/nneb-s3f7.json",
-        "probed_at": "2026-03-05T19:37:21.398088",
-        "data_vintage": "Rolling 12-month window ending 2026-03-05",
+        "probed_at": "2026-03-06T02:36:51.431196",
+        "data_vintage": "Rolling 12-month window ending 2026-03-06",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Applications for Permits and Licenses",
@@ -674,7 +674,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Somerville",
-        "probed_at": "2026-03-05T19:38:45.649908",
+        "probed_at": "2026-03-06T02:39:18.941610",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -1088,7 +1088,7 @@
       "agenda_url": null,
       "has_minutes": false,
       "has_video": false,
-      "upcoming": true
+      "upcoming": false
     },
     {
       "date": "2026-03-04",
@@ -1179,16 +1179,6 @@
       "has_minutes": true,
       "has_video": false,
       "upcoming": false
-    },
-    {
-      "date": "2026-02-10",
-      "body": "Finance Committee",
-      "location": "Committee Room and Remote Participation",
-      "has_agenda": true,
-      "agenda_url": "https://somervillema.legistar1.com/somervillema/meetings/2026/2/3971_A_Finance_Committee_26-02-10_Regular_Meeting_Agenda.pdf",
-      "has_minutes": true,
-      "has_video": false,
-      "upcoming": false
     }
   ],
   "recent_legislation": [
@@ -1274,7 +1264,7 @@
     }
   ],
   "legistar_url": "https://somervillema.legistar.com",
-  "enriched_at": "2026-03-05T19:34:29.627494",
+  "enriched_at": "2026-03-06T02:34:49.875036",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
