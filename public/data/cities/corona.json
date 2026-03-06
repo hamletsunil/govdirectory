@@ -190,15 +190,26 @@
     "accela_agency_id": null
   },
   "development": {
-    "permits_12mo": 1614,
-    "yoy_trend_pct": -18.1,
+    "permits_12mo": 4097,
+    "yoy_trend_pct": -5.4,
     "avg_permit_value": null,
-    "permits_per_capita_1k": 10.19,
+    "permits_per_capita_1k": 25.87,
     "permit_types": {
-      "Miscellaneous Residential Alterations": 1366,
-      "Residential Remodel": 130,
-      "New Residential": 87,
-      "Residential Addition": 31
+      "ELECTRICAL RESIDENTIAL": 1024,
+      "PLUMBING": 462,
+      "REROOF": 353,
+      "MECHANICAL RESIDENTIAL": 340,
+      "FENCE WALL PERMITS": 282,
+      "OVERHEAD FIRE SPRINKLERS": 181,
+      "SYMBIUM SOLAR": 178,
+      "BUILDING RESIDENTIAL": 124,
+      "WATER HEATER SAME LOCATION": 124,
+      "COMMERCIAL ALTERATION": 119,
+      "SINGLE FAMILY ALTERATION": 104,
+      "PATIO AND BALCONY RESIDENTIAL": 91,
+      "BUILDING SIGN PERMIT": 86,
+      "SINGLE FAMILY ADU": 80,
+      "POOL": 75
     },
     "datasets_count": 10
   },
@@ -513,12 +524,12 @@
       "permits": {
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
-        "api_url": "https://corstat.coronaca.gov/resource/d2td-q3px.json",
-        "probed_at": "2026-03-06T02:36:32.629988",
+        "api_url": "https://corstat.coronaca.gov/resource/2agx-camz.json",
+        "probed_at": "2026-03-06T07:14:09.022095",
         "data_vintage": "Rolling 12-month window ending 2026-03-06",
         "geographic_level": "place",
         "status": "available",
-        "dataset_name": "CorStat - Residential Building Permits",
+        "dataset_name": "CorStat - Building Permits",
         "date_column_used": "issued"
       },
       "youtube_meetings": {
@@ -561,7 +572,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Corona",
-        "probed_at": "2026-03-06T02:38:36.498050",
+        "probed_at": "2026-03-06T07:15:22.040164",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -862,7 +873,7 @@
   "recent_meetings": [],
   "recent_legislation": [],
   "legistar_url": "https://corona.legistar.com",
-  "enriched_at": "2026-03-06T02:31:46.279084",
+  "enriched_at": "2026-03-06T07:02:38.068882",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
