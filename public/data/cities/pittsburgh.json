@@ -571,7 +571,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Pittsburgh",
-        "probed_at": "2026-03-06T19:13:01.872752",
+        "probed_at": "2026-03-07T02:30:44.207352",
         "data_vintage": "BRFSS 2022",
         "geographic_level": "place",
         "status": "available"
@@ -935,16 +935,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-03-06",
-      "body": "Committee on Hearings and Policy",
-      "location": "Council Chambers",
-      "has_agenda": true,
-      "agenda_url": "https://pittsburgh.legistar1.com/pittsburgh/meetings/2026/3/11847_A_Committee_on_Hearings_and_Policy__26-03-06_Post_Agenda_and_Committee_on_Hearings_.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-03-10",
       "body": "Post Agenda",
       "location": "Council Chambers",
@@ -965,6 +955,16 @@
       "upcoming": true
     },
     {
+      "date": "2026-03-06",
+      "body": "Committee on Hearings and Policy",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://pittsburgh.legistar1.com/pittsburgh/meetings/2026/3/11847_A_Committee_on_Hearings_and_Policy__26-03-06_Post_Agenda_and_Committee_on_Hearings_.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
       "date": "2026-03-02",
       "body": "Briefing",
       "location": null,
@@ -980,6 +980,16 @@
       "location": "Council Chambers",
       "has_agenda": true,
       "agenda_url": "https://pittsburgh.legistar1.com/pittsburgh/meetings/2026/2/11880_A_Standing_Committees_26-02-25_Standing_Committees_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-24",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://pittsburgh.legistar1.com/pittsburgh/meetings/2026/2/11882_A_City_Council_26-02-24_Regular_Meeting_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -1005,16 +1015,6 @@
       "upcoming": false
     },
     {
-      "date": "2026-02-24",
-      "body": "City Council",
-      "location": "Council Chambers",
-      "has_agenda": true,
-      "agenda_url": "https://pittsburgh.legistar1.com/pittsburgh/meetings/2026/2/11882_A_City_Council_26-02-24_Regular_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
       "date": "2026-02-18",
       "body": "Standing Committees",
       "location": "Council Chambers",
@@ -1026,21 +1026,11 @@
     },
     {
       "date": "2026-02-17",
-      "body": "Executive Session",
-      "location": null,
-      "has_agenda": true,
-      "agenda_url": "https://pittsburgh.legistar1.com/pittsburgh/meetings/2026/2/11874_A_Executive_Session_26-02-17_Post_Agenda_and_Committee_on_Hearings_.pdf",
-      "has_minutes": true,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-17",
       "body": "City Council",
       "location": "Council Chambers",
-      "has_agenda": true,
-      "agenda_url": "https://pittsburgh.legistar1.com/pittsburgh/meetings/2026/2/11873_A_City_Council_26-02-17_Regular_Meeting_Agenda.pdf",
-      "has_minutes": true,
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
       "has_video": false,
       "upcoming": false
     },
@@ -1056,11 +1046,11 @@
     },
     {
       "date": "2026-02-17",
-      "body": "City Council",
-      "location": "Council Chambers",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
+      "body": "Executive Session",
+      "location": null,
+      "has_agenda": true,
+      "agenda_url": "https://pittsburgh.legistar1.com/pittsburgh/meetings/2026/2/11874_A_Executive_Session_26-02-17_Post_Agenda_and_Committee_on_Hearings_.pdf",
+      "has_minutes": true,
       "has_video": false,
       "upcoming": false
     }
@@ -1148,7 +1138,7 @@
     }
   ],
   "legistar_url": "https://pittsburgh.legistar.com",
-  "enriched_at": "2026-03-06T19:07:01.538264",
+  "enriched_at": "2026-03-07T02:27:21.539450",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

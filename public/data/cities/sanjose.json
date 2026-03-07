@@ -504,7 +504,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=San%20Jose",
-        "probed_at": "2026-03-06T19:12:43.321811",
+        "probed_at": "2026-03-07T02:30:21.063698",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -780,12 +780,12 @@
       "agenda_url": null,
       "has_minutes": false,
       "has_video": false,
-      "upcoming": true
+      "upcoming": false
     },
     {
       "date": "2026-03-04",
-      "body": "Parks and Recreation Commission",
-      "location": "City Hall Tower, 17th Floor, Room T-1734",
+      "body": "Downtown Parking Board",
+      "location": "City Hall Tower, 8th Floor, Room T-847",
       "has_agenda": false,
       "agenda_url": null,
       "has_minutes": false,
@@ -794,8 +794,8 @@
     },
     {
       "date": "2026-03-04",
-      "body": "Downtown Parking Board",
-      "location": "City Hall Tower, 8th Floor, Room T-847",
+      "body": "Parks and Recreation Commission",
+      "location": "City Hall Tower, 17th Floor, Room T-1734",
       "has_agenda": false,
       "agenda_url": null,
       "has_minutes": false,
@@ -854,30 +854,20 @@
     },
     {
       "date": "2026-02-25",
+      "body": "San Jose Arena Authority",
+      "location": "1500 South Tenth Street",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-25",
       "body": "Joint Meeting for the Rules and Open Government Committee and Committee of the Whole",
       "location": "Council Chambers",
       "has_agenda": true,
       "agenda_url": "https://legistar.granicus.com/sanjose/meetings/2026/2/7636_A_Joint_Meeting_for_the_Rules_and_Open_Government_Committee_and_Committee_of_the_Whole_26-02-25_Administrative_Draft.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-25",
-      "body": "San Jose Arena Authority",
-      "location": "1500 South Tenth Street",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-25",
-      "body": "San Jose Arena Authority",
-      "location": "1500 South Tenth Street",
-      "has_agenda": false,
-      "agenda_url": null,
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -966,7 +956,7 @@
     }
   ],
   "legistar_url": "https://sanjose.legistar.com",
-  "enriched_at": "2026-03-06T19:08:29.362090",
+  "enriched_at": "2026-03-07T02:27:40.080592",
   "government_news": [],
   "video_meetings": [
     {

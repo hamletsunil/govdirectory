@@ -180,14 +180,14 @@
     "accela_agency_id": "MESA"
   },
   "development": {
-    "permits_12mo": 5199,
-    "yoy_trend_pct": 2.1,
-    "avg_permit_value": 916725.09,
-    "permits_per_capita_1k": 10.33,
+    "permits_12mo": 5218,
+    "yoy_trend_pct": 2.2,
+    "avg_permit_value": 957601.44,
+    "permits_per_capita_1k": 10.37,
     "permit_types": {
-      "RES": 3304,
-      "COM": 1418,
-      "SVC": 477
+      "RES": 3313,
+      "COM": 1427,
+      "SVC": 478
     },
     "datasets_count": 10
   },
@@ -491,8 +491,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://citydata.mesaaz.gov/resource/dzpk-hxfb.json",
-        "probed_at": "2026-03-06T19:11:18.793892",
-        "data_vintage": "Rolling 12-month window ending 2026-03-06",
+        "probed_at": "2026-03-07T02:28:45.895664",
+        "data_vintage": "Rolling 12-month window ending 2026-03-07",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -538,7 +538,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Mesa",
-        "probed_at": "2026-03-06T19:12:51.684719",
+        "probed_at": "2026-03-07T02:30:31.682932",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -807,6 +807,26 @@
   },
   "recent_meetings": [
     {
+      "date": "2026-04-06",
+      "body": "City Council Study Session",
+      "location": "Study Session",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-04-06",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
       "date": "2026-02-25",
       "body": "Planning and Zoning Board - Public Hearing",
       "location": "Council Chambers",
@@ -990,7 +1010,7 @@
     }
   ],
   "legistar_url": "https://mesa.legistar.com",
-  "enriched_at": "2026-03-06T19:04:13.899582",
+  "enriched_at": "2026-03-07T02:26:32.829211",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

@@ -561,7 +561,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Stpaul",
-        "probed_at": "2026-03-06T19:13:00.257218",
+        "probed_at": "2026-03-07T02:30:42.337114",
         "data_vintage": "BRFSS None",
         "geographic_level": "place",
         "status": "unavailable"
@@ -989,11 +989,11 @@
     },
     {
       "date": "2026-02-18",
-      "body": "Housing & Redevelopment Authority",
-      "location": "Council Chambers, City Hall",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
+      "body": "City Council",
+      "location": "Council Chambers - 3rd Floor",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/StPaul/meetings/2026/2/7564_A_City_Council_26-02-18_Meeting_Agenda.pdf",
+      "has_minutes": true,
       "has_video": false,
       "upcoming": false
     },
@@ -1009,11 +1009,11 @@
     },
     {
       "date": "2026-02-18",
-      "body": "City Council",
-      "location": "Council Chambers - 3rd Floor",
-      "has_agenda": true,
-      "agenda_url": "https://legistar1.granicus.com/StPaul/meetings/2026/2/7564_A_City_Council_26-02-18_Meeting_Agenda.pdf",
-      "has_minutes": true,
+      "body": "Housing & Redevelopment Authority",
+      "location": "Council Chambers, City Hall",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
       "has_video": false,
       "upcoming": false
     },
@@ -1131,7 +1131,7 @@
     }
   ],
   "legistar_url": "https://stpaul.legistar.com",
-  "enriched_at": "2026-03-06T19:09:17.438791",
+  "enriched_at": "2026-03-07T02:27:51.787564",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
