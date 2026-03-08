@@ -517,7 +517,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Laredo",
-        "probed_at": "2026-03-07T18:56:33.877576",
+        "probed_at": "2026-03-08T02:49:44.106961",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -879,6 +879,16 @@
       "upcoming": true
     },
     {
+      "date": "2026-04-07",
+      "body": "City Council",
+      "location": "City Council Chambers",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
       "date": "2026-03-02",
       "body": "City Council",
       "location": "City Council Chambers",
@@ -920,20 +930,20 @@
     },
     {
       "date": "2026-02-17",
-      "body": "City Council",
+      "body": "City Council - Supplemental Agenda",
       "location": "City Council Chambers",
-      "has_agenda": true,
-      "agenda_url": "https://cityoflaredo.legistar1.com/cityoflaredo/meetings/2026/2/1321_A_City_Council_26-02-17_Regular_Meeting_Agenda.pdf",
+      "has_agenda": false,
+      "agenda_url": null,
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
     },
     {
       "date": "2026-02-17",
-      "body": "City Council - Supplemental Agenda",
+      "body": "City Council",
       "location": "City Council Chambers",
-      "has_agenda": false,
-      "agenda_url": null,
+      "has_agenda": true,
+      "agenda_url": "https://cityoflaredo.legistar1.com/cityoflaredo/meetings/2026/2/1321_A_City_Council_26-02-17_Regular_Meeting_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -944,26 +954,6 @@
       "location": "City Council Chambers",
       "has_agenda": true,
       "agenda_url": "https://cityoflaredo.legistar1.com/cityoflaredo/meetings/2026/2/1385_A_City_Council_26-02-11_Special_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-05",
-      "body": "Planning & Zoning Commission",
-      "location": "City of Laredo City Hall \r\nCity Council Chambers\r\n1110 Houston Street\r\nLaredo, Texas 78040",
-      "has_agenda": true,
-      "agenda_url": "https://cityoflaredo.legistar1.com/cityoflaredo/meetings/2026/2/1379_A_Planning___Zoning_Commission_26-02-05_Regular_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-05",
-      "body": "Convention &Visitors Bureau Advisory Committee",
-      "location": "Convention & Visitors Bureau\r\n101 Salinas Ave\r\nLaredo, Texas 78040",
-      "has_agenda": false,
-      "agenda_url": null,
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -995,14 +985,6 @@
       "passed_date": null
     },
     {
-      "title": "Authorizing the City Manager to approve change order #2 in the amount of $12,500.00 to Southern Trenchless Solutions of La Feria, Texas for the 36-Inch Water Transmission Main from Zacate Creek to Lyo",
-      "type": "Consent Agenda",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-19",
-      "file_number": "26-434",
-      "passed_date": null
-    },
-    {
       "title": "Consideration to award a supply contract with BuyBoard vendor, ACT Pipe & Supply, Laredo, Texas, in the annual amount of $700,000.00 for a total contract value of $1,400,000.00 for the purchase of lif",
       "type": "Consent Agenda",
       "status": "Agenda Ready",
@@ -1011,11 +993,27 @@
       "passed_date": null
     },
     {
+      "title": "Authorizing the City Manager to approve change order #2 in the amount of $155,218.82 to Southern Trenchless Solutions of La Feria, Texas for the 36-Inch Water Transmission Main from Jefferson Water Tr",
+      "type": "Consent Agenda",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "26-433",
+      "passed_date": null
+    },
+    {
       "title": "Authorizing City Manager for final project acceptance of the construction of the City of Laredo 24-Inch WTR PRV Station inside Airport, including all warranty certificates, release of retainage, and f",
       "type": "Consent Agenda",
       "status": "Agenda Ready",
       "intro_date": "2026-02-19",
       "file_number": "26-435",
+      "passed_date": null
+    },
+    {
+      "title": "Presentation with possible adoption of the City's Efficiency Study, and its related fiscal and operational implications.",
+      "type": "Staff Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "26-420",
       "passed_date": null
     },
     {
@@ -1035,14 +1033,6 @@
       "passed_date": null
     },
     {
-      "title": "Presentation with possible adoption of the City's Efficiency Study, and its related fiscal and operational implications.",
-      "type": "Staff Report",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-19",
-      "file_number": "26-420",
-      "passed_date": null
-    },
-    {
       "title": "Authorizing the city manager to enter into and execute an Inter-local agreement between the Laredo Independent School District and the City of Laredo for joint use of certain outdoor recreational faci",
       "type": "Consent Agenda",
       "status": "Agenda Ready",
@@ -1052,7 +1042,7 @@
     }
   ],
   "legistar_url": "https://cityoflaredo.legistar.com",
-  "enriched_at": "2026-03-07T18:43:32.318520",
+  "enriched_at": "2026-03-08T02:37:44.210177",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

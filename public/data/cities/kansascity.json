@@ -116,16 +116,16 @@
     "accela_agency_id": "KANSAS"
   },
   "development": {
-    "permits_12mo": 3352,
+    "permits_12mo": 3349,
     "yoy_trend_pct": -81.9,
-    "avg_permit_value": 212255.76,
+    "avg_permit_value": 212447.17,
     "permit_types": {
       "Electrical General": 759,
-      "Plumbing General": 476,
-      "Mechanical General": 401,
+      "Plumbing General": 475,
+      "Mechanical General": 400,
       "Certificate of Occupancy (Residential)": 187,
       "Electrical with Service": 149,
-      "Single Family - Interior Remodel": 146,
+      "Single Family - Interior Remodel": 145,
       "Install/Replace Water Heater": 108,
       "Other": 107,
       "Single Family - New": 96,
@@ -292,8 +292,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.kcmo.org/resource/ntw8-aacc.json",
-        "probed_at": "2026-03-07T18:56:03.750269",
-        "data_vintage": "Rolling 12-month window ending 2026-03-07",
+        "probed_at": "2026-03-08T02:49:00.533106",
+        "data_vintage": "Rolling 12-month window ending 2026-03-08",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Permits - CPD Dataset",
@@ -758,16 +758,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-03-07",
-      "body": "Public Budget Hearings",
-      "location": "Winnetoka High School\r\n5815 NE 48th St., KCMO 64119",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-03-09",
       "body": "Lien Waiver Committee",
       "location": "City Planning & Development Department,\r\n15th Floor Large Conference Room, \r\n414 E 12th St, Kansas City, Missouri",
@@ -816,6 +806,16 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": true
+    },
+    {
+      "date": "2026-03-07",
+      "body": "Public Budget Hearings",
+      "location": "Winnetoka High School\r\n5815 NE 48th St., KCMO 64119",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     },
     {
       "date": "2026-03-05",
@@ -879,8 +879,8 @@
     },
     {
       "date": "2026-02-25",
-      "body": "Board of Zoning Adjustment",
-      "location": "The hearing will by hybrid; both in-person at City Hall, \r\n414 E 12th St, 10th floor Council Committee Room\r\nKansas City, MO and virtually via Zoom. \r\nDetails can be found at https://kcmo.gov/bza.",
+      "body": "Finance, Governance and Public Safety Committee",
+      "location": "26th Floor, Council Chamber",
       "has_agenda": false,
       "agenda_url": null,
       "has_minutes": false,
@@ -899,20 +899,10 @@
     },
     {
       "date": "2026-02-25",
-      "body": "Finance, Governance and Public Safety Committee",
-      "location": "26th Floor, Council Chamber",
+      "body": "Board of Zoning Adjustment",
+      "location": "The hearing will by hybrid; both in-person at City Hall, \r\n414 E 12th St, 10th floor Council Committee Room\r\nKansas City, MO and virtually via Zoom. \r\nDetails can be found at https://kcmo.gov/bza.",
       "has_agenda": false,
       "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-24",
-      "body": "Neighborhood Planning and Development Committee",
-      "location": "26th Floor, Council Chamber",
-      "has_agenda": true,
-      "agenda_url": "https://kansascity.legistar1.com/kansascity/meetings/2026/2/18982_A_Neighborhood_Planning_and_Development_Committee_26-02-24_Agenda_-_Committees.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -1001,7 +991,7 @@
     }
   ],
   "legistar_url": "https://kansascity.legistar.com",
-  "enriched_at": "2026-03-07T18:47:36.299261",
+  "enriched_at": "2026-03-08T02:40:54.923714",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
