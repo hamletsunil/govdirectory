@@ -169,17 +169,17 @@
     "accela_agency_id": "SEATTLE"
   },
   "development": {
-    "permits_12mo": 6312,
-    "yoy_trend_pct": 7.9,
-    "avg_permit_value": 1140636.2,
+    "permits_12mo": 6276,
+    "yoy_trend_pct": 7.3,
+    "avg_permit_value": 1145155.23,
     "permit_types": {
-      "Building": 5327,
-      "Demolition": 537,
-      "Roof": 423,
+      "Building": 5296,
+      "Demolition": 533,
+      "Roof": 422,
       "Grading": 25
     },
     "datasets_count": 10,
-    "permits_per_capita_1k": 8.59
+    "permits_per_capita_1k": 8.54
   },
   "meetings": {
     "official_channels": 1,
@@ -474,8 +474,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.seattle.gov/resource/76t5-zqzr.json",
-        "probed_at": "2026-03-09T19:16:15.695896",
-        "data_vintage": "Rolling 12-month window ending 2026-03-09",
+        "probed_at": "2026-03-10T02:45:21.650226",
+        "data_vintage": "Rolling 12-month window ending 2026-03-10",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -521,7 +521,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Seattle",
-        "probed_at": "2026-03-09T19:17:58.064573",
+        "probed_at": "2026-03-10T02:46:25.824654",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -1061,6 +1061,14 @@
       "passed_date": null
     },
     {
+      "title": "HSD’s (Human Services Department) 2024 Provider Pay Report",
+      "type": "Information Item (Inf)",
+      "status": "Committee Agenda Ready",
+      "intro_date": "2026-02-12",
+      "file_number": "Inf 2838",
+      "passed_date": null
+    },
+    {
       "title": "State of the City address delivered by Mayor Katie B. Wilson on February 17, 2026.",
       "type": "Clerk File (CF)",
       "status": "Filed with City Clerk",
@@ -1091,18 +1099,10 @@
       "intro_date": "2026-02-12",
       "file_number": "Inf 2836",
       "passed_date": null
-    },
-    {
-      "title": "Seattle Center Overview",
-      "type": "Information Item (Inf)",
-      "status": "Heard in Committee",
-      "intro_date": "2026-02-12",
-      "file_number": "Inf 2835",
-      "passed_date": null
     }
   ],
   "legistar_url": "https://seattle.legistar.com",
-  "enriched_at": "2026-03-09T19:14:16.157016",
+  "enriched_at": "2026-03-10T02:43:21.153630",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
