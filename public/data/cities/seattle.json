@@ -169,17 +169,17 @@
     "accela_agency_id": "SEATTLE"
   },
   "development": {
-    "permits_12mo": 6276,
-    "yoy_trend_pct": 7.3,
-    "avg_permit_value": 1145155.23,
+    "permits_12mo": 6326,
+    "yoy_trend_pct": 7.5,
+    "avg_permit_value": 1155815.78,
     "permit_types": {
-      "Building": 5296,
-      "Demolition": 533,
+      "Building": 5344,
+      "Demolition": 534,
       "Roof": 422,
-      "Grading": 25
+      "Grading": 26
     },
     "datasets_count": 10,
-    "permits_per_capita_1k": 8.54
+    "permits_per_capita_1k": 8.61
   },
   "meetings": {
     "official_channels": 1,
@@ -474,8 +474,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.seattle.gov/resource/76t5-zqzr.json",
-        "probed_at": "2026-03-10T19:14:35.429840",
-        "data_vintage": "Rolling 12-month window ending 2026-03-10",
+        "probed_at": "2026-03-11T02:33:18.561085",
+        "data_vintage": "Rolling 12-month window ending 2026-03-11",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -521,7 +521,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Seattle",
-        "probed_at": "2026-03-10T19:16:38.082813",
+        "probed_at": "2026-03-11T02:34:54.230969",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -1045,14 +1045,6 @@
       "passed_date": null
     },
     {
-      "title": "Appointment of Steven Zwerin as member, Civil Service Commission, for a term to December 31, 2028.",
-      "type": "Appointment (Appt)",
-      "status": "Filed with City Clerk",
-      "intro_date": "2026-02-13",
-      "file_number": "Appt 03443",
-      "passed_date": null
-    },
-    {
       "title": "Seattle Public Library 2019 Levy Background and Overview",
       "type": "Information Item (Inf)",
       "status": "Heard in Committee",
@@ -1061,27 +1053,11 @@
       "passed_date": null
     },
     {
-      "title": "HSD’s (Human Services Department) 2024 Provider Pay Report",
-      "type": "Information Item (Inf)",
-      "status": "Committee Agenda Ready",
-      "intro_date": "2026-02-12",
-      "file_number": "Inf 2838",
-      "passed_date": null
-    },
-    {
-      "title": "State of the City address delivered by Mayor Katie B. Wilson on February 17, 2026.",
-      "type": "Clerk File (CF)",
+      "title": "Appointment of Steven Zwerin as member, Civil Service Commission, for a term to December 31, 2028.",
+      "type": "Appointment (Appt)",
       "status": "Filed with City Clerk",
-      "intro_date": "2026-02-12",
-      "file_number": "CF 314547",
-      "passed_date": "2026-02-17"
-    },
-    {
-      "title": "Wage Equity for Human Services Contracts",
-      "type": "Information Item (Inf)",
-      "status": "Heard in Committee",
-      "intro_date": "2026-02-12",
-      "file_number": "Inf 2837",
+      "intro_date": "2026-02-13",
+      "file_number": "Appt 03443",
       "passed_date": null
     },
     {
@@ -1093,16 +1069,40 @@
       "passed_date": null
     },
     {
+      "title": "Seattle Center Overview",
+      "type": "Information Item (Inf)",
+      "status": "Heard in Committee",
+      "intro_date": "2026-02-12",
+      "file_number": "Inf 2835",
+      "passed_date": null
+    },
+    {
       "title": "Transportation Funding Task Force Update",
       "type": "Information Item (Inf)",
       "status": "Heard in Committee",
       "intro_date": "2026-02-12",
       "file_number": "Inf 2836",
       "passed_date": null
+    },
+    {
+      "title": "Human Services Provider Roundtable Discussion",
+      "type": "Information Item (Inf)",
+      "status": "Committee Agenda Ready",
+      "intro_date": "2026-02-12",
+      "file_number": "Inf 2841",
+      "passed_date": null
+    },
+    {
+      "title": "HSD’s (Human Services Department) 2024 Provider Pay Report",
+      "type": "Information Item (Inf)",
+      "status": "Committee Agenda Ready",
+      "intro_date": "2026-02-12",
+      "file_number": "Inf 2838",
+      "passed_date": null
     }
   ],
   "legistar_url": "https://seattle.legistar.com",
-  "enriched_at": "2026-03-10T19:12:32.628762",
+  "enriched_at": "2026-03-11T02:32:20.176216",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

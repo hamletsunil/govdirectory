@@ -495,7 +495,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Sacramento",
-        "probed_at": "2026-03-10T19:16:43.862812",
+        "probed_at": "2026-03-11T02:35:01.094358",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -861,26 +861,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-03-10",
-      "body": "City Council - 5PM",
-      "location": "City Hall Complex, 915 I Street, Sacramento, CA 95814",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
-      "date": "2026-03-10",
-      "body": "City Council - 2PM",
-      "location": "City Hall Complex, 915 I Street, Sacramento, CA 95814",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-03-12",
       "body": "Planning and Design Commission",
       "location": "City Hall Council Chamber - 915 I Street Sacramento, CA 95814",
@@ -892,7 +872,7 @@
     },
     {
       "date": "2026-03-31",
-      "body": "City Council - 2PM",
+      "body": "City Council - 5PM",
       "location": "City Hall Complex, 915 I Street, Sacramento, CA 95814",
       "has_agenda": false,
       "agenda_url": null,
@@ -902,6 +882,16 @@
     },
     {
       "date": "2026-03-31",
+      "body": "City Council - 2PM",
+      "location": "City Hall Complex, 915 I Street, Sacramento, CA 95814",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-04-07",
       "body": "City Council - 5PM",
       "location": "City Hall Complex, 915 I Street, Sacramento, CA 95814",
       "has_agenda": false,
@@ -921,14 +911,24 @@
       "upcoming": true
     },
     {
-      "date": "2026-04-07",
+      "date": "2026-03-10",
       "body": "City Council - 5PM",
       "location": "City Hall Complex, 915 I Street, Sacramento, CA 95814",
       "has_agenda": false,
       "agenda_url": null,
       "has_minutes": false,
       "has_video": false,
-      "upcoming": true
+      "upcoming": false
+    },
+    {
+      "date": "2026-03-10",
+      "body": "City Council - 2PM",
+      "location": "City Hall Complex, 915 I Street, Sacramento, CA 95814",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     },
     {
       "date": "2026-03-09",
@@ -1009,26 +1009,6 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
-    },
-    {
-      "date": "2026-02-24",
-      "body": "City Council - 5PM",
-      "location": "City Hall Complex, 915 I Street, Sacramento, CA 95814",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-23",
-      "body": "Ethics Commission",
-      "location": "City Hall Complex, 915 I Street, Sacramento, CA 95814",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
     }
   ],
   "recent_legislation": [
@@ -1065,22 +1045,6 @@
       "passed_date": null
     },
     {
-      "title": "Review of Applicants for the Civil Service Board",
-      "type": "Discussion Item",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-02",
-      "file_number": "2026-00554",
-      "passed_date": null
-    },
-    {
-      "title": "WKJ Test File - Ethel MacLeod Trust Fund Cycle 6 Funding Review and Recommendations February 2026",
-      "type": "Discussion Item",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-02",
-      "file_number": "2026-00547",
-      "passed_date": null
-    },
-    {
       "title": "Review of Applicants for the City of Sacramento Animal Wellbeing Commission",
       "type": "Discussion Item",
       "status": "Agenda Ready",
@@ -1097,24 +1061,40 @@
       "passed_date": null
     },
     {
-      "title": "WKJ Test File - Ethel MacLeod Trust Fund Financial Updates February 2026",
-      "type": "Consent Item",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-02",
-      "file_number": "2026-00546",
-      "passed_date": null
-    },
-    {
       "title": "Review of Applicants for the City of Sacramento Housing Code Advisory and Appeals Board",
       "type": "Discussion Item",
       "status": "Agenda Ready",
       "intro_date": "2026-02-02",
       "file_number": "2026-00555",
       "passed_date": null
+    },
+    {
+      "title": "Review of Applicants for the Civil Service Board",
+      "type": "Discussion Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-02",
+      "file_number": "2026-00554",
+      "passed_date": null
+    },
+    {
+      "title": "WKJ Test File - Selection of Chair and Vice Chair for Calendar Year 2026",
+      "type": "Discussion Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-02",
+      "file_number": "2026-00549",
+      "passed_date": null
+    },
+    {
+      "title": "WKJ Test File - Ethel MacLeod Trust Fund Cycle 7 Funding Review and Recommendations February 2026",
+      "type": "Discussion Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-02",
+      "file_number": "2026-00548",
+      "passed_date": null
     }
   ],
   "legistar_url": "https://sacramento.legistar.com",
-  "enriched_at": "2026-03-10T19:11:43.807282",
+  "enriched_at": "2026-03-11T02:32:08.789630",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

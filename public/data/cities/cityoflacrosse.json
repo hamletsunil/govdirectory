@@ -390,7 +390,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=La%20Crosse",
-        "probed_at": "2026-03-10T19:19:14.751903",
+        "probed_at": "2026-03-11T02:38:02.111240",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -659,16 +659,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-03-10",
-      "body": "Council Planning Meeting",
-      "location": "Council Chambers\r\n400 La Crosse Street",
-      "has_agenda": true,
-      "agenda_url": "https://legistar.granicus.com/cityoflacrosse/meetings/2026/3/7124_A_Council_Planning_Meeting_26-03-10_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-03-24",
       "body": "Common Council",
       "location": "Cliffwood Conference Room\r\nCity Hall, First Floor",
@@ -677,6 +667,16 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": true
+    },
+    {
+      "date": "2026-03-10",
+      "body": "Council Planning Meeting",
+      "location": "Council Chambers\r\n400 La Crosse Street",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/cityoflacrosse/meetings/2026/3/7124_A_Council_Planning_Meeting_26-03-10_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     },
     {
       "date": "2026-03-05",
@@ -720,16 +720,6 @@
     },
     {
       "date": "2026-02-19",
-      "body": "Board of Park Commissioners",
-      "location": "Council Chambers",
-      "has_agenda": true,
-      "agenda_url": "https://legistar.granicus.com/cityoflacrosse/meetings/2026/2/7203_A_Board_of_Park_Commissioners_26-02-19_Meeting_Agenda.pdf",
-      "has_minutes": true,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-19",
       "body": "City of La Crosse Diversity Equity Inclusion Team",
       "location": "Miller Room / Zoom",
       "has_agenda": true,
@@ -739,11 +729,11 @@
       "upcoming": false
     },
     {
-      "date": "2026-02-18",
-      "body": "Common Council",
-      "location": "Hedgehog Conference Room\r\nCity Hall, First Floor",
+      "date": "2026-02-19",
+      "body": "Board of Park Commissioners",
+      "location": "Council Chambers",
       "has_agenda": true,
-      "agenda_url": "https://legistar.granicus.com/cityoflacrosse/meetings/2026/2/7316_A_Common_Council_26-02-18_Meeting_Agenda.pdf",
+      "agenda_url": "https://legistar.granicus.com/cityoflacrosse/meetings/2026/2/7203_A_Board_of_Park_Commissioners_26-02-19_Meeting_Agenda.pdf",
       "has_minutes": true,
       "has_video": false,
       "upcoming": false
@@ -759,6 +749,16 @@
       "upcoming": false
     },
     {
+      "date": "2026-02-18",
+      "body": "Common Council",
+      "location": "Hedgehog Conference Room\r\nCity Hall, First Floor",
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/cityoflacrosse/meetings/2026/2/7316_A_Common_Council_26-02-18_Meeting_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
       "date": "2026-02-17",
       "body": "La Crosse Center Board",
       "location": "Council Chambers",
@@ -767,41 +767,15 @@
       "has_minutes": true,
       "has_video": false,
       "upcoming": false
-    },
-    {
-      "date": "2026-02-16",
-      "body": "Joint Board of Harbor Commissioners",
-      "location": "Hedgehog Room",
-      "has_agenda": true,
-      "agenda_url": "https://legistar.granicus.com/cityoflacrosse/meetings/2026/2/7228_A_Joint_Board_of_Harbor_Commissioners_26-02-16_Meeting_Agenda.pdf",
-      "has_minutes": true,
-      "has_video": false,
-      "upcoming": false
     }
   ],
   "recent_legislation": [
-    {
-      "title": "K.L.C Properties Street Privilege Permit request for projecting sign over right-of-way at 208 4th Street South.",
-      "type": "General Item",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-19",
-      "file_number": "26-0217",
-      "passed_date": null
-    },
     {
       "title": "Resolution approving Amendment No. 1 to the City of La Crosse Refuse and Recycling Services for City Buildings and Facilities 2022-2026 Contract by and between Hilltopper Refuse & Recycling Services a",
       "type": "Resolution",
       "status": "New Business",
       "intro_date": "2026-02-19",
       "file_number": "26-0214",
-      "passed_date": null
-    },
-    {
-      "title": "Tasos Psomas Street Privilege Permit request for signs over right-of-way at 200 6th Street South.",
-      "type": "General Item",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-19",
-      "file_number": "26-0216",
       "passed_date": null
     },
     {
@@ -813,6 +787,22 @@
       "passed_date": null
     },
     {
+      "title": "Tasos Psomas Street Privilege Permit request for signs over right-of-way at 200 6th Street South.",
+      "type": "General Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "26-0216",
+      "passed_date": null
+    },
+    {
+      "title": "K.L.C Properties Street Privilege Permit request for projecting sign over right-of-way at 208 4th Street South.",
+      "type": "General Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "26-0217",
+      "passed_date": null
+    },
+    {
       "title": "Finding and Order to amend the parking on the north side of the 1200 block of Badger Street to a 2 Hour Parking Zone.",
       "type": "Finding & Order",
       "status": "Agenda Ready",
@@ -821,27 +811,11 @@
       "passed_date": null
     },
     {
-      "title": "Resolution requesting TID 11 funds for Downtown Beautification Project.",
-      "type": "Resolution",
-      "status": "New Business",
-      "intro_date": "2026-02-18",
-      "file_number": "26-0209",
-      "passed_date": null
-    },
-    {
       "title": "Action on Approval to Purchase 622 Avon St, La Crosse WI 54603",
       "type": "General Item",
       "status": "Agenda Ready",
       "intro_date": "2026-02-18",
       "file_number": "26-0212",
-      "passed_date": null
-    },
-    {
-      "title": "Overview and Update from the Coulee Region Business Center (CRBC)",
-      "type": "General Item",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-18",
-      "file_number": "26-0210",
       "passed_date": null
     },
     {
@@ -859,10 +833,26 @@
       "intro_date": "2026-02-18",
       "file_number": "26-0208",
       "passed_date": null
+    },
+    {
+      "title": "Overview and Update from the Coulee Region Business Center (CRBC)",
+      "type": "General Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "26-0210",
+      "passed_date": null
+    },
+    {
+      "title": "Resolution requesting TID 11 funds for Downtown Beautification Project.",
+      "type": "Resolution",
+      "status": "New Business",
+      "intro_date": "2026-02-18",
+      "file_number": "26-0209",
+      "passed_date": null
     }
   ],
   "legistar_url": "https://cityoflacrosse.legistar.com",
-  "enriched_at": "2026-03-10T19:00:39.059600",
+  "enriched_at": "2026-03-11T02:28:40.915460",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
