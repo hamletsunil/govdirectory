@@ -78,20 +78,20 @@
     "rent_burden_ratio": 17.7,
     "cost_burdened_pct": 26.5,
     "severely_burdened_pct": 0.0,
-    "total_housing_units": 540,
-    "occupied_housing_units": 379,
-    "vacant_housing_units": 161,
-    "vacancy_rate": 29.81,
-    "occupancy_rate": 70.19,
-    "data_year": "2022",
+    "total_housing_units": 501,
+    "occupied_housing_units": 356,
+    "vacant_housing_units": 145,
+    "vacancy_rate": 28.94,
+    "occupancy_rate": 71.06,
+    "data_year": "2023",
     "vacancy_source": "Census ACS 5-Year",
-    "vacant_for_rent": 7,
+    "vacant_for_rent": 0,
     "vacant_rented_not_occupied": 0,
-    "vacant_for_sale": 0,
+    "vacant_for_sale": 31,
     "vacant_sold_not_occupied": 0,
-    "vacant_seasonal": 97,
+    "vacant_seasonal": 85,
     "vacant_migrant_workers": 0,
-    "vacant_other": 57
+    "vacant_other": 29
   },
   "health": {
     "uninsured_pct": 6.9,
@@ -531,7 +531,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Deer%20Park",
-        "probed_at": "2026-03-12T13:32:17.834839",
+        "probed_at": "2026-03-12T19:19:32.500662",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -1059,7 +1059,7 @@
     }
   ],
   "legistar_url": "https://cityofdeerpark.legistar.com",
-  "enriched_at": "2026-03-12T13:15:05.268610",
+  "enriched_at": "2026-03-12T19:03:16.225720",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

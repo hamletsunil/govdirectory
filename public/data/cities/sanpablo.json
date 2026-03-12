@@ -78,20 +78,20 @@
     "rent_burden_ratio": 25.6,
     "cost_burdened_pct": 55.85,
     "severely_burdened_pct": 22.11,
-    "total_housing_units": 10161,
-    "occupied_housing_units": 9737,
-    "vacant_housing_units": 424,
-    "vacancy_rate": 4.17,
-    "occupancy_rate": 95.83,
-    "data_year": "2022",
+    "total_housing_units": 10194,
+    "occupied_housing_units": 9847,
+    "vacant_housing_units": 347,
+    "vacancy_rate": 3.4,
+    "occupancy_rate": 96.6,
+    "data_year": "2023",
     "vacancy_source": "Census ACS 5-Year",
-    "vacant_for_rent": 202,
-    "vacant_rented_not_occupied": 75,
+    "vacant_for_rent": 171,
+    "vacant_rented_not_occupied": 67,
     "vacant_for_sale": 0,
     "vacant_sold_not_occupied": 0,
     "vacant_seasonal": 0,
     "vacant_migrant_workers": 0,
-    "vacant_other": 147
+    "vacant_other": 109
   },
   "health": {
     "uninsured_pct": 17.9,
@@ -531,7 +531,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=San%20Pablo",
-        "probed_at": "2026-03-12T13:31:48.465802",
+        "probed_at": "2026-03-12T19:19:05.906558",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -950,7 +950,7 @@
     }
   ],
   "legistar_url": "https://sanpablo.legistar.com",
-  "enriched_at": "2026-03-12T13:26:36.225725",
+  "enriched_at": "2026-03-12T19:14:18.933630",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
