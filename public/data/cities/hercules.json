@@ -77,20 +77,20 @@
     "rent_burden_ratio": 27.8,
     "cost_burdened_pct": 52.09,
     "severely_burdened_pct": 36.45,
-    "total_housing_units": 9615,
-    "occupied_housing_units": 9319,
-    "vacant_housing_units": 296,
-    "vacancy_rate": 3.08,
-    "occupancy_rate": 96.92,
-    "data_year": "2023",
+    "total_housing_units": 9301,
+    "occupied_housing_units": 8990,
+    "vacant_housing_units": 311,
+    "vacancy_rate": 3.34,
+    "occupancy_rate": 96.66,
+    "data_year": "2022",
     "vacancy_source": "Census ACS 5-Year",
-    "vacant_for_rent": 108,
+    "vacant_for_rent": 55,
     "vacant_rented_not_occupied": 0,
-    "vacant_for_sale": 99,
+    "vacant_for_sale": 108,
     "vacant_sold_not_occupied": 0,
-    "vacant_seasonal": 46,
+    "vacant_seasonal": 43,
     "vacant_migrant_workers": 0,
-    "vacant_other": 43
+    "vacant_other": 105
   },
   "health": {
     "uninsured_pct": 6.3,
@@ -509,7 +509,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Hercules",
-        "probed_at": "2026-03-12T07:21:45.784403",
+        "probed_at": "2026-03-12T13:31:54.099395",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -942,7 +942,7 @@
     }
   ],
   "legistar_url": "https://hercules.legistar.com",
-  "enriched_at": "2026-03-12T07:09:41.593044",
+  "enriched_at": "2026-03-12T13:19:36.251332",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

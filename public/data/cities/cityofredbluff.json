@@ -78,20 +78,20 @@
     "rent_burden_ratio": 34.5,
     "cost_burdened_pct": 49.99,
     "severely_burdened_pct": 24.2,
-    "total_housing_units": 6356,
-    "occupied_housing_units": 5831,
-    "vacant_housing_units": 525,
-    "vacancy_rate": 8.26,
-    "occupancy_rate": 91.74,
-    "data_year": "2023",
+    "total_housing_units": 6169,
+    "occupied_housing_units": 5838,
+    "vacant_housing_units": 331,
+    "vacancy_rate": 5.37,
+    "occupancy_rate": 94.63,
+    "data_year": "2022",
     "vacancy_source": "Census ACS 5-Year",
-    "vacant_for_rent": 97,
+    "vacant_for_rent": 58,
     "vacant_rented_not_occupied": 0,
-    "vacant_for_sale": 41,
-    "vacant_sold_not_occupied": 46,
+    "vacant_for_sale": 0,
+    "vacant_sold_not_occupied": 49,
     "vacant_seasonal": 0,
     "vacant_migrant_workers": 0,
-    "vacant_other": 341
+    "vacant_other": 224
   },
   "health": {
     "uninsured_pct": 11.1,
@@ -499,7 +499,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Red%20Bluff",
-        "probed_at": "2026-03-12T07:21:56.995046",
+        "probed_at": "2026-03-12T13:32:05.185390",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -838,7 +838,7 @@
     }
   ],
   "legistar_url": "https://cityofredbluff.legistar.com",
-  "enriched_at": "2026-03-12T07:06:22.390299",
+  "enriched_at": "2026-03-12T13:15:55.417523",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

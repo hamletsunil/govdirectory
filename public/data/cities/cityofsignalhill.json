@@ -78,20 +78,20 @@
     "rent_burden_ratio": 17.0,
     "cost_burdened_pct": 44.53,
     "severely_burdened_pct": 18.2,
-    "total_housing_units": 5037,
-    "occupied_housing_units": 4676,
-    "vacant_housing_units": 361,
-    "vacancy_rate": 7.17,
-    "occupancy_rate": 92.83,
-    "data_year": "2023",
+    "total_housing_units": 4960,
+    "occupied_housing_units": 4563,
+    "vacant_housing_units": 397,
+    "vacancy_rate": 8.0,
+    "occupancy_rate": 92.0,
+    "data_year": "2022",
     "vacancy_source": "Census ACS 5-Year",
-    "vacant_for_rent": 232,
+    "vacant_for_rent": 223,
     "vacant_rented_not_occupied": 0,
-    "vacant_for_sale": 14,
-    "vacant_sold_not_occupied": 29,
+    "vacant_for_sale": 19,
+    "vacant_sold_not_occupied": 34,
     "vacant_seasonal": 0,
     "vacant_migrant_workers": 0,
-    "vacant_other": 86
+    "vacant_other": 121
   },
   "health": {
     "uninsured_pct": 8.4,
@@ -520,7 +520,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Signal%20Hill",
-        "probed_at": "2026-03-12T07:21:59.207902",
+        "probed_at": "2026-03-12T13:32:07.476376",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -922,7 +922,7 @@
     }
   ],
   "legistar_url": "https://cityofsignalhill.legistar.com",
-  "enriched_at": "2026-03-12T07:06:25.281896",
+  "enriched_at": "2026-03-12T13:15:58.610793",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
