@@ -560,7 +560,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Manhattan%20Beach",
-        "probed_at": "2026-03-11T19:16:46.336272",
+        "probed_at": "2026-03-12T02:42:32.513303",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -911,20 +911,20 @@
     },
     {
       "date": "2026-02-23",
-      "body": "City Council Adjourned Regular Meeting",
+      "body": "Parks and Recreation Commission",
       "location": "City Council Chambers and Zoom",
-      "has_agenda": true,
-      "agenda_url": "https://legistar.granicus.com/ManhattanBeach/meetings/2026/2/2268_A_City_Council_Adjourned_Regular_Meeting_26-02-23_Agenda.pdf",
+      "has_agenda": false,
+      "agenda_url": null,
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
     },
     {
       "date": "2026-02-23",
-      "body": "Parks and Recreation Commission",
+      "body": "City Council Adjourned Regular Meeting",
       "location": "City Council Chambers and Zoom",
-      "has_agenda": false,
-      "agenda_url": null,
+      "has_agenda": true,
+      "agenda_url": "https://legistar.granicus.com/ManhattanBeach/meetings/2026/2/2268_A_City_Council_Adjourned_Regular_Meeting_26-02-23_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -945,16 +945,6 @@
       "location": "City Council Chambers and Zoom",
       "has_agenda": true,
       "agenda_url": "https://legistar.granicus.com/ManhattanBeach/meetings/2026/2/2189_A_City_Council_Regular_Meeting_26-02-17_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-09",
-      "body": "Library Commission",
-      "location": "City Council Chambers and Zoom",
-      "has_agenda": false,
-      "agenda_url": null,
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -1043,7 +1033,7 @@
     }
   ],
   "legistar_url": "https://manhattanbeach.legistar.com",
-  "enriched_at": "2026-03-11T19:07:32.327295",
+  "enriched_at": "2026-03-12T02:36:45.604304",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

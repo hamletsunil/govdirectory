@@ -169,13 +169,13 @@
     "accela_agency_id": "SEATTLE"
   },
   "development": {
-    "permits_12mo": 6326,
-    "yoy_trend_pct": 7.5,
-    "avg_permit_value": 1155815.78,
+    "permits_12mo": 6327,
+    "yoy_trend_pct": 7.8,
+    "avg_permit_value": 1161454.37,
     "permit_types": {
-      "Building": 5344,
-      "Demolition": 534,
-      "Roof": 422,
+      "Building": 5342,
+      "Demolition": 533,
+      "Roof": 426,
       "Grading": 26
     },
     "datasets_count": 10,
@@ -474,8 +474,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.seattle.gov/resource/76t5-zqzr.json",
-        "probed_at": "2026-03-11T19:14:03.536619",
-        "data_vintage": "Rolling 12-month window ending 2026-03-11",
+        "probed_at": "2026-03-12T02:38:51.679735",
+        "data_vintage": "Rolling 12-month window ending 2026-03-12",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -521,7 +521,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Seattle",
-        "probed_at": "2026-03-11T19:15:20.600103",
+        "probed_at": "2026-03-12T02:40:30.764798",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -930,20 +930,20 @@
     },
     {
       "date": "2026-02-24",
-      "body": "Public Safety Committee",
-      "location": "Council Chamber, City Hall \r\n600 4th Avenue \r\nSeattle, WA  98104",
+      "body": "City Council",
+      "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA 98104",
       "has_agenda": true,
-      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6597_A_Public_Safety_Committee_26-02-24_Committee_Agenda.pdf",
+      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6598_A_City_Council_26-02-24_Full_Council_Meeting_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
     },
     {
       "date": "2026-02-24",
-      "body": "City Council",
-      "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA 98104",
+      "body": "Public Safety Committee",
+      "location": "Council Chamber, City Hall \r\n600 4th Avenue \r\nSeattle, WA  98104",
       "has_agenda": true,
-      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6598_A_City_Council_26-02-24_Full_Council_Meeting_Agenda.pdf",
+      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6597_A_Public_Safety_Committee_26-02-24_Committee_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -1045,19 +1045,19 @@
       "passed_date": null
     },
     {
-      "title": "Seattle Public Library 2019 Levy Background and Overview",
-      "type": "Information Item (Inf)",
-      "status": "Heard in Committee",
-      "intro_date": "2026-02-13",
-      "file_number": "Inf 2839",
-      "passed_date": null
-    },
-    {
       "title": "Appointment of Steven Zwerin as member, Civil Service Commission, for a term to December 31, 2028.",
       "type": "Appointment (Appt)",
       "status": "Filed with City Clerk",
       "intro_date": "2026-02-13",
       "file_number": "Appt 03443",
+      "passed_date": null
+    },
+    {
+      "title": "Seattle Public Library 2019 Levy Background and Overview",
+      "type": "Information Item (Inf)",
+      "status": "Heard in Committee",
+      "intro_date": "2026-02-13",
+      "file_number": "Inf 2839",
       "passed_date": null
     },
     {
@@ -1069,19 +1069,19 @@
       "passed_date": null
     },
     {
-      "title": "Seattle Center Overview",
-      "type": "Information Item (Inf)",
-      "status": "Heard in Committee",
-      "intro_date": "2026-02-12",
-      "file_number": "Inf 2835",
-      "passed_date": null
-    },
-    {
       "title": "Transportation Funding Task Force Update",
       "type": "Information Item (Inf)",
       "status": "Heard in Committee",
       "intro_date": "2026-02-12",
       "file_number": "Inf 2836",
+      "passed_date": null
+    },
+    {
+      "title": "Seattle Center Overview",
+      "type": "Information Item (Inf)",
+      "status": "Heard in Committee",
+      "intro_date": "2026-02-12",
+      "file_number": "Inf 2835",
       "passed_date": null
     },
     {
@@ -1102,7 +1102,7 @@
     }
   ],
   "legistar_url": "https://seattle.legistar.com",
-  "enriched_at": "2026-03-11T19:12:12.400292",
+  "enriched_at": "2026-03-12T02:38:07.884264",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

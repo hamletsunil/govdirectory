@@ -116,25 +116,25 @@
     "accela_agency_id": "KANSAS"
   },
   "development": {
-    "permits_12mo": 3210,
-    "yoy_trend_pct": -82.6,
-    "avg_permit_value": 209816.77,
+    "permits_12mo": 3135,
+    "yoy_trend_pct": -83.0,
+    "avg_permit_value": 212242.3,
     "permit_types": {
-      "Electrical General": 724,
-      "Plumbing General": 459,
-      "Mechanical General": 392,
+      "Electrical General": 711,
+      "Plumbing General": 445,
+      "Mechanical General": 378,
       "Certificate of Occupancy (Residential)": 186,
-      "Electrical with Service": 141,
-      "Single Family - Interior Remodel": 136,
+      "Electrical with Service": 138,
+      "Single Family - Interior Remodel": 134,
       "Other": 107,
-      "Install/Replace Water Heater": 106,
-      "Single Family - New": 94,
+      "Install/Replace Water Heater": 99,
+      "Single Family - New": 92,
       "Renovation": 90,
-      "Plumbing with Limited Service": 71,
+      "Plumbing with Limited Service": 68,
       "Security Alarms": 61,
-      "Fire Protection System": 56,
-      "Electrical Fire Alarm Commercial": 53,
-      "Electrical Reconnect": 53
+      "Fire Protection System": 55,
+      "Electrical Reconnect": 52,
+      "Wall Sign / Projecting Sign": 50
     },
     "datasets_count": 1
   },
@@ -292,8 +292,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.kcmo.org/resource/ntw8-aacc.json",
-        "probed_at": "2026-03-11T19:15:02.353087",
-        "data_vintage": "Rolling 12-month window ending 2026-03-11",
+        "probed_at": "2026-03-12T02:39:57.689730",
+        "data_vintage": "Rolling 12-month window ending 2026-03-12",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Permits - CPD Dataset",
@@ -758,16 +758,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-03-11",
-      "body": "Architect and Engineering Selection Committee",
-      "location": "4800 E 63rd Street, Kansas City Missouri, 64130",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-03-18",
       "body": "Risk Management Committee",
       "location": "Virtual Closed Session",
@@ -796,6 +786,16 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": true
+    },
+    {
+      "date": "2026-03-11",
+      "body": "Architect and Engineering Selection Committee",
+      "location": "4800 E 63rd Street, Kansas City Missouri, 64130",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     },
     {
       "date": "2026-03-09",
@@ -886,16 +886,6 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
-    },
-    {
-      "date": "2026-02-25",
-      "body": "Employee Retirement System Board of Trustees",
-      "location": "Finance Department, Large Conference Room, located on the 3rd Floor and North side of City Hall and virtually via Microsoft Teams.",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
     }
   ],
   "recent_legislation": [
@@ -981,7 +971,7 @@
     }
   ],
   "legistar_url": "https://kansascity.legistar.com",
-  "enriched_at": "2026-03-11T19:06:20.723034",
+  "enriched_at": "2026-03-12T02:36:20.271838",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

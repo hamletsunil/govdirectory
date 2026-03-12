@@ -529,7 +529,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Goleta",
-        "probed_at": "2026-03-11T19:16:47.006759",
+        "probed_at": "2026-03-12T02:42:33.506046",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -840,20 +840,20 @@
     },
     {
       "date": "2026-02-18",
-      "body": "City Council",
-      "location": "Special \r\n\r\n5:30 P.M.\r\n\r\nCity Hall, Council Chambers\r\n130 Cremona Dr.\r\nGoleta, CA",
-      "has_agenda": true,
-      "agenda_url": "https://goleta.legistar1.com/goleta/meetings/2026/2/3212_A_City_Council_26-02-18_Agenda.pdf",
+      "body": "Agenda del Concejo Municipal",
+      "location": "Reunión Ordinaria 5:30 P.M.\r\n\r\nAyuntamiento, Cámaras del Consejo\r\n130 Cremona Dr.\r\nGoleta, CA",
+      "has_agenda": false,
+      "agenda_url": null,
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
     },
     {
       "date": "2026-02-18",
-      "body": "Agenda del Concejo Municipal",
-      "location": "Reunión Ordinaria 5:30 P.M.\r\n\r\nAyuntamiento, Cámaras del Consejo\r\n130 Cremona Dr.\r\nGoleta, CA",
-      "has_agenda": false,
-      "agenda_url": null,
+      "body": "City Council",
+      "location": "Special \r\n\r\n5:30 P.M.\r\n\r\nCity Hall, Council Chambers\r\n130 Cremona Dr.\r\nGoleta, CA",
+      "has_agenda": true,
+      "agenda_url": "https://goleta.legistar1.com/goleta/meetings/2026/2/3212_A_City_Council_26-02-18_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -884,16 +884,6 @@
       "location": "3:00 P.M.\r\nCity Hall, Council Chambers \r\n130 Cremona Drive, Goleta, California",
       "has_agenda": true,
       "agenda_url": "https://goleta.legistar1.com/goleta/meetings/2026/2/3224_A__Design_Review_Board_26-02-10_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-09",
-      "body": "Planning Commission",
-      "location": "6:00 P.M.\r\nCity Hall, Council Chambers \r\n130 Cremona Dr. Goleta, CA",
-      "has_agenda": true,
-      "agenda_url": "https://goleta.legistar1.com/goleta/meetings/2026/2/3222_A_Planning_Commission_26-02-09_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -982,7 +972,7 @@
     }
   ],
   "legistar_url": "https://goleta.legistar.com",
-  "enriched_at": "2026-03-11T19:05:13.040011",
+  "enriched_at": "2026-03-12T02:36:00.973441",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

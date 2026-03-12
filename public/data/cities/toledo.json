@@ -532,7 +532,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Toledo",
-        "probed_at": "2026-03-11T19:15:38.191192",
+        "probed_at": "2026-03-12T02:40:55.680664",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -989,10 +989,10 @@
     },
     {
       "date": "2026-02-25",
-      "body": "Toledo City Plan Commission",
+      "body": "Lucas County Plan Commission",
       "location": "Council Chambers",
       "has_agenda": true,
-      "agenda_url": "https://legistar2.granicus.com/toledo/meetings/2026/2/4006_A_Toledo_City_Plan_Commission_26-02-25_Formal_Agenda.pdf",
+      "agenda_url": "https://legistar2.granicus.com/toledo/meetings/2026/2/3977_A_Lucas_County_Plan_Commission_26-02-25_Formal_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -1009,10 +1009,10 @@
     },
     {
       "date": "2026-02-25",
-      "body": "Lucas County Plan Commission",
+      "body": "Toledo City Plan Commission",
       "location": "Council Chambers",
       "has_agenda": true,
-      "agenda_url": "https://legistar2.granicus.com/toledo/meetings/2026/2/3977_A_Lucas_County_Plan_Commission_26-02-25_Formal_Agenda.pdf",
+      "agenda_url": "https://legistar2.granicus.com/toledo/meetings/2026/2/4006_A_Toledo_City_Plan_Commission_26-02-25_Formal_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -1039,20 +1039,20 @@
     },
     {
       "date": "2026-02-17",
-      "body": "SPECIAL RECORDED CONTENT",
-      "location": "City Council Chambers",
-      "has_agenda": false,
-      "agenda_url": null,
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/toledo/meetings/2026/2/4008_A_City_Council_26-02-17_Formal_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
     },
     {
       "date": "2026-02-17",
-      "body": "City Council",
-      "location": "Council Chambers",
-      "has_agenda": true,
-      "agenda_url": "https://legistar2.granicus.com/toledo/meetings/2026/2/4008_A_City_Council_26-02-17_Formal_Agenda.pdf",
+      "body": "SPECIAL RECORDED CONTENT",
+      "location": "City Council Chambers",
+      "has_agenda": false,
+      "agenda_url": null,
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -1070,14 +1070,6 @@
   ],
   "recent_legislation": [
     {
-      "title": "Appointment to the Home Improvement Home Remodeling Board of Control",
-      "type": "Appointment",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-20",
-      "file_number": "TMP-12259",
-      "passed_date": null
-    },
-    {
       "title": "Appointment - Toledo-Lucas County Commission on Disabilities",
       "type": "Appointment",
       "status": "Agenda Ready",
@@ -1094,6 +1086,30 @@
       "passed_date": null
     },
     {
+      "title": "Appointment to the Home Improvement Home Remodeling Board of Control",
+      "type": "Appointment",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-20",
+      "file_number": "TMP-12259",
+      "passed_date": null
+    },
+    {
+      "title": "Amending TMC 1104.0100 Use Table addition Special use requirements for storage facilities.",
+      "type": "Ordinance",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "TMP-12253",
+      "passed_date": null
+    },
+    {
+      "title": "Text Amendment 1111.0610 regarding Legacy Zone Changes",
+      "type": "Ordinance",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "TMP-12255",
+      "passed_date": null
+    },
+    {
       "title": "Amending TMC 1106.0401 to remove “Major” from site plan review for density bonus.",
       "type": "Ordinance",
       "status": "Agenda Ready",
@@ -1102,19 +1118,19 @@
       "passed_date": null
     },
     {
-      "title": "Zone Change at 1839 Tremainsville Road",
-      "type": "Ordinance",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-18",
-      "file_number": "TMP-12250",
-      "passed_date": null
-    },
-    {
       "title": "Map Amendment to the Vistula Neighborhood",
       "type": "Ordinance",
       "status": "Agenda Ready",
       "intro_date": "2026-02-18",
       "file_number": "TMP-12252",
+      "passed_date": null
+    },
+    {
+      "title": "Zone Change at 1839 Tremainsville Road",
+      "type": "Ordinance",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "TMP-12250",
       "passed_date": null
     },
     {
@@ -1132,26 +1148,10 @@
       "intro_date": "2026-02-18",
       "file_number": "TMP-12251",
       "passed_date": null
-    },
-    {
-      "title": "Text Amendment 1111.0610 regarding Legacy Zone Changes",
-      "type": "Ordinance",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-18",
-      "file_number": "TMP-12255",
-      "passed_date": null
-    },
-    {
-      "title": "Amending TMC 1104.0100 Use Table addition Special use requirements for storage facilities.",
-      "type": "Ordinance",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-18",
-      "file_number": "TMP-12253",
-      "passed_date": null
     }
   ],
   "legistar_url": "https://toledo.legistar.com",
-  "enriched_at": "2026-03-11T19:12:43.376211",
+  "enriched_at": "2026-03-12T02:38:16.595031",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

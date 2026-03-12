@@ -180,14 +180,14 @@
     "accela_agency_id": "MESA"
   },
   "development": {
-    "permits_12mo": 5208,
-    "yoy_trend_pct": 2.0,
-    "avg_permit_value": 968009.0,
-    "permits_per_capita_1k": 10.35,
+    "permits_12mo": 5196,
+    "yoy_trend_pct": 1.7,
+    "avg_permit_value": 972585.14,
+    "permits_per_capita_1k": 10.32,
     "permit_types": {
-      "RES": 3304,
-      "COM": 1427,
-      "SVC": 477
+      "RES": 3296,
+      "COM": 1426,
+      "SVC": 474
     },
     "datasets_count": 10
   },
@@ -491,8 +491,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://citydata.mesaaz.gov/resource/dzpk-hxfb.json",
-        "probed_at": "2026-03-11T19:14:16.898470",
-        "data_vintage": "Rolling 12-month window ending 2026-03-11",
+        "probed_at": "2026-03-12T02:39:04.092304",
+        "data_vintage": "Rolling 12-month window ending 2026-03-12",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -538,7 +538,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Mesa",
-        "probed_at": "2026-03-11T19:15:26.555454",
+        "probed_at": "2026-03-12T02:40:39.427889",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -838,20 +838,20 @@
     },
     {
       "date": "2026-02-25",
-      "body": "Planning and Zoning Board - Public Hearing",
-      "location": "Council Chambers",
+      "body": "Planning and Zoning Board - Study Session",
+      "location": "Study Session",
       "has_agenda": true,
-      "agenda_url": "https://legistar1.granicus.com/Mesa/meetings/2026/2/4624_A_Planning_and_Zoning_Board_-_Public_Hearing_26-02-25_Meeting_Agenda.pdf",
+      "agenda_url": "https://legistar1.granicus.com/Mesa/meetings/2026/2/4642_A_Planning_and_Zoning_Board_-_Study_Session_26-02-25_Meeting_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
     },
     {
       "date": "2026-02-25",
-      "body": "Planning and Zoning Board - Study Session",
-      "location": "Study Session",
+      "body": "Planning and Zoning Board - Public Hearing",
+      "location": "Council Chambers",
       "has_agenda": true,
-      "agenda_url": "https://legistar1.granicus.com/Mesa/meetings/2026/2/4642_A_Planning_and_Zoning_Board_-_Study_Session_26-02-25_Meeting_Agenda.pdf",
+      "agenda_url": "https://legistar1.granicus.com/Mesa/meetings/2026/2/4624_A_Planning_and_Zoning_Board_-_Public_Hearing_26-02-25_Meeting_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -912,26 +912,6 @@
       "location": "Study Session",
       "has_agenda": true,
       "agenda_url": "https://legistar1.granicus.com/Mesa/meetings/2026/2/4621_A_Design_Review_Board_26-02-10_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-09",
-      "body": "City Council Study Session",
-      "location": "Study Session",
-      "has_agenda": true,
-      "agenda_url": "https://legistar1.granicus.com/Mesa/meetings/2026/2/4493_A_City_Council_Study_Session_26-02-09_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-09",
-      "body": "City Council",
-      "location": "Council Chambers",
-      "has_agenda": true,
-      "agenda_url": "https://legistar1.granicus.com/Mesa/meetings/2026/2/4489_A_City_Council_26-02-09_Meeting_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -1020,7 +1000,7 @@
     }
   ],
   "legistar_url": "https://mesa.legistar.com",
-  "enriched_at": "2026-03-11T19:08:03.465197",
+  "enriched_at": "2026-03-12T02:36:54.912554",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
