@@ -169,14 +169,14 @@
     "accela_agency_id": "SEATTLE"
   },
   "development": {
-    "permits_12mo": 6327,
-    "yoy_trend_pct": 7.8,
-    "avg_permit_value": 1161454.37,
+    "permits_12mo": 6328,
+    "yoy_trend_pct": 7.9,
+    "avg_permit_value": 1161580.66,
     "permit_types": {
-      "Building": 5342,
-      "Demolition": 533,
-      "Roof": 426,
-      "Grading": 26
+      "Building": 5340,
+      "Demolition": 534,
+      "Roof": 427,
+      "Grading": 27
     },
     "datasets_count": 10,
     "permits_per_capita_1k": 8.61
@@ -474,8 +474,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.seattle.gov/resource/76t5-zqzr.json",
-        "probed_at": "2026-03-12T19:16:24.453145",
-        "data_vintage": "Rolling 12-month window ending 2026-03-12",
+        "probed_at": "2026-03-13T02:40:17.708350",
+        "data_vintage": "Rolling 12-month window ending 2026-03-13",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -521,7 +521,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Seattle",
-        "probed_at": "2026-03-12T19:17:29.505718",
+        "probed_at": "2026-03-13T02:41:33.520873",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -970,20 +970,20 @@
     },
     {
       "date": "2026-02-19",
-      "body": "Transportation, Waterfront, and Seattle Center Committee",
-      "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA 98104",
+      "body": "Libraries, Education, and Neighborhoods Committee",
+      "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA  98104",
       "has_agenda": true,
-      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6591_A_Transportation%2C_Waterfront%2C_and_Seattle_Center_Committee_26-02-19_Committee_Agenda.pdf",
+      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6594_A_Libraries%2C_Education%2C_and_Neighborhoods_Committee_26-02-19_Committee_Agenda.pdf",
       "has_minutes": true,
       "has_video": false,
       "upcoming": false
     },
     {
       "date": "2026-02-19",
-      "body": "Libraries, Education, and Neighborhoods Committee",
-      "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA  98104",
+      "body": "Transportation, Waterfront, and Seattle Center Committee",
+      "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA 98104",
       "has_agenda": true,
-      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6594_A_Libraries%2C_Education%2C_and_Neighborhoods_Committee_26-02-19_Committee_Agenda.pdf",
+      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6591_A_Transportation%2C_Waterfront%2C_and_Seattle_Center_Committee_26-02-19_Committee_Agenda.pdf",
       "has_minutes": true,
       "has_video": false,
       "upcoming": false
@@ -1102,7 +1102,7 @@
     }
   ],
   "legistar_url": "https://seattle.legistar.com",
-  "enriched_at": "2026-03-12T19:14:33.064870",
+  "enriched_at": "2026-03-13T02:39:00.298394",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

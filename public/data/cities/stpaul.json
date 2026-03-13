@@ -561,7 +561,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Stpaul",
-        "probed_at": "2026-03-12T19:17:44.397290",
+        "probed_at": "2026-03-13T02:41:50.643510",
         "data_vintage": "BRFSS None",
         "geographic_level": "place",
         "status": "unavailable"
@@ -989,16 +989,6 @@
     },
     {
       "date": "2026-02-18",
-      "body": "City Council",
-      "location": "Council Chambers - 3rd Floor",
-      "has_agenda": true,
-      "agenda_url": "https://legistar1.granicus.com/StPaul/meetings/2026/2/7564_A_City_Council_26-02-18_Meeting_Agenda.pdf",
-      "has_minutes": true,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-18",
       "body": "Policy Committee",
       "location": "Council Chambers, City Hall",
       "has_agenda": false,
@@ -1018,12 +1008,12 @@
       "upcoming": false
     },
     {
-      "date": "2026-02-17",
-      "body": "Legislative Hearings",
-      "location": "Room 330 City Hall & Court House/Remote",
+      "date": "2026-02-18",
+      "body": "City Council",
+      "location": "Council Chambers - 3rd Floor",
       "has_agenda": true,
-      "agenda_url": "https://legistar1.granicus.com/StPaul/meetings/2026/2/7565_A_Legislative_Hearings_26-02-17_ADA_Meeting_Agenda.pdf",
-      "has_minutes": false,
+      "agenda_url": "https://legistar1.granicus.com/StPaul/meetings/2026/2/7564_A_City_Council_26-02-18_Meeting_Agenda.pdf",
+      "has_minutes": true,
       "has_video": false,
       "upcoming": false
     },
@@ -1034,6 +1024,16 @@
       "has_agenda": true,
       "agenda_url": "https://legistar1.granicus.com/StPaul/meetings/2026/2/7554_A_Audit_Committee_26-02-17_ADA_Meeting_Agenda.pdf",
       "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "Legislative Hearings",
+      "location": "Room 330 City Hall & Court House/Remote",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/StPaul/meetings/2026/2/7565_A_Legislative_Hearings_26-02-17_ADA_Meeting_Agenda.pdf",
+      "has_minutes": false,
       "has_video": false,
       "upcoming": false
     },
@@ -1131,7 +1131,7 @@
     }
   ],
   "legistar_url": "https://stpaul.legistar.com",
-  "enriched_at": "2026-03-12T19:14:57.465367",
+  "enriched_at": "2026-03-13T02:39:12.215085",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
