@@ -532,7 +532,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Toledo",
-        "probed_at": "2026-03-13T19:06:40.495352",
+        "probed_at": "2026-03-14T02:35:17.382453",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -1039,16 +1039,6 @@
     },
     {
       "date": "2026-02-17",
-      "body": "City Council",
-      "location": "Council Chambers",
-      "has_agenda": true,
-      "agenda_url": "https://legistar2.granicus.com/toledo/meetings/2026/2/4008_A_City_Council_26-02-17_Formal_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-17",
       "body": "SPECIAL RECORDED CONTENT",
       "location": "City Council Chambers",
       "has_agenda": false,
@@ -1058,11 +1048,21 @@
       "upcoming": false
     },
     {
-      "date": "2026-02-13",
-      "body": "Board of Revision of Assessments",
+      "date": "2026-02-17",
+      "body": "City Council",
       "location": "Council Chambers",
       "has_agenda": true,
-      "agenda_url": "https://legistar2.granicus.com/toledo/meetings/2026/2/4010_A_Board_of_Revision_of_Assessments_26-02-13_Committee_Meeting_Agenda.pdf",
+      "agenda_url": "https://legistar2.granicus.com/toledo/meetings/2026/2/4008_A_City_Council_26-02-17_Formal_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-13",
+      "body": "Water Quality Committee",
+      "location": "City Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/toledo/meetings/2026/2/4007_A_Water_Quality_Committee_26-02-13_Committee_Meeting_Agenda.pdf",
       "has_minutes": true,
       "has_video": false,
       "upcoming": false
@@ -1151,7 +1151,7 @@
     }
   ],
   "legistar_url": "https://toledo.legistar.com",
-  "enriched_at": "2026-03-13T19:04:04.618337",
+  "enriched_at": "2026-03-14T02:32:47.516013",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

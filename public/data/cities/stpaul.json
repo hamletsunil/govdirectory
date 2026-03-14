@@ -561,7 +561,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Stpaul",
-        "probed_at": "2026-03-13T19:06:36.540809",
+        "probed_at": "2026-03-14T02:35:12.247572",
         "data_vintage": "BRFSS None",
         "geographic_level": "place",
         "status": "unavailable"
@@ -989,6 +989,16 @@
     },
     {
       "date": "2026-02-18",
+      "body": "City Council",
+      "location": "Council Chambers - 3rd Floor",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/StPaul/meetings/2026/2/7564_A_City_Council_26-02-18_Meeting_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-18",
       "body": "Policy Committee",
       "location": "Council Chambers, City Hall",
       "has_agenda": false,
@@ -1008,26 +1018,6 @@
       "upcoming": false
     },
     {
-      "date": "2026-02-18",
-      "body": "City Council",
-      "location": "Council Chambers - 3rd Floor",
-      "has_agenda": true,
-      "agenda_url": "https://legistar1.granicus.com/StPaul/meetings/2026/2/7564_A_City_Council_26-02-18_Meeting_Agenda.pdf",
-      "has_minutes": true,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-17",
-      "body": "Audit Committee",
-      "location": "City Hall, 3rd Floor",
-      "has_agenda": true,
-      "agenda_url": "https://legistar1.granicus.com/StPaul/meetings/2026/2/7554_A_Audit_Committee_26-02-17_ADA_Meeting_Agenda.pdf",
-      "has_minutes": true,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
       "date": "2026-02-17",
       "body": "Legislative Hearings",
       "location": "Room 330 City Hall & Court House/Remote",
@@ -1038,11 +1028,11 @@
       "upcoming": false
     },
     {
-      "date": "2026-02-11",
-      "body": "Organizational Committee",
-      "location": "Council Chambers",
+      "date": "2026-02-17",
+      "body": "Audit Committee",
+      "location": "City Hall, 3rd Floor",
       "has_agenda": true,
-      "agenda_url": "https://legistar1.granicus.com/StPaul/meetings/2026/2/7549_A_Organizational_Committee_26-02-11_ADA_Meeting_Agenda.pdf",
+      "agenda_url": "https://legistar1.granicus.com/StPaul/meetings/2026/2/7554_A_Audit_Committee_26-02-17_ADA_Meeting_Agenda.pdf",
       "has_minutes": true,
       "has_video": false,
       "upcoming": false
@@ -1131,7 +1121,7 @@
     }
   ],
   "legistar_url": "https://stpaul.legistar.com",
-  "enriched_at": "2026-03-13T19:03:54.754261",
+  "enriched_at": "2026-03-14T02:32:45.098181",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

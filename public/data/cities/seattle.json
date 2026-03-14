@@ -169,17 +169,17 @@
     "accela_agency_id": "SEATTLE"
   },
   "development": {
-    "permits_12mo": 6328,
-    "yoy_trend_pct": 7.9,
-    "avg_permit_value": 1161580.66,
+    "permits_12mo": 6337,
+    "yoy_trend_pct": 8.2,
+    "avg_permit_value": 1160077.9,
     "permit_types": {
-      "Building": 5340,
+      "Building": 5348,
       "Demolition": 534,
-      "Roof": 427,
+      "Roof": 428,
       "Grading": 27
     },
     "datasets_count": 10,
-    "permits_per_capita_1k": 8.61
+    "permits_per_capita_1k": 8.63
   },
   "meetings": {
     "official_channels": 1,
@@ -474,8 +474,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.seattle.gov/resource/76t5-zqzr.json",
-        "probed_at": "2026-03-13T19:05:05.392401",
-        "data_vintage": "Rolling 12-month window ending 2026-03-13",
+        "probed_at": "2026-03-14T02:33:26.758495",
+        "data_vintage": "Rolling 12-month window ending 2026-03-14",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -521,7 +521,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Seattle",
-        "probed_at": "2026-03-13T19:06:22.674447",
+        "probed_at": "2026-03-14T02:34:55.112182",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -990,16 +990,6 @@
     },
     {
       "date": "2026-02-18",
-      "body": "Parks and City Light Committee",
-      "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA 98104",
-      "has_agenda": true,
-      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6583_A_Parks_and_City_Light_Committee_26-02-18_Committee_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-18",
       "body": "Land Use and Sustainability Committee",
       "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA 98104",
       "has_agenda": true,
@@ -1009,12 +999,22 @@
       "upcoming": false
     },
     {
-      "date": "2026-02-17",
-      "body": "Finance, Native Communities, and Tribal Governments Committee",
+      "date": "2026-02-18",
+      "body": "Parks and City Light Committee",
       "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA 98104",
       "has_agenda": true,
-      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6589_A_Finance%2C_Native_Communities%2C_and_Tribal_Governments_Committee_26-02-17_Committee_Agenda.pdf",
-      "has_minutes": true,
+      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6583_A_Parks_and_City_Light_Committee_26-02-18_Committee_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "City Council",
+      "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA 98104",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6592_A_City_Council_26-02-17_Full_Council_Meeting_Agenda.pdf",
+      "has_minutes": false,
       "has_video": false,
       "upcoming": false
     }
@@ -1102,7 +1102,7 @@
     }
   ],
   "legistar_url": "https://seattle.legistar.com",
-  "enriched_at": "2026-03-13T19:03:32.426409",
+  "enriched_at": "2026-03-14T02:32:39.099020",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

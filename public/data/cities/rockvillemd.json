@@ -600,7 +600,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Rockville",
-        "probed_at": "2026-03-13T19:07:29.211517",
+        "probed_at": "2026-03-14T02:36:19.793074",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -980,6 +980,16 @@
     },
     {
       "date": "2026-03-11",
+      "body": "Planning Commission",
+      "location": "WebEx",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-03-11",
       "body": "Cultural Arts Commission",
       "location": "WebEx: https://rockvillemd.webex.com/rockvillemd/j.php?MTID=m0cc4da8cac253d1859795d7acae6638a",
       "has_agenda": false,
@@ -992,16 +1002,6 @@
       "date": "2026-03-11",
       "body": "Youth Commission",
       "location": null,
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-03-11",
-      "body": "Planning Commission",
-      "location": "WebEx",
       "has_agenda": false,
       "agenda_url": null,
       "has_minutes": false,
@@ -1050,20 +1050,20 @@
     },
     {
       "date": "2026-03-02",
-      "body": "Leadership Planning",
-      "location": null,
-      "has_agenda": false,
-      "agenda_url": null,
+      "body": "Mayor and Council",
+      "location": "WebEx",
+      "has_agenda": true,
+      "agenda_url": "https://rockvillemd.legistar1.com/rockvillemd/meetings/2026/3/2390_A_Mayor_and_Council_26-03-02_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
     },
     {
       "date": "2026-03-02",
-      "body": "Mayor and Council",
-      "location": "WebEx",
-      "has_agenda": true,
-      "agenda_url": "https://rockvillemd.legistar1.com/rockvillemd/meetings/2026/3/2390_A_Mayor_and_Council_26-03-02_Agenda.pdf",
+      "body": "Leadership Planning",
+      "location": null,
+      "has_agenda": false,
+      "agenda_url": null,
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -1152,7 +1152,7 @@
     }
   ],
   "legistar_url": "https://rockvillemd.legistar.com",
-  "enriched_at": "2026-03-13T19:02:43.729749",
+  "enriched_at": "2026-03-14T02:32:25.514898",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
