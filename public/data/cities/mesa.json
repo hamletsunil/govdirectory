@@ -180,14 +180,14 @@
     "accela_agency_id": "MESA"
   },
   "development": {
-    "permits_12mo": 5211,
-    "yoy_trend_pct": 2.1,
-    "avg_permit_value": 976109.01,
-    "permits_per_capita_1k": 10.35,
+    "permits_12mo": 5218,
+    "yoy_trend_pct": 2.3,
+    "avg_permit_value": 974936.44,
+    "permits_per_capita_1k": 10.37,
     "permit_types": {
-      "RES": 3305,
-      "COM": 1431,
-      "SVC": 475
+      "RES": 3310,
+      "COM": 1432,
+      "SVC": 476
     },
     "datasets_count": 10
   },
@@ -491,8 +491,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://citydata.mesaaz.gov/resource/dzpk-hxfb.json",
-        "probed_at": "2026-03-14T19:02:23.258359",
-        "data_vintage": "Rolling 12-month window ending 2026-03-14",
+        "probed_at": "2026-03-15T02:58:08.798935",
+        "data_vintage": "Rolling 12-month window ending 2026-03-15",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -538,7 +538,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Mesa",
-        "probed_at": "2026-03-14T19:03:44.424420",
+        "probed_at": "2026-03-15T02:59:24.733346",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -838,16 +838,6 @@
     },
     {
       "date": "2026-02-25",
-      "body": "Planning and Zoning Board - Study Session",
-      "location": "Study Session",
-      "has_agenda": true,
-      "agenda_url": "https://legistar1.granicus.com/Mesa/meetings/2026/2/4642_A_Planning_and_Zoning_Board_-_Study_Session_26-02-25_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-25",
       "body": "Planning and Zoning Board - Public Hearing",
       "location": "Council Chambers",
       "has_agenda": true,
@@ -857,11 +847,11 @@
       "upcoming": false
     },
     {
-      "date": "2026-02-23",
-      "body": "City Council Study Session",
+      "date": "2026-02-25",
+      "body": "Planning and Zoning Board - Study Session",
       "location": "Study Session",
       "has_agenda": true,
-      "agenda_url": "https://legistar1.granicus.com/Mesa/meetings/2026/2/4514_A_City_Council_Study_Session_26-02-23_Meeting_Agenda.pdf",
+      "agenda_url": "https://legistar1.granicus.com/Mesa/meetings/2026/2/4642_A_Planning_and_Zoning_Board_-_Study_Session_26-02-25_Meeting_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -872,6 +862,16 @@
       "location": "Council Chambers",
       "has_agenda": true,
       "agenda_url": "https://legistar1.granicus.com/Mesa/meetings/2026/2/4472_A_City_Council_26-02-23_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-23",
+      "body": "City Council Study Session",
+      "location": "Study Session",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/Mesa/meetings/2026/2/4514_A_City_Council_Study_Session_26-02-23_Meeting_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -895,19 +895,17 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
-    },
-    {
-      "date": "2026-02-12",
-      "body": "City Council Study Session",
-      "location": "Study Session",
-      "has_agenda": true,
-      "agenda_url": "https://legistar1.granicus.com/Mesa/meetings/2026/2/4546_A_City_Council_Study_Session_26-02-12_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
     }
   ],
   "recent_legislation": [
+    {
+      "title": "Three-Year Term Use of a Cooperative Contract for Pavement Management Services for the Transportation Department (Citywide)\n \nThe Transportation Department is leveraging advancements in pavement manag",
+      "type": "Contract",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "26-0218",
+      "passed_date": null
+    },
     {
       "title": "Dollar Limit Increase to the Term Contract for Landscape Maintenance Services for City Facilities (Zone 7) for the Facilities Management Department (Council Districts 1, 2, 5, and 6)\n \nA dollar limit ",
       "type": "Contract",
@@ -917,11 +915,11 @@
       "passed_date": null
     },
     {
-      "title": "Zax Cigar Bar\n \nA cigar bar is requesting a new Series 7 Beer & Wine Bar License for Jakub LLC, 7310 East Main Street - Zachary Ryan Jakubowski, Agent. There is no existing license at this location. (",
-      "type": "Liquor License Application",
+      "title": "Use of a Cooperative Contract for the Purchase of 150 Ballistic Helmets (Replacement) for the Mesa Police Department (Citywide)\n \nThis contract will be used to purchase 150 ballistic helmets with face",
+      "type": "Contract",
       "status": "Agenda Ready",
       "intro_date": "2026-02-19",
-      "file_number": "26-0219",
+      "file_number": "26-0215",
       "passed_date": null
     },
     {
@@ -941,14 +939,6 @@
       "passed_date": null
     },
     {
-      "title": "Use of a Cooperative Contract for the Purchase of 150 Ballistic Helmets (Replacement) for the Mesa Police Department (Citywide)\n \nThis contract will be used to purchase 150 ballistic helmets with face",
-      "type": "Contract",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-19",
-      "file_number": "26-0215",
-      "passed_date": null
-    },
-    {
       "title": "Design Review Board meeting held on January 13, 2026.",
       "type": "Minutes",
       "status": "Agenda Ready",
@@ -957,11 +947,11 @@
       "passed_date": null
     },
     {
-      "title": "Three-Year Term Use of a Cooperative Contract for Pavement Management Services for the Transportation Department (Citywide)\n \nThe Transportation Department is leveraging advancements in pavement manag",
-      "type": "Contract",
+      "title": "Zax Cigar Bar\n \nA cigar bar is requesting a new Series 7 Beer & Wine Bar License for Jakub LLC, 7310 East Main Street - Zachary Ryan Jakubowski, Agent. There is no existing license at this location. (",
+      "type": "Liquor License Application",
       "status": "Agenda Ready",
       "intro_date": "2026-02-19",
-      "file_number": "26-0218",
+      "file_number": "26-0219",
       "passed_date": null
     },
     {
@@ -973,24 +963,24 @@
       "passed_date": null
     },
     {
+      "title": "Amending board membership requirements for the Palo District, a Theme Park District established pursuant to Arizona law. (District 3) \nResolution No. 12474",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-12",
+      "file_number": "26-0207",
+      "passed_date": null
+    },
+    {
       "title": "ZON24-01027 \"Mesa Premier RV & Boat Storage Phase II\", 13.7± acres located approximately 265 feet east of the Southeast corner of North Higley Road and East Thomas Road. Rezone 3.5± acres from Single ",
       "type": "Ordinance",
       "status": "Agenda Ready",
       "intro_date": "2026-02-12",
       "file_number": "26-0205",
       "passed_date": null
-    },
-    {
-      "title": "Judicial Advisory Board meeting held on October 22, 2025.",
-      "type": "Minutes",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-12",
-      "file_number": "26-0206",
-      "passed_date": null
     }
   ],
   "legistar_url": "https://mesa.legistar.com",
-  "enriched_at": "2026-03-14T18:55:59.553349",
+  "enriched_at": "2026-03-15T02:54:02.074805",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

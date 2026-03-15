@@ -345,7 +345,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Arapahoe",
-        "probed_at": "2026-03-14T19:05:40.826051",
+        "probed_at": "2026-03-15T03:01:48.584585",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -685,8 +685,8 @@
     },
     {
       "date": "2026-02-23",
-      "body": "Open Space and Trails Advisory Board",
-      "location": "Lima Plaza Campus\r\n6934 South Lima Street, Suite A, Centennial, CO 80112",
+      "body": "Board of County Commissioners Special Meeting Notice",
+      "location": null,
       "has_agenda": false,
       "agenda_url": null,
       "has_minutes": false,
@@ -695,8 +695,8 @@
     },
     {
       "date": "2026-02-23",
-      "body": "Board of County Commissioners Special Meeting Notice",
-      "location": null,
+      "body": "Open Space and Trails Advisory Board",
+      "location": "Lima Plaza Campus\r\n6934 South Lima Street, Suite A, Centennial, CO 80112",
       "has_agenda": false,
       "agenda_url": null,
       "has_minutes": false,
@@ -728,7 +728,7 @@
       "body": "Arapahoe County Board of Health",
       "location": "Arapahoe Board Room",
       "has_agenda": true,
-      "agenda_url": "https://arapahoe.legistar1.com/arapahoe/meetings/2026/2/2849_A_Arapahoe_County_Board_of_Health_26-02-18_Agenda_%28Business_Meeting%29.pdf",
+      "agenda_url": "https://arapahoe.legistar1.com/arapahoe/meetings/2026/2/2848_A_Arapahoe_County_Board_of_Health_26-02-18_Agenda_%28Business_Meeting%29.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -738,13 +738,21 @@
       "body": "Arapahoe County Board of Health",
       "location": "Arapahoe Board Room",
       "has_agenda": true,
-      "agenda_url": "https://arapahoe.legistar1.com/arapahoe/meetings/2026/2/2848_A_Arapahoe_County_Board_of_Health_26-02-18_Agenda_%28Business_Meeting%29.pdf",
+      "agenda_url": "https://arapahoe.legistar1.com/arapahoe/meetings/2026/2/2849_A_Arapahoe_County_Board_of_Health_26-02-18_Agenda_%28Business_Meeting%29.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
     }
   ],
   "recent_legislation": [
+    {
+      "title": "APPROVAL OF THE MINUTES FROM JANUARY 20, 2026",
+      "type": "Minutes",
+      "status": "Passed",
+      "intro_date": "2026-02-11",
+      "file_number": "26-112",
+      "passed_date": "2026-02-17"
+    },
     {
       "title": "CASE NO. CZ25-002, MOUNTAIN VIEW GARDENS T12 [THE TREE\r\nFARM] / CONVENTIONAL REZONE (CZ) – KAT HAMMER, SENIOR\r\nPLANNER; JOSEPH BOATENG, ENGINEER – PUBLIC WORKS AND\r\nDEVELOPMENT (PWD)",
       "type": "Presentation",
@@ -762,14 +770,6 @@
       "passed_date": null
     },
     {
-      "title": "CZ25-001 - Dayton Station Transit Oriented Development (TOD) Conventional Rezone To Residential Multi-Family (R-MF) (continued from February 3, 2026)",
-      "type": "Resolution",
-      "status": "Passed",
-      "intro_date": "2026-02-11",
-      "file_number": "26-115",
-      "passed_date": "2026-02-17"
-    },
-    {
       "title": "Equitable Sharing Agreement and Certification report for the District Attorney’s Office",
       "type": "Resolution",
       "status": "Passed",
@@ -778,11 +778,11 @@
       "passed_date": "2026-02-17"
     },
     {
-      "title": "APPROVAL OF THE MINUTES FROM JANUARY 20, 2026",
-      "type": "Minutes",
+      "title": "CZ25-001 - Dayton Station Transit Oriented Development (TOD) Conventional Rezone To Residential Multi-Family (R-MF) (continued from February 3, 2026)",
+      "type": "Resolution",
       "status": "Passed",
       "intro_date": "2026-02-11",
-      "file_number": "26-112",
+      "file_number": "26-115",
       "passed_date": "2026-02-17"
     },
     {
@@ -791,6 +791,14 @@
       "status": "Passed",
       "intro_date": "2026-02-10",
       "file_number": "26-109",
+      "passed_date": "2026-02-17"
+    },
+    {
+      "title": "Approval of an Arbitration Stipulation",
+      "type": "Resolution",
+      "status": "Passed",
+      "intro_date": "2026-02-09",
+      "file_number": "26-106",
       "passed_date": "2026-02-17"
     },
     {
@@ -810,14 +818,6 @@
       "passed_date": null
     },
     {
-      "title": "Approval of an Arbitration Stipulation",
-      "type": "Resolution",
-      "status": "Passed",
-      "intro_date": "2026-02-09",
-      "file_number": "26-106",
-      "passed_date": "2026-02-17"
-    },
-    {
       "title": "Resolution regarding the signature authority of elected officials, department directors, and employees",
       "type": "Resolution",
       "status": "Passed",
@@ -827,7 +827,7 @@
     }
   ],
   "legistar_url": "https://arapahoe.legistar.com",
-  "enriched_at": "2026-03-14T18:47:24.780736",
+  "enriched_at": "2026-03-15T02:50:22.051835",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

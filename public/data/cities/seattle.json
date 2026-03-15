@@ -169,17 +169,17 @@
     "accela_agency_id": "SEATTLE"
   },
   "development": {
-    "permits_12mo": 6337,
-    "yoy_trend_pct": 8.2,
-    "avg_permit_value": 1160077.9,
+    "permits_12mo": 6360,
+    "yoy_trend_pct": 8.4,
+    "avg_permit_value": 1158472.42,
     "permit_types": {
-      "Building": 5348,
-      "Demolition": 534,
+      "Building": 5369,
+      "Demolition": 536,
       "Roof": 428,
       "Grading": 27
     },
     "datasets_count": 10,
-    "permits_per_capita_1k": 8.63
+    "permits_per_capita_1k": 8.66
   },
   "meetings": {
     "official_channels": 1,
@@ -474,8 +474,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.seattle.gov/resource/76t5-zqzr.json",
-        "probed_at": "2026-03-14T19:02:08.767278",
-        "data_vintage": "Rolling 12-month window ending 2026-03-14",
+        "probed_at": "2026-03-15T02:57:52.166117",
+        "data_vintage": "Rolling 12-month window ending 2026-03-15",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -521,7 +521,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Seattle",
-        "probed_at": "2026-03-14T19:03:37.978558",
+        "probed_at": "2026-03-15T02:59:16.776091",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -970,16 +970,6 @@
     },
     {
       "date": "2026-02-19",
-      "body": "Libraries, Education, and Neighborhoods Committee",
-      "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA  98104",
-      "has_agenda": true,
-      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6594_A_Libraries%2C_Education%2C_and_Neighborhoods_Committee_26-02-19_Committee_Agenda.pdf",
-      "has_minutes": true,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-19",
       "body": "Transportation, Waterfront, and Seattle Center Committee",
       "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA 98104",
       "has_agenda": true,
@@ -989,11 +979,11 @@
       "upcoming": false
     },
     {
-      "date": "2026-02-18",
-      "body": "Land Use and Sustainability Committee",
-      "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA 98104",
+      "date": "2026-02-19",
+      "body": "Libraries, Education, and Neighborhoods Committee",
+      "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA  98104",
       "has_agenda": true,
-      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6588_A_Land_Use_and_Sustainability_Committee_26-02-18_Committee_Agenda.pdf",
+      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6594_A_Libraries%2C_Education%2C_and_Neighborhoods_Committee_26-02-19_Committee_Agenda.pdf",
       "has_minutes": true,
       "has_video": false,
       "upcoming": false
@@ -1009,12 +999,22 @@
       "upcoming": false
     },
     {
-      "date": "2026-02-17",
-      "body": "City Council",
+      "date": "2026-02-18",
+      "body": "Land Use and Sustainability Committee",
       "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA 98104",
       "has_agenda": true,
-      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6592_A_City_Council_26-02-17_Full_Council_Meeting_Agenda.pdf",
-      "has_minutes": false,
+      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6588_A_Land_Use_and_Sustainability_Committee_26-02-18_Committee_Agenda.pdf",
+      "has_minutes": true,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-17",
+      "body": "Finance, Native Communities, and Tribal Governments Committee",
+      "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA 98104",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6589_A_Finance%2C_Native_Communities%2C_and_Tribal_Governments_Committee_26-02-17_Committee_Agenda.pdf",
+      "has_minutes": true,
       "has_video": false,
       "upcoming": false
     }
@@ -1102,7 +1102,7 @@
     }
   ],
   "legistar_url": "https://seattle.legistar.com",
-  "enriched_at": "2026-03-14T19:00:27.623359",
+  "enriched_at": "2026-03-15T02:55:56.665452",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

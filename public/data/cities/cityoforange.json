@@ -534,7 +534,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Orange",
-        "probed_at": "2026-03-14T19:04:19.749749",
+        "probed_at": "2026-03-15T03:00:08.317047",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -862,6 +862,16 @@
       "upcoming": true
     },
     {
+      "date": "2026-04-14",
+      "body": "Orange City Council",
+      "location": "City Council Chamber\r\n300 E. Chapman Avenue\r\nOrange, CA 92866",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
       "date": "2026-02-24",
       "body": "Orange City Council",
       "location": "City Council Chamber\r\n300 E. Chapman Avenue\r\nOrange, CA 92866",
@@ -897,26 +907,6 @@
       "location": "City Council Chamber\r\n300 E. Chapman Avenue\r\nOrange, CA  92866",
       "has_agenda": true,
       "agenda_url": "https://cityoforange.legistar1.com/cityoforange/meetings/2026/2/1781_A_Design_Review_Committee_26-02-18_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-12",
-      "body": "Community Development Block Grant Program Committee",
-      "location": "Weimer Room\r\n300 E. Chapman Avenue\r\nOrange, CA  92866",
-      "has_agenda": true,
-      "agenda_url": "https://cityoforange.legistar1.com/cityoforange/meetings/2026/2/1752_A_Community_Development_Block_Grant_Program_Committee_26-02-12_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-12",
-      "body": "Audit Advisory Committee",
-      "location": "Orange Public Library\r\nCommunity Room\r\n407 E. Chapman Avenue\r\nOrange, CA  92866",
-      "has_agenda": true,
-      "agenda_url": "https://cityoforange.legistar1.com/cityoforange/meetings/2026/2/1819_A_Audit_Advisory_Committee_26-02-12_Meeting_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -956,22 +946,6 @@
       "passed_date": null
     },
     {
-      "title": "Selection of Planning Commission Officers.",
-      "type": "PC Commission Business",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-03",
-      "file_number": "26-0076",
-      "passed_date": null
-    },
-    {
-      "title": "Selection of Audit Advisory Committee Officers.",
-      "type": "Audit Business",
-      "status": "Passed",
-      "intro_date": "2026-02-03",
-      "file_number": "26-0080",
-      "passed_date": "2026-02-12"
-    },
-    {
       "title": "First Amendment to Agreement with Tetra Tech, Inc. for additional design services for Well 29 Equipping.",
       "type": "Consent - Agreements",
       "status": "Agenda Ready",
@@ -980,11 +954,11 @@
       "passed_date": null
     },
     {
-      "title": "Appropriation of $55,000 from the County of Orange for the 2025 Proposition 69 funding award and approval of purchase of a forensic imaging and evidence detection device from Foster & Freeman USA Inc.",
-      "type": "Consent - Appropriations",
+      "title": "Selection of Planning Commission Officers.",
+      "type": "PC Commission Business",
       "status": "Agenda Ready",
       "intro_date": "2026-02-03",
-      "file_number": "26-0079",
+      "file_number": "26-0076",
       "passed_date": null
     },
     {
@@ -996,16 +970,32 @@
       "passed_date": null
     },
     {
+      "title": "Approval of meeting minutes of the City of Orange Planning Commission Regular Meeting held on February 2, 2026.",
+      "type": "PC/DRC Consent Calendar",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-03",
+      "file_number": "26-0075",
+      "passed_date": null
+    },
+    {
       "title": "Authorize an increase to two purchase orders for medical supplies and essential equipment repairs for the Emergency Medical Transport Program.",
       "type": "Consent - Purchase",
       "status": "Agenda Ready",
       "intro_date": "2026-02-03",
       "file_number": "26-0081",
       "passed_date": null
+    },
+    {
+      "title": "Selection of Audit Advisory Committee Officers.",
+      "type": "Audit Business",
+      "status": "Passed",
+      "intro_date": "2026-02-03",
+      "file_number": "26-0080",
+      "passed_date": "2026-02-12"
     }
   ],
   "legistar_url": "https://cityoforange.legistar.com",
-  "enriched_at": "2026-03-14T18:50:19.376400",
+  "enriched_at": "2026-03-15T02:51:31.001714",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
