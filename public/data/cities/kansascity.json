@@ -116,11 +116,11 @@
     "accela_agency_id": "KANSAS"
   },
   "development": {
-    "permits_12mo": 3036,
+    "permits_12mo": 3035,
     "yoy_trend_pct": -83.5,
-    "avg_permit_value": 210761.42,
+    "avg_permit_value": 210829.94,
     "permit_types": {
-      "Electrical General": 686,
+      "Electrical General": 685,
       "Plumbing General": 427,
       "Mechanical General": 361,
       "Certificate of Occupancy (Residential)": 185,
@@ -292,8 +292,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.kcmo.org/resource/ntw8-aacc.json",
-        "probed_at": "2026-03-15T18:53:45.906347",
-        "data_vintage": "Rolling 12-month window ending 2026-03-15",
+        "probed_at": "2026-03-16T03:09:12.718963",
+        "data_vintage": "Rolling 12-month window ending 2026-03-16",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Permits - CPD Dataset",
@@ -788,6 +788,16 @@
       "upcoming": true
     },
     {
+      "date": "2026-04-15",
+      "body": "Risk Management Committee",
+      "location": "Virtual Closed Session",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
       "date": "2026-03-11",
       "body": "Architect and Engineering Selection Committee",
       "location": "4800 E 63rd Street, Kansas City Missouri, 64130",
@@ -971,7 +981,7 @@
     }
   ],
   "legistar_url": "https://kansascity.legistar.com",
-  "enriched_at": "2026-03-15T18:49:58.967706",
+  "enriched_at": "2026-03-16T02:58:47.470468",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

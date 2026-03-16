@@ -180,13 +180,13 @@
     "accela_agency_id": "MESA"
   },
   "development": {
-    "permits_12mo": 5218,
-    "yoy_trend_pct": 2.3,
+    "permits_12mo": 5212,
+    "yoy_trend_pct": 2.4,
     "avg_permit_value": 974936.44,
-    "permits_per_capita_1k": 10.37,
+    "permits_per_capita_1k": 10.35,
     "permit_types": {
-      "RES": 3310,
-      "COM": 1432,
+      "RES": 3308,
+      "COM": 1428,
       "SVC": 476
     },
     "datasets_count": 10
@@ -491,8 +491,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://citydata.mesaaz.gov/resource/dzpk-hxfb.json",
-        "probed_at": "2026-03-15T18:52:50.161712",
-        "data_vintage": "Rolling 12-month window ending 2026-03-15",
+        "probed_at": "2026-03-16T03:08:14.543841",
+        "data_vintage": "Rolling 12-month window ending 2026-03-16",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -538,7 +538,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Mesa",
-        "probed_at": "2026-03-15T18:54:10.673430",
+        "probed_at": "2026-03-16T03:09:52.878716",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -899,14 +899,6 @@
   ],
   "recent_legislation": [
     {
-      "title": "Three-Year Term Use of a Cooperative Contract for Pavement Management Services for the Transportation Department (Citywide)\n \nThe Transportation Department is leveraging advancements in pavement manag",
-      "type": "Contract",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-19",
-      "file_number": "26-0218",
-      "passed_date": null
-    },
-    {
       "title": "Dollar Limit Increase to the Term Contract for Landscape Maintenance Services for City Facilities (Zone 7) for the Facilities Management Department (Council Districts 1, 2, 5, and 6)\n \nA dollar limit ",
       "type": "Contract",
       "status": "Agenda Ready",
@@ -915,11 +907,11 @@
       "passed_date": null
     },
     {
-      "title": "Use of a Cooperative Contract for the Purchase of 150 Ballistic Helmets (Replacement) for the Mesa Police Department (Citywide)\n \nThis contract will be used to purchase 150 ballistic helmets with face",
+      "title": "Three-Year Term Use of a Cooperative Contract for Pavement Management Services for the Transportation Department (Citywide)\n \nThe Transportation Department is leveraging advancements in pavement manag",
       "type": "Contract",
       "status": "Agenda Ready",
       "intro_date": "2026-02-19",
-      "file_number": "26-0215",
+      "file_number": "26-0218",
       "passed_date": null
     },
     {
@@ -931,11 +923,19 @@
       "passed_date": null
     },
     {
-      "title": "Three-Year Term Contract with Two-Year Renewal Options for Traffic Management Center (TMC) Video Wall Upgrade (Replacement) for the Transportation Department (Citywide)\r\n\r\nThe first year of the contra",
+      "title": "Use of a Cooperative Contract for the Purchase of 150 Ballistic Helmets (Replacement) for the Mesa Police Department (Citywide)\n \nThis contract will be used to purchase 150 ballistic helmets with face",
       "type": "Contract",
       "status": "Agenda Ready",
       "intro_date": "2026-02-19",
-      "file_number": "26-0220",
+      "file_number": "26-0215",
+      "passed_date": null
+    },
+    {
+      "title": "Three-Year Term Contract with Two-Year Renewal Options for Traffic Signal Loop Detection Installation Services for the Transportation Department (Single Response) (Citywide)\n \nThis contract is for the",
+      "type": "Contract",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "26-0214",
       "passed_date": null
     },
     {
@@ -963,24 +963,24 @@
       "passed_date": null
     },
     {
+      "title": "Judicial Advisory Board meeting held on October 22, 2025.",
+      "type": "Minutes",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-12",
+      "file_number": "26-0206",
+      "passed_date": null
+    },
+    {
       "title": "Amending board membership requirements for the Palo District, a Theme Park District established pursuant to Arizona law. (District 3) \nResolution No. 12474",
       "type": "Resolution",
       "status": "Agenda Ready",
       "intro_date": "2026-02-12",
       "file_number": "26-0207",
       "passed_date": null
-    },
-    {
-      "title": "ZON24-01027 \"Mesa Premier RV & Boat Storage Phase II\", 13.7± acres located approximately 265 feet east of the Southeast corner of North Higley Road and East Thomas Road. Rezone 3.5± acres from Single ",
-      "type": "Ordinance",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-12",
-      "file_number": "26-0205",
-      "passed_date": null
     }
   ],
   "legistar_url": "https://mesa.legistar.com",
-  "enriched_at": "2026-03-15T18:50:27.889655",
+  "enriched_at": "2026-03-16T03:00:40.541209",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
