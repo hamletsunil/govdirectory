@@ -811,26 +811,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-03-17",
-      "body": "Test - Live Committee Meeting Test (SAP)",
-      "location": "test test test",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
-      "date": "2026-03-17",
-      "body": "Test - Live Committee Meeting Test",
-      "location": "test test test",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-03-25",
       "body": "Test - Live Regular Meeting Test",
       "location": "test test test",
@@ -869,6 +849,26 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": true
+    },
+    {
+      "date": "2026-03-17",
+      "body": "Test - Live Committee Meeting Test (SAP)",
+      "location": "test test test",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-03-17",
+      "body": "Test - Live Committee Meeting Test",
+      "location": "test test test",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     },
     {
       "date": "2026-03-12",
@@ -942,27 +942,7 @@
     },
     {
       "date": "2026-02-25",
-      "body": "Test - Live Regular Meeting Test (SAP)",
-      "location": "TEST",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-25",
       "body": "Test - Live Regular Meeting Test",
-      "location": "test test test",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-23",
-      "body": "Test - Live Committee Meeting Test",
       "location": "test test test",
       "has_agenda": false,
       "agenda_url": null,
@@ -978,22 +958,6 @@
       "status": "Agenda Ready",
       "intro_date": "2026-02-22",
       "file_number": "2026-0166",
-      "passed_date": null
-    },
-    {
-      "title": "RECEIVE AND FILE draft guiding values to support and inform the Ad Hoc Board Composition Committee’s deliberations regarding governance considerations.",
-      "type": "Informational Report",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-18",
-      "file_number": "2026-0161",
-      "passed_date": null
-    },
-    {
-      "title": "APPROVE the Community and Stakeholder Engagement Plan for the Metro Ad Hoc Board Composition Committee, to support informed, transparent, and inclusive deliberations regarding governance consideration",
-      "type": "Informational Report",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-18",
-      "file_number": "2026-0159",
       "passed_date": null
     },
     {
@@ -1051,10 +1015,26 @@
       "intro_date": "2026-02-18",
       "file_number": "2026-0144",
       "passed_date": null
+    },
+    {
+      "title": "RECEIVE AND FILE draft guiding values to support and inform the Ad Hoc Board Composition Committee’s deliberations regarding governance considerations.",
+      "type": "Informational Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "2026-0161",
+      "passed_date": null
+    },
+    {
+      "title": "APPROVE the Community and Stakeholder Engagement Plan for the Metro Ad Hoc Board Composition Committee, to support informed, transparent, and inclusive deliberations regarding governance consideration",
+      "type": "Informational Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "2026-0159",
+      "passed_date": null
     }
   ],
   "legistar_url": "https://metro.legistar.com",
-  "enriched_at": "2026-03-17T19:17:52.701879",
+  "enriched_at": "2026-03-18T02:47:22.459850",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

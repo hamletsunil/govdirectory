@@ -565,7 +565,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Richmond",
-        "probed_at": "2026-03-17T19:26:14.803150",
+        "probed_at": "2026-03-18T02:54:36.103971",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -901,16 +901,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-03-17",
-      "body": "Land Use, Housing and Transportation Standing Committee",
-      "location": "Council Chamber, 2nd Floor - City Hall",
-      "has_agenda": true,
-      "agenda_url": "https://legistar2.granicus.com/richmondva/meetings/2026/3/5060_A_Land_Use%2C_Housing_and_Transportation_Standing_Committee_26-03-17_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-03-19",
       "body": "Finance and Economic Development Standing Committee",
       "location": "Council Chamber, 2nd Floor – City Hall",
@@ -959,6 +949,16 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": true
+    },
+    {
+      "date": "2026-03-17",
+      "body": "Land Use, Housing and Transportation Standing Committee",
+      "location": "Council Chamber, 2nd Floor - City Hall",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/richmondva/meetings/2026/3/5060_A_Land_Use%2C_Housing_and_Transportation_Standing_Committee_26-03-17_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     },
     {
       "date": "2026-03-10",
@@ -1049,16 +1049,6 @@
       "has_minutes": true,
       "has_video": false,
       "upcoming": false
-    },
-    {
-      "date": "2026-02-17",
-      "body": "Land Use, Housing and Transportation Standing Committee",
-      "location": "Council Chamber, 2nd Floor - City Hall",
-      "has_agenda": true,
-      "agenda_url": "https://legistar2.granicus.com/richmondva/meetings/2026/2/5059_A_Land_Use%2C_Housing_and_Transportation_Standing_Committee_26-02-17_Agenda.pdf",
-      "has_minutes": true,
-      "has_video": false,
-      "upcoming": false
     }
   ],
   "recent_legislation": [
@@ -1071,14 +1061,6 @@
       "passed_date": "2003-11-24"
     },
     {
-      "title": "Public Access and Participation Instructions - Commission of Architectural Review",
-      "type": "PDR Presentation",
-      "status": "Regular Agenda",
-      "intro_date": "2026-02-20",
-      "file_number": "PDRPRES 2025.054",
-      "passed_date": null
-    },
-    {
       "title": "20260223 Formal Awards and Recognitions Ceremony Docket",
       "type": "Council Document ",
       "status": "Referred",
@@ -1087,20 +1069,20 @@
       "passed_date": "2026-02-23"
     },
     {
+      "title": "Public Access and Participation Instructions - Commission of Architectural Review",
+      "type": "PDR Presentation",
+      "status": "Regular Agenda",
+      "intro_date": "2026-02-20",
+      "file_number": "PDRPRES 2025.054",
+      "passed_date": null
+    },
+    {
       "title": "RESOLUTION  OF   THE   RICHMOND   CITY   PLANNING COMMISSION APPROVING A FINAL COMMUNITY UNIT  PLAN  AMENDMENT  FOR STONY POINT SHOPPING CENTER, TO AUTHORIZE THE CONSTRUCTION OF A SECOND DRIVE-THRU LA",
       "type": "City Planning Commission Resolution",
       "status": "Consent Agenda",
       "intro_date": "2026-02-20",
       "file_number": "CPCR.2026.001",
       "passed_date": null
-    },
-    {
-      "title": "February 23, 2026 Public Comment Period Speakers List",
-      "type": "Council Document ",
-      "status": "Public Comment Period Speakers List",
-      "intro_date": "2026-02-18",
-      "file_number": "CD.2026.057",
-      "passed_date": "2026-02-23"
     },
     {
       "title": "February 24, 2026 - RAA Annual Report and Updates",
@@ -1119,19 +1101,19 @@
       "passed_date": "2026-02-18"
     },
     {
+      "title": "February 23, 2026 Public Comment Period Speakers List",
+      "type": "Council Document ",
+      "status": "Public Comment Period Speakers List",
+      "intro_date": "2026-02-18",
+      "file_number": "CD.2026.057",
+      "passed_date": "2026-02-23"
+    },
+    {
       "title": "February 17, 2026 - Land Use, Housing and Transportation Staff Report",
       "type": "Council Document ",
       "status": "Filed",
       "intro_date": "2026-02-17",
       "file_number": "CD.2026.052",
-      "passed_date": null
-    },
-    {
-      "title": "RVA Pay Updates and Process Improvements",
-      "type": "Council Document ",
-      "status": "Presentation",
-      "intro_date": "2026-02-17",
-      "file_number": "CD.2026.051",
       "passed_date": null
     },
     {
@@ -1141,10 +1123,18 @@
       "intro_date": "2026-02-17",
       "file_number": "CD.2026.055",
       "passed_date": null
+    },
+    {
+      "title": "RVA Pay Updates and Process Improvements",
+      "type": "Council Document ",
+      "status": "Presentation",
+      "intro_date": "2026-02-17",
+      "file_number": "CD.2026.051",
+      "passed_date": null
     }
   ],
   "legistar_url": "https://richmondva.legistar.com",
-  "enriched_at": "2026-03-17T19:20:53.885268",
+  "enriched_at": "2026-03-18T02:49:44.515082",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
