@@ -345,7 +345,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Arapahoe",
-        "probed_at": "2026-03-18T19:30:10.385234",
+        "probed_at": "2026-03-19T02:59:49.228922",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -685,6 +685,16 @@
     },
     {
       "date": "2026-02-23",
+      "body": "Board of County Commissioners Study Session",
+      "location": "Administration Building\r\n5334 S. Prince St.\r\nLittleton, CO 80120\r\nWest Hearing Room",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-23",
       "body": "Board of County Commissioners Special Meeting Notice",
       "location": null,
       "has_agenda": false,
@@ -697,16 +707,6 @@
       "date": "2026-02-23",
       "body": "Open Space and Trails Advisory Board",
       "location": "Lima Plaza Campus\r\n6934 South Lima Street, Suite A, Centennial, CO 80112",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-23",
-      "body": "Board of County Commissioners Study Session",
-      "location": "Administration Building\r\n5334 S. Prince St.\r\nLittleton, CO 80120\r\nWest Hearing Room",
       "has_agenda": false,
       "agenda_url": null,
       "has_minutes": false,
@@ -735,10 +735,10 @@
     },
     {
       "date": "2026-02-18",
-      "body": "Arapahoe County Board of Health",
-      "location": "Arapahoe Board Room",
+      "body": "Fair Planning Committee",
+      "location": "Arapahoe County Fair",
       "has_agenda": true,
-      "agenda_url": "https://arapahoe.legistar1.com/arapahoe/meetings/2026/2/2849_A_Arapahoe_County_Board_of_Health_26-02-18_Agenda_%28Business_Meeting%29.pdf",
+      "agenda_url": "https://arapahoe.legistar1.com/arapahoe/meetings/2026/2/2857_A_Fair_Planning_Committee_26-02-18_Agenda_%28Study_Session%29.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -746,11 +746,11 @@
   ],
   "recent_legislation": [
     {
-      "title": "Equitable Sharing Agreement and Certification report for the District Attorney’s Office",
+      "title": "CZ25-001 - Dayton Station Transit Oriented Development (TOD) Conventional Rezone To Residential Multi-Family (R-MF) (continued from February 3, 2026)",
       "type": "Resolution",
       "status": "Passed",
       "intro_date": "2026-02-11",
-      "file_number": "26-110",
+      "file_number": "26-115",
       "passed_date": "2026-02-17"
     },
     {
@@ -762,19 +762,19 @@
       "passed_date": null
     },
     {
-      "title": "CZ25-001 - Dayton Station Transit Oriented Development (TOD) Conventional Rezone To Residential Multi-Family (R-MF) (continued from February 3, 2026)",
-      "type": "Resolution",
-      "status": "Passed",
-      "intro_date": "2026-02-11",
-      "file_number": "26-115",
-      "passed_date": "2026-02-17"
-    },
-    {
       "title": "APPROVAL OF THE MINUTES FROM JANUARY 20, 2026",
       "type": "Minutes",
       "status": "Passed",
       "intro_date": "2026-02-11",
       "file_number": "26-112",
+      "passed_date": "2026-02-17"
+    },
+    {
+      "title": "Equitable Sharing Agreement and Certification report for the District Attorney’s Office",
+      "type": "Resolution",
+      "status": "Passed",
+      "intro_date": "2026-02-11",
+      "file_number": "26-110",
       "passed_date": "2026-02-17"
     },
     {
@@ -794,19 +794,11 @@
       "passed_date": "2026-02-17"
     },
     {
-      "title": "Arapahoe County Guidelines",
-      "type": "Presentation",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-09",
-      "file_number": "26-060",
-      "passed_date": null
-    },
-    {
       "title": "Approval of an Arbitration Stipulation",
       "type": "Resolution",
       "status": "Passed",
       "intro_date": "2026-02-09",
-      "file_number": "26-107",
+      "file_number": "26-106",
       "passed_date": "2026-02-17"
     },
     {
@@ -818,16 +810,24 @@
       "passed_date": null
     },
     {
-      "title": "2025 Equitable Sharing Agreement and Certification Report",
+      "title": "Arapahoe County Guidelines",
+      "type": "Presentation",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-09",
+      "file_number": "26-060",
+      "passed_date": null
+    },
+    {
+      "title": "Resolution to approve Arapahoe County board and committee appointments and reappointments",
       "type": "Resolution",
       "status": "Passed",
       "intro_date": "2026-02-05",
-      "file_number": "26-102",
+      "file_number": "26-103",
       "passed_date": "2026-02-17"
     }
   ],
   "legistar_url": "https://arapahoe.legistar.com",
-  "enriched_at": "2026-03-18T19:08:48.823280",
+  "enriched_at": "2026-03-19T02:41:32.321729",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
