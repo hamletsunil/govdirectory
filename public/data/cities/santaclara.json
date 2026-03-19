@@ -505,7 +505,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Santa%20Clara",
-        "probed_at": "2026-03-19T13:35:47.156847",
+        "probed_at": "2026-03-19T19:23:15.142735",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -986,10 +986,92 @@
     }
   ],
   "legistar_url": "https://santaclara.legistar.com",
-  "enriched_at": "2026-03-19T13:31:41.214090",
+  "enriched_at": "2026-03-19T19:18:59.204032",
   "government_news": [],
-  "video_meetings": [],
+  "video_meetings": [
+    {
+      "date": "2024-05-07",
+      "title": "Board of Supervisors - Regular Meeting",
+      "has_video": true,
+      "video_url": "https://youtube.com/watch?v=-ADQ8Dxxxoo",
+      "is_youtube": true,
+      "source": "primegov"
+    },
+    {
+      "date": "2024-05-06",
+      "title": "Board of Supervisors Regular Meeting: Presentations and Closed Session",
+      "has_video": true,
+      "video_url": "https://youtube.com/watch?v=AT1V7h7u4yw",
+      "is_youtube": true,
+      "source": "primegov"
+    },
+    {
+      "date": "2024-04-16",
+      "title": "Board of Supervisors - Regular Meeting",
+      "has_video": true,
+      "video_url": "https://youtube.com/watch?v=nWFaO8njhiA",
+      "is_youtube": true,
+      "source": "primegov"
+    },
+    {
+      "date": "2024-04-15",
+      "title": "Regular Meeting: Presentations and Closed Session - Board of Supervisors Chamber",
+      "has_video": true,
+      "video_url": "https://youtube.com/watch?v=zBHjlWDvvCA",
+      "is_youtube": true,
+      "source": "primegov"
+    },
+    {
+      "date": "2024-03-26",
+      "title": "Board of Supervisors - Regular Meeting",
+      "has_video": true,
+      "video_url": "https://youtube.com/watch?v=_sRwPgNaS2Q",
+      "is_youtube": true,
+      "source": "primegov"
+    },
+    {
+      "date": "2024-03-12",
+      "title": "Board of Supervisors - Regular Meeting",
+      "has_video": true,
+      "video_url": "https://youtube.com/watch?v=6__IB_yRunM",
+      "is_youtube": true,
+      "source": "primegov"
+    },
+    {
+      "date": "2024-03-11",
+      "title": "Regular Meeting: Presentations and Closed Session - Board of Supervisors Chamber",
+      "has_video": true,
+      "video_url": "https://youtube.com/watch?v=HzN-Z7iSYnM",
+      "is_youtube": true,
+      "source": "primegov"
+    },
+    {
+      "date": "2024-02-27",
+      "title": "Board of Supervisors - Regular Meeting",
+      "has_video": true,
+      "video_url": "https://youtube.com/watch?v=bhN9dGdBmxs",
+      "is_youtube": true,
+      "source": "primegov"
+    },
+    {
+      "date": "2024-02-06",
+      "title": "Board of Supervisors - Regular Meeting",
+      "has_video": true,
+      "video_url": "https://youtube.com/watch?v=-66Rds7Fvhg",
+      "is_youtube": true,
+      "source": "primegov"
+    },
+    {
+      "date": "2024-02-05",
+      "title": "Regular Meeting: Presentations and Closed Session - Board of Supervisors Chamber",
+      "has_video": true,
+      "video_url": "https://youtube.com/watch?v=xupeytXLvRs",
+      "is_youtube": true,
+      "source": "primegov"
+    }
+  ],
   "data_platforms": [
-    "legistar"
+    "legistar",
+    "primegov"
   ]
 }

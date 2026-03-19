@@ -565,7 +565,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=San%20Antonio",
-        "probed_at": "2026-03-19T13:34:52.949890",
+        "probed_at": "2026-03-19T19:22:23.133673",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -835,10 +835,92 @@
   "recent_meetings": [],
   "recent_legislation": [],
   "legistar_url": "https://sanantonio.legistar.com",
-  "enriched_at": "2026-03-19T13:31:11.673823",
+  "enriched_at": "2026-03-19T19:18:33.549711",
   "government_news": [],
-  "video_meetings": [],
+  "video_meetings": [
+    {
+      "date": "2026-02-12",
+      "title": "City Council Special Session",
+      "has_video": true,
+      "video_url": "https://sanantoniotx.new.swagit.com/events/44796",
+      "is_youtube": false,
+      "source": "primegov"
+    },
+    {
+      "date": "2026-02-12",
+      "title": "City Council A Session",
+      "has_video": true,
+      "video_url": "https://sanantoniotx.new.swagit.com/events/44795",
+      "is_youtube": false,
+      "source": "primegov"
+    },
+    {
+      "date": "2026-02-12",
+      "title": "Building Standards Board",
+      "has_video": true,
+      "video_url": "https://sanantoniotx.new.swagit.com/events/44819",
+      "is_youtube": false,
+      "source": "primegov"
+    },
+    {
+      "date": "2026-02-11",
+      "title": "Planning Commission",
+      "has_video": true,
+      "video_url": "https://sanantoniotx.new.swagit.com/events/44815",
+      "is_youtube": false,
+      "source": "primegov"
+    },
+    {
+      "date": "2026-02-11",
+      "title": "City Council B Session",
+      "has_video": true,
+      "video_url": "https://sanantoniotx.new.swagit.com/events/44797",
+      "is_youtube": false,
+      "source": "primegov"
+    },
+    {
+      "date": "2026-02-11",
+      "title": "Municipal Court Advisory Committee",
+      "has_video": true,
+      "video_url": "https://sanantoniotx.new.swagit.com/events/44825",
+      "is_youtube": false,
+      "source": "primegov"
+    },
+    {
+      "date": "2026-02-10",
+      "title": "Building Related and Fire Codes Appeals and Advisory Board Meeting",
+      "has_video": true,
+      "video_url": "https://sanantoniotx.new.swagit.com/events/44790",
+      "is_youtube": false,
+      "source": "primegov"
+    },
+    {
+      "date": "2026-02-09",
+      "title": "Zoning Board of Adjustment Meeting",
+      "has_video": true,
+      "video_url": "https://sanantoniotx.new.swagit.com/videos/374452",
+      "is_youtube": false,
+      "source": "primegov"
+    },
+    {
+      "date": "2026-02-06",
+      "title": "Educational Opportunities Committee",
+      "has_video": true,
+      "video_url": "https://sanantoniotx.new.swagit.com/videos/374409",
+      "is_youtube": false,
+      "source": "primegov"
+    },
+    {
+      "date": "2026-02-05",
+      "title": "City Council Zoning and Land Use Session",
+      "has_video": true,
+      "video_url": "https://sanantoniotx.new.swagit.com/videos/374292",
+      "is_youtube": false,
+      "source": "primegov"
+    }
+  ],
   "data_platforms": [
-    "legistar"
+    "legistar",
+    "primegov"
   ]
 }

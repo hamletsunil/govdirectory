@@ -559,7 +559,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Los%20Angeles%20County",
-        "probed_at": "2026-03-19T13:37:09.765363",
+        "probed_at": "2026-03-19T19:24:32.960120",
         "data_vintage": "BRFSS None",
         "geographic_level": "place",
         "status": "unavailable"
@@ -1002,10 +1002,92 @@
     }
   ],
   "legistar_url": "https://lacounty.legistar.com",
-  "enriched_at": "2026-03-19T13:25:14.518148",
+  "enriched_at": "2026-03-19T19:13:08.711627",
   "government_news": [],
-  "video_meetings": [],
+  "video_meetings": [
+    {
+      "date": "2026-02-13",
+      "title": "Personnel and Hiring Committee",
+      "has_video": true,
+      "video_url": "https://youtube.com/watch?v=6nJWatNjWTU",
+      "is_youtube": true,
+      "source": "primegov"
+    },
+    {
+      "date": "2026-02-13",
+      "title": "Personnel and Hiring Committee - SAP",
+      "has_video": true,
+      "video_url": "https://youtube.com/watch?v=ywurn0Iwczc",
+      "is_youtube": true,
+      "source": "primegov"
+    },
+    {
+      "date": "2026-02-11",
+      "title": "Public Works Committee",
+      "has_video": true,
+      "video_url": "https://youtube.com/watch?v=_op3HPHOIA8",
+      "is_youtube": true,
+      "source": "primegov"
+    },
+    {
+      "date": "2026-02-11",
+      "title": "Public Works Committee SAP",
+      "has_video": true,
+      "video_url": "https://youtube.com/watch?v=kWiy0uz4FxU",
+      "is_youtube": true,
+      "source": "primegov"
+    },
+    {
+      "date": "2026-02-11",
+      "title": "Public Safety Committee - SAP",
+      "has_video": true,
+      "video_url": "https://youtube.com/watch?v=zY4nENdXwBM",
+      "is_youtube": true,
+      "source": "primegov"
+    },
+    {
+      "date": "2026-02-10",
+      "title": "Trade, Travel and Tourism Committee",
+      "has_video": true,
+      "video_url": "https://youtube.com/watch?v=d3DY057rvX4",
+      "is_youtube": true,
+      "source": "primegov"
+    },
+    {
+      "date": "2026-02-10",
+      "title": "Trade, Travel and Tourism Committee - SAP",
+      "has_video": true,
+      "video_url": "https://youtube.com/watch?v=i8DpCJL0D8M",
+      "is_youtube": true,
+      "source": "primegov"
+    },
+    {
+      "date": "2026-02-10",
+      "title": "Arts, Parks, Libraries, and Community Enrichment Committee",
+      "has_video": true,
+      "video_url": "https://youtube.com/watch?v=YGM89WHMiHE",
+      "is_youtube": true,
+      "source": "primegov"
+    },
+    {
+      "date": "2026-02-10",
+      "title": "Arts, Parks, Libraries, and Community Enrichment Committee - SAP",
+      "has_video": true,
+      "video_url": "https://youtube.com/watch?v=xLKQi-rXMC0",
+      "is_youtube": true,
+      "source": "primegov"
+    },
+    {
+      "date": "2026-02-09",
+      "title": "Los Angeles City Health Commission",
+      "has_video": true,
+      "video_url": "https://youtube.com/watch?v=LM1_8Hpc7YU",
+      "is_youtube": true,
+      "source": "primegov"
+    }
+  ],
   "data_platforms": [
-    "legistar"
+    "legistar",
+    "primegov"
   ]
 }

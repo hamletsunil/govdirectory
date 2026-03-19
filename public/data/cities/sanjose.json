@@ -504,7 +504,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=San%20Jose",
-        "probed_at": "2026-03-19T13:34:54.991449",
+        "probed_at": "2026-03-19T19:22:24.643165",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -966,10 +966,92 @@
     }
   ],
   "legistar_url": "https://sanjose.legistar.com",
-  "enriched_at": "2026-03-19T13:31:19.124899",
+  "enriched_at": "2026-03-19T19:18:40.664577",
   "government_news": [],
-  "video_meetings": [],
+  "video_meetings": [
+    {
+      "date": "2024-10-22",
+      "title": "City Council",
+      "has_video": true,
+      "video_url": "https://sanjoseca.new.swagit.com/videos/318429",
+      "is_youtube": false,
+      "source": "primegov"
+    },
+    {
+      "date": "2024-10-08",
+      "title": "City Council",
+      "has_video": true,
+      "video_url": "https://sanjoseca.new.swagit.com/videos/317146",
+      "is_youtube": false,
+      "source": "primegov"
+    },
+    {
+      "date": "2024-10-01",
+      "title": "City Council",
+      "has_video": true,
+      "video_url": "https://sanjoseca.new.swagit.com/videos/316498",
+      "is_youtube": false,
+      "source": "primegov"
+    },
+    {
+      "date": "2024-09-24",
+      "title": "City Council",
+      "has_video": true,
+      "video_url": "https://sanjoseca.new.swagit.com/videos/316119",
+      "is_youtube": false,
+      "source": "primegov"
+    },
+    {
+      "date": "2024-09-17",
+      "title": "City Council",
+      "has_video": true,
+      "video_url": "https://sanjoseca.new.swagit.com/videos/315490",
+      "is_youtube": false,
+      "source": "primegov"
+    },
+    {
+      "date": "2024-09-10",
+      "title": "City Council",
+      "has_video": true,
+      "video_url": "https://sanjoseca.new.swagit.com/videos/314802",
+      "is_youtube": false,
+      "source": "primegov"
+    },
+    {
+      "date": "2024-08-27",
+      "title": "City Council",
+      "has_video": true,
+      "video_url": "https://sanjoseca.new.swagit.com/videos/313665",
+      "is_youtube": false,
+      "source": "primegov"
+    },
+    {
+      "date": "2024-08-20",
+      "title": "City Council",
+      "has_video": true,
+      "video_url": "https://sanjoseca.new.swagit.com/videos/313026",
+      "is_youtube": false,
+      "source": "primegov"
+    },
+    {
+      "date": "2024-08-16",
+      "title": "City Council Study Session",
+      "has_video": true,
+      "video_url": "https://sanjoseca.new.swagit.com/videos/312648",
+      "is_youtube": false,
+      "source": "primegov"
+    },
+    {
+      "date": "2024-08-13",
+      "title": "City Council",
+      "has_video": true,
+      "video_url": "https://sanjoseca.new.swagit.com/videos/312650",
+      "is_youtube": false,
+      "source": "primegov"
+    }
+  ],
   "data_platforms": [
-    "legistar"
+    "legistar",
+    "primegov"
   ]
 }
