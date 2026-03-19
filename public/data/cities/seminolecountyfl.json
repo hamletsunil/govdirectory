@@ -357,7 +357,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Seminole%20County",
-        "probed_at": "2026-03-19T07:23:21.950427",
+        "probed_at": "2026-03-19T13:37:52.173407",
         "data_vintage": "BRFSS None",
         "geographic_level": "place",
         "status": "unavailable"
@@ -621,13 +621,163 @@
     "granularity_flags": 0
   },
   "officials": {
-    "body_name": null,
-    "members": []
+    "body_name": "Board of County Commissioners",
+    "members": [
+      {
+        "name": "Chairman Andria Herr",
+        "email": null,
+        "title": null,
+        "start_date": "2025-11-19"
+      },
+      {
+        "name": "Commissioner Bob Dallari",
+        "email": null,
+        "title": null,
+        "start_date": "2024-11-19",
+        "committees": [
+          "Board of County Commissioners Worksessions",
+          "Seminole County Industrial Development Authority"
+        ]
+      },
+      {
+        "name": "Commissioner Jay Zembower",
+        "email": null,
+        "title": null,
+        "start_date": "2025-11-19"
+      },
+      {
+        "name": "Commissioner Lee Constantine",
+        "email": null,
+        "title": null,
+        "start_date": "2024-11-19",
+        "committees": [
+          "Board of County Commissioners Worksessions"
+        ]
+      },
+      {
+        "name": "Vice Chairman Amy Lockhart",
+        "email": null,
+        "title": null,
+        "start_date": "2025-11-19"
+      }
+    ]
   },
-  "recent_meetings": [],
-  "recent_legislation": [],
+  "recent_meetings": [
+    {
+      "date": "2026-02-24",
+      "body": "Board of County Commissioners",
+      "location": "BCC Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://seminolecountyfl.legistar1.com/seminolecountyfl/meetings/2026/2/3576_A_Board_of_County_Commissioners_26-02-24_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-23",
+      "body": "Board of Adjustment",
+      "location": "BCC Chambers, Room 1028",
+      "has_agenda": true,
+      "agenda_url": "https://seminolecountyfl.legistar1.com/seminolecountyfl/meetings/2026/2/3605_A_Board_of_Adjustment_26-02-23_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-18",
+      "body": "Development Review Committee",
+      "location": "Room 3024",
+      "has_agenda": true,
+      "agenda_url": "https://seminolecountyfl.legistar1.com/seminolecountyfl/meetings/2026/2/3601_A_Development_Review_Committee_26-02-18_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    }
+  ],
+  "recent_legislation": [
+    {
+      "title": "Approval of the at-large Board Appointment",
+      "type": "Consent Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-13",
+      "file_number": "2026-0209",
+      "passed_date": null
+    },
+    {
+      "title": "Approve and authorize the Chairman to execute a Resolution implementing Budget Amendment (BAR) # 26-023 in the 2024 Infrastructure Sales Tax Fund to transfer $6,500,000 from reserves for FY26 design a",
+      "type": "Consent Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-13",
+      "file_number": "2026-0210",
+      "passed_date": null
+    },
+    {
+      "title": "Approve and authorize the Chairman to execute a Proclamation proclaiming February 16 - 20, 2026 as “Food Check Out Week” in Seminole County, FL",
+      "type": "Consent Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-11",
+      "file_number": "2026-0193",
+      "passed_date": null
+    },
+    {
+      "title": "Approval of the District 5 Board Appointments",
+      "type": "Consent Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-11",
+      "file_number": "2026-0197",
+      "passed_date": null
+    },
+    {
+      "title": "Resolution Honoring the Retirement of Roads and Stormwater Division Manager Owen Reagan",
+      "type": "Award/Presentation",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-11",
+      "file_number": "2026-0190",
+      "passed_date": null
+    },
+    {
+      "title": "County Investment Advisor Report (Scott McIntyre, CFA - Senior Portfolio Manager, Managing Director Hilltop Securities Asset Management)",
+      "type": "Award/Presentation",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-11",
+      "file_number": "2026-0192",
+      "passed_date": null
+    },
+    {
+      "title": "Approve and authorize the Chairman to execute a Resolution Honoring the 60th Anniversary of Community Legal Services in Seminole County, Florida",
+      "type": "Consent Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-11",
+      "file_number": "2026-0196",
+      "passed_date": null
+    },
+    {
+      "title": "Resolution Honoring the Contributions of League of Women Voters  Member Marilyn Crotty",
+      "type": "Consent Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-11",
+      "file_number": "2026-0194",
+      "passed_date": null
+    },
+    {
+      "title": "Midway Update (John Slot, Public Works Director)",
+      "type": "County Manager and Staff Briefings",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-11",
+      "file_number": "2026-0195",
+      "passed_date": null
+    },
+    {
+      "title": "Approve and authorize the Chairman to execute the agreement with Duke Energy Florida, LLC, acknowledging it has permitted and allowed the existing Seminole County utility encroachments to remain and o",
+      "type": "Consent Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-09",
+      "file_number": "2026-0175",
+      "passed_date": null
+    }
+  ],
   "legistar_url": "https://seminolecountyfl.legistar.com",
-  "enriched_at": "2026-03-19T07:17:33.875442",
+  "enriched_at": "2026-03-19T13:31:51.006899",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
