@@ -388,7 +388,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Prince%20George%27s%20County",
-        "probed_at": "2026-03-19T19:25:09.041195",
+        "probed_at": "2026-03-20T02:48:00.661883",
         "data_vintage": "BRFSS None",
         "geographic_level": "place",
         "status": "unavailable"
@@ -679,6 +679,16 @@
     {
       "date": "2026-03-04",
       "body": "Task Forces-Workgroups",
+      "location": "Committee Room 2027",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-03-04",
+      "body": "Task Forces-Workgroups",
       "location": "Virtual Meeting<BR>\r\nhttps://mypgc.zoom.us/meeting/register/KiNZ25CpSYOjmitICqEGDw",
       "has_agenda": false,
       "agenda_url": null,
@@ -697,11 +707,11 @@
       "upcoming": false
     },
     {
-      "date": "2026-03-04",
-      "body": "Task Forces-Workgroups",
+      "date": "2026-02-26",
+      "body": "Transportation, Infrastructure, Energy and Environment Committee",
       "location": "Committee Room 2027",
-      "has_agenda": false,
-      "agenda_url": null,
+      "has_agenda": true,
+      "agenda_url": "https://princegeorgescountymd.legistar1.com/princegeorgescountymd/meetings/2026/2/12146_A_Transportation%2C_Infrastructure%2C_Energy_and_Environment_Committee_26-02-26_Meeting_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -717,21 +727,21 @@
       "upcoming": false
     },
     {
-      "date": "2026-02-26",
-      "body": "Transportation, Infrastructure, Energy and Environment Committee",
-      "location": "Committee Room 2027",
-      "has_agenda": true,
-      "agenda_url": "https://princegeorgescountymd.legistar1.com/princegeorgescountymd/meetings/2026/2/12146_A_Transportation%2C_Infrastructure%2C_Energy_and_Environment_Committee_26-02-26_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
       "date": "2026-02-25",
       "body": "Board of Appeals",
       "location": "Virtual Hearing",
       "has_agenda": false,
       "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-24",
+      "body": "Sitting as the Committee of the Whole",
+      "location": "Council Hearing Room",
+      "has_agenda": true,
+      "agenda_url": "https://princegeorgescountymd.legistar1.com/princegeorgescountymd/meetings/2026/2/12180_A_Sitting_as_the_Committee_of_the_Whole_26-02-24_Meeting_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -752,16 +762,6 @@
       "location": "Council Hearing Room",
       "has_agenda": true,
       "agenda_url": "https://princegeorgescountymd.legistar1.com/princegeorgescountymd/meetings/2026/2/12158_A_County_Council_26-02-24_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-24",
-      "body": "Sitting as the Committee of the Whole",
-      "location": "Council Hearing Room",
-      "has_agenda": true,
-      "agenda_url": "https://princegeorgescountymd.legistar1.com/princegeorgescountymd/meetings/2026/2/12180_A_Sitting_as_the_Committee_of_the_Whole_26-02-24_Meeting_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -850,7 +850,7 @@
     }
   ],
   "legistar_url": "https://princegeorgescountymd.legistar.com",
-  "enriched_at": "2026-03-19T19:17:38.817276",
+  "enriched_at": "2026-03-20T02:41:36.413993",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

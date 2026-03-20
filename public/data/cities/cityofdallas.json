@@ -567,7 +567,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Dallas",
-        "probed_at": "2026-03-19T19:22:23.914840",
+        "probed_at": "2026-03-20T02:45:22.019790",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -836,16 +836,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-03-19",
-      "body": "Citizen Homelessness Commission",
-      "location": "L1FN AUDITORIUM",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-04-09",
       "body": "Veteran Affairs Commission",
       "location": "L1FN",
@@ -854,6 +844,16 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": true
+    },
+    {
+      "date": "2026-03-19",
+      "body": "Citizen Homelessness Commission",
+      "location": "L1FN AUDITORIUM",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     },
     {
       "date": "2026-03-12",
@@ -877,20 +877,20 @@
     },
     {
       "date": "2026-02-26",
-      "body": "Reinvestment Zone (RZ15) Fifteen Board (Fort Worth Avenue)",
-      "location": "CITY HALL ROOM 6DN AND VIDEOCONFERENCE",
-      "has_agenda": false,
-      "agenda_url": null,
+      "body": "Dallas Housing Acquisition and Development Corporation",
+      "location": "DALLAS CITY HALL, L1FN AUDITORIUM",
+      "has_agenda": true,
+      "agenda_url": "https://cityofdallas.legistar1.com/cityofdallas/meetings/2026/2/4522_A_Dallas_Housing_Acquisition_and_Development_Corporation_26-02-26_Briefing_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
     },
     {
       "date": "2026-02-26",
-      "body": "Dallas Housing Acquisition and Development Corporation",
-      "location": "DALLAS CITY HALL, L1FN AUDITORIUM",
-      "has_agenda": true,
-      "agenda_url": "https://cityofdallas.legistar1.com/cityofdallas/meetings/2026/2/4522_A_Dallas_Housing_Acquisition_and_Development_Corporation_26-02-26_Briefing_Agenda.pdf",
+      "body": "Reinvestment Zone (RZ15) Fifteen Board (Fort Worth Avenue)",
+      "location": "CITY HALL ROOM 6DN AND VIDEOCONFERENCE",
+      "has_agenda": false,
+      "agenda_url": null,
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -901,16 +901,6 @@
       "location": "COUNCIL CHAMBERS, CITY HALL",
       "has_agenda": true,
       "agenda_url": "https://cityofdallas.legistar1.com/cityofdallas/meetings/2026/2/4324_A_City_Council_26-02-25_COUNCIL_AGENDA.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-24",
-      "body": "Parks, Trails, and the Environment Committee",
-      "location": "COUNCIL CHAMBERS, CITY HALL\r\nbit.ly/cityofdallastv",
-      "has_agenda": true,
-      "agenda_url": "https://cityofdallas.legistar1.com/cityofdallas/meetings/2026/2/4602_A_Parks%2C_Trails%2C_and_the_Environment_Committee_26-02-24_Briefing_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -946,11 +936,11 @@
       "upcoming": false
     },
     {
-      "date": "2026-02-23",
-      "body": "Housing and Homelessness Solutions Committee",
+      "date": "2026-02-24",
+      "body": "Parks, Trails, and the Environment Committee",
       "location": "COUNCIL CHAMBERS, CITY HALL\r\nbit.ly/cityofdallastv",
       "has_agenda": true,
-      "agenda_url": "https://cityofdallas.legistar1.com/cityofdallas/meetings/2026/2/4232_A_Housing_and_Homelessness_Solutions_Committee_26-02-23_Briefing_Agenda.pdf",
+      "agenda_url": "https://cityofdallas.legistar1.com/cityofdallas/meetings/2026/2/4602_A_Parks%2C_Trails%2C_and_the_Environment_Committee_26-02-24_Briefing_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -1039,7 +1029,7 @@
     }
   ],
   "legistar_url": "https://cityofdallas.legistar.com",
-  "enriched_at": "2026-03-19T19:07:54.886054",
+  "enriched_at": "2026-03-20T02:34:42.328120",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

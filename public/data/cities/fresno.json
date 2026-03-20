@@ -515,7 +515,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Fresno",
-        "probed_at": "2026-03-19T19:22:30.759475",
+        "probed_at": "2026-03-20T02:45:28.542525",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -904,16 +904,6 @@
     },
     {
       "date": "2026-02-23",
-      "body": "Civil Service Board",
-      "location": "City Hall, Second Floor\r\nMeeting Room A (2165N)",
-      "has_agenda": true,
-      "agenda_url": "https://legistar2.granicus.com/fresno/meetings/2026/2/4456_A_Civil_Service_Board_26-02-23_Commission_Agenda_%28no_veto_language%29.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-23",
       "body": "Parks, Recreation, and Arts Commission",
       "location": "Council Chambers (In Person and/or Electronic)\r\nhttps://www.fresno.gov/prac-meeting/",
       "has_agenda": true,
@@ -933,11 +923,11 @@
       "upcoming": false
     },
     {
-      "date": "2026-02-19",
-      "body": "City Council",
-      "location": "Council Chambers",
+      "date": "2026-02-23",
+      "body": "Civil Service Board",
+      "location": "City Hall, Second Floor\r\nMeeting Room A (2165N)",
       "has_agenda": true,
-      "agenda_url": "https://legistar2.granicus.com/fresno/meetings/2026/2/4331_A_City_Council_26-02-19_Meeting_Agenda.pdf",
+      "agenda_url": "https://legistar2.granicus.com/fresno/meetings/2026/2/4456_A_Civil_Service_Board_26-02-23_Commission_Agenda_%28no_veto_language%29.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -948,6 +938,16 @@
       "location": "Fresno City Hall, Second Floor Room 2165",
       "has_agenda": false,
       "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-19",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/fresno/meetings/2026/2/4331_A_City_Council_26-02-19_Meeting_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -1036,7 +1036,7 @@
     }
   ],
   "legistar_url": "https://fresno.legistar.com",
-  "enriched_at": "2026-03-19T19:11:18.653704",
+  "enriched_at": "2026-03-20T02:36:58.210793",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
