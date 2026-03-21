@@ -561,7 +561,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Stpaul",
-        "probed_at": "2026-03-20T18:59:52.978665",
+        "probed_at": "2026-03-21T02:37:44.243352",
         "data_vintage": "BRFSS None",
         "geographic_level": "place",
         "status": "unavailable"
@@ -949,6 +949,16 @@
   "recent_meetings": [
     {
       "date": "2026-02-25",
+      "body": "Public Safety Committee",
+      "location": "Council Chambers, City Hall",
+      "has_agenda": true,
+      "agenda_url": "https://legistar1.granicus.com/StPaul/meetings/2026/2/7570_A_Public_Safety_Committee_26-02-25_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-25",
       "body": "Housing & Redevelopment Authority",
       "location": "Council Chambers, City Hall",
       "has_agenda": true,
@@ -968,52 +978,12 @@
       "upcoming": false
     },
     {
-      "date": "2026-02-25",
-      "body": "Public Safety Committee",
-      "location": "Council Chambers, City Hall",
-      "has_agenda": true,
-      "agenda_url": "https://legistar1.granicus.com/StPaul/meetings/2026/2/7570_A_Public_Safety_Committee_26-02-25_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
       "date": "2026-02-24",
       "body": "Legislative Hearings",
       "location": "Room 330 City Hall & Court House/Remote",
       "has_agenda": true,
       "agenda_url": "https://legistar1.granicus.com/StPaul/meetings/2026/2/7569_A_Legislative_Hearings_26-02-24_ADA_Meeting_Agenda.pdf",
       "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-18",
-      "body": "City Council",
-      "location": "Council Chambers - 3rd Floor",
-      "has_agenda": true,
-      "agenda_url": "https://legistar1.granicus.com/StPaul/meetings/2026/2/7564_A_City_Council_26-02-18_Meeting_Agenda.pdf",
-      "has_minutes": true,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-18",
-      "body": "Housing & Redevelopment Authority",
-      "location": "Council Chambers, City Hall",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-18",
-      "body": "Policy Committee",
-      "location": "Council Chambers, City Hall",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": true,
       "has_video": false,
       "upcoming": false
     }
@@ -1101,7 +1071,7 @@
     }
   ],
   "legistar_url": "https://stpaul.legistar.com",
-  "enriched_at": "2026-03-20T18:57:35.866735",
+  "enriched_at": "2026-03-21T02:35:21.820035",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

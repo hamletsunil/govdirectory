@@ -571,7 +571,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Pittsburgh",
-        "probed_at": "2026-03-20T18:59:54.873256",
+        "probed_at": "2026-03-21T02:37:45.526048",
         "data_vintage": "BRFSS 2022",
         "geographic_level": "place",
         "status": "available"
@@ -986,16 +986,6 @@
     },
     {
       "date": "2026-02-24",
-      "body": "City Council",
-      "location": "Council Chambers",
-      "has_agenda": true,
-      "agenda_url": "https://pittsburgh.legistar1.com/pittsburgh/meetings/2026/2/11882_A_City_Council_26-02-24_Regular_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-24",
       "body": "Post Agenda",
       "location": "Council Chambers",
       "has_agenda": true,
@@ -1008,19 +998,19 @@
       "date": "2026-02-24",
       "body": "City Council",
       "location": "Council Chambers",
-      "has_agenda": false,
-      "agenda_url": null,
+      "has_agenda": true,
+      "agenda_url": "https://pittsburgh.legistar1.com/pittsburgh/meetings/2026/2/11882_A_City_Council_26-02-24_Regular_Meeting_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
     },
     {
-      "date": "2026-02-18",
-      "body": "Standing Committees",
+      "date": "2026-02-24",
+      "body": "City Council",
       "location": "Council Chambers",
-      "has_agenda": true,
-      "agenda_url": "https://pittsburgh.legistar1.com/pittsburgh/meetings/2026/2/11872_A_Standing_Committees_26-02-18_Standing_Committees_Meeting_Agenda.pdf",
-      "has_minutes": true,
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
       "has_video": false,
       "upcoming": false
     }
@@ -1108,7 +1098,7 @@
     }
   ],
   "legistar_url": "https://pittsburgh.legistar.com",
-  "enriched_at": "2026-03-20T18:57:29.769573",
+  "enriched_at": "2026-03-21T02:33:53.066109",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
