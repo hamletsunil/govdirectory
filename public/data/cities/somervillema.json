@@ -221,7 +221,7 @@
   },
   "development": {
     "permits_12mo": 7442,
-    "yoy_trend_pct": 7.7,
+    "yoy_trend_pct": 7.8,
     "avg_permit_value": null,
     "permit_types": {
       "Building Permit": 1942,
@@ -627,8 +627,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.somervillema.gov/resource/nneb-s3f7.json",
-        "probed_at": "2026-03-21T18:52:28.278871",
-        "data_vintage": "Rolling 12-month window ending 2026-03-21",
+        "probed_at": "2026-03-22T02:51:46.256519",
+        "data_vintage": "Rolling 12-month window ending 2026-03-22",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Applications for Permits and Licenses",
@@ -674,7 +674,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Somerville",
-        "probed_at": "2026-03-21T18:53:38.223171",
+        "probed_at": "2026-03-22T02:52:59.072301",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -1129,16 +1129,6 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
-    },
-    {
-      "date": "2026-02-19",
-      "body": "Land Use Committee",
-      "location": "Virtual",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
     }
   ],
   "recent_legislation": [
@@ -1224,7 +1214,7 @@
     }
   ],
   "legistar_url": "https://somervillema.legistar.com",
-  "enriched_at": "2026-03-21T18:50:36.352184",
+  "enriched_at": "2026-03-22T02:50:11.415038",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

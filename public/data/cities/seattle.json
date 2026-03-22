@@ -169,17 +169,17 @@
     "accela_agency_id": "SEATTLE"
   },
   "development": {
-    "permits_12mo": 6322,
-    "yoy_trend_pct": 7.3,
-    "avg_permit_value": 1157015.16,
+    "permits_12mo": 6351,
+    "yoy_trend_pct": 8.1,
+    "avg_permit_value": 1155527.44,
     "permit_types": {
-      "Building": 5332,
-      "Demolition": 535,
-      "Roof": 428,
+      "Building": 5357,
+      "Demolition": 536,
+      "Roof": 431,
       "Grading": 27
     },
     "datasets_count": 10,
-    "permits_per_capita_1k": 8.61
+    "permits_per_capita_1k": 8.65
   },
   "meetings": {
     "official_channels": 1,
@@ -474,8 +474,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.seattle.gov/resource/76t5-zqzr.json",
-        "probed_at": "2026-03-21T18:51:42.740204",
-        "data_vintage": "Rolling 12-month window ending 2026-03-21",
+        "probed_at": "2026-03-22T02:51:15.062515",
+        "data_vintage": "Rolling 12-month window ending 2026-03-22",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -521,7 +521,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Seattle",
-        "probed_at": "2026-03-21T18:52:41.609708",
+        "probed_at": "2026-03-22T02:52:02.916751",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -930,20 +930,20 @@
     },
     {
       "date": "2026-02-24",
-      "body": "City Council",
-      "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA 98104",
+      "body": "Public Safety Committee",
+      "location": "Council Chamber, City Hall \r\n600 4th Avenue \r\nSeattle, WA  98104",
       "has_agenda": true,
-      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6598_A_City_Council_26-02-24_Full_Council_Meeting_Agenda.pdf",
+      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6597_A_Public_Safety_Committee_26-02-24_Committee_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
     },
     {
       "date": "2026-02-24",
-      "body": "Public Safety Committee",
-      "location": "Council Chamber, City Hall \r\n600 4th Avenue \r\nSeattle, WA  98104",
+      "body": "City Council",
+      "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA 98104",
       "has_agenda": true,
-      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6597_A_Public_Safety_Committee_26-02-24_Committee_Agenda.pdf",
+      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6598_A_City_Council_26-02-24_Full_Council_Meeting_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -965,26 +965,6 @@
       "has_agenda": true,
       "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6593_A_Human_Services%2C_Labor%2C_and_Economic_Development_Committee_26-02-20_Committee_Agenda.pdf",
       "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-19",
-      "body": "Libraries, Education, and Neighborhoods Committee",
-      "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA  98104",
-      "has_agenda": true,
-      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6594_A_Libraries%2C_Education%2C_and_Neighborhoods_Committee_26-02-19_Committee_Agenda.pdf",
-      "has_minutes": true,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-19",
-      "body": "Transportation, Waterfront, and Seattle Center Committee",
-      "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA 98104",
-      "has_agenda": true,
-      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6591_A_Transportation%2C_Waterfront%2C_and_Seattle_Center_Committee_26-02-19_Committee_Agenda.pdf",
-      "has_minutes": true,
       "has_video": false,
       "upcoming": false
     }
@@ -1072,7 +1052,7 @@
     }
   ],
   "legistar_url": "https://seattle.legistar.com",
-  "enriched_at": "2026-03-21T18:50:27.523235",
+  "enriched_at": "2026-03-22T02:50:02.505391",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

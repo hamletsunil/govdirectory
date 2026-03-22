@@ -567,7 +567,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Dallas",
-        "probed_at": "2026-03-21T18:52:39.662634",
+        "probed_at": "2026-03-22T02:52:00.988677",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -877,20 +877,20 @@
     },
     {
       "date": "2026-02-26",
-      "body": "Dallas Housing Acquisition and Development Corporation",
-      "location": "DALLAS CITY HALL, L1FN AUDITORIUM",
-      "has_agenda": true,
-      "agenda_url": "https://cityofdallas.legistar1.com/cityofdallas/meetings/2026/2/4522_A_Dallas_Housing_Acquisition_and_Development_Corporation_26-02-26_Briefing_Agenda.pdf",
+      "body": "Reinvestment Zone (RZ15) Fifteen Board (Fort Worth Avenue)",
+      "location": "CITY HALL ROOM 6DN AND VIDEOCONFERENCE",
+      "has_agenda": false,
+      "agenda_url": null,
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
     },
     {
       "date": "2026-02-26",
-      "body": "Reinvestment Zone (RZ15) Fifteen Board (Fort Worth Avenue)",
-      "location": "CITY HALL ROOM 6DN AND VIDEOCONFERENCE",
-      "has_agenda": false,
-      "agenda_url": null,
+      "body": "Dallas Housing Acquisition and Development Corporation",
+      "location": "DALLAS CITY HALL, L1FN AUDITORIUM",
+      "has_agenda": true,
+      "agenda_url": "https://cityofdallas.legistar1.com/cityofdallas/meetings/2026/2/4522_A_Dallas_Housing_Acquisition_and_Development_Corporation_26-02-26_Briefing_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -907,26 +907,6 @@
     },
     {
       "date": "2026-02-24",
-      "body": "Dallas Public Facility Corporation",
-      "location": "CITY HALL, L1 AUDITORIUM",
-      "has_agenda": true,
-      "agenda_url": "https://cityofdallas.legistar1.com/cityofdallas/meetings/2026/2/4386_A_Dallas_Public_Facility_Corporation_26-02-24_Briefing_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-24",
-      "body": "Municipal Library Board",
-      "location": "J. ERIK JONSSON CENTRAL LIBRARY\r\nSTONE ROOM, 7TH FLOOR\r\n1515 YOUNG STREET\r\nDALLAS, TEXAS 75201",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-24",
       "body": "Commission on Disabilities",
       "location": "COUNCIL BRIEFING ROOM, 6ES",
       "has_agenda": false,
@@ -937,10 +917,30 @@
     },
     {
       "date": "2026-02-24",
+      "body": "Dallas Public Facility Corporation",
+      "location": "CITY HALL, L1 AUDITORIUM",
+      "has_agenda": true,
+      "agenda_url": "https://cityofdallas.legistar1.com/cityofdallas/meetings/2026/2/4386_A_Dallas_Public_Facility_Corporation_26-02-24_Briefing_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-24",
       "body": "Parks, Trails, and the Environment Committee",
       "location": "COUNCIL CHAMBERS, CITY HALL\r\nbit.ly/cityofdallastv",
       "has_agenda": true,
       "agenda_url": "https://cityofdallas.legistar1.com/cityofdallas/meetings/2026/2/4602_A_Parks%2C_Trails%2C_and_the_Environment_Committee_26-02-24_Briefing_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-24",
+      "body": "Municipal Library Board",
+      "location": "J. ERIK JONSSON CENTRAL LIBRARY\r\nSTONE ROOM, 7TH FLOOR\r\n1515 YOUNG STREET\r\nDALLAS, TEXAS 75201",
+      "has_agenda": false,
+      "agenda_url": null,
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -1029,7 +1029,7 @@
     }
   ],
   "legistar_url": "https://cityofdallas.legistar.com",
-  "enriched_at": "2026-03-21T18:43:57.433981",
+  "enriched_at": "2026-03-22T02:43:29.471116",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
