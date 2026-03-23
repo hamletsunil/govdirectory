@@ -78,20 +78,20 @@
     "rent_burden_ratio": 23.9,
     "cost_burdened_pct": 56.42,
     "severely_burdened_pct": 29.14,
-    "total_housing_units": 7365,
-    "occupied_housing_units": 6785,
-    "vacant_housing_units": 580,
-    "vacancy_rate": 7.88,
-    "occupancy_rate": 92.12,
-    "data_year": "2022",
+    "total_housing_units": 7816,
+    "occupied_housing_units": 7216,
+    "vacant_housing_units": 600,
+    "vacancy_rate": 7.68,
+    "occupancy_rate": 92.32,
+    "data_year": "2023",
     "vacancy_source": "Census ACS 5-Year",
-    "vacant_for_rent": 99,
-    "vacant_rented_not_occupied": 0,
-    "vacant_for_sale": 196,
+    "vacant_for_rent": 133,
+    "vacant_rented_not_occupied": 7,
+    "vacant_for_sale": 179,
     "vacant_sold_not_occupied": 0,
     "vacant_seasonal": 175,
     "vacant_migrant_workers": 0,
-    "vacant_other": 110
+    "vacant_other": 106
   },
   "health": {
     "uninsured_pct": 13.6,
@@ -514,7 +514,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Boerne",
-        "probed_at": "2026-03-23T02:56:08.669363",
+        "probed_at": "2026-03-23T07:30:39.517330",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -928,7 +928,7 @@
     }
   ],
   "legistar_url": "https://boerne.legistar.com",
-  "enriched_at": "2026-03-23T02:42:44.486844",
+  "enriched_at": "2026-03-23T07:18:46.434257",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
