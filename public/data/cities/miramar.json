@@ -79,20 +79,20 @@
     "rent_burden_ratio": 34.2,
     "cost_burdened_pct": 60.09,
     "severely_burdened_pct": 19.88,
-    "total_housing_units": 46258,
-    "occupied_housing_units": 44446,
-    "vacant_housing_units": 1812,
-    "vacancy_rate": 3.92,
-    "occupancy_rate": 96.08,
-    "data_year": "2023",
+    "total_housing_units": 44716,
+    "occupied_housing_units": 42171,
+    "vacant_housing_units": 2545,
+    "vacancy_rate": 5.69,
+    "occupancy_rate": 94.31,
+    "data_year": "2021",
     "vacancy_source": "Census ACS 5-Year",
-    "vacant_for_rent": 539,
-    "vacant_rented_not_occupied": 139,
-    "vacant_for_sale": 278,
-    "vacant_sold_not_occupied": 221,
-    "vacant_seasonal": 437,
+    "vacant_for_rent": 667,
+    "vacant_rented_not_occupied": 212,
+    "vacant_for_sale": 822,
+    "vacant_sold_not_occupied": 139,
+    "vacant_seasonal": 515,
     "vacant_migrant_workers": 0,
-    "vacant_other": 198
+    "vacant_other": 190
   },
   "health": {
     "uninsured_pct": 17.5,
@@ -508,7 +508,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Miramar",
-        "probed_at": "2026-03-22T18:58:16.317924",
+        "probed_at": "2026-03-23T02:55:06.699338",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -785,16 +785,6 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
-    },
-    {
-      "date": "2026-02-20",
-      "body": "CITY COMMISSION REGULAR MEETING",
-      "location": "Commission Chambers",
-      "has_agenda": true,
-      "agenda_url": "https://miramar.legistar1.com/miramar/meetings/2026/2/1247_A_CITY_COMMISSION_REGULAR_MEETING_26-02-13_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
     }
   ],
   "recent_legislation": [
@@ -831,19 +821,19 @@
       "passed_date": null
     },
     {
-      "title": "Temp. Reso. #R8624 authorizing a second one year renewal of the insurance brokerage contract, from June 30, 2026 to June 29, 2027; approving the contract’s assignment from McGriff Insurance Services t",
-      "type": "Resolution",
-      "status": "Agenda Ready",
-      "intro_date": "2026-01-20",
-      "file_number": "#R8624",
-      "passed_date": null
-    },
-    {
       "title": "Temp. Reso. #R8623 approving the renewal of City phone telecommunication services from Granite Telecommunications, L.L.C., in an amount of $130,000, for Fiscal Year 2026 through the utilization of NCP",
       "type": "Resolution",
       "status": "Agenda Ready",
       "intro_date": "2026-01-20",
       "file_number": "#R8623",
+      "passed_date": null
+    },
+    {
+      "title": "Temp. Reso. #R8624 authorizing a second one year renewal of the insurance brokerage contract, from June 30, 2026 to June 29, 2027; approving the contract’s assignment from McGriff Insurance Services t",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-20",
+      "file_number": "#R8624",
       "passed_date": null
     },
     {
@@ -855,6 +845,14 @@
       "passed_date": null
     },
     {
+      "title": "Temp. Reso. #R8617 authorizing the City Manager to execute a Local Agency Program Agreement with the State Of Florida Department of Transportation and providing financial assistance to the City for co",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-08",
+      "file_number": "#R8617",
+      "passed_date": null
+    },
+    {
       "title": "Temp. Reso. #R8619 approving and authorizing the execution of Amendment No. 1 to the agreement with Walters Zackria Associates, P.L.L.C., for additional design services, HVAC system evaluation and rep",
       "type": "Resolution",
       "status": "Agenda Ready",
@@ -863,24 +861,16 @@
       "passed_date": null
     },
     {
-      "title": "Temp. Reso. #R8616 accepting an Absolute Bill of Sale and Easement from Safeguard Properties L.L.C., for the water system improvements to serve Safeguard Storage Miramar; authorizing the release of Su",
+      "title": "Temp. Reso. #R8618 authorizing the City Manager to execute a supplemental agreement with the State Of Florida Department of Transportation, reconciling financial assistance to the City for constructio",
       "type": "Resolution",
       "status": "Agenda Ready",
       "intro_date": "2026-01-08",
-      "file_number": "#R8616",
-      "passed_date": null
-    },
-    {
-      "title": "Temp. Reso. #R8617 authorizing the City Manager to execute a Local Agency Program Agreement with the State Of Florida Department of Transportation and providing financial assistance to the City for co",
-      "type": "Resolution",
-      "status": "Agenda Ready",
-      "intro_date": "2026-01-08",
-      "file_number": "#R8617",
+      "file_number": "#R8618",
       "passed_date": null
     }
   ],
   "legistar_url": "https://miramar.legistar.com",
-  "enriched_at": "2026-03-22T18:51:40.474630",
+  "enriched_at": "2026-03-23T02:48:54.319833",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

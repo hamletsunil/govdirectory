@@ -77,20 +77,20 @@
     "rent_burden_ratio": 10.8,
     "cost_burdened_pct": 48.38,
     "severely_burdened_pct": 22.64,
-    "total_housing_units": 74436,
-    "occupied_housing_units": 70787,
-    "vacant_housing_units": 3649,
-    "vacancy_rate": 4.9,
-    "occupancy_rate": 95.1,
-    "data_year": "2023",
+    "total_housing_units": 72132,
+    "occupied_housing_units": 68224,
+    "vacant_housing_units": 3908,
+    "vacancy_rate": 5.42,
+    "occupancy_rate": 94.58,
+    "data_year": "2022",
     "vacancy_source": "Census ACS 5-Year",
-    "vacant_for_rent": 1878,
-    "vacant_rented_not_occupied": 465,
-    "vacant_for_sale": 332,
-    "vacant_sold_not_occupied": 163,
-    "vacant_seasonal": 82,
+    "vacant_for_rent": 2220,
+    "vacant_rented_not_occupied": 466,
+    "vacant_for_sale": 390,
+    "vacant_sold_not_occupied": 153,
+    "vacant_seasonal": 53,
     "vacant_migrant_workers": 0,
-    "vacant_other": 729
+    "vacant_other": 626
   },
   "health": {
     "uninsured_pct": 11.1,
@@ -526,7 +526,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=McKinney",
-        "probed_at": "2026-03-22T18:57:58.672578",
+        "probed_at": "2026-03-23T02:54:50.444514",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -922,16 +922,6 @@
       "has_minutes": false,
       "has_video": true,
       "upcoming": false
-    },
-    {
-      "date": "2026-02-20",
-      "body": "City Council Work Session",
-      "location": "Council Chambers\r\n401  E. Virginia Street\r\nMcKinney, TX  75069",
-      "has_agenda": true,
-      "agenda_url": "https://legistar1.granicus.com/McKinney/meetings/2026/2/5822_A_City_Council_Work_Session_26-02-20_Agenda-hc.pdf",
-      "has_minutes": false,
-      "has_video": true,
-      "upcoming": false
     }
   ],
   "recent_legislation": [
@@ -1017,7 +1007,7 @@
     }
   ],
   "legistar_url": "https://mckinney.legistar.com",
-  "enriched_at": "2026-03-22T18:51:16.251314",
+  "enriched_at": "2026-03-23T02:48:32.577600",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

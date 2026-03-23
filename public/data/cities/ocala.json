@@ -77,20 +77,20 @@
     "rent_burden_ratio": 32.5,
     "cost_burdened_pct": 55.51,
     "severely_burdened_pct": 24.95,
-    "total_housing_units": 29151,
-    "occupied_housing_units": 26238,
-    "vacant_housing_units": 2913,
-    "vacancy_rate": 9.99,
-    "occupancy_rate": 90.01,
-    "data_year": "2023",
+    "total_housing_units": 27923,
+    "occupied_housing_units": 25060,
+    "vacant_housing_units": 2863,
+    "vacancy_rate": 10.25,
+    "occupancy_rate": 89.75,
+    "data_year": "2021",
     "vacancy_source": "Census ACS 5-Year",
-    "vacant_for_rent": 847,
-    "vacant_rented_not_occupied": 56,
-    "vacant_for_sale": 97,
-    "vacant_sold_not_occupied": 197,
-    "vacant_seasonal": 613,
-    "vacant_migrant_workers": 21,
-    "vacant_other": 1082
+    "vacant_for_rent": 704,
+    "vacant_rented_not_occupied": 173,
+    "vacant_for_sale": 112,
+    "vacant_sold_not_occupied": 119,
+    "vacant_seasonal": 605,
+    "vacant_migrant_workers": 0,
+    "vacant_other": 1150
   },
   "health": {
     "uninsured_pct": 16.1,
@@ -533,7 +533,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Ocala",
-        "probed_at": "2026-03-22T18:58:50.091740",
+        "probed_at": "2026-03-23T02:55:38.016664",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -953,19 +953,19 @@
       "passed_date": null
     },
     {
+      "title": "Case #: CE25-0883 (LIEN)",
+      "type": "Code Case",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-06",
+      "file_number": "2026-0751",
+      "passed_date": null
+    },
+    {
       "title": "Case #: CE25-0685 (LIEN)",
       "type": "Code Case",
       "status": "Agenda Ready",
       "intro_date": "2026-02-06",
       "file_number": "2026-0747",
-      "passed_date": null
-    },
-    {
-      "title": "Case #: CE25-0738 (LIEN)",
-      "type": "Code Case",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-06",
-      "file_number": "2026-0748",
       "passed_date": null
     },
     {
@@ -978,7 +978,7 @@
     }
   ],
   "legistar_url": "https://ocala.legistar.com",
-  "enriched_at": "2026-03-22T18:52:35.935605",
+  "enriched_at": "2026-03-23T02:49:44.528233",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

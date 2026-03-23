@@ -78,20 +78,20 @@
     "rent_burden_ratio": 27.1,
     "cost_burdened_pct": 47.93,
     "severely_burdened_pct": 22.92,
-    "total_housing_units": 262899,
-    "occupied_housing_units": 242482,
-    "vacant_housing_units": 20417,
-    "vacancy_rate": 7.77,
-    "occupancy_rate": 92.23,
-    "data_year": "2023",
+    "total_housing_units": 260240,
+    "occupied_housing_units": 239624,
+    "vacant_housing_units": 20616,
+    "vacancy_rate": 7.92,
+    "occupancy_rate": 92.08,
+    "data_year": "2022",
     "vacancy_source": "Census ACS 5-Year",
-    "vacant_for_rent": 7439,
-    "vacant_rented_not_occupied": 966,
-    "vacant_for_sale": 1523,
-    "vacant_sold_not_occupied": 1004,
-    "vacant_seasonal": 2067,
+    "vacant_for_rent": 7856,
+    "vacant_rented_not_occupied": 1188,
+    "vacant_for_sale": 1563,
+    "vacant_sold_not_occupied": 1069,
+    "vacant_seasonal": 2582,
     "vacant_migrant_workers": 0,
-    "vacant_other": 7418
+    "vacant_other": 6358
   },
   "health": {
     "uninsured_pct": 28.3,
@@ -525,7 +525,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=El%20Paso",
-        "probed_at": "2026-03-22T18:57:31.528594",
+        "probed_at": "2026-03-23T02:54:25.666697",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -999,16 +999,6 @@
     },
     {
       "date": "2026-02-23",
-      "body": "City Council Special Meeting",
-      "location": "Downtown Visitor Information Center - Ocotillo Room, One Civic Center Plaza",
-      "has_agenda": true,
-      "agenda_url": "https://elpasotexas.legistar1.com/elpasotexas/meetings/2026/2/2360_A_City_Council_Special_Meeting_26-02-23_WORK_SESSION_SPECIAL_MEETING.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-23",
       "body": "Zoning Board of Adjustment",
       "location": "Thorman Conference Room, 801 Texas Avenue",
       "has_agenda": true,
@@ -1023,6 +1013,16 @@
       "location": "Downtown Visitor Information Center - Ocotillo Room, One Civic Center Plaza",
       "has_agenda": true,
       "agenda_url": "https://elpasotexas.legistar1.com/elpasotexas/meetings/2026/2/2359_A_Youth_Advisory_Board_26-02-23_AGENDA_TEMPLATE.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-23",
+      "body": "City Council Special Meeting",
+      "location": "Downtown Visitor Information Center - Ocotillo Room, One Civic Center Plaza",
+      "has_agenda": true,
+      "agenda_url": "https://elpasotexas.legistar1.com/elpasotexas/meetings/2026/2/2360_A_City_Council_Special_Meeting_26-02-23_WORK_SESSION_SPECIAL_MEETING.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -1111,7 +1111,7 @@
     }
   ],
   "legistar_url": "https://elpasotexas.legistar.com",
-  "enriched_at": "2026-03-22T18:48:34.152817",
+  "enriched_at": "2026-03-23T02:46:06.335254",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

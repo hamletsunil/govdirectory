@@ -75,20 +75,20 @@
     "rent_burden_ratio": 29.9,
     "cost_burdened_pct": 49.7,
     "severely_burdened_pct": 22.65,
-    "total_housing_units": 221129,
-    "occupied_housing_units": 196065,
-    "vacant_housing_units": 25064,
-    "vacancy_rate": 11.33,
-    "occupancy_rate": 88.67,
-    "data_year": "2023",
+    "total_housing_units": 219909,
+    "occupied_housing_units": 193316,
+    "vacant_housing_units": 26593,
+    "vacancy_rate": 12.09,
+    "occupancy_rate": 87.91,
+    "data_year": "2022",
     "vacancy_source": "Census ACS 5-Year",
-    "vacant_for_rent": 4319,
-    "vacant_rented_not_occupied": 1356,
-    "vacant_for_sale": 926,
-    "vacant_sold_not_occupied": 1429,
-    "vacant_seasonal": 13975,
-    "vacant_migrant_workers": 25,
-    "vacant_other": 3034
+    "vacant_for_rent": 4003,
+    "vacant_rented_not_occupied": 1291,
+    "vacant_for_sale": 1000,
+    "vacant_sold_not_occupied": 1961,
+    "vacant_seasonal": 15161,
+    "vacant_migrant_workers": 22,
+    "vacant_other": 3155
   },
   "health": {
     "uninsured_pct": 13.3,
@@ -180,13 +180,13 @@
     "accela_agency_id": "MESA"
   },
   "development": {
-    "permits_12mo": 5166,
-    "yoy_trend_pct": 0.3,
+    "permits_12mo": 5162,
+    "yoy_trend_pct": 0.9,
     "avg_permit_value": 420426.54,
-    "permits_per_capita_1k": 10.26,
+    "permits_per_capita_1k": 10.25,
     "permit_types": {
       "RES": 3269,
-      "COM": 1427,
+      "COM": 1423,
       "SVC": 470
     },
     "datasets_count": 10
@@ -491,8 +491,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://citydata.mesaaz.gov/resource/dzpk-hxfb.json",
-        "probed_at": "2026-03-22T18:56:46.781573",
-        "data_vintage": "Rolling 12-month window ending 2026-03-22",
+        "probed_at": "2026-03-23T02:53:39.691091",
+        "data_vintage": "Rolling 12-month window ending 2026-03-23",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -538,7 +538,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Mesa",
-        "probed_at": "2026-03-22T18:57:36.996567",
+        "probed_at": "2026-03-23T02:54:30.800863",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -919,6 +919,22 @@
   ],
   "recent_legislation": [
     {
+      "title": "Three-Year Term Use of a Cooperative Contract for Pavement Management Services for the Transportation Department (Citywide)\n \nThe Transportation Department is leveraging advancements in pavement manag",
+      "type": "Contract",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "26-0218",
+      "passed_date": null
+    },
+    {
+      "title": "Three-Year Term Contract with Two-Year Renewal Options for Traffic Management Center (TMC) Video Wall Upgrade (Replacement) for the Transportation Department (Citywide)\r\n\r\nThe first year of the contra",
+      "type": "Contract",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "26-0220",
+      "passed_date": null
+    },
+    {
       "title": "Dollar Limit Increase to the Term Contract for Landscape Maintenance Services for City Facilities (Zone 7) for the Facilities Management Department (Council Districts 1, 2, 5, and 6)\n \nA dollar limit ",
       "type": "Contract",
       "status": "Agenda Ready",
@@ -932,22 +948,6 @@
       "status": "Agenda Ready",
       "intro_date": "2026-02-19",
       "file_number": "26-0217",
-      "passed_date": null
-    },
-    {
-      "title": "Three-Year Term Use of a Cooperative Contract for Pavement Management Services for the Transportation Department (Citywide)\n \nThe Transportation Department is leveraging advancements in pavement manag",
-      "type": "Contract",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-19",
-      "file_number": "26-0218",
-      "passed_date": null
-    },
-    {
-      "title": "Design Review Board meeting held on January 13, 2026.",
-      "type": "Minutes",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-19",
-      "file_number": "26-0222",
       "passed_date": null
     },
     {
@@ -967,11 +967,11 @@
       "passed_date": null
     },
     {
-      "title": "Three-Year Term Contract with Two-Year Renewal Options for Traffic Management Center (TMC) Video Wall Upgrade (Replacement) for the Transportation Department (Citywide)\r\n\r\nThe first year of the contra",
-      "type": "Contract",
+      "title": "Design Review Board meeting held on January 13, 2026.",
+      "type": "Minutes",
       "status": "Agenda Ready",
       "intro_date": "2026-02-19",
-      "file_number": "26-0220",
+      "file_number": "26-0222",
       "passed_date": null
     },
     {
@@ -983,11 +983,11 @@
       "passed_date": null
     },
     {
-      "title": "Amending board membership requirements for the Palo District, a Theme Park District established pursuant to Arizona law. (District 3) \nResolution No. 12474",
-      "type": "Resolution",
+      "title": "ZON24-01027 \"Mesa Premier RV & Boat Storage Phase II\", 13.7± acres located approximately 265 feet east of the Southeast corner of North Higley Road and East Thomas Road. Rezone 3.5± acres from Single ",
+      "type": "Ordinance",
       "status": "Agenda Ready",
       "intro_date": "2026-02-12",
-      "file_number": "26-0207",
+      "file_number": "26-0205",
       "passed_date": null
     },
     {
@@ -1000,7 +1000,7 @@
     }
   ],
   "legistar_url": "https://mesa.legistar.com",
-  "enriched_at": "2026-03-22T18:51:24.392531",
+  "enriched_at": "2026-03-23T02:48:39.885964",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

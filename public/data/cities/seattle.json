@@ -169,11 +169,11 @@
     "accela_agency_id": "SEATTLE"
   },
   "development": {
-    "permits_12mo": 6351,
-    "yoy_trend_pct": 8.1,
-    "avg_permit_value": 1155527.44,
+    "permits_12mo": 6355,
+    "yoy_trend_pct": 8.8,
+    "avg_permit_value": 1155048.37,
     "permit_types": {
-      "Building": 5357,
+      "Building": 5361,
       "Demolition": 536,
       "Roof": 431,
       "Grading": 27
@@ -474,8 +474,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.seattle.gov/resource/76t5-zqzr.json",
-        "probed_at": "2026-03-22T18:56:39.241471",
-        "data_vintage": "Rolling 12-month window ending 2026-03-22",
+        "probed_at": "2026-03-23T02:53:31.494671",
+        "data_vintage": "Rolling 12-month window ending 2026-03-23",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -521,7 +521,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Seattle",
-        "probed_at": "2026-03-22T18:57:29.968848",
+        "probed_at": "2026-03-23T02:54:24.215046",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -957,16 +957,6 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
-    },
-    {
-      "date": "2026-02-20",
-      "body": "Human Services, Labor, and Economic Development Committee",
-      "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA 98104",
-      "has_agenda": true,
-      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6593_A_Human_Services%2C_Labor%2C_and_Economic_Development_Committee_26-02-20_Committee_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
     }
   ],
   "recent_legislation": [
@@ -1052,7 +1042,7 @@
     }
   ],
   "legistar_url": "https://seattle.legistar.com",
-  "enriched_at": "2026-03-22T18:55:04.812946",
+  "enriched_at": "2026-03-23T02:51:58.973138",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

@@ -77,20 +77,20 @@
     "rent_burden_ratio": 12.7,
     "cost_burdened_pct": 47.98,
     "severely_burdened_pct": 19.76,
-    "total_housing_units": 49133,
-    "occupied_housing_units": 46764,
+    "total_housing_units": 47502,
+    "occupied_housing_units": 45133,
     "vacant_housing_units": 2369,
-    "vacancy_rate": 4.82,
-    "occupancy_rate": 95.18,
-    "data_year": "2023",
+    "vacancy_rate": 4.99,
+    "occupancy_rate": 95.01,
+    "data_year": "2022",
     "vacancy_source": "Census ACS 5-Year",
-    "vacant_for_rent": 860,
-    "vacant_rented_not_occupied": 300,
-    "vacant_for_sale": 280,
-    "vacant_sold_not_occupied": 131,
-    "vacant_seasonal": 342,
+    "vacant_for_rent": 1050,
+    "vacant_rented_not_occupied": 320,
+    "vacant_for_sale": 193,
+    "vacant_sold_not_occupied": 67,
+    "vacant_seasonal": 357,
     "vacant_migrant_workers": 0,
-    "vacant_other": 456
+    "vacant_other": 382
   },
   "health": {
     "uninsured_pct": null,
@@ -578,7 +578,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Roundrock",
-        "probed_at": "2026-03-22T18:58:19.277118",
+        "probed_at": "2026-03-23T02:55:09.558475",
         "data_vintage": "BRFSS None",
         "geographic_level": "place",
         "status": "unavailable"
@@ -922,14 +922,6 @@
   ],
   "recent_legislation": [
     {
-      "title": "Consider approval of the minutes for the January 14, 2026, Planning and Zoning Commission meeting.",
-      "type": "PZ Minutes",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-11",
-      "file_number": "PZ-2026-004",
-      "passed_date": null
-    },
-    {
       "title": "Consider an update regarding Council actions related to Planning and Zoning items",
       "type": "PZ Presentations",
       "status": "Agenda Ready",
@@ -946,27 +938,19 @@
       "passed_date": null
     },
     {
+      "title": "Consider approval of the minutes for the January 14, 2026, Planning and Zoning Commission meeting.",
+      "type": "PZ Minutes",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-11",
+      "file_number": "PZ-2026-004",
+      "passed_date": null
+    },
+    {
       "title": "Consider approval of minutes from the February 12, 2026, City Council meeting.",
       "type": "Minutes",
       "status": "Agenda Ready",
       "intro_date": "2026-02-09",
       "file_number": "TMP-26-118",
-      "passed_date": null
-    },
-    {
-      "title": "Consider Executive Session as authorized by §551.074 Government Code, related to the evaluation of the City Manager.",
-      "type": "Executive Session",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-06",
-      "file_number": "TMP-26-111",
-      "passed_date": null
-    },
-    {
-      "title": "Consider a resolution accepting the City’s Annual Comprehensive Financial Report for fiscal year October 1, 2024, to September 30, 2025.",
-      "type": "Resolution",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-06",
-      "file_number": "2026-049",
       "passed_date": null
     },
     {
@@ -978,11 +962,27 @@
       "passed_date": null
     },
     {
+      "title": "Consider Executive Session as authorized by §551.074 Government Code, related to the evaluation of the City Manager.",
+      "type": "Executive Session",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-06",
+      "file_number": "TMP-26-111",
+      "passed_date": null
+    },
+    {
       "title": "Consider a resolution nominating Dell Inc. at its Building 5 on the Round Rock campus as a qualified Enterprise Project to be eligible to participate in the Enterprise Zone Program.",
       "type": "Resolution",
       "status": "Agenda Ready",
       "intro_date": "2026-02-06",
       "file_number": "2026-050",
+      "passed_date": null
+    },
+    {
+      "title": "Consider a resolution accepting the City’s Annual Comprehensive Financial Report for fiscal year October 1, 2024, to September 30, 2025.",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-06",
+      "file_number": "2026-049",
       "passed_date": null
     },
     {
@@ -1003,7 +1003,7 @@
     }
   ],
   "legistar_url": "https://roundrock.legistar.com",
-  "enriched_at": "2026-03-22T18:54:26.746766",
+  "enriched_at": "2026-03-23T02:51:24.677543",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

@@ -69,20 +69,20 @@
     "rent_burden_ratio": 17.7,
     "cost_burdened_pct": 42.24,
     "severely_burdened_pct": 21.55,
-    "total_housing_units": 102592,
-    "occupied_housing_units": 94058,
-    "vacant_housing_units": 8534,
-    "vacancy_rate": 8.32,
-    "occupancy_rate": 91.68,
-    "data_year": "2023",
+    "total_housing_units": 98740,
+    "occupied_housing_units": 91048,
+    "vacant_housing_units": 7692,
+    "vacancy_rate": 7.79,
+    "occupancy_rate": 92.21,
+    "data_year": "2021",
     "vacancy_source": "Census ACS 5-Year",
-    "vacant_for_rent": 2838,
-    "vacant_rented_not_occupied": 392,
-    "vacant_for_sale": 595,
-    "vacant_sold_not_occupied": 397,
-    "vacant_seasonal": 303,
+    "vacant_for_rent": 1949,
+    "vacant_rented_not_occupied": 270,
+    "vacant_for_sale": 372,
+    "vacant_sold_not_occupied": 311,
+    "vacant_seasonal": 364,
     "vacant_migrant_workers": 0,
-    "vacant_other": 4009
+    "vacant_other": 4426
   },
   "health": {
     "uninsured_pct": 9.8,
@@ -512,7 +512,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Huntsville",
-        "probed_at": "2026-03-22T18:57:53.355646",
+        "probed_at": "2026-03-23T02:54:45.565874",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -859,30 +859,6 @@
   ],
   "recent_legislation": [
     {
-      "title": "Public hearing on the zoning of 36.54 acres of land lying on the south side of Martin Rd and east of Electronics Blvd. to Residence 2 District; and the consideration of an Ordinance pertaining to the ",
-      "type": "Public Hearings to be Held",
-      "status": "Public Hearing",
-      "intro_date": "2026-02-16",
-      "file_number": "TMP-6612",
-      "passed_date": null
-    },
-    {
-      "title": "Ordinance declaring certain property surplus and to be disposed of per Agreement with Managed Asset Recycling Solutions, LLC. (Introduced on February 12, 2026, Regular Council Meeting)\r\nOrdinance No. ",
-      "type": "Unfinished Business",
-      "status": "Unfinished Business",
-      "intro_date": "2026-02-16",
-      "file_number": "TMP-6611",
-      "passed_date": null
-    },
-    {
-      "title": "Resolution to appoint Brandon Tucker to the Huntsville-Madison County Convention and Visitors Bureau Board of Directors to fill a vacancy due to the resignation of Ernest Young for the remainder of a ",
-      "type": "Board Appointments ",
-      "status": "To Be Voted On",
-      "intro_date": "2026-02-16",
-      "file_number": "TMP-6609",
-      "passed_date": null
-    },
-    {
       "title": "Resolution to appoint Deputy Chief Michael Johnson to the Alternative Sentencing and Release Commission due to the resignation of Rex Reynolds for the remainder of the vacant term. (Nominated on Febru",
       "type": "Board Appointments ",
       "status": "To Be Voted On",
@@ -899,11 +875,35 @@
       "passed_date": null
     },
     {
+      "title": "Public hearing on the zoning of 36.54 acres of land lying on the south side of Martin Rd and east of Electronics Blvd. to Residence 2 District; and the consideration of an Ordinance pertaining to the ",
+      "type": "Public Hearings to be Held",
+      "status": "Public Hearing",
+      "intro_date": "2026-02-16",
+      "file_number": "TMP-6612",
+      "passed_date": null
+    },
+    {
+      "title": "Ordinance declaring certain property surplus and to be disposed of per Agreement with Managed Asset Recycling Solutions, LLC. (Introduced on February 12, 2026, Regular Council Meeting)\r\nOrdinance No. ",
+      "type": "Unfinished Business",
+      "status": "Unfinished Business",
+      "intro_date": "2026-02-16",
+      "file_number": "TMP-6611",
+      "passed_date": null
+    },
+    {
       "title": "Public hearing on the rezoning of 90.51 acres of land lying on various existing single-family neighborhoods within the city limits from Residence 2, Residence 2-A, Residence 2-B and Light Industry Dis",
       "type": "Public Hearings to be Held",
       "status": "Public Hearing",
       "intro_date": "2026-02-16",
       "file_number": "TMP-6615",
+      "passed_date": null
+    },
+    {
+      "title": "Resolution to appoint Brandon Tucker to the Huntsville-Madison County Convention and Visitors Bureau Board of Directors to fill a vacancy due to the resignation of Ernest Young for the remainder of a ",
+      "type": "Board Appointments ",
+      "status": "To Be Voted On",
+      "intro_date": "2026-02-16",
+      "file_number": "TMP-6609",
       "passed_date": null
     },
     {
@@ -940,7 +940,7 @@
     }
   ],
   "legistar_url": "https://huntsvilleal.legistar.com",
-  "enriched_at": "2026-03-22T18:49:51.253653",
+  "enriched_at": "2026-03-23T02:47:15.589719",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

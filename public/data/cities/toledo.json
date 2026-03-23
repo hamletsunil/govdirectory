@@ -77,20 +77,20 @@
     "rent_burden_ratio": 28.4,
     "cost_burdened_pct": 43.4,
     "severely_burdened_pct": 22.57,
-    "total_housing_units": 133195,
-    "occupied_housing_units": 118508,
-    "vacant_housing_units": 14687,
-    "vacancy_rate": 11.03,
-    "occupancy_rate": 88.97,
-    "data_year": "2023",
+    "total_housing_units": 133113,
+    "occupied_housing_units": 117618,
+    "vacant_housing_units": 15495,
+    "vacancy_rate": 11.64,
+    "occupancy_rate": 88.36,
+    "data_year": "2022",
     "vacancy_source": "Census ACS 5-Year",
-    "vacant_for_rent": 2770,
-    "vacant_rented_not_occupied": 724,
-    "vacant_for_sale": 676,
-    "vacant_sold_not_occupied": 686,
-    "vacant_seasonal": 337,
-    "vacant_migrant_workers": 77,
-    "vacant_other": 9417
+    "vacant_for_rent": 2935,
+    "vacant_rented_not_occupied": 664,
+    "vacant_for_sale": 823,
+    "vacant_sold_not_occupied": 738,
+    "vacant_seasonal": 416,
+    "vacant_migrant_workers": 75,
+    "vacant_other": 9844
   },
   "health": {
     "uninsured_pct": 11.6,
@@ -532,7 +532,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Toledo",
-        "probed_at": "2026-03-22T18:57:50.318714",
+        "probed_at": "2026-03-23T02:54:42.760489",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -1020,6 +1020,14 @@
   ],
   "recent_legislation": [
     {
+      "title": "Appointment to the Home Improvement Home Remodeling Board of Control",
+      "type": "Appointment",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-20",
+      "file_number": "TMP-12259",
+      "passed_date": null
+    },
+    {
       "title": "Appointment - Toledo-Lucas County Commission on Disabilities",
       "type": "Appointment",
       "status": "Agenda Ready",
@@ -1036,35 +1044,11 @@
       "passed_date": null
     },
     {
-      "title": "Appointment to the Home Improvement Home Remodeling Board of Control",
-      "type": "Appointment",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-20",
-      "file_number": "TMP-12259",
-      "passed_date": null
-    },
-    {
-      "title": "Text Amendment 1111.0610 regarding Legacy Zone Changes",
+      "title": "Zone Change at 1839 Tremainsville Road",
       "type": "Ordinance",
       "status": "Agenda Ready",
       "intro_date": "2026-02-18",
-      "file_number": "TMP-12255",
-      "passed_date": null
-    },
-    {
-      "title": "Recognizing Zack Aubrey and Anthony Mitchell for demonstrating exceptional bravery.",
-      "type": "Resolution",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-18",
-      "file_number": "TMP-12256",
-      "passed_date": null
-    },
-    {
-      "title": "Map Amendment to the Vistula Neighborhood",
-      "type": "Ordinance",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-18",
-      "file_number": "TMP-12252",
+      "file_number": "TMP-12250",
       "passed_date": null
     },
     {
@@ -1084,11 +1068,11 @@
       "passed_date": null
     },
     {
-      "title": "Zone Change at 1839 Tremainsville Road",
-      "type": "Ordinance",
+      "title": "Recognizing Zack Aubrey and Anthony Mitchell for demonstrating exceptional bravery.",
+      "type": "Resolution",
       "status": "Agenda Ready",
       "intro_date": "2026-02-18",
-      "file_number": "TMP-12250",
+      "file_number": "TMP-12256",
       "passed_date": null
     },
     {
@@ -1098,10 +1082,26 @@
       "intro_date": "2026-02-18",
       "file_number": "TMP-12254",
       "passed_date": null
+    },
+    {
+      "title": "Text Amendment 1111.0610 regarding Legacy Zone Changes",
+      "type": "Ordinance",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "TMP-12255",
+      "passed_date": null
+    },
+    {
+      "title": "Map Amendment to the Vistula Neighborhood",
+      "type": "Ordinance",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "TMP-12252",
+      "passed_date": null
     }
   ],
   "legistar_url": "https://toledo.legistar.com",
-  "enriched_at": "2026-03-22T18:55:33.780653",
+  "enriched_at": "2026-03-23T02:52:25.031434",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

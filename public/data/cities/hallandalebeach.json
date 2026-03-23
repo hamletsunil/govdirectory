@@ -69,20 +69,20 @@
     "rent_burden_ratio": 43.1,
     "cost_burdened_pct": 57.94,
     "severely_burdened_pct": 35.47,
-    "total_housing_units": 29019,
-    "occupied_housing_units": 19647,
-    "vacant_housing_units": 9372,
-    "vacancy_rate": 32.3,
-    "occupancy_rate": 67.7,
-    "data_year": "2023",
+    "total_housing_units": 28931,
+    "occupied_housing_units": 19117,
+    "vacant_housing_units": 9814,
+    "vacancy_rate": 33.92,
+    "occupancy_rate": 66.08,
+    "data_year": "2021",
     "vacancy_source": "Census ACS 5-Year",
-    "vacant_for_rent": 760,
-    "vacant_rented_not_occupied": 187,
-    "vacant_for_sale": 464,
-    "vacant_sold_not_occupied": 59,
-    "vacant_seasonal": 6949,
+    "vacant_for_rent": 694,
+    "vacant_rented_not_occupied": 235,
+    "vacant_for_sale": 383,
+    "vacant_sold_not_occupied": 207,
+    "vacant_seasonal": 7135,
     "vacant_migrant_workers": 0,
-    "vacant_other": 953
+    "vacant_other": 1160
   },
   "health": {
     "uninsured_pct": 20.3,
@@ -554,7 +554,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Hallandale%20Beach",
-        "probed_at": "2026-03-22T18:59:03.428884",
+        "probed_at": "2026-03-23T02:55:50.135144",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -869,6 +869,14 @@
       "passed_date": null
     },
     {
+      "title": "February 2026 - Liaison's Report",
+      "type": "Application",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-03",
+      "file_number": "26-044",
+      "passed_date": null
+    },
+    {
       "title": "Application # DR-25-06076 for Minor Development Review approval pursuant to Section 32-782 of the Zoning and Land Development Code in order to construct a 2-story two-family (duplex) building at the p",
       "type": "Application",
       "status": "Agenda Ready",
@@ -885,14 +893,6 @@
       "passed_date": null
     },
     {
-      "title": "February 2026 - Liaison's Report",
-      "type": "Application",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-03",
-      "file_number": "26-044",
-      "passed_date": null
-    },
-    {
       "title": "SHEN YUN PERFORMING ARTS PROCLAMATION. (SPONSORED BY MAYOR JOY F. COOPER)",
       "type": "Presentation",
       "status": "Agenda Ready",
@@ -901,19 +901,19 @@
       "passed_date": null
     },
     {
-      "title": "COLORECTAL CANCER AWARENESS PROCLAMATION (SPONSORED BY MAYOR JOY F. COOPER)",
-      "type": "Presentation",
-      "status": "Agenda Ready",
-      "intro_date": "2026-01-29",
-      "file_number": "26-037",
-      "passed_date": null
-    },
-    {
       "title": "SISTER CITY SDEROT RECOGNITION. (SPONSORED BY MAYOR JOY F. COOPER)",
       "type": "Presentation",
       "status": "Agenda Ready",
       "intro_date": "2026-01-29",
       "file_number": "26-038",
+      "passed_date": null
+    },
+    {
+      "title": "COLORECTAL CANCER AWARENESS PROCLAMATION (SPONSORED BY MAYOR JOY F. COOPER)",
+      "type": "Presentation",
+      "status": "Agenda Ready",
+      "intro_date": "2026-01-29",
+      "file_number": "26-037",
       "passed_date": null
     },
     {
@@ -926,7 +926,7 @@
     }
   ],
   "legistar_url": "https://hallandalebeach.legistar.com",
-  "enriched_at": "2026-03-22T18:49:15.160473",
+  "enriched_at": "2026-03-23T02:46:43.038565",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

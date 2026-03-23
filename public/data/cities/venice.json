@@ -78,20 +78,20 @@
     "rent_burden_ratio": 26.0,
     "cost_burdened_pct": 58.47,
     "severely_burdened_pct": 37.67,
-    "total_housing_units": 20190,
-    "occupied_housing_units": 14166,
-    "vacant_housing_units": 6024,
-    "vacancy_rate": 29.84,
-    "occupancy_rate": 70.16,
-    "data_year": "2023",
+    "total_housing_units": 18995,
+    "occupied_housing_units": 13385,
+    "vacant_housing_units": 5610,
+    "vacancy_rate": 29.53,
+    "occupancy_rate": 70.47,
+    "data_year": "2021",
     "vacancy_source": "Census ACS 5-Year",
-    "vacant_for_rent": 362,
-    "vacant_rented_not_occupied": 128,
-    "vacant_for_sale": 259,
-    "vacant_sold_not_occupied": 0,
-    "vacant_seasonal": 4765,
+    "vacant_for_rent": 411,
+    "vacant_rented_not_occupied": 130,
+    "vacant_for_sale": 201,
+    "vacant_sold_not_occupied": 19,
+    "vacant_seasonal": 4480,
     "vacant_migrant_workers": 0,
-    "vacant_other": 510
+    "vacant_other": 369
   },
   "health": {
     "uninsured_pct": 10.0,
@@ -547,7 +547,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Venice",
-        "probed_at": "2026-03-22T18:59:15.674379",
+        "probed_at": "2026-03-23T02:56:01.408329",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -889,22 +889,6 @@
       "passed_date": null
     },
     {
-      "title": "An Ordinance of the City Of Venice, Florida, Annexing Certain Lands Lying Contiguous to the City Limits, Pursuant to Petition No. 25-19AN by iHeartMedia + Entertainment, Inc., Into the Corporate Limit",
-      "type": "Ordinance",
-      "status": "First Reading and Public Hearing",
-      "intro_date": "2026-02-18",
-      "file_number": "ORD. NO. 2026-08",
-      "passed_date": null
-    },
-    {
-      "title": "Impasse Hearing Between the CIty of Venice and AFSCME Regarding Shift Schedule Changes",
-      "type": "Agreement",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-18",
-      "file_number": "TMP-11093",
-      "passed_date": null
-    },
-    {
       "title": "Chalets at Venice Zoning Map Amendment (Quasi-Judicial)\r\nStaff: Brittany Smith, Planner\r\nAgent: Jackson R. Boone, Esq., Boone Law Firm\r\nOwner/Applicant: P3 LAF Chalets at Venice LP",
       "type": "Rezoning",
       "status": "Agenda Ready",
@@ -918,6 +902,22 @@
       "status": "Agenda Ready",
       "intro_date": "2026-02-18",
       "file_number": "CC 25-20CP",
+      "passed_date": null
+    },
+    {
+      "title": "Impasse Hearing Between the CIty of Venice and AFSCME Regarding Shift Schedule Changes",
+      "type": "Agreement",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "TMP-11093",
+      "passed_date": null
+    },
+    {
+      "title": "An Ordinance of the City Of Venice, Florida, Annexing Certain Lands Lying Contiguous to the City Limits, Pursuant to Petition No. 25-19AN by iHeartMedia + Entertainment, Inc., Into the Corporate Limit",
+      "type": "Ordinance",
+      "status": "First Reading and Public Hearing",
+      "intro_date": "2026-02-18",
+      "file_number": "ORD. NO. 2026-08",
       "passed_date": null
     },
     {
@@ -937,14 +937,6 @@
       "passed_date": null
     },
     {
-      "title": "Legislative Referral Tracking Report",
-      "type": "Agreement",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-13",
-      "file_number": "26-0525",
-      "passed_date": null
-    },
-    {
       "title": "Invitation to Consider a Joint Meeting of the Sarasota County Commissioners and the Venice City Council (City Manager Clinch)",
       "type": "Agreement",
       "status": "Agenda Ready",
@@ -959,10 +951,18 @@
       "intro_date": "2026-02-13",
       "file_number": "26-0521",
       "passed_date": null
+    },
+    {
+      "title": "Minutes of the February 2, 2026 Strategic Planning Workshop and February 10, 2026 Regular Meeting",
+      "type": "Minutes",
+      "status": "Consent Agenda",
+      "intro_date": "2026-02-13",
+      "file_number": "26-0516",
+      "passed_date": null
     }
   ],
   "legistar_url": "https://venice.legistar.com",
-  "enriched_at": "2026-03-22T18:55:45.596489",
+  "enriched_at": "2026-03-23T02:52:35.626495",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
