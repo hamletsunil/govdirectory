@@ -210,17 +210,17 @@
     "accela_agency_id": "E_CHICAGO"
   },
   "development": {
-    "permits_12mo": 31431,
-    "yoy_trend_pct": -2.4,
-    "avg_permit_value": 378963.79,
-    "permits_per_capita_1k": 11.55,
+    "permits_12mo": 31528,
+    "yoy_trend_pct": -2.1,
+    "avg_permit_value": 379578.96,
+    "permits_per_capita_1k": 11.58,
     "permit_types": {
-      "PERMIT – EXPRESS PERMIT PROGRAM": 20064,
-      "PERMIT - RENOVATION/ALTERATION": 5397,
+      "PERMIT – EXPRESS PERMIT PROGRAM": 20139,
+      "PERMIT - RENOVATION/ALTERATION": 5409,
       "PERMIT - SIGNS": 2296,
-      "PERMIT - NEW CONSTRUCTION": 1466,
+      "PERMIT - NEW CONSTRUCTION": 1473,
       "PERMIT - ELEVATOR EQUIPMENT": 1055,
-      "PERMIT - WRECKING/DEMOLITION": 684,
+      "PERMIT - WRECKING/DEMOLITION": 687,
       "PERMIT - REINSTATE REVOKED PMT": 468,
       "PERMIT - EASY PERMIT PROCESS": 1
     },
@@ -636,7 +636,7 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.cityofchicago.org/resource/ydr8-5enu.json",
-        "probed_at": "2026-03-24T07:20:31.095394",
+        "probed_at": "2026-03-24T13:35:16.523314",
         "data_vintage": "Rolling 12-month window ending 2026-03-24",
         "geographic_level": "place",
         "status": "available",
@@ -683,7 +683,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Chicago",
-        "probed_at": "2026-03-24T07:21:59.877184",
+        "probed_at": "2026-03-24T13:36:47.786967",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -1586,7 +1586,7 @@
   "recent_meetings": [],
   "recent_legislation": [],
   "legistar_url": "https://chicago.legistar.com",
-  "enriched_at": "2026-03-24T07:12:36.036554",
+  "enriched_at": "2026-03-24T13:24:23.120742",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
