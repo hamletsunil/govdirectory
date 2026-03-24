@@ -565,7 +565,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Richmond",
-        "probed_at": "2026-03-23T19:13:01.707364",
+        "probed_at": "2026-03-24T02:44:23.768182",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -901,16 +901,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-03-23",
-      "body": "City Council",
-      "location": "Council Chamber, 2nd Floor - City Hall",
-      "has_agenda": true,
-      "agenda_url": "https://legistar2.granicus.com/richmondva/meetings/2026/3/5173_A_City_Council_26-03-23_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-03-24",
       "body": "Public Safety Standing Committee",
       "location": "Council Chamber, 2nd Floor – City Hall",
@@ -949,6 +939,16 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": true
+    },
+    {
+      "date": "2026-03-23",
+      "body": "City Council",
+      "location": "Council Chamber, 2nd Floor - City Hall",
+      "has_agenda": true,
+      "agenda_url": "https://legistar2.granicus.com/richmondva/meetings/2026/3/5173_A_City_Council_26-03-23_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     },
     {
       "date": "2026-03-19",
@@ -1026,16 +1026,6 @@
       "location": "Council Chamber, 2nd Floor – City Hall",
       "has_agenda": true,
       "agenda_url": "https://legistar2.granicus.com/richmondva/meetings/2026/2/5085_A_Public_Safety_Standing_Committee_26-02-24_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-23",
-      "body": "Informal Meeting",
-      "location": "Council Chamber, 2nd Floor - City Hall",
-      "has_agenda": true,
-      "agenda_url": "https://legistar2.granicus.com/richmondva/meetings/2026/2/5154_A_Informal_Meeting_26-02-23_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -1134,7 +1124,7 @@
     }
   ],
   "legistar_url": "https://richmondva.legistar.com",
-  "enriched_at": "2026-03-23T19:09:25.992194",
+  "enriched_at": "2026-03-24T02:40:57.011265",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

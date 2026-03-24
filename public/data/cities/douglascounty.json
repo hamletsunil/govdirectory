@@ -693,16 +693,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-03-23",
-      "body": "Water Commission",
-      "location": "Hearing Room",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-04-08",
       "body": "Douglas County Parks Advisory Board",
       "location": "Highland Heritage Regional Park Office",
@@ -711,6 +701,16 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": true
+    },
+    {
+      "date": "2026-03-23",
+      "body": "Water Commission",
+      "location": "Hearing Room",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     },
     {
       "date": "2026-03-11",
@@ -784,10 +784,10 @@
     },
     {
       "date": "2026-02-23",
-      "body": "Planning Commission Pre-Meeting & Administration Training Session",
-      "location": "Conference Room A & B",
+      "body": "Planning Commission Work Session",
+      "location": "Conference Rooms A & B",
       "has_agenda": true,
-      "agenda_url": "https://douglascounty.legistar1.com/douglascounty/meetings/2026/2/4074_A_Planning_Commission_Pre-Meeting___Administration_Training_Session_26-02-23_AGENDA.pdf",
+      "agenda_url": "https://douglascounty.legistar1.com/douglascounty/meetings/2026/2/4134_A_Planning_Commission_Work_Session_26-02-23_AGENDA.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -798,16 +798,6 @@
       "location": "Hearing Room",
       "has_agenda": false,
       "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-23",
-      "body": "Planning Commission Work Session",
-      "location": "Conference Rooms A & B",
-      "has_agenda": true,
-      "agenda_url": "https://douglascounty.legistar1.com/douglascounty/meetings/2026/2/4134_A_Planning_Commission_Work_Session_26-02-23_AGENDA.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -823,19 +813,11 @@
       "passed_date": null
     },
     {
-      "title": "Pinery Village Filing 2 - Minor Development Final Plat - Project File: SB2021-049.",
-      "type": "Subdivision",
+      "title": "Recommendation for Building Code Adoption.",
+      "type": "Regulation Amendment",
       "status": "Agenda Ready",
       "intro_date": "2026-02-19",
-      "file_number": "4432",
-      "passed_date": null
-    },
-    {
-      "title": "Driskill Subdivision - Minor Development Final Plat - Project File: SB2025-042.",
-      "type": "Subdivision",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-19",
-      "file_number": "4435",
+      "file_number": "4437",
       "passed_date": null
     },
     {
@@ -847,6 +829,14 @@
       "passed_date": null
     },
     {
+      "title": "Pinery Village Filing 2 - Minor Development Final Plat - Project File: SB2021-049.",
+      "type": "Subdivision",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "4432",
+      "passed_date": null
+    },
+    {
       "title": "Highlands Ranch Filing 159 - Minor Development Final Plat - Project File: SB2023-022.",
       "type": "Subdivision",
       "status": "Agenda Ready",
@@ -855,19 +845,11 @@
       "passed_date": null
     },
     {
-      "title": "Recommendation for Building Code Adoption.",
-      "type": "Regulation Amendment",
+      "title": "Driskill Subdivision - Minor Development Final Plat - Project File: SB2025-042.",
+      "type": "Subdivision",
       "status": "Agenda Ready",
       "intro_date": "2026-02-19",
-      "file_number": "4437",
-      "passed_date": null
-    },
-    {
-      "title": "Approval of Business Meeting Minutes from February 10, 2026.",
-      "type": "Minutes",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-17",
-      "file_number": "4422",
+      "file_number": "4435",
       "passed_date": null
     },
     {
@@ -887,16 +869,24 @@
       "passed_date": null
     },
     {
-      "title": "Approval of Vouchers February 24, 2026",
-      "type": "Approval of Vouchers",
+      "title": "Approval of Business Meeting Minutes from February 10, 2026.",
+      "type": "Minutes",
       "status": "Agenda Ready",
       "intro_date": "2026-02-17",
-      "file_number": "4420",
+      "file_number": "4422",
+      "passed_date": null
+    },
+    {
+      "title": "County Manager Report.",
+      "type": "County Manager Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-17",
+      "file_number": "4424",
       "passed_date": null
     }
   ],
   "legistar_url": "https://douglascounty.legistar.com",
-  "enriched_at": "2026-03-23T19:05:05.460172",
+  "enriched_at": "2026-03-24T02:36:36.285197",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
