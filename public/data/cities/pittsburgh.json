@@ -571,7 +571,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Pittsburgh",
-        "probed_at": "2026-03-24T19:16:17.415527",
+        "probed_at": "2026-03-25T07:14:43.370258",
         "data_vintage": "BRFSS 2022",
         "geographic_level": "place",
         "status": "available"
@@ -942,7 +942,7 @@
       "agenda_url": "https://pittsburgh.legistar1.com/pittsburgh/meetings/2026/3/11883_A_Committee_on_Hearings_and_Policy__26-03-24_Post_Agenda_and_Committee_on_Hearings_.pdf",
       "has_minutes": false,
       "has_video": false,
-      "upcoming": true
+      "upcoming": false
     },
     {
       "date": "2026-03-10",
@@ -986,6 +986,16 @@
     },
     {
       "date": "2026-02-24",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-02-24",
       "body": "Post Agenda",
       "location": "Council Chambers",
       "has_agenda": true,
@@ -1000,16 +1010,6 @@
       "location": "Council Chambers",
       "has_agenda": true,
       "agenda_url": "https://pittsburgh.legistar1.com/pittsburgh/meetings/2026/2/11882_A_City_Council_26-02-24_Regular_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-02-24",
-      "body": "City Council",
-      "location": "Council Chambers",
-      "has_agenda": false,
-      "agenda_url": null,
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -1098,7 +1098,7 @@
     }
   ],
   "legistar_url": "https://pittsburgh.legistar.com",
-  "enriched_at": "2026-03-24T19:13:35.775911",
+  "enriched_at": "2026-03-25T07:11:47.702096",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

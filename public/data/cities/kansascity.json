@@ -116,25 +116,25 @@
     "accela_agency_id": "KANSAS"
   },
   "development": {
-    "permits_12mo": 2638,
-    "yoy_trend_pct": -85.7,
-    "avg_permit_value": 223071.02,
+    "permits_12mo": 2508,
+    "yoy_trend_pct": -86.4,
+    "avg_permit_value": 223447.37,
     "permit_types": {
-      "Electrical General": 593,
-      "Plumbing General": 387,
-      "Mechanical General": 305,
-      "Certificate of Occupancy (Residential)": 152,
-      "Electrical with Service": 119,
-      "Single Family - Interior Remodel": 119,
-      "Other": 96,
-      "Install/Replace Water Heater": 88,
-      "Renovation": 75,
-      "Single Family - New": 73,
-      "Security Alarms": 57,
-      "Plumbing with Limited Service": 53,
+      "Electrical General": 564,
+      "Plumbing General": 358,
+      "Mechanical General": 293,
+      "Certificate of Occupancy (Residential)": 146,
+      "Electrical with Service": 115,
+      "Single Family - Interior Remodel": 112,
+      "Other": 94,
+      "Install/Replace Water Heater": 82,
+      "Renovation": 67,
+      "Single Family - New": 66,
+      "Security Alarms": 55,
+      "Plumbing with Limited Service": 52,
       "Fire Protection System": 50,
-      "Electrical Reconnect": 42,
-      "Wall Sign / Projecting Sign": 41
+      "Electrical Fire Alarm Commercial": 41,
+      "Electrical Reconnect": 41
     },
     "datasets_count": 1
   },
@@ -292,8 +292,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.kcmo.org/resource/ntw8-aacc.json",
-        "probed_at": "2026-03-24T19:15:46.923703",
-        "data_vintage": "Rolling 12-month window ending 2026-03-24",
+        "probed_at": "2026-03-25T07:13:55.638267",
+        "data_vintage": "Rolling 12-month window ending 2026-03-25",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Permits - CPD Dataset",
@@ -758,16 +758,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-03-24",
-      "body": "Board of Police Commissioners",
-      "location": "1125 Locust Street",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-04-01",
       "body": "Risk Management Committee",
       "location": "Virtual Closed Session",
@@ -796,6 +786,16 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": true
+    },
+    {
+      "date": "2026-03-24",
+      "body": "Board of Police Commissioners",
+      "location": "1125 Locust Street",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     },
     {
       "date": "2026-03-18",
@@ -886,16 +886,6 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
-    },
-    {
-      "date": "2026-02-26",
-      "body": "Finance, Governance and Public Safety Committee",
-      "location": "26th Floor, Council Chamber",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
     }
   ],
   "recent_legislation": [
@@ -981,7 +971,7 @@
     }
   ],
   "legistar_url": "https://kansascity.legistar.com",
-  "enriched_at": "2026-03-24T19:12:32.694497",
+  "enriched_at": "2026-03-25T07:10:45.932920",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
