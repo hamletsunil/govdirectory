@@ -513,7 +513,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Princeton",
-        "probed_at": "2026-03-25T19:18:32.665087",
+        "probed_at": "2026-03-26T02:50:43.725579",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -832,33 +832,22 @@
       }
     ]
   },
-  "recent_meetings": [
-    {
-      "date": "2026-02-23",
-      "body": "Mayor and Council of Princeton",
-      "location": "Main Council Chambers",
-      "has_agenda": true,
-      "agenda_url": "https://princetonnj.legistar1.com/princetonnj/meetings/2026/2/1011_A_Mayor_and_Council_of_Princeton_26-02-23_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    }
-  ],
+  "recent_meetings": [],
   "recent_legislation": [
+    {
+      "title": "An Ordinance of the Municipality of Princeton Amending Chapter B17A Entitled “Land Use and Zoning” of the Municipality of Princeton to Create the Affordable Housing Overlay District-19 (AHO-19) in Fur",
+      "type": "Ordinance",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-20",
+      "file_number": "ORD 26-14",
+      "passed_date": null
+    },
     {
       "title": "Mayor and Council of Princeton-Closed Session-October 21, 2025",
       "type": "Minutes",
       "status": "Agenda Ready",
       "intro_date": "2026-02-20",
       "file_number": "0010",
-      "passed_date": null
-    },
-    {
-      "title": "An Ordinance of the Municipality of Princeton Amending Chapter T10B Entitled “Land Use” of the Municipality of Princeton to Address the Requirements of the Fair Housing Act and the Uniform Housing Aff",
-      "type": "Ordinance",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-20",
-      "file_number": "ORD 26-15",
       "passed_date": null
     },
     {
@@ -886,6 +875,14 @@
       "passed_date": null
     },
     {
+      "title": "Resolution of the Mayor and Council of Princeton Authorizing 2026 1st Quarter Refunds of $21,408.05 Overpayments",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-17",
+      "file_number": "R-26-070",
+      "passed_date": null
+    },
+    {
       "title": "Resolution of the Mayor and Council of Princeton Renewing Lease Agreement between Princeton and Princeton Tennis Program in Connection with Community Park South Tennis Facility for Additional One-Year",
       "type": "Resolution",
       "status": "Agenda Ready",
@@ -899,14 +896,6 @@
       "status": "Agenda Ready",
       "intro_date": "2026-02-17",
       "file_number": "0011",
-      "passed_date": null
-    },
-    {
-      "title": "Resolution of the Mayor and Council of Princeton Authorizing Release of a Performance Guarantee in the Amount of $29,769.00 and Reduction in Inspection Fees to Princeton SC Residential Urban Renewal, ",
-      "type": "Resolution",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-17",
-      "file_number": "R-26-065",
       "passed_date": null
     },
     {
@@ -927,7 +916,7 @@
     }
   ],
   "legistar_url": "https://princetonnj.legistar.com",
-  "enriched_at": "2026-03-25T19:12:37.353076",
+  "enriched_at": "2026-03-26T02:46:24.711580",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

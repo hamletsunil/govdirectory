@@ -169,17 +169,17 @@
     "accela_agency_id": "SEATTLE"
   },
   "development": {
-    "permits_12mo": 6314,
-    "yoy_trend_pct": 7.7,
-    "avg_permit_value": 1161629.53,
+    "permits_12mo": 6309,
+    "yoy_trend_pct": 7.4,
+    "avg_permit_value": 1162121.87,
     "permit_types": {
-      "Building": 5325,
-      "Demolition": 535,
+      "Building": 5321,
+      "Demolition": 534,
       "Roof": 428,
       "Grading": 26
     },
     "datasets_count": 10,
-    "permits_per_capita_1k": 8.6
+    "permits_per_capita_1k": 8.59
   },
   "meetings": {
     "official_channels": 1,
@@ -474,8 +474,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.seattle.gov/resource/76t5-zqzr.json",
-        "probed_at": "2026-03-25T19:15:27.451346",
-        "data_vintage": "Rolling 12-month window ending 2026-03-25",
+        "probed_at": "2026-03-26T02:46:55.143700",
+        "data_vintage": "Rolling 12-month window ending 2026-03-26",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -521,7 +521,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Seattle",
-        "probed_at": "2026-03-25T19:16:46.802770",
+        "probed_at": "2026-03-26T02:48:36.412356",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -947,16 +947,6 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
-    },
-    {
-      "date": "2026-02-23",
-      "body": "Council Briefing",
-      "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA  98104",
-      "has_agenda": true,
-      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6595_A_Council_Briefing_26-02-23_Council_Briefing.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
     }
   ],
   "recent_legislation": [
@@ -1042,7 +1032,7 @@
     }
   ],
   "legistar_url": "https://seattle.legistar.com",
-  "enriched_at": "2026-03-25T19:13:50.432904",
+  "enriched_at": "2026-03-26T02:46:28.260246",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

@@ -220,28 +220,28 @@
     "accela_agency_id": null
   },
   "development": {
-    "permits_12mo": 7398,
-    "yoy_trend_pct": 7.1,
+    "permits_12mo": 7342,
+    "yoy_trend_pct": 5.6,
     "avg_permit_value": null,
     "permit_types": {
-      "Building Permit": 1928,
-      "Electrical Permit": 1760,
-      "Plumbing Permit": 662,
+      "Building Permit": 1917,
+      "Electrical Permit": 1748,
+      "Plumbing Permit": 650,
       "Food Establishment": 497,
-      "Gas Fitting": 454,
+      "Gas Fitting": 448,
       "Dumpster": 327,
       "Temporary Food": 288,
       "Certificate of Inspection": 272,
-      "Sheet Metal Permit": 204,
-      "Dumpster (Located on Street) Permit": 194,
+      "Sheet Metal Permit": 201,
+      "Dumpster (Located on Street) Permit": 193,
       "Certificate of Occupancy": 165,
-      "Business License": 117,
-      "Farmers Market": 101,
+      "Business License": 116,
       "Public Event License": 101,
+      "Farmers Market": 94,
       "Block Party": 81
     },
     "datasets_count": 1,
-    "permits_per_capita_1k": 91.94
+    "permits_per_capita_1k": 91.25
   },
   "meetings": {
     "official_channels": 1,
@@ -627,8 +627,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.somervillema.gov/resource/nneb-s3f7.json",
-        "probed_at": "2026-03-25T19:16:19.776842",
-        "data_vintage": "Rolling 12-month window ending 2026-03-25",
+        "probed_at": "2026-03-26T02:48:13.084950",
+        "data_vintage": "Rolling 12-month window ending 2026-03-26",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Applications for Permits and Licenses",
@@ -674,7 +674,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Somerville",
-        "probed_at": "2026-03-25T19:17:58.661435",
+        "probed_at": "2026-03-26T02:50:02.427456",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -1119,16 +1119,6 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
-    },
-    {
-      "date": "2026-02-23",
-      "body": "Traffic and Parking Committee",
-      "location": "Virtual",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
     }
   ],
   "recent_legislation": [
@@ -1214,7 +1204,7 @@
     }
   ],
   "legistar_url": "https://somervillema.legistar.com",
-  "enriched_at": "2026-03-25T19:14:03.056697",
+  "enriched_at": "2026-03-26T02:46:28.716127",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
