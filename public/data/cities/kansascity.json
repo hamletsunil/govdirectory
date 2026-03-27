@@ -116,24 +116,24 @@
     "accela_agency_id": "KANSAS"
   },
   "development": {
-    "permits_12mo": 2449,
-    "yoy_trend_pct": -86.8,
-    "avg_permit_value": 226863.5,
+    "permits_12mo": 2375,
+    "yoy_trend_pct": -87.2,
+    "avg_permit_value": 231481.28,
     "permit_types": {
-      "Electrical General": 547,
-      "Plumbing General": 351,
-      "Mechanical General": 289,
-      "Certificate of Occupancy (Residential)": 136,
-      "Electrical with Service": 111,
-      "Single Family - Interior Remodel": 109,
+      "Electrical General": 535,
+      "Plumbing General": 332,
+      "Mechanical General": 285,
+      "Certificate of Occupancy (Residential)": 120,
+      "Electrical with Service": 110,
+      "Single Family - Interior Remodel": 108,
       "Other": 93,
       "Install/Replace Water Heater": 82,
-      "Renovation": 67,
-      "Single Family - New": 63,
+      "Renovation": 66,
+      "Single Family - New": 61,
       "Security Alarms": 55,
-      "Plumbing with Limited Service": 52,
       "Fire Protection System": 50,
-      "Electrical Fire Alarm Commercial": 41,
+      "Plumbing with Limited Service": 49,
+      "Electrical Fire Alarm Commercial": 40,
       "Electrical Reconnect": 40
     },
     "datasets_count": 1
@@ -292,8 +292,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.kcmo.org/resource/ntw8-aacc.json",
-        "probed_at": "2026-03-26T19:28:57.890026",
-        "data_vintage": "Rolling 12-month window ending 2026-03-26",
+        "probed_at": "2026-03-27T02:59:10.025406",
+        "data_vintage": "Rolling 12-month window ending 2026-03-27",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Permits - CPD Dataset",
@@ -850,9 +850,9 @@
     {
       "date": "2026-03-04",
       "body": "Risk Management Committee",
-      "location": "Virtual Closed Session",
-      "has_agenda": false,
-      "agenda_url": null,
+      "location": null,
+      "has_agenda": true,
+      "agenda_url": "https://kansascity.legistar1.com/kansascity/meetings/2026/3/18884_A_Risk_Management_Committee_26-03-04_Agenda_-_Committees.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -860,9 +860,9 @@
     {
       "date": "2026-03-04",
       "body": "Risk Management Committee",
-      "location": null,
-      "has_agenda": true,
-      "agenda_url": "https://kansascity.legistar1.com/kansascity/meetings/2026/3/18884_A_Risk_Management_Committee_26-03-04_Agenda_-_Committees.pdf",
+      "location": "Virtual Closed Session",
+      "has_agenda": false,
+      "agenda_url": null,
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -971,7 +971,7 @@
     }
   ],
   "legistar_url": "https://kansascity.legistar.com",
-  "enriched_at": "2026-03-26T19:20:51.949413",
+  "enriched_at": "2026-03-27T02:52:57.191312",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

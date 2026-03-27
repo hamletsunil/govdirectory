@@ -220,19 +220,19 @@
     "accela_agency_id": null
   },
   "development": {
-    "permits_12mo": 7342,
-    "yoy_trend_pct": 5.6,
+    "permits_12mo": 7320,
+    "yoy_trend_pct": 5.2,
     "avg_permit_value": null,
     "permit_types": {
-      "Building Permit": 1917,
-      "Electrical Permit": 1748,
-      "Plumbing Permit": 650,
+      "Building Permit": 1907,
+      "Electrical Permit": 1740,
+      "Plumbing Permit": 649,
       "Food Establishment": 497,
-      "Gas Fitting": 448,
+      "Gas Fitting": 447,
       "Dumpster": 327,
       "Temporary Food": 288,
       "Certificate of Inspection": 272,
-      "Sheet Metal Permit": 201,
+      "Sheet Metal Permit": 200,
       "Dumpster (Located on Street) Permit": 193,
       "Certificate of Occupancy": 165,
       "Business License": 116,
@@ -241,7 +241,7 @@
       "Block Party": 81
     },
     "datasets_count": 1,
-    "permits_per_capita_1k": 91.25
+    "permits_per_capita_1k": 90.97
   },
   "meetings": {
     "official_channels": 1,
@@ -627,8 +627,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.somervillema.gov/resource/nneb-s3f7.json",
-        "probed_at": "2026-03-26T19:28:49.780387",
-        "data_vintage": "Rolling 12-month window ending 2026-03-26",
+        "probed_at": "2026-03-27T02:59:02.955348",
+        "data_vintage": "Rolling 12-month window ending 2026-03-27",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Applications for Permits and Licenses",
@@ -674,7 +674,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Somerville",
-        "probed_at": "2026-03-26T19:30:10.647278",
+        "probed_at": "2026-03-27T03:01:02.954193",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -1109,16 +1109,6 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
-    },
-    {
-      "date": "2026-02-24",
-      "body": "Finance Committee",
-      "location": "Virtual",
-      "has_agenda": true,
-      "agenda_url": "https://somervillema.legistar1.com/somervillema/meetings/2026/2/3980_A_Finance_Committee_26-02-24_Regular_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
     }
   ],
   "recent_legislation": [
@@ -1204,7 +1194,7 @@
     }
   ],
   "legistar_url": "https://somervillema.legistar.com",
-  "enriched_at": "2026-03-26T19:26:28.228324",
+  "enriched_at": "2026-03-27T02:57:03.722510",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

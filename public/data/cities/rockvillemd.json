@@ -600,7 +600,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Rockville",
-        "probed_at": "2026-03-26T19:30:17.416742",
+        "probed_at": "2026-03-27T03:01:09.803274",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -869,16 +869,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-03-26",
-      "body": "Recreation and Park Advisory Board",
-      "location": "WebEx (online)",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-04-01",
       "body": "Rockville Bicycle Advisory Committee",
       "location": "Virtual",
@@ -900,6 +890,16 @@
     },
     {
       "date": "2026-04-08",
+      "body": "Planning Commission",
+      "location": "WebEx",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-04-08",
       "body": "Youth Commission",
       "location": null,
       "has_agenda": false,
@@ -912,16 +912,6 @@
       "date": "2026-04-08",
       "body": "Cultural Arts Commission",
       "location": "WebEx: https://rockvillemd.webex.com/rockvillemd/j.php?MTID=m0cc4da8cac253d1859795d7acae6638a",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
-      "date": "2026-04-08",
-      "body": "Planning Commission",
-      "location": "WebEx",
       "has_agenda": false,
       "agenda_url": null,
       "has_minutes": false,
@@ -950,6 +940,16 @@
     },
     {
       "date": "2026-04-15",
+      "body": "Human Rights Commission",
+      "location": "Virtual",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-04-15",
       "body": "Human Services Advisory Commission",
       "location": "CIty Hall & Virtual",
       "has_agenda": false,
@@ -959,14 +959,24 @@
       "upcoming": true
     },
     {
-      "date": "2026-04-15",
-      "body": "Human Rights Commission",
+      "date": "2026-04-21",
+      "body": "Transportation and Mobility Commission",
       "location": "Virtual",
       "has_agenda": false,
       "agenda_url": null,
       "has_minutes": false,
       "has_video": false,
       "upcoming": true
+    },
+    {
+      "date": "2026-03-26",
+      "body": "Recreation and Park Advisory Board",
+      "location": "WebEx (online)",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     },
     {
       "date": "2026-03-25",
@@ -1057,16 +1067,6 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
-    },
-    {
-      "date": "2026-03-11",
-      "body": "Youth Commission",
-      "location": null,
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
     }
   ],
   "recent_legislation": [
@@ -1152,7 +1152,7 @@
     }
   ],
   "legistar_url": "https://rockvillemd.legistar.com",
-  "enriched_at": "2026-03-26T19:25:25.581767",
+  "enriched_at": "2026-03-27T02:56:19.233093",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
