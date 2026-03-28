@@ -220,20 +220,20 @@
     "accela_agency_id": null
   },
   "development": {
-    "permits_12mo": 7320,
-    "yoy_trend_pct": 5.2,
+    "permits_12mo": 7310,
+    "yoy_trend_pct": 5.3,
     "avg_permit_value": null,
     "permit_types": {
-      "Building Permit": 1907,
-      "Electrical Permit": 1740,
-      "Plumbing Permit": 649,
+      "Building Permit": 1905,
+      "Electrical Permit": 1736,
+      "Plumbing Permit": 648,
       "Food Establishment": 497,
       "Gas Fitting": 447,
       "Dumpster": 327,
       "Temporary Food": 288,
       "Certificate of Inspection": 272,
       "Sheet Metal Permit": 200,
-      "Dumpster (Located on Street) Permit": 193,
+      "Dumpster (Located on Street) Permit": 191,
       "Certificate of Occupancy": 165,
       "Business License": 116,
       "Public Event License": 101,
@@ -241,7 +241,7 @@
       "Block Party": 81
     },
     "datasets_count": 1,
-    "permits_per_capita_1k": 90.97
+    "permits_per_capita_1k": 90.85
   },
   "meetings": {
     "official_channels": 1,
@@ -627,8 +627,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.somervillema.gov/resource/nneb-s3f7.json",
-        "probed_at": "2026-03-27T19:12:35.476184",
-        "data_vintage": "Rolling 12-month window ending 2026-03-27",
+        "probed_at": "2026-03-28T02:51:06.214757",
+        "data_vintage": "Rolling 12-month window ending 2026-03-28",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Applications for Permits and Licenses",
@@ -674,7 +674,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Somerville",
-        "probed_at": "2026-03-27T19:14:07.598254",
+        "probed_at": "2026-03-28T02:52:24.752814",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -1099,16 +1099,6 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
-    },
-    {
-      "date": "2026-02-25",
-      "body": "Licenses and Permits Committee",
-      "location": "Virtual",
-      "has_agenda": true,
-      "agenda_url": "https://somervillema.legistar1.com/somervillema/meetings/2026/2/3981_A_Licenses_and_Permits_Committee_26-02-25_Regular_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
     }
   ],
   "recent_legislation": [
@@ -1194,7 +1184,7 @@
     }
   ],
   "legistar_url": "https://somervillema.legistar.com",
-  "enriched_at": "2026-03-27T19:10:38.453418",
+  "enriched_at": "2026-03-28T02:48:21.998696",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

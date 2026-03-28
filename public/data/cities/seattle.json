@@ -169,17 +169,17 @@
     "accela_agency_id": "SEATTLE"
   },
   "development": {
-    "permits_12mo": 6323,
-    "yoy_trend_pct": 8.0,
-    "avg_permit_value": 1160271.91,
+    "permits_12mo": 6301,
+    "yoy_trend_pct": 7.5,
+    "avg_permit_value": 1157176.77,
     "permit_types": {
-      "Building": 5330,
-      "Demolition": 537,
-      "Roof": 429,
+      "Building": 5315,
+      "Demolition": 533,
+      "Roof": 426,
       "Grading": 27
     },
     "datasets_count": 10,
-    "permits_per_capita_1k": 8.61
+    "permits_per_capita_1k": 8.58
   },
   "meetings": {
     "official_channels": 1,
@@ -474,8 +474,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.seattle.gov/resource/76t5-zqzr.json",
-        "probed_at": "2026-03-27T19:11:48.079655",
-        "data_vintage": "Rolling 12-month window ending 2026-03-27",
+        "probed_at": "2026-03-28T02:50:06.522604",
+        "data_vintage": "Rolling 12-month window ending 2026-03-28",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -521,7 +521,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Seattle",
-        "probed_at": "2026-03-27T19:13:06.797399",
+        "probed_at": "2026-03-28T02:51:21.090945",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -917,18 +917,7 @@
       }
     ]
   },
-  "recent_meetings": [
-    {
-      "date": "2026-02-25",
-      "body": "Housing, Arts, and Civil Rights Committee",
-      "location": "Council Chamber, City Hall\r\n600 4th Avenue\r\nSeattle, WA 98104",
-      "has_agenda": true,
-      "agenda_url": "https://legistar2.granicus.com/seattle/meetings/2026/2/6600_A_Housing%2C_Arts%2C_and_Civil_Rights_Committee_26-02-25_Committee_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    }
-  ],
+  "recent_meetings": [],
   "recent_legislation": [
     {
       "title": "Alternative Response Overview in Seattle’s Public Safety Department",
@@ -1012,7 +1001,7 @@
     }
   ],
   "legistar_url": "https://seattle.legistar.com",
-  "enriched_at": "2026-03-27T19:10:29.153444",
+  "enriched_at": "2026-03-28T02:48:09.488173",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
