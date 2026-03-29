@@ -578,7 +578,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Roundrock",
-        "probed_at": "2026-03-28T19:01:43.101053",
+        "probed_at": "2026-03-29T02:57:26.210096",
         "data_vintage": "BRFSS None",
         "geographic_level": "place",
         "status": "unavailable"
@@ -908,33 +908,23 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": true
-    },
-    {
-      "date": "2026-02-26",
-      "body": "City Council",
-      "location": "City Council Chambers, 221 East Main St.",
-      "has_agenda": true,
-      "agenda_url": "https://legistar.granicus.com/RoundRock/meetings/2026/2/3379_A_City_Council_26-02-26_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
     }
   ],
   "recent_legislation": [
-    {
-      "title": "Consider an update regarding Council actions related to Planning and Zoning items",
-      "type": "PZ Presentations",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-11",
-      "file_number": "PZ-2026-006",
-      "passed_date": null
-    },
     {
       "title": "Consider public testimony regarding, and a recommendation concerning, the request filed by the property Owner, QT South, LLC, for the original zoning of approximately 8.53 acres of land to the C-1a (G",
       "type": "Zoning",
       "status": "Agenda Ready",
       "intro_date": "2026-02-11",
       "file_number": "PZ-2026-005",
+      "passed_date": null
+    },
+    {
+      "title": "Consider an update regarding Council actions related to Planning and Zoning items",
+      "type": "PZ Presentations",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-11",
+      "file_number": "PZ-2026-006",
       "passed_date": null
     },
     {
@@ -954,6 +944,22 @@
       "passed_date": null
     },
     {
+      "title": "Consider a resolution accepting the City’s Annual Comprehensive Financial Report for fiscal year October 1, 2024, to September 30, 2025.",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-06",
+      "file_number": "2026-049",
+      "passed_date": null
+    },
+    {
+      "title": "Consider a resolution nominating Dell Inc. at its Building 5 on the Round Rock campus as a qualified Enterprise Project to be eligible to participate in the Enterprise Zone Program.",
+      "type": "Resolution",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-06",
+      "file_number": "2026-050",
+      "passed_date": null
+    },
+    {
       "title": "Consider proclaiming March 4-5, 2026, as \"I live here, I give here - Amplify Wilco Days\" in the City of Round Rock.",
       "type": "Proclamation",
       "status": "Agenda Ready",
@@ -967,22 +973,6 @@
       "status": "Agenda Ready",
       "intro_date": "2026-02-06",
       "file_number": "TMP-26-111",
-      "passed_date": null
-    },
-    {
-      "title": "Consider a resolution nominating Dell Inc. at its Building 5 on the Round Rock campus as a qualified Enterprise Project to be eligible to participate in the Enterprise Zone Program.",
-      "type": "Resolution",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-06",
-      "file_number": "2026-050",
-      "passed_date": null
-    },
-    {
-      "title": "Consider a resolution accepting the City’s Annual Comprehensive Financial Report for fiscal year October 1, 2024, to September 30, 2025.",
-      "type": "Resolution",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-06",
-      "file_number": "2026-049",
       "passed_date": null
     },
     {
@@ -1003,7 +993,7 @@
     }
   ],
   "legistar_url": "https://roundrock.legistar.com",
-  "enriched_at": "2026-03-28T18:57:51.458503",
+  "enriched_at": "2026-03-29T02:53:59.115695",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
