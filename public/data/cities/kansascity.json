@@ -116,23 +116,23 @@
     "accela_agency_id": "KANSAS"
   },
   "development": {
-    "permits_12mo": 2314,
+    "permits_12mo": 2304,
     "yoy_trend_pct": -87.5,
-    "avg_permit_value": 235932.07,
+    "avg_permit_value": 236854.04,
     "permit_types": {
-      "Electrical General": 518,
-      "Plumbing General": 327,
+      "Electrical General": 513,
+      "Plumbing General": 326,
       "Mechanical General": 275,
       "Certificate of Occupancy (Residential)": 113,
       "Electrical with Service": 109,
-      "Single Family - Interior Remodel": 106,
+      "Single Family - Interior Remodel": 105,
       "Other": 91,
       "Install/Replace Water Heater": 82,
       "Renovation": 63,
       "Single Family - New": 61,
       "Security Alarms": 52,
-      "Plumbing with Limited Service": 49,
       "Fire Protection System": 48,
+      "Plumbing with Limited Service": 47,
       "Electrical Fire Alarm Commercial": 39,
       "Electrical Reconnect": 39
     },
@@ -292,8 +292,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.kcmo.org/resource/ntw8-aacc.json",
-        "probed_at": "2026-03-29T19:03:58.352437",
-        "data_vintage": "Rolling 12-month window ending 2026-03-29",
+        "probed_at": "2026-03-30T03:09:10.780413",
+        "data_vintage": "Rolling 12-month window ending 2026-03-30",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Permits - CPD Dataset",
@@ -788,6 +788,16 @@
       "upcoming": true
     },
     {
+      "date": "2026-04-29",
+      "body": "Risk Management Committee",
+      "location": "Virtual Closed Session",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
       "date": "2026-03-24",
       "body": "Board of Police Commissioners",
       "location": "1125 Locust Street",
@@ -850,16 +860,6 @@
     {
       "date": "2026-03-04",
       "body": "Risk Management Committee",
-      "location": "Virtual Closed Session",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-03-04",
-      "body": "Risk Management Committee",
       "location": null,
       "has_agenda": true,
       "agenda_url": "https://kansascity.legistar1.com/kansascity/meetings/2026/3/18884_A_Risk_Management_Committee_26-03-04_Agenda_-_Committees.pdf",
@@ -868,9 +868,9 @@
       "upcoming": false
     },
     {
-      "date": "2026-03-02",
-      "body": "Public Budget Hearings",
-      "location": "Guadalupe Community Center (1015 Avenida Cesar E Chavez, KCMO 64108)",
+      "date": "2026-03-04",
+      "body": "Risk Management Committee",
+      "location": "Virtual Closed Session",
       "has_agenda": false,
       "agenda_url": null,
       "has_minutes": false,
@@ -878,9 +878,9 @@
       "upcoming": false
     },
     {
-      "date": "2026-02-27",
-      "body": "Firefighters Pension System Board of Trustees",
-      "location": "Century Towers, Suite 2106 (Conference Room B), located at 635 Woodland Ave and via Microsoft Teams.",
+      "date": "2026-03-02",
+      "body": "Public Budget Hearings",
+      "location": "Guadalupe Community Center (1015 Avenida Cesar E Chavez, KCMO 64108)",
       "has_agenda": false,
       "agenda_url": null,
       "has_minutes": false,
@@ -971,7 +971,7 @@
     }
   ],
   "legistar_url": "https://kansascity.legistar.com",
-  "enriched_at": "2026-03-29T18:56:52.111061",
+  "enriched_at": "2026-03-30T03:00:27.103904",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
