@@ -495,7 +495,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Sacramento",
-        "probed_at": "2026-03-31T19:11:38.975266",
+        "probed_at": "2026-04-01T03:19:46.948076",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -861,26 +861,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-03-31",
-      "body": "City Council - 5PM",
-      "location": "City Hall Complex, 915 I Street, Sacramento, CA 95814",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
-      "date": "2026-03-31",
-      "body": "City Council - 2PM",
-      "location": "City Hall Complex, 915 I Street, Sacramento, CA 95814",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-04-07",
       "body": "City Council - 5PM",
       "location": "City Hall Complex, 915 I Street, Sacramento, CA 95814",
@@ -919,6 +899,26 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": true
+    },
+    {
+      "date": "2026-03-31",
+      "body": "City Council - 5PM",
+      "location": "City Hall Complex, 915 I Street, Sacramento, CA 95814",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-03-31",
+      "body": "City Council - 2PM",
+      "location": "City Hall Complex, 915 I Street, Sacramento, CA 95814",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     },
     {
       "date": "2026-03-12",
@@ -993,16 +993,6 @@
     {
       "date": "2026-03-03",
       "body": "City Council - 2PM",
-      "location": "City Hall Complex, 915 I Street, Sacramento, CA 95814",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-03-02",
-      "body": "Youth Commission",
       "location": "City Hall Complex, 915 I Street, Sacramento, CA 95814",
       "has_agenda": false,
       "agenda_url": null,
@@ -1094,7 +1084,7 @@
     }
   ],
   "legistar_url": "https://sacramento.legistar.com",
-  "enriched_at": "2026-03-31T19:09:33.034453",
+  "enriched_at": "2026-04-01T03:17:50.252907",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
