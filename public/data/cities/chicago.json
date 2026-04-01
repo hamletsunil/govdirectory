@@ -210,18 +210,18 @@
     "accela_agency_id": "E_CHICAGO"
   },
   "development": {
-    "permits_12mo": 31444,
-    "yoy_trend_pct": -2.5,
-    "avg_permit_value": 378713.99,
-    "permits_per_capita_1k": 11.55,
+    "permits_12mo": 31611,
+    "yoy_trend_pct": -2.0,
+    "avg_permit_value": 378310.09,
+    "permits_per_capita_1k": 11.61,
     "permit_types": {
-      "PERMIT – EXPRESS PERMIT PROGRAM": 20092,
-      "PERMIT - RENOVATION/ALTERATION": 5416,
-      "PERMIT - SIGNS": 2263,
-      "PERMIT - NEW CONSTRUCTION": 1482,
+      "PERMIT – EXPRESS PERMIT PROGRAM": 20190,
+      "PERMIT - RENOVATION/ALTERATION": 5443,
+      "PERMIT - SIGNS": 2288,
+      "PERMIT - NEW CONSTRUCTION": 1489,
       "PERMIT - ELEVATOR EQUIPMENT": 1044,
-      "PERMIT - WRECKING/DEMOLITION": 685,
-      "PERMIT - REINSTATE REVOKED PMT": 461,
+      "PERMIT - WRECKING/DEMOLITION": 690,
+      "PERMIT - REINSTATE REVOKED PMT": 466,
       "PERMIT - EASY PERMIT PROCESS": 1
     },
     "datasets_count": 9
@@ -636,7 +636,7 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.cityofchicago.org/resource/ydr8-5enu.json",
-        "probed_at": "2026-04-01T07:53:00.518219",
+        "probed_at": "2026-04-01T14:01:24.894202",
         "data_vintage": "Rolling 12-month window ending 2026-04-01",
         "geographic_level": "place",
         "status": "available",
@@ -683,7 +683,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Chicago",
-        "probed_at": "2026-04-01T07:54:17.966540",
+        "probed_at": "2026-04-01T14:03:05.258756",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -1586,7 +1586,7 @@
   "recent_meetings": [],
   "recent_legislation": [],
   "legistar_url": "https://chicago.legistar.com",
-  "enriched_at": "2026-04-01T07:43:19.131497",
+  "enriched_at": "2026-04-01T13:47:45.672085",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
