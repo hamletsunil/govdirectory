@@ -220,28 +220,28 @@
     "accela_agency_id": null
   },
   "development": {
-    "permits_12mo": 7405,
-    "yoy_trend_pct": 6.4,
+    "permits_12mo": 7451,
+    "yoy_trend_pct": 7.1,
     "avg_permit_value": null,
     "permit_types": {
-      "Building Permit": 1928,
-      "Electrical Permit": 1756,
-      "Plumbing Permit": 662,
+      "Building Permit": 1942,
+      "Electrical Permit": 1759,
+      "Plumbing Permit": 676,
       "Food Establishment": 498,
-      "Gas Fitting": 462,
-      "Dumpster": 328,
+      "Gas Fitting": 471,
+      "Dumpster": 329,
       "Temporary Food": 287,
-      "Certificate of Inspection": 276,
+      "Certificate of Inspection": 278,
       "Sheet Metal Permit": 200,
       "Dumpster (Located on Street) Permit": 194,
       "Certificate of Occupancy": 167,
       "Business License": 124,
       "Public Event License": 101,
       "Farmers Market": 94,
-      "Block Party": 82
+      "Block Party": 83
     },
     "datasets_count": 1,
-    "permits_per_capita_1k": 92.03
+    "permits_per_capita_1k": 92.6
   },
   "meetings": {
     "official_channels": 1,
@@ -627,7 +627,7 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.somervillema.gov/resource/nneb-s3f7.json",
-        "probed_at": "2026-04-01T14:02:47.817705",
+        "probed_at": "2026-04-01T19:24:21.665258",
         "data_vintage": "Rolling 12-month window ending 2026-04-01",
         "geographic_level": "place",
         "status": "available",
@@ -674,7 +674,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Somerville",
-        "probed_at": "2026-04-01T14:04:16.950223",
+        "probed_at": "2026-04-01T19:25:38.304748",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -1184,7 +1184,7 @@
     }
   ],
   "legistar_url": "https://somervillema.legistar.com",
-  "enriched_at": "2026-04-01T14:00:03.261910",
+  "enriched_at": "2026-04-01T19:22:01.094347",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
