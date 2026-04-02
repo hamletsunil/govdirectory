@@ -116,25 +116,25 @@
     "accela_agency_id": "KANSAS"
   },
   "development": {
-    "permits_12mo": 2174,
-    "yoy_trend_pct": -88.3,
-    "avg_permit_value": 244567.44,
+    "permits_12mo": 2069,
+    "yoy_trend_pct": -88.8,
+    "avg_permit_value": 254350.69,
     "permit_types": {
-      "Electrical General": 474,
-      "Plumbing General": 310,
-      "Mechanical General": 258,
-      "Certificate of Occupancy (Residential)": 108,
-      "Electrical with Service": 104,
-      "Single Family - Interior Remodel": 98,
-      "Other": 91,
-      "Install/Replace Water Heater": 81,
-      "Renovation": 61,
-      "Single Family - New": 59,
-      "Fire Protection System": 47,
-      "Plumbing with Limited Service": 46,
+      "Electrical General": 463,
+      "Plumbing General": 291,
+      "Mechanical General": 244,
+      "Certificate of Occupancy (Residential)": 102,
+      "Single Family - Interior Remodel": 93,
+      "Electrical with Service": 92,
+      "Other": 84,
+      "Install/Replace Water Heater": 78,
+      "Renovation": 60,
+      "Single Family - New": 57,
+      "Plumbing with Limited Service": 45,
       "Security Alarms": 42,
-      "Electrical Reconnect": 38,
-      "Wall Sign / Projecting Sign": 37
+      "Fire Protection System": 42,
+      "Electrical Reconnect": 37,
+      "Electrical Fire Alarm Commercial": 36
     },
     "datasets_count": 1
   },
@@ -292,8 +292,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.kcmo.org/resource/ntw8-aacc.json",
-        "probed_at": "2026-04-01T19:24:25.437789",
-        "data_vintage": "Rolling 12-month window ending 2026-04-01",
+        "probed_at": "2026-04-02T02:57:55.608912",
+        "data_vintage": "Rolling 12-month window ending 2026-04-02",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Permits - CPD Dataset",
@@ -758,16 +758,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-04-01",
-      "body": "Risk Management Committee",
-      "location": "Virtual Closed Session",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-04-15",
       "body": "Risk Management Committee",
       "location": "Virtual Closed Session",
@@ -796,6 +786,16 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": true
+    },
+    {
+      "date": "2026-04-01",
+      "body": "Risk Management Committee",
+      "location": "Virtual Closed Session",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     },
     {
       "date": "2026-03-24",
@@ -871,16 +871,6 @@
       "date": "2026-03-04",
       "body": "Risk Management Committee",
       "location": "Virtual Closed Session",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-03-02",
-      "body": "Public Budget Hearings",
-      "location": "Guadalupe Community Center (1015 Avenida Cesar E Chavez, KCMO 64108)",
       "has_agenda": false,
       "agenda_url": null,
       "has_minutes": false,
@@ -971,7 +961,7 @@
     }
   ],
   "legistar_url": "https://kansascity.legistar.com",
-  "enriched_at": "2026-04-01T19:16:07.860746",
+  "enriched_at": "2026-04-02T02:50:14.026163",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
