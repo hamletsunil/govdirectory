@@ -116,25 +116,25 @@
     "accela_agency_id": "KANSAS"
   },
   "development": {
-    "permits_12mo": 2069,
-    "yoy_trend_pct": -88.8,
-    "avg_permit_value": 254350.69,
+    "permits_12mo": 2019,
+    "yoy_trend_pct": -89.2,
+    "avg_permit_value": 255656.37,
     "permit_types": {
-      "Electrical General": 463,
-      "Plumbing General": 291,
-      "Mechanical General": 244,
+      "Electrical General": 448,
+      "Plumbing General": 288,
+      "Mechanical General": 241,
       "Certificate of Occupancy (Residential)": 102,
-      "Single Family - Interior Remodel": 93,
       "Electrical with Service": 92,
-      "Other": 84,
-      "Install/Replace Water Heater": 78,
-      "Renovation": 60,
-      "Single Family - New": 57,
+      "Single Family - Interior Remodel": 86,
+      "Other": 81,
+      "Install/Replace Water Heater": 75,
+      "Renovation": 57,
+      "Single Family - New": 56,
       "Plumbing with Limited Service": 45,
       "Security Alarms": 42,
       "Fire Protection System": 42,
-      "Electrical Reconnect": 37,
-      "Electrical Fire Alarm Commercial": 36
+      "Electrical Reconnect": 36,
+      "Wall Sign / Projecting Sign": 35
     },
     "datasets_count": 1
   },
@@ -292,8 +292,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.kcmo.org/resource/ntw8-aacc.json",
-        "probed_at": "2026-04-02T19:13:24.757094",
-        "data_vintage": "Rolling 12-month window ending 2026-04-02",
+        "probed_at": "2026-04-03T02:52:05.765189",
+        "data_vintage": "Rolling 12-month window ending 2026-04-03",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Permits - CPD Dataset",
@@ -961,7 +961,7 @@
     }
   ],
   "legistar_url": "https://kansascity.legistar.com",
-  "enriched_at": "2026-04-02T19:07:29.120767",
+  "enriched_at": "2026-04-03T02:48:43.376452",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
