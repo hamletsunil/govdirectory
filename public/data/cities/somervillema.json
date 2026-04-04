@@ -220,28 +220,28 @@
     "accela_agency_id": null
   },
   "development": {
-    "permits_12mo": 7401,
-    "yoy_trend_pct": 6.0,
+    "permits_12mo": 7393,
+    "yoy_trend_pct": 6.1,
     "avg_permit_value": null,
     "permit_types": {
-      "Building Permit": 1911,
-      "Electrical Permit": 1759,
+      "Building Permit": 1910,
+      "Electrical Permit": 1756,
       "Plumbing Permit": 670,
       "Food Establishment": 498,
       "Gas Fitting": 474,
       "Dumpster": 330,
-      "Temporary Food": 286,
-      "Certificate of Inspection": 278,
+      "Temporary Food": 285,
+      "Certificate of Inspection": 276,
       "Sheet Metal Permit": 201,
       "Dumpster (Located on Street) Permit": 193,
       "Certificate of Occupancy": 163,
       "Business License": 124,
       "Public Event License": 101,
-      "Farmers Market": 85,
+      "Farmers Market": 84,
       "Block Party": 82
     },
     "datasets_count": 1,
-    "permits_per_capita_1k": 91.98
+    "permits_per_capita_1k": 91.88
   },
   "meetings": {
     "official_channels": 1,
@@ -627,8 +627,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.somervillema.gov/resource/nneb-s3f7.json",
-        "probed_at": "2026-04-03T19:00:22.228811",
-        "data_vintage": "Rolling 12-month window ending 2026-04-03",
+        "probed_at": "2026-04-04T02:48:37.969084",
+        "data_vintage": "Rolling 12-month window ending 2026-04-04",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Applications for Permits and Licenses",
@@ -674,7 +674,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Somerville",
-        "probed_at": "2026-04-03T19:02:12.831721",
+        "probed_at": "2026-04-04T02:50:03.561447",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -1089,16 +1089,6 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
-    },
-    {
-      "date": "2026-03-04",
-      "body": "Housing, Community Development and Equity Committee",
-      "location": "Committee Room and Remote Participation",
-      "has_agenda": true,
-      "agenda_url": "https://somervillema.legistar1.com/somervillema/meetings/2026/3/3986_A_Housing%2C_Community_Development_and_Equity_Committee_26-03-04_Regular_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
     }
   ],
   "recent_legislation": [
@@ -1184,7 +1174,7 @@
     }
   ],
   "legistar_url": "https://somervillema.legistar.com",
-  "enriched_at": "2026-04-03T18:58:43.173230",
+  "enriched_at": "2026-04-04T02:46:35.049557",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
