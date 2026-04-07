@@ -116,25 +116,25 @@
     "accela_agency_id": "KANSAS"
   },
   "development": {
-    "permits_12mo": 1935,
-    "yoy_trend_pct": -89.5,
-    "avg_permit_value": 265488.97,
+    "permits_12mo": 1865,
+    "yoy_trend_pct": -89.9,
+    "avg_permit_value": 273091.85,
     "permit_types": {
-      "Electrical General": 426,
-      "Plumbing General": 278,
-      "Mechanical General": 230,
-      "Certificate of Occupancy (Residential)": 102,
-      "Electrical with Service": 90,
-      "Single Family - Interior Remodel": 85,
-      "Other": 80,
-      "Install/Replace Water Heater": 70,
-      "Renovation": 56,
+      "Electrical General": 402,
+      "Plumbing General": 275,
+      "Mechanical General": 222,
+      "Certificate of Occupancy (Residential)": 101,
+      "Electrical with Service": 87,
+      "Single Family - Interior Remodel": 81,
+      "Other": 79,
+      "Install/Replace Water Heater": 63,
       "Single Family - New": 54,
-      "Security Alarms": 42,
-      "Fire Protection System": 40,
+      "Renovation": 53,
+      "Fire Protection System": 39,
+      "Security Alarms": 39,
       "Electrical Reconnect": 35,
-      "Wall Sign / Projecting Sign": 34,
-      "Plumbing with Limited Service": 34
+      "Plumbing with Limited Service": 34,
+      "Electrical Fire Alarm Commercial": 33
     },
     "datasets_count": 1
   },
@@ -292,8 +292,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.kcmo.org/resource/ntw8-aacc.json",
-        "probed_at": "2026-04-06T19:16:29.289053",
-        "data_vintage": "Rolling 12-month window ending 2026-04-06",
+        "probed_at": "2026-04-07T02:51:28.269112",
+        "data_vintage": "Rolling 12-month window ending 2026-04-07",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Permits - CPD Dataset",
@@ -836,16 +836,6 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
-    },
-    {
-      "date": "2026-03-07",
-      "body": "Public Budget Hearings",
-      "location": "Winnetoka High School\r\n5815 NE 48th St., KCMO 64119",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
     }
   ],
   "recent_legislation": [
@@ -931,7 +921,7 @@
     }
   ],
   "legistar_url": "https://kansascity.legistar.com",
-  "enriched_at": "2026-04-06T19:11:53.021282",
+  "enriched_at": "2026-04-07T02:49:25.036688",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
