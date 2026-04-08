@@ -525,7 +525,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Boston",
-        "probed_at": "2026-04-07T19:27:37.943000",
+        "probed_at": "2026-04-08T02:56:07.673031",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -873,16 +873,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-04-07",
-      "body": "Zoning Board of Appeal",
-      "location": "Room 801, City Hall",
-      "has_agenda": true,
-      "agenda_url": "https://boston.legistar1.com/boston/meetings/2026/4/14018_A_Zoning_Board_of_Appeal_26-04-07_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-04-09",
       "body": "Public Improvement Commission",
       "location": null,
@@ -961,6 +951,16 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": true
+    },
+    {
+      "date": "2026-04-07",
+      "body": "Zoning Board of Appeal",
+      "location": "Room 801, City Hall",
+      "has_agenda": true,
+      "agenda_url": "https://boston.legistar1.com/boston/meetings/2026/4/14018_A_Zoning_Board_of_Appeal_26-04-07_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     },
     {
       "date": "2026-03-26",
@@ -1136,7 +1136,7 @@
     }
   ],
   "legistar_url": "https://boston.legistar.com",
-  "enriched_at": "2026-04-07T19:12:38.147828",
+  "enriched_at": "2026-04-08T02:50:24.222603",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
