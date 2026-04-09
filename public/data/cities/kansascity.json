@@ -116,25 +116,25 @@
     "accela_agency_id": "KANSAS"
   },
   "development": {
-    "permits_12mo": 1776,
-    "yoy_trend_pct": -90.4,
-    "avg_permit_value": 281273.44,
+    "permits_12mo": 1720,
+    "yoy_trend_pct": -90.7,
+    "avg_permit_value": 284197.09,
     "permit_types": {
-      "Electrical General": 381,
-      "Plumbing General": 264,
-      "Mechanical General": 219,
-      "Certificate of Occupancy (Residential)": 93,
-      "Electrical with Service": 85,
-      "Single Family - Interior Remodel": 81,
+      "Electrical General": 369,
+      "Plumbing General": 258,
+      "Mechanical General": 216,
+      "Certificate of Occupancy (Residential)": 87,
+      "Electrical with Service": 83,
+      "Single Family - Interior Remodel": 79,
       "Install/Replace Water Heater": 61,
-      "Other": 58,
-      "Renovation": 52,
+      "Other": 57,
+      "Renovation": 48,
       "Single Family - New": 44,
-      "Security Alarms": 39,
-      "Fire Protection System": 39,
-      "Electrical Reconnect": 34,
-      "Wall Sign / Projecting Sign": 32,
-      "Plumbing with Limited Service": 32
+      "Security Alarms": 38,
+      "Fire Protection System": 37,
+      "Electrical Reconnect": 33,
+      "Plumbing with Limited Service": 32,
+      "Wall Sign / Projecting Sign": 29
     },
     "datasets_count": 1
   },
@@ -292,8 +292,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.kcmo.org/resource/ntw8-aacc.json",
-        "probed_at": "2026-04-08T19:30:34.039389",
-        "data_vintage": "Rolling 12-month window ending 2026-04-08",
+        "probed_at": "2026-04-09T02:48:50.026953",
+        "data_vintage": "Rolling 12-month window ending 2026-04-09",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Permits - CPD Dataset",
@@ -826,16 +826,6 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
-    },
-    {
-      "date": "2026-03-09",
-      "body": "Lien Waiver Committee",
-      "location": "City Planning & Development Department,\r\n15th Floor Large Conference Room, \r\n414 E 12th St, Kansas City, Missouri",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
     }
   ],
   "recent_legislation": [
@@ -921,7 +911,7 @@
     }
   ],
   "legistar_url": "https://kansascity.legistar.com",
-  "enriched_at": "2026-04-08T19:26:21.051043",
+  "enriched_at": "2026-04-09T02:45:58.762366",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

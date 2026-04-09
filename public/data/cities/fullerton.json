@@ -492,7 +492,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Fullerton",
-        "probed_at": "2026-04-08T19:32:03.155458",
+        "probed_at": "2026-04-09T02:49:51.416438",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -761,16 +761,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-04-08",
-      "body": "Planning Commission / Landmarks Commission",
-      "location": "Council Chambers",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-04-13",
       "body": "Parks and Recreation Commission",
       "location": "Council Chambers",
@@ -849,6 +839,16 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": true
+    },
+    {
+      "date": "2026-04-08",
+      "body": "Planning Commission / Landmarks Commission",
+      "location": "Council Chambers",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     },
     {
       "date": "2026-04-06",
@@ -939,16 +939,6 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
-    },
-    {
-      "date": "2026-03-09",
-      "body": "Parks and Recreation Commission",
-      "location": "Council Chambers",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
     }
   ],
   "recent_legislation": [
@@ -977,19 +967,19 @@
       "passed_date": null
     },
     {
-      "title": "LEASE AGREEMENT WITH NEW CINGULAR WIRELESS PCS, LLC FOR CELLULAR TOWER OPERATION AND MAINTENANCE AT 3151 NORTH EUCLID STREET",
-      "type": "Consent Calendar",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-05",
-      "file_number": "26-0068",
-      "passed_date": null
-    },
-    {
       "title": "SENIOR MOBILITY PROGRAM UPDATE",
       "type": "Regular Business",
       "status": "Agenda Ready",
       "intro_date": "2026-02-05",
       "file_number": "26-0069",
+      "passed_date": null
+    },
+    {
+      "title": "LEASE AGREEMENT WITH NEW CINGULAR WIRELESS PCS, LLC FOR CELLULAR TOWER OPERATION AND MAINTENANCE AT 3151 NORTH EUCLID STREET",
+      "type": "Consent Calendar",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-05",
+      "file_number": "26-0068",
       "passed_date": null
     },
     {
@@ -1017,24 +1007,24 @@
       "passed_date": null
     },
     {
-      "title": "FULLERTON MUNICIPAL CODE UPDATE TO CHANGE 2461 TO 2495 EAST ORANGETHORPE ZONING CLASSIFICATION - SECOND READING OF ORDINANCE",
-      "type": "Consent Calendar",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-03",
-      "file_number": "26-0056",
-      "passed_date": null
-    },
-    {
       "title": "FULLERTON MUNICIPAL CODE AMENDMENTS REGULATING E-BIKES AND OTHER ELECTRIC TRANSPORTATION DEVICES IN THE CITY - SECOND READING OF ORDINANCE",
       "type": "Consent Calendar",
       "status": "Agenda Ready",
       "intro_date": "2026-02-03",
       "file_number": "26-0057",
       "passed_date": null
+    },
+    {
+      "title": "FULLERTON MUNICIPAL CODE UPDATE TO CHANGE 2461 TO 2495 EAST ORANGETHORPE ZONING CLASSIFICATION - SECOND READING OF ORDINANCE",
+      "type": "Consent Calendar",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-03",
+      "file_number": "26-0056",
+      "passed_date": null
     }
   ],
   "legistar_url": "https://fullerton.legistar.com",
-  "enriched_at": "2026-04-08T19:25:58.489603",
+  "enriched_at": "2026-04-09T02:45:44.372900",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

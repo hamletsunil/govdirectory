@@ -220,28 +220,28 @@
     "accela_agency_id": null
   },
   "development": {
-    "permits_12mo": 7338,
-    "yoy_trend_pct": 4.9,
+    "permits_12mo": 7307,
+    "yoy_trend_pct": 4.4,
     "avg_permit_value": null,
     "permit_types": {
-      "Building Permit": 1898,
-      "Electrical Permit": 1743,
-      "Plumbing Permit": 656,
+      "Building Permit": 1893,
+      "Electrical Permit": 1731,
+      "Plumbing Permit": 651,
       "Food Establishment": 498,
-      "Gas Fitting": 465,
+      "Gas Fitting": 459,
       "Dumpster": 330,
       "Temporary Food": 285,
       "Certificate of Inspection": 276,
       "Sheet Metal Permit": 197,
-      "Dumpster (Located on Street) Permit": 192,
-      "Certificate of Occupancy": 163,
+      "Dumpster (Located on Street) Permit": 190,
+      "Certificate of Occupancy": 162,
       "Business License": 124,
       "Public Event License": 101,
       "Farmers Market": 84,
       "Block Party": 81
     },
     "datasets_count": 1,
-    "permits_per_capita_1k": 91.2
+    "permits_per_capita_1k": 90.81
   },
   "meetings": {
     "official_channels": 1,
@@ -627,8 +627,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.somervillema.gov/resource/nneb-s3f7.json",
-        "probed_at": "2026-04-08T19:30:27.121966",
-        "data_vintage": "Rolling 12-month window ending 2026-04-08",
+        "probed_at": "2026-04-09T02:48:43.978448",
+        "data_vintage": "Rolling 12-month window ending 2026-04-09",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Applications for Permits and Licenses",
@@ -674,7 +674,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Somerville",
-        "probed_at": "2026-04-08T19:32:40.593472",
+        "probed_at": "2026-04-09T02:50:22.346956",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -1082,19 +1082,19 @@
   "recent_meetings": [],
   "recent_legislation": [
     {
-      "title": "Approval of the Minutes of the Finance Committee Meeting of February 10, 2026.",
-      "type": "Committee Minutes",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-12",
-      "file_number": "26-0263",
-      "passed_date": null
-    },
-    {
       "title": "Requesting authorization to borrow $1,530,000 in a bond, and to appropriate the same amount for the annual FY 2026 Sewer System Evaluation and Infiltration/Inflow Assessment.",
       "type": "Mayor's Request",
       "status": "Referred for Recommendation",
       "intro_date": "2026-02-12",
       "file_number": "26-0162",
+      "passed_date": null
+    },
+    {
+      "title": "Approval of the Minutes of the Finance Committee Meeting of February 10, 2026.",
+      "type": "Committee Minutes",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-12",
+      "file_number": "26-0263",
       "passed_date": null
     },
     {
@@ -1130,14 +1130,6 @@
       "passed_date": "2026-02-12"
     },
     {
-      "title": "Christopher Beland submitting comments re: items #26-0175, #26-0176, #26-0177, #26-0178, #26-0179, #26-0180, #26-0181, #26-0182, #26-0183, #26-0184, #26-0185, #26-0186, and #26-0187, Eversource applyi",
-      "type": "Public Communication",
-      "status": "Sent for Discussion",
-      "intro_date": "2026-02-11",
-      "file_number": "26-0259",
-      "passed_date": null
-    },
-    {
       "title": "Cole Rainey-Slavick submitting comments re: U.S. Immigration and Customs Enforcement.",
       "type": "Public Communication",
       "status": "Placed on File",
@@ -1160,10 +1152,18 @@
       "intro_date": "2026-02-11",
       "file_number": "26-0257",
       "passed_date": null
+    },
+    {
+      "title": "Four residents submitting comments re: Israel boycott.",
+      "type": "Public Communication",
+      "status": "Placed on File",
+      "intro_date": "2026-02-11",
+      "file_number": "26-0255",
+      "passed_date": "2026-02-12"
     }
   ],
   "legistar_url": "https://somervillema.legistar.com",
-  "enriched_at": "2026-04-08T19:28:17.830516",
+  "enriched_at": "2026-04-09T02:47:04.467744",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
