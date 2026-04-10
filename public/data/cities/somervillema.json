@@ -220,28 +220,28 @@
     "accela_agency_id": null
   },
   "development": {
-    "permits_12mo": 7307,
-    "yoy_trend_pct": 4.4,
+    "permits_12mo": 7417,
+    "yoy_trend_pct": 6.1,
     "avg_permit_value": null,
     "permit_types": {
-      "Building Permit": 1893,
-      "Electrical Permit": 1731,
-      "Plumbing Permit": 651,
+      "Building Permit": 1917,
+      "Electrical Permit": 1765,
+      "Plumbing Permit": 672,
       "Food Establishment": 498,
-      "Gas Fitting": 459,
+      "Gas Fitting": 475,
       "Dumpster": 330,
-      "Temporary Food": 285,
+      "Temporary Food": 286,
       "Certificate of Inspection": 276,
-      "Sheet Metal Permit": 197,
-      "Dumpster (Located on Street) Permit": 190,
-      "Certificate of Occupancy": 162,
-      "Business License": 124,
-      "Public Event License": 101,
-      "Farmers Market": 84,
-      "Block Party": 81
+      "Sheet Metal Permit": 200,
+      "Dumpster (Located on Street) Permit": 195,
+      "Certificate of Occupancy": 161,
+      "Business License": 127,
+      "Public Event License": 100,
+      "Farmers Market": 86,
+      "Block Party": 83
     },
     "datasets_count": 1,
-    "permits_per_capita_1k": 90.81
+    "permits_per_capita_1k": 92.18
   },
   "meetings": {
     "official_channels": 1,
@@ -627,8 +627,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.somervillema.gov/resource/nneb-s3f7.json",
-        "probed_at": "2026-04-09T19:29:05.974200",
-        "data_vintage": "Rolling 12-month window ending 2026-04-09",
+        "probed_at": "2026-04-10T03:12:23.172442",
+        "data_vintage": "Rolling 12-month window ending 2026-04-10",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Applications for Permits and Licenses",
@@ -674,7 +674,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Somerville",
-        "probed_at": "2026-04-09T19:30:41.060856",
+        "probed_at": "2026-04-10T03:13:56.417958",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -1082,11 +1082,11 @@
   "recent_meetings": [],
   "recent_legislation": [
     {
-      "title": "Requesting authorization to borrow $1,530,000 in a bond, and to appropriate the same amount for the annual FY 2026 Sewer System Evaluation and Infiltration/Inflow Assessment.",
-      "type": "Mayor's Request",
+      "title": "That this City Council hold a public hearing on the petition submitted by 52 registered voters regarding Out of the Blue Community Arts Space at Arts at the Armory, pursuant to Section 2-11 of the Cit",
+      "type": "Public Communication",
       "status": "Referred for Recommendation",
       "intro_date": "2026-02-12",
-      "file_number": "26-0162",
+      "file_number": "26-0265",
       "passed_date": null
     },
     {
@@ -1098,11 +1098,11 @@
       "passed_date": null
     },
     {
-      "title": "That this City Council hold a public hearing on the petition submitted by 52 registered voters regarding Out of the Blue Community Arts Space at Arts at the Armory, pursuant to Section 2-11 of the Cit",
-      "type": "Public Communication",
+      "title": "Requesting authorization to borrow $1,530,000 in a bond, and to appropriate the same amount for the annual FY 2026 Sewer System Evaluation and Infiltration/Inflow Assessment.",
+      "type": "Mayor's Request",
       "status": "Referred for Recommendation",
       "intro_date": "2026-02-12",
-      "file_number": "26-0265",
+      "file_number": "26-0162",
       "passed_date": null
     },
     {
@@ -1163,7 +1163,7 @@
     }
   ],
   "legistar_url": "https://somervillema.legistar.com",
-  "enriched_at": "2026-04-09T19:26:42.005324",
+  "enriched_at": "2026-04-10T03:09:54.808193",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
