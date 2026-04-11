@@ -210,15 +210,15 @@
     "accela_agency_id": "E_CHICAGO"
   },
   "development": {
-    "permits_12mo": 31673,
-    "yoy_trend_pct": -1.8,
-    "avg_permit_value": 397888.35,
-    "permits_per_capita_1k": 11.64,
+    "permits_12mo": 31554,
+    "yoy_trend_pct": -2.0,
+    "avg_permit_value": 398828.51,
+    "permits_per_capita_1k": 11.59,
     "permit_types": {
-      "PERMIT – EXPRESS PERMIT PROGRAM": 20185,
-      "PERMIT - RENOVATION/ALTERATION": 5481,
-      "PERMIT - SIGNS": 2307,
-      "PERMIT - NEW CONSTRUCTION": 1508,
+      "PERMIT – EXPRESS PERMIT PROGRAM": 20108,
+      "PERMIT - RENOVATION/ALTERATION": 5455,
+      "PERMIT - SIGNS": 2297,
+      "PERMIT - NEW CONSTRUCTION": 1502,
       "PERMIT - ELEVATOR EQUIPMENT": 1048,
       "PERMIT - WRECKING/DEMOLITION": 682,
       "PERMIT - REINSTATE REVOKED PMT": 462
@@ -635,8 +635,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.cityofchicago.org/resource/ydr8-5enu.json",
-        "probed_at": "2026-04-10T19:16:30.472843",
-        "data_vintage": "Rolling 12-month window ending 2026-04-10",
+        "probed_at": "2026-04-11T02:45:14.899689",
+        "data_vintage": "Rolling 12-month window ending 2026-04-11",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -682,7 +682,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Chicago",
-        "probed_at": "2026-04-10T19:18:05.990197",
+        "probed_at": "2026-04-11T02:46:48.167638",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -1585,7 +1585,7 @@
   "recent_meetings": [],
   "recent_legislation": [],
   "legistar_url": "https://chicago.legistar.com",
-  "enriched_at": "2026-04-10T19:02:57.587409",
+  "enriched_at": "2026-04-11T02:41:35.552853",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

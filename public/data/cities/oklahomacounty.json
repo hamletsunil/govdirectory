@@ -690,16 +690,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-04-10",
-      "body": "Election Board",
-      "location": "4201 N. Lincoln Boulevard",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-04-16",
       "body": "Planning Commission Committee",
       "location": "BOCC Meeting Room 204",
@@ -708,6 +698,16 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": true
+    },
+    {
+      "date": "2026-04-10",
+      "body": "Election Board",
+      "location": "4201 N. Lincoln Boulevard",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     },
     {
       "date": "2026-04-07",
@@ -813,7 +813,7 @@
     }
   ],
   "legistar_url": "https://oklahomacounty.legistar.com",
-  "enriched_at": "2026-04-10T19:11:54.009036",
+  "enriched_at": "2026-04-11T02:44:17.245639",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
