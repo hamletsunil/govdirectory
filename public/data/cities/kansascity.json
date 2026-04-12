@@ -116,11 +116,11 @@
     "accela_agency_id": "KANSAS"
   },
   "development": {
-    "permits_12mo": 1615,
+    "permits_12mo": 1614,
     "yoy_trend_pct": -91.3,
-    "avg_permit_value": 297297.85,
+    "avg_permit_value": 297486.92,
     "permit_types": {
-      "Electrical General": 339,
+      "Electrical General": 338,
       "Plumbing General": 246,
       "Mechanical General": 202,
       "Certificate of Occupancy (Residential)": 86,
@@ -292,8 +292,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.kcmo.org/resource/ntw8-aacc.json",
-        "probed_at": "2026-04-11T19:07:55.537978",
-        "data_vintage": "Rolling 12-month window ending 2026-04-11",
+        "probed_at": "2026-04-12T03:25:37.683101",
+        "data_vintage": "Rolling 12-month window ending 2026-04-12",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Permits - CPD Dataset",
@@ -788,6 +788,16 @@
       "upcoming": true
     },
     {
+      "date": "2026-05-12",
+      "body": "Board of Police Commissioners",
+      "location": "1125 Locust Street",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
       "date": "2026-04-01",
       "body": "Risk Management Committee",
       "location": "Virtual Closed Session",
@@ -901,7 +911,7 @@
     }
   ],
   "legistar_url": "https://kansascity.legistar.com",
-  "enriched_at": "2026-04-11T18:59:57.677894",
+  "enriched_at": "2026-04-12T03:21:34.202011",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
