@@ -348,7 +348,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Dakota%20County",
-        "probed_at": "2026-04-12T19:14:09.438104",
+        "probed_at": "2026-04-13T03:44:37.365942",
         "data_vintage": "BRFSS None",
         "geographic_level": "place",
         "status": "unavailable"
@@ -703,11 +703,19 @@
   "recent_meetings": [],
   "recent_legislation": [
     {
+      "title": "Approval of Minutes of Meeting Held on February 17, 2026",
+      "type": "Approval of Minutes",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-20",
+      "file_number": "DC-5440",
+      "passed_date": null
+    },
+    {
       "title": "Approval of Agenda (Additions/Corrections/Deletions)",
       "type": "Approval of Agenda",
       "status": "Agenda Ready",
       "intro_date": "2026-02-20",
-      "file_number": "DC-5443",
+      "file_number": "DC-5439",
       "passed_date": null
     },
     {
@@ -716,14 +724,6 @@
       "status": "Agenda Ready",
       "intro_date": "2026-02-20",
       "file_number": "DC-5441",
-      "passed_date": null
-    },
-    {
-      "title": "Approval of Minutes of Meeting Held on February 17, 2026",
-      "type": "Approval of Minutes",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-20",
-      "file_number": "DC-5440",
       "passed_date": null
     },
     {
@@ -767,24 +767,24 @@
       "passed_date": "2026-02-17"
     },
     {
-      "title": "Report On Invoices Paid In January 2026",
-      "type": "Consent Information",
-      "status": "Presented",
-      "intro_date": "2026-02-03",
-      "file_number": "DC-5386",
-      "passed_date": "2026-02-17"
-    },
-    {
       "title": "Update On County Response To Operation Metro Surge",
       "type": "Regular Information",
       "status": "Presented",
       "intro_date": "2026-02-03",
       "file_number": "DC-5379",
       "passed_date": "2026-02-17"
+    },
+    {
+      "title": "Report On Invoices Paid In January 2026",
+      "type": "Consent Information",
+      "status": "Presented",
+      "intro_date": "2026-02-03",
+      "file_number": "DC-5386",
+      "passed_date": "2026-02-17"
     }
   ],
   "legistar_url": "https://dakota.legistar.com",
-  "enriched_at": "2026-04-12T19:01:54.009782",
+  "enriched_at": "2026-04-13T03:30:46.151325",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
