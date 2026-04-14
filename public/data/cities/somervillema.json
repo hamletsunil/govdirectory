@@ -220,20 +220,20 @@
     "accela_agency_id": null
   },
   "development": {
-    "permits_12mo": 7412,
-    "yoy_trend_pct": 5.7,
+    "permits_12mo": 7439,
+    "yoy_trend_pct": 6.1,
     "avg_permit_value": null,
     "permit_types": {
-      "Building Permit": 1911,
-      "Electrical Permit": 1766,
-      "Plumbing Permit": 674,
+      "Building Permit": 1914,
+      "Electrical Permit": 1783,
+      "Plumbing Permit": 675,
       "Food Establishment": 498,
-      "Gas Fitting": 472,
+      "Gas Fitting": 473,
       "Dumpster": 331,
       "Temporary Food": 286,
-      "Certificate of Inspection": 275,
+      "Certificate of Inspection": 279,
       "Sheet Metal Permit": 199,
-      "Dumpster (Located on Street) Permit": 195,
+      "Dumpster (Located on Street) Permit": 196,
       "Certificate of Occupancy": 162,
       "Business License": 124,
       "Public Event License": 101,
@@ -241,7 +241,7 @@
       "Block Party": 83
     },
     "datasets_count": 1,
-    "permits_per_capita_1k": 92.12
+    "permits_per_capita_1k": 92.45
   },
   "meetings": {
     "official_channels": 1,
@@ -627,7 +627,7 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.somervillema.gov/resource/nneb-s3f7.json",
-        "probed_at": "2026-04-14T14:09:47.447392",
+        "probed_at": "2026-04-14T19:25:29.282911",
         "data_vintage": "Rolling 12-month window ending 2026-04-14",
         "geographic_level": "place",
         "status": "available",
@@ -674,7 +674,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Somerville",
-        "probed_at": "2026-04-14T14:11:00.379611",
+        "probed_at": "2026-04-14T19:27:21.206275",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -1163,7 +1163,7 @@
     }
   ],
   "legistar_url": "https://somervillema.legistar.com",
-  "enriched_at": "2026-04-14T14:07:54.672636",
+  "enriched_at": "2026-04-14T19:23:56.560796",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
