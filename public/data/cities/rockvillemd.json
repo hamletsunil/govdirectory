@@ -600,7 +600,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Rockville",
-        "probed_at": "2026-04-13T19:35:50.249336",
+        "probed_at": "2026-04-14T03:09:04.770986",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -870,6 +870,16 @@
   "recent_meetings": [
     {
       "date": "2026-04-15",
+      "body": "Human Services Advisory Commission",
+      "location": "CIty Hall & Virtual",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-04-15",
       "body": "Financial Advisory Board",
       "location": "Black-eyed Susan Conference Room",
       "has_agenda": false,
@@ -882,16 +892,6 @@
       "date": "2026-04-15",
       "body": "Human Rights Commission",
       "location": "Virtual",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
-      "date": "2026-04-15",
-      "body": "Human Services Advisory Commission",
-      "location": "CIty Hall & Virtual",
       "has_agenda": false,
       "agenda_url": null,
       "has_minutes": false,
@@ -950,8 +950,8 @@
     },
     {
       "date": "2026-05-13",
-      "body": "Cultural Arts Commission",
-      "location": "WebEx: https://rockvillemd.webex.com/rockvillemd/j.phpMTID=m0cc4da8cac253d1859795d7acae6638a",
+      "body": "Youth Commission",
+      "location": null,
       "has_agenda": false,
       "agenda_url": null,
       "has_minutes": false,
@@ -1152,7 +1152,7 @@
     }
   ],
   "legistar_url": "https://rockvillemd.legistar.com",
-  "enriched_at": "2026-04-13T19:30:51.917669",
+  "enriched_at": "2026-04-14T03:05:00.897919",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
