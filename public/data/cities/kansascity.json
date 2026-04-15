@@ -116,25 +116,25 @@
     "accela_agency_id": "KANSAS"
   },
   "development": {
-    "permits_12mo": 1529,
-    "yoy_trend_pct": -91.7,
-    "avg_permit_value": 304899.77,
+    "permits_12mo": 1436,
+    "yoy_trend_pct": -92.3,
+    "avg_permit_value": 296022.35,
     "permit_types": {
-      "Electrical General": 310,
-      "Plumbing General": 234,
-      "Mechanical General": 195,
-      "Certificate of Occupancy (Residential)": 85,
-      "Electrical with Service": 76,
-      "Single Family - Interior Remodel": 70,
-      "Other": 53,
+      "Electrical General": 299,
+      "Plumbing General": 216,
+      "Mechanical General": 178,
+      "Certificate of Occupancy (Residential)": 79,
+      "Electrical with Service": 72,
+      "Single Family - Interior Remodel": 61,
       "Install/Replace Water Heater": 53,
+      "Other": 52,
       "Single Family - New": 40,
-      "Renovation": 39,
-      "Security Alarms": 36,
+      "Renovation": 35,
       "Fire Protection System": 35,
-      "Electrical Reconnect": 31,
+      "Security Alarms": 31,
+      "Electrical Reconnect": 27,
       "Wall Sign / Projecting Sign": 26,
-      "Plumbing with Limited Service": 26
+      "Plumbing with Limited Service": 24
     },
     "datasets_count": 1
   },
@@ -292,8 +292,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.kcmo.org/resource/ntw8-aacc.json",
-        "probed_at": "2026-04-14T19:25:35.897571",
-        "data_vintage": "Rolling 12-month window ending 2026-04-14",
+        "probed_at": "2026-04-15T03:09:38.998020",
+        "data_vintage": "Rolling 12-month window ending 2026-04-15",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Permits - CPD Dataset",
@@ -846,19 +846,19 @@
       "passed_date": null
     },
     {
-      "title": "Sponsor: Mayor Quinton Lucas\r\n\r\nRESOLUTION - Directing the City Manager to develop and implement a public communication plan, including the publication of a Frequently Asked Questions (FAQ) document o",
-      "type": "Resolution",
-      "status": "Referred",
-      "intro_date": "2026-02-11",
-      "file_number": "260222",
-      "passed_date": null
-    },
-    {
       "title": "Sponsor: Mayor Quinton Lucas\r\n\r\nRESOLUTION - Appointing Kristen Campbell, Kelby Hopkins, David Scott Knisley, Keley Brandt and Karson Bennett as successor directors to the Ward Parkway Center Communit",
       "type": "Resolution",
       "status": "Referred",
       "intro_date": "2026-02-11",
       "file_number": "260217",
+      "passed_date": null
+    },
+    {
+      "title": "Sponsor: Mayor Quinton Lucas\r\n\r\nRESOLUTION - Directing the City Manager to develop and implement a public communication plan, including the publication of a Frequently Asked Questions (FAQ) document o",
+      "type": "Resolution",
+      "status": "Referred",
+      "intro_date": "2026-02-11",
+      "file_number": "260222",
       "passed_date": null
     },
     {
@@ -878,19 +878,11 @@
       "passed_date": "2026-02-12"
     },
     {
-      "title": "Notice to the City Clerk of the River Market Community Improvement District’s Proposed Budget for the period ending April 30, 2027.",
+      "title": "Notice to the City Clerk of the Truman Road Community Improvement District’s Proposed Budget for the period ending April 30, 2027.",
       "type": "Communication",
       "status": "Filed",
       "intro_date": "2026-02-10",
-      "file_number": "260201",
-      "passed_date": "2026-02-12"
-    },
-    {
-      "title": "Notice to the City Clerk of the Westport II Community Improvement District’s Proposed Budget for the period ending April 30, 2027.",
-      "type": "Communication",
-      "status": "Filed",
-      "intro_date": "2026-02-10",
-      "file_number": "260204",
+      "file_number": "260202",
       "passed_date": "2026-02-12"
     },
     {
@@ -899,6 +891,14 @@
       "status": "Filed",
       "intro_date": "2026-02-10",
       "file_number": "260199",
+      "passed_date": "2026-02-12"
+    },
+    {
+      "title": "Notice to the City Clerk of the Waldo Community Improvement District’s Proposed Budget for the period ending April 30, 2027.",
+      "type": "Communication",
+      "status": "Filed",
+      "intro_date": "2026-02-10",
+      "file_number": "260203",
       "passed_date": "2026-02-12"
     },
     {
@@ -911,7 +911,7 @@
     }
   ],
   "legistar_url": "https://kansascity.legistar.com",
-  "enriched_at": "2026-04-14T19:23:33.921168",
+  "enriched_at": "2026-04-15T03:01:50.643687",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
