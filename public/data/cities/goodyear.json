@@ -77,12 +77,12 @@
     "rent_burden_ratio": null,
     "cost_burdened_pct": 72.09,
     "severely_burdened_pct": 51.16,
-    "total_housing_units": 69,
-    "occupied_housing_units": 66,
-    "vacant_housing_units": 3,
-    "vacancy_rate": 4.35,
-    "occupancy_rate": 95.65,
-    "data_year": "2021",
+    "total_housing_units": 106,
+    "occupied_housing_units": 106,
+    "vacant_housing_units": 0,
+    "vacancy_rate": 0.0,
+    "occupancy_rate": 100.0,
+    "data_year": "2023",
     "vacancy_source": "Census ACS 5-Year",
     "vacant_for_rent": 0,
     "vacant_rented_not_occupied": 0,
@@ -90,7 +90,7 @@
     "vacant_sold_not_occupied": 0,
     "vacant_seasonal": 0,
     "vacant_migrant_workers": 0,
-    "vacant_other": 3
+    "vacant_other": 0
   },
   "health": {
     "uninsured_pct": 12.5,
@@ -512,7 +512,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Goodyear",
-        "probed_at": "2026-04-16T08:00:20.045053",
+        "probed_at": "2026-04-16T14:12:16.928507",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -846,7 +846,7 @@
   "recent_meetings": [],
   "recent_legislation": [],
   "legistar_url": "https://goodyear.legistar.com",
-  "enriched_at": "2026-04-16T07:55:18.442047",
+  "enriched_at": "2026-04-16T14:01:54.726037",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
