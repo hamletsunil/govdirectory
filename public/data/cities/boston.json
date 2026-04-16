@@ -525,7 +525,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Boston",
-        "probed_at": "2026-04-15T19:30:10.625104",
+        "probed_at": "2026-04-16T03:33:43.984377",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -873,16 +873,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-04-15",
-      "body": "Boston School Committee",
-      "location": "Bolling Building",
-      "has_agenda": true,
-      "agenda_url": "https://boston.legistar1.com/boston/meetings/2026/4/14051_A_Boston_School_Committee_26-04-15_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-04-16",
       "body": "BPDA Board of Directors",
       "location": "Room 900, City Hall",
@@ -963,6 +953,16 @@
       "upcoming": true
     },
     {
+      "date": "2026-04-15",
+      "body": "Boston School Committee",
+      "location": "Bolling Building",
+      "has_agenda": true,
+      "agenda_url": "https://boston.legistar1.com/boston/meetings/2026/4/14051_A_Boston_School_Committee_26-04-15_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
       "date": "2026-04-09",
       "body": "Public Improvement Commission",
       "location": null,
@@ -1034,20 +1034,20 @@
     },
     {
       "date": "2026-03-18",
-      "body": "Boston School Committee",
-      "location": "Virtual",
+      "body": "Disability Commission Advisory Board",
+      "location": "Room 801, City Hall",
       "has_agenda": true,
-      "agenda_url": "https://boston.legistar1.com/boston/meetings/2026/3/14049_A_Boston_School_Committee_26-03-18_Meeting_Agenda.pdf",
+      "agenda_url": "https://boston.legistar1.com/boston/meetings/2026/3/14065_A_Disability_Commission_Advisory_Board_26-03-18_Meeting_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
     },
     {
       "date": "2026-03-18",
-      "body": "Disability Commission Advisory Board",
-      "location": "Room 801, City Hall",
+      "body": "Boston School Committee",
+      "location": "Virtual",
       "has_agenda": true,
-      "agenda_url": "https://boston.legistar1.com/boston/meetings/2026/3/14065_A_Disability_Commission_Advisory_Board_26-03-18_Meeting_Agenda.pdf",
+      "agenda_url": "https://boston.legistar1.com/boston/meetings/2026/3/14049_A_Boston_School_Committee_26-03-18_Meeting_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
@@ -1136,7 +1136,7 @@
     }
   ],
   "legistar_url": "https://boston.legistar.com",
-  "enriched_at": "2026-04-15T19:24:33.479034",
+  "enriched_at": "2026-04-16T03:22:48.654486",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
