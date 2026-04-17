@@ -180,14 +180,14 @@
     "accela_agency_id": "MESA"
   },
   "development": {
-    "permits_12mo": 5178,
-    "yoy_trend_pct": 2.0,
-    "avg_permit_value": 345566.83,
+    "permits_12mo": 5181,
+    "yoy_trend_pct": 1.7,
+    "avg_permit_value": 345984.79,
     "permits_per_capita_1k": 10.29,
     "permit_types": {
-      "RES": 3320,
+      "RES": 3319,
       "COM": 1406,
-      "SVC": 452
+      "SVC": 456
     },
     "datasets_count": 10
   },
@@ -491,8 +491,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://citydata.mesaaz.gov/resource/dzpk-hxfb.json",
-        "probed_at": "2026-04-16T19:29:36.705025",
-        "data_vintage": "Rolling 12-month window ending 2026-04-16",
+        "probed_at": "2026-04-17T03:11:47.217864",
+        "data_vintage": "Rolling 12-month window ending 2026-04-17",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -538,7 +538,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Mesa",
-        "probed_at": "2026-04-16T19:30:52.805279",
+        "probed_at": "2026-04-17T03:12:39.242017",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -807,16 +807,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-04-16",
-      "body": "City Council Study Session",
-      "location": "Study Session",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-04-20",
       "body": "City Council Study Session",
       "location": "Study Session",
@@ -895,6 +885,16 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": true
+    },
+    {
+      "date": "2026-04-16",
+      "body": "City Council Study Session",
+      "location": "Study Session",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     },
     {
       "date": "2026-04-09",
@@ -1010,7 +1010,7 @@
     }
   ],
   "legistar_url": "https://mesa.legistar.com",
-  "enriched_at": "2026-04-16T19:26:32.984317",
+  "enriched_at": "2026-04-17T03:05:50.133989",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
