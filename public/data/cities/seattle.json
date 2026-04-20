@@ -169,11 +169,11 @@
     "accela_agency_id": "SEATTLE"
   },
   "development": {
-    "permits_12mo": 6422,
-    "yoy_trend_pct": 9.5,
-    "avg_permit_value": 1120086.38,
+    "permits_12mo": 6421,
+    "yoy_trend_pct": 9.8,
+    "avg_permit_value": 1120249.92,
     "permit_types": {
-      "Building": 5448,
+      "Building": 5447,
       "Demolition": 528,
       "Roof": 421,
       "Grading": 25
@@ -474,8 +474,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.seattle.gov/resource/76t5-zqzr.json",
-        "probed_at": "2026-04-19T19:13:35.201744",
-        "data_vintage": "Rolling 12-month window ending 2026-04-19",
+        "probed_at": "2026-04-20T03:33:38.160645",
+        "data_vintage": "Rolling 12-month window ending 2026-04-20",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -521,7 +521,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Seattle",
-        "probed_at": "2026-04-19T19:14:25.658135",
+        "probed_at": "2026-04-20T03:34:39.304434",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -944,14 +944,6 @@
       "passed_date": null
     },
     {
-      "title": "Seattle Public Library 2019 Levy Background and Overview",
-      "type": "Information Item (Inf)",
-      "status": "Heard in Committee",
-      "intro_date": "2026-02-13",
-      "file_number": "Inf 2839",
-      "passed_date": null
-    },
-    {
       "title": "Appointment of Steven Zwerin as member, Civil Service Commission, for a term to December 31, 2028.",
       "type": "Appointment (Appt)",
       "status": "Filed with City Clerk",
@@ -960,12 +952,36 @@
       "passed_date": null
     },
     {
-      "title": "State of the City address delivered by Mayor Katie B. Wilson on February 17, 2026.",
-      "type": "Clerk File (CF)",
-      "status": "Filed with City Clerk",
+      "title": "Seattle Public Library 2019 Levy Background and Overview",
+      "type": "Information Item (Inf)",
+      "status": "Heard in Committee",
+      "intro_date": "2026-02-13",
+      "file_number": "Inf 2839",
+      "passed_date": null
+    },
+    {
+      "title": "AN ORDINANCE relating to civil immigration enforcement; prohibiting civil immigration enforcement staging on all real property that is City owned and controlled; and adding a new Chapter 14.125 to the",
+      "type": "Council Bill (CB)",
+      "status": "Committee Agenda Ready",
       "intro_date": "2026-02-12",
-      "file_number": "CF 314547",
-      "passed_date": "2026-02-17"
+      "file_number": "CB 121164",
+      "passed_date": null
+    },
+    {
+      "title": "Transportation Funding Task Force Update",
+      "type": "Information Item (Inf)",
+      "status": "Heard in Committee",
+      "intro_date": "2026-02-12",
+      "file_number": "Inf 2836",
+      "passed_date": null
+    },
+    {
+      "title": "Seattle Center Overview",
+      "type": "Information Item (Inf)",
+      "status": "Heard in Committee",
+      "intro_date": "2026-02-12",
+      "file_number": "Inf 2835",
+      "passed_date": null
     },
     {
       "title": "Human Services Provider Roundtable Discussion",
@@ -982,26 +998,10 @@
       "intro_date": "2026-02-12",
       "file_number": "Inf 2838",
       "passed_date": null
-    },
-    {
-      "title": "Wage Equity for Human Services Contracts",
-      "type": "Information Item (Inf)",
-      "status": "Heard in Committee",
-      "intro_date": "2026-02-12",
-      "file_number": "Inf 2837",
-      "passed_date": null
-    },
-    {
-      "title": "AN ORDINANCE relating to civil immigration enforcement; prohibiting civil immigration enforcement staging on all real property that is City owned and controlled; and adding a new Chapter 14.125 to the",
-      "type": "Council Bill (CB)",
-      "status": "Committee Agenda Ready",
-      "intro_date": "2026-02-12",
-      "file_number": "CB 121164",
-      "passed_date": null
     }
   ],
   "legistar_url": "https://seattle.legistar.com",
-  "enriched_at": "2026-04-19T19:11:57.379854",
+  "enriched_at": "2026-04-20T03:32:24.039287",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
