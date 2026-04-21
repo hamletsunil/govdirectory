@@ -366,7 +366,7 @@
     "accela": "available",
     "cdc_places": "available",
     "hud_usps": "unavailable",
-    "census_vacancy": "available"
+    "census_vacancy": "unavailable"
   },
   "provenance": {
     "last_full_probe": "2026-02-10T14:11:02.867896",
@@ -519,7 +519,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Wilmington",
-        "probed_at": "2026-04-21T08:03:38.427367",
+        "probed_at": "2026-04-21T14:03:48.315713",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -913,7 +913,7 @@
     }
   ],
   "legistar_url": "https://wilmington.legistar.com",
-  "enriched_at": "2026-04-21T08:01:08.173500",
+  "enriched_at": "2026-04-21T13:59:41.671038",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

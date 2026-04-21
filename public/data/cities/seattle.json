@@ -366,7 +366,7 @@
     "accela": "available",
     "cdc_places": "available",
     "hud_usps": "unavailable",
-    "census_vacancy": "available"
+    "census_vacancy": "unavailable"
   },
   "provenance": {
     "last_full_probe": "2026-02-10T12:24:47.816575",
@@ -474,7 +474,7 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.seattle.gov/resource/76t5-zqzr.json",
-        "probed_at": "2026-04-21T08:01:33.138276",
+        "probed_at": "2026-04-21T14:00:06.863067",
         "data_vintage": "Rolling 12-month window ending 2026-04-21",
         "geographic_level": "place",
         "status": "available",
@@ -521,7 +521,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Seattle",
-        "probed_at": "2026-04-21T08:02:35.188642",
+        "probed_at": "2026-04-21T14:01:17.488160",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -1001,7 +1001,7 @@
     }
   ],
   "legistar_url": "https://seattle.legistar.com",
-  "enriched_at": "2026-04-21T08:01:05.237131",
+  "enriched_at": "2026-04-21T13:59:24.351165",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
