@@ -393,7 +393,7 @@
     "accela": "available",
     "cdc_places": "available",
     "hud_usps": "unavailable",
-    "census_vacancy": "unavailable"
+    "census_vacancy": "available"
   },
   "provenance": {
     "last_full_probe": "2026-02-10T07:55:14.328647",
@@ -546,7 +546,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Newark",
-        "probed_at": "2026-04-21T14:01:46.085422",
+        "probed_at": "2026-04-21T19:37:46.289456",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -912,6 +912,14 @@
       "passed_date": "2026-02-18"
     },
     {
+      "title": "JSF Broad Street EX Urban Renewal LLC, Financial Statements, December 31 2025.",
+      "type": "Report",
+      "status": "To Be Introduced",
+      "intro_date": "2026-02-10",
+      "file_number": "26-0217",
+      "passed_date": null
+    },
+    {
       "title": "2025 Annual Debt Statement, electronically filed on January 30, 2026 with the State of New Jersey’s Department of Community Affairs by the Director of Finance.",
       "type": "Miscellaneous",
       "status": "Filed",
@@ -928,28 +936,12 @@
       "passed_date": "2026-02-18"
     },
     {
-      "title": "JSF Broad Street EX Urban Renewal LLC, Financial Statements, December 31 2025.",
-      "type": "Report",
-      "status": "To Be Introduced",
-      "intro_date": "2026-02-10",
-      "file_number": "26-0217",
-      "passed_date": null
-    },
-    {
       "title": "EXPRESSING PROFOUND SORROW AND REGRET\n\nSponsored by Council Member Amina Bey\n1.\tMarie Gironda\n\nSponsored by Council Member Patrick O. Council\n2.\tSabrina Parker\n3.\tJoel “Joey” Washington\n4.\tErma Chavis",
       "type": "Resolution",
       "status": "Adopted",
       "intro_date": "2026-02-09",
       "file_number": "26-0207",
       "passed_date": "2026-02-18"
-    },
-    {
-      "title": "Re: 7R4-b Application to the NJ UEZ\r\nCouncil Member Patrick O. Council requested the Administration provide the Governing Body with an update on New Jersey Urban Enterprise Zone (NJUEZ) dollars awarde",
-      "type": "Direction of Council",
-      "status": "Filed",
-      "intro_date": "2026-02-09",
-      "file_number": "26-0213",
-      "passed_date": null
     },
     {
       "title": "RE: Special Police Appointments\nCouncilman Carlos M. Gonzalez requested further information regarding the above referenced legislation authorizing the appointment and commission of eighty-nine (89) Sp",
@@ -966,6 +958,14 @@
       "intro_date": "2026-02-09",
       "file_number": "26-0214",
       "passed_date": "2026-02-18"
+    },
+    {
+      "title": "Re: 7R4-b Application to the NJ UEZ\r\nCouncil Member Patrick O. Council requested the Administration provide the Governing Body with an update on New Jersey Urban Enterprise Zone (NJUEZ) dollars awarde",
+      "type": "Direction of Council",
+      "status": "Filed",
+      "intro_date": "2026-02-09",
+      "file_number": "26-0213",
+      "passed_date": null
     },
     {
       "title": "RE: Emergency Contract-Elevator Inspections \r\nCouncil Member Patrick O. Council requested the Engineering Department provide a report to the Governing Body listing the individual elevator inspections ",
@@ -985,7 +985,7 @@
     }
   ],
   "legistar_url": "https://newark.legistar.com",
-  "enriched_at": "2026-04-21T13:58:38.184445",
+  "enriched_at": "2026-04-21T19:30:56.446308",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
