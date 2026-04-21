@@ -180,13 +180,13 @@
     "accela_agency_id": "MESA"
   },
   "development": {
-    "permits_12mo": 5176,
-    "yoy_trend_pct": 2.0,
-    "avg_permit_value": 346113.55,
-    "permits_per_capita_1k": 10.28,
+    "permits_12mo": 5159,
+    "yoy_trend_pct": 1.7,
+    "avg_permit_value": 346109.16,
+    "permits_per_capita_1k": 10.25,
     "permit_types": {
-      "RES": 3317,
-      "COM": 1405,
+      "RES": 3306,
+      "COM": 1399,
       "SVC": 454
     },
     "datasets_count": 10
@@ -491,8 +491,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://citydata.mesaaz.gov/resource/dzpk-hxfb.json",
-        "probed_at": "2026-04-20T19:21:53.138822",
-        "data_vintage": "Rolling 12-month window ending 2026-04-20",
+        "probed_at": "2026-04-21T08:01:41.888663",
+        "data_vintage": "Rolling 12-month window ending 2026-04-21",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -538,7 +538,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Mesa",
-        "probed_at": "2026-04-20T19:23:05.271110",
+        "probed_at": "2026-04-21T08:02:43.741169",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -807,26 +807,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-04-20",
-      "body": "City Council Study Session",
-      "location": "Study Session",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
-      "date": "2026-04-20",
-      "body": "City Council",
-      "location": "Council Chambers",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-04-23",
       "body": "City Council Study Session",
       "location": "Study Session",
@@ -888,6 +868,16 @@
     },
     {
       "date": "2026-05-18",
+      "body": "City Council Study Session",
+      "location": "Study Session",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-05-18",
       "body": "City Council",
       "location": "Council Chambers",
       "has_agenda": false,
@@ -897,7 +887,7 @@
       "upcoming": true
     },
     {
-      "date": "2026-05-18",
+      "date": "2026-05-21",
       "body": "City Council Study Session",
       "location": "Study Session",
       "has_agenda": false,
@@ -905,6 +895,26 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": true
+    },
+    {
+      "date": "2026-04-20",
+      "body": "City Council Study Session",
+      "location": "Study Session",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-04-20",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     },
     {
       "date": "2026-04-16",
@@ -949,22 +959,6 @@
   ],
   "recent_legislation": [
     {
-      "title": "Three-Year Term Contract with Two-Year Renewal Options for Traffic Management Center (TMC) Video Wall Upgrade (Replacement) for the Transportation Department (Citywide)\r\n\r\nThe first year of the contra",
-      "type": "Contract",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-19",
-      "file_number": "26-0220",
-      "passed_date": null
-    },
-    {
-      "title": "Zax Cigar Bar\n \nA cigar bar is requesting a new Series 7 Beer & Wine Bar License for Jakub LLC, 7310 East Main Street - Zachary Ryan Jakubowski, Agent. There is no existing license at this location. (",
-      "type": "Liquor License Application",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-19",
-      "file_number": "26-0219",
-      "passed_date": null
-    },
-    {
       "title": "Three-Year Term Use of a Cooperative Contract for Pavement Management Services for the Transportation Department (Citywide)\n \nThe Transportation Department is leveraging advancements in pavement manag",
       "type": "Contract",
       "status": "Agenda Ready",
@@ -997,11 +991,27 @@
       "passed_date": null
     },
     {
+      "title": "Three-Year Term Contract with Two-Year Renewal Options for Traffic Signal Loop Detection Installation Services for the Transportation Department (Single Response) (Citywide)\n \nThis contract is for the",
+      "type": "Contract",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "26-0214",
+      "passed_date": null
+    },
+    {
       "title": "Design Review Board meeting held on January 13, 2026.",
       "type": "Minutes",
       "status": "Agenda Ready",
       "intro_date": "2026-02-19",
       "file_number": "26-0222",
+      "passed_date": null
+    },
+    {
+      "title": "Zax Cigar Bar\n \nA cigar bar is requesting a new Series 7 Beer & Wine Bar License for Jakub LLC, 7310 East Main Street - Zachary Ryan Jakubowski, Agent. There is no existing license at this location. (",
+      "type": "Liquor License Application",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "26-0219",
       "passed_date": null
     },
     {
@@ -1030,7 +1040,7 @@
     }
   ],
   "legistar_url": "https://mesa.legistar.com",
-  "enriched_at": "2026-04-20T19:18:10.921638",
+  "enriched_at": "2026-04-21T08:00:54.198596",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

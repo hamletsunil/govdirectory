@@ -492,7 +492,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Fullerton",
-        "probed_at": "2026-04-20T19:23:46.371749",
+        "probed_at": "2026-04-21T08:03:28.020531",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -761,16 +761,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-04-20",
-      "body": "Infrastructure and Natural Resources Committee",
-      "location": "Council Chambers",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-04-22",
       "body": "Planning Commission / Landmarks Commission",
       "location": "Council Chambers",
@@ -849,6 +839,16 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": true
+    },
+    {
+      "date": "2026-04-20",
+      "body": "Infrastructure and Natural Resources Committee",
+      "location": "Council Chambers",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     },
     {
       "date": "2026-04-16",
@@ -983,19 +983,19 @@
       "passed_date": null
     },
     {
-      "title": "$1,615,495 CONTRACT WITH DOMINGUEZ GENERAL ENGINEERING, INC FOR YUCCA AREA WATER MAIN REPLACEMENT",
-      "type": "Consent Calendar",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-04",
-      "file_number": "26-0058",
-      "passed_date": null
-    },
-    {
       "title": "$239,992.38 CONTRACT WITH GOLDEN COAST CONSTRUCTION FOR CURB AND GUTTER / SIDEWALK PROJECT FISCAL YEAR 2024-26",
       "type": "Consent Calendar",
       "status": "Agenda Ready",
       "intro_date": "2026-02-04",
       "file_number": "26-0059",
+      "passed_date": null
+    },
+    {
+      "title": "$1,615,495 CONTRACT WITH DOMINGUEZ GENERAL ENGINEERING, INC FOR YUCCA AREA WATER MAIN REPLACEMENT",
+      "type": "Consent Calendar",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-04",
+      "file_number": "26-0058",
       "passed_date": null
     },
     {
@@ -1007,24 +1007,24 @@
       "passed_date": null
     },
     {
-      "title": "FULLERTON MUNICIPAL CODE UPDATE TO CHANGE 2461 TO 2495 EAST ORANGETHORPE ZONING CLASSIFICATION - SECOND READING OF ORDINANCE",
-      "type": "Consent Calendar",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-03",
-      "file_number": "26-0056",
-      "passed_date": null
-    },
-    {
       "title": "FULLERTON MUNICIPAL CODE AMENDMENTS REGULATING E-BIKES AND OTHER ELECTRIC TRANSPORTATION DEVICES IN THE CITY - SECOND READING OF ORDINANCE",
       "type": "Consent Calendar",
       "status": "Agenda Ready",
       "intro_date": "2026-02-03",
       "file_number": "26-0057",
       "passed_date": null
+    },
+    {
+      "title": "FULLERTON MUNICIPAL CODE UPDATE TO CHANGE 2461 TO 2495 EAST ORANGETHORPE ZONING CLASSIFICATION - SECOND READING OF ORDINANCE",
+      "type": "Consent Calendar",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-03",
+      "file_number": "26-0056",
+      "passed_date": null
     }
   ],
   "legistar_url": "https://fullerton.legistar.com",
-  "enriched_at": "2026-04-20T19:16:34.902665",
+  "enriched_at": "2026-04-21T08:00:47.484257",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

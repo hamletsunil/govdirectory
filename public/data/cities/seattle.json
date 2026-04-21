@@ -169,17 +169,17 @@
     "accela_agency_id": "SEATTLE"
   },
   "development": {
-    "permits_12mo": 6421,
-    "yoy_trend_pct": 9.8,
-    "avg_permit_value": 1120249.92,
+    "permits_12mo": 6396,
+    "yoy_trend_pct": 9.4,
+    "avg_permit_value": 1123569.38,
     "permit_types": {
-      "Building": 5447,
-      "Demolition": 528,
-      "Roof": 421,
+      "Building": 5424,
+      "Demolition": 527,
+      "Roof": 420,
       "Grading": 25
     },
     "datasets_count": 10,
-    "permits_per_capita_1k": 8.74
+    "permits_per_capita_1k": 8.71
   },
   "meetings": {
     "official_channels": 1,
@@ -474,8 +474,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.seattle.gov/resource/76t5-zqzr.json",
-        "probed_at": "2026-04-20T19:21:40.096579",
-        "data_vintage": "Rolling 12-month window ending 2026-04-20",
+        "probed_at": "2026-04-21T08:01:33.138276",
+        "data_vintage": "Rolling 12-month window ending 2026-04-21",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -521,7 +521,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Seattle",
-        "probed_at": "2026-04-20T19:22:57.548694",
+        "probed_at": "2026-04-21T08:02:35.188642",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -976,19 +976,19 @@
       "passed_date": null
     },
     {
-      "title": "Seattle Center Overview",
-      "type": "Information Item (Inf)",
-      "status": "Heard in Committee",
-      "intro_date": "2026-02-12",
-      "file_number": "Inf 2835",
-      "passed_date": null
-    },
-    {
       "title": "Human Services Provider Roundtable Discussion",
       "type": "Information Item (Inf)",
       "status": "Committee Agenda Ready",
       "intro_date": "2026-02-12",
       "file_number": "Inf 2841",
+      "passed_date": null
+    },
+    {
+      "title": "Seattle Center Overview",
+      "type": "Information Item (Inf)",
+      "status": "Heard in Committee",
+      "intro_date": "2026-02-12",
+      "file_number": "Inf 2835",
       "passed_date": null
     },
     {
@@ -1001,7 +1001,7 @@
     }
   ],
   "legistar_url": "https://seattle.legistar.com",
-  "enriched_at": "2026-04-20T19:20:19.766230",
+  "enriched_at": "2026-04-21T08:01:05.237131",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
