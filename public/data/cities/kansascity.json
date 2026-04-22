@@ -116,25 +116,25 @@
     "accela_agency_id": "KANSAS"
   },
   "development": {
-    "permits_12mo": 1121,
-    "yoy_trend_pct": -93.9,
-    "avg_permit_value": 339933.48,
+    "permits_12mo": 1051,
+    "yoy_trend_pct": -94.3,
+    "avg_permit_value": 245575.33,
     "permit_types": {
-      "Electrical General": 253,
-      "Plumbing General": 168,
-      "Mechanical General": 156,
+      "Electrical General": 233,
+      "Plumbing General": 161,
+      "Mechanical General": 152,
       "Certificate of Occupancy (Residential)": 54,
-      "Electrical with Service": 53,
-      "Single Family - Interior Remodel": 46,
-      "Other": 44,
-      "Install/Replace Water Heater": 34,
+      "Electrical with Service": 52,
+      "Single Family - Interior Remodel": 43,
+      "Other": 41,
       "Single Family - New": 29,
-      "Wall Sign / Projecting Sign": 24,
+      "Install/Replace Water Heater": 27,
       "Fire Protection System": 24,
-      "Electrical Reconnect": 22,
       "Security Alarms": 22,
+      "Electrical Reconnect": 21,
+      "Wall Sign / Projecting Sign": 19,
       "Plumbing with Limited Service": 19,
-      "Renovation": 19
+      "Complete Building Demolition": 15
     },
     "datasets_count": 1
   },
@@ -292,8 +292,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.kcmo.org/resource/ntw8-aacc.json",
-        "probed_at": "2026-04-21T19:37:19.398468",
-        "data_vintage": "Rolling 12-month window ending 2026-04-21",
+        "probed_at": "2026-04-22T03:11:48.678171",
+        "data_vintage": "Rolling 12-month window ending 2026-04-22",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Permits - CPD Dataset",
@@ -758,16 +758,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-04-21",
-      "body": "Board of Police Commissioners",
-      "location": "1125 Locust Street",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-04-29",
       "body": "Risk Management Committee",
       "location": "Virtual Closed Session",
@@ -786,6 +776,16 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": true
+    },
+    {
+      "date": "2026-04-21",
+      "body": "Board of Police Commissioners",
+      "location": "1125 Locust Street",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     },
     {
       "date": "2026-04-15",
@@ -901,7 +901,7 @@
     }
   ],
   "legistar_url": "https://kansascity.legistar.com",
-  "enriched_at": "2026-04-21T19:27:52.751602",
+  "enriched_at": "2026-04-22T03:04:22.423190",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

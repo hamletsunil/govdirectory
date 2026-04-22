@@ -600,7 +600,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Rockville",
-        "probed_at": "2026-04-21T19:38:48.889925",
+        "probed_at": "2026-04-22T03:13:24.512710",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -869,16 +869,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-04-21",
-      "body": "Transportation and Mobility Commission",
-      "location": "Virtual",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-04-22",
       "body": "Planning Commission",
       "location": "WebEx",
@@ -969,8 +959,18 @@
       "upcoming": true
     },
     {
-      "date": "2026-04-15",
+      "date": "2026-05-20",
       "body": "Human Rights Commission",
+      "location": "Virtual",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-04-21",
+      "body": "Transportation and Mobility Commission",
       "location": "Virtual",
       "has_agenda": false,
       "agenda_url": null,
@@ -992,6 +992,16 @@
       "date": "2026-04-15",
       "body": "Financial Advisory Board",
       "location": "Black-eyed Susan Conference Room",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-04-15",
+      "body": "Human Rights Commission",
+      "location": "Virtual",
       "has_agenda": false,
       "agenda_url": null,
       "has_minutes": false,
@@ -1057,16 +1067,6 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
-    },
-    {
-      "date": "2026-03-26",
-      "body": "Recreation and Park Advisory Board",
-      "location": "WebEx (online)",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
     }
   ],
   "recent_legislation": [
@@ -1087,19 +1087,19 @@
       "passed_date": null
     },
     {
-      "title": "Bi-Annual Vision Zero Update",
-      "type": "Presentation",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-10",
-      "file_number": "26-2065",
-      "passed_date": null
-    },
-    {
       "title": "Authorization for the City Manager to Execute Amendment 1 to the Grant Agreement Between the City and the Maryland Energy Administration for the Streetlight and Outdoor Lighting Efficiency FY2024 Gran",
       "type": "Consent",
       "status": "Agenda Ready",
       "intro_date": "2026-02-10",
       "file_number": "26-2064",
+      "passed_date": null
+    },
+    {
+      "title": "Bi-Annual Vision Zero Update",
+      "type": "Presentation",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-10",
+      "file_number": "26-2065",
       "passed_date": null
     },
     {
@@ -1133,26 +1133,10 @@
       "intro_date": "2026-01-28",
       "file_number": "26-2046",
       "passed_date": null
-    },
-    {
-      "title": "Authorize the City Manager to sign a rider agreement with IPS GROUP, Inc. to continue service of parking enforcement management and citation processing.",
-      "type": "Consent",
-      "status": "Agenda Ready",
-      "intro_date": "2026-01-22",
-      "file_number": "26-2043",
-      "passed_date": null
-    },
-    {
-      "title": "Mid-Year Report Presentation and Update on Impact of Government Restructuring and Effects on Rockville - Rockville Economic Development, Inc.",
-      "type": "Worksession",
-      "status": "Agenda Ready",
-      "intro_date": "2026-01-22",
-      "file_number": "26-2042",
-      "passed_date": null
     }
   ],
   "legistar_url": "https://rockvillemd.legistar.com",
-  "enriched_at": "2026-04-21T19:33:48.438787",
+  "enriched_at": "2026-04-22T03:08:54.205477",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

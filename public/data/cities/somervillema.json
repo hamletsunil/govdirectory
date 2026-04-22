@@ -220,19 +220,19 @@
     "accela_agency_id": null
   },
   "development": {
-    "permits_12mo": 7458,
-    "yoy_trend_pct": 6.2,
+    "permits_12mo": 7431,
+    "yoy_trend_pct": 5.8,
     "avg_permit_value": null,
     "permit_types": {
-      "Building Permit": 1911,
-      "Electrical Permit": 1783,
-      "Plumbing Permit": 687,
+      "Building Permit": 1899,
+      "Electrical Permit": 1778,
+      "Plumbing Permit": 685,
       "Food Establishment": 498,
-      "Gas Fitting": 476,
+      "Gas Fitting": 473,
       "Dumpster": 332,
       "Temporary Food": 287,
-      "Certificate of Inspection": 272,
-      "Sheet Metal Permit": 197,
+      "Certificate of Inspection": 271,
+      "Sheet Metal Permit": 196,
       "Dumpster (Located on Street) Permit": 192,
       "Certificate of Occupancy": 164,
       "Business License": 128,
@@ -241,7 +241,7 @@
       "Block Party": 87
     },
     "datasets_count": 1,
-    "permits_per_capita_1k": 92.69
+    "permits_per_capita_1k": 92.35
   },
   "meetings": {
     "official_channels": 1,
@@ -627,8 +627,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.somervillema.gov/resource/nneb-s3f7.json",
-        "probed_at": "2026-04-21T19:37:14.789367",
-        "data_vintage": "Rolling 12-month window ending 2026-04-21",
+        "probed_at": "2026-04-22T03:11:45.355958",
+        "data_vintage": "Rolling 12-month window ending 2026-04-22",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Applications for Permits and Licenses",
@@ -674,7 +674,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Somerville",
-        "probed_at": "2026-04-21T19:38:40.877527",
+        "probed_at": "2026-04-22T03:13:13.983942",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -1082,6 +1082,22 @@
   "recent_meetings": [],
   "recent_legislation": [
     {
+      "title": "Requesting authorization to borrow $1,530,000 in a bond, and to appropriate the same amount for the annual FY 2026 Sewer System Evaluation and Infiltration/Inflow Assessment.",
+      "type": "Mayor's Request",
+      "status": "Referred for Recommendation",
+      "intro_date": "2026-02-12",
+      "file_number": "26-0162",
+      "passed_date": null
+    },
+    {
+      "title": "That this City Council hold a public hearing on the petition submitted by 52 registered voters regarding Out of the Blue Community Arts Space at Arts at the Armory, pursuant to Section 2-11 of the Cit",
+      "type": "Public Communication",
+      "status": "Referred for Recommendation",
+      "intro_date": "2026-02-12",
+      "file_number": "26-0265",
+      "passed_date": null
+    },
+    {
       "title": "Approval of the Minutes of the Finance Committee Meeting of February 10, 2026.",
       "type": "Committee Minutes",
       "status": "Agenda Ready",
@@ -1095,22 +1111,6 @@
       "status": "Agenda Ready",
       "intro_date": "2026-02-12",
       "file_number": "26-0264",
-      "passed_date": null
-    },
-    {
-      "title": "That this City Council hold a public hearing on the petition submitted by 52 registered voters regarding Out of the Blue Community Arts Space at Arts at the Armory, pursuant to Section 2-11 of the Cit",
-      "type": "Public Communication",
-      "status": "Referred for Recommendation",
-      "intro_date": "2026-02-12",
-      "file_number": "26-0265",
-      "passed_date": null
-    },
-    {
-      "title": "Requesting authorization to borrow $1,530,000 in a bond, and to appropriate the same amount for the annual FY 2026 Sewer System Evaluation and Infiltration/Inflow Assessment.",
-      "type": "Mayor's Request",
-      "status": "Referred for Recommendation",
-      "intro_date": "2026-02-12",
-      "file_number": "26-0162",
       "passed_date": null
     },
     {
@@ -1138,6 +1138,14 @@
       "passed_date": null
     },
     {
+      "title": "Four residents submitting comments re: Israel boycott.",
+      "type": "Public Communication",
+      "status": "Placed on File",
+      "intro_date": "2026-02-11",
+      "file_number": "26-0255",
+      "passed_date": "2026-02-12"
+    },
+    {
       "title": "Cole Rainey-Slavick submitting comments re: U.S. Immigration and Customs Enforcement.",
       "type": "Public Communication",
       "status": "Placed on File",
@@ -1152,18 +1160,10 @@
       "intro_date": "2026-02-11",
       "file_number": "26-0253",
       "passed_date": "2026-02-12"
-    },
-    {
-      "title": "Union 2 Associates, LLC requesting a Zoning Map Amendment to change the zoning district of  2 and 9 Union Square, 286, 290, and 298 Somerville Avenue from Commercial Core 5 (CC5) to Mid-Rise 6 (MR6).",
-      "type": "Public Communication",
-      "status": "Referred for Recommendation",
-      "intro_date": "2026-02-11",
-      "file_number": "26-0257",
-      "passed_date": null
     }
   ],
   "legistar_url": "https://somervillema.legistar.com",
-  "enriched_at": "2026-04-21T19:35:02.167525",
+  "enriched_at": "2026-04-22T03:09:47.990024",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

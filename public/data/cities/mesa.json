@@ -180,14 +180,14 @@
     "accela_agency_id": "MESA"
   },
   "development": {
-    "permits_12mo": 5159,
-    "yoy_trend_pct": 1.7,
-    "avg_permit_value": 346109.16,
+    "permits_12mo": 5162,
+    "yoy_trend_pct": 1.4,
+    "avg_permit_value": 345653.85,
     "permits_per_capita_1k": 10.25,
     "permit_types": {
-      "RES": 3306,
-      "COM": 1399,
-      "SVC": 454
+      "RES": 3312,
+      "COM": 1394,
+      "SVC": 456
     },
     "datasets_count": 10
   },
@@ -491,8 +491,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://citydata.mesaaz.gov/resource/dzpk-hxfb.json",
-        "probed_at": "2026-04-21T19:36:44.929720",
-        "data_vintage": "Rolling 12-month window ending 2026-04-21",
+        "probed_at": "2026-04-22T03:11:10.587928",
+        "data_vintage": "Rolling 12-month window ending 2026-04-22",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -538,7 +538,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Mesa",
-        "probed_at": "2026-04-21T19:37:36.758416",
+        "probed_at": "2026-04-22T03:12:14.424310",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -959,22 +959,6 @@
   ],
   "recent_legislation": [
     {
-      "title": "Three-Year Term Use of a Cooperative Contract for Pavement Management Services for the Transportation Department (Citywide)\n \nThe Transportation Department is leveraging advancements in pavement manag",
-      "type": "Contract",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-19",
-      "file_number": "26-0218",
-      "passed_date": null
-    },
-    {
-      "title": "Dollar Limit Increase to the Term Contract for Safety and Medical Supplies for the Mesa Police and Public Safety Support Departments (Citywide)\r\n \r\nThe Mesa Police and Public Safety Support Department",
-      "type": "Contract",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-19",
-      "file_number": "26-0217",
-      "passed_date": null
-    },
-    {
       "title": "Dollar Limit Increase to the Term Contract for Landscape Maintenance Services for City Facilities (Zone 7) for the Facilities Management Department (Council Districts 1, 2, 5, and 6)\n \nA dollar limit ",
       "type": "Contract",
       "status": "Agenda Ready",
@@ -1015,6 +999,22 @@
       "passed_date": null
     },
     {
+      "title": "Three-Year Term Use of a Cooperative Contract for Pavement Management Services for the Transportation Department (Citywide)\n \nThe Transportation Department is leveraging advancements in pavement manag",
+      "type": "Contract",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "26-0218",
+      "passed_date": null
+    },
+    {
+      "title": "Dollar Limit Increase to the Term Contract for Safety and Medical Supplies for the Mesa Police and Public Safety Support Departments (Citywide)\r\n \r\nThe Mesa Police and Public Safety Support Department",
+      "type": "Contract",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "26-0217",
+      "passed_date": null
+    },
+    {
       "title": "Approving and authorizing the City Manager or designee to enter into the Power Purchase and Energy Storage Agreement for the Pinal Solar Project (\"Project\") with Arizona Electric Power Cooperative (\"A",
       "type": "Resolution",
       "status": "Agenda Ready",
@@ -1040,7 +1040,7 @@
     }
   ],
   "legistar_url": "https://mesa.legistar.com",
-  "enriched_at": "2026-04-21T19:29:44.761796",
+  "enriched_at": "2026-04-22T03:05:51.646604",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
