@@ -171,11 +171,11 @@
   "development": {
     "permits_12mo": 6425,
     "yoy_trend_pct": 9.5,
-    "avg_permit_value": 1117242.08,
+    "avg_permit_value": 1118032.98,
     "permit_types": {
-      "Building": 5429,
+      "Building": 5427,
       "Demolition": 527,
-      "Roof": 444,
+      "Roof": 446,
       "Grading": 25
     },
     "datasets_count": 10,
@@ -474,8 +474,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.seattle.gov/resource/76t5-zqzr.json",
-        "probed_at": "2026-04-22T19:25:55.050420",
-        "data_vintage": "Rolling 12-month window ending 2026-04-22",
+        "probed_at": "2026-04-23T03:31:49.322722",
+        "data_vintage": "Rolling 12-month window ending 2026-04-23",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -521,7 +521,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Seattle",
-        "probed_at": "2026-04-22T19:26:57.617010",
+        "probed_at": "2026-04-23T03:32:43.644748",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -968,6 +968,14 @@
       "passed_date": null
     },
     {
+      "title": "Seattle Center Overview",
+      "type": "Information Item (Inf)",
+      "status": "Heard in Committee",
+      "intro_date": "2026-02-12",
+      "file_number": "Inf 2835",
+      "passed_date": null
+    },
+    {
       "title": "Transportation Funding Task Force Update",
       "type": "Information Item (Inf)",
       "status": "Heard in Committee",
@@ -984,14 +992,6 @@
       "passed_date": null
     },
     {
-      "title": "Seattle Center Overview",
-      "type": "Information Item (Inf)",
-      "status": "Heard in Committee",
-      "intro_date": "2026-02-12",
-      "file_number": "Inf 2835",
-      "passed_date": null
-    },
-    {
       "title": "HSD’s (Human Services Department) 2024 Provider Pay Report",
       "type": "Information Item (Inf)",
       "status": "Committee Agenda Ready",
@@ -1001,7 +1001,7 @@
     }
   ],
   "legistar_url": "https://seattle.legistar.com",
-  "enriched_at": "2026-04-22T19:25:19.072936",
+  "enriched_at": "2026-04-23T03:30:21.636142",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
