@@ -221,7 +221,7 @@
   },
   "development": {
     "permits_12mo": 7359,
-    "yoy_trend_pct": 4.9,
+    "yoy_trend_pct": 5.4,
     "avg_permit_value": null,
     "permit_types": {
       "Building Permit": 1872,
@@ -627,8 +627,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.somervillema.gov/resource/nneb-s3f7.json",
-        "probed_at": "2026-04-25T19:13:48.542198",
-        "data_vintage": "Rolling 12-month window ending 2026-04-25",
+        "probed_at": "2026-04-26T03:42:54.807852",
+        "data_vintage": "Rolling 12-month window ending 2026-04-26",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Applications for Permits and Licenses",
@@ -674,7 +674,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Somerville",
-        "probed_at": "2026-04-25T19:15:08.620483",
+        "probed_at": "2026-04-26T03:44:05.119215",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -1082,6 +1082,14 @@
   "recent_meetings": [],
   "recent_legislation": [
     {
+      "title": "Approval of the Minutes of the Finance Committee Meeting of February 10, 2026.",
+      "type": "Committee Minutes",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-12",
+      "file_number": "26-0263",
+      "passed_date": null
+    },
+    {
       "title": "Requesting authorization to borrow $1,530,000 in a bond, and to appropriate the same amount for the annual FY 2026 Sewer System Evaluation and Infiltration/Inflow Assessment.",
       "type": "Mayor's Request",
       "status": "Referred for Recommendation",
@@ -1098,14 +1106,6 @@
       "passed_date": null
     },
     {
-      "title": "Approval of the Minutes of the Finance Committee Meeting of February 10, 2026.",
-      "type": "Committee Minutes",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-12",
-      "file_number": "26-0263",
-      "passed_date": null
-    },
-    {
       "title": "Approval of the Minutes of the Licenses and Permits Committee Meeting of February 11, 2026.",
       "type": "Committee Minutes",
       "status": "Agenda Ready",
@@ -1114,12 +1114,12 @@
       "passed_date": null
     },
     {
-      "title": "Elizabeth Schaul submitting comments re: snow removal.",
+      "title": "Union 2 Associates, LLC requesting a Zoning Map Amendment to change the zoning district of  2 and 9 Union Square, 286, 290, and 298 Somerville Avenue from Commercial Core 5 (CC5) to Mid-Rise 6 (MR6).",
       "type": "Public Communication",
-      "status": "Placed on File",
+      "status": "Referred for Recommendation",
       "intro_date": "2026-02-11",
-      "file_number": "26-0256",
-      "passed_date": "2026-02-12"
+      "file_number": "26-0257",
+      "passed_date": null
     },
     {
       "title": "Noa Cohen Hughes and Crystal Huff submitting comments re: item #26-0114, Fiscal Year 2027 budget priorities.",
@@ -1130,19 +1130,19 @@
       "passed_date": "2026-02-12"
     },
     {
-      "title": "Christopher Beland submitting comments re: items #26-0175, #26-0176, #26-0177, #26-0178, #26-0179, #26-0180, #26-0181, #26-0182, #26-0183, #26-0184, #26-0185, #26-0186, and #26-0187, Eversource applyi",
-      "type": "Public Communication",
-      "status": "Sent for Discussion",
-      "intro_date": "2026-02-11",
-      "file_number": "26-0259",
-      "passed_date": null
-    },
-    {
       "title": "Four residents submitting comments re: Israel boycott.",
       "type": "Public Communication",
       "status": "Placed on File",
       "intro_date": "2026-02-11",
       "file_number": "26-0255",
+      "passed_date": "2026-02-12"
+    },
+    {
+      "title": "That this City Council commends the Fire Department for its fast and professional emergency response to the recent fire at 26 Summer Street.",
+      "type": "Resolution",
+      "status": "Approved",
+      "intro_date": "2026-02-11",
+      "file_number": "26-0253",
       "passed_date": "2026-02-12"
     },
     {
@@ -1154,16 +1154,16 @@
       "passed_date": "2026-02-12"
     },
     {
-      "title": "That this City Council commends the Fire Department for its fast and professional emergency response to the recent fire at 26 Summer Street.",
-      "type": "Resolution",
-      "status": "Approved",
+      "title": "Elizabeth Schaul submitting comments re: snow removal.",
+      "type": "Public Communication",
+      "status": "Placed on File",
       "intro_date": "2026-02-11",
-      "file_number": "26-0253",
+      "file_number": "26-0256",
       "passed_date": "2026-02-12"
     }
   ],
   "legistar_url": "https://somervillema.legistar.com",
-  "enriched_at": "2026-04-25T19:11:59.564375",
+  "enriched_at": "2026-04-26T03:41:00.087662",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

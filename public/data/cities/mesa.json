@@ -180,14 +180,14 @@
     "accela_agency_id": "MESA"
   },
   "development": {
-    "permits_12mo": 5163,
-    "yoy_trend_pct": 1.7,
-    "avg_permit_value": 428765.94,
-    "permits_per_capita_1k": 10.26,
+    "permits_12mo": 5177,
+    "yoy_trend_pct": 2.4,
+    "avg_permit_value": 428253.84,
+    "permits_per_capita_1k": 10.28,
     "permit_types": {
-      "RES": 3313,
-      "COM": 1393,
-      "SVC": 457
+      "RES": 3324,
+      "COM": 1394,
+      "SVC": 459
     },
     "datasets_count": 10
   },
@@ -491,8 +491,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://citydata.mesaaz.gov/resource/dzpk-hxfb.json",
-        "probed_at": "2026-04-25T19:13:21.024716",
-        "data_vintage": "Rolling 12-month window ending 2026-04-25",
+        "probed_at": "2026-04-26T03:42:25.561031",
+        "data_vintage": "Rolling 12-month window ending 2026-04-26",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -538,7 +538,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Mesa",
-        "probed_at": "2026-04-25T19:14:08.953258",
+        "probed_at": "2026-04-26T03:43:13.258255",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -1023,24 +1023,24 @@
       "passed_date": null
     },
     {
-      "title": "ZON24-01027 \"Mesa Premier RV & Boat Storage Phase II\", 13.7± acres located approximately 265 feet east of the Southeast corner of North Higley Road and East Thomas Road. Rezone 3.5± acres from Single ",
-      "type": "Ordinance",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-12",
-      "file_number": "26-0205",
-      "passed_date": null
-    },
-    {
       "title": "Amending board membership requirements for the Palo District, a Theme Park District established pursuant to Arizona law. (District 3) \nResolution No. 12474",
       "type": "Resolution",
       "status": "Agenda Ready",
       "intro_date": "2026-02-12",
       "file_number": "26-0207",
       "passed_date": null
+    },
+    {
+      "title": "ZON24-01027 \"Mesa Premier RV & Boat Storage Phase II\", 13.7± acres located approximately 265 feet east of the Southeast corner of North Higley Road and East Thomas Road. Rezone 3.5± acres from Single ",
+      "type": "Ordinance",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-12",
+      "file_number": "26-0205",
+      "passed_date": null
     }
   ],
   "legistar_url": "https://mesa.legistar.com",
-  "enriched_at": "2026-04-25T19:07:55.076561",
+  "enriched_at": "2026-04-26T03:36:54.127391",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
