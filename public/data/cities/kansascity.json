@@ -116,11 +116,11 @@
     "accela_agency_id": "KANSAS"
   },
   "development": {
-    "permits_12mo": 773,
+    "permits_12mo": 771,
     "yoy_trend_pct": -95.8,
-    "avg_permit_value": 268330.07,
+    "avg_permit_value": 269049.8,
     "permit_types": {
-      "Electrical General": 179,
+      "Electrical General": 177,
       "Mechanical General": 116,
       "Plumbing General": 111,
       "Certificate of Occupancy (Residential)": 50,
@@ -129,12 +129,12 @@
       "Security Alarms": 22,
       "Fire Protection System": 19,
       "Other": 18,
-      "Electrical Reconnect": 17,
       "Wall Sign / Projecting Sign": 17,
+      "Electrical Reconnect": 17,
       "Install/Replace Water Heater": 17,
       "Single Family - New": 13,
       "Complete Building Demolition": 12,
-      "Renovation": 11
+      "Electrical Fire Alarm Commercial": 11
     },
     "datasets_count": 1
   },
@@ -292,8 +292,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.kcmo.org/resource/ntw8-aacc.json",
-        "probed_at": "2026-04-26T19:12:50.109445",
-        "data_vintage": "Rolling 12-month window ending 2026-04-26",
+        "probed_at": "2026-04-27T03:41:18.190330",
+        "data_vintage": "Rolling 12-month window ending 2026-04-27",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Permits - CPD Dataset",
@@ -891,7 +891,7 @@
     }
   ],
   "legistar_url": "https://kansascity.legistar.com",
-  "enriched_at": "2026-04-26T19:07:01.990425",
+  "enriched_at": "2026-04-27T03:36:39.650106",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

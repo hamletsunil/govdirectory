@@ -180,13 +180,13 @@
     "accela_agency_id": "MESA"
   },
   "development": {
-    "permits_12mo": 5177,
-    "yoy_trend_pct": 2.4,
-    "avg_permit_value": 428253.84,
-    "permits_per_capita_1k": 10.28,
+    "permits_12mo": 5168,
+    "yoy_trend_pct": 2.3,
+    "avg_permit_value": 428445.6,
+    "permits_per_capita_1k": 10.27,
     "permit_types": {
-      "RES": 3324,
-      "COM": 1394,
+      "RES": 3321,
+      "COM": 1388,
       "SVC": 459
     },
     "datasets_count": 10
@@ -491,8 +491,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://citydata.mesaaz.gov/resource/dzpk-hxfb.json",
-        "probed_at": "2026-04-26T19:12:21.185102",
-        "data_vintage": "Rolling 12-month window ending 2026-04-26",
+        "probed_at": "2026-04-27T03:40:41.962117",
+        "data_vintage": "Rolling 12-month window ending 2026-04-27",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -538,7 +538,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Mesa",
-        "probed_at": "2026-04-26T19:13:06.753571",
+        "probed_at": "2026-04-27T03:41:36.779848",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -959,19 +959,19 @@
   ],
   "recent_legislation": [
     {
+      "title": "Use of a Cooperative Contract for the Purchase of 150 Ballistic Helmets (Replacement) for the Mesa Police Department (Citywide)\n \nThis contract will be used to purchase 150 ballistic helmets with face",
+      "type": "Contract",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "26-0215",
+      "passed_date": null
+    },
+    {
       "title": "Three-Year Term Contract with Two-Year Renewal Options for Traffic Signal Loop Detection Installation Services for the Transportation Department (Single Response) (Citywide)\n \nThis contract is for the",
       "type": "Contract",
       "status": "Agenda Ready",
       "intro_date": "2026-02-19",
       "file_number": "26-0214",
-      "passed_date": null
-    },
-    {
-      "title": "Design Review Board meeting held on January 13, 2026.",
-      "type": "Minutes",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-19",
-      "file_number": "26-0222",
       "passed_date": null
     },
     {
@@ -1007,11 +1007,11 @@
       "passed_date": null
     },
     {
-      "title": "Use of a Cooperative Contract for the Purchase of 150 Ballistic Helmets (Replacement) for the Mesa Police Department (Citywide)\n \nThis contract will be used to purchase 150 ballistic helmets with face",
-      "type": "Contract",
+      "title": "Design Review Board meeting held on January 13, 2026.",
+      "type": "Minutes",
       "status": "Agenda Ready",
       "intro_date": "2026-02-19",
-      "file_number": "26-0215",
+      "file_number": "26-0222",
       "passed_date": null
     },
     {
@@ -1040,7 +1040,7 @@
     }
   ],
   "legistar_url": "https://mesa.legistar.com",
-  "enriched_at": "2026-04-26T19:08:03.790938",
+  "enriched_at": "2026-04-27T03:37:27.671255",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
