@@ -169,17 +169,17 @@
     "accela_agency_id": "SEATTLE"
   },
   "development": {
-    "permits_12mo": 6438,
-    "yoy_trend_pct": 9.8,
-    "avg_permit_value": 1114985.41,
+    "permits_12mo": 6410,
+    "yoy_trend_pct": 9.4,
+    "avg_permit_value": 1118889.19,
     "permit_types": {
-      "Building": 5440,
-      "Demolition": 525,
-      "Roof": 448,
+      "Building": 5417,
+      "Demolition": 523,
+      "Roof": 445,
       "Grading": 25
     },
     "datasets_count": 10,
-    "permits_per_capita_1k": 8.76
+    "permits_per_capita_1k": 8.73
   },
   "meetings": {
     "official_channels": 1,
@@ -474,8 +474,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.seattle.gov/resource/76t5-zqzr.json",
-        "probed_at": "2026-04-27T19:54:12.405645",
-        "data_vintage": "Rolling 12-month window ending 2026-04-27",
+        "probed_at": "2026-04-28T03:53:32.148005",
+        "data_vintage": "Rolling 12-month window ending 2026-04-28",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -521,7 +521,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Seattle",
-        "probed_at": "2026-04-27T19:55:03.716685",
+        "probed_at": "2026-04-28T03:54:18.050757",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -944,14 +944,6 @@
       "passed_date": null
     },
     {
-      "title": "Appointment of Steven Zwerin as member, Civil Service Commission, for a term to December 31, 2028.",
-      "type": "Appointment (Appt)",
-      "status": "Filed with City Clerk",
-      "intro_date": "2026-02-13",
-      "file_number": "Appt 03443",
-      "passed_date": null
-    },
-    {
       "title": "Seattle Public Library 2019 Levy Background and Overview",
       "type": "Information Item (Inf)",
       "status": "Heard in Committee",
@@ -960,11 +952,11 @@
       "passed_date": null
     },
     {
-      "title": "AN ORDINANCE relating to civil immigration enforcement; prohibiting civil immigration enforcement staging on all real property that is City owned and controlled; and adding a new Chapter 14.125 to the",
-      "type": "Council Bill (CB)",
-      "status": "Committee Agenda Ready",
-      "intro_date": "2026-02-12",
-      "file_number": "CB 121164",
+      "title": "Appointment of Steven Zwerin as member, Civil Service Commission, for a term to December 31, 2028.",
+      "type": "Appointment (Appt)",
+      "status": "Filed with City Clerk",
+      "intro_date": "2026-02-13",
+      "file_number": "Appt 03443",
       "passed_date": null
     },
     {
@@ -984,24 +976,32 @@
       "passed_date": null
     },
     {
-      "title": "Human Services Provider Roundtable Discussion",
-      "type": "Information Item (Inf)",
+      "title": "AN ORDINANCE relating to civil immigration enforcement; prohibiting civil immigration enforcement staging on all real property that is City owned and controlled; and adding a new Chapter 14.125 to the",
+      "type": "Council Bill (CB)",
       "status": "Committee Agenda Ready",
       "intro_date": "2026-02-12",
-      "file_number": "Inf 2841",
+      "file_number": "CB 121164",
       "passed_date": null
     },
     {
-      "title": "HSD’s (Human Services Department) 2024 Provider Pay Report",
+      "title": "Wage Equity for Human Services Contracts",
       "type": "Information Item (Inf)",
-      "status": "Committee Agenda Ready",
+      "status": "Heard in Committee",
       "intro_date": "2026-02-12",
-      "file_number": "Inf 2838",
+      "file_number": "Inf 2837",
       "passed_date": null
+    },
+    {
+      "title": "State of the City address delivered by Mayor Katie B. Wilson on February 17, 2026.",
+      "type": "Clerk File (CF)",
+      "status": "Filed with City Clerk",
+      "intro_date": "2026-02-12",
+      "file_number": "CF 314547",
+      "passed_date": "2026-02-17"
     }
   ],
   "legistar_url": "https://seattle.legistar.com",
-  "enriched_at": "2026-04-27T19:52:28.794798",
+  "enriched_at": "2026-04-28T03:51:57.262511",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

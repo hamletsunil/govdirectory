@@ -220,28 +220,28 @@
     "accela_agency_id": null
   },
   "development": {
-    "permits_12mo": 7359,
-    "yoy_trend_pct": 5.4,
+    "permits_12mo": 7338,
+    "yoy_trend_pct": 4.8,
     "avg_permit_value": null,
     "permit_types": {
-      "Building Permit": 1872,
-      "Electrical Permit": 1765,
-      "Plumbing Permit": 674,
+      "Building Permit": 1871,
+      "Electrical Permit": 1757,
+      "Plumbing Permit": 670,
       "Food Establishment": 497,
-      "Gas Fitting": 468,
+      "Gas Fitting": 465,
       "Dumpster": 331,
       "Temporary Food": 286,
       "Certificate of Inspection": 269,
       "Sheet Metal Permit": 195,
       "Dumpster (Located on Street) Permit": 190,
-      "Certificate of Occupancy": 164,
-      "Business License": 127,
+      "Certificate of Occupancy": 162,
+      "Business License": 124,
       "Public Event License": 99,
       "Farmers Market": 91,
       "Block Party": 86
     },
     "datasets_count": 1,
-    "permits_per_capita_1k": 91.46
+    "permits_per_capita_1k": 91.2
   },
   "meetings": {
     "official_channels": 1,
@@ -627,8 +627,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.somervillema.gov/resource/nneb-s3f7.json",
-        "probed_at": "2026-04-27T19:54:48.971566",
-        "data_vintage": "Rolling 12-month window ending 2026-04-27",
+        "probed_at": "2026-04-28T03:54:05.340751",
+        "data_vintage": "Rolling 12-month window ending 2026-04-28",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Applications for Permits and Licenses",
@@ -674,7 +674,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Somerville",
-        "probed_at": "2026-04-27T19:56:12.497347",
+        "probed_at": "2026-04-28T03:55:21.176893",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -1082,6 +1082,14 @@
   "recent_meetings": [],
   "recent_legislation": [
     {
+      "title": "That this City Council hold a public hearing on the petition submitted by 52 registered voters regarding Out of the Blue Community Arts Space at Arts at the Armory, pursuant to Section 2-11 of the Cit",
+      "type": "Public Communication",
+      "status": "Referred for Recommendation",
+      "intro_date": "2026-02-12",
+      "file_number": "26-0265",
+      "passed_date": null
+    },
+    {
       "title": "Approval of the Minutes of the Finance Committee Meeting of February 10, 2026.",
       "type": "Committee Minutes",
       "status": "Agenda Ready",
@@ -1098,14 +1106,6 @@
       "passed_date": null
     },
     {
-      "title": "That this City Council hold a public hearing on the petition submitted by 52 registered voters regarding Out of the Blue Community Arts Space at Arts at the Armory, pursuant to Section 2-11 of the Cit",
-      "type": "Public Communication",
-      "status": "Referred for Recommendation",
-      "intro_date": "2026-02-12",
-      "file_number": "26-0265",
-      "passed_date": null
-    },
-    {
       "title": "Approval of the Minutes of the Licenses and Permits Committee Meeting of February 11, 2026.",
       "type": "Committee Minutes",
       "status": "Agenda Ready",
@@ -1114,12 +1114,12 @@
       "passed_date": null
     },
     {
-      "title": "Union 2 Associates, LLC requesting a Zoning Map Amendment to change the zoning district of  2 and 9 Union Square, 286, 290, and 298 Somerville Avenue from Commercial Core 5 (CC5) to Mid-Rise 6 (MR6).",
+      "title": "Elizabeth Schaul submitting comments re: snow removal.",
       "type": "Public Communication",
-      "status": "Referred for Recommendation",
+      "status": "Placed on File",
       "intro_date": "2026-02-11",
-      "file_number": "26-0257",
-      "passed_date": null
+      "file_number": "26-0256",
+      "passed_date": "2026-02-12"
     },
     {
       "title": "Noa Cohen Hughes and Crystal Huff submitting comments re: item #26-0114, Fiscal Year 2027 budget priorities.",
@@ -1127,22 +1127,6 @@
       "status": "Placed on File",
       "intro_date": "2026-02-11",
       "file_number": "26-0258",
-      "passed_date": "2026-02-12"
-    },
-    {
-      "title": "Four residents submitting comments re: Israel boycott.",
-      "type": "Public Communication",
-      "status": "Placed on File",
-      "intro_date": "2026-02-11",
-      "file_number": "26-0255",
-      "passed_date": "2026-02-12"
-    },
-    {
-      "title": "That this City Council commends the Fire Department for its fast and professional emergency response to the recent fire at 26 Summer Street.",
-      "type": "Resolution",
-      "status": "Approved",
-      "intro_date": "2026-02-11",
-      "file_number": "26-0253",
       "passed_date": "2026-02-12"
     },
     {
@@ -1154,16 +1138,32 @@
       "passed_date": "2026-02-12"
     },
     {
-      "title": "Elizabeth Schaul submitting comments re: snow removal.",
+      "title": "That this City Council commends the Fire Department for its fast and professional emergency response to the recent fire at 26 Summer Street.",
+      "type": "Resolution",
+      "status": "Approved",
+      "intro_date": "2026-02-11",
+      "file_number": "26-0253",
+      "passed_date": "2026-02-12"
+    },
+    {
+      "title": "Union 2 Associates, LLC requesting a Zoning Map Amendment to change the zoning district of  2 and 9 Union Square, 286, 290, and 298 Somerville Avenue from Commercial Core 5 (CC5) to Mid-Rise 6 (MR6).",
+      "type": "Public Communication",
+      "status": "Referred for Recommendation",
+      "intro_date": "2026-02-11",
+      "file_number": "26-0257",
+      "passed_date": null
+    },
+    {
+      "title": "Four residents submitting comments re: Israel boycott.",
       "type": "Public Communication",
       "status": "Placed on File",
       "intro_date": "2026-02-11",
-      "file_number": "26-0256",
+      "file_number": "26-0255",
       "passed_date": "2026-02-12"
     }
   ],
   "legistar_url": "https://somervillema.legistar.com",
-  "enriched_at": "2026-04-27T19:52:41.853923",
+  "enriched_at": "2026-04-28T03:52:08.977071",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

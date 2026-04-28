@@ -565,7 +565,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Richmond",
-        "probed_at": "2026-04-27T19:55:26.883345",
+        "probed_at": "2026-04-28T03:54:37.960342",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -901,16 +901,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-04-27",
-      "body": "City Council",
-      "location": "Council Chamber, 2nd Floor - City Hall",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-04-28",
       "body": "Public Safety Standing Committee",
       "location": "Council Chamber, 2nd Floor – City Hall",
@@ -971,6 +961,16 @@
       "upcoming": true
     },
     {
+      "date": "2026-04-27",
+      "body": "City Council",
+      "location": "Council Chamber, 2nd Floor - City Hall",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
       "date": "2026-04-21",
       "body": "Land Use, Housing and Transportation Standing Committee",
       "location": "Council Chamber, 2nd Floor - City Hall",
@@ -1011,6 +1011,14 @@
       "passed_date": "2003-11-24"
     },
     {
+      "title": "Public Access and Participation Instructions - Commission of Architectural Review",
+      "type": "PDR Presentation",
+      "status": "Regular Agenda",
+      "intro_date": "2026-02-20",
+      "file_number": "PDRPRES 2025.054",
+      "passed_date": null
+    },
+    {
       "title": "20260223 Formal Awards and Recognitions Ceremony Docket",
       "type": "Council Document ",
       "status": "Referred",
@@ -1024,14 +1032,6 @@
       "status": "Consent Agenda",
       "intro_date": "2026-02-20",
       "file_number": "CPCR.2026.001",
-      "passed_date": null
-    },
-    {
-      "title": "Public Access and Participation Instructions - Commission of Architectural Review",
-      "type": "PDR Presentation",
-      "status": "Regular Agenda",
-      "intro_date": "2026-02-20",
-      "file_number": "PDRPRES 2025.054",
       "passed_date": null
     },
     {
@@ -1059,14 +1059,6 @@
       "passed_date": null
     },
     {
-      "title": "February 17, 2026 - Land Use, Housing and Transportation Staff Report",
-      "type": "Council Document ",
-      "status": "Filed",
-      "intro_date": "2026-02-17",
-      "file_number": "CD.2026.052",
-      "passed_date": null
-    },
-    {
       "title": "DECPR Hagerty Report Follow-up Presentation",
       "type": "Council Document ",
       "status": "Presentation",
@@ -1081,10 +1073,18 @@
       "intro_date": "2026-02-17",
       "file_number": "CD.2026.054",
       "passed_date": null
+    },
+    {
+      "title": "November 19, 2025 - Finance and Economic Development Standing Committee Meeting Minutes",
+      "type": "Council Document ",
+      "status": "Minutes to be Approved",
+      "intro_date": "2026-02-17",
+      "file_number": "CD.2026.053",
+      "passed_date": null
     }
   ],
   "legistar_url": "https://richmondva.legistar.com",
-  "enriched_at": "2026-04-27T19:51:22.077484",
+  "enriched_at": "2026-04-28T03:50:53.528288",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
