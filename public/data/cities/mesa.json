@@ -180,14 +180,26 @@
     "accela_agency_id": "MESA"
   },
   "development": {
-    "permits_12mo": 5143,
-    "yoy_trend_pct": 1.8,
-    "avg_permit_value": 427464.51,
-    "permits_per_capita_1k": 10.22,
+    "permits_12mo": 3429,
+    "yoy_trend_pct": -23.3,
+    "avg_permit_value": null,
+    "permits_per_capita_1k": 6.81,
     "permit_types": {
-      "RES": 3307,
-      "COM": 1378,
-      "SVC": 458
+      "Electrical": 717,
+      "Single Family (Detached)": 523,
+      "Other Commercial": 420,
+      "Tenant Improvement (Interior Only)": 302,
+      "Plumbing": 277,
+      "Swimming Pool": 242,
+      "Commercial/Industrial Projects": 186,
+      "Renovations/Remodels": 149,
+      "Additions": 96,
+      "Single Family (Attached)": 92,
+      "Remodeling With Addition": 60,
+      "New Mobile Home": 51,
+      "Park Model Other Addition": 38,
+      "Garage/Carport": 36,
+      "Multi-Family Residential": 35
     },
     "datasets_count": 10
   },
@@ -490,12 +502,12 @@
       "permits": {
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
-        "api_url": "https://citydata.mesaaz.gov/resource/dzpk-hxfb.json",
-        "probed_at": "2026-04-28T14:27:53.175187",
+        "api_url": "https://citydata.mesaaz.gov/resource/2gkz-7z4f.json",
+        "probed_at": "2026-04-28T20:02:12.565242",
         "data_vintage": "Rolling 12-month window ending 2026-04-28",
         "geographic_level": "place",
         "status": "available",
-        "dataset_name": "Building Permits",
+        "dataset_name": "Building Permits (RETIRED)",
         "date_column_used": "issued_date"
       },
       "youtube_meetings": {
@@ -538,7 +550,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Mesa",
-        "probed_at": "2026-04-28T14:29:00.284062",
+        "probed_at": "2026-04-28T20:03:21.122052",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -1050,7 +1062,7 @@
     }
   ],
   "legistar_url": "https://mesa.legistar.com",
-  "enriched_at": "2026-04-28T14:25:58.206588",
+  "enriched_at": "2026-04-28T19:55:55.000867",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
