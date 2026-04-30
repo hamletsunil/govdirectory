@@ -525,7 +525,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Boston",
-        "probed_at": "2026-04-29T19:53:30.488510",
+        "probed_at": "2026-04-30T03:47:42.936842",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -873,16 +873,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-04-29",
-      "body": "Public Facilities",
-      "location": "Room 801, City Hall",
-      "has_agenda": true,
-      "agenda_url": "https://boston.legistar1.com/boston/meetings/2026/4/14077_A_Public_Facilities_26-04-29_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-05-05",
       "body": "Zoning Board of Appeal",
       "location": "Room 801, City Hall",
@@ -934,6 +924,16 @@
     },
     {
       "date": "2026-05-20",
+      "body": "Boston School Committee",
+      "location": "Bolling Building",
+      "has_agenda": true,
+      "agenda_url": "https://boston.legistar1.com/boston/meetings/2026/5/14053_A_Boston_School_Committee_26-05-20_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-05-20",
       "body": "Public Facilities",
       "location": "Room 801, City Hall",
       "has_agenda": true,
@@ -943,14 +943,14 @@
       "upcoming": true
     },
     {
-      "date": "2026-05-20",
-      "body": "Boston School Committee",
-      "location": "Bolling Building",
+      "date": "2026-04-29",
+      "body": "Public Facilities",
+      "location": "Room 801, City Hall",
       "has_agenda": true,
-      "agenda_url": "https://boston.legistar1.com/boston/meetings/2026/5/14053_A_Boston_School_Committee_26-05-20_Meeting_Agenda.pdf",
+      "agenda_url": "https://boston.legistar1.com/boston/meetings/2026/4/14077_A_Public_Facilities_26-04-29_Meeting_Agenda.pdf",
       "has_minutes": false,
       "has_video": false,
-      "upcoming": true
+      "upcoming": false
     },
     {
       "date": "2026-04-28",
@@ -1096,7 +1096,7 @@
     }
   ],
   "legistar_url": "https://boston.legistar.com",
-  "enriched_at": "2026-04-29T19:43:37.146147",
+  "enriched_at": "2026-04-30T03:37:53.754980",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

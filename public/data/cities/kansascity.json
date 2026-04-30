@@ -116,25 +116,25 @@
     "accela_agency_id": "KANSAS"
   },
   "development": {
-    "permits_12mo": 593,
-    "yoy_trend_pct": -96.8,
-    "avg_permit_value": 318841.06,
+    "permits_12mo": 523,
+    "yoy_trend_pct": -97.2,
+    "avg_permit_value": 354733.64,
     "permit_types": {
-      "Electrical General": 132,
-      "Plumbing General": 95,
-      "Mechanical General": 87,
-      "Certificate of Occupancy (Residential)": 46,
-      "Single Family - Interior Remodel": 28,
-      "Electrical with Service": 28,
-      "Electrical Reconnect": 14,
+      "Electrical General": 107,
+      "Plumbing General": 92,
+      "Mechanical General": 71,
+      "Certificate of Occupancy (Residential)": 45,
+      "Electrical with Service": 26,
+      "Single Family - Interior Remodel": 26,
       "Security Alarms": 13,
-      "Complete Building Demolition": 11,
       "Plumbing with Limited Service": 11,
-      "Single Family - New": 10,
-      "Wall Sign / Projecting Sign": 10,
-      "Install/Replace Water Heater": 10,
-      "Electrical Fire Alarm Commercial": 9,
-      "Fire Protection System": 9
+      "Electrical Reconnect": 11,
+      "Complete Building Demolition": 10,
+      "Single Family - New": 9,
+      "Fire Protection System": 9,
+      "Renovation": 9,
+      "Other": 8,
+      "Detached Accessory Structure": 7
     },
     "datasets_count": 1
   },
@@ -292,8 +292,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.kcmo.org/resource/ntw8-aacc.json",
-        "probed_at": "2026-04-29T19:53:17.755849",
-        "data_vintage": "Rolling 12-month window ending 2026-04-29",
+        "probed_at": "2026-04-30T03:47:31.892281",
+        "data_vintage": "Rolling 12-month window ending 2026-04-30",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Permits - CPD Dataset",
@@ -758,16 +758,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-04-29",
-      "body": "Risk Management Committee",
-      "location": "Virtual Closed Session",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-05-12",
       "body": "Board of Police Commissioners",
       "location": "1125 Locust Street",
@@ -776,6 +766,16 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": true
+    },
+    {
+      "date": "2026-04-29",
+      "body": "Risk Management Committee",
+      "location": "Virtual Closed Session",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     },
     {
       "date": "2026-04-21",
@@ -826,14 +826,6 @@
       "passed_date": null
     },
     {
-      "title": "Sponsor: Mayor Quinton Lucas\r\n\r\nRESOLUTION - Appointing Matthew Muckenthaler, Michael Coddington, Sean Carroll, Kellee Madinger and Gabriel Robinson as successor directors to the 1200 Main/South Loop ",
-      "type": "Resolution",
-      "status": "Referred",
-      "intro_date": "2026-02-11",
-      "file_number": "260216",
-      "passed_date": null
-    },
-    {
       "title": "Sponsor: Mayor Quinton Lucas\r\n\r\nRESOLUTION - Directing the City Manager to develop and implement a public communication plan, including the publication of a Frequently Asked Questions (FAQ) document o",
       "type": "Resolution",
       "status": "Referred",
@@ -850,12 +842,12 @@
       "passed_date": null
     },
     {
-      "title": "Notice to the City Clerk of the Brywood Centre Community Improvement District’s Proposed Budget for the period ending April 30, 2027.",
-      "type": "Communication",
-      "status": "Filed",
-      "intro_date": "2026-02-10",
-      "file_number": "260198",
-      "passed_date": "2026-02-12"
+      "title": "Sponsor: Mayor Quinton Lucas\r\n\r\nRESOLUTION - Appointing Matthew Muckenthaler, Michael Coddington, Sean Carroll, Kellee Madinger and Gabriel Robinson as successor directors to the 1200 Main/South Loop ",
+      "type": "Resolution",
+      "status": "Referred",
+      "intro_date": "2026-02-11",
+      "file_number": "260216",
+      "passed_date": null
     },
     {
       "title": "Notice to the City Clerk of the River Market Community Improvement District’s Proposed Budget for the period ending April 30, 2027.",
@@ -866,19 +858,19 @@
       "passed_date": "2026-02-12"
     },
     {
-      "title": "Notice to the City Clerk of the Truman Road Community Improvement District’s Proposed Budget for the period ending April 30, 2027.",
+      "title": "Notice to the City Clerk of the Plaza East Community Improvement District’s Proposed Budget for the period ending April 30, 2027.",
       "type": "Communication",
       "status": "Filed",
       "intro_date": "2026-02-10",
-      "file_number": "260202",
+      "file_number": "260200",
       "passed_date": "2026-02-12"
     },
     {
-      "title": "Notice to the City Clerk of the 12TH Street Heritage Community Improvement District’s Proposed Budget for the period ending April 30, 2027.",
+      "title": "Notice to the City Clerk of the Brywood Centre Community Improvement District’s Proposed Budget for the period ending April 30, 2027.",
       "type": "Communication",
       "status": "Filed",
       "intro_date": "2026-02-10",
-      "file_number": "260197",
+      "file_number": "260198",
       "passed_date": "2026-02-12"
     },
     {
@@ -888,10 +880,18 @@
       "intro_date": "2026-02-10",
       "file_number": "260199",
       "passed_date": "2026-02-12"
+    },
+    {
+      "title": "Notice to the City Clerk of the 12TH Street Heritage Community Improvement District’s Proposed Budget for the period ending April 30, 2027.",
+      "type": "Communication",
+      "status": "Filed",
+      "intro_date": "2026-02-10",
+      "file_number": "260197",
+      "passed_date": "2026-02-12"
     }
   ],
   "legistar_url": "https://kansascity.legistar.com",
-  "enriched_at": "2026-04-29T19:47:30.609627",
+  "enriched_at": "2026-04-30T03:41:47.566104",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
