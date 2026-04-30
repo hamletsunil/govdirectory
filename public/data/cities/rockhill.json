@@ -94,24 +94,24 @@
     "vacant_other": 41
   },
   "health": {
-    "uninsured_pct": 6.5,
-    "obesity_pct": 26.7,
-    "diabetes_pct": 7.4,
-    "depression_pct": 18.6,
-    "asthma_pct": 10.0,
-    "smoking_pct": 9.4,
-    "physical_inactivity_pct": 20.4,
-    "mental_health_bad_days": 14.5,
-    "physical_health_bad_days": 10.2,
-    "sleep_deficit_pct": 39.4,
-    "high_blood_pressure_pct": 26.2,
-    "high_cholesterol_pct": 30.7,
-    "heart_disease_pct": 4.2,
-    "stroke_pct": 2.2,
-    "cancer_pct": 7.2,
+    "uninsured_pct": null,
+    "obesity_pct": null,
+    "diabetes_pct": null,
+    "depression_pct": null,
+    "asthma_pct": null,
+    "smoking_pct": null,
+    "physical_inactivity_pct": null,
+    "mental_health_bad_days": null,
+    "physical_health_bad_days": null,
+    "sleep_deficit_pct": null,
+    "high_blood_pressure_pct": null,
+    "high_cholesterol_pct": null,
+    "heart_disease_pct": null,
+    "stroke_pct": null,
+    "cancer_pct": null,
     "kidney_disease_pct": null,
-    "checkup_pct": 78.3,
-    "data_year": "2023"
+    "checkup_pct": null,
+    "data_year": null
   },
   "governance": {
     "legislative_volume": 3125,
@@ -355,7 +355,7 @@
     "youtube_meetings": "skipped",
     "seeclickfix": "available",
     "accela": "available",
-    "cdc_places": "available",
+    "cdc_places": "unavailable",
     "hud_usps": "unavailable",
     "census_vacancy": "available"
   },
@@ -510,10 +510,10 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Rock%20Hill",
-        "probed_at": "2026-04-30T14:12:20.727083",
-        "data_vintage": "BRFSS 2023",
+        "probed_at": "2026-04-30T20:02:14.665538",
+        "data_vintage": "BRFSS None",
         "geographic_level": "place",
-        "status": "available"
+        "status": "unavailable"
       }
     },
     "derived_fields": {
@@ -780,7 +780,7 @@
   "recent_meetings": [],
   "recent_legislation": [],
   "legistar_url": "https://rockhill.legistar.com",
-  "enriched_at": "2026-04-30T14:08:00.993706",
+  "enriched_at": "2026-04-30T19:48:04.780126",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

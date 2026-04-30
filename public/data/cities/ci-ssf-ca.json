@@ -71,24 +71,24 @@
     "severely_burdened_pct": null
   },
   "health": {
-    "uninsured_pct": 9.1,
-    "obesity_pct": 22.2,
-    "diabetes_pct": 10.3,
-    "depression_pct": 17.4,
-    "asthma_pct": 8.3,
-    "smoking_pct": 8.9,
-    "physical_inactivity_pct": 22.7,
-    "mental_health_bad_days": 14.2,
-    "physical_health_bad_days": 11.0,
-    "sleep_deficit_pct": 30.4,
-    "high_blood_pressure_pct": 26.4,
-    "high_cholesterol_pct": 33.4,
-    "heart_disease_pct": 4.4,
-    "stroke_pct": 2.4,
-    "cancer_pct": 4.8,
+    "uninsured_pct": null,
+    "obesity_pct": null,
+    "diabetes_pct": null,
+    "depression_pct": null,
+    "asthma_pct": null,
+    "smoking_pct": null,
+    "physical_inactivity_pct": null,
+    "mental_health_bad_days": null,
+    "physical_health_bad_days": null,
+    "sleep_deficit_pct": null,
+    "high_blood_pressure_pct": null,
+    "high_cholesterol_pct": null,
+    "heart_disease_pct": null,
+    "stroke_pct": null,
+    "cancer_pct": null,
     "kidney_disease_pct": null,
-    "checkup_pct": 68.7,
-    "data_year": "2023"
+    "checkup_pct": null,
+    "data_year": null
   },
   "governance": {
     "legislative_volume": 8750,
@@ -195,7 +195,7 @@
     "youtube_meetings": "skipped",
     "seeclickfix": "skipped",
     "accela": "available",
-    "cdc_places": "available",
+    "cdc_places": "unavailable",
     "hud_usps": "unavailable",
     "census_vacancy": "unavailable"
   },
@@ -350,10 +350,10 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=South%20San%20Francisco",
-        "probed_at": "2026-04-30T14:13:13.295907",
-        "data_vintage": "BRFSS 2023",
+        "probed_at": "2026-04-30T20:04:37.443442",
+        "data_vintage": "BRFSS None",
         "geographic_level": "place",
-        "status": "available"
+        "status": "unavailable"
       }
     },
     "derived_fields": {
@@ -752,7 +752,7 @@
     }
   ],
   "legistar_url": "https://ci-ssf-ca.legistar.com",
-  "enriched_at": "2026-04-30T14:07:39.644719",
+  "enriched_at": "2026-04-30T19:41:33.513491",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

@@ -93,24 +93,24 @@
     "vacant_other": 923
   },
   "health": {
-    "uninsured_pct": 6.7,
-    "obesity_pct": 32.3,
-    "diabetes_pct": 8.2,
-    "depression_pct": 26.0,
-    "asthma_pct": 10.0,
-    "smoking_pct": 12.0,
-    "physical_inactivity_pct": 22.8,
-    "mental_health_bad_days": 17.7,
-    "physical_health_bad_days": 11.0,
-    "sleep_deficit_pct": 32.2,
-    "high_blood_pressure_pct": 28.8,
-    "high_cholesterol_pct": 34.2,
-    "heart_disease_pct": 4.5,
-    "stroke_pct": 2.5,
-    "cancer_pct": 7.4,
+    "uninsured_pct": null,
+    "obesity_pct": null,
+    "diabetes_pct": null,
+    "depression_pct": null,
+    "asthma_pct": null,
+    "smoking_pct": null,
+    "physical_inactivity_pct": null,
+    "mental_health_bad_days": null,
+    "physical_health_bad_days": null,
+    "sleep_deficit_pct": null,
+    "high_blood_pressure_pct": null,
+    "high_cholesterol_pct": null,
+    "heart_disease_pct": null,
+    "stroke_pct": null,
+    "cancer_pct": null,
     "kidney_disease_pct": null,
-    "checkup_pct": 76.0,
-    "data_year": "2023"
+    "checkup_pct": null,
+    "data_year": null
   },
   "governance": {
     "legislative_volume": 6250,
@@ -367,7 +367,7 @@
     "youtube_meetings": "available",
     "seeclickfix": "available",
     "accela": "available",
-    "cdc_places": "available",
+    "cdc_places": "unavailable",
     "hud_usps": "unavailable",
     "census_vacancy": "available"
   },
@@ -522,10 +522,10 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Lee%27s%20Summit",
-        "probed_at": "2026-04-30T14:10:53.964302",
-        "data_vintage": "BRFSS 2023",
+        "probed_at": "2026-04-30T19:58:37.242678",
+        "data_vintage": "BRFSS None",
         "geographic_level": "place",
-        "status": "available"
+        "status": "unavailable"
       }
     },
     "derived_fields": {
@@ -1051,7 +1051,7 @@
     }
   ],
   "legistar_url": "https://lsmo.legistar.com",
-  "enriched_at": "2026-04-30T14:07:52.290216",
+  "enriched_at": "2026-04-30T19:45:17.543002",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

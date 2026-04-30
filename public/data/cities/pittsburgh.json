@@ -101,7 +101,7 @@
     "physical_inactivity_pct": null,
     "mental_health_bad_days": null,
     "physical_health_bad_days": null,
-    "sleep_deficit_pct": 38.4,
+    "sleep_deficit_pct": null,
     "high_blood_pressure_pct": null,
     "high_cholesterol_pct": null,
     "heart_disease_pct": null,
@@ -109,7 +109,7 @@
     "cancer_pct": null,
     "kidney_disease_pct": null,
     "checkup_pct": null,
-    "data_year": "2022"
+    "data_year": null
   },
   "governance": {
     "legislative_volume": 30859,
@@ -416,7 +416,7 @@
     "youtube_meetings": "available",
     "seeclickfix": "available",
     "accela": "available",
-    "cdc_places": "available",
+    "cdc_places": "unavailable",
     "hud_usps": "unavailable",
     "census_vacancy": "available"
   },
@@ -571,10 +571,10 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Pittsburgh",
-        "probed_at": "2026-04-30T14:10:04.172327",
-        "data_vintage": "BRFSS 2022",
+        "probed_at": "2026-04-30T19:55:30.606212",
+        "data_vintage": "BRFSS None",
         "geographic_level": "place",
-        "status": "available"
+        "status": "unavailable"
       }
     },
     "derived_fields": {
@@ -1017,7 +1017,7 @@
     }
   ],
   "legistar_url": "https://pittsburgh.legistar.com",
-  "enriched_at": "2026-04-30T14:07:58.766392",
+  "enriched_at": "2026-04-30T19:47:27.356688",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

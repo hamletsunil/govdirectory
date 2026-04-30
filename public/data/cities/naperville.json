@@ -92,24 +92,24 @@
     "vacant_other": 499
   },
   "health": {
-    "uninsured_pct": 4.9,
-    "obesity_pct": 27.3,
-    "diabetes_pct": 7.6,
-    "depression_pct": 17.2,
-    "asthma_pct": 8.6,
-    "smoking_pct": 7.3,
-    "physical_inactivity_pct": 15.7,
-    "mental_health_bad_days": 12.9,
-    "physical_health_bad_days": 8.2,
-    "sleep_deficit_pct": 34.2,
-    "high_blood_pressure_pct": 25.5,
-    "high_cholesterol_pct": 30.9,
-    "heart_disease_pct": 3.8,
-    "stroke_pct": 2.0,
-    "cancer_pct": 6.8,
+    "uninsured_pct": null,
+    "obesity_pct": null,
+    "diabetes_pct": null,
+    "depression_pct": null,
+    "asthma_pct": null,
+    "smoking_pct": null,
+    "physical_inactivity_pct": null,
+    "mental_health_bad_days": null,
+    "physical_health_bad_days": null,
+    "sleep_deficit_pct": null,
+    "high_blood_pressure_pct": null,
+    "high_cholesterol_pct": null,
+    "heart_disease_pct": null,
+    "stroke_pct": null,
+    "cancer_pct": null,
     "kidney_disease_pct": null,
-    "checkup_pct": 77.4,
-    "data_year": "2023"
+    "checkup_pct": null,
+    "data_year": null
   },
   "governance": {
     "legislative_volume": 10937,
@@ -361,7 +361,7 @@
     "youtube_meetings": "available",
     "seeclickfix": "available",
     "accela": "available",
-    "cdc_places": "available",
+    "cdc_places": "unavailable",
     "hud_usps": "unavailable",
     "census_vacancy": "available"
   },
@@ -516,10 +516,10 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Naperville",
-        "probed_at": "2026-04-30T14:10:34.794462",
-        "data_vintage": "BRFSS 2023",
+        "probed_at": "2026-04-30T19:57:44.352034",
+        "data_vintage": "BRFSS None",
         "geographic_level": "place",
-        "status": "available"
+        "status": "unavailable"
       }
     },
     "derived_fields": {
@@ -942,7 +942,7 @@
     }
   ],
   "legistar_url": "https://naperville.legistar.com",
-  "enriched_at": "2026-04-30T14:07:55.385616",
+  "enriched_at": "2026-04-30T19:46:16.954456",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
