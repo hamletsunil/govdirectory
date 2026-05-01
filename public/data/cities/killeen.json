@@ -98,24 +98,24 @@
     "vacant_other": 1964
   },
   "health": {
-    "uninsured_pct": null,
-    "obesity_pct": null,
-    "diabetes_pct": null,
-    "depression_pct": null,
-    "asthma_pct": null,
-    "smoking_pct": null,
-    "physical_inactivity_pct": null,
-    "mental_health_bad_days": null,
-    "physical_health_bad_days": null,
-    "sleep_deficit_pct": null,
-    "high_blood_pressure_pct": null,
-    "high_cholesterol_pct": null,
-    "heart_disease_pct": null,
-    "stroke_pct": null,
-    "cancer_pct": null,
+    "uninsured_pct": 16.9,
+    "obesity_pct": 46.2,
+    "diabetes_pct": 15.1,
+    "depression_pct": 23.9,
+    "asthma_pct": 11.4,
+    "smoking_pct": 14.8,
+    "physical_inactivity_pct": 33.0,
+    "mental_health_bad_days": 19.5,
+    "physical_health_bad_days": 14.8,
+    "sleep_deficit_pct": 46.0,
+    "high_blood_pressure_pct": 36.8,
+    "high_cholesterol_pct": 30.3,
+    "heart_disease_pct": 6.0,
+    "stroke_pct": 3.9,
+    "cancer_pct": 5.4,
     "kidney_disease_pct": null,
-    "checkup_pct": null,
-    "data_year": null
+    "checkup_pct": 77.2,
+    "data_year": "2023"
   },
   "governance": {
     "legislative_volume": 5000,
@@ -435,7 +435,7 @@
     "youtube_meetings": "available",
     "seeclickfix": "available",
     "accela": "available",
-    "cdc_places": "unavailable",
+    "cdc_places": "available",
     "hud_usps": "unavailable",
     "census_vacancy": "available"
   },
@@ -590,10 +590,10 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Killeen",
-        "probed_at": "2026-04-30T19:56:48.306841",
-        "data_vintage": "BRFSS None",
+        "probed_at": "2026-05-01T04:03:54.052936",
+        "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
-        "status": "unavailable"
+        "status": "available"
       }
     },
     "derived_fields": {
@@ -956,7 +956,7 @@
     }
   ],
   "legistar_url": "https://killeen.legistar.com",
-  "enriched_at": "2026-04-30T19:44:47.704585",
+  "enriched_at": "2026-05-01T03:56:20.380025",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

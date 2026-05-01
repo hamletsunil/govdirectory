@@ -93,24 +93,24 @@
     "vacant_other": 9417
   },
   "health": {
-    "uninsured_pct": null,
-    "obesity_pct": null,
-    "diabetes_pct": null,
-    "depression_pct": null,
-    "asthma_pct": null,
-    "smoking_pct": null,
-    "physical_inactivity_pct": null,
-    "mental_health_bad_days": null,
-    "physical_health_bad_days": null,
-    "sleep_deficit_pct": null,
-    "high_blood_pressure_pct": null,
-    "high_cholesterol_pct": null,
-    "heart_disease_pct": null,
-    "stroke_pct": null,
-    "cancer_pct": null,
+    "uninsured_pct": 11.6,
+    "obesity_pct": 39.7,
+    "diabetes_pct": 14.6,
+    "depression_pct": 27.5,
+    "asthma_pct": 12.1,
+    "smoking_pct": 20.5,
+    "physical_inactivity_pct": 34.0,
+    "mental_health_bad_days": 21.1,
+    "physical_health_bad_days": 15.9,
+    "sleep_deficit_pct": 43.9,
+    "high_blood_pressure_pct": 37.2,
+    "high_cholesterol_pct": 31.5,
+    "heart_disease_pct": 7.1,
+    "stroke_pct": 4.1,
+    "cancer_pct": 6.6,
     "kidney_disease_pct": null,
-    "checkup_pct": null,
-    "data_year": null
+    "checkup_pct": 79.5,
+    "data_year": "2023"
   },
   "governance": {
     "legislative_volume": 24062,
@@ -377,7 +377,7 @@
     "youtube_meetings": "available",
     "seeclickfix": "available",
     "accela": "available",
-    "cdc_places": "unavailable",
+    "cdc_places": "available",
     "hud_usps": "unavailable",
     "census_vacancy": "available"
   },
@@ -532,10 +532,10 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Toledo",
-        "probed_at": "2026-04-30T19:56:03.393272",
-        "data_vintage": "BRFSS None",
+        "probed_at": "2026-05-01T04:03:38.553563",
+        "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
-        "status": "unavailable"
+        "status": "available"
       }
     },
     "derived_fields": {
@@ -1040,7 +1040,7 @@
     }
   ],
   "legistar_url": "https://toledo.legistar.com",
-  "enriched_at": "2026-04-30T19:49:04.187560",
+  "enriched_at": "2026-05-01T04:01:33.429125",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

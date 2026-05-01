@@ -101,24 +101,24 @@
     "vacant_other": 747
   },
   "health": {
-    "uninsured_pct": null,
-    "obesity_pct": null,
-    "diabetes_pct": null,
-    "depression_pct": null,
-    "asthma_pct": null,
-    "smoking_pct": null,
-    "physical_inactivity_pct": null,
-    "mental_health_bad_days": null,
-    "physical_health_bad_days": null,
-    "sleep_deficit_pct": null,
-    "high_blood_pressure_pct": null,
-    "high_cholesterol_pct": null,
-    "heart_disease_pct": null,
-    "stroke_pct": null,
-    "cancer_pct": null,
+    "uninsured_pct": 5.1,
+    "obesity_pct": 19.8,
+    "diabetes_pct": 8.9,
+    "depression_pct": 17.0,
+    "asthma_pct": 7.5,
+    "smoking_pct": 6.6,
+    "physical_inactivity_pct": 18.7,
+    "mental_health_bad_days": 12.7,
+    "physical_health_bad_days": 8.6,
+    "sleep_deficit_pct": 30.3,
+    "high_blood_pressure_pct": 24.4,
+    "high_cholesterol_pct": 31.3,
+    "heart_disease_pct": 3.7,
+    "stroke_pct": 2.0,
+    "cancer_pct": 5.5,
     "kidney_disease_pct": null,
-    "checkup_pct": null,
-    "data_year": null
+    "checkup_pct": 71.1,
+    "data_year": "2023"
   },
   "governance": {
     "legislative_volume": 11875,
@@ -369,7 +369,7 @@
     "youtube_meetings": "available",
     "seeclickfix": "available",
     "accela": "available",
-    "cdc_places": "unavailable",
+    "cdc_places": "available",
     "hud_usps": "unavailable",
     "census_vacancy": "available"
   },
@@ -524,10 +524,10 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Sunnyvale",
-        "probed_at": "2026-04-30T19:56:47.654230",
-        "data_vintage": "BRFSS None",
+        "probed_at": "2026-05-01T04:03:53.364030",
+        "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
-        "status": "unavailable"
+        "status": "available"
       }
     },
     "derived_fields": {
@@ -918,7 +918,7 @@
     }
   ],
   "legistar_url": "https://sunnyvaleca.legistar.com",
-  "enriched_at": "2026-04-30T19:49:00.196398",
+  "enriched_at": "2026-05-01T04:01:28.697494",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
