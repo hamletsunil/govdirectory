@@ -97,24 +97,24 @@
     "vacant_other": 86
   },
   "health": {
-    "uninsured_pct": 5.9,
-    "obesity_pct": 31.9,
-    "diabetes_pct": 7.4,
-    "depression_pct": 26.7,
-    "asthma_pct": 11.2,
-    "smoking_pct": 8.8,
-    "physical_inactivity_pct": 15.9,
-    "mental_health_bad_days": 17.4,
-    "physical_health_bad_days": 10.8,
-    "sleep_deficit_pct": 29.5,
-    "high_blood_pressure_pct": 26.2,
-    "high_cholesterol_pct": 29.0,
-    "heart_disease_pct": 4.2,
-    "stroke_pct": 2.3,
-    "cancer_pct": 7.4,
+    "uninsured_pct": null,
+    "obesity_pct": null,
+    "diabetes_pct": null,
+    "depression_pct": null,
+    "asthma_pct": null,
+    "smoking_pct": null,
+    "physical_inactivity_pct": null,
+    "mental_health_bad_days": null,
+    "physical_health_bad_days": null,
+    "sleep_deficit_pct": null,
+    "high_blood_pressure_pct": null,
+    "high_cholesterol_pct": null,
+    "heart_disease_pct": null,
+    "stroke_pct": null,
+    "cancer_pct": null,
     "kidney_disease_pct": null,
-    "checkup_pct": 67.7,
-    "data_year": "2023"
+    "checkup_pct": null,
+    "data_year": null
   },
   "governance": {
     "legislative_volume": 2750,
@@ -376,7 +376,7 @@
     "youtube_meetings": "available",
     "seeclickfix": "available",
     "accela": "available",
-    "cdc_places": "available",
+    "cdc_places": "unavailable",
     "hud_usps": "unavailable",
     "census_vacancy": "available"
   },
@@ -531,10 +531,10 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Camas",
-        "probed_at": "2026-05-02T13:34:51.664181",
-        "data_vintage": "BRFSS 2023",
+        "probed_at": "2026-05-02T19:26:54.879169",
+        "data_vintage": "BRFSS None",
         "geographic_level": "place",
-        "status": "available"
+        "status": "unavailable"
       }
     },
     "derived_fields": {
@@ -801,7 +801,7 @@
   "recent_meetings": [],
   "recent_legislation": [],
   "legistar_url": "https://camas.legistar.com",
-  "enriched_at": "2026-05-02T13:23:08.578100",
+  "enriched_at": "2026-05-02T19:08:28.536453",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

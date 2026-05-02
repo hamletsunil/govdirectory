@@ -96,24 +96,24 @@
     "vacant_other": 504
   },
   "health": {
-    "uninsured_pct": 6.2,
-    "obesity_pct": 20.2,
-    "diabetes_pct": 7.2,
-    "depression_pct": 14.8,
-    "asthma_pct": 8.2,
-    "smoking_pct": 6.7,
-    "physical_inactivity_pct": 16.2,
-    "mental_health_bad_days": 12.8,
-    "physical_health_bad_days": 8.4,
-    "sleep_deficit_pct": 32.9,
-    "high_blood_pressure_pct": 23.9,
-    "high_cholesterol_pct": 33.0,
-    "heart_disease_pct": 3.7,
-    "stroke_pct": 2.0,
-    "cancer_pct": 6.8,
+    "uninsured_pct": null,
+    "obesity_pct": null,
+    "diabetes_pct": null,
+    "depression_pct": null,
+    "asthma_pct": null,
+    "smoking_pct": null,
+    "physical_inactivity_pct": null,
+    "mental_health_bad_days": null,
+    "physical_health_bad_days": null,
+    "sleep_deficit_pct": null,
+    "high_blood_pressure_pct": null,
+    "high_cholesterol_pct": null,
+    "heart_disease_pct": null,
+    "stroke_pct": null,
+    "cancer_pct": null,
     "kidney_disease_pct": null,
-    "checkup_pct": 77.6,
-    "data_year": "2023"
+    "checkup_pct": null,
+    "data_year": null
   },
   "governance": {
     "legislative_volume": 416,
@@ -358,7 +358,7 @@
     "youtube_meetings": "skipped",
     "seeclickfix": "available",
     "accela": "available",
-    "cdc_places": "available",
+    "cdc_places": "unavailable",
     "hud_usps": "unavailable",
     "census_vacancy": "available"
   },
@@ -513,10 +513,10 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Princeton",
-        "probed_at": "2026-05-02T13:34:50.429662",
-        "data_vintage": "BRFSS 2023",
+        "probed_at": "2026-05-02T19:26:41.582396",
+        "data_vintage": "BRFSS None",
         "geographic_level": "place",
-        "status": "available"
+        "status": "unavailable"
       }
     },
     "derived_fields": {
@@ -916,7 +916,7 @@
     }
   ],
   "legistar_url": "https://princetonnj.legistar.com",
-  "enriched_at": "2026-05-02T13:30:20.299040",
+  "enriched_at": "2026-05-02T19:18:29.591190",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

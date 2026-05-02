@@ -92,24 +92,24 @@
     "vacant_other": 6
   },
   "health": {
-    "uninsured_pct": 4.1,
-    "obesity_pct": 30.3,
-    "diabetes_pct": 7.7,
-    "depression_pct": 25.0,
-    "asthma_pct": 9.9,
-    "smoking_pct": 7.9,
-    "physical_inactivity_pct": 15.2,
-    "mental_health_bad_days": 14.3,
-    "physical_health_bad_days": 8.9,
-    "sleep_deficit_pct": 33.0,
-    "high_blood_pressure_pct": 26.5,
-    "high_cholesterol_pct": 30.8,
-    "heart_disease_pct": 4.0,
-    "stroke_pct": 1.9,
-    "cancer_pct": 8.0,
+    "uninsured_pct": null,
+    "obesity_pct": null,
+    "diabetes_pct": null,
+    "depression_pct": null,
+    "asthma_pct": null,
+    "smoking_pct": null,
+    "physical_inactivity_pct": null,
+    "mental_health_bad_days": null,
+    "physical_health_bad_days": null,
+    "sleep_deficit_pct": null,
+    "high_blood_pressure_pct": null,
+    "high_cholesterol_pct": null,
+    "heart_disease_pct": null,
+    "stroke_pct": null,
+    "cancer_pct": null,
     "kidney_disease_pct": null,
-    "checkup_pct": 79.5,
-    "data_year": "2023"
+    "checkup_pct": null,
+    "data_year": null
   },
   "governance": {
     "legislative_volume": 7187,
@@ -408,7 +408,7 @@
     "youtube_meetings": "available",
     "seeclickfix": "available",
     "accela": "available",
-    "cdc_places": "available",
+    "cdc_places": "unavailable",
     "hud_usps": "unavailable",
     "census_vacancy": "available"
   },
@@ -563,10 +563,10 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Hudson",
-        "probed_at": "2026-05-02T13:34:55.826970",
-        "data_vintage": "BRFSS 2023",
+        "probed_at": "2026-05-02T19:27:20.380141",
+        "data_vintage": "BRFSS None",
         "geographic_level": "place",
-        "status": "available"
+        "status": "unavailable"
       }
     },
     "derived_fields": {
@@ -978,7 +978,7 @@
     }
   ],
   "legistar_url": "https://hudson.legistar.com",
-  "enriched_at": "2026-05-02T13:26:57.182345",
+  "enriched_at": "2026-05-02T19:13:36.561656",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
