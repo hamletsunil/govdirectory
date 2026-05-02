@@ -116,25 +116,25 @@
     "accela_agency_id": "KANSAS"
   },
   "development": {
-    "permits_12mo": 442,
-    "yoy_trend_pct": -97.6,
-    "avg_permit_value": 95396.06,
+    "permits_12mo": 389,
+    "yoy_trend_pct": -97.9,
+    "avg_permit_value": 104719.36,
     "permit_types": {
-      "Electrical General": 97,
-      "Plumbing General": 74,
-      "Mechanical General": 61,
-      "Certificate of Occupancy (Residential)": 39,
-      "Single Family - Interior Remodel": 23,
-      "Electrical with Service": 20,
+      "Electrical General": 87,
+      "Plumbing General": 70,
+      "Mechanical General": 50,
+      "Certificate of Occupancy (Residential)": 38,
+      "Single Family - Interior Remodel": 19,
+      "Electrical with Service": 14,
       "Security Alarms": 13,
-      "Complete Building Demolition": 9,
-      "Plumbing with Limited Service": 8,
       "Fire Protection System": 8,
       "Electrical Reconnect": 8,
-      "Deck": 7,
+      "Plumbing with Limited Service": 8,
       "Single Family - New": 7,
-      "Other": 7,
-      "Install/Replace Water Heater": 6
+      "Other": 6,
+      "New": 5,
+      "Electrical Fire Alarm Commercial": 5,
+      "Deck": 5
     },
     "datasets_count": 1
   },
@@ -292,8 +292,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.kcmo.org/resource/ntw8-aacc.json",
-        "probed_at": "2026-05-01T19:19:50.884730",
-        "data_vintage": "Rolling 12-month window ending 2026-05-01",
+        "probed_at": "2026-05-02T03:30:14.686783",
+        "data_vintage": "Rolling 12-month window ending 2026-05-02",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Permits - CPD Dataset",
@@ -796,16 +796,6 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
-    },
-    {
-      "date": "2026-04-01",
-      "body": "Risk Management Committee",
-      "location": "Virtual Closed Session",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
     }
   ],
   "recent_legislation": [
@@ -891,7 +881,7 @@
     }
   ],
   "legistar_url": "https://kansascity.legistar.com",
-  "enriched_at": "2026-05-01T19:17:49.165910",
+  "enriched_at": "2026-05-02T03:26:03.769845",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
