@@ -101,24 +101,24 @@
     "vacant_other": 1132
   },
   "health": {
-    "uninsured_pct": null,
-    "obesity_pct": null,
-    "diabetes_pct": null,
-    "depression_pct": null,
-    "asthma_pct": null,
-    "smoking_pct": null,
-    "physical_inactivity_pct": null,
-    "mental_health_bad_days": null,
-    "physical_health_bad_days": null,
-    "sleep_deficit_pct": null,
-    "high_blood_pressure_pct": null,
-    "high_cholesterol_pct": null,
-    "heart_disease_pct": null,
-    "stroke_pct": null,
-    "cancer_pct": null,
+    "uninsured_pct": 5.0,
+    "obesity_pct": 21.0,
+    "diabetes_pct": 8.6,
+    "depression_pct": 20.1,
+    "asthma_pct": 9.1,
+    "smoking_pct": 8.2,
+    "physical_inactivity_pct": 16.7,
+    "mental_health_bad_days": 15.3,
+    "physical_health_bad_days": 10.1,
+    "sleep_deficit_pct": 33.3,
+    "high_blood_pressure_pct": 24.8,
+    "high_cholesterol_pct": 29.8,
+    "heart_disease_pct": 3.9,
+    "stroke_pct": 2.2,
+    "cancer_pct": 5.9,
     "kidney_disease_pct": null,
-    "checkup_pct": null,
-    "data_year": null
+    "checkup_pct": 71.8,
+    "data_year": "2023"
   },
   "governance": {
     "legislative_volume": 10937,
@@ -384,7 +384,7 @@
     "youtube_meetings": "available",
     "seeclickfix": "available",
     "accela": "available",
-    "cdc_places": "unavailable",
+    "cdc_places": "available",
     "hud_usps": "unavailable",
     "census_vacancy": "available"
   },
@@ -539,10 +539,10 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Alameda",
-        "probed_at": "2026-05-02T19:24:45.446946",
-        "data_vintage": "BRFSS None",
+        "probed_at": "2026-05-03T03:56:14.776662",
+        "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
-        "status": "unavailable"
+        "status": "available"
       }
     },
     "derived_fields": {
@@ -809,19 +809,11 @@
   "recent_meetings": [],
   "recent_legislation": [
     {
-      "title": "Review and Approve January 15, 2026 Draft Minutes",
-      "type": "Minutes",
+      "title": "Adoption of a Resolution Amending the Fiscal Year 2025-26 Budget; and\nAdoption of a Resolution Approving Workforce Changes for Fiscal Year 2025-26. [City Council and SACIC] (Finance 10024056)",
+      "type": "Joint Agenda Item",
       "status": "Agenda Ready",
       "intro_date": "2026-02-19",
-      "file_number": "2026-5791",
-      "passed_date": null
-    },
-    {
-      "title": "Review of Age-Friendly Cities Survey Draft",
-      "type": "Regular Agenda Item",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-19",
-      "file_number": "2026-5795",
+      "file_number": "2026-5799",
       "passed_date": null
     },
     {
@@ -833,19 +825,11 @@
       "passed_date": null
     },
     {
-      "title": "Status Report on the City of Alameda’s Housing and Human Services",
+      "title": "Review of Age-Friendly Cities Survey Draft",
       "type": "Regular Agenda Item",
       "status": "Agenda Ready",
       "intro_date": "2026-02-19",
-      "file_number": "2026-5797",
-      "passed_date": null
-    },
-    {
-      "title": "Adoption of a Resolution Amending the Fiscal Year 2025-26 Budget; and\nAdoption of a Resolution Approving Workforce Changes for Fiscal Year 2025-26. [City Council and SACIC] (Finance 10024056)",
-      "type": "Joint Agenda Item",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-19",
-      "file_number": "2026-5799",
+      "file_number": "2026-5795",
       "passed_date": null
     },
     {
@@ -865,6 +849,30 @@
       "passed_date": null
     },
     {
+      "title": "Review and Approve January 15, 2026 Draft Minutes",
+      "type": "Minutes",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "2026-5791",
+      "passed_date": null
+    },
+    {
+      "title": "Status Report on the City of Alameda’s Housing and Human Services",
+      "type": "Regular Agenda Item",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "2026-5797",
+      "passed_date": null
+    },
+    {
+      "title": "February 17, 2026 Closed Session Announcement",
+      "type": "Closed Session Announcement",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-18",
+      "file_number": "2026-5784",
+      "passed_date": null
+    },
+    {
       "title": "STAFF COMMUNICATIONS (DISCUSSION)",
       "type": "Staff Communications",
       "status": "Agenda Ready",
@@ -873,24 +881,16 @@
       "passed_date": null
     },
     {
-      "title": "Endorse the Transportation 2025 Annual Report and 2026 Work Plan (action)",
-      "type": "Regular Agenda Item",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-18",
-      "file_number": "2026-5789",
-      "passed_date": null
-    },
-    {
-      "title": "Approve Draft Minutes of the January 28, 2026, Transportation Commission Meeting (Action)",
+      "title": "Bills for Ratification. (Finance)",
       "type": "Consent Calendar Item",
       "status": "Agenda Ready",
       "intro_date": "2026-02-18",
-      "file_number": "2026-5788",
+      "file_number": "2026-5786",
       "passed_date": null
     }
   ],
   "legistar_url": "https://alameda.legistar.com",
-  "enriched_at": "2026-05-02T19:07:18.341043",
+  "enriched_at": "2026-05-03T03:41:09.574060",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

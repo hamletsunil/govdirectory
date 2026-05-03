@@ -96,24 +96,24 @@
     "vacant_other": 504
   },
   "health": {
-    "uninsured_pct": null,
-    "obesity_pct": null,
-    "diabetes_pct": null,
-    "depression_pct": null,
-    "asthma_pct": null,
-    "smoking_pct": null,
-    "physical_inactivity_pct": null,
-    "mental_health_bad_days": null,
-    "physical_health_bad_days": null,
-    "sleep_deficit_pct": null,
-    "high_blood_pressure_pct": null,
-    "high_cholesterol_pct": null,
-    "heart_disease_pct": null,
-    "stroke_pct": null,
-    "cancer_pct": null,
+    "uninsured_pct": 6.2,
+    "obesity_pct": 20.2,
+    "diabetes_pct": 7.2,
+    "depression_pct": 14.8,
+    "asthma_pct": 8.2,
+    "smoking_pct": 6.7,
+    "physical_inactivity_pct": 16.2,
+    "mental_health_bad_days": 12.8,
+    "physical_health_bad_days": 8.4,
+    "sleep_deficit_pct": 32.9,
+    "high_blood_pressure_pct": 23.9,
+    "high_cholesterol_pct": 33.0,
+    "heart_disease_pct": 3.7,
+    "stroke_pct": 2.0,
+    "cancer_pct": 6.8,
     "kidney_disease_pct": null,
-    "checkup_pct": null,
-    "data_year": null
+    "checkup_pct": 77.6,
+    "data_year": "2023"
   },
   "governance": {
     "legislative_volume": 416,
@@ -358,7 +358,7 @@
     "youtube_meetings": "skipped",
     "seeclickfix": "available",
     "accela": "available",
-    "cdc_places": "unavailable",
+    "cdc_places": "available",
     "hud_usps": "unavailable",
     "census_vacancy": "available"
   },
@@ -513,10 +513,10 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Princeton",
-        "probed_at": "2026-05-02T19:26:41.582396",
-        "data_vintage": "BRFSS None",
+        "probed_at": "2026-05-03T03:56:46.668225",
+        "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
-        "status": "unavailable"
+        "status": "available"
       }
     },
     "derived_fields": {
@@ -835,19 +835,19 @@
   "recent_meetings": [],
   "recent_legislation": [
     {
-      "title": "An Ordinance of the Municipality of Princeton Amending Chapter T10B Entitled “Land Use” of the Municipality of Princeton to Address the Requirements of the Fair Housing Act and the Uniform Housing Aff",
-      "type": "Ordinance",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-20",
-      "file_number": "ORD 26-15",
-      "passed_date": null
-    },
-    {
       "title": "Mayor and Council of Princeton-Closed Session-October 21, 2025",
       "type": "Minutes",
       "status": "Agenda Ready",
       "intro_date": "2026-02-20",
       "file_number": "0010",
+      "passed_date": null
+    },
+    {
+      "title": "An Ordinance of the Municipality of Princeton Amending Chapter T10B Entitled “Land Use” of the Municipality of Princeton to Address the Requirements of the Fair Housing Act and the Uniform Housing Aff",
+      "type": "Ordinance",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-20",
+      "file_number": "ORD 26-15",
       "passed_date": null
     },
     {
@@ -859,14 +859,6 @@
       "passed_date": null
     },
     {
-      "title": "Presentation of a Proposed Open Space Project - Improvements at Princeton Ridge East (725 Herrontown Road) - for Submittal of a Green Acres Stewardship Grant Application by Inga Reich, Open Space Mana",
-      "type": "Presentation",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-18",
-      "file_number": "0014",
-      "passed_date": null
-    },
-    {
       "title": "Public Hearing on the Proposed Open Space Project - Improvements at Princeton Ridge East (725 Herrontown Road) - for a Green Acres Stewardship Grant Application",
       "type": "Presentation",
       "status": "Agenda Ready",
@@ -875,11 +867,11 @@
       "passed_date": null
     },
     {
-      "title": "Resolution of the Mayor and Council of Princeton Authorizing an Increase of $105,817.03 to the Not to Exceed Amount for the Professional Services Agreement with Scarinci Hollenbeck, LLC for Special En",
-      "type": "Resolution",
+      "title": "Presentation of a Proposed Open Space Project - Improvements at Princeton Ridge East (725 Herrontown Road) - for Submittal of a Green Acres Stewardship Grant Application by Inga Reich, Open Space Mana",
+      "type": "Presentation",
       "status": "Agenda Ready",
-      "intro_date": "2026-02-17",
-      "file_number": "R-26-067",
+      "intro_date": "2026-02-18",
+      "file_number": "0014",
       "passed_date": null
     },
     {
@@ -899,11 +891,11 @@
       "passed_date": null
     },
     {
-      "title": "Work Session Regarding Beautification Efforts in the Central Business District for the United States Semiquincentennial",
-      "type": "Presentation",
+      "title": "Resolution of the Mayor and Council of Princeton Authorizing Release of a Performance Guarantee in the Amount of $29,769.00 and Reduction in Inspection Fees to Princeton SC Residential Urban Renewal, ",
+      "type": "Resolution",
       "status": "Agenda Ready",
-      "intro_date": "2026-02-13",
-      "file_number": "0016",
+      "intro_date": "2026-02-17",
+      "file_number": "R-26-065",
       "passed_date": null
     },
     {
@@ -913,10 +905,18 @@
       "intro_date": "2026-02-13",
       "file_number": "R-26-064",
       "passed_date": null
+    },
+    {
+      "title": "Palmer Square’s Proposed 2026 Events Calendar for Council Approval",
+      "type": "Presentation",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-13",
+      "file_number": "0013",
+      "passed_date": null
     }
   ],
   "legistar_url": "https://princetonnj.legistar.com",
-  "enriched_at": "2026-05-02T19:18:29.591190",
+  "enriched_at": "2026-05-03T03:51:20.755104",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

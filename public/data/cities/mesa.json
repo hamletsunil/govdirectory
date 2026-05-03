@@ -180,14 +180,14 @@
     "accela_agency_id": "MESA"
   },
   "development": {
-    "permits_12mo": 5161,
-    "yoy_trend_pct": 1.9,
+    "permits_12mo": 5172,
+    "yoy_trend_pct": 2.4,
     "avg_permit_value": 428469.7,
-    "permits_per_capita_1k": 10.25,
+    "permits_per_capita_1k": 10.27,
     "permit_types": {
-      "RES": 3319,
+      "RES": 3328,
       "COM": 1381,
-      "SVC": 461
+      "SVC": 463
     },
     "datasets_count": 10
   },
@@ -491,8 +491,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://citydata.mesaaz.gov/resource/dzpk-hxfb.json",
-        "probed_at": "2026-05-02T19:21:24.773429",
-        "data_vintage": "Rolling 12-month window ending 2026-05-02",
+        "probed_at": "2026-05-03T03:54:19.111329",
+        "data_vintage": "Rolling 12-month window ending 2026-05-03",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -538,7 +538,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Mesa",
-        "probed_at": "2026-05-02T19:22:17.159293",
+        "probed_at": "2026-05-03T03:55:11.240211",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -989,14 +989,6 @@
   ],
   "recent_legislation": [
     {
-      "title": "Three-Year Term Contract with Two-Year Renewal Options for Traffic Management Center (TMC) Video Wall Upgrade (Replacement) for the Transportation Department (Citywide)\r\n\r\nThe first year of the contra",
-      "type": "Contract",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-19",
-      "file_number": "26-0220",
-      "passed_date": null
-    },
-    {
       "title": "Design Review Board meeting held on January 13, 2026.",
       "type": "Minutes",
       "status": "Agenda Ready",
@@ -1037,6 +1029,14 @@
       "passed_date": null
     },
     {
+      "title": "Three-Year Term Contract with Two-Year Renewal Options for Traffic Signal Loop Detection Installation Services for the Transportation Department (Single Response) (Citywide)\n \nThis contract is for the",
+      "type": "Contract",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "26-0214",
+      "passed_date": null
+    },
+    {
       "title": "Zax Cigar Bar\n \nA cigar bar is requesting a new Series 7 Beer & Wine Bar License for Jakub LLC, 7310 East Main Street - Zachary Ryan Jakubowski, Agent. There is no existing license at this location. (",
       "type": "Liquor License Application",
       "status": "Agenda Ready",
@@ -1053,24 +1053,24 @@
       "passed_date": null
     },
     {
+      "title": "ZON24-01027 \"Mesa Premier RV & Boat Storage Phase II\", 13.7± acres located approximately 265 feet east of the Southeast corner of North Higley Road and East Thomas Road. Rezone 3.5± acres from Single ",
+      "type": "Ordinance",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-12",
+      "file_number": "26-0205",
+      "passed_date": null
+    },
+    {
       "title": "Amending board membership requirements for the Palo District, a Theme Park District established pursuant to Arizona law. (District 3) \nResolution No. 12474",
       "type": "Resolution",
       "status": "Agenda Ready",
       "intro_date": "2026-02-12",
       "file_number": "26-0207",
       "passed_date": null
-    },
-    {
-      "title": "Judicial Advisory Board meeting held on October 22, 2025.",
-      "type": "Minutes",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-12",
-      "file_number": "26-0206",
-      "passed_date": null
     }
   ],
   "legistar_url": "https://mesa.legistar.com",
-  "enriched_at": "2026-05-02T19:15:35.184681",
+  "enriched_at": "2026-05-03T03:48:42.512092",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

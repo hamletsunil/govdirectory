@@ -85,24 +85,24 @@
     "vacant_other": 1852
   },
   "health": {
-    "uninsured_pct": null,
-    "obesity_pct": null,
-    "diabetes_pct": null,
-    "depression_pct": null,
-    "asthma_pct": null,
-    "smoking_pct": null,
-    "physical_inactivity_pct": null,
-    "mental_health_bad_days": null,
-    "physical_health_bad_days": null,
-    "sleep_deficit_pct": null,
-    "high_blood_pressure_pct": null,
-    "high_cholesterol_pct": null,
-    "heart_disease_pct": null,
-    "stroke_pct": null,
-    "cancer_pct": null,
+    "uninsured_pct": 19.5,
+    "obesity_pct": 31.7,
+    "diabetes_pct": 11.7,
+    "depression_pct": 17.6,
+    "asthma_pct": 10.0,
+    "smoking_pct": 14.9,
+    "physical_inactivity_pct": 27.3,
+    "mental_health_bad_days": 18.7,
+    "physical_health_bad_days": 14.4,
+    "sleep_deficit_pct": 41.4,
+    "high_blood_pressure_pct": 33.5,
+    "high_cholesterol_pct": 33.1,
+    "heart_disease_pct": 6.0,
+    "stroke_pct": 3.5,
+    "cancer_pct": 6.8,
     "kidney_disease_pct": null,
-    "checkup_pct": null,
-    "data_year": null
+    "checkup_pct": 76.7,
+    "data_year": "2023"
   },
   "governance": {
     "legislative_volume": 5625,
@@ -415,7 +415,7 @@
     "youtube_meetings": "available",
     "seeclickfix": "available",
     "accela": "available",
-    "cdc_places": "unavailable",
+    "cdc_places": "available",
     "hud_usps": "unavailable",
     "census_vacancy": "available"
   },
@@ -570,10 +570,10 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Pompano%20Beach",
-        "probed_at": "2026-05-02T19:23:29.983807",
-        "data_vintage": "BRFSS None",
+        "probed_at": "2026-05-03T03:55:57.784823",
+        "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
-        "status": "unavailable"
+        "status": "available"
       }
     },
     "derived_fields": {
@@ -909,6 +909,14 @@
       "passed_date": null
     },
     {
+      "title": "A RESOLUTION OF THE CITY COMMISSION OF THE CITY OF POMPANO BEACH, FLORIDA, APPOINTING JAY GHANEM TO THE POMPANO BEACH ECONOMIC DEVELOPMENT COUNCIL OF THE CITY OF POMPANO BEACH, AS APPOINTEE OF COMMISS",
+      "type": "Resolution / Consent Agenda",
+      "status": "Consent Agenda Ready",
+      "intro_date": "2026-02-17",
+      "file_number": "26-213",
+      "passed_date": null
+    },
+    {
       "title": "Standalone Police Department Strategic Assessment presentation.\n(Fiscal Impact: N/A)",
       "type": "Presentation",
       "status": "Regular Agenda Ready",
@@ -925,14 +933,6 @@
       "passed_date": null
     },
     {
-      "title": "A RESOLUTION OF THE CITY COMMISSION OF THE CITY OF POMPANO BEACH, FLORIDA, APPOINTING JAY GHANEM TO THE POMPANO BEACH ECONOMIC DEVELOPMENT COUNCIL OF THE CITY OF POMPANO BEACH, AS APPOINTEE OF COMMISS",
-      "type": "Resolution / Consent Agenda",
-      "status": "Consent Agenda Ready",
-      "intro_date": "2026-02-17",
-      "file_number": "26-213",
-      "passed_date": null
-    },
-    {
       "title": "Consideration of an unsolicited proposal from Parrish & Associates, LLC to construct 4 attached single-family townhomes on the CRA property located at 300 NW 27th Avenue, Pompano Beach, FL.\r\n(Fiscal I",
       "type": "Item for Consideration/Discussion",
       "status": "Regular Agenda Ready",
@@ -941,19 +941,19 @@
       "passed_date": null
     },
     {
-      "title": "Monthly Reports\n\n- Financial Statements - December 2025\n- East CRA Advisory Committee - February 5, 2026\n- FPI Security Reports - December/January\n- Professional Services Expenditures - December/Janua",
-      "type": "Informational Report",
-      "status": "Regular Agenda Ready",
-      "intro_date": "2026-02-09",
-      "file_number": "26-204",
-      "passed_date": null
-    },
-    {
       "title": "CRA Board Meeting Minutes of December 16, 2025",
       "type": "Minutes",
       "status": "Regular Agenda Ready",
       "intro_date": "2026-02-09",
       "file_number": "26-203",
+      "passed_date": null
+    },
+    {
+      "title": "Monthly Reports\n\n- Financial Statements - December 2025\n- East CRA Advisory Committee - February 5, 2026\n- FPI Security Reports - December/January\n- Professional Services Expenditures - December/Janua",
+      "type": "Informational Report",
+      "status": "Regular Agenda Ready",
+      "intro_date": "2026-02-09",
+      "file_number": "26-204",
       "passed_date": null
     },
     {
@@ -982,7 +982,7 @@
     }
   ],
   "legistar_url": "https://pompano.legistar.com",
-  "enriched_at": "2026-05-02T19:18:18.284919",
+  "enriched_at": "2026-05-03T03:51:10.798748",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

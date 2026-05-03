@@ -116,17 +116,17 @@
     "accela_agency_id": "KANSAS"
   },
   "development": {
-    "permits_12mo": 389,
+    "permits_12mo": 387,
     "yoy_trend_pct": -97.9,
-    "avg_permit_value": 104719.36,
+    "avg_permit_value": 105261.53,
     "permit_types": {
-      "Electrical General": 87,
+      "Electrical General": 86,
       "Plumbing General": 70,
       "Mechanical General": 50,
       "Certificate of Occupancy (Residential)": 38,
       "Single Family - Interior Remodel": 19,
-      "Electrical with Service": 14,
       "Security Alarms": 13,
+      "Electrical with Service": 13,
       "Plumbing with Limited Service": 8,
       "Electrical Reconnect": 8,
       "Fire Protection System": 8,
@@ -292,8 +292,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.kcmo.org/resource/ntw8-aacc.json",
-        "probed_at": "2026-05-02T19:22:00.549135",
-        "data_vintage": "Rolling 12-month window ending 2026-05-02",
+        "probed_at": "2026-05-03T03:54:54.396284",
+        "data_vintage": "Rolling 12-month window ending 2026-05-03",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Permits - CPD Dataset",
@@ -816,6 +816,14 @@
       "passed_date": null
     },
     {
+      "title": "Sponsor: Mayor Quinton Lucas\r\n\r\nRESOLUTION - Appointing Matthew Muckenthaler, Michael Coddington, Sean Carroll, Kellee Madinger and Gabriel Robinson as successor directors to the 1200 Main/South Loop ",
+      "type": "Resolution",
+      "status": "Referred",
+      "intro_date": "2026-02-11",
+      "file_number": "260216",
+      "passed_date": null
+    },
+    {
       "title": "Sponsor: Mayor Quinton Lucas\r\n\r\nRESOLUTION - Directing the City Manager to develop and implement a public communication plan, including the publication of a Frequently Asked Questions (FAQ) document o",
       "type": "Resolution",
       "status": "Referred",
@@ -832,12 +840,12 @@
       "passed_date": null
     },
     {
-      "title": "Sponsor: Mayor Quinton Lucas\r\n\r\nRESOLUTION - Appointing Matthew Muckenthaler, Michael Coddington, Sean Carroll, Kellee Madinger and Gabriel Robinson as successor directors to the 1200 Main/South Loop ",
-      "type": "Resolution",
-      "status": "Referred",
-      "intro_date": "2026-02-11",
-      "file_number": "260216",
-      "passed_date": null
+      "title": "Notice to the City Clerk of the Truman Road Community Improvement District’s Proposed Budget for the period ending April 30, 2027.",
+      "type": "Communication",
+      "status": "Filed",
+      "intro_date": "2026-02-10",
+      "file_number": "260202",
+      "passed_date": "2026-02-12"
     },
     {
       "title": "Notice to the City Clerk of the River Market Community Improvement District’s Proposed Budget for the period ending April 30, 2027.",
@@ -848,11 +856,11 @@
       "passed_date": "2026-02-12"
     },
     {
-      "title": "Notice to the City Clerk of the Plaza East Community Improvement District’s Proposed Budget for the period ending April 30, 2027.",
+      "title": "Notice to the City Clerk of the 12TH Street Heritage Community Improvement District’s Proposed Budget for the period ending April 30, 2027.",
       "type": "Communication",
       "status": "Filed",
       "intro_date": "2026-02-10",
-      "file_number": "260200",
+      "file_number": "260197",
       "passed_date": "2026-02-12"
     },
     {
@@ -870,18 +878,10 @@
       "intro_date": "2026-02-10",
       "file_number": "260199",
       "passed_date": "2026-02-12"
-    },
-    {
-      "title": "Notice to the City Clerk of the 12TH Street Heritage Community Improvement District’s Proposed Budget for the period ending April 30, 2027.",
-      "type": "Communication",
-      "status": "Filed",
-      "intro_date": "2026-02-10",
-      "file_number": "260197",
-      "passed_date": "2026-02-12"
     }
   ],
   "legistar_url": "https://kansascity.legistar.com",
-  "enriched_at": "2026-05-02T19:14:00.639951",
+  "enriched_at": "2026-05-03T03:47:20.604210",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

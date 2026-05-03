@@ -92,24 +92,24 @@
     "vacant_other": 520
   },
   "health": {
-    "uninsured_pct": null,
-    "obesity_pct": null,
-    "diabetes_pct": null,
-    "depression_pct": null,
-    "asthma_pct": null,
-    "smoking_pct": null,
-    "physical_inactivity_pct": null,
-    "mental_health_bad_days": null,
-    "physical_health_bad_days": null,
-    "sleep_deficit_pct": null,
-    "high_blood_pressure_pct": null,
-    "high_cholesterol_pct": null,
-    "heart_disease_pct": null,
-    "stroke_pct": null,
-    "cancer_pct": null,
+    "uninsured_pct": 9.3,
+    "obesity_pct": 35.0,
+    "diabetes_pct": 9.6,
+    "depression_pct": 19.9,
+    "asthma_pct": 10.0,
+    "smoking_pct": 9.8,
+    "physical_inactivity_pct": 20.5,
+    "mental_health_bad_days": 14.8,
+    "physical_health_bad_days": 11.1,
+    "sleep_deficit_pct": 39.1,
+    "high_blood_pressure_pct": 31.4,
+    "high_cholesterol_pct": 31.6,
+    "heart_disease_pct": 4.5,
+    "stroke_pct": 2.6,
+    "cancer_pct": 7.1,
     "kidney_disease_pct": null,
-    "checkup_pct": null,
-    "data_year": null
+    "checkup_pct": 78.3,
+    "data_year": "2023"
   },
   "governance": {
     "legislative_volume": 5625,
@@ -384,7 +384,7 @@
     "youtube_meetings": "skipped",
     "seeclickfix": "skipped",
     "accela": "available",
-    "cdc_places": "unavailable",
+    "cdc_places": "available",
     "hud_usps": "unavailable",
     "census_vacancy": "available"
   },
@@ -539,10 +539,10 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Annapolis",
-        "probed_at": "2026-05-02T19:26:04.716137",
-        "data_vintage": "BRFSS None",
+        "probed_at": "2026-05-03T03:56:38.795308",
+        "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
-        "status": "unavailable"
+        "status": "available"
       }
     },
     "derived_fields": {
@@ -975,18 +975,10 @@
       "intro_date": "2026-02-03",
       "file_number": "ID-39-26",
       "passed_date": null
-    },
-    {
-      "title": "Grant - Anne Arundel County: Senator Amoss Grant - Fire",
-      "type": "Supplemental Appropriation",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-02",
-      "file_number": "SA-15-26",
-      "passed_date": null
     }
   ],
   "legistar_url": "https://annapolismd.legistar.com",
-  "enriched_at": "2026-05-02T19:07:35.654966",
+  "enriched_at": "2026-05-03T03:41:27.705688",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
