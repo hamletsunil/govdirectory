@@ -169,17 +169,17 @@
     "accela_agency_id": "SEATTLE"
   },
   "development": {
-    "permits_12mo": 6408,
-    "yoy_trend_pct": 8.4,
-    "avg_permit_value": 1122407.85,
+    "permits_12mo": 6411,
+    "yoy_trend_pct": 8.6,
+    "avg_permit_value": 1122101.16,
     "permit_types": {
-      "Building": 5411,
-      "Demolition": 519,
-      "Roof": 452,
+      "Building": 5412,
+      "Demolition": 520,
+      "Roof": 453,
       "Grading": 26
     },
     "datasets_count": 10,
-    "permits_per_capita_1k": 8.72
+    "permits_per_capita_1k": 8.73
   },
   "meetings": {
     "official_channels": 1,
@@ -474,8 +474,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.seattle.gov/resource/76t5-zqzr.json",
-        "probed_at": "2026-05-03T19:19:11.054891",
-        "data_vintage": "Rolling 12-month window ending 2026-05-03",
+        "probed_at": "2026-05-04T03:49:26.224630",
+        "data_vintage": "Rolling 12-month window ending 2026-05-04",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -521,7 +521,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Seattle",
-        "probed_at": "2026-05-03T19:20:03.901222",
+        "probed_at": "2026-05-04T03:50:18.711374",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -960,11 +960,11 @@
       "passed_date": null
     },
     {
-      "title": "Transportation Funding Task Force Update",
-      "type": "Information Item (Inf)",
-      "status": "Heard in Committee",
+      "title": "AN ORDINANCE relating to civil immigration enforcement; prohibiting civil immigration enforcement staging on all real property that is City owned and controlled; and adding a new Chapter 14.125 to the",
+      "type": "Council Bill (CB)",
+      "status": "Committee Agenda Ready",
       "intro_date": "2026-02-12",
-      "file_number": "Inf 2836",
+      "file_number": "CB 121164",
       "passed_date": null
     },
     {
@@ -976,11 +976,11 @@
       "passed_date": null
     },
     {
-      "title": "AN ORDINANCE relating to civil immigration enforcement; prohibiting civil immigration enforcement staging on all real property that is City owned and controlled; and adding a new Chapter 14.125 to the",
-      "type": "Council Bill (CB)",
-      "status": "Committee Agenda Ready",
+      "title": "Transportation Funding Task Force Update",
+      "type": "Information Item (Inf)",
+      "status": "Heard in Committee",
       "intro_date": "2026-02-12",
-      "file_number": "CB 121164",
+      "file_number": "Inf 2836",
       "passed_date": null
     },
     {
@@ -1001,7 +1001,7 @@
     }
   ],
   "legistar_url": "https://seattle.legistar.com",
-  "enriched_at": "2026-05-03T19:17:33.571069",
+  "enriched_at": "2026-05-04T03:48:05.853557",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

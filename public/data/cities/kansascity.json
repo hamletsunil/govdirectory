@@ -127,9 +127,9 @@
       "Single Family - Interior Remodel": 19,
       "Security Alarms": 13,
       "Electrical with Service": 13,
-      "Fire Protection System": 8,
-      "Electrical Reconnect": 8,
       "Plumbing with Limited Service": 8,
+      "Electrical Reconnect": 8,
+      "Fire Protection System": 8,
       "Single Family - New": 7,
       "Other": 6,
       "New": 5,
@@ -292,8 +292,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.kcmo.org/resource/ntw8-aacc.json",
-        "probed_at": "2026-05-03T19:19:52.501169",
-        "data_vintage": "Rolling 12-month window ending 2026-05-03",
+        "probed_at": "2026-05-04T03:50:09.399700",
+        "data_vintage": "Rolling 12-month window ending 2026-05-04",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Permits - CPD Dataset",
@@ -840,22 +840,6 @@
       "passed_date": null
     },
     {
-      "title": "Notice to the City Clerk of the Truman Road Community Improvement District’s Proposed Budget for the period ending April 30, 2027.",
-      "type": "Communication",
-      "status": "Filed",
-      "intro_date": "2026-02-10",
-      "file_number": "260202",
-      "passed_date": "2026-02-12"
-    },
-    {
-      "title": "Notice to the City Clerk of the River Market Community Improvement District’s Proposed Budget for the period ending April 30, 2027.",
-      "type": "Communication",
-      "status": "Filed",
-      "intro_date": "2026-02-10",
-      "file_number": "260201",
-      "passed_date": "2026-02-12"
-    },
-    {
       "title": "Notice to the City Clerk of the 12TH Street Heritage Community Improvement District’s Proposed Budget for the period ending April 30, 2027.",
       "type": "Communication",
       "status": "Filed",
@@ -878,10 +862,26 @@
       "intro_date": "2026-02-10",
       "file_number": "260199",
       "passed_date": "2026-02-12"
+    },
+    {
+      "title": "Notice to the City Clerk of the Plaza East Community Improvement District’s Proposed Budget for the period ending April 30, 2027.",
+      "type": "Communication",
+      "status": "Filed",
+      "intro_date": "2026-02-10",
+      "file_number": "260200",
+      "passed_date": "2026-02-12"
+    },
+    {
+      "title": "Notice to the City Clerk of the River Market Community Improvement District’s Proposed Budget for the period ending April 30, 2027.",
+      "type": "Communication",
+      "status": "Filed",
+      "intro_date": "2026-02-10",
+      "file_number": "260201",
+      "passed_date": "2026-02-12"
     }
   ],
   "legistar_url": "https://kansascity.legistar.com",
-  "enriched_at": "2026-05-03T19:12:38.045282",
+  "enriched_at": "2026-05-04T03:44:06.989925",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
