@@ -220,12 +220,12 @@
     "accela_agency_id": null
   },
   "development": {
-    "permits_12mo": 7478,
-    "yoy_trend_pct": 7.0,
+    "permits_12mo": 7461,
+    "yoy_trend_pct": 6.5,
     "avg_permit_value": null,
     "permit_types": {
-      "Building Permit": 1918,
-      "Electrical Permit": 1780,
+      "Building Permit": 1909,
+      "Electrical Permit": 1773,
       "Plumbing Permit": 679,
       "Food Establishment": 496,
       "Gas Fitting": 477,
@@ -233,7 +233,7 @@
       "Temporary Food": 289,
       "Certificate of Inspection": 270,
       "Sheet Metal Permit": 201,
-      "Dumpster (Located on Street) Permit": 192,
+      "Dumpster (Located on Street) Permit": 191,
       "Certificate of Occupancy": 162,
       "Business License": 123,
       "Public Event License": 110,
@@ -241,7 +241,7 @@
       "Block Party": 93
     },
     "datasets_count": 1,
-    "permits_per_capita_1k": 92.94
+    "permits_per_capita_1k": 92.72
   },
   "meetings": {
     "official_channels": 1,
@@ -627,8 +627,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.somervillema.gov/resource/nneb-s3f7.json",
-        "probed_at": "2026-05-04T19:53:45.931395",
-        "data_vintage": "Rolling 12-month window ending 2026-05-04",
+        "probed_at": "2026-05-05T03:38:24.890895",
+        "data_vintage": "Rolling 12-month window ending 2026-05-05",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Applications for Permits and Licenses",
@@ -674,7 +674,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Somerville",
-        "probed_at": "2026-05-04T19:55:26.063533",
+        "probed_at": "2026-05-05T03:39:45.761637",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -1090,19 +1090,19 @@
       "passed_date": null
     },
     {
-      "title": "Requesting authorization to borrow $1,530,000 in a bond, and to appropriate the same amount for the annual FY 2026 Sewer System Evaluation and Infiltration/Inflow Assessment.",
-      "type": "Mayor's Request",
-      "status": "Referred for Recommendation",
-      "intro_date": "2026-02-12",
-      "file_number": "26-0162",
-      "passed_date": null
-    },
-    {
       "title": "That this City Council hold a public hearing on the petition submitted by 52 registered voters regarding Out of the Blue Community Arts Space at Arts at the Armory, pursuant to Section 2-11 of the Cit",
       "type": "Public Communication",
       "status": "Referred for Recommendation",
       "intro_date": "2026-02-12",
       "file_number": "26-0265",
+      "passed_date": null
+    },
+    {
+      "title": "Requesting authorization to borrow $1,530,000 in a bond, and to appropriate the same amount for the annual FY 2026 Sewer System Evaluation and Infiltration/Inflow Assessment.",
+      "type": "Mayor's Request",
+      "status": "Referred for Recommendation",
+      "intro_date": "2026-02-12",
+      "file_number": "26-0162",
       "passed_date": null
     },
     {
@@ -1138,6 +1138,14 @@
       "passed_date": null
     },
     {
+      "title": "Four residents submitting comments re: Israel boycott.",
+      "type": "Public Communication",
+      "status": "Placed on File",
+      "intro_date": "2026-02-11",
+      "file_number": "26-0255",
+      "passed_date": "2026-02-12"
+    },
+    {
       "title": "Cole Rainey-Slavick submitting comments re: U.S. Immigration and Customs Enforcement.",
       "type": "Public Communication",
       "status": "Placed on File",
@@ -1152,18 +1160,10 @@
       "intro_date": "2026-02-11",
       "file_number": "26-0253",
       "passed_date": "2026-02-12"
-    },
-    {
-      "title": "Union 2 Associates, LLC requesting a Zoning Map Amendment to change the zoning district of  2 and 9 Union Square, 286, 290, and 298 Somerville Avenue from Commercial Core 5 (CC5) to Mid-Rise 6 (MR6).",
-      "type": "Public Communication",
-      "status": "Referred for Recommendation",
-      "intro_date": "2026-02-11",
-      "file_number": "26-0257",
-      "passed_date": null
     }
   ],
   "legistar_url": "https://somervillema.legistar.com",
-  "enriched_at": "2026-05-04T19:51:59.455488",
+  "enriched_at": "2026-05-05T03:35:57.926020",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

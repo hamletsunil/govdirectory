@@ -180,14 +180,14 @@
     "accela_agency_id": "MESA"
   },
   "development": {
-    "permits_12mo": 5166,
-    "yoy_trend_pct": 2.4,
-    "avg_permit_value": 428888.95,
-    "permits_per_capita_1k": 10.26,
+    "permits_12mo": 5145,
+    "yoy_trend_pct": 2.0,
+    "avg_permit_value": 430579.65,
+    "permits_per_capita_1k": 10.22,
     "permit_types": {
-      "RES": 3324,
-      "COM": 1379,
-      "SVC": 463
+      "RES": 3313,
+      "COM": 1370,
+      "SVC": 462
     },
     "datasets_count": 10
   },
@@ -491,8 +491,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://citydata.mesaaz.gov/resource/dzpk-hxfb.json",
-        "probed_at": "2026-05-04T19:53:09.571318",
-        "data_vintage": "Rolling 12-month window ending 2026-05-04",
+        "probed_at": "2026-05-05T03:37:51.072802",
+        "data_vintage": "Rolling 12-month window ending 2026-05-05",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -538,7 +538,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Mesa",
-        "probed_at": "2026-05-04T19:54:11.720491",
+        "probed_at": "2026-05-05T03:38:46.612330",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -807,26 +807,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-05-04",
-      "body": "City Council Study Session",
-      "location": "Study Session",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
-      "date": "2026-05-04",
-      "body": "City Council",
-      "location": "Council Chambers",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-05-07",
       "body": "City Council Study Session",
       "location": "Study Session",
@@ -888,6 +868,16 @@
     },
     {
       "date": "2026-06-01",
+      "body": "City Council",
+      "location": "Council Chambers",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-06-01",
       "body": "City Council Study Session",
       "location": "Study Session",
       "has_agenda": false,
@@ -897,14 +887,34 @@
       "upcoming": true
     },
     {
-      "date": "2026-06-01",
+      "date": "2026-06-04",
+      "body": "City Council Study Session",
+      "location": "Study Session",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
+      "date": "2026-05-04",
       "body": "City Council",
       "location": "Council Chambers",
       "has_agenda": false,
       "agenda_url": null,
       "has_minutes": false,
       "has_video": false,
-      "upcoming": true
+      "upcoming": false
+    },
+    {
+      "date": "2026-05-04",
+      "body": "City Council Study Session",
+      "location": "Study Session",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     },
     {
       "date": "2026-04-30",
@@ -997,22 +1007,6 @@
       "passed_date": null
     },
     {
-      "title": "Three-Year Term Use of a Cooperative Contract for Pavement Management Services for the Transportation Department (Citywide)\n \nThe Transportation Department is leveraging advancements in pavement manag",
-      "type": "Contract",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-19",
-      "file_number": "26-0218",
-      "passed_date": null
-    },
-    {
-      "title": "Dollar Limit Increase to the Term Contract for Safety and Medical Supplies for the Mesa Police and Public Safety Support Departments (Citywide)\r\n \r\nThe Mesa Police and Public Safety Support Department",
-      "type": "Contract",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-19",
-      "file_number": "26-0217",
-      "passed_date": null
-    },
-    {
       "title": "Dollar Limit Increase to the Term Contract for Landscape Maintenance Services for City Facilities (Zone 7) for the Facilities Management Department (Council Districts 1, 2, 5, and 6)\n \nA dollar limit ",
       "type": "Contract",
       "status": "Agenda Ready",
@@ -1045,11 +1039,35 @@
       "passed_date": null
     },
     {
+      "title": "Three-Year Term Use of a Cooperative Contract for Pavement Management Services for the Transportation Department (Citywide)\n \nThe Transportation Department is leveraging advancements in pavement manag",
+      "type": "Contract",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "26-0218",
+      "passed_date": null
+    },
+    {
+      "title": "Dollar Limit Increase to the Term Contract for Safety and Medical Supplies for the Mesa Police and Public Safety Support Departments (Citywide)\r\n \r\nThe Mesa Police and Public Safety Support Department",
+      "type": "Contract",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "26-0217",
+      "passed_date": null
+    },
+    {
       "title": "Approving and authorizing the City Manager or designee to enter into the Power Purchase and Energy Storage Agreement for the Pinal Solar Project (\"Project\") with Arizona Electric Power Cooperative (\"A",
       "type": "Resolution",
       "status": "Agenda Ready",
       "intro_date": "2026-02-17",
       "file_number": "26-0208",
+      "passed_date": null
+    },
+    {
+      "title": "Judicial Advisory Board meeting held on October 22, 2025.",
+      "type": "Minutes",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-12",
+      "file_number": "26-0206",
       "passed_date": null
     },
     {
@@ -1059,18 +1077,10 @@
       "intro_date": "2026-02-12",
       "file_number": "26-0205",
       "passed_date": null
-    },
-    {
-      "title": "Amending board membership requirements for the Palo District, a Theme Park District established pursuant to Arizona law. (District 3) \nResolution No. 12474",
-      "type": "Resolution",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-12",
-      "file_number": "26-0207",
-      "passed_date": null
     }
   ],
   "legistar_url": "https://mesa.legistar.com",
-  "enriched_at": "2026-05-04T19:49:52.779125",
+  "enriched_at": "2026-05-05T03:32:25.740705",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
