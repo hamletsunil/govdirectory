@@ -122,8 +122,8 @@
     "permit_types": {
       "Electrical General": 60,
       "Plumbing General": 46,
-      "Mechanical General": 38,
       "Certificate of Occupancy (Residential)": 38,
+      "Mechanical General": 38,
       "Security Alarms": 13,
       "Single Family - Interior Remodel": 11,
       "Electrical with Service": 10,
@@ -132,9 +132,9 @@
       "Electrical Reconnect": 6,
       "New": 5,
       "Other": 5,
-      "Renovation": 4,
       "Complete Building Demolition": 4,
-      "Deck": 4
+      "Deck": 4,
+      "Renovation": 4
     },
     "datasets_count": 1
   },
@@ -292,7 +292,7 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.kcmo.org/resource/ntw8-aacc.json",
-        "probed_at": "2026-05-05T03:38:29.021304",
+        "probed_at": "2026-05-05T08:32:36.528932",
         "data_vintage": "Rolling 12-month window ending 2026-05-05",
         "geographic_level": "place",
         "status": "available",
@@ -881,7 +881,7 @@
     }
   ],
   "legistar_url": "https://kansascity.legistar.com",
-  "enriched_at": "2026-05-05T03:31:13.803548",
+  "enriched_at": "2026-05-05T08:24:19.523300",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
