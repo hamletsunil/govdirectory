@@ -116,25 +116,25 @@
     "accela_agency_id": "KANSAS"
   },
   "development": {
-    "permits_12mo": 290,
-    "yoy_trend_pct": -98.4,
-    "avg_permit_value": 94069.95,
+    "permits_12mo": 224,
+    "yoy_trend_pct": -98.8,
+    "avg_permit_value": 90718.15,
     "permit_types": {
-      "Electrical General": 60,
-      "Plumbing General": 46,
-      "Certificate of Occupancy (Residential)": 38,
-      "Mechanical General": 38,
+      "Electrical General": 43,
+      "Plumbing General": 40,
+      "Mechanical General": 32,
+      "Certificate of Occupancy (Residential)": 28,
       "Security Alarms": 13,
-      "Single Family - Interior Remodel": 11,
-      "Electrical with Service": 10,
-      "Fire Protection System": 7,
-      "Single Family - New": 7,
-      "Electrical Reconnect": 6,
+      "Electrical with Service": 8,
+      "Single Family - Interior Remodel": 6,
       "New": 5,
-      "Other": 5,
-      "Complete Building Demolition": 4,
+      "Electrical Reconnect": 5,
+      "Fire Protection System": 5,
       "Deck": 4,
-      "Renovation": 4
+      "Complete Building Demolition": 3,
+      "Single Family - New": 3,
+      "Renovation": 3,
+      "Detached Accessory Structure": 3
     },
     "datasets_count": 1
   },
@@ -292,8 +292,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.kcmo.org/resource/ntw8-aacc.json",
-        "probed_at": "2026-05-05T19:42:21.831960",
-        "data_vintage": "Rolling 12-month window ending 2026-05-05",
+        "probed_at": "2026-05-06T03:51:19.463165",
+        "data_vintage": "Rolling 12-month window ending 2026-05-06",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Permits - CPD Dataset",
@@ -840,19 +840,19 @@
       "passed_date": null
     },
     {
-      "title": "Notice to the City Clerk of the 12TH Street Heritage Community Improvement District’s Proposed Budget for the period ending April 30, 2027.",
-      "type": "Communication",
-      "status": "Filed",
-      "intro_date": "2026-02-10",
-      "file_number": "260197",
-      "passed_date": "2026-02-12"
-    },
-    {
       "title": "Notice to the City Clerk of the Brywood Centre Community Improvement District’s Proposed Budget for the period ending April 30, 2027.",
       "type": "Communication",
       "status": "Filed",
       "intro_date": "2026-02-10",
       "file_number": "260198",
+      "passed_date": "2026-02-12"
+    },
+    {
+      "title": "Notice to the City Clerk of the 12TH Street Heritage Community Improvement District’s Proposed Budget for the period ending April 30, 2027.",
+      "type": "Communication",
+      "status": "Filed",
+      "intro_date": "2026-02-10",
+      "file_number": "260197",
       "passed_date": "2026-02-12"
     },
     {
@@ -881,7 +881,7 @@
     }
   ],
   "legistar_url": "https://kansascity.legistar.com",
-  "enriched_at": "2026-05-05T19:34:29.596567",
+  "enriched_at": "2026-05-06T03:43:01.472635",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

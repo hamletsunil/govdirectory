@@ -525,7 +525,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Boston",
-        "probed_at": "2026-05-05T19:42:35.030844",
+        "probed_at": "2026-05-06T03:51:31.273345",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -873,16 +873,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-05-05",
-      "body": "Zoning Board of Appeal",
-      "location": "Room 801, City Hall",
-      "has_agenda": true,
-      "agenda_url": "https://boston.legistar1.com/boston/meetings/2026/5/14020_A_Zoning_Board_of_Appeal_26-05-05_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-05-06",
       "body": "Boston School Committee",
       "location": "Bolling Building",
@@ -951,6 +941,16 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": true
+    },
+    {
+      "date": "2026-05-05",
+      "body": "Zoning Board of Appeal",
+      "location": "Room 801, City Hall",
+      "has_agenda": true,
+      "agenda_url": "https://boston.legistar1.com/boston/meetings/2026/5/14020_A_Zoning_Board_of_Appeal_26-05-05_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     },
     {
       "date": "2026-04-29",
@@ -1073,19 +1073,11 @@
       "passed_date": "2026-02-11"
     },
     {
-      "title": "Communication from Councilor Murphy re: Public access to City Council working sessions and hearings.",
-      "type": "Report of Public Officer",
-      "status": "Filed",
+      "title": "Resolution recognizing Vineet Gupta.",
+      "type": "Consent Agenda Resolution",
+      "status": "Agenda Ready",
       "intro_date": "2026-02-09",
-      "file_number": "2026-0323",
-      "passed_date": "2026-02-11"
-    },
-    {
-      "title": "Order for a hearing to examine graduation requirement implementation, waivers, and equity in Boston Public Schools.",
-      "type": "Council Hearing Order",
-      "status": "Referred",
-      "intro_date": "2026-02-09",
-      "file_number": "2026-0342",
+      "file_number": "2026-0365",
       "passed_date": null
     },
     {
@@ -1097,16 +1089,24 @@
       "passed_date": "2026-02-11"
     },
     {
-      "title": "Resolution recognizing Vineet Gupta.",
+      "title": "Resolution recognizing Irish-American Heritage Month.",
+      "type": "Council Legislative Resolution",
+      "status": "Passed",
+      "intro_date": "2026-02-09",
+      "file_number": "2026-0358",
+      "passed_date": "2026-02-11"
+    },
+    {
+      "title": "Resolution celebrating the inaugural opening of the Frostival Lodge.",
       "type": "Consent Agenda Resolution",
       "status": "Agenda Ready",
       "intro_date": "2026-02-09",
-      "file_number": "2026-0365",
+      "file_number": "2026-0366",
       "passed_date": null
     }
   ],
   "legistar_url": "https://boston.legistar.com",
-  "enriched_at": "2026-05-05T19:28:38.248694",
+  "enriched_at": "2026-05-06T03:37:23.074175",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
