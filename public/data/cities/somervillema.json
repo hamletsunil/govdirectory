@@ -220,28 +220,28 @@
     "accela_agency_id": null
   },
   "development": {
-    "permits_12mo": 7429,
-    "yoy_trend_pct": 6.2,
+    "permits_12mo": 7401,
+    "yoy_trend_pct": 5.8,
     "avg_permit_value": null,
     "permit_types": {
-      "Building Permit": 1900,
-      "Electrical Permit": 1767,
-      "Plumbing Permit": 676,
+      "Building Permit": 1896,
+      "Electrical Permit": 1756,
+      "Plumbing Permit": 675,
       "Food Establishment": 496,
-      "Gas Fitting": 474,
+      "Gas Fitting": 473,
       "Dumpster": 331,
-      "Temporary Food": 289,
-      "Certificate of Inspection": 269,
-      "Sheet Metal Permit": 201,
-      "Dumpster (Located on Street) Permit": 190,
-      "Certificate of Occupancy": 162,
+      "Temporary Food": 287,
+      "Certificate of Inspection": 267,
+      "Sheet Metal Permit": 200,
+      "Dumpster (Located on Street) Permit": 188,
+      "Certificate of Occupancy": 160,
       "Business License": 122,
       "Public Event License": 107,
-      "Farmers Market": 100,
+      "Farmers Market": 98,
       "Block Party": 93
     },
     "datasets_count": 1,
-    "permits_per_capita_1k": 92.33
+    "permits_per_capita_1k": 91.98
   },
   "meetings": {
     "official_channels": 1,
@@ -627,8 +627,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.somervillema.gov/resource/nneb-s3f7.json",
-        "probed_at": "2026-05-06T20:04:03.972593",
-        "data_vintage": "Rolling 12-month window ending 2026-05-06",
+        "probed_at": "2026-05-07T03:43:07.113558",
+        "data_vintage": "Rolling 12-month window ending 2026-05-07",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Applications for Permits and Licenses",
@@ -674,7 +674,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Somerville",
-        "probed_at": "2026-05-06T20:08:20.225682",
+        "probed_at": "2026-05-07T03:44:38.234879",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -1082,14 +1082,6 @@
   "recent_meetings": [],
   "recent_legislation": [
     {
-      "title": "That this City Council hold a public hearing on the petition submitted by 52 registered voters regarding Out of the Blue Community Arts Space at Arts at the Armory, pursuant to Section 2-11 of the Cit",
-      "type": "Public Communication",
-      "status": "Referred for Recommendation",
-      "intro_date": "2026-02-12",
-      "file_number": "26-0265",
-      "passed_date": null
-    },
-    {
       "title": "Requesting authorization to borrow $1,530,000 in a bond, and to appropriate the same amount for the annual FY 2026 Sewer System Evaluation and Infiltration/Inflow Assessment.",
       "type": "Mayor's Request",
       "status": "Referred for Recommendation",
@@ -1112,6 +1104,30 @@
       "intro_date": "2026-02-12",
       "file_number": "26-0264",
       "passed_date": null
+    },
+    {
+      "title": "That this City Council hold a public hearing on the petition submitted by 52 registered voters regarding Out of the Blue Community Arts Space at Arts at the Armory, pursuant to Section 2-11 of the Cit",
+      "type": "Public Communication",
+      "status": "Referred for Recommendation",
+      "intro_date": "2026-02-12",
+      "file_number": "26-0265",
+      "passed_date": null
+    },
+    {
+      "title": "That this City Council commends the Fire Department for its fast and professional emergency response to the recent fire at 26 Summer Street.",
+      "type": "Resolution",
+      "status": "Approved",
+      "intro_date": "2026-02-11",
+      "file_number": "26-0253",
+      "passed_date": "2026-02-12"
+    },
+    {
+      "title": "Cole Rainey-Slavick submitting comments re: U.S. Immigration and Customs Enforcement.",
+      "type": "Public Communication",
+      "status": "Placed on File",
+      "intro_date": "2026-02-11",
+      "file_number": "26-0254",
+      "passed_date": "2026-02-12"
     },
     {
       "title": "Four residents submitting comments re: Israel boycott.",
@@ -1144,26 +1160,10 @@
       "intro_date": "2026-02-11",
       "file_number": "26-0258",
       "passed_date": "2026-02-12"
-    },
-    {
-      "title": "Christopher Beland submitting comments re: items #26-0175, #26-0176, #26-0177, #26-0178, #26-0179, #26-0180, #26-0181, #26-0182, #26-0183, #26-0184, #26-0185, #26-0186, and #26-0187, Eversource applyi",
-      "type": "Public Communication",
-      "status": "Sent for Discussion",
-      "intro_date": "2026-02-11",
-      "file_number": "26-0259",
-      "passed_date": null
-    },
-    {
-      "title": "That this City Council commends the Fire Department for its fast and professional emergency response to the recent fire at 26 Summer Street.",
-      "type": "Resolution",
-      "status": "Approved",
-      "intro_date": "2026-02-11",
-      "file_number": "26-0253",
-      "passed_date": "2026-02-12"
     }
   ],
   "legistar_url": "https://somervillema.legistar.com",
-  "enriched_at": "2026-05-06T20:01:55.006866",
+  "enriched_at": "2026-05-07T03:41:41.776981",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

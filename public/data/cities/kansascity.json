@@ -116,25 +116,25 @@
     "accela_agency_id": "KANSAS"
   },
   "development": {
-    "permits_12mo": 224,
-    "yoy_trend_pct": -98.8,
-    "avg_permit_value": 90718.15,
+    "permits_12mo": 160,
+    "yoy_trend_pct": -99.1,
+    "avg_permit_value": 105731.16,
     "permit_types": {
-      "Electrical General": 43,
-      "Plumbing General": 40,
-      "Mechanical General": 32,
       "Certificate of Occupancy (Residential)": 28,
+      "Electrical General": 27,
+      "Plumbing General": 26,
+      "Mechanical General": 23,
       "Security Alarms": 13,
-      "Electrical with Service": 8,
-      "Single Family - Interior Remodel": 6,
+      "Electrical with Service": 7,
+      "Single Family - Interior Remodel": 5,
       "New": 5,
-      "Electrical Reconnect": 5,
-      "Fire Protection System": 5,
-      "Deck": 4,
-      "Complete Building Demolition": 3,
-      "Single Family - New": 3,
-      "Renovation": 3,
-      "Detached Accessory Structure": 3
+      "Electrical Reconnect": 4,
+      "Commercial": 2,
+      "Other": 2,
+      "Detached Accessory Structure": 2,
+      "Addition": 2,
+      "Single Family - Addition": 1,
+      "Complete Building Demolition": 1
     },
     "datasets_count": 1
   },
@@ -292,8 +292,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.kcmo.org/resource/ntw8-aacc.json",
-        "probed_at": "2026-05-06T20:04:08.960736",
-        "data_vintage": "Rolling 12-month window ending 2026-05-06",
+        "probed_at": "2026-05-07T03:43:11.383914",
+        "data_vintage": "Rolling 12-month window ending 2026-05-07",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Permits - CPD Dataset",
@@ -824,14 +824,6 @@
       "passed_date": null
     },
     {
-      "title": "Sponsor: Mayor Quinton Lucas\r\n\r\nRESOLUTION - Directing the City Manager to develop and implement a public communication plan, including the publication of a Frequently Asked Questions (FAQ) document o",
-      "type": "Resolution",
-      "status": "Referred",
-      "intro_date": "2026-02-11",
-      "file_number": "260222",
-      "passed_date": null
-    },
-    {
       "title": "Sponsor: Mayor Quinton Lucas\r\n\r\nRESOLUTION - Appointing Kristen Campbell, Kelby Hopkins, David Scott Knisley, Keley Brandt and Karson Bennett as successor directors to the Ward Parkway Center Communit",
       "type": "Resolution",
       "status": "Referred",
@@ -840,11 +832,19 @@
       "passed_date": null
     },
     {
-      "title": "Notice to the City Clerk of the Brywood Centre Community Improvement District’s Proposed Budget for the period ending April 30, 2027.",
+      "title": "Sponsor: Mayor Quinton Lucas\r\n\r\nRESOLUTION - Directing the City Manager to develop and implement a public communication plan, including the publication of a Frequently Asked Questions (FAQ) document o",
+      "type": "Resolution",
+      "status": "Referred",
+      "intro_date": "2026-02-11",
+      "file_number": "260222",
+      "passed_date": null
+    },
+    {
+      "title": "Notice to the City Clerk of the Truman Road Community Improvement District’s Proposed Budget for the period ending April 30, 2027.",
       "type": "Communication",
       "status": "Filed",
       "intro_date": "2026-02-10",
-      "file_number": "260198",
+      "file_number": "260202",
       "passed_date": "2026-02-12"
     },
     {
@@ -856,32 +856,32 @@
       "passed_date": "2026-02-12"
     },
     {
-      "title": "Notice to the City Clerk of the Downtown KC Community Improvement District’s Proposed Budget for the period ending April 30, 2027.",
+      "title": "Notice to the City Clerk of the Westport II Community Improvement District’s Proposed Budget for the period ending April 30, 2027.",
       "type": "Communication",
       "status": "Filed",
       "intro_date": "2026-02-10",
-      "file_number": "260199",
+      "file_number": "260204",
       "passed_date": "2026-02-12"
     },
     {
-      "title": "Notice to the City Clerk of the Plaza East Community Improvement District’s Proposed Budget for the period ending April 30, 2027.",
+      "title": "Notice to the City Clerk of the Waldo Community Improvement District’s Proposed Budget for the period ending April 30, 2027.",
       "type": "Communication",
       "status": "Filed",
       "intro_date": "2026-02-10",
-      "file_number": "260200",
+      "file_number": "260203",
       "passed_date": "2026-02-12"
     },
     {
-      "title": "Notice to the City Clerk of the River Market Community Improvement District’s Proposed Budget for the period ending April 30, 2027.",
+      "title": "Notice to the City Clerk of the Brywood Centre Community Improvement District’s Proposed Budget for the period ending April 30, 2027.",
       "type": "Communication",
       "status": "Filed",
       "intro_date": "2026-02-10",
-      "file_number": "260201",
+      "file_number": "260198",
       "passed_date": "2026-02-12"
     }
   ],
   "legistar_url": "https://kansascity.legistar.com",
-  "enriched_at": "2026-05-06T19:57:05.375405",
+  "enriched_at": "2026-05-07T03:39:06.206505",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

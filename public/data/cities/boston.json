@@ -525,7 +525,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Boston",
-        "probed_at": "2026-05-06T20:04:38.405410",
+        "probed_at": "2026-05-07T03:43:24.597718",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -873,16 +873,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-05-06",
-      "body": "Boston School Committee",
-      "location": "Bolling Building",
-      "has_agenda": true,
-      "agenda_url": "https://boston.legistar1.com/boston/meetings/2026/5/14052_A_Boston_School_Committee_26-05-06_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-05-13",
       "body": "Disability Commission Advisory Board",
       "location": "Room 801, City Hall",
@@ -941,6 +931,16 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": true
+    },
+    {
+      "date": "2026-05-06",
+      "body": "Boston School Committee",
+      "location": "Bolling Building",
+      "has_agenda": true,
+      "agenda_url": "https://boston.legistar1.com/boston/meetings/2026/5/14052_A_Boston_School_Committee_26-05-06_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     },
     {
       "date": "2026-05-05",
@@ -1025,22 +1025,6 @@
   ],
   "recent_legislation": [
     {
-      "title": "Message and order for your approval an Order appropriating from the Edward Ingersoll Browne Fund in the sum of Six Hundred and Fifty Thousand Dollars and Zero Cents ($650,000.00) for projects describe",
-      "type": "Report of Public Officer",
-      "status": "Passed",
-      "intro_date": "2026-02-11",
-      "file_number": "2026-0369",
-      "passed_date": "2026-02-11"
-    },
-    {
-      "title": "Notice was received from Councilor Pepen regarding his absence from the February 11, 2026 City Council Meeting.",
-      "type": "Report of Public Officer",
-      "status": "Filed",
-      "intro_date": "2026-02-11",
-      "file_number": "2026-0376",
-      "passed_date": "2026-02-11"
-    },
-    {
       "title": "Notice was received from Councilor Mejia regarding her absence from the February 11, 2026 City Council Meeting.",
       "type": "Report of Public Officer",
       "status": "Filed",
@@ -1073,40 +1057,56 @@
       "passed_date": "2026-02-11"
     },
     {
-      "title": "Resolution recognizing Vineet Gupta.",
-      "type": "Consent Agenda Resolution",
-      "status": "Agenda Ready",
+      "title": "Notice was received from Councilor Pepen regarding his absence from the February 11, 2026 City Council Meeting.",
+      "type": "Report of Public Officer",
+      "status": "Filed",
+      "intro_date": "2026-02-11",
+      "file_number": "2026-0376",
+      "passed_date": "2026-02-11"
+    },
+    {
+      "title": "Message and order for your approval an Order appropriating from the Edward Ingersoll Browne Fund in the sum of Six Hundred and Fifty Thousand Dollars and Zero Cents ($650,000.00) for projects describe",
+      "type": "Report of Public Officer",
+      "status": "Passed",
+      "intro_date": "2026-02-11",
+      "file_number": "2026-0369",
+      "passed_date": "2026-02-11"
+    },
+    {
+      "title": "Order for a hearing to discuss property tax relief for long-term residents and essential municipal employees.",
+      "type": "Council Hearing Order",
+      "status": "Referred",
       "intro_date": "2026-02-09",
-      "file_number": "2026-0365",
+      "file_number": "2026-0338",
       "passed_date": null
     },
     {
-      "title": "Resolution to embrace and extend heartfelt wishes to the beloved Muslim community in Boston, Massachusetts, throughout the United States, and across the globe, invoking blessings upon them as they emb",
+      "title": "Resolution affirming Boston’s Ranked Choice Voting Home Rule Petition.",
       "type": "Council Legislative Resolution",
-      "status": "Passed",
+      "status": "Referred",
       "intro_date": "2026-02-09",
-      "file_number": "2026-0359",
-      "passed_date": "2026-02-11"
+      "file_number": "2026-0355",
+      "passed_date": null
     },
     {
-      "title": "Resolution recognizing Irish-American Heritage Month.",
-      "type": "Council Legislative Resolution",
-      "status": "Passed",
+      "title": "Order for a hearing to discuss the goals and priorities of the Office of Arts and Culture and the Office of Tourism, Sports, and Entertainment in the City of Boston.",
+      "type": "Council Hearing Order",
+      "status": "Referred",
       "intro_date": "2026-02-09",
-      "file_number": "2026-0358",
-      "passed_date": "2026-02-11"
+      "file_number": "2026-0339",
+      "passed_date": null
     },
     {
-      "title": "Resolution celebrating the inaugural opening of the Frostival Lodge.",
-      "type": "Consent Agenda Resolution",
-      "status": "Agenda Ready",
+      "title": "Resolution in support of \"An Executive Order to Protect Bostonians from Unconstitutional and Violent Federal Operations.\"",
+      "type": "Council Legislative Resolution",
+      "status": "Referred",
       "intro_date": "2026-02-09",
-      "file_number": "2026-0366",
+      "file_number": "2026-0356",
       "passed_date": null
     }
   ],
   "legistar_url": "https://boston.legistar.com",
-  "enriched_at": "2026-05-06T19:52:17.998122",
+  "enriched_at": "2026-05-07T03:36:27.570215",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
