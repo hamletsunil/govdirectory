@@ -210,15 +210,15 @@
     "accela_agency_id": "E_CHICAGO"
   },
   "development": {
-    "permits_12mo": 31442,
-    "yoy_trend_pct": -2.3,
-    "avg_permit_value": 399695.25,
-    "permits_per_capita_1k": 11.55,
+    "permits_12mo": 31541,
+    "yoy_trend_pct": -2.0,
+    "avg_permit_value": 399464.38,
+    "permits_per_capita_1k": 11.59,
     "permit_types": {
-      "PERMIT – EXPRESS PERMIT PROGRAM": 20008,
-      "PERMIT - RENOVATION/ALTERATION": 5410,
+      "PERMIT – EXPRESS PERMIT PROGRAM": 20085,
+      "PERMIT - RENOVATION/ALTERATION": 5426,
       "PERMIT - SIGNS": 2265,
-      "PERMIT - NEW CONSTRUCTION": 1527,
+      "PERMIT - NEW CONSTRUCTION": 1533,
       "PERMIT - ELEVATOR EQUIPMENT": 1067,
       "PERMIT - WRECKING/DEMOLITION": 701,
       "PERMIT - REINSTATE REVOKED PMT": 464
@@ -635,7 +635,7 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.cityofchicago.org/resource/ydr8-5enu.json",
-        "probed_at": "2026-05-09T08:14:12.443738",
+        "probed_at": "2026-05-09T13:40:30.468279",
         "data_vintage": "Rolling 12-month window ending 2026-05-09",
         "geographic_level": "place",
         "status": "available",
@@ -682,7 +682,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Chicago",
-        "probed_at": "2026-05-09T08:15:10.105608",
+        "probed_at": "2026-05-09T13:41:49.240752",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -1585,7 +1585,7 @@
   "recent_meetings": [],
   "recent_legislation": [],
   "legistar_url": "https://chicago.legistar.com",
-  "enriched_at": "2026-05-09T08:03:46.953651",
+  "enriched_at": "2026-05-09T13:28:17.914751",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
