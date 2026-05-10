@@ -221,7 +221,7 @@
   },
   "development": {
     "permits_12mo": 7349,
-    "yoy_trend_pct": 5.2,
+    "yoy_trend_pct": 5.5,
     "avg_permit_value": null,
     "permit_types": {
       "Building Permit": 1887,
@@ -627,8 +627,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.somervillema.gov/resource/nneb-s3f7.json",
-        "probed_at": "2026-05-09T19:10:52.746886",
-        "data_vintage": "Rolling 12-month window ending 2026-05-09",
+        "probed_at": "2026-05-10T04:00:55.764293",
+        "data_vintage": "Rolling 12-month window ending 2026-05-10",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Applications for Permits and Licenses",
@@ -674,7 +674,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Somerville",
-        "probed_at": "2026-05-09T19:12:33.075553",
+        "probed_at": "2026-05-10T04:02:12.189227",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -1114,30 +1114,6 @@
       "passed_date": null
     },
     {
-      "title": "That this City Council commends the Fire Department for its fast and professional emergency response to the recent fire at 26 Summer Street.",
-      "type": "Resolution",
-      "status": "Approved",
-      "intro_date": "2026-02-11",
-      "file_number": "26-0253",
-      "passed_date": "2026-02-12"
-    },
-    {
-      "title": "Cole Rainey-Slavick submitting comments re: U.S. Immigration and Customs Enforcement.",
-      "type": "Public Communication",
-      "status": "Placed on File",
-      "intro_date": "2026-02-11",
-      "file_number": "26-0254",
-      "passed_date": "2026-02-12"
-    },
-    {
-      "title": "Four residents submitting comments re: Israel boycott.",
-      "type": "Public Communication",
-      "status": "Placed on File",
-      "intro_date": "2026-02-11",
-      "file_number": "26-0255",
-      "passed_date": "2026-02-12"
-    },
-    {
       "title": "Elizabeth Schaul submitting comments re: snow removal.",
       "type": "Public Communication",
       "status": "Placed on File",
@@ -1160,10 +1136,34 @@
       "intro_date": "2026-02-11",
       "file_number": "26-0258",
       "passed_date": "2026-02-12"
+    },
+    {
+      "title": "Christopher Beland submitting comments re: items #26-0175, #26-0176, #26-0177, #26-0178, #26-0179, #26-0180, #26-0181, #26-0182, #26-0183, #26-0184, #26-0185, #26-0186, and #26-0187, Eversource applyi",
+      "type": "Public Communication",
+      "status": "Sent for Discussion",
+      "intro_date": "2026-02-11",
+      "file_number": "26-0259",
+      "passed_date": null
+    },
+    {
+      "title": "That this City Council commends the Fire Department for its fast and professional emergency response to the recent fire at 26 Summer Street.",
+      "type": "Resolution",
+      "status": "Approved",
+      "intro_date": "2026-02-11",
+      "file_number": "26-0253",
+      "passed_date": "2026-02-12"
+    },
+    {
+      "title": "Cole Rainey-Slavick submitting comments re: U.S. Immigration and Customs Enforcement.",
+      "type": "Public Communication",
+      "status": "Placed on File",
+      "intro_date": "2026-02-11",
+      "file_number": "26-0254",
+      "passed_date": "2026-02-12"
     }
   ],
   "legistar_url": "https://somervillema.legistar.com",
-  "enriched_at": "2026-05-09T19:09:39.155678",
+  "enriched_at": "2026-05-10T03:58:48.149801",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

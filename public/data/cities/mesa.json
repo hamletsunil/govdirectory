@@ -180,14 +180,14 @@
     "accela_agency_id": "MESA"
   },
   "development": {
-    "permits_12mo": 5193,
-    "yoy_trend_pct": 2.4,
-    "avg_permit_value": 491204.22,
-    "permits_per_capita_1k": 10.32,
+    "permits_12mo": 5205,
+    "yoy_trend_pct": 2.9,
+    "avg_permit_value": 490768.51,
+    "permits_per_capita_1k": 10.34,
     "permit_types": {
-      "RES": 3344,
-      "COM": 1382,
-      "SVC": 467
+      "RES": 3351,
+      "COM": 1384,
+      "SVC": 470
     },
     "datasets_count": 10
   },
@@ -491,8 +491,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://citydata.mesaaz.gov/resource/dzpk-hxfb.json",
-        "probed_at": "2026-05-09T19:10:17.019137",
-        "data_vintage": "Rolling 12-month window ending 2026-05-09",
+        "probed_at": "2026-05-10T04:00:27.674974",
+        "data_vintage": "Rolling 12-month window ending 2026-05-10",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -538,7 +538,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Mesa",
-        "probed_at": "2026-05-09T19:11:17.066317",
+        "probed_at": "2026-05-10T04:01:14.257768",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -985,16 +985,6 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
-    },
-    {
-      "date": "2026-04-09",
-      "body": "City Council Study Session",
-      "location": "Study Session",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
     }
   ],
   "recent_legislation": [
@@ -1080,7 +1070,7 @@
     }
   ],
   "legistar_url": "https://mesa.legistar.com",
-  "enriched_at": "2026-05-09T19:09:28.986921",
+  "enriched_at": "2026-05-10T03:54:00.164582",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
