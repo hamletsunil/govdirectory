@@ -169,13 +169,13 @@
     "accela_agency_id": "SEATTLE"
   },
   "development": {
-    "permits_12mo": 6383,
-    "yoy_trend_pct": 7.6,
-    "avg_permit_value": 1121337.1,
+    "permits_12mo": 6387,
+    "yoy_trend_pct": 8.0,
+    "avg_permit_value": 1120690.47,
     "permit_types": {
-      "Building": 5402,
+      "Building": 5404,
       "Demolition": 509,
-      "Roof": 447,
+      "Roof": 449,
       "Grading": 25
     },
     "datasets_count": 10,
@@ -474,8 +474,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.seattle.gov/resource/76t5-zqzr.json",
-        "probed_at": "2026-05-10T19:24:53.285232",
-        "data_vintage": "Rolling 12-month window ending 2026-05-10",
+        "probed_at": "2026-05-11T04:04:38.241307",
+        "data_vintage": "Rolling 12-month window ending 2026-05-11",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -521,7 +521,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Seattle",
-        "probed_at": "2026-05-10T19:25:40.378981",
+        "probed_at": "2026-05-11T04:05:30.177030",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -960,12 +960,12 @@
       "passed_date": null
     },
     {
-      "title": "HSD’s (Human Services Department) 2024 Provider Pay Report",
-      "type": "Information Item (Inf)",
-      "status": "Committee Agenda Ready",
+      "title": "State of the City address delivered by Mayor Katie B. Wilson on February 17, 2026.",
+      "type": "Clerk File (CF)",
+      "status": "Filed with City Clerk",
       "intro_date": "2026-02-12",
-      "file_number": "Inf 2838",
-      "passed_date": null
+      "file_number": "CF 314547",
+      "passed_date": "2026-02-17"
     },
     {
       "title": "Human Services Provider Roundtable Discussion",
@@ -976,12 +976,12 @@
       "passed_date": null
     },
     {
-      "title": "State of the City address delivered by Mayor Katie B. Wilson on February 17, 2026.",
-      "type": "Clerk File (CF)",
-      "status": "Filed with City Clerk",
+      "title": "HSD’s (Human Services Department) 2024 Provider Pay Report",
+      "type": "Information Item (Inf)",
+      "status": "Committee Agenda Ready",
       "intro_date": "2026-02-12",
-      "file_number": "CF 314547",
-      "passed_date": "2026-02-17"
+      "file_number": "Inf 2838",
+      "passed_date": null
     },
     {
       "title": "Seattle Center Overview",
@@ -1001,7 +1001,7 @@
     }
   ],
   "legistar_url": "https://seattle.legistar.com",
-  "enriched_at": "2026-05-10T19:23:36.121013",
+  "enriched_at": "2026-05-11T04:03:36.112420",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
