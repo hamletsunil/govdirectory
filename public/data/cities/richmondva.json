@@ -565,7 +565,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Richmond",
-        "probed_at": "2026-05-11T20:08:56.040501",
+        "probed_at": "2026-05-12T03:43:57.880458",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -901,16 +901,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-05-11",
-      "body": "City Council",
-      "location": "Council Chamber, 2nd Floor - City Hall",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-05-19",
       "body": "Land Use, Housing and Transportation Standing Committee",
       "location": "Council Chamber, 2nd Floor - City Hall",
@@ -959,6 +949,16 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": true
+    },
+    {
+      "date": "2026-05-11",
+      "body": "City Council",
+      "location": "Council Chamber, 2nd Floor - City Hall",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     },
     {
       "date": "2026-04-28",
@@ -1053,14 +1053,6 @@
       "passed_date": null
     },
     {
-      "title": "February 23, 2026 Public Comment Period Speakers List",
-      "type": "Council Document ",
-      "status": "Public Comment Period Speakers List",
-      "intro_date": "2026-02-18",
-      "file_number": "CD.2026.057",
-      "passed_date": "2026-02-23"
-    },
-    {
       "title": "February 9, 2026 Formal Meeting Minutes",
       "type": "Council Document ",
       "status": "Minutes to be Approved",
@@ -1069,12 +1061,12 @@
       "passed_date": "2026-02-18"
     },
     {
-      "title": "DECPR Hagerty Report Follow-up Presentation",
+      "title": "February 23, 2026 Public Comment Period Speakers List",
       "type": "Council Document ",
-      "status": "Presentation",
-      "intro_date": "2026-02-17",
-      "file_number": "CD.2026.055",
-      "passed_date": null
+      "status": "Public Comment Period Speakers List",
+      "intro_date": "2026-02-18",
+      "file_number": "CD.2026.057",
+      "passed_date": "2026-02-23"
     },
     {
       "title": "February 17, 2026 - Land Use, Housing and Transportation Staff Report",
@@ -1082,6 +1074,14 @@
       "status": "Filed",
       "intro_date": "2026-02-17",
       "file_number": "CD.2026.052",
+      "passed_date": null
+    },
+    {
+      "title": "February 18, 2026 - Finance and Economic Development Staff Report",
+      "type": "Council Document ",
+      "status": "Filed",
+      "intro_date": "2026-02-17",
+      "file_number": "CD.2026.054",
       "passed_date": null
     },
     {
@@ -1094,7 +1094,7 @@
     }
   ],
   "legistar_url": "https://richmondva.legistar.com",
-  "enriched_at": "2026-05-11T20:03:18.314218",
+  "enriched_at": "2026-05-12T03:41:52.187386",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
