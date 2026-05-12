@@ -355,7 +355,7 @@
     "accela": "available",
     "cdc_places": "available",
     "hud_usps": "unavailable",
-    "census_vacancy": "available"
+    "census_vacancy": "unavailable"
   },
   "provenance": {
     "last_full_probe": "2026-02-10T13:59:44.092787",
@@ -508,7 +508,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Westminster",
-        "probed_at": "2026-05-12T09:02:43.865016",
+        "probed_at": "2026-05-12T14:51:43.363412",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -838,7 +838,7 @@
     }
   ],
   "legistar_url": "https://westminsterca.legistar.com",
-  "enriched_at": "2026-05-12T09:00:27.563203",
+  "enriched_at": "2026-05-12T14:49:16.318142",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

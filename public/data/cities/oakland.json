@@ -497,7 +497,7 @@
     "accela": "available",
     "cdc_places": "available",
     "hud_usps": "unavailable",
-    "census_vacancy": "available"
+    "census_vacancy": "unavailable"
   },
   "provenance": {
     "last_full_probe": "2026-02-10T08:17:25.668904",
@@ -650,7 +650,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Oakland",
-        "probed_at": "2026-05-12T09:01:53.107331",
+        "probed_at": "2026-05-12T14:50:50.529996",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -1117,7 +1117,7 @@
     }
   ],
   "legistar_url": "https://oakland.legistar.com",
-  "enriched_at": "2026-05-12T08:56:19.361574",
+  "enriched_at": "2026-05-12T14:44:58.920583",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

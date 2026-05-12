@@ -210,18 +210,18 @@
     "accela_agency_id": "E_CHICAGO"
   },
   "development": {
-    "permits_12mo": 31421,
-    "yoy_trend_pct": -2.2,
-    "avg_permit_value": 400358.17,
-    "permits_per_capita_1k": 11.54,
+    "permits_12mo": 31541,
+    "yoy_trend_pct": -1.8,
+    "avg_permit_value": 399416.7,
+    "permits_per_capita_1k": 11.59,
     "permit_types": {
-      "PERMIT – EXPRESS PERMIT PROGRAM": 20006,
-      "PERMIT - RENOVATION/ALTERATION": 5402,
-      "PERMIT - SIGNS": 2263,
-      "PERMIT - NEW CONSTRUCTION": 1526,
-      "PERMIT - ELEVATOR EQUIPMENT": 1062,
+      "PERMIT – EXPRESS PERMIT PROGRAM": 20087,
+      "PERMIT - RENOVATION/ALTERATION": 5432,
+      "PERMIT - SIGNS": 2264,
+      "PERMIT - NEW CONSTRUCTION": 1530,
+      "PERMIT - ELEVATOR EQUIPMENT": 1064,
       "PERMIT - WRECKING/DEMOLITION": 701,
-      "PERMIT - REINSTATE REVOKED PMT": 461
+      "PERMIT - REINSTATE REVOKED PMT": 463
     },
     "datasets_count": 9
   },
@@ -527,7 +527,7 @@
     "accela": "available",
     "cdc_places": "available",
     "hud_usps": "unavailable",
-    "census_vacancy": "available"
+    "census_vacancy": "unavailable"
   },
   "provenance": {
     "last_full_probe": "2026-02-09T22:31:14.864266",
@@ -635,7 +635,7 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.cityofchicago.org/resource/ydr8-5enu.json",
-        "probed_at": "2026-05-12T09:00:43.416402",
+        "probed_at": "2026-05-12T14:49:36.557705",
         "data_vintage": "Rolling 12-month window ending 2026-05-12",
         "geographic_level": "place",
         "status": "available",
@@ -682,7 +682,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Chicago",
-        "probed_at": "2026-05-12T09:01:38.316627",
+        "probed_at": "2026-05-12T14:50:35.664631",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -1585,7 +1585,7 @@
   "recent_meetings": [],
   "recent_legislation": [],
   "legistar_url": "https://chicago.legistar.com",
-  "enriched_at": "2026-05-12T08:48:09.316602",
+  "enriched_at": "2026-05-12T14:36:25.091706",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
