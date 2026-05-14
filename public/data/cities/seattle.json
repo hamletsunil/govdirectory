@@ -169,17 +169,17 @@
     "accela_agency_id": "SEATTLE"
   },
   "development": {
-    "permits_12mo": 6337,
-    "yoy_trend_pct": 6.7,
-    "avg_permit_value": 1123866.88,
+    "permits_12mo": 6313,
+    "yoy_trend_pct": 6.2,
+    "avg_permit_value": 1127096.41,
     "permit_types": {
-      "Building": 5359,
-      "Demolition": 507,
-      "Roof": 446,
+      "Building": 5335,
+      "Demolition": 506,
+      "Roof": 447,
       "Grading": 25
     },
     "datasets_count": 10,
-    "permits_per_capita_1k": 8.63
+    "permits_per_capita_1k": 8.59
   },
   "meetings": {
     "official_channels": 1,
@@ -474,8 +474,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.seattle.gov/resource/76t5-zqzr.json",
-        "probed_at": "2026-05-13T20:03:48.803351",
-        "data_vintage": "Rolling 12-month window ending 2026-05-13",
+        "probed_at": "2026-05-14T04:04:22.565833",
+        "data_vintage": "Rolling 12-month window ending 2026-05-14",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -521,7 +521,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Seattle",
-        "probed_at": "2026-05-13T20:04:52.343515",
+        "probed_at": "2026-05-14T04:05:22.102071",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -942,26 +942,10 @@
       "intro_date": "2026-02-17",
       "file_number": "Inf 2840",
       "passed_date": null
-    },
-    {
-      "title": "Seattle Public Library 2019 Levy Background and Overview",
-      "type": "Information Item (Inf)",
-      "status": "Heard in Committee",
-      "intro_date": "2026-02-13",
-      "file_number": "Inf 2839",
-      "passed_date": null
-    },
-    {
-      "title": "Appointment of Steven Zwerin as member, Civil Service Commission, for a term to December 31, 2028.",
-      "type": "Appointment (Appt)",
-      "status": "Filed with City Clerk",
-      "intro_date": "2026-02-13",
-      "file_number": "Appt 03443",
-      "passed_date": null
     }
   ],
   "legistar_url": "https://seattle.legistar.com",
-  "enriched_at": "2026-05-13T20:03:07.832760",
+  "enriched_at": "2026-05-14T04:02:38.941622",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

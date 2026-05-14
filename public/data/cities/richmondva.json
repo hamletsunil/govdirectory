@@ -565,7 +565,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Richmond",
-        "probed_at": "2026-05-13T20:05:19.447179",
+        "probed_at": "2026-05-14T04:05:44.728345",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -999,16 +999,6 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
-    },
-    {
-      "date": "2026-04-13",
-      "body": "City Council",
-      "location": "Council Chamber, 2nd Floor - City Hall",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
     }
   ],
   "recent_legislation": [
@@ -1045,14 +1035,6 @@
       "passed_date": "2026-02-23"
     },
     {
-      "title": "February 9, 2026 Formal Meeting Minutes",
-      "type": "Council Document ",
-      "status": "Minutes to be Approved",
-      "intro_date": "2026-02-18",
-      "file_number": "CD.2026.058",
-      "passed_date": "2026-02-18"
-    },
-    {
       "title": "February 24, 2026 - RAA Annual Report and Updates",
       "type": "Council Document ",
       "status": "Presentation",
@@ -1069,11 +1051,19 @@
       "passed_date": "2026-02-23"
     },
     {
-      "title": "November 19, 2025 - Finance and Economic Development Standing Committee Meeting Minutes",
+      "title": "February 9, 2026 Formal Meeting Minutes",
       "type": "Council Document ",
       "status": "Minutes to be Approved",
+      "intro_date": "2026-02-18",
+      "file_number": "CD.2026.058",
+      "passed_date": "2026-02-18"
+    },
+    {
+      "title": "February 17, 2026 - Land Use, Housing and Transportation Staff Report",
+      "type": "Council Document ",
+      "status": "Filed",
       "intro_date": "2026-02-17",
-      "file_number": "CD.2026.053",
+      "file_number": "CD.2026.052",
       "passed_date": null
     },
     {
@@ -1085,16 +1075,16 @@
       "passed_date": null
     },
     {
-      "title": "DECPR Hagerty Report Follow-up Presentation",
+      "title": "November 19, 2025 - Finance and Economic Development Standing Committee Meeting Minutes",
       "type": "Council Document ",
-      "status": "Presentation",
+      "status": "Minutes to be Approved",
       "intro_date": "2026-02-17",
-      "file_number": "CD.2026.055",
+      "file_number": "CD.2026.053",
       "passed_date": null
     }
   ],
   "legistar_url": "https://richmondva.legistar.com",
-  "enriched_at": "2026-05-13T20:02:56.239972",
+  "enriched_at": "2026-05-14T04:01:28.723718",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
