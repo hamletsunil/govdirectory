@@ -180,14 +180,14 @@
     "accela_agency_id": "MESA"
   },
   "development": {
-    "permits_12mo": 5231,
-    "yoy_trend_pct": 3.4,
-    "avg_permit_value": 497363.0,
-    "permits_per_capita_1k": 10.39,
+    "permits_12mo": 5198,
+    "yoy_trend_pct": 2.7,
+    "avg_permit_value": 501152.33,
+    "permits_per_capita_1k": 10.33,
     "permit_types": {
-      "RES": 3367,
-      "COM": 1393,
-      "SVC": 471
+      "RES": 3342,
+      "COM": 1388,
+      "SVC": 468
     },
     "datasets_count": 10
   },
@@ -491,8 +491,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://citydata.mesaaz.gov/resource/dzpk-hxfb.json",
-        "probed_at": "2026-05-14T20:04:12.415466",
-        "data_vintage": "Rolling 12-month window ending 2026-05-14",
+        "probed_at": "2026-05-15T04:08:46.525601",
+        "data_vintage": "Rolling 12-month window ending 2026-05-15",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -538,7 +538,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Mesa",
-        "probed_at": "2026-05-14T20:05:09.023034",
+        "probed_at": "2026-05-15T04:09:48.411455",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -807,7 +807,7 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-05-14",
+      "date": "2026-05-18",
       "body": "City Council Study Session",
       "location": "Study Session",
       "has_agenda": false,
@@ -820,16 +820,6 @@
       "date": "2026-05-18",
       "body": "City Council",
       "location": "Council Chambers",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
-      "date": "2026-05-18",
-      "body": "City Council Study Session",
-      "location": "Study Session",
       "has_agenda": false,
       "agenda_url": null,
       "has_minutes": false,
@@ -858,8 +848,8 @@
     },
     {
       "date": "2026-06-01",
-      "body": "City Council",
-      "location": "Council Chambers",
+      "body": "City Council Study Session",
+      "location": "Study Session",
       "has_agenda": false,
       "agenda_url": null,
       "has_minutes": false,
@@ -868,8 +858,8 @@
     },
     {
       "date": "2026-06-01",
-      "body": "City Council Study Session",
-      "location": "Study Session",
+      "body": "City Council",
+      "location": "Council Chambers",
       "has_agenda": false,
       "agenda_url": null,
       "has_minutes": false,
@@ -907,7 +897,27 @@
       "upcoming": true
     },
     {
+      "date": "2026-05-14",
+      "body": "City Council Study Session",
+      "location": "Study Session",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
       "date": "2026-05-07",
+      "body": "City Council Study Session",
+      "location": "Study Session",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
+    },
+    {
+      "date": "2026-05-04",
       "body": "City Council Study Session",
       "location": "Study Session",
       "has_agenda": false,
@@ -920,16 +930,6 @@
       "date": "2026-05-04",
       "body": "City Council",
       "location": "Council Chambers",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-05-04",
-      "body": "City Council Study Session",
-      "location": "Study Session",
       "has_agenda": false,
       "agenda_url": null,
       "has_minutes": false,
@@ -1054,7 +1054,7 @@
     }
   ],
   "legistar_url": "https://mesa.legistar.com",
-  "enriched_at": "2026-05-14T19:58:32.843344",
+  "enriched_at": "2026-05-15T04:02:16.297099",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
