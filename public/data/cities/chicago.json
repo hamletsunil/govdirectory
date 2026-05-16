@@ -210,18 +210,18 @@
     "accela_agency_id": "E_CHICAGO"
   },
   "development": {
-    "permits_12mo": 31484,
-    "yoy_trend_pct": -2.2,
-    "avg_permit_value": 397839.57,
-    "permits_per_capita_1k": 11.57,
+    "permits_12mo": 31578,
+    "yoy_trend_pct": -1.9,
+    "avg_permit_value": 396968.44,
+    "permits_per_capita_1k": 11.6,
     "permit_types": {
-      "PERMIT – EXPRESS PERMIT PROGRAM": 20043,
-      "PERMIT - RENOVATION/ALTERATION": 5436,
+      "PERMIT – EXPRESS PERMIT PROGRAM": 20115,
+      "PERMIT - RENOVATION/ALTERATION": 5451,
       "PERMIT - SIGNS": 2260,
-      "PERMIT - NEW CONSTRUCTION": 1529,
+      "PERMIT - NEW CONSTRUCTION": 1532,
       "PERMIT - ELEVATOR EQUIPMENT": 1055,
-      "PERMIT - WRECKING/DEMOLITION": 694,
-      "PERMIT - REINSTATE REVOKED PMT": 467
+      "PERMIT - WRECKING/DEMOLITION": 695,
+      "PERMIT - REINSTATE REVOKED PMT": 470
     },
     "datasets_count": 9
   },
@@ -635,7 +635,7 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.cityofchicago.org/resource/ydr8-5enu.json",
-        "probed_at": "2026-05-16T08:11:53.974064",
+        "probed_at": "2026-05-16T13:50:54.284318",
         "data_vintage": "Rolling 12-month window ending 2026-05-16",
         "geographic_level": "place",
         "status": "available",
@@ -682,7 +682,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Chicago",
-        "probed_at": "2026-05-16T08:13:20.494210",
+        "probed_at": "2026-05-16T13:52:01.206351",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -1585,7 +1585,7 @@
   "recent_meetings": [],
   "recent_legislation": [],
   "legistar_url": "https://chicago.legistar.com",
-  "enriched_at": "2026-05-16T08:09:37.233804",
+  "enriched_at": "2026-05-16T13:42:54.754933",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
