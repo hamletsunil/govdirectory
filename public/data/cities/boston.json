@@ -525,7 +525,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Boston",
-        "probed_at": "2026-05-16T19:15:48.078657",
+        "probed_at": "2026-05-17T04:02:01.344366",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -923,6 +923,16 @@
       "upcoming": true
     },
     {
+      "date": "2026-06-16",
+      "body": "Zoning Board of Appeal",
+      "location": "Room 801, City Hall",
+      "has_agenda": true,
+      "agenda_url": "https://boston.legistar1.com/boston/meetings/2026/6/14023_A_Zoning_Board_of_Appeal_26-06-16_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
       "date": "2026-05-14",
       "body": "BPDA Board of Directors",
       "location": "Room 900, City Hall",
@@ -991,21 +1001,11 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
-    },
-    {
-      "date": "2026-04-16",
-      "body": "BPDA Board of Directors",
-      "location": "Room 900, City Hall",
-      "has_agenda": true,
-      "agenda_url": "https://boston.legistar1.com/boston/meetings/2026/4/13929_A_BPDA_Board_of_Directors_26-04-16_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
     }
   ],
   "recent_legislation": [],
   "legistar_url": "https://boston.legistar.com",
-  "enriched_at": "2026-05-16T19:11:35.686400",
+  "enriched_at": "2026-05-17T03:53:42.936217",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
