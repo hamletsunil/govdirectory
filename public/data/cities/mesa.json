@@ -180,13 +180,13 @@
     "accela_agency_id": "MESA"
   },
   "development": {
-    "permits_12mo": 5226,
-    "yoy_trend_pct": 3.8,
-    "avg_permit_value": 501545.35,
-    "permits_per_capita_1k": 10.38,
+    "permits_12mo": 5221,
+    "yoy_trend_pct": 4.0,
+    "avg_permit_value": 505976.27,
+    "permits_per_capita_1k": 10.37,
     "permit_types": {
-      "RES": 3359,
-      "COM": 1393,
+      "RES": 3356,
+      "COM": 1391,
       "SVC": 474
     },
     "datasets_count": 10
@@ -491,8 +491,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://citydata.mesaaz.gov/resource/dzpk-hxfb.json",
-        "probed_at": "2026-05-17T19:23:23.076332",
-        "data_vintage": "Rolling 12-month window ending 2026-05-17",
+        "probed_at": "2026-05-18T04:10:48.773170",
+        "data_vintage": "Rolling 12-month window ending 2026-05-18",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -538,7 +538,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Mesa",
-        "probed_at": "2026-05-17T19:24:23.002106",
+        "probed_at": "2026-05-18T04:12:01.148045",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -979,14 +979,6 @@
   ],
   "recent_legislation": [
     {
-      "title": "Design Review Board meeting held on January 13, 2026.",
-      "type": "Minutes",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-19",
-      "file_number": "26-0222",
-      "passed_date": null
-    },
-    {
       "title": "Three-Year Term Contract with Two-Year Renewal Options for Traffic Signal Loop Detection Installation Services for the Transportation Department (Single Response) (Citywide)\n \nThis contract is for the",
       "type": "Contract",
       "status": "Agenda Ready",
@@ -1035,16 +1027,16 @@
       "passed_date": null
     },
     {
-      "title": "Approving and authorizing the City Manager or designee to enter into the Power Purchase and Energy Storage Agreement for the Pinal Solar Project (\"Project\") with Arizona Electric Power Cooperative (\"A",
-      "type": "Resolution",
+      "title": "Design Review Board meeting held on January 13, 2026.",
+      "type": "Minutes",
       "status": "Agenda Ready",
-      "intro_date": "2026-02-17",
-      "file_number": "26-0208",
+      "intro_date": "2026-02-19",
+      "file_number": "26-0222",
       "passed_date": null
     }
   ],
   "legistar_url": "https://mesa.legistar.com",
-  "enriched_at": "2026-05-17T19:19:56.295677",
+  "enriched_at": "2026-05-18T04:08:24.460986",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
