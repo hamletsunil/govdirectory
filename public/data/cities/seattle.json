@@ -169,17 +169,17 @@
     "accela_agency_id": "SEATTLE"
   },
   "development": {
-    "permits_12mo": 6342,
-    "yoy_trend_pct": 6.7,
-    "avg_permit_value": 1125979.72,
+    "permits_12mo": 6324,
+    "yoy_trend_pct": 6.3,
+    "avg_permit_value": 1128808.94,
     "permit_types": {
-      "Building": 5362,
-      "Demolition": 508,
-      "Roof": 447,
-      "Grading": 25
+      "Building": 5355,
+      "Demolition": 502,
+      "Roof": 443,
+      "Grading": 24
     },
     "datasets_count": 10,
-    "permits_per_capita_1k": 8.63
+    "permits_per_capita_1k": 8.61
   },
   "meetings": {
     "official_channels": 1,
@@ -474,8 +474,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.seattle.gov/resource/76t5-zqzr.json",
-        "probed_at": "2026-05-18T20:02:44.697906",
-        "data_vintage": "Rolling 12-month window ending 2026-05-18",
+        "probed_at": "2026-05-19T04:12:02.755032",
+        "data_vintage": "Rolling 12-month window ending 2026-05-19",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -521,7 +521,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Seattle",
-        "probed_at": "2026-05-18T20:03:31.949694",
+        "probed_at": "2026-05-19T04:13:00.714801",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -926,18 +926,10 @@
       "intro_date": "2026-02-19",
       "file_number": "Inf 2843",
       "passed_date": null
-    },
-    {
-      "title": "Sound Transit Expansion Program Update",
-      "type": "Information Item (Inf)",
-      "status": "Committee Agenda Ready",
-      "intro_date": "2026-02-18",
-      "file_number": "Inf 2842",
-      "passed_date": null
     }
   ],
   "legistar_url": "https://seattle.legistar.com",
-  "enriched_at": "2026-05-18T20:01:10.166004",
+  "enriched_at": "2026-05-19T04:10:19.310428",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

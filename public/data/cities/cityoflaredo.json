@@ -517,7 +517,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Laredo",
-        "probed_at": "2026-05-18T20:03:49.191277",
+        "probed_at": "2026-05-19T04:13:21.934148",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -869,16 +869,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-05-18",
-      "body": "City Council",
-      "location": "City Council Chambers",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-06-01",
       "body": "City Council",
       "location": "City Council Chambers",
@@ -897,6 +887,16 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": true
+    },
+    {
+      "date": "2026-05-18",
+      "body": "City Council",
+      "location": "City Council Chambers",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     },
     {
       "date": "2026-05-04",
@@ -945,22 +945,6 @@
       "passed_date": null
     },
     {
-      "title": "Presentation with possible adoption of the City's Efficiency Study, and its related fiscal and operational implications.",
-      "type": "Staff Report",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-19",
-      "file_number": "26-420",
-      "passed_date": null
-    },
-    {
-      "title": "Discussion with possible action on Governance Manual, specifically Chapter 3 focused on Council Meetings, Agendas, and Directives, consolidating the City’s Protocol Handbook and Priority Procedures.",
-      "type": "Staff Report",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-19",
-      "file_number": "26-421",
-      "passed_date": null
-    },
-    {
       "title": "Presentation by Mayor Dr. Victor Trevino, providing general comments on city matters, upcoming initiatives, and other relevant updates for the Council and the public.",
       "type": "Communications",
       "status": "Agenda Ready",
@@ -993,16 +977,24 @@
       "passed_date": null
     },
     {
-      "title": "An Ordinance of the City of Laredo adopting and implementing the Laredo International Airport’s revised Noise Compatibility Program (NCP) in concurrence with the Federal Aviation Administration (FAA) ",
-      "type": "Final Readings",
+      "title": "Presentation with possible adoption of the City's Efficiency Study, and its related fiscal and operational implications.",
+      "type": "Staff Report",
       "status": "Agenda Ready",
-      "intro_date": "2026-02-18",
-      "file_number": "2026-O-32",
+      "intro_date": "2026-02-19",
+      "file_number": "26-420",
+      "passed_date": null
+    },
+    {
+      "title": "Discussion with possible action on Governance Manual, specifically Chapter 3 focused on Council Meetings, Agendas, and Directives, consolidating the City’s Protocol Handbook and Priority Procedures.",
+      "type": "Staff Report",
+      "status": "Agenda Ready",
+      "intro_date": "2026-02-19",
+      "file_number": "26-421",
       "passed_date": null
     }
   ],
   "legistar_url": "https://cityoflaredo.legistar.com",
-  "enriched_at": "2026-05-18T19:51:50.501319",
+  "enriched_at": "2026-05-19T04:01:45.172531",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
