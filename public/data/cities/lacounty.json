@@ -559,7 +559,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Los%20Angeles%20County",
-        "probed_at": "2026-05-19T20:01:29.762849",
+        "probed_at": "2026-05-20T04:12:41.718417",
         "data_vintage": "BRFSS None",
         "geographic_level": "place",
         "status": "unavailable"
@@ -904,11 +904,35 @@
   "recent_meetings": [],
   "recent_legislation": [
     {
-      "title": "Adjournment for the Special meeting of February 26, 2026.",
-      "type": "ComAdjournments",
+      "title": "Video for the entire meeting.",
+      "type": "ComReport",
       "status": "On Agenda",
       "intro_date": "2026-02-20",
-      "file_number": "26-1364",
+      "file_number": "26-1351",
+      "passed_date": null
+    },
+    {
+      "title": "AUDIO FOR THE ENTIRE MEETING",
+      "type": "ComAdministrative",
+      "status": "Filed",
+      "intro_date": "2026-02-20",
+      "file_number": "26-1352",
+      "passed_date": "2026-02-13"
+    },
+    {
+      "title": "Call to Order, Welcome, LA County Land Acknowledgement, and Roll Call.\r\n\r\nThe County of Los Angeles recognizes that we occupy land originally and still inhabited and cared for by the Tongva (TONG+VUH)",
+      "type": "ComAdministrative",
+      "status": "On Agenda",
+      "intro_date": "2026-02-20",
+      "file_number": "26-1354",
+      "passed_date": null
+    },
+    {
+      "title": "Presentation and consideration of a grant request from the County of Los Angeles Department of Parks and Recreation, in the amount of $31,000.00, to support the Apollo Park Youth Fishing Derby, schedu",
+      "type": "ComPresentation",
+      "status": "On Agenda",
+      "intro_date": "2026-02-20",
+      "file_number": "26-1355",
       "passed_date": null
     },
     {
@@ -958,34 +982,10 @@
       "intro_date": "2026-02-20",
       "file_number": "26-1362",
       "passed_date": null
-    },
-    {
-      "title": "Opportunity for members of the public to address the Commission on items of interest that are within the jurisdiction of the Commission.",
-      "type": "ComPublicComment",
-      "status": "On Agenda",
-      "intro_date": "2026-02-20",
-      "file_number": "26-1363",
-      "passed_date": null
-    },
-    {
-      "title": "Video for the entire meeting.",
-      "type": "ComReport",
-      "status": "On Agenda",
-      "intro_date": "2026-02-20",
-      "file_number": "26-1351",
-      "passed_date": null
-    },
-    {
-      "title": "AUDIO FOR THE ENTIRE MEETING",
-      "type": "ComAdministrative",
-      "status": "Filed",
-      "intro_date": "2026-02-20",
-      "file_number": "26-1352",
-      "passed_date": "2026-02-13"
     }
   ],
   "legistar_url": "https://lacounty.legistar.com",
-  "enriched_at": "2026-05-19T19:56:46.353609",
+  "enriched_at": "2026-05-20T04:04:30.481528",
   "government_news": [],
   "video_meetings": [
     {

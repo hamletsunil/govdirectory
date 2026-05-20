@@ -180,14 +180,14 @@
     "accela_agency_id": "MESA"
   },
   "development": {
-    "permits_12mo": 5191,
-    "yoy_trend_pct": 3.5,
-    "avg_permit_value": 508479.38,
-    "permits_per_capita_1k": 10.31,
+    "permits_12mo": 5184,
+    "yoy_trend_pct": 2.8,
+    "avg_permit_value": 325650.04,
+    "permits_per_capita_1k": 10.3,
     "permit_types": {
-      "RES": 3340,
-      "COM": 1378,
-      "SVC": 473
+      "RES": 3332,
+      "COM": 1381,
+      "SVC": 471
     },
     "datasets_count": 10
   },
@@ -491,8 +491,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://citydata.mesaaz.gov/resource/dzpk-hxfb.json",
-        "probed_at": "2026-05-19T19:57:53.761823",
-        "data_vintage": "Rolling 12-month window ending 2026-05-19",
+        "probed_at": "2026-05-20T04:10:01.185646",
+        "data_vintage": "Rolling 12-month window ending 2026-05-20",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -538,7 +538,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Mesa",
-        "probed_at": "2026-05-19T19:58:57.831385",
+        "probed_at": "2026-05-20T04:10:58.237219",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -977,66 +977,9 @@
       "upcoming": false
     }
   ],
-  "recent_legislation": [
-    {
-      "title": "Three-Year Term Contract with Two-Year Renewal Options for Traffic Signal Loop Detection Installation Services for the Transportation Department (Single Response) (Citywide)\n \nThis contract is for the",
-      "type": "Contract",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-19",
-      "file_number": "26-0214",
-      "passed_date": null
-    },
-    {
-      "title": "Use of a Cooperative Contract for the Purchase of 150 Ballistic Helmets (Replacement) for the Mesa Police Department (Citywide)\n \nThis contract will be used to purchase 150 ballistic helmets with face",
-      "type": "Contract",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-19",
-      "file_number": "26-0215",
-      "passed_date": null
-    },
-    {
-      "title": "Dollar Limit Increase to the Term Contract for Landscape Maintenance Services for City Facilities (Zone 7) for the Facilities Management Department (Council Districts 1, 2, 5, and 6)\n \nA dollar limit ",
-      "type": "Contract",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-19",
-      "file_number": "26-0216",
-      "passed_date": null
-    },
-    {
-      "title": "Dollar Limit Increase to the Term Contract for Safety and Medical Supplies for the Mesa Police and Public Safety Support Departments (Citywide)\r\n \r\nThe Mesa Police and Public Safety Support Department",
-      "type": "Contract",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-19",
-      "file_number": "26-0217",
-      "passed_date": null
-    },
-    {
-      "title": "Three-Year Term Use of a Cooperative Contract for Pavement Management Services for the Transportation Department (Citywide)\n \nThe Transportation Department is leveraging advancements in pavement manag",
-      "type": "Contract",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-19",
-      "file_number": "26-0218",
-      "passed_date": null
-    },
-    {
-      "title": "Zax Cigar Bar\n \nA cigar bar is requesting a new Series 7 Beer & Wine Bar License for Jakub LLC, 7310 East Main Street - Zachary Ryan Jakubowski, Agent. There is no existing license at this location. (",
-      "type": "Liquor License Application",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-19",
-      "file_number": "26-0219",
-      "passed_date": null
-    },
-    {
-      "title": "Design Review Board meeting held on January 13, 2026.",
-      "type": "Minutes",
-      "status": "Agenda Ready",
-      "intro_date": "2026-02-19",
-      "file_number": "26-0222",
-      "passed_date": null
-    }
-  ],
+  "recent_legislation": [],
   "legistar_url": "https://mesa.legistar.com",
-  "enriched_at": "2026-05-19T19:56:49.446610",
+  "enriched_at": "2026-05-20T04:05:24.493595",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

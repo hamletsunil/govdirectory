@@ -169,17 +169,17 @@
     "accela_agency_id": "SEATTLE"
   },
   "development": {
-    "permits_12mo": 6324,
-    "yoy_trend_pct": 6.3,
-    "avg_permit_value": 1128808.94,
+    "permits_12mo": 6320,
+    "yoy_trend_pct": 6.0,
+    "avg_permit_value": 1128684.64,
     "permit_types": {
-      "Building": 5355,
-      "Demolition": 502,
-      "Roof": 443,
+      "Building": 5351,
+      "Demolition": 501,
+      "Roof": 444,
       "Grading": 24
     },
     "datasets_count": 10,
-    "permits_per_capita_1k": 8.61
+    "permits_per_capita_1k": 8.6
   },
   "meetings": {
     "official_channels": 1,
@@ -474,8 +474,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.seattle.gov/resource/76t5-zqzr.json",
-        "probed_at": "2026-05-19T19:57:40.372991",
-        "data_vintage": "Rolling 12-month window ending 2026-05-19",
+        "probed_at": "2026-05-20T04:09:54.113436",
+        "data_vintage": "Rolling 12-month window ending 2026-05-20",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -521,7 +521,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Seattle",
-        "probed_at": "2026-05-19T19:58:49.169125",
+        "probed_at": "2026-05-20T04:10:52.056659",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -918,18 +918,9 @@
     ]
   },
   "recent_meetings": [],
-  "recent_legislation": [
-    {
-      "title": "Alternative Response Overview in Seattle’s Public Safety Department",
-      "type": "Information Item (Inf)",
-      "status": "Committee Agenda Ready",
-      "intro_date": "2026-02-19",
-      "file_number": "Inf 2843",
-      "passed_date": null
-    }
-  ],
+  "recent_legislation": [],
   "legistar_url": "https://seattle.legistar.com",
-  "enriched_at": "2026-05-19T19:56:59.221763",
+  "enriched_at": "2026-05-20T04:08:18.886956",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
