@@ -210,17 +210,17 @@
     "accela_agency_id": "E_CHICAGO"
   },
   "development": {
-    "permits_12mo": 31611,
-    "yoy_trend_pct": -1.8,
-    "avg_permit_value": 397188.96,
-    "permits_per_capita_1k": 11.61,
+    "permits_12mo": 31468,
+    "yoy_trend_pct": -2.2,
+    "avg_permit_value": 398406.16,
+    "permits_per_capita_1k": 11.56,
     "permit_types": {
-      "PERMIT – EXPRESS PERMIT PROGRAM": 20107,
-      "PERMIT - RENOVATION/ALTERATION": 5457,
-      "PERMIT - SIGNS": 2294,
-      "PERMIT - NEW CONSTRUCTION": 1536,
-      "PERMIT - ELEVATOR EQUIPMENT": 1056,
-      "PERMIT - WRECKING/DEMOLITION": 696,
+      "PERMIT – EXPRESS PERMIT PROGRAM": 20032,
+      "PERMIT - RENOVATION/ALTERATION": 5422,
+      "PERMIT - SIGNS": 2279,
+      "PERMIT - NEW CONSTRUCTION": 1531,
+      "PERMIT - ELEVATOR EQUIPMENT": 1047,
+      "PERMIT - WRECKING/DEMOLITION": 692,
       "PERMIT - REINSTATE REVOKED PMT": 465
     },
     "datasets_count": 9
@@ -635,8 +635,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.cityofchicago.org/resource/ydr8-5enu.json",
-        "probed_at": "2026-05-20T20:25:18.719420",
-        "data_vintage": "Rolling 12-month window ending 2026-05-20",
+        "probed_at": "2026-05-21T04:12:34.059496",
+        "data_vintage": "Rolling 12-month window ending 2026-05-21",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -682,7 +682,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Chicago",
-        "probed_at": "2026-05-20T20:26:36.596937",
+        "probed_at": "2026-05-21T04:13:53.064864",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -1585,7 +1585,7 @@
   "recent_meetings": [],
   "recent_legislation": [],
   "legistar_url": "https://chicago.legistar.com",
-  "enriched_at": "2026-05-20T20:23:03.593729",
+  "enriched_at": "2026-05-21T04:09:34.765892",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
