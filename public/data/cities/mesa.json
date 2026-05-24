@@ -180,14 +180,14 @@
     "accela_agency_id": "MESA"
   },
   "development": {
-    "permits_12mo": 5247,
-    "yoy_trend_pct": 4.1,
-    "avg_permit_value": 501661.99,
-    "permits_per_capita_1k": 10.42,
+    "permits_12mo": 5261,
+    "yoy_trend_pct": 4.6,
+    "avg_permit_value": 500454.45,
+    "permits_per_capita_1k": 10.45,
     "permit_types": {
-      "RES": 3391,
+      "RES": 3403,
       "COM": 1389,
-      "SVC": 467
+      "SVC": 469
     },
     "datasets_count": 10
   },
@@ -491,8 +491,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://citydata.mesaaz.gov/resource/dzpk-hxfb.json",
-        "probed_at": "2026-05-23T19:31:54.383573",
-        "data_vintage": "Rolling 12-month window ending 2026-05-23",
+        "probed_at": "2026-05-24T04:13:22.659512",
+        "data_vintage": "Rolling 12-month window ending 2026-05-24",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -538,7 +538,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Mesa",
-        "probed_at": "2026-05-23T19:32:47.799896",
+        "probed_at": "2026-05-24T04:14:08.781204",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -918,8 +918,8 @@
     },
     {
       "date": "2026-05-04",
-      "body": "City Council",
-      "location": "Council Chambers",
+      "body": "City Council Study Session",
+      "location": "Study Session",
       "has_agenda": false,
       "agenda_url": null,
       "has_minutes": false,
@@ -928,8 +928,8 @@
     },
     {
       "date": "2026-05-04",
-      "body": "City Council Study Session",
-      "location": "Study Session",
+      "body": "City Council",
+      "location": "Council Chambers",
       "has_agenda": false,
       "agenda_url": null,
       "has_minutes": false,
@@ -945,21 +945,11 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
-    },
-    {
-      "date": "2026-04-23",
-      "body": "City Council Study Session",
-      "location": "Study Session",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
     }
   ],
   "recent_legislation": [],
   "legistar_url": "https://mesa.legistar.com",
-  "enriched_at": "2026-05-23T19:25:36.871299",
+  "enriched_at": "2026-05-24T04:08:39.073372",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
