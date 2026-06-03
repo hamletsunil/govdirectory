@@ -210,18 +210,18 @@
     "accela_agency_id": "E_CHICAGO"
   },
   "development": {
-    "permits_12mo": 31442,
-    "yoy_trend_pct": -1.9,
-    "avg_permit_value": 390804.9,
-    "permits_per_capita_1k": 11.55,
+    "permits_12mo": 31579,
+    "yoy_trend_pct": -1.5,
+    "avg_permit_value": 389690.31,
+    "permits_per_capita_1k": 11.6,
     "permit_types": {
-      "PERMIT – EXPRESS PERMIT PROGRAM": 20033,
-      "PERMIT - RENOVATION/ALTERATION": 5382,
-      "PERMIT - SIGNS": 2275,
-      "PERMIT - NEW CONSTRUCTION": 1518,
-      "PERMIT - ELEVATOR EQUIPMENT": 1064,
-      "PERMIT - WRECKING/DEMOLITION": 708,
-      "PERMIT - REINSTATE REVOKED PMT": 462
+      "PERMIT – EXPRESS PERMIT PROGRAM": 20135,
+      "PERMIT - RENOVATION/ALTERATION": 5402,
+      "PERMIT - SIGNS": 2281,
+      "PERMIT - NEW CONSTRUCTION": 1523,
+      "PERMIT - ELEVATOR EQUIPMENT": 1063,
+      "PERMIT - WRECKING/DEMOLITION": 711,
+      "PERMIT - REINSTATE REVOKED PMT": 464
     },
     "datasets_count": 9
   },
@@ -635,7 +635,7 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.cityofchicago.org/resource/ydr8-5enu.json",
-        "probed_at": "2026-06-03T11:19:56.676978",
+        "probed_at": "2026-06-03T16:58:26.998092",
         "data_vintage": "Rolling 12-month window ending 2026-06-03",
         "geographic_level": "place",
         "status": "available",
@@ -682,7 +682,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Chicago",
-        "probed_at": "2026-06-03T11:20:50.653451",
+        "probed_at": "2026-06-03T16:59:38.587909",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -1585,7 +1585,7 @@
   "recent_meetings": [],
   "recent_legislation": [],
   "legistar_url": "https://chicago.legistar.com",
-  "enriched_at": "2026-06-03T11:10:01.490372",
+  "enriched_at": "2026-06-03T16:57:52.426536",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
