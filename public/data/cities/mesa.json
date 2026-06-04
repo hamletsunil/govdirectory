@@ -180,13 +180,13 @@
     "accela_agency_id": "MESA"
   },
   "development": {
-    "permits_12mo": 5282,
-    "yoy_trend_pct": 4.7,
-    "avg_permit_value": 508236.54,
-    "permits_per_capita_1k": 10.49,
+    "permits_12mo": 5262,
+    "yoy_trend_pct": 4.1,
+    "avg_permit_value": 509727.05,
+    "permits_per_capita_1k": 10.45,
     "permit_types": {
-      "RES": 3406,
-      "COM": 1407,
+      "RES": 3393,
+      "COM": 1400,
       "SVC": 469
     },
     "datasets_count": 10
@@ -491,8 +491,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://citydata.mesaaz.gov/resource/dzpk-hxfb.json",
-        "probed_at": "2026-06-03T21:32:43.127159",
-        "data_vintage": "Rolling 12-month window ending 2026-06-03",
+        "probed_at": "2026-06-04T04:37:35.522548",
+        "data_vintage": "Rolling 12-month window ending 2026-06-04",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -538,7 +538,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Mesa",
-        "probed_at": "2026-06-03T21:33:39.743580",
+        "probed_at": "2026-06-04T04:38:20.822343",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -915,31 +915,11 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
-    },
-    {
-      "date": "2026-05-04",
-      "body": "City Council",
-      "location": "Council Chambers",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
-    },
-    {
-      "date": "2026-05-04",
-      "body": "City Council Study Session",
-      "location": "Study Session",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
     }
   ],
   "recent_legislation": [],
   "legistar_url": "https://mesa.legistar.com",
-  "enriched_at": "2026-06-03T21:27:09.474985",
+  "enriched_at": "2026-06-04T04:33:21.980865",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

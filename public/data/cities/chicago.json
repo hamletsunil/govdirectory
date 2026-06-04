@@ -210,17 +210,17 @@
     "accela_agency_id": "E_CHICAGO"
   },
   "development": {
-    "permits_12mo": 31579,
-    "yoy_trend_pct": -1.5,
-    "avg_permit_value": 389690.31,
-    "permits_per_capita_1k": 11.6,
+    "permits_12mo": 31431,
+    "yoy_trend_pct": -1.8,
+    "avg_permit_value": 390898.24,
+    "permits_per_capita_1k": 11.55,
     "permit_types": {
-      "PERMIT – EXPRESS PERMIT PROGRAM": 20135,
-      "PERMIT - RENOVATION/ALTERATION": 5402,
-      "PERMIT - SIGNS": 2281,
-      "PERMIT - NEW CONSTRUCTION": 1523,
-      "PERMIT - ELEVATOR EQUIPMENT": 1063,
-      "PERMIT - WRECKING/DEMOLITION": 711,
+      "PERMIT – EXPRESS PERMIT PROGRAM": 20049,
+      "PERMIT - RENOVATION/ALTERATION": 5370,
+      "PERMIT - SIGNS": 2264,
+      "PERMIT - NEW CONSTRUCTION": 1518,
+      "PERMIT - ELEVATOR EQUIPMENT": 1056,
+      "PERMIT - WRECKING/DEMOLITION": 710,
       "PERMIT - REINSTATE REVOKED PMT": 464
     },
     "datasets_count": 9
@@ -635,8 +635,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.cityofchicago.org/resource/ydr8-5enu.json",
-        "probed_at": "2026-06-03T21:32:20.008781",
-        "data_vintage": "Rolling 12-month window ending 2026-06-03",
+        "probed_at": "2026-06-04T04:37:16.551830",
+        "data_vintage": "Rolling 12-month window ending 2026-06-04",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -682,7 +682,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Chicago",
-        "probed_at": "2026-06-03T21:33:27.992912",
+        "probed_at": "2026-06-04T04:38:10.576198",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -1585,7 +1585,7 @@
   "recent_meetings": [],
   "recent_legislation": [],
   "legistar_url": "https://chicago.legistar.com",
-  "enriched_at": "2026-06-03T21:21:32.278796",
+  "enriched_at": "2026-06-04T04:29:14.066793",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
