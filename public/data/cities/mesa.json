@@ -180,14 +180,14 @@
     "accela_agency_id": "MESA"
   },
   "development": {
-    "permits_12mo": 5289,
-    "yoy_trend_pct": 4.1,
-    "avg_permit_value": 510762.15,
-    "permits_per_capita_1k": 10.51,
+    "permits_12mo": 5294,
+    "yoy_trend_pct": 4.5,
+    "avg_permit_value": 510355.13,
+    "permits_per_capita_1k": 10.52,
     "permit_types": {
-      "RES": 3413,
-      "COM": 1405,
-      "SVC": 471
+      "RES": 3418,
+      "COM": 1406,
+      "SVC": 470
     },
     "datasets_count": 10
   },
@@ -491,8 +491,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://citydata.mesaaz.gov/resource/dzpk-hxfb.json",
-        "probed_at": "2026-06-06T19:48:21.902709",
-        "data_vintage": "Rolling 12-month window ending 2026-06-06",
+        "probed_at": "2026-06-07T04:21:46.628473",
+        "data_vintage": "Rolling 12-month window ending 2026-06-07",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -538,7 +538,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Mesa",
-        "probed_at": "2026-06-06T19:49:13.371807",
+        "probed_at": "2026-06-07T04:22:57.792353",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -905,21 +905,11 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
-    },
-    {
-      "date": "2026-05-07",
-      "body": "City Council Study Session",
-      "location": "Study Session",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
     }
   ],
   "recent_legislation": [],
   "legistar_url": "https://mesa.legistar.com",
-  "enriched_at": "2026-06-06T19:43:51.891608",
+  "enriched_at": "2026-06-07T04:20:54.599094",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
