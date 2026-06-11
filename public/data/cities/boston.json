@@ -525,7 +525,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Boston",
-        "probed_at": "2026-06-10T20:46:33.760113",
+        "probed_at": "2026-06-11T04:31:50.059756",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -873,16 +873,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-06-10",
-      "body": "Boston School Committee",
-      "location": "Bolling Building",
-      "has_agenda": true,
-      "agenda_url": "https://boston.legistar1.com/boston/meetings/2026/6/14054_A_Boston_School_Committee_26-06-10_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-06-16",
       "body": "Zoning Board of Appeal",
       "location": "Room 801, City Hall",
@@ -931,6 +921,16 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": true
+    },
+    {
+      "date": "2026-06-10",
+      "body": "Boston School Committee",
+      "location": "Bolling Building",
+      "has_agenda": true,
+      "agenda_url": "https://boston.legistar1.com/boston/meetings/2026/6/14054_A_Boston_School_Committee_26-06-10_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     },
     {
       "date": "2026-06-02",
@@ -995,7 +995,7 @@
   ],
   "recent_legislation": [],
   "legistar_url": "https://boston.legistar.com",
-  "enriched_at": "2026-06-10T20:36:01.455661",
+  "enriched_at": "2026-06-11T04:22:06.664334",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
