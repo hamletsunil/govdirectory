@@ -190,26 +190,26 @@
     "accela_agency_id": null
   },
   "development": {
-    "permits_12mo": 3943,
-    "yoy_trend_pct": -10.0,
+    "permits_12mo": 3956,
+    "yoy_trend_pct": -9.7,
     "avg_permit_value": null,
-    "permits_per_capita_1k": 24.9,
+    "permits_per_capita_1k": 24.98,
     "permit_types": {
-      "ELECTRICAL RESIDENTIAL": 958,
-      "PLUMBING": 487,
-      "REROOF": 359,
-      "MECHANICAL RESIDENTIAL": 327,
+      "ELECTRICAL RESIDENTIAL": 960,
+      "PLUMBING": 489,
+      "REROOF": 361,
+      "MECHANICAL RESIDENTIAL": 330,
       "FENCE WALL PERMITS": 195,
       "SYMBIUM SOLAR": 194,
       "BUILDING RESIDENTIAL": 147,
       "OVERHEAD FIRE SPRINKLERS": 145,
-      "WATER HEATER SAME LOCATION": 130,
+      "WATER HEATER SAME LOCATION": 132,
       "COMMERCIAL ALTERATION": 127,
       "SINGLE FAMILY ALTERATION": 97,
       "BUILDING SIGN PERMIT": 92,
       "PATIO AND BALCONY RESIDENTIAL": 87,
       "SINGLE FAMILY ADU": 87,
-      "POOL": 70
+      "POOL": 71
     },
     "datasets_count": 10
   },
@@ -525,7 +525,7 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://corstat.coronaca.gov/resource/2agx-camz.json",
-        "probed_at": "2026-06-16T01:31:57.308210",
+        "probed_at": "2026-06-16T08:20:54.737589",
         "data_vintage": "Rolling 12-month window ending 2026-06-16",
         "geographic_level": "place",
         "status": "available",
@@ -572,7 +572,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Corona",
-        "probed_at": "2026-06-16T01:32:56.811518",
+        "probed_at": "2026-06-16T08:21:48.920142",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -873,7 +873,7 @@
   "recent_meetings": [],
   "recent_legislation": [],
   "legistar_url": "https://corona.legistar.com",
-  "enriched_at": "2026-06-16T01:21:34.013841",
+  "enriched_at": "2026-06-16T08:12:27.913649",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
