@@ -180,14 +180,14 @@
     "accela_agency_id": "MESA"
   },
   "development": {
-    "permits_12mo": 5279,
-    "yoy_trend_pct": 3.8,
-    "avg_permit_value": 356888.08,
-    "permits_per_capita_1k": 10.49,
+    "permits_12mo": 5253,
+    "yoy_trend_pct": 3.3,
+    "avg_permit_value": 357930.31,
+    "permits_per_capita_1k": 10.44,
     "permit_types": {
-      "RES": 3415,
-      "COM": 1397,
-      "SVC": 467
+      "RES": 3400,
+      "COM": 1390,
+      "SVC": 463
     },
     "datasets_count": 10
   },
@@ -491,8 +491,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://citydata.mesaaz.gov/resource/dzpk-hxfb.json",
-        "probed_at": "2026-06-15T19:26:21.392372",
-        "data_vintage": "Rolling 12-month window ending 2026-06-15",
+        "probed_at": "2026-06-16T01:31:33.582990",
+        "data_vintage": "Rolling 12-month window ending 2026-06-16",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -538,7 +538,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Mesa",
-        "probed_at": "2026-06-15T19:27:25.517926",
+        "probed_at": "2026-06-16T01:32:27.030367",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -807,6 +807,16 @@
   },
   "recent_meetings": [
     {
+      "date": "2026-07-16",
+      "body": "City Council Study Session",
+      "location": "Study Session",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    },
+    {
       "date": "2026-06-08",
       "body": "City Council Study Session",
       "location": "Study Session",
@@ -899,7 +909,7 @@
   ],
   "recent_legislation": [],
   "legistar_url": "https://mesa.legistar.com",
-  "enriched_at": "2026-06-15T19:25:37.282126",
+  "enriched_at": "2026-06-16T01:25:27.115250",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
