@@ -525,7 +525,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Boston",
-        "probed_at": "2026-06-18T19:11:16.238081",
+        "probed_at": "2026-06-19T01:22:46.366784",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -873,16 +873,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-06-18",
-      "body": "BPDA Board of Directors",
-      "location": "Room 900, City Hall",
-      "has_agenda": true,
-      "agenda_url": "https://boston.legistar1.com/boston/meetings/2026/6/13931_A_BPDA_Board_of_Directors_26-06-18_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-06-24",
       "body": "Public Facilities",
       "location": "Room 801, City Hall",
@@ -931,6 +921,16 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": true
+    },
+    {
+      "date": "2026-06-18",
+      "body": "BPDA Board of Directors",
+      "location": "Room 900, City Hall",
+      "has_agenda": true,
+      "agenda_url": "https://boston.legistar1.com/boston/meetings/2026/6/13931_A_BPDA_Board_of_Directors_26-06-18_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     },
     {
       "date": "2026-06-17",
@@ -991,21 +991,11 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
-    },
-    {
-      "date": "2026-05-19",
-      "body": "Zoning Board of Appeal",
-      "location": "Room 801, City Hall",
-      "has_agenda": true,
-      "agenda_url": "https://boston.legistar1.com/boston/meetings/2026/5/14021_A_Zoning_Board_of_Appeal_26-05-19_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
     }
   ],
   "recent_legislation": [],
   "legistar_url": "https://boston.legistar.com",
-  "enriched_at": "2026-06-18T18:56:44.794872",
+  "enriched_at": "2026-06-19T01:17:40.842126",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
