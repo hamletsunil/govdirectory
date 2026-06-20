@@ -210,18 +210,18 @@
     "accela_agency_id": "E_CHICAGO"
   },
   "development": {
-    "permits_12mo": 31440,
+    "permits_12mo": 31380,
     "yoy_trend_pct": -2.0,
-    "avg_permit_value": 396438.75,
-    "permits_per_capita_1k": 11.55,
+    "avg_permit_value": 397178.94,
+    "permits_per_capita_1k": 11.53,
     "permit_types": {
-      "PERMIT – EXPRESS PERMIT PROGRAM": 20145,
+      "PERMIT – EXPRESS PERMIT PROGRAM": 20093,
       "PERMIT - RENOVATION/ALTERATION": 5348,
       "PERMIT - SIGNS": 2231,
-      "PERMIT - NEW CONSTRUCTION": 1481,
+      "PERMIT - NEW CONSTRUCTION": 1480,
       "PERMIT - ELEVATOR EQUIPMENT": 1059,
-      "PERMIT - WRECKING/DEMOLITION": 721,
-      "PERMIT - REINSTATE REVOKED PMT": 455
+      "PERMIT - WRECKING/DEMOLITION": 715,
+      "PERMIT - REINSTATE REVOKED PMT": 454
     },
     "datasets_count": 9
   },
@@ -635,8 +635,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.cityofchicago.org/resource/ydr8-5enu.json",
-        "probed_at": "2026-06-19T18:49:42.613835",
-        "data_vintage": "Rolling 12-month window ending 2026-06-19",
+        "probed_at": "2026-06-20T01:16:09.071327",
+        "data_vintage": "Rolling 12-month window ending 2026-06-20",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -682,7 +682,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Chicago",
-        "probed_at": "2026-06-19T18:50:52.531112",
+        "probed_at": "2026-06-20T01:16:58.860768",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -1585,7 +1585,7 @@
   "recent_meetings": [],
   "recent_legislation": [],
   "legistar_url": "https://chicago.legistar.com",
-  "enriched_at": "2026-06-19T18:45:35.654249",
+  "enriched_at": "2026-06-20T01:07:45.336297",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
