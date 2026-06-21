@@ -568,7 +568,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Murrieta",
-        "probed_at": "2026-06-20T18:53:21.684315",
+        "probed_at": "2026-06-21T01:31:10.084273",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -866,10 +866,21 @@
       }
     ]
   },
-  "recent_meetings": [],
+  "recent_meetings": [
+    {
+      "date": "2026-07-21",
+      "body": "City Council",
+      "location": "Council Chambers\r\n1 Town Square\r\nMurrieta, CA 92562",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": true
+    }
+  ],
   "recent_legislation": [],
   "legistar_url": "https://murrieta.legistar.com",
-  "enriched_at": "2026-06-20T18:46:49.353548",
+  "enriched_at": "2026-06-21T01:24:12.855310",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
