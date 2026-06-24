@@ -210,18 +210,18 @@
     "accela_agency_id": "E_CHICAGO"
   },
   "development": {
-    "permits_12mo": 31393,
-    "yoy_trend_pct": -1.4,
-    "avg_permit_value": 398847.88,
-    "permits_per_capita_1k": 11.53,
+    "permits_12mo": 31261,
+    "yoy_trend_pct": -2.2,
+    "avg_permit_value": 399744.17,
+    "permits_per_capita_1k": 11.48,
     "permit_types": {
-      "PERMIT – EXPRESS PERMIT PROGRAM": 20142,
-      "PERMIT - RENOVATION/ALTERATION": 5355,
-      "PERMIT - SIGNS": 2191,
-      "PERMIT - NEW CONSTRUCTION": 1479,
+      "PERMIT – EXPRESS PERMIT PROGRAM": 20039,
+      "PERMIT - RENOVATION/ALTERATION": 5337,
+      "PERMIT - SIGNS": 2190,
+      "PERMIT - NEW CONSTRUCTION": 1476,
       "PERMIT - ELEVATOR EQUIPMENT": 1054,
-      "PERMIT - WRECKING/DEMOLITION": 714,
-      "PERMIT - REINSTATE REVOKED PMT": 458
+      "PERMIT - WRECKING/DEMOLITION": 713,
+      "PERMIT - REINSTATE REVOKED PMT": 452
     },
     "datasets_count": 9
   },
@@ -635,8 +635,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.cityofchicago.org/resource/ydr8-5enu.json",
-        "probed_at": "2026-06-23T19:06:49.514416",
-        "data_vintage": "Rolling 12-month window ending 2026-06-23",
+        "probed_at": "2026-06-24T01:07:11.230595",
+        "data_vintage": "Rolling 12-month window ending 2026-06-24",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -682,7 +682,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Chicago",
-        "probed_at": "2026-06-23T19:07:45.469306",
+        "probed_at": "2026-06-24T01:08:15.648258",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -1585,7 +1585,7 @@
   "recent_meetings": [],
   "recent_legislation": [],
   "legistar_url": "https://chicago.legistar.com",
-  "enriched_at": "2026-06-23T18:53:03.420429",
+  "enriched_at": "2026-06-24T01:00:31.067463",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

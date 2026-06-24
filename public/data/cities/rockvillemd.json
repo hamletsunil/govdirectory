@@ -600,7 +600,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Rockville",
-        "probed_at": "2026-06-23T19:09:01.306637",
+        "probed_at": "2026-06-24T01:09:46.724934",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -869,16 +869,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-06-23",
-      "body": "Transportation and Mobility Commission",
-      "location": "Virtual",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-06-24",
       "body": "Financial Advisory Board",
       "location": "Black-eyed Susan Conference Room",
@@ -910,8 +900,8 @@
     },
     {
       "date": "2026-07-08",
-      "body": "Planning Commission",
-      "location": "WebEx",
+      "body": "Cultural Arts Commission",
+      "location": "WebEx: https://rockvillemd.webex.com/rockvillemd/j.phpMTID=m0cc4da8cac253d1859795d7acae6638a",
       "has_agenda": false,
       "agenda_url": null,
       "has_minutes": false,
@@ -920,8 +910,8 @@
     },
     {
       "date": "2026-07-08",
-      "body": "Cultural Arts Commission",
-      "location": "WebEx: https://rockvillemd.webex.com/rockvillemd/j.phpMTID=m0cc4da8cac253d1859795d7acae6638a",
+      "body": "Planning Commission",
+      "location": "WebEx",
       "has_agenda": false,
       "agenda_url": null,
       "has_minutes": false,
@@ -967,6 +957,16 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": true
+    },
+    {
+      "date": "2026-06-23",
+      "body": "Transportation and Mobility Commission",
+      "location": "Virtual",
+      "has_agenda": false,
+      "agenda_url": null,
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     },
     {
       "date": "2026-06-17",
@@ -1057,21 +1057,11 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": false
-    },
-    {
-      "date": "2026-05-26",
-      "body": "Transportation and Mobility Commission",
-      "location": "Virtual",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": false
     }
   ],
   "recent_legislation": [],
   "legistar_url": "https://rockvillemd.legistar.com",
-  "enriched_at": "2026-06-23T19:04:10.745340",
+  "enriched_at": "2026-06-24T01:06:03.896137",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
