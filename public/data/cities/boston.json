@@ -525,7 +525,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Boston",
-        "probed_at": "2026-06-24T18:54:40.676842",
+        "probed_at": "2026-06-25T01:14:08.349425",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -873,16 +873,6 @@
   },
   "recent_meetings": [
     {
-      "date": "2026-06-24",
-      "body": "Public Facilities",
-      "location": "Room 801, City Hall",
-      "has_agenda": true,
-      "agenda_url": "https://boston.legistar1.com/boston/meetings/2026/6/14079_A_Public_Facilities_26-06-24_Meeting_Agenda.pdf",
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
       "date": "2026-07-08",
       "body": "Boston School Committee",
       "location": "Virtual",
@@ -921,6 +911,16 @@
       "has_minutes": false,
       "has_video": false,
       "upcoming": true
+    },
+    {
+      "date": "2026-06-24",
+      "body": "Public Facilities",
+      "location": "Room 801, City Hall",
+      "has_agenda": true,
+      "agenda_url": "https://boston.legistar1.com/boston/meetings/2026/6/14079_A_Public_Facilities_26-06-24_Meeting_Agenda.pdf",
+      "has_minutes": false,
+      "has_video": false,
+      "upcoming": false
     },
     {
       "date": "2026-06-18",
@@ -975,7 +975,7 @@
   ],
   "recent_legislation": [],
   "legistar_url": "https://boston.legistar.com",
-  "enriched_at": "2026-06-24T18:43:05.399913",
+  "enriched_at": "2026-06-25T01:04:39.902455",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
