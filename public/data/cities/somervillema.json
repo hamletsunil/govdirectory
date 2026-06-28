@@ -220,12 +220,12 @@
     "accela_agency_id": null
   },
   "development": {
-    "permits_12mo": 7390,
-    "yoy_trend_pct": 5.7,
+    "permits_12mo": 7388,
+    "yoy_trend_pct": 5.9,
     "avg_permit_value": null,
     "permit_types": {
       "Building Permit": 1901,
-      "Electrical Permit": 1785,
+      "Electrical Permit": 1783,
       "Plumbing Permit": 668,
       "Food Establishment": 492,
       "Gas Fitting": 468,
@@ -241,7 +241,7 @@
       "Block Party": 98
     },
     "datasets_count": 1,
-    "permits_per_capita_1k": 91.84
+    "permits_per_capita_1k": 91.82
   },
   "meetings": {
     "official_channels": 1,
@@ -627,8 +627,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.somervillema.gov/resource/nneb-s3f7.json",
-        "probed_at": "2026-06-27T18:33:45.780227",
-        "data_vintage": "Rolling 12-month window ending 2026-06-27",
+        "probed_at": "2026-06-28T01:13:27.571098",
+        "data_vintage": "Rolling 12-month window ending 2026-06-28",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Applications for Permits and Licenses",
@@ -674,7 +674,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Somerville",
-        "probed_at": "2026-06-27T18:35:25.653044",
+        "probed_at": "2026-06-28T01:15:11.573243",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -1082,7 +1082,7 @@
   "recent_meetings": [],
   "recent_legislation": [],
   "legistar_url": "https://somervillema.legistar.com",
-  "enriched_at": "2026-06-27T18:32:40.571597",
+  "enriched_at": "2026-06-28T01:12:00.987922",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
