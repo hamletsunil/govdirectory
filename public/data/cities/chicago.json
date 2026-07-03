@@ -210,16 +210,16 @@
     "accela_agency_id": "E_CHICAGO"
   },
   "development": {
-    "permits_12mo": 31235,
-    "yoy_trend_pct": -2.4,
-    "avg_permit_value": 399610.64,
-    "permits_per_capita_1k": 11.48,
+    "permits_12mo": 31353,
+    "yoy_trend_pct": -2.0,
+    "avg_permit_value": 400196.14,
+    "permits_per_capita_1k": 11.52,
     "permit_types": {
-      "PERMIT – EXPRESS PERMIT PROGRAM": 20045,
-      "PERMIT - RENOVATION/ALTERATION": 5325,
-      "PERMIT - SIGNS": 2187,
-      "PERMIT - NEW CONSTRUCTION": 1460,
-      "PERMIT - ELEVATOR EQUIPMENT": 1068,
+      "PERMIT – EXPRESS PERMIT PROGRAM": 20130,
+      "PERMIT - RENOVATION/ALTERATION": 5341,
+      "PERMIT - SIGNS": 2195,
+      "PERMIT - NEW CONSTRUCTION": 1465,
+      "PERMIT - ELEVATOR EQUIPMENT": 1072,
       "PERMIT - WRECKING/DEMOLITION": 694,
       "PERMIT - REINSTATE REVOKED PMT": 456
     },
@@ -635,7 +635,7 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.cityofchicago.org/resource/ydr8-5enu.json",
-        "probed_at": "2026-07-03T07:20:51.743842",
+        "probed_at": "2026-07-03T12:55:02.447728",
         "data_vintage": "Rolling 12-month window ending 2026-07-03",
         "geographic_level": "place",
         "status": "available",
@@ -682,7 +682,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Chicago",
-        "probed_at": "2026-07-03T07:21:57.178285",
+        "probed_at": "2026-07-03T12:55:51.878636",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -1585,7 +1585,7 @@
   "recent_meetings": [],
   "recent_legislation": [],
   "legistar_url": "https://chicago.legistar.com",
-  "enriched_at": "2026-07-03T07:14:31.704897",
+  "enriched_at": "2026-07-03T12:46:42.171291",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
