@@ -568,7 +568,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Murrieta",
-        "probed_at": "2026-07-08T00:57:50.087856",
+        "probed_at": "2026-07-08T06:59:44.166846",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -832,65 +832,13 @@
     "granularity_flags": 4
   },
   "officials": {
-    "body_name": "City Council",
-    "members": [
-      {
-        "name": "Cindy Warren",
-        "email": "Cwarren@MurrietaCA.gov",
-        "title": "Council Member",
-        "start_date": "2024-12-17"
-      },
-      {
-        "name": "Jon Levell",
-        "email": "Jlevell@MurrietaCA.gov",
-        "title": "Mayor",
-        "start_date": "2024-12-17"
-      },
-      {
-        "name": "Lisa DeForest",
-        "email": "Ldeforest@MurrietaCA.gov",
-        "title": "Council Member",
-        "start_date": "2024-11-05"
-      },
-      {
-        "name": "Lori Stone",
-        "email": "Lstone@MurrietaCA.gov",
-        "title": "Council Member",
-        "start_date": "2024-11-05"
-      },
-      {
-        "name": "Ron Holliday",
-        "email": "Rholliday@MurrietaCA.gov",
-        "title": "Mayor Pro Tem",
-        "start_date": "2022-12-01"
-      }
-    ]
+    "body_name": null,
+    "members": []
   },
-  "recent_meetings": [
-    {
-      "date": "2026-07-21",
-      "body": "City Council",
-      "location": "Council Chambers\r\n1 Town Square\r\nMurrieta, CA 92562",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    },
-    {
-      "date": "2026-08-04",
-      "body": "City Council",
-      "location": "Council Chambers\r\n1 Town Square\r\nMurrieta, CA 92562",
-      "has_agenda": false,
-      "agenda_url": null,
-      "has_minutes": false,
-      "has_video": false,
-      "upcoming": true
-    }
-  ],
+  "recent_meetings": [],
   "recent_legislation": [],
   "legistar_url": "https://murrieta.legistar.com",
-  "enriched_at": "2026-07-08T00:51:55.184436",
+  "enriched_at": "2026-07-08T06:57:12.091523",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

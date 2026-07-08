@@ -169,17 +169,17 @@
     "accela_agency_id": "SEATTLE"
   },
   "development": {
-    "permits_12mo": 6254,
-    "yoy_trend_pct": 1.8,
-    "avg_permit_value": 1158982.88,
+    "permits_12mo": 6273,
+    "yoy_trend_pct": 2.1,
+    "avg_permit_value": 1156464.8,
     "permit_types": {
-      "Building": 5322,
-      "Demolition": 474,
+      "Building": 5337,
+      "Demolition": 478,
       "Roof": 437,
       "Grading": 21
     },
     "datasets_count": 10,
-    "permits_per_capita_1k": 8.51
+    "permits_per_capita_1k": 8.54
   },
   "meetings": {
     "official_channels": 1,
@@ -474,7 +474,7 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.seattle.gov/resource/76t5-zqzr.json",
-        "probed_at": "2026-07-08T00:56:09.672652",
+        "probed_at": "2026-07-08T06:57:33.222169",
         "data_vintage": "Rolling 12-month window ending 2026-07-08",
         "geographic_level": "place",
         "status": "available",
@@ -521,7 +521,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Seattle",
-        "probed_at": "2026-07-08T00:56:55.423115",
+        "probed_at": "2026-07-08T06:58:32.224079",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -785,142 +785,13 @@
     "granularity_flags": 0
   },
   "officials": {
-    "body_name": "City Council",
-    "members": [
-      {
-        "name": "Alexis Mercedes Rinck",
-        "email": "AlexisMercedes.Rinck@seattle.gov",
-        "title": "Member",
-        "start_date": "2024-11-26",
-        "website": "https://www.seattle.gov/council/rinck",
-        "committees": [
-          "Council Briefing",
-          "Housing, Arts, and Civil Rights Committee",
-          "Human Services, Labor, and Economic Development Committee",
-          "Land Use and Sustainability Committee",
-          "Land Use Committee"
-        ]
-      },
-      {
-        "name": "Dan Strauss",
-        "email": "Dan.Strauss@seattle.gov",
-        "title": "Member",
-        "start_date": "2020-01-01",
-        "phone": "206-684-8806",
-        "website": "http://www.seattle.gov/council/strauss",
-        "committees": [
-          "Council Briefing",
-          "Finance, Native Communities, and Tribal Governments Committee",
-          "Governance and Utilities Committee",
-          "Land Use and Sustainability Committee",
-          "Parks and City Light Committee"
-        ]
-      },
-      {
-        "name": "Debora Juarez",
-        "email": "Debora.Juarez@seattle.gov",
-        "title": "Member",
-        "start_date": "2025-07-28",
-        "phone": "206-684-8805",
-        "website": "http://www.seattle.gov/council/juarez",
-        "committees": [
-          "Council Briefing",
-          "Governance and Utilities Committee",
-          "Housing, Arts, and Civil Rights Committee",
-          "Human Services, Labor, and Economic Development Committee",
-          "Land Use Committee"
-        ]
-      },
-      {
-        "name": "Dionne Foster",
-        "email": "Dionne.Foster@seattle.gov",
-        "title": "Member",
-        "start_date": "2026-01-01",
-        "phone": "206-684-8809",
-        "website": "https://seattle.gov/council/members/dionne-foster",
-        "committees": [
-          "Council Briefing",
-          "Housing, Arts, and Civil Rights Committee",
-          "Human Services, Labor, and Economic Development Committee",
-          "Land Use and Sustainability Committee",
-          "Libraries, Education, and Neighborhoods Committee"
-        ]
-      },
-      {
-        "name": "Eddie Lin",
-        "email": "Eddie.Lin@seattle.gov",
-        "title": "Member",
-        "start_date": "2025-11-25",
-        "committees": [
-          "Council Briefing",
-          "Governance, Accountability, and Economic Development Committee",
-          "Housing and Human Services Committee",
-          "Housing, Arts, and Civil Rights Committee",
-          "Land Use and Sustainability Committee"
-        ]
-      },
-      {
-        "name": "Joy Hollingsworth",
-        "email": "Joy.Hollingsworth@seattle.gov",
-        "title": "Council President",
-        "start_date": "2024-01-02",
-        "website": "https://www.seattle.gov/council/hollingsworth",
-        "committees": [
-          "Council Briefing",
-          "Finance, Native Communities, and Tribal Governments Committee",
-          "Governance and Utilities Committee",
-          "Housing, Arts, and Civil Rights Committee",
-          "Human Services, Labor, and Economic Development Committee"
-        ]
-      },
-      {
-        "name": "Maritza Rivera",
-        "email": "Maritza.Rivera@seattle.gov",
-        "title": "Member",
-        "start_date": "2024-01-02",
-        "website": "https://www.seattle.gov/council/rivera",
-        "committees": [
-          "Council Briefing",
-          "Finance, Native Communities, and Tribal Governments Committee",
-          "Governance and Utilities Committee",
-          "Libraries, Education, and Neighborhoods Committee",
-          "Parks and City Light Committee"
-        ]
-      },
-      {
-        "name": "Robert Kettle",
-        "email": "Robert.Kettle@seattle.gov",
-        "title": "Member",
-        "start_date": "2024-01-02",
-        "website": "https://www.seattle.gov/council/kettle",
-        "committees": [
-          "Council Briefing",
-          "Finance, Native Communities, and Tribal Governments Committee",
-          "Governance and Utilities Committee",
-          "Parks and City Light Committee",
-          "Public Safety Committee"
-        ]
-      },
-      {
-        "name": "Rob Saka",
-        "email": "Rob.Saka@seattle.gov",
-        "title": "Member",
-        "start_date": "2024-01-02",
-        "website": "https://www.seattle.gov/council/saka",
-        "committees": [
-          "Council Briefing",
-          "Finance, Native Communities, and Tribal Governments Committee",
-          "Human Services, Labor, and Economic Development Committee",
-          "Parks and City Light Committee",
-          "Public Safety Committee"
-        ]
-      }
-    ]
+    "body_name": null,
+    "members": []
   },
   "recent_meetings": [],
   "recent_legislation": [],
   "legistar_url": "https://seattle.legistar.com",
-  "enriched_at": "2026-07-08T00:54:47.331346",
+  "enriched_at": "2026-07-08T06:57:12.589148",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
