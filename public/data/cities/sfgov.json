@@ -175,17 +175,17 @@
     "accela_agency_id": null
   },
   "development": {
-    "permits_12mo": 24328,
-    "yoy_trend_pct": -0.3,
+    "permits_12mo": 24237,
+    "yoy_trend_pct": -0.5,
     "avg_permit_value": null,
     "permit_types": {
-      "otc alterations permit": 22107,
-      "additions alterations or repairs": 1242,
-      "sign - erect": 448,
+      "otc alterations permit": 22030,
+      "additions alterations or repairs": 1231,
+      "sign - erect": 447,
       "demolitions": 71,
       "new construction wood frame": 57,
-      "wall or painted sign": 26,
       "new construction": 26,
+      "wall or painted sign": 24,
       "grade or quarry or fill or excavate": 5
     },
     "datasets_count": 10
@@ -344,8 +344,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.sfgov.org/resource/i98e-djp9.json",
-        "probed_at": "2026-07-09T18:42:07.001609",
-        "data_vintage": "Rolling 12-month window ending 2026-07-09",
+        "probed_at": "2026-07-10T00:50:41.440248",
+        "data_vintage": "Rolling 12-month window ending 2026-07-10",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -652,7 +652,7 @@
   "recent_meetings": [],
   "recent_legislation": [],
   "legistar_url": "https://sfgov.legistar.com",
-  "enriched_at": "2026-07-09T18:41:02.650351",
+  "enriched_at": "2026-07-10T00:49:23.973002",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
