@@ -210,18 +210,18 @@
     "accela_agency_id": "E_CHICAGO"
   },
   "development": {
-    "permits_12mo": 31308,
-    "yoy_trend_pct": -1.7,
-    "avg_permit_value": 406080.07,
-    "permits_per_capita_1k": 11.5,
+    "permits_12mo": 31436,
+    "yoy_trend_pct": -1.3,
+    "avg_permit_value": 404915.98,
+    "permits_per_capita_1k": 11.55,
     "permit_types": {
-      "PERMIT – EXPRESS PERMIT PROGRAM": 20104,
-      "PERMIT - RENOVATION/ALTERATION": 5323,
-      "PERMIT - SIGNS": 2195,
-      "PERMIT - NEW CONSTRUCTION": 1467,
+      "PERMIT – EXPRESS PERMIT PROGRAM": 20207,
+      "PERMIT - RENOVATION/ALTERATION": 5339,
+      "PERMIT - SIGNS": 2201,
+      "PERMIT - NEW CONSTRUCTION": 1468,
       "PERMIT - ELEVATOR EQUIPMENT": 1076,
       "PERMIT - WRECKING/DEMOLITION": 690,
-      "PERMIT - REINSTATE REVOKED PMT": 453
+      "PERMIT - REINSTATE REVOKED PMT": 455
     },
     "datasets_count": 9
   },
@@ -635,7 +635,7 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.cityofchicago.org/resource/ydr8-5enu.json",
-        "probed_at": "2026-07-10T07:19:01.230230",
+        "probed_at": "2026-07-10T12:51:34.461731",
         "data_vintage": "Rolling 12-month window ending 2026-07-10",
         "geographic_level": "place",
         "status": "available",
@@ -682,7 +682,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Chicago",
-        "probed_at": "2026-07-10T07:20:02.832815",
+        "probed_at": "2026-07-10T12:52:47.756561",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -952,7 +952,7 @@
   "recent_meetings": [],
   "recent_legislation": [],
   "legistar_url": "https://chicago.legistar.com",
-  "enriched_at": "2026-07-10T07:18:34.442765",
+  "enriched_at": "2026-07-10T12:51:24.946315",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

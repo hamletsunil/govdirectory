@@ -190,26 +190,26 @@
     "accela_agency_id": null
   },
   "development": {
-    "permits_12mo": 3834,
-    "yoy_trend_pct": -12.6,
+    "permits_12mo": 3844,
+    "yoy_trend_pct": -12.4,
     "avg_permit_value": null,
-    "permits_per_capita_1k": 24.21,
+    "permits_per_capita_1k": 24.28,
     "permit_types": {
-      "ELECTRICAL RESIDENTIAL": 927,
+      "ELECTRICAL RESIDENTIAL": 929,
       "PLUMBING": 503,
       "REROOF": 352,
       "MECHANICAL RESIDENTIAL": 320,
-      "SYMBIUM SOLAR": 195,
-      "FENCE WALL PERMITS": 171,
+      "SYMBIUM SOLAR": 196,
+      "FENCE WALL PERMITS": 173,
       "BUILDING RESIDENTIAL": 143,
       "WATER HEATER SAME LOCATION": 133,
       "COMMERCIAL ALTERATION": 126,
-      "OVERHEAD FIRE SPRINKLERS": 117,
+      "OVERHEAD FIRE SPRINKLERS": 118,
       "SINGLE FAMILY ALTERATION": 96,
-      "BUILDING SIGN PERMIT": 92,
+      "BUILDING SIGN PERMIT": 94,
       "PATIO AND BALCONY RESIDENTIAL": 90,
-      "SINGLE FAMILY ADU": 74,
-      "POOL": 68
+      "SINGLE FAMILY ADU": 75,
+      "POOL": 69
     },
     "datasets_count": 10
   },
@@ -525,7 +525,7 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://corstat.coronaca.gov/resource/2agx-camz.json",
-        "probed_at": "2026-07-10T07:19:45.820140",
+        "probed_at": "2026-07-10T12:52:31.040468",
         "data_vintage": "Rolling 12-month window ending 2026-07-10",
         "geographic_level": "place",
         "status": "available",
@@ -572,7 +572,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Corona",
-        "probed_at": "2026-07-10T07:20:50.363277",
+        "probed_at": "2026-07-10T12:53:26.222641",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -842,7 +842,7 @@
   "recent_meetings": [],
   "recent_legislation": [],
   "legistar_url": "https://corona.legistar.com",
-  "enriched_at": "2026-07-10T07:18:37.814406",
+  "enriched_at": "2026-07-10T12:51:26.169560",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
