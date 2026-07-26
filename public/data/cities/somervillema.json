@@ -220,11 +220,11 @@
     "accela_agency_id": null
   },
   "development": {
-    "permits_12mo": 7054,
-    "yoy_trend_pct": -3.3,
+    "permits_12mo": 7053,
+    "yoy_trend_pct": -3.0,
     "avg_permit_value": null,
     "permit_types": {
-      "Building Permit": 1918,
+      "Building Permit": 1917,
       "Electrical Permit": 1833,
       "Plumbing Permit": 684,
       "Gas Fitting": 473,
@@ -241,7 +241,7 @@
       "Block Party": 95
     },
     "datasets_count": 1,
-    "permits_per_capita_1k": 87.67
+    "permits_per_capita_1k": 87.65
   },
   "meetings": {
     "official_channels": 1,
@@ -627,8 +627,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.somervillema.gov/resource/nneb-s3f7.json",
-        "probed_at": "2026-07-25T18:24:02.500370",
-        "data_vintage": "Rolling 12-month window ending 2026-07-25",
+        "probed_at": "2026-07-26T00:49:42.687712",
+        "data_vintage": "Rolling 12-month window ending 2026-07-26",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Applications for Permits and Licenses",
@@ -674,7 +674,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Somerville",
-        "probed_at": "2026-07-25T18:25:22.603224",
+        "probed_at": "2026-07-26T00:51:15.913473",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -944,7 +944,7 @@
   "recent_meetings": [],
   "recent_legislation": [],
   "legistar_url": "https://somervillema.legistar.com",
-  "enriched_at": "2026-07-25T18:23:10.875363",
+  "enriched_at": "2026-07-26T00:48:43.642339",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [

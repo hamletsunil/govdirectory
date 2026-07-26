@@ -210,12 +210,12 @@
     "accela_agency_id": "E_CHICAGO"
   },
   "development": {
-    "permits_12mo": 31366,
-    "yoy_trend_pct": -1.1,
-    "avg_permit_value": 417207.15,
+    "permits_12mo": 31354,
+    "yoy_trend_pct": -1.0,
+    "avg_permit_value": 417321.21,
     "permits_per_capita_1k": 11.52,
     "permit_types": {
-      "PERMIT – EXPRESS PERMIT PROGRAM": 20149,
+      "PERMIT – EXPRESS PERMIT PROGRAM": 20137,
       "PERMIT - RENOVATION/ALTERATION": 5347,
       "PERMIT - SIGNS": 2136,
       "PERMIT - NEW CONSTRUCTION": 1511,
@@ -635,8 +635,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.cityofchicago.org/resource/ydr8-5enu.json",
-        "probed_at": "2026-07-25T18:23:16.851703",
-        "data_vintage": "Rolling 12-month window ending 2026-07-25",
+        "probed_at": "2026-07-26T00:48:49.228569",
+        "data_vintage": "Rolling 12-month window ending 2026-07-26",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -682,7 +682,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Chicago",
-        "probed_at": "2026-07-25T18:24:11.139501",
+        "probed_at": "2026-07-26T00:49:51.217920",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -952,7 +952,7 @@
   "recent_meetings": [],
   "recent_legislation": [],
   "legistar_url": "https://chicago.legistar.com",
-  "enriched_at": "2026-07-25T18:23:01.432354",
+  "enriched_at": "2026-07-26T00:48:35.008205",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
