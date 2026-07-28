@@ -220,28 +220,28 @@
     "accela_agency_id": null
   },
   "development": {
-    "permits_12mo": 7064,
-    "yoy_trend_pct": -2.7,
+    "permits_12mo": 7033,
+    "yoy_trend_pct": -3.6,
     "avg_permit_value": null,
     "permit_types": {
-      "Building Permit": 1924,
-      "Electrical Permit": 1836,
-      "Plumbing Permit": 685,
+      "Building Permit": 1915,
+      "Electrical Permit": 1823,
+      "Plumbing Permit": 682,
       "Gas Fitting": 473,
-      "Temporary Food": 272,
+      "Temporary Food": 271,
       "Food Establishment": 252,
       "Certificate of Inspection": 246,
-      "Sheet Metal Permit": 186,
-      "Dumpster (Located on Street) Permit": 186,
+      "Dumpster (Located on Street) Permit": 185,
+      "Sheet Metal Permit": 184,
       "Dumpster": 161,
-      "Certificate of Occupancy": 159,
-      "Farmers Market": 123,
+      "Certificate of Occupancy": 158,
+      "Farmers Market": 122,
       "Business License": 111,
       "Public Event License": 106,
       "Block Party": 95
     },
     "datasets_count": 1,
-    "permits_per_capita_1k": 87.79
+    "permits_per_capita_1k": 87.41
   },
   "meetings": {
     "official_channels": 1,
@@ -627,8 +627,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.somervillema.gov/resource/nneb-s3f7.json",
-        "probed_at": "2026-07-27T18:38:30.041455",
-        "data_vintage": "Rolling 12-month window ending 2026-07-27",
+        "probed_at": "2026-07-28T00:43:25.154510",
+        "data_vintage": "Rolling 12-month window ending 2026-07-28",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Applications for Permits and Licenses",
@@ -674,7 +674,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Somerville",
-        "probed_at": "2026-07-27T18:40:01.716293",
+        "probed_at": "2026-07-28T00:44:36.634128",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -944,7 +944,7 @@
   "recent_meetings": [],
   "recent_legislation": [],
   "legistar_url": "https://somervillema.legistar.com",
-  "enriched_at": "2026-07-27T18:37:18.485506",
+  "enriched_at": "2026-07-28T00:42:35.149691",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
