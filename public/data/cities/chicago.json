@@ -210,17 +210,17 @@
     "accela_agency_id": "E_CHICAGO"
   },
   "development": {
-    "permits_12mo": 31207,
-    "yoy_trend_pct": -1.2,
-    "avg_permit_value": 419344.13,
-    "permits_per_capita_1k": 11.47,
+    "permits_12mo": 31371,
+    "yoy_trend_pct": -0.7,
+    "avg_permit_value": 417918.46,
+    "permits_per_capita_1k": 11.53,
     "permit_types": {
-      "PERMIT – EXPRESS PERMIT PROGRAM": 20062,
-      "PERMIT - RENOVATION/ALTERATION": 5328,
-      "PERMIT - SIGNS": 2088,
-      "PERMIT - NEW CONSTRUCTION": 1510,
-      "PERMIT - ELEVATOR EQUIPMENT": 1097,
-      "PERMIT - WRECKING/DEMOLITION": 673,
+      "PERMIT – EXPRESS PERMIT PROGRAM": 20157,
+      "PERMIT - RENOVATION/ALTERATION": 5355,
+      "PERMIT - SIGNS": 2103,
+      "PERMIT - NEW CONSTRUCTION": 1517,
+      "PERMIT - ELEVATOR EQUIPMENT": 1109,
+      "PERMIT - WRECKING/DEMOLITION": 681,
       "PERMIT - REINSTATE REVOKED PMT": 449
     },
     "datasets_count": 9
@@ -635,7 +635,7 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.cityofchicago.org/resource/ydr8-5enu.json",
-        "probed_at": "2026-08-04T06:59:45.391369",
+        "probed_at": "2026-08-04T12:45:06.046322",
         "data_vintage": "Rolling 12-month window ending 2026-08-04",
         "geographic_level": "place",
         "status": "available",
@@ -682,7 +682,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Chicago",
-        "probed_at": "2026-08-04T07:00:52.190227",
+        "probed_at": "2026-08-04T12:45:53.711921",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -952,7 +952,7 @@
   "recent_meetings": [],
   "recent_legislation": [],
   "legistar_url": "https://chicago.legistar.com",
-  "enriched_at": "2026-08-04T06:59:37.767472",
+  "enriched_at": "2026-08-04T12:44:57.642660",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
