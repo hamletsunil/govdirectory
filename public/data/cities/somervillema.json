@@ -220,12 +220,12 @@
     "accela_agency_id": null
   },
   "development": {
-    "permits_12mo": 7037,
-    "yoy_trend_pct": -3.0,
+    "permits_12mo": 7062,
+    "yoy_trend_pct": -2.6,
     "avg_permit_value": null,
     "permit_types": {
-      "Building Permit": 1915,
-      "Electrical Permit": 1822,
+      "Building Permit": 1928,
+      "Electrical Permit": 1833,
       "Plumbing Permit": 685,
       "Gas Fitting": 478,
       "Temporary Food": 273,
@@ -234,14 +234,14 @@
       "Dumpster (Located on Street) Permit": 186,
       "Sheet Metal Permit": 185,
       "Dumpster": 161,
-      "Certificate of Occupancy": 158,
+      "Certificate of Occupancy": 159,
       "Farmers Market": 122,
       "Business License": 111,
       "Public Event License": 106,
       "Block Party": 92
     },
     "datasets_count": 1,
-    "permits_per_capita_1k": 87.46
+    "permits_per_capita_1k": 87.77
   },
   "meetings": {
     "official_channels": 1,
@@ -627,7 +627,7 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.somervillema.gov/resource/nneb-s3f7.json",
-        "probed_at": "2026-08-04T00:45:37.194409",
+        "probed_at": "2026-08-04T07:00:42.783131",
         "data_vintage": "Rolling 12-month window ending 2026-08-04",
         "geographic_level": "place",
         "status": "available",
@@ -674,7 +674,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Somerville",
-        "probed_at": "2026-08-04T00:46:46.279677",
+        "probed_at": "2026-08-04T07:02:24.806344",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -944,7 +944,7 @@
   "recent_meetings": [],
   "recent_legislation": [],
   "legistar_url": "https://somervillema.legistar.com",
-  "enriched_at": "2026-08-04T00:44:50.066903",
+  "enriched_at": "2026-08-04T06:59:39.703111",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
