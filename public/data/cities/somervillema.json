@@ -220,19 +220,19 @@
     "accela_agency_id": null
   },
   "development": {
-    "permits_12mo": 7045,
-    "yoy_trend_pct": -2.8,
+    "permits_12mo": 7065,
+    "yoy_trend_pct": -2.5,
     "avg_permit_value": null,
     "permit_types": {
-      "Building Permit": 1922,
-      "Electrical Permit": 1826,
-      "Plumbing Permit": 685,
-      "Gas Fitting": 478,
+      "Building Permit": 1929,
+      "Electrical Permit": 1829,
+      "Plumbing Permit": 692,
+      "Gas Fitting": 480,
       "Temporary Food": 273,
       "Food Establishment": 251,
       "Certificate of Inspection": 242,
+      "Sheet Metal Permit": 185,
       "Dumpster (Located on Street) Permit": 185,
-      "Sheet Metal Permit": 184,
       "Dumpster": 161,
       "Certificate of Occupancy": 159,
       "Farmers Market": 122,
@@ -241,7 +241,7 @@
       "Block Party": 92
     },
     "datasets_count": 1,
-    "permits_per_capita_1k": 87.55
+    "permits_per_capita_1k": 87.8
   },
   "meetings": {
     "official_channels": 1,
@@ -627,7 +627,7 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.somervillema.gov/resource/nneb-s3f7.json",
-        "probed_at": "2026-08-05T00:42:12.538446",
+        "probed_at": "2026-08-05T07:01:24.356339",
         "data_vintage": "Rolling 12-month window ending 2026-08-05",
         "geographic_level": "place",
         "status": "available",
@@ -674,7 +674,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Somerville",
-        "probed_at": "2026-08-05T00:43:33.733385",
+        "probed_at": "2026-08-05T07:02:33.893145",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -944,7 +944,7 @@
   "recent_meetings": [],
   "recent_legislation": [],
   "legistar_url": "https://somervillema.legistar.com",
-  "enriched_at": "2026-08-05T00:41:18.172955",
+  "enriched_at": "2026-08-05T07:00:35.508930",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
