@@ -190,26 +190,26 @@
     "accela_agency_id": null
   },
   "development": {
-    "permits_12mo": 3714,
-    "yoy_trend_pct": -14.6,
+    "permits_12mo": 3726,
+    "yoy_trend_pct": -14.3,
     "avg_permit_value": null,
-    "permits_per_capita_1k": 23.45,
+    "permits_per_capita_1k": 23.53,
     "permit_types": {
-      "ELECTRICAL RESIDENTIAL": 850,
-      "PLUMBING": 511,
-      "REROOF": 371,
-      "MECHANICAL RESIDENTIAL": 323,
+      "ELECTRICAL RESIDENTIAL": 853,
+      "PLUMBING": 512,
+      "REROOF": 372,
+      "MECHANICAL RESIDENTIAL": 326,
       "SYMBIUM SOLAR": 187,
       "FENCE WALL PERMITS": 152,
       "BUILDING RESIDENTIAL": 139,
       "WATER HEATER SAME LOCATION": 137,
       "COMMERCIAL ALTERATION": 128,
       "SINGLE FAMILY ALTERATION": 96,
-      "OVERHEAD FIRE SPRINKLERS": 91,
+      "OVERHEAD FIRE SPRINKLERS": 92,
       "BUILDING SIGN PERMIT": 91,
       "PATIO AND BALCONY RESIDENTIAL": 88,
-      "SINGLE FAMILY ADU": 69,
-      "POOL": 67
+      "POOL": 69,
+      "SINGLE FAMILY ADU": 69
     },
     "datasets_count": 10
   },
@@ -525,7 +525,7 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://corstat.coronaca.gov/resource/2agx-camz.json",
-        "probed_at": "2026-08-07T06:30:36.976767",
+        "probed_at": "2026-08-07T12:22:37.118593",
         "data_vintage": "Rolling 12-month window ending 2026-08-07",
         "geographic_level": "place",
         "status": "available",
@@ -572,7 +572,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Corona",
-        "probed_at": "2026-08-07T06:31:49.501314",
+        "probed_at": "2026-08-07T12:23:35.720538",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -842,7 +842,7 @@
   "recent_meetings": [],
   "recent_legislation": [],
   "legistar_url": "https://corona.legistar.com",
-  "enriched_at": "2026-08-07T06:29:41.325495",
+  "enriched_at": "2026-08-07T12:21:02.485149",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
