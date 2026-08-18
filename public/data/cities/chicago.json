@@ -210,17 +210,17 @@
     "accela_agency_id": "E_CHICAGO"
   },
   "development": {
-    "permits_12mo": 31545,
-    "yoy_trend_pct": 0.6,
-    "avg_permit_value": 420312.89,
-    "permits_per_capita_1k": 11.59,
+    "permits_12mo": 31414,
+    "yoy_trend_pct": 0.2,
+    "avg_permit_value": 421496.84,
+    "permits_per_capita_1k": 11.54,
     "permit_types": {
-      "PERMIT – EXPRESS PERMIT PROGRAM": 20346,
-      "PERMIT - RENOVATION/ALTERATION": 5384,
-      "PERMIT - SIGNS": 2031,
-      "PERMIT - NEW CONSTRUCTION": 1531,
-      "PERMIT - ELEVATOR EQUIPMENT": 1118,
-      "PERMIT - WRECKING/DEMOLITION": 679,
+      "PERMIT – EXPRESS PERMIT PROGRAM": 20242,
+      "PERMIT - RENOVATION/ALTERATION": 5374,
+      "PERMIT - SIGNS": 2023,
+      "PERMIT - NEW CONSTRUCTION": 1524,
+      "PERMIT - ELEVATOR EQUIPMENT": 1117,
+      "PERMIT - WRECKING/DEMOLITION": 678,
       "PERMIT - REINSTATE REVOKED PMT": 456
     },
     "datasets_count": 9
@@ -635,8 +635,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.cityofchicago.org/resource/ydr8-5enu.json",
-        "probed_at": "2026-08-17T18:11:39.559333",
-        "data_vintage": "Rolling 12-month window ending 2026-08-17",
+        "probed_at": "2026-08-18T00:18:12.827492",
+        "data_vintage": "Rolling 12-month window ending 2026-08-18",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -682,7 +682,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Chicago",
-        "probed_at": "2026-08-17T18:12:52.691540",
+        "probed_at": "2026-08-18T00:19:25.302650",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -952,7 +952,7 @@
   "recent_meetings": [],
   "recent_legislation": [],
   "legistar_url": "https://chicago.legistar.com",
-  "enriched_at": "2026-08-17T18:11:07.886857",
+  "enriched_at": "2026-08-18T00:18:04.756796",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
