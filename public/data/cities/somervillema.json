@@ -220,15 +220,15 @@
     "accela_agency_id": null
   },
   "development": {
-    "permits_12mo": 7041,
-    "yoy_trend_pct": -3.3,
+    "permits_12mo": 7021,
+    "yoy_trend_pct": -3.6,
     "avg_permit_value": null,
     "permit_types": {
-      "Building Permit": 1921,
-      "Electrical Permit": 1833,
-      "Plumbing Permit": 683,
+      "Building Permit": 1914,
+      "Electrical Permit": 1825,
+      "Plumbing Permit": 682,
       "Gas Fitting": 478,
-      "Temporary Food": 263,
+      "Temporary Food": 261,
       "Food Establishment": 249,
       "Certificate of Inspection": 239,
       "Dumpster (Located on Street) Permit": 182,
@@ -241,7 +241,7 @@
       "Block Party": 104
     },
     "datasets_count": 1,
-    "permits_per_capita_1k": 87.5
+    "permits_per_capita_1k": 87.26
   },
   "meetings": {
     "official_channels": 1,
@@ -627,8 +627,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.somervillema.gov/resource/nneb-s3f7.json",
-        "probed_at": "2026-08-19T18:10:45.687751",
-        "data_vintage": "Rolling 12-month window ending 2026-08-19",
+        "probed_at": "2026-08-20T00:19:51.446183",
+        "data_vintage": "Rolling 12-month window ending 2026-08-20",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Applications for Permits and Licenses",
@@ -674,7 +674,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Somerville",
-        "probed_at": "2026-08-19T18:11:57.037679",
+        "probed_at": "2026-08-20T00:21:33.600612",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -944,7 +944,7 @@
   "recent_meetings": [],
   "recent_legislation": [],
   "legistar_url": "https://somervillema.legistar.com",
-  "enriched_at": "2026-08-19T18:09:50.969364",
+  "enriched_at": "2026-08-20T00:18:48.394900",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
