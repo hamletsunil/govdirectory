@@ -210,17 +210,17 @@
     "accela_agency_id": "E_CHICAGO"
   },
   "development": {
-    "permits_12mo": 31585,
-    "yoy_trend_pct": 0.5,
-    "avg_permit_value": 405114.99,
-    "permits_per_capita_1k": 11.6,
+    "permits_12mo": 31456,
+    "yoy_trend_pct": 0.0,
+    "avg_permit_value": 406275.61,
+    "permits_per_capita_1k": 11.56,
     "permit_types": {
-      "PERMIT – EXPRESS PERMIT PROGRAM": 20345,
-      "PERMIT - RENOVATION/ALTERATION": 5408,
-      "PERMIT - SIGNS": 2040,
-      "PERMIT - NEW CONSTRUCTION": 1533,
-      "PERMIT - ELEVATOR EQUIPMENT": 1128,
-      "PERMIT - WRECKING/DEMOLITION": 675,
+      "PERMIT – EXPRESS PERMIT PROGRAM": 20268,
+      "PERMIT - RENOVATION/ALTERATION": 5379,
+      "PERMIT - SIGNS": 2039,
+      "PERMIT - NEW CONSTRUCTION": 1519,
+      "PERMIT - ELEVATOR EQUIPMENT": 1124,
+      "PERMIT - WRECKING/DEMOLITION": 671,
       "PERMIT - REINSTATE REVOKED PMT": 456
     },
     "datasets_count": 9
@@ -635,8 +635,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.cityofchicago.org/resource/ydr8-5enu.json",
-        "probed_at": "2026-08-20T18:11:20.082475",
-        "data_vintage": "Rolling 12-month window ending 2026-08-20",
+        "probed_at": "2026-08-21T00:20:10.399382",
+        "data_vintage": "Rolling 12-month window ending 2026-08-21",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -682,7 +682,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Chicago",
-        "probed_at": "2026-08-20T18:12:28.197675",
+        "probed_at": "2026-08-21T00:21:00.381875",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -952,7 +952,7 @@
   "recent_meetings": [],
   "recent_legislation": [],
   "legistar_url": "https://chicago.legistar.com",
-  "enriched_at": "2026-08-20T18:10:59.949139",
+  "enriched_at": "2026-08-21T00:19:42.271975",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
