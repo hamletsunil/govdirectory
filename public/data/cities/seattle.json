@@ -169,17 +169,17 @@
     "accela_agency_id": "SEATTLE"
   },
   "development": {
-    "permits_12mo": 6311,
-    "yoy_trend_pct": 1.3,
-    "avg_permit_value": 1171364.67,
+    "permits_12mo": 6285,
+    "yoy_trend_pct": 0.9,
+    "avg_permit_value": 1173730.43,
     "permit_types": {
-      "Building": 5346,
-      "Demolition": 494,
-      "Roof": 448,
+      "Building": 5325,
+      "Demolition": 493,
+      "Roof": 444,
       "Grading": 23
     },
     "datasets_count": 10,
-    "permits_per_capita_1k": 8.59
+    "permits_per_capita_1k": 8.56
   },
   "meetings": {
     "official_channels": 1,
@@ -474,8 +474,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.seattle.gov/resource/76t5-zqzr.json",
-        "probed_at": "2026-08-21T18:12:38.009608",
-        "data_vintage": "Rolling 12-month window ending 2026-08-21",
+        "probed_at": "2026-08-22T00:18:29.877451",
+        "data_vintage": "Rolling 12-month window ending 2026-08-22",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -521,7 +521,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Seattle",
-        "probed_at": "2026-08-21T18:13:55.539162",
+        "probed_at": "2026-08-22T00:19:14.528761",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -791,7 +791,7 @@
   "recent_meetings": [],
   "recent_legislation": [],
   "legistar_url": "https://seattle.legistar.com",
-  "enriched_at": "2026-08-21T18:11:59.268449",
+  "enriched_at": "2026-08-22T00:18:13.092599",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
