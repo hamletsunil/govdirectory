@@ -220,17 +220,17 @@
     "accela_agency_id": null
   },
   "development": {
-    "permits_12mo": 7071,
-    "yoy_trend_pct": -2.1,
+    "permits_12mo": 7080,
+    "yoy_trend_pct": -2.0,
     "avg_permit_value": null,
     "permit_types": {
-      "Building Permit": 1932,
+      "Building Permit": 1934,
       "Electrical Permit": 1839,
-      "Plumbing Permit": 691,
+      "Plumbing Permit": 692,
       "Gas Fitting": 481,
       "Temporary Food": 257,
       "Food Establishment": 249,
-      "Certificate of Inspection": 239,
+      "Certificate of Inspection": 245,
       "Dumpster (Located on Street) Permit": 185,
       "Sheet Metal Permit": 183,
       "Dumpster": 162,
@@ -241,7 +241,7 @@
       "Block Party": 105
     },
     "datasets_count": 1,
-    "permits_per_capita_1k": 87.88
+    "permits_per_capita_1k": 87.99
   },
   "meetings": {
     "official_channels": 1,
@@ -627,7 +627,7 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.somervillema.gov/resource/nneb-s3f7.json",
-        "probed_at": "2026-08-24T06:20:26.622624",
+        "probed_at": "2026-08-24T12:13:01.237819",
         "data_vintage": "Rolling 12-month window ending 2026-08-24",
         "geographic_level": "place",
         "status": "available",
@@ -674,7 +674,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Somerville",
-        "probed_at": "2026-08-24T06:22:05.507886",
+        "probed_at": "2026-08-24T12:14:14.174398",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -944,7 +944,7 @@
   "recent_meetings": [],
   "recent_legislation": [],
   "legistar_url": "https://somervillema.legistar.com",
-  "enriched_at": "2026-08-24T06:19:03.425798",
+  "enriched_at": "2026-08-24T12:12:13.543018",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
