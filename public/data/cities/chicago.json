@@ -210,18 +210,18 @@
     "accela_agency_id": "E_CHICAGO"
   },
   "development": {
-    "permits_12mo": 31386,
-    "yoy_trend_pct": -0.3,
-    "avg_permit_value": 401315.09,
-    "permits_per_capita_1k": 11.53,
+    "permits_12mo": 31504,
+    "yoy_trend_pct": 0.1,
+    "avg_permit_value": 400795.39,
+    "permits_per_capita_1k": 11.57,
     "permit_types": {
-      "PERMIT – EXPRESS PERMIT PROGRAM": 20249,
-      "PERMIT - RENOVATION/ALTERATION": 5353,
-      "PERMIT - SIGNS": 2046,
-      "PERMIT - NEW CONSTRUCTION": 1521,
+      "PERMIT – EXPRESS PERMIT PROGRAM": 20329,
+      "PERMIT - RENOVATION/ALTERATION": 5381,
+      "PERMIT - SIGNS": 2047,
+      "PERMIT - NEW CONSTRUCTION": 1528,
       "PERMIT - ELEVATOR EQUIPMENT": 1100,
-      "PERMIT - WRECKING/DEMOLITION": 653,
-      "PERMIT - REINSTATE REVOKED PMT": 464
+      "PERMIT - WRECKING/DEMOLITION": 654,
+      "PERMIT - REINSTATE REVOKED PMT": 465
     },
     "datasets_count": 9
   },
@@ -635,7 +635,7 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.cityofchicago.org/resource/ydr8-5enu.json",
-        "probed_at": "2026-09-13T12:21:48.960278",
+        "probed_at": "2026-09-13T18:17:28.340416",
         "data_vintage": "Rolling 12-month window ending 2026-09-13",
         "geographic_level": "place",
         "status": "available",
@@ -682,7 +682,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Chicago",
-        "probed_at": "2026-09-13T12:22:47.789673",
+        "probed_at": "2026-09-13T18:18:24.143736",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -952,7 +952,7 @@
   "recent_meetings": [],
   "recent_legislation": [],
   "legistar_url": "https://chicago.legistar.com",
-  "enriched_at": "2026-09-13T12:21:38.925577",
+  "enriched_at": "2026-09-13T18:17:12.333029",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
