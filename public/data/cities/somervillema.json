@@ -220,28 +220,28 @@
     "accela_agency_id": null
   },
   "development": {
-    "permits_12mo": 7313,
-    "yoy_trend_pct": 5.2,
+    "permits_12mo": 7325,
+    "yoy_trend_pct": 5.3,
     "avg_permit_value": null,
     "permit_types": {
-      "Building Permit": 1954,
-      "Electrical Permit": 1848,
+      "Building Permit": 1959,
+      "Electrical Permit": 1850,
       "Plumbing Permit": 693,
       "Gas Fitting": 494,
       "Food Establishment": 394,
-      "Temporary Food": 255,
+      "Temporary Food": 258,
       "Certificate of Inspection": 247,
       "Dumpster": 209,
       "Sheet Metal Permit": 199,
-      "Dumpster (Located on Street) Permit": 177,
+      "Dumpster (Located on Street) Permit": 178,
       "Certificate of Occupancy": 154,
       "Farmers Market": 124,
       "Public Event License": 108,
-      "Business License": 104,
+      "Business License": 105,
       "Block Party": 94
     },
     "datasets_count": 1,
-    "permits_per_capita_1k": 90.89
+    "permits_per_capita_1k": 91.03
   },
   "meetings": {
     "official_channels": 1,
@@ -627,7 +627,7 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.somervillema.gov/resource/nneb-s3f7.json",
-        "probed_at": "2026-09-21T00:48:02.800880",
+        "probed_at": "2026-09-21T06:38:13.469869",
         "data_vintage": "Rolling 12-month window ending 2026-09-21",
         "geographic_level": "place",
         "status": "available",
@@ -674,7 +674,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Somerville",
-        "probed_at": "2026-09-21T00:49:14.462641",
+        "probed_at": "2026-09-21T06:40:01.750589",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -944,7 +944,7 @@
   "recent_meetings": [],
   "recent_legislation": [],
   "legistar_url": "https://somervillema.legistar.com",
-  "enriched_at": "2026-09-21T00:47:14.993946",
+  "enriched_at": "2026-09-21T06:37:05.904944",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
