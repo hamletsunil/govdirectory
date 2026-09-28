@@ -212,7 +212,7 @@
   "development": {
     "permits_12mo": 31602,
     "yoy_trend_pct": 0.1,
-    "avg_permit_value": 402377.3,
+    "avg_permit_value": null,
     "permits_per_capita_1k": 11.61,
     "permit_types": {
       "PERMIT – EXPRESS PERMIT PROGRAM": 20447,
@@ -635,7 +635,7 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.cityofchicago.org/resource/ydr8-5enu.json",
-        "probed_at": "2026-09-28T00:50:24.609520",
+        "probed_at": "2026-09-28T06:40:08.593089",
         "data_vintage": "Rolling 12-month window ending 2026-09-28",
         "geographic_level": "place",
         "status": "available",
@@ -682,7 +682,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Chicago",
-        "probed_at": "2026-09-28T00:51:39.731633",
+        "probed_at": "2026-09-28T06:41:04.968405",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -952,7 +952,7 @@
   "recent_meetings": [],
   "recent_legislation": [],
   "legistar_url": "https://chicago.legistar.com",
-  "enriched_at": "2026-09-28T00:50:06.638829",
+  "enriched_at": "2026-09-28T06:39:25.289580",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
