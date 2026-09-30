@@ -180,14 +180,14 @@
     "accela_agency_id": "MESA"
   },
   "development": {
-    "permits_12mo": 5278,
-    "yoy_trend_pct": 6.4,
-    "avg_permit_value": 208415.84,
-    "permits_per_capita_1k": 10.48,
+    "permits_12mo": 5266,
+    "yoy_trend_pct": 5.7,
+    "avg_permit_value": 209223.2,
+    "permits_per_capita_1k": 10.46,
     "permit_types": {
-      "RES": 3356,
-      "COM": 1457,
-      "SVC": 465
+      "RES": 3345,
+      "COM": 1454,
+      "SVC": 467
     },
     "datasets_count": 10
   },
@@ -491,8 +491,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://citydata.mesaaz.gov/resource/dzpk-hxfb.json",
-        "probed_at": "2026-09-29T18:22:41.379828",
-        "data_vintage": "Rolling 12-month window ending 2026-09-29",
+        "probed_at": "2026-09-30T00:48:30.400587",
+        "data_vintage": "Rolling 12-month window ending 2026-09-30",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Building Permits",
@@ -538,7 +538,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Mesa",
-        "probed_at": "2026-09-29T18:23:50.767396",
+        "probed_at": "2026-09-30T00:49:36.049670",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -808,7 +808,7 @@
   "recent_meetings": [],
   "recent_legislation": [],
   "legistar_url": "https://mesa.legistar.com",
-  "enriched_at": "2026-09-29T18:21:58.045113",
+  "enriched_at": "2026-09-30T00:47:57.230860",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
