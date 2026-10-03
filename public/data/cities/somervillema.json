@@ -220,14 +220,14 @@
     "accela_agency_id": null
   },
   "development": {
-    "permits_12mo": 7373,
-    "yoy_trend_pct": 6.5,
+    "permits_12mo": 7355,
+    "yoy_trend_pct": 6.8,
     "avg_permit_value": null,
     "permit_types": {
-      "Building Permit": 1917,
-      "Electrical Permit": 1845,
-      "Plumbing Permit": 701,
-      "Gas Fitting": 506,
+      "Building Permit": 1913,
+      "Electrical Permit": 1843,
+      "Plumbing Permit": 691,
+      "Gas Fitting": 504,
       "Food Establishment": 447,
       "Temporary Food": 259,
       "Dumpster": 243,
@@ -241,7 +241,7 @@
       "Block Party": 99
     },
     "datasets_count": 1,
-    "permits_per_capita_1k": 91.63
+    "permits_per_capita_1k": 91.41
   },
   "meetings": {
     "official_channels": 1,
@@ -627,8 +627,8 @@
         "authority": "City Open Data Portals (Socrata)",
         "authority_tier": 1,
         "api_url": "https://data.somervillema.gov/resource/nneb-s3f7.json",
-        "probed_at": "2026-10-02T18:23:15.469800",
-        "data_vintage": "Rolling 12-month window ending 2026-10-02",
+        "probed_at": "2026-10-03T00:45:24.463589",
+        "data_vintage": "Rolling 12-month window ending 2026-10-03",
         "geographic_level": "place",
         "status": "available",
         "dataset_name": "Applications for Permits and Licenses",
@@ -674,7 +674,7 @@
         "authority": "CDC PLACES (Centers for Disease Control and Prevention)",
         "authority_tier": 1,
         "api_url": "https://data.cdc.gov/resource/eav7-hnsx.json?locationname=Somerville",
-        "probed_at": "2026-10-02T18:24:47.132522",
+        "probed_at": "2026-10-03T00:48:13.699924",
         "data_vintage": "BRFSS 2023",
         "geographic_level": "place",
         "status": "available"
@@ -944,7 +944,7 @@
   "recent_meetings": [],
   "recent_legislation": [],
   "legistar_url": "https://somervillema.legistar.com",
-  "enriched_at": "2026-10-02T18:22:07.444588",
+  "enriched_at": "2026-10-03T00:43:48.992973",
   "government_news": [],
   "video_meetings": [],
   "data_platforms": [
